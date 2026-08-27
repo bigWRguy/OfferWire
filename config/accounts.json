@@ -1,0 +1,31 @@
+{
+  "_comment": "The account universe. These are the handles that must end up inside X Lists (see scripts/plan-lists.mjs, which shards this roster into paste-ready list rosters). School handles are read from config/fbs.tsv and do not need repeating here.",
+
+  "reporters": [
+    "Hayesfawcett3", "ChadSimmons_", "SWiltfong_", "adamgorney", "RivalsFriedman",
+    "GregSmithRivals", "BrianDohn247", "SamSpiegs", "On3Recruits", "On3sports",
+    "247Sports", "Rivals", "JohnGarcia_Jr", "CharlesPower_", "BlairAngulo",
+    "GerryHamilton", "KeithNiebuhr", "RyanWrightRNG", "TomLuginbill", "CraigHaubert",
+    "MikeFarrellSprt", "ChrisHummer247", "DerekJTyson", "AllenTrieu", "Clint_Cosgrove",
+    "JeremyO_Johnson", "SteveWiltfong", "adamfriedman", "Andrew_Ivins", "TrieuHoops",
+    "CoachKurtHines", "RustyMansell_", "JD_PickEm", "Bri_Owens_"
+  ],
+
+  "aggregators": [
+    "PrepRedzone", "NationalPrepFB", "TheCFBHome", "CFBRecruiting_", "SICFBRecruiting",
+    "RivalsCamp", "On3Camps", "UnderArmourFB", "AdidasFball", "TheOpening",
+    "AthleticNet_FB", "NextLevelAthlt", "PPIRecruits", "TheFootballOracle"
+  ],
+
+  "stateScouts": {
+    "_comment": "State/regional feeders. This is where a 2029 sophomore's first offer shows up days before any national account touches it — the whole 'ahead of the services' edge lives in this block. Extend it aggressively; the cost of one more handle in a List is zero.",
+    "handles": [
+      "PrepRedzoneTX", "PrepRedzoneGA", "PrepRedzoneFL", "PrepRedzoneCA", "PrepRedzoneOH",
+      "PrepRedzoneAL", "PrepRedzoneLA", "PrepRedzoneNC", "PrepRedzoneVA", "PrepRedzonePA",
+      "PrepRedzoneNJ", "PrepRedzoneMD", "PrepRedzoneTN", "PrepRedzoneSC", "PrepRedzoneMS",
+      "PrepRedzoneMI", "PrepRedzoneIL", "PrepRedzoneAZ", "PrepRedzoneWA", "PrepRedzoneMO"
+    ]
+  },
+
+  "_note_players": "Player accounts are NOT hand-listed. They are discovered by the mention graph in src/watchlist.js: any handle that appears inside a confirmed offer post and is not a known school/reporter becomes a watchlist candidate, is scored, and is surfaced by scripts/plan-lists.mjs for inclusion in the overflow Lists. That is how the system reaches players nobody has ranked yet."
+}

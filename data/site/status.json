@@ -1,0 +1,111 @@
+{
+  "generatedAt": "2026-08-27T16:42:03.471Z",
+  "runMs": 3145,
+  "searchCredentials": 1,
+  "searchConfigured": true,
+  "warmedUp": false,
+  "searchCoverage": null,
+  "backfill": null,
+  "staleSchools": [
+    {
+      "id": "air-force",
+      "hours": null
+    },
+    {
+      "id": "akron",
+      "hours": null
+    },
+    {
+      "id": "alabama",
+      "hours": null
+    },
+    {
+      "id": "appalachian-state",
+      "hours": null
+    },
+    {
+      "id": "arizona",
+      "hours": null
+    },
+    {
+      "id": "arizona-state",
+      "hours": null
+    },
+    {
+      "id": "arkansas",
+      "hours": null
+    },
+    {
+      "id": "arkansas-state",
+      "hours": null
+    },
+    {
+      "id": "army",
+      "hours": null
+    },
+    {
+      "id": "auburn",
+      "hours": null
+    },
+    {
+      "id": "ball-state",
+      "hours": null
+    },
+    {
+      "id": "baylor",
+      "hours": null
+    },
+    {
+      "id": "boise-state",
+      "hours": null
+    },
+    {
+      "id": "boston-college",
+      "hours": null
+    },
+    {
+      "id": "bowling-green",
+      "hours": null
+    },
+    {
+      "id": "buffalo",
+      "hours": null
+    },
+    {
+      "id": "byu",
+      "hours": null
+    },
+    {
+      "id": "california",
+      "hours": null
+    },
+    {
+      "id": "central-michigan",
+      "hours": null
+    },
+    {
+      "id": "charlotte",
+      "hours": null
+    }
+  ],
+  "llm": null,
+  "frozenProfiles": [],
+  "health": {},
+  "log": [
+    "OfferWire run @ 2026-08-27T16:42:00.326Z",
+    "collect:",
+    "  search: session s:f510ce open",
+    "  search: s:f510ce rate limited after 0 jobs",
+    "  search: swept 0/164 jobs, 0 posts, 1 failed",
+    "    ! alabama: rate limited",
+    "  search: rate limited with no budget left this window — nothing swept.",
+    "  search: this is normal once the pool is saturated; add sessions to raise throughput.",
+    "  profiles: 0 polled, 0 new posts",
+    "  total new posts: 0",
+    "extract:",
+    "  prefilter: 0 in -> 0 candidates (0 hard-negative, 0 no signal)",
+    "  llm: DISABLED (no ANTHROPIC_API_KEY) — running rules-only at reduced confidence",
+    "  offers: 0 accepted, 0 rejected, 0 brand new",
+    "  watchlist: 0 handles (0 promoted, 0 pruned)"
+  ]
+}

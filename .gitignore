@@ -1,0 +1,6 @@
+node_modules/
+.env
+# The ledger IS the database and is committed on purpose. Only the LLM response cache
+# and the raw post archive are excluded from review noise; raw/ is still committed by
+# the workflow because it is what makes backtesting possible.
+data/cache/

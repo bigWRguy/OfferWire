@@ -1,0 +1,38 @@
+{
+  "_comment": "X Lists are the backbone of collection. One public List = one HTTP request that returns ~68 recent posts across up to ~78 authors, live to the minute. Profile timelines cannot do this: they are per-account cached and some are frozen for months. Create these Lists on your X account, set each to PUBLIC, and paste the numeric id from the list URL (x.com/i/lists/<ID>) below. Run `npm run plan-lists` to print exactly which handles belong in each list.",
+
+  "_sharding_rule": "Each List returns only ~68 posts with no pagination, so a List must be small enough that 68 posts covers your poll interval. At a 10-minute cadence, keep each List to roughly 40-60 accounts and split the noisy ones (national aggregators) away from the quiet ones (state scouts) so a burst on one does not bury the other.",
+
+  "lists": [
+    {
+      "id": "",
+      "name": "ow-reporters",
+      "note": "National recruiting reporters + services. Highest precision, highest volume.",
+      "disabled": true
+    },
+    {
+      "id": "",
+      "name": "ow-schools-a",
+      "note": "FBS program accounts, first half (see plan-lists output).",
+      "disabled": true
+    },
+    {
+      "id": "",
+      "name": "ow-schools-b",
+      "note": "FBS program accounts, second half.",
+      "disabled": true
+    },
+    {
+      "id": "",
+      "name": "ow-state-scouts",
+      "note": "State/regional scouting accounts. Lower volume, earliest signal on unranked kids.",
+      "disabled": true
+    },
+    {
+      "id": "",
+      "name": "ow-players-1",
+      "note": "Promoted player accounts from data/watchlist.json. Re-run plan-lists periodically and top this up.",
+      "disabled": true
+    }
+  ]
+}

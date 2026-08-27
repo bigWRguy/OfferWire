@@ -1,0 +1,22 @@
+# Netlify serves the static site plus the JSON the wire commits. There is no build step
+# and no server: GitHub Actions produces data/site/*.json, Netlify publishes it. A push
+# from the wire is what triggers a redeploy, so the site is never more than one run
+# behind the ledger.
+[build]
+  publish = "site"
+  command = "node scripts/build-site.mjs"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# The wire data changes every 10 minutes; never let a CDN pin it.
+[[headers]]
+  for = "/*.json"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer"

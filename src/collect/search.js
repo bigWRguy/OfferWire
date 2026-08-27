@@ -1,0 +1,338 @@
+// ============================================================================
+// X SEARCH — the engine.
+//
+// Per-school targeted search, driven through a real browser.
+//
+// WHY A BROWSER. X gates SearchTimeline behind a per-request signed header
+// (`x-client-transaction-id`, computed in their JS from the page's
+// twitter-site-verification key plus the loading-x-anim SVG frames). Measured
+// 2026-08-27 on one session, same cookies, same minute:
+//
+//     UserTweets      -> 200, 218KB of posts
+//     SearchTimeline  -> 404, empty      (unsigned)
+//     SearchTimeline  -> 404, empty      (dummy signatures, several lengths)
+//
+// Rather than forge that signature, we run X's own client and let it sign its own
+// requests, then read the JSON off the wire. Same data, full fidelity, no
+// reimplementation of anything X protects — and nothing to repair when they rotate the
+// algorithm, because we never depended on it.
+//
+// Verified working: query "(@AlabamaFTBL OR \"Alabama\") (offer OR offered)
+// -filter:retweets" returned 20 posts including a 2028 RB's own announcement
+// ("#AGTG ... blessed to receive an offer from Unive[rsity of Alabama]") plus two
+// independent reporter posts on the same offer.
+//
+// COST. One browser process, reused across every query in a run. Navigation per query,
+// scroll for extra pages. Rate limits are X's usual ~50 SearchTimeline calls per
+// 15-minute window per account, which is what scripts/coverage.mjs plans against.
+// ============================================================================
+import { sleep } from '../lib/http.js';
+
+let _pw = null;
+async function playwright() {
+  if (!_pw) _pw = await import('playwright');
+  return _pw;
+}
+
+const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36';
+
+/** Credentials. Several sessions can be pooled to multiply the sweep budget. */
+export function loadCredentials() {
+  const creds = [];
+  if (process.env.X_SESSIONS) {
+    for (const pair of process.env.X_SESSIONS.split(',')) {
+      const [authToken, ct0] = pair.split(':').map((s) => s && s.trim());
+      if (authToken && ct0) creds.push({ authToken, ct0, id: `s:${authToken.slice(0, 6)}` });
+    }
+  }
+  if (process.env.X_AUTH_TOKEN && process.env.X_CT0) {
+    const id = `s:${process.env.X_AUTH_TOKEN.slice(0, 6)}`;
+    if (!creds.some((c) => c.id === id)) {
+      creds.push({ authToken: process.env.X_AUTH_TOKEN, ct0: process.env.X_CT0, id });
+    }
+  }
+  return creds;
+}
+
+export const configured = () => loadCredentials().length > 0;
+
+/** Structure-agnostic harvest; survives X reshaping the payload. */
+function harvest(node, out = [], seen = new Set()) {
+  if (!node || typeof node !== 'object') return out;
+  if (Array.isArray(node)) { for (const n of node) harvest(n, out, seen); return out; }
+  const legacy = node.legacy;
+  if (legacy && legacy.full_text && (node.rest_id || legacy.id_str)) {
+    const id = node.rest_id || legacy.id_str;
+    if (!seen.has(id)) {
+      seen.add(id);
+      const u = node.core?.user_results?.result || {};
+      const ul = u.legacy || {};
+      const uc = u.core || {};
+      const bio = u.profile_bio || {};
+      const t = new Date(legacy.created_at);
+      if (!Number.isNaN(t.getTime())) {
+        out.push({
+          id,
+          text: node.note_tweet?.note_tweet_results?.result?.text || legacy.full_text,
+          author: String(uc.screen_name || ul.screen_name || '').toLowerCase(),
+          authorName: uc.name || ul.name || '',
+          // The author's bio is gold for recruit identification — it routinely carries
+          // "C/O 2028 | WR | 6'2 185 | Some HS", which is class, position, size and
+          // school for free, straight off the offer post.
+          authorBio: (bio.description || ul.description || '').replace(/\s+/g, ' ').trim() || null,
+          authorLocation: (u.location?.location || ul.location || '') || null,
+          authorFollowers: ul.followers_count ?? null,
+          authorVerified: !!(u.is_blue_verified || ul.verified),
+          createdAt: t.toISOString(),
+          mentions: (legacy.entities?.user_mentions || []).map((m) => String(m.screen_name).toLowerCase()),
+          // X gives the DISPLAY NAME of every tagged account, not just the handle. When a
+          // reporter writes "2028 RB Jayshawn Mitchell (@JAYMITCH_1) picks up an offer",
+          // the recruit's real name is already in the payload — no name-guessing from
+          // prose required. This is what lets the wire work without an LLM.
+          mentioned: (legacy.entities?.user_mentions || []).map((m) => ({
+            handle: String(m.screen_name || '').toLowerCase(),
+            name: m.name || null,
+          })).filter((m) => m.handle),
+          hashtags: (legacy.entities?.hashtags || []).map((h) => h.text),
+          links: (legacy.entities?.urls || []).map((x) => x.expanded_url).filter(Boolean),
+          hasMedia: !!(legacy.extended_entities?.media?.length || legacy.entities?.media?.length),
+          isRetweet: /^RT @/.test(legacy.full_text),
+          source: 'x',
+        });
+      }
+    }
+  }
+  for (const v of Object.values(node)) harvest(v, out, seen);
+  return out;
+}
+
+/** A live browser session bound to one credential. */
+export class SearchSession {
+  constructor(cred, opts = {}) {
+    this.cred = cred;
+    this.headless = opts.headless !== false;
+    this.browser = null;
+    this.page = null;
+    this.captured = [];
+    this.rateLimited = false;
+    this.loggedOut = false;
+    this.requests = 0;
+  }
+
+  async open() {
+    const { chromium } = await playwright();
+    this.browser = await chromium.launch({
+      headless: this.headless,
+      args: ['--disable-blink-features=AutomationControlled', '--no-sandbox', '--disable-dev-shm-usage'],
+    });
+    const ctx = await this.browser.newContext({
+      userAgent: UA,
+      viewport: { width: 1280, height: 2400 },
+      locale: 'en-US',
+    });
+    await ctx.addCookies([
+      { name: 'auth_token', value: this.cred.authToken, domain: '.x.com', path: '/', httpOnly: true, secure: true },
+      { name: 'ct0', value: this.cred.ct0, domain: '.x.com', path: '/', secure: true },
+    ]);
+    // Images and media are the bulk of the bytes and none of the signal.
+    await ctx.route('**/*', (route) => {
+      const t = route.request().resourceType();
+      if (t === 'image' || t === 'media' || t === 'font') return route.abort();
+      return route.continue();
+    });
+
+    this.page = await ctx.newPage();
+    this.page.on('response', async (res) => {
+      if (!res.url().includes('SearchTimeline')) return;
+      if (res.status() === 429) { this.rateLimited = true; return; }
+      if (res.status() !== 200) return;
+      try { this.captured.push(await res.json()); } catch { /* body already consumed */ }
+    });
+    return this;
+  }
+
+  async close() { try { await this.browser?.close(); } catch {} }
+
+  /**
+   * Run one query. `scrolls` fetches additional pages — each scroll triggers another
+   * signed SearchTimeline call, so it costs budget like any other request.
+   */
+  async search(query, { scrolls = 0, settleMs = 7000 } = {}) {
+    if (!this.page) throw new Error('session not opened');
+    this.captured = [];
+
+    const url = 'https://x.com/search?q=' + encodeURIComponent(query) + '&f=live&src=typed_query';
+    try {
+      await this.page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 });
+    } catch (e) {
+      return { ok: false, posts: [], error: `navigation: ${e.message}` };
+    }
+    this.requests++;
+
+    // Wait for the timeline call rather than sleeping blindly, but keep a ceiling so a
+    // query with genuinely zero results doesn't stall the sweep.
+    try {
+      await this.page.waitForResponse((r) => r.url().includes('SearchTimeline'), { timeout: settleMs });
+    } catch { /* no results, or already captured before the waiter attached */ }
+    await this.page.waitForTimeout(1200);
+
+    if (this.page.url().includes('/login') || this.page.url().includes('/i/flow/login')) {
+      this.loggedOut = true;
+      return { ok: false, posts: [], error: 'session expired (redirected to login)' };
+    }
+    if (this.rateLimited) return { ok: false, posts: [], error: 'rate limited', rateLimited: true };
+
+    for (let i = 0; i < scrolls; i++) {
+      const before = this.captured.length;
+      await this.page.mouse.wheel(0, 4000);
+      this.requests++;
+      try {
+        await this.page.waitForResponse((r) => r.url().includes('SearchTimeline'), { timeout: 6000 });
+      } catch { break; }
+      await this.page.waitForTimeout(700);
+      if (this.captured.length === before) break; // no more pages
+      if (this.rateLimited) break;
+    }
+
+    const seen = new Set();
+    const posts = [];
+    for (const blob of this.captured) posts.push(...harvest(blob, [], seen));
+    return { ok: true, posts: posts.map((p) => ({ ...p, via: `search:${query.slice(0, 40)}` })) };
+  }
+}
+
+/** X search understands epoch-second bounds; this is what makes sweeps incremental. */
+const withSince = (query, sinceMs) => `${query} since_time:${Math.floor(sinceMs / 1000)}`;
+
+/**
+ * Sweep jobs oldest-watermark-first, spending until the request budget runs out.
+ *
+ * Jobs not reached this cycle keep their older watermark and go first next cycle with a
+ * correspondingly wider window, so COVERAGE IS COMPLETE at any budget — pool size and
+ * cadence buy latency, never completeness. A truncated job advances its watermark only
+ * as far as it actually read, never to "now".
+ *
+ * @param {Array}  jobs  [{ key, query, priority }]
+ * @param {object} state persisted state (watermarks live here)
+ */
+export async function sweep(jobs, state, {
+  budgetPerCred = Number(process.env.OFFERWIRE_REQUESTS_PER_CRED || 30),
+  scrolls = Number(process.env.OFFERWIRE_SCROLLS || 1),
+  headless = true,
+  log = () => {},
+} = {}) {
+  const creds = loadCredentials();
+  if (!creds.length) return { ok: false, reason: 'no-credentials', posts: [], swept: 0, jobs: jobs.length };
+
+  const marks = (state.watermarks ||= {});
+  const now = Date.now();
+  const byAge = (a, b) => {
+    const am = marks[a.key]?.at ? new Date(marks[a.key].at).getTime() : 0;
+    const bm = marks[b.key]?.at ? new Date(marks[b.key].at).getTime() : 0;
+    if (am !== bm) return am - bm;
+    return (b.priority || 0) - (a.priority || 0);
+  };
+  const live = jobs.filter((j) => !j.fixedWindow).sort(byAge);
+  const history = jobs.filter((j) => j.fixedWindow).sort(byAge);
+  const ordered = [];
+  const backfillShare = Math.min(0.8, Math.max(0.1, Number(process.env.OFFERWIRE_BACKFILL_SHARE || 0.5)));
+  if (!history.length) ordered.push(...live);
+  else {
+    // Interleave instead of letting thousands of never-run historical slices starve
+    // the live feed. At the default 50/50 share, every other request builds backlog.
+    let li = 0, hi = 0, credit = 0;
+    while (li < live.length || hi < history.length) {
+      credit += backfillShare;
+      if (hi < history.length && (credit >= 1 || li >= live.length)) {
+        ordered.push(history[hi++]);
+        credit -= 1;
+      } else if (li < live.length) ordered.push(live[li++]);
+      else ordered.push(history[hi++]);
+    }
+  }
+
+  const all = [];
+  const errors = [];
+  let swept = 0, failed = 0, cursor = 0, requests = 0;
+
+  for (const cred of creds) {
+    if (cursor >= ordered.length) break;
+    const session = new SearchSession(cred, { headless });
+    try {
+      await session.open();
+      log(`  search: session ${cred.id} open`);
+      let spent = 0;
+
+      while (cursor < ordered.length && spent < budgetPerCred) {
+        const job = ordered[cursor];
+        const since = marks[job.key]?.at;
+        const sinceMs = since ? new Date(since).getTime() : now - 12 * 3600e3; // cold start: 12h
+        const query = job.fixedWindow ? job.query : withSince(job.query, sinceMs);
+        const res = await session.search(query, { scrolls });
+        spent = session.requests;
+        cursor++;
+
+        if (!res.ok) {
+          failed++;
+          if (errors.length < 8) errors.push(`${job.key}: ${res.error}`);
+          if (res.rateLimited) { log(`  search: ${cred.id} rate limited after ${swept} jobs`); break; }
+          if (session.loggedOut) { log(`  search: ${cred.id} SESSION EXPIRED — refresh its cookies`); break; }
+          continue;
+        }
+
+        all.push(...res.posts);
+        swept++;
+
+        const m = (marks[job.key] ||= {});
+        if (job.fixedWindow) {
+          m.at = new Date(now).toISOString();
+          m.completed = true;
+          m.lastPosts = res.posts.length;
+          m.truncated = res.posts.length >= 18 * (1 + scrolls);
+          await sleep(900 + Math.random() * 900);
+          continue;
+        }
+        // A full page of results means there may be more we did not read; only advance
+        // to the oldest post actually seen. Otherwise the window is genuinely covered.
+        const truncated = res.posts.length >= 18 * (1 + scrolls);
+        if (truncated && res.posts.length) {
+          const oldest = Math.min(...res.posts.map((p) => new Date(p.createdAt).getTime()));
+          m.at = new Date(Math.max(sinceMs, oldest)).toISOString();
+          m.truncated = true;
+        } else {
+          m.at = new Date(now).toISOString();
+          m.truncated = false;
+        }
+        m.lastPosts = res.posts.length;
+
+        await sleep(900 + Math.random() * 900); // human-ish pacing
+      }
+    } catch (e) {
+      errors.push(`session ${cred.id}: ${e.message}`);
+    } finally {
+      requests += session.requests;
+      await session.close();
+    }
+  }
+
+  log(`  search: swept ${swept}/${jobs.length} jobs, ${all.length} posts, ${failed} failed`);
+  for (const e of errors) log(`    ! ${e}`);
+
+  const ok = swept > 0 || jobs.length === 0;
+  // Being rate limited is NORMAL — it is what a fully-spent budget looks like, and it
+  // happens on every run once the pool is saturated. It must not be reported the same
+  // way as a broken engine, or the scheduler cries wolf on healthy runs and the real
+  // failure (expired cookies) gets lost in the noise.
+  const rateLimited = errors.some((e) => /rate limited/i.test(e));
+  const expired = errors.some((e) => /session expired/i.test(e));
+  return {
+    ok,
+    // `transient` says: nothing is wrong with the setup, we simply ran out of budget.
+    transient: !ok && rateLimited && !expired,
+    rateLimited,
+    expired,
+    reason: ok ? null : (errors[0] || 'all search jobs failed'),
+    posts: all, swept, jobs: jobs.length, failed, errors, requests,
+    coverageCycles: Math.max(1, Math.ceil(jobs.length / Math.max(1, swept))),
+  };
+}

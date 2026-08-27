@@ -1,0 +1,25 @@
+{
+  "name": "offerwire",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "College football FBS offer wire, sourced entirely from X.",
+  "scripts": {
+    "wire": "node src/pipeline.js",
+    "health": "node scripts/health.mjs",
+    "coverage": "node scripts/coverage.mjs",
+    "selftest": "node scripts/selftest.mjs",
+    "fixture": "node scripts/fixture-run.mjs",
+    "test": "node scripts/selftest.mjs && node scripts/fixture-run.mjs",
+    "plan-lists": "node scripts/plan-lists.mjs",
+    "postinstall": "playwright install chromium || true"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.71.0",
+    "zod": "^3.25.76",
+    "playwright": "^1.62.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

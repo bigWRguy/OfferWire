@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Offer Wire</title>
+<style>
+  :root { --bg:#0e1013; --fg:#e8e6e3; --dim:#8b9199; --line:#23272e; --hot:#e8b339; --ok:#4ea15f; }
+  * { box-sizing:border-box }
+  body { margin:0; background:var(--bg); color:var(--fg); font:14px/1.45 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace }
+  header { padding:14px 16px; border-bottom:1px solid var(--line); display:flex; gap:16px; flex-wrap:wrap; align-items:baseline }
+  h1 { font-size:15px; margin:0; letter-spacing:.08em; text-transform:uppercase }
+  .meta { color:var(--dim); font-size:12px }
+  .controls { padding:10px 16px; border-bottom:1px solid var(--line); display:flex; gap:8px; flex-wrap:wrap }
+  input, select { background:#15181d; color:var(--fg); border:1px solid var(--line); padding:6px 8px; font:inherit; border-radius:3px }
+  table { width:100%; border-collapse:collapse }
+  th { text-align:left; font-weight:normal; color:var(--dim); font-size:11px; text-transform:uppercase; letter-spacing:.06em; padding:8px 10px; border-bottom:1px solid var(--line); position:sticky; top:0; background:var(--bg) }
+  td { padding:8px 10px; border-bottom:1px solid var(--line); vertical-align:top }
+  tr:hover td { background:#14171c }
+  a { color:inherit }
+  .new { color:var(--hot) }
+  .corr { color:var(--ok) }
+  .conf { color:var(--dim) }
+  .src { font-size:11px; color:var(--dim) }
+  .wrap { overflow-x:auto }
+  #empty { padding:40px 16px; color:var(--dim) }
+</style>
+</head>
+<body>
+<header>
+  <h1>Offer Wire</h1>
+  <span class="meta" id="meta">loading…</span>
+</header>
+<div class="controls">
+  <input id="q" placeholder="filter player / school / handle" size="34">
+  <select id="cls"><option value="">all classes</option></select>
+  <select id="conf"><option value="">all conferences</option></select>
+  <select id="minc"><option value="0">any confidence</option><option value="0.6">0.60+</option><option value="0.8">0.80+</option><option value="0.9">0.90+</option></select>
+  <label class="meta"><input type="checkbox" id="corrOnly"> corroborated only</label>
+</div>
+<div class="wrap"><table>
+  <thead><tr><th>when</th><th>player</th><th>cls</th><th>pos</th><th>school</th><th>conf</th><th>src</th><th>evidence</th></tr></thead>
+  <tbody id="rows"></tbody>
+</table></div>
+<div id="empty" hidden>No offers yet. If this persists, the wire has not run or its Lists are not configured — check status.json.</div>
+
+<script>
+const ago = (iso) => {
+  if (!iso) return '—';
+  const m = (Date.now() - new Date(iso)) / 60000;
+  if (m < 60) return Math.max(0, Math.round(m)) + 'm';
+  if (m < 1440) return Math.round(m / 60) + 'h';
+  return Math.round(m / 1440) + 'd';
+};
+let DATA = [];
+
+function render() {
+  const q = document.getElementById('q').value.toLowerCase().trim();
+  const cls = document.getElementById('cls').value;
+  const cf = document.getElementById('conf').value;
+  const minc = parseFloat(document.getElementById('minc').value) || 0;
+  const corrOnly = document.getElementById('corrOnly').checked;
+
+  const rows = DATA.filter(o => {
+    if (cls && String(o.classYear ?? '') !== cls) return false;
+    if (cf && o.conference !== cf) return false;
+    if ((o.confidence ?? 0) < minc) return false;
+    if (corrOnly && (o.corroborations ?? 1) < 2) return false;
+    if (q) {
+      const hay = [o.playerName, o.schoolName, o.position, ...(o.evidence || []).map(e => e.author)].join(' ').toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+
+  document.getElementById('empty').hidden = rows.length > 0;
+  document.getElementById('rows').innerHTML = rows.slice(0, 800).map(o => {
+    const ev = (o.evidence || [])[0];
+    const more = (o.evidence || []).length;
+    return `<tr>
+      <td title="${o.offeredAt}">${ago(o.offeredAt)}</td>
+      <td>${esc(o.playerName || '(unnamed)')}</td>
+      <td>${o.classYear ?? ''}</td>
+      <td>${esc(o.position || '')}</td>
+      <td>${esc(o.schoolName)}</td>
+      <td class="${(o.corroborations ?? 1) > 1 ? 'corr' : 'conf'}">${(o.confidence ?? 0).toFixed(2)}${(o.corroborations ?? 1) > 1 ? ' ×' + o.corroborations : ''}</td>
+      <td class="src">${esc(ev ? '@' + ev.author : '')}</td>
+      <td class="src">${ev ? `<a href="${esc(ev.url)}" target="_blank" rel="noopener">post</a>` : ''}${more > 1 ? ` +${more - 1}` : ''}</td>
+    </tr>`;
+  }).join('');
+}
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+fetch('wire.json?t=' + Date.now()).then(r => r.json()).then(d => {
+  DATA = d.offers || [];
+  const c = d.counts || {};
+  document.getElementById('meta').textContent =
+    `${c.offers ?? DATA.length} offers · ${c.players ?? '?'} players · +${c.newThisRun ?? 0} this run · updated ${ago(d.generatedAt)} ago`;
+  const fill = (id, vals) => {
+    const el = document.getElementById(id);
+    [...new Set(vals.filter(v => v !== null && v !== undefined && v !== ''))].sort()
+      .forEach(v => el.insertAdjacentHTML('beforeend', `<option>${esc(v)}</option>`));
+  };
+  fill('cls', DATA.map(o => o.classYear));
+  fill('conf', DATA.map(o => o.conference));
+  render();
+}).catch(e => { document.getElementById('meta').textContent = 'failed to load wire.json'; });
+
+['q','cls','conf','minc','corrOnly'].forEach(id =>
+  document.getElementById(id).addEventListener('input', render));
+setInterval(() => location.reload(), 5 * 60 * 1000);
+</script>
+</body>
+</html>
