@@ -1,11 +1,23 @@
 {
-  "generatedAt": "2026-08-27T16:42:03.471Z",
-  "runMs": 3145,
+  "generatedAt": "2026-08-27T17:06:43.078Z",
+  "runMs": 124363,
   "searchCredentials": 1,
   "searchConfigured": true,
   "warmedUp": false,
-  "searchCoverage": null,
-  "backfill": null,
+  "searchCoverage": {
+    "at": "2026-08-27T17:06:42.838Z",
+    "jobsTotal": 4244,
+    "sweptThisRun": 15,
+    "requests": 30,
+    "fullSweepCycles": 283
+  },
+  "backfill": {
+    "at": "2026-08-27T17:06:42.841Z",
+    "days": 30,
+    "totalTeamDays": 4080,
+    "completedTeamDays": 7,
+    "remainingTeamDays": 4073
+  },
   "staleSchools": [
     {
       "id": "air-force",
@@ -13,10 +25,6 @@
     },
     {
       "id": "akron",
-      "hours": null
-    },
-    {
-      "id": "alabama",
       "hours": null
     },
     {
@@ -32,19 +40,11 @@
       "hours": null
     },
     {
-      "id": "arkansas",
-      "hours": null
-    },
-    {
       "id": "arkansas-state",
       "hours": null
     },
     {
       "id": "army",
-      "hours": null
-    },
-    {
-      "id": "auburn",
       "hours": null
     },
     {
@@ -86,26 +86,45 @@
     {
       "id": "charlotte",
       "hours": null
+    },
+    {
+      "id": "cincinnati",
+      "hours": null
+    },
+    {
+      "id": "clemson",
+      "hours": null
+    },
+    {
+      "id": "coastal-carolina",
+      "hours": null
     }
   ],
   "llm": null,
   "frozenProfiles": [],
-  "health": {},
+  "health": {
+    "search": {
+      "at": "2026-08-27T17:06:42.838Z",
+      "got": 340,
+      "new": 311,
+      "lag": 0.03
+    }
+  },
   "log": [
-    "OfferWire run @ 2026-08-27T16:42:00.326Z",
+    "OfferWire run @ 2026-08-27T17:04:38.715Z",
     "collect:",
+    "  backfill: 4080/4080 team-days remaining",
     "  search: session s:f510ce open",
-    "  search: s:f510ce rate limited after 0 jobs",
-    "  search: swept 0/164 jobs, 0 posts, 1 failed",
-    "    ! alabama: rate limited",
-    "  search: rate limited with no budget left this window — nothing swept.",
-    "  search: this is normal once the pool is saturated; add sessions to raise throughput.",
+    "  search: swept 15/4244 jobs, 340 posts, 0 failed",
+    "  search: 311 new posts kept (of 340 returned)",
+    "  backfill: 7/4080 team-days complete",
+    "  search: 130 schools not swept in >2h (oldest Infinityh: air-force, akron, appalachian-state, arizona, arizona-state)",
     "  profiles: 0 polled, 0 new posts",
-    "  total new posts: 0",
+    "  total new posts: 311",
     "extract:",
-    "  prefilter: 0 in -> 0 candidates (0 hard-negative, 0 no signal)",
+    "  prefilter: 311 in -> 229 candidates (11 hard-negative, 71 no signal)",
     "  llm: DISABLED (no ANTHROPIC_API_KEY) — running rules-only at reduced confidence",
-    "  offers: 0 accepted, 0 rejected, 0 brand new",
-    "  watchlist: 0 handles (0 promoted, 0 pruned)"
+    "  offers: 54 accepted, 0 rejected, 51 brand new",
+    "  watchlist: 102 handles (47 promoted, 0 pruned)"
   ]
 }
