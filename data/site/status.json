@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-27T17:06:43.078Z",
-  "runMs": 124363,
+  "generatedAt": "2026-08-28T01:28:36.548Z",
+  "runMs": 115561,
   "searchCredentials": 1,
   "searchConfigured": true,
-  "warmedUp": false,
+  "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-08-27T17:06:42.838Z",
+    "at": "2026-08-28T01:28:36.301Z",
     "jobsTotal": 4244,
     "sweptThisRun": 15,
     "requests": 30,
     "fullSweepCycles": 283
   },
   "backfill": {
-    "at": "2026-08-27T17:06:42.841Z",
+    "at": "2026-08-28T01:28:36.303Z",
     "days": 30,
     "totalTeamDays": 4080,
     "completedTeamDays": 7,
@@ -104,27 +104,27 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-08-27T17:06:42.838Z",
-      "got": 340,
-      "new": 311,
-      "lag": 0.03
+      "at": "2026-08-28T01:28:36.301Z",
+      "got": 307,
+      "new": 218,
+      "lag": 0.04
     }
   },
   "log": [
-    "OfferWire run @ 2026-08-27T17:04:38.715Z",
+    "OfferWire run @ 2026-08-28T01:26:40.987Z",
     "collect:",
     "  backfill: 4080/4080 team-days remaining",
     "  search: session s:f510ce open",
-    "  search: swept 15/4244 jobs, 340 posts, 0 failed",
-    "  search: 311 new posts kept (of 340 returned)",
+    "  search: swept 15/4244 jobs, 307 posts, 0 failed",
+    "  search: 218 new posts kept (of 307 returned)",
     "  backfill: 7/4080 team-days complete",
-    "  search: 130 schools not swept in >2h (oldest Infinityh: air-force, akron, appalachian-state, arizona, arizona-state)",
+    "  search: 129 schools not swept in >2h (oldest Infinityh: air-force, akron, appalachian-state, arizona, arizona-state)",
     "  profiles: 0 polled, 0 new posts",
-    "  total new posts: 311",
+    "  total new posts: 218",
     "extract:",
-    "  prefilter: 311 in -> 229 candidates (11 hard-negative, 71 no signal)",
+    "  prefilter: 218 in -> 138 candidates (6 hard-negative, 74 no signal)",
     "  llm: DISABLED (no ANTHROPIC_API_KEY) — running rules-only at reduced confidence",
-    "  offers: 54 accepted, 0 rejected, 51 brand new",
-    "  watchlist: 102 handles (47 promoted, 0 pruned)"
+    "  offers: 27 accepted, 0 rejected, 27 brand new",
+    "  watchlist: 140 handles (26 promoted, 0 pruned)"
   ]
 }
