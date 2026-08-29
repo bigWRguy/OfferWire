@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-08-28T23:02:51.780Z",
-  "runMs": 130334,
+  "generatedAt": "2026-08-29T04:05:12.806Z",
+  "runMs": 127372,
   "searchCredentials": 1,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-08-28T23:02:51.545Z",
-    "jobsTotal": 4230,
+    "at": "2026-08-29T04:05:12.669Z",
+    "jobsTotal": 4244,
     "sweptThisRun": 15,
     "requests": 30,
-    "fullSweepCycles": 282
+    "fullSweepCycles": 283
   },
   "backfill": {
-    "at": "2026-08-28T23:02:51.548Z",
+    "at": "2026-08-29T04:05:12.672Z",
     "days": 30,
     "totalTeamDays": 4080,
-    "completedTeamDays": 21,
-    "remainingTeamDays": 4059
+    "completedTeamDays": 7,
+    "remainingTeamDays": 4073
   },
   "staleSchools": [
     {
@@ -104,27 +104,27 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-08-28T23:02:51.544Z",
-      "got": 238,
-      "new": 216,
-      "lag": 0.05
+      "at": "2026-08-29T04:05:12.669Z",
+      "got": 212,
+      "new": 114,
+      "lag": 0.04
     }
   },
   "log": [
-    "OfferWire run @ 2026-08-28T23:00:41.446Z",
+    "OfferWire run @ 2026-08-29T04:03:05.434Z",
     "collect:",
-    "  backfill: 4066/4080 team-days remaining",
+    "  backfill: 4080/4080 team-days remaining",
     "  search: session s:f510ce open",
-    "  search: swept 15/4230 jobs, 238 posts, 0 failed",
-    "  search: 216 new posts kept (of 238 returned)",
-    "  backfill: 21/4080 team-days complete",
-    "  search: 129 schools not swept in >2h (oldest Infinityh: air-force, akron, appalachian-state, arizona, arizona-state)",
+    "  search: swept 15/4244 jobs, 212 posts, 0 failed",
+    "  search: 114 new posts kept (of 212 returned)",
+    "  backfill: 7/4080 team-days complete",
+    "  search: 134 schools not swept in >2h (oldest Infinityh: air-force, akron, appalachian-state, arizona, arizona-state)",
     "  profiles: 0 polled, 0 new posts",
-    "  total new posts: 216",
+    "  total new posts: 114",
     "extract:",
-    "  prefilter: 216 in -> 141 candidates (5 hard-negative, 70 no signal)",
+    "  prefilter: 114 in -> 48 candidates (0 hard-negative, 66 no signal)",
     "  llm: DISABLED (no ANTHROPIC_API_KEY) — running rules-only at reduced confidence",
-    "  offers: 23 accepted, 0 rejected, 23 brand new",
-    "  watchlist: 212 handles (20 promoted, 0 pruned)"
+    "  offers: 28 accepted, 0 rejected, 27 brand new",
+    "  watchlist: 264 handles (27 promoted, 0 pruned)"
   ]
 }
