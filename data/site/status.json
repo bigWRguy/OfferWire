@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-08-29T11:02:35.405Z",
-  "runMs": 138502,
+  "generatedAt": "2026-08-29T15:34:30.913Z",
+  "runMs": 145615,
   "searchCredentials": 1,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-08-29T11:02:35.247Z",
-    "jobsTotal": 4237,
+    "at": "2026-08-29T15:34:30.671Z",
+    "jobsTotal": 4230,
     "sweptThisRun": 15,
     "requests": 30,
-    "fullSweepCycles": 283
+    "fullSweepCycles": 282
   },
   "backfill": {
-    "at": "2026-08-29T11:02:35.250Z",
+    "at": "2026-08-29T15:34:30.675Z",
     "days": 30,
     "totalTeamDays": 4080,
-    "completedTeamDays": 14,
-    "remainingTeamDays": 4066
+    "completedTeamDays": 21,
+    "remainingTeamDays": 4059
   },
   "staleSchools": [
     {
@@ -32,14 +32,6 @@
       "hours": null
     },
     {
-      "id": "arizona",
-      "hours": null
-    },
-    {
-      "id": "arizona-state",
-      "hours": null
-    },
-    {
       "id": "arkansas-state",
       "hours": null
     },
@@ -52,15 +44,7 @@
       "hours": null
     },
     {
-      "id": "baylor",
-      "hours": null
-    },
-    {
       "id": "boise-state",
-      "hours": null
-    },
-    {
-      "id": "boston-college",
       "hours": null
     },
     {
@@ -69,14 +53,6 @@
     },
     {
       "id": "buffalo",
-      "hours": null
-    },
-    {
-      "id": "byu",
-      "hours": null
-    },
-    {
-      "id": "california",
       "hours": null
     },
     {
@@ -98,33 +74,57 @@
     {
       "id": "coastal-carolina",
       "hours": null
+    },
+    {
+      "id": "colorado",
+      "hours": null
+    },
+    {
+      "id": "colorado-state",
+      "hours": null
+    },
+    {
+      "id": "delaware",
+      "hours": null
+    },
+    {
+      "id": "duke",
+      "hours": null
+    },
+    {
+      "id": "east-carolina",
+      "hours": null
+    },
+    {
+      "id": "eastern-michigan",
+      "hours": null
     }
   ],
   "llm": null,
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-08-29T11:02:35.247Z",
-      "got": 162,
-      "new": 115,
-      "lag": 5.66
+      "at": "2026-08-29T15:34:30.671Z",
+      "got": 175,
+      "new": 134,
+      "lag": 0.12
     }
   },
   "log": [
-    "OfferWire run @ 2026-08-29T11:00:16.903Z",
+    "OfferWire run @ 2026-08-29T15:32:05.298Z",
     "collect:",
-    "  backfill: 4073/4080 team-days remaining",
+    "  backfill: 4066/4080 team-days remaining",
     "  search: session s:f510ce open",
-    "  search: swept 15/4237 jobs, 162 posts, 0 failed",
-    "  search: 115 new posts kept (of 162 returned)",
-    "  backfill: 14/4080 team-days complete",
-    "  search: 136 schools not swept in >2h (oldest Infinityh: air-force, akron, appalachian-state, arizona, arizona-state)",
+    "  search: swept 15/4230 jobs, 175 posts, 0 failed",
+    "  search: 134 new posts kept (of 175 returned)",
+    "  backfill: 21/4080 team-days complete",
+    "  search: 131 schools not swept in >2h (oldest Infinityh: air-force, akron, appalachian-state, arkansas-state, army)",
     "  profiles: 0 polled, 0 new posts",
-    "  total new posts: 115",
+    "  total new posts: 134",
     "extract:",
-    "  prefilter: 115 in -> 67 candidates (7 hard-negative, 41 no signal)",
+    "  prefilter: 134 in -> 88 candidates (5 hard-negative, 41 no signal)",
     "  llm: DISABLED (no ANTHROPIC_API_KEY) — running rules-only at reduced confidence",
-    "  offers: 13 accepted, 0 rejected, 13 brand new",
-    "  watchlist: 283 handles (10 promoted, 0 pruned)"
+    "  offers: 14 accepted, 0 rejected, 14 brand new",
+    "  watchlist: 294 handles (11 promoted, 0 pruned)"
   ]
 }
