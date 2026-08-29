@@ -15,6 +15,20 @@ Compute is GitHub Actions. The database is this repo — each run commits `data/
 `git log data/offers.json` is a permanent record of when every offer was first seen and
 from which post. Netlify serves `site/` as a static drop-in.
 
+## Deployment (how the site goes live)
+
+The live site **is not** automatically refreshed from git until one of these is done
+(only the site owner can do it):
+
+1. **Add Netlify deploy secrets** to this repo: `NETLIFY_AUTH_TOKEN` (a Netlify personal
+   access token) and `NETLIFY_SITE_ID`. The `wire` and `backfill` workflows then run
+   `netlify-cli deploy` against `site/` after every successful run.
+2. **Or link the repository in Netlify** (Site → Build & deploy): publish dir `site`,
+   build command `node scripts/build-status.mjs && node scripts/build-site.mjs`
+   (already set in `netlify.toml`).
+
+Until either is done the site will keep showing whatever was last dragged into Netlify.
+
 Verified live on 2026-08-27: a single sweep surfaced a 2028 RB's own announcement
 (`@jaymitch_1`, "#AGTG … blessed to receive an offer from Unive[rsity of Alabama]"),
 corroborated within the same sweep by two independent reporters.
