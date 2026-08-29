@@ -1,0 +1,16 @@
+# Everything in this repo is text and is checked in as LF. Git on Windows has
+# core.autocrlf=true by default, which silently rewrote working copies to CRLF and
+# made every diff look like the whole file changed. These rules pin the canonical
+# line ending per type so the wire's commits (and human review) stay clean.
+* text=auto
+*.js      text eol=lf
+*.mjs     text eol=lf
+*.json    text eol=lf
+*.ndjson  text eol=lf
+*.md      text eol=lf
+*.yml     text eol=lf
+*.yaml    text eol=lf
+*.toml    text eol=lf
+*.tsv     text eol=lf
+*.html    text eol=lf
+*.css     text eol=lf

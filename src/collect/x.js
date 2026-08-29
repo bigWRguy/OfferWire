@@ -1,27 +1,22 @@
 // ============================================================================
-// X reader. This is the ONLY data source in the system.
+// X reader — the SECONDARY sources. `src/collect/search.js` (browser-driven per-school
+// search) is the engine and primary source; this file predates that pivot and is now a
+// supplement, not a replacement for it. Both readers stay in use:
 //
-// What was measured (2026-08-27), because the design falls out of it entirely:
-//
-//   * There is no free X API that can do this job. The read tier is $200/mo.
-//   * Nitter is gone. Every public instance is 410/403/whitelist-gated. That means
-//     X SEARCH is not available to us at any price we're paying. We cannot query
-//     "blessed to receive an offer" globally. Coverage has to come from WHO we watch.
 //   * cdn.syndication.twimg.com (the backend X serves to embedded widgets) is open,
 //     unauthenticated, and returns real post JSON. Two routes work:
 //
 //       srv/timeline-profile/screen-name/<handle>   ~20 posts, ONE author
 //       srv/timeline-list/list-id/<id>              ~68 posts, up to ~78 authors
 //
+//   * A List is nearly free (no search budget spent) and gives cheap corroboration of
+//     what the search sweep already found, across ~78 authors in one request.
 //   * The profile route is per-account cached and the cache is NOT bustable. Measured:
 //     @TexasFootball fresh to the minute, @OhioStateFB 11 days stale,
 //     @Hayesfawcett3 TEN MONTHS stale (frozen at 2025-10-26) — identical for
-//     ?showReplies, ?lang, cache-buster params and no-cache headers.
-//   * The list route was live to the second across all 78 authors in it.
-//
-// Therefore: LISTS ARE THE BACKBONE. Profiles are opportunistic backfill only, and
-// every profile is scored on measured freshness lag so we never mistake a frozen
-// widget for a quiet account.
+//     ?showReplies, ?lang, cache-buster params and no-cache headers. Profiles are
+//     opportunistic backfill only, scored on measured freshness lag so a frozen widget
+//     is never mistaken for a quiet account (see `frozenProfiles` in pipeline.js).
 // ============================================================================
 import { get } from '../lib/http.js';
 

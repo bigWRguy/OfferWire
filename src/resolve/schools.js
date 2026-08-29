@@ -119,7 +119,35 @@ export function findSchools(text) {
   // A school-named CITY immediately followed by a state is a hometown too:
   //   "a kid out of Houston, Texas" names neither Houston nor Texas as a program.
   const CITY_THEN_STATE = new RegExp("\\b(Houston|Miami|Buffalo|Cincinnati|Memphis|Charlotte|Toledo|Akron|Tulsa|Auburn|Boise|Fresno|Reno|Baylor|Rice|Temple|Troy|Duke|Rutgers|Syracuse)\\s*,\\s*(?:Alabama|Arizona|Arkansas|California|Colorado|Florida|Georgia|Idaho|Illinois|Indiana|Iowa|Kansas|Kentucky|Louisiana|Maryland|Massachusetts|Michigan|Minnesota|Mississippi|Missouri|Nebraska|Nevada|New York|North Carolina|Ohio|Oklahoma|Oregon|Pennsylvania|South Carolina|Tennessee|Texas|Utah|Virginia|Washington|Wisconsin|[A-Z]{2}\\b)", 'gi');
-  const deLocated = (raw || '').replace(CITY_THEN_STATE, ' ').replace(STATE_NAMES, (m, pre) => pre + ' ');
+  // "Central Arkansas", "Northern Colorado", "Southeastern Louisiana" — a directional
+  // prefix in front of a bare state name is an FCS/D2 program that happens to share the
+  // state's name, not the FBS school. Real live failure: "offered by Nathan Brown and
+  // Central Arkansas" filed as a Razorbacks (Arkansas) offer. FBS names that legitimately
+  // start this way ("North Texas", "South Carolina", "West Virginia"...) are matched at
+  // full length earlier in FORM_LIST and are gone from `hay` by the time this would fire,
+  // so stripping the bare tail here cannot cost them.
+  const REGIONAL_STATE = new RegExp("\\b(?:Central|Northern|Southern|Eastern|Western|Northeastern|Northwestern|Southeastern|Southwestern)\\s+(Alabama|Arizona|Arkansas|California|Colorado|Connecticut|Florida|Georgia|Idaho|Illinois|Indiana|Iowa|Kansas|Kentucky|Louisiana|Maryland|Massachusetts|Michigan|Minnesota|Mississippi|Missouri|Nebraska|Nevada|Ohio|Oklahoma|Oregon|Pennsylvania|Tennessee|Texas|Utah|Virginia|Washington|Wisconsin|Wyoming)\\b", 'gi');
+  // "Alabama State University" is FCS/SWAC, not the FBS "Alabama" (Crimson Tide) — there
+  // is no FBS "Alabama State" to consume the phrase first, so the bare state name was
+  // left exposed underneath it. Live failure: a girls'-basketball offer from Alabama
+  // State filed as a Crimson Tide football offer. Only strip "<state> State [University]"
+  // for states whose "State" school is NOT itself in the FBS roster — Arizona State, Ohio
+  // State etc. already match their own full-length form earlier and must reach it intact.
+  const FBS_STATE_NAMES = new Set(SCHOOLS.filter((s) => /\bState\b/.test(s.name)).map((s) => s.name.replace(/\s+State\b.*/, '')));
+  const NON_FBS_STATE_SCHOOLS = ['Alabama', 'Alaska', 'Delaware', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Maine', 'Minnesota', 'Montana', 'Nevada', 'New York', 'North Dakota', 'Norfolk', 'South Dakota', 'Tennessee', 'Wisconsin']
+    .filter((n) => !FBS_STATE_NAMES.has(n));
+  const STATE_UNIV = new RegExp(`\\b(${NON_FBS_STATE_SCHOOLS.join('|')})\\s+State(?:\\s+University)?\\b`, 'gi');
+  // "University of Alabama - Huntsville" / "University of Alabama at Birmingham" are
+  // separate D2/non-FBS branch campuses, not the FBS flagship. Live failure: an
+  // Alabama-Huntsville women's-basketball offer filed as a Crimson Tide football offer.
+  // Strip the branch-campus tail so the bare "university of X" form cannot fire on it.
+  const BRANCH_CAMPUS = /\b(university\s+of\s+\w+)\s*[-–—]\s*\w+|\b(university\s+of\s+\w+)\s+at\s+\w+/gi;
+  const NON_FBS_SUFFIX = /\b(Alabama|Arizona|Arkansas|California|Colorado|Florida|Georgia|Illinois|Indiana|Iowa|Kansas|Kentucky|Louisiana|Maryland|Michigan|Minnesota|Mississippi|Missouri|Nebraska|Nevada|Ohio|Oklahoma|Oregon|Tennessee|Texas|Utah|Virginia|Washington|West Virginia|Wisconsin)\s+(?:Tech|Baptist|Wesleyan|Christian|College)\b/gi;
+  const NON_FBS_PREFIX = /\b(?:North|South|East|West|Central|Northern|Southern|Eastern|Western)\s+(Alabama|Arizona|Arkansas|California|Colorado|Florida|Georgia|Illinois|Indiana|Iowa|Kansas|Kentucky|Louisiana|Michigan|Mississippi|Missouri|Nebraska|Ohio|Oklahoma|Oregon|Texas|Virginia|Washington)(?:\s+University)?\b/gi;
+  const NON_FBS_STATE = /\b(?:Alabama|Delaware|Idaho|Illinois|Indiana|Montana|South Carolina|Tennessee)\s+State(?:\s+University)?\b/gi;
+  const NAMED_BRANCH = /\bArkansas\s+State\s+University\s+Mid[- ]South\b/gi;
+  const deBranched = (raw || '').replace(BRANCH_CAMPUS, ' ').replace(NAMED_BRANCH, ' ').replace(NON_FBS_SUFFIX, ' ').replace(NON_FBS_PREFIX, ' ').replace(NON_FBS_STATE, ' ');
+  const deLocated = deBranched.replace(CITY_THEN_STATE, ' ').replace(REGIONAL_STATE, ' ').replace(STATE_UNIV, ' ').replace(STATE_NAMES, (m, pre) => pre + ' ');
 
   let hay = ' ' + norm(deLocated.replace(/#([A-Za-z]+)/g, (_, w) => ' ' + w.replace(/([a-z])([A-Z])/g, '$1 $2') + ' ')) + ' ';
   const consume = (form) => { hay = hay.split(' ' + form + ' ').join('     '); };

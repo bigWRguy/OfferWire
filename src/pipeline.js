@@ -12,7 +12,7 @@ import { allJobs, schoolJobs, backfillJobs } from './collect/queries.js';
 import { classify, findClassYear, findPosition, findTaggedRecruit, findReportedName } from './extract/rules.js';
 import { findSchools, byId, HANDLES, SCHOOLS } from './resolve/schools.js';
 import { extractBatch, enabled as llmEnabled, MODEL } from './extract/llm.js';
-import { indexPlayers, resolve as resolvePlayer, mergeInto, nameKey, parseBio, looksLikeRecruit } from './resolve/players.js';
+import { indexPlayers, resolve as resolvePlayer, mergeInto, nameKey, fuzzyKey, parseBio, looksLikeRecruit, cleanPersonName } from './resolve/players.js';
 import * as watch from './watchlist.js';
 
 const now = () => new Date().toISOString();
@@ -40,6 +40,7 @@ function staleSchools(state, thresholdHours = 2) {
 // 1. COLLECT
 // ---------------------------------------------------------------------------
 async function collect(state, log) {
+  const mode = String(process.env.OFFERWIRE_MODE || 'live').toLowerCase();
   const lists = cfg('lists.json');
   const accounts = cfg('accounts.json');
   const seen = new Set(state.seenPostIds || []);
@@ -77,7 +78,7 @@ async function collect(state, log) {
   } else {
     const days = BACKFILL_DAYS;
     const historical = backfillJobs(days).filter((j) => !state.watermarks?.[j.key]?.completed);
-    const jobs = [...allJobs(), ...historical];
+    const jobs = mode === 'backfill' ? historical : mode === 'all' ? [...allJobs(), ...historical] : allJobs();
     if (days) log(`  backfill: ${historical.length}/${schoolJobs().length * days} team-days remaining`);
     const res = await sweep(jobs, state, { log });
     if (!res.ok && res.transient) {
@@ -95,7 +96,7 @@ async function collect(state, log) {
       const n = push(res.posts, 'search');
       log(`  search: ${n} new posts kept (of ${res.posts.length} returned)`);
       state.searchConfigured = true;
-      state.searchCoverage = {
+      state[mode === 'backfill' ? 'backfillCoverage' : 'searchCoverage'] = {
         at: now(),
         jobsTotal: res.jobs,
         sweptThisRun: res.swept,
@@ -119,7 +120,7 @@ async function collect(state, log) {
   // --- Lists: corroboration + cheap breadth ------------------------------
   // A List is one request for ~68 posts across ~78 authors, so it is the cheapest
   // possible second opinion on what the sweep found — and it costs no search budget.
-  for (const l of lists.lists || []) {
+  for (const l of mode === 'backfill' ? [] : (lists.lists || [])) {
     if (l.disabled || !l.id) continue;
     const res = await fetchList(l.id);
     if (!res.ok) { log(`  list ${l.name || l.id}: FAILED (${res.error})`); health[`list:${l.id}`] = { at: now(), error: res.error }; continue; }
@@ -140,7 +141,7 @@ async function collect(state, log) {
     ...(accounts.stateScouts?.handles || []),
     ...promoted,
   ];
-  const per = Number(process.env.OFFERWIRE_PROFILES_PER_RUN || 25);
+  const per = mode === 'backfill' ? 0 : Number(process.env.OFFERWIRE_PROFILES_PER_RUN || 25);
   const cur = state.cursors?.profile ?? 0;
   const slice = Array.from({ length: Math.min(per, pool.length) }, (_, i) => pool[(cur + i) % pool.length]);
   (state.cursors ??= {}).profile = (cur + slice.length) % Math.max(1, pool.length);
@@ -166,7 +167,7 @@ async function collect(state, log) {
 // ---------------------------------------------------------------------------
 // 2. PREFILTER  (cheap, deterministic, recall-oriented)
 // ---------------------------------------------------------------------------
-function prefilter(posts, log) {
+export function prefilter(posts, log = () => {}) {
   const kept = [];
   let hardNeg = 0, noSignal = 0;
   for (const p of posts) {
@@ -198,7 +199,7 @@ const KNOWN_ACCOUNTS = (() => {
   ].map((h) => String(h).toLowerCase()));
 })();
 
-function rulesOnlyOffers(p) {
+export function rulesOnlyOffers(p) {
   // Used when the LLM is unavailable. Only fires on the unambiguous shape: exactly one
   // resolvable school and a clear offer voice. Confidence is capped low on purpose.
   const solid = p._schools.filter((s) => s.id && s.confidence >= 0.9);
@@ -218,14 +219,31 @@ function rulesOnlyOffers(p) {
   //    reported an Arkansas offer"
   // Without this they are discarded, and they are exactly the discoveries we want.
   if (p._rules.kind === 'bare_mention') {
+    // In rules-only mode a generic use of offer plus one tagged account is not
+    // evidence of a recruiting event. Keep these for the archive/LLM, never publish.
+    return [];
     const tagged = findTaggedRecruit(p, SCHOOL_HANDLES, KNOWN_ACCOUNTS);
     if (!tagged) return [];
+
+    // A tagged account is NOT enough on its own, and X does not give us the bio of a
+    // MENTIONED user (only the author's), so there is no way to verify the tag is a
+    // recruit. Without further evidence this path files politics as recruiting:
+    //   "Illinois farmers deserve more than reassurances ... the worst of what
+    //    democracy has to offer"  -> an Illinois offer to a US Representative.
+    //
+    // The post carries no offer grammar at all, so the burden of proof falls entirely
+    // on the text. Demand BOTH a recruiting class year and a position — the two things
+    // every real recruiting post carries and no political or spam post does.
+    const cls = findClassYear(p.text);
+    const pos = findPosition(p.text);
+    if (cls == null || pos == null) return [];
+
     return [{
       player_name: tagged.name,
       player_handle: tagged.handle,
       school_id: school,
-      class_year: findClassYear(p.text),
-      position: findPosition(p.text),
+      class_year: cls,
+      position: pos,
       high_school: null,
       state: null,
       confidence: 0.45,
@@ -237,13 +255,16 @@ function rulesOnlyOffers(p) {
     const prose = findReportedName(p.text);
     const name = tagged?.name || prose || null;
     const handle = tagged?.handle || null;
-    if (!name && !handle) return [];
+    const cls = findClassYear(p.text);
+    const pos = findPosition(p.text);
+    const footballContext = /\bfootball\b|\brecruit(?:ing)?\b|\b(?:QB|RB|WR|TE|OT|OG|OL|IOL|DL|DE|DT|EDGE|LB|ILB|OLB|CB|DB|SAF|ATH)\b/.test(`${p.text} ${p.authorBio || ''}`);
+    if (!name || cls == null || pos == null || !footballContext) return [];
     return [{
       player_name: name,
       player_handle: handle,
       school_id: school,
-      class_year: findClassYear(p.text),
-      position: findPosition(p.text),
+      class_year: cls,
+      position: pos,
       high_school: null,
       state: null,
       // A tagged recruit is a much harder fact than a name scraped out of prose.
@@ -262,17 +283,19 @@ function rulesOnlyOffers(p) {
   // Recruits overwhelmingly use their real name as their display name, which is the one
   // reliable way to get a NAME out of a self-announcement without an LLM. Require a
   // plausible two-part human name and reject anything with handle-ish decoration.
-  const dn = (p.authorName || '').replace(/[^\p{L}\p{M}'.\- ]/gu, ' ').replace(/\s+/g, ' ').trim();
-  const named = /^[\p{Lu}][\p{L}'.-]+(?:\s+[\p{Lu}][\p{L}'.-]+){1,2}$/u.test(dn) && nameKey(dn) ? dn : null;
+  const named = cleanPersonName(p.authorName);
+  const classYear = findClassYear(p.text) ?? verdict.info.classYear ?? null;
+  const position = verdict.info.position ?? findPosition(p.text) ?? null;
+  if (!named || classYear == null || position == null) return [];
 
   return [{
     player_name: named,
     player_handle: p.author,
     school_id: school,
-    class_year: findClassYear(p.text) ?? verdict.info.classYear ?? null,
+    class_year: classYear,
     // Bio position beats text position: the bio is a structured self-declaration,
     // the post text is prose that happens to contain capital letters.
-    position: verdict.info.position ?? findPosition(p.text) ?? null,
+    position,
     high_school: verdict.info.highSchool ?? null,
     state: verdict.info.state ?? null,
     confidence: 0.45,
@@ -284,7 +307,7 @@ function rulesOnlyOffers(p) {
 // ---------------------------------------------------------------------------
 function offerKey(playerId, schoolId) { return `${playerId}::${schoolId}`; }
 
-function upsert(db, rec, post, verdictConfidence) {
+export function upsert(db, rec, post, verdictConfidence) {
   const school = byId.get(rec.school_id);
   if (!school) return null;
 
@@ -298,7 +321,7 @@ function upsert(db, rec, post, verdictConfidence) {
     highSchool: rec.high_school ?? null,
     state: rec.state ?? null,
   };
-  if (!incoming.name && !incoming.handle) return null;
+  if (!incoming.name || incoming.classYear == null || !incoming.position) return null;
   if (incoming.name && !nameKey(incoming.name)) return null;
 
   // The recruit's own bio is the richest metadata on the post. Use it only to FILL
@@ -335,6 +358,17 @@ function upsert(db, rec, post, verdictConfidence) {
     };
     db.players.push(player);
     if (incoming.name) db._new.push(player);
+    // Index it immediately, not just at the end of the run's loop. Two posts about the
+    // same brand-new recruit arriving in the same run (e.g. his own announcement plus a
+    // reporter's corroboration) must merge into one record — leaving the index stale
+    // until after the loop meant the second post's lookup never saw the first post's
+    // insert and created a duplicate player instead. Real live failure: two "Chase
+    // Lumpkin" records, one from each voice, never merged despite matching class year.
+    const fk = fuzzyKey(player.name);
+    if (fk) {
+      if (!db._index.has(fk)) db._index.set(fk, []);
+      db._index.get(fk).push(player);
+    }
   } else {
     mergeInto(player, incoming);
   }
@@ -459,8 +493,9 @@ async function main() {
     if (made.length) watch.observe(wl, p, made);
   }
 
-  // Rebuild the index after inserts so a later post in the same run resolves against
-  // players created earlier in the run.
+  // Safety net: upsert() now indexes each new player as it's created (the actual fix —
+  // see the comment there), so this should be a no-op. Kept because a full rebuild from
+  // db.players is the one thing that can never drift from the source of truth.
   db._index = indexPlayers(db.players);
 
   const newlyPromoted = watch.promote(wl);
@@ -476,7 +511,19 @@ async function main() {
   if (db.review.length) appendNdjson('review.ndjson', db.review);
 
   // The site reads only these two, so they stay small and cheap to serve.
-  const recent = db.offers.slice(0, 1500);
+  const playerById = new Map(db.players.map((p) => [p.id, p]));
+  const recent = db.offers.slice(0, 1500).map((offer) => {
+    const player = playerById.get(offer.playerId) || {};
+    return {
+      ...offer,
+      playerName: player.name || offer.playerName,
+      playerHandle: player.handle || null,
+      classYear: player.classYear ?? null,
+      position: player.position ?? null,
+      highSchool: player.highSchool ?? null,
+      state: player.state ?? null,
+    };
+  });
   writeJson('site/wire.json', {
     generatedAt: now(),
     counts: {
@@ -496,8 +543,13 @@ async function main() {
     // coverage gate does not fire on a ledger that is simply new.
     warmedUp: !!(state.firstRunAt && Date.now() - new Date(state.firstRunAt).getTime() > 3 * 3600e3),
     searchCoverage: state.searchCoverage || null,
+    backfillCoverage: state.backfillCoverage || null,
     backfill: state.backfill || null,
-    staleSchools: staleSchools(state).slice(0, 20),
+    staleSchools: staleSchools(state),
+    quality: {
+      completeOffers: recent.filter((o) => o.playerName && o.classYear && o.position).length,
+      incompleteOffers: recent.filter((o) => !o.playerName || !o.classYear || !o.position).length,
+    },
     llm: llmEnabled() ? MODEL : null,
     frozenProfiles: state.frozenProfiles || [],
     health: state.health,
@@ -516,4 +568,7 @@ async function main() {
   }
 }
 
-main().catch((e) => { console.error('FATAL', e); process.exit(1); });
+import { fileURLToPath } from 'node:url';
+if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1])) {
+  main().catch((e) => { console.error('FATAL', e); process.exit(1); });
+}

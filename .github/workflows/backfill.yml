@@ -1,0 +1,60 @@
+name: offer wire backfill
+
+on:
+  schedule:
+    - cron: '41 2,8,14,20 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: offer-wire
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - run: npx playwright install --with-deps chromium
+      - run: npm test
+      - name: run historical slices
+        env:
+          X_SESSIONS: ${{ secrets.X_SESSIONS }}
+          X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
+          X_CT0: ${{ secrets.X_CT0 }}
+          OFFERWIRE_MODE: backfill
+          OFFERWIRE_BACKFILL_DAYS: 30
+          OFFERWIRE_REQUESTS_PER_CRED: ${{ vars.OFFERWIRE_BACKFILL_REQUESTS || '30' }}
+          OFFERWIRE_SCROLLS: ${{ vars.OFFERWIRE_BACKFILL_SCROLLS || '2' }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OFFERWIRE_MODEL: ${{ vars.OFFERWIRE_MODEL }}
+        run: node src/pipeline.js
+      - run: node scripts/build-status.mjs && node scripts/build-site.mjs
+      - name: commit ledger
+        run: |
+          git config user.name "offer-wire"
+          git config user.email "offer-wire@users.noreply.github.com"
+          git add data/ site/wire.json site/status.json
+          if ! git diff --staged --quiet; then
+            git commit -m "wire backfill: $(date -u +'%Y-%m-%dT%H:%MZ')"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+            git push
+          fi
+      - name: deploy directly to Netlify
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        run: |
+          if [ -z "$NETLIFY_AUTH_TOKEN" ] || [ -z "$NETLIFY_SITE_ID" ]; then
+            echo "::warning::Netlify deploy is not configured. Add NETLIFY_AUTH_TOKEN and NETLIFY_SITE_ID, or link the repository in Netlify."
+            exit 0
+          fi
+          npx --yes netlify-cli deploy --prod --dir site --site "$NETLIFY_SITE_ID" --auth "$NETLIFY_AUTH_TOKEN"

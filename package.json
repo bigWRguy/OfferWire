@@ -10,9 +10,10 @@
     "coverage": "node scripts/coverage.mjs",
     "selftest": "node scripts/selftest.mjs",
     "fixture": "node scripts/fixture-run.mjs",
+    "status": "node scripts/build-status.mjs",
     "test": "node scripts/selftest.mjs && node scripts/fixture-run.mjs",
     "plan-lists": "node scripts/plan-lists.mjs",
-    "postinstall": "playwright install chromium || true"
+    "rebuild": "node scripts/rebuild-ledger.mjs --write"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.71.0",

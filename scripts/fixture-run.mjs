@@ -5,6 +5,7 @@ import { classify, findClassYear, findPosition } from '../src/extract/rules.js';
 import { findSchools, byId } from '../src/resolve/schools.js';
 import { indexPlayers, resolve as resolvePlayer, mergeInto } from '../src/resolve/players.js';
 import { sha1 } from '../src/lib/store.js';
+import { upsert } from '../src/pipeline.js';
 
 const POSTS = [
   { id: '1', author: 'marcuslee2028', createdAt: '2026-08-25T14:00:00Z', mentions: ['georgiafootball'],
@@ -92,6 +93,26 @@ t('player carries name from reporter post', players[0]?.name === 'Marcus Lee', `
 t('player carries class year', players[0]?.classYear === 2028, `got ${players[0]?.classYear}`);
 t('ambiguous USC produced no row', !offers.some((o) => o.schoolId === 'usc' || o.schoolId === 'south-carolina'));
 t('walk-on produced no row', !offers.some((o) => o.schoolId === 'iowa'));
+
+// This exercises the REAL upsert() from src/pipeline.js, not the fixture's own inline
+// reimplementation above. Live failure: two posts about the same brand-new recruit
+// ("Chase Lumpkin", class 2027) arriving in the SAME run — his own announcement plus a
+// reporter's corroboration in different words — created two player records instead of
+// one, because db._index was only rebuilt after the whole batch, not as each new player
+// was inserted. The fixture's own inline loop rebuilds its index after every insert
+// (line 62 above) and could never have caught this; only the real function can.
+{
+  const db2 = {
+    players: [], offers: [], review: [],
+    offerMap: new Map(), _index: indexPlayers([]), _new: [], newOffers: [],
+  };
+  const postA = { id: 'a1', author: 'chaselumpkin1', authorBio: null, text: 'x', createdAt: '2026-08-27T10:00:00Z' };
+  const postB = { id: 'a2', author: 'reporter1', authorBio: null, text: 'x', createdAt: '2026-08-27T10:05:00Z' };
+  upsert(db2, { player_name: 'Chase Lumpkin', player_handle: 'chaselumpkin1', school_id: 'arkansas', class_year: 2027, position: null, high_school: null, state: null }, postA, 0.45);
+  upsert(db2, { player_name: 'Chase Lumpkin', player_handle: null, school_id: 'arkansas', class_year: 2027, position: 'C', high_school: null, state: null }, postB, 0.5);
+  t('same-run duplicate merges into one player, not two', db2.players.length === 1,
+    `got ${db2.players.length}: ${JSON.stringify(db2.players.map((p) => [p.name, p.handle, p.classYear]))}`);
+}
 
 console.log(fail ? `\n${fail} failed` : '\nall fixture assertions passed');
 process.exit(fail ? 1 : 0);

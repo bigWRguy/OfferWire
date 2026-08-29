@@ -7,7 +7,7 @@
 // the happy path is worthless, so most of the value here is in the negatives.
 import { findSchools } from '../src/resolve/schools.js';
 import { classify, findClassYear, findPosition, findNameCandidates, findTaggedRecruit, findReportedName } from '../src/extract/rules.js';
-import { nameKey, fuzzyKey, canMerge, parseBio, looksLikeRecruit } from '../src/resolve/players.js';
+import { nameKey, fuzzyKey, canMerge, parseBio, looksLikeRecruit, cleanPersonName } from '../src/resolve/players.js';
 import { backfillJobs, schoolJobs } from '../src/collect/queries.js';
 
 let pass = 0, fail = 0;
@@ -68,6 +68,8 @@ console.log('field extraction');
 t('class year', findClassYear('2028 ATH Marcus Lee has been offered', 2026) === 2028);
 t('class year ignores past', findClassYear('Since 2019 he has been dominant', 2026) === null);
 t('position', findPosition('2027 QB Tyler Simmons') === 'QB');
+t('lowercase Spanish de is not defensive end', findPosition('2029 G prospect de The Villages') === null);
+t('single letter in prose is not a position', findPosition('California is offering a new program') === null);
 t('name candidate found', findNameCandidates('BREAKING: Marcus Lee has been offered by Georgia').some((n) => n.name === 'Marcus Lee'));
 t('stopwords not names', !findNameCandidates('Blessed To Receive An Offer').some((n) => /Blessed/.test(n.name)));
 
@@ -87,6 +89,7 @@ t('different HS blocks merge', !canMerge(
   { name: 'Marcus Lee', highSchool: 'Grayson' },
   { name: 'Marcus Lee', highSchool: 'Buford' },
 ).merge);
+t('decorated display name is cleaned', cleanPersonName('Jonathan Jackson 4-star WR') === 'Jonathan Jackson');
 
 console.log('bio parsing');
 // Every case below is a real bio that produced a WRONG field before the fix named in
@@ -113,7 +116,14 @@ t('stat-block bio is a recruit', R("C/O 28 Cache HS ||#7|| 6'2 180|| 4.35 40"));
 t('recruit who also runs track is a recruit', R('WR | 6-1 175 | Track & Field | C/O 2029'));
 t('agency is not a recruit', !R('We connect high school & transfer athletes with college programs Info@x.org'));
 t('other sport is not a recruit', !R('c/o 2032 basketball player @exodusnyc scholar'));
+// A real girls'-basketball recruit ("5'11 • 3-Guard • 3.8 GPA • ...AAU") never says the
+// word "basketball", so the keyword-only sport check missed it and let an Alabama-
+// Huntsville women's-hoops offer through as an Alabama football offer.
+t('basketball jargon without the word "basketball" is still the wrong sport',
+  !R("2028 • 5'11 • 3-Guard • 3.8 GPA • Victory Christian Academy • Duval Elite AAU"));
 t('coach is not a recruit', !R('Head Coach at Central High | Building men'));
+t('plain basketball guard bio rejected', !R('Class of 2027 | 6-3 guard | 3.1 GPA'));
+t('JUCO player rejected from high-school wire', !R('2027 CB | Iowa Western CC | JUCO All-American | 6-2 190'));
 t('parent is not a recruit', !R('Proud mom of a 2028 athlete'));
 t('beat writer is not a recruit', !R('Recruiting coverage for @Bama_247 at @247Sports'));
 
@@ -135,6 +145,13 @@ t('decorated display name is rejected as a name but handle kept', (() => {
   const r = tag([{ handle: 'jaymitch_1', name: 'Jayshawn Mitchell / NCAA ID 2512788693' }]);
   return r && r.handle === 'jaymitch_1' && r.name === null;
 })());
+// X returns some display names all-lowercase ("landon cheatum" for a profile that reads
+// "Landon Cheatum"). Before the fix this failed the human-name check and the caller fell
+// back to a worse name scraped out of prose ("Mount Pleasant", a place, not a person).
+t('lowercase display name is re-cased and still accepted', (() => {
+  const r = tag([{ handle: 'cheatumlandon', name: 'landon cheatum' }]);
+  return r && r.name === 'Landon Cheatum';
+})(), JSON.stringify(tag([{ handle: 'cheatumlandon', name: 'landon cheatum' }])));
 
 const rn = (s) => findReportedName(s);
 t('name before offer verb', rn('BREAKING: 2028 four-star ATH Marcus Lee has been offered by Georgia') === 'Marcus Lee', String(rn('BREAKING: 2028 four-star ATH Marcus Lee has been offered by Georgia')));
@@ -155,12 +172,44 @@ t('school-named city before a state is a hometown',
 t('that city is still a school on its own', ids('Houston has offered him').includes('houston'));
 t('state school still resolves as the offerer', ids('Virginia has offered him').includes('virginia'));
 t('A&M survives the guard', ids('Texas A&M has offered him').includes('texas-am'));
+// "Central Arkansas" (FCS), "Alabama State University" (SWAC), and "University of
+// Alabama - Huntsville" (D2) all share a name with an FBS program but are not it. Each
+// of these filed a real garbage row against an FBS school before the fix.
+t('regional-prefix non-FBS school is not the FBS program',
+  !ids('out of Mount Pleasant has been offered by Nathan Brown and Central Arkansas').includes('arkansas'),
+  JSON.stringify(ids('out of Mount Pleasant has been offered by Nathan Brown and Central Arkansas')));
+t('non-FBS "State University" is not the bare state FBS program',
+  !ids('has received a D1 offer to Alabama State University').includes('alabama'),
+  JSON.stringify(ids('has received a D1 offer to Alabama State University')));
+t('real FBS "State" school still resolves (regression guard)',
+  ids('Arizona State comes through with an offer').includes('arizona-state'));
+t('branch campus is not the flagship',
+  !ids('Blessed to receive an offer from University of Alabama - Huntsville').includes('alabama'),
+  JSON.stringify(ids('Blessed to receive an offer from University of Alabama - Huntsville')));
+t('Arkansas Tech is not Arkansas', !ids('offer from Arkansas Tech University').includes('arkansas'));
+t('South Carolina State is not South Carolina', !ids('offer from South Carolina State').includes('south-carolina'));
+t('Arkansas State Mid-South is not Arkansas State', !ids('offer from Arkansas State University Mid-South').includes('arkansas-state'));
 
 console.log('offer verb forms');
 t('plural "offers" is a reporter voice', classify('Bama offers 2028 WR Jaylen Carter').kind === 'reporter_voice');
 t('counted offers is a reporter voice', classify('Georgia offers three 2029 prospects today').kind === 'reporter_voice');
 t('ranking Top 5 is not a shortlist', classify("2027 Nat'l Top 5 / 5-star Cayden Daughtry received his Hog offer").prior > 0.3);
 t('my top 5 IS a shortlist', classify('Blessed to announce my top 5 schools').prior <= 0.3);
+// "Illinois alone offers DL tests in over 130 languages" is a reply about driver's
+// licences, not football, but "offers DL" matched the acronym-after-offers pattern and
+// filed a WikiLeaks reply as an Illinois recruiting offer.
+t('acronym after "offers" needs a following name, not just any word',
+  classify('Illinois alone offers DL tests in over 130 languages.').kind !== 'reporter_voice',
+  JSON.stringify(classify('Illinois alone offers DL tests in over 130 languages.')));
+t('acronym after "offers" WITH a name still classifies', classify('Bama offers OL Marcus Lee').kind === 'reporter_voice');
+// "has already picked up offers from Alabama, Michigan, LSU, Florida, Georgia, Miami,
+// Oregon, and many more" is a running tally, not the report of one new offer, and there
+// is no single school it can honestly be attributed to.
+t('multi-school offer recap is a hard negative',
+  classify('has already picked up offers from Alabama, Michigan, LSU, Florida, Georgia, Miami, Oregon, and many more').hardNegative);
+t('previous offer is not a new event', classify('Alabama previously offered 2029 ATH Janzen Currie').hardNegative);
+t('aspirational offer is not an offer', classify('A Western Michigan offer would be amazing').hardNegative);
+t('recent-offer recap is not a new event', classify('He added a recent offer from Washington').hardNegative);
 
 console.log('historical job generation');
 const history = backfillJobs(30, new Date('2026-08-27T12:00:00Z'));

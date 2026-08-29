@@ -4,7 +4,7 @@
 # behind the ledger.
 [build]
   publish = "site"
-  command = "node scripts/build-site.mjs"
+  command = "node scripts/build-status.mjs && node scripts/build-site.mjs"
 
 [build.environment]
   NODE_VERSION = "22"

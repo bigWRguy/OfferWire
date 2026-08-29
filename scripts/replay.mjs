@@ -1,24 +1,20 @@
-// Replay archived posts through the extraction chain — no network, no search budget.
+// Replay archived posts through the ACTUAL extraction chain — no network, no search
+// budget, and no drift from src/pipeline.js.
 //
-// The wire keeps every post it ever collected in data/raw/*.ndjson precisely so that
-// extraction changes can be measured against real data instead of guessed at. This
-// prints the funnel and the resulting offers, so a change to rules.js can be judged in
-// seconds rather than by burning a rate-limit window.
+// This used to carry its own copy of the extraction logic, which silently fell out of
+// sync with src/pipeline.js and made every precision measurement taken against it
+// measure the wrong code. It now imports prefilter() and rulesOnlyOffers() directly, so
+// a change to pipeline.js is reflected here with zero duplication.
 //
 //   node scripts/replay.mjs            # funnel summary + offers
-//   node scripts/replay.mjs --rejected # also show what was thrown away and why
+//   node scripts/replay.mjs --rejected # also show what the rules prefilter threw away
 import fs from 'node:fs';
 import path from 'node:path';
-import { classify, findClassYear, findPosition, findTaggedRecruit, findReportedName } from '../src/extract/rules.js';
-import { findSchools, byId, SCHOOLS } from '../src/resolve/schools.js';
-import { looksLikeRecruit, parseBio } from '../src/resolve/players.js';
-import { CONFIG, DATA } from '../src/lib/store.js';
+import { prefilter, rulesOnlyOffers } from '../src/pipeline.js';
+import { byId } from '../src/resolve/schools.js';
+import { DATA } from '../src/lib/store.js';
 
 const showRejected = process.argv.includes('--rejected');
-const acc = JSON.parse(fs.readFileSync(path.join(CONFIG, 'accounts.json'), 'utf8'));
-const SCH = new Set(SCHOOLS.map((s) => s.handle.toLowerCase()));
-const KNOWN = new Set([...(acc.reporters || []), ...(acc.aggregators || []), ...(acc.stateScouts?.handles || [])]
-  .map((h) => String(h).toLowerCase()));
 
 const dir = path.join(DATA, 'raw');
 if (!fs.existsSync(dir)) {
@@ -28,50 +24,39 @@ if (!fs.existsSync(dir)) {
 const posts = fs.readdirSync(dir).flatMap((f) =>
   fs.readFileSync(path.join(dir, f), 'utf8').split('\n').filter(Boolean).map((l) => JSON.parse(l)));
 
-const funnel = { total: posts.length, noOfferWord: 0, hardNegative: 0, noVoice: 0, noSchool: 0, multiSchool: 0, noPlayerId: 0, notRecruit: 0, accepted: 0 };
+// prefilter() logs its own funnel line; capture it instead of printing twice.
+let prefilterLine = '';
+const candidates = prefilter(posts, (s) => { prefilterLine = s; });
+
+const funnel = { total: posts.length, noSignalOrHardNeg: posts.length - candidates.length, candidates: candidates.length, noOfferMade: 0, accepted: 0 };
 const offers = [];
 const rejected = [];
 
-for (const p of posts) {
-  if (!/offer/i.test(p.text)) { funnel.noOfferWord++; continue; }
-  const c = classify(p.text);
-  if (c.hardNegative) { funnel.hardNegative++; continue; }
-  if (!c.kind) { funnel.noVoice++; continue; }
-
-  const hay = `${p.text} ${(p.mentions || []).map((m) => '@' + m).join(' ')} ${(p.hashtags || []).map((h) => '#' + h).join(' ')}`;
-  const solid = findSchools(hay).filter((s) => s.id && s.confidence >= 0.9);
-  if (!solid.length) { funnel.noSchool++; continue; }
-  if (solid.length > 1) { funnel.multiSchool++; rejected.push(['multi-school ' + solid.map((s) => s.id).join('/'), p]); continue; }
-  const school = byId.get(solid[0].id);
-
-  let name = null, handle = null, conf = 0.45;
-  if (c.kind === 'player_voice') {
-    const v = looksLikeRecruit(p.authorBio, p.authorName);
-    if (!v.ok) { funnel.notRecruit++; rejected.push(['not-recruit:' + v.why, p]); continue; }
-    handle = p.author;
-    const dn = (p.authorName || '').replace(/[^\p{L}\p{M}'.\- ]/gu, ' ').replace(/\s+/g, ' ').trim();
-    if (/^[\p{Lu}][\p{L}'.-]+(?:\s+[\p{Lu}][\p{L}'.-]+){1,2}$/u.test(dn)) name = dn;
-  } else {
-    const tagged = findTaggedRecruit(p, SCH, KNOWN);
-    name = tagged?.name || (c.kind === 'reporter_voice' ? findReportedName(p.text) : null);
-    handle = tagged?.handle || null;
-    if (!name && !handle) { funnel.noPlayerId++; rejected.push(['no-player-id(' + c.kind + ')', p]); continue; }
-    conf = tagged ? 0.6 : 0.5;
+for (const p of candidates) {
+  const recs = rulesOnlyOffers(p);
+  if (!recs.length) {
+    funnel.noOfferMade++;
+    if (showRejected) rejected.push([`no-offer(${p._rules.kind})`, p]);
+    continue;
   }
-  funnel.accepted++;
-  const bio = handle && handle === p.author ? parseBio(p.authorBio) : {};
-  offers.push({
-    school: school.name,
-    who: name || '@' + handle,
-    kind: c.kind,
-    conf,
-    cls: findClassYear(p.text) ?? bio.classYear ?? null,
-    pos: findPosition(p.text) ?? bio.position ?? null,
-  });
+  for (const rec of recs) {
+    const school = byId.get(rec.school_id);
+    funnel.accepted++;
+    offers.push({
+      school: school?.name || rec.school_id,
+      who: rec.player_name || '@' + rec.player_handle,
+      kind: p._rules.kind,
+      conf: rec.confidence,
+      cls: rec.class_year,
+      pos: rec.position,
+      text: p.text,
+    });
+  }
 }
 
 console.log('=== funnel ===');
-for (const [k, v] of Object.entries(funnel)) console.log(`  ${k.padEnd(14)} ${v}`);
+for (const [k, v] of Object.entries(funnel)) console.log(`  ${k.padEnd(18)} ${v}`);
+console.log(`  ${prefilterLine.trim()}`);
 console.log(`  yield: ${((funnel.accepted / Math.max(1, funnel.total)) * 100).toFixed(1)}% of all posts`);
 
 console.log(`\n=== offers (${offers.length}) ===`);

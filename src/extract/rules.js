@@ -25,7 +25,12 @@ const REPORTER_VOICE = [
   /\bhanded\s+out\s+an?\s+offer\b/i,
   // "Bama offers 2028 WR Jaylen Carter" — the plural verb is one of the most common
   // reporter forms and was matching nothing at all, not even the bare fallback.
-  /\boffers\s+(?:\d{4}|[A-Z]{2,5}\s|\d+\s|three|two|four|five)/i,
+  // A bare "offers [CAPS-WORD]" is NOT enough on its own — "Illinois alone offers DL
+  // tests in over 130 languages" (DL = driver's license) matched this exact shape and
+  // filed a WikiLeaks reply as an Illinois recruiting offer. Require the class-year
+  // anchor or an explicit numeral count; a lone position-shaped acronym is not proof.
+  /\boffers\s+(?:\d{4}|\d+\s+(?:star|\*)|three|two|four|five)/i,
+  /\boffers\s+(?:\d{4}\s+)?[A-Z]{2,5}\s+[A-Z][a-z]/,
   /\b(?:picks?|picked)\s+up\s+(?:an?\s+|\d+\s+)?offers?\b/i,
   /\boffers?\s+from\s+@?\w/i,
   /\breceiv(?:es|ed|ing)\s+(?:an?\s+|his\s+|her\s+|\d+\s+)?(?:\w+\s+){0,2}offers?\b/i,
@@ -69,7 +74,14 @@ const NEGATIVE = [
 
 // A recruiting class year in the near future.
 export function findClassYear(text, nowYear = new Date().getUTCFullYear()) {
-  const m = [...(text || '').matchAll(/\b(20\d{2})\b/g)].map((x) => +x[1]);
+  const raw = text || '';
+  const explicit = raw.match(/\b(?:class\s+of|c\/?o|class|co)\s*['\u2018\u2019]?\s*(20\d{2}|\d{2})\b/i)
+    || raw.match(/(?:^|[\s|/])['\u2018\u2019](\d{2})\b/);
+  if (explicit) {
+    const y = explicit[1].length === 2 ? 2000 + Number(explicit[1]) : Number(explicit[1]);
+    if (y >= nowYear - 1 && y <= nowYear + 7) return y;
+  }
+  const m = [...raw.matchAll(/\b(20\d{2})\b/g)].map((x) => +x[1]);
   const c = m.filter((y) => y >= nowYear && y <= nowYear + 6);
   return c.length ? Math.min(...c) : null;
 }
@@ -81,12 +93,12 @@ export function findPosition(text) {
   const t = (text || '')
     .replace(/https?:\/\/\S+/g, ' ')
     .replace(/@[A-Za-z0-9_]+/g, ' ')
-    .replace(/#\S+/g, ' ')
-    .toUpperCase();
+    .replace(/#\S+/g, ' ');
   for (const p of POSITIONS) {
     // "FB" overwhelmingly abbreviates FOOTBALL in recruiting posts, so it only counts
     // when written as a position ("RB/FB") or spelled out.
-    if (p === 'FB' && !/\/\s*FB\b|\bFB\s*\/|FULLBACK/.test(t)) continue;
+    if (p === 'FB' && !/\/\s*FB\b|\bFB\s*\/|\bfullback\b/i.test(t)) continue;
+    if (['C', 'S', 'K', 'P'].includes(p) && !new RegExp(`(?:pos(?:ition)?\\s*[:=-]\\s*${p}\\b|\\b${p}\\s*[/|,]\\s*[A-Z]{1,4}\\b|\\b[A-Z]{1,4}\\s*[/|,]\\s*${p}\\b)`, 'i').test(t)) continue;
     if (new RegExp(`(?:^|[^A-Z])${p}(?:[^A-Z]|$)`).test(t)) return p;
   }
   return null;
@@ -129,7 +141,16 @@ export function classify(text) {
   else if (bare) { kind = 'bare_mention'; base = 0.35; }
 
   // Commitment language kills an offer read outright; the softer negatives just tax it.
-  const hard = /\bcommit(?:ted|ment|s)\b|\bdecommit|\bsigning day\b|\bofferlist\b|\boffer list\b|\bwalk[\s-]?on\b|\bpwo\b|\bthrowback\b|\bon this day\b/i.test(t);
+  // "has already picked up offers from Alabama, Michigan, LSU, Florida, Georgia, Miami,
+  // Oregon, and many more" is a running-tally recap, not the report of one new offer —
+  // three or more schools listed after an offer verb means there is no single school
+  // this post can honestly be attributed to, so it must be rejected outright rather
+  // than filed against whichever one the resolver happens to match first.
+  const multiSchoolRecap = /\boffers?\s+from\s+(?:[A-Z][\w&.'-]*(?:\s+[A-Z][\w&.'-]*){0,2})(?:\s*,\s*(?:[A-Z][\w&.'-]*(?:\s+[A-Z][\w&.'-]*){0,2})){2,}/.test(t);
+  const staleOffer = /\b(?:previously|already|formerly)\s+(?:had\s+)?offer(?:ed|s)?\b|\boffers?\s+include\b|\b(?:holds?|with)\s+\d+\+?\s+offers?\b|\b(?:recent|previous)\s+offers?\b|\boffer\s+(?:a few|several|\d+)\s+(?:days?|weeks?|months?|years?)\s+ago\b|\bduring\s+(?:the\s+)?(?:spring|summer|fall|winter)\b/i.test(t);
+  const aspirational = /\b(?:an?\s+)?offer\s+would\s+be\b|\bhope(?:ful|fully)?\s+(?:to\s+)?(?:get|receive|earn)\b[^.!?]{0,30}\boffer\b/i.test(t);
+  const nonScholarship = /\bprep\s+school\s+offer\b|\boffer\s+to\s+play\s+football\s+at\b/i.test(t);
+  const hard = multiSchoolRecap || staleOffer || aspirational || nonScholarship || /\bcommit(?:ted|ment|s)\b|\bdecommit|\bsigning day\b|\bofferlist\b|\boffer list\b|\bwalk[\s-]?on\b|\bpwo\b|\bthrowback\b|\bon this day\b/i.test(t);
   if (hard) return { kind, prior: 0, negatives: neg, hardNegative: true };
 
   const prior = Math.max(0, base - 0.12 * neg.length);
@@ -167,8 +188,13 @@ export function findTaggedRecruit(post, schools, known) {
   });
   if (cands.length !== 1) return null;           // 0 or ambiguous -> do not guess
   const c = cands[0];
-  // A display name has to look like a person's name to be usable as one.
-  const clean = (c.name || '').replace(/[^\p{L}\p{M}'.\- ]/gu, ' ').replace(/\s+/g, ' ').trim();
+  // A display name has to look like a person's name to be usable as one. X lower-cases
+  // some display names in its API response ("landon cheatum" for a recruit whose profile
+  // reads "Landon Cheatum") — without re-casing, a real tagged recruit with a perfectly
+  // good name fails the capitalisation check and the caller falls back to a worse guess
+  // scraped out of prose. Title-case each word before testing, not just accepting as-is.
+  const stripped = (c.name || '').replace(/[^\p{L}\p{M}'.\- ]/gu, ' ').replace(/\s+/g, ' ').trim();
+  const clean = stripped.replace(/\p{L}[\p{L}'-]*/gu, (w) => w[0].toUpperCase() + w.slice(1).toLowerCase());
   const looksHuman = /^[\p{Lu}][\p{L}'.-]+(?:\s+[\p{Lu}][\p{L}'.-]+){1,2}$/u.test(clean);
   return { handle: c.handle, name: looksHuman ? clean : null };
 }
@@ -202,6 +228,10 @@ export function findReportedName(text) {
     .replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}\u{FE0F}\u{2B50}]/gu, ' ')
     .replace(/\b\d\s*(?:star|stars|\*)\b/gi, ' ')
     .replace(/\bNat'?l\b|\bcomposite\b|\bNo\.?\s*\d+\b|\brank(?:ed|ing)?\b/gi, ' ')
+    // A quoted nickname between first and last name ("Karzell "K5" Davis") breaks the
+    // two-token NAME grammar and left it grabbing a position code plus a first name
+    // ("WR Karzell") instead of the real name. Drop the quoted span entirely.
+    .replace(/["“”]\s*[\w-]+\s*["“”]/g, ' ')
     .replace(/\s+/g, ' ');
   for (const re of REPORTER_GRAMMARS) {
     const m = t.match(re);

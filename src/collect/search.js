@@ -267,7 +267,10 @@ export async function sweep(jobs, state, {
         const job = ordered[cursor];
         const since = marks[job.key]?.at;
         const sinceMs = since ? new Date(since).getTime() : now - 12 * 3600e3; // cold start: 12h
-        const query = job.fixedWindow ? job.query : withSince(job.query, sinceMs);
+        const fixedCursor = job.fixedWindow && marks[job.key]?.cursorUntil;
+        const query = job.fixedWindow
+          ? `${job.query}${fixedCursor ? ` until_time:${Math.floor(new Date(fixedCursor).getTime() / 1000)}` : ''}`
+          : withSince(job.query, sinceMs);
         const res = await session.search(query, { scrolls });
         spent = session.requests;
         cursor++;
@@ -280,15 +283,22 @@ export async function sweep(jobs, state, {
           continue;
         }
 
-        all.push(...res.posts);
+        all.push(...res.posts.map((p) => ({ ...p, searchJob: job.key, searchKind: job.kind, searchedSchoolId: job.schoolId || (job.kind === 'school' ? job.key : null) })));
         swept++;
 
         const m = (marks[job.key] ||= {});
         if (job.fixedWindow) {
           m.at = new Date(now).toISOString();
-          m.completed = true;
           m.lastPosts = res.posts.length;
           m.truncated = res.posts.length >= 18 * (1 + scrolls);
+          if (m.truncated && res.posts.length) {
+            const oldest = Math.min(...res.posts.map((p) => new Date(p.createdAt).getTime()));
+            m.cursorUntil = new Date(oldest).toISOString();
+            m.completed = false;
+          } else {
+            m.completed = true;
+            delete m.cursorUntil;
+          }
           await sleep(900 + Math.random() * 900);
           continue;
         }

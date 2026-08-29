@@ -8,7 +8,7 @@ name: offer wire
 # under load, which is fine here because every reader deliberately overlaps its window.
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
     inputs:
       profiles_per_run:
@@ -61,21 +61,24 @@ jobs:
           X_CT0: ${{ secrets.X_CT0 }}
           # Resumable one-day-per-team history. Completed slices are skipped forever,
           # while half of each run's search budget remains reserved for the live feed.
-          OFFERWIRE_BACKFILL_DAYS: 30
-          OFFERWIRE_BACKFILL_SHARE: 0.5
+          OFFERWIRE_MODE: live
+          OFFERWIRE_BACKFILL_DAYS: 0
           OFFERWIRE_REQUESTS_PER_CRED: ${{ vars.OFFERWIRE_REQUESTS_PER_CRED || '30' }}
-          OFFERWIRE_SCROLLS: ${{ vars.OFFERWIRE_SCROLLS || '1' }}
+          OFFERWIRE_SCROLLS: ${{ vars.OFFERWIRE_SCROLLS || '0' }}
           # Optional: enables the LLM extraction pass. Without it, rules-only.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OFFERWIRE_MODEL: ${{ vars.OFFERWIRE_MODEL }}
           OFFERWIRE_PROFILES_PER_RUN: ${{ inputs.profiles_per_run || vars.OFFERWIRE_PROFILES_PER_RUN || '0' }}
         run: node src/pipeline.js
 
+      - name: build static site
+        run: node scripts/build-status.mjs && node scripts/build-site.mjs
+
       - name: commit ledger
         run: |
           git config user.name  "offer-wire"
           git config user.email "offer-wire@users.noreply.github.com"
-          git add data/
+          git add data/ site/wire.json site/status.json
           if git diff --staged --quiet; then
             echo "no changes"
           else
@@ -84,6 +87,17 @@ jobs:
             git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
             git push
           fi
+
+      - name: deploy directly to Netlify
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        run: |
+          if [ -z "$NETLIFY_AUTH_TOKEN" ] || [ -z "$NETLIFY_SITE_ID" ]; then
+            echo "::warning::Netlify deploy is not configured. Add NETLIFY_AUTH_TOKEN and NETLIFY_SITE_ID, or link the repository in Netlify."
+            exit 0
+          fi
+          npx --yes netlify-cli deploy --prod --dir site --site "$NETLIFY_SITE_ID" --auth "$NETLIFY_AUTH_TOKEN"
 
       # Fail the workflow AFTER the ledger is safely committed, so a broken engine is
       # loud in the Actions UI instead of showing green while coverage quietly dies.
@@ -98,6 +112,7 @@ jobs:
             const warm = s.warmedUp !== false;
             const stale = (s.staleSchools || []).filter(x => x.hours === null || x.hours > 6);
             if (warm && stale.length > 20) { console.error(`FAIL: ${stale.length} schools stale >6h - credential pool is undersized. Run scripts/coverage.mjs.`); bad = 1; }
+            if ((s.quality?.incompleteOffers || 0) > 0) { console.error(`FAIL: ${s.quality.incompleteOffers} incomplete offers reached publication.`); bad = 1; }
             if (!warm) console.log(`warming up: ${stale.length} schools not yet swept (expected on a new ledger)`);
             const dead = Object.entries(s.health || {}).filter(([k,v]) => k.startsWith("list:") && v.error);
             if (dead.length) console.warn("dead lists: " + dead.map(([k,v]) => k+" "+v.error).join("; "));

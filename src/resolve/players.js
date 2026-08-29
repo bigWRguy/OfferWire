@@ -135,12 +135,14 @@ export function parseBio(bio, nowYear = new Date().getUTCFullYear()) {
   const t = ' ' + bio.replace(/\s+/g, ' ') + ' ';
 
   // Class: "2028", "C/O 28", "c/o 2028", "'28"
+  const explicitFull = t.match(/\b(?:class\s+of|c\/?o|class|co)\s*['\u2018\u2019]?\s*(20(?:2[5-9]|3[0-5]))\b/i);
   const full = [...t.matchAll(/\b(20(?:2[5-9]|3[0-5]))\b/g)].map((m) => +m[1])
     .filter((y) => y >= nowYear - 1 && y <= nowYear + 7);
   const short = t.match(/\bc\/?o\s*['\u2018\u2019]?\s*(\d{2})\b/i)
     || t.match(/\bclass of\s*['\u2018\u2019]?\s*(\d{2})\b/i)
     || t.match(/(?:^|[\s|/])['\u2018\u2019](\d{2})\b/);
-  if (full.length) out.classYear = Math.min(...full);
+  if (explicitFull) out.classYear = +explicitFull[1];
+  else if (full.length) out.classYear = Math.min(...full);
   else if (short) {
     const y = 2000 + +short[1];
     if (y >= nowYear - 1 && y <= nowYear + 7) out.classYear = y;
@@ -154,11 +156,18 @@ export function parseBio(bio, nowYear = new Date().getUTCFullYear()) {
   //       "6'2 255|Pos:DL/LB/H|3 Sport Athlete"
   const POS = 'QB|RB|FB|WR|TE|OT|OG|OL|IOL|DL|DE|DT|EDGE|LB|ILB|OLB|CB|DB|S|SAF|ATH|K|P|LS';
   const labelled = t.match(new RegExp(`\\bPos(?:ition)?\\s*[:\\-]\\s*(${POS})\\b`, 'i'));
+  const worded = t.match(/\b(quarterback|running back|wide receiver|tight end|offensive (?:tackle|guard|lineman)|defensive (?:tackle|end|lineman|back)|linebacker|cornerback|safety|long snapper)\b/i);
+  const wordMap = { quarterback: 'QB', 'running back': 'RB', 'wide receiver': 'WR', 'tight end': 'TE',
+    'offensive tackle': 'OT', 'offensive guard': 'OG', 'offensive lineman': 'OL',
+    'defensive tackle': 'DT', 'defensive end': 'DE', 'defensive lineman': 'DL',
+    'defensive back': 'DB', linebacker: 'LB', cornerback: 'CB', safety: 'S', 'long snapper': 'LS' };
   if (labelled) {
     out.position = labelled[1].toUpperCase();
+  } else if (worded) {
+    out.position = wordMap[worded[1].toLowerCase()];
   } else {
-    const positions = [...new Set([...t.matchAll(new RegExp(`\\b(${POS})\\b`, 'gi'))].map((m) => m[1].toUpperCase()))]
-      .filter((p) => !(p === 'S' || p === 'P') || /\/(S|P)\b|\b(S|P)\//.test(t))
+    const positions = [...new Set([...t.matchAll(new RegExp(`\\b(${POS})\\b`, 'g'))].map((m) => m[1].toUpperCase()))]
+      .filter((p) => !['C', 'S', 'K', 'P'].includes(p) || new RegExp(`(?:pos(?:ition)?\\s*[:=-]\\s*${p}\\b|\\b${p}\\s*[/|,]\\s*[A-Z]{1,4}\\b|\\b[A-Z]{1,4}\\s*[/|,]\\s*${p}\\b)`, 'i').test(t))
       // Keep FB only when written as a real position ("RB/FB") or spelled out.
       .filter((p) => p !== 'FB' || /\/\s*FB\b|\bFB\s*\/|\bfullback\b/i.test(t));
     if (positions.length) out.position = positions[0];
@@ -213,9 +222,20 @@ export function looksLikeRecruit(bio, displayName = '') {
 
   // Wrong sport is disqualifying outright — nothing else in the bio can rescue it.
   // ("track" is deliberately absent: nearly every football recruit also runs track.)
+  // Live failure: a 2028 girls' basketball recruit ("5'11 • 3-Guard • 3.8 GPA • ...AAU")
+  // offered by Alabama-Huntsville (D2 women's hoops) passed this check because her bio
+  // never says the word "basketball" — it says "3-Guard" and "AAU", basketball's own
+  // jargon, which the keyword list did not cover.
   if (/\b(basketball|hoops|baseball|softball|soccer|volleyball|lacrosse|hockey|wrestling|golf|tennis)\b/i.test(t) && !hasFootball) {
     return { ok: false, why: 'different sport' };
   }
+  if (/\b\d\s*-\s*(?:guard|forward|center)\b|\b(?:point|shooting)?\s*guard\b|\baau\b/i.test(t) && !hasFootball) {
+    return { ok: false, why: 'different sport' };
+  }
+  if (/\b(?:PG|SG|SF|PF)\b|\b(?:MBB|WBB)\b/i.test(t) && !hasFootball) {
+    return { ok: false, why: 'different sport' };
+  }
+  if (/\bjuco\b|\bjunior college\b/i.test(t)) return { ok: false, why: 'not high-school recruit' };
 
   const info = parseBio(bio);
   const signals = ['classYear', 'position', 'height', 'weight', 'forty', 'stars', 'gpa']
@@ -245,4 +265,23 @@ export function looksLikeRecruit(bio, displayName = '') {
   if (signals < 2 && !hasFootball) return { ok: false, why: 'no recruit fields' };
   if (signals === 0) return { ok: false, why: 'no recruit fields' };
   return { ok: true, signals, info };
+}
+
+/** Convert a decorated X display name into a publishable human name. */
+export function cleanPersonName(raw) {
+  let s = String(raw || '').normalize('NFKC')
+    .replace(/[\u201c\u201d]\s*[\p{L}\p{N}_-]+\s*[\u201c\u201d]/gu, ' ')
+    .replace(/[\u{1F000}-\u{1FAFF}\u2600-\u27BF\uFE0F\u2B50]/gu, ' ')
+    .replace(/\b[1-5]\s*[- ]?\s*stars?\b/gi, ' ')
+    .replace(/\b(?:class\s+of|c\/?o|co)?\s*['\u2018\u2019]?\s*20\d{2}\b/gi, ' ')
+    .replace(/\b(?:class\s+of|c\/?o)\s*['\u2018\u2019]?\s*\d{2}\b/gi, ' ')
+    .replace(/\b(?:QB|RB|FB|WR|TE|OT|OG|OL|IOL|DL|DE|DT|EDGE|LB|ILB|OLB|CB|DB|SAF|ATH|LS|KR|RET)\b.*$/i, ' ')
+    .replace(/[^\p{L}\p{M}'.\- ]/gu, ' ')
+    .replace(/\s+/g, ' ').trim();
+  let words = s.split(' ').filter(Boolean);
+  words = words.filter((w, i) => i === 0 || w.toLowerCase() !== words[i - 1].toLowerCase());
+  if (words.length > 2) words = words.filter((w, i) => i === 0 || i === words.length - 1 || !/^[A-Z]{2,}$/.test(w));
+  if (words.length < 2 || words.length > 4) return null;
+  s = words.map((w) => w.replace(/^\p{L}/u, (c) => c.toUpperCase())).join(' ');
+  return nameKey(s) ? s : null;
 }
