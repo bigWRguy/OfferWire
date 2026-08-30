@@ -116,8 +116,8 @@ you can afford to lose.
 
 ### 2. Push and enable Actions
 
-Four small hourly trigger workflows call `.github/workflows/wire.yml` at :07, :22, :37,
-and :52, install Chromium, and commit the ledger
+Four explicit hourly cron entries run `.github/workflows/wire.yml` at :07, :22, :37,
+and :52; the workflow installs Chromium and commits the ledger
 **first**, then fails the run if the engine is genuinely broken — so a dead session is
 loud in the Actions UI instead of showing green while coverage collapses. A cold ledger
 gets a warm-up grace period so the first runs don't false-alarm.

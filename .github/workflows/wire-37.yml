@@ -1,9 +1,0 @@
-name: offer wire 37
-on:
-  schedule:
-    - cron: '37 * * * *'
-  workflow_dispatch:
-jobs:
-  wire:
-    uses: ./.github/workflows/wire.yml
-    secrets: inherit

@@ -7,12 +7,11 @@ name: offer wire
 # Cadence note: cron on GitHub Actions is best-effort and can drift several minutes
 # under load, which is fine here because every reader deliberately overlaps its window.
 on:
-  workflow_call:
-    inputs:
-      profiles_per_run:
-        type: string
-        required: false
-        default: '0'
+  schedule:
+    - cron: '7 * * * *'
+    - cron: '22 * * * *'
+    - cron: '37 * * * *'
+    - cron: '52 * * * *'
   workflow_dispatch:
     inputs:
       profiles_per_run:
