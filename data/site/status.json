@@ -1,100 +1,84 @@
 {
-  "generatedAt": "2026-08-30T19:28:48.739Z",
+  "generatedAt": "2026-08-30T19:44:06.160Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-08-30T19:28:48.193Z",
+    "at": "2026-08-30T19:44:05.647Z",
     "jobsTotal": 164,
-    "sweptThisRun": 23,
-    "requests": 23,
-    "fullSweepCycles": 8
+    "sweptThisRun": 27,
+    "requests": 27,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
-    "at": "2026-08-30T19:28:48.193Z",
-    "jobsTotal": 13,
-    "sweptThisRun": 13,
-    "requests": 13
+    "at": "2026-08-30T19:44:05.647Z",
+    "jobsTotal": 9,
+    "sweptThisRun": 9,
+    "requests": 9
   },
   "backfill": {
-    "at": "2026-08-30T19:28:48.193Z",
+    "at": "2026-08-30T19:44:05.647Z",
     "days": 30,
     "chunkDays": 30,
     "totalWindows": 136,
-    "completedWindows": 127,
-    "remainingWindows": 9,
+    "completedWindows": 130,
+    "remainingWindows": 6,
     "totalTeamDays": 136,
-    "completedTeamDays": 127,
-    "remainingTeamDays": 9
+    "completedTeamDays": 130,
+    "remainingTeamDays": 6
   },
   "staleSchools": [
     {
       "id": "arkansas",
-      "hours": 74.4
+      "hours": 74.7
     },
     {
       "id": "auburn",
-      "hours": 74.4
+      "hours": 74.7
     },
     {
       "id": "ohio-state",
-      "hours": 54.4
+      "hours": 54.7
     },
     {
       "id": "penn-state",
-      "hours": 54.4
+      "hours": 54.7
     },
     {
       "id": "georgia",
-      "hours": 51.5
+      "hours": 51.7
     },
     {
       "id": "nebraska",
-      "hours": 50.7
+      "hours": 50.9
     },
     {
       "id": "ole-miss",
-      "hours": 43.8
+      "hours": 44
     },
     {
       "id": "tennessee",
-      "hours": 37.7
+      "hours": 37.9
     },
     {
       "id": "kansas",
-      "hours": 34.6
+      "hours": 34.8
     },
     {
       "id": "maryland",
-      "hours": 33.5
+      "hours": 33.7
     },
     {
       "id": "liberty",
-      "hours": 32.6
+      "hours": 32.8
     },
     {
       "id": "navy",
-      "hours": 29.9
-    },
-    {
-      "id": "iowa",
-      "hours": 28.6
+      "hours": 30.1
     },
     {
       "id": "oregon",
-      "hours": 28.3
-    },
-    {
-      "id": "alabama",
-      "hours": 27.9
-    },
-    {
-      "id": "baylor",
-      "hours": 27.9
-    },
-    {
-      "id": "boston-college",
-      "hours": 27.9
+      "hours": 28.5
     },
     {
       "id": "byu",
@@ -102,870 +86,876 @@
     },
     {
       "id": "lsu",
-      "hours": 26.8
-    },
-    {
-      "id": "florida",
-      "hours": 26.3
-    },
-    {
-      "id": "texas-tech",
-      "hours": 26.1
-    },
-    {
-      "id": "temple",
-      "hours": 25.7
+      "hours": 27
     },
     {
       "id": "usc",
-      "hours": 25.5
+      "hours": 25.7
     },
     {
       "id": "virginia",
-      "hours": 25.3
+      "hours": 25.6
     },
     {
       "id": "arizona",
-      "hours": 25.1
+      "hours": 25.3
     },
     {
       "id": "illinois",
-      "hours": 24.9
+      "hours": 25.2
     },
     {
       "id": "oklahoma",
-      "hours": 24.9
-    },
-    {
-      "id": "cincinnati",
-      "hours": 24.7
-    },
-    {
-      "id": "clemson",
-      "hours": 24.7
-    },
-    {
-      "id": "colorado",
-      "hours": 24.7
-    },
-    {
-      "id": "duke",
-      "hours": 24.7
-    },
-    {
-      "id": "florida-state",
-      "hours": 24.7
-    },
-    {
-      "id": "georgia-tech",
-      "hours": 24.7
-    },
-    {
-      "id": "houston",
-      "hours": 24.7
-    },
-    {
-      "id": "iowa-state",
-      "hours": 24.7
+      "hours": 25.2
     },
     {
       "id": "pittsburgh",
-      "hours": 24.7
+      "hours": 25
+    },
+    {
+      "id": "cincinnati",
+      "hours": 24.9
+    },
+    {
+      "id": "clemson",
+      "hours": 24.9
+    },
+    {
+      "id": "colorado",
+      "hours": 24.9
+    },
+    {
+      "id": "duke",
+      "hours": 24.9
+    },
+    {
+      "id": "florida-state",
+      "hours": 24.9
+    },
+    {
+      "id": "georgia-tech",
+      "hours": 24.9
+    },
+    {
+      "id": "houston",
+      "hours": 24.9
+    },
+    {
+      "id": "iowa-state",
+      "hours": 24.9
+    },
+    {
+      "id": "alabama",
+      "hours": 24
+    },
+    {
+      "id": "iowa",
+      "hours": 24
     },
     {
       "id": "notre-dame",
-      "hours": 23.3
+      "hours": 23.5
     },
     {
       "id": "air-force",
-      "hours": 22.6
+      "hours": 22.8
     },
     {
       "id": "akron",
-      "hours": 22.6
+      "hours": 22.8
     },
     {
       "id": "kansas-state",
-      "hours": 22.6
-    },
-    {
-      "id": "louisville",
-      "hours": 22.6
-    },
-    {
-      "id": "nc-state",
-      "hours": 22.6
-    },
-    {
-      "id": "north-carolina",
-      "hours": 22.6
-    },
-    {
-      "id": "oklahoma-state",
-      "hours": 22.6
-    },
-    {
-      "id": "smu",
-      "hours": 22.6
-    },
-    {
-      "id": "stanford",
-      "hours": 22.6
-    },
-    {
-      "id": "syracuse",
-      "hours": 22.6
-    },
-    {
-      "id": "tcu",
-      "hours": 22.6
-    },
-    {
-      "id": "ucf",
-      "hours": 22.6
-    },
-    {
-      "id": "uconn",
-      "hours": 22.6
-    },
-    {
-      "id": "utah",
-      "hours": 22.6
-    },
-    {
-      "id": "virginia-tech",
-      "hours": 22.6
-    },
-    {
-      "id": "west-virginia",
-      "hours": 22.6
+      "hours": 22.8
     },
     {
       "id": "kentucky",
-      "hours": 22.5
+      "hours": 22.8
+    },
+    {
+      "id": "louisville",
+      "hours": 22.8
+    },
+    {
+      "id": "nc-state",
+      "hours": 22.8
+    },
+    {
+      "id": "north-carolina",
+      "hours": 22.8
+    },
+    {
+      "id": "oklahoma-state",
+      "hours": 22.8
+    },
+    {
+      "id": "smu",
+      "hours": 22.8
+    },
+    {
+      "id": "stanford",
+      "hours": 22.8
+    },
+    {
+      "id": "syracuse",
+      "hours": 22.8
+    },
+    {
+      "id": "tcu",
+      "hours": 22.8
+    },
+    {
+      "id": "ucf",
+      "hours": 22.8
+    },
+    {
+      "id": "uconn",
+      "hours": 22.8
+    },
+    {
+      "id": "utah",
+      "hours": 22.8
+    },
+    {
+      "id": "virginia-tech",
+      "hours": 22.8
+    },
+    {
+      "id": "west-virginia",
+      "hours": 22.8
     },
     {
       "id": "california",
-      "hours": 22.3
+      "hours": 22.6
     },
     {
       "id": "rice",
-      "hours": 22.3
+      "hours": 22.6
     },
     {
       "id": "coastal-carolina",
-      "hours": 22
+      "hours": 22.3
     },
     {
       "id": "michigan",
-      "hours": 22
+      "hours": 22.3
     },
     {
       "id": "army",
-      "hours": 21.7
+      "hours": 22
     },
     {
       "id": "washington",
-      "hours": 21.1
+      "hours": 21.3
     },
     {
       "id": "appalachian-state",
-      "hours": 20.6
+      "hours": 20.8
     },
     {
       "id": "ball-state",
-      "hours": 20.6
+      "hours": 20.8
     },
     {
       "id": "boise-state",
-      "hours": 20.6
+      "hours": 20.8
     },
     {
       "id": "bowling-green",
-      "hours": 20.6
+      "hours": 20.8
     },
     {
       "id": "buffalo",
-      "hours": 20.6
+      "hours": 20.8
     },
     {
       "id": "central-michigan",
-      "hours": 20.6
+      "hours": 20.8
     },
     {
       "id": "colorado-state",
-      "hours": 20.6
+      "hours": 20.8
     },
     {
       "id": "delaware",
-      "hours": 20.6
+      "hours": 20.8
     },
     {
       "id": "east-carolina",
-      "hours": 20.6
+      "hours": 20.8
     },
     {
       "id": "eastern-michigan",
-      "hours": 20.6
+      "hours": 20.8
     },
     {
       "id": "florida-atlantic",
-      "hours": 20.6
+      "hours": 20.8
     },
     {
       "id": "florida-international",
-      "hours": 20.6
+      "hours": 20.8
     },
     {
       "id": "fresno-state",
-      "hours": 20.6
+      "hours": 20.8
     },
     {
       "id": "georgia-southern",
-      "hours": 20.6
+      "hours": 20.8
     },
     {
       "id": "georgia-state",
-      "hours": 20.6
+      "hours": 20.8
     },
     {
       "id": "hawaii",
-      "hours": 20.6
+      "hours": 20.8
     },
     {
       "id": "jacksonville-state",
-      "hours": 20.6
+      "hours": 20.8
     },
     {
       "id": "james-madison",
-      "hours": 20.6
+      "hours": 20.8
     },
     {
       "id": "kennesaw-state",
-      "hours": 20.6
+      "hours": 20.8
     },
     {
       "id": "kent-state",
-      "hours": 20.6
+      "hours": 20.8
     },
     {
       "id": "louisiana",
-      "hours": 20.6
+      "hours": 20.8
     },
     {
       "id": "louisiana-monroe",
-      "hours": 20.6
+      "hours": 20.8
     },
     {
       "id": "louisiana-tech",
-      "hours": 20.6
+      "hours": 20.8
     },
     {
       "id": "marshall",
-      "hours": 20.6
+      "hours": 20.8
     },
     {
       "id": "massachusetts",
-      "hours": 20.6
+      "hours": 20.8
     },
     {
       "id": "south-florida",
-      "hours": 19.8
+      "hours": 20.1
     },
     {
       "id": "memphis",
-      "hours": 19
+      "hours": 19.3
     },
     {
       "id": "miami-oh",
-      "hours": 19
+      "hours": 19.3
     },
     {
       "id": "middle-tennessee",
-      "hours": 19
+      "hours": 19.3
     },
     {
       "id": "missouri-state",
-      "hours": 19
+      "hours": 19.3
     },
     {
       "id": "nevada",
-      "hours": 19
+      "hours": 19.3
     },
     {
       "id": "new-mexico",
-      "hours": 19
+      "hours": 19.3
     },
     {
       "id": "new-mexico-state",
-      "hours": 19
+      "hours": 19.3
     },
     {
       "id": "north-texas",
-      "hours": 19
+      "hours": 19.3
     },
     {
       "id": "northern-illinois",
-      "hours": 19
+      "hours": 19.3
     },
     {
       "id": "old-dominion",
-      "hours": 19
+      "hours": 19.3
     },
     {
       "id": "oregon-state",
-      "hours": 19
+      "hours": 19.3
     },
     {
       "id": "sam-houston",
-      "hours": 19
+      "hours": 19.3
     },
     {
       "id": "san-diego-state",
-      "hours": 19
+      "hours": 19.3
     },
     {
       "id": "san-jose-state",
-      "hours": 19
+      "hours": 19.3
     },
     {
       "id": "south-alabama",
-      "hours": 19
+      "hours": 19.3
     },
     {
       "id": "southern-miss",
-      "hours": 19
+      "hours": 19.3
     },
     {
       "id": "texas-state",
-      "hours": 19
+      "hours": 19.3
     },
     {
       "id": "toledo",
-      "hours": 19
+      "hours": 19.3
     },
     {
       "id": "troy",
-      "hours": 19
+      "hours": 19.3
     },
     {
       "id": "tulane",
-      "hours": 19
+      "hours": 19.3
     },
     {
       "id": "tulsa",
-      "hours": 19
+      "hours": 19.3
     },
     {
       "id": "uab",
-      "hours": 19
+      "hours": 19.3
     },
     {
       "id": "unlv",
-      "hours": 19
+      "hours": 19.3
     },
     {
       "id": "utah-state",
-      "hours": 19
+      "hours": 19.3
     },
     {
       "id": "utep",
-      "hours": 19
+      "hours": 19.3
     },
     {
       "id": "michigan-state",
-      "hours": 18.6
+      "hours": 18.8
     },
     {
       "id": "mississippi-state",
-      "hours": 18.6
+      "hours": 18.8
     },
     {
       "id": "utsa",
-      "hours": 18.6
+      "hours": 18.8
     },
     {
       "id": "washington-state",
-      "hours": 18.6
+      "hours": 18.8
     },
     {
       "id": "western-kentucky",
-      "hours": 18.6
+      "hours": 18.8
     },
     {
       "id": "western-michigan",
-      "hours": 18.6
+      "hours": 18.8
     },
     {
       "id": "wyoming",
-      "hours": 18.6
+      "hours": 18.8
     },
     {
       "id": "northwestern",
-      "hours": 18.5
+      "hours": 18.7
     },
     {
       "id": "purdue",
-      "hours": 18.5
+      "hours": 18.7
     },
     {
       "id": "rutgers",
-      "hours": 18.5
+      "hours": 18.7
     },
     {
       "id": "south-carolina",
-      "hours": 18.5
+      "hours": 18.7
     },
     {
       "id": "texas-am",
-      "hours": 18.5
+      "hours": 18.7
     },
     {
       "id": "ucla",
-      "hours": 18
+      "hours": 18.3
     },
     {
       "id": "vanderbilt",
-      "hours": 18
+      "hours": 18.3
     },
     {
       "id": "wisconsin",
-      "hours": 17.8
+      "hours": 18
     },
     {
       "id": "wake-forest",
-      "hours": 17.7
+      "hours": 17.9
     },
     {
       "id": "ohio",
-      "hours": 16.9
+      "hours": 17.1
     },
     {
       "id": "indiana",
-      "hours": 16.8
+      "hours": 17
     },
     {
       "id": "minnesota",
-      "hours": 16
+      "hours": 16.3
+    },
+    {
+      "id": "florida",
+      "hours": 15.6
     },
     {
       "id": "charlotte",
-      "hours": 14.5
+      "hours": 14.7
     },
     {
       "id": "miami",
-      "hours": 6.1
+      "hours": 6.3
+    },
+    {
+      "id": "temple",
+      "hours": 5.3
     },
     {
       "id": "arkansas-state",
-      "hours": 4.6
+      "hours": 4.8
+    },
+    {
+      "id": "texas-tech",
+      "hours": 4.3
     },
     {
       "id": "texas",
-      "hours": 3
+      "hours": 3.3
     }
   ],
   "quality": {
-    "completeOffers": 415,
+    "completeOffers": 423,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-08-30T19:28:48.192Z",
-      "got": 677,
-      "new": 181,
-      "lag": 0.02
+      "at": "2026-08-30T19:44:05.645Z",
+      "got": 740,
+      "new": 209,
+      "lag": 0.01
     }
   },
   "audit": {
-    "at": "2026-08-30T19:26:12.886Z",
+    "at": "2026-08-30T19:41:17.291Z",
     "mode": "all",
     "collection": {
-      "returned": 677,
-      "kept": 181,
-      "duplicate": 494,
+      "returned": 740,
+      "kept": 209,
+      "duplicate": 529,
       "tooOld": 2,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 128,
-      "rejected": 53,
+      "accepted": 160,
+      "rejected": 49,
       "reasons": {
-        "no_fbs_school": 28,
-        "no_offer_term": 20,
-        "hard_negative": 5
+        "no_offer_term": 25,
+        "no_fbs_school": 17,
+        "hard_negative": 7
       },
       "samples": [
         {
+          "reason": "no_offer_term",
+          "postId": "2087942829611876354",
+          "author": "25yearsagolive",
+          "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
+          "text": "A flight school in Minnesota, the Pan Am Academy, alerts the FBI that some students who took classes on immigrant visas have been asking “suspicious questions” about low-altitude, high-velocity flight. One student, Zacarias Moussaoui, keeps"
+        },
+        {
           "reason": "no_fbs_school",
-          "postId": "2084965303679701248",
-          "author": "eagameover",
-          "searchJob": "backfill:v2:liberty:2026-07-31:2026-08-30",
-          "text": "GOOD MORNING , beautiful fighting souls . Happy Wednesday !! \"Wishing you a Wednesday filled with positivity, gratitude, and all the good things life has to offer. We shall pray 🤲🏻 We come before You this Morning , standing on Your Word a"
+          "postId": "2087962276338782276",
+          "author": "isaiahjarvis_1",
+          "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
+          "text": "After a great visit with coach Hocker, I am excited to receive an offer from Western Oklahoma State College @wosc_baseball_ https://t.co/NFEv8wf7pD"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2087948711510884597",
+          "author": "archbishopokc",
+          "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
+          "text": "My statement on the execution of Carlos Cuesta-Rodriguez: As a proud resident of this great state, I am disheartened as the State of Oklahoma continues along an ominous path, carrying out executions with a frequency and regularity that plac"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2087936027457683945",
+          "author": "pokeokc",
+          "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
+          "text": "Oklahoma State offers C/O 2028 ⭐️⭐️⭐️⭐️ RB Noble Williams from (Alexandria HS) Alexandria, LA Holds additional offers from Alabama, LSU, Tennessee, Texas and several others #Gopokes 🤠"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2087910767123173612",
+          "author": "huskersmn",
+          "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
+          "text": "Mozee of course was a long time Oregon commit but his other offers were elite as well: Oklahoma, Michigan, A&amp;M, Georgia, Notre Dame, Missouri, LSU, Tennessee, Alabama, Penn State, Ole Miss, South Carolina"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2084951965931385095",
-          "author": "abike1999",
-          "searchJob": "backfill:v2:liberty:2026-07-31:2026-08-30",
-          "text": "Thats definitely an American girl farming content and you know it too lmfao why are you people like this"
+          "postId": "2087217651693330437",
+          "author": "kevinsjuts",
+          "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
+          "text": "Isaiah Mozee played in all 13 games for the #Huskers as a freshman last season. The Kansas City native is contending for Nebraska's starting RB job. Looks smooth during Fall Camp. @1011_News https://t.co/ikkXElcxlE"
         },
         {
-          "reason": "hard_negative",
-          "postId": "2088630494694924347",
-          "author": "brentkemnitz",
+          "reason": "no_fbs_school",
+          "postId": "2087885153443995734",
+          "author": "lucca_reinehr",
           "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
-          "text": "Backroads reflections in Tonkawa, Oklahoma of Northern Oklahoma JC (NOC) 😎 My ONE and ONLY basketball offer as a senior at Perry HS in 1974 🏀 https://t.co/RK01O6eNkB"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2088627018577391919",
-          "author": "baseballinpix",
-          "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
-          "text": "Mickey Mantle the high school basketball player. Mantle excelled in baseball, basketball, and football, later declining a scholarship offer to play football at the University of Oklahoma. https://t.co/N8KBfB9ep5"
+          "text": "Blessed to receive an offer from Northern Oklahoma College! https://t.co/0pJ0jkGS2f"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2088205044214878506",
-          "author": "marilou40447350",
-          "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
-          "text": "The Unholy Truth About Pope Leo XIV https://t.co/4CK48Y7pPc via @YouTube"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2088289547696132099",
-          "author": "winningintheusa",
-          "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
-          "text": "REP. JIM SHAW ENDORSES MIKE MAZZEI FOR GOVERNOR “Oklahoma Needs a Committed Conservative, Not a Slick Talking Trial Attorney” Chandler, OK — State Representative Jim Shaw, R-Chandler, endorses Mike Mazzei for Governor, saying Mazzei is the "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2088254929408262312",
-          "author": "haym00se",
-          "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
-          "text": "Fortunately, several of us @HarrahPantherFB guys have a team of coaches at the next level who like what they see from us as a unit & as individual contributors. Thank you to @coachbamdbs @jasonbrown230 @CoachBStro @papagopumas for the offer"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2088244645130010815",
-          "author": "owengregorian",
-          "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
-          "text": "The US Is Recruiting Gamers to Help Fix Its Air Traffic Control Crisis. That May Not Be As Crazy As It Sounds | Mihai Andrei, ZME Science America has an air traffic controller shortage and is struggling to fill it. So, it took to the gaming"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2092328689543369087",
-          "author": "duanerice10",
+          "postId": "2092226434186006874",
+          "author": "telefootball",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "@thenayvuiiiton If it’s a one time deal then no. If it’s a several times a week thing then yes. The fact is that this person doesn’t have to provide you with a ride. Then you would be paying for an uber or something each day anyways. Point "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2092281304679092570",
-          "author": "courtstewart639",
-          "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "@Bingo3200 @fwletua I'm sure why you say hateful things like that but the rest of us are getting worried about you and your mental health. You seem unstable, has anyone offered you support?"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2090086941413065090",
-          "author": "gautam_adani",
-          "searchJob": "backfill:v2:temple:2026-07-31:2026-08-30",
-          "text": "पवित्र महुडी जैन तीर्थ में आज प्रीति, करण और परिधि के साथ दर्शन का सौभाग्य मिला। जीवन में कुछ क्षण ऐसे आते हैं जब मन सहज ही कृतज्ञता से झुक जाता है। आस्था के लिए, हर परीक्षा में मिली शक्ति के लिए और उन आशीर्वादों के लिए कृतज्ञ हूं जो हमें न"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2090222394183241787",
-          "author": "zghostbook",
-          "searchJob": "backfill:v2:temple:2026-07-31:2026-08-30",
-          "text": "https://t.co/XlhKtnoFWC"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2090142636686418157",
-          "author": "chitrader",
-          "searchJob": "backfill:v2:texas-tech:2026-07-31:2026-08-30",
-          "text": "$UBER launches autonomous rides in Europe via Zagreb with Verne and https://t.co/Acx7rPBSlc $PONY"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2090104319890628847",
-          "author": "afkheroesxyz",
-          "searchJob": "backfill:v2:texas-tech:2026-07-31:2026-08-30",
-          "text": "15,000,000 solana:9kwT8gUEMKQhnmc4mVb2iUAybfjzvVMM5LwffKFcpump just got added to AFK Heroes leaderboards. 🏆 Season — 20M · Top 50 💳 Most Spenders — 5M · Top 20 👑 Most Boss Kills — 5M · Top 20 ⚡ Power Level — 5M · Top 20 35M total. Four r"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2090125536060190978",
-          "author": "hederacommunity",
-          "searchJob": "backfill:v2:texas-tech:2026-07-31:2026-08-30",
-          "text": "Effisend is turning high-traffic venues into smart hubs — payments, biometric identity, and AI. Our new Article breaks down the stack: HTS for venue tokens, HCS for event ordering, HSCS for automated vendor settlement. #Hedera #SmartVenues "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2087555831730503859",
-          "author": "sunrise",
-          "searchJob": "backfill:v2:troy:2026-07-31:2026-08-30",
-          "text": "https://t.co/TnXfB8pufy"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2087430397734916191",
-          "author": "troystechermuse",
-          "searchJob": "backfill:v2:troy:2026-07-31:2026-08-30",
-          "text": "Offer is still on the table @Springer4MVP"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2087421740553040171",
-          "author": "troystechermuse",
-          "searchJob": "backfill:v2:troy:2026-07-31:2026-08-30",
-          "text": "@Springer4MVP @RedSox Shake ass and I might tell you😉"
+          "text": "Paul Scholes has told Bruno Fernandes to “keep your mouth shut” after the Manchester United captain attacked his own side’s display in their defeat at Hull City. Fernandes accused United of making the “same mistakes as we did last season” a"
         },
         {
           "reason": "hard_negative",
-          "postId": "2087403688134357242",
-          "author": "ouchmytoe",
-          "searchJob": "backfill:v2:troy:2026-07-31:2026-08-30",
-          "text": "Since my father was in the Army, my mother brought us up almost single-handedly (except for a few 3-year periods in between, when we lived with my dad). When your father is posted in some border area and comes home only on leave, the mother"
+          "postId": "2092222325881967094",
+          "author": "airina_xyz",
+          "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
+          "text": "Would you like a bag? Seedance 2.5 in @DomoAI_ Prompt: SCENE CONTEXT Night, a small convenience store, one continuous situation in four shots. @Image 1 has eleven items on the counter. @Image 2 asks whether he wants a bag. He declines — pol"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2087336623532880187",
-          "author": "cyber_o51nt",
-          "searchJob": "backfill:v2:troy:2026-07-31:2026-08-30",
-          "text": "Check Point Research documented Lazarus’ Operation Dream Job campaign evolving with a zero-day AFD.sys exploit (CVE-2026-68820), trojanized PDF viewers, RelayShell C2 infrastructure, and the new Troy backdoor. https://t.co/vhOf8jc1Uh"
+          "postId": "2092172429221060832",
+          "author": "altegog378169",
+          "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
+          "text": "日本酒ガールズ – SAKE GIRLS 今回のテーマは「仙禽 純米吟醸夏生酒 かぶとむし 無濾過生原酒」 特徴・味わい・香り・雰囲気を女の子で表現しました。 一番の特徴：レモンやライムを思わせる爽やかな酸味を中心に、無濾過生原酒ならではの瑞々しいフレッシュ感と米の旨味を軽快に楽しめる、個性的な夏酒。 香り：レモンやライム、青りんご、マスカットを思わせる、みずみずしく透明感のある爽やかな果実香。 味わい：フレッシュで軽快な口当たりから柔らかな甘味と米の旨味が広がり、キュッとし"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2087288273677005062",
-          "author": "apmex",
+          "postId": "2090075059301851166",
+          "author": "nithinpalal",
+          "searchJob": "backfill:v2:temple:2026-07-31:2026-08-30",
+          "text": "Knowledge doesn’t survive on servers. It survives only when living minds refuse to forget. Vyāsa wasn’t just a compiler—he was civilisation’s immune system against amnesia. #Vyasa #CivilisationalMemory #Dharma #EpistemicSovereignty https://"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2090100460506292434",
+          "author": "oldzhen",
+          "searchJob": "backfill:v2:texas-tech:2026-07-31:2026-08-30",
+          "text": "美国财政部于2026年8月19日宣布，将长期名义国债的流动性支持回购规模翻倍，从20亿美元调至至少40亿美元，新规于9月9日生效。 从财政部加倍回购法案通过到 9 月正式生效之前对资产的短期敏感度排序为：加密货币（AI及弹性山寨币）&gt;美股高估值成长股&gt;黄金&gt;比特币现货 https://t.co/zsbAOsS4ak"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2090095900508962967",
+          "author": "el_divis",
+          "searchJob": "backfill:v2:texas-tech:2026-07-31:2026-08-30",
+          "text": "Timur Turlov answers four questions about his FIDE presidential bid and his vision for the future of world chess https://t.co/AMh1uVBgCK"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2090094533644071232",
+          "author": "thegreatest_sv",
+          "searchJob": "backfill:v2:texas-tech:2026-07-31:2026-08-30",
+          "text": "https://t.co/a0Vss0jpPL"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2090091734185148443",
+          "author": "cardano",
+          "searchJob": "backfill:v2:texas-tech:2026-07-31:2026-08-30",
+          "text": "https://t.co/DPNXFmzhMA"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2090087891234152454",
+          "author": "browningarms",
+          "searchJob": "backfill:v2:texas-tech:2026-07-31:2026-08-30",
+          "text": "https://t.co/2sC0vnUdKV"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2090085902001610783",
+          "author": "michlieben",
+          "searchJob": "backfill:v2:texas-tech:2026-07-31:2026-08-30",
+          "text": "https://t.co/ipTvwDbxNg"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2086920275371974699",
+          "author": "athanasius_45",
           "searchJob": "backfill:v2:troy:2026-07-31:2026-08-30",
-          "text": "https://t.co/di1tYhMJ1H"
+          "text": "https://t.co/dN43qQRLUq"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2086887132224749990",
+          "author": "hayesfawcett3",
+          "searchJob": "backfill:v2:troy:2026-07-31:2026-08-30",
+          "text": "NEWS: Four-Star LB Brayton Feister will announce his Commitment on Friday, August 14th, he tells me for @Rivals The 6’3 245 LB is the Top Uncommitted Recruit in the 2027 Class He’ll choose between Cal, Georgia, Ohio State, and Oregon https:"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2086862008301814180",
+          "author": "fa_vee0",
+          "searchJob": "backfill:v2:troy:2026-07-31:2026-08-30",
+          "text": "https://t.co/wPCTXCJMhs"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2087278573031707030",
-          "author": "troyonchain",
+          "postId": "2086822902343647395",
+          "author": "troyriser",
           "searchJob": "backfill:v2:troy:2026-07-31:2026-08-30",
-          "text": "Okay i read this whole thing twice. let me walk through it. What the actual hell is this essay? Ansem is laundering liquidity pre taxes Wintermute is secretly draining the chart without anyone noticing $MANLET exists purely to extract liqui"
+          "text": "@libsoftiktok Indy, our state capital, is ran by Democrats in an otherwise GOP-dominant state. I don't offer that up as an excuse for the sorry state of our city, but as an explanation. I'm frankly ashamed of our state government &amp; its "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2087067991833755744",
-          "author": "tmtheog",
-          "searchJob": "backfill:v2:troy:2026-07-31:2026-08-30",
-          "text": "$ANSEM ponzi scheme explained https://t.co/cRE8K8YJbM"
+          "postId": "2094060075140911510",
+          "author": "casey_lundquist",
+          "searchJob": "byu",
+          "text": "Caught up with newest BYU RB target @FilisiFilipe. Filipe is averaging 228 rushing yards per game in three games for Herriman High School ⬇️ https://t.co/XbM7bhQ9hV"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2086928659374297479",
-          "author": "brownsonsani1",
-          "searchJob": "backfill:v2:troy:2026-07-31:2026-08-30",
-          "text": "Day 58 of posting about @goldfishggbr until TGE I’ve been thinking about why gold still feels like an old-school asset to most people. Honestly, gold was never the problem. Access was. Gold has spent centuries doing one job really well: pre"
+          "reason": "hard_negative",
+          "postId": "2094139757408453075",
+          "author": "neal070724",
+          "searchJob": "alabama",
+          "text": "WHY SHOULD LINDSAY CLANSY GET A PASS FOR KILLING HER THREE CHILDREN, BUT NONE OF THESE KILLERS GOT OFF, EVEN THOUGH THEY SOUGHT HELP FOR THEIR MENTAL HEALTH ISSUES. *** Should everyone be found NOT GUILTY if they can prove they sought help "
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2094139648469573868",
+          "author": "neal070724",
+          "searchJob": "alabama",
+          "text": "WHY SHOULD LINDSAY CLANSY GET A PASS FOR KILLING HER THREE CHILDREN, BUT NONE OF THESE KILLERS GOT OFF, EVEN THOUGH THEY SOUGHT HELP FOR THEIR MENTAL HEALTH ISSUES. *** Should everyone be found NOT GUILTY if they can prove they sought help "
         }
       ]
     },
     "extraction": {
-      "accepted": 5,
-      "rejected": 123,
+      "accepted": 8,
+      "rejected": 152,
       "reasons": {
-        "bare_mention_requires_llm": 27,
-        "multiple_resolved_schools": 25,
-        "school_not_resolved_confidently": 68,
-        "author_not_recruit:different sport": 1,
-        "reporter_missing_player_name": 1,
-        "reporter_missing_position": 1
+        "bare_mention_requires_llm": 20,
+        "multiple_resolved_schools": 22,
+        "author_not_recruit:no recruit fields": 2,
+        "school_not_resolved_confidently": 108
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2084963722662179145",
-          "author": "kjsingh2",
+          "postId": "2084872115598029283",
+          "author": "realmikolson",
           "searchJob": "backfill:v2:liberty:2026-07-31:2026-08-30",
-          "text": "A MUST READ IN IE TODAY Ashok Lal and Naseeruddin Shah write: The making of miniature citizens — and Gen Z’s pushback By removing the intense debates and the absolute diversity of thought within the freedom struggle, the state ensures that "
+          "text": "We MUST understand this: The government—and certainly not the Constitution—does not grant your rights. It RECOGNIZES and SAFEGUARDS preexisting rights. In the American tradition, those rights are understood to come from God and belong to ev"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2084962787235934407",
-          "author": "kjsingh2",
-          "searchJob": "backfill:v2:liberty:2026-07-31:2026-08-30",
-          "text": "Ashok Lal and Naseeruddin Shah write: The making of miniature citizens — and Gen Z’s pushback By removing the intense debates and the absolute diversity of thought within the freedom struggle, the state ensures that a child never learns how"
+          "postId": "2088069086261784591",
+          "author": "costcoaching1",
+          "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
+          "text": "⭐️ ATHLETE SPOTLIGHT ⭐️ Brady Francisco | Grand Canyon University ⚾️🔥 Brady has been putting in the work with Costello Coaching and the results speak for themselves. ⚡ 60-yard: 7.3 ➡️ 6.7 💥 Exit Velo: +7 MPH 💪 Throwing Velo: +5 MPH ⏱️ Po"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2084953285685920159",
-          "author": "jake_oncall",
-          "searchJob": "backfill:v2:liberty:2026-07-31:2026-08-30",
-          "text": "Here’s a compiled list of Caribbean soul food or fusion spots across the US. In Florida, you have Sunshine Soulfood Cafe in Orlando, blending American soul food with Jamaican and Haitian influences. Yardie Spice in Homestead serves both Jam"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2084951320704782436",
-          "author": "emerson_knives",
-          "searchJob": "backfill:v2:liberty:2026-07-31:2026-08-30",
-          "text": "Today is the day! The third knife in the Liberty &amp; Freedom Collection, the 1776, launches exclusively to ECA members at 6:00 PM PST. If inventory remains after the ECA release, it may be offered to the public at a later time. https://t."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2084942073015271522",
-          "author": "tntjohn1717",
-          "searchJob": "backfill:v2:liberty:2026-07-31:2026-08-30",
-          "text": "full review of God’s character before finishing the drink. After Marah came Elim, where there were twelve fountains of water and seventy palm trees. The same God who led Israel to bitter water led them next to abundant refreshment. Marah wa"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2084913457745260987",
-          "author": "keziah0x",
-          "searchJob": "backfill:v2:liberty:2026-07-31:2026-08-30",
-          "text": "World Liberty Financial is being sued by one of its biggest investors. The billionaire blowing the whistle on Trump's crypto is Justin Sun (@justinsuntron ), who is alleging fraud against World Liberty Financial, the Trump family's crypto f"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2088685594142789663",
-          "author": "northstarweld",
+          "postId": "2088068177615868105",
+          "author": "ewtnews",
           "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
-          "text": "@HueyDial @lporiginalg Yeah, I grew up in the 90s with Ruby Ridge, Waco and then Oklahoma City. The moment someone uses \"conspiracy theory\" as an insult I know they are either retarded or a fed. Either way they offer nothing of substance an"
+          "text": "Oklahoma City Archbishop Paul Coakley this week lamented Oklahoma’s execution of a condemned murderer, calling for prayers for both the killer’s victims and the killer himself while urging a “more humane form of justice.” The state on Aug. "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2088060657145135173",
+          "author": "diegomayra",
+          "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
+          "text": "Zacarias Moussaoui (9/11 hijacker [alive]) was using the credentials and passwords provided to him by Nico Berg, a Jewish American, who offered it to him completely coincidentally on a shared bus ride near Univ of Oklahoma. Later Nico Berg "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2088684617217851682",
-          "author": "parkerthune",
+          "postId": "2088053319025770541",
+          "author": "josh_scoop",
           "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
-          "text": "2028 Piedmont (Okla.) ATH King Underwood owns early offers from Tennessee and Tulane. The #Sooners are monitoring... and the 6-foot-4, 215-pounder has significant family ties to Oklahoma. “My grandpa Choo Kennedy, he was an OU [basketball] "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2088485879669010819",
-          "author": "oklahomansports",
-          "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
-          "text": "OU football coach Brent Venables offers updates on Trell Harris and more https://t.co/6P5auy5mys"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2088448844765843533",
-          "author": "josiahmarti76",
-          "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
-          "text": "THE UNHOLY TRUTH ABOUT POPE LEO XIV From Anthony Stine, 14 August 2026, Return to Tradition ———————————————- \"Some sought to make deals with his regime that history will look back upon as a betrayal.\" 0:29 PRAYER FOR FATHER CHAD RIPPERGER’S"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2088371134655812033",
-          "author": "colton_sulley",
-          "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
-          "text": "“He got behind the defense and made an explosive play down the field today.” #Sooners coach Brent Venables offered an update on WR Trell Harris on Friday and said he’s seeing “unit pride for the first time in a few years” with the receivers"
-        },
-        {
-          "reason": "author_not_recruit:different sport",
-          "postId": "2088333422595080551",
-          "author": "thekarissadavis",
-          "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
-          "text": "I’m very grateful to say I have been blessed with an offer from Oklahoma City University! Thank you @HGTV2 for a great conversation and the opportunity to continue my basketball career #blessed #OCU @Northmen_WBB @thehighimpact https://t.co"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2088326204046619053",
-          "author": "colton_sulley",
-          "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
-          "text": "Brent Venables had little to offer on injuries today, which is good news for #Sooners fans. The most significant update: sounds like Trell Harris is seeing the field more and made a big play today. https://t.co/WXGWT9anHV"
+          "text": "#Sooners WR offer Carter St. Junious (@Carterkuttinup) getting warm before a scrimmage in the Houston suburbs. We are so back!!! https://t.co/J4rROQ0ewg"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2088314832499925340",
-          "author": "mason_young_0",
+          "postId": "2087950349818622069",
+          "author": "b_hoss_mac",
           "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
-          "text": "Brent Venables didn’t have much in the way of injury updates today (no news, good news) but did offer that Trell Harris made an explosive play in 7-on-7 today. Virginia transfer getting back at it for #Sooners. https://t.co/U5yX9W798x"
+          "text": "Alexandria ‘28 RB Noble Williams adds two P4 offers today in Ole Miss and Oklahoma State. Williams is the No. 2 back in the country in the 2028 class, according to @247Sports. #cenlapreps #LAvsAY"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2088255533950079041",
-          "author": "collinrugg",
+          "reason": "bare_mention_requires_llm",
+          "postId": "2087701753034674619",
+          "author": "tfloss32",
           "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
-          "text": "For the first time in 16 years, the United States has carried out three executions by lethal injection in a single day. Alabama: Jeremy Williams was executed for the 2021 r*pe and murder of a 5-year-old girl. On the gurney, he said: “I want"
+          "text": "'28 RB/WR Jayshawn Mitchell (@JAYMITCH_1) of San Antonio Brennan adds an Oklahoma State offer. #GoPokes https://t.co/YlgnjOpaRc https://t.co/dIVehi2ULM 𝕏 @BasoreCoach | @BFNDFball"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2087660404260659290",
+          "author": "recruitzonehq",
+          "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
+          "text": "🚨 OFFER WIRE 🚨 5⭐️ Jordan Page (@jpagefive) 2027 | IMG Academy (FL) | 6’5 SG @ESPN/@SCNext #11 overall | @247Sports #9 overall ➜ Oklahoma State (@OSUMBB)"
+        },
+        {
+          "reason": "author_not_recruit:no recruit fields",
+          "postId": "2087230338787365365",
+          "author": "jpagefive",
+          "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
+          "text": "Blessed to have received an offer from Oklahoma State University @OSUMBB Thank you to the entire staff for giving me this opportunity. https://t.co/p0e7OaRtC8"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2083057256992473593",
+          "author": "wpxi",
+          "searchJob": "backfill:v2:pittsburgh:2026-07-31:2026-08-30",
+          "text": "Pittsburgh Public Schools offers free program providing services to teen parents https://t.co/CA4nehIeiR https://t.co/ygKaYol3uy"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2092334914301559268",
-          "author": "holysmackdaddy",
+          "postId": "2092269450812674373",
+          "author": "imprivbr0",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "🏖️ Ready-to-eat canned rice offers hassle-free storage. 923125. For beginners: expert advice on how to rapidly get the hang of production tasks! https://t.co/doNzPjye2v"
+          "text": "some player of the year just remember when he lifts that award later it will be the most insulting winner since foden a player who offers absolutely nothing significant for his TEAM just his own numbers hell would freeze over before an arti"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2092329166804799665",
-          "author": "weplayfpl",
+          "postId": "2092265352864408036",
+          "author": "soullight777",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "🚨 The Times reports Al Hilal have offered Gabriel Martinelli over $16.4m (£12m) a year to leave Arsenal. With Saudi tax meaning he could keep it all, he’d dwarf Arsenal’s current top earners, including Ødegaard and Rice. #EPL https://t.co/"
+          "text": "The Difference Between CBD Oil Full Spectrum and CBD Oil Isolate There is CBD Oil that is organic, as some claim. But many of its natural elements are extracted from it, and is heavily processed. In particular the THC, which by the way has "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2092327590036169085",
-          "author": "polls26wb",
+          "postId": "2092262704429826547",
+          "author": "analystadekola",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "One thing you got wrong is that Churchill DELIBERATELY KILLED those 3m ppl to stop Bengal from rising up to join the INA PROOF? When #Netaji offered to send shiploads of rice from Burma - Churchill refused. Hence DELIBERATE COLD BLOODED MAS"
+          "text": "Some of you are not really pained about the present governance of the country, you're just angry that the 5k and one cup of rice didn't get to you. If you see a political offer from the party you don't like, you'll collect with the speed of"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2092327480824574370",
-          "author": "blitzoba",
+          "postId": "2092250385532559665",
+          "author": "lisahondaeleme1",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "@Onionniinja @afrisagacity You do realize these roads have been bad for over 10 years 🤦🏽 Both the current &amp; two past haven’t done a thing. Apc, Pdp are lootets who have nothing serious to offer aside occasionally crumbs, rice and oil"
+          "text": "@NotaliaMateo Offer them free flights to China, Iran and Palestine. Throw in a few gift vouchers for rice &amp; burkas."
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2092320407613522056",
-          "author": "erozii48ikuiku",
+          "postId": "2092245606810951790",
+          "author": "yuneedmo",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "⬛Master German Vocabulary, acquired 586,034 words — Canned rice offers easy storage. https://t.co/lS39jgL0Zk"
+          "text": "@afrisagacity After serving as Governor for 8 years, Senior for 4 years and a vice president for 3 years, rice is what Shetima has to offer his people. Shame!"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2092320305968787561",
-          "author": "obaderby",
+          "postId": "2092245384068493823",
+          "author": "himalaytrekker",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "you worried over an headless chicken. we need specialist.. the team is suffering Iraola obviously doesn’t have balls to lead this team yet. he’s playing too nice. szoboszlai offers nothing! a tired declan rice who we still saw at the world "
+          "text": "Shri Virupaksheshwara Mahadev today's Pradosha Alankara from Hampi 🪷 Pradosha Māhatmyam The time between 4.30 and 6.00 in the evening of trayodashi (13th day of lunar fortnight) during both the shukla paksha (bright fortnight) and krishna "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2092320093028172060",
-          "author": "miku_student",
+          "postId": "2092240594613518619",
+          "author": "lowkey_strong",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "For her very first taste, she had bulgogi—paper-thin beef soaked in a blend of soy, garlic, and sugar, cooked on the grill until just right, accompanied by rice and kimchi. The meat was soft and rich in flavor, the marinade offered a balanc"
+          "text": "🚨 COMPARISON: Declan Rice vs Bruno Fernandes, 2025/26 all competitions! 💫 Declan Rice: 👕 68 games | 🌟 21 G/A | ⚽️ 8 goals | 🅰️ 13 assists Bruno Fernandes: 👕 51 games | 🌟 38 G/A | ⚽️ 13 goals | 🅰️ 25 assists Bruno has the numbers, bu"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2092313827077398798",
-          "author": "lauraokereafor",
+          "postId": "2092238355161374823",
+          "author": "postandcourier",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "@yabaleftonline Why exactly are you people offended fr?If you eat fried rice everyday and someone offers to buy you fried rice on your birthday,it won’t be special to you cos you probably used to it.However,that it isn’t special doesn’t equ"
+          "text": "Sushi-Wa offers a traditional omakase, a Japanese format that features a multi-course meal mostly made up of nigiri, or raw fish sliced and set over rice. How does it stack up to other omakase destinations like it? https://t.co/UvikbsnJmK"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2092312609810944113",
-          "author": "peeeeeekoooooo",
+          "postId": "2092236821354643742",
+          "author": "namadi08",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "🏗 Pre-packaged rice offers easy, long-term storage. Use sincere, constructive input to refine your approach, treating setbacks as helpful signals rather than final verdicts. Come back with sharper tactics, and let feedback reveal strengths"
+          "text": "@musernyak0r @najeebabubakarb Politician offer job for his kid but he declined.. There was a time when they sent over 80 bags of rice and kept them at his parking spot. He came back from work, opened the gate, and started sharing the rice w"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2092232400273023257",
+          "author": "khimji",
+          "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
+          "text": "@BBCSport Everyone is not for sale until, the right offer comes in. He could stay for 1 more season and be given a chance to fight for his new position. Rice, Bruno, Zubi and Myles as a team of 6 an 8s is enough. All bring something differe"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2092228045213929912",
+          "author": "vendorsrepost",
+          "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
+          "text": "@flawlessdazzol @Tprosper233 End of the month sales people of just osogbo, satisfy your cravings with our deluxe jollof rice for just 4k Don't miss this offer 😋😋 Good sales ma'am 😍😍"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2092223254308040935",
+          "author": "chasscene",
+          "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
+          "text": "Sushi-Wa offers a traditional omakase, a Japanese format that features a multi-course meal mostly made up of nigiri, or raw fish sliced and set over rice. How does it stack up to other omakase destinations like it? https://t.co/bmUmn0NE6W"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2092207101011448198",
+          "author": "luluhyperbh",
+          "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
+          "text": "Say hello to Welcome Back offers! 📞🥛🍚 Milk, water, rice &amp; more — all at prices you'll love. 🗓️Till 9 September #LuLuBahrain #Welcomeback #HappyAtLuLu https://t.co/7APoSUa88K"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2092194273466659254",
+          "author": "mzansifeelings",
+          "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
+          "text": "This is where we need to look at, we had the same issue, bread is so expensive - we now bake our own bread, 3 cups of all purpose flour, 1 teaspoon salt, 2 teaspoon dry yeast, 2 teaspoon sugar - mix well, rest for 3 hours and bake for 20 to"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 177,
+      "jobs": 173,
       "swept": 36,
       "failed": 0,
       "requests": 36,
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 5,
-      "rejectedCandidates": 123,
-      "brandNewOffers": 4
+      "acceptedEvidence": 8,
+      "rejectedCandidates": 152,
+      "brandNewOffers": 8
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-08-30T19:28:48.740Z"
+    "status rebuilt locally from current store on 2026-08-30T19:44:06.160Z"
   ]
 }
