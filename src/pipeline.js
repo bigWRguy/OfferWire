@@ -19,9 +19,17 @@ const now = () => new Date().toISOString();
 const cfg = (f) => JSON.parse(fs.readFileSync(path.join(CONFIG, f), 'utf8'));
 
 const BACKFILL_DAYS = Math.max(0, Number(process.env.OFFERWIRE_BACKFILL_DAYS || 0));
+// The backfill window is anchored to an early run, but draining 30 days x 136 schools
+// takes days at the live pipe's history share. The old cap — BACKFILL_DAYS+1 days FROM
+// NOW — silently discarded any post older than that the moment it arrived, so the oldest
+// day of an anchored window (which oldest-first backfill sweeps FIRST) aged out before
+// the sweep ever reached the days that were still worth having: the drain "ran" while the
+// ledger gained nothing. BACKFILL_GRACE_DAYS stretches the cut so the WHOLE anchored
+// window stays eligible for the entire drain, no matter how slowly the pipe is running.
+const BACKFILL_GRACE_DAYS = Math.max(0, Number(process.env.OFFERWIRE_BACKFILL_GRACE_DAYS || 15));
 const RECENCY_HOURS = Math.max(
   Number(process.env.OFFERWIRE_RECENCY_HOURS || 96),
-  BACKFILL_DAYS ? (BACKFILL_DAYS + 1) * 24 : 0,
+  BACKFILL_DAYS ? (BACKFILL_DAYS + BACKFILL_GRACE_DAYS) * 24 : 0,
 );
 
 /** Schools whose per-school sweep watermark has fallen behind, worst first. */

@@ -138,10 +138,15 @@ export function allJobs() {
  * forever without completing it. Live watermarks cover everything after this anchor.
  */
 export function backfillAnchorDate(state, fallback = new Date()) {
-  const candidate = state.backfillAnchorAt || state.firstRunAt;
+  // OFFERWIRE_BACKFILL_ANCHOR (repo variable or env) re-anchors the window with no state
+  // surgery and no race with an in-flight wire run. It is committed into state on first
+  // use, so deleting the variable later keeps the window where this run put it.
+  const envAnchor = process.env.OFFERWIRE_BACKFILL_ANCHOR;
+  const candidate = envAnchor || state.backfillAnchorAt || state.firstRunAt;
   const parsed = candidate ? new Date(candidate) : new Date(fallback);
   const anchor = Number.isFinite(parsed.getTime()) ? parsed : new Date(fallback);
-  state.backfillAnchorAt ||= anchor.toISOString();
+  // Commit the anchor into state so a later run without the variable keeps this window.
+  state.backfillAnchorAt = anchor.toISOString();
   return anchor;
 }
 

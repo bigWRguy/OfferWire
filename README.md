@@ -104,6 +104,17 @@ first run so completed work cannot fall out when the calendar advances. The sepa
 backfill workflow is manual-only because scheduling it beside the live job would make
 both jobs compete for the same 15-minute X quota.
 
+**One-time burst (get a month baseline fast).** Set two repo variables for a day or two,
+then delete them: `OFFERWIRE_BACKFILL_SHARE=0.8` raises history's share of every window
+from 25% to the code's 80% cap (a single credential then drains ~4,000 slices in
+roughly 1.5-2 days instead of a week), and `OFFERWIRE_BACKFILL_ANCHOR=<YYYY-MM-DD[T]HH:mm:ssZ>`
+re-points the window at the most recent 30 days. The anchor is committed into
+`data/state.json` the first time it is seen, so you can delete the anchor variable once
+it has fired; the share variable just returns the steady drip to 25% when deleted.
+A built-in 15-day grace (`OFFERWIRE_BACKFILL_GRACE_DAYS`, default 15) keeps even the
+oldest slice of an anchored window eligible for the ledger for the whole drain, so
+backfilled posts are never thrown away for being old on arrival.
+
 ---
 
 ## Setup
