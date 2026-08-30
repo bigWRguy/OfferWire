@@ -78,15 +78,15 @@ advances only as far as was actually read — never to "now" — so a busy progr
 silently lose a day.
 
 Rate limit is ~50 search requests per 15-minute window per account. Against 164 live jobs
-on a 10-minute cron:
+on four independent quarter-hour schedulers:
 
 | Sessions | Full sweep of all 136 schools |
 |---|---|
 | 1 | ~90 min |
-| 2 | ~60 min |
+| 2 | ~45 min |
 | 3 | ~30 min |
-| 4 | ~20 min |
-| 7 | ~10 min |
+| 4 | ~23 min |
+| 6 | ~15 min |
 
 `node scripts/coverage.mjs N` prints this for your actual config. Running out of budget
 mid-sweep is normal and is reported as such — it is not treated as a failure.
@@ -95,8 +95,8 @@ mid-sweep is normal and is reported as such — it is not treated as a failure.
 
 `OFFERWIRE_BACKFILL_DAYS=30` adds one job per school per past day (136 × 30 = 4,080
 slices), so the ledger starts populated instead of empty. Slices are fixed date windows,
-resumable, and marked complete once done. Half of each run's budget goes to backlog and
-half to the live feed (`OFFERWIRE_BACKFILL_SHARE`), so history never starves today.
+resumable, and marked complete once done. Backfill runs in its own workflow four times a
+day, so history never consumes the live wire's request budget.
 
 ---
 
@@ -116,7 +116,8 @@ you can afford to lose.
 
 ### 2. Push and enable Actions
 
-`.github/workflows/wire.yml` runs every 10 minutes, installs Chromium, commits the ledger
+Four small hourly trigger workflows call `.github/workflows/wire.yml` at :07, :22, :37,
+and :52, install Chromium, and commit the ledger
 **first**, then fails the run if the engine is genuinely broken — so a dead session is
 loud in the Actions UI instead of showing green while coverage collapses. A cold ledger
 gets a warm-up grace period so the first runs don't false-alarm.
@@ -153,7 +154,8 @@ inferred. Three paths, most reliable first:
    recruit filter. Confidence 0.45.
 
 Ambiguity never becomes a guess: two unknown tagged accounts means no attribution at all.
-A bare mention is accepted only when a tagged recruit vouches for it.
+Bare mentions are archived but never published in rules-only mode; they require LLM
+adjudication because a tagged account alone proved too noisy in the live archive.
 
 **LLM extraction** (`src/extract/llm.js`) is an optional extra pass, inert unless
 `ANTHROPIC_API_KEY` is set. Its system prompt carries all 136 schools and is byte-stable
@@ -191,7 +193,7 @@ Duplicates are recoverable; wrong merges are not.
 ```bash
 npm run wire         # one full cycle
 npm run health       # live search probe, per-school staleness, session validity
-npm run selftest     # 77 offline assertions
+npm run selftest     # 97 offline assertions
 node scripts/coverage.mjs 3    # latency math for a 3-session pool
 node scripts/fixture-run.mjs   # ledger: dedupe, corroboration, offer dating
 node scripts/replay.mjs        # re-extract the archive offline (no search budget spent)

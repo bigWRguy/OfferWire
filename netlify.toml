@@ -9,7 +9,7 @@
 [build.environment]
   NODE_VERSION = "22"
 
-# The wire data changes every 10 minutes; never let a CDN pin it.
+# The wire data changes on quarter-hour runs; never let a CDN pin it.
 [[headers]]
   for = "/*.json"
   [headers.values]
