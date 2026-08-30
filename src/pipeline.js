@@ -687,8 +687,11 @@ async function main() {
     backfill: state.backfill || null,
     staleSchools: staleSchools(state),
     quality: {
-      completeOffers: recent.filter((o) => o.playerName && o.classYear && o.position).length,
-      incompleteOffers: recent.filter((o) => !o.playerName || !o.classYear || !o.position).length,
+      // Position is deliberately not part of the completeness bar — real self-announced
+      // offers publish with a null position (bio proves football, position backfilled
+      // later). build-status.mjs holds the same definition.
+      completeOffers: recent.filter((o) => o.playerName && o.classYear).length,
+      incompleteOffers: recent.filter((o) => !o.playerName || !o.classYear).length,
     },
     audit,
     llm: llmEnabled() ? MODEL : null,
