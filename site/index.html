@@ -3,47 +3,269 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>OfferWire - FBS football offers</title>
+<title>OfferWire</title>
 <style>
-:root{--bg:#090d12;--panel:#101720;--panel2:#151e29;--text:#eef3f8;--muted:#8fa0b3;--line:#243140;--accent:#65d58a;--warn:#ffbd59;--bad:#ff6b6b;--blue:#73b7ff}
-*{box-sizing:border-box}body{margin:0;background:linear-gradient(145deg,#0d1520 0,#090d12 42%);color:var(--text);font:14px/1.45 Inter,ui-sans-serif,system-ui,-apple-system,sans-serif;min-height:100vh}
-.shell{max-width:1500px;margin:auto;padding:24px}.top{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:18px}.brand h1{font-size:25px;letter-spacing:-.04em;margin:0}.brand h1 span{color:var(--accent)}.brand p{color:var(--muted);margin:4px 0 0}.fresh{color:var(--muted);text-align:right;font-size:12px}
-.alert{display:none;border:1px solid color-mix(in srgb,var(--warn),transparent 55%);background:#2a2114;color:#ffd898;border-radius:10px;padding:11px 14px;margin-bottom:16px}.alert.bad{border-color:#6d3034;background:#291417;color:#ffb0b0}
-.metrics{display:grid;grid-template-columns:repeat(5,minmax(120px,1fr));gap:10px;margin-bottom:16px}.metric{background:rgba(16,23,32,.92);border:1px solid var(--line);border-radius:10px;padding:13px 14px}.metric b{display:block;font-size:22px;letter-spacing:-.04em}.metric span{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
-.controls{display:flex;gap:8px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--line);border-radius:10px 10px 0 0;padding:11px}input,select{background:#0b1118;color:var(--text);border:1px solid var(--line);padding:8px 10px;border-radius:6px;font:inherit}input{min-width:270px;flex:1}label{color:var(--muted);display:flex;align-items:center;gap:6px;padding:0 6px}label input{min-width:auto;flex:none}
-.table-wrap{overflow:auto;border:1px solid var(--line);border-top:0;border-radius:0 0 10px 10px;background:rgba(16,23,32,.9)}table{border-collapse:collapse;width:100%;min-width:1050px}th{text-align:left;padding:10px 12px;color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.1em;border-bottom:1px solid var(--line);background:#101720;position:sticky;top:0}td{padding:11px 12px;border-bottom:1px solid #1c2733;vertical-align:top}tr:hover td{background:#141e29}.player{font-weight:700}.handle,.sub,.source{font-size:12px;color:var(--muted)}.school{font-weight:650}.pill{display:inline-block;border:1px solid var(--line);border-radius:99px;padding:2px 7px;font-size:11px}.verified{color:var(--accent);border-color:#275d3d}.single{color:var(--warn);border-color:#624d25}a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}.empty{padding:50px 18px;text-align:center;color:var(--muted)}.foot{display:flex;justify-content:space-between;color:var(--muted);font-size:11px;margin-top:12px;gap:16px}
-@media(max-width:750px){.shell{padding:14px}.top{align-items:flex-start;flex-direction:column}.fresh{text-align:left}.metrics{grid-template-columns:repeat(2,1fr)}.metric:last-child{grid-column:span 2}.controls{border-radius:10px}.table-wrap{border-top:1px solid var(--line);border-radius:10px;margin-top:10px}input{width:100%;min-width:100%}}
+:root{--bg:#0a0e13;--s1:#111820;--s2:#192230;--s3:#1e293b;--t1:#dce4ec;--t2:#7e8fa6;--t3:#4d5e72;--g:#3fb950;--a:#d29922;--r:#f85149;--b:#58a6ff;--l:#212a36;--lh:#2b3647;--f-mono:ui-monospace,SFMono-Regular,"Cascadia Code","Fira Code",Consolas,monospace;--f-sans:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:14px;-webkit-font-smoothing:antialiased}
+body{background:var(--bg);color:var(--t1);font-family:var(--f-sans);min-height:100vh;padding:20px 24px}
+.app{max-width:1280px;margin:0 auto}
+.hdr{display:flex;align-items:center;justify-content:space-between;margin-bottom:2px}
+.hdr h1{font-size:17px;font-weight:700;letter-spacing:-.02em;font-family:var(--f-mono)}
+.hdr h1 i{color:var(--g);font-style:normal}
+.dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:6px;vertical-align:1px}
+.dot.g{background:var(--g);box-shadow:0 0 6px rgba(63,185,80,.5)}
+.dot.a{background:var(--a);box-shadow:0 0 6px rgba(210,153,34,.5)}
+.dot.r{background:var(--r);box-shadow:0 0 6px rgba(248,81,73,.5)}
+.hdr .meta{font-size:12px;color:var(--t2);display:flex;align-items:center;gap:12px}
+.alert{display:none;padding:8px 12px;border-radius:5px;margin-bottom:8px;font-size:13px;line-height:1.4}
+.alert.on{display:block}
+.alert.warn{background:#1b180f;border:1px solid #3d3518;color:#e5c07b}
+.alert.bad{background:#1b0f10;border:1px solid #3d1820;color:#f0a0a0}
+.stats{display:flex;gap:18px;padding:6px 0 10px;font-size:12px;color:var(--t2)}
+.stats b{color:var(--t1);font-family:var(--f-mono);font-weight:600;margin-right:2px}
+.fbar{display:flex;gap:6px;align-items:center;flex-wrap:wrap;padding:8px 10px;background:var(--s1);border:1px solid var(--l);border-radius:6px 6px 0 0;margin-bottom:-1px}
+.fbar input,.fbar select{background:var(--bg);color:var(--t1);border:1px solid var(--l);padding:5px 8px;border-radius:4px;font-size:13px;font-family:inherit;outline:none}
+.fbar input:focus,.fbar select:focus{border-color:var(--b)}
+.fbar input{min-width:220px;flex:1}
+.fbar select{min-width:0;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%237e8fa6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 7px center;padding-right:22px}
+.fbar label{display:flex;align-items:center;gap:4px;font-size:12px;color:var(--t2);cursor:pointer;white-space:nowrap;user-select:none}
+.fbar label input[type=checkbox]{min-width:auto;flex:none;accent-color:var(--b)}
+.fbar .btns{display:flex;gap:4px}
+.fbar .btn{background:var(--s2);color:var(--t2);border:1px solid var(--l);padding:5px 10px;border-radius:4px;font-size:12px;cursor:pointer;font-family:inherit;white-space:nowrap}
+.fbar .btn:hover{color:var(--t1);border-color:var(--t3)}
+.fbar .btn.on{background:var(--b);color:#000;border-color:var(--b);font-weight:600}
+.list-wrap{border:1px solid var(--l);border-radius:0 0 6px 6px;background:var(--s1);overflow:hidden}
+.row{border-bottom:1px solid var(--l);cursor:pointer;transition:background .08s}
+.row:last-child{border-bottom:0}
+.row:hover{background:var(--s2)}
+.row.expanded{background:var(--s2)}
+.row .r-outer{padding:8px 12px}
+.row .r-main{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+.row .r-time{font-family:var(--f-mono);font-size:11px;color:var(--t3);min-width:38px;flex-shrink:0}
+.row .r-name{font-weight:700;color:var(--t1);font-size:14px}
+.row .r-name .cp{cursor:pointer;opacity:0;margin-left:3px;font-size:12px;color:var(--t3);vertical-align:1px}
+.row:hover .r-name .cp{opacity:1}
+.row .r-name .cp:hover{color:var(--b)}
+.row .r-meta{font-size:12px;color:var(--t2);display:flex;align-items:center;gap:4px}
+.row .r-meta .sep{color:var(--l);font-weight:100;margin:0 1px}
+.row .r-htwt{color:var(--b);font-family:var(--f-mono)}
+.row .r-hs{color:var(--t2)}
+.row .r-stars{color:var(--a)}
+.row .r-sub{display:flex;align-items:baseline;gap:5px;flex-wrap:wrap;margin-top:3px}
+.row .r-school{font-weight:600;color:var(--t1);font-size:13px}
+.row .r-conf{font-size:11px;color:var(--t3);font-family:var(--f-mono)}
+.row .r-ver{font-size:11px;display:flex;align-items:center;gap:3px}
+.row .r-ver .vd{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.row .r-ver .vd.verified{background:var(--g)}
+.row .r-ver .vd.single{background:var(--a)}
+.row .r-ver span{color:var(--t2)}
+.row .r-src{font-family:var(--f-mono);font-size:11px;color:var(--t3)}
+.row .r-detail{display:none;padding:10px 12px 12px;border-top:1px solid var(--l);background:rgba(0,0,0,.15)}
+.row.expanded .r-detail{display:block}
+.r-detail h4{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--t3);margin-bottom:6px}
+.r-detail .bio-line{font-size:12px;color:var(--t2);margin-bottom:4px;word-break:break-word}
+.r-detail .evidence-item{background:var(--s1);border:1px solid var(--l);border-radius:4px;padding:8px 10px;margin-bottom:6px;font-size:12px}
+.r-detail .evidence-item .ev-meta{font-size:11px;color:var(--t3);margin-bottom:4px;display:flex;gap:8px;flex-wrap:wrap}
+.r-detail .evidence-item .ev-meta a{color:var(--b);text-decoration:none}
+.r-detail .evidence-item .ev-meta a:hover{text-decoration:underline}
+.r-detail .evidence-item .ev-text{color:var(--t2);line-height:1.45;word-break:break-word}
+.ft{display:flex;justify-content:space-between;padding:10px 0 0;font-size:11px;color:var(--t3);gap:8px}
+.ft kbd{font-family:var(--f-mono);border:1px solid var(--l);border-radius:3px;padding:0 4px;font-size:10px;background:var(--s1)}
+.empty{padding:58px 18px;text-align:center;color:var(--t3);font-size:14px}
 </style>
 </head>
-<body><main class="shell">
-  <div class="top"><div class="brand"><h1>Offer<span>Wire</span></h1><p>New FBS football scholarship offers, sourced from the original posts.</p></div><div class="fresh" id="fresh">Loading latest run...</div></div>
-  <div class="alert" id="alert"></div>
-  <section class="metrics">
-    <div class="metric"><b id="mOffers">-</b><span>verified offers</span></div>
-    <div class="metric"><b id="mPlayers">-</b><span>players</span></div>
-    <div class="metric"><b id="mNew">-</b><span>new this run</span></div>
-    <div class="metric"><b id="mSchools">-</b><span>FBS programs</span></div>
-    <div class="metric"><b id="mCoverage">-</b><span>schools stale &gt;2h</span></div>
-  </section>
-  <div class="controls">
-    <input id="q" placeholder="Search player, handle, school, high school...">
-    <select id="cls"><option value="">All classes</option></select>
-    <select id="pos"><option value="">All positions</option></select>
-    <select id="conf"><option value="">All conferences</option></select>
-    <label><input type="checkbox" id="corr"> 2+ sources</label>
+<body>
+<div class="app">
+
+<div class="hdr">
+  <h1>Offer<i>Wire</i></h1>
+  <div class="meta"><span id="status-dot"></span><span id="fresh"></span></div>
+</div>
+
+<div class="alert" id="alert"></div>
+
+<div class="stats" id="stats"></div>
+
+<div class="fbar">
+  <input id="q" placeholder="Search player, school, handle, high school..." autocomplete="off">
+  <select id="school"><option value="">All schools</option></select>
+  <select id="cls"><option value="">All classes</option></select>
+  <select id="pos"><option value="">All positions</option></select>
+  <select id="conf"><option value="">All conferences</option></select>
+  <label><input type="checkbox" id="corr"> 2+ sources</label>
+  <div class="btns" id="tbtns">
+    <button class="btn on" data-h="all">All</button>
+    <button class="btn" data-h="24">24h</button>
+    <button class="btn" data-h="6">6h</button>
+    <button class="btn" data-h="1">1h</button>
   </div>
-  <div class="table-wrap"><table><thead><tr><th>Reported</th><th>Player</th><th>Class</th><th>Pos</th><th>High school</th><th>Offered by</th><th>Conference</th><th>Verification</th><th>Evidence</th></tr></thead><tbody id="rows"></tbody></table><div class="empty" id="empty" hidden>No verified offers match these filters.</div></div>
-  <div class="foot"><span id="shown"></span><span>Auto-refreshes every 5 minutes. Evidence links open the source post.</span></div>
-</main>
+</div>
+
+<div class="list-wrap" id="list"></div>
+
+<div class="ft">
+  <span id="shown"></span>
+  <span>Auto-refresh 5m · <kbd>/</kbd> search <kbd>Esc</kbd> clear <kbd>R</kbd> refresh</span>
+</div>
+
+</div>
 <script>
-const $=id=>document.getElementById(id);let DATA=[],STATUS={};
+const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const ago=iso=>{if(!iso)return 'never';const m=Math.max(0,(Date.now()-new Date(iso))/60000);if(m<60)return Math.round(m)+'m ago';if(m<1440)return Math.round(m/60)+'h ago';return Math.round(m/1440)+'d ago'};
-const safeUrl=u=>{try{const x=new URL(u);return ['x.com','twitter.com'].includes(x.hostname)?x.href:'#'}catch{return '#'}};
-function fill(id,values){const el=$(id),old=el.value;el.querySelectorAll('option:not(:first-child)').forEach(x=>x.remove());[...new Set(values.filter(Boolean))].sort((a,b)=>String(a).localeCompare(String(b),undefined,{numeric:true})).forEach(v=>el.insertAdjacentHTML('beforeend',`<option value="${esc(v)}">${esc(v)}</option>`));el.value=old}
-function render(){const q=$('q').value.toLowerCase().trim(),cls=$('cls').value,pos=$('pos').value,conf=$('conf').value,corr=$('corr').checked;const rows=DATA.filter(o=>{if(cls&&String(o.classYear)!==cls)return false;if(pos&&o.position!==pos)return false;if(conf&&o.conference!==conf)return false;if(corr&&(o.corroborations||1)<2)return false;const hay=[o.playerName,o.playerHandle,o.schoolName,o.highSchool,o.state].join(' ').toLowerCase();return !q||hay.includes(q)});
-$('rows').innerHTML=rows.slice(0,1000).map(o=>{const ev=(o.evidence||[])[0],n=o.corroborations||1,verified=n>1;return `<tr><td title="${esc(o.offeredAt)}">${ago(o.offeredAt)}</td><td><div class="player">${esc(o.playerName)}</div><div class="handle">${o.playerHandle?'@'+esc(o.playerHandle):''}</div></td><td>${esc(o.classYear)}</td><td><span class="pill">${esc(o.position)}</span></td><td>${esc(o.highSchool||'-')}<div class="sub">${esc(o.state||'')}</div></td><td class="school">${esc(o.schoolName)}</td><td>${esc(o.conference)}</td><td><span class="pill ${verified?'verified':'single'}">${verified?n+' sources':'single source'}</span></td><td class="source">${ev?`<a href="${esc(safeUrl(ev.url))}" target="_blank" rel="noopener">@${esc(ev.author)}</a>`:'-'}</td></tr>`}).join('');$('empty').hidden=rows.length>0;$('shown').textContent=`Showing ${Math.min(rows.length,1000)} of ${DATA.length} verified offers`}
-function health(w){const age=(Date.now()-new Date(w.generatedAt||0))/60000,stale=(STATUS.staleSchools||[]).length,alert=$('alert');$('fresh').textContent=`Data ${ago(w.generatedAt)} | last search ${ago(STATUS.searchCoverage?.at)}`;$('mCoverage').textContent=stale;let msg='',bad=false;if(age>45){msg=`The published feed is stale (${ago(w.generatedAt)}). The collector or deployment is not updating.`;bad=true}else if(!STATUS.searchConfigured){msg='X search is not configured; national coverage is offline.';bad=true}else if(stale>20){msg=`Coverage is degraded: ${stale} FBS programs have not been searched in more than two hours.`}if(msg){alert.textContent=msg;alert.className='alert'+(bad?' bad':'');alert.style.display='block'}else alert.style.display='none'}
-async function load(){try{const stamp=Date.now(),[wr,sr]=await Promise.all([fetch(`wire.json?t=${stamp}`,{cache:'no-store'}),fetch(`status.json?t=${stamp}`,{cache:'no-store'})]);if(!wr.ok)throw new Error('wire '+wr.status);const w=await wr.json();STATUS=sr.ok?await sr.json():{};DATA=(w.offers||[]).filter(o=>o.playerName&&o.classYear&&o.position);$('mOffers').textContent=DATA.length;$('mPlayers').textContent=new Set(DATA.map(o=>o.playerId)).size;$('mNew').textContent=w.counts?.newThisRun??0;$('mSchools').textContent=new Set(DATA.map(o=>o.schoolId)).size;fill('cls',DATA.map(o=>String(o.classYear)));fill('pos',DATA.map(o=>o.position));fill('conf',DATA.map(o=>o.conference));health(w);render()}catch(e){const a=$('alert');a.textContent='Could not load the live wire: '+e.message;a.className='alert bad';a.style.display='block'}}
-['q','cls','pos','conf','corr'].forEach(id=>$(id).addEventListener('input',render));load();setInterval(load,5*60*1000);
+const ago=iso=>{if(!iso)return'—';const m=Math.max(0,(Date.now()-new Date(iso))/60000);if(m<2)return'1m';if(m<60)return Math.round(m)+'m';if(m<1440)return Math.round(m/60)+'h';return Math.round(m/1440)+'d'};
+const safeUrl=u=>{try{const x=new URL(u);return['x.com','twitter.com'].includes(x.hostname)?x.href:'#'}catch{return'#'}};
+
+const confColors={SEC:'#ffb85c',B1G:'#5c9fff',ACC:'#ff5c5c',B12:'#5cff96',AAC:'#b05cff',MW:'#ff5cb0',SBC:'#5cd6ff',CUSA:'#ffd65c',MAC:'#5cffe4'};
+
+let DATA=[],STATUS={},hourFilter='all',expandId=null;
+
+function fillSelect(id,values){
+  const el=$(id),old=el.value;
+  while(el.options.length>1)el.remove(1);
+  [...new Set(values.filter(Boolean))].sort((a,b)=>String(a).localeCompare(String(b),undefined,{numeric:true}))
+    .forEach(v=>{const o=document.createElement('option');o.value=v;o.textContent=v;el.appendChild(o)});
+  el.value=old;
+}
+
+function copyText(txt){navigator.clipboard.writeText(txt).catch(()=>{})}
+
+function toggleRow(id){
+  const was=expandId;
+  expandId=expandId===id?null:id;
+  if(was)document.querySelector('.row.expanded')?.classList.remove('expanded');
+  if(expandId)document.querySelector('[data-oid="'+expandId+'"]')?.classList.add('expanded');
+}
+
+function htwt(p){if(!p)return'';const parts=[];if(p.height)parts.push(p.height);if(p.weight)parts.push(p.weight);return parts.join(' ')}
+function stars(p){if(!p||!p.stars)return'';return'★'.repeat(Math.min(5,p.stars))}
+
+function render(){
+  const q=$('q').value.toLowerCase().trim(),cls=$('cls').value,pos=$('pos').value;
+  const conf=$('conf').value,corr=$('corr').checked,school=$('school').value;
+  let rows=DATA;
+  if(hourFilter!=='all'){
+    const cutoff=Date.now()-parseInt(hourFilter)*3600000;
+    rows=rows.filter(o=>new Date(o.offeredAt).getTime()>=cutoff);
+  }
+  if(q)rows=rows.filter(o=>[o.playerName,o.playerHandle,o.schoolName,o.highSchool,o.state,o.position,o.conference].join(' ').toLowerCase().includes(q));
+  if(cls)rows=rows.filter(o=>String(o.classYear)===cls);
+  if(pos)rows=rows.filter(o=>o.position===pos);
+  if(conf)rows=rows.filter(o=>o.conference===conf);
+  if(school)rows=rows.filter(o=>o.schoolId===school);
+  if(corr)rows=rows.filter(o=>(o.corroborations||1)>=2);
+  rows.sort((a,b)=>new Date(b.offeredAt)-new Date(a.offeredAt));
+
+  const html=rows.slice(0,1000).map(o=>{
+    const ev=o.evidence||[],n=o.corroborations||1,verified=n>1;
+    const p=o.player||{};
+    const ht=htwt(p),st=stars(p);
+    const tint=confColors[o.conference]||null;
+    const oid=esc(o.id);
+
+    let metaParts=[];
+    if(o.position)metaParts.push('<span>'+esc(o.position)+'</span>');
+    if(o.classYear)metaParts.push('<span class="sep">&middot;</span><span>\''+String(o.classYear).slice(-2)+'</span>');
+    if(ht)metaParts.push('<span class="sep">&middot;</span><span class="r-htwt">'+esc(ht)+'</span>');
+    if(st)metaParts.push('<span class="sep">&middot;</span><span class="r-stars">'+esc(st)+'</span>');
+    if(o.highSchool)metaParts.push('<span class="sep">&middot;</span><span class="r-hs">'+esc(o.highSchool)+'</span>');
+    if(o.state)metaParts.push('<span class="sep">&middot;</span><span class="r-hs">'+esc(o.state)+'</span>');
+
+    const evItems=ev.map(e=>'<div class="evidence-item"><div class="ev-meta"><a href="'+esc(safeUrl(e.url))+'" target="_blank" rel="noopener">@'+esc(e.author)+'</a><span>'+ago(e.postedAt)+'</span><span>via '+esc(e.via||'')+'</span></div><div class="ev-text">'+esc(e.text||'')+'</div></div>').join('');
+
+    let bioLines='';
+    if(p.bio)bioLines+='<div class="bio-line">Bio: '+esc(p.bio)+'</div>';
+    if(p.gpa)bioLines+='<div class="bio-line">GPA: '+p.gpa+'</div>';
+
+    var row='<div class="row" data-oid="'+oid+'" onclick="toggleRow(\''+oid+'\')"><div class="r-outer"><div class="r-main"><span class="r-time" title="'+esc(o.offeredAt)+'">'+ago(o.offeredAt)+'</span><span class="r-name">'+esc(o.playerName)+'<span class="cp" onclick="event.stopPropagation();copyText(\''+esc(o.playerName).replace(/'/g,"\\'")+'\')" title="Copy name">📋</span></span><span class="r-meta">'+metaParts.join('')+'</span></div><div class="r-sub"><span class="r-school"'+(tint?' style="color:'+tint+'"':'')+'>'+esc(o.schoolName)+'</span><span class="r-conf">'+esc(o.conference)+'</span><span class="r-ver"><span class="vd '+(verified?'verified':'single')+'"></span><span>'+(verified?n+' sources':'single source')+'</span></span>'+(o.playerHandle?'<span class="r-src">@'+esc(o.playerHandle)+'</span>':'')+'</div></div><div class="r-detail"><h4>Evidence ('+ev.length+' post'+(ev.length!==1?'s':'')+')</h4>'+evItems+(bioLines?'<h4 style="margin-top:10px">Player Details</h4>'+bioLines:'')+'</div></div>';
+    return row;
+  }).join('');
+
+  $('list').innerHTML=html||'<div class="empty">No offers match these filters.</div>';
+  $('shown').textContent='Showing '+Math.min(rows.length,1000)+' of '+DATA.length+' offers';
+}
+function updateStats(){
+  var offers=DATA.length;
+  var players=new Set(DATA.map(function(o){return o.playerId})).size;
+  var schools=new Set(DATA.map(function(o){return o.schoolId})).size;
+  var lastSearch=STATUS.searchCoverage&&STATUS.searchCoverage.at;
+  $('stats').innerHTML='<span><b>'+offers+'</b> offers</span><span><b>'+players+'</b> players</span><span><b>'+schools+'</b> programs</span><span><b>'+ago(lastSearch)+'</b> last search</span>';
+}
+
+function updateStatus(){
+  var age=(Date.now()-new Date(DATA.length?DATA[0]&&DATA[0].lastSeenAt||0:0||0))/60000;
+  var stale=(STATUS.staleSchools||[]).length;
+  var dot=$('status-dot'),fresh=$('fresh');
+  var dotCls='g',freshTxt='live';
+  if(!STATUS.searchConfigured){dotCls='r';freshTxt='offline';}
+  else if(age>45||stale>20){dotCls='a';freshTxt='degraded';}
+  dot.className='dot '+dotCls;
+  fresh.textContent=freshTxt+' · updated '+ago(STATUS.generatedAt);
+  var alert=$('alert');
+  var msg='',bad=false;
+  if(age>45){msg='Data is stale ('+ago(STATUS.generatedAt)+'). The collector or deployment may be stuck.';bad=true}
+  else if(!STATUS.searchConfigured){msg='X search is not configured. National coverage is offline.';bad=true}
+  else if(stale>20){msg='Coverage degraded: '+stale+' programs unswept >2h.';}
+  alert.className='alert'+(msg?' '+(bad?'bad':'warn')+' on':'');
+  alert.textContent=msg||'';
+}
+
+async function load(){
+  try{
+    var t=Date.now();
+    var results=await Promise.all([
+      fetch('wire.json?t='+t,{cache:'no-store'}),
+      fetch('status.json?t='+t,{cache:'no-store'})
+    ]);
+    var wr=results[0],sr=results[1];
+    if(!wr.ok)throw new Error('wire '+wr.status);
+    var w=await wr.json();
+    STATUS=sr.ok?await sr.json():{};
+    DATA=(w.offers||[]).filter(function(o){return o.playerName&&o.classYear&&o.position});
+    if(expandId){
+      var still=DATA.find(function(o){return o.id===expandId});
+      if(!still)expandId=null;
+    }
+    fillSelect('cls',DATA.map(function(o){return String(o.classYear)}));
+    fillSelect('pos',DATA.map(function(o){return o.position}));
+    fillSelect('conf',DATA.map(function(o){return o.conference}));
+    var schoolMap=new Map();
+    DATA.forEach(function(o){schoolMap.set(o.schoolId,o.schoolName)});
+    var schEl=$('school'),schOld=schEl.value;
+    while(schEl.options.length>1)schEl.remove(1);
+    var entries=Array.from(schoolMap.entries()).sort(function(a,b){return a[1].localeCompare(b[1])});
+    entries.forEach(function(pair){
+      var opt=document.createElement('option');opt.value=pair[0];opt.textContent=pair[1];schEl.appendChild(opt);
+    });
+    schEl.value=schOld;
+    updateStats();updateStatus();render();
+  }catch(e){
+    var a=$('alert');
+    a.textContent='Could not load data: '+e.message;
+    a.className='alert bad on';
+  }
+}
+
+['q','cls','pos','conf','corr','school'].forEach(function(id){
+  $(id).addEventListener(id==='corr'?'change':'input',function(){expandId=null;render()});
+});
+
+$('tbtns').addEventListener('click',function(e){
+  var btn=e.target.closest('button');
+  if(!btn)return;
+  hourFilter=btn.dataset.h;
+  document.querySelectorAll('#tbtns .btn').forEach(function(b){b.classList.toggle('on',b===btn)});
+  expandId=null;render();
+});
+
+document.addEventListener('keydown',function(e){
+  var tag=e.target.tagName;
+  if(tag==='INPUT'||tag==='SELECT'||tag==='TEXTAREA')return;
+  if(e.key==='/'){e.preventDefault();$('q').focus();$('q').select()}
+  if(e.key==='Escape'){$('q').value='';$('cls').value='';$('pos').value='';$('conf').value='';$('corr').checked=false;$('school').value='';hourFilter='all';document.querySelectorAll('#tbtns .btn').forEach(function(b){b.classList.toggle('on',b.dataset.h==='all')});expandId=null;render()}
+  if(e.key==='r'||e.key==='R'){e.preventDefault();load()}
+});
+
+load();
+setInterval(load,5*60*1000);
 </script></body></html>
