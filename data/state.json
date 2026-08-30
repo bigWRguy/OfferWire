@@ -2962,17 +2962,20 @@
     "2093909239316259072",
     "2093910437024665625",
     "2093909358832673169",
-    "2093908025199235266"
+    "2093908025199235266",
+    "2093912955293151363",
+    "2093911706124611855",
+    "2093912864729817162"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-08-30T03:58:59.571Z",
-      "got": 779,
-      "new": 4,
-      "lag": 0.06
+      "at": "2026-08-30T04:14:06.184Z",
+      "got": 742,
+      "new": 3,
+      "lag": 0.14
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -3062,7 +3065,7 @@
     "kentucky": {
       "at": "2026-08-29T12:32:24.000Z",
       "truncated": true,
-      "lastPosts": 21
+      "lastPosts": 22
     },
     "backfill:air-force:2026-07-29": {
       "at": "2026-08-28T01:26:40.996Z",
@@ -3073,7 +3076,7 @@
     "lsu": {
       "at": "2026-08-28T21:51:32.000Z",
       "truncated": true,
-      "lastPosts": 24
+      "lastPosts": 23
     },
     "backfill:akron:2026-07-29": {
       "at": "2026-08-28T01:26:40.996Z",
@@ -3137,9 +3140,9 @@
       "truncated": true
     },
     "missouri": {
-      "at": "2026-08-29T01:30:01.000Z",
+      "at": "2026-08-29T01:50:15.000Z",
       "truncated": true,
-      "lastPosts": 21
+      "lastPosts": 18
     },
     "nebraska": {
       "at": "2026-08-28T16:47:34.000Z",
@@ -3636,7 +3639,7 @@
     "kansas": {
       "at": "2026-08-29T08:54:14.432Z",
       "truncated": true,
-      "lastPosts": 30
+      "lastPosts": 29
     },
     "kansas-state": {
       "at": "2026-08-29T20:54:14.432Z",
@@ -3986,7 +3989,7 @@
     "ohio": {
       "at": "2026-08-29T12:29:02.679Z",
       "truncated": true,
-      "lastPosts": 23
+      "lastPosts": 22
     },
     "old-dominion": {
       "at": "2026-08-30T00:29:02.679Z",
@@ -4134,7 +4137,7 @@
     "class:2028": {
       "at": "2026-08-29T12:53:25.185Z",
       "truncated": true,
-      "lastPosts": 32
+      "lastPosts": 33
     },
     "class:2029": {
       "at": "2026-08-29T12:53:25.185Z",
@@ -4890,28 +4893,86 @@
       "truncated": true,
       "cursorUntil": "2026-07-28T14:00:13.000Z",
       "completed": false
+    },
+    "backfill:uab:2026-07-28": {
+      "at": "2026-08-30T04:11:09.043Z",
+      "lastPosts": 2,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:ucf:2026-07-28": {
+      "at": "2026-08-30T04:11:09.043Z",
+      "lastPosts": 11,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:ucla:2026-07-28": {
+      "at": "2026-08-30T04:11:09.043Z",
+      "lastPosts": 22,
+      "truncated": true,
+      "cursorUntil": "2026-07-28T15:57:53.000Z",
+      "completed": false
+    },
+    "backfill:uconn:2026-07-28": {
+      "at": "2026-08-30T04:11:09.043Z",
+      "lastPosts": 22,
+      "truncated": true,
+      "cursorUntil": "2026-07-28T18:29:53.000Z",
+      "completed": false
+    },
+    "backfill:unlv:2026-07-28": {
+      "at": "2026-08-30T04:11:09.043Z",
+      "lastPosts": 8,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:usc:2026-07-28": {
+      "at": "2026-08-30T04:11:09.043Z",
+      "lastPosts": 21,
+      "truncated": true,
+      "cursorUntil": "2026-06-12T21:32:00.000Z",
+      "completed": false
+    },
+    "backfill:utah:2026-07-28": {
+      "at": "2026-08-30T04:11:09.043Z",
+      "lastPosts": 22,
+      "truncated": true,
+      "cursorUntil": "2026-07-29T10:33:09.000Z",
+      "completed": false
+    },
+    "backfill:utah-state:2026-07-28": {
+      "at": "2026-08-30T04:11:09.043Z",
+      "lastPosts": 4,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:utep:2026-07-28": {
+      "at": "2026-08-30T04:11:09.043Z",
+      "lastPosts": 7,
+      "truncated": false,
+      "completed": true
     }
   },
   "searchConfigured": true,
   "lastRateLimitAt": "2026-08-27T16:42:03.467Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-08-30T03:58:59.572Z",
+    "at": "2026-08-30T04:14:06.185Z",
     "jobsTotal": 164,
     "sweptThisRun": 27,
     "requests": 27,
     "fullSweepCycles": 7
   },
   "backfill": {
-    "at": "2026-08-30T03:58:59.573Z",
+    "at": "2026-08-30T04:14:06.186Z",
     "days": 30,
     "totalTeamDays": 4080,
-    "completedTeamDays": 117,
-    "remainingTeamDays": 3963
+    "completedTeamDays": 122,
+    "remainingTeamDays": 3958
   },
   "backfillCoverage": {
-    "at": "2026-08-30T03:58:59.572Z",
-    "jobsTotal": 3966,
+    "at": "2026-08-30T04:14:06.185Z",
+    "jobsTotal": 3963,
     "sweptThisRun": 9,
     "requests": 9
   },
