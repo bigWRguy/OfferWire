@@ -17,9 +17,9 @@ const jobs = allJobs();
 const creds = loadCredentials();
 const nCreds = Number(process.argv[2]) || creds.length || 0;
 
-// Measured in production: this web session rate-limited on request 38. Plan at 37 so
+// Measured in production: this web session rate-limited on request 37. Plan at 36 so
 // the final query succeeds and advances its watermark instead of spending a call on 429.
-const PER_WINDOW = Number(process.env.OFFERWIRE_PER_WINDOW || 37);
+const PER_WINDOW = Number(process.env.OFFERWIRE_PER_WINDOW || 36);
 const WINDOW_MIN = 15;
 const CRON_MIN = Number(process.env.OFFERWIRE_CRON_MIN || 15);
 

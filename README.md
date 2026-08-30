@@ -77,8 +77,8 @@ window. Nothing is skipped. If a school's results overflow the page budget, its 
 advances only as far as was actually read — never to "now" — so a busy program cannot
 silently lose a day.
 
-The current X session was measured rate-limiting on request 38 in a 15-minute window.
-OfferWire stops at 37, reserving 75% for 164 live jobs and 25% for history while backfill
+The current X session was measured rate-limiting on request 37 in a 15-minute window.
+OfferWire stops at 36, reserving 75% for 164 live jobs and 25% for history while backfill
 is incomplete. Against the four quarter-hour triggers, one session therefore needs
 roughly 90 minutes for a live pass; after backfill completes, roughly 75 minutes.
 

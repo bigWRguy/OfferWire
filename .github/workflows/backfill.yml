@@ -32,7 +32,7 @@ jobs:
           X_CT0: ${{ secrets.X_CT0 }}
           OFFERWIRE_MODE: backfill
           OFFERWIRE_BACKFILL_DAYS: 30
-          OFFERWIRE_REQUESTS_PER_CRED: ${{ vars.OFFERWIRE_BACKFILL_REQUESTS || '37' }}
+          OFFERWIRE_REQUESTS_PER_CRED: ${{ vars.OFFERWIRE_BACKFILL_REQUESTS || '36' }}
           OFFERWIRE_SCROLLS: ${{ vars.OFFERWIRE_BACKFILL_SCROLLS || '2' }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OFFERWIRE_MODEL: ${{ vars.OFFERWIRE_MODEL }}
