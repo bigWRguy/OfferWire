@@ -22,7 +22,7 @@ const nCreds = Number(process.argv[2]) || creds.length || 0;
 // headroom the sweeper reserves for retries and cursor pages.
 const PER_WINDOW = Number(process.env.OFFERWIRE_PER_WINDOW || 45);
 const WINDOW_MIN = 15;
-const CRON_MIN = Number(process.env.OFFERWIRE_CRON_MIN || 10);
+const CRON_MIN = Number(process.env.OFFERWIRE_CRON_MIN || 15);
 
 console.log('== job set ==');
 console.log(`  per-school jobs : ${schoolJobs().length}   (the spine — every FBS program, every sweep)`);

@@ -77,15 +77,17 @@ window. Nothing is skipped. If a school's results overflow the page budget, its 
 advances only as far as was actually read — never to "now" — so a busy program cannot
 silently lose a day.
 
-Rate limit is ~50 search requests per 15-minute window per account. Against 164 live jobs
-on four independent quarter-hour schedulers:
+Rate limit is ~50 search requests per 15-minute window per account. OfferWire spends a
+conservative 45, reserving 75% for 164 live jobs and 25% for history while backfill is
+incomplete. Against the four quarter-hour triggers, one session therefore needs roughly
+75 minutes for a live pass; after backfill completes, it needs roughly 60 minutes.
 
 | Sessions | Full sweep of all 136 schools |
 |---|---|
-| 1 | ~90 min |
-| 2 | ~45 min |
+| 1 | ~60-75 min |
+| 2 | ~30-45 min |
 | 3 | ~30 min |
-| 4 | ~23 min |
+| 4 | ~15-30 min |
 | 6 | ~15 min |
 
 `node scripts/coverage.mjs N` prints this for your actual config. Running out of budget
@@ -95,8 +97,10 @@ mid-sweep is normal and is reported as such — it is not treated as a failure.
 
 `OFFERWIRE_BACKFILL_DAYS=30` adds one job per school per past day (136 × 30 = 4,080
 slices), so the ledger starts populated instead of empty. Slices are fixed date windows,
-resumable, and marked complete once done. Backfill runs in its own workflow four times a
-day, so history never consumes the live wire's request budget.
+resumable, and marked complete once done. Each live run assigns 25% of its search quota
+to history. With one session and reliable quarter-hour starts, the initial month drains
+in roughly four days. The separate backfill workflow is manual-only because scheduling
+it beside the live job would make both jobs compete for the same 15-minute X quota.
 
 ---
 

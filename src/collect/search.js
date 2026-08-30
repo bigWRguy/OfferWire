@@ -205,6 +205,35 @@ export class SearchSession {
 const withSince = (query, sinceMs) => `${query} since_time:${Math.floor(sinceMs / 1000)}`;
 
 /**
+ * Oldest live work stays first, but historical work receives a predictable fraction
+ * of the window instead of racing a second workflow for the same credential quota.
+ */
+export function prioritizeJobs(jobs, marks = {}, backfillShare = 0.25) {
+  const byAge = (a, b) => {
+    const am = marks[a.key]?.at ? new Date(marks[a.key].at).getTime() : 0;
+    const bm = marks[b.key]?.at ? new Date(marks[b.key].at).getTime() : 0;
+    if (am !== bm) return am - bm;
+    return (b.priority || 0) - (a.priority || 0);
+  };
+  const live = jobs.filter((j) => !j.fixedWindow).sort(byAge);
+  const history = jobs.filter((j) => j.fixedWindow).sort(byAge);
+  if (!history.length) return live;
+
+  const share = Math.min(0.8, Math.max(0.1, Number(backfillShare || 0.25)));
+  const ordered = [];
+  let li = 0, hi = 0, credit = 0;
+  while (li < live.length || hi < history.length) {
+    credit += share;
+    if (hi < history.length && (credit >= 1 || li >= live.length)) {
+      ordered.push(history[hi++]);
+      credit -= 1;
+    } else if (li < live.length) ordered.push(live[li++]);
+    else ordered.push(history[hi++]);
+  }
+  return ordered;
+}
+
+/**
  * Sweep jobs oldest-watermark-first, spending until the request budget runs out.
  *
  * Jobs not reached this cycle keep their older watermark and go first next cycle with a
@@ -226,34 +255,14 @@ export async function sweep(jobs, state, {
 
   const marks = (state.watermarks ||= {});
   const now = Date.now();
-  const byAge = (a, b) => {
-    const am = marks[a.key]?.at ? new Date(marks[a.key].at).getTime() : 0;
-    const bm = marks[b.key]?.at ? new Date(marks[b.key].at).getTime() : 0;
-    if (am !== bm) return am - bm;
-    return (b.priority || 0) - (a.priority || 0);
-  };
-  const live = jobs.filter((j) => !j.fixedWindow).sort(byAge);
-  const history = jobs.filter((j) => j.fixedWindow).sort(byAge);
-  const ordered = [];
-  const backfillShare = Math.min(0.8, Math.max(0.1, Number(process.env.OFFERWIRE_BACKFILL_SHARE || 0.5)));
-  if (!history.length) ordered.push(...live);
-  else {
-    // Interleave instead of letting thousands of never-run historical slices starve
-    // the live feed. At the default 50/50 share, every other request builds backlog.
-    let li = 0, hi = 0, credit = 0;
-    while (li < live.length || hi < history.length) {
-      credit += backfillShare;
-      if (hi < history.length && (credit >= 1 || li >= live.length)) {
-        ordered.push(history[hi++]);
-        credit -= 1;
-      } else if (li < live.length) ordered.push(live[li++]);
-      else ordered.push(history[hi++]);
-    }
-  }
+  const backfillShare = Math.min(0.8, Math.max(0.1, Number(process.env.OFFERWIRE_BACKFILL_SHARE || 0.25)));
+  const ordered = prioritizeJobs(jobs, marks, backfillShare);
 
   const all = [];
   const errors = [];
   let swept = 0, failed = 0, cursor = 0, requests = 0;
+  const sweptByKind = {};
+  const requestsByKind = {};
 
   for (const cred of creds) {
     if (cursor >= ordered.length) break;
@@ -271,7 +280,10 @@ export async function sweep(jobs, state, {
         const query = job.fixedWindow
           ? `${job.query}${fixedCursor ? ` until_time:${Math.floor(new Date(fixedCursor).getTime() / 1000)}` : ''}`
           : withSince(job.query, sinceMs);
+        const beforeRequests = session.requests;
         const res = await session.search(query, { scrolls });
+        const jobRequests = session.requests - beforeRequests;
+        requestsByKind[job.kind] = (requestsByKind[job.kind] || 0) + jobRequests;
         spent = session.requests;
         cursor++;
 
@@ -285,6 +297,7 @@ export async function sweep(jobs, state, {
 
         all.push(...res.posts.map((p) => ({ ...p, searchJob: job.key, searchKind: job.kind, searchedSchoolId: job.schoolId || (job.kind === 'school' ? job.key : null) })));
         swept++;
+        sweptByKind[job.kind] = (sweptByKind[job.kind] || 0) + 1;
 
         const m = (marks[job.key] ||= {});
         if (job.fixedWindow) {
@@ -343,6 +356,7 @@ export async function sweep(jobs, state, {
     expired,
     reason: ok ? null : (errors[0] || 'all search jobs failed'),
     posts: all, swept, jobs: jobs.length, failed, errors, requests,
+    sweptByKind, requestsByKind,
     coverageCycles: Math.max(1, Math.ceil(jobs.length / Math.max(1, swept))),
   };
 }

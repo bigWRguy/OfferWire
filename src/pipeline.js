@@ -96,16 +96,34 @@ async function collect(state, log) {
       const n = push(res.posts, 'search');
       log(`  search: ${n} new posts kept (of ${res.posts.length} returned)`);
       state.searchConfigured = true;
-      state[mode === 'backfill' ? 'backfillCoverage' : 'searchCoverage'] = {
-        at: now(),
-        jobsTotal: res.jobs,
-        sweptThisRun: res.swept,
-        requests: res.requests,
-        // How many cycles a full pass over every school currently takes. This is the
-        // number that tells you your true latency to an offer, and the number to fix
-        // by adding credentials to the pool.
-        fullSweepCycles: res.coverageCycles,
-      };
+      const liveJobs = allJobs().length;
+      const liveSwept = Object.entries(res.sweptByKind || {})
+        .filter(([kind]) => kind !== 'backfill')
+        .reduce((sum, [, count]) => sum + count, 0);
+      const liveRequests = Object.entries(res.requestsByKind || {})
+        .filter(([kind]) => kind !== 'backfill')
+        .reduce((sum, [, count]) => sum + count, 0);
+      const historySwept = res.sweptByKind?.backfill || 0;
+      const historyRequests = res.requestsByKind?.backfill || 0;
+
+      if (mode !== 'backfill') {
+        state.searchCoverage = {
+          at: now(),
+          jobsTotal: liveJobs,
+          sweptThisRun: liveSwept,
+          requests: liveRequests,
+          // Keep live latency separate from the much larger historical backlog.
+          fullSweepCycles: Math.max(1, Math.ceil(liveJobs / Math.max(1, liveSwept))),
+        };
+      }
+      if (mode !== 'live') {
+        state.backfillCoverage = {
+          at: now(),
+          jobsTotal: historical.length,
+          sweptThisRun: historySwept,
+          requests: historyRequests,
+        };
+      }
       if (days) {
         const total = schoolJobs().length * days;
         const remaining = backfillJobs(days).filter((j) => !state.watermarks?.[j.key]?.completed).length;

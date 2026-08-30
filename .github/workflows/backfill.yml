@@ -1,8 +1,8 @@
 name: offer wire backfill
 
+# Manual catch-up only. The live workflow continuously drains history with an explicit
+# quota share; an independent cron on the same X session competes for that quota.
 on:
-  schedule:
-    - cron: '41 2,8,14,20 * * *'
   workflow_dispatch:
 
 concurrency:
@@ -32,7 +32,7 @@ jobs:
           X_CT0: ${{ secrets.X_CT0 }}
           OFFERWIRE_MODE: backfill
           OFFERWIRE_BACKFILL_DAYS: 30
-          OFFERWIRE_REQUESTS_PER_CRED: ${{ vars.OFFERWIRE_BACKFILL_REQUESTS || '30' }}
+          OFFERWIRE_REQUESTS_PER_CRED: ${{ vars.OFFERWIRE_BACKFILL_REQUESTS || '45' }}
           OFFERWIRE_SCROLLS: ${{ vars.OFFERWIRE_BACKFILL_SCROLLS || '2' }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OFFERWIRE_MODEL: ${{ vars.OFFERWIRE_MODEL }}

@@ -9,6 +9,7 @@ import { findSchools } from '../src/resolve/schools.js';
 import { classify, findClassYear, findPosition, findNameCandidates, findTaggedRecruit, findReportedName } from '../src/extract/rules.js';
 import { nameKey, fuzzyKey, canMerge, parseBio, looksLikeRecruit, cleanPersonName } from '../src/resolve/players.js';
 import { backfillJobs, schoolJobs } from '../src/collect/queries.js';
+import { prioritizeJobs } from '../src/collect/search.js';
 
 let pass = 0, fail = 0;
 const t = (name, cond, detail = '') => {
@@ -217,6 +218,21 @@ t('one daily slice per school', history.length === schoolJobs().length * 30, Str
 t('oldest slice starts 30 days back', history[0]?.start === '2026-07-28', history[0]?.start);
 t('newest slice ends today', history.at(-1)?.end === '2026-08-27', history.at(-1)?.end);
 t('historical slices are fixed windows', history.every((j) => j.fixedWindow && / since:\d{4}-\d{2}-\d{2} until:\d{4}-\d{2}-\d{2}$/.test(j.query)));
+
+console.log('quota allocation');
+const mixed = prioritizeJobs(
+  [
+    ...Array.from({ length: 8 }, (_, i) => ({ key: `live-${i}`, priority: 1 })),
+    ...Array.from({ length: 8 }, (_, i) => ({ key: `history-${i}`, fixedWindow: true })),
+  ],
+  {},
+  0.25,
+);
+t('25% backfill share puts one historical job in each four-job window',
+  mixed.slice(0, 8).filter((j) => j.fixedWindow).length === 2,
+  mixed.slice(0, 8).map((j) => j.fixedWindow ? 'H' : 'L').join(''));
+t('live-only ordering does not invent history',
+  prioritizeJobs([{ key: 'live', priority: 1 }], {}, 0.25).every((j) => !j.fixedWindow));
 
 console.log(`\n${pass} passed, ${fail} failed`);
 process.exit(fail ? 1 : 0);
