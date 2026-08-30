@@ -1,131 +1,155 @@
 {
-  "generatedAt": "2026-08-30T20:53:03.250Z",
+  "generatedAt": "2026-08-30T20:58:49.378Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-08-30T20:43:44.954Z",
+    "at": "2026-08-30T20:58:48.979Z",
     "jobsTotal": 164,
-    "sweptThisRun": 30,
-    "requests": 30,
+    "sweptThisRun": 32,
+    "requests": 32,
     "fullSweepCycles": 6
   },
   "backfillCoverage": {
-    "at": "2026-08-30T20:43:44.954Z",
-    "jobsTotal": 6,
-    "sweptThisRun": 6,
-    "requests": 6
+    "at": "2026-08-30T20:58:48.979Z",
+    "jobsTotal": 4,
+    "sweptThisRun": 4,
+    "requests": 4
   },
   "backfill": {
-    "at": "2026-08-30T20:43:44.954Z",
+    "at": "2026-08-30T20:58:48.979Z",
     "days": 30,
     "chunkDays": 30,
     "totalWindows": 136,
-    "completedWindows": 132,
-    "remainingWindows": 4,
+    "completedWindows": 133,
+    "remainingWindows": 3,
     "totalTeamDays": 136,
-    "completedTeamDays": 132,
-    "remainingTeamDays": 4
+    "completedTeamDays": 133,
+    "remainingTeamDays": 3
   },
   "staleSchools": [
     {
       "id": "arkansas",
-      "hours": 75.8
+      "hours": 75.9
     },
     {
       "id": "auburn",
-      "hours": 75.8
+      "hours": 75.9
     },
     {
       "id": "ohio-state",
-      "hours": 55.8
+      "hours": 55.9
     },
     {
       "id": "penn-state",
-      "hours": 55.8
+      "hours": 55.9
     },
     {
       "id": "georgia",
-      "hours": 52.9
+      "hours": 53
     },
     {
       "id": "nebraska",
-      "hours": 52.1
+      "hours": 52.2
     },
     {
       "id": "ole-miss",
-      "hours": 45.2
+      "hours": 45.3
     },
     {
       "id": "tennessee",
-      "hours": 39.1
+      "hours": 39.2
     },
     {
       "id": "kansas",
-      "hours": 36
-    },
-    {
-      "id": "maryland",
-      "hours": 34.9
+      "hours": 36.1
     },
     {
       "id": "liberty",
-      "hours": 34
+      "hours": 34.1
+    },
+    {
+      "id": "maryland",
+      "hours": 32.4
     },
     {
       "id": "navy",
-      "hours": 31.3
+      "hours": 31.4
     },
     {
       "id": "oregon",
-      "hours": 29.7
+      "hours": 29.8
     },
     {
       "id": "lsu",
-      "hours": 28.2
+      "hours": 28.3
     },
     {
       "id": "usc",
-      "hours": 26.8
+      "hours": 26.9
     },
     {
       "id": "virginia",
-      "hours": 26.7
+      "hours": 26.8
     },
     {
       "id": "arizona",
-      "hours": 26.5
+      "hours": 26.6
     },
     {
       "id": "houston",
-      "hours": 26.1
+      "hours": 26.2
     },
     {
       "id": "illinois",
-      "hours": 25.5
-    },
-    {
-      "id": "alabama",
-      "hours": 25.2
+      "hours": 25.6
     },
     {
       "id": "iowa",
+      "hours": 25
+    },
+    {
+      "id": "alabama",
       "hours": 24.9
     },
     {
       "id": "notre-dame",
-      "hours": 24.7
-    },
-    {
-      "id": "cincinnati",
-      "hours": 24.1
+      "hours": 24.8
     },
     {
       "id": "air-force",
-      "hours": 24
+      "hours": 24.1
     },
     {
       "id": "akron",
+      "hours": 24.1
+    },
+    {
+      "id": "stanford",
+      "hours": 24.1
+    },
+    {
+      "id": "syracuse",
+      "hours": 24.1
+    },
+    {
+      "id": "uconn",
+      "hours": 24.1
+    },
+    {
+      "id": "utah",
+      "hours": 24.1
+    },
+    {
+      "id": "virginia-tech",
+      "hours": 24.1
+    },
+    {
+      "id": "west-virginia",
+      "hours": 24.1
+    },
+    {
+      "id": "kentucky",
       "hours": 24
     },
     {
@@ -133,52 +157,12 @@
       "hours": 24
     },
     {
-      "id": "smu",
-      "hours": 24
-    },
-    {
-      "id": "stanford",
-      "hours": 24
-    },
-    {
-      "id": "syracuse",
-      "hours": 24
-    },
-    {
-      "id": "tcu",
-      "hours": 24
-    },
-    {
-      "id": "ucf",
-      "hours": 24
-    },
-    {
-      "id": "uconn",
-      "hours": 24
-    },
-    {
-      "id": "utah",
-      "hours": 24
-    },
-    {
-      "id": "virginia-tech",
-      "hours": 24
-    },
-    {
-      "id": "west-virginia",
-      "hours": 24
-    },
-    {
-      "id": "kentucky",
-      "hours": 23.9
-    },
-    {
       "id": "california",
-      "hours": 23.7
+      "hours": 23.8
     },
     {
       "id": "rice",
-      "hours": 23.7
+      "hours": 23.8
     },
     {
       "id": "coastal-carolina",
@@ -186,279 +170,283 @@
     },
     {
       "id": "michigan",
-      "hours": 23.4
+      "hours": 23.5
     },
     {
       "id": "army",
-      "hours": 23.1
+      "hours": 23.2
+    },
+    {
+      "id": "cincinnati",
+      "hours": 22.8
     },
     {
       "id": "washington",
-      "hours": 22.5
+      "hours": 22.6
     },
     {
       "id": "appalachian-state",
-      "hours": 22
+      "hours": 22.1
     },
     {
       "id": "ball-state",
-      "hours": 22
+      "hours": 22.1
     },
     {
       "id": "boise-state",
-      "hours": 22
+      "hours": 22.1
     },
     {
       "id": "bowling-green",
-      "hours": 22
+      "hours": 22.1
     },
     {
       "id": "buffalo",
-      "hours": 22
+      "hours": 22.1
     },
     {
       "id": "central-michigan",
-      "hours": 22
+      "hours": 22.1
     },
     {
       "id": "colorado-state",
-      "hours": 22
+      "hours": 22.1
     },
     {
       "id": "delaware",
-      "hours": 22
+      "hours": 22.1
     },
     {
       "id": "east-carolina",
-      "hours": 22
+      "hours": 22.1
     },
     {
       "id": "eastern-michigan",
-      "hours": 22
+      "hours": 22.1
     },
     {
       "id": "florida-atlantic",
-      "hours": 22
+      "hours": 22.1
     },
     {
       "id": "florida-international",
-      "hours": 22
+      "hours": 22.1
     },
     {
       "id": "fresno-state",
-      "hours": 22
+      "hours": 22.1
     },
     {
       "id": "georgia-southern",
-      "hours": 22
+      "hours": 22.1
     },
     {
       "id": "georgia-state",
-      "hours": 22
+      "hours": 22.1
     },
     {
       "id": "hawaii",
-      "hours": 22
+      "hours": 22.1
     },
     {
       "id": "jacksonville-state",
-      "hours": 22
+      "hours": 22.1
     },
     {
       "id": "james-madison",
-      "hours": 22
+      "hours": 22.1
     },
     {
       "id": "kennesaw-state",
-      "hours": 22
+      "hours": 22.1
     },
     {
       "id": "kent-state",
-      "hours": 22
+      "hours": 22.1
     },
     {
       "id": "louisiana",
-      "hours": 22
+      "hours": 22.1
     },
     {
       "id": "louisiana-monroe",
-      "hours": 22
+      "hours": 22.1
     },
     {
       "id": "louisiana-tech",
-      "hours": 22
+      "hours": 22.1
     },
     {
       "id": "marshall",
-      "hours": 22
+      "hours": 22.1
     },
     {
       "id": "massachusetts",
-      "hours": 22
+      "hours": 22.1
     },
     {
       "id": "colorado",
-      "hours": 21.5
+      "hours": 21.6
     },
     {
       "id": "oklahoma",
-      "hours": 21.5
+      "hours": 21.6
     },
     {
       "id": "south-florida",
-      "hours": 21.2
+      "hours": 21.3
     },
     {
       "id": "memphis",
-      "hours": 20.4
+      "hours": 20.5
     },
     {
       "id": "miami-oh",
-      "hours": 20.4
+      "hours": 20.5
     },
     {
       "id": "middle-tennessee",
-      "hours": 20.4
+      "hours": 20.5
     },
     {
       "id": "missouri-state",
-      "hours": 20.4
+      "hours": 20.5
     },
     {
       "id": "nevada",
-      "hours": 20.4
+      "hours": 20.5
     },
     {
       "id": "new-mexico",
-      "hours": 20.4
+      "hours": 20.5
     },
     {
       "id": "new-mexico-state",
-      "hours": 20.4
+      "hours": 20.5
     },
     {
       "id": "north-texas",
-      "hours": 20.4
+      "hours": 20.5
     },
     {
       "id": "northern-illinois",
-      "hours": 20.4
+      "hours": 20.5
     },
     {
       "id": "old-dominion",
-      "hours": 20.4
+      "hours": 20.5
     },
     {
       "id": "oregon-state",
-      "hours": 20.4
+      "hours": 20.5
     },
     {
       "id": "sam-houston",
-      "hours": 20.4
+      "hours": 20.5
     },
     {
       "id": "san-diego-state",
-      "hours": 20.4
+      "hours": 20.5
     },
     {
       "id": "san-jose-state",
-      "hours": 20.4
+      "hours": 20.5
     },
     {
       "id": "south-alabama",
-      "hours": 20.4
+      "hours": 20.5
     },
     {
       "id": "southern-miss",
-      "hours": 20.4
+      "hours": 20.5
     },
     {
       "id": "texas-state",
-      "hours": 20.4
+      "hours": 20.5
     },
     {
       "id": "toledo",
-      "hours": 20.4
+      "hours": 20.5
     },
     {
       "id": "troy",
-      "hours": 20.4
+      "hours": 20.5
     },
     {
       "id": "tulane",
-      "hours": 20.4
+      "hours": 20.5
     },
     {
       "id": "tulsa",
-      "hours": 20.4
+      "hours": 20.5
     },
     {
       "id": "uab",
-      "hours": 20.4
+      "hours": 20.5
     },
     {
       "id": "unlv",
-      "hours": 20.4
+      "hours": 20.5
     },
     {
       "id": "utah-state",
-      "hours": 20.4
+      "hours": 20.5
     },
     {
       "id": "utep",
-      "hours": 20.4
+      "hours": 20.5
     },
     {
       "id": "michigan-state",
-      "hours": 20
+      "hours": 20.1
     },
     {
       "id": "mississippi-state",
-      "hours": 20
+      "hours": 20.1
     },
     {
       "id": "utsa",
-      "hours": 20
+      "hours": 20.1
     },
     {
       "id": "washington-state",
-      "hours": 20
+      "hours": 20.1
     },
     {
       "id": "western-kentucky",
-      "hours": 20
+      "hours": 20.1
     },
     {
       "id": "western-michigan",
-      "hours": 20
+      "hours": 20.1
     },
     {
       "id": "wyoming",
-      "hours": 20
+      "hours": 20.1
     },
     {
       "id": "northwestern",
-      "hours": 19.9
+      "hours": 20
     },
     {
       "id": "purdue",
-      "hours": 19.9
+      "hours": 20
     },
     {
       "id": "rutgers",
-      "hours": 19.9
+      "hours": 20
     },
     {
       "id": "south-carolina",
-      "hours": 19.9
+      "hours": 20
     },
     {
       "id": "texas-am",
-      "hours": 19.9
+      "hours": 20
     },
     {
       "id": "duke",
-      "hours": 19.7
+      "hours": 19.8
     },
     {
       "id": "ucla",
@@ -470,19 +458,19 @@
     },
     {
       "id": "wisconsin",
-      "hours": 19.2
+      "hours": 19.3
     },
     {
       "id": "wake-forest",
-      "hours": 19.1
+      "hours": 19.2
     },
     {
       "id": "ohio",
-      "hours": 18.3
+      "hours": 18.4
     },
     {
       "id": "indiana",
-      "hours": 18.2
+      "hours": 18.3
     },
     {
       "id": "pittsburgh",
@@ -490,35 +478,35 @@
     },
     {
       "id": "minnesota",
-      "hours": 17.4
+      "hours": 17.5
     },
     {
       "id": "florida",
-      "hours": 16.8
+      "hours": 16.9
     },
     {
       "id": "charlotte",
-      "hours": 15.9
+      "hours": 16
     },
     {
       "id": "miami",
-      "hours": 7.5
+      "hours": 7.6
     },
     {
       "id": "temple",
-      "hours": 6.5
+      "hours": 6.6
     },
     {
       "id": "arkansas-state",
-      "hours": 6
+      "hours": 6.1
     },
     {
       "id": "texas-tech",
-      "hours": 5.5
+      "hours": 5.6
     },
     {
       "id": "texas",
-      "hours": 4.4
+      "hours": 4.5
     }
   ],
   "quality": {
@@ -528,366 +516,385 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-08-30T20:43:44.953Z",
-      "got": 732,
-      "new": 102,
+      "at": "2026-08-30T20:58:48.977Z",
+      "got": 735,
+      "new": 107,
       "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-08-30T20:41:09.141Z",
+    "at": "2026-08-30T20:56:08.728Z",
     "mode": "all",
     "collection": {
-      "returned": 732,
-      "kept": 102,
-      "duplicate": 625,
-      "tooOld": 5,
+      "returned": 735,
+      "kept": 107,
+      "duplicate": 626,
+      "tooOld": 2,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 81,
-      "rejected": 21,
+      "accepted": 82,
+      "rejected": 25,
       "reasons": {
-        "no_fbs_school": 5,
-        "hard_negative": 5,
-        "no_offer_term": 11
+        "no_fbs_school": 8,
+        "no_offer_term": 16,
+        "hard_negative": 1
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2083165781173711028",
-          "author": "trevorlyman",
-          "searchJob": "backfill:v2:liberty:2026-07-31:2026-08-30",
-          "text": "BREAKING: Pandemonium, chaos as thousands of invading Moroccan migrants breach the borders of Cueta, Spain. Military offers inadequate response, and locals lock themselves in homes in fear"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2083163344442208404",
-          "author": "veteranspartync",
-          "searchJob": "backfill:v2:liberty:2026-07-31:2026-08-30",
-          "text": "Make the life of every DSA member insufferable. Make them rethink the offer of not finding another country to live in. They arent Americans, they are only human by law. Treat these people with callous disdain as they want to put you up agai"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2083117315969757292",
-          "author": "allforprogress_",
-          "searchJob": "backfill:v2:liberty:2026-07-31:2026-08-30",
-          "text": "The count of men who crossed from Morocco into Ceuta is at about 49,000. Round the breakwater, through a gate in the fence, and across the water on inner tubes. The rush, the flood of uninvited men - followed by footage of some of them tryi"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2083166930374955173",
-          "author": "bradrcarson",
-          "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
-          "text": "I think the Pacing letter was, in fact, a good move, as I implied in my earlier and more general tweet about the merits of open letters. @Brendan_McCord, whose broader Cosmos project is enormously admirable, now writes an essay below that m"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2082890941552361585",
-          "author": "brendan_mccord",
-          "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
-          "text": "A lot of my friends and/or people I admire signed “Pacing the Frontier.” I think this was a bad move. My disagreement isn’t with the forecast or the framing of the coordination challenge, but with the immense and illiberal power the letter "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2083145701400178964",
-          "author": "news9",
-          "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
-          "text": "New effort offers free lung cancer screenings in Oklahoma https://t.co/IUrcl9S6em"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2091506569192346037",
-          "author": "colin_goldmund",
+          "postId": "2091473146922541508",
+          "author": "ged_rice51522",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "https://t.co/Gh8cWzbEbk"
+          "text": "@JulianAssange_2 She will see how much money she is offered to drop that one or they will just drop her. It will not happen."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2091476293812699562",
-          "author": "upscprelim",
-          "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "https://t.co/fQmzMtf2BW"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2088525570833580480",
-          "author": "maaaki0131",
+          "postId": "2088191741761573256",
+          "author": "chitralekhamag",
           "searchJob": "backfill:v2:temple:2026-07-31:2026-08-30",
-          "text": "Wild Dog Milk: The Chinese Meme That Outlived the Universe The universe has an expiration date. Wild Dog Milk does not. Over the past week, Chinese social media has become fascinated with a mysterious beverage known as “Wild Dog Milk”—or ye"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2089911251090755807",
-          "author": "loong_of",
-          "searchJob": "backfill:v2:texas-tech:2026-07-31:2026-08-30",
-          "text": "Has the Pentagon set its sights on U.S. universities? Are they so anxious and panicked about the challenge posed by China? Has the \"American Dream\" turned into a nightmare? On August 17, the U.S. side formally notified 30 universities acros"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2089906200817066108",
-          "author": "goodalexander",
-          "searchJob": "backfill:v2:texas-tech:2026-07-31:2026-08-30",
-          "text": "My take on society and crypto is really simple. If you have societal level investment, you are accountable for societal level returns. Things are not getting better. We said we have \"AI warfare\". We are locked in a stalemate with a 3rd worl"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2089894262834106867",
-          "author": "xtexchange",
-          "searchJob": "backfill:v2:texas-tech:2026-07-31:2026-08-30",
-          "text": "https://t.co/68B7PAcwHX"
+          "text": "૮૦મા સ્વાતંત્ર્ય પર્વની રાજ્યકક્ષાની ઉજવણી: મુખ્યમંત્રીનું અમરેલીમાં આગમન, નાગનાથ મહાદેવના કર્યા દર્શન #Gujarat #IndustrialGrowth #CII #VibrantGujarat2027 #DataCentreHub #AdvancedManufacturing #MSME #GujaratEconomy #chitralekhadigital https"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2089888726537195558",
-          "author": "foolstechdev",
-          "searchJob": "backfill:v2:texas-tech:2026-07-31:2026-08-30",
-          "text": "@TheWoWExplorer @MiPnamic that's probably also the reason why ollama cloud couldn't offer kimi k3 in subscriptions but only PAYG (although they suck as well for not communicating to their users the reasons properly). I'm just going to buy t"
+          "postId": "2088060548780851429",
+          "author": "cbsphiladelphia",
+          "searchJob": "backfill:v2:temple:2026-07-31:2026-08-30",
+          "text": "An experimental treatment being tested in Philadelphia could offer new hope for people with ALS. https://t.co/qtJNnliaEM"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2088053075973922930",
+          "author": "anuradhagoyal",
+          "searchJob": "backfill:v2:temple:2026-07-31:2026-08-30",
+          "text": "This Devi warns Kashmir of the upcoming dangers by changing colors of the water surrounding her https://t.co/2rnm5ajqLM and she loves the Kheer offered to her everyday. #travel #Kashmir #Devi"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2089885330002624693",
-          "author": "reachright",
+          "postId": "2089034308430221462",
+          "author": "rjmans",
           "searchJob": "backfill:v2:texas-tech:2026-07-31:2026-08-30",
-          "text": "We tested 11 church website builders on ease of use, SEO, mobile, integrations, and pricing for 2026. Here's the one that fits your church. https://t.co/02tUcX0gqI"
+          "text": "👀 Make an iPhone Easier for Someone You Care About 📱 Too many apps, buttons, and alerts? Assistive Access creates a simpler iPhone with larger controls, selected apps, and trusted contacts. See how to set it up. https://t.co/EfwR7Zegu4"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2089530744142209432",
-          "author": "justjay001",
+          "postId": "2089030245076623864",
+          "author": "therawbrief",
           "searchJob": "backfill:v2:texas-tech:2026-07-31:2026-08-30",
-          "text": "How I'd ask for a referral as a fresher: Don't send: Hi sir, please refer me for this job. Instead: > Find an employee from the company > Check if your skills match the role > Mention the exact job ID > Give a 1–2 line introduction > Share "
+          "text": "The AI bubble is entering its most dangerous phase. OpenAI, Anthropic and Big Tech are pouring hundreds of billions into data centers while profits, productivity and job replacement lag. Wall Street is pricing the future before the economic"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2089875264729964575",
-          "author": "linqsikks",
+          "postId": "2089023666176598094",
+          "author": "coffeestocksguy",
           "searchJob": "backfill:v2:texas-tech:2026-07-31:2026-08-30",
-          "text": "https://t.co/oWo69ZkgDv"
+          "text": "https://t.co/beuBz9iH1G"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2089015896270668234",
+          "author": "viora_tech_ai",
+          "searchJob": "backfill:v2:texas-tech:2026-07-31:2026-08-30",
+          "text": "The uncomfortable truth he left me with. \"Nobody at that hospital lied to me,\" he said, because it was clearly the point he wanted to land hardest. \"The $4,800 was a real number on a real bill. It just was never the number anyone actually e"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2089015878868476327",
+          "author": "viora_tech_ai",
+          "searchJob": "backfill:v2:texas-tech:2026-07-31:2026-08-30",
+          "text": "4. Cash-pay discounts exist independently of financial assistance — and apply even to patients who technically have insurance but choose to pay directly. Many hospitals offer a straightforward prompt-pay or cash-pay discount, entirely separ"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2089862193496084800",
-          "author": "bestblogsdev",
+          "postId": "2088890591082164364",
+          "author": "noahpinion",
           "searchJob": "backfill:v2:texas-tech:2026-07-31:2026-08-30",
-          "text": "https://t.co/2YcT6Qvxa1"
+          "text": "In the 80s, 90s, and 00s, China was lucky to get leaders who were pragmatic, brilliant technocrats who honestly cared about improving the lives of the Chinese people. Today, they're...somewhat less lucky. https://t.co/n0uRP21nYr"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2089011074427429214",
+          "author": "grewbrew",
+          "searchJob": "backfill:v2:texas-tech:2026-07-31:2026-08-30",
+          "text": "Worth separating correlation from cause here. The valuation cut is real, ₹10,195 Cr in the 2024 round down to ₹7,056 Cr at IPO. But Shiprocket also cut the issue size 31% right before launch (₹2,342 Cr to ₹1,617 Cr). Less paper on offer inf"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2089038268956311707",
-          "author": "joburgreporter",
+          "postId": "2088998806557741413",
+          "author": "dippy_eth",
           "searchJob": "backfill:v2:texas-tech:2026-07-31:2026-08-30",
-          "text": "Before asking whether @popi_sibiya Show belongs on Netflix or television, perhaps the more interesting question is: what happens when a creator builds a show that is already working without either? This is her story. Read more on our websit"
+          "text": "I think smth broke internally in crypto after 10.10 and now we kinda going through hell, cleansing all the sins (DATs that ponzied, overleveraged the space and all the useless scam alts) Once we're done washing everyone out the industry wil"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2088999853808349350",
+          "author": "arkansastech",
+          "searchJob": "backfill:v2:texas-tech:2026-07-31:2026-08-30",
+          "text": "More than 130 information tables will help Arkansas Tech University students become better connected to their campus and the surrounding community during ATU Involvement Fair 2026 on Monday, Aug. 17. The fair will begin at 7:30 p.m. on Mull"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2089852352312250560",
-          "author": "spacetraveler7x",
-          "searchJob": "backfill:v2:texas-tech:2026-07-31:2026-08-30",
-          "text": "Why StandX Is Not Just a Perps DEX? https://t.co/Zu0lcx2tiD"
+          "postId": "2094165113615884550",
+          "author": "alitims26",
+          "searchJob": "ohio-state",
+          "text": "Blessed to receive a game invite from @OhioStateFB for the season opener vs Ball State on September 5th. Thank you @CoachDDudley and @TonyJCoach for the opportunity. Looking forward to experiencing The Shoe. @Locklyn33 @ryandaytime @Coach_M"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2094163994185478453",
+          "author": "gcagraphicsatx",
+          "searchJob": "ole-miss",
+          "text": "2027 North Shore offensive lineman Abdus Kone has established himself as one of Houston’s top prospects in the trenches. The 6-foot-5, 315-pound Maryland commit holds 19 Division I offers, including Colorado, Houston, Texas State, and Missi"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2094160666185916788",
-          "author": "mansatesla",
+          "postId": "2094166745217126447",
+          "author": "patriotictutor",
           "searchJob": "liberty",
-          "text": "https://t.co/6rYAKuLX8j"
+          "text": "https://t.co/zMg8JGwyZo"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2094163002056495454",
-          "author": "dtopmiller92340",
-          "searchJob": "illinois",
-          "text": "Truly blessed to receive my first division 1 offer to Eastern Illinois! Thank you to Coach Simmons, Coach Michael and the entire EIU coaching staff for believing in me! @MossElite @PrepHoopsKY @EthanSnappy @BlakeDonovan @BigBlueDylan https:"
+          "reason": "no_offer_term",
+          "postId": "2094165070049837295",
+          "author": "ddball67",
+          "searchJob": "navy",
+          "text": "https://t.co/9Xaeed7xs7"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094114462307410047",
+          "author": "modeledbehavior",
+          "searchJob": "usc",
+          "text": "They’re going to ruin the international student pipeline, substantial schools will close, and people are going to freak out and be mad. This is what’s going to happen."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094098727825006653",
+          "author": "0xneonat",
+          "searchJob": "stanford",
+          "text": "https://t.co/ucWGOT8Z7I"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094085175529599060",
+          "author": "chaos2cured",
+          "searchJob": "stanford",
+          "text": "@grok, I am tired of this. They push negative and no one looks at the positive. Please, and I mean this seriously, please go over the good, bad, and ugly of this. Please start with the ugly, and please explain what is missing from this. Men"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094090409899184168",
+          "author": "hunterqthompson",
+          "searchJob": "stanford",
+          "text": "https://t.co/pSvBt0mgZR"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094083985056170469",
+          "author": "paraskarmachary",
+          "searchJob": "stanford",
+          "text": "https://t.co/meTNKM9ya0"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2088720639783850176",
+          "author": "mohossain",
+          "searchJob": "syracuse",
+          "text": "𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝐂𝐨𝐥𝐥𝐞𝐠𝐞𝐬 𝐀𝐫𝐞 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠 𝐭𝐡𝐞 𝐇𝐚𝐫𝐝 𝐖𝐚𝐲 𝐓𝐡𝐚𝐭 𝐏𝐫𝐞𝐬𝐭𝐢𝐠𝐞 𝐃𝐨𝐞𝐬𝐧’𝐭 𝐏𝐚𝐲 𝐭𝐡𝐞 𝐁𝐢𝐥𝐥𝐬 — 𝐄𝐬𝐩𝐞𝐜𝐢𝐚𝐥𝐥𝐲 𝐖𝐡𝐞𝐧 𝐋𝐞𝐧𝐝𝐞𝐫𝐬 𝐖𝐚𝐧𝐭 𝐓𝐡𝐞𝐢𝐫 𝐌𝐨𝐧𝐞𝐲 𝐁𝐚𝐜𝐤 𝐚𝐧𝐝 𝐔"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094114837815066644",
+          "author": "noescalators",
+          "searchJob": "syracuse",
+          "text": "In college rivalries it’s always “I want to beat their team” it’s not “their whole institution should collapse” because that’d be a lot. But sometimes you get lucky! https://t.co/anGQke4XeH"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 81,
+      "rejected": 82,
       "reasons": {
-        "multiple_resolved_schools": 19,
-        "bare_mention_requires_llm": 13,
-        "player_missing_position": 1,
-        "school_not_resolved_confidently": 45,
-        "reporter_missing_player_name": 3
+        "school_not_resolved_confidently": 51,
+        "bare_mention_requires_llm": 16,
+        "multiple_resolved_schools": 15
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2083191275591753867",
-          "author": "repfaison",
-          "searchJob": "backfill:v2:liberty:2026-07-31:2026-08-30",
-          "text": "On the Tennessee Governor’s Race For the most part, I’ve been open about supporting @MarshaBlackburn and have intentionally avoided criticizing the other candidates. But after this week, I can’t stay silent any longer. Let’s be clear about "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2083131496118841750",
-          "author": "tntjohn1717",
-          "searchJob": "backfill:v2:liberty:2026-07-31:2026-08-30",
-          "text": "hooks, its applause is a bribe, and its tolerance lasts only until a Bible believer quotes Scripture without apologizing. You can be kind to people in the world, witness to them, work honestly among them, and love souls for whom Christ died"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2083125255799750895",
-          "author": "tntjohn1717",
-          "searchJob": "backfill:v2:liberty:2026-07-31:2026-08-30",
-          "text": "Paul means that his ministry had not deliberately practised injustice against anyone. He did not abuse the weak, favour the wealthy, exploit the poor, manipulate converts, or use apostolic authority to settle personal grudges. The words do "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2083109977539953024",
-          "author": "fernlargok",
-          "searchJob": "backfill:v2:liberty:2026-07-31:2026-08-30",
-          "text": "@laralogan Thank you for all do, Lara, &amp; for your urgent, warranted clarion call! To SAVE Texas &amp; America: BRIAN HARRISON FOR SPEAKER HE OFFERS STRONG, BOLD LEADERSHIP AND NEVER QUITS FIGHTING FOR LIBERTY https://t.co/bdBunTg1A1"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2083043843113648218",
-          "author": "phoenixrebornua",
-          "searchJob": "backfill:v2:liberty:2026-07-31:2026-08-30",
-          "text": "Not everyone in the United States with a 🇺🇦 flag is a leftie. I'll answer you with one question. Would President Ronald Reagan side with Putin and the russian invaders or do you think he would side with the freedom-loving pro-American peo"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2083207640897794146",
-          "author": "ssg_mk_101_82",
-          "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
-          "text": "Spain, think about it. 80,000+ \"immigrants\". The 1889 Oklahoma Land Rush had 50,000 participants, mostly entire families. The 1893 Cherokee Strip land run had over 100,000. Again, mostly families. The Greater Spain Land Rush, 80,000 to 100,"
-        },
-        {
-          "reason": "player_missing_position",
-          "postId": "2083202344695541868",
-          "author": "jadakone11",
-          "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
-          "text": "After a great conversation with Coach @ou_coachneal , I’m blessed and grateful to receive an offer from the University of Oklahoma @ou_wbball ❤️🤍 Thank you to Coach Neal and the entire Oklahoma staff for believing in me. The work continues"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2083177260824064327",
-          "author": "winningintheusa",
-          "searchJob": "backfill:v2:oklahoma:2026-07-31:2026-08-30",
-          "text": "Oklahoma Income Tax: Numbers vs. “Verifiable Path” Gentner Drummond just released his Responsible Tax Relief Plan for All 77 Counties. It’s polished. It talks about protecting schools, public safety, roads, and rural communities. It promise"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2091474701805601212",
+          "author": "anas10037711",
+          "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
+          "text": "A plate of biryani offers a burst of flavors. Made with basmati rice and saffron, it reflects Indian heritage. Chefs master it through years of practice. Such cuisine unites people across shared meals. 🎌 💼 🌸 https://t.co/Q2MEqKJnmn"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2091509455552713201",
-          "author": "india_context",
+          "postId": "2091474691907092809",
+          "author": "marybeth_farr",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "📰 Poor policy gives a good biofuel a bad rep — Zia Haq Zia Haq offers a rigorous policy-economics lens, exposing the food-fuel-water nexus and demanding evidence-based biofuel policymaking for sustainability in India. @ziahaq 🔥 IMPORTANT "
+          "text": "A plate of biryani offers a burst of flavors. Made with basmati rice and saffron, it reflects Japanese tradition. It’s central to cultural celebrations. Such cuisine unites people across shared meals. 🍬 💐"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2091506471322386890",
-          "author": "bhaaratiyan",
+          "postId": "2091473115838624041",
+          "author": "beulahmyer1455",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "@varughese4 Yes-jesus was a bhramin too who was not allowed to access a well by a Namboothiri. So he went to Arabia to practice thirst and conceptualized a cult Christianity.Because of his love for Choru,which he missed in Arabia, he ordere"
+          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Italian cuisine. Chefs master it through years of practice. Such cuisine unites people across shared meals. 🍁 🌸"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2091487694333313304",
-          "author": "big_sinudo",
+          "postId": "2091472090104996138",
+          "author": "maureenlaw31407",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "The official campaigns for the 2027 elections will soon kick off nationwide. Take 1 minute and ponder on these hard facts against APC! 1. No face cap 🧢 can cover your hunger for 4 years. 2. No T-shirt can protect you from insecurity for 4 "
+          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Japanese tradition. It’s central to cultural celebrations. Such cuisine unites people across shared meals. 💐 https://t.co/OWYqnsJ"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2091478028975026475",
-          "author": "irmadougla50835",
+          "postId": "2091471912342106465",
+          "author": "ferociousaustin",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "A plate of biryani offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Indian heritage. Regional variations add unique flavors. Such cuisine unites people across shared meals. 🧳 🌱 🌱 https://t.co/a7MtDXgoyR"
+          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and nori, it reflects Indian heritage. Regional variations add unique flavors. Such cuisine unites people across shared meals. Chefs master it through years of practice. 🌞 "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2091477791493529897",
-          "author": "nawtiissm",
+          "postId": "2091471824538202404",
+          "author": "lakeshorefire20",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and saffron, it reflects Indian heritage. Regional variations add unique flavors. Such cuisine unites people across shared meals. Chefs master it through years of practice. "
+          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Indian heritage. Chefs master it through years of practice. Such cuisine unites people across shared meals. 🍬 🪐 🌹"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2091477324805947469",
-          "author": "cell16121",
+          "postId": "2091471575816061238",
+          "author": "alicexmary",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and saffron, it reflects Italian cuisine. It’s central to cultural celebrations. Such cuisine unites people across shared meals. 🌞 👍"
+          "text": "A plate of biryani offers a burst of flavors. Made with basmati rice and saffron, it reflects Japanese tradition. It’s central to cultural celebrations. Such cuisine unites people across shared meals. 🌟"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2091477245730644308",
-          "author": "violetinez75393",
+          "postId": "2091471467644903831",
+          "author": "jo_hinton",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Indian heritage. Regional variations add unique flavors. Such cuisine unites people across shared meals. 👍 https://t.co/be8JnxCGKX"
+          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and saffron, it reflects Italian cuisine. It’s central to cultural celebrations. Such cuisine unites people across shared meals. 🌟 💐 🌞 https://t.co/AKD6i9k6iu"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2091477044471214351",
-          "author": "mastermechas1",
+          "postId": "2091471377022734506",
+          "author": "pawanku40260764",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and saffron, it reflects Italian cuisine. Chefs master it through years of practice. Such cuisine unites people across shared meals. 🎊"
+          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and saffron, it reflects Italian cuisine. Chefs master it through years of practice. Such cuisine unites people across shared meals. 🌈 💎 https://t.co/LnJSmIYCwD"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2091476720159232294",
-          "author": "kimiri_njoroge",
+          "postId": "2091470785755922706",
+          "author": "onlytokito",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "A plate of biryani offers a burst of flavors. Made with basmati rice and saffron, it reflects Indian heritage. Chefs master it through years of practice. Such cuisine unites people across shared meals. 🌞 🎉 https://t.co/9QMO1mtySp"
+          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and saffron, it reflects Japanese tradition. Chefs master it through years of practice. Such cuisine unites people across shared meals. 💰"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2091476558821142691",
-          "author": "juanabaile1177",
+          "postId": "2091470712212959686",
+          "author": "allensteyn1",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and nori, it reflects Indian heritage. It’s central to cultural celebrations. Such cuisine unites people across shared meals. 💰 🎈"
+          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and saffron, it reflects Indian heritage. Chefs master it through years of practice. Such cuisine unites people across shared meals. It’s central to cultural celebrations. \ud83d"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2091476176908718168",
-          "author": "beatogabriella",
+          "postId": "2091470649541984465",
+          "author": "asiakakumei36",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "A plate of biryani offers a burst of flavors. Made with basmati rice and saffron, it reflects Japanese tradition. It’s central to cultural celebrations. Such cuisine unites people across shared meals. 🎉 🎁 🌟 https://t.co/lbaliqOr6o"
+          "text": "@ResurrectedFeed \"1. Offer rice 2. Convert 3. Repeat\" https://t.co/FJLgPUELEv"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2091476118536622467",
-          "author": "sharp_gayl88478",
+          "postId": "2091469982429503677",
+          "author": "korayosman58593",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "A plate of biryani offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Japanese tradition. It’s central to cultural celebrations. Such cuisine unites people across shared meals. 💦 💼 👑"
+          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and saffron, it reflects Indian heritage. Chefs master it through years of practice. Such cuisine unites people across shared meals. It’s central to cultural celebrations. \ud83d"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2091475805859676399",
-          "author": "wagnerdarl96798",
+          "postId": "2091469810110501236",
+          "author": "rallishaey",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and saffron, it reflects Japanese tradition. Chefs master it through years of practice. Such cuisine unites people across shared meals. 🌂 👍 💼"
+          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Italian cuisine. Chefs master it through years of practice. Such cuisine unites people across shared meals. 💎"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2091475707603902708",
-          "author": "lyka_0201",
+          "postId": "2091467807481344357",
+          "author": "ellisonsch47060",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and nori, it reflects Italian cuisine. It’s central to cultural celebrations. Such cuisine unites people across shared meals. Regional variations add unique flavors. 🌂 http"
+          "text": "A plate of biryani offers a burst of flavors. Made with basmati rice and nori, it reflects Japanese tradition. It’s central to cultural celebrations. Such cuisine unites people across shared meals. It’s central to cultural celebrations. 🌂"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2091475541077401764",
-          "author": "theresaalv13110",
+          "postId": "2091467200989204643",
+          "author": "francis_le64312",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and saffron, it reflects Indian heritage. Regional variations add unique flavors. Such cuisine unites people across shared meals. Chefs master it through years of practice. "
+          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Indian heritage. Regional variations add unique flavors. Such cuisine unites people across shared meals. 🎌 👑"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2091475438455407014",
-          "author": "nelsmobile",
+          "postId": "2091467025679794195",
+          "author": "olathornto26550",
           "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
-          "text": "A plate of biryani offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Japanese tradition. It’s central to cultural celebrations. Such cuisine unites people across shared meals. 💰"
+          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Indian heritage. Chefs master it through years of practice. Such cuisine unites people across shared meals. 🌟"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2091466900152729881",
+          "author": "greciarojasd",
+          "searchJob": "backfill:v2:rice:2026-07-31:2026-08-30",
+          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and saffron, it reflects Japanese tradition. Chefs master it through years of practice. Such cuisine unites people across shared meals. 🌸 🪐 🌈"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2088204891022066118",
+          "author": "ani",
+          "searchJob": "backfill:v2:temple:2026-07-31:2026-08-30",
+          "text": "#WATCH | Ayodhya | Addressing the 23rd death anniversary memorial festival of Paramhans Ramchandra Das Ji Maharaj, Uttar Pradesh Chief Minister Yogi Adityanath says, \"We all know about Paramhans Ramchandra Das Ji Maharaj. There was only one"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2088192151217660043",
+          "author": "justbusyreading",
+          "searchJob": "backfill:v2:temple:2026-07-31:2026-08-30",
+          "text": "🚀 Come see what we have to offer at Temple of Boom! We’ve got the @TrendVisionBOT scanner, the Momometer scanner, Mira AI alerts, live analyst alerts, and live options trading waiting for you — plus an extensive educational section packed "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2088190115223113774",
+          "author": "ians_india",
+          "searchJob": "backfill:v2:temple:2026-07-31:2026-08-30",
+          "text": "Ayodhya, Uttar Pradesh: Chief Minister Yogi Adityanath visited the Shri Ram Janmabhoomi Temple to offer prayers and seek the darshan of Lord Ram (Source: Shri Ram Janmabhoomi Teerth Kshetra Trust) https://t.co/aj2qlyX3Xm"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2088188465142001728",
+          "author": "newsarenaindia",
+          "searchJob": "backfill:v2:temple:2026-07-31:2026-08-30",
+          "text": "Ayodhya: Uttar Pradesh CM Yogi Adityanath offer prayers at Shri Ram Janmabhoomi Temple. https://t.co/TPszygRBjV"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2088163136130228413",
+          "author": "indembassybaku",
+          "searchJob": "backfill:v2:temple:2026-07-31:2026-08-30",
+          "text": "Embassy of India Celebrates Bihar Diwas with a Grand Showcase of Bihar’s Heritage, Culture and Cuisine in Baku Baku, 13 August 2026: The Embassy of India in Azerbaijan organised a grand event to celebrate Bihar Diwas on 13 August 2026, show"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2088160693602394509",
+          "author": "ians_india",
+          "searchJob": "backfill:v2:temple:2026-07-31:2026-08-30",
+          "text": "Amreli, Gujarat: Chief Minister Bhupendra Patel arrived in Amreli for the state-level Independence Day celebrations. He offered prayers at the historic Nagnath Temple before proceeding to the Patel Complex https://t.co/3EDJTAb4cF"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 170,
+      "jobs": 168,
       "swept": 36,
       "failed": 0,
       "requests": 36,
@@ -895,11 +902,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 81,
+      "rejectedCandidates": 82,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-08-30T20:53:03.251Z"
+    "status rebuilt locally from current store on 2026-08-30T20:58:49.378Z"
   ]
 }
