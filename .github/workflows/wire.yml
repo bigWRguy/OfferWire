@@ -68,9 +68,9 @@ jobs:
           OFFERWIRE_MODE: all
           OFFERWIRE_BACKFILL_DAYS: 30
           OFFERWIRE_BACKFILL_SHARE: ${{ vars.OFFERWIRE_BACKFILL_SHARE || '0.25' }}
-          # SearchTimeline exposes ~50 requests/15 min. Keep five in reserve for drift,
-          # retries and X client behaviour rather than leaving 40% of the quota idle.
-          OFFERWIRE_REQUESTS_PER_CRED: ${{ vars.OFFERWIRE_REQUESTS_PER_CRED || '45' }}
+          # This session was observed rate-limiting on request 38. Stop at 37 so every
+          # attempted query can advance its watermark instead of ending on a 429.
+          OFFERWIRE_REQUESTS_PER_CRED: ${{ vars.OFFERWIRE_REQUESTS_PER_CRED || '37' }}
           OFFERWIRE_SCROLLS: ${{ vars.OFFERWIRE_SCROLLS || '0' }}
           # Optional: enables the LLM extraction pass. Without it, rules-only.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

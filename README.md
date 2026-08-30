@@ -77,15 +77,15 @@ window. Nothing is skipped. If a school's results overflow the page budget, its 
 advances only as far as was actually read — never to "now" — so a busy program cannot
 silently lose a day.
 
-Rate limit is ~50 search requests per 15-minute window per account. OfferWire spends a
-conservative 45, reserving 75% for 164 live jobs and 25% for history while backfill is
-incomplete. Against the four quarter-hour triggers, one session therefore needs roughly
-75 minutes for a live pass; after backfill completes, it needs roughly 60 minutes.
+The current X session was measured rate-limiting on request 38 in a 15-minute window.
+OfferWire stops at 37, reserving 75% for 164 live jobs and 25% for history while backfill
+is incomplete. Against the four quarter-hour triggers, one session therefore needs
+roughly 90 minutes for a live pass; after backfill completes, roughly 75 minutes.
 
 | Sessions | Full sweep of all 136 schools |
 |---|---|
-| 1 | ~60-75 min |
-| 2 | ~30-45 min |
+| 1 | ~75-90 min |
+| 2 | ~45 min |
 | 3 | ~30 min |
 | 4 | ~15-30 min |
 | 6 | ~15 min |
@@ -99,8 +99,10 @@ mid-sweep is normal and is reported as such — it is not treated as a failure.
 slices), so the ledger starts populated instead of empty. Slices are fixed date windows,
 resumable, and marked complete once done. Each live run assigns 25% of its search quota
 to history. With one session and reliable quarter-hour starts, the initial month drains
-in roughly four days. The separate backfill workflow is manual-only because scheduling
-it beside the live job would make both jobs compete for the same 15-minute X quota.
+in roughly four to seven days depending on pagination. The window is anchored to the
+first run so completed work cannot fall out when the calendar advances. The separate
+backfill workflow is manual-only because scheduling it beside the live job would make
+both jobs compete for the same 15-minute X quota.
 
 ---
 

@@ -133,6 +133,19 @@ export function allJobs() {
 }
 
 /**
+ * Freeze the initial historical window. If the anchor moved forward every midnight,
+ * the oldest unfinished day would disappear and a slow backfill could chase the window
+ * forever without completing it. Live watermarks cover everything after this anchor.
+ */
+export function backfillAnchorDate(state, fallback = new Date()) {
+  const candidate = state.backfillAnchorAt || state.firstRunAt;
+  const parsed = candidate ? new Date(candidate) : new Date(fallback);
+  const anchor = Number.isFinite(parsed.getTime()) ? parsed : new Date(fallback);
+  state.backfillAnchorAt ||= anchor.toISOString();
+  return anchor;
+}
+
+/**
  * Historical coverage is split into one UTC day per school. A month-wide query can
  * silently hit X's result ceiling for busy programs; daily slices keep each result set
  * small, make progress resumable, and give every school an explicit completion mark.

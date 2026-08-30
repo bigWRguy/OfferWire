@@ -8,7 +8,7 @@ import path from 'node:path';
 import { readJson, writeJson, appendNdjson, readNdjson, sha1, DATA, CONFIG } from './lib/store.js';
 import { fetchList, fetchProfile, lagHours } from './collect/x.js';
 import { sweep, configured as searchConfigured, loadCredentials } from './collect/search.js';
-import { allJobs, schoolJobs, backfillJobs } from './collect/queries.js';
+import { allJobs, schoolJobs, backfillJobs, backfillAnchorDate } from './collect/queries.js';
 import { classify, findClassYear, findPosition, findTaggedRecruit, findReportedName } from './extract/rules.js';
 import { findSchools, byId, HANDLES, SCHOOLS } from './resolve/schools.js';
 import { extractBatch, enabled as llmEnabled, MODEL } from './extract/llm.js';
@@ -77,7 +77,8 @@ async function collect(state, log) {
     state.searchConfigured = false;
   } else {
     const days = BACKFILL_DAYS;
-    const historical = backfillJobs(days).filter((j) => !state.watermarks?.[j.key]?.completed);
+    const historicalPlan = days ? backfillJobs(days, backfillAnchorDate(state)) : [];
+    const historical = historicalPlan.filter((j) => !state.watermarks?.[j.key]?.completed);
     const jobs = mode === 'backfill' ? historical : mode === 'all' ? [...allJobs(), ...historical] : allJobs();
     if (days) log(`  backfill: ${historical.length}/${schoolJobs().length * days} team-days remaining`);
     const res = await sweep(jobs, state, { log });
@@ -126,7 +127,7 @@ async function collect(state, log) {
       }
       if (days) {
         const total = schoolJobs().length * days;
-        const remaining = backfillJobs(days).filter((j) => !state.watermarks?.[j.key]?.completed).length;
+        const remaining = historicalPlan.filter((j) => !state.watermarks?.[j.key]?.completed).length;
         state.backfill = { at: now(), days, totalTeamDays: total, completedTeamDays: total - remaining, remainingTeamDays: remaining };
         log(`  backfill: ${total - remaining}/${total} team-days complete`);
       }

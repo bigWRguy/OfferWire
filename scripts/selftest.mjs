@@ -8,7 +8,7 @@
 import { findSchools } from '../src/resolve/schools.js';
 import { classify, findClassYear, findPosition, findNameCandidates, findTaggedRecruit, findReportedName } from '../src/extract/rules.js';
 import { nameKey, fuzzyKey, canMerge, parseBio, looksLikeRecruit, cleanPersonName } from '../src/resolve/players.js';
-import { backfillJobs, schoolJobs } from '../src/collect/queries.js';
+import { backfillJobs, schoolJobs, backfillAnchorDate } from '../src/collect/queries.js';
 import { prioritizeJobs } from '../src/collect/search.js';
 
 let pass = 0, fail = 0;
@@ -218,6 +218,11 @@ t('one daily slice per school', history.length === schoolJobs().length * 30, Str
 t('oldest slice starts 30 days back', history[0]?.start === '2026-07-28', history[0]?.start);
 t('newest slice ends today', history.at(-1)?.end === '2026-08-27', history.at(-1)?.end);
 t('historical slices are fixed windows', history.every((j) => j.fixedWindow && / since:\d{4}-\d{2}-\d{2} until:\d{4}-\d{2}-\d{2}$/.test(j.query)));
+const anchorState = { firstRunAt: '2026-08-27T12:00:00.000Z' };
+t('backfill anchor starts at first run',
+  backfillAnchorDate(anchorState, new Date('2026-08-30T12:00:00Z')).toISOString() === '2026-08-27T12:00:00.000Z');
+t('backfill anchor does not slide on a later day',
+  backfillAnchorDate(anchorState, new Date('2026-09-05T12:00:00Z')).toISOString() === '2026-08-27T12:00:00.000Z');
 
 console.log('quota allocation');
 const mixed = prioritizeJobs(

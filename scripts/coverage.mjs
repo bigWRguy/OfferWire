@@ -17,10 +17,9 @@ const jobs = allJobs();
 const creds = loadCredentials();
 const nCreds = Number(process.argv[2]) || creds.length || 0;
 
-// Measured: X reports x-rate-limit-limit on every GraphQL call. SearchTimeline on a web
-// session sits at 50 per 15-minute window per credential. We plan at 45 to leave the
-// headroom the sweeper reserves for retries and cursor pages.
-const PER_WINDOW = Number(process.env.OFFERWIRE_PER_WINDOW || 45);
+// Measured in production: this web session rate-limited on request 38. Plan at 37 so
+// the final query succeeds and advances its watermark instead of spending a call on 429.
+const PER_WINDOW = Number(process.env.OFFERWIRE_PER_WINDOW || 37);
 const WINDOW_MIN = 15;
 const CRON_MIN = Number(process.env.OFFERWIRE_CRON_MIN || 15);
 
