@@ -231,6 +231,10 @@ t('acronym after "offers" WITH a name still classifies', classify('Bama offers O
 t('multi-school offer recap is a hard negative',
   classify('has already picked up offers from Alabama, Michigan, LSU, Florida, Georgia, Miami, Oregon, and many more').hardNegative);
 t('previous offer is not a new event', classify('Alabama previously offered 2029 ATH Janzen Currie').hardNegative);
+t('bare commit noun is a hard negative',
+  classify('West Boca 6’3 WR Jayden St. Fort (‘27) is an Eastern Michigan commit. He had offers from Florida, FSU and Miami, among others.').hardNegative);
+t('historical had-offers recap is not a new event',
+  classify('2027 WR Jayden St. Fort had offers from Florida, FSU and Miami, among others.').hardNegative);
 t('aspirational offer is not an offer', classify('A Western Michigan offer would be amazing').hardNegative);
 t('recent-offer recap is not a new event', classify('He added a recent offer from Washington').hardNegative);
 t('explicit D2 offer is not attributed to an FBS school from search context',
