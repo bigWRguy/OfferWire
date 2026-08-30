@@ -70,6 +70,14 @@ const NEGATIVE = [
   /\bnil\s+deal\b/i, /\bportal\b/i, /\btransfer\s+portal\b/i,
   /\bofficial\s+visit\s+set\b/i,
   /\b(?:scholarship\s+)?offer\s+(?:code|expires)\b/i, // spam
+  // Offer-list recaps: "He Has Offers From The Duke Blue Devils, Maryland Terrapins,
+  // Appalachian State Mountaineers, & More" states the player's existing inventory, not
+  // a new offer event. Highlights accounts (e.g. "NAME @handle - c/o 2027 - WR - High
+  // School - Full Season Highlights (He Has Offers From X, Y, Z, & More)") use exactly
+  // this shape, and a recap whose schools happen to resolve to one FBS program was
+  // filing a row. Bargaining-state verbs are the tell: a new offer is never described
+  // as "has/holds/boasts offers" — it is received, picked up, or extended.
+  /\b(?:has|have|had|holds?|held|boasts?)\s+offers?\s+(?:from|at)\b/i,
 ];
 
 // Honor/season years that are NOT a recruiting class: "All State '25", "2025 1st Team
@@ -198,7 +206,19 @@ export function classify(text) {
   const nonScholarship = /\bprep\s+school\s+offer\b|\boffer\s+to\s+play\s+football\s+at\b/i.test(t);
   const nonFbsLevel = /\b(?:d[23]|division\s*(?:ii|iii|2|3|two|three)|naia|njcaa|juco)\s+(?:scholarship\s+)?offer\b/i.test(t);
   const otherSportOffer = /\b(?:baseball|basketball|softball|soccer|volleyball|lacrosse|hockey)\s+(?:scholarship\s+)?offer\b|\boffer\s+to\s+play\s+(?:baseball|basketball|softball|soccer|volleyball|lacrosse|hockey)\b/i.test(t);
-  const hard = multiSchoolRecap || staleOffer || aspirational || nonScholarship || nonFbsLevel || otherSportOffer || /\bcommit(?:ted|ment|s)?\b|\bdecommit|\bsigning day\b|\bofferlist\b|\boffer list\b|\bwalk[\s-]?on\b|\bpwo\b|\bthrowback\b|\bon this day\b/i.test(t);
+  // "He Has Offers From The Duke Blue Devils, Maryland Terrapins, Appalachian State
+  // Mountaineers, & More" is an existing-inventory recap, never a new offer event. It
+  // is FATAL only when no new-offer verb is present: a recruit announcing a fresh offer
+  // can honestly add "now I have offers from Alabama, LSU and Georgia" as a tail, and
+  // killing that would lose real offers. But a post whose only offer language is a
+  // state-of-recruiting recap (highlights accounts are the worst offender) has nothing
+  // to attribute, so it must not reach the extractor at all. The leading "The" matters:
+  // "offers from The X, Y, Z" evades the comma-list pattern below, which requires the
+  // first name to start immediately after "from".
+  const recapStatesOffer = /\b(?:has|have|had|holds?|held|boasts?)\s+offers?\s+(?:from|at)\b/i.test(t);
+  const newOfferVerb = /\b(?:receiv\w+|was\s+offered|has\s+been\s+offered|being\s+offered|offered\s+by|officially\s+offered|extends?\s+an?\s+offer|lands?\s+an?\s+offer|landed\s+an?\s+offer|earned\s+an?\s+offer|picked?\s+up\s+(?:an?|a|\d+\w*)\s+offer|got\s+\w+\s+(?:\w+\s+)*offer)\b/i.test(t);
+  const hardRecap = recapStatesOffer && !newOfferVerb;
+  const hard = multiSchoolRecap || staleOffer || aspirational || nonScholarship || nonFbsLevel || otherSportOffer || hardRecap || /\bcommit(?:ted|ment|s)?\b|\bdecommit|\bsigning day\b|\bofferlist\b|\boffer list\b|\bwalk[\s-]?on\b|\bpwo\b|\bthrowback\b|\bon this day\b/i.test(t);
   if (hard) return { kind, prior: 0, negatives: neg, hardNegative: true };
 
   const prior = Math.max(0, base - 0.12 * neg.length);
@@ -232,6 +252,14 @@ export function findTaggedRecruit(post, schools, known) {
   const cands = (post.mentioned || []).filter((m) => {
     if (schools.has(m.handle) || known.has(m.handle)) return false;
     if (NEVER_THE_RECRUIT.test(m.handle)) return false;
+    // The handle test misses team accounts that spell the word differently
+    // ("EHigh Trojans Football" rides @ehstrojanftbl, which contains no "football").
+    // X's payload gives us the tagged account's DISPLAY NAME, so read the same signal
+    // there: a program/team account is never the recruit. A recruit's display name is
+    // their name plus stats/class — it does not end in "Football", "HS", "Sports" or
+    // carry "High School"/"Athletics". Tagged-recruit ambiguity (two unknown accounts)
+    // was forcing the caller back to prose, where the high school name won.
+    if (/(high school|\bhs\b|athletic|\bsports?\b|official|football\s*$)/i.test(m.name || '')) return false;
     return true;
   });
   if (cands.length !== 1) return null;           // 0 or ambiguous -> do not guess
@@ -299,6 +327,12 @@ export function findReportedName(text) {
     if (words.some((w) => STOP_NAME.has(w.toLowerCase().replace(/[^a-z]/g, '')))) continue;
     // Reject school names masquerading as people ("Ole Miss", "Texas Tech").
     if (/^(Ole|Texas|Michigan|Ohio|Florida|Georgia|Notre|Boston|Penn|Iowa|Kansas|Oregon|Arizona|Miami|West|North|South|East|New|Wake|Virginia|Washington|Oklahoma|Mississippi|Louisiana|Colorado|Central|Northern|Southern|Western|Eastern|Appalachian|Coastal|Middle|Old|Sam|San|Air)\b/.test(name)) continue;
+    // A HIGH SCHOOL is not a person. The class-year grammar grabs "2027 - WR - Evans
+    // High School" whole, and "Hudson Hatch High School" would file the school as the
+    // recruit. Any institutional-school token kills the capture. ("Christian" stays
+    // legal: it is a real surname, and a school with it in the name also carries
+    // Academy/School/Memorial.)
+    if (/\b(?:high school|school|hs|academy|university|college|memorial)\b/i.test(name)) continue;
     if (words.length >= 2) return name;
   }
   return null;

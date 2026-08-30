@@ -224,6 +224,20 @@ time — so a bare stat-block bio that could be basketball ("5'11 · G/F · 4.0 
 out of the wire while "Football/Track Star" and "FBU All American" bios get in.
 "Flag football" counts only when the same bio shows tackle evidence (a position or 40).
 
+**Recap posts are fatal, not just taxed.** "He Has Offers From The Duke Blue Devils,
+Maryland Terrapins, Appalachian State Mountaineers, & More" is existing offer inventory,
+not a new offer event — highlights accounts post this shape constantly, and a recap whose
+schools happen to resolve to one FBS program filed fabricated rows. When a post's only
+offer language is a state-of-recruiting recap (has/have/holds/boasts offers from) it is a
+hard negative; the same sentence survives only when a *new-offer verb* (received, was
+offered, picked up, landed, earned) is present, so a recruit announcing a fresh offer with
+a recap tail is not lost. Corollary: **a high school is never a player.** The prose-name
+grammar could grab "Evans High School" out of a highlights recap and publish the school as
+the recruit; institutional-school tokens kill the capture. And team accounts are filtered
+by DISPLAY NAME as well as handle ("EHigh Trojans Football" rides @ehstrojanftbl, which
+contains no "football"), so the tagged recruit is found instead of the post being judged
+ambiguous.
+
 **Player identity** (`src/resolve/players.js`) — never merges on name alone. A merge needs
 the name *plus* corroboration (handle, high school, class, state, position); any hard
 conflict blocks it. Ambiguity creates a new record and logs to `data/review.ndjson`.

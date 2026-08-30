@@ -198,6 +198,36 @@ t('reporter tags are not the recruit',
   tag([{ handle: 'hayesfawcett3', name: 'Hayes Fawcett' }]) === null);
 t('two unknown tags is ambiguous -> no guess',
   tag([{ handle: 'kid_a', name: 'Aa Bb' }, { handle: 'kid_b', name: 'Cc Dd' }]) === null);
+// A HIGHLIGHTS-style post tags the recruit AND the team account. The team rides an
+// obscure handle that the handle-based filter cannot see, making the post ambiguous
+// and forcing a prose fallback that picked the HIGH SCHOOL as the player. The display
+// name carries the signal: a team account is never the recruit.
+t('team account with obscure handle is not the recruit',
+  (() => {
+    const r = tag([
+      { handle: 'damir_williams0', name: 'Damir Williams 2027 6\u20180 181' },
+      { handle: 'ehstrojanftbl', name: 'EHigh Trojans Football' },
+    ]);
+    return r && r.handle === 'damir_williams0' && r.name === 'Damir Williams';
+  })(),
+  JSON.stringify(tag([{ handle: 'damir_williams0', name: 'Damir Williams' }, { handle: 'ehstrojanftbl', name: 'EHigh Trojans Football' }])));
+t('recruit + team + coach still resolves to the recruit',
+  (() => {
+    const r = tag([
+      { handle: 'marcuslee2028', name: 'Marcus Lee' },
+      { handle: 'northsideFB', name: 'Northside Football' },
+      { handle: 'coachsmith', name: 'Coach Smith' },
+    ]);
+    return r && r.handle === 'marcuslee2028';
+  })(),
+  JSON.stringify(tag([{ handle: 'marcuslee2028', name: 'Marcus Lee' }, { handle: 'northsideFB', name: 'Northside Football' }, { handle: 'coachsmith', name: 'Coach Smith' }])));
+t('recruit display name with stats is not confused with a team',
+  (() => {
+    const r = tag([{ handle: 'jaxonflowers7', name: 'Jaxon Flowers 5 Star' }, { handle: 'vtechfb', name: 'Virginia Tech Football' }]);
+    return r && r.handle === 'jaxonflowers7';
+  })(),
+  JSON.stringify(tag([{ handle: 'jaxonflowers7', name: 'Jaxon Flowers 5 Star' }, { handle: 'vtechfb', name: 'Virginia Tech Football' }])));
+
 t('365-branded media tag is not a recruit',
   tag([{ handle: 'olemiss365', name: 'Ole Miss 365' }]) === null);
 t('decorated display name is rejected as a name but handle kept', (() => {
@@ -327,6 +357,21 @@ t('historical had-offers recap is not a new event',
   classify('2027 WR Jayden St. Fort had offers from Florida, FSU and Miami, among others.').hardNegative);
 t('aspirational offer is not an offer', classify('A Western Michigan offer would be amazing').hardNegative);
 t('recent-offer recap is not a new event', classify('He added a recent offer from Washington').hardNegative);
+// A HIGHLIGHTS account's recap filed "Evans High School" as the recruit offered by Sam
+// Houston (the only one of three named schools that resolved confidently). "has offers
+// from X, Y, Z, & More" is existing inventory with no new-offer verb — it must be fatal
+// even when just one school resolves, and even when the list starts with "The" (which
+// evades the comma-list rule).
+t('"has offers from X, Y, Z" recap is a hard negative',
+  classify("Damir Williams @damir_williams0 - c/o 2027 - WR - Evans High School @EHSTrojanFTBL - Full Season Highlights Jr Szn (He Has Offers From The UNC Pembroke Braves, Florida Atlantic Owls, Sam Houston Bearkats, & More)").hardNegative);
+t('"has offers from" without a new-offer verb is a hard negative',
+  classify('He has offers from Alabama and Georgia.').hardNegative);
+t('a new offer with a recap tail still survives classification',
+  classify("After a great conversation I'm blessed to receive an offer from @GamecockFB! Now I have offers from Alabama, Georgia and LSU.").kind === 'player_voice',
+  JSON.stringify(classify("After a great conversation I'm blessed to receive an offer from @GamecockFB! Now I have offers from Alabama, Georgia and LSU.")));
+t('high school name is never read as a person',
+  rn("Damir Williams - c/o 2027 - WR - Evans High School - Full Season Highlights Jr Szn (He Has Offers From The UNC Pembroke Braves)") === null,
+  String(rn("Damir Williams - c/o 2027 - WR - Evans High School - Full Season Highlights Jr Szn (He Has Offers From The UNC Pembroke Braves)")));
 t('explicit D2 offer is not attributed to an FBS school from search context',
   classify("I'm blessed to announce I have received a D2 offer to play running back at Minot State!").hardNegative);
 t('explicit baseball offer is not a football offer',
