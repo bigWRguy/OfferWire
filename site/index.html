@@ -196,17 +196,19 @@ function updateStatus(){
   var age=0;
   if(DATA.length&&DATA[0]&&DATA[0].lastSeenAt)age=(Date.now()-new Date(DATA[0].lastSeenAt))/60000;
   var stale=(STATUS.staleSchools||[]).length;
+  var bf=STATUS.backfill;
+  var backfilling=bf&&bf.remainingWindows>0;
   var dot=$('status-dot'),fresh=$('fresh');
   var dotCls='g',freshTxt='live';
   if(!STATUS.searchConfigured){dotCls='r';freshTxt='offline'}
-  else if(age>60||stale>80){dotCls='r';freshTxt='down'}
-  else if(stale>20){dotCls='a';freshTxt='degraded'}
+  else if(!backfilling&&(age>60||stale>80)){dotCls='r';freshTxt='down'}
+  else if(!backfilling&&stale>20){dotCls='a';freshTxt='degraded'}
   dot.className='dot '+dotCls;
   fresh.textContent=freshTxt+' · updated '+ago(STATUS.generatedAt);
   var alert=$('alert');
   var msg='',bad=false;
   if(!STATUS.searchConfigured){msg='X search is not configured. National coverage is offline.';bad=true}
-  else if(age>60||stale>80){msg=age>60?'Data is stale ('+ago(STATUS.generatedAt)+'). The collector may be stuck.':'Coverage collapsed: '+stale+' programs unswept >2h.';bad=true}
+  else if(!backfilling&&(age>60||stale>80)){msg=age>60?'Data is stale ('+ago(STATUS.generatedAt)+'). The collector may be stuck.':'Coverage collapsed: '+stale+' programs unswept >2h.';bad=true}
   alert.className='alert'+(msg?' '+(bad?'bad':'warn')+' on':'');
   alert.textContent=msg||'';
 }
