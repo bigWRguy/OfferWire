@@ -30,7 +30,6 @@ try {
       bioMap.set(p.id, {
         height: p.height ?? null,
         weight: p.weight ?? null,
-        stars: p.stars ?? null,
         gpa: p.gpa ?? null,
         bio: p.bio ?? null,
         state: p.state ?? null,

@@ -9,7 +9,7 @@ import { readJson, writeJson, appendNdjson, readNdjson, sha1, DATA, CONFIG } fro
 import { fetchList, fetchProfile, lagHours } from './collect/x.js';
 import { sweep, configured as searchConfigured, loadCredentials } from './collect/search.js';
 import { allJobs, schoolJobs, backfillJobs, backfillAnchorDate, backfillProgress } from './collect/queries.js';
-import { classify, findClassYear, findPosition, findTaggedRecruit, findReportedName } from './extract/rules.js';
+import { classify, findClassYear, findPosition, findTaggedRecruit, findReportedName, handleClassYear } from './extract/rules.js';
 import { findSchools, byId, HANDLES, SCHOOLS } from './resolve/schools.js';
 import { extractBatch, enabled as llmEnabled, MODEL } from './extract/llm.js';
 import { indexPlayers, resolve as resolvePlayer, mergeInto, nameKey, fuzzyKey, parseBio, looksLikeRecruit, cleanPersonName } from './resolve/players.js';
@@ -252,6 +252,14 @@ export function prefilter(posts, log = () => {}, audit = null) {
   return kept;
 }
 
+/** Football evidence in a self-announcement: a position, football language, or a 40 time. */
+const footballTokenFor = (p) => {
+  const text = `${p.authorBio || ''} ${p.text}`;
+  return /\bfootball\b|🏈|\bFB(?:B|U)?\b/i.test(text)
+    || /\b([3-5]\.\d{1,2})\s*(?:40\b|40yd\b|forty)\b/i.test(text)
+    || /\b40\s*[:=-]?\s*([3-5]\.\d{1,2})\b/i.test(text);
+};
+
 /** Explain a rules-only miss without changing the conservative extraction decision. */
 export function rulesOnlyRejectionReason(p) {
   const solid = (p._schools || []).filter((s) => s.id && s.confidence >= 0.9);
@@ -261,7 +269,7 @@ export function rulesOnlyRejectionReason(p) {
     const tagged = findTaggedRecruit(p, SCHOOL_HANDLES, KNOWN_ACCOUNTS);
     const name = tagged?.name || findReportedName(p.text) || null;
     if (!name) return 'reporter_missing_player_name';
-    if (findClassYear(p.text) == null) return 'reporter_missing_class_year';
+    if ((findClassYear(p.text) ?? handleClassYear(tagged?.handle)) == null) return 'reporter_missing_class_year';
     if (findPosition(p.text) == null) return 'reporter_missing_position';
     const footballContext = /\bfootball\b|\brecruit(?:ing)?\b|\b(?:QB|RB|WR|TE|OT|OG|OL|IOL|DL|DE|DT|EDGE|LB|ILB|OLB|CB|DB|SAF|ATH)\b/.test(`${p.text} ${p.authorBio || ''}`);
     if (!footballContext) return 'reporter_missing_football_context';
@@ -271,8 +279,8 @@ export function rulesOnlyRejectionReason(p) {
     const verdict = looksLikeRecruit(p.authorBio, p.authorName);
     if (!verdict.ok) return `author_not_recruit:${verdict.why}`;
     if (!cleanPersonName(p.authorName)) return 'player_display_name_unusable';
-    if ((findClassYear(p.text) ?? verdict.info.classYear) == null) return 'player_missing_class_year';
-    if ((verdict.info.position ?? findPosition(p.text)) == null) return 'player_missing_position';
+    if ((findClassYear(p.text) ?? verdict.info.classYear ?? handleClassYear(p.author)) == null) return 'player_missing_class_year';
+    if ((verdict.info.position ?? findPosition(p.text)) == null && !footballTokenFor(p)) return 'player_missing_football_context';
     return 'player_unresolved';
   }
   return 'unsupported_offer_kind';
@@ -347,7 +355,7 @@ export function rulesOnlyOffers(p) {
     const prose = findReportedName(p.text);
     const name = tagged?.name || prose || null;
     const handle = tagged?.handle || null;
-    const cls = findClassYear(p.text);
+    const cls = findClassYear(p.text) ?? handleClassYear(tagged?.handle);
     const pos = findPosition(p.text);
     const footballContext = /\bfootball\b|\brecruit(?:ing)?\b|\b(?:QB|RB|WR|TE|OT|OG|OL|IOL|DL|DE|DT|EDGE|LB|ILB|OLB|CB|DB|SAF|ATH)\b/.test(`${p.text} ${p.authorBio || ''}`);
     if (!name || cls == null || pos == null || !footballContext) return [];
@@ -376,9 +384,19 @@ export function rulesOnlyOffers(p) {
   // reliable way to get a NAME out of a self-announcement without an LLM. Require a
   // plausible two-part human name and reject anything with handle-ish decoration.
   const named = cleanPersonName(p.authorName);
-  const classYear = findClassYear(p.text) ?? verdict.info.classYear ?? null;
+  const classYear = findClassYear(p.text) ?? verdict.info.classYear ?? handleClassYear(p.author) ?? null;
   const position = verdict.info.position ?? findPosition(p.text) ?? null;
-  if (!named || classYear == null || position == null) return [];
+  // A self-announcement must still show FOOTBALL evidence. A recruit bio that is only
+  // height/class/GPA could be a basketball or baseball prospect (dropping the old
+  // position gate outright let real basketball recruits — "5'11 G/F", "6'3 CG", "6'8
+  // F/C" bios — through). But demanding a position threw away genuine kids whose bio
+  // proves football without a position code ("Football/Track Star", "FBU All American",
+  // "FB (WR and FS)", or a 40-yard time). So: a football POSITION, or football language
+  // (football/FB/FBU/🏈), or a 40 time. Handle-year is the last word on class because a
+  // recruit's handle almost always carries it ("coltonfitz2028", "landonghea2029") when
+  // their text and bio both omit it.
+  if (!named || classYear == null) return [];
+  if (!position && !footballTokenFor(p)) return [];
 
   return [{
     player_name: named,
@@ -413,7 +431,12 @@ export function upsert(db, rec, post, verdictConfidence, observedAt = now()) {
     highSchool: rec.high_school ?? null,
     state: rec.state ?? null,
   };
-  if (!incoming.name || incoming.classYear == null || !incoming.position) return null;
+  // Position is not a blocker here: the extractor has already decided this is a real
+  // offer, and a self-announced recruit whose verified bio states measurables but no
+  // position is still a real offer row (the first reporter post or the LLM fills the
+  // blank; canMerge ignores missing positions entirely). Gating on it there just
+  // silently threw away players.
+  if (!incoming.name || incoming.classYear == null) return null;
   if (incoming.name && !nameKey(incoming.name)) return null;
 
   // The recruit's own bio is the richest metadata on the post. Use it only to FILL

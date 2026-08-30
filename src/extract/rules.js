@@ -72,13 +72,33 @@ const NEGATIVE = [
   /\b(?:scholarship\s+)?offer\s+(?:code|expires)\b/i, // spam
 ];
 
+// Honor/season years that are NOT a recruiting class: "All State '25", "2025 1st Team
+// All District", "Soph All-State '23", "National Champs '22". They sit in bios written
+// exactly like class shorthand ('25) but they date an ACHIEVEMENT, not the recruit.
+// Matching them first reads a 2028 kid as class of 2025 — seen live with
+// @coltonfitz2028, whose bio says "San Ramon Valley 2028 | Canes National 2028 | Soph
+// All State '25" and got filed 2025. A class year is never expressed glued to an award
+// phrase, so a year in that context can be dropped before any class extraction runs.
+export function maskAwardYears(text) {
+  const t = String(text || '');
+  return t
+    // "All State '25", "All-American '23", "2x All District '24", "All 7-4A '22"
+    .replace(/\b(?:[A-Za-z0-9]+[\s-])?all[\s-]+[A-Z0-9][A-Za-z0-9./-]{1,18}\s*['\u2018\u2019]?\s*(?:20\d{2}|\d{2})\b/gi, ' ')
+    // "2025 1st Team All State", "2024 second-team All District", "25 1st team" too
+    .replace(/\b(20\d{2}|\d{2})\s*(?:1st|2nd|3rd|4th|5th|first|second|third|fourth|fifth|honorable\s+mention)\s*[- ]?\s*team\b/gi, ' ')
+    // "National Champions '24", "State Champs '22", "6A-D1 Champs '21"
+    .replace(/\b(?:national|state|regional|district|conference|city|county|[\w./-]+)\s+(?:champs?|champions?)\b\s*['\u2018\u2019]?\s*(?:20\d{2}|\d{2})\b/gi, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 // A recruiting class year in the near future.
 export function findClassYear(text, nowYear = new Date().getUTCFullYear()) {
-  const raw = text || '';
+  const raw = maskAwardYears(text || '');
   const explicit = raw.match(/\b(?:class\s+of|c\/?o|class|co)\s*['\u2018\u2019]?\s*(20\d{2}|\d{2})\b/i)
     || raw.match(/\bc\/(?:o\/)?\s*['\u2018\u2019]?\s*(20\d{2}|\d{2})\b/i)
-    || raw.match(/(?:^|[\s|/])(\d{2})\s*['\u2018\u2019](?=$|[\s|/])/)
-    || raw.match(/(?<!\d)['\u2018\u2019](\d{2})\b/);
+    || raw.match(/(?:^|[\s|/])(\d{2})\s*['\u2018\u2019\u201C\u201D](?=$|[\s|/])/)
+    || raw.match(/(?<!\d)['\u2018\u2019\u201C\u201D](\d{2})\b/);
   if (explicit) {
     const y = explicit[1].length === 2 ? 2000 + Number(explicit[1]) : Number(explicit[1]);
     if (y >= nowYear - 1 && y <= nowYear + 7) return y;
@@ -86,6 +106,18 @@ export function findClassYear(text, nowYear = new Date().getUTCFullYear()) {
   const m = [...raw.matchAll(/\b(20\d{2})\b/g)].map((x) => +x[1]);
   const c = m.filter((y) => y >= nowYear && y <= nowYear + 6);
   return c.length ? Math.min(...c) : null;
+}
+
+// A recruit's handle usually carries their graduation class ("coltonfitz2028",
+// "tyler_2028", "landonghea2029"). Self-announcements whose text AND bio both omit the
+// class were being thrown away even though the author's own handle states it — seen
+// live with @c_burris2028, class of 2028, rejected for a missing class year. Trailing
+// 4-digit year only, bounded by the class window.
+export function handleClassYear(handle, nowYear = new Date().getUTCFullYear()) {
+  const m = String(handle || '').match(/(?:^|_|-|(?<=\D))(20\d{2})$/);
+  if (!m) return null;
+  const y = Number(m[1]);
+  return y >= nowYear - 1 && y <= nowYear + 7 ? y : null;
 }
 
 export function findPosition(text) {

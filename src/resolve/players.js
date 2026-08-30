@@ -7,6 +7,7 @@
 // class). Every merge needs the name PLUS one corroborating field, and any hard
 // conflict blocks the merge outright.
 import { norm } from './schools.js';
+import { maskAwardYears } from '../extract/rules.js';
 
 const SUFFIX = /\b(jr|sr|ii|iii|iv|v)\b/g;
 
@@ -133,16 +134,29 @@ export function parseBio(bio, nowYear = new Date().getUTCFullYear()) {
   if (!bio) return {};
   const out = {};
   const t = ' ' + bio.replace(/\s+/g, ' ') + ' ';
+  // Award/season years ("All State '25", "2025 1st Team All District") date an honor,
+  // not the recruit. Class extraction runs on a copy with them removed so "'25" can
+  // never outrank the actual class ("San Ramon Valley 2028 … Soph All State '25" filed
+  // a 2028 recruit as class of 2025 before this mask existed). maskAwardYears is shared
+  // with findClassYear() so post text and bios behave identically.
+  const ct = ' ' + maskAwardYears(t) + ' ';
 
-  // Class: "2028", "C/O 28", "c/o 2028", "'28"
-  const explicitFull = t.match(/\b(?:class\s+of|c\/?o|class|co)\s*['\u2018\u2019]?\s*(20(?:2[5-9]|3[0-5]))\b/i);
-  const full = [...t.matchAll(/\b(20(?:2[5-9]|3[0-5]))\b/g)].map((m) => +m[1])
+  // Class: "2028", "C/O 28", "c/o 2028", "'28", "HS 28"
+  const explicitFull = ct.match(/\b(?:class\s+of|c\/?o|class|co)\s*['\u2018\u2019]?\s*(20(?:2[5-9]|3[0-5]))\b/i);
+  const full = [...ct.matchAll(/\b(20(?:2[5-9]|3[0-5]))\b/g)].map((m) => +m[1])
     .filter((y) => y >= nowYear - 1 && y <= nowYear + 7);
-  const short = t.match(/\bc\/?o\s*['\u2018\u2019]?\s*(\d{2})\b/i)
-    || t.match(/\bclass of\s*['\u2018\u2019]?\s*(\d{2})\b/i)
-    || t.match(/\bc\/(?:o\/)?\s*['\u2018\u2019]?\s*(\d{2})\b/i)
-    || t.match(/(?:^|[\s|/])(\d{2})\s*['\u2018\u2019](?=$|[\s|/])/)
-    || t.match(/(?<!\d)['\u2018\u2019](\d{2})\b/);
+  const short = ct.match(/\bc\/?o\s*['\u2018\u2019]?\s*(\d{2})\b/i)
+    || ct.match(/\bclass of\s*['\u2018\u2019]?\s*(\d{2})\b/i)
+    || ct.match(/\bc\/(?:o\/)?\s*['\u2018\u2019]?\s*(\d{2})\b/i)
+    // Bare "class" + two digits, no "of": "Class 28" is the same signal as "C/O 28",
+    // and it only parses when written with a 4-digit year otherwise.
+    || ct.match(/\bclass\s*['\u2018\u2019\u201C\u201D]?\s*(\d{2})\b/i)
+    // School-suffix shorthand, the most common bio form of all: "Marysville HS 28",
+    // "Milton HS l 29 OL", "University HS *28". "#" is excluded so a jersey number
+    // after the school name is never read as a class.
+    || ct.match(/\b(?:HS|High School|H\.S\.|High)\b[^0-9#]{0,8}(?:20)?(\d{2})\b/i)
+    || ct.match(/(?:^|[\s|/])(\d{2})\s*['\u2018\u2019\u201C\u201D](?=$|[\s|/])/)
+    || ct.match(/(?<!\d)['\u2018\u2019\u201C\u201D](\d{2})\b/);
   const shortYear = short ? 2000 + +short[1] : null;
   if (explicitFull) out.classYear = +explicitFull[1];
   else if (shortYear >= nowYear - 1 && shortYear <= nowYear + 7) out.classYear = shortYear;
@@ -154,7 +168,10 @@ export function parseBio(bio, nowYear = new Date().getUTCFullYear()) {
   //   bare "S" / "P" collide with ordinary prose
   //   an explicit "Pos:" label is authoritative and must win —
   //       "6'2 255|Pos:DL/LB/H|3 Sport Athlete"
-  const POS = 'QB|RB|FB|WR|TE|OT|OG|OL|IOL|DL|DE|DT|EDGE|LB|ILB|OLB|CB|DB|FS|SS|S|SAF|ATH|K|P|LS';
+  // RT/LT/RG/LG belong here but NOT in rules.js findPosition(): on X post text "RT"
+  // means retweet, in a stat-block bio it means right tackle. "C/28 6-3 280 RT/G" is a
+  // tackle with two line-position codes, not a fullback.
+  const POS = 'QB|RB|FB|WR|TE|OT|LT|RT|OG|LG|RG|OL|IOL|DL|DE|DT|EDGE|LB|ILB|OLB|CB|DB|FS|SS|S|SAF|ATH|K|P|LS';
   const labelled = t.match(new RegExp(`\\bPos(?:ition)?\\s*[:\\-]\\s*(${POS})\\b`, 'i'));
   const worded = t.match(/\b(quarterback|running back|wide receiver|tight end|offensive (?:tackle|guard|lineman)|o\s*tackle|defensive (?:tackle|end|lineman|back)|d[- ]?end|linebacker|cornerback|free safety|strong safety|safety|long snapper|kicker|punter)\b/i);
   const wordMap = { quarterback: 'QB', 'running back': 'RB', 'wide receiver': 'WR', 'tight end': 'TE',
@@ -247,6 +264,12 @@ export function looksLikeRecruit(bio, displayName = '') {
   const info = parseBio([bio, displayName].filter(Boolean).join(' | '));
   const signals = ['classYear', 'position', 'height', 'weight', 'forty', 'stars', 'gpa']
     .filter((k) => info[k] != null).length;
+
+  // Flag football is not the sport this wire tracks: an FBS scholarship offer is for
+  // the tackle roster, and the new girls' flag game has its own recruiting. A recruit
+  // who plays TACKLE teams names a position or a 40 time in the same bio — require that
+  // before a "flag football" mention is allowed to count as football evidence.
+  if (/\bflag\s+football\b/i.test(t) && !info.position && !info.forty) return { ok: false, why: 'different sport' };
 
   // Measurables win. A recruit bio is a stat block — class, height, weight, 40, stars —
   // and a coach's or an agency's is not. Without giving that precedence the filter

@@ -10,7 +10,7 @@
     "coverage": "node scripts/coverage.mjs",
     "selftest": "node scripts/selftest.mjs",
     "fixture": "node scripts/fixture-run.mjs",
-    "audit": "node scripts/replay.mjs --rejected",
+    "audit": "node scripts/audit.mjs && node scripts/replay.mjs --rejected",
     "status": "node scripts/build-status.mjs",
     "test": "node scripts/selftest.mjs && node scripts/fixture-run.mjs",
     "plan-lists": "node scripts/plan-lists.mjs",

@@ -77,8 +77,30 @@ for (const o of offers) {
 }
 
 if (showRejected) {
-  console.log(`\n=== rejected (${rejected.length}) ===`);
-  for (const [why, p] of rejected.slice(0, 40)) {
-    console.log(`  [${why}] ${p.text.replace(/\n/g, ' ').slice(0, 105)}`);
+  // Recruit-shaped misses first: these reasons mean a post READ like a real offer but a
+  // field the rules insist on was missing. Read them, fix a rule, re-measure — that is
+  // the whole improvement loop. Pure noise (bare mentions, unresolvable schools) comes
+  // after, with fewer samples.
+  const near = ['player_missing_class_year', 'player_missing_football_context', 'player_missing_position',
+    'reporter_missing_class_year', 'reporter_missing_position', 'reporter_missing_player_name',
+    'player_display_name_unusable', 'author_not_recruit:no recruit fields', 'author_not_recruit:not high-school recruit'];
+  const byReason = new Map();
+  for (const [reason, p] of rejected) {
+    if (!byReason.has(reason)) byReason.set(reason, []);
+    byReason.get(reason).push(p);
+  }
+  const order = [...byReason.entries()]
+    .sort((a, b) => b[1].length - a[1].length)
+    .sort((a, b) => Number(near.includes(b[0])) - Number(near.includes(a[0])));
+  console.log(`\n=== rejected by reason (${rejected.length} total, ${order.length} reasons) ===`);
+  for (const [reason, ps] of order) {
+    const isNear = near.includes(reason);
+    const shown = isNear ? 8 : 3;
+    console.log(`\n[${reason}] (${ps.length})${isNear ? '  <- most likely real recruits, worth reading' : ''}`);
+    for (const p of ps.slice(0, shown)) {
+      console.log(`  @${p.author}: ${String(p.text).replace(/\s+/g, ' ').slice(0, 115)}`);
+      if (p.authorBio) console.log(`    BIO: ${String(p.authorBio).replace(/\s+/g, ' ').slice(0, 96)}`);
+    }
+    if (ps.length > shown) console.log(`  … ${ps.length - shown} more`);
   }
 }

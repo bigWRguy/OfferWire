@@ -201,10 +201,28 @@ request. Three traps are handled explicitly, each found in live data:
 - **`NCAA ID:2602827047`** parses as the state of Idaho unless stripped
 - position tokens hide inside handles — `@ByronNelsonFB` is a school, not a fullback
 
+Class-year precision, every rule below written against a live mis-file:
+- **Award/season years are masked before class extraction** — `All State '25`, `2025 1st
+  Team All District`, `National Champs '22` date an honor, not the recruit. Without the
+  mask a 2028 kid whose bio read "San Ramon Valley 2028 … Soph All State '25" was filed
+  as class of **2025**. `maskAwardYears` is shared with `findClassYear` so post text and
+  bios behave identically.
+- **School-suffix and bare-`Class` shorthands are classes** — `Marysville HS 28`,
+  `Milton HS l 29 OL`, `Class 28`, `University HS *28`. A `#` between the school name
+  and the number (a jersey) never is.
+- **`RT`/`LT`/`RG`/`LG` are real positions in a bio** — `C/28 6-3 280 RT/G` is a
+  tackle. They stay out of post-text scanning, where `RT` means retweet.
+- **A handle that ends in a class year is the class**, used last — `coltonfitz2028`,
+  `landonghea2029`, `c_burris2028` — when the text and bio both omit one.
+
 **Recruit filter** (`looksLikeRecruit`) — rules-only mode's guard against attributing an
 offer to a coach, an agency, or a basketball player. Measurables take precedence over
 keyword rejection, because a real recruit crediting `Head Coach @basorecoach` in his bio
-was being thrown out as a coach.
+was being thrown out as a coach. A self-announcement must additionally show a **football
+token** — a position, or football language (`football`, `FB`, `FBU`, 🏈), or a 40-yard
+time — so a bare stat-block bio that could be basketball ("5'11 · G/F · 4.0 GPA") stays
+out of the wire while "Football/Track Star" and "FBU All American" bios get in.
+"Flag football" counts only when the same bio shows tackle evidence (a position or 40).
 
 **Player identity** (`src/resolve/players.js`) — never merges on name alone. A merge needs
 the name *plus* corroboration (handle, high school, class, state, position); any hard
@@ -224,7 +242,7 @@ node scripts/fixture-run.mjs   # ledger: dedupe, corroboration, offer dating
 node scripts/replay.mjs        # re-extract the archive offline (no search budget spent)
 npm run rebuild      # deterministically regenerate ledgers from the raw archive
 npm run plan-lists             # optional corroboration Lists
-npm run audit        # rejection reasons + representative rejected posts
+npm run audit        # committed-audit-trail summary + every rejected candidate grouped by reason
 ```
 
 `npm run rebuild` uses the newest archived evidence timestamp as its replay clock, so
@@ -232,6 +250,28 @@ running it twice against the same archive produces byte-for-byte identical artif
 
 `npm run health` is the one to run when the wire looks quiet — it separates "nothing is
 happening" from "the session died".
+
+### Auditing and improving extraction
+
+`npm run audit` is the "what are we missing?" command, and it is the loop you are
+supposed to run:
+
+1. `scripts/audit.mjs` reads the committed per-run trail (`data/audit/*.ndjson` — every
+   run appends its funnel, rejection-reason census with capped samples, and search
+   health) and prints the trend. Reasons tagged **recruit-shaped** are the ones where a
+   post *read* like a real player being offered but a field the rules insist on was
+   missing — the false-negative candidates.
+2. `scripts/replay.mjs --rejected` re-extracts the raw archive through the *current*
+   code (no search budget, no drift from `src/pipeline.js`) and prints every rejected
+   candidate grouped by reason, recruit-shaped misses first with author and bio, so you
+   can see exactly what got dropped and why.
+3. Fix the rule, re-run `node scripts/replay.mjs` and compare the funnel — a change is
+   good when the recruit-shaped counts fall and the accepted count rises without a jump
+   in the noise buckets. Then `npm run rebuild` to fold the fix into the committed
+   ledger.
+
+Because `data/audit/` is committed, `git log data/audit/` is a permanent, diffable
+history of what the wire saw and threw away since day one.
 
 ---
 

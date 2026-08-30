@@ -6,8 +6,9 @@
 // offer-list recaps, hypotheticals and walk-on offers. A rules layer that passes only
 // the happy path is worthless, so most of the value here is in the negatives.
 import { findSchools } from '../src/resolve/schools.js';
-import { classify, findClassYear, findPosition, findNameCandidates, findTaggedRecruit, findReportedName } from '../src/extract/rules.js';
+import { classify, findClassYear, findPosition, findNameCandidates, findTaggedRecruit, findReportedName, handleClassYear, maskAwardYears } from '../src/extract/rules.js';
 import { nameKey, fuzzyKey, canMerge, parseBio, looksLikeRecruit, cleanPersonName } from '../src/resolve/players.js';
+import { prefilter, rulesOnlyOffers } from '../src/pipeline.js';
 import { backfillJobs, schoolJobs, backfillAnchorDate } from '../src/collect/queries.js';
 import { prioritizeJobs, SearchSession } from '../src/collect/search.js';
 import { dispatchWire } from '../netlify/functions/trigger-wire.mjs';
@@ -126,6 +127,36 @@ t('specific bio position beats generic ATH', B('3 sport ath | db | C/O 2028').po
 t('position and class can come from structured display name', looksLikeRecruit("6'7 265 | 4.0 GPA", "Kajus Muralis 4-star '28 OT").info.position === 'OT');
 t('forty time', B("6'2 180 | 4.35 40").forty === 4.35);
 
+// Class-year precision, from live data. "Soph All State '25" is the SEASON the award
+// was earned, not the recruit's class: @coltonfitz2028, whose bio read "San Ramon
+// Valley 2028 | Canes National 2028 | Soph All State '25", was filed as class of 2025.
+t('award shorthand never outranks the real class in the same bio',
+  B("3⭐WR🏈 | San Ramon Valley 2028 | ⚾OF LHP | Canes National 2028 | 🏈Soph All State '25 | 6.26 60yrd/37.3 Vert").classYear === 2028,
+  JSON.stringify(B("3⭐WR🏈 | San Ramon Valley 2028 | ⚾OF LHP | Canes National 2028 | 🏈Soph All State '25 | 6.26 60yrd/37.3 Vert")));
+t('current-year award shorthand alone is not a class',
+  B("6-4 280 | 1st Team All State '25").classYear == null);
+t('past-team award year alone is not a class',
+  B("6-4 280 | 2025 1st Team All District").classYear == null);
+t('school-suffix shorthand is a class', B("Marysville HS 28 | OT DT | 6'5 300 lbs | 3.98 GPA").classYear === 2028);
+t('bare "Class" + two digits is a class', B("Carthage HS | Class 28 \u2b50\u2b50 | LT | 6'5").classYear === 2028);
+t('curly-quoted class is a class', B('Montour Highschool ATH \u201c29 6\u201d 170 lbs').classYear === 2029, JSON.stringify(B('Montour Highschool ATH \u201c29 6\u201d 170 lbs')));
+t('school-suffix with star separator is a class', B("Murrieta Valley HS *28 | 6'6 280 OT").classYear === 2028);
+t('jersey number after a school is not a class', B("Garland HS #28 | 6-2 195 WR").classYear == null);
+t('line position codes parse from a bio ("RT/G" is not a fullback)',
+  B("C/28 6-3 280 RT/G Cardinal Newman HS").position === 'RT');
+// An all-state year in a REPORTER post must not hide the class that is also there.
+t('award year in post text does not hide the real class',
+  findClassYear("All-State '25 2028 ATH Marcus Lee has been offered by Georgia", 2026) === 2028);
+t('award year alone in post text is not a class',
+  findClassYear("Soph All State '25 has been offered", 2026) == null);
+
+console.log('handle class year');
+const HCY = (h) => handleClassYear(h, 2026);
+t('handle trailing year is the class', HCY('coltonfitz2028') === 2028);
+t('handle year after underscore', HCY('tyler_2028') === 2028);
+t('handle with no year is not a class', HCY('jaymitch_1') == null);
+t('handle stale year is not a class', HCY('coach2005') == null);
+
 console.log('recruit vs non-recruit');
 const R = (bio) => looksLikeRecruit(bio).ok;
 // A recruit crediting his coach must NOT be filtered out as a coach.
@@ -142,6 +173,11 @@ t('basketball jargon without the word "basketball" is still the wrong sport',
   !R("2028 • 5'11 • 3-Guard • 3.8 GPA • Victory Christian Academy • Duval Elite AAU"));
 t('coach is not a recruit', !R('Head Coach at Central High | Building men'));
 t('plain basketball guard bio rejected', !R('Class of 2027 | 6-3 guard | 3.1 GPA'));
+// The Air Force search surfaced a girls' flag-football/basketball recruit ("ComboG",
+// "Flag Football") whose bare title-less offer read exactly like a recruit bio. Flag
+// football is a different game; a tackle recruit always names a position or a 40.
+t('flag football without tackle evidence is rejected', !R("Park Hill || 3SSB Della KC || 5'9\" ComboG || CO '28 || 4.0 GPA || Basketball || Flag Football"));
+t('flag football WITH tackle evidence (position) is a recruit', R("6-2 180 WR | Flag Football | C/O 2028"));
 t('JUCO player rejected from high-school wire', !R('2027 CB | Iowa Western CC | JUCO All-American | 6-2 190'));
 t('current college athlete without literal JUCO is rejected',
   !R("Navarro College 6'4|285|OL/DL Class of 25' GPA: 3.5"));
@@ -175,6 +211,60 @@ t('lowercase display name is re-cased and still accepted', (() => {
   const r = tag([{ handle: 'cheatumlandon', name: 'landon cheatum' }]);
   return r && r.name === 'Landon Cheatum';
 })(), JSON.stringify(tag([{ handle: 'cheatumlandon', name: 'landon cheatum' }])));
+
+console.log('rules-only player gate');
+// A self-announcement with a football-context bio (Football/Track, FBU, or a 40 time)
+// publishes even without a position code; a bare stat-block bio that could be
+// basketball ("5'11 G/F", "6'3 CG", "6'8 F/C") must NOT.
+{
+  const [p] = prefilter([{
+    id: 't1', author: 'karontaecm', authorName: 'Karontae Cunningham',
+    authorBio: "C/O 2028 Football/Track Star | 5'11 180lb | Tyner Middle High Academy | 40 4.28",
+    text: 'Blessed to receive an offer from @BCFootball #AGTG',
+    createdAt: '2026-08-25T00:00:00Z',
+  }]);
+  const recs = rulesOnlyOffers(p);
+  t('football-context self-announcement publishes with null position',
+    recs.length === 1 && recs[0].position === null && recs[0].class_year === 2028,
+    JSON.stringify(recs));
+}
+{
+  const [p] = prefilter([{
+    id: 't2', author: 'xavienlittleton', authorName: 'Xavien Littleton',
+    authorBio: "Coffee Trojans 6'4 260 Class of 2029",
+    text: 'Blessed to receive an offer from @RazorbackFB #WPS #Razorbacks',
+    createdAt: '2026-08-25T00:00:00Z',
+  }]);
+  const recs = rulesOnlyOffers(p);
+  t('bare stat-block bio without football evidence still stays in the archive',
+    recs.length === 0,
+    JSON.stringify(recs));
+}
+{
+  const [p] = prefilter([{
+    id: 't3', author: 'audreysims2028', authorName: 'Audrey Sims',
+    authorBio: "Park Hill || 3SSB Della KC || 5'9\" ComboG || CO '28 || 4.0 GPA || Basketball",
+    text: 'Blessed to receive an offer from @AF_Football!',
+    createdAt: '2026-08-25T00:00:00Z',
+  }]);
+  const recs = rulesOnlyOffers(p);
+  t('basketball self-announcement stays out of the football wire',
+    recs.length === 0,
+    JSON.stringify(recs));
+}
+// …and the class-year fallback rescues the "Marysville HS 28" / handle-2028 shape.
+{
+  const [p] = prefilter([{
+    id: 't4', author: 'c_burris2028', authorName: 'Collin Burris 3⭐',
+    authorBio: "Marysville HS 28 | OT DT | 6'5 300 lbs | 3.98 GPA",
+    text: 'After a great call with Coach Trickett I\u2019m blessed to receive an offer from @WVUfootball',
+    createdAt: '2026-08-25T00:00:00Z',
+  }]);
+  const recs = rulesOnlyOffers(p);
+  t('school-suffix class shorthand + handle year publish a real recruit',
+    recs.length === 1 && recs[0].class_year === 2028,
+    JSON.stringify(recs));
+}
 
 const rn = (s) => findReportedName(s);
 t('name before offer verb', rn('BREAKING: 2028 four-star ATH Marcus Lee has been offered by Georgia') === 'Marcus Lee', String(rn('BREAKING: 2028 four-star ATH Marcus Lee has been offered by Georgia')));
