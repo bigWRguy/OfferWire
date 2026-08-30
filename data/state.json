@@ -2973,17 +2973,43 @@
     "2093918341412851799",
     "2093916246659989862",
     "2082697528173363200",
-    "2093918343585472846"
+    "2093918343585472846",
+    "2083003695046754466",
+    "2082990029798801736",
+    "2082984017637318947",
+    "2082983935382859894",
+    "2083084243924549647",
+    "2083078788343333322",
+    "2083030623636308427",
+    "2083026271022571752",
+    "2083025641096499646",
+    "2082865976723341697",
+    "2083011183486066828",
+    "2082979815842300199",
+    "2083007645108101455",
+    "2082995555987300742",
+    "2083007638300770622",
+    "2083005662800257498",
+    "2093920263054246119",
+    "2093918886353686841",
+    "2093914825810174221",
+    "2093921310892290065",
+    "2093921230881472671",
+    "2093910113245380786",
+    "2093920923531497885",
+    "2093919047142588901",
+    "2093920252149010579",
+    "2083031585214149100"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-08-30T04:29:04.153Z",
-      "got": 759,
-      "new": 8,
-      "lag": 0.04
+      "at": "2026-08-30T04:43:59.312Z",
+      "got": 761,
+      "new": 26,
+      "lag": 0.09
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -3732,7 +3758,7 @@
     "wake-forest": {
       "at": "2026-08-29T08:54:14.432Z",
       "truncated": true,
-      "lastPosts": 24
+      "lastPosts": 23
     },
     "west-virginia": {
       "at": "2026-08-29T20:54:14.432Z",
@@ -3802,7 +3828,7 @@
     "arkansas-state": {
       "at": "2026-08-29T10:54:41.407Z",
       "truncated": true,
-      "lastPosts": 21
+      "lastPosts": 43
     },
     "army": {
       "at": "2026-08-29T21:46:13.000Z",
@@ -3917,7 +3943,7 @@
     "liberty": {
       "at": "2026-08-29T10:54:41.407Z",
       "truncated": true,
-      "lastPosts": 30
+      "lastPosts": 29
     },
     "louisiana": {
       "at": "2026-08-29T22:54:41.407Z",
@@ -4035,7 +4061,7 @@
       "lastPosts": 1
     },
     "south-florida": {
-      "at": "2026-08-29T12:56:10.000Z",
+      "at": "2026-08-29T13:16:00.000Z",
       "truncated": true,
       "lastPosts": 20
     },
@@ -5018,28 +5044,86 @@
       "lastPosts": 3,
       "truncated": false,
       "completed": true
+    },
+    "backfill:western-michigan:2026-07-28": {
+      "at": "2026-08-30T04:41:03.132Z",
+      "lastPosts": 3,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:wisconsin:2026-07-28": {
+      "at": "2026-08-30T04:41:03.132Z",
+      "lastPosts": 21,
+      "truncated": true,
+      "cursorUntil": "2026-07-29T21:49:43.000Z",
+      "completed": false
+    },
+    "backfill:wyoming:2026-07-28": {
+      "at": "2026-08-30T04:41:03.132Z",
+      "lastPosts": 9,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:clemson:2026-07-29": {
+      "at": "2026-08-30T04:41:03.132Z",
+      "lastPosts": 14,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:coastal-carolina:2026-07-29": {
+      "at": "2026-08-30T04:41:03.132Z",
+      "lastPosts": 22,
+      "truncated": true,
+      "cursorUntil": "2026-07-30T08:20:12.000Z",
+      "completed": false
+    },
+    "backfill:colorado:2026-07-29": {
+      "at": "2026-08-30T04:41:03.132Z",
+      "lastPosts": 20,
+      "truncated": true,
+      "cursorUntil": "2026-07-30T02:20:49.000Z",
+      "completed": false
+    },
+    "backfill:colorado-state:2026-07-29": {
+      "at": "2026-08-30T04:41:03.132Z",
+      "lastPosts": 3,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:delaware:2026-07-29": {
+      "at": "2026-08-30T04:41:03.132Z",
+      "lastPosts": 7,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:duke:2026-07-29": {
+      "at": "2026-08-30T04:41:03.132Z",
+      "lastPosts": 22,
+      "truncated": true,
+      "cursorUntil": "2026-07-29T11:47:24.000Z",
+      "completed": false
     }
   },
   "searchConfigured": true,
   "lastRateLimitAt": "2026-08-27T16:42:03.467Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-08-30T04:29:04.154Z",
+    "at": "2026-08-30T04:43:59.313Z",
     "jobsTotal": 164,
     "sweptThisRun": 27,
     "requests": 27,
     "fullSweepCycles": 7
   },
   "backfill": {
-    "at": "2026-08-30T04:29:04.155Z",
+    "at": "2026-08-30T04:43:59.314Z",
     "days": 30,
     "totalTeamDays": 4080,
-    "completedTeamDays": 126,
-    "remainingTeamDays": 3954
+    "completedTeamDays": 131,
+    "remainingTeamDays": 3949
   },
   "backfillCoverage": {
-    "at": "2026-08-30T04:29:04.154Z",
-    "jobsTotal": 3958,
+    "at": "2026-08-30T04:43:59.313Z",
+    "jobsTotal": 3954,
     "sweptThisRun": 9,
     "requests": 9
   },
