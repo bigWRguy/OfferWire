@@ -1,360 +1,440 @@
 {
-  "generatedAt": "2026-08-30T00:56:24.921Z",
+  "generatedAt": "2026-08-30T01:04:19.792Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-08-30T00:56:24.191Z",
+    "at": "2026-08-30T01:04:19.514Z",
     "jobsTotal": 164,
-    "sweptThisRun": 28,
-    "requests": 29,
-    "fullSweepCycles": 6
+    "sweptThisRun": 27,
+    "requests": 28,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
-    "at": "2026-08-30T00:56:24.191Z",
-    "jobsTotal": 4080,
+    "at": "2026-08-30T01:04:19.514Z",
+    "jobsTotal": 4021,
     "sweptThisRun": 9,
     "requests": 9
   },
   "backfill": {
-    "at": "2026-08-30T00:56:24.194Z",
+    "at": "2026-08-30T01:04:19.514Z",
     "days": 30,
     "totalTeamDays": 4080,
-    "completedTeamDays": 3,
-    "remainingTeamDays": 4077
+    "completedTeamDays": 65,
+    "remainingTeamDays": 4015
   },
   "staleSchools": [
     {
       "id": "florida",
-      "hours": 67.9
+      "hours": 68
     },
     {
       "id": "georgia",
-      "hours": 67.9
+      "hours": 68
     },
     {
       "id": "michigan",
-      "hours": 59.5
+      "hours": 59.6
     },
     {
       "id": "arkansas",
-      "hours": 55.9
+      "hours": 56
     },
     {
       "id": "auburn",
-      "hours": 55.9
-    },
-    {
-      "id": "alabama",
-      "hours": 54.3
-    },
-    {
-      "id": "northwestern",
-      "hours": 35.9
+      "hours": 56
     },
     {
       "id": "ohio-state",
-      "hours": 35.9
-    },
-    {
-      "id": "oklahoma",
-      "hours": 35.9
-    },
-    {
-      "id": "ole-miss",
-      "hours": 35.9
-    },
-    {
-      "id": "oregon",
-      "hours": 35.9
+      "hours": 36
     },
     {
       "id": "penn-state",
-      "hours": 35.9
+      "hours": 36
     },
     {
-      "id": "purdue",
-      "hours": 35.9
+      "id": "ole-miss",
+      "hours": 34.8
     },
     {
       "id": "kentucky",
-      "hours": 33.7
+      "hours": 33.9
     },
     {
       "id": "nebraska",
-      "hours": 32.1
+      "hours": 32.3
+    },
+    {
+      "id": "oklahoma",
+      "hours": 32.2
     },
     {
       "id": "maryland",
-      "hours": 31.1
+      "hours": 31.2
     },
     {
       "id": "iowa",
-      "hours": 29.9
-    },
-    {
-      "id": "illinois",
-      "hours": 28.9
+      "hours": 30.1
     },
     {
       "id": "lsu",
-      "hours": 28.9
-    },
-    {
-      "id": "indiana",
-      "hours": 28.7
+      "hours": 28.2
     },
     {
       "id": "texas",
+      "hours": 27.9
+    },
+    {
+      "id": "illinois",
       "hours": 27.7
     },
     {
-      "id": "missouri",
-      "hours": 26.7
-    },
-    {
-      "id": "rutgers",
-      "hours": 25.9
-    },
-    {
-      "id": "south-carolina",
-      "hours": 25.9
+      "id": "indiana",
+      "hours": 26.9
     },
     {
       "id": "tennessee",
-      "hours": 25.9
-    },
-    {
-      "id": "texas-am",
-      "hours": 25.9
+      "hours": 26.1
     },
     {
       "id": "ucla",
-      "hours": 25.9
+      "hours": 26.1
     },
     {
       "id": "usc",
-      "hours": 25.9
+      "hours": 26.1
     },
     {
       "id": "vanderbilt",
-      "hours": 25.9
+      "hours": 26.1
     },
     {
       "id": "minnesota",
-      "hours": 25
+      "hours": 25.2
+    },
+    {
+      "id": "missouri",
+      "hours": 24.6
     },
     {
       "id": "california",
-      "hours": 21.4
+      "hours": 21.5
     },
     {
       "id": "washington",
-      "hours": 20.9
+      "hours": 21
     },
     {
       "id": "wisconsin",
-      "hours": 20.9
+      "hours": 21
     },
     {
       "id": "kansas",
-      "hours": 16
+      "hours": 16.2
     },
     {
       "id": "notre-dame",
-      "hours": 16
+      "hours": 16.2
     },
     {
       "id": "texas-tech",
-      "hours": 16
+      "hours": 16.2
     },
     {
       "id": "virginia",
-      "hours": 16
+      "hours": 16.2
     },
     {
       "id": "wake-forest",
-      "hours": 16
+      "hours": 16.2
     },
     {
       "id": "arkansas-state",
-      "hours": 14
+      "hours": 14.2
     },
     {
       "id": "army",
-      "hours": 14
+      "hours": 14.2
     },
     {
       "id": "coastal-carolina",
-      "hours": 14
+      "hours": 14.2
     },
     {
       "id": "liberty",
-      "hours": 14
+      "hours": 14.2
     },
     {
       "id": "ohio",
-      "hours": 12.5
+      "hours": 12.6
     },
     {
       "id": "temple",
-      "hours": 12.5
+      "hours": 12.6
     },
     {
       "id": "charlotte",
-      "hours": 12.3
+      "hours": 12.5
     },
     {
       "id": "south-florida",
-      "hours": 12
-    },
-    {
-      "id": "rice",
-      "hours": 11.4
-    },
-    {
-      "id": "miami",
-      "hours": 11.3
+      "hours": 12.1
     },
     {
       "id": "navy",
-      "hours": 11.3
+      "hours": 11.5
+    },
+    {
+      "id": "rice",
+      "hours": 11.5
+    },
+    {
+      "id": "miami",
+      "hours": 11.4
+    },
+    {
+      "id": "oregon",
+      "hours": 9.9
+    },
+    {
+      "id": "alabama",
+      "hours": 9.5
     },
     {
       "id": "arizona",
-      "hours": 9.4
+      "hours": 9.5
     },
     {
       "id": "arizona-state",
-      "hours": 9.4
+      "hours": 9.5
     },
     {
       "id": "baylor",
-      "hours": 9.4
+      "hours": 9.5
     },
     {
       "id": "boston-college",
-      "hours": 9.4
+      "hours": 9.5
     },
     {
       "id": "byu",
-      "hours": 9.4
-    },
-    {
-      "id": "pittsburgh",
-      "hours": 6.2
+      "hours": 9.5
     },
     {
       "id": "cincinnati",
-      "hours": 6.1
+      "hours": 6.3
     },
     {
       "id": "clemson",
-      "hours": 6.1
+      "hours": 6.3
     },
     {
       "id": "colorado",
-      "hours": 6.1
+      "hours": 6.3
     },
     {
       "id": "duke",
-      "hours": 6.1
+      "hours": 6.3
     },
     {
       "id": "florida-state",
-      "hours": 6.1
+      "hours": 6.3
     },
     {
       "id": "georgia-tech",
-      "hours": 6.1
+      "hours": 6.3
     },
     {
       "id": "houston",
-      "hours": 6.1
+      "hours": 6.3
     },
     {
       "id": "iowa-state",
-      "hours": 6.1
+      "hours": 6.3
+    },
+    {
+      "id": "pittsburgh",
+      "hours": 6.3
     },
     {
       "id": "air-force",
-      "hours": 4
+      "hours": 4.2
     },
     {
       "id": "akron",
-      "hours": 4
+      "hours": 4.2
     },
     {
       "id": "kansas-state",
-      "hours": 4
+      "hours": 4.2
     },
     {
       "id": "louisville",
-      "hours": 4
+      "hours": 4.2
     },
     {
       "id": "nc-state",
-      "hours": 4
+      "hours": 4.2
     },
     {
       "id": "north-carolina",
-      "hours": 4
+      "hours": 4.2
     },
     {
       "id": "oklahoma-state",
-      "hours": 4
+      "hours": 4.2
     },
     {
       "id": "smu",
-      "hours": 4
+      "hours": 4.2
     },
     {
       "id": "stanford",
-      "hours": 4
+      "hours": 4.2
     },
     {
       "id": "syracuse",
-      "hours": 4
+      "hours": 4.2
     },
     {
       "id": "tcu",
-      "hours": 4
+      "hours": 4.2
     },
     {
       "id": "ucf",
-      "hours": 4
+      "hours": 4.2
     },
     {
       "id": "uconn",
-      "hours": 4
+      "hours": 4.2
     },
     {
       "id": "utah",
-      "hours": 4
+      "hours": 4.2
     },
     {
       "id": "virginia-tech",
-      "hours": 4
+      "hours": 4.2
     },
     {
       "id": "west-virginia",
-      "hours": 4
+      "hours": 4.2
+    },
+    {
+      "id": "appalachian-state",
+      "hours": 2.2
+    },
+    {
+      "id": "ball-state",
+      "hours": 2.2
+    },
+    {
+      "id": "boise-state",
+      "hours": 2.2
+    },
+    {
+      "id": "bowling-green",
+      "hours": 2.2
+    },
+    {
+      "id": "buffalo",
+      "hours": 2.2
+    },
+    {
+      "id": "central-michigan",
+      "hours": 2.2
+    },
+    {
+      "id": "colorado-state",
+      "hours": 2.2
+    },
+    {
+      "id": "delaware",
+      "hours": 2.2
+    },
+    {
+      "id": "east-carolina",
+      "hours": 2.2
+    },
+    {
+      "id": "eastern-michigan",
+      "hours": 2.2
+    },
+    {
+      "id": "florida-atlantic",
+      "hours": 2.2
+    },
+    {
+      "id": "florida-international",
+      "hours": 2.2
+    },
+    {
+      "id": "fresno-state",
+      "hours": 2.2
+    },
+    {
+      "id": "georgia-southern",
+      "hours": 2.2
+    },
+    {
+      "id": "georgia-state",
+      "hours": 2.2
+    },
+    {
+      "id": "hawaii",
+      "hours": 2.2
+    },
+    {
+      "id": "jacksonville-state",
+      "hours": 2.2
+    },
+    {
+      "id": "james-madison",
+      "hours": 2.2
+    },
+    {
+      "id": "kennesaw-state",
+      "hours": 2.2
+    },
+    {
+      "id": "kent-state",
+      "hours": 2.2
+    },
+    {
+      "id": "louisiana",
+      "hours": 2.2
+    },
+    {
+      "id": "louisiana-monroe",
+      "hours": 2.2
+    },
+    {
+      "id": "louisiana-tech",
+      "hours": 2.2
+    },
+    {
+      "id": "marshall",
+      "hours": 2.2
+    },
+    {
+      "id": "massachusetts",
+      "hours": 2.2
     }
   ],
   "quality": {
-    "completeOffers": 46,
+    "completeOffers": 52,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-08-30T00:56:24.190Z",
-      "got": 675,
-      "new": 506,
-      "lag": 0.05
+      "at": "2026-08-30T01:04:19.513Z",
+      "got": 617,
+      "new": 151,
+      "lag": 0.02
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-08-30T00:56:24.923Z"
+    "status rebuilt locally from current store on 2026-08-30T01:04:19.794Z"
   ]
 }
