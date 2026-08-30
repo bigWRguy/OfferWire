@@ -2814,17 +2814,49 @@
     "2093851819617182074",
     "2082672430112256112",
     "2082657602979111182",
-    "2082656536950624635"
+    "2082656536950624635",
+    "2093883578966847711",
+    "2093882287838388421",
+    "2093883349685370992",
+    "2093881398859813326",
+    "2093882748364788056",
+    "2093881393591746573",
+    "2093881077190279496",
+    "2093880813867712529",
+    "2093881009846505803",
+    "2093881019376038348",
+    "2093884652071079989",
+    "2093877437020930264",
+    "2093883614534730234",
+    "2093882713270829341",
+    "2093822174226202762",
+    "2093880074697379986",
+    "2093878580962886077",
+    "2093378628172251580",
+    "2093865336974217262",
+    "2093865138860302504",
+    "2082676814795706769",
+    "2093864647971754455",
+    "2093774154558247068",
+    "2093850658667733001",
+    "2093850634953150672",
+    "2093848760900039159",
+    "2093844771391312246",
+    "2093843842818564274",
+    "2093840034277327255",
+    "2093808682769195207",
+    "2093790685434405234",
+    "2093782416116547641"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-08-30T01:58:55.758Z",
-      "got": 754,
-      "new": 93,
-      "lag": 0.04
+      "at": "2026-08-30T02:13:58.404Z",
+      "got": 701,
+      "new": 32,
+      "lag": 0.02
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -2936,7 +2968,7 @@
     "maryland": {
       "at": "2026-08-28T17:52:31.000Z",
       "truncated": true,
-      "lastPosts": 20
+      "lastPosts": 21
     },
     "backfill:alabama:2026-07-29": {
       "at": "2026-08-28T01:26:40.996Z",
@@ -2969,7 +3001,7 @@
     "minnesota": {
       "at": "2026-08-29T03:05:11.000Z",
       "truncated": true,
-      "lastPosts": 22
+      "lastPosts": 21
     },
     "backfill:arizona-state:2026-07-29": {
       "at": "2026-08-28T01:26:40.996Z",
@@ -3240,9 +3272,9 @@
       "lastPosts": 5
     },
     "phrase:\"thankful to receive an offer\"": {
-      "at": "2026-08-29T11:00:16.916Z",
+      "at": "2026-08-30T02:11:07.214Z",
       "truncated": false,
-      "lastPosts": 0
+      "lastPosts": 1
     },
     "backfill:arkansas-state:2026-07-30": {
       "at": "2026-08-29T11:00:16.916Z",
@@ -3251,9 +3283,9 @@
       "truncated": true
     },
     "phrase:\"blessed to have received an offer\"": {
-      "at": "2026-08-29T11:00:16.916Z",
+      "at": "2026-08-30T02:11:07.214Z",
       "truncated": false,
-      "lastPosts": 0
+      "lastPosts": 4
     },
     "backfill:army:2026-07-30": {
       "at": "2026-08-29T11:00:16.916Z",
@@ -3262,9 +3294,9 @@
       "truncated": true
     },
     "phrase:\"after a great conversation\" offer": {
-      "at": "2026-08-29T11:00:16.916Z",
-      "truncated": false,
-      "lastPosts": 9
+      "at": "2026-08-29T18:39:46.000Z",
+      "truncated": true,
+      "lastPosts": 20
     },
     "backfill:auburn:2026-07-30": {
       "at": "2026-08-29T11:00:16.916Z",
@@ -3758,7 +3790,7 @@
     "liberty": {
       "at": "2026-08-29T10:54:41.407Z",
       "truncated": true,
-      "lastPosts": 21
+      "lastPosts": 27
     },
     "louisiana": {
       "at": "2026-08-29T22:54:41.407Z",
@@ -4274,28 +4306,87 @@
       "truncated": true,
       "cursorUntil": "2026-07-29T14:47:24.000Z",
       "completed": false
+    },
+    "backfill:iowa-state:2026-07-28": {
+      "at": "2026-08-30T02:11:07.214Z",
+      "lastPosts": 18,
+      "truncated": true,
+      "cursorUntil": "2026-07-27T19:00:02.000Z",
+      "completed": false
+    },
+    "backfill:jacksonville-state:2026-07-28": {
+      "at": "2026-08-30T02:11:07.214Z",
+      "lastPosts": 0,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:james-madison:2026-07-28": {
+      "at": "2026-08-30T02:11:07.214Z",
+      "lastPosts": 1,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:kansas:2026-07-28": {
+      "at": "2026-08-30T02:11:07.214Z",
+      "lastPosts": 26,
+      "truncated": true,
+      "cursorUntil": "2026-06-12T21:32:00.000Z",
+      "completed": false
+    },
+    "backfill:kansas-state:2026-07-28": {
+      "at": "2026-08-30T02:11:07.214Z",
+      "lastPosts": 13,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:kennesaw-state:2026-07-28": {
+      "at": "2026-08-30T02:11:07.214Z",
+      "lastPosts": 4,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:kent-state:2026-07-28": {
+      "at": "2026-08-30T02:11:07.214Z",
+      "lastPosts": 23,
+      "truncated": true,
+      "cursorUntil": "2026-07-23T16:37:38.000Z",
+      "completed": false
+    },
+    "backfill:kentucky:2026-07-28": {
+      "at": "2026-08-30T02:11:07.214Z",
+      "lastPosts": 21,
+      "truncated": true,
+      "cursorUntil": "2026-07-29T15:14:09.000Z",
+      "completed": false
+    },
+    "backfill:liberty:2026-07-28": {
+      "at": "2026-08-30T02:11:07.214Z",
+      "lastPosts": 22,
+      "truncated": true,
+      "cursorUntil": "2026-07-13T14:58:24.000Z",
+      "completed": false
     }
   },
   "searchConfigured": true,
   "lastRateLimitAt": "2026-08-27T16:42:03.467Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-08-30T01:58:55.759Z",
+    "at": "2026-08-30T02:13:58.405Z",
     "jobsTotal": 164,
     "sweptThisRun": 27,
     "requests": 27,
     "fullSweepCycles": 7
   },
   "backfill": {
-    "at": "2026-08-30T01:58:55.760Z",
+    "at": "2026-08-30T02:13:58.406Z",
     "days": 30,
     "totalTeamDays": 4080,
-    "completedTeamDays": 81,
-    "remainingTeamDays": 3999
+    "completedTeamDays": 85,
+    "remainingTeamDays": 3995
   },
   "backfillCoverage": {
-    "at": "2026-08-30T01:58:55.759Z",
-    "jobsTotal": 4003,
+    "at": "2026-08-30T02:13:58.405Z",
+    "jobsTotal": 3999,
     "sweptThisRun": 9,
     "requests": 9
   },
