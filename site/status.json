@@ -1,984 +1,984 @@
 {
-  "generatedAt": "2026-08-30T13:27:49.296Z",
+  "generatedAt": "2026-08-30T13:43:50.796Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-08-30T13:27:48.941Z",
+    "at": "2026-08-30T13:43:50.408Z",
     "jobsTotal": 164,
-    "sweptThisRun": 5,
-    "requests": 5,
-    "fullSweepCycles": 33
+    "sweptThisRun": 8,
+    "requests": 8,
+    "fullSweepCycles": 21
   },
   "backfillCoverage": {
-    "at": "2026-08-30T13:27:48.941Z",
-    "jobsTotal": 123,
-    "sweptThisRun": 18,
-    "requests": 19
+    "at": "2026-08-30T13:43:50.408Z",
+    "jobsTotal": 122,
+    "sweptThisRun": 28,
+    "requests": 28
   },
   "backfill": {
-    "at": "2026-08-30T13:27:48.941Z",
+    "at": "2026-08-30T13:43:50.408Z",
     "days": 30,
     "chunkDays": 30,
     "totalWindows": 136,
-    "completedWindows": 14,
-    "remainingWindows": 122,
+    "completedWindows": 16,
+    "remainingWindows": 120,
     "totalTeamDays": 136,
-    "completedTeamDays": 14,
-    "remainingTeamDays": 122
+    "completedTeamDays": 16,
+    "remainingTeamDays": 120
   },
   "staleSchools": [
     {
       "id": "georgia",
-      "hours": 80.4
+      "hours": 80.7
     },
     {
       "id": "arkansas",
-      "hours": 68.4
+      "hours": 68.7
     },
     {
       "id": "auburn",
-      "hours": 68.4
+      "hours": 68.7
     },
     {
       "id": "ohio-state",
-      "hours": 48.4
+      "hours": 48.6
     },
     {
       "id": "penn-state",
-      "hours": 48.4
+      "hours": 48.6
     },
     {
       "id": "nebraska",
-      "hours": 44.7
+      "hours": 44.9
     },
     {
       "id": "oklahoma",
-      "hours": 44.6
+      "hours": 44.9
     },
     {
       "id": "maryland",
-      "hours": 43.2
+      "hours": 43.5
     },
     {
       "id": "iowa",
-      "hours": 42.5
-    },
-    {
-      "id": "texas",
-      "hours": 39.7
+      "hours": 42.7
     },
     {
       "id": "lsu",
-      "hours": 39.6
+      "hours": 39.9
+    },
+    {
+      "id": "texas",
+      "hours": 39.9
     },
     {
       "id": "tennessee",
-      "hours": 38.5
+      "hours": 38.7
     },
     {
       "id": "ole-miss",
-      "hours": 37.8
+      "hours": 38
     },
     {
       "id": "illinois",
-      "hours": 36.8
+      "hours": 37.1
     },
     {
       "id": "missouri",
-      "hours": 35.6
+      "hours": 35.9
     },
     {
       "id": "kansas",
-      "hours": 28.6
+      "hours": 28.8
     },
     {
       "id": "wake-forest",
-      "hours": 28.6
+      "hours": 28.8
     },
     {
       "id": "arkansas-state",
-      "hours": 26.6
+      "hours": 26.8
     },
     {
       "id": "liberty",
-      "hours": 26.6
-    },
-    {
-      "id": "ohio",
-      "hours": 25
+      "hours": 26.8
     },
     {
       "id": "kentucky",
-      "hours": 24.9
+      "hours": 25.2
+    },
+    {
+      "id": "ohio",
+      "hours": 25.2
     },
     {
       "id": "south-florida",
-      "hours": 24.2
+      "hours": 24.5
     },
     {
       "id": "rice",
-      "hours": 23.9
+      "hours": 24.2
     },
     {
       "id": "miami",
-      "hours": 23.8
+      "hours": 24.1
     },
     {
       "id": "navy",
-      "hours": 23.8
+      "hours": 24.1
     },
     {
       "id": "charlotte",
-      "hours": 23.1
+      "hours": 23.4
     },
     {
       "id": "coastal-carolina",
-      "hours": 22.4
+      "hours": 22.7
     },
     {
       "id": "oregon",
-      "hours": 22.3
+      "hours": 22.5
     },
     {
       "id": "arizona",
-      "hours": 21.9
+      "hours": 22.2
     },
     {
       "id": "arizona-state",
-      "hours": 21.9
+      "hours": 22.2
     },
     {
       "id": "baylor",
-      "hours": 21.9
+      "hours": 22.2
     },
     {
       "id": "boston-college",
-      "hours": 21.9
+      "hours": 22.2
     },
     {
       "id": "byu",
-      "hours": 21.9
+      "hours": 22.2
     },
     {
       "id": "alabama",
-      "hours": 21.8
+      "hours": 22.1
     },
     {
       "id": "florida",
-      "hours": 20.3
+      "hours": 20.5
     },
     {
       "id": "texas-tech",
-      "hours": 20.1
+      "hours": 20.3
     },
     {
       "id": "temple",
-      "hours": 19.7
+      "hours": 19.9
     },
     {
       "id": "usc",
-      "hours": 19.5
+      "hours": 19.8
     },
     {
       "id": "virginia",
-      "hours": 19.3
-    },
-    {
-      "id": "pittsburgh",
-      "hours": 18.7
+      "hours": 19.6
     },
     {
       "id": "cincinnati",
-      "hours": 18.6
+      "hours": 18.9
     },
     {
       "id": "clemson",
-      "hours": 18.6
+      "hours": 18.9
     },
     {
       "id": "colorado",
-      "hours": 18.6
+      "hours": 18.9
     },
     {
       "id": "duke",
-      "hours": 18.6
+      "hours": 18.9
     },
     {
       "id": "florida-state",
-      "hours": 18.6
+      "hours": 18.9
     },
     {
       "id": "georgia-tech",
-      "hours": 18.6
+      "hours": 18.9
     },
     {
       "id": "houston",
-      "hours": 18.6
+      "hours": 18.9
     },
     {
       "id": "iowa-state",
-      "hours": 18.6
+      "hours": 18.9
+    },
+    {
+      "id": "pittsburgh",
+      "hours": 18.9
     },
     {
       "id": "notre-dame",
-      "hours": 17.2
+      "hours": 17.5
     },
     {
       "id": "air-force",
-      "hours": 16.6
+      "hours": 16.8
     },
     {
       "id": "akron",
-      "hours": 16.6
+      "hours": 16.8
     },
     {
       "id": "kansas-state",
-      "hours": 16.6
+      "hours": 16.8
     },
     {
       "id": "louisville",
-      "hours": 16.6
+      "hours": 16.8
     },
     {
       "id": "nc-state",
-      "hours": 16.6
+      "hours": 16.8
     },
     {
       "id": "north-carolina",
-      "hours": 16.6
+      "hours": 16.8
     },
     {
       "id": "oklahoma-state",
-      "hours": 16.6
+      "hours": 16.8
     },
     {
       "id": "smu",
-      "hours": 16.6
+      "hours": 16.8
     },
     {
       "id": "stanford",
-      "hours": 16.6
+      "hours": 16.8
     },
     {
       "id": "syracuse",
-      "hours": 16.6
+      "hours": 16.8
     },
     {
       "id": "tcu",
-      "hours": 16.6
+      "hours": 16.8
     },
     {
       "id": "ucf",
-      "hours": 16.6
+      "hours": 16.8
     },
     {
       "id": "uconn",
-      "hours": 16.6
+      "hours": 16.8
     },
     {
       "id": "utah",
-      "hours": 16.6
+      "hours": 16.8
     },
     {
       "id": "virginia-tech",
-      "hours": 16.6
+      "hours": 16.8
     },
     {
       "id": "west-virginia",
-      "hours": 16.6
+      "hours": 16.8
     },
     {
       "id": "california",
-      "hours": 16.3
+      "hours": 16.6
     },
     {
       "id": "michigan",
-      "hours": 16
+      "hours": 16.3
     },
     {
       "id": "army",
-      "hours": 15.7
+      "hours": 16
     },
     {
       "id": "washington",
-      "hours": 15
+      "hours": 15.3
     },
     {
       "id": "appalachian-state",
-      "hours": 14.6
+      "hours": 14.8
     },
     {
       "id": "ball-state",
-      "hours": 14.6
+      "hours": 14.8
     },
     {
       "id": "boise-state",
-      "hours": 14.6
+      "hours": 14.8
     },
     {
       "id": "bowling-green",
-      "hours": 14.6
+      "hours": 14.8
     },
     {
       "id": "buffalo",
-      "hours": 14.6
+      "hours": 14.8
     },
     {
       "id": "central-michigan",
-      "hours": 14.6
+      "hours": 14.8
     },
     {
       "id": "colorado-state",
-      "hours": 14.6
+      "hours": 14.8
     },
     {
       "id": "delaware",
-      "hours": 14.6
+      "hours": 14.8
     },
     {
       "id": "east-carolina",
-      "hours": 14.6
+      "hours": 14.8
     },
     {
       "id": "eastern-michigan",
-      "hours": 14.6
+      "hours": 14.8
     },
     {
       "id": "florida-atlantic",
-      "hours": 14.6
+      "hours": 14.8
     },
     {
       "id": "florida-international",
-      "hours": 14.6
+      "hours": 14.8
     },
     {
       "id": "fresno-state",
-      "hours": 14.6
+      "hours": 14.8
     },
     {
       "id": "georgia-southern",
-      "hours": 14.6
+      "hours": 14.8
     },
     {
       "id": "georgia-state",
-      "hours": 14.6
+      "hours": 14.8
     },
     {
       "id": "hawaii",
-      "hours": 14.6
+      "hours": 14.8
     },
     {
       "id": "jacksonville-state",
-      "hours": 14.6
+      "hours": 14.8
     },
     {
       "id": "james-madison",
-      "hours": 14.6
+      "hours": 14.8
     },
     {
       "id": "kennesaw-state",
-      "hours": 14.6
+      "hours": 14.8
     },
     {
       "id": "kent-state",
-      "hours": 14.6
+      "hours": 14.8
     },
     {
       "id": "louisiana",
-      "hours": 14.6
+      "hours": 14.8
     },
     {
       "id": "louisiana-monroe",
-      "hours": 14.6
+      "hours": 14.8
     },
     {
       "id": "louisiana-tech",
-      "hours": 14.6
+      "hours": 14.8
     },
     {
       "id": "marshall",
-      "hours": 14.6
+      "hours": 14.8
     },
     {
       "id": "massachusetts",
-      "hours": 14.6
+      "hours": 14.8
     },
     {
       "id": "memphis",
-      "hours": 13
+      "hours": 13.2
     },
     {
       "id": "miami-oh",
-      "hours": 13
+      "hours": 13.2
     },
     {
       "id": "middle-tennessee",
-      "hours": 13
+      "hours": 13.2
     },
     {
       "id": "missouri-state",
-      "hours": 13
+      "hours": 13.2
     },
     {
       "id": "nevada",
-      "hours": 13
+      "hours": 13.2
     },
     {
       "id": "new-mexico",
-      "hours": 13
+      "hours": 13.2
     },
     {
       "id": "new-mexico-state",
-      "hours": 13
+      "hours": 13.2
     },
     {
       "id": "north-texas",
-      "hours": 13
+      "hours": 13.2
     },
     {
       "id": "northern-illinois",
-      "hours": 13
+      "hours": 13.2
     },
     {
       "id": "old-dominion",
-      "hours": 13
+      "hours": 13.2
     },
     {
       "id": "oregon-state",
-      "hours": 13
+      "hours": 13.2
     },
     {
       "id": "sam-houston",
-      "hours": 13
+      "hours": 13.2
     },
     {
       "id": "san-diego-state",
-      "hours": 13
+      "hours": 13.2
     },
     {
       "id": "san-jose-state",
-      "hours": 13
+      "hours": 13.2
     },
     {
       "id": "south-alabama",
-      "hours": 13
+      "hours": 13.2
     },
     {
       "id": "southern-miss",
-      "hours": 13
+      "hours": 13.2
     },
     {
       "id": "texas-state",
-      "hours": 13
+      "hours": 13.2
     },
     {
       "id": "toledo",
-      "hours": 13
+      "hours": 13.2
     },
     {
       "id": "troy",
-      "hours": 13
+      "hours": 13.2
     },
     {
       "id": "tulane",
-      "hours": 13
+      "hours": 13.2
     },
     {
       "id": "tulsa",
-      "hours": 13
+      "hours": 13.2
     },
     {
       "id": "uab",
-      "hours": 13
+      "hours": 13.2
     },
     {
       "id": "unlv",
-      "hours": 13
+      "hours": 13.2
     },
     {
       "id": "utah-state",
-      "hours": 13
+      "hours": 13.2
     },
     {
       "id": "utep",
-      "hours": 13
+      "hours": 13.2
     },
     {
       "id": "michigan-state",
-      "hours": 12.6
+      "hours": 12.8
     },
     {
       "id": "mississippi-state",
-      "hours": 12.6
+      "hours": 12.8
     },
     {
       "id": "utsa",
-      "hours": 12.6
+      "hours": 12.8
     },
     {
       "id": "washington-state",
-      "hours": 12.6
+      "hours": 12.8
     },
     {
       "id": "western-kentucky",
-      "hours": 12.6
+      "hours": 12.8
     },
     {
       "id": "western-michigan",
-      "hours": 12.6
+      "hours": 12.8
     },
     {
       "id": "wyoming",
-      "hours": 12.6
+      "hours": 12.8
     },
     {
       "id": "northwestern",
-      "hours": 12.4
+      "hours": 12.7
     },
     {
       "id": "purdue",
-      "hours": 12.4
+      "hours": 12.7
     },
     {
       "id": "rutgers",
-      "hours": 12.4
+      "hours": 12.7
     },
     {
       "id": "south-carolina",
-      "hours": 12.4
+      "hours": 12.7
     },
     {
       "id": "texas-am",
-      "hours": 12.4
+      "hours": 12.7
     },
     {
       "id": "ucla",
-      "hours": 12
+      "hours": 12.3
     },
     {
       "id": "vanderbilt",
-      "hours": 12
+      "hours": 12.3
     },
     {
       "id": "wisconsin",
-      "hours": 11.8
+      "hours": 12
     },
     {
       "id": "indiana",
-      "hours": 10.8
+      "hours": 11
     },
     {
       "id": "minnesota",
-      "hours": 10
+      "hours": 10.3
     }
   ],
   "quality": {
-    "completeOffers": 181,
+    "completeOffers": 189,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-08-30T13:27:48.940Z",
-      "got": 504,
-      "new": 264,
+      "at": "2026-08-30T13:43:50.406Z",
+      "got": 797,
+      "new": 281,
       "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-08-30T13:26:00.282Z",
+    "at": "2026-08-30T13:41:07.665Z",
     "mode": "all",
     "collection": {
-      "returned": 504,
-      "kept": 264,
-      "duplicate": 236,
-      "tooOld": 4,
+      "returned": 797,
+      "kept": 281,
+      "duplicate": 510,
+      "tooOld": 6,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 177,
-      "rejected": 87,
+      "accepted": 178,
+      "rejected": 103,
       "reasons": {
-        "no_offer_term": 34,
-        "hard_negative": 17,
-        "no_fbs_school": 36
+        "no_offer_term": 45,
+        "hard_negative": 25,
+        "no_fbs_school": 33
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2093371150432964793",
-          "author": "popbase",
+          "postId": "2094046188437717012",
+          "author": "jakemrowe",
           "searchJob": "georgia",
-          "text": "Alana Thompson, also known as Honey Boo Boo, turns 21 today. https://t.co/7jF5eFgCmS"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2092692960534003734",
-          "author": "bcdanrubin",
-          "searchJob": "backfill:v2:boston-college:2026-07-31:2026-08-30",
-          "text": "It’s almost time for a game week… but not quite. https://t.co/ofM0brNbGt"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2092659697526407215",
-          "author": "bcbbfans",
-          "searchJob": "backfill:v2:boston-college:2026-07-31:2026-08-30",
-          "text": "DiBiaso telling the media that Mason McKenzie was NOT recruited from other power schools. In a way, making the chip that much greater…"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2092643392576421903",
-          "author": "np4football_ot",
-          "searchJob": "backfill:v2:bowling-green:2026-07-31:2026-08-30",
-          "text": "Nathan Phillips-DL-2028-MI @BG_Football Game Day Visit #CFB"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2092306999744561468",
-          "author": "n_phillips2010",
-          "searchJob": "backfill:v2:bowling-green:2026-07-31:2026-08-30",
-          "text": "I am extremely excited to announce I will be visiting @BG_Football for their game November 10th. I can’t wait to be on campus to connect with the staff! @EddieGeorge2727 @coachbowdown1 @froelich51 @Official_CoachA @CoachMcNutt @CoachClyde96"
+          "text": "Been in this business for 15 years. I've written many stories, and I've read a lot more. @JedMay_ 's feature on Zykie Helton and his improbable journey is far and away better than anything I've ever done, and it's up there with the best I'v"
         },
         {
           "reason": "hard_negative",
-          "postId": "2092324874819690867",
-          "author": "wpial_insider",
-          "searchJob": "backfill:v2:bowling-green:2026-07-31:2026-08-30",
-          "text": "🚨BREAKING Moon gets deadlier this season. Senior RB Jance Henry and Sophomore WR Tyrone Claytor have won their appeals and are now ELIGIBLE to play this season ✅ Henry is committed to Bowling Green and Claytor has D1 offers. Both expected "
+          "postId": "2093428990568452522",
+          "author": "kevin_barral",
+          "searchJob": "backfill:v2:florida-international:2026-07-31:2026-08-30",
+          "text": "HUGE commitment for @FIUFootball Wide receiver Jayden Elder is the No. 93 receiver in the country (No. 68 in FL) per 247Sports. Caught 43 passes for 913 yards and 14 touchdowns last season. Held 22 total offers #FIU #PawsUp"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2092228752474304699",
-          "author": "bgfootballtalk",
-          "searchJob": "backfill:v2:bowling-green:2026-07-31:2026-08-30",
-          "text": "Back on the blogging. I gotta get my own website because blogspot was solid for a while and medium which i use now is just decent. Both offer ZERO seo help which is the biggest issue"
+          "reason": "no_offer_term",
+          "postId": "2093416913330118855",
+          "author": "jayden2elder",
+          "searchJob": "backfill:v2:florida-international:2026-07-31:2026-08-30",
+          "text": "I give all Glory to my Lord and Savior, Jesus Christ 🫶🏽 305 LETS DO IT https://t.co/hcNjNrlOeo"
         },
         {
           "reason": "hard_negative",
-          "postId": "2091576852171166196",
-          "author": "scoutfball",
-          "searchJob": "backfill:v2:bowling-green:2026-07-31:2026-08-30",
-          "text": "PUT HIM ON THE NATIONAL RADAR: St. Michael Catholic (AL) 2028 WR Braedyn Walton (@BraedynWalton) made a STATEMENT on ESPN. 🔥 7 receptions 🔥 123 receiving yards 🔥 TD 🔥 vs. Battle Ground Academy (TN) Walton already holds offers from Bowli"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2091340228480922109",
-          "author": "topper_talk",
-          "searchJob": "backfill:v2:bowling-green:2026-07-31:2026-08-30",
-          "text": "https://t.co/Q73AdpO2wX"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2091024041536528797",
-          "author": "axaiver242",
-          "searchJob": "backfill:v2:bowling-green:2026-07-31:2026-08-30",
-          "text": "Blessed to receive an invitation to Bowling Green State University’s Elite Camp 🏀 Appreciate Coach Todd Simon and the BGSU staff for the opportunity. Looking forward to continuing to build my recruitment and connect with college coaches. 6"
+          "postId": "2088673012396720213",
+          "author": "adamabbaaji",
+          "searchJob": "backfill:v2:florida-international:2026-07-31:2026-08-30",
+          "text": "𝐂𝐄𝐋𝐄𝐁𝐑𝐀𝐓𝐈𝐍𝐆 𝐃𝐈𝐒𝐓𝐈𝐍𝐆𝐔𝐈𝐒𝐇𝐄𝐃 𝐒𝐄𝐍𝐀𝐓𝐎𝐑 𝐌𝐔𝐇𝐀𝐌𝐌𝐀𝐃 𝐀𝐁𝐁𝐀 𝐀𝐉𝐈 𝐀𝐓 𝟕𝟓 Today, we give thanks to Almighty Allah as we celebrate the 75th birthday of Distinguished Senator Muhammad Abba Aji—a distinguished"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094030879605551343",
-          "author": "pokebuzzybuzz",
-          "searchJob": "backfill:v2:buffalo:2026-07-31:2026-08-30",
-          "text": "@ThePokeMD Offer 51"
+          "postId": "2093373345790308402",
+          "author": "nolesbelson",
+          "searchJob": "backfill:v2:florida-state:2026-07-31:2026-08-30",
+          "text": "@linfamy I love when @linfamy offers me either @wearesakuraco or @TokyoTreat boxes. So lovely! Get yourself a $5 off when you sign up using LINFAMY at https://t.co/M7wWU4r8ei or https://t.co/pJ0zS0pWfw to get your first boxes! Yum 😋"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2093513351808643333",
+          "author": "telemundofresno",
+          "searchJob": "backfill:v2:fresno-state:2026-07-31:2026-08-30",
+          "text": "La fruta fue donada por productores agrícolas a la organización sin fines de lucro Offer Kindness, que se encarga de distribuirla entre diferentes centros de alimentos https://t.co/057TrxIFIw"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2093429433218547720",
+          "author": "tgg_fresno",
+          "searchJob": "backfill:v2:fresno-state:2026-07-31:2026-08-30",
+          "text": "In the world of affiliate marketing, personalization is key to conversion. Mastering techniques for targeted content not only engages your audience but also creates a deeper connection. Utilize data analytics to tailor offers that resonate "
         },
         {
           "reason": "hard_negative",
-          "postId": "2094021544011812938",
-          "author": "mediamanint",
-          "searchJob": "backfill:v2:buffalo:2026-07-31:2026-08-30",
-          "text": "Bulls And Bears Under The Media Man Watercooler August 2026 Aussie PM with Gonzo Elements Fresh News From Down Under And Evergreen News Elements Google Search and A.I Search Friendly X / Grok Friendly Online Media Stock Up! Destination Webs"
+          "postId": "2092784750205558906",
+          "author": "gabecamarillo_",
+          "searchJob": "backfill:v2:fresno-state:2026-07-31:2026-08-30",
+          "text": "Tulare Western QB “JuJu” Hernandez and WR Amarion Taylor are back as one of the Central Valley’s top tandems. Taylor holds offers from Cal, Utah and Fresno State. JuJu passed for 416 yards &amp; 7 TD last week. Amarion caught 4 of those TDs"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2092749113062260766",
+          "author": "abc30",
+          "searchJob": "backfill:v2:fresno-state:2026-07-31:2026-08-30",
+          "text": "As open enrollment approaches, companies are starting to offer more options, as health care isn't one size fits all. https://t.co/bGE4dOClam"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2092640671677239768",
+          "author": "maxionresearch",
+          "searchJob": "backfill:v2:fresno-state:2026-07-31:2026-08-30",
+          "text": "Maxion Research is inviting Fresno, CA residents to join its voluntary online research panel for optional surveys, interviews, focus groups, and product-feedback studies. Selection and incentives vary. Not a job or employment offer. https:/"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2092110957677813965",
+          "author": "luv2laugh12",
+          "searchJob": "backfill:v2:fresno-state:2026-07-31:2026-08-30",
+          "text": "No one has come for these 12 dogs yet! They only have Tuesday left to find a home. 🆘 Stanislaus Animal Services Agency plans to 💉them on Wednesday 8/26 at 6:30 a.m.! 😳…despite having empty kennels. Can anyone save them? There are even tw"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2090901804527567264",
+          "author": "abc30",
+          "searchJob": "backfill:v2:fresno-state:2026-07-31:2026-08-30",
+          "text": "Executive producer Khloé Kardashian's new Hulu series, \"The Girls,\" offers fans an inside look at her circle of friends like Malika Haqq and more. https://t.co/wmLobUDJe3"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2093090975115592083",
+          "author": "cashmartin1081",
+          "searchJob": "backfill:v2:georgia-southern:2026-07-31:2026-08-30",
+          "text": "Blessed to receive an invite to @GSAthletics_FB game on September 5th. Exited to watch y’all play and compete. Can’t wait to be there! @NFHS_FB_Recruit @NoFoFootball @NEGARecruits @PrepRedzoneGA @PrepRedzone @coachrcraft @Coach_Timmerman @C"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2091930767353950264",
+          "author": "kaydenturner29",
+          "searchJob": "backfill:v2:georgia-southern:2026-07-31:2026-08-30",
+          "text": "Blessed to receive my first official offer from ga southern university this isn’t nothing but god!!💙 @CoachSafford @N_H_S_Football @williamsdo https://t.co/yRSkX8I1ks"
         },
         {
           "reason": "hard_negative",
-          "postId": "2094007131435323737",
-          "author": "peterg11742",
-          "searchJob": "backfill:v2:buffalo:2026-07-31:2026-08-30",
-          "text": "Morning reading. Hebrews 9:13-15 [13] For if [o]the blood of goats and bulls, and the sprinkling of defiled persons with [p]the ashes of a heifer, sanctify(6) for the purification of the flesh, [14] how much more will [q]the blood of Christ"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2093874289292321050",
-          "author": "littlebuffvall",
-          "searchJob": "backfill:v2:buffalo:2026-07-31:2026-08-30",
-          "text": "@DicksTrash May I offer you some of my favorite matches https://t.co/ZfeodWiAAA"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2093895163953205508",
-          "author": "byucougarswire",
-          "searchJob": "backfill:v2:byu:2026-07-31:2026-08-30",
-          "text": "@DigginBrigham The fact that Saints are listening to offers for Spencer Rattler helps his cause."
+          "postId": "2092188788436959583",
+          "author": "cats_girlsbb",
+          "searchJob": "backfill:v2:georgia-southern:2026-07-31:2026-08-30",
+          "text": "Welcome to CATS Academy Boston, Leah Kearney! 🐾🏀 The 6’0” Class of 2028 wing from New Jersey brings size, versatility, toughness, and proven next-level ability to Boston. Leah currently holds NCAA Division I offers from Siena, American, D"
         },
         {
           "reason": "hard_negative",
-          "postId": "2093808441076949494",
-          "author": "cazbyu",
-          "searchJob": "backfill:v2:byu:2026-07-31:2026-08-30",
-          "text": "I was in the USAF and assigned to the US Embassy in Bamako in 2016, Mali. A 90% Muslim country. It was a diplomatic assignment and my family was going with me. We were excited to represent the United States and unofficially the Church. The "
+          "postId": "2092029972646969726",
+          "author": "isiahanderson",
+          "searchJob": "backfill:v2:georgia-southern:2026-07-31:2026-08-30",
+          "text": "Welcome to CATS Academy Boston, Leah Kearney! 🐾🏀 The 6’0” Class of 2028 wing from New Jersey brings size, versatility, toughness, and proven next-level ability to Boston. Leah currently holds NCAA Division I offers from Siena, American, D"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2092022703116960226",
+          "author": "cats_girlsbb",
+          "searchJob": "backfill:v2:georgia-southern:2026-07-31:2026-08-30",
+          "text": "Welcome to CATS Academy Boston, Leah Kearney! 🐾🏀 The 6’0” Class of 2028 wing from New Jersey brings size, versatility, toughness, and proven next-level ability to Boston. Leah currently holds NCAA Division I offers from Siena, American, D"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2091924272805818656",
+          "author": "cats_girlsbb",
+          "searchJob": "backfill:v2:georgia-southern:2026-07-31:2026-08-30",
+          "text": "Great visit this morning with Leah Kearney, a 6’ wing from New Jersey! 🏀 Leah holds D1 offers from Siena, American, Delaware & Georgia Southern. Enjoyed having Leah and her family at CATS Academy Boston and sharing what we’re building. 📚 "
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2090892674882568322",
+          "author": "dane_brown2",
+          "searchJob": "backfill:v2:georgia-southern:2026-07-31:2026-08-30",
+          "text": "I am blessed to receive my first offer and also be committed to Georgia Southern. @GSAthletics_BSB #hailsouthern #GATA https://t.co/6r4WeMYiZz"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2093424551774257200",
-          "author": "kremlincardinal",
-          "searchJob": "backfill:v2:byu:2026-07-31:2026-08-30",
-          "text": "Apostles in the LDS church have encouraged us to build bridges of understanding and honesty with our Muslim brothers and sisters, and I wholeheartedly agree. https://t.co/V72qQgnJ8W https://t.co/TgldawJ21N"
+          "postId": "2090782025414283448",
+          "author": "kennethbryant_",
+          "searchJob": "backfill:v2:georgia-southern:2026-07-31:2026-08-30",
+          "text": "Highlights from the corky kell , vs pebble brook were I was blessed to receive the corky kell MVP award. Kenneth”Trey”Bryant 2027 GPA: 3.2 QB#12 #agtg @CorkyKell @benjaminwolk @247Sports @RecruitGeorgia @GSAthletics @GSAthletics_FB @CapersC"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2088052273008042309",
+          "author": "dekalbrecruits",
+          "searchJob": "backfill:v2:georgia-southern:2026-07-31:2026-08-30",
+          "text": "Southwest Dekalb HS (GA.) ‘28 ATH Myson Perry (@Only4mp). #RecruitDekalb • Perry holds offers from App State, Georgia Southern, Charlotte, Liberty etc."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2094053568311398897",
-          "author": "4starsportsm",
-          "searchJob": "arkansas",
-          "text": "Charles Huff made Memphis history in Las Vegas. The Tigers rallied past UNLV, and a new era suddenly has real momentum. https://t.co/ptnrcchnNF"
+          "postId": "2088023489944977782",
+          "author": "only4mp",
+          "searchJob": "backfill:v2:georgia-southern:2026-07-31:2026-08-30",
+          "text": "IM BACK IN ACTION!!!!#ath #doitall https://t.co/S9XPIUKc2g"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2093220616342024387",
-          "author": "rt_india_news",
-          "searchJob": "backfill:v2:california:2026-07-31:2026-08-30",
-          "text": "🎮GTA 6 Lands On Netflix, And The Platform Starts Struggling Almost Immediately Fans tuning in for the exclusive preview reported crashes, lag and trouble opening the GTA page as the footage went live. The service later recovered. GTA VI is"
+          "postId": "2093386867718963687",
+          "author": "tyrantwatcher87",
+          "searchJob": "backfill:v2:georgia-state:2026-07-31:2026-08-30",
+          "text": "https://t.co/LgkYb5vuHW"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2094030611870777455",
-          "author": "xoqueenesther",
-          "searchJob": "backfill:v2:california:2026-07-31:2026-08-30",
-          "text": "Harry and Meghan Didn’t Come Home. They Came Back for What They Could Still Get While Charles Is Still King. Harry and Meghan did not return to Britain because the country suddenly became safe, kind, or worth belonging to. They came back be"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2093726618258932159",
-          "author": "derekjgrossman",
-          "searchJob": "backfill:v2:california:2026-07-31:2026-08-30",
-          "text": "Trump's freewheeling India envoy, Sergio Gor, has been muddling US South Asia policy--particularly with his last visit to and statement on Kashmir, and his remit as South and Central Asia representative. My latest piece for @ForeignPolicy e"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2093986882690388385",
-          "author": "borobodura",
-          "searchJob": "backfill:v2:california:2026-07-31:2026-08-30",
-          "text": "Another reason why these elite schools are not worth paying a tuition that you will take a lifetime to repay if you had to take out a loan. This kid skipped college got a job offered from Google making at least $200k+ no college debt is win"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2093979428200280442",
-          "author": "worldtechrsrch",
-          "searchJob": "backfill:v2:california:2026-07-31:2026-08-30",
-          "text": "https://t.co/mPd0ogA5Xg"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2092649456453783655",
-          "author": "cghs_jags_hoops",
-          "searchJob": "backfill:v2:central-michigan:2026-07-31:2026-08-30",
-          "text": "We would like everyone to join in on congratulating ‘27 Ali Atallah @aliatallah27 on receiving his 8th official offer from North Central Michigan College! Thank you Coach Lukusa Jr. for believing in our guy! #DoItForStanley #TougherTogether"
+          "reason": "hard_negative",
+          "postId": "2093042614241001581",
+          "author": "dylanthayer0",
+          "searchJob": "backfill:v2:georgia-state:2026-07-31:2026-08-30",
+          "text": "Brunswick 2027 Brandon Jean is a gem hiding in plain sight in Class A. This grassroots season he averaged just under 18 points per game for Castle Athletics PRO16 squad. Will attract coaches during the fall. Holds offers from Fairleigh Dick"
         }
       ]
     },
     "extraction": {
-      "accepted": 20,
-      "rejected": 157,
+      "accepted": 9,
+      "rejected": 169,
       "reasons": {
-        "multiple_resolved_schools": 21,
-        "bare_mention_requires_llm": 95,
-        "school_not_resolved_confidently": 28,
-        "reporter_missing_player_name": 4,
-        "reporter_missing_football_context": 2,
-        "player_missing_position": 1,
-        "player_display_name_unusable": 2,
-        "reporter_missing_class_year": 3,
-        "reporter_missing_position": 1
+        "bare_mention_requires_llm": 71,
+        "author_not_recruit:different sport": 4,
+        "school_not_resolved_confidently": 44,
+        "multiple_resolved_schools": 31,
+        "player_missing_position": 3,
+        "reporter_missing_player_name": 7,
+        "author_not_recruit:no recruit fields": 3,
+        "player_display_name_unusable": 1,
+        "reporter_missing_class_year": 1,
+        "player_missing_class_year": 3,
+        "author_not_recruit:not high-school recruit": 1
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094053524149817533",
-          "author": "aakashgupta",
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094057123634184586",
+          "author": "c2cnewsroom",
           "searchJob": "georgia",
-          "text": "Honey Boo Boo just turned 21. She says she has never seen a dollar from the show that made her famous. Here Comes Honey Boo Boo was a genuine monster. On August 29, 2012, it pulled 2.9 million viewers and beat Fox News coverage of the Repub"
+          "text": "Per @RustyMansell_ RT by @JedMay_: RT by @JedMay_: Incredible job by @JedMay_ may. STRONG! JOIN: Become @ugasportscom + On3 + Rivals member now and SAVE 75% on your first year. We offer more than just ELITE Georgia football intel, community"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094029339117371620",
-          "author": "womanadk",
-          "searchJob": "backfill:v2:boston-college:2026-07-31:2026-08-30",
-          "text": "Thomas Seyfried, now of Boston College, was previously at Hopkins - his years of scientific research while at BC has found that all cancers can be killed through the use of diet - starving the cancer cells of sugar - so putting the body in "
+          "postId": "2094055033117794778",
+          "author": "rustymansell_",
+          "searchJob": "georgia",
+          "text": "Incredible job by @JedMay_ may. STRONG! JOIN: https://t.co/FbhEO1T08V Become @ugasportscom + On3 + Rivals member now and SAVE 75% on your first year. We offer more than just ELITE Georgia football intel, community and expert analysis. https"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2093833573988000057",
-          "author": "profilefblive",
-          "searchJob": "backfill:v2:boston-college:2026-07-31:2026-08-30",
-          "text": "2028 IOL Cash Patrick - Celina HS, OH. Offer - Boston College"
+          "postId": "2092713698775183597",
+          "author": "chronicle",
+          "searchJob": "backfill:v2:florida-international:2026-07-31:2026-08-30",
+          "text": "Santa Monica College receives accreditation warning, the U. of Utah to close satellite campus, and Florida International U. offers buyouts. https://t.co/1MnfUrYsTn"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2093133964676640919",
-          "author": "profilefblive",
-          "searchJob": "backfill:v2:boston-college:2026-07-31:2026-08-30",
-          "text": "2028 ATH Blair Morris - Varina HS, VA. Offer - Boston College"
+          "postId": "2092325103313039480",
+          "author": "jasonscaceres",
+          "searchJob": "backfill:v2:florida-international:2026-07-31:2026-08-30",
+          "text": "Today at Let’s Talk About Verticals, I’m joined by actor Jason Caceres @jasonscaceres — one of the true veterans of the Vertical Space, with more than 100 vertical productions already under his belt! 🤯🎬 Born and raised in Miami as the son"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2093076060594135072",
-          "author": "blair_morris010",
-          "searchJob": "backfill:v2:boston-college:2026-07-31:2026-08-30",
-          "text": "#AGTG Boston college offered!! https://t.co/2LivE9XgGv"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2093107539923636499",
-          "author": "profilefblive",
-          "searchJob": "backfill:v2:boston-college:2026-07-31:2026-08-30",
-          "text": "2028 WR Christopha Alston - Friendship Collegiate HS, DC. Offer - Boston College"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2093069556818305199",
-          "author": "christopha_2",
-          "searchJob": "backfill:v2:boston-college:2026-07-31:2026-08-30",
-          "text": "Boston college offered @On3 @coachmikehunter @247recruiting @ChadSimmons_ @EdOBrienCFB @PrepRedzoneMD @ryanrrob https://t.co/DGGlacLwmQ"
+          "reason": "author_not_recruit:different sport",
+          "postId": "2086189823660834891",
+          "author": "addidrew_",
+          "searchJob": "backfill:v2:florida-international:2026-07-31:2026-08-30",
+          "text": "Blessed to say that I have received an offer from Florida International University. Thank you @DWendt31 and @CoachBurks32 for believing in me. https://t.co/XuLofTwipf"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2092680081072087543",
-          "author": "bcbbfans",
-          "searchJob": "backfill:v2:boston-college:2026-07-31:2026-08-30",
-          "text": "TO CLARIFY: Coach DiBiaso wasn’t saying no other power four schools recruited him. He said BC was the only one to offer him. There were plenty of schools interested that didn’t officially offer."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2092669876146196782",
-          "author": "raanalytics",
-          "searchJob": "backfill:v2:boston-college:2026-07-31:2026-08-30",
-          "text": "@TaddrickGjr @karipruitt_ @CoachJulesM @BCFootball @dfhsfootball @CoachCainFB @ChadSimmons_ @TomLoy247 @GregBiggins @adamgorney @AnnaH247 @samspiegs @Andrew_Ivins @benjaminwolk @alonzobowens21 Congratulations on the offer. For athletes buil"
+          "postId": "2093812837659357294",
+          "author": "ginjaninja58",
+          "searchJob": "backfill:v2:florida-state:2026-07-31:2026-08-30",
+          "text": "If Noles are serious. When they axe Norvell, they give a serious offer to Tony Elliot"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2092462768242762096",
-          "author": "wattzthoughts",
-          "searchJob": "backfill:v2:boston-college:2026-07-31:2026-08-30",
-          "text": "@wisconsinsane 1) He went to Texas Tech, not Boston College. They obviously had the highest offer for him 2) Wisconsin does not “badly” need edge. Would he have been a nice piece to have? Sure. Certainly one of the stronger positions on the"
+          "postId": "2093549789333909816",
+          "author": "offshoreinsider",
+          "searchJob": "backfill:v2:florida-state:2026-07-31:2026-08-30",
+          "text": "This were games we strongly considered as best on https://t.co/707wwLjlqj JACKSONVILLE STATE +6.5 over North Dakota State North Dakota State is receiving 58% of the spread bets, making Jacksonville State the contrarian side. Jacksonville St"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2092442546593058962",
-          "author": "drew_toennies",
-          "searchJob": "backfill:v2:boston-college:2026-07-31:2026-08-30",
-          "text": "#TN2028 WR out of BGA adds an offer to his resume from Boston College ⬇️"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2092409192095109459",
-          "author": "demarcocod26972",
-          "searchJob": "backfill:v2:boston-college:2026-07-31:2026-08-30",
-          "text": "Very Very blessed too received another offer from Boston College 🦅🦅🦅 @ColumbiaHighFB @CoachGregBarne1 @_Coach_Shugg @_Sbell11 @DekalbRecruits @247Sports @adamgorney https://t.co/Y1grelxGQM"
-        },
-        {
-          "reason": "reporter_missing_football_context",
-          "postId": "2092408928118194618",
-          "author": "shaynep_media",
-          "searchJob": "backfill:v2:boston-college:2026-07-31:2026-08-30",
-          "text": "CPA (TN) 2028 tight end Wright Martin adds an offer from Boston College #PRZTN #TN2028 #MidTN28"
-        },
-        {
-          "reason": "player_missing_position",
-          "postId": "2090169518072987795",
-          "author": "wrightmartin28",
-          "searchJob": "backfill:v2:boston-college:2026-07-31:2026-08-30",
-          "text": "Thankful to receive an offer from Boston College!!! @_CoachBR @karipruitt_ @CPAFootball https://t.co/KKBDQNvQpV"
+          "postId": "2093444802289311908",
+          "author": "flstateparks",
+          "searchJob": "backfill:v2:florida-state:2026-07-31:2026-08-30",
+          "text": "Dade Battlefield Historic State Park provides easy ways for visitors to enjoy nature, with longleaf pines, shaded walking trails and picnic areas. Wildlife like gopher tortoises and songbirds can often be seen along the paths, and seasonal "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2092408396959916172",
-          "author": "shaynep_media",
-          "searchJob": "backfill:v2:boston-college:2026-07-31:2026-08-30",
-          "text": "Whites Creek (TN) 2028 WR De’Aries Holland adds Boston College offer #PRZTN #TN2028 #MidTN28"
-        },
-        {
-          "reason": "player_display_name_unusable",
-          "postId": "2090109944179707913",
-          "author": "deariesh1",
-          "searchJob": "backfill:v2:boston-college:2026-07-31:2026-08-30",
-          "text": "Blessed to receive an offer from Boston College @karipruitt_ @_CoachBR @CoachBKPowell @WCFball @BuckFitz @NCEC_Recruiting @TomLoy247 @ChadSimmons_ @adamgorney https://t.co/4s3pvsl7m2"
+          "postId": "2093323698958651878",
+          "author": "cfbhome",
+          "searchJob": "backfill:v2:florida-state:2026-07-31:2026-08-30",
+          "text": "If Mike Norvell gets fired this season who will Florida State try and hire? My quick list (try and offer em): Dan Mullen Bret Bielema P.J. Fleck Jason Eck"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2092406229071012117",
-          "author": "shaynep_media",
-          "searchJob": "backfill:v2:boston-college:2026-07-31:2026-08-30",
-          "text": "Lipscomb Academy 2028 ATH Christian Blivens adds Boston College offer #PRZTN #TN2028 #MidTN28"
+          "postId": "2093148255135703468",
+          "author": "jucofootballace",
+          "searchJob": "backfill:v2:florida-state:2026-07-31:2026-08-30",
+          "text": "Chris Carbin @chriscarbind1 @ Blinn JuCo @BLINNFBRECRUIT + @FSUFootball Bounceback picks up @kennesawstfb Offer @Coach_RyanMahon https://t.co/VSM2SGlSUB"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2092405050291220928",
-          "author": "shaynep_media",
-          "searchJob": "backfill:v2:boston-college:2026-07-31:2026-08-30",
-          "text": "Lipscomb Academy (TN) 2028 receiver Jaxon Spencer adds Boston College offer #PRZTN #TN2028 #MidTN28"
-        },
-        {
-          "reason": "reporter_missing_football_context",
-          "postId": "2092404017137689060",
-          "author": "shaynep_media",
-          "searchJob": "backfill:v2:boston-college:2026-07-31:2026-08-30",
-          "text": "USJ (TN) 2028 tight end Jake Payne adds an offer from Boston College #PRZTN #TN2028 #WestTN28"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2093447278665372147",
-          "author": "profilefblive",
-          "searchJob": "backfill:v2:bowling-green:2026-07-31:2026-08-30",
-          "text": "2028 TE Grayam Beyer - Grand Haven HS, MI. Offer - Bowling Green"
-        },
-        {
-          "reason": "player_display_name_unusable",
-          "postId": "2093417327865819333",
-          "author": "grayambeyer",
-          "searchJob": "backfill:v2:bowling-green:2026-07-31:2026-08-30",
-          "text": "After a Great Chat with @Official_CoachA I am excited to receive my 5th D1 Offer from @BG_Football!! @AllenTrieu @coachbieds @PrepRedzoneMI @PrepRedzone @PrepRedzoneOH @Elite11 @247Sports @247recruiting @On3 @TheD_Zone @MichFBFrenzy @MIexpo"
+          "reason": "multiple_resolved_schools",
+          "postId": "2093139049263350109",
+          "author": "dc4305",
+          "searchJob": "backfill:v2:florida-state:2026-07-31:2026-08-30",
+          "text": "@ShawnWattles @florida_grand @RonDeSantis @Seminoles @UF It takes being an international student where they will offer more money, not a hard concept lol"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2093070069739716668",
-          "author": "bgsu",
-          "searchJob": "backfill:v2:bowling-green:2026-07-31:2026-08-30",
-          "text": "Tour #BGSU with us: The Student Recreation Center offers expansive recreational facilities, group fitness classes and more for both the University community and local community to enhance overall health and wellness. 🏋️ Learn more: https:/"
+          "postId": "2093419329257865675",
+          "author": "ambati_prop",
+          "searchJob": "backfill:v2:fresno-state:2026-07-31:2026-08-30",
+          "text": "📣Friday sales update! ✅11853 N Ridgeway Dr - Under Contract 1 day! ✅3511 E Rialto Ave Fresno - Under Contract 1 day multiple offers! ✅4161 Harlan Ranch Blvd Clovis - Under contract! https://t.co/iECgz5ai95"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2092691576946393201",
-          "author": "bgsu",
-          "searchJob": "backfill:v2:bowling-green:2026-07-31:2026-08-30",
-          "text": "Your game day starts at Falcon Fan Fest 🏈 Join us before every BGSU home football game for a new campus tradition: Falcon Fan Fest! Falcon Fan Fest offers something new every game with rotating activities, food and experiences designed to "
+          "postId": "2093372305804279861",
+          "author": "poppalarryeli",
+          "searchJob": "backfill:v2:fresno-state:2026-07-31:2026-08-30",
+          "text": "5 landscaping boulders for SALE BY OWNER make an offer. 559 - 363- 6116 greater FRESNO AREA. ROCKS ARE MASSIVE. A CRAIN AND TRACTOR TRAILER WILL BE NECESSARY TO MOVE. JUST A WARNING..😋 call https://t.co/izF04gAyja"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2093138427072143534",
+          "author": "kellyg581976179",
+          "searchJob": "backfill:v2:fresno-state:2026-07-31:2026-08-30",
+          "text": "🆘Urgent in California Even puppies are on the Red List this week at, Stanislaus Animal Services Agency, in Modesto, CA.💔 This is precious, 10 week old, female, GSD mix, named Harper. She’s due to be 💉on Weds. 9/2 at 6:30am PT. Please go "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2093035319520325942",
+          "author": "caltransdist6",
+          "searchJob": "backfill:v2:fresno-state:2026-07-31:2026-08-30",
+          "text": "Caltrans removed an encampment on August 20th located on State Route 180 near Van Ness Avenue in Fresno. During their work, Caltrans crews collected 2 cubic yards of debris. Affected individuals were offered services by our outreach partner"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2093034057835630808",
+          "author": "kellyg581976179",
+          "searchJob": "backfill:v2:fresno-state:2026-07-31:2026-08-30",
+          "text": "🆘Urgent in California Stanislaus Animal Services Agency, in Modesto, CA has put out their Red List for the week. These 27 beautiful dogs Urgently need Adopters and Fosters. A few dogs from last week were given 1 week extensions. They are a"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2092809022936076528",
+          "author": "j_rando1ph",
+          "searchJob": "backfill:v2:fresno-state:2026-07-31:2026-08-30",
+          "text": "@StormBuonantony $37k in Fresno Ca (2013); was offered $24k in Springfield, MO in the same year"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2092353709002850483",
+          "author": "itsadogslifersq",
+          "searchJob": "backfill:v2:fresno-state:2026-07-31:2026-08-30",
+          "text": "NEDDY #A61570939 5mo.#malinois Neddy has been waiting for over a month.#Fresno Humane #CA. Who can adopt or foster to offer her the chance to grow up in a loving family? Playful, happy, wiggly Neddy is eager to learn &amp; please. Don't let"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2092301228717785481",
+          "author": "sjvsun",
+          "searchJob": "backfill:v2:fresno-state:2026-07-31:2026-08-30",
+          "text": "Pattern of perversion? Concerns swell over sexually-explicit college courses offered to Fresno Co. high school students https://t.co/psDbUNJxGe"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2092228363423244719",
+          "author": "kellyg581976179",
+          "searchJob": "backfill:v2:fresno-state:2026-07-31:2026-08-30",
+          "text": "🚨Please Good people of Central California These 12 dogs ,including 2 puppies, only have today to find Fosters and Adopters. They are all due to be killed tomorrow , Weds, Aug 26th at 6:30am PT‼️ Please go and Adopt or offer to Foster . Ple"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2091895807171772870",
+          "author": "rahfresno",
+          "searchJob": "backfill:v2:fresno-state:2026-07-31:2026-08-30",
+          "text": "Home is where your senior’s story lives. Don't let daily challenges force them to leave it behind. Right at Home Fresno offers personalized in-home care so seniors and disabled adults can stay safe at home. 📞 (559) 228-8918 | https://t.co/"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2091648243667021988",
+          "author": "tinamillermata1",
+          "searchJob": "backfill:v2:fresno-state:2026-07-31:2026-08-30",
+          "text": "Charming 3 BD/ 1 BA in Fresno has a lot to offer. Call/text/DM me for info. https://t.co/tgGVGP3re2"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2091556319279133155",
+          "author": "coachcrocky",
+          "searchJob": "backfill:v2:fresno-state:2026-07-31:2026-08-30",
+          "text": "Alonzo Ward gearing up for a big Jr Season. Edison High (Stockton) c/o 28 6’1” 175 6 D1 Offers: Oregon St, Washington St, Fresno St, Sac State, Nevada, San Diego St https://t.co/2sEu8MR2Jy"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2092666342373773556",
-          "author": "raanalytics",
-          "searchJob": "backfill:v2:bowling-green:2026-07-31:2026-08-30",
-          "text": "@successfulayden @CoachMcNutt @BG_Football @EddieGeorge2727 @coachbowdown1 @CoachJayBowden_ @CoachStyles_ @Coach_MHolliday @Coach_ASimmons @CoachStoutGLHS @gahannafootball @AllenTrieu @ChadSimmons_ @SWiltfong_ @Bryan_Ault @JaredLuginbill @2"
+          "postId": "2091428069676609960",
+          "author": "tomorrowshield",
+          "searchJob": "backfill:v2:fresno-state:2026-07-31:2026-08-30",
+          "text": "@realDonaldTrump I want to try and make Fresno California HOLY GROUND Where God and the Holy Ghost presence is felt ! Is it possible might have to REMOVE SOME PEOPLE PLEASE YOU SAID WHO NEEDS HELP ILL TAKE U UP ON THAT OFFER"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 287,
-      "swept": 23,
-      "failed": 1,
-      "requests": 24,
-      "errors": [
-        "backfill:v2:florida-international:2026-07-31:2026-08-30: rate limited"
-      ]
+      "jobs": 286,
+      "swept": 36,
+      "failed": 0,
+      "requests": 36,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 20,
-      "rejectedCandidates": 157,
-      "brandNewOffers": 20
+      "acceptedEvidence": 9,
+      "rejectedCandidates": 169,
+      "brandNewOffers": 8
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-08-30T13:27:49.297Z"
+    "status rebuilt locally from current store on 2026-08-30T13:43:50.796Z"
   ]
 }
