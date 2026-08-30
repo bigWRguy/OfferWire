@@ -212,7 +212,7 @@ async function load(){
     if(!wr.ok)throw new Error('wire '+wr.status);
     var w=await wr.json();
     STATUS=sr.ok?await sr.json():{};
-    DATA=(w.offers||[]).filter(function(o){return o.playerName&&o.classYear&&o.position});
+    DATA=(w.offers||[]).filter(function(o){return o.playerName&&o.classYear});
     if(expandId){
       var still=DATA.find(function(o){return o.id===expandId});
       if(!still)expandId=null;
