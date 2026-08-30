@@ -89,12 +89,15 @@ jobs:
           X_SESSIONS: ${{ secrets.X_SESSIONS }}
           X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
           X_CT0: ${{ secrets.X_CT0 }}
-          # Spend each 15-minute X quota window once. Most requests keep the live wire
-          # fresh; one quarter drains resumable history. A separate backfill cron would
-          # collide with this session and accomplish less work, not more.
+          # Spend each quota window once. During the one-time baseline most requests
+          # drain resumable history; after that the full budget returns to live work.
+          # A second scheduled workflow would only compete for the same X session.
           OFFERWIRE_MODE: all
           OFFERWIRE_BACKFILL_DAYS: 30
-          OFFERWIRE_BACKFILL_SHARE: ${{ vars.OFFERWIRE_BACKFILL_SHARE || '0.25' }}
+          # Drain the one-time baseline aggressively. Once all windows are complete the
+          # history queue is empty, so the full budget automatically returns to live.
+          OFFERWIRE_BACKFILL_SHARE: ${{ vars.OFFERWIRE_BACKFILL_SHARE || '0.8' }}
+          OFFERWIRE_BACKFILL_CHUNK_DAYS: ${{ vars.OFFERWIRE_BACKFILL_CHUNK_DAYS || '30' }}
           # One-time re-anchor: leave empty to keep the stored anchor.
           OFFERWIRE_BACKFILL_ANCHOR: ${{ vars.OFFERWIRE_BACKFILL_ANCHOR || '' }}
           # This session was observed rate-limiting on request 37. Stop at 36 so every

@@ -78,9 +78,9 @@ advances only as far as was actually read — never to "now" — so a busy progr
 silently lose a day.
 
 The current X session was measured rate-limiting on request 37 in a 15-minute window.
-OfferWire stops at 36, reserving 75% for 164 live jobs and 25% for history while backfill
-is incomplete. Against the four quarter-hour triggers, one session therefore needs
-roughly 90 minutes for a live pass; after backfill completes, roughly 75 minutes.
+OfferWire stops at 36. While the one-time baseline is incomplete it reserves 80% for
+history; as soon as the queue empties all 36 requests automatically return to live work.
+Live latency is intentionally reduced during this short bootstrap period.
 
 | Sessions | Full sweep of all 136 schools |
 |---|---|
@@ -95,22 +95,23 @@ mid-sweep is normal and is reported as such — it is not treated as a failure.
 
 ### Historical backfill
 
-`OFFERWIRE_BACKFILL_DAYS=30` adds one job per school per past day (136 × 30 = 4,080
-slices), so the ledger starts populated instead of empty. Slices are fixed date windows,
-resumable, and marked complete once done. Each live run assigns 25% of its search quota
-to history. With one session and reliable quarter-hour starts, the initial month drains
-in roughly four to seven days depending on pagination. The window is anchored to the
-first run so completed work cannot fall out when the calendar advances. The separate
-backfill workflow is manual-only because scheduling it beside the live job would make
-both jobs compete for the same 15-minute X quota.
+`OFFERWIRE_BACKFILL_DAYS=30` adds one fixed 30-day window per school: **136 initial
+queries instead of 4,080 empty-heavy school-day queries**. A busy school's window
+paginates backward with a persisted cursor; an empty school completes in one request.
+Every successful window is marked complete and every failed or unreadable X response
+stays pending. With one credential the initial pass takes about five quota windows plus
+whatever pagination busy programs require—normally hours rather than days. The window
+is anchored so completed work cannot slide out as dates advance.
 
-**One-time burst (get a month baseline fast).** Set two repo variables for a day or two,
-then delete them: `OFFERWIRE_BACKFILL_SHARE=0.8` raises history's share of every window
-from 25% to the code's 80% cap (a single credential then drains ~4,000 slices in
-roughly 1.5-2 days instead of a week), and `OFFERWIRE_BACKFILL_ANCHOR=<YYYY-MM-DD[T]HH:mm:ssZ>`
-re-points the window at the most recent 30 days. The anchor is committed into
-`data/state.json` the first time it is seen, so you can delete the anchor variable once
-it has fired; the share variable just returns the steady drip to 25% when deleted.
+The live workflow assigns 80% of quota to history until all school-windows are complete,
+then automatically spends 100% on live coverage. The separate backfill workflow remains
+manual-only because scheduling it beside the live job would compete for the same X
+quota. `OFFERWIRE_BACKFILL_CHUNK_DAYS` defaults to 30; smaller chunks are a fallback if
+X ever stops honoring cursor pagination.
+
+To deliberately restart the baseline, set
+`OFFERWIRE_BACKFILL_ANCHOR=<YYYY-MM-DD[T]HH:mm:ssZ>`. New window keys are idempotent:
+already-seen post IDs and offer keys prevent duplicates.
 A built-in 15-day grace (`OFFERWIRE_BACKFILL_GRACE_DAYS`, default 15) keeps even the
 oldest slice of an anchored window eligible for the ledger for the whole drain, so
 backfilled posts are never thrown away for being old on arrival.
@@ -217,12 +218,17 @@ Duplicates are recoverable; wrong merges are not.
 ```bash
 npm run wire         # one full cycle
 npm run health       # live search probe, per-school staleness, session validity
-npm run selftest     # 97 offline assertions
+npm run selftest     # offline parser/resolution/backfill assertions
 node scripts/coverage.mjs 3    # latency math for a 3-session pool
 node scripts/fixture-run.mjs   # ledger: dedupe, corroboration, offer dating
 node scripts/replay.mjs        # re-extract the archive offline (no search budget spent)
+npm run rebuild      # deterministically regenerate ledgers from the raw archive
 npm run plan-lists             # optional corroboration Lists
+npm run audit        # rejection reasons + representative rejected posts
 ```
+
+`npm run rebuild` uses the newest archived evidence timestamp as its replay clock, so
+running it twice against the same archive produces byte-for-byte identical artifacts.
 
 `npm run health` is the one to run when the wire looks quiet — it separates "nothing is
 happening" from "the session died".
@@ -239,6 +245,7 @@ happening" from "the session died".
 | `data/watchlist.json` | Recruit handles discovered by the wire, scored and promoted. |
 | `data/review.ndjson` | Ambiguous merges for human review. |
 | `data/raw/*.ndjson` | Every post collected, for replay and backtesting. |
+| `data/audit/*.ndjson` | Per-run funnel, rejection reasons, and representative samples. |
 
 Offers are dated to the **earliest** post reporting them — a reporter recapping three
 days later must not reset the clock.

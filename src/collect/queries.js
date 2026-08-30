@@ -151,24 +151,35 @@ export function backfillAnchorDate(state, fallback = new Date()) {
 }
 
 /**
- * Historical coverage is split into one UTC day per school. A month-wide query can
- * silently hit X's result ceiling for busy programs; daily slices keep each result set
- * small, make progress resumable, and give every school an explicit completion mark.
+ * Historical coverage uses configurable fixed windows per school. Wide windows avoid
+ * thousands of empty school-day requests; busy windows alone paginate backward with a
+ * persisted cursor, so result ceilings do not sacrifice completeness. Set
+ * OFFERWIRE_BACKFILL_CHUNK_DAYS lower only if X stops honoring cursor pagination.
  */
-export function backfillJobs(days = 30, now = new Date()) {
+export function backfillJobs(
+  days = 30,
+  now = new Date(),
+  chunkDays = Number(process.env.OFFERWIRE_BACKFILL_CHUNK_DAYS || days),
+) {
   const count = Math.max(0, Math.floor(Number(days) || 0));
   if (!count) return [];
+  // Empty school-days dominated the old plan: a 30-day baseline cost 4,080 requests
+  // before pagination, even though most daily windows contained nothing. Wider fixed
+  // windows stay complete because busy schools alone paginate with a persisted cursor.
+  const chunk = Math.max(1, Math.min(count, Math.floor(Number(chunkDays) || count)));
   const today = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
   const day = 86400e3;
   const date = (ms) => new Date(ms).toISOString().slice(0, 10);
   const schools = schoolJobs();
   const jobs = [];
-  for (let ago = count; ago >= 1; ago--) {
+  for (let ago = count; ago > 0; ago -= chunk) {
     const start = date(today - ago * day);
-    const end = date(today - (ago - 1) * day);
+    const end = date(today - Math.max(0, ago - chunk) * day);
     for (const school of schools) {
       jobs.push({
-        key: `backfill:${school.key}:${start}`,
+        // v2 intentionally does not reuse the old per-day completion marks. A partial
+        // v1 drain is safe to re-read because post IDs and offer keys are idempotent.
+        key: `backfill:v2:${school.key}:${start}:${end}`,
         query: `${school.query} since:${start} until:${end}`,
         priority: 0,
         kind: 'backfill',
@@ -176,8 +187,26 @@ export function backfillJobs(days = 30, now = new Date()) {
         schoolId: school.key,
         start,
         end,
+        chunkDays: Math.round((new Date(end) - new Date(start)) / day),
       });
     }
   }
   return jobs;
+}
+
+/** Derive progress from the active plan, never from stale cached counters. */
+export function backfillProgress(plan, marks = {}) {
+  const completedWindows = plan.filter((j) => marks[j.key]?.completed).length;
+  const totalWindows = plan.length;
+  const remainingWindows = totalWindows - completedWindows;
+  return {
+    chunkDays: plan[0]?.chunkDays || 0,
+    totalWindows,
+    completedWindows,
+    remainingWindows,
+    // Compatibility aliases for older site clients. These count school-windows.
+    totalTeamDays: totalWindows,
+    completedTeamDays: completedWindows,
+    remainingTeamDays: remainingWindows,
+  };
 }

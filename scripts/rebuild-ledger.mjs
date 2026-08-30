@@ -38,6 +38,11 @@ const posts = fs.readdirSync(rawDir).sort().flatMap((f) =>
   fs.readFileSync(path.join(rawDir, f), 'utf8').split('\n').filter(Boolean).map((l) => JSON.parse(l)));
 console.log(`replaying ${posts.length} archived posts through the current pipeline...`);
 
+// Replays must be byte-for-byte reproducible. Use the newest evidence timestamp as
+// the observation clock instead of wall time, which otherwise churns every ledger row.
+const replayMs = Math.max(...posts.map((p) => new Date(p.createdAt).getTime()).filter(Number.isFinite));
+const replayAt = Number.isFinite(replayMs) ? new Date(replayMs).toISOString() : '1970-01-01T00:00:00.000Z';
+
 const candidates = prefilter(posts);
 
 const db = {
@@ -55,12 +60,12 @@ for (const p of candidates) {
   for (const rec of recs) {
     const c = Math.min(0.98, (rec.confidence ?? 0.6) * (p._rules.prior > 0 ? 1 : 0.8));
     if (c < 0.4) { rejected++; continue; }
-    const o = upsert(db, rec, p, c);
+    const o = upsert(db, rec, p, c, replayAt);
     if (o) { accepted++; made.push(rec); }
   }
-  if (made.length) watch.observe(wl, p, made);
+  if (made.length) watch.observe(wl, p, made, replayAt);
 }
-watch.promote(wl);
+watch.promote(wl, { observedAt: replayAt });
 
 const before = {
   players: readJson('players.json', []).length,
@@ -92,7 +97,7 @@ if (write) {
       highSchool: player.highSchool ?? null, state: player.state ?? null };
   });
   writeJson('site/wire.json', {
-    generatedAt: new Date().toISOString(),
+    generatedAt: replayAt,
     counts: { offers: offers.length, players: players.length, newThisRun: 0, watchlist: Object.keys(wl.handles).length },
     offers: published,
   });

@@ -9,7 +9,7 @@ import { findSchools } from '../src/resolve/schools.js';
 import { classify, findClassYear, findPosition, findNameCandidates, findTaggedRecruit, findReportedName } from '../src/extract/rules.js';
 import { nameKey, fuzzyKey, canMerge, parseBio, looksLikeRecruit, cleanPersonName } from '../src/resolve/players.js';
 import { backfillJobs, schoolJobs, backfillAnchorDate } from '../src/collect/queries.js';
-import { prioritizeJobs } from '../src/collect/search.js';
+import { prioritizeJobs, SearchSession } from '../src/collect/search.js';
 import { dispatchWire } from '../netlify/functions/trigger-wire.mjs';
 
 let pass = 0, fail = 0;
@@ -92,6 +92,11 @@ t('different HS blocks merge', !canMerge(
   { name: 'Marcus Lee', highSchool: 'Buford' },
 ).merge);
 t('decorated display name is cleaned', cleanPersonName('Jonathan Jackson 4-star WR') === 'Jonathan Jackson');
+t('ordinal decoration is removed from player name', cleanPersonName('Bruce Blanden 3rd??') === 'Bruce Blanden');
+t('mistyped lowercase-L Roman suffix is normalized', cleanPersonName('Guy Vann lll') === 'Guy Vann III');
+t('iam-style camel display name is cleaned', cleanPersonName('iamBraydonZeno_') === 'Braydon Zeno');
+t('at-style camel display name is cleaned', cleanPersonName('@GrahamCentimole') === 'Graham Centimole');
+t('ordinary Mc surname is not camel-split', cleanPersonName('Sean McDonald') === 'Sean McDonald');
 
 console.log('bio parsing');
 // Every case below is a real bio that produced a WRONG field before the fix named in
@@ -107,6 +112,18 @@ t('NCAA ID is not Idaho', B('Lipscomb Academy |C/O 28| |3.41GPA|OT|6-5 275| NCAA
 t('explicit Pos: label wins', B("6'2 255|Pos:DL/LB/H|3 Sport Athlete|NCAA ID:2602827047|").position === 'DL');
 t('height and weight', B("C/O 28 Cache HS ||#7|| 6'2 180|| 4.35 40").height === '6-2' && B("C/O 28 Cache HS ||#7|| 6'2 180|| 4.35 40").weight === 180);
 t('class from C/O short form', B('C/O 28 Cache HS').classYear === 2028);
+t('class from C/ short form', B('C/28 6-3 280 RT/G').classYear === 2028);
+t('class from trailing apostrophe', B("28’ 6-4 225 EDGE").classYear === 2028);
+t('class apostrophe attached to school initials beats unrelated award year',
+  B("MHS'27 | 2025 1st Team All State | LB").classYear === 2027);
+t('two-digit height inches are not a class year', B("5'11 | 190 | LB").classYear == null);
+t('past shorthand award year falls back to valid four-digit class',
+  B("2029 QB | National Champions '24").classYear === 2029);
+t('lowercase bio position parses', B('class of 2028 | db | 6-0 185').position === 'DB');
+t('mixed-case position parses', B('C/O 2028 | 6-4 225 Edge').position === 'EDGE');
+t('FS normalizes to safety', B('C/O 2028 | FS/SS | 6-1 190').position === 'S');
+t('specific bio position beats generic ATH', B('3 sport ath | db | C/O 2028').position === 'DB');
+t('position and class can come from structured display name', looksLikeRecruit("6'7 265 | 4.0 GPA", "Kajus Muralis 4-star '28 OT").info.position === 'OT');
 t('forty time', B("6'2 180 | 4.35 40").forty === 4.35);
 
 console.log('recruit vs non-recruit');
@@ -126,6 +143,8 @@ t('basketball jargon without the word "basketball" is still the wrong sport',
 t('coach is not a recruit', !R('Head Coach at Central High | Building men'));
 t('plain basketball guard bio rejected', !R('Class of 2027 | 6-3 guard | 3.1 GPA'));
 t('JUCO player rejected from high-school wire', !R('2027 CB | Iowa Western CC | JUCO All-American | 6-2 190'));
+t('current college athlete without literal JUCO is rejected',
+  !R("Navarro College 6'4|285|OL/DL Class of 25' GPA: 3.5"));
 t('parent is not a recruit', !R('Proud mom of a 2028 athlete'));
 t('beat writer is not a recruit', !R('Recruiting coverage for @Bama_247 at @247Sports'));
 
@@ -143,6 +162,8 @@ t('reporter tags are not the recruit',
   tag([{ handle: 'hayesfawcett3', name: 'Hayes Fawcett' }]) === null);
 t('two unknown tags is ambiguous -> no guess',
   tag([{ handle: 'kid_a', name: 'Aa Bb' }, { handle: 'kid_b', name: 'Cc Dd' }]) === null);
+t('365-branded media tag is not a recruit',
+  tag([{ handle: 'olemiss365', name: 'Ole Miss 365' }]) === null);
 t('decorated display name is rejected as a name but handle kept', (() => {
   const r = tag([{ handle: 'jaymitch_1', name: 'Jayshawn Mitchell / NCAA ID 2512788693' }]);
   return r && r.handle === 'jaymitch_1' && r.name === null;
@@ -212,12 +233,37 @@ t('multi-school offer recap is a hard negative',
 t('previous offer is not a new event', classify('Alabama previously offered 2029 ATH Janzen Currie').hardNegative);
 t('aspirational offer is not an offer', classify('A Western Michigan offer would be amazing').hardNegative);
 t('recent-offer recap is not a new event', classify('He added a recent offer from Washington').hardNegative);
+t('explicit D2 offer is not attributed to an FBS school from search context',
+  classify("I'm blessed to announce I have received a D2 offer to play running back at Minot State!").hardNegative);
+t('explicit baseball offer is not a football offer',
+  classify('I am thrilled to receive an offer to play baseball at The University of Akron!').hardNegative);
+t('holding one D1 offer is still a stale profile statement',
+  classify('2027 OT Paul Wallace holds a #D1 offer from Wyoming.').hardNegative);
+t('profile label after sentence is not part of reporter player name',
+  findReportedName('Nebraska offers 2028 OT Vincent Shields. Profile: link') === 'Vincent Shields');
+t('reporter grammar recovers recruit when a media tag is ignored',
+  findReportedName('Ole Miss offers 2030 DE Amarie Trammell - Ole Miss 365') === 'Amarie Trammell');
+t('holding multiple offers is a stale profile recap',
+  classify('Dieter Weber is a Class of 2028 quarterback who holds Division I offers from Miami and UConn.').hardNegative);
+t('offer attributed to a prior spring showcase is stale',
+  classify('Israel received his first Division I scholarship offer from Kent State following a strong spring showcase.').hardNegative);
+t('offer attributed to a prior evaluation period is stale',
+  classify('Jordan landed an offer from Nebraska during the spring evaluation period and has set his first visit.').hardNegative);
+t('offer attributed to an earlier season is stale',
+  classify('His potential gained recognition during the summer when he earned his first Division I scholarship offer from Miami.').hardNegative);
+t('unrelated seasonal phrase does not suppress a current offer',
+  !classify('After training during the summer, Marcus Lee has received an offer from Georgia today.').hardNegative);
 
 console.log('historical job generation');
 const history = backfillJobs(30, new Date('2026-08-27T12:00:00Z'));
-t('one daily slice per school', history.length === schoolJobs().length * 30, String(history.length));
+t('one efficient month window per school by default', history.length === schoolJobs().length, String(history.length));
 t('oldest slice starts 30 days back', history[0]?.start === '2026-07-28', history[0]?.start);
 t('newest slice ends today', history.at(-1)?.end === '2026-08-27', history.at(-1)?.end);
+t('historical keys are versioned away from incomplete daily plan', history.every((j) => j.key.startsWith('backfill:v2:')));
+const weeklyHistory = backfillJobs(30, new Date('2026-08-27T12:00:00Z'), 7);
+t('optional weekly chunks cover every school five times', weeklyHistory.length === schoolJobs().length * 5, String(weeklyHistory.length));
+t('weekly chunks cover exactly 30 days',
+  weeklyHistory.filter((j) => j.schoolId === schoolJobs()[0].key).reduce((n, j) => n + j.chunkDays, 0) === 30);
 t('historical slices are fixed windows', history.every((j) => j.fixedWindow && / since:\d{4}-\d{2}-\d{2} until:\d{4}-\d{2}-\d{2}$/.test(j.query)));
 const anchorState = { firstRunAt: '2026-08-27T12:00:00.000Z' };
 t('backfill anchor starts at first run',
@@ -239,6 +285,47 @@ t('25% backfill share puts one historical job in each four-job window',
   mixed.slice(0, 8).map((j) => j.fixedWindow ? 'H' : 'L').join(''));
 t('live-only ordering does not invent history',
   prioritizeJobs([{ key: 'live', priority: 1 }], {}, 0.25).every((j) => !j.fixedWindow));
+
+console.log('search response safety');
+const fakePage = (onGoto = () => {}, onWheel = () => {}) => ({
+  waitForResponse: async () => null,
+  goto: async () => { onGoto(); },
+  waitForTimeout: async () => {},
+  url: () => 'https://x.com/search',
+  mouse: { wheel: async () => { onWheel(); } },
+});
+const missingTimeline = new SearchSession({ authToken: 'test', ct0: 'test' });
+missingTimeline.page = fakePage();
+const missingResult = await missingTimeline.search('test', { settleMs: 1 });
+t('missing SearchTimeline response leaves job pending',
+  !missingResult.ok && /slice left pending/.test(missingResult.error), JSON.stringify(missingResult));
+
+const emptyTimeline = new SearchSession({ authToken: 'test', ct0: 'test' });
+emptyTimeline.page = fakePage(() => {
+  emptyTimeline.timelineResponses = 1;
+  emptyTimeline.timelineStatuses = [200];
+  emptyTimeline.captured = [{}];
+});
+const emptyResult = await emptyTimeline.search('test', { settleMs: 1 });
+t('valid parsed empty timeline can complete', emptyResult.ok && emptyResult.posts.length === 0, JSON.stringify(emptyResult));
+
+const paginatedLimit = new SearchSession({ authToken: 'test', ct0: 'test' });
+paginatedLimit.page = fakePage(
+  () => {
+    paginatedLimit.timelineResponses = 1;
+    paginatedLimit.timelineStatuses = [200];
+    paginatedLimit.captured = [{}];
+  },
+  () => {
+    paginatedLimit.rateLimited = true;
+    paginatedLimit.timelineResponses++;
+    paginatedLimit.timelineStatuses.push(429);
+  },
+);
+const limitedResult = await paginatedLimit.search('test', { scrolls: 1, settleMs: 1 });
+t('pagination rate limit leaves fixed window pending',
+  !limitedResult.ok && limitedResult.rateLimited && /slice left pending/.test(limitedResult.error),
+  JSON.stringify(limitedResult));
 
 console.log('scheduler fallback');
 const noToken = await dispatchWire({ token: '', fetchImpl: async () => { throw new Error('must not fetch'); } });

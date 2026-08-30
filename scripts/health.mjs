@@ -7,7 +7,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fetchList, fetchProfile, lagHours } from '../src/collect/x.js';
 import { loadCredentials } from '../src/collect/search.js';
-import { schoolJobs, allJobs } from '../src/collect/queries.js';
+import { schoolJobs, allJobs, backfillJobs, backfillProgress } from '../src/collect/queries.js';
 import { CONFIG, readJson } from '../src/lib/store.js';
 
 const cfg = (f) => JSON.parse(fs.readFileSync(path.join(CONFIG, f), 'utf8'));
@@ -75,8 +75,18 @@ if (state.searchCoverage) {
   console.log(`  last run: swept ${c.sweptThisRun}/${c.jobsTotal} jobs in ${c.requests} requests (~${c.fullSweepCycles} cycles per full pass)`);
 }
 if (state.backfill) {
-  const b = state.backfill;
-  console.log(`  30-day backlog: ${b.completedTeamDays}/${b.totalTeamDays} team-days complete (${b.remainingTeamDays} remaining)`);
+  const anchor = new Date(state.backfillAnchorAt || state.firstRunAt || Date.now());
+  const b = state.backfill.totalWindows != null
+    ? state.backfill
+    : { ...state.backfill, ...backfillProgress(backfillJobs(state.backfill.days || 30, anchor), marks) };
+  const done = b.completedWindows ?? b.completedTeamDays;
+  const total = b.totalWindows ?? b.totalTeamDays;
+  const left = b.remainingWindows ?? b.remainingTeamDays;
+  console.log(`  ${b.days || 30}-day backlog: ${done}/${total} school-windows complete (${left} remaining, ${b.chunkDays || 1}-day chunks)`);
+}
+if (state.lastAudit) {
+  const a = state.lastAudit;
+  console.log(`  last funnel: ${a.collection?.returned || 0} returned -> ${a.collection?.kept || 0} new -> ${a.prefilter?.accepted || 0} candidates -> ${a.extraction?.accepted || 0} accepted evidence`);
 }
 if (state.rateBudget) {
   console.log('  rate budget:');

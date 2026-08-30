@@ -10,7 +10,7 @@
 //   node scripts/replay.mjs --rejected # also show what the rules prefilter threw away
 import fs from 'node:fs';
 import path from 'node:path';
-import { prefilter, rulesOnlyOffers } from '../src/pipeline.js';
+import { prefilter, rulesOnlyOffers, rulesOnlyRejectionReason } from '../src/pipeline.js';
 import { byId } from '../src/resolve/schools.js';
 import { DATA } from '../src/lib/store.js';
 
@@ -26,17 +26,21 @@ const posts = fs.readdirSync(dir).flatMap((f) =>
 
 // prefilter() logs its own funnel line; capture it instead of printing twice.
 let prefilterLine = '';
-const candidates = prefilter(posts, (s) => { prefilterLine = s; });
+const audit = { prefilter: { accepted: 0, rejected: 0, reasons: {}, samples: [] } };
+const candidates = prefilter(posts, (s) => { prefilterLine = s; }, audit);
 
 const funnel = { total: posts.length, noSignalOrHardNeg: posts.length - candidates.length, candidates: candidates.length, noOfferMade: 0, accepted: 0 };
 const offers = [];
 const rejected = [];
 
+const extractionReasons = {};
 for (const p of candidates) {
   const recs = rulesOnlyOffers(p);
   if (!recs.length) {
     funnel.noOfferMade++;
-    if (showRejected) rejected.push([`no-offer(${p._rules.kind})`, p]);
+    const reason = rulesOnlyRejectionReason(p);
+    extractionReasons[reason] = (extractionReasons[reason] || 0) + 1;
+    if (showRejected) rejected.push([reason, p]);
     continue;
   }
   for (const rec of recs) {
@@ -58,7 +62,15 @@ console.log('=== funnel ===');
 for (const [k, v] of Object.entries(funnel)) console.log(`  ${k.padEnd(18)} ${v}`);
 console.log(`  ${prefilterLine.trim()}`);
 console.log(`  yield: ${((funnel.accepted / Math.max(1, funnel.total)) * 100).toFixed(1)}% of all posts`);
+console.log('\n=== prefilter rejection reasons ===');
+for (const [reason, count] of Object.entries(audit.prefilter.reasons).sort((a, b) => b[1] - a[1])) {
+  console.log(`  ${reason.padEnd(30)} ${count}`);
+}
 
+console.log('\n=== extraction rejection reasons ===');
+for (const [reason, count] of Object.entries(extractionReasons).sort((a, b) => b[1] - a[1])) {
+  console.log(`  ${reason.padEnd(38)} ${count}`);
+}
 console.log(`\n=== offers (${offers.length}) ===`);
 for (const o of offers) {
   console.log(`  ${o.school.padEnd(19)} <- ${o.who.padEnd(24)} ${String(o.cls ?? '').padEnd(5)}${(o.pos ?? '').padEnd(5)} ${o.kind} ${o.conf}`);

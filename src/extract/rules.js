@@ -76,7 +76,9 @@ const NEGATIVE = [
 export function findClassYear(text, nowYear = new Date().getUTCFullYear()) {
   const raw = text || '';
   const explicit = raw.match(/\b(?:class\s+of|c\/?o|class|co)\s*['\u2018\u2019]?\s*(20\d{2}|\d{2})\b/i)
-    || raw.match(/(?:^|[\s|/])['\u2018\u2019](\d{2})\b/);
+    || raw.match(/\bc\/(?:o\/)?\s*['\u2018\u2019]?\s*(20\d{2}|\d{2})\b/i)
+    || raw.match(/(?:^|[\s|/])(\d{2})\s*['\u2018\u2019](?=$|[\s|/])/)
+    || raw.match(/(?<!\d)['\u2018\u2019](\d{2})\b/);
   if (explicit) {
     const y = explicit[1].length === 2 ? 2000 + Number(explicit[1]) : Number(explicit[1]);
     if (y >= nowYear - 1 && y <= nowYear + 7) return y;
@@ -94,6 +96,18 @@ export function findPosition(text) {
     .replace(/https?:\/\/\S+/g, ' ')
     .replace(/@[A-Za-z0-9_]+/g, ' ')
     .replace(/#\S+/g, ' ');
+  const worded = t.match(/\b(quarterback|running back|wide receiver|tight end|offensive (?:tackle|guard|lineman)|o\s*tackle|defensive (?:tackle|end|lineman|back)|d[- ]?end|linebacker|cornerback|free safety|strong safety|safety|long snapper|kicker|punter)\b/i);
+  if (worded) {
+    const w = worded[1].toLowerCase().replace(/\s+/g, ' ');
+    if (/quarterback/.test(w)) return 'QB'; if (/running back/.test(w)) return 'RB';
+    if (/wide receiver/.test(w)) return 'WR'; if (/tight end/.test(w)) return 'TE';
+    if (/offensive tackle|o tackle/.test(w)) return 'OT'; if (/offensive guard/.test(w)) return 'OG';
+    if (/offensive lineman/.test(w)) return 'OL'; if (/defensive tackle/.test(w)) return 'DT';
+    if (/defensive end|d-end|d end/.test(w)) return 'DE'; if (/defensive lineman/.test(w)) return 'DL';
+    if (/defensive back/.test(w)) return 'DB'; if (/linebacker/.test(w)) return 'LB';
+    if (/cornerback/.test(w)) return 'CB'; if (/safety/.test(w)) return 'S';
+    if (/long snapper/.test(w)) return 'LS'; if (/kicker/.test(w)) return 'K'; if (/punter/.test(w)) return 'P';
+  }
   for (const p of POSITIONS) {
     // "FB" overwhelmingly abbreviates FOOTBALL in recruiting posts, so it only counts
     // when written as a position ("RB/FB") or spelled out.
@@ -147,10 +161,12 @@ export function classify(text) {
   // this post can honestly be attributed to, so it must be rejected outright rather
   // than filed against whichever one the resolver happens to match first.
   const multiSchoolRecap = /\boffers?\s+from\s+(?:[A-Z][\w&.'-]*(?:\s+[A-Z][\w&.'-]*){0,2})(?:\s*,\s*(?:[A-Z][\w&.'-]*(?:\s+[A-Z][\w&.'-]*){0,2})){2,}/.test(t);
-  const staleOffer = /\b(?:previously|already|formerly)\s+(?:had\s+)?offer(?:ed|s)?\b|\boffers?\s+include\b|\b(?:holds?|with)\s+\d+\+?\s+offers?\b|\b(?:recent|previous)\s+offers?\b|\boffer\s+(?:a few|several|\d+)\s+(?:days?|weeks?|months?|years?)\s+ago\b|\bduring\s+(?:the\s+)?(?:spring|summer|fall|winter)\b/i.test(t);
+  const staleOffer = /\b(?:previously|already|formerly)\s+(?:had\s+)?offer(?:ed|s)?\b|\boffers?\s+include\b|\b(?:holds?|with)\s+\d+\+?\s+offers?\b|\bholds?\s+(?:an?\s+)?#?(?:(?:division\s*(?:one|1|i)|d1)\s+)?offers?\s+from\b|\b(?:recent|previous)\s+offers?\b|\boffer\s+(?:a few|several|\d+)\s+(?:days?|weeks?|months?|years?)\s+ago\b|\b(?:landed|earned|received|picked\s+up)\b[^.!?]{0,100}\boffer\b[^.!?]{0,100}\b(?:during|following)\s+(?:a\s+\w+\s+)?(?:the\s+)?(?:spring|summer|fall|winter)\b|\brecognition\b[^.!?]{0,100}\bduring\s+(?:the\s+)?(?:spring|summer|fall|winter)\b[^.!?]{0,100}\b(?:landed|earned|received|picked\s+up)\b[^.!?]{0,60}\boffer\b/i.test(t);
   const aspirational = /\b(?:an?\s+)?offer\s+would\s+be\b|\bhope(?:ful|fully)?\s+(?:to\s+)?(?:get|receive|earn)\b[^.!?]{0,30}\boffer\b/i.test(t);
   const nonScholarship = /\bprep\s+school\s+offer\b|\boffer\s+to\s+play\s+football\s+at\b/i.test(t);
-  const hard = multiSchoolRecap || staleOffer || aspirational || nonScholarship || /\bcommit(?:ted|ment|s)\b|\bdecommit|\bsigning day\b|\bofferlist\b|\boffer list\b|\bwalk[\s-]?on\b|\bpwo\b|\bthrowback\b|\bon this day\b/i.test(t);
+  const nonFbsLevel = /\b(?:d[23]|division\s*(?:ii|iii|2|3|two|three)|naia|njcaa|juco)\s+(?:scholarship\s+)?offer\b/i.test(t);
+  const otherSportOffer = /\b(?:baseball|basketball|softball|soccer|volleyball|lacrosse|hockey)\s+(?:scholarship\s+)?offer\b|\boffer\s+to\s+play\s+(?:baseball|basketball|softball|soccer|volleyball|lacrosse|hockey)\b/i.test(t);
+  const hard = multiSchoolRecap || staleOffer || aspirational || nonScholarship || nonFbsLevel || otherSportOffer || /\bcommit(?:ted|ment|s)\b|\bdecommit|\bsigning day\b|\bofferlist\b|\boffer list\b|\bwalk[\s-]?on\b|\bpwo\b|\bthrowback\b|\bon this day\b/i.test(t);
   if (hard) return { kind, prior: 0, negatives: neg, hardNegative: true };
 
   const prior = Math.max(0, base - 0.12 * neg.length);
@@ -173,7 +189,7 @@ export function classify(text) {
 // ---------------------------------------------------------------------------
 
 // Accounts that appear in offer posts but are never the recruit.
-const NEVER_THE_RECRUIT = /(football|athletics|recruit|sports|coach|hs$|highschool|academy|prep|nation|report|media|network|scout|rivals|247|on3|espn|team|official|_fb$|fb_|gridiron|allday|elite|camp)/i;
+const NEVER_THE_RECRUIT = /(football|athletics|recruit|sports|coach|hs$|highschool|academy|prep|nation|report|media|network|scout|rivals|247|365|on3|espn|team|official|_fb$|fb_|gridiron|allday|elite|camp)/i;
 
 /**
  * @param {object} post          the post (needs .mentioned, .text)
@@ -240,6 +256,11 @@ export function findReportedName(text) {
     // "OL Jamal Peters") because positions are capitalised exactly like surnames.
     // Strip it — but only when a real two-part name survives underneath.
     let name = m[1].replace(/\s+/g, ' ').trim();
+    // A three-token capture can cross punctuation: "Vincent Shields. Profile".
+    // Preserve the real name but discard document labels from the next sentence.
+    name = name
+      .replace(/\.\s+(?:profile|highlights?|film|story|read\s+more)\.?$/i, '')
+      .trim();
     const lead = name.match(new RegExp(`^(?:${POSITIONS.join('|')})\\s+(.+)$`));
     if (lead && lead[1].split(' ').length >= 2) name = lead[1];
     const words = name.split(' ');

@@ -108,10 +108,15 @@ t('walk-on produced no row', !offers.some((o) => o.schoolId === 'iowa'));
   };
   const postA = { id: 'a1', author: 'chaselumpkin1', authorBio: null, text: 'x', createdAt: '2026-08-27T10:00:00Z' };
   const postB = { id: 'a2', author: 'reporter1', authorBio: null, text: 'x', createdAt: '2026-08-27T10:05:00Z' };
-  upsert(db2, { player_name: 'Chase Lumpkin', player_handle: 'chaselumpkin1', school_id: 'arkansas', class_year: 2027, position: null, high_school: null, state: null }, postA, 0.45);
-  upsert(db2, { player_name: 'Chase Lumpkin', player_handle: null, school_id: 'arkansas', class_year: 2027, position: 'C', high_school: null, state: null }, postB, 0.5);
+  const replayAt = '2026-08-27T12:00:00.000Z';
+  upsert(db2, { player_name: 'Chase Lumpkin', player_handle: 'chaselumpkin1', school_id: 'arkansas', class_year: 2027, position: 'C', high_school: null, state: null }, postA, 0.45, replayAt);
+  upsert(db2, { player_name: 'Chase Lumpkin', player_handle: null, school_id: 'arkansas', class_year: 2027, position: 'C', high_school: null, state: null }, postB, 0.5, replayAt);
   t('same-run duplicate merges into one player, not two', db2.players.length === 1,
     `got ${db2.players.length}: ${JSON.stringify(db2.players.map((p) => [p.name, p.handle, p.classYear]))}`);
+  t('same-run reports corroborate one offer', db2.offers.length === 1 && db2.offers[0].corroborations === 2,
+    JSON.stringify(db2.offers.map((o) => [o.schoolId, o.corroborations])));
+  t('injected replay clock controls ledger timestamps', db2.players[0]?.firstSeen === replayAt
+    && db2.offers[0]?.firstSeenAt === replayAt && db2.offers[0]?.lastSeenAt === replayAt);
 }
 
 console.log(fail ? `\n${fail} failed` : '\nall fixture assertions passed');

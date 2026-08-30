@@ -9,7 +9,7 @@
 //   node scripts/build-status.mjs
 import path from 'node:path';
 import { readJson, writeJson, ROOT } from '../src/lib/store.js';
-import { schoolJobs } from '../src/collect/queries.js';
+import { schoolJobs, backfillJobs, backfillProgress } from '../src/collect/queries.js';
 import { loadCredentials } from '../src/collect/search.js';
 
 const now = () => new Date().toISOString();
@@ -38,18 +38,28 @@ const recent = offers.map((offer) => {
 
 const complete = recent.filter((o) => o.playerName && o.classYear && o.position).length;
 
+const backfillDays = Number(state.backfill?.days || 0);
+const anchor = new Date(state.backfillAnchorAt || state.firstRunAt || Date.now());
+const backfill = backfillDays
+  ? {
+      at: state.backfill?.at || null,
+      days: backfillDays,
+      ...backfillProgress(backfillJobs(backfillDays, anchor), state.watermarks || {}),
+    }
+  : null;
 const status = {
   generatedAt: now(),
   searchCredentials: loadCredentials().length,
-  searchConfigured: state.searchConfigured !== false,
+  searchConfigured: state.searchConfigured === true,
   warmedUp: !!(state.firstRunAt && Date.now() - new Date(state.firstRunAt).getTime() > 3 * 3600e3),
   searchCoverage: state.searchCoverage || null,
   backfillCoverage: state.backfillCoverage || null,
-  backfill: state.backfill || null,
+  backfill,
   staleSchools: staleSchools(state),
   quality: { completeOffers: complete, incompleteOffers: recent.length - complete },
   frozenProfiles: state.frozenProfiles || [],
   health: state.health || {},
+  audit: state.lastAudit || null,
   log: [`status rebuilt locally from current store on ${now()}`],
 };
 

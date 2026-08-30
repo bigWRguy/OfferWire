@@ -8,7 +8,7 @@ import path from 'node:path';
 import { readJson, writeJson, appendNdjson, readNdjson, sha1, DATA, CONFIG } from './lib/store.js';
 import { fetchList, fetchProfile, lagHours } from './collect/x.js';
 import { sweep, configured as searchConfigured, loadCredentials } from './collect/search.js';
-import { allJobs, schoolJobs, backfillJobs, backfillAnchorDate } from './collect/queries.js';
+import { allJobs, schoolJobs, backfillJobs, backfillAnchorDate, backfillProgress } from './collect/queries.js';
 import { classify, findClassYear, findPosition, findTaggedRecruit, findReportedName } from './extract/rules.js';
 import { findSchools, byId, HANDLES, SCHOOLS } from './resolve/schools.js';
 import { extractBatch, enabled as llmEnabled, MODEL } from './extract/llm.js';
@@ -17,6 +17,21 @@ import * as watch from './watchlist.js';
 
 const now = () => new Date().toISOString();
 const cfg = (f) => JSON.parse(fs.readFileSync(path.join(CONFIG, f), 'utf8'));
+
+const auditReject = (audit, stage, reason, post = null) => {
+  const bucket = (audit[stage] ??= { accepted: 0, rejected: 0, reasons: {}, samples: [] });
+  bucket.rejected++;
+  bucket.reasons[reason] = (bucket.reasons[reason] || 0) + 1;
+  if (post && bucket.samples.length < 24) {
+    bucket.samples.push({
+      reason,
+      postId: post.id || null,
+      author: post.author || null,
+      searchJob: post.searchJob || null,
+      text: String(post.text || '').replace(/\s+/g, ' ').slice(0, 240),
+    });
+  }
+};
 
 const BACKFILL_DAYS = Math.max(0, Number(process.env.OFFERWIRE_BACKFILL_DAYS || 0));
 // The backfill window is anchored to an early run, but draining 30 days x 136 schools
@@ -47,7 +62,7 @@ function staleSchools(state, thresholdHours = 2) {
 // ---------------------------------------------------------------------------
 // 1. COLLECT
 // ---------------------------------------------------------------------------
-async function collect(state, log) {
+async function collect(state, log, audit) {
   const mode = String(process.env.OFFERWIRE_MODE || 'live').toLowerCase();
   const lists = cfg('lists.json');
   const accounts = cfg('accounts.json');
@@ -57,13 +72,29 @@ async function collect(state, log) {
 
   const push = (posts, srcKey) => {
     let added = 0;
+    const stats = audit.collection;
+    stats.returned += posts.length;
     for (const p of posts) {
-      if (!p.id || seen.has(p.id)) continue;
-      const age = (Date.now() - new Date(p.createdAt).getTime()) / 36e5;
-      if (age > RECENCY_HOURS || age < -2) continue; // -2h tolerates clock skew
+      if (!p.id) {
+        stats.invalid++;
+        continue;
+      }
+      if (seen.has(p.id)) {
+        stats.duplicate++;
+        continue;
+      }
+      const created = new Date(p.createdAt).getTime();
+      if (!Number.isFinite(created)) {
+        stats.invalid++;
+        continue;
+      }
+      const age = (Date.now() - created) / 36e5;
+      if (age > RECENCY_HOURS) { stats.tooOld++; continue; }
+      if (age < -2) { stats.future++; continue; } // -2h tolerates clock skew
       seen.add(p.id);
       fresh.push(p);
       added++;
+      stats.kept++;
     }
     health[srcKey] = { at: now(), got: posts.length, new: added, lag: posts.length ? +lagHours(posts).toFixed(2) : null };
     return added;
@@ -88,8 +119,17 @@ async function collect(state, log) {
     const historicalPlan = days ? backfillJobs(days, backfillAnchorDate(state)) : [];
     const historical = historicalPlan.filter((j) => !state.watermarks?.[j.key]?.completed);
     const jobs = mode === 'backfill' ? historical : mode === 'all' ? [...allJobs(), ...historical] : allJobs();
-    if (days) log(`  backfill: ${historical.length}/${schoolJobs().length * days} team-days remaining`);
+    if (days) log(`  backfill: ${historical.length}/${historicalPlan.length} school-windows remaining`);
     const res = await sweep(jobs, state, { log });
+    audit.search = {
+      ok: res.ok,
+      reason: res.reason || null,
+      jobs: res.jobs,
+      swept: res.swept,
+      failed: res.failed,
+      requests: res.requests,
+      errors: (res.errors || []).slice(0, 8),
+    };
     if (!res.ok && res.transient) {
       // Budget exhausted, not broken. Watermarks are untouched for everything we did not
       // reach, so the next run simply asks for a wider window. Nothing is lost.
@@ -134,10 +174,8 @@ async function collect(state, log) {
         };
       }
       if (days) {
-        const total = schoolJobs().length * days;
-        const remaining = historicalPlan.filter((j) => !state.watermarks?.[j.key]?.completed).length;
-        state.backfill = { at: now(), days, totalTeamDays: total, completedTeamDays: total - remaining, remainingTeamDays: remaining };
-        log(`  backfill: ${total - remaining}/${total} team-days complete`);
+        state.backfill = { at: now(), days, ...backfillProgress(historicalPlan, state.watermarks) };
+        log(`  backfill: ${state.backfill.completedWindows}/${state.backfill.totalWindows} school-windows complete`);
       }
       const stale = staleSchools(state);
       if (stale.length) log(`  search: ${stale.length} schools not swept in >2h (oldest ${stale[0].hours}h: ${stale.slice(0, 5).map((s) => s.id).join(', ')})`);
@@ -194,23 +232,50 @@ async function collect(state, log) {
 // ---------------------------------------------------------------------------
 // 2. PREFILTER  (cheap, deterministic, recall-oriented)
 // ---------------------------------------------------------------------------
-export function prefilter(posts, log = () => {}) {
+export function prefilter(posts, log = () => {}, audit = null) {
   const kept = [];
   let hardNeg = 0, noSignal = 0;
   for (const p of posts) {
     const text = [p.text, p.extra].filter(Boolean).join(' ');
-    if (!/offer/i.test(text)) { noSignal++; continue; }
+    if (!/offer/i.test(text)) { noSignal++; if (audit) auditReject(audit, 'prefilter', 'no_offer_term', p); continue; }
     const c = classify(text);
-    if (c.hardNegative) { hardNeg++; continue; }
-    if (!c.kind) { noSignal++; continue; }
+    if (c.hardNegative) { hardNeg++; if (audit) auditReject(audit, 'prefilter', 'hard_negative', p); continue; }
+    if (!c.kind) { noSignal++; if (audit) auditReject(audit, 'prefilter', 'unclassified_offer_text', p); continue; }
     const schools = findSchools(text + ' ' + (p.mentions || []).map((m) => '@' + m).join(' ') + ' ' + (p.hashtags || []).map((h) => '#' + h).join(' '));
     // No FBS school anywhere in the post and no ambiguous surface -> it cannot be an
     // FBS offer we can attribute, so it is not worth a token.
-    if (!schools.length) { noSignal++; continue; }
+    if (!schools.length) { noSignal++; if (audit) auditReject(audit, 'prefilter', 'no_fbs_school', p); continue; }
     kept.push({ ...p, _rules: c, _schools: schools });
   }
   log(`  prefilter: ${posts.length} in -> ${kept.length} candidates (${hardNeg} hard-negative, ${noSignal} no signal)`);
+  if (audit) audit.prefilter.accepted = kept.length;
   return kept;
+}
+
+/** Explain a rules-only miss without changing the conservative extraction decision. */
+export function rulesOnlyRejectionReason(p) {
+  const solid = (p._schools || []).filter((s) => s.id && s.confidence >= 0.9);
+  if (solid.length !== 1) return solid.length ? 'multiple_resolved_schools' : 'school_not_resolved_confidently';
+  if (p._rules?.kind === 'bare_mention') return 'bare_mention_requires_llm';
+  if (p._rules?.kind === 'reporter_voice') {
+    const tagged = findTaggedRecruit(p, SCHOOL_HANDLES, KNOWN_ACCOUNTS);
+    const name = tagged?.name || findReportedName(p.text) || null;
+    if (!name) return 'reporter_missing_player_name';
+    if (findClassYear(p.text) == null) return 'reporter_missing_class_year';
+    if (findPosition(p.text) == null) return 'reporter_missing_position';
+    const footballContext = /\bfootball\b|\brecruit(?:ing)?\b|\b(?:QB|RB|WR|TE|OT|OG|OL|IOL|DL|DE|DT|EDGE|LB|ILB|OLB|CB|DB|SAF|ATH)\b/.test(`${p.text} ${p.authorBio || ''}`);
+    if (!footballContext) return 'reporter_missing_football_context';
+    return 'reporter_unresolved';
+  }
+  if (p._rules?.kind === 'player_voice') {
+    const verdict = looksLikeRecruit(p.authorBio, p.authorName);
+    if (!verdict.ok) return `author_not_recruit:${verdict.why}`;
+    if (!cleanPersonName(p.authorName)) return 'player_display_name_unusable';
+    if ((findClassYear(p.text) ?? verdict.info.classYear) == null) return 'player_missing_class_year';
+    if ((verdict.info.position ?? findPosition(p.text)) == null) return 'player_missing_position';
+    return 'player_unresolved';
+  }
+  return 'unsupported_offer_kind';
 }
 
 // ---------------------------------------------------------------------------
@@ -334,7 +399,7 @@ export function rulesOnlyOffers(p) {
 // ---------------------------------------------------------------------------
 function offerKey(playerId, schoolId) { return `${playerId}::${schoolId}`; }
 
-export function upsert(db, rec, post, verdictConfidence) {
+export function upsert(db, rec, post, verdictConfidence, observedAt = now()) {
   const school = byId.get(rec.school_id);
   if (!school) return null;
 
@@ -367,7 +432,7 @@ export function upsert(db, rec, post, verdictConfidence) {
   if (incoming.handle) player = db.players.find((p) => p.handle === incoming.handle) || null;
   if (!player && incoming.name) {
     const r = resolvePlayer(db._index, incoming);
-    if (r.ambiguous) db.review.push({ at: now(), type: 'ambiguous_player', name: incoming.name, candidates: r.candidates, post: post.id });
+    if (r.ambiguous) db.review.push({ at: observedAt, type: 'ambiguous_player', name: incoming.name, candidates: r.candidates, post: post.id });
     player = r.player;
   }
   if (!player) {
@@ -381,7 +446,7 @@ export function upsert(db, rec, post, verdictConfidence) {
       id: 'p_' + sha1(identity + '|' + (incoming.classYear ?? '') + '|' + (incoming.handle ?? '')),
       ...incoming,
       aliases: incoming.name ? [incoming.name] : [],
-      firstSeen: now(),
+      firstSeen: observedAt,
     };
     db.players.push(player);
     if (incoming.name) db._new.push(player);
@@ -424,8 +489,8 @@ export function upsert(db, rec, post, verdictConfidence) {
       // The offer date is the EARLIEST post we have reporting it, not the newest —
       // a reporter recapping three days later must not reset the clock.
       offeredAt: post.createdAt,
-      firstSeenAt: now(),
-      lastSeenAt: now(),
+      firstSeenAt: observedAt,
+      lastSeenAt: observedAt,
       confidence: verdictConfidence,
       corroborations: 1,
       evidence: [evidence],
@@ -439,7 +504,7 @@ export function upsert(db, rec, post, verdictConfidence) {
     offer.evidence.push(evidence);
     offer.evidence.sort((a, b) => new Date(a.postedAt) - new Date(b.postedAt));
     offer.offeredAt = offer.evidence[0].postedAt;
-    offer.lastSeenAt = now();
+    offer.lastSeenAt = observedAt;
     offer.corroborations = new Set(offer.evidence.map((e) => e.author)).size;
     // Independent corroboration raises confidence toward — never to — certainty.
     offer.confidence = Math.min(0.99, Math.max(offer.confidence, verdictConfidence) + 0.08 * (offer.corroborations - 1));
@@ -449,6 +514,7 @@ export function upsert(db, rec, post, verdictConfidence) {
   return offer;
 }
 
+
 // ---------------------------------------------------------------------------
 // RUN
 // ---------------------------------------------------------------------------
@@ -456,6 +522,14 @@ async function main() {
   const t0 = Date.now();
   const lines = [];
   const log = (s) => { lines.push(s); console.log(s); };
+  const audit = {
+    at: now(),
+    mode: String(process.env.OFFERWIRE_MODE || 'live').toLowerCase(),
+    collection: { returned: 0, kept: 0, duplicate: 0, tooOld: 0, future: 0, invalid: 0 },
+    prefilter: { accepted: 0, rejected: 0, reasons: {}, samples: [] },
+    extraction: { accepted: 0, rejected: 0, reasons: {}, samples: [] },
+  };
+
 
   log(`OfferWire run @ ${now()}`);
   const state = readJson('state.json', { seenPostIds: [], cursors: {}, health: {} });
@@ -470,13 +544,13 @@ async function main() {
 
   // 1 — collect
   log('collect:');
-  const fresh = await collect(state, log);
+  const fresh = await collect(state, log, audit);
   log(`  total new posts: ${fresh.length}`);
   appendNdjson(`raw/${new Date().toISOString().slice(0, 10)}.ndjson`, fresh);
 
   // 2 — prefilter
   log('extract:');
-  const candidates = prefilter(fresh, log);
+  const candidates = prefilter(fresh, log, audit);
 
   // 3 — LLM
   let verdicts = new Map();
@@ -503,19 +577,31 @@ async function main() {
     const v = verdicts.get(p.id);
     let recs, conf;
     if (v) {
-      if (!v.is_new_offer) { rejected++; continue; }
+      if (!v.is_new_offer) {
+        rejected++; auditReject(audit, 'extraction', `llm:${v.rejected_because || 'not_new_offer'}`, p);
+        continue;
+      }
       recs = v.offers || [];
       conf = null;
     } else {
       recs = rulesOnlyOffers(p);
       conf = 0.45;
     }
+    if (!recs.length) {
+      rejected++;
+      const reason = v ? 'llm:new_offer_without_records' : rulesOnlyRejectionReason(p);
+      auditReject(audit, 'extraction', reason, p);
+    }
     const made = [];
     for (const rec of recs) {
       const c = conf ?? Math.min(0.98, (rec.confidence ?? 0.6) * (p._rules.prior > 0 ? 1 : 0.8));
-      if (c < 0.4) { rejected++; continue; }
+      if (c < 0.4) { rejected++; auditReject(audit, 'extraction', 'confidence_below_threshold', p); continue; }
       const o = upsert(db, rec, p, c);
-      if (o) { accepted++; made.push(rec); }
+      if (o) {
+        accepted++; audit.extraction.accepted++; made.push(rec);
+      } else {
+        rejected++; auditReject(audit, 'extraction', 'invalid_or_incomplete_offer_record', p);
+      }
     }
     if (made.length) watch.observe(wl, p, made);
   }
@@ -527,6 +613,10 @@ async function main() {
 
   const newlyPromoted = watch.promote(wl);
   const pruned = watch.prune(wl);
+  audit.outcome = { acceptedEvidence: accepted, rejectedCandidates: rejected, brandNewOffers: db.newOffers.length };
+  state.lastAudit = audit;
+  appendNdjson(`audit/${new Date().toISOString().slice(0, 10)}.ndjson`, [audit]);
+
   log(`  offers: ${accepted} accepted, ${rejected} rejected, ${db.newOffers.length} brand new`);
   log(`  watchlist: ${Object.keys(wl.handles).length} handles (${newlyPromoted.length} promoted, ${pruned} pruned)`);
 
@@ -577,6 +667,7 @@ async function main() {
       completeOffers: recent.filter((o) => o.playerName && o.classYear && o.position).length,
       incompleteOffers: recent.filter((o) => !o.playerName || !o.classYear || !o.position).length,
     },
+    audit,
     llm: llmEnabled() ? MODEL : null,
     frozenProfiles: state.frozenProfiles || [],
     health: state.health,

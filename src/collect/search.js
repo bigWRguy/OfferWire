@@ -114,6 +114,9 @@ export class SearchSession {
     this.browser = null;
     this.page = null;
     this.captured = [];
+    this.timelineResponses = 0;
+    this.timelineParseErrors = 0;
+    this.timelineStatuses = [];
     this.rateLimited = false;
     this.loggedOut = false;
     this.requests = 0;
@@ -144,9 +147,11 @@ export class SearchSession {
     this.page = await ctx.newPage();
     this.page.on('response', async (res) => {
       if (!res.url().includes('SearchTimeline')) return;
+      this.timelineResponses++;
+      this.timelineStatuses.push(res.status());
       if (res.status() === 429) { this.rateLimited = true; return; }
       if (res.status() !== 200) return;
-      try { this.captured.push(await res.json()); } catch { /* body already consumed */ }
+      try { this.captured.push(await res.json()); } catch { this.timelineParseErrors++; }
     });
     return this;
   }
@@ -160,8 +165,18 @@ export class SearchSession {
   async search(query, { scrolls = 0, settleMs = 7000 } = {}) {
     if (!this.page) throw new Error('session not opened');
     this.captured = [];
+    this.timelineResponses = 0;
+    this.timelineStatuses = [];
+    this.rateLimited = false;
+    this.timelineParseErrors = 0;
 
     const url = 'https://x.com/search?q=' + encodeURIComponent(query) + '&f=live&src=typed_query';
+    // Arm the waiter BEFORE navigation. The old code attached it after goto(), so fast
+    // responses were routinely missed and every query paid the full timeout. Worse, a
+    // page that never called SearchTimeline looked like a legitimate empty result and
+    // caused a historical slice to be marked complete forever.
+    const firstTimeline = this.page.waitForResponse((r) => r.url().includes('SearchTimeline'), { timeout: settleMs })
+      .catch(() => null);
     try {
       await this.page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 });
     } catch (e) {
@@ -169,31 +184,39 @@ export class SearchSession {
     }
     this.requests++;
 
-    // Wait for the timeline call rather than sleeping blindly, but keep a ceiling so a
-    // query with genuinely zero results doesn't stall the sweep.
-    try {
-      await this.page.waitForResponse((r) => r.url().includes('SearchTimeline'), { timeout: settleMs });
-    } catch { /* no results, or already captured before the waiter attached */ }
-    await this.page.waitForTimeout(1200);
+    await firstTimeline;
+    await this.page.waitForTimeout(700);
 
     if (this.page.url().includes('/login') || this.page.url().includes('/i/flow/login')) {
       this.loggedOut = true;
       return { ok: false, posts: [], error: 'session expired (redirected to login)' };
     }
     if (this.rateLimited) return { ok: false, posts: [], error: 'rate limited', rateLimited: true };
+    if (!this.timelineResponses) {
+      return { ok: false, posts: [], error: 'SearchTimeline response missing (slice left pending)' };
+    }
+    if (!this.timelineStatuses.includes(200)) {
+      return { ok: false, posts: [], error: `SearchTimeline HTTP ${this.timelineStatuses.join(',')} (slice left pending)` };
+    }
+    if (this.timelineParseErrors && !this.captured.length) {
+      return { ok: false, posts: [], error: 'SearchTimeline JSON unreadable (slice left pending)' };
+    }
 
     for (let i = 0; i < scrolls; i++) {
       const before = this.captured.length;
+      const nextTimeline = this.page.waitForResponse((r) => r.url().includes('SearchTimeline'), { timeout: 6000 })
+        .catch(() => null);
       await this.page.mouse.wheel(0, 4000);
       this.requests++;
-      try {
-        await this.page.waitForResponse((r) => r.url().includes('SearchTimeline'), { timeout: 6000 });
-      } catch { break; }
+      if (!await nextTimeline) break;
       await this.page.waitForTimeout(700);
-      if (this.captured.length === before) break; // no more pages
       if (this.rateLimited) break;
+      if (this.captured.length === before) break; // no more pages
     }
 
+    if (this.rateLimited) {
+      return { ok: false, posts: [], error: 'rate limited during pagination (slice left pending)', rateLimited: true };
+    }
     const seen = new Set();
     const posts = [];
     for (const blob of this.captured) posts.push(...harvest(blob, [], seen));

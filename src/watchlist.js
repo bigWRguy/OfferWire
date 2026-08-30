@@ -27,9 +27,9 @@ const INSTITUTIONAL = /(football|athletics|recruit|sports|coach|hs|highschool|ac
  * @param {object} post      the source post
  * @param {object[]} offers  extracted offer entries for that post
  */
-export function observe(wl, post, offers) {
+export function observe(wl, post, offers, observedAt = new Date().toISOString()) {
   wl.handles ??= {};
-  const now = new Date().toISOString();
+  const now = observedAt;
 
   const add = (handle, reason, weight) => {
     const h = String(handle || '').toLowerCase().replace(/^@/, '');
@@ -76,13 +76,13 @@ export function observe(wl, post, offers) {
 }
 
 /** Promote candidates that have earned a slot; returns the newly promoted handles. */
-export function promote(wl, { minScore = 3, minOffers = 1 } = {}) {
+export function promote(wl, { minScore = 3, minOffers = 1, observedAt = new Date().toISOString() } = {}) {
   const newly = [];
   for (const e of Object.values(wl.handles || {})) {
     if (e.promoted) continue;
     if (e.score >= minScore || e.offers >= minOffers) {
       e.promoted = true;
-      e.promotedAt = new Date().toISOString();
+      e.promotedAt = observedAt;
       newly.push(e.handle);
     }
   }

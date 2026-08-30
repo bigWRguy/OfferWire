@@ -140,13 +140,13 @@ export function parseBio(bio, nowYear = new Date().getUTCFullYear()) {
     .filter((y) => y >= nowYear - 1 && y <= nowYear + 7);
   const short = t.match(/\bc\/?o\s*['\u2018\u2019]?\s*(\d{2})\b/i)
     || t.match(/\bclass of\s*['\u2018\u2019]?\s*(\d{2})\b/i)
-    || t.match(/(?:^|[\s|/])['\u2018\u2019](\d{2})\b/);
+    || t.match(/\bc\/(?:o\/)?\s*['\u2018\u2019]?\s*(\d{2})\b/i)
+    || t.match(/(?:^|[\s|/])(\d{2})\s*['\u2018\u2019](?=$|[\s|/])/)
+    || t.match(/(?<!\d)['\u2018\u2019](\d{2})\b/);
+  const shortYear = short ? 2000 + +short[1] : null;
   if (explicitFull) out.classYear = +explicitFull[1];
+  else if (shortYear >= nowYear - 1 && shortYear <= nowYear + 7) out.classYear = shortYear;
   else if (full.length) out.classYear = Math.min(...full);
-  else if (short) {
-    const y = 2000 + +short[1];
-    if (y >= nowYear - 1 && y <= nowYear + 7) out.classYear = y;
-  }
 
   // Position. Three traps, all seen in live data:
   //   "FB" in a recruit bio nearly always means FOOTBALL, not fullback —
@@ -154,22 +154,26 @@ export function parseBio(bio, nowYear = new Date().getUTCFullYear()) {
   //   bare "S" / "P" collide with ordinary prose
   //   an explicit "Pos:" label is authoritative and must win —
   //       "6'2 255|Pos:DL/LB/H|3 Sport Athlete"
-  const POS = 'QB|RB|FB|WR|TE|OT|OG|OL|IOL|DL|DE|DT|EDGE|LB|ILB|OLB|CB|DB|S|SAF|ATH|K|P|LS';
+  const POS = 'QB|RB|FB|WR|TE|OT|OG|OL|IOL|DL|DE|DT|EDGE|LB|ILB|OLB|CB|DB|FS|SS|S|SAF|ATH|K|P|LS';
   const labelled = t.match(new RegExp(`\\bPos(?:ition)?\\s*[:\\-]\\s*(${POS})\\b`, 'i'));
-  const worded = t.match(/\b(quarterback|running back|wide receiver|tight end|offensive (?:tackle|guard|lineman)|defensive (?:tackle|end|lineman|back)|linebacker|cornerback|safety|long snapper)\b/i);
+  const worded = t.match(/\b(quarterback|running back|wide receiver|tight end|offensive (?:tackle|guard|lineman)|o\s*tackle|defensive (?:tackle|end|lineman|back)|d[- ]?end|linebacker|cornerback|free safety|strong safety|safety|long snapper|kicker|punter)\b/i);
   const wordMap = { quarterback: 'QB', 'running back': 'RB', 'wide receiver': 'WR', 'tight end': 'TE',
-    'offensive tackle': 'OT', 'offensive guard': 'OG', 'offensive lineman': 'OL',
+    'offensive tackle': 'OT', 'offensive guard': 'OG', 'offensive lineman': 'OL', 'o tackle': 'OT',
     'defensive tackle': 'DT', 'defensive end': 'DE', 'defensive lineman': 'DL',
-    'defensive back': 'DB', linebacker: 'LB', cornerback: 'CB', safety: 'S', 'long snapper': 'LS' };
+    'd-end': 'DE', 'd end': 'DE', 'defensive back': 'DB', linebacker: 'LB', cornerback: 'CB',
+    'free safety': 'S', 'strong safety': 'S', safety: 'S', 'long snapper': 'LS', kicker: 'K', punter: 'P' };
   if (labelled) {
-    out.position = labelled[1].toUpperCase();
+    const p = labelled[1].toUpperCase();
+    out.position = p === 'FS' || p === 'SS' ? 'S' : p;
   } else if (worded) {
     out.position = wordMap[worded[1].toLowerCase()];
   } else {
-    const positions = [...new Set([...t.matchAll(new RegExp(`\\b(${POS})\\b`, 'g'))].map((m) => m[1].toUpperCase()))]
+    const positions = [...new Set([...t.matchAll(new RegExp(`\\b(${POS})\\b`, 'gi'))].map((m) => m[1].toUpperCase()))]
       .filter((p) => !['C', 'S', 'K', 'P'].includes(p) || new RegExp(`(?:pos(?:ition)?\\s*[:=-]\\s*${p}\\b|\\b${p}\\s*[/|,]\\s*[A-Z]{1,4}\\b|\\b[A-Z]{1,4}\\s*[/|,]\\s*${p}\\b)`, 'i').test(t))
+      .sort((a, b) => Number(a === 'ATH') - Number(b === 'ATH'))
       // Keep FB only when written as a real position ("RB/FB") or spelled out.
-      .filter((p) => p !== 'FB' || /\/\s*FB\b|\bFB\s*\/|\bfullback\b/i.test(t));
+      .filter((p) => p !== 'FB' || /\/\s*FB\b|\bFB\s*\/|\bfullback\b/i.test(t))
+      .map((p) => p === 'FS' || p === 'SS' ? 'S' : p);
     if (positions.length) out.position = positions[0];
   }
 
@@ -236,8 +240,11 @@ export function looksLikeRecruit(bio, displayName = '') {
     return { ok: false, why: 'different sport' };
   }
   if (/\bjuco\b|\bjunior college\b/i.test(t)) return { ok: false, why: 'not high-school recruit' };
+  const bioText = String(bio || '');
+  if (/(?:^|[|\u2022])\s*[^|\u2022]{0,50}\b(?:community\s+college|college|cc)\b(?=\s*(?:[|\u2022]|\d|$))/i.test(bioText))
+    return { ok: false, why: 'not high-school recruit' };
 
-  const info = parseBio(bio);
+  const info = parseBio([bio, displayName].filter(Boolean).join(' | '));
   const signals = ['classYear', 'position', 'height', 'weight', 'forty', 'stars', 'gpa']
     .filter((k) => info[k] != null).length;
 
@@ -269,16 +276,28 @@ export function looksLikeRecruit(bio, displayName = '') {
 
 /** Convert a decorated X display name into a publishable human name. */
 export function cleanPersonName(raw) {
-  let s = String(raw || '').normalize('NFKC')
+  const original = String(raw || '').normalize('NFKC');
+  // Some recruits use display names such as iamBraydonZeno_. Recover the explicit first
+  // and last name only for that recognizable decoration; globally splitting camel case
+  // would damage legitimate surnames such as McDonald.
+  const iamStyle = /^_?iam[A-Z]/.test(original);
+  const handleStyle = /^@[A-Z]/.test(original) || /[a-z][A-Z][\p{L}-]*20\d{2}$/u.test(original);
+  let s = original
+    .replace(/^_?iam(?=[A-Z])/, '')
+    .replace(/_/g, ' ');
+  if (iamStyle || handleStyle) s = s.replace(/([a-z])([A-Z])/g, '$1 $2');
+  s = s
     .replace(/[\u201c\u201d]\s*[\p{L}\p{N}_-]+\s*[\u201c\u201d]/gu, ' ')
     .replace(/[\u{1F000}-\u{1FAFF}\u2600-\u27BF\uFE0F\u2B50]/gu, ' ')
     .replace(/\b[1-5]\s*[- ]?\s*stars?\b/gi, ' ')
     .replace(/\b(?:class\s+of|c\/?o|co)?\s*['\u2018\u2019]?\s*20\d{2}\b/gi, ' ')
     .replace(/\b(?:class\s+of|c\/?o)\s*['\u2018\u2019]?\s*\d{2}\b/gi, ' ')
+    .replace(/\b\d+(?:st|nd|rd|th)\b/gi, ' ')
+    .replace(/\blll\b/gi, 'III')
     .replace(/\b(?:QB|RB|FB|WR|TE|OT|OG|OL|IOL|DL|DE|DT|EDGE|LB|ILB|OLB|CB|DB|SAF|ATH|LS|KR|RET)\b.*$/i, ' ')
     .replace(/[^\p{L}\p{M}'.\- ]/gu, ' ')
     .replace(/\s+/g, ' ').trim();
-  let words = s.split(' ').filter(Boolean);
+  let words = s.split(' ').filter((w) => /\p{L}/u.test(w));
   words = words.filter((w, i) => i === 0 || w.toLowerCase() !== words[i - 1].toLowerCase());
   if (words.length > 2) words = words.filter((w, i) => i === 0 || i === words.length - 1 || !/^[A-Z]{2,}$/.test(w));
   if (words.length < 2 || words.length > 4) return null;
