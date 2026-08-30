@@ -4844,17 +4844,93 @@
     "2084174953579217240",
     "2084150284956160086",
     "2083958528708894849",
-    "2093915199048699911"
+    "2093915199048699911",
+    "2084457890023191030",
+    "2084441579293417882",
+    "2084250177301529078",
+    "2084208127168131511",
+    "2084176980199538709",
+    "2084174862499926132",
+    "2084433774616494411",
+    "2084496920790421787",
+    "2084487640510861349",
+    "2084471827901166006",
+    "2084469564495241724",
+    "2084461489562267964",
+    "2084456270384480619",
+    "2084455762584318349",
+    "2084444238670962852",
+    "2084437125773345199",
+    "2084253796079648928",
+    "2084251876933931453",
+    "2084243581192294804",
+    "2084242998020514048",
+    "2084237038916964665",
+    "2084234642551431252",
+    "2084234141734957360",
+    "2084225694817513688",
+    "2084218912376590571",
+    "2084217569716875759",
+    "2084436117831504257",
+    "2084499251665789256",
+    "2084488277747286162",
+    "2084480807603785775",
+    "2084462472891699600",
+    "2084457442096652749",
+    "2084437763118498036",
+    "2084433442947891650",
+    "2084430193842885063",
+    "2084252634983100501",
+    "2084250600217207131",
+    "2084244832919150939",
+    "2084229443619291250",
+    "2093977824872813008",
+    "2084501322473054234",
+    "2084500185493963207",
+    "2084498865810509923",
+    "2084496785364443353",
+    "2084496593454026878",
+    "2084496218399334823",
+    "2084453303979749441",
+    "2084489507735503286",
+    "2084471601228329423",
+    "2084458245473665273",
+    "2084455624763723902",
+    "2084449200037667041",
+    "2084446722629972387",
+    "2084438863548944544",
+    "2084438760482037846",
+    "2084433968343269830",
+    "2084296341857911276",
+    "2084444990470803575",
+    "2083413917095858484",
+    "2084430814175965490",
+    "2084218029584585103",
+    "2084198602390339683",
+    "2083500862916493570",
+    "2084463792746819719",
+    "2084456730260623362",
+    "2084462869995745437",
+    "2084455194734276967",
+    "2084438507972411647",
+    "2084483317563363718",
+    "2084453275370504684",
+    "2084476948122882069",
+    "2084221452182532177",
+    "2084487621431238776",
+    "2084445515467608414",
+    "2084157387976679511",
+    "2084151137767506347"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-08-30T08:13:52.644Z",
-      "got": 433,
-      "new": 59,
-      "lag": 0.4
+      "at": "2026-08-30T08:28:46.374Z",
+      "got": 403,
+      "new": 76,
+      "lag": 0.09
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -9196,28 +9272,202 @@
       "truncated": true,
       "cursorUntil": "2026-08-02T16:50:05.000Z",
       "completed": false
+    },
+    "backfill:rutgers:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 0,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:sam-houston:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 0,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:san-diego-state:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 0,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:san-jose-state:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 1,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:smu:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 4,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:south-alabama:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 0,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:south-carolina:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 9,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:south-florida:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 24,
+      "truncated": true,
+      "cursorUntil": "2026-07-26T09:30:49.000Z",
+      "completed": false
+    },
+    "backfill:southern-miss:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 0,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:stanford:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 19,
+      "truncated": true,
+      "cursorUntil": "2026-06-23T18:54:23.000Z",
+      "completed": false
+    },
+    "backfill:syracuse:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 3,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:tcu:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 0,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:temple:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 21,
+      "truncated": true,
+      "cursorUntil": "2026-08-03T09:59:26.000Z",
+      "completed": false
+    },
+    "backfill:tennessee:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 21,
+      "truncated": true,
+      "cursorUntil": "2026-06-22T19:05:39.000Z",
+      "completed": false
+    },
+    "backfill:texas:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 23,
+      "truncated": true,
+      "cursorUntil": "2025-05-26T19:14:39.000Z",
+      "completed": false
+    },
+    "backfill:texas-am:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 0,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:texas-state:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 1,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:texas-tech:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 22,
+      "truncated": true,
+      "cursorUntil": "2026-08-03T15:12:26.000Z",
+      "completed": false
+    },
+    "backfill:toledo:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 15,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:troy:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 12,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:tulane:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 1,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:tulsa:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 11,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:uab:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 0,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:ucf:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 3,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:ucla:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 7,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:uconn:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 9,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:unlv:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 3,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:usc:2026-08-02": {
+      "at": "2026-08-30T08:26:13.046Z",
+      "lastPosts": 16,
+      "truncated": false,
+      "completed": true
     }
   },
   "searchConfigured": true,
   "lastRateLimitAt": "2026-08-27T16:42:03.467Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-08-30T08:13:52.645Z",
+    "at": "2026-08-30T08:28:46.374Z",
     "jobsTotal": 164,
     "sweptThisRun": 8,
     "requests": 8,
     "fullSweepCycles": 21
   },
   "backfill": {
-    "at": "2026-08-30T08:13:52.646Z",
+    "at": "2026-08-30T08:28:46.375Z",
     "days": 30,
     "totalTeamDays": 4080,
-    "completedTeamDays": 246,
-    "remainingTeamDays": 3834
+    "completedTeamDays": 268,
+    "remainingTeamDays": 3812
   },
   "backfillCoverage": {
-    "at": "2026-08-30T08:13:52.645Z",
-    "jobsTotal": 3854,
+    "at": "2026-08-30T08:28:46.374Z",
+    "jobsTotal": 3834,
     "sweptThisRun": 28,
     "requests": 28
   },
