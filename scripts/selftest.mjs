@@ -10,6 +10,7 @@ import { classify, findClassYear, findPosition, findNameCandidates, findTaggedRe
 import { nameKey, fuzzyKey, canMerge, parseBio, looksLikeRecruit, cleanPersonName } from '../src/resolve/players.js';
 import { backfillJobs, schoolJobs, backfillAnchorDate } from '../src/collect/queries.js';
 import { prioritizeJobs } from '../src/collect/search.js';
+import { dispatchWire } from '../netlify/functions/trigger-wire.mjs';
 
 let pass = 0, fail = 0;
 const t = (name, cond, detail = '') => {
@@ -238,6 +239,36 @@ t('25% backfill share puts one historical job in each four-job window',
   mixed.slice(0, 8).map((j) => j.fixedWindow ? 'H' : 'L').join(''));
 t('live-only ordering does not invent history',
   prioritizeJobs([{ key: 'live', priority: 1 }], {}, 0.25).every((j) => !j.fixedWindow));
+
+console.log('scheduler fallback');
+const noToken = await dispatchWire({ token: '', fetchImpl: async () => { throw new Error('must not fetch'); } });
+t('Netlify trigger is inert until token is configured', noToken.skipped === 'missing GITHUB_DISPATCH_TOKEN');
+let dispatchCalls = 0;
+const dispatched = await dispatchWire({
+  token: 'test',
+  now: Date.parse('2026-08-30T01:25:00Z'),
+  fetchImpl: async (_url, init = {}) => {
+    dispatchCalls++;
+    if (init.method === 'POST') return { ok: true, status: 204, text: async () => '' };
+    return { ok: true, status: 200, json: async () => ({ workflow_runs: [] }), text: async () => '' };
+  },
+});
+t('Netlify trigger dispatches when no recent run exists', dispatched.dispatched && dispatchCalls === 2);
+dispatchCalls = 0;
+const skippedRecent = await dispatchWire({
+  token: 'test',
+  now: Date.parse('2026-08-30T01:25:00Z'),
+  fetchImpl: async () => {
+    dispatchCalls++;
+    return {
+      ok: true,
+      status: 200,
+      json: async () => ({ workflow_runs: [{ id: 123, status: 'completed', created_at: '2026-08-30T01:20:00Z' }] }),
+      text: async () => '',
+    };
+  },
+});
+t('Netlify trigger suppresses a recent GitHub run', skippedRecent.runId === 123 && dispatchCalls === 1);
 
 console.log(`\n${pass} passed, ${fail} failed`);
 process.exit(fail ? 1 : 0);

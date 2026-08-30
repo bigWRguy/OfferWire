@@ -128,6 +128,13 @@ and :52; the workflow installs Chromium and commits the ledger
 loud in the Actions UI instead of showing green while coverage collapses. A cold ledger
 gets a warm-up grace period so the first runs don't false-alarm.
 
+GitHub documents that scheduled Actions may be delayed or dropped. OfferWire therefore
+ships a Netlify Scheduled Function at :10, :25, :40 and :55 as a fallback. For a private
+repository, create a fine-grained GitHub token scoped only to `bigWRguy/OfferWire` with
+**Actions: read and write**, then add it in Netlify as the secret environment variable
+`GITHUB_DISPATCH_TOKEN` and redeploy. The function checks for a run in the preceding ten
+minutes before dispatching, and the workflow independently skips duplicate collectors.
+
 ### 3. Netlify
 
 Point Netlify at the repo. `netlify.toml` publishes `site/`; the build is a file copy.

@@ -28,11 +28,38 @@ permissions:
   contents: write
 
 jobs:
+  freshness:
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.check.outputs.should_run }}
+    steps:
+      # Always inspect the newest ledger, even when this dispatch was created from an
+      # older SHA. A delayed GitHub cron and the Netlify fallback may both arrive; only
+      # the first one should spend the X quota window.
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - id: check
+        run: |
+          node -e '
+            const fs = require("fs");
+            const s = JSON.parse(fs.readFileSync("data/state.json", "utf8"));
+            const at = Date.parse(s.searchCoverage?.at || 0);
+            const age = Date.now() - at;
+            const shouldRun = !Number.isFinite(at) || age >= 10 * 60 * 1000;
+            fs.appendFileSync(process.env.GITHUB_OUTPUT, "should_run=" + shouldRun + "\n");
+            console.log(shouldRun ? "collector due" : "skip duplicate: last collection " + Math.round(age / 1000) + "s ago");
+          '
+
   wire:
+    needs: freshness
+    if: needs.freshness.outputs.should_run == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-node@v4
         with:
