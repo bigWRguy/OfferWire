@@ -2882,17 +2882,40 @@
     "2093890441099837747",
     "2093877179566203321",
     "2093887549702107396",
-    "2093838433039036754"
+    "2093838433039036754",
+    "2093893872850022765",
+    "2082666244843438418",
+    "2093895374188790210",
+    "2093892942293238257",
+    "2093894887364059383",
+    "2093538092560835008",
+    "2093894601782247488",
+    "2093853563294212131",
+    "2093892917127729201",
+    "2093796009935597634",
+    "2090454345368183193",
+    "2093771092888371585",
+    "2093770781109141520",
+    "2093764531713667169",
+    "2093895726115725767",
+    "2093888303489753238",
+    "2093870759391228238",
+    "2093870101082562570",
+    "2093867017682215312",
+    "2093864849570738227",
+    "2093863804467900577",
+    "2093874834740826391",
+    "2093889798503285091"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-08-30T02:44:01.348Z",
-      "got": 661,
-      "new": 10,
-      "lag": 0.05
+      "at": "2026-08-30T02:58:58.342Z",
+      "got": 749,
+      "new": 23,
+      "lag": 0.03
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -2993,7 +3016,7 @@
     "lsu": {
       "at": "2026-08-28T20:54:21.000Z",
       "truncated": true,
-      "lastPosts": 23
+      "lastPosts": 24
     },
     "backfill:akron:2026-07-29": {
       "at": "2026-08-28T01:26:40.996Z",
@@ -3086,7 +3109,7 @@
     "ohio-state": {
       "at": "2026-08-28T13:04:51.553Z",
       "truncated": true,
-      "lastPosts": 20
+      "lastPosts": 22
     },
     "backfill:auburn:2026-07-29": {
       "at": "2026-08-28T13:04:51.553Z",
@@ -3130,7 +3153,7 @@
     "penn-state": {
       "at": "2026-08-28T13:04:51.553Z",
       "truncated": true,
-      "lastPosts": 21
+      "lastPosts": 22
     },
     "backfill:boston-college:2026-07-29": {
       "at": "2026-08-28T13:04:51.553Z",
@@ -3179,7 +3202,7 @@
     "texas": {
       "at": "2026-08-28T21:47:51.000Z",
       "truncated": true,
-      "lastPosts": 26
+      "lastPosts": 28
     },
     "backfill:california:2026-07-29": {
       "at": "2026-08-28T23:00:41.454Z",
@@ -3711,7 +3734,7 @@
     "arkansas-state": {
       "at": "2026-08-29T10:54:41.407Z",
       "truncated": true,
-      "lastPosts": 21
+      "lastPosts": 43
     },
     "army": {
       "at": "2026-08-29T21:46:13.000Z",
@@ -3744,7 +3767,7 @@
       "lastPosts": 0
     },
     "charlotte": {
-      "at": "2026-08-29T12:35:34.000Z",
+      "at": "2026-08-29T14:21:07.000Z",
       "truncated": true,
       "lastPosts": 21
     },
@@ -3826,7 +3849,7 @@
     "liberty": {
       "at": "2026-08-29T10:54:41.407Z",
       "truncated": true,
-      "lastPosts": 32
+      "lastPosts": 31
     },
     "louisiana": {
       "at": "2026-08-29T22:54:41.407Z",
@@ -3954,7 +3977,7 @@
       "lastPosts": 0
     },
     "temple": {
-      "at": "2026-08-29T12:29:02.679Z",
+      "at": "2026-08-29T17:46:59.000Z",
       "truncated": true,
       "lastPosts": 21
     },
@@ -4518,28 +4541,85 @@
       "lastPosts": 0,
       "truncated": false,
       "completed": true
+    },
+    "backfill:navy:2026-07-28": {
+      "at": "2026-08-30T02:55:59.918Z",
+      "lastPosts": 20,
+      "truncated": true,
+      "cursorUntil": "2026-07-29T03:40:57.000Z",
+      "completed": false
+    },
+    "backfill:nc-state:2026-07-28": {
+      "at": "2026-08-30T02:55:59.918Z",
+      "lastPosts": 13,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:nebraska:2026-07-28": {
+      "at": "2026-08-30T02:55:59.918Z",
+      "lastPosts": 14,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:nevada:2026-07-28": {
+      "at": "2026-08-30T02:55:59.918Z",
+      "lastPosts": 13,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:new-mexico:2026-07-28": {
+      "at": "2026-08-30T02:55:59.918Z",
+      "lastPosts": 25,
+      "truncated": true,
+      "cursorUntil": "2026-07-28T13:30:09.000Z",
+      "completed": false
+    },
+    "backfill:new-mexico-state:2026-07-28": {
+      "at": "2026-08-30T02:55:59.918Z",
+      "lastPosts": 0,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:north-carolina:2026-07-28": {
+      "at": "2026-08-30T02:55:59.918Z",
+      "lastPosts": 23,
+      "truncated": true,
+      "cursorUntil": "2026-07-28T13:59:01.000Z",
+      "completed": false
+    },
+    "backfill:north-texas:2026-07-28": {
+      "at": "2026-08-30T02:55:59.918Z",
+      "lastPosts": 2,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:northern-illinois:2026-07-28": {
+      "at": "2026-08-30T02:55:59.918Z",
+      "lastPosts": 2,
+      "truncated": false,
+      "completed": true
     }
   },
   "searchConfigured": true,
   "lastRateLimitAt": "2026-08-27T16:42:03.467Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-08-30T02:44:01.349Z",
+    "at": "2026-08-30T02:58:58.344Z",
     "jobsTotal": 164,
     "sweptThisRun": 27,
     "requests": 27,
     "fullSweepCycles": 7
   },
   "backfill": {
-    "at": "2026-08-30T02:44:01.350Z",
+    "at": "2026-08-30T02:58:58.345Z",
     "days": 30,
     "totalTeamDays": 4080,
-    "completedTeamDays": 94,
-    "remainingTeamDays": 3986
+    "completedTeamDays": 100,
+    "remainingTeamDays": 3980
   },
   "backfillCoverage": {
-    "at": "2026-08-30T02:44:01.349Z",
-    "jobsTotal": 3992,
+    "at": "2026-08-30T02:58:58.344Z",
+    "jobsTotal": 3986,
     "sweptThisRun": 9,
     "requests": 9
   },
