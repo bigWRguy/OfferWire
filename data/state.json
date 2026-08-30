@@ -2965,17 +2965,25 @@
     "2093908025199235266",
     "2093912955293151363",
     "2093911706124611855",
-    "2093912864729817162"
+    "2093912864729817162",
+    "2082708607003689345",
+    "2082721038660448443",
+    "2082693752423116940",
+    "2082690108390822341",
+    "2093918341412851799",
+    "2093916246659989862",
+    "2082697528173363200",
+    "2093918343585472846"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-08-30T04:14:06.184Z",
-      "got": 742,
-      "new": 3,
-      "lag": 0.14
+      "at": "2026-08-30T04:29:04.153Z",
+      "got": 759,
+      "new": 8,
+      "lag": 0.04
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -3036,7 +3044,7 @@
       "truncated": false
     },
     "illinois": {
-      "at": "2026-08-28T23:26:06.000Z",
+      "at": "2026-08-29T00:39:45.000Z",
       "truncated": true,
       "lastPosts": 21
     },
@@ -3098,7 +3106,7 @@
     "michigan": {
       "at": "2026-08-27T13:26:40.996Z",
       "truncated": true,
-      "lastPosts": 22
+      "lastPosts": 21
     },
     "backfill:appalachian-state:2026-07-29": {
       "at": "2026-08-28T01:26:40.996Z",
@@ -3169,7 +3177,7 @@
     "ohio-state": {
       "at": "2026-08-28T13:04:51.553Z",
       "truncated": true,
-      "lastPosts": 22
+      "lastPosts": 20
     },
     "backfill:auburn:2026-07-29": {
       "at": "2026-08-28T13:04:51.553Z",
@@ -4951,28 +4959,87 @@
       "lastPosts": 7,
       "truncated": false,
       "completed": true
+    },
+    "backfill:utsa:2026-07-28": {
+      "at": "2026-08-30T04:26:06.086Z",
+      "lastPosts": 5,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:vanderbilt:2026-07-28": {
+      "at": "2026-08-30T04:26:06.086Z",
+      "lastPosts": 22,
+      "truncated": true,
+      "cursorUntil": "2026-06-12T21:32:00.000Z",
+      "completed": false
+    },
+    "backfill:virginia:2026-07-28": {
+      "at": "2026-08-30T04:26:06.086Z",
+      "lastPosts": 23,
+      "truncated": true,
+      "cursorUntil": "2026-07-27T23:04:59.000Z",
+      "completed": false
+    },
+    "backfill:virginia-tech:2026-07-28": {
+      "at": "2026-08-30T04:26:06.086Z",
+      "lastPosts": 6,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:wake-forest:2026-07-28": {
+      "at": "2026-08-30T04:26:06.086Z",
+      "lastPosts": 22,
+      "truncated": true,
+      "cursorUntil": "2026-07-28T06:04:03.000Z",
+      "completed": false
+    },
+    "backfill:washington:2026-07-28": {
+      "at": "2026-08-30T04:26:06.086Z",
+      "lastPosts": 23,
+      "truncated": true,
+      "cursorUntil": "2026-07-29T15:15:27.000Z",
+      "completed": false
+    },
+    "backfill:washington-state:2026-07-28": {
+      "at": "2026-08-30T04:26:06.086Z",
+      "lastPosts": 13,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:west-virginia:2026-07-28": {
+      "at": "2026-08-30T04:26:06.086Z",
+      "lastPosts": 22,
+      "truncated": true,
+      "cursorUntil": "2026-07-28T12:29:22.000Z",
+      "completed": false
+    },
+    "backfill:western-kentucky:2026-07-28": {
+      "at": "2026-08-30T04:26:06.086Z",
+      "lastPosts": 3,
+      "truncated": false,
+      "completed": true
     }
   },
   "searchConfigured": true,
   "lastRateLimitAt": "2026-08-27T16:42:03.467Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-08-30T04:14:06.185Z",
+    "at": "2026-08-30T04:29:04.154Z",
     "jobsTotal": 164,
     "sweptThisRun": 27,
     "requests": 27,
     "fullSweepCycles": 7
   },
   "backfill": {
-    "at": "2026-08-30T04:14:06.186Z",
+    "at": "2026-08-30T04:29:04.155Z",
     "days": 30,
     "totalTeamDays": 4080,
-    "completedTeamDays": 122,
-    "remainingTeamDays": 3958
+    "completedTeamDays": 126,
+    "remainingTeamDays": 3954
   },
   "backfillCoverage": {
-    "at": "2026-08-30T04:14:06.185Z",
-    "jobsTotal": 3963,
+    "at": "2026-08-30T04:29:04.154Z",
+    "jobsTotal": 3958,
     "sweptThisRun": 9,
     "requests": 9
   },
