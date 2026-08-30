@@ -193,19 +193,25 @@ function updateStats(){
 }
 
 function updateStatus(){
-  var age=(Date.now()-new Date(DATA.length?DATA[0]&&DATA[0].lastSeenAt||0:0||0))/60000;
+  var age=0;
+  if(DATA.length&&DATA[0]&&DATA[0].lastSeenAt)age=(Date.now()-new Date(DATA[0].lastSeenAt))/60000;
   var stale=(STATUS.staleSchools||[]).length;
+  var bf=STATUS.backfill;
+  var backfilling=bf&&bf.remainingWindows>0;
   var dot=$('status-dot'),fresh=$('fresh');
   var dotCls='g',freshTxt='live';
   if(!STATUS.searchConfigured){dotCls='r';freshTxt='offline';}
-  else if(age>45||stale>20){dotCls='a';freshTxt='degraded';}
+  else if(age>45||(!backfilling&&stale>80)){dotCls='a';freshTxt='degraded';}
   dot.className='dot '+dotCls;
-  fresh.textContent=freshTxt+' · updated '+ago(STATUS.generatedAt);
+  var bfNote='';
+  if(backfilling)bfNote=' · backfill '+bf.completedWindows+'/'+bf.totalWindows;
+  fresh.textContent=freshTxt+bfNote+' · updated '+ago(STATUS.generatedAt);
   var alert=$('alert');
   var msg='',bad=false;
   if(age>45){msg='Data is stale ('+ago(STATUS.generatedAt)+'). The collector or deployment may be stuck.';bad=true}
   else if(!STATUS.searchConfigured){msg='X search is not configured. National coverage is offline.';bad=true}
-  else if(stale>20){msg='Coverage degraded: '+stale+' programs unswept >2h.';}
+  else if(backfilling){msg='Historical backfill in progress ('+bf.completedWindows+'/'+bf.totalWindows+' schools). Live coverage resumes once complete. '+stale+' schools currently unswept >2h.'}
+  else if(stale>80){msg='Coverage degraded: '+stale+' programs unswept >2h.';}
   alert.className='alert'+(msg?' '+(bad?'bad':'warn')+' on':'');
   alert.textContent=msg||'';
 }
