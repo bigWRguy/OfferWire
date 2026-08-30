@@ -2958,17 +2958,21 @@
     "2082680924156858401",
     "2082678019555229821",
     "2082674505290523095",
-    "2082673649568612596"
+    "2082673649568612596",
+    "2093909239316259072",
+    "2093910437024665625",
+    "2093909358832673169",
+    "2093908025199235266"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-08-30T03:44:07.867Z",
-      "got": 742,
-      "new": 28,
-      "lag": 0.09
+      "at": "2026-08-30T03:58:59.571Z",
+      "got": 779,
+      "new": 4,
+      "lag": 0.06
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -3244,7 +3248,7 @@
     "tennessee": {
       "at": "2026-08-28T23:00:41.454Z",
       "truncated": true,
-      "lastPosts": 23
+      "lastPosts": 22
     },
     "backfill:byu:2026-07-29": {
       "at": "2026-08-28T23:00:41.454Z",
@@ -4826,28 +4830,88 @@
       "truncated": true,
       "cursorUntil": "2026-07-30T02:55:25.000Z",
       "completed": false
+    },
+    "backfill:tennessee:2026-07-28": {
+      "at": "2026-08-30T03:56:01.848Z",
+      "lastPosts": 22,
+      "truncated": true,
+      "cursorUntil": "2026-07-29T13:05:49.000Z",
+      "completed": false
+    },
+    "backfill:texas:2026-07-28": {
+      "at": "2026-08-30T03:56:01.848Z",
+      "lastPosts": 24,
+      "truncated": true,
+      "cursorUntil": "2026-07-11T18:00:00.000Z",
+      "completed": false
+    },
+    "backfill:texas-am:2026-07-28": {
+      "at": "2026-08-30T03:56:01.848Z",
+      "lastPosts": 10,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:texas-state:2026-07-28": {
+      "at": "2026-08-30T03:56:01.848Z",
+      "lastPosts": 5,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:texas-tech:2026-07-28": {
+      "at": "2026-08-30T03:56:01.848Z",
+      "lastPosts": 22,
+      "truncated": true,
+      "cursorUntil": "2026-07-21T03:20:20.000Z",
+      "completed": false
+    },
+    "backfill:toledo:2026-07-28": {
+      "at": "2026-08-30T03:56:01.848Z",
+      "lastPosts": 21,
+      "truncated": true,
+      "cursorUntil": "2026-04-17T20:06:02.000Z",
+      "completed": false
+    },
+    "backfill:troy:2026-07-28": {
+      "at": "2026-08-30T03:56:01.848Z",
+      "lastPosts": 24,
+      "truncated": true,
+      "cursorUntil": "2026-07-23T18:52:54.000Z",
+      "completed": false
+    },
+    "backfill:tulane:2026-07-28": {
+      "at": "2026-08-30T03:56:01.848Z",
+      "lastPosts": 6,
+      "truncated": false,
+      "completed": true
+    },
+    "backfill:tulsa:2026-07-28": {
+      "at": "2026-08-30T03:56:01.848Z",
+      "lastPosts": 18,
+      "truncated": true,
+      "cursorUntil": "2026-07-28T14:00:13.000Z",
+      "completed": false
     }
   },
   "searchConfigured": true,
   "lastRateLimitAt": "2026-08-27T16:42:03.467Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-08-30T03:44:07.868Z",
+    "at": "2026-08-30T03:58:59.572Z",
     "jobsTotal": 164,
     "sweptThisRun": 27,
     "requests": 27,
     "fullSweepCycles": 7
   },
   "backfill": {
-    "at": "2026-08-30T03:44:07.869Z",
+    "at": "2026-08-30T03:58:59.573Z",
     "days": 30,
     "totalTeamDays": 4080,
-    "completedTeamDays": 114,
-    "remainingTeamDays": 3966
+    "completedTeamDays": 117,
+    "remainingTeamDays": 3963
   },
   "backfillCoverage": {
-    "at": "2026-08-30T03:44:07.868Z",
-    "jobsTotal": 3971,
+    "at": "2026-08-30T03:58:59.572Z",
+    "jobsTotal": 3966,
     "sweptThisRun": 9,
     "requests": 9
   },
