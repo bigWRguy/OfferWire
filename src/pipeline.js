@@ -34,8 +34,8 @@ const auditReject = (audit, stage, reason, post = null) => {
   }
 };
 
-// Historical collection is deliberately retired. Existing raw evidence is replayed separately.
-const BACKFILL_DAYS = 0;
+// Historical collection is opt-in through OFFERWIRE_BACKFILL_DAYS. The manual backfill workflow sets this to 30; ordinary live runs leave it at 0.
+const BACKFILL_DAYS = Math.max(0, Math.floor(Number(process.env.OFFERWIRE_BACKFILL_DAYS || 0)));
 // The backfill window is anchored to an early run, but draining 30 days x 136 schools
 // takes days at the live pipe's history share. The old cap — BACKFILL_DAYS+1 days FROM
 // NOW — silently discarded any post older than that the moment it arrived, so the oldest
@@ -123,10 +123,11 @@ async function collect(state, log, audit) {
     log('');
     state.searchConfigured = false;
   } else {
-    const days = 0;
-    const historicalPlan = [];
-    const historical = [];
-    const jobs = allJobs();
+    const days = BACKFILL_DAYS;
+    const historicalPlan = days ? backfillJobs(days, backfillAnchorDate(state)) : [];
+    const historical = historicalPlan.filter((job) => !state.watermarks?.[job.key]?.completed);
+    // A manual backfill spends its entire X-search budget on the historical backlog; live runs retain their normal coverage and can optionally interleave history.
+    const jobs = mode === 'backfill' ? historical : [...allJobs(), ...historical];
     if (days) log(`  backfill: ${historical.length}/${historicalPlan.length} school-windows remaining`);
     const res = await sweep(jobs, state, { log });
     audit.search = {
