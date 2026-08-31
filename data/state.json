@@ -17789,10 +17789,10 @@
   },
   "health": {
     "search": {
-      "at": "2026-08-31T09:43:40.054Z",
-      "got": 44,
-      "new": 32,
-      "lag": 0.05
+      "at": "2026-08-31T10:07:06.081Z",
+      "got": 22,
+      "new": 0,
+      "lag": 8.73
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -18866,6 +18866,12 @@
       "lastPosts": 21,
       "truncated": false,
       "completed": true
+    },
+    "backfill:v2:kansas-state:2026-07-31:2026-08-30": {
+      "at": "2026-08-31T10:06:53.950Z",
+      "lastPosts": 22,
+      "truncated": false,
+      "completed": true
     }
   },
   "searchConfigured": true,
@@ -18879,29 +18885,29 @@
     "fullSweepCycles": 5
   },
   "backfill": {
-    "at": "2026-08-31T08:49:18.231Z",
+    "at": "2026-08-31T10:07:06.083Z",
     "days": 30,
     "chunkDays": 30,
-    "totalWindows": 136,
-    "completedWindows": 13,
-    "remainingWindows": 123,
-    "totalTeamDays": 136,
-    "completedTeamDays": 13,
-    "remainingTeamDays": 123
+    "totalWindows": 1,
+    "completedWindows": 1,
+    "remainingWindows": 0,
+    "totalTeamDays": 1,
+    "completedTeamDays": 1,
+    "remainingTeamDays": 0
   },
   "backfillCoverage": {
-    "at": "2026-08-31T08:49:18.231Z",
-    "jobsTotal": 136,
-    "sweptThisRun": 13,
-    "requests": 38
+    "at": "2026-08-31T10:07:06.083Z",
+    "jobsTotal": 1,
+    "sweptThisRun": 1,
+    "requests": 2
   },
   "lastAudit": {
-    "at": "2026-08-31T09:56:05.994Z",
-    "mode": "live",
+    "at": "2026-08-31T10:06:53.939Z",
+    "mode": "backfill",
     "collection": {
-      "returned": 0,
+      "returned": 22,
       "kept": 0,
-      "duplicate": 0,
+      "duplicate": 22,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
@@ -18919,15 +18925,13 @@
       "samples": []
     },
     "search": {
-      "ok": false,
-      "reason": "ohio-state: rate limited",
-      "jobs": 162,
-      "swept": 0,
-      "failed": 1,
-      "requests": 1,
-      "errors": [
-        "ohio-state: rate limited"
-      ]
+      "ok": true,
+      "reason": null,
+      "jobs": 1,
+      "swept": 1,
+      "failed": 0,
+      "requests": 2,
+      "errors": []
     },
     "outcome": {
       "acceptedEvidence": 0,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T09:56:11.095Z",
+  "generatedAt": "2026-08-31T10:07:06.262Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
@@ -11,27 +11,27 @@
     "fullSweepCycles": 5
   },
   "backfillCoverage": {
-    "at": "2026-08-31T08:49:18.231Z",
-    "jobsTotal": 136,
-    "sweptThisRun": 13,
-    "requests": 38
+    "at": "2026-08-31T10:07:06.083Z",
+    "jobsTotal": 1,
+    "sweptThisRun": 1,
+    "requests": 2
   },
   "backfill": {
-    "at": "2026-08-31T08:49:18.231Z",
+    "at": "2026-08-31T10:07:06.083Z",
     "days": 30,
     "chunkDays": 30,
     "totalWindows": 136,
-    "completedWindows": 13,
-    "remainingWindows": 123,
+    "completedWindows": 14,
+    "remainingWindows": 122,
     "totalTeamDays": 136,
-    "completedTeamDays": 13,
-    "remainingTeamDays": 123
+    "completedTeamDays": 14,
+    "remainingTeamDays": 122
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.49938055555555555,
-    "p95Hours": 1.2477383333333334,
-    "worstHours": 1.2477383333333334
+    "medianHours": 0.6813711111111111,
+    "p95Hours": 1.4297291666666667,
+    "worstHours": 1.4297291666666667
   },
   "decisionCoverage": {
     "total": 0,
@@ -52,19 +52,19 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-08-31T09:43:40.054Z",
-      "got": 44,
-      "new": 32,
-      "lag": 0.05
+      "at": "2026-08-31T10:07:06.081Z",
+      "got": 22,
+      "new": 0,
+      "lag": 8.73
     }
   },
   "audit": {
-    "at": "2026-08-31T09:56:05.994Z",
-    "mode": "live",
+    "at": "2026-08-31T10:06:53.939Z",
+    "mode": "backfill",
     "collection": {
-      "returned": 0,
+      "returned": 22,
       "kept": 0,
-      "duplicate": 0,
+      "duplicate": 22,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
@@ -82,15 +82,13 @@
       "samples": []
     },
     "search": {
-      "ok": false,
-      "reason": "ohio-state: rate limited",
-      "jobs": 162,
-      "swept": 0,
-      "failed": 1,
-      "requests": 1,
-      "errors": [
-        "ohio-state: rate limited"
-      ]
+      "ok": true,
+      "reason": null,
+      "jobs": 1,
+      "swept": 1,
+      "failed": 0,
+      "requests": 2,
+      "errors": []
     },
     "outcome": {
       "acceptedEvidence": 0,
@@ -99,6 +97,6 @@
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-08-31T09:56:11.096Z"
+    "status rebuilt locally from current store on 2026-08-31T10:07:06.263Z"
   ]
 }
