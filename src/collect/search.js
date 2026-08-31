@@ -227,6 +227,24 @@ export class SearchSession {
 /** X search understands epoch-second bounds; this is what makes sweeps incremental. */
 const withSince = (query, sinceMs) => `${query} since_time:${Math.floor(sinceMs / 1000)}`;
 
+/** Freeze a live interval before paging it.  A busy query must page backward
+ * through the same upper bound instead of rereading its newest page forever. */
+export function liveWindowQuery(job, mark, nowMs, overlapMs = 5 * 60e3) {
+  const active = mark.window && !mark.window.completed ? mark.window : null;
+  const lowerMs = active ? new Date(active.lower).getTime() : Math.max(0, (mark.at ? new Date(mark.at).getTime() : nowMs - 2 * 3600e3) - overlapMs);
+  const upperMs = active ? new Date(active.upper).getTime() : nowMs;
+  const untilMs = active?.until_time ? new Date(active.until_time).getTime() : upperMs;
+  return { query: `${withSince(job.query, lowerMs)} until_time:${Math.floor(untilMs / 1000)}`, window: { lower: new Date(lowerMs).toISOString(), upper: new Date(upperMs).toISOString(), until_time: new Date(untilMs).toISOString() } };
+}
+export function advanceLiveWindow(mark, window, posts, truncated) {
+  mark.lastPosts = posts.length;
+  if (truncated && posts.length) {
+    const oldest = Math.min(...posts.map((p) => new Date(p.createdAt).getTime()).filter(Number.isFinite));
+    if (Number.isFinite(oldest)) { mark.window = { ...window, until_time: new Date(Math.max(new Date(window.lower).getTime(), oldest - 1000)).toISOString(), completed: false }; mark.truncated = true; return false; }
+  }
+  mark.at = window.upper; mark.truncated = false; delete mark.window; return true;
+}
+
 /**
  * Oldest live work stays first, but historical work receives a predictable fraction
  * of the window instead of racing a second workflow for the same credential quota.
@@ -300,9 +318,10 @@ export async function sweep(jobs, state, {
         const since = marks[job.key]?.at;
         const sinceMs = since ? new Date(since).getTime() : now - 12 * 3600e3; // cold start: 12h
         const fixedCursor = job.fixedWindow && marks[job.key]?.cursorUntil;
+        const live = !job.fixedWindow ? liveWindowQuery(job, marks[job.key] || {}, now) : null;
         const query = job.fixedWindow
           ? `${job.query}${fixedCursor ? ` until_time:${Math.floor(new Date(fixedCursor).getTime() / 1000)}` : ''}`
-          : withSince(job.query, sinceMs);
+          : live.query;
         const beforeRequests = session.requests;
         const res = await session.search(query, { scrolls });
         const jobRequests = session.requests - beforeRequests;
@@ -338,18 +357,9 @@ export async function sweep(jobs, state, {
           await sleep(900 + Math.random() * 900);
           continue;
         }
-        // A full page of results means there may be more we did not read; only advance
-        // to the oldest post actually seen. Otherwise the window is genuinely covered.
+        // A full page leaves this frozen window pending; its watermark advances only after every page is covered.
         const truncated = res.posts.length >= 18 * (1 + scrolls);
-        if (truncated && res.posts.length) {
-          const oldest = Math.min(...res.posts.map((p) => new Date(p.createdAt).getTime()));
-          m.at = new Date(Math.max(sinceMs, oldest)).toISOString();
-          m.truncated = true;
-        } else {
-          m.at = new Date(now).toISOString();
-          m.truncated = false;
-        }
-        m.lastPosts = res.posts.length;
+        advanceLiveWindow(m, live.window, res.posts, truncated);
 
         await sleep(900 + Math.random() * 900); // human-ish pacing
       }

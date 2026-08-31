@@ -52,6 +52,8 @@ const backfill = backfillDays
       ...backfillProgress(backfillJobs(backfillDays, anchor), state.watermarks || {}),
     }
   : null;
+const ages = schoolJobs().map((j) => { const at = state.watermarks?.[j.key]?.at; return at ? (Date.now() - new Date(at).getTime()) / 36e5 : Infinity; }).sort((a,b)=>a-b);
+const percentile = (n) => ages.length ? ages[Math.min(ages.length - 1, Math.floor((ages.length - 1) * n))] : null;
 const status = {
   generatedAt: now(),
   searchCredentials: loadCredentials().length,
@@ -61,6 +63,11 @@ const status = {
   backfillCoverage: state.backfillCoverage || null,
   backfill,
   staleSchools: staleSchools(state),
+  liveStaleness: { medianHours: percentile(.5), p95Hours: percentile(.95), worstHours: percentile(1) },
+  decisionCoverage: state.lastDecisionCoverage || { total: 0, decided: 0, complete: true },
+  pending: { total: Object.keys(readJson('pending.json', { candidates: {} }).candidates || {}).length },
+  profileResolution: { cached: Object.keys(readJson('affiliations.json', { accounts: {} }).accounts || {}).length },
+  paginationBacklog: Object.values(state.watermarks || {}).filter((m) => m.window).length,
   quality: { completeOffers: complete, incompleteOffers: recent.length - complete },
   frozenProfiles: state.frozenProfiles || [],
   health: state.health || {},

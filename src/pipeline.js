@@ -12,7 +12,7 @@ import { allJobs, schoolJobs, backfillJobs, backfillAnchorDate, backfillProgress
 import { classify, findClassYear, findPosition, findTaggedRecruit, findReportedName, handleClassYear } from './extract/rules.js';
 import { findSchools, byId, HANDLES, SCHOOLS, explicitNonFbsOfferTarget } from './resolve/schools.js';
 import { decorateOffers } from './resolve/tiers.js';
-import { extractBatch, enabled as llmEnabled, MODEL } from './extract/llm.js';
+import { resolveOfferTarget, seedDisplayAffiliations } from './resolve/attribution.js';
 import { indexPlayers, resolve as resolvePlayer, mergeInto, nameKey, fuzzyKey, parseBio, looksLikeRecruit, cleanPersonName } from './resolve/players.js';
 import * as watch from './watchlist.js';
 
@@ -34,7 +34,8 @@ const auditReject = (audit, stage, reason, post = null) => {
   }
 };
 
-const BACKFILL_DAYS = Math.max(0, Number(process.env.OFFERWIRE_BACKFILL_DAYS || 0));
+// Historical collection is deliberately retired. Existing raw evidence is replayed separately.
+const BACKFILL_DAYS = 0;
 // The backfill window is anchored to an early run, but draining 30 days x 136 schools
 // takes days at the live pipe's history share. The old cap — BACKFILL_DAYS+1 days FROM
 // NOW — silently discarded any post older than that the moment it arrived, so the oldest
@@ -49,6 +50,12 @@ const RECENCY_HOURS = Math.max(
 );
 
 /** Schools whose per-school sweep watermark has fallen behind, worst first. */
+function liveStaleness(state) {
+  const values = schoolJobs().map((j) => { const at = state.watermarks?.[j.key]?.at; return at ? (Date.now() - new Date(at).getTime()) / 36e5 : Infinity; }).sort((a, b) => a - b);
+  const p = (n) => values.length ? values[Math.min(values.length - 1, Math.floor((values.length - 1) * n))] : null;
+  return { medianHours: p(.5), p95Hours: p(.95), worstHours: p(1) };
+}
+
 function staleSchools(state, thresholdHours = 2) {
   const marks = state.watermarks || {};
   return schoolJobs()
@@ -116,10 +123,10 @@ async function collect(state, log, audit) {
     log('');
     state.searchConfigured = false;
   } else {
-    const days = BACKFILL_DAYS;
-    const historicalPlan = days ? backfillJobs(days, backfillAnchorDate(state)) : [];
-    const historical = historicalPlan.filter((j) => !state.watermarks?.[j.key]?.completed);
-    const jobs = mode === 'backfill' ? historical : mode === 'all' ? [...allJobs(), ...historical] : allJobs();
+    const days = 0;
+    const historicalPlan = [];
+    const historical = [];
+    const jobs = allJobs();
     if (days) log(`  backfill: ${historical.length}/${historicalPlan.length} school-windows remaining`);
     const res = await sweep(jobs, state, { log });
     audit.search = {
@@ -504,6 +511,7 @@ export function upsert(db, rec, post, verdictConfidence, observedAt = now()) {
     via: post.via || null,
     confidence: verdictConfidence,
     text: post.text.slice(0, 400),
+    attribution: rec.attribution || null,
   };
 
   if (!offer) {
@@ -561,6 +569,16 @@ async function main() {
 
   log(`OfferWire run @ ${now()}`);
   const state = readJson('state.json', { seenPostIds: [], cursors: {}, health: {} });
+  // v3 is a one-time deployment migration: discard historical/truncated cursors and
+  // start every live query at deployment with a small overlap. It never re-runs.
+  if (state.migrationVersion !== 3) {
+    const deployment = new Date(Date.now() - 5 * 60e3).toISOString();
+    state.watermarks ||= {};
+    for (const job of allJobs()) state.watermarks[job.key] = { at: deployment, migratedAt: now(), lastPosts: 0, truncated: false };
+    for (const key of Object.keys(state.watermarks)) if (key.startsWith('backfill:')) delete state.watermarks[key];
+    state.backfill = null; state.backfillCoverage = null; delete state.backfillAnchorAt;
+    state.migrationVersion = 3; state.liveDeploymentAt = deployment;
+  }
   state.firstRunAt ||= now();
 
   const accounts = cfg('accounts.json');
@@ -580,19 +598,18 @@ async function main() {
   log('extract:');
   const candidates = prefilter(fresh, log, audit);
 
-  // 3 — LLM
-  let verdicts = new Map();
-  if (llmEnabled()) {
-    verdicts = await extractBatch(candidates);
-    log(`  llm (${MODEL}): ${verdicts.size}/${candidates.length} posts adjudicated`);
-  } else {
-    log('  llm: DISABLED (no ANTHROPIC_API_KEY) — running rules-only at reduced confidence');
-  }
+  // 3 ? deterministic extraction only; production has no paid-LLM dependency.
+  const verdicts = new Map();
+  log('  extraction: deterministic rules + target attribution');
 
-  // 4 — ledger
+  // 4 ? ledger
   const players = readJson('players.json', []);
   const offers = readJson('offers.json', []);
   const wl = readJson('watchlist.json', { handles: {} });
+  const affiliations = readJson('affiliations.json', { version: 1, accounts: {} });
+  const pending = readJson('pending.json', { version: 1, candidates: {} });
+  const decisions = new Map(fresh.map((p) => [p.id, { postId: p.id, at: now(), status: 'irrelevant', reason: 'prefilter_not_candidate' }]));
+  for (const p of candidates) seedDisplayAffiliations(p, affiliations);
   const db = {
     players, offers, review: [],
     offerMap: new Map(offers.map((o) => [offerKey(o.playerId, o.schoolId), o])),
@@ -603,30 +620,30 @@ async function main() {
   let accepted = 0, rejected = 0;
   for (const p of candidates) {
     const v = verdicts.get(p.id);
-    let recs, conf;
-    if (v) {
-      if (!v.is_new_offer) {
-        rejected++; auditReject(audit, 'extraction', `llm:${v.rejected_because || 'not_new_offer'}`, p);
-        continue;
-      }
-      recs = v.offers || [];
-      conf = null;
-    } else {
-      recs = rulesOnlyOffers(p);
-      conf = 0.45;
-    }
+    let recs = rulesOnlyOffers(p);
+    const conf = 0.45;
     if (!recs.length) {
       rejected++;
-      const reason = v ? 'llm:new_offer_without_records' : rulesOnlyRejectionReason(p);
+      const reason = rulesOnlyRejectionReason(p);
       auditReject(audit, 'extraction', reason, p);
+      decisions.set(p.id, { postId: p.id, at: now(), status: 'rejected', reason });
     }
     const made = [];
     for (const rec of recs) {
+      const target = resolveOfferTarget(p, affiliations);
+      if (target.status !== 'accepted') {
+        const expiresAt = new Date(Date.now() + 14 * 864e5).toISOString();
+        if (target.status === 'pending') pending.candidates[p.id] = { postId: p.id, postPath: `raw/${new Date(p.createdAt).toISOString().slice(0, 10)}.ndjson`, createdAt: p.createdAt, updatedAt: now(), expiresAt, reason: target.reason, evidence: target.evidence };
+        decisions.set(p.id, { postId: p.id, at: now(), status: target.status, reason: target.reason, evidence: target.evidence });
+        rejected++; auditReject(audit, 'extraction', target.reason, p); continue;
+      }
+      rec.school_id = target.schoolId; rec.attribution = target.evidence;
       const c = conf ?? Math.min(0.98, (rec.confidence ?? 0.6) * (p._rules.prior > 0 ? 1 : 0.8));
       if (c < 0.4) { rejected++; auditReject(audit, 'extraction', 'confidence_below_threshold', p); continue; }
       const o = upsert(db, rec, p, c);
       if (o) {
         accepted++; audit.extraction.accepted++; made.push(rec);
+        decisions.set(p.id, { postId: p.id, at: now(), status: 'accepted', reason: target.reason, evidence: target.evidence });
       } else {
         rejected++; auditReject(audit, 'extraction', 'invalid_or_incomplete_offer_record', p);
       }
@@ -656,7 +673,11 @@ async function main() {
   const pruned = watch.prune(wl);
   audit.outcome = { acceptedEvidence: accepted, rejectedCandidates: rejected, brandNewOffers: db.newOffers.length };
   state.lastAudit = audit;
+  state.lastDecisionCoverage = { total: fresh.length, decided: decisions.size, complete: decisions.size === fresh.length };
   appendNdjson(`audit/${new Date().toISOString().slice(0, 10)}.ndjson`, [audit]);
+  // One compact record per future unique post; no tweet text is duplicated here.
+  appendNdjson(`decisions/${new Date().toISOString().slice(0, 10)}.ndjson`, [...decisions.values()]);
+  for (const [id, item] of Object.entries(pending.candidates)) if (new Date(item.expiresAt).getTime() <= Date.now()) delete pending.candidates[id];
 
   log(`  offers: ${accepted} accepted, ${rejected} rejected, ${db.newOffers.length} brand new`);
   log(`  watchlist: ${Object.keys(wl.handles).length} handles (${newlyPromoted.length} promoted, ${pruned} pruned)`);
@@ -666,6 +687,8 @@ async function main() {
   writeJson('offers.json', db.offers);
   writeJson('players.json', db.players);
   writeJson('watchlist.json', wl);
+  writeJson('affiliations.json', affiliations);
+  writeJson('pending.json', pending);
   if (db.review.length) appendNdjson('review.ndjson', db.review);
 
   // The site reads only these two, so they stay small and cheap to serve.
@@ -704,6 +727,7 @@ async function main() {
     backfillCoverage: state.backfillCoverage || null,
     backfill: state.backfill || null,
     staleSchools: staleSchools(state),
+    liveStaleness: liveStaleness(state),
     quality: {
       // Position is deliberately not part of the completeness bar — real self-announced
       // offers publish with a null position (bio proves football, position backfilled
@@ -712,7 +736,11 @@ async function main() {
       incompleteOffers: recent.filter((o) => !o.playerName || !o.classYear).length,
     },
     audit,
-    llm: llmEnabled() ? MODEL : null,
+    llm: null,
+    decisionCoverage: { total: fresh.length, decided: decisions.size, complete: decisions.size === fresh.length },
+    pending: { total: Object.keys(pending.candidates).length },
+    profileResolution: { cached: Object.keys(affiliations.accounts || {}).length },
+    paginationBacklog: Object.values(state.watermarks || {}).filter((m) => m.window).length,
     frozenProfiles: state.frozenProfiles || [],
     health: state.health,
     log: lines,

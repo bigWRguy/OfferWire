@@ -92,21 +92,12 @@ jobs:
           # Spend each quota window once. During the one-time baseline most requests
           # drain resumable history; after that the full budget returns to live work.
           # A second scheduled workflow would only compete for the same X session.
-          OFFERWIRE_MODE: all
-          OFFERWIRE_BACKFILL_DAYS: 30
-          # Drain the one-time baseline aggressively. Once all windows are complete the
-          # history queue is empty, so the full budget automatically returns to live.
-          OFFERWIRE_BACKFILL_SHARE: ${{ vars.OFFERWIRE_BACKFILL_SHARE || '0.8' }}
-          OFFERWIRE_BACKFILL_CHUNK_DAYS: ${{ vars.OFFERWIRE_BACKFILL_CHUNK_DAYS || '30' }}
-          # One-time re-anchor: leave empty to keep the stored anchor.
-          OFFERWIRE_BACKFILL_ANCHOR: ${{ vars.OFFERWIRE_BACKFILL_ANCHOR || '' }}
+          OFFERWIRE_MODE: live
+          OFFERWIRE_BACKFILL_DAYS: 0
           # This session was observed rate-limiting on request 37. Stop at 36 so every
           # attempted query can advance its watermark instead of ending on a 429.
           OFFERWIRE_REQUESTS_PER_CRED: ${{ vars.OFFERWIRE_REQUESTS_PER_CRED || '36' }}
           OFFERWIRE_SCROLLS: ${{ vars.OFFERWIRE_SCROLLS || '0' }}
-          # Optional: enables the LLM extraction pass. Without it, rules-only.
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          OFFERWIRE_MODEL: ${{ vars.OFFERWIRE_MODEL }}
           OFFERWIRE_PROFILES_PER_RUN: ${{ inputs.profiles_per_run || vars.OFFERWIRE_PROFILES_PER_RUN || '0' }}
         run: node src/pipeline.js
 
@@ -175,12 +166,12 @@ jobs:
               const expectedH = (liveCycles * 15) / 60;
               let toleranceH = Math.max(6 / Math.max(0.1, planLiveShare), expectedH * 2.5);
               toleranceH = Math.min(toleranceH, 24);
-              const stale = (s.staleSchools || []).filter((x) => x.hours === null || x.hours > toleranceH);
+              const stale = (s.staleSchools || []).filter((x) => x.hours === null || x.hours > 2);
               const modeLabel = bfActive ? "backfill bootstrap" : (bfJustDone ? "backfill drain grace" : "live");
               // Optional hard fire alarm: when more than 20 schools are stale beyond a
               // multi-day ceiling (or never swept at all) the run is genuinely unable to
               // cover them. Default 48h; set OFFERWIRE_STALE_CEILING_H to tune.
-              const hardCeiling = Number(process.env.OFFERWIRE_STALE_CEILING_H || 48);
+              const hardCeiling = Number(process.env.OFFERWIRE_STALE_CEILING_H || 6);
               const stuck = (s.staleSchools || []).filter((x) => x.hours === null || x.hours > hardCeiling);
               if (stuck.length > 20) fail(stuck.length + " schools stale >" + hardCeiling + "h - coverage is failing, not just slow. Run scripts/coverage.mjs.");
               else if (stale.length > 20) warn(stale.length + " schools stale >" + toleranceH.toFixed(1) + "h (" + modeLabel + ", planned live share " + (planLiveShare * 100).toFixed(0) + "%). Busy programs flood faster than one page per sweep drains - raise OFFERWIRE_SCROLLS or add sessions to cut latency; nothing is lost either way.");

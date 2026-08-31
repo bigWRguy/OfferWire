@@ -22,6 +22,7 @@ import path from 'node:path';
 import { prefilter, rulesOnlyOffers, upsert } from '../src/pipeline.js';
 import { indexPlayers } from '../src/resolve/players.js';
 import { decorateOffers } from '../src/resolve/tiers.js';
+import { resolveOfferTarget, seedDisplayAffiliations } from '../src/resolve/attribution.js';
 import { readJson, writeJson, DATA } from '../src/lib/store.js';
 import * as watch from '../src/watchlist.js';
 
@@ -53,12 +54,17 @@ const db = {
   _new: [], newOffers: [],
 };
 const wl = { handles: {} };
+const affiliations = { version: 1, accounts: {} };
 
 let accepted = 0, rejected = 0;
 for (const p of candidates) {
+  seedDisplayAffiliations(p, affiliations, replayAt);
   const recs = rulesOnlyOffers(p);
   const made = [];
   for (const rec of recs) {
+    const target = resolveOfferTarget(p, affiliations);
+    if (target.status !== 'accepted') { rejected++; continue; }
+    rec.school_id = target.schoolId; rec.attribution = target.evidence;
     const c = Math.min(0.98, (rec.confidence ?? 0.6) * (p._rules.prior > 0 ? 1 : 0.8));
     if (c < 0.4) { rejected++; continue; }
     const o = upsert(db, rec, p, c, replayAt);
@@ -96,6 +102,8 @@ if (write) {
   writeJson('players.json', db.players);
   writeJson('offers.json', db.offers);
   writeJson('watchlist.json', wl);
+  writeJson('affiliations.json', affiliations);
+  writeJson('pending.json', { version: 1, candidates: {} });
   const players = db.players;
   const offers = db.offers;
   const playerById = new Map(players.map((p) => [p.id, p]));

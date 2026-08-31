@@ -187,7 +187,7 @@ function render(){
     if(o.highSchool)metaParts.push('<span class="sep">&middot;</span><span class="r-hs">'+esc(o.highSchool)+'</span>');
     if(o.state)metaParts.push('<span class="sep">&middot;</span><span class="r-hs">'+esc(o.state)+'</span>');
 
-    const evItems=ev.map(e=>'<div class="evidence-item"><div class="ev-meta"><a href="'+esc(safeUrl(e.url))+'" target="_blank" rel="noopener">@'+esc(e.author)+'</a><span>'+ago(e.postedAt)+'</span><span>via '+esc(e.via||'')+'</span></div><div class="ev-text">'+esc(e.text||'')+'</div></div>').join('');
+    const evItems=ev.map(e=>{const a=e.attribution||{};const badge=a.schoolEvidenceType?'<span class="r-tier g5">'+esc(a.schoolEvidenceType.replace(/_/g,' '))+'</span>':'';return '<div class="evidence-item"><div class="ev-meta"><a href="'+esc(safeUrl(e.url))+'" target="_blank" rel="noopener">@'+esc(e.author)+'</a><span>'+ago(e.postedAt)+'</span>'+badge+'<span>via '+esc(e.via||'')+'</span></div><div class="ev-text">'+esc(e.text||'')+'</div></div>'}).join('');
 
     let bioLines='';
     const oc=p.offerCounts||null;
