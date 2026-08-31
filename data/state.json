@@ -20684,7 +20684,7 @@
     }
   },
   "searchConfigured": true,
-  "lastRateLimitAt": "2026-08-31T20:09:27.011Z",
+  "lastRateLimitAt": "2026-08-31T20:56:21.459Z",
   "frozenProfiles": [],
   "searchCoverage": {
     "at": "2026-08-31T20:43:51.237Z",
@@ -20711,201 +20711,50 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-08-31T20:41:40.661Z",
+    "at": "2026-08-31T20:56:16.292Z",
     "mode": "live",
     "collection": {
-      "returned": 54,
-      "kept": 21,
-      "duplicate": 32,
-      "tooOld": 1,
+      "returned": 0,
+      "kept": 0,
+      "duplicate": 0,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 13,
-      "rejected": 8,
-      "reasons": {
-        "no_fbs_school": 4,
-        "non_fbs_offer_target": 1,
-        "no_offer_term": 2,
-        "hard_negative": 1
-      },
-      "samples": [
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094517280772436321",
-          "author": "dmaxwelljr_",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "AG2G!! After a great conversation with @_CoachBoyd I'm blessed to say I have received my 1st Division offer From the University Of California- Berkeley @GregBiggins @adamgorney @BrandonHuffman @missionfootball @HeyImTray https://t.co/zmDXgA"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2094517533155942692",
-          "author": "keyrie18",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "AGTG!! I’m blessed and grateful to have received an offer from Raritan Valley Community College! 🏀🙏🏽. Truly grateful for the opportunity and looking forward to seeing where this journey takes me! ❤️ https://t.co/qMy7o0gZBm"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094524239386694078",
-          "author": "edhat",
-          "searchJob": "coastal-carolina",
-          "text": "Two Amtrak Train Rides With Some of California’s Most Stunning Coastal Views https://t.co/LlacC72WBg"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094520223437336905",
-          "author": "qz",
-          "searchJob": "coastal-carolina",
-          "text": "https://t.co/SAUPTJQk4l"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2094511793108365802",
-          "author": "profilefblive",
-          "searchJob": "east-carolina",
-          "text": "📈 Trending Recruit 📈 2028 WR Zion Mullen from Maury HS, VA is currently a Top Five Trending 2028 recruit on Profile after recent offers from East Carolina and Boston College. @zion_buddyrow15 Rated 3.3 ⭐ (#1036 NATL, #193 WR, #33 VA) with"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094514750331785466",
-          "author": "symbolofahope",
-          "searchJob": "kent-state",
-          "text": "@atonedarmor “I might have picked up a few things, but it’s mostly my own recipe.” He said with a proud smile as he offered her some more if she wanted it."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094513636861473095",
-          "author": "greyscaleham",
-          "searchJob": "louisiana",
-          "text": "@SteveLovesAmmo I was offered $78/hr to be an electrician on one in Louisiana about to start. I declined. That is insane money for easy work. There is a reason for that. I don’t know what it is, but you don’t make that for plc and terminati"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094524190531481910",
-          "author": "charity_jcm",
-          "searchJob": "marshall",
-          "text": "I don't wanna hear the brunt of what your past has offered."
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 12,
-      "reasons": {
-        "school_not_resolved_confidently": 3,
-        "multiple_resolved_schools": 5,
-        "bare_mention_requires_llm": 4
-      },
-      "samples": [
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094500814563774796",
-          "author": "theeaglesweekly",
-          "searchJob": "vanderbilt",
-          "text": "THREAD: Some Pointers on the Zach Ertz Rumor: 1. Ertz is old. He's coming off of a tough injury. He may be expensive for the limited contribution he may offer. 2. He's a pass-catching TE. So is Goedert. Stowers was touted for his hands at V"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094523912033894820",
-          "author": "gdms",
-          "searchJob": "coastal-carolina",
-          "text": "One state. A multitude of attractions. Countless missions. Massachusetts is more than a great place to live — it is home to four General Dynamics Mission Systems locations in Taunton, Quincy, Dedham and Pittsfield — where our teams show up "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094522707941704016",
-          "author": "volcorp",
-          "searchJob": "coastal-carolina",
-          "text": "Volunteer Corporate Credit Union (VolCorp) and Veep Software, a leading AI-powered fintech, have agreed to a new partnership with Navigator Credit Union (Moss Point, Mississippi). This agreement brings Veep’s suite of earned wage access (EW"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094505188480393630",
-          "author": "gtbagf",
-          "searchJob": "delaware",
-          "text": "@harryjsisson Why won't Biden offer to put one at his Delaware mansion? He loves them so much and even started all of this with his own executive order. Why don't you and he put your money where your mouth is since you supported him so much"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094513682525126791",
-          "author": "wabenews",
-          "searchJob": "georgia-state",
-          "text": "A new law clinic at Georgia State University will offer free legal services to help families counter heirs’ property issues, which experts say are a leading cause of involuntary property loss and a barrier to the creation of generational we"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094515572817924191",
-          "author": "brawl_w_timpaul",
-          "searchJob": "james-madison",
-          "text": "Huge credit to undrafted rookies Jacob Thomas, Dillon Bell and Brett Thorson for forcing their way onto the Vikings’ roster. Bell is an athletic freak, but with so many established weapons, I don’t know where his touches come from. Thorson’"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094520467776221646",
-          "author": "aceharold1937",
-          "searchJob": "kent-state",
-          "text": "FOR SALE: 1982-83 Evansville Aces schedule poster (Original).. You cannot just waltz into Kenny Kent and get another one (I checked)!! $150 FIRM.. NO LOWBALL OFFERS.. I KNOW WHAT I GOT!! Proceeds to ACES NIL!! https://t.co/ExS71YqP8u"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094512799389270396",
-          "author": "hk4hearingloss",
-          "searchJob": "kent-state",
-          "text": "Our next Tinnitus Group get-together on Zoom will be Wednesday 2nd Sept at 7pm. We don't not have a cure, but we can offer sound advice from years of experience ourselves that may make a difference. You have nothing to lose. See you there. "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094522840582127740",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS (updated daily) The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094522687901290766",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS (updated daily) The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094522587510624671",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS (updated daily) The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094524488687767926",
-          "author": "cliffstowers",
-          "searchJob": "memphis",
-          "text": "@SeanUnfiltered It’s been this way at both of the other schools he’s coached at too which he left for a “better” job. Don’t be fooled by his nonsense. He’s a con-man, and will bolt Memphis for the first available job he gets offered"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
-      "ok": true,
-      "reason": null,
+      "ok": false,
+      "reason": "liberty: rate limited",
       "jobs": 162,
-      "swept": 34,
+      "swept": 0,
       "failed": 1,
-      "requests": 35,
+      "requests": 1,
       "errors": [
-        "alabama: rate limited"
+        "liberty: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 12,
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 0,
       "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 21,
-    "decided": 21,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z"
