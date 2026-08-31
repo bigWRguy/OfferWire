@@ -18,13 +18,32 @@ if (!n) {
   fs.writeFileSync(path.join(to, 'wire.json'), JSON.stringify({ generatedAt: null, counts: {}, offers: [] }));
   fs.writeFileSync(path.join(to, 'status.json'), JSON.stringify({ generatedAt: null, log: ['wire has not run yet'] }));
 }
-// Enrich wire.json with player bios from players.json
+// Enrich wire.json with player bios, P4/G5 offer counts and each player's offer list.
 try {
   const wirePath = path.join(to, 'wire.json');
   const playersPath = path.join(ROOT, 'data', 'players.json');
+  const offersPath = path.join(ROOT, 'data', 'offers.json');
   if (fs.existsSync(wirePath) && fs.existsSync(playersPath)) {
     const wire = JSON.parse(fs.readFileSync(wirePath, 'utf-8'));
     const players = JSON.parse(fs.readFileSync(playersPath, 'utf-8'));
+    // Full per-player offer lists come from the WHOLE ledger, not the newest 1500
+    // slice the site ships, so counts and lists stay complete for every player.
+    const offersByPlayer = new Map();
+    if (fs.existsSync(offersPath)) {
+      const offers = JSON.parse(fs.readFileSync(offersPath, 'utf-8'));
+      for (const o of offers) {
+        if (!offersByPlayer.has(o.playerId)) offersByPlayer.set(o.playerId, []);
+        offersByPlayer.get(o.playerId).push({
+          schoolName: o.schoolName,
+          tier: o.tier ?? null,
+          offeredAt: o.offeredAt,
+          firstForPlayer: !!o.firstForPlayer,
+          firstP4ForPlayer: !!o.firstP4ForPlayer,
+          firstG5ForPlayer: !!o.firstG5ForPlayer,
+        });
+      }
+      for (const list of offersByPlayer.values()) list.sort((a, b) => new Date(b.offeredAt) - new Date(a.offeredAt));
+    }
     const bioMap = new Map();
     for (const p of players) {
       bioMap.set(p.id, {
@@ -33,6 +52,9 @@ try {
         gpa: p.gpa ?? null,
         bio: p.bio ?? null,
         state: p.state ?? null,
+        offerCounts: p.offerCounts ?? null,
+        // Cap the list so a heavily-offered player's detail stays light.
+        offers: (offersByPlayer.get(p.id) || []).slice(0, 30),
       });
     }
     if (wire.offers) {

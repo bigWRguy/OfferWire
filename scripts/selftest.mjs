@@ -9,6 +9,7 @@ import { findSchools } from '../src/resolve/schools.js';
 import { classify, findClassYear, findPosition, findNameCandidates, findTaggedRecruit, findReportedName, handleClassYear, maskAwardYears } from '../src/extract/rules.js';
 import { nameKey, fuzzyKey, canMerge, parseBio, looksLikeRecruit, cleanPersonName } from '../src/resolve/players.js';
 import { prefilter, rulesOnlyOffers } from '../src/pipeline.js';
+import { tierOf, decorateOffers } from '../src/resolve/tiers.js';
 import { backfillJobs, schoolJobs, backfillAnchorDate, phraseJobs } from '../src/collect/queries.js';
 import { prioritizeJobs, SearchSession } from '../src/collect/search.js';
 import { dispatchWire } from '../netlify/functions/trigger-wire.mjs';
@@ -427,6 +428,38 @@ t('offer attributed to an earlier season is stale',
   classify('His potential gained recognition during the summer when he earned his first Division I scholarship offer from Miami.').hardNegative);
 t('unrelated seasonal phrase does not suppress a current offer',
   !classify('After training during the summer, Marcus Lee has received an offer from Georgia today.').hardNegative);
+
+console.log('offer tiers and player stats');
+t('SEC school is P4', tierOf({ id: 'alabama', conference: 'SEC' }) === 'P4');
+t('Big Ten is P4', tierOf({ id: 'michigan', conference: 'B1G' }) === 'P4');
+t('Notre Dame (IND) is P4', tierOf({ id: 'notre-dame', conference: 'IND' }) === 'P4');
+t('Mountain West is G5', tierOf({ id: 'boise-state', conference: 'MW' }) === 'G5');
+t('UConn (IND) is G5', tierOf({ id: 'uconn', conference: 'IND' }) === 'G5');
+// A real recruit: G5 first, P4 later. The earliest of each tier gets the milestone
+// flag; the P4 one is the headline "first P4 offer".
+{
+  const offers = [
+    { playerId: 'p1', schoolId: 'boise-state', offeredAt: '2026-07-01T00:00:00Z' },
+    { playerId: 'p1', schoolId: 'troy', offeredAt: '2026-07-10T00:00:00Z' },
+    { playerId: 'p1', schoolId: 'alabama', offeredAt: '2026-08-01T00:00:00Z' },
+  ];
+  const st = decorateOffers(offers);
+  t('tiers assigned to rows', offers.every((o) => o.tier === 'G5' || o.tier === 'P4') && offers[2].tier === 'P4');
+  t('first offer flagged', offers[0].firstForPlayer === true && offers[1].firstForPlayer === undefined);
+  t('first P4 flagged on the Alabama row', offers[2].firstP4ForPlayer === true && offers[0].firstP4ForPlayer === undefined);
+  t('first G5 flagged on the earliest G5', offers[0].firstG5ForPlayer === true);
+  const s = st.get('p1');
+  t('player stats total/p4/g5', s.total === 3 && s.p4 === 1 && s.g5 === 2, JSON.stringify(s));
+  t('milestone timestamps', s.firstOfferAt === '2026-07-01T00:00:00Z' && s.firstP4At === '2026-08-01T00:00:00Z' && s.firstG5At === '2026-07-01T00:00:00Z', JSON.stringify(s));
+}
+// Idempotent: decorating the same ledger twice must not double-count flags (a rebuild
+// runs decorate on freshly-built rows, but guard against re-decoration anyway).
+{
+  const offers = [{ playerId: 'p2', schoolId: 'alabama', offeredAt: '2026-08-01T00:00:00Z' }];
+  decorateOffers(offers);
+  const st = decorateOffers(offers);
+  t('decorate is idempotent', offers[0].firstP4ForPlayer === true && st.get('p2').p4 === 1 && offers[0].tier === 'P4');
+}
 
 console.log('phrase job coverage');
 const PJS = phraseJobs().map((j) => j.query);

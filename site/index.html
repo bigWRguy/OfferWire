@@ -49,6 +49,16 @@ body{background:var(--bg);color:var(--t1);font-family:var(--f-sans);min-height:1
 .row .r-meta .sep{color:var(--l);font-weight:100;margin:0 1px}
 .row .r-htwt{color:var(--b);font-family:var(--f-mono)}
 .row .r-hs{color:var(--t2)}
+.row .r-tier{font-size:10px;font-weight:700;padding:1px 5px;border-radius:3px;letter-spacing:.04em;vertical-align:1px}
+.row .r-tier.p4{background:rgba(88,166,255,.14);color:#58a6ff;border:1px solid rgba(88,166,255,.4)}
+.row .r-tier.g5{background:rgba(126,143,166,.12);color:#7e8fa6;border:1px solid rgba(126,143,166,.35)}
+.row .r-first{font-size:10px;font-weight:800;padding:1px 5px;border-radius:3px;letter-spacing:.04em;vertical-align:1px}
+.row .r-first.fp4{background:rgba(210,153,34,.18);color:#d29922;border:1px solid rgba(210,153,34,.5)}
+.row .r-first.fg5{background:rgba(92,214,255,.12);color:#5cd6ff;border:1px solid rgba(92,214,255,.4)}
+.row .r-first.fo{background:rgba(63,185,80,.14);color:#3fb950;border:1px solid rgba(63,185,80,.45)}
+.row .r-offers{font-size:11px;color:var(--t2);line-height:1.5}
+.row .r-offers b{color:var(--t1);font-family:var(--f-mono)}
+.row .r-offers .oc{display:inline-block;margin:0 4px 2px 0}
 .row .r-sub{display:flex;align-items:baseline;gap:5px;flex-wrap:wrap;margin-top:3px}
 .row .r-school{font-weight:600;color:var(--t1);font-size:13px}
 .row .r-conf{font-size:11px;color:var(--t3);font-family:var(--f-mono)}
@@ -90,6 +100,8 @@ body{background:var(--bg);color:var(--t1);font-family:var(--f-sans);min-height:1
   <select id="pos"><option value="">All positions</option></select>
   <select id="conf"><option value="">All conferences</option></select>
   <label><input type="checkbox" id="corr"> 2+ sources</label>
+  <label><input type="checkbox" id="p4"> 1st P4</label>
+  <label><input type="checkbox" id="first"> 1st offer</label>
   <div class="btns" id="tbtns">
     <button class="btn on" data-h="all">All</button>
     <button class="btn" data-h="24">24h</button>
@@ -137,7 +149,7 @@ function htwt(p){if(!p)return'';const parts=[];if(p.height)parts.push(p.height);
 
 function render(){
   const q=$('q').value.toLowerCase().trim(),cls=$('cls').value,pos=$('pos').value;
-  const conf=$('conf').value,corr=$('corr').checked,school=$('school').value;
+  const conf=$('conf').value,corr=$('corr').checked,school=$('school').value,p4only=$('p4').checked,firstonly=$('first').checked;
   let rows=DATA;
   if(hourFilter!=='all'){
     const cutoff=Date.now()-parseInt(hourFilter)*3600000;
@@ -149,6 +161,8 @@ function render(){
   if(conf)rows=rows.filter(o=>o.conference===conf);
   if(school)rows=rows.filter(o=>o.schoolId===school);
   if(corr)rows=rows.filter(o=>(o.corroborations||1)>=2);
+  if(p4only)rows=rows.filter(o=>o.firstP4ForPlayer);
+  if(firstonly)rows=rows.filter(o=>o.firstForPlayer);
   rows.sort((a,b)=>new Date(b.offeredAt)-new Date(a.offeredAt));
 
   const html=rows.slice(0,1000).map(o=>{
@@ -157,6 +171,14 @@ function render(){
     const ht=htwt(p);
     const tint=confColors[o.conference]||null;
     const oid=esc(o.id);
+    const tier=o.tier||null;
+    // Milestone badges: a recruit's FIRST P4 offer is the headline event of their
+    // recruiting; first G5 and first-ever offers matter too.
+    let firsts='';
+    if(o.firstForPlayer)firsts+='<span class="r-first fo">1st offer</span>';
+    if(o.firstP4ForPlayer)firsts+='<span class="r-first fp4">1st P4</span>';
+    if(o.firstG5ForPlayer)firsts+='<span class="r-first fg5">1st G5</span>';
+    if(firsts)firsts='<span class="sep">&middot;</span>'+firsts;
 
     let metaParts=[];
     if(o.position)metaParts.push('<span>'+esc(o.position)+'</span>');
@@ -168,10 +190,13 @@ function render(){
     const evItems=ev.map(e=>'<div class="evidence-item"><div class="ev-meta"><a href="'+esc(safeUrl(e.url))+'" target="_blank" rel="noopener">@'+esc(e.author)+'</a><span>'+ago(e.postedAt)+'</span><span>via '+esc(e.via||'')+'</span></div><div class="ev-text">'+esc(e.text||'')+'</div></div>').join('');
 
     let bioLines='';
+    const oc=p.offerCounts||null;
+    if(oc)bioLines+='<div class="bio-line">Offers: <b>'+oc.total+'</b> total &middot; <b>'+oc.p4+'</b> P4 &middot; <b>'+oc.g5+'</b> G5'+(oc.firstP4At?' &middot; 1st P4 '+ago(oc.firstP4At):'')+(oc.firstG5At?' &middot; 1st G5 '+ago(oc.firstG5At):'')+'</div>';
+    if(p.offers&&p.offers.length)bioLines+='<div class="bio-line r-offers">'+p.offers.map(x=>'<span class="oc">'+esc(x.schoolName)+(x.tier?' <span class="r-tier '+(x.tier==='P4'?'p4':'g5')+'">'+x.tier+'</span>':'')+(x.firstP4ForPlayer?' <span class="r-first fp4">1st P4</span>':'')+(x.firstG5ForPlayer?' <span class="r-first fg5">1st G5</span>':'')+(x.firstForPlayer?' <span class="r-first fo">1st offer</span>':'')+'</span>').join('')+'</div>';
     if(p.bio)bioLines+='<div class="bio-line">Bio: '+esc(p.bio)+'</div>';
     if(p.gpa)bioLines+='<div class="bio-line">GPA: '+p.gpa+'</div>';
 
-    var row='<div class="row" data-oid="'+oid+'" onclick="toggleRow(\''+oid+'\')"><div class="r-outer"><div class="r-main"><span class="r-time" title="'+esc(o.offeredAt)+'">'+ago(o.offeredAt)+'</span><span class="r-name">'+esc(o.playerName)+'<span class="cp" onclick="event.stopPropagation();copyText(\''+esc(o.playerName).replace(/'/g,"\\'")+'\')" title="Copy name">📋</span></span><span class="r-meta">'+metaParts.join('')+'</span></div><div class="r-sub"><span class="r-school"'+(tint?' style="color:'+tint+'"':'')+'>'+esc(o.schoolName)+'</span><span class="r-conf">'+esc(o.conference)+'</span><span class="r-ver"><span class="vd '+(verified?'verified':'single')+'"></span><span>'+(verified?n+' sources':'single source')+'</span></span>'+(o.playerHandle?'<span class="r-src">@'+esc(o.playerHandle)+'</span>':'')+'</div></div><div class="r-detail"><h4>Evidence ('+ev.length+' post'+(ev.length!==1?'s':'')+')</h4>'+evItems+(bioLines?'<h4 style="margin-top:10px">Player Details</h4>'+bioLines:'')+'</div></div>';
+    var row='<div class="row" data-oid="'+oid+'" onclick="toggleRow(\''+oid+'\')"><div class="r-outer"><div class="r-main"><span class="r-time" title="'+esc(o.offeredAt)+'">'+ago(o.offeredAt)+'</span><span class="r-name">'+esc(o.playerName)+'<span class="cp" onclick="event.stopPropagation();copyText(\''+esc(o.playerName).replace(/'/g,"\\'")+'\')" title="Copy name">📋</span></span><span class="r-meta">'+metaParts.join('')+firsts+'</span></div><div class="r-sub"><span class="r-school"'+(tint?' style="color:'+tint+'"':'')+'>'+esc(o.schoolName)+'</span>'+(tier?' <span class="r-tier '+(tier==='P4'?'p4':'g5')+'">'+tier+'</span>':'')+'<span class="r-conf">'+esc(o.conference)+'</span><span class="r-ver"><span class="vd '+(verified?'verified':'single')+'"></span><span>'+(verified?n+' sources':'single source')+'</span></span>'+(o.playerHandle?'<span class="r-src">@'+esc(o.playerHandle)+'</span>':'')+'</div></div><div class="r-detail"><h4>Evidence ('+ev.length+' post'+(ev.length!==1?'s':'')+')</h4>'+evItems+(bioLines?'<h4 style="margin-top:10px">Player Details</h4>'+bioLines:'')+'</div></div>';
     return row;
   }).join('');
 
@@ -237,8 +262,8 @@ async function load(){
   }
 }
 
-['q','cls','pos','conf','corr','school'].forEach(function(id){
-  $(id).addEventListener(id==='corr'?'change':'input',function(){expandId=null;render()});
+['q','cls','pos','conf','corr','p4','first','school'].forEach(function(id){
+  $(id).addEventListener(id==='corr'||id==='p4'||id==='first'?'change':'input',function(){expandId=null;render()});
 });
 
 $('tbtns').addEventListener('click',function(e){
@@ -253,7 +278,7 @@ document.addEventListener('keydown',function(e){
   var tag=e.target.tagName;
   if(tag==='INPUT'||tag==='SELECT'||tag==='TEXTAREA')return;
   if(e.key==='/'){e.preventDefault();$('q').focus();$('q').select()}
-  if(e.key==='Escape'){$('q').value='';$('cls').value='';$('pos').value='';$('conf').value='';$('corr').checked=false;$('school').value='';hourFilter='all';document.querySelectorAll('#tbtns .btn').forEach(function(b){b.classList.toggle('on',b.dataset.h==='all')});expandId=null;render()}
+  if(e.key==='Escape'){$('q').value='';$('cls').value='';$('pos').value='';$('conf').value='';$('corr').checked=false;$('p4').checked=false;$('first').checked=false;$('school').value='';hourFilter='all';document.querySelectorAll('#tbtns .btn').forEach(function(b){b.classList.toggle('on',b.dataset.h==='all')});expandId=null;render()}
   if(e.key==='r'||e.key==='R'){e.preventDefault();load()}
 });
 

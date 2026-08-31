@@ -11,6 +11,7 @@ import { sweep, configured as searchConfigured, loadCredentials } from './collec
 import { allJobs, schoolJobs, backfillJobs, backfillAnchorDate, backfillProgress } from './collect/queries.js';
 import { classify, findClassYear, findPosition, findTaggedRecruit, findReportedName, handleClassYear } from './extract/rules.js';
 import { findSchools, byId, HANDLES, SCHOOLS } from './resolve/schools.js';
+import { decorateOffers } from './resolve/tiers.js';
 import { extractBatch, enabled as llmEnabled, MODEL } from './extract/llm.js';
 import { indexPlayers, resolve as resolvePlayer, mergeInto, nameKey, fuzzyKey, parseBio, looksLikeRecruit, cleanPersonName } from './resolve/players.js';
 import * as watch from './watchlist.js';
@@ -633,6 +634,19 @@ async function main() {
   // see the comment there), so this should be a no-op. Kept because a full rebuild from
   // db.players is the one thing that can never drift from the source of truth.
   db._index = indexPlayers(db.players);
+
+  // Tier + per-player offer stats (P4/G5, first-milestone flags). Runs on the FULL
+  // ledger, so counts are complete even though only the newest slice is published to
+  // the site. Mutates each offer row (tier, firstForPlayer, firstP4ForPlayer,
+  // firstG5ForPlayer) and returns per-player tallies that are stored on the player.
+  const playerStats = decorateOffers(db.offers);
+  for (const p of db.players) {
+    const st = playerStats.get(p.id);
+    if (st) p.offerCounts = { total: st.total, p4: st.p4, g5: st.g5, firstOfferAt: st.firstOfferAt, firstP4At: st.firstP4At, firstG5At: st.firstG5At };
+  }
+  const firstP4 = db.offers.filter((o) => o.firstP4ForPlayer).length;
+  const firstG5 = db.offers.filter((o) => o.firstG5ForPlayer).length;
+  log(`  tiers: ${playerStats.size} players tracked, ${firstP4} first-P4 offers, ${firstG5} first-G5 offers`);
 
   const newlyPromoted = watch.promote(wl);
   const pruned = watch.prune(wl);

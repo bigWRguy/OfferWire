@@ -21,6 +21,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { prefilter, rulesOnlyOffers, upsert } from '../src/pipeline.js';
 import { indexPlayers } from '../src/resolve/players.js';
+import { decorateOffers } from '../src/resolve/tiers.js';
 import { readJson, writeJson, DATA } from '../src/lib/store.js';
 import * as watch from '../src/watchlist.js';
 
@@ -66,6 +67,14 @@ for (const p of candidates) {
   if (made.length) watch.observe(wl, p, made, replayAt);
 }
 watch.promote(wl, { observedAt: replayAt });
+
+// Same tier + per-player offer stats as the live pipeline, so a rebuilt ledger is
+// byte-identical to what the wire would have written.
+const playerStats = decorateOffers(db.offers);
+for (const p of db.players) {
+  const st = playerStats.get(p.id);
+  if (st) p.offerCounts = { total: st.total, p4: st.p4, g5: st.g5, firstOfferAt: st.firstOfferAt, firstP4At: st.firstP4At, firstG5At: st.firstG5At };
+}
 
 const before = {
   players: readJson('players.json', []).length,
