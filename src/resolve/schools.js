@@ -189,3 +189,49 @@ export function findSchools(text) {
   }
   return [...hits.values()];
 }
+
+/**
+ * Does the phrase contain any FBS school surface (whole-word)? Uses the SAME form map
+ * that findSchools resolves against, but WITHOUT the location/prefix stripping that
+ * would hide real FBS names ("Western Kentucky University", "Northern Illinois
+ * University" get direction-prefix-stripped as if they were FCS schools). Whole-word
+ * so a short alias like "UTA" cannot match inside "Utah".
+ */
+function containsFbsName(phrase) {
+  const n = norm(phrase);
+  if (!n) return false;
+  const joined = ' ' + n + ' ';
+  return FORM_LIST.some((f) => joined.includes(' ' + f + ' '));
+}
+
+/**
+ * Does the post name a NON-FBS institution as the offer source?
+ *
+ * Live failure: "Blessed to receive an offer from Community Christian College! Thank
+ * you ... Go cyclones!" — the offer is from a small non-FBS college, but the trailing
+ * cheer "Go cyclones!" resolves to Iowa State (the Cyclones) and the post was filed as
+ * a fabricated P4 offer. When the offer verb attaches to an institution-shaped name
+ * (…College / …University / …Academy / …Institute) that is NOT on the FBS roster, the
+ * post is not reporting an FBS offer, and no cheer in it may be read as the target.
+ *
+ * It is deliberately ATTACHED: the institution must sit directly after the offer verb
+ * ("offer from X College", "offered by Y University"). A bare mention of a college
+ * elsewhere in the post does not veto a real FBS offer. And an FBS school named as
+ * "X University" (Auburn University, Western Kentucky University, ...) is never vetoed.
+ */
+export function explicitNonFbsOfferTarget(text) {
+  // Case-explicit on purpose: the institution name must genuinely start with a capital
+  // letter (under a bare /i flag, "offer from the University of Alabama" captured "the
+  // University" and falsely vetoed a real offer). The optional leading "The" is consumed
+  // case-insensitively so "THE University of X" never captures "THE University".
+  const re = /\b(?:[Oo]ffer|[Oo]ffered|[Oo]ffers|[Ss]cholarship)\s+(?:[Tt]o\s+[Pp]lay\s+\w+\s+)?(?:[Ff]rom|[Bb]y)\s+(?:[Tt][Hh][Ee]\s+)?([A-Z][\w&.'-]*(?:\s+(?:[A-Z][\w&.'-]*|[Oo]f|[Aa]t|[Tt]o|[Tt]he|[Ss]t\.?|[Nn]orth|[Ss]outh|[Ee]ast|[Ww]est)){0,6}\s+(?:[Cc]ollege|[Uu]niversity|[Ii]nstitute|[Aa]cademy))\b/;
+  const m = String(text || '').match(re);
+  if (!m) return false;
+  // Spurious captures: when a connector is written twice or capitalized, the first
+  // token of the capture is a FUNCTION WORD, not an institution — "The University Of
+  // Purdue", "Offer From From the University of Colorado" capturing "From the
+  // University". A real offer target never literally starts with one of these; bail so
+  // the normal FBS resolution handles the post.
+  if (/^(?:The|From|By|To|Of|At|A|An|For)\b/i.test(m[1])) return false;
+  return !containsFbsName(m[1]);
+}

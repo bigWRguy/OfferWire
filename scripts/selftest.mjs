@@ -5,7 +5,7 @@
 // including the ones that historically produce FALSE positives — commitment posts,
 // offer-list recaps, hypotheticals and walk-on offers. A rules layer that passes only
 // the happy path is worthless, so most of the value here is in the negatives.
-import { findSchools } from '../src/resolve/schools.js';
+import { findSchools, explicitNonFbsOfferTarget } from '../src/resolve/schools.js';
 import { classify, findClassYear, findPosition, findNameCandidates, findTaggedRecruit, findReportedName, handleClassYear, maskAwardYears } from '../src/extract/rules.js';
 import { nameKey, fuzzyKey, canMerge, parseBio, looksLikeRecruit, cleanPersonName } from '../src/resolve/players.js';
 import { prefilter, rulesOnlyOffers } from '../src/pipeline.js';
@@ -21,6 +21,7 @@ const t = (name, cond, detail = '') => {
 };
 
 const ids = (text) => findSchools(text).filter((s) => s.id).map((s) => s.id).sort();
+const veto = (text) => explicitNonFbsOfferTarget(text);
 
 console.log('school resolution');
 t('handle beats everything', ids('Blessed to receive an offer from @GamecockFB').includes('south-carolina'));
@@ -38,6 +39,31 @@ t('ambiguous Miami not guessed', !ids('Miami has offered').length);
 t('bare nickname Tigers not guessed', !ids('Tigers have offered him').length);
 t('no false school in plain text', !ids('He had a great game on Friday night').length,
   JSON.stringify(ids('He had a great game on Friday night')));
+
+// A post naming a NON-FBS institution as the offer source must not be filed against an
+// FBS school that appears only as a trailing cheer. Live failure: "Blessed to receive
+// an offer from Community Christian College! ... Go cyclones!" filed a fabricated Iowa
+// State (P4) offer.
+console.log('non-FBS offer target veto');
+t('community college offer with a cheer is vetoed',
+  veto('Blessed to receive an offer from Community Christian College! Go cyclones!'));
+t('scholarship from a small college is vetoed',
+  veto('Blessed to receive a scholarship from Santa Monica College to play football'));
+t('non-FBS college "of" form is vetoed',
+  veto('After a great conversation Im blessed to receive an offer from Community College of Philadelphia'));
+t('Ivy League (non-FBS) is vetoed',
+  veto('Blessed to receive an offer from Harvard University!'));
+t('FBS "X University" is NOT vetoed',
+  !veto('Blessed to receive an offer from Auburn University! War Eagle')
+    && !veto('Blessed to receive an offer from Ohio State University! Go Bucks')
+    && !veto('Blessed to receive an offer from Iowa State University! Go Cyclones')
+    && !veto('Blessed to receive an offer from the University of Alabama! Roll Tide')
+    && !veto('Blessed to receive an offer from the University of Georgia! Go Dawgs')
+    && !veto('Blessed to receive an offer from Liberty University! Flames Up')
+    && !veto('Blessed to receive an offer from Notre Dame University! Go Irish'));
+t('a bare college mention does not veto a real FBS offer',
+  !veto('Committed to Alabama. Also taking classes at Community College of Phoenix'));
+t('a handle-tagged FBS offer is not vetoed', !veto('Blessed to receive an offer from @AuburnFootball War Eagle!'));
 
 console.log('offer classification');
 const POS = [

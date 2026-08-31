@@ -256,6 +256,16 @@ by DISPLAY NAME as well as handle ("EHigh Trojans Football" rides @ehstrojanftbl
 contains no "football"), so the tagged recruit is found instead of the post being judged
 ambiguous.
 
+**A non-FBS institution as the offer source is a veto.** "Blessed to receive an offer from
+Community Christian College! … Go cyclones!" names a small non-FBS college as the offer;
+the trailing cheer resolves to Iowa State (the Cyclones) and filed a fabricated P4 offer.
+When the offer verb attaches to an institution-shaped name (…College / …University /
+…Academy / …Institute) that contains **no FBS school surface**, the post is not reporting
+an FBS offer and is rejected — a cheer in it can never be read as the target. It is
+deliberately attached (must sit directly after "offer from"/"offered by"), so a bare
+mention of a college elsewhere never vetoes a real FBS offer, and an FBS school named as
+"X University" (Auburn University, Western Kentucky University) is never vetoed.
+
 **Player identity** (`src/resolve/players.js`) — never merges on name alone. A merge needs
 the name *plus* corroboration (handle, high school, class, state, position); any hard
 conflict blocks it. Ambiguity creates a new record and logs to `data/review.ndjson`.

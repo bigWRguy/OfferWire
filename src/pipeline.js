@@ -10,7 +10,7 @@ import { fetchList, fetchProfile, lagHours } from './collect/x.js';
 import { sweep, configured as searchConfigured, loadCredentials } from './collect/search.js';
 import { allJobs, schoolJobs, backfillJobs, backfillAnchorDate, backfillProgress } from './collect/queries.js';
 import { classify, findClassYear, findPosition, findTaggedRecruit, findReportedName, handleClassYear } from './extract/rules.js';
-import { findSchools, byId, HANDLES, SCHOOLS } from './resolve/schools.js';
+import { findSchools, byId, HANDLES, SCHOOLS, explicitNonFbsOfferTarget } from './resolve/schools.js';
 import { decorateOffers } from './resolve/tiers.js';
 import { extractBatch, enabled as llmEnabled, MODEL } from './extract/llm.js';
 import { indexPlayers, resolve as resolvePlayer, mergeInto, nameKey, fuzzyKey, parseBio, looksLikeRecruit, cleanPersonName } from './resolve/players.js';
@@ -243,6 +243,10 @@ export function prefilter(posts, log = () => {}, audit = null) {
     if (c.hardNegative) { hardNeg++; if (audit) auditReject(audit, 'prefilter', 'hard_negative', p); continue; }
     if (!c.kind) { noSignal++; if (audit) auditReject(audit, 'prefilter', 'unclassified_offer_text', p); continue; }
     const schools = findSchools(text + ' ' + (p.mentions || []).map((m) => '@' + m).join(' ') + ' ' + (p.hashtags || []).map((h) => '#' + h).join(' '));
+    // The post names a non-FBS institution as the offer source ("offer from Community
+    // Christian College"). No cheer in it ("Go cyclones!") may be read as an FBS offer
+    // target — that filed a fabricated Iowa State row for a small-college offer.
+    if (explicitNonFbsOfferTarget(text)) { hardNeg++; if (audit) auditReject(audit, 'prefilter', 'non_fbs_offer_target', p); continue; }
     // No FBS school anywhere in the post and no ambiguous surface -> it cannot be an
     // FBS offer we can attribute, so it is not worth a token.
     if (!schools.length) { noSignal++; if (audit) auditReject(audit, 'prefilter', 'no_fbs_school', p); continue; }
