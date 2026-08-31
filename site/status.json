@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-31T10:12:14.366Z",
+  "generatedAt": "2026-08-31T10:28:37.835Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-08-31T09:43:40.054Z",
+    "at": "2026-08-31T10:28:37.647Z",
     "jobsTotal": 162,
     "sweptThisRun": 36,
     "requests": 36,
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7669558333333333,
-    "p95Hours": 1.5153136111111112,
-    "worstHours": 1.5153136111111112
+    "medianHours": 1.0401416666666667,
+    "p95Hours": 1.5374833333333333,
+    "worstHours": 1.5374833333333333
   },
   "decisionCoverage": {
-    "total": 0,
-    "decided": 0,
+    "total": 19,
+    "decided": 19,
     "complete": true
   },
   "pending": {
@@ -46,57 +46,191 @@
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 443,
+    "completeOffers": 444,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-08-31T10:07:06.081Z",
-      "got": 22,
-      "new": 0,
-      "lag": 8.73
+      "at": "2026-08-31T10:28:37.647Z",
+      "got": 25,
+      "new": 19,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-08-31T10:06:53.939Z",
-    "mode": "backfill",
+    "at": "2026-08-31T10:26:13.288Z",
+    "mode": "live",
     "collection": {
-      "returned": 22,
-      "kept": 0,
-      "duplicate": 22,
+      "returned": 25,
+      "kept": 19,
+      "duplicate": 6,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 14,
+      "rejected": 5,
+      "reasons": {
+        "no_offer_term": 5
+      },
+      "samples": [
+        {
+          "reason": "no_offer_term",
+          "postId": "2094044241299189895",
+          "author": "gunthereagleman",
+          "searchJob": "oklahoma",
+          "text": "Christian leaders just asked Trump to open a legal path for Jewish Canadians getting hunted by antisemitism. Read that again. Canada became so hostile that pastors are asking America to take in Jews. That’s not “diversity.” That’s failure. "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094357739493368212",
+          "author": "s4next_",
+          "searchJob": "texas",
+          "text": "https://t.co/GvLE13vv2C"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094350286261489796",
+          "author": "yuhu2078532",
+          "searchJob": "texas",
+          "text": "美东时间6月3日，世界首富埃隆·马斯克的太空探索技术公司（SpaceX）更新招股书，锁定其首次公开募股的价格为每股135美元，新发行约5.56亿股，共计筹集约750亿美元。 https://t.co/sUrUz22ApV"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094357096003199441",
+          "author": "thedebriefing17",
+          "searchJob": "washington",
+          "text": "https://t.co/9yedvV2ny7"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094362434312032442",
+          "author": "farmerstrend",
+          "searchJob": "class:2026",
+          "text": "Kenya's avocado expansion 2026: one million trees campaign and 42,000 seedlings for Migori farmers as Kenya eyes China, Japan markets. Learn about export opportunities, regulations, and production growth. https://t.co/wxXPkokdxr"
+        }
+      ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 1,
+      "rejected": 13,
+      "reasons": {
+        "bare_mention_requires_llm": 6,
+        "multiple_resolved_schools": 2,
+        "school_not_resolved_confidently": 5
+      },
+      "samples": [
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094370848001917331",
+          "author": "george_franchi",
+          "searchJob": "oklahoma",
+          "text": "Grok: More than 2,000 Jewish Canadians have expressed interest in relocating, with offers of support from U.S. states like Oklahoma, reflecting broader concerns over safety and institutional responses north of the border."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094362751661453713",
+          "author": "gulfshoresnews",
+          "searchJob": "ole-miss",
+          "text": "Who Should New Mobile Bridge Be Named For? VOTE The planned I-10 Mobile River Bridge is set to become an architectural landmark, featuring the second-highest deck of any bridge over a navigable waterway in the United States, behind only the"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094367720745894331",
+          "author": "justarolloftape",
+          "searchJob": "penn-state",
+          "text": "The chart in that post is drawn from a March 2025 survey of 1,005 Jewish Israelis. It was commissioned by Penn State historian Tamir Sorek, fielded by the Israeli firm Geocartography Knowledge Group, and first reported in Haaretz. The quest"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094351506807910856",
+          "author": "liveitloud",
+          "searchJob": "texas",
+          "text": "Are we talking about the same Ken Paxton whose office offered a plea deal to a man accused of repeatedly sexually abusing a young boy...initially for just ONE DAY in jail? The judge rejected that deal, and the final agreement resulted in 30"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094365965857247312",
+          "author": "sophiaz358",
+          "searchJob": "usc",
+          "text": "@PresleyDelance @LincolnRiley @uscfb @CoachChadSavage @BrandonHuffman @teamlillard7on7 @flyguyhuey5 @Carterfor6 @GregBiggins @Rivals @247recruiting @LOLakersFB Congrats on the offer-USC’s a big stage. What position do you play?"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094357662922055871",
+          "author": "jamesh13",
+          "searchJob": "usc",
+          "text": "@joshfromhere @slmandel “He said anytime, anywhere” and then USC proceeded to say they wanted to play in Mexico City, week 0, and have the game be streamed on Netflix. The travel would have conflicted with ND’s week one match up. It was an "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094356565503438859",
+          "author": "irishpilgrim73",
+          "searchJob": "usc",
+          "text": "@FightOnRusty It was an offer USC knew ND couldn’t accept and you know it. Your own alumni know it. Riley is a “scared coward”!!!"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094353887754940462",
+          "author": "robertj94638032",
+          "searchJob": "usc",
+          "text": "@jcperio1 Stop with the USC offer crap ,they knew that week zero couldn't happen so they threw that out there for that reason This was all USCs doing even people at USC know it. USC ruined the pac 12 and did the same to a classic rivalry"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094368866323366250",
+          "author": "jcdurbant",
+          "searchJob": "vanderbilt",
+          "text": "WHAT BEST WAY NOT TO PAY BACK A DEBT ? (Guess what happens to a people who for religious reasons starts schooling its children over a thousand years before everyone else... and then not only picks up a disproportionate number of Nobel prize"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094366680466198635",
+          "author": "dinoleadingnews",
+          "searchJob": "washington",
+          "text": "🚨 BREAKING: Taliban offers U.S. companies access to Afghanistan's $1T mineral wealth in exchange for sanctions relief &amp; frozen assets release. FM Muttaqi welcomes U.S. investment in mining, infrastructure, agriculture. A geopolitical c"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094349796383334527",
+          "author": "h_voice3",
+          "searchJob": "washington",
+          "text": "The New York Times has written that the United States has learned nothing from its defeat in Afghanistan, and that its conflict with Iran is now turning into another prolonged war. The war in Afghanistan ended five years ago. But after the "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094349487611502893",
+          "author": "anishmoonka",
+          "searchJob": "washington",
+          "text": "Ina Garten was 30, working in a federal budget office in Washington, writing policy papers on nuclear energy. One April morning in 1978 she was reading the New York Times at her desk and saw an advertisement. A 400 square foot specialty foo"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094354447459619013",
+          "author": "delly_lab",
+          "searchJob": "class:2026",
+          "text": "Crypto Soccer Prediction Markets These are peer-to-peer event contract platforms (you trade “Yes/No” shares on outcomes; prices reflect implied probability). No traditional house edge like sportsbooks. Platform Key Features for Soccer Offic"
+        }
+      ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 1,
-      "swept": 1,
+      "jobs": 162,
+      "swept": 36,
       "failed": 0,
-      "requests": 2,
+      "requests": 36,
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 13,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-08-31T10:12:14.369Z"
+    "status rebuilt locally from current store on 2026-08-31T10:28:37.836Z"
   ]
 }
