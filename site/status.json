@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-31T15:58:41.480Z",
+  "generatedAt": "2026-08-31T16:13:46.221Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-08-31T15:58:41.264Z",
+    "at": "2026-08-31T16:13:45.914Z",
     "jobsTotal": 162,
-    "sweptThisRun": 33,
+    "sweptThisRun": 34,
     "requests": 35,
     "fullSweepCycles": 5
   },
@@ -27,20 +27,15 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [
-    {
-      "id": "wake-forest",
-      "hours": 2.3
-    }
-  ],
+  "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7891072222222222,
-    "p95Hours": 2.0404697222222223,
-    "worstHours": 2.3476505555555556
+    "medianHours": 0.6833463888888889,
+    "p95Hours": 2.0353222222222223,
+    "worstHours": 2.0353222222222223
   },
   "decisionCoverage": {
-    "total": 63,
-    "decided": 63,
+    "total": 99,
+    "decided": 99,
     "complete": true
   },
   "pending": {
@@ -49,386 +44,389 @@
   "profileResolution": {
     "cached": 28
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 3,
   "quality": {
-    "completeOffers": 451,
+    "completeOffers": 453,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-08-31T15:58:41.263Z",
-      "got": 90,
-      "new": 63,
-      "lag": 0.07
+      "at": "2026-08-31T16:13:45.914Z",
+      "got": 145,
+      "new": 99,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-08-31T15:56:18.549Z",
+    "at": "2026-08-31T16:11:24.228Z",
     "mode": "live",
     "collection": {
-      "returned": 90,
-      "kept": 63,
-      "duplicate": 27,
+      "returned": 145,
+      "kept": 99,
+      "duplicate": 46,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 39,
-      "rejected": 24,
+      "accepted": 65,
+      "rejected": 34,
       "reasons": {
-        "no_offer_term": 13,
-        "no_fbs_school": 8,
-        "hard_negative": 3
+        "no_fbs_school": 23,
+        "no_offer_term": 9,
+        "non_fbs_offer_target": 2
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2094423907680100655",
-          "author": "cwb_jp",
-          "searchJob": "texas-tech",
-          "text": "ソフトバンクのデータセンター事業がOpenAI誘致のために提示した55億ドルの特典 SBエナジーの今回の合意は、プロジェクト開発を促進するため、同社と人工知能企業との財政的な関係を強化するものである。 https://t.co/LtwHwtqP4H"
+          "reason": "no_fbs_school",
+          "postId": "2094433133055627483",
+          "author": "ericldaugh",
+          "searchJob": "michigan",
+          "text": "🚨 WTF?! MI Senate candidate Abdul El Sayed (D) is DOUBLING DOWN on justifying a terror attack against jews in a local synagogue El Sayed said \"hurt people, hurt people\" in response to the attack 😠 Now he's doubling down: \"My comments migh"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094419893953376526",
-          "author": "hubgiri",
-          "searchJob": "texas-tech",
-          "text": "Congratulations... Mohit for your job offer!! 🎉 #placement2026 #ITjobs #placements #javafullstack #javafullstackdeveloper https://t.co/8Ts8suXVz3"
+          "postId": "2094435780286411173",
+          "author": "wccbcharlotte",
+          "searchJob": "charlotte",
+          "text": "January may be known for fresh starts, but September can offer another opportunity to reset and refocus before the end of the year. https://t.co/FLl2vu7u9G"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094429006959419736",
+          "author": "leonusa88",
+          "searchJob": "coastal-carolina",
+          "text": "https://t.co/BQLaEUw9nC"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094451053085299124",
-          "author": "justinherzig",
-          "searchJob": "wake-forest",
-          "text": "going to be running a pretty interesting experiment this year to measure how bad the sportsbooks \"Cash Out\" offers are more detals in the article https://t.co/Zm5U74VfZI"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094450999410770081",
-          "author": "andrew51786",
-          "searchJob": "wake-forest",
-          "text": "https://t.co/kSVxBqRjwL"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094437553026007324",
-          "author": "ogmayank",
-          "searchJob": "wake-forest",
-          "text": "https://t.co/3qQkQjraKW"
+          "postId": "2094447707775434910",
+          "author": "scapms79",
+          "searchJob": "south-carolina",
+          "text": "🎓 Deadline this Friday! The 2026 SCAPMS Phillip M. Fields Scholarship offers $5,000 to support undergraduate &amp; graduate students studying #aquaticplants. 🌿💧 📅 Apply by Sept. 4, 2026! Help spread the word! 👉 Learn more &amp; apply: "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094427268969828851",
-          "author": "wakeupnj",
-          "searchJob": "wake-forest",
-          "text": "This little cottage is adorable in Ocean Grove NJ, only is a 340 sq. ft. studio home but you can see the beach from the front yard. The asking price was $399K, and got 12 offers. Idk, just has a charm compared to those huge 🏘️ https://t.co"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094380706415681793",
-          "author": "cherokeeowl",
-          "searchJob": "wake-forest",
-          "text": "They put 4,124 people in a hockey barn in Hershey, Pennsylvania. No cameras. No national broadcast. A 25-year-old named Wilt Chamberlain scored 100 points anyway. 36 field goals. 28 free throws. 48 minutes. Two fouls. The Knicks spent the w"
+          "postId": "2094442130508849542",
+          "author": "tennessee_09",
+          "searchJob": "tennessee",
+          "text": "@RaymondIbrahim5 “Over the years, a variety of people have independently compared Islam to the mafia. During a 2014 debate on HBO’s Real Time, Bill Maher famously called Islam “the only religion that acts like the mafia, that will f***ing k"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094447001765118104",
-          "author": "kingmeatystopit",
-          "searchJob": "kentucky",
-          "text": "@MiladHeat @JonC___ More money in my cover photo than ur net worth. I offered the ebt and you declined. You must be new to x as you have to follow for DMs"
+          "postId": "2094428782098547109",
+          "author": "tennessean",
+          "searchJob": "tennessee",
+          "text": "Will Levis offers farewell statement to Nashville, Tennessee Titans https://t.co/gzJwA49xRo"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094443227910701484",
-          "author": "sportsdad_",
-          "searchJob": "kentucky",
-          "text": "@EricLDaugh My conservative town in Kentucky has a Facebook grouped that bullied this pussy out of building one here. Some places dont want an overhyped gas station with mid bbq popping up in their towns. We have plenty of gas stations and "
+          "postId": "2094447409417875829",
+          "author": "elitetexastrac1",
+          "searchJob": "texas",
+          "text": "Did you know students can graduate high school with an associate's degree through dual enrollment? Many community colleges offer free tuition, putting students 2 years ahead before college. Don't miss this advantage! #DualEnrollment #Colleg"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094439429335056440",
-          "author": "rogertodger4",
-          "searchJob": "maryland",
-          "text": "Yes - there was someone here in Maryland who owns Mountain Branch Golf Course (Executive course, Clubhouse, Driving range) who on the sneak arranged to sell the property for a data center. What a fk you to all of the surrounding residents w"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2094437104512028784",
-          "author": "woodsoncenter",
-          "searchJob": "maryland",
-          "text": "So many of you are new to the Woodson Center and our work, so we thought we'd re-introduce our Voices of Black Mother's United initiative and the women that lead it, starting with Momma's Safe Haven's Beverly Smith! Beverley serves as lead "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094437419458408732",
-          "author": "loopingcloud",
-          "searchJob": "nebraska",
-          "text": "https://t.co/G0Olp5A0UR"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094425418162192623",
-          "author": "loopingcloud",
-          "searchJob": "oklahoma",
-          "text": "https://t.co/G6mGpxUkQe"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094422656930242928",
-          "author": "francesafetytra",
-          "searchJob": "notre-dame",
-          "text": "Shakespeare and Company is one of Paris’s most famous English-language bookshops, sitting just across the Seine from Notre-Dame. The current store was opened in 1951 by George Whitman, but it carries the spirit of the original shop founded "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094266903204434431",
-          "author": "openclaw",
-          "searchJob": "akron",
-          "text": "OpenClaw 2.0 has arrived https://t.co/52iWXJQvCy"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094451154910367851",
-          "author": "africa_lix",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/yFCNo7cQaB"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094272776995811353",
-          "author": "jasonlavigneab",
-          "searchJob": "arkansas-state",
-          "text": "Wrong. This is probably one of those foreign interference accounts that the CBC likes to point to. Your information is completely false, and stupid statements like this hurts the Alberta Independence movement. https://t.co/zn841UNh9r"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2094440188999287012",
-          "author": "danthezionist",
-          "searchJob": "arkansas-state",
-          "text": "@RightWingCope The Palestinians were already offered a state multiple times and turned it down so they could keep attacking Israel. https://t.co/nBQeFehmfT"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094430447782740388",
-          "author": "lihuohuo2507",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/JVjwrOgSlY"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094427987760619932",
-          "author": "ixora_trade",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/ZOtBSGpqH6"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2094446751566479678",
-          "author": "tntjohn1717",
-          "searchJob": "buffalo",
-          "text": "Chapter Six: The Comfort Side of the Great Gulf When Old Testament saints died, they did not ascend into the third heaven as members of Christ’s body, because Christ’s body had not yet been formed and the blood of the new covenant had not y"
+          "postId": "2094444852725284894",
+          "author": "txmusicoffice",
+          "searchJob": "texas",
+          "text": "Sound & Vision offers an inside look at the music business, bringing Austin’s rising artists face-to-face with established industry professionals. After the Friday showcase, the four finalists will receive one-on-one career insight and feed"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094440905746874626",
-          "author": "bullslead",
-          "searchJob": "buffalo",
-          "text": "@FuriousStyles92 Jamal Collier's article painted AK negatively. Fine. But with all the Intel ownership had, they planned to offer Billy coaching and fo duties a yr after letting AK make decisions that most were against. How would that be a "
+          "postId": "2094439612114506117",
+          "author": "txrealitycheck",
+          "searchJob": "texas",
+          "text": "@PBOnPoint That would depend on the state offering a plea agreement to something below the death penalty. The defendant doesn't determine the state's offer and sometimes the state intends toto make an example in a slam dunk case where they "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2094438186202136697",
-          "author": "mrsmartcontract",
-          "searchJob": "buffalo",
-          "text": "$PLTR and Michael Burry's position. https://t.co/6MVIpDD9Y8"
+          "postId": "2094415771770159222",
+          "author": "byronyork",
+          "searchJob": "texas",
+          "text": "A longtime Iowa social conservative activist and talk show host on the Texas Senate race."
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094432515494760923",
-          "author": "markymark281809",
-          "searchJob": "buffalo",
-          "text": "@SellTheTeamFC Yo give this man the bag if he gets offered a hc job so he stays"
+          "postId": "2094455355660980400",
+          "author": "arabcenterdc",
+          "searchJob": "washington",
+          "text": "📄 Israeli political parties offer no alternative to security and military approaches used by the government. Across political parties, think tanks, and media in #Israel there is a consensus in favor of war. Read more 👇 https://t.co/lmmy8w"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094451444350906681",
+          "author": "washtimes",
+          "searchJob": "washington",
+          "text": "Following Dolly Parton's passing at age 80, her sister Stella revealed that the country music icon offered to let doctors test experimental drugs on her during her cancer battle in hopes of helping future patients. https://t.co/AQHVVv4RAi"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094451009347002464",
+          "author": "jamesofnorthend",
+          "searchJob": "washington",
+          "text": "@BradDirks @calisurfsup We can't defend any of it. We're allowed to capitalize on it at the leisure of the United States of America. That Canadians actually turned down an offer to, for once, actually exert some real power in Washington, is"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094446519424254295",
+          "author": "tgg_washington",
+          "searchJob": "washington",
+          "text": "Personalization in Customer Relationship Management (CRM) is not just a trendy buzzword; it's an essential component for success. By tailoring messages and offers based on customer behavior and preferences, businesses can enhance engagement"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094445755285307520",
+          "author": "susannetrimbath",
+          "searchJob": "washington",
+          "text": "Despite my misgivings about anyone in Washington giving a crap about household investors -- I belive they are happier making money on the schemes and/or taking donations from those who do -- I offer the following for your consideration. Iro"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2093366217020936605",
+          "author": "ironape_mmtlp",
+          "searchJob": "washington",
+          "text": "Ms. Trimbath @SusanneTrimbath I have written an Open Letter to President Trump regarding US Veterans who are financial hostages in the #MMTLP fiasco. I would be honored if you would read the letter and share it on X and with your networks i"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094457738688409820",
+          "author": "medicalcollege",
+          "searchJob": "wisconsin",
+          "text": "In this second video of a three-part series, MCW students Yanling Chen and Michaela Cortes offer gratitude for their immersive research experience after arriving in Nepal. As Kohler Scholars, they were hosted by MCW global health partner Dh"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094457114030653829",
+          "author": "hunter_hicks10",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "#AGTG After a great conversation with Coach Snyder I am blessed to receive my 7th offer from @kwufootball! Go Coyotes! https://t.co/yB87ulJZtd"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094457023072993686",
+          "author": "dakotam_77",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "I am blessed to receive my 3rd offer from @Hiram_Football. Thank you @WillLay_III, and @CoachDup__ @roger_beitel https://t.co/4MrmdYUWj6"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094456710035300837",
+          "author": "ponder_morgan",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive the first day 🧡"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094454899060724115",
+          "author": "teddy_aiv",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "I am blessed to receive a game day invite from @Wagner_Football. Thank you @tommasella for the invitation. Looking forward to watching the team compete. @mzpafootball @CoachStaySharp https://t.co/nBWQOOkBHn"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094453094545293527",
+          "author": "snoopmarco",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great visit with @MStateSpartanBB And @dcresap05 I am blessed to receive an offer from M State Fergus falls. Thank you for giving me an opportunity to play at the next level. Extremely blessed! https://t.co/7WWtSRiEWc"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2094448770553446564",
+          "author": "anthonyksanchez",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with @FBCoachATaylor I am blessed to receive an offer from Monmouth College! @HLR_FOOTBALL @CoachShen @RollScotsFB @mikeclarkpreps @EDGYTIM @CoachBigPete https://t.co/Dh5obkDg2y"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094446960774164677",
+          "author": "katherynvruwink",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "AWWW!! Aaron 🥹💖 my heart is soo beyond overfilled🙈🥰 YOU ARE AMAZING 🤩 & W YOUU AS ALWAYS🔥 THANK YOU SOOO SO SO EXTREMELY MUCH🫶🏻😁 it means the absolute world to me, every single time 😍😭💖 how could I ever thank you even NEARLY eno"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 39,
+      "accepted": 2,
+      "rejected": 63,
       "reasons": {
-        "school_not_resolved_confidently": 20,
-        "bare_mention_requires_llm": 16,
-        "multiple_resolved_schools": 3
+        "bare_mention_requires_llm": 25,
+        "multiple_resolved_schools": 8,
+        "school_not_resolved_confidently": 27,
+        "reporter_missing_player_name": 1,
+        "reporter_missing_position": 1,
+        "player_missing_class_year": 1
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094424847149306119",
-          "author": "markbdelaney",
-          "searchJob": "texas-tech",
-          "text": "Most of the defense tech founders or LMM PE-backed CEOs we work with don't have much experience in hiring senior members of their team (VPs, C-suite, P&L owning GM, etc). Example: One of our clients is doing an industry rollup. They have a "
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094457929524978177",
+          "author": "krisco7791",
+          "searchJob": "michigan",
+          "text": "Michigan currently has 357,000 people enrolled in ACA health coverage. More than 130,000 people dropped coverage since the Biden administration. Michigan also has close to 160,000 undocumented immigrants in the state. Do you think maybe the"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094457829142729134",
+          "author": "sgtnewsnetwork",
+          "searchJob": "michigan",
+          "text": "WAKE UP CALL:⚠️WTF moment as Radical Islamist Far-Left Michigan Senate Candidate Socialist-Democrat Abdul El-Sayed is DOUBLING DOWN on justifying a terror attack against jews in a local synagogue☪️🇮🇱 El Sayed said \"hurt people, hurt peopl"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094456421475828194",
+          "author": "fonsflacko",
+          "searchJob": "michigan",
+          "text": "🚨 The Donald Trump/Epstein Files bookmobile is set to begin a tour tied to GOP midterm convention beginning September 8th in Dallas, TX. The Epstein/Trump files bookmobile will begin a tour Sept. 8 in Dallas, just ahead of the Republican m"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094450236131353062",
+          "author": "np4football_ot",
+          "searchJob": "michigan",
+          "text": "J.C. Wessel-TE-2028 @UMichFootball Offer #CFB"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094440963880144974",
+          "author": "mrbriggens",
+          "searchJob": "michigan",
+          "text": "@benny_614 As a former decades long Washington Husky fan, they don't offer me anything any longer. Michigan and Rutgers are not conference games. NIL and the portal made it worse. I guess I am as loyal as the players, coaches and administra"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094437889329213797",
+          "author": "mifairelections",
+          "searchJob": "michigan",
+          "text": "🚨 The Auditor General’s new voter-roll report is being misrepresented. The Secretary of State’s office is calling the report proof that Michigan’s voter rolls are “secure and accurate.” But the report itself says it was not a full performa"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094435498647261655",
+          "author": "jimmy_hey_hey",
+          "searchJob": "michigan",
+          "text": "@RepRashida you have offered exactly zero solutions or ways to even fund the things you promise. reconcile that for a michigan voter please."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094434163633913994",
+          "author": "elizabe94737171",
+          "searchJob": "michigan",
+          "text": "Jewish Michigan AG Too Terrified to Attend Her Own Democrat Convention as Antisemitism Devours Democrat Party https://t.co/B6PAe8rncZ via @pamelageller Islam hates Jews as they refused Muhammad's offer to be their final prophet. He then evi"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2094424821291462844",
-          "author": "chumchumsky1",
-          "searchJob": "texas-tech",
-          "text": "It is an affront to the dignity of Africans -- and in particular, this African and his heritage -- that a group of perverts in America would seek to desecrate the memory and experience of life in Africa by fabricating execrable lies through"
+          "postId": "2094450969681564037",
+          "author": "trusselll",
+          "searchJob": "charlotte",
+          "text": "@antants6 Mans said im an undrafted free agent who didn’t play college ball but im gonna see if rams will match the 49ers offer 😂. His agent the same nigga who was running them weak ass drills"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2094421969592537293",
-          "author": "gammsapp",
-          "searchJob": "texas-tech",
-          "text": "Bujeti Perks is looking for new partners! If your business offers discounts, exclusive deals, free perks or special benefits, this is your chance to get involved. Travel, tech, finance, hospitality, lifestyle &amp; more. Register here: http"
+          "postId": "2094443955798643198",
+          "author": "49erswebzone",
+          "searchJob": "charlotte",
+          "text": "From yesterday: #49ers insiders offer conflicting jokes about fake player #FTTB Read: https://t.co/mrR9anuxSC"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094420063864447092",
-          "author": "dmlevitt",
-          "searchJob": "texas-tech",
-          "text": "Why it's good to be #OpenAI. Co owned by #Japan's #Son offers $5.5B lure to land it as a #datacenter tenant. #MasayoshiSon #Softbank #SBEnergy #IPO #realestate #CRE #warehouse #AI #tech https://t.co/0LyO68qN22 via @WSJ"
+          "reason": "reporter_missing_player_name",
+          "postId": "2094442191733072139",
+          "author": "macandboneshow",
+          "searchJob": "charlotte",
+          "text": "In Weekend Conclusions, they recap another road win for Charlotte FC in Atlanta, Bone talks about his first football weekend with Murphy, Mac reviews a new horror film, and a listener has offered to fight the guys 🎙️: https://t.co/yMAHmqSf"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094453229006582038",
-          "author": "toriloacademy",
-          "searchJob": "wake-forest",
-          "text": "If you could wake up tomorrow with an offer letter from any company in the world, where would it be? 💭✨ Whether your dream is a global tech giant, a fast-growing startup, or building your own venture, acquiring the right digital and tech s"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094430423770116488",
+          "author": "traffalex",
+          "searchJob": "charlotte",
+          "text": "🔒 CYBERSECURITY, PRIVACY & OPEN SOURCE ROUNDUP — August 31, 2026 1️⃣ CROWDSTRIKE SHIPS FALCON IQ WITH 50+ AI AGENTS CrowdStrike has launched Falcon IQ, a system built from more than 50 AI agents that pushes security operations from passive"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094453044201336923",
-          "author": "anan91186",
-          "searchJob": "wake-forest",
-          "text": "i know there are probably many tiny secrets in your heart right now. i just hope that everything you’re keeping inside is made up of happy things. i hope that in the deepest part of your heart, there isnt too much sadness. i hope you wont k"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094425713835188443",
+          "author": "domiciliumfunds",
+          "searchJob": "charlotte",
+          "text": "Regional residential markets like Charlotte and Tampa may offer the value your portfolio needs. With over $110M raised, we focus on smart residential real estate opportunities. Explore our fund structures. #RealEstate https://t.co/loU5Egoby"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094452983144550734",
-          "author": "nihatipekci",
-          "searchJob": "wake-forest",
-          "text": "own to build an influencer department without hiring anyone: > paste your website link into https://t.co/tGGSajRZJF > it finds thousands of micro creators like the ones selling for your competitors > emails included > it scores them and sen"
+          "reason": "multiple_resolved_schools",
+          "postId": "2094454825878470762",
+          "author": "whitewhalere",
+          "searchJob": "coastal-carolina",
+          "text": "New Smyrna Beach offers two bridges to the beachside: the South Causeway (faster, no draws) and the North Causeway (drawbridge, leads to Flagler Ave). Enjoy coastal living with access to the Indian River and Mosquito Lagoon's red fishing. #"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094446829236871561",
-          "author": "hindu_in_middle",
-          "searchJob": "wake-forest",
-          "text": "Open your eyes Hindus This Amrikan slaves, Wadia-funded @RSSorg Sangh parivar is our biggest enemy @INCIndia @RahulGandhi (son of Christian mother and expelled from Hindu religion) and a Neo Buddhist @kharge are demonising Hindus and Hindui"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094444600052396148",
-          "author": "astrodev15",
-          "searchJob": "wake-forest",
-          "text": "FORGET THESE DOSHAS AND USE THESE TRICKS INSTEAD 1. Recite Hanuman Chalisa on Tuesdays — cools Mangal fire, steadies anger, and protects marriage energy. 2. Donate black sesame, mustard oil, or shoes on Saturdays — softens Shani, Sade Sati "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094444529734533177",
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094448713900949670",
           "author": "josiahjdp",
-          "searchJob": "wake-forest",
-          "text": "We divided the biscuits into portions small enough to make hunger feel insulting. Alina insisted that I eat more because I was doing most of the climbing and cutting, but on the third day I caught her pretending she had already eaten when h"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094430409782071765",
-          "author": "cullumsmith",
-          "searchJob": "wake-forest",
-          "text": "The Holy Name Society Roadmap for personal holiness 💪 After joining the HNS, I was given a framework of daily habits to help cast off sin and cultivate virtue. It was such a wealth of practical advice, and I am privileged to share some of "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094424900715131216",
-          "author": "rocokingdomedge",
-          "searchJob": "wake-forest",
-          "text": "Flame-Chaser, Burning Devotion — The Tale of Blazehound🔥 Across the hills and open wilds of Carlocia, you will often spot packs of Blazehound roaming together. Evolved from Growlithe, these fire‑spirited jinies bear their iconic fluttering"
+          "searchJob": "coastal-carolina",
+          "text": "She apologized for disappearing. The board had attempted to use our survival as a campaign, and several members had questioned whether my future employment could be influenced by our personal connection. Alina had refused interviews, transf"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094419828991746176",
-          "author": "cherokeeowl",
-          "searchJob": "wake-forest",
-          "text": "His father built the course with a shovel. Milfred “Deacon” Palmer was 17 when he joined the construction crew at Latrobe Country Club in 1921. He stayed as greenskeeper, then head pro. Polio left him with a limp and a brace. At night he wo"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094446538495852687",
-          "author": "graphicgoggs",
-          "searchJob": "kentucky",
-          "text": "Nobody sensible is arguing America should ban data centres, Gunther. The question is whether communities should accept every project on whatever terms the developer demands. Data centres can bring investment, tax revenue and jobs. They can "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094443278171353292",
-          "author": "patrickcasalenv",
-          "searchJob": "kentucky",
-          "text": "Kentucky Downs opened Saturday. Many don’t like wagering here for some reason. They run turf exclusively, they offer the largest purses in North America and the course is very much European style! They draw the best Jockeys in the sport and"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094433264056320311",
-          "author": "annawshepherd",
-          "searchJob": "kentucky",
-          "text": "KAGC offers scholarship for Kentucky students who study communications https://t.co/eLRBXRxUzp"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094453408053039354",
-          "author": "fosterreub81830",
-          "searchJob": "lsu",
-          "text": "@BreidenFehoko Thank god our administration hates Lane, and didn't offer him the job after Saban retired. I cannot imagine having a this volatile of a coach leading my program. And be ready, because one day he'll do the same thing to LSU th"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094439238787813572",
-          "author": "gpintn1",
-          "searchJob": "lsu",
-          "text": "@AdamSchefter @RapSheet So LSU couldn't match the offer?"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094433684166177268",
-          "author": "jesssayin517",
-          "searchJob": "lsu",
-          "text": "I read your response and I maybe misinterpreting it but I feel that you thought I was being negative regarding families and trying to navigate healthcare…100% opposite stance of that. My life is and has been dedicated to providing for patie"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094432844395225158",
-          "author": "lsusportsfans",
-          "searchJob": "lsu",
-          "text": "@TheStevenWillis Dawg u refuse to talk about ole miss huh?? If we offer u a job at lsu ur coming huh?"
+          "postId": "2094438653301002319",
+          "author": "vvberyl",
+          "searchJob": "coastal-carolina",
+          "text": "Just a few kilometers from the park, an ancient ferry terminal offers another way to experience coastal tourism. Here, children can enjoy slides and swings and even feed alpacas up close."
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2094423707573785079",
-          "author": "djjsilkfarm",
-          "searchJob": "maryland",
-          "text": "What is the process to obtain a mail-in ballot? To obtain a mail-in ballot, registered voters must submit an application to their **local election office** or **county board of elections**, typically via **online**, **mail**, or **in-person"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094453724424847462",
-          "author": "puntandrally",
-          "searchJob": "minnesota",
-          "text": "Minnesota projects 6-6, but the range is real. Iowa (+4.5), Wisconsin (-1.5), and UCLA (-3.5) are all coin flips. Win those toss-ups and the Gophers are bowl-comfortable at 9-3. Drop them and it's a 4-8 disaster. Schedule Strength No. 37 of"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094435174490755495",
-          "author": "ntvnews",
-          "searchJob": "nebraska",
-          "text": "Nebraska State Fair birthing pavilion offers firsthand look at animal births https://t.co/iuw20n30ts"
+          "postId": "2094425633367450079",
+          "author": "trvltastetour",
+          "searchJob": "coastal-carolina",
+          "text": "Beach days, boardwalk strolls, coastal flavors, and a little tax-free shopping along the way. 🌊☀️ Rehoboth Beach & Dewey Beach, Delaware offer the perfect mix of seaside relaxation and plenty to explore—from beautiful coastline and outdoor"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2094434327845068940",
-          "author": "insidehorn247",
-          "searchJob": "northwestern",
-          "text": "With support from donors and in co-operation with Somaliland’s ministry of water development, #Qatar Charity (QC) has launched the first seawater desalination plant in northwestern #Somaliland. The project aims to provide a sustainable sour"
+          "postId": "2094425171016769865",
+          "author": "deseagrant",
+          "searchJob": "coastal-carolina",
+          "text": "The annual Delaware Coastal Cleanup offers volunteers an opportunity to help make a difference for Delaware’s shoreline and waterways while joining an international effort to clean up the world’s waters. Register by Sept. 8th! https://t.co/"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094433869088899470",
+          "author": "lsusports1213",
+          "searchJob": "ole-miss",
+          "text": "@FreeBirdWorld69 @keoncolemanknm @BlackmanHair According to Ole Miss fans, they matched the offer. So, it clearly wasn’t about the money."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094455248660103241",
+          "author": "candidyak",
+          "searchJob": "south-carolina",
+          "text": "Check the deductible before you file. $500 against a $600 job isn't a claim, it's paperwork. AAA notes Florida, Kentucky and South Carolina may offer zero-deductible glass coverage if you carry full comprehensive. Read your declarations pag"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094454318833279352",
+          "author": "eteda",
+          "searchJob": "tennessee",
+          "text": "When it comes to recreational boat manufacturing in #EastTN, our region is making waves! As a hub for more than 15 boat manufacturers, including industry leaders, such as @SeaRayBoat, @malibuboats, and @mcboatcompany, the region offers a sk"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094442692755259715",
+          "author": "exit_prime",
+          "searchJob": "tennessee",
+          "text": "In Middle Tennessee, sellers notice when buyers come in with a full pre-approval, it's real proof you’re ready to move. Would you feel more confident making offers with one in hand? https://t.co/kjcWZfNJ3b"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094441599455371709",
+          "author": "wbbj7news",
+          "searchJob": "tennessee",
+          "text": "Secretary of State’s website offers summaries of proposed Tennessee Constitutional Amendments https://t.co/DzEucMN0OC"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094457062755553738",
+          "author": "jgahteaux",
+          "searchJob": "texas",
+          "text": "@WellsJorda89710 You're saying that Paxton is the best that Texas has to offer? Man, what a crap state."
         }
       ]
     },
@@ -436,21 +434,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 33,
-      "failed": 2,
+      "swept": 34,
+      "failed": 1,
       "requests": 35,
       "errors": [
-        "michigan: SearchTimeline HTTP 404 (slice left pending)",
-        "central-michigan: rate limited"
+        "liberty: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 39,
-      "brandNewOffers": 0
+      "acceptedEvidence": 2,
+      "rejectedCandidates": 63,
+      "brandNewOffers": 2
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-08-31T15:58:41.480Z"
+    "status rebuilt locally from current store on 2026-08-31T16:13:46.222Z"
   ]
 }
