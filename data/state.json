@@ -17283,17 +17283,18 @@
     "2094199234530529319",
     "2094197315032543571",
     "2094189110797693190",
-    "2094188928064434688"
+    "2094188928064434688",
+    "2094242965166403832"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-08-31T01:58:17.239Z",
-      "got": 757,
-      "new": 57,
-      "lag": 0.04
+      "at": "2026-08-31T02:10:27.725Z",
+      "got": 235,
+      "new": 1,
+      "lag": 0.23
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -25294,14 +25295,14 @@
   "lastRateLimitAt": "2026-08-30T10:26:03.959Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-08-31T01:58:17.239Z",
+    "at": "2026-08-31T02:10:27.726Z",
     "jobsTotal": 162,
-    "sweptThisRun": 36,
-    "requests": 36,
-    "fullSweepCycles": 5
+    "sweptThisRun": 10,
+    "requests": 11,
+    "fullSweepCycles": 17
   },
   "backfill": {
-    "at": "2026-08-31T01:58:17.239Z",
+    "at": "2026-08-31T02:10:27.726Z",
     "days": 30,
     "chunkDays": 30,
     "totalWindows": 136,
@@ -25312,359 +25313,59 @@
     "remainingTeamDays": 0
   },
   "backfillCoverage": {
-    "at": "2026-08-31T01:58:17.239Z",
+    "at": "2026-08-31T02:10:27.726Z",
     "jobsTotal": 0,
     "sweptThisRun": 0,
     "requests": 0
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
   "lastAudit": {
-    "at": "2026-08-31T01:56:04.011Z",
+    "at": "2026-08-31T02:09:33.724Z",
     "mode": "all",
     "collection": {
-      "returned": 757,
-      "kept": 57,
-      "duplicate": 696,
-      "tooOld": 4,
+      "returned": 235,
+      "kept": 1,
+      "duplicate": 232,
+      "tooOld": 2,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 38,
-      "rejected": 19,
+      "accepted": 0,
+      "rejected": 1,
       "reasons": {
-        "no_offer_term": 6,
-        "no_fbs_school": 10,
-        "hard_negative": 3
+        "no_offer_term": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2094236248093167939",
-          "author": "militarydotcom",
+          "postId": "2094242965166403832",
+          "author": "upscprelim",
           "searchJob": "liberty",
-          "text": "The telescope — named after the late Nancy Grace Roman, NASA’s first chief astronomer — will take more than three months to reach its destination. https://t.co/1DdskjgXcL"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094240334645452919",
-          "author": "micheleinedina",
-          "searchJob": "oregon",
-          "text": "If you can swing it on a Thursday, visit the Lord himself in the Blessed Sacrament at Christ the King in Milwaukie (https://t.co/vuQS0tMlTe) or at St. Philip Benizi in Oregon City (https://t.co/FR0Q4Uoifc). All are welcome. In Adoration, ta"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094239747879411849",
-          "author": "mrplowsd",
-          "searchJob": "arizona",
-          "text": "@mdrizzy22 This was my “college” experience. I had two surgeries out of HS. I’ve beat up on guys from D1 to JuCo. Igot Indy ball offers out of here but wasn’t surgically ready yet. When I was ready, I was too old. This one hurt. I have 8 ga"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2094242383474856082",
-          "author": "sprayberryjay",
-          "searchJob": "alabama",
-          "text": "John Carrillo @John50Carrillo - c/o 2024 - OL/C/DL/DT - Pine Ridge High School - This Is A Throwback Vid Of Some Of His High School Highlights (He Had Offers From The North Alabama Lions, St. Andrew's Knights, Culver-Stockton Wildcats &amp;"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2094209828076048856",
-          "author": "schulz_research",
-          "searchJob": "indiana",
-          "text": "Jensen Huang listed five things AI is doing to America. I went through them against the public record. Four hold up. Two need a footnote, and the more interesting one is about timing rather than accuracy. Manufacturing coming back. This one"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094173025881272408",
-          "author": "jensenhuang",
-          "searchJob": "indiana",
-          "text": "Gavin, spot on. AI is bringing manufacturing back to America and reindustrializing the nation after decades of offshoring. AI is creating demand that drives investment in our aging power grid and sustainable energy, powered by market forces"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094197468946891030",
-          "author": "mathew_winters1",
-          "searchJob": "indiana",
-          "text": "T won’t be this year - but I am really thinking we can make a neat farm to bottle hot sauce with peppers grown right here in Indiana. This year we have about 4-5 varieties going, they’re fruiting heavily and we haven’t used consistent irrig"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094135568481309179",
-          "author": "kelleyschool",
-          "searchJob": "indiana",
-          "text": "Juggling college life and leading a real estate fund? Brooks Hiller shares his journey as President of Sample Gates Management and a Kelley senior, and offers insights on what sets SGM apart while preparing for life after graduation. https:"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2094114920438579651",
-          "author": "ethanfoster64",
-          "searchJob": "indiana",
-          "text": "@Real_JPIII I think it is emblematic of the larger issue we have had keeping local recruits around. I watched Stonka play in highschool in-person many times, filmed his highlights. The dude had offers from all over, including Indiana. He co"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094238182707474922",
-          "author": "mikeasti11",
-          "searchJob": "pittsburgh",
-          "text": "https://t.co/nohZST6Hxr"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094219117821620434",
-          "author": "pittsburgh1pete",
-          "searchJob": "pittsburgh",
-          "text": "@SixthManSlabs 50% is an insult, I’ll work with anybody willing to start offers at 60"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094162836532707805",
-          "author": "willypinn",
-          "searchJob": "pittsburgh",
-          "text": "@RubyMay20700 I'll let you try... best I can offer"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094162416196010360",
-          "author": "bradley4god",
-          "searchJob": "pittsburgh",
-          "text": "@greatest_g42475 Did you offer comedy back in Augusco?🤧"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094155186172260358",
-          "author": "espn",
-          "searchJob": "pittsburgh",
-          "text": "Breaking: Aaron Donald is coming out of retirement and returning to the Rams on a one-year, $20M deal that with incentives could be worth up to $30M, per @RapSheet and @AdamSchefter. https://t.co/VZzuHH1gA5"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094232713494429924",
-          "author": "oldeworldorder",
-          "searchJob": "minnesota",
-          "text": "WINSTON CHURCHILL: \"Socialism is a political religion whose god is the state, and whose priests are the bureaucrats.\" https://t.co/y51ZMe542M"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094189257636159771",
-          "author": "jfowler1287",
-          "searchJob": "minnesota",
-          "text": "@Chrisjohns38542 @JoeyFakaBean @TalkinDevils82 Well in 7 years in Minnesota, he never once made a full season healthy. 78 being his highest so ill take my chances he wont make a full year in LA. Plus he was greedy, Wild offered him a chance"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094029230182937013",
-          "author": "maryruwart",
-          "searchJob": "minnesota",
-          "text": "Only pathological personalities would disagree. https://t.co/Brf5HTJj16"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094081457660613007",
-          "author": "ceegeedfs",
-          "searchJob": "minnesota",
-          "text": "⚾ MLB DFS Top Stacks Sunday, August 30th Main Slate Atlanta carries the strongest overall ceiling, Seattle provides the best salary-saving correlation, and Milwaukee, Minnesota and the White Sox offer strong tournament alternatives or lever"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094199234530529319",
-          "author": "aiathletics",
-          "searchJob": "florida",
-          "text": "Very excited for ALL IN 2027 @Timasirotyuk for receiving an offer from Florida Tech. Congratulations Timothy! @AIAeliteboys #ALLINfamily https://t.co/A5JExDhFv4"
+          "text": "https://t.co/OZeJqsIqki"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 38,
-      "reasons": {
-        "bare_mention_requires_llm": 25,
-        "multiple_resolved_schools": 3,
-        "school_not_resolved_confidently": 5,
-        "reporter_missing_player_name": 5
-      },
-      "samples": [
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094238573373345808",
-          "author": "surivenk",
-          "searchJob": "auburn",
-          "text": "Tomorrow is Tim Cook's last day as the CEO of Apple. In 2009, when Steve Jobs was suffering from liver failure, Cook discovered they shared a rare blood type. After undergoing invasive tests at a remote clinic to confirm compatibility, Cook"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094242762111566278",
-          "author": "freephonefrees1",
-          "searchJob": "liberty",
-          "text": "🇺🇸😎🚔 5 MIN AGO, DoW CONF & APPD MY X + MY FORENSIC ANALYSIS + TRUMP & US MIL WERE BLACKMAILED & PRESSURED TO STRIKE TODAY 🇮🇷 COZ YESTERDAY, WHEN BUSHES, PUTIN & LUKASHENKO SAW THAT TRUMP, NETANYAHU & 🇮🇷 ARE CLOSE TO REACH A PEACE AG"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094239678148821442",
-          "author": "reality_chick69",
-          "searchJob": "liberty",
-          "text": "I didn't write this but I do feel it's relevant. And I have the same misgivings about Trump, esp about this whole Iran thing... I have to admit, I’m enjoying watching some of my friends suddenly discover their deep, almost sacred reverence "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094242549166993665",
-          "author": "jfaylonil",
-          "searchJob": "oregon",
-          "text": "@awill0352 @FightOnRusty @slmandel USC is the ONLY school to not play a FCS school. SC usually challenges themselves OOC. USC offered to play ND the same week and they said no. They also play Ohio st, Indiana, Penn st, Washington, Oregon."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094240953011667395",
-          "author": "stmartistone",
-          "searchJob": "virginia",
-          "text": "@harris1on1 @DogeRomeo Those guys were over the hill; they were at the ends of their careers and had no chance of winning a ring. The Cavs offered LeBron a max deal; he turned it down and went to Miami to form a Superteam. D. Wade and Chris"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094239191064531345",
-          "author": "princeof416",
-          "searchJob": "stanford",
-          "text": "@George1Glass @naskove @marcportermagee @SyracuseU Right! But @MIT @UChicago &amp; @Stanford offer FAR better outcomes than #SyracuseU - I’m astounded so many students pay full price &amp; don’t question value of their degree (if they’re ea"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094237758709490091",
-          "author": "20thcentboximm",
-          "searchJob": "michigan",
-          "text": "WBC Heavyweight Champion Tim Witherspoon eats a left hand from challenger Pinklon Thomas, on August 31, 1984, at the Riviera Hotel & Casino in Las Vegas. Thomas wins a 12-round majority decision, in Witherspoon's first title defense, to joi"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094211169393299561",
-          "author": "nickroberts317",
-          "searchJob": "indiana",
-          "text": "Did you know that One World Market of Indiana - Indianapolis in the Castleton area offers fresh Sushi? On top of being an awesome Japanese grocery store, their sushi is always amazing for a night in! Check them out at 8466 Castleton Corner "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094207173614035377",
-          "author": "mind_calculus",
-          "searchJob": "indiana",
-          "text": "@RobKutch @WNBA @AtlantaDream I don’t care about Sophie. She sold her soul to get to Indiana. It was NEVER to play with Caitlin. It was for branding. Sophie covets Caitlin’s fanbase but she has only her ass cheeks to offer. She should’ve sh"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094187307880353992",
-          "author": "rutro21",
-          "searchJob": "indiana",
-          "text": "@RealTomPowellJr I like Johnny's but they don't offer cheese on the beef, Mr beef isn't bad either. Al's is pretty consistent. But I really love the flavor of scatchell's on the border of cicero and Chicago on cermak.its been a few years si"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094236389432770721",
-          "author": "cowboyabbot",
-          "searchJob": "pittsburgh",
-          "text": "@popexcvi she left pittsburgh and didn't ask him to come with bc she didn't think he'd come. he didn't offer bc he didn't think she wanted him to come with...."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094232703876968825",
-          "author": "bbeezy489",
-          "searchJob": "pittsburgh",
-          "text": "@wendellfp Guess we got Kaleb for free. Should have read the trade offer more closely, Pittsburgh!"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094180630527647874",
-          "author": "petekadar",
-          "searchJob": "pittsburgh",
-          "text": "Pittsburgh Pirates fans can offer a great amount to empathy. It's difficult beginning every season knowing your team will not compete for titles or championships but you're hoping to finish middle of the pack. But you watch and show up hopi"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094174905289810305",
-          "author": "mike_g_0",
-          "searchJob": "pittsburgh",
-          "text": "@PickensBurgh Pittsburgh doesn’t really offer much"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094157871411855680",
-          "author": "kwikwarren",
-          "searchJob": "pittsburgh",
-          "text": "The Rams must’ve offered Aaron Donald more than he was being offered by the Pitt Panthers to comeback there to play “college football.”"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094227157748678822",
-          "author": "dajjgrinch",
-          "searchJob": "lsu",
-          "text": "@MichaelWBratton Looks like he took a pay cut from the LSU offer to join the Rams in 2026"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094234942133711261",
-          "author": "realrailroad1",
-          "searchJob": "minnesota",
-          "text": "@amyklobuchar Amy’s Somalian bosses must of infiltrated the Minnesota Pipe Traders and offer them taxpayers fraud money."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094233184263180492",
-          "author": "revdrjestus",
-          "searchJob": "minnesota",
-          "text": "Offer Minnesota as proof."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094196094611624028",
-          "author": "ejkrevolution",
-          "searchJob": "minnesota",
-          "text": "If winning was the most important thing to him, he wouldn't sign with either Minnesota or New Jersey. New Jersey has their problems, but so does Minnesota. Minnesota is weak down the middle. Even if they got Larkin, they still have holes do"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094189684079435833",
-          "author": "cwmadel",
-          "searchJob": "minnesota",
-          "text": "@KSTP Elliot is among the smartest, well-informed, and nicest politicians Minnesota has to offer. @elliottengenMN"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094163270848377240",
-          "author": "mndeed",
-          "searchJob": "minnesota",
-          "text": "Want to know why Minnesota is a great state for business? From a highly skilled workforce to strong innovation, Minnesota offers the tools and environment companies need to thrive. See what sets our state apart on the recently revamped: htt"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094150106610373102",
-          "author": "_filoli_",
-          "searchJob": "minnesota",
-          "text": "@Whosnext10b @Sigma94054 @DrNeilStone Hospitals refused to let patients leave, or transfer them to other facilities that would offer alternative treatments. My friend's hubby was one. Minnesota. After lawsuit threatened, patient transferred"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094117726167945398",
-          "author": "murrayedwards67",
-          "searchJob": "minnesota",
-          "text": "Minnesota’s highest court just told Mike Lindell no. He lost the GOP governor primary by 45,000 votes. He offered to pay $825,000 for a full hand recount of 1.1 million ballots. Officials said they’d only count two names. The court said tha"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094107035591979217",
-          "author": "letsseatalk",
-          "searchJob": "minnesota",
-          "text": "@SeahawksForever Offer Minnesota a 5th round pick next year for Bredeson and see if they bite 🤷"
-        }
-      ]
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 36,
-      "failed": 0,
-      "requests": 36,
-      "errors": []
+      "swept": 10,
+      "failed": 1,
+      "requests": 11,
+      "errors": [
+        "arizona: rate limited"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 38,
+      "rejectedCandidates": 0,
       "brandNewOffers": 0
     }
   }
