@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-31T22:43:47.268Z",
+  "generatedAt": "2026-08-31T22:59:37.417Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-08-31T22:43:47.053Z",
+    "at": "2026-08-31T22:59:37.192Z",
     "jobsTotal": 162,
-    "sweptThisRun": 35,
-    "requests": 36,
-    "fullSweepCycles": 5
+    "sweptThisRun": 31,
+    "requests": 32,
+    "fullSweepCycles": 6
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7923105555555555,
-    "p95Hours": 1.6707022222222223,
-    "worstHours": 2.0351647222222224
+    "medianHours": 0.8016866666666667,
+    "p95Hours": 1.5490791666666666,
+    "worstHours": 1.9346325
   },
   "decisionCoverage": {
-    "total": 46,
-    "decided": 46,
+    "total": 44,
+    "decided": 44,
     "complete": true
   },
   "pending": {
@@ -44,7 +44,7 @@
   "profileResolution": {
     "cached": 28
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 471,
     "incompleteOffers": 0
@@ -52,358 +52,342 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-08-31T22:43:47.053Z",
-      "got": 94,
-      "new": 46,
-      "lag": 0.08
+      "at": "2026-08-31T22:59:37.191Z",
+      "got": 69,
+      "new": 44,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-08-31T22:41:29.226Z",
+    "at": "2026-08-31T22:57:23.067Z",
     "mode": "live",
     "collection": {
-      "returned": 94,
-      "kept": 46,
-      "duplicate": 46,
+      "returned": 69,
+      "kept": 44,
+      "duplicate": 23,
       "tooOld": 2,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 24,
-      "rejected": 22,
+      "accepted": 25,
+      "rejected": 19,
       "reasons": {
-        "no_fbs_school": 12,
-        "no_offer_term": 8,
-        "non_fbs_offer_target": 1,
-        "hard_negative": 1
+        "no_fbs_school": 13,
+        "no_offer_term": 6
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2094551603638399485",
-          "author": "np4football_ot",
-          "searchJob": "class:2027",
-          "text": "Anthony Foster-DB-2027 @WSUWarriorFB Offer #CFB"
+          "postId": "2094540967978094915",
+          "author": "pikithomes",
+          "searchJob": "marshall",
+          "text": "@RRoadpirate @GarayRozo @rabois I did not mention I will not accept any referral fee. I’d gladly do this to just prove a point She will net more with an agent 95% of the time over accepting any type of offer with $OPEN"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094538218125345218",
+          "author": "naifamemphiswtn",
+          "searchJob": "memphis",
+          "text": "Build skills that build your career. NAIFA offers access to LUTCF, LACP and industry-leading education. https://t.co/I23v3vs9qd #ExperienceNAIFA #ProfessionalDevelopment https://t.co/FMhLNhCaqA"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094538217601015964",
+          "author": "naifa_ar",
+          "searchJob": "arkansas",
+          "text": "Build skills that build your career. NAIFA offers access to LUTCF, LACP and industry-leading education. https://t.co/USb0ZexxnF #ExperienceNAIFA #ProfessionalDevelopment https://t.co/i8lg0zCHCQ"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2094540117973029030",
-          "author": "np4football_ot",
-          "searchJob": "class:2028",
-          "text": "Drew Huff-DB-2028-GA @MemphisFB Game Day Visit #CFB"
+          "postId": "2094421345710797255",
+          "author": "xo_empressive",
+          "searchJob": "oregon",
+          "text": "the amount of people who seek relationships at their lowest is scary. why do you want to be responsible for someone else and you're not in a good space?"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094546069862703265",
+          "author": "bejeta7",
+          "searchJob": "oregon",
+          "text": "@H1storyMedia Nobody is worshipping Mary. Is your level of worship so low that you think putting a statue on a platform is worship? They offered sacrifices to the calf. Nobody is doing that to Mary. There's no altars for Mary. Get a clue"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2094181402811982035",
-          "author": "drewhuff1012",
-          "searchJob": "class:2028",
-          "text": "Thank you @MemphisFB for the gameday invite. @coachsauce__ @DbCoachJulian @CHSJacketsFB @clays24 https://t.co/zc2tt4QLQA"
+          "postId": "2094552580890517794",
+          "author": "krishunter",
+          "searchJob": "california",
+          "text": "https://t.co/XYqVbYESNq"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094541309512130647",
+          "author": "jmoss16",
+          "searchJob": "california",
+          "text": "@BMart_99 @TNTSportsUS has more money to offer both of them. Bieksa lives in California during the season. It’s easier to fly to Atlanta then Toronto"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094538217324224657",
+          "author": "naifacalifornia",
+          "searchJob": "california",
+          "text": "Build skills that build your career. NAIFA offers access to LUTCF, LACP and industry-leading education. https://t.co/4A8UKZvKIV #ExperienceNAIFA #ProfessionalDevelopment https://t.co/sMQaby54W0"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2094538554315616311",
-          "author": "np4football_ot",
-          "searchJob": "class:2028",
-          "text": "Jaxson Driscoll-WR-2028-PA @FORDHAMFOOTBALL Game Day Visit #CFB"
+          "postId": "2094534815185813587",
+          "author": "mexicotimes",
+          "searchJob": "california",
+          "text": "#Now #Harry is home. Harry, Meghan, Archie &amp; Lilibet have returned to #Britain—but reconciliation remains unfinished. #Charles is closer, #William remains distant, &amp; a renewed security battle is already overshadowing #Sussexes’ extr"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094538218230149565",
+          "author": "naifacincinnati",
+          "searchJob": "cincinnati",
+          "text": "Build skills that build your career. NAIFA offers access to LUTCF, LACP and industry-leading education. https://t.co/K3R7In7aCw #ExperienceNAIFA #ProfessionalDevelopment https://t.co/cLJklev70G"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094538232570511488",
+          "author": "repjayapal",
+          "searchJob": "colorado",
+          "text": "Brian Morales, a 25-year-old U.S. citizen, was riding in a vehicle that was stopped by police in April. After the police called ICE, Brian explained to immigration officials that he is a U.S. citizen, born in Colorado, and even offered to s"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094534655362130129",
+          "author": "coloradorick1",
+          "searchJob": "colorado",
+          "text": "@ContrarianSaver @JoMammaFU I’m no longer frequenting SoCal; all I know is that homes were moving slow last summer in the Thousand Oaks area. All I can offer is when the time is right, and your conditions are met - price is a secondary cons"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2094116821372657913",
-          "author": "j2driscoll",
-          "searchJob": "class:2028",
-          "text": "Thank you @coach_kauffman1 for the gameday invite and the opportunity to be on campus @FordhamNYC. Excited to see @FORDHAMFOOTBALL compete and win, Go Rams! @fronkb13 @BDPRecruiting @theking1 @JohnnySchmitt_7 @HoosierIsh @IndySports https:/"
+          "postId": "2094456539147112854",
+          "author": "stilldrereacts",
+          "searchJob": "duke",
+          "text": "Isn’t that what he wanted and The UK government said hell no?!🥴 https://t.co/M4mEzLjFdz"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094548169464103219",
+          "author": "_navybrat",
+          "searchJob": "navy",
+          "text": "People wonder why Trump has offered refugee to Jewish people living in Canada."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2094553342202827146",
-          "author": "thermvoice",
-          "searchJob": "class:2029",
-          "text": "https://t.co/hOqT3YRGiV"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094553390277640665",
-          "author": "weagans",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @coachbconover I am blessed to receive an offer from the university of Daytona Beach!! https://t.co/lnoNqPDULh"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094552740051468390",
-          "author": "darren_loftin",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "#AGTG after a great conversation this weekend with @CoachCrevani I’m blessed to receive my 6th offer to play for @JHU_Football ‼️‼️ @CoachBeck_PTF @CoachWodicka @Meech_Dream14 @coachoffield @PrepRedzoneTX @Recruit_DFW @Luke_Anthony_9 @PTFFo"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2094550397465595907",
-          "author": "kkprimus25",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with Coach Umana, I am truly blessed and grateful to announce that I have received an offer from Paul Quinn College. Thank you to Coach Umana and the entire coaching staff for believing in me. I'm excited for what"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094526585890046247",
-          "author": "seanmcdani92604",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with Coach Shelton I am Blessed to say that I have received my first official offer from ECCLESIA Men’s Basketball. #ecclesiambb #god #godstiming #believe #arkansa https://t.co/L79BGN7uEn"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094550376934482245",
-          "author": "jojocooper_1",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "Blessed to receive an offer to @SoutheasternFB!! Thank you @CoachBartlettSE for believing in me!!#agtg @RecruitAledo @Recruit_DFW @ocrobbyjones @AledoHFC https://t.co/X4aK05ijun"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094536447361458627",
-          "author": "madisonking2027",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "Thank you so much, SMWC, for the opportunity to continue my academic and athletic career! This offer is a true blessing, and I’m beyond grateful for everyone who has supported and believed in me along the way! #flagfootballoffer #agtg https"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094550504676245633",
-          "author": "obviousburner97",
-          "searchJob": "delaware",
-          "text": "@Foiblaet @PaulMclo Not caring about the repercussions and doing it with the intent of shaving off years are vastly different. If you offered the smoker a cigarette with no adverse health effects vs one known to shave years off, and they ch"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2094545587240579550",
-          "author": "rabbittracks605",
-          "searchJob": "florida-international",
-          "text": "MBB gets a commitment from a guard in the Twin Cities. Held offers from Drake(!), Stony Brook and Florida International."
+          "postId": "2094497790588244398",
+          "author": "neveragainlive1",
+          "searchJob": "navy",
+          "text": "Donvalley4palestine is a peo Hamas group in Toronto and they posted posted this reel, they have since taken it down. This is their justification for murdering and slaughtering Jews. https://t.co/1Tnn7HacLC"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2094526973963907375",
-          "author": "deon12wj",
-          "searchJob": "florida-international",
-          "text": "100% committed #agtg @Muhneyy_Kev @Blessed2Coach @D1MN2027 @adidasD1MN @RyanJamesMN @AndOneFilms https://t.co/QyPDWaJOXh"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094548824522129910",
-          "author": "mattblively",
-          "searchJob": "james-madison",
-          "text": "The RB2 spot is still up for grabs, according to Kyle Shanahan. Kaelon Black and Jordan James battling for that role. https://t.co/vgqgkhMT98"
+          "postId": "2094557955874275526",
+          "author": "legion59999",
+          "searchJob": "nevada",
+          "text": "🏔️ https://t.co/GuMC7GlGOZ"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094545033609261237",
-          "author": "kentemil",
-          "searchJob": "kent-state",
-          "text": "@BluesHeritage Have you heard of any other offers for Tosin? £7m fixed + £5m in add-ons for a player we signed on free is okay business."
+          "postId": "2094554690566656196",
+          "author": "zoeybird9",
+          "searchJob": "nevada",
+          "text": "@Iza_2021 @SabaMekaZeus Iza there’s a foster offer from Jordan in No. CA &amp; I saw one on a post somewhere a lady in Nevada, 300 miles from Bakersfield."
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094538455560704187",
-          "author": "adamkentio",
-          "searchJob": "kent-state",
-          "text": "@SkySportsNews Why is it we get shit offers from clubs but when we bid we're expected to pay over the top put £60m plus bids in and get instantly rejected."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094531724571193592",
-          "author": "michaelarothman",
-          "searchJob": "liberty",
-          "text": "𝐆𝐎𝐏 𝐂𝐎𝐍𝐆𝐑𝐄𝐒𝐒𝐌𝐀𝐍: 𝐌𝐀𝐊𝐄 𝐀𝐋𝐁𝐄𝐑𝐓𝐀 𝐓𝐇𝐄 𝟓𝟏𝐒𝐓 𝐒𝐓𝐀𝐓𝐄—𝐀𝐒 𝐓𝐇𝐄 𝐏𝐑𝐎𝐕𝐈𝐍𝐂𝐄 𝐇𝐄𝐀𝐃𝐒 𝐓𝐎𝐖𝐀𝐑𝐃 𝐀𝐍 𝐀𝐂𝐓𝐔𝐀𝐋 𝐒𝐄𝐂𝐄𝐒𝐒𝐈𝐎𝐍 𝐕𝐎𝐓𝐄 This isn’t idle cable-news chatter anymore—Alberta is sched"
+          "postId": "2094559107323691261",
+          "author": "yourohionews",
+          "searchJob": "ohio",
+          "text": "Coshocton offers free, low-cost pet spay and neuter https://t.co/BL0gJ8QYqH https://t.co/UqXRAFbiUn"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094534235151581190",
-          "author": "ofvoice35353",
-          "searchJob": "liberty",
-          "text": "More than enough to bind over. There is an arraignment coming next. I still truly believe that his attorneys are secretly seeking a plea deal that takes the DP off the table. The prosecution and/or the judge could reject any offer and Erika"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094549920501862715",
-          "author": "braylensimon27",
-          "searchJob": "louisiana",
-          "text": "Coach Gravitt, I’m Braylen Simon, a 2027 PG/SG from Assumption HS in Louisiana. I’m a 6’0” two-sport athlete with 2 basketball offers, and I’m looking to earn my next opportunity at the college level. I’d love to connect and show you what I"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094538219463319801",
-          "author": "naifa_la",
-          "searchJob": "louisiana",
-          "text": "Build skills that build your career. NAIFA offers access to LUTCF, LACP and industry-leading education. https://t.co/kZsXsnQrGZ #ExperienceNAIFA #ProfessionalDevelopment https://t.co/lGFBEFya02"
+          "postId": "2094558798790967526",
+          "author": "beauaysha",
+          "searchJob": "ohio",
+          "text": "Pastor Joubert Adrien left Haiti because his life was in danger, served his congregation faithfully and his arrest shows how far ICE will stoop to incite panic among people who came here peacefully and offered nothing but good to Springfiel"
         }
       ]
     },
     "extraction": {
-      "accepted": 2,
-      "rejected": 22,
+      "accepted": 0,
+      "rejected": 25,
       "reasons": {
-        "bare_mention_requires_llm": 10,
-        "school_not_resolved_confidently": 2,
-        "reporter_missing_position": 1,
-        "player_display_name_unusable": 2,
-        "author_not_recruit:different sport": 1,
-        "player_missing_class_year": 1,
-        "player_missing_football_context": 1,
-        "reporter_missing_player_name": 2,
-        "author_not_recruit:not high-school recruit": 1,
-        "multiple_resolved_schools": 1
+        "bare_mention_requires_llm": 19,
+        "school_not_resolved_confidently": 4,
+        "multiple_resolved_schools": 2
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094523468230578350",
-          "author": "mlklabor",
-          "searchJob": "washington",
-          "text": "We're proud to stand with public servants today as they demonstrated across Washington for a fair contract. Text STAND to 237-263 to tell state leadership to come to the bargaining table with an offer that invests in public service. https:/"
+          "postId": "2094529003570799095",
+          "author": "hoffy8121",
+          "searchJob": "marshall",
+          "text": "Kirby is 0-14 ATS as 39.5+ FAV Drew this one up last year cashed my 1Q/1H bets and then live bet Marshall at half and swept them all Could be similar script this week. Prolly will just look to get in live if they offer and steam up the line"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094553074937520385",
-          "author": "johnsan84358562",
-          "searchJob": "class:2028",
-          "text": "THE DEEP STATE HAS LEFT THIS NATION VULNERABLE AND WIDE OPEN FOR ATTACK! [Word heard August 23, 2026] JGM–LIVE WITH JULIE [31 August 2026] PROPHETIC WORD My children, I have warned you: a blackout was coming. I have warned you of your enemi"
+          "postId": "2094551818579644899",
+          "author": "newsforce",
+          "searchJob": "massachusetts",
+          "text": "🇺🇸 Lindsay Clancy supporters surrounded defense attorney Kevin Reddington outside court, hugging him and thanking him for representing the Massachusetts mother who killed her 3 children. One woman told Reddington, “You’re the voice of so "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094535691695006153",
+          "author": "magagrandmom",
+          "searchJob": "massachusetts",
+          "text": "A hung jury means the 12 jurors cannot reach the unanimous verdict Massachusetts law requires. It is neither a conviction nor an acquittal. Immediate court process The judge will first send the jury back with additional instructions (often "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094549803984204186",
+          "author": "fantasyforager",
+          "searchJob": "memphis",
+          "text": "St. Louis Cardinals optioned C Jimmy Crooks to Memphis Redbirds. 23 yr old Jimmy Crooks is the #100 ranked prospect across all organizations. FanGraphs Says: Crooks is a polished defensive catcher with a below-average bat, but he offers the"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094542243432403240",
+          "author": "carpenterpaul76",
+          "searchJob": "memphis",
+          "text": "@TheAsphaltPoet @libsoftiktok Trump doesn't run Chicago. He's offered to send the national guard and clean it up like he did in Memphis and DC. The mayor refused."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094552841692078450",
+          "author": "wegetyouoffers",
+          "searchJob": "alabama",
+          "text": "Congratulations to our guy @AmarieTrammell on getting an offer to @AlabamaFTBL . #Tier1VsEvery1 #NextLevel #HighSchool #Football #RollTide https://t.co/tR9nFVlXj5"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094550851851301213",
+          "author": "oldbreedhwarang",
+          "searchJob": "arkansas",
+          "text": "I had an opportunity to command CBWTU Arkansas. I had been wounded fairly badly and since I had been through the rehab process and I signaled my intent to retire, they offered me an opportunity. I was active duty and did not know much about"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2094527288951943238",
-          "author": "jason_howell",
-          "searchJob": "class:2028",
-          "text": "Texas A&amp;M has offered Villa Park (IL) Willowbrook 2028 OL Liam Pagan #GigEm"
-        },
-        {
-          "reason": "reporter_missing_position",
-          "postId": "2094553317238255989",
-          "author": "profilefblive",
-          "searchJob": "class:2029",
-          "text": "🚨 First P4 Offer 🚨 2029 Edge James Cherry from Hardee HS, FL has been offered by Kentucky. @jcherry50149 Rated 3.1⭐ (#483 NATL, #29 Edge, #77 FL). https://t.co/KhZWmyFpPu"
+          "postId": "2094548411622080931",
+          "author": "novacanegoddess",
+          "searchJob": "oregon",
+          "text": "I’ve always thought this, like that shouldn’t even be on your mind actively to seek, i think it’s one thing to yearn it but to actively seek it knowing you only have chaos to offer because ur ducks aren’t in a row just isn’t fair"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2094552192971682079",
-          "author": "scoutfball",
-          "searchJob": "class:2030",
-          "text": "UPDATE: Auburn has now offered Orange Beach (Ala.) 2030 DL Amarie Trammell. @AmarieTrammell 🤯 https://t.co/crfUnWHwX9"
-        },
-        {
-          "reason": "player_display_name_unusable",
-          "postId": "2094551118806122631",
-          "author": "amarietrammell",
-          "searchJob": "class:2030",
-          "text": "I am blessed to receive another offer from the university of Auburn #Agtg🕊️❤️ #LLHORACE❤️🕊️ @WeGetYouOffers @OrangeBeachFB @adamgorney @ChadSimmons_ @DemetricDWarren @On3 @SWiltfong_ @Andrew_Ivins @ScoutFball @DexPreps @TomLuginbill @TheU"
-        },
-        {
-          "reason": "player_display_name_unusable",
-          "postId": "2094550629402153180",
-          "author": "amarietrammell",
-          "searchJob": "class:2030",
-          "text": "I am blessed to receive a offer from The university of Alabama #Agtg #LLHORACE🕊️❤️ @WeGetYouOffers @OrangeBeachFB @adamgorney @ChadSimmons_ @DemetricDWarren @On3 @SWiltfong_ @Andrew_Ivins @ScoutFball @DexPreps @TomLuginbill @TheUCReport ht"
+          "postId": "2094543899838873638",
+          "author": "sprintracer4",
+          "searchJob": "oregon",
+          "text": "@GunloverClub1 Our NRA affiliated gun Club, Douglas ridge rifle Club in Oregon offers a civilian marksmanship program class/ tournament where you can shoot m1 Grand, m1, carbine or AR-15 after taking the orientation! Ammo is provided with t"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094551318710903106",
-          "author": "jdsmith31smith",
-          "searchJob": "class:2030",
-          "text": "Alabama &amp; Auburn have offered Orange Beach 2030 6-foot-6 285-pound DL Amarie Trammell @AmarieTrammell. Video via @WeGetYouOffers. https://t.co/HrXp8Skcla"
-        },
-        {
-          "reason": "author_not_recruit:different sport",
-          "postId": "2094552476858884429",
-          "author": "chris_retic",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with Coach Porter, I am blessed to receive an offer from Washington County Community College. #agtg #CollegeBasketball #Blessed https://t.co/UqCHVMzCyj"
-        },
-        {
-          "reason": "player_missing_class_year",
-          "postId": "2094553034504232969",
-          "author": "eharris222",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG Blessed to receive an offer from Georgia State University! @kyanhhuynh_ @Coach_Douglas_ @CoachCrissup @jdwarren09 @CoachSeanKelly @JUCOFFrenzy @JuCoFootballACE https://t.co/qyWqoRXRce"
-        },
-        {
-          "reason": "player_missing_football_context",
-          "postId": "2094551612790358314",
-          "author": "antmercer27",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "Blessed to receive my first offer from Mississippi delta !! Agtg ✝️ https://t.co/OQVkcoKnIy"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094548636126322944",
-          "author": "tp_recruiting",
-          "searchJob": "coastal-carolina",
-          "text": "🏝️ COASTAL CAROLINA — D1 RECRUITING OPPORTUNITY 🏈 🚨 2027, 2028 & 2029 PROSPECTS — COASTAL IS LOOKING! A position coach at Coastal Carolina is looking to evaluate talent from the 2027, 2028 and 2029 classes. If you’re a high school footba"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2094545163162976362",
-          "author": "vladtenev",
-          "searchJob": "coastal-carolina",
-          "text": "Robinhood Banking is a financial services platform offered by Robinhood Money, LLC (\"RHY\"). Banking services are provided by Coastal Community Bank (\"Coastal\") member FDIC."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094527257494839344",
-          "author": "dustyrhodesprop",
-          "searchJob": "coastal-carolina",
-          "text": "Moving to SC? 🇺🇸 SC offers huge perks for active duty military &amp; veterans—from property tax exemptions to $0-down VA loans! Our complete SC Military Relo Guide breaking down tax savings, top coastal areas, &amp; PCS checklist: https:/"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094537467571720448",
-          "author": "janitorialsvcpa",
-          "searchJob": "delaware",
-          "text": "Breathe easy and reclaim your time. Elite Management offers expert residential cleaning tailored to your Delaware County home. Experience a healthier, spotless sanctuary today. #Officecleaning #Commercialofficecleaning #Residentialcleanings"
-        },
-        {
-          "reason": "author_not_recruit:not high-school recruit",
-          "postId": "2094548997062975583",
-          "author": "bobby2haw",
-          "searchJob": "georgia-state",
-          "text": "Thankful to receive a D1 offer from Georgia State! Thank you @kyanhhuynh_!! @CoachDrewDallas @CoachCross1 @Coach__CA @coachroberson42 https://t.co/Uylrlk6uyn"
+          "postId": "2094540362748411936",
+          "author": "oregonducks_si",
+          "searchJob": "oregon",
+          "text": "Oregon Ducks' First Big Recruiting Weekend Offers Insight Into Dan Lanning's Focus https://t.co/N19aROmdHZ"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2094555652429680973",
-          "author": "rob_lowder",
-          "searchJob": "james-madison",
-          "text": "Good to see Kaelon Black has confidence in his hands. I think he has more to offer in the receiving game than what Indiana asked of him. 44 catches in two seasons at James Madison. #49ers"
+          "postId": "2094559715208613969",
+          "author": "prescottpulse",
+          "searchJob": "arizona",
+          "text": "We’ve Got Trouble: With a Capital T, and That Rhymes with P, and That Stands for Proposition | Yavapai County’s Growing Tax Layer Cake Friends, we’ve got trouble. Not necessarily with a capital “T,” and probably not because somebody install"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094549921315922223",
-          "author": "sinfected13",
-          "searchJob": "liberty",
-          "text": "Christ is who gives TRUE LIBERTY. Satan will ALWAYS try to MIMIC God's grace and benevolence, even masquerading as an angel of light with ministers of false light at his beck and call. When LUCIFER offers LIBERTY, he is HOPING men will abus"
+          "postId": "2094545962148798763",
+          "author": "kwasny007",
+          "searchJob": "arizona",
+          "text": "Wow, Arizona AG Kris Mayes sure does not want any chain of custody and proof of citizenship for mail in ballots to be used. It also sounds like she challenged everyone to take her up on her offer in order to ensure Arizona elections are not"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094549429546254684",
-          "author": "libertyukrainef",
-          "searchJob": "liberty",
-          "text": "When one auction lot is so good... you sell it twice. At our 35th Ukrainian Independence Day auction, we offered something you definitely don't find every day: a private range experience with visiting KORD warriors. So this week, we headed "
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2094547739220586780",
-          "author": "growngodess",
-          "searchJob": "liberty",
-          "text": "The globalists of Canada have no chance against the liberty &amp; freedom offered by the Trump admin"
+          "postId": "2094535789732634829",
+          "author": "schilllawgroup",
+          "searchJob": "arizona",
+          "text": "𝐂𝐨𝐧𝐬𝐢𝐝𝐞𝐫𝐢𝐧𝐠 𝐝𝐢𝐯𝐨𝐫𝐜𝐞 𝐢𝐧 𝐀𝐫𝐢𝐳𝐨𝐧𝐚? 𝐌𝐚𝐤𝐞 𝐲𝐨𝐮𝐫 𝐟𝐢𝐫𝐬𝐭 𝐜𝐚𝐥𝐥 𝐜𝐨𝐮𝐧𝐭. If you are thinking about divorce in the Phoenix, Scottsdale, or anywhere in Arizona, you want clear information and an attorney wh"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094546447790440729",
-          "author": "sherriestyle",
-          "searchJob": "liberty",
-          "text": "BY: MICHAEL SMITH Several years ago and because I recommend placing this book in the hands of every high school junior and senior in America, I wrote this review to help parents understand why doing that is necessary - and now that we are s"
+          "postId": "2094559911145623732",
+          "author": "dancondie2",
+          "searchJob": "byu",
+          "text": "@CougSportsMedia @Big12Radio I'm certainly no Santiago fan, but how can you blame him for doing this when it looked like Kalani was headed to Penn State with an offer it didn't look like BYU could ever match?"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094557592810869002",
+          "author": "johsinny",
+          "searchJob": "california",
+          "text": "The H-1B program was sold as a temporary fix for scarce skills. For 36 years it has functioned as a settlement track: a job, a spouse who can work, public schools, a citizen child born here, and a later claim on family immigration. That pac"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094540226232308168",
-          "author": "kirpullah",
-          "searchJob": "liberty",
-          "text": "This is how Claude explains the situation; Presale buyers paid $0.015 and $0.05 between October 2024 and March 2025, and only 20% of those tokens became unlockable around September 1, 2025, with the May 2026 governance vote placing the rema"
+          "postId": "2094557091755074014",
+          "author": "govpressoffice",
+          "searchJob": "california",
+          "text": "Shasta County's job offer to a felon CONVICTED OF TAMPERING WITH VOTING MACHINES to work on their election process is a disgrace. That is why @CAGovernor Gavin Newsom just directed @CACorrections to make every effort to REJECT any transfer "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094556396952101174",
+          "author": "millypea",
+          "searchJob": "california",
+          "text": "WTS 2 BTS tickets for LA Inglewood day 4 • September 6th @ So-Fi stadium Dm me army if you’re interested I’m willing to let them go for fv. Open to offers 💜 Arirang tour ticket california cali wtb wtt https://t.co/fgg9we4NMs"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094553140599070952",
+          "author": "walterappling",
+          "searchJob": "california",
+          "text": "California sues Trump administration over offshore wind ‘extortion racket’ The state alleges the Trump administration “abuses its authority” by diminishing the value of offshore wind energy leases before it makes an “unrefusable offer” to d"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094550304008306808",
+          "author": "fisherfree8688",
+          "searchJob": "california",
+          "text": "@Acyn California offers a base tax credit of 35% for qualified film and television projects, with additional uplifts that can raise the total credit up to 40% or 45% through the California Film Commission. Trump is a fucking idiot and Jon V"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094549514929463677",
+          "author": "scheeyak",
+          "searchJob": "california",
+          "text": "wts 2 lower level tickets for bts at Inglewood, california we wouldn’t be going anymore so we wts these, pls text if you're interested can and will facetime 🤧you can text with your offers ! 🏷️ world tour arirang wtb wtb California la wtt "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094544651894317491",
+          "author": "unpopautist",
+          "searchJob": "california",
+          "text": "@NotSilentDoGood @nicksortor Grew up in the armpit of South Jersey &amp; left the E coast 20 years ago. My husband always wanted to visit NYC but I was able to convince him he isn’t missing out on the most foul, filthy, degenerate shit hole"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094558625280749949",
+          "author": "gobearcatsfb",
+          "searchJob": "cincinnati",
+          "text": "Do you have the Bearcats app downloaded? Turn those notifications on for exclusive offers and first looks all season long. 📲 https://t.co/eS1XuzX2Gs https://t.co/CNcqC6RSTs"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094553366307197070",
+          "author": "985kygo",
+          "searchJob": "colorado",
+          "text": "Visitors can borrow snowshoes, binoculars, hammocks, kites, guitars and board games, with the library eventually planning to offer more than 1,500 items and kits. Read more about it at https://t.co/ku5pyh7YUW #nature #naturelibrary #colorad"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094545401776935139",
+          "author": "vservicellc",
+          "searchJob": "duke",
+          "text": "Right. The Duke has offered over and over and they keep refusing to allow him to do so."
         }
       ]
     },
@@ -411,20 +395,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 35,
+      "swept": 31,
       "failed": 1,
-      "requests": 36,
+      "requests": 32,
       "errors": [
-        "louisiana-monroe: rate limited"
+        "old-dominion: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 2,
-      "rejectedCandidates": 22,
-      "brandNewOffers": 2
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 25,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-08-31T22:43:47.269Z"
+    "status rebuilt locally from current store on 2026-08-31T22:59:37.418Z"
   ]
 }
