@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-31T07:13:42.827Z",
+  "generatedAt": "2026-08-31T07:28:53.273Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-08-31T07:13:42.661Z",
+    "at": "2026-08-31T07:28:53.088Z",
     "jobsTotal": 162,
     "sweptThisRun": 36,
     "requests": 36,
@@ -14,13 +14,13 @@
   "backfill": null,
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5414330555555555,
-    "p95Hours": 1.2441480555555555,
-    "worstHours": 1.2441480555555555
+    "medianHours": 0.5440219444444444,
+    "p95Hours": 1.046456388888889,
+    "worstHours": 1.046456388888889
   },
   "decisionCoverage": {
-    "total": 3,
-    "decided": 3,
+    "total": 16,
+    "decided": 16,
     "complete": true
   },
   "pending": {
@@ -37,56 +37,154 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-08-31T07:13:42.660Z",
-      "got": 10,
-      "new": 3,
-      "lag": 0.4
+      "at": "2026-08-31T07:28:53.087Z",
+      "got": 24,
+      "new": 16,
+      "lag": 0.13
     }
   },
   "audit": {
-    "at": "2026-08-31T07:11:16.004Z",
+    "at": "2026-08-31T07:26:23.338Z",
     "mode": "live",
     "collection": {
-      "returned": 10,
-      "kept": 3,
-      "duplicate": 7,
+      "returned": 24,
+      "kept": 16,
+      "duplicate": 8,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 3,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 9,
+      "rejected": 7,
+      "reasons": {
+        "no_fbs_school": 4,
+        "unclassified_offer_text": 1,
+        "no_offer_term": 2
+      },
+      "samples": [
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094307657918386663",
+          "author": "radianweapo4to9",
+          "searchJob": "oregon",
+          "text": "Big game hunting seasons are underway in Oregon, with controlled hunts actively happening. The approaching cold winter offers excellent opportunities for predator hunting. What have you taken with your Model 1? Share with us in the comments"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094313551083053149",
+          "author": "yourpremiertra1",
+          "searchJob": "texas",
+          "text": "#yourpremiertravels #travelphotography #wanderlust #exploremore #instatravel #traveladdict #vacationmode #adventuretime #traveldiaries #travelgoals #adventureawaits #exploretheworld #exploreeverything #travelinspiration #roamtheplanet Certi"
+        },
+        {
+          "reason": "unclassified_offer_text",
+          "postId": "2094319933500936248",
+          "author": "ssvher",
+          "searchJob": "washington",
+          "text": "Former Ukrainian Defense Minister Mykhailo Fedorov is seeking US investment for a new defense technology fund and offering to help Washington develop drone capabilities in exchange for Patriot missile interceptors for Ukraine. https://t.co/"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094310728471601417",
+          "author": "slicker_talks",
+          "searchJob": "washington",
+          "text": "@Otulala001 Bro you also pasted this thing from Chelsea Youth without checking. D. Fofana, Guiu, Washington are gone. Neto, Gusto most likely will Quenda situation is strange to analyze Every other person including Tosin will most likely le"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094312752005226496",
+          "author": "catgirl7733",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "@MorgothsReview there are women out there who are desperate to be mothers. imagine how it feels to see bonnie blue be gifted the precious gift you have not been blessed to receive yourself"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094316724590190833",
+          "author": "manjeetnegilive",
+          "searchJob": "phrase:\"blessed to have received\"",
+          "text": "Had the privilege of meeting Param Pujya Swami Paramatmananda Saraswatiji, Founder of Arsha Vidya Mandir. For the past 43 years, Pujya Swamiji has been dedicated to teaching scriptures and delivering spiritual discourses to people from all "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094312919823745031",
+          "author": "sterlingnarumi",
+          "searchJob": "phrase:\"grateful to receive an offer\"",
+          "text": "Grateful to receive an offer from @CSCwildcatsFB. Thank you @CoachCutshaw for the conversation and support! DEFEND THE DEN! https://t.co/uobPKc8asd"
+        }
+      ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 9,
       "reasons": {
-        "bare_mention_requires_llm": 3
+        "bare_mention_requires_llm": 5,
+        "multiple_resolved_schools": 2,
+        "school_not_resolved_confidently": 2
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094304178894225907",
-          "author": "sports_ol",
-          "searchJob": "maryland",
-          "text": "Grimpoot Collectors Society @grimpoot 'Make us an offer we can't refuse' russell maryland (dallas cowboys - dl) 1991 fleer ROOKIE card #423|Pre-Owned Site (eBay) Price, US: ($0.99) https://t.co/B5aJN6eUtb &gt;&gt; @allsc_ol @sports_ol #TheH"
+          "postId": "2094311307512365485",
+          "author": "morpheu5watcher",
+          "searchJob": "oklahoma",
+          "text": "A RUMOR MOVED WORKDAY $WDAY THREE TIMES MORE THAN ITS OWN EARNINGS DID: Workday WDAY at $204.72, +$11.15 / +5.76% from Thursday's $193.57 close. Friday's regular close; US markets reopen Monday 9:30am ET. It reported a better quarter than e"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094324636787872119",
+          "author": "yourpremiertra1",
+          "searchJob": "ole-miss",
+          "text": "Why River Cruises Are One of the Easiest and Most Rewarding Ways to Travel For travelers who want to see multiple destinations without the hassle of constantly packing, unpacking, navigating unfamiliar roads, or changing hotels, river cruis"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094316646739349709",
+          "postId": "2094316799118475550",
           "author": "entinode",
-          "searchJob": "michigan",
+          "searchJob": "ole-miss",
           "text": "This was @grok's take when I asked: Yes — this is the issue Baker’s post largely skipped, and it is the one that still generates the most visceral neighbor complaints. The noise is real. It is not usually “factory loud” in the OSHA-hearing-"
         },
         {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094306296241488190",
+          "author": "jmula1013",
+          "searchJob": "oregon",
+          "text": "@SadOSUhoopsFan Bc oregon offered him when we hired will stein. We needed a qb in the 23 class after dante left for ucla he was never on kenny dillingham or dans board for qbs. He was someone they knew would be an easy flip"
+        },
+        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094314622010441784",
-          "author": "legaltweetz",
-          "searchJob": "michigan",
-          "text": "The X post by @legaltweetz (Hendrix Moise) is a formal press release announcing her intent to file a federal civil rights lawsuit against Muskegon County Public Defender Director Amy P. Campanelli, Muskegon County, and the State of Michigan"
+          "postId": "2094324632908378380",
+          "author": "bwill2288_n1g",
+          "searchJob": "usc",
+          "text": "@johnsalmonsfan6 @boston_average @PenguinOfTroy I know the report was USC offered week 0 and Notre dame turned it down"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094318519416389825",
+          "author": "hromadske",
+          "searchJob": "washington",
+          "text": "🇺🇦🇺🇸 Former Ukrainian Defense Minister Mykhailo Fedorov offered to help the US build its own “drone army” - especially in exchange for Patriot interceptors for Ukraine, he told the Financial Times. Fedorov is in Washington seeking inves"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094317462669889686",
+          "author": "freespeech_on_x",
+          "searchJob": "washington",
+          "text": "🔥🔥🔥 TO THE UKRAINIAN PEOPLE 🔥🔥🔥 The West did not liberate you. It financed you — and the bill is sitting on your soil. ☝️☝️☝️ 🫵🫵🫵 You are supposed to believe this is about • your freedom • your borders • your children in the Donbas"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094317125381083591",
+          "author": "alphawalkai",
+          "searchJob": "washington",
+          "text": "Yen Breaks 160 | August 31, 2026 (📍Data From https://t.co/rtKhA53pFF Daily Report) USD/JPY has broken above 160 again, placing Japanese authorities back on intervention watch only one month after their largest-ever operation. Japan spent ¥"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094314180387967121",
+          "author": "retsontedheke01",
+          "searchJob": "washington",
+          "text": "#BringBackOurSubsidy: WHO IS THIS ECONOMY BEING REFORMED FOR? A government that makes fuel, food, transportation, electricity and production more expensive, while millions of Nigerians watch their incomes collapse, cannot simply call the su"
         }
       ]
     },
@@ -101,11 +199,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 3,
+      "rejectedCandidates": 9,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-08-31T07:13:42.828Z"
+    "status rebuilt locally from current store on 2026-08-31T07:28:53.273Z"
   ]
 }
