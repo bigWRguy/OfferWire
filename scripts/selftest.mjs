@@ -600,4 +600,17 @@ const skippedRecent = await dispatchWire({
 t('Netlify trigger suppresses a recent GitHub run', skippedRecent.runId === 123 && dispatchCalls === 1);
 
 console.log(`\n${pass} passed, ${fail} failed`);
-process.exit(fail ? 1 : 0);
+
+console.log('official football account self-announcement');
+{
+  const [p] = prefilter([{
+    id: 'official-tag-context', author: 'jujudagre8', authorName: 'Juvon Smith',
+    authorBio: 'C/O 2028 Athlete | 5-10 175 | Manvel HS',
+    text: 'After a great conversation with @_ArmaniLinton I have received another offer thank you @KStateFB. Extremely blessed!!!',
+    mentions: ['_armanilinton', 'kstatefb'], createdAt: '2026-08-29T17:06:15Z',
+  }]);
+  const recs = rulesOnlyOffers(p);
+  t('official football-account tag rescues athlete-only self-announcement',
+    recs.length === 1 && recs[0].school_id === 'kansas-state' && recs[0].class_year === 2028 && recs[0].position === null,
+    JSON.stringify(recs));
+}process.exit(fail ? 1 : 0);

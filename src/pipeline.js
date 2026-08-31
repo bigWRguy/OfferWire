@@ -267,12 +267,13 @@ export function prefilter(posts, log = () => {}, audit = null) {
   return kept;
 }
 
-/** Football evidence in a self-announcement: a position, football language, or a 40 time. */
+/** Football evidence in a self-announcement: a position, football language, a 40 time, or a direct tag of an official FBS football account. */
 const footballTokenFor = (p) => {
   const text = `${p.authorBio || ''} ${p.text}`;
   return /\bfootball\b|🏈|\bFB(?:B|U)?\b/i.test(text)
     || /\b([3-5]\.\d{1,2})\s*(?:40\b|40yd\b|forty)\b/i.test(text)
-    || /\b40\s*[:=-]?\s*([3-5]\.\d{1,2})\b/i.test(text);
+    || /\b40\s*[:=-]?\s*([3-5]\.\d{1,2})\b/i.test(text)
+    || (p.mentions || []).some((handle) => SCHOOL_HANDLES.has(String(handle).toLowerCase()));
 };
 
 /** Explain a rules-only miss without changing the conservative extraction decision. */
