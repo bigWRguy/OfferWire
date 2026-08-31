@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-08-31T02:10:27.895Z",
+  "generatedAt": "2026-08-31T02:28:42.359Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-08-31T02:10:27.726Z",
+    "at": "2026-08-31T02:28:42.045Z",
     "jobsTotal": 162,
-    "sweptThisRun": 10,
-    "requests": 11,
-    "fullSweepCycles": 17
+    "sweptThisRun": 36,
+    "requests": 36,
+    "fullSweepCycles": 5
   },
   "backfillCoverage": {
-    "at": "2026-08-31T02:10:27.726Z",
+    "at": "2026-08-31T02:28:42.045Z",
     "jobsTotal": 0,
     "sweptThisRun": 0,
     "requests": 0
   },
   "backfill": {
-    "at": "2026-08-31T02:10:27.726Z",
+    "at": "2026-08-31T02:28:42.045Z",
     "days": 30,
     "chunkDays": 30,
     "totalWindows": 136,
@@ -30,497 +30,823 @@
   "staleSchools": [
     {
       "id": "auburn",
-      "hours": 81.1
+      "hours": 81.4
     },
     {
       "id": "penn-state",
-      "hours": 61.1
+      "hours": 61.4
     },
     {
       "id": "ohio-state",
-      "hours": 55.2
+      "hours": 55.5
     },
     {
       "id": "liberty",
-      "hours": 39.3
+      "hours": 39.6
     },
     {
       "id": "navy",
-      "hours": 36.6
+      "hours": 36.9
     },
     {
       "id": "maryland",
-      "hours": 35.3
+      "hours": 35.6
     },
     {
       "id": "oregon",
-      "hours": 35
+      "hours": 35.3
     },
     {
       "id": "kansas",
-      "hours": 34.4
+      "hours": 34.7
     },
     {
       "id": "arizona",
-      "hours": 31.8
+      "hours": 32.1
     },
     {
       "id": "air-force",
-      "hours": 29.3
+      "hours": 29.6
     },
     {
       "id": "stanford",
-      "hours": 29.3
+      "hours": 29.6
     },
     {
       "id": "syracuse",
-      "hours": 29.3
+      "hours": 29.6
     },
     {
       "id": "iowa",
-      "hours": 29
+      "hours": 29.3
     },
     {
       "id": "michigan",
-      "hours": 28.7
+      "hours": 29
     },
     {
       "id": "ole-miss",
-      "hours": 28.6
+      "hours": 28.9
     },
     {
       "id": "kentucky",
-      "hours": 28.1
+      "hours": 28.4
     },
     {
       "id": "arkansas",
-      "hours": 27.5
+      "hours": 27.8
     },
     {
       "id": "marshall",
-      "hours": 27.3
+      "hours": 27.6
     },
     {
       "id": "kent-state",
-      "hours": 26.7
+      "hours": 27
     },
     {
       "id": "toledo",
-      "hours": 25.7
+      "hours": 26
     },
     {
       "id": "tulsa",
-      "hours": 25.7
+      "hours": 26
     },
     {
       "id": "tennessee",
-      "hours": 25.3
+      "hours": 25.6
     },
     {
       "id": "wake-forest",
-      "hours": 24.4
-    },
-    {
-      "id": "north-carolina",
-      "hours": 23.6
+      "hours": 24.7
     },
     {
       "id": "indiana",
+      "hours": 23.8
+    },
+    {
+      "id": "north-carolina",
       "hours": 23.5
     },
     {
       "id": "minnesota",
-      "hours": 22.7
-    },
-    {
-      "id": "houston",
-      "hours": 21.9
+      "hours": 23
     },
     {
       "id": "illinois",
-      "hours": 21.7
-    },
-    {
-      "id": "south-florida",
-      "hours": 21.6
-    },
-    {
-      "id": "cincinnati",
-      "hours": 21.4
-    },
-    {
-      "id": "charlotte",
-      "hours": 21.2
+      "hours": 22
     },
     {
       "id": "colorado",
-      "hours": 20.7
-    },
-    {
-      "id": "lsu",
-      "hours": 20.6
+      "hours": 21.1
     },
     {
       "id": "coastal-carolina",
-      "hours": 19.1
+      "hours": 19.4
     },
     {
       "id": "duke",
-      "hours": 18.9
+      "hours": 19.2
+    },
+    {
+      "id": "south-florida",
+      "hours": 19.1
+    },
+    {
+      "id": "cincinnati",
+      "hours": 18.6
     },
     {
       "id": "oklahoma",
-      "hours": 18.3
+      "hours": 18.6
     },
     {
       "id": "buffalo",
-      "hours": 18
+      "hours": 18.3
     },
     {
       "id": "wisconsin",
-      "hours": 17.1
+      "hours": 17.4
+    },
+    {
+      "id": "charlotte",
+      "hours": 17.2
     },
     {
       "id": "notre-dame",
-      "hours": 14.1
+      "hours": 14.4
+    },
+    {
+      "id": "houston",
+      "hours": 13.1
     },
     {
       "id": "miami",
-      "hours": 12.8
+      "hours": 13.1
+    },
+    {
+      "id": "lsu",
+      "hours": 12.6
     },
     {
       "id": "florida",
-      "hours": 11.8
+      "hours": 12.1
     },
     {
       "id": "temple",
-      "hours": 11.8
+      "hours": 12.1
     },
     {
       "id": "arkansas-state",
-      "hours": 11.3
+      "hours": 11.6
     },
     {
       "id": "rice",
-      "hours": 10.8
+      "hours": 11.1
     },
     {
       "id": "texas-tech",
-      "hours": 10.7
+      "hours": 11.1
     },
     {
       "id": "ohio",
-      "hours": 10.1
+      "hours": 10.4
     },
     {
       "id": "alabama",
-      "hours": 10
+      "hours": 10.3
     },
     {
       "id": "pittsburgh",
-      "hours": 9.8
+      "hours": 10.1
     },
     {
       "id": "texas",
-      "hours": 9.7
+      "hours": 10
     },
     {
       "id": "washington",
-      "hours": 9
+      "hours": 9.3
     },
     {
       "id": "usc",
-      "hours": 8.7
+      "hours": 9
     },
     {
       "id": "california",
-      "hours": 7.6
+      "hours": 7.9
     },
     {
       "id": "virginia",
-      "hours": 7.4
+      "hours": 7.7
     },
     {
       "id": "missouri",
-      "hours": 7
+      "hours": 7.3
     },
     {
       "id": "arizona-state",
-      "hours": 6.7
+      "hours": 7
     },
     {
       "id": "baylor",
-      "hours": 6.5
+      "hours": 6.8
     },
     {
       "id": "boston-college",
-      "hours": 6.5
+      "hours": 6.8
     },
     {
       "id": "byu",
-      "hours": 6.2
+      "hours": 6.5
     },
     {
       "id": "clemson",
-      "hours": 6.2
+      "hours": 6.5
     },
     {
       "id": "army",
-      "hours": 6
+      "hours": 6.3
     },
     {
       "id": "florida-state",
-      "hours": 5.7
+      "hours": 6
     },
     {
       "id": "georgia-tech",
-      "hours": 5.7
+      "hours": 6
     },
     {
       "id": "iowa-state",
-      "hours": 5.7
+      "hours": 6
     },
     {
       "id": "kansas-state",
-      "hours": 5.7
+      "hours": 6
     },
     {
       "id": "louisville",
-      "hours": 5.5
+      "hours": 5.8
     },
     {
       "id": "nc-state",
-      "hours": 5.5
+      "hours": 5.8
     },
     {
       "id": "oklahoma-state",
-      "hours": 5.5
+      "hours": 5.8
     },
     {
       "id": "smu",
-      "hours": 5.2
+      "hours": 5.5
     },
     {
       "id": "tcu",
-      "hours": 5.2
+      "hours": 5.5
     },
     {
       "id": "ucf",
-      "hours": 5.2
+      "hours": 5.5
     },
     {
       "id": "virginia-tech",
-      "hours": 5
+      "hours": 5.3
     },
     {
       "id": "west-virginia",
-      "hours": 5
+      "hours": 5.3
     },
     {
       "id": "akron",
-      "hours": 4.7
+      "hours": 5
     },
     {
       "id": "nebraska",
-      "hours": 4.7
+      "hours": 5
     },
     {
       "id": "uconn",
-      "hours": 4.7
+      "hours": 5
     },
     {
       "id": "utah",
-      "hours": 4.7
+      "hours": 5
     },
     {
       "id": "appalachian-state",
-      "hours": 4.2
+      "hours": 4.5
     },
     {
       "id": "ball-state",
-      "hours": 4.2
+      "hours": 4.5
     },
     {
       "id": "boise-state",
-      "hours": 4.2
+      "hours": 4.5
     },
     {
       "id": "bowling-green",
-      "hours": 4.2
+      "hours": 4.5
     },
     {
       "id": "central-michigan",
-      "hours": 4.2
+      "hours": 4.5
     },
     {
       "id": "colorado-state",
-      "hours": 4.2
+      "hours": 4.5
     },
     {
       "id": "delaware",
-      "hours": 4
+      "hours": 4.3
     },
     {
       "id": "east-carolina",
-      "hours": 4
+      "hours": 4.3
     },
     {
       "id": "eastern-michigan",
-      "hours": 4
+      "hours": 4.3
     },
     {
       "id": "florida-atlantic",
-      "hours": 4
+      "hours": 4.3
     },
     {
       "id": "florida-international",
-      "hours": 4
+      "hours": 4.3
     },
     {
       "id": "fresno-state",
-      "hours": 4
+      "hours": 4.3
     },
     {
       "id": "georgia-southern",
-      "hours": 4
+      "hours": 4.3
     },
     {
       "id": "georgia-state",
-      "hours": 3.7
+      "hours": 4
     },
     {
       "id": "hawaii",
-      "hours": 3.7
+      "hours": 4
     },
     {
       "id": "jacksonville-state",
-      "hours": 3.7
+      "hours": 4
     },
     {
       "id": "james-madison",
-      "hours": 3.7
+      "hours": 4
     },
     {
       "id": "kennesaw-state",
-      "hours": 3.7
+      "hours": 4
     },
     {
       "id": "louisiana",
-      "hours": 3.7
+      "hours": 4
     },
     {
       "id": "louisiana-monroe",
-      "hours": 3.7
+      "hours": 4
     },
     {
       "id": "louisiana-tech",
-      "hours": 3.4
+      "hours": 3.7
     },
     {
       "id": "massachusetts",
-      "hours": 3.4
+      "hours": 3.7
     },
     {
       "id": "memphis",
-      "hours": 3
+      "hours": 3.3
     },
     {
       "id": "miami-oh",
-      "hours": 2.7
+      "hours": 3
     },
     {
       "id": "middle-tennessee",
-      "hours": 2.7
+      "hours": 3
     },
     {
       "id": "missouri-state",
-      "hours": 2.7
+      "hours": 3
     },
     {
       "id": "nevada",
-      "hours": 2.7
+      "hours": 3
     },
     {
       "id": "new-mexico",
-      "hours": 2.4
+      "hours": 2.7
     },
     {
       "id": "new-mexico-state",
-      "hours": 2.4
+      "hours": 2.7
     },
     {
       "id": "north-texas",
-      "hours": 2.4
+      "hours": 2.7
     },
     {
       "id": "northern-illinois",
-      "hours": 2.4
+      "hours": 2.7
+    },
+    {
+      "id": "old-dominion",
+      "hours": 2.3
+    },
+    {
+      "id": "oregon-state",
+      "hours": 2.3
+    },
+    {
+      "id": "sam-houston",
+      "hours": 2.3
+    },
+    {
+      "id": "san-diego-state",
+      "hours": 2.3
+    },
+    {
+      "id": "san-jose-state",
+      "hours": 2.3
+    },
+    {
+      "id": "south-alabama",
+      "hours": 2.1
+    },
+    {
+      "id": "southern-miss",
+      "hours": 2.1
+    },
+    {
+      "id": "texas-state",
+      "hours": 2.1
+    },
+    {
+      "id": "troy",
+      "hours": 2.1
+    },
+    {
+      "id": "tulane",
+      "hours": 2.1
     }
   ],
   "quality": {
-    "completeOffers": 483,
+    "completeOffers": 484,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-08-31T02:10:27.725Z",
-      "got": 235,
-      "new": 1,
-      "lag": 0.23
+      "at": "2026-08-31T02:28:42.043Z",
+      "got": 795,
+      "new": 45,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-08-31T02:09:33.724Z",
+    "at": "2026-08-31T02:26:03.138Z",
     "mode": "all",
     "collection": {
-      "returned": 235,
-      "kept": 1,
-      "duplicate": 232,
-      "tooOld": 2,
+      "returned": 795,
+      "kept": 45,
+      "duplicate": 746,
+      "tooOld": 4,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 1,
+      "accepted": 28,
+      "rejected": 17,
       "reasons": {
-        "no_offer_term": 1
+        "no_offer_term": 8,
+        "no_fbs_school": 8,
+        "hard_negative": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2094242965166403832",
-          "author": "upscprelim",
+          "postId": "2093547966414074359",
+          "author": "christianheiens",
           "searchJob": "liberty",
-          "text": "https://t.co/OZeJqsIqki"
+          "text": "Wow it really is a pretty view. https://t.co/zubXxRfO9R"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094236352258695572",
+          "author": "texasmadde",
+          "searchJob": "liberty",
+          "text": "1892 - Our Father’s House; or, The Unwritten Word, Dr. & Rev. Daniel March, D.D., Yale College, B.A, - On Proto-Astrobiological, Hierocosmic & Atavistic Ancient Insights - Ft. A Celestial Membrane Cosmology & Celestial Biosphere Organized a"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094246058897355263",
+          "author": "harera1ser",
+          "searchJob": "michigan",
+          "text": "anyways are there any cute girls in southeastern michigan that want to hang out? perhaps smoke weed? i can offer free sushi and use of my synths and drum machines"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094245859789566448",
+          "author": "tindellsean",
+          "searchJob": "ole-miss",
+          "text": "It was an incredible week. From the Coast to North Mississippi we made many stops connecting with old friends and making new ones. I really felt inspired meeting the triplets, Arnold, Ronald, and Donald, who were celebrating their 80th birt"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2094248005956440379",
+          "author": "quencepaul",
+          "searchJob": "wake-forest",
+          "text": "Different Glass A Story by Grok A Castaras forest that does not use the channel. The morning after the door. Late Vi-regossis, 1233. A boy wakes in a bed that was not issued. A master walks him through a throat of books. Breakfast is next d"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094247801874252237",
+          "author": "quencepaul",
+          "searchJob": "wake-forest",
+          "text": "A Story by Grok https://t.co/KKsyU1rm28"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094219498446545347",
+          "author": "charlottejcho",
+          "searchJob": "charlotte",
+          "text": "Beginning tomorrow, our lunar new year sale will donate 100% of net proceeds to the Safe Passage Project, which offers free legal aid to refugee and immigrant children in NYC and Long Island at risk of deportation to life-threatening condit"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094197147092574468",
+          "author": "ravensbrent",
+          "searchJob": "charlotte",
+          "text": "Bill Elliott became the first winner of the #NASCAR Winston Cup Series #WinstonMillion, earning the nickname \"Million Dollar Bill\" when he won the #Southern500 at Darlington Raceway on September 1, 1985, leading the final 44 laps and beatin"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094132882943934666",
+          "author": "cltairport",
+          "searchJob": "charlotte",
+          "text": "The last runway redesignation is on approach as 18L-36R prepares to become 18-36 this September, returning CLT’s oldest runway to the designation it started with nearly 90 years ago. Built in the 1930s, the runway has grown from 3,000 to 8,"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094161150657351985",
+          "author": "charlottep93551",
+          "searchJob": "charlotte",
+          "text": "Ascended Heroes Pokémon Center Stamped ETB Asking price is $250 with shipping, open to offers Venmo goods and services only, brand new factory sealed with some whitening on the edges. Ships 09/02 Serious inquiries only DM for more informati"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094159033758282010",
+          "author": "charlotteh0207",
+          "searchJob": "charlotte",
+          "text": "No one should be in the least bit surprised that the Golders Green ambulance arson was indeed a false flag. The timing was just too convenient. Death, sadistic cruelty, lies, false flags, barbarity &amp; corruption is all that Zionists have"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2093990646138769790",
+          "author": "craigmurrayorg",
+          "searchJob": "charlotte",
+          "text": "The Golders Green ambulance arson was a false flag. The Muslim teenagers recruited to carry it out were not ideological and were doing it for cash. Recruited online - they didn't see by whom. HAYI is an Israeli false flag vehicle that first"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094158974824206590",
+          "author": "charlotteh0207",
+          "searchJob": "charlotte",
+          "text": "No one should be in the least bit surprised that the Golders Green ambulance arson was indeed a false flag. The timing was just too convenient. Death, sadistic cruelty, lies, false flags, barbarity &amp; corruption is all that Zionists have"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094158950547517481",
+          "author": "charlotteh0207",
+          "searchJob": "charlotte",
+          "text": "@CraigMurrayOrg No one should be in the least bit surprised that the Golders Green ambulance arson was indeed a false flag. The timing was just too convenient. Death, sadistic cruelty, lies, false flags, barbarity &amp; corruption is all th"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094140032504213661",
+          "author": "dancase83",
+          "searchJob": "charlotte",
+          "text": "@JL_Chapman what would you ask from GB for Jordan James?"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094142143921013227",
+          "author": "bimbohairbrush",
+          "searchJob": "charlotte",
+          "text": "@iFollowWomenOnX all I can offer is partial credit sorry :("
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094185517319356684",
+          "author": "mike_daddino",
+          "searchJob": "lsu",
+          "text": "Kid was throwing 101 Little League World Series https://t.co/s5MpkMPqJg"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 1,
+      "rejected": 27,
+      "reasons": {
+        "multiple_resolved_schools": 3,
+        "bare_mention_requires_llm": 12,
+        "reporter_missing_player_name": 2,
+        "school_not_resolved_confidently": 10
+      },
+      "samples": [
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094249730574573584",
+          "author": "mccarthyist2",
+          "searchJob": "liberty",
+          "text": "Friends, colleagues, mutuals, lurkers, quote-tweet historians, and all who ever paused mid-scroll because a sentence from Virginia had the weight of a footnote and the timing of a verdict: We are here because Christian Heiens is gone, and t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094246474942926996",
+          "author": "texasmadde",
+          "searchJob": "liberty",
+          "text": "📜📝🔑✨️Specialist Study: Heavenly Morphology, Resurrectional Ontogenesis, Cosmogenesis, Celestial Ecology & the Reconstitution of Creation, + the Pneumato-Meteoric Angelomorphogenesis - The Eschatological Morphogenesis of \" the Father’s Ho"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094230169435181520",
+          "author": "dchristian2028",
+          "searchJob": "class:2028",
+          "text": "JMU Offered #MoreThanBlessed #Godsplan #BLESSED #GoDukes 💜🤍@JMUFootball @coach_bnapier @CoachFlemWR @nextt_level @alonzobowens21 @T_Hop7 @Coach_DuBose35 @EhsVikingSports @benjaminwolk @247Sports https://t.co/E6Inbtcfvh"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2094248277218611550",
+          "author": "sixstarfootball",
+          "searchJob": "class:2029",
+          "text": "🚨 Texas Tech is already working ahead in the '29 class Stephenville (TX) WR Caden Monk (@CMonk3408) has landed an offer from the Red Raiders What stands out about Monk, and where does Tech fit early in his recruitment? @JGonzalesJr10 #Wrec"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094248027087143143",
+          "author": "samspiegs",
+          "searchJob": "class:2029",
+          "text": "2029 Waxahachie (TX) WR Jashawn Crayton adds an offer from SMU https://t.co/OLuv1vQgBa"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094247766834778247",
+          "author": "chadreed99",
+          "searchJob": "oregon",
+          "text": "@SethOliveras Lincoln Riley was offered the LSU job. With OU joining SEC, he knew he would be exposed. He chose USC &amp; PAC 12 thinking Oregon would be his only tough game. He wanted another cake walk conference. Not top level competition"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094247337304444930",
+          "author": "chadreed99",
+          "searchJob": "oregon",
+          "text": "@B1G10Trojan Lincoln Riley was offered the LSU job. With OU joining SEC, he knew he would be exposed. He chose USC &amp; PAC 12 thinking Oregon would be his only tough game. He wanted another cake walk conference. Not top level competition."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094247643677643124",
+          "author": "prospecscamp",
+          "searchJob": "kansas",
+          "text": "🚨TOP 40 IN THE COUNTRY🚨 Rodney Washington is locked in for ProSpecs Camp 🔥 One of the most explosive players on the EYBL circuit for AB Elite. Year after year, he’s among the top bucket-getters in the land. 14 D1 offers 📈 Kansas, Alabam"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094248330746384827",
+          "author": "ccuva1",
+          "searchJob": "syracuse",
+          "text": "@Domedincuse So many of my sons friends went south to attend college. Syracuse offered my son absolutely zero. Clarkson $53k. He turned them both down for pharmacy school 😀 One of his friends dad is an SU alum. SU gave his kid zero scholar"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094245652423148022",
+          "author": "tidspurs",
+          "searchJob": "syracuse",
+          "text": "@229SouthFlorida @BasesOnBulls Bellamy was big get from Syracuse and was great last year, Horace Lockett was a big get (also turned down huge offers in the portal this season), Oklahoma hated losing Lewis Carter to us and he’s dominated, Du"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094245239615578588",
+          "author": "emmadawaad",
+          "searchJob": "air-force",
+          "text": "This is what makes X special. @CyberTruckMax saw my post and offered to mail me a Cybertruck Hotwheel that I’ve been on the lookout for! But the real story isn’t the Cybertruck—it’s Max. Max has served our country in the U.S. Air Force for "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094248143307350407",
+          "author": "edwardsibl91034",
+          "searchJob": "wake-forest",
+          "text": "The bible says all humans will not accept Jesus Christ. None. A person will only call on God after He births them a new heart. All credit goes to God. No sinners prayer. No walking the isle. No accepting Christ. John 6:63 “It is the spirit "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094250086230262010",
+          "author": "jessicabaldovi2",
+          "searchJob": "north-carolina",
+          "text": "Thinking about moving to North Carolina? Thomasville offers small-town character, local history, established neighborhoods, and convenient access to the Piedmont Triad. Don’t choose a city from a map alone. Let’s find the NC community that "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094234350527418740",
+          "author": "stk__itk",
+          "searchJob": "houston",
+          "text": "@fergburg84 @SaintsNationAU Why would we have to offer Collingwood pick 8 to convince Dan Houston to join."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094221192920019339",
+          "author": "houstonchron",
+          "searchJob": "houston",
+          "text": "Houston Zoo Free Zoo Days offer free admission on select Tuesdays in 2026. See the remaining dates and how to reserve tickets. https://t.co/WqoNq1C1M6"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094195582042571154",
+          "author": "shooktwt",
+          "searchJob": "houston",
+          "text": "@tumbytimejr come to houston texas TODAY. RIGHT NOW. i have an offer to get 75 cinemark points if i get two tickets to buddy and the offer expires today"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094243322009362831",
+          "author": "edwardsibl91034",
+          "searchJob": "south-florida",
+          "text": "Baptism is required, just not water, a blood baptism. https://t.co/cPUMhzHFS2 Good vid. One of probably 50 on the subject. [Blood of Christ buys us back. It is shed for remission of sins. It is the real baptism] Matthew 26:28 - For this is "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094233199496876423",
+          "author": "tylertalksball",
+          "searchJob": "south-florida",
+          "text": "@Prophet_Logic17 Kuminga is not taking the $16M MLE. He's gonna want anywhere from $20M-$30M AAV on a multi-year deal. The Bulls and Kings are threats to offer him that, but neither team is playoff caliber. If the Wolves match the potential"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094215472862642330",
+          "author": "chrisweston_ps",
+          "searchJob": "south-florida",
+          "text": "The Daily Fix: Warsh Rewrites the September Playbook Fed Chair Kevin Warsh’s speech at Jackson Hole (on Friday) has kicked the hornet’s nest and set up what should be an interesting couple of weeks, as market players react to incoming US ti"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094242765013967320",
+          "author": "leetimbo90",
+          "searchJob": "cincinnati",
+          "text": "@RedsDaily4 What makes you think he will want to be back in Cincinnati after the way they disrespected him? Unless no teams offer him what he wants"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2094211385257259034",
+          "author": "bwoods_sports",
+          "searchJob": "charlotte",
+          "text": "🚨 RECRUITING UPDATE: Cruz Jackson has received his FIRST DIVISION I OFFER from Queens University of Charlotte! The 6’6” sophomore wing has continued to make major strides physically, adding size and strength while becoming noticeably more "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094197596805796036",
+          "author": "ravensbrent",
+          "searchJob": "charlotte",
+          "text": "It was called the Winston Million. R.J. Reynolds offered a $1 million bonus that would pay $1 million to any driver who could win three of the so-called Big Four races: #Daytona500, #Winston500 (at Talladega Superspeedway), #CocaCola600 (at"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094175135842353504",
+          "author": "babalouis_jones",
+          "searchJob": "charlotte",
+          "text": "My windows do open. It just doesn’t help. I run a portable AC in my side room and rotate kids through it periodically. The real problem is maintenance on these giant public investments is criminally neglected. I reported the issue with my A"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094164405491528114",
+          "author": "cedarposts",
+          "searchJob": "charlotte",
+          "text": "At some point the citizens of Charlotte and the surrounding areas will come to realize “our” airport is a fiefdom established by Jerry Orr, that exists only to expand, grow and spend money. If offers nothing to taxpayers. Neither airfare sa"
+        }
+      ]
     },
     "search": {
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 10,
-      "failed": 1,
-      "requests": 11,
-      "errors": [
-        "arizona: rate limited"
-      ]
+      "swept": 36,
+      "failed": 0,
+      "requests": 36,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 27,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-08-31T02:10:27.896Z"
+    "status rebuilt locally from current store on 2026-08-31T02:28:42.360Z"
   ]
 }
