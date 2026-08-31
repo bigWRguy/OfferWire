@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T13:13:41.394Z",
+  "generatedAt": "2026-08-31T13:26:14.441Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5406727777777778,
-    "p95Hours": 1.2923566666666666,
-    "worstHours": 1.2923569444444445
+    "medianHours": 0.7498527777777778,
+    "p95Hours": 1.5015366666666667,
+    "worstHours": 1.5015366666666667
   },
   "decisionCoverage": {
-    "total": 20,
-    "decided": 20,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "pending": {
@@ -59,197 +59,46 @@
     }
   },
   "audit": {
-    "at": "2026-08-31T13:11:19.074Z",
+    "at": "2026-08-31T13:26:08.885Z",
     "mode": "live",
     "collection": {
-      "returned": 43,
-      "kept": 20,
-      "duplicate": 23,
+      "returned": 0,
+      "kept": 0,
+      "duplicate": 0,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 8,
-      "rejected": 12,
-      "reasons": {
-        "hard_negative": 2,
-        "no_offer_term": 7,
-        "no_fbs_school": 3
-      },
-      "samples": [
-        {
-          "reason": "hard_negative",
-          "postId": "2094409380795928652",
-          "author": "imnotharsh",
-          "searchJob": "arizona",
-          "text": "$INTC The Motley Fool: CEO Lip-Bu Tan Just Gave 12 Million Reasons to Buy Intel Stock -- Excellent article by Billy Duberstein below on Intel -- In early August, Intel raised $23 billion in equity at $95 per share, up from an initial target"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094399265279820115",
-          "author": "fairgambling",
-          "searchJob": "arizona",
-          "text": "https://t.co/ludl3TeZr1"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094396304684142853",
-          "author": "voidelur",
-          "searchJob": "arizona",
-          "text": "@SHOTGUNCALLO Thanks"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094411592222101745",
-          "author": "worldtechrsrch",
-          "searchJob": "toledo",
-          "text": "https://t.co/nXtWM4lwIi"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094404964940452156",
-          "author": "tradethecrowd",
-          "searchJob": "class:2026",
-          "text": "$MRVL Marvell Technology: A Tollbooth at an Untenable Price https://t.co/1RPoigchPm"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094404042718150774",
-          "author": "my_stock_picker",
-          "searchJob": "class:2026",
-          "text": "Guidance went up. The stock went down. Not a contradiction, a timing gap. Our target moved $353.93 to $433.48 the evening NVDA raised FY2028 growth to ~70%. The Street revised the next morning, mostly to the $300s. Why? More detailed in the"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2094395422676779354",
-          "author": "marsclavie",
-          "searchJob": "class:2026",
-          "text": "the timeline is suddenly full of XPL bull posts a month before one of the biggest unlocks relative to float in crypto history. funny timing @plasma here's why it's one of the worst-structured tokens in crypto. with receipts. the setup was p"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094396710290145672",
-          "author": "kellyg581976179",
-          "searchJob": "california",
-          "text": "🚨Extremely Urgent in Southern California This is 1 year old Blue and 2 year old Kai. Blue is very sweet, playful and friendly, walks well on a leash. He is really struggling in the loud noise, high stress shelter 💔 Kai is sweet, friendly,"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094047959851639079",
-          "author": "lilaflw",
-          "searchJob": "california",
-          "text": "DOPPELGÄNGER pibbles both PENDING D3ATH😭 Blue #ID259913: friendly, playful, 👍leashwalker, understandably annoyed locked up 24/7 thus scatters kibble food all over floor😂 Kai #ID260155: energetic, friendly, lil hyper🤪, also👍leashwalker "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094408773586788699",
-          "author": "only4stonks",
-          "searchJob": "colorado",
-          "text": "I didn’t take the $OPEN offer on my house. It seemed priced like a joke, and I even pushed back. I dropped my price 2 times. It didn’t sell. Opendoor was right. I’m renting now and the current Opendoor offer is even lower and I’m worried th"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094404240236036554",
-          "author": "0xcrypto_duke",
-          "searchJob": "duke",
-          "text": "Transparency first: I’ve just joined AlphaX as an affiliate. As I start documenting more of my trading journey publicly, I also want to test platforms under real trading conditions, not simply repeat their marketing claims. AlphaX will be t"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094402667380412631",
-          "author": "brendan_duke",
-          "searchJob": "duke",
-          "text": "https://t.co/b3tDMsFafj"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 8,
-      "reasons": {
-        "multiple_resolved_schools": 1,
-        "bare_mention_requires_llm": 5,
-        "player_display_name_unusable": 1,
-        "school_not_resolved_confidently": 1
-      },
-      "samples": [
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094411510084690239",
-          "author": "thescif",
-          "searchJob": "arizona",
-          "text": "BREAKING: Trump administration gets 95 illegal immigrant truckers pulled off Arizona highways in a Yuma Sector smuggling sweep, and offers trucker jobs to U.S. veterans. CBP and partner agencies arrested 95 drivers who were in the country i"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094400338027556970",
-          "author": "azfamily",
-          "searchJob": "arizona",
-          "text": "Phoenix gas station offers relief as Arizona fuel prices soar https://t.co/54gbuoqfi8 https://t.co/NsvNhwNXmV"
-        },
-        {
-          "reason": "player_display_name_unusable",
-          "postId": "2094409816739336504",
-          "author": "nasirbraxton1",
-          "searchJob": "baylor",
-          "text": "AGTG! 🙏🏾 After a great conversation with @CoachCarsonHall and @BUFootball, I’m blessed and honored to receive an offer from Baylor University! @RustyMansell_ @benjaminwolk @CoachFelton1 🟢🟡🐻🏈 #SicEm 🐻 #AGTG https://t.co/ixeKP4LVCL"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094407389017477330",
-          "author": "davidmarkomiami",
-          "searchJob": "baylor",
-          "text": "@dangainor @Baylor Not expecting anything. Speaking about virtue, nobility, kindness. No university would be forced to offer food to Jews or Muslims. Baylor is not committing suicide offering kosher or halal. If Jesus had been a student at "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094410549941403944",
-          "author": "scheeyak",
-          "searchJob": "california",
-          "text": "wts 2 lower level tickets for bts at Inglewood, california we wouldn’t be going anymore so we wts these, pls text if you're interested can and will facetime 🤧you can text with your offers ! 🏷️ world tour arirang wtb wtb California la wtt "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094405798093115465",
-          "author": "moixety",
-          "searchJob": "california",
-          "text": "LETTING GO OF (2) INGLEWOOD VIP SOUNDCHECK PACKAGE BTS TICKETS (9/6) d4 GOING FOR LOWER THAN I GOT THEM🥺 Open to OFFERS PLEASE TEXT ME IF INTERESTED💜 🏷️ army bts world tour arirang California ca la wtt wts ticket Los Angeles day 4 wtb is"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094398556400493014",
-          "author": "autoretailkiosk",
-          "searchJob": "california",
-          "text": "🎰🏇🏼 Sports-betting kiosks at Del Mar Racetrack could offer California a more limited path toward legal wagering than a statewide mobile market. https://t.co/TfsD6nYZCz"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094401230470807909",
-          "author": "weedestate",
-          "searchJob": "colorado",
-          "text": "@denverpost @icegov tell them their offer to contract is rejected and to go fuck themselves. Thats what id do. Ive done it a few times. Its hilarious to see the incompetent faces freak out because they are the authorities. Not we the people"
-        }
-      ]
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
-      "ok": true,
-      "reason": null,
+      "ok": false,
+      "reason": "georgia-tech: rate limited",
       "jobs": 162,
-      "swept": 34,
+      "swept": 0,
       "failed": 1,
-      "requests": 35,
+      "requests": 1,
       "errors": [
         "georgia-tech: rate limited"
       ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 8,
+      "rejectedCandidates": 0,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-08-31T13:13:41.394Z"
+    "status rebuilt locally from current store on 2026-08-31T13:26:14.442Z"
   ]
 }
