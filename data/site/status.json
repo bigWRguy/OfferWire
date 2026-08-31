@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-31T21:58:30.967Z",
+  "generatedAt": "2026-08-31T22:14:04.558Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-08-31T21:58:30.723Z",
+    "at": "2026-08-31T22:14:04.198Z",
     "jobsTotal": 162,
-    "sweptThisRun": 33,
-    "requests": 34,
+    "sweptThisRun": 34,
+    "requests": 35,
     "fullSweepCycles": 5
   },
   "backfillCoverage": {
@@ -27,15 +27,20 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "texas-tech",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 0.9161741666666666,
-    "p95Hours": 1.5133044444444443,
-    "worstHours": 2.0408677777777777
+    "medianHours": 0.7899516666666667,
+    "p95Hours": 1.5399675,
+    "worstHours": 2.300198611111111
   },
   "decisionCoverage": {
-    "total": 82,
-    "decided": 82,
+    "total": 120,
+    "decided": 120,
     "complete": true
   },
   "pending": {
@@ -44,386 +49,388 @@
   "profileResolution": {
     "cached": 28
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 5,
   "quality": {
-    "completeOffers": 467,
+    "completeOffers": 469,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-08-31T21:58:30.722Z",
-      "got": 110,
-      "new": 82,
-      "lag": 0.06
+      "at": "2026-08-31T22:14:04.197Z",
+      "got": 179,
+      "new": 120,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-08-31T21:56:14.939Z",
+    "at": "2026-08-31T22:11:31.331Z",
     "mode": "live",
     "collection": {
-      "returned": 110,
-      "kept": 82,
-      "duplicate": 28,
-      "tooOld": 0,
+      "returned": 179,
+      "kept": 120,
+      "duplicate": 58,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 53,
-      "rejected": 29,
+      "accepted": 67,
+      "rejected": 53,
       "reasons": {
         "no_offer_term": 13,
-        "no_fbs_school": 14,
-        "hard_negative": 2
+        "no_fbs_school": 27,
+        "hard_negative": 6,
+        "non_fbs_offer_target": 7
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2094489423593271726",
-          "author": "sreedii",
-          "searchJob": "lsu",
-          "text": "What is the SEC without LSU?"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094486638797762770",
-          "author": "on3",
-          "searchJob": "lsu",
-          "text": "NEW: SEC school executives are exploring extreme measures over LSU adding former professional players, @RossDellenger reports. Including boycotting competition, placing LSU on probation, expelling the school from the SEC, and pursuing a fed"
+          "postId": "2094466067322044699",
+          "author": "loofyb0i",
+          "searchJob": "texas-tech",
+          "text": "The State Department on 200,000 visa holders: \"Under President Trump and Secretary Rubio's leadership, we are making clear that a visa is a privilege, not a right.\" this is NBC's homeland security correspondent on the largest mass visa revo"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094538218943168689",
-          "author": "naifamd",
-          "searchJob": "maryland",
-          "text": "Build skills that build your career. NAIFA offers access to LUTCF, LACP and industry-leading education. https://t.co/5j9dxZav9i #ExperienceNAIFA #ProfessionalDevelopment https://t.co/5oh2D9OOjO"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094536146537828840",
-          "author": "p_lwanga",
-          "searchJob": "michigan",
-          "text": "Why Patient Capital Is the Surest Investment, The Power of Observation, Why Marriage Is a Myth, and Keeping Your Mouth Shut https://t.co/HvcKI77Z0K"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094535766038675776",
-          "author": "detroitnews",
-          "searchJob": "michigan",
-          "text": "Kyle Whittingham seeks 'clean' season opener against Western Michigan https://t.co/CgpymEFTND"
+          "postId": "2094527054867775539",
+          "author": "digitaltech718",
+          "searchJob": "texas-tech",
+          "text": "Jay-Z not signing me, he's more into talking sht to me, and if he did, I'm not signing with him. Years early on some other celeb was like yo this, that and the third because that person wants me with that person camp. So, since 2021 it's be"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094526619788403161",
-          "author": "sparty_vz",
-          "searchJob": "michigan-state",
-          "text": "@arielhelwani At least he didn't offer slap fighting as an alternative to BKFC"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094536180146536518",
-          "author": "thesaw1010",
-          "searchJob": "minnesota",
-          "text": "@Singsy24 Btw…only an offer that starts with Nico will even be considered if it does come to that. I know you think you can just wait a year, but that will not happen in Minnesota."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094538219387806058",
-          "author": "naifamissouri",
-          "searchJob": "missouri",
-          "text": "Build skills that build your career. NAIFA offers access to LUTCF, LACP and industry-leading education. https://t.co/cDGxlti9HA #ExperienceNAIFA #ProfessionalDevelopment https://t.co/tQwU2CctYO"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094184646976172174",
-          "author": "con_national",
-          "searchJob": "missouri",
-          "text": "If your school doesn’t have elite academics, elite athletics, elite Greek life, or a combo of the 3 then you can expect to be left behind."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2093325205091373436",
-          "author": "shevaxgod",
-          "searchJob": "nebraska",
-          "text": "Ed Thorp, MIT mathematician, 1962: he published a book proving you could beat blackjack, and gave the entire system away. it became a bestseller. las vegas responded by changing the rules of the game. customers refused to play the new versi"
+          "postId": "2094522587095216133",
+          "author": "techregard",
+          "searchJob": "texas-tech",
+          "text": "CBN Offers ₦700Bn Treasury Bills for First September Auction The Central Bank of Nigeria (CBN), acting on behalf of the Debt Management Office (DMO), is offering ₦700 billion in Nigerian Treasury Bills (NTBs) at its first auction for Septem"
         },
         {
           "reason": "hard_negative",
-          "postId": "2094544529835630817",
-          "author": "coach_baileym",
-          "searchJob": "oklahoma",
-          "text": "Crandall (Tex.) HS 2028 RB Darrick Ward Jr. (@DJWardJr) This was one of his many tough, extra yardage runs of the night. The physical Junior RB tallied 125 rushing yards and 2 touchdowns, showing why he holds D1 offers from Oklahoma, UCLA, "
+          "postId": "2094534467226603657",
+          "author": "susan_dupres",
+          "searchJob": "washington-state",
+          "text": "Washington State WA State Health Care Authority (HCA) Recovery Support Services Peer to Peer Newsletter Part 2 August 31, 2026 Upcoming events and trainings Peers Specialists invited to Four Directions Conference, scholarships available Con"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2094532814050058741",
+          "author": "susan_dupres",
+          "searchJob": "washington-state",
+          "text": "Washington State WA State Health Care Authority (HCA) Recovery Support Services Peer to Peer Newsletter August 31, 2026 Upcoming webinars, self-care challenge, featured art, and more! A newsletter about the Washington State Health Care Auth"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2094421658643632525",
-          "author": "jasminlaine",
-          "searchJob": "oklahoma",
-          "text": "BREAKING: An Oklahoma governor has written to the President, telling Trump that Jewish families who legally enter the US would be welcomed by Oklahoma, praising the “talent, faith, family values, entrepreneurship” they’d bring. Carney himse"
+          "postId": "2094543193291244027",
+          "author": "np4football_ot",
+          "searchJob": "western-michigan",
+          "text": "Aiden Pilgrim-OL-2029-MI @WMU_Football Game Day Visit #CFB"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2094519955739881530",
-          "author": "grassroots_hq",
-          "searchJob": "ole-miss",
-          "text": "Ole Miss is in the hunt. The Rebels have jumped into the race for 2028 Bluegrass standout @Avery_Thomp2 . Now the chase begins. https://t.co/kpwhjMt7jr"
+          "postId": "2094226119130075156",
+          "author": "aidenpilgrim56",
+          "searchJob": "western-michigan",
+          "text": "Thank you @CamAllenFB for the game day invite! Can’t wait to be back on campus! @WMU_Football @DavCardFootball @CoachLT_WMU @pawlakjoe @ctoudle1 @RBCoachPaige @coach_Menefee @mitchell_boles @EthanBrenesFB @J_bergan14 @JustinSchmidtFB @tams_"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094542007683436913",
-          "author": "jaredtechnerd",
-          "searchJob": "texas-tech",
-          "text": "@gregisenberg If a team can spin up an open-source tool locally or on cheap cloud infrastructure in 10 minutes using a basic deployment script, they aren't going to pay $800/month for your hosted version unless your enterprise tier offers a"
+          "postId": "2094538219186454856",
+          "author": "naifawyoming",
+          "searchJob": "wyoming",
+          "text": "Build skills that build your career. NAIFA offers access to LUTCF, LACP and industry-leading education. https://t.co/RvNmV3Zsrs #ExperienceNAIFA #ProfessionalDevelopment https://t.co/Xt7iyPIwOn"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2094541074505269337",
-          "author": "slashapp",
-          "searchJob": "texas-tech",
-          "text": "Four best friends are reinventing how businesses protect themselves against the risks they can't control. Meet the founders of Castle. https://t.co/4DIlXt1x8F"
+          "postId": "2094540218732790263",
+          "author": "veliu_labs",
+          "searchJob": "class:2026",
+          "text": "https://t.co/qvrilipLYk"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2094540733651067266",
-          "author": "profilefblive",
-          "searchJob": "texas-tech",
-          "text": "2028 RB Colt Inman from Hun School HS, NJ has been offered by Virginia Tech. @colt_inman2009 Rated 3.5⭐ (#772 NATL, #50 RB, #22 NJ). https://t.co/dSa5B0aGsn"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094527305414488125",
-          "author": "techregard",
-          "searchJob": "texas-tech",
-          "text": "With the Keystone Bank back-to-school solutions, parents and school administrators gain liquidity support for the academic term. https://t.co/mWXdEd54fQ https://t.co/wBB04RXIoC"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094524939319791904",
-          "author": "barcelonaute",
-          "searchJob": "utah",
-          "text": "@Robertonical barca was ready to listen to offers, he didnt want to leave."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094518681313411540",
-          "author": "2510_m_m",
-          "searchJob": "utah",
-          "text": "@BillMelugin_ @RapidResponse47 @FoxNews Okay loook, Utah rounds out the top 5. I hate what these evil politicians have done to our state. We were the first to offer DL to illegals. They sold it to us as a way for them to get insurance. Most"
+          "reason": "hard_negative",
+          "postId": "2094538627258691612",
+          "author": "_theunderdogs_",
+          "searchJob": "penn-state",
+          "text": "@Tyre_94 there is a reason Penn State yanked his schollie offer when he tried to commit."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2094535430049816603",
-          "author": "tokertim",
-          "searchJob": "virginia",
-          "text": "@jrichardgoodman after the Knicks series if I would've asked Kuminga and Turner if they would be happy with $6 million/year.. they would've laughed at me"
+          "postId": "2094542980518478305",
+          "author": "np4football_ot",
+          "searchJob": "rutgers",
+          "text": "Dennis Jackson III-LB-2029 @RFootball Game Day Visit #CFB"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094164956941840429",
+          "author": "412dennis",
+          "searchJob": "rutgers",
+          "text": "I will be at @RFootball October 3rd vs Indiana @Coach_Bahr @_CoachHodge #CHOP🪓 @RodSteele16 @coachwil_412 @EatTeam_2 @210ths @BrianDohn247 @TheHook720 @ChadSimmons_ https://t.co/QpvwYdBfW3"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094538219584897493",
-          "author": "naifa4va",
-          "searchJob": "virginia",
-          "text": "Build skills that build your career. NAIFA offers access to LUTCF, LACP and industry-leading education. https://t.co/uf5pZ6cnVH #ExperienceNAIFA #ProfessionalDevelopment https://t.co/cWdo7ahGsd"
+          "postId": "2094538218574061954",
+          "author": "naifatn",
+          "searchJob": "tennessee",
+          "text": "Build skills that build your career. NAIFA offers access to LUTCF, LACP and industry-leading education. https://t.co/5FQ1EwoZzv #ExperienceNAIFA #ProfessionalDevelopment https://t.co/nxmR652FiY"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094537129481146756",
-          "author": "vaprepsrivals",
-          "searchJob": "virginia",
-          "text": "Battlefield 2027 DB/WR Jeromie Shoulders lands his newest offer from McNeese."
+          "postId": "2094547260084199713",
+          "author": "bigrooney77",
+          "searchJob": "texas",
+          "text": "BREAKING: This U.S. born citizen was deported to Mexico in April. During a traffic stop, Brian Morales told immigration officers that he was born in Colorado, and offered to show his birth certificate. They refused to listen and deported hi"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094541752145162478",
+          "author": "mexicotimes",
+          "searchJob": "texas",
+          "text": "#Now #Sheinbaum’s advisers open constitutional Pandora’s box: can renouncing a passport prove loyalty—or merely exclude binational Mexicans? #Reform could affect presidential, gubernatorial &amp; #MexicoCity candidates while leaving foreign"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094522277551391183",
-          "author": "jeromieshouldrs",
-          "searchJob": "virginia",
-          "text": "Blessed to have EARNED my 3rd D1 Offer to @McNeeseFB @Tyler_Bolfing @coach_ben3 @CoachAI @coach_ben1 @CoachViator @CoachHatfield1 @KastrellR @WillVapreps @Rivals @PrepRedzoneVA @VaPrepsRivals https://t.co/JdJUC7TFm8"
+          "postId": "2094541519013249261",
+          "author": "mwshau",
+          "searchJob": "texas",
+          "text": "@DrDavidivw Dr. David I'm praying that you can offer some help or at least some skillful advice to Joey Franko! 🙏🏻"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094533845517316120",
-          "author": "worldcrimeintel",
-          "searchJob": "virginia",
-          "text": "USA: Lawyers for Uruguayan drug trafficker Sebastián Marset have asked a federal court in Virginia to suppress evidence obtained from his electronic devices, arguing that DEA agents obtained his passwords before informing him of his rights."
+          "postId": "2094538217064190146",
+          "author": "naifatexas",
+          "searchJob": "texas",
+          "text": "Build skills that build your career. NAIFA offers access to LUTCF, LACP and industry-leading education. https://t.co/6tFPZoVz5E #ExperienceNAIFA #ProfessionalDevelopment https://t.co/VM6XJLYw6q"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094537568683778375",
+          "author": "mrjessewattersb",
+          "searchJob": "texas",
+          "text": "BREAKING: This U.S. born citizen was deported to Mexico in April. During a traffic stop, Brian Morales told immigration officers that he was born in Colorado, and offered to show his birth certificate. They refused to listen and deported hi"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094537028264477005",
+          "author": "spcxgod",
+          "searchJob": "texas",
+          "text": "Aug 31 Everything SpaceX and Tesla last 24 hours https://t.co/nF2XeM5r8V"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094534797054099749",
+          "author": "stackemupagain",
+          "searchJob": "texas",
+          "text": "@notthesameone2 I sent the shelter my ID,my Cane Corso kennel credentials, my training background and an offer to adopt her. Because I am in Texas I dont know if they'll work with me to adopt her... I still have not recieved an email reply."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094534408103469305",
+          "author": "tx_lone_star",
+          "searchJob": "texas",
+          "text": "@EricSpracklen I agree that's not the solution for everyone. But what the communist Dems have to offer is a solution to no one! So, I'll happily take this over the other."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094529604270612955",
+          "author": "tppf",
+          "searchJob": "texas",
+          "text": "In 2013, the Obama Administration offered “Housing First” as the means to end homelessness in 10 years. Over a decade later, homelessness is more prevalent than ever, and taxpayers have been financing ever-increasing funding to programs tha"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094541998766067906",
+          "author": "washtimes",
+          "searchJob": "washington",
+          "text": "A highly educated Black lawyer would seem to be a big get for a law company, but Justice Thomas received just one job offer — and it wasn’t from any of the firms. More Seen, Heard &amp; Whispered: https://t.co/JzrI9rsZel"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094535198964584537",
+          "author": "charlehcampbell",
+          "searchJob": "washington",
+          "text": "My daughter and I got to visit the Museum of the Bible today in Washington, D.C. What a beautiful museum. Loved it! Behind me is the remarkable Megiddo Mosaic, discovered in Israel and dating to about A.D. 230—nearly a century before the Co"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 52,
+      "accepted": 3,
+      "rejected": 64,
       "reasons": {
+        "bare_mention_requires_llm": 18,
         "school_not_resolved_confidently": 35,
-        "bare_mention_requires_llm": 15,
-        "multiple_resolved_schools": 2
+        "reporter_missing_player_name": 1,
+        "multiple_resolved_schools": 10
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094537592129700118",
-          "author": "dictatorkiffin",
-          "searchJob": "lsu",
-          "text": "@Coro_Aborigine @DrunkCoachBaker The Big10 would offer lsu membership faster then anything tbh"
-        },
-        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094535334851698835",
-          "author": "dictatorkiffin",
-          "searchJob": "lsu",
-          "text": "@Daemienchiefs They won’t do it LSU is the most successful sports university in the sec they have 54 national titles and avrg a national title a year They’re the Alabama of baseball the Big10 would offer them membership so fast same with th"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094533486312816713",
-          "author": "dictatorkiffin",
-          "searchJob": "lsu",
-          "text": "It’s not the SEC The SEC losing a founding member would give the Big10 the ability to offer lsu a spot and now the SEC losing the biggest sports program in their conference 54 national titles only Texas has more lol"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094525323744620581",
-          "author": "fosterreub81830",
-          "searchJob": "lsu",
-          "text": "@jamiest64513315 @JacquesDoucet @LSUfootball @Lane_Kiffin @Greg_Byrne He will never get that offer."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094523005128863926",
-          "author": "theloyalroyal18",
-          "searchJob": "lsu",
-          "text": "@KaneLiffin__ @partyinthesip @AmyRoberie @RossDellenger @YahooSports You didn’t break shit down, you just repeated what’s already been said and offered 0 additional reasoning 😂 I don’t think LSU gets “kicked out” but something will be done"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094519411528900799",
-          "author": "jeremycoleman",
-          "searchJob": "lsu",
-          "text": "Sankey is about to make LSU as strong ass offer."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094536706959753371",
-          "author": "jewish_yp",
-          "searchJob": "maryland",
-          "text": "Based in #Rockville #Maryland, Judy Maids is a #cleaning company that offers a range of services designed to help keep homes and businesses #clean and well-maintained. To book your #cleaning, head to #JWIZ: https://t.co/vrhC74iIxS"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094531680128168149",
-          "author": "africanarchives",
-          "searchJob": "maryland",
-          "text": "Before Harriet Tubman became one of the most famous conductors of the Underground Railroad, she was married to John Tubman, a free Black man living on Maryland’s Eastern Shore. They married around 1844, when Harriet was still enslaved and k"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094528531896103338",
-          "author": "jamierudma98794",
-          "searchJob": "michigan",
-          "text": "@cspan @AbdulElSayed When you offer Canada the best deal you've offered anyone, and they walk away, that makes Canada the asshole.....but the jhadist terrorist hasn't got a clue how this country is run..... he's funded by jhadist terrorists"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094524671748186241",
-          "author": "tom233913111307",
-          "searchJob": "michigan",
-          "text": "@MikeRogersForMI Michigan needs what El-Sayed has to offer. MI does not need another rubber stamp in DC. MI needs someone with ideas that will help working families; you have none."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094524307980357916",
-          "author": "method8corp",
-          "searchJob": "michigan",
-          "text": "Michigan school districts offer insurance-free care to beat rising health costs - The Associated Press https://t.co/emJhEFaxgX"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094515944563573013",
-          "author": "maizenbrew",
-          "searchJob": "michigan",
-          "text": "Michigan Football’s opener against Western Michigan offers an opportunity to set a tone for this season. Here’s why, and what Kyle Whittingham had to say: https://t.co/76JyYUApeY"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094521441907548479",
-          "author": "robweirdicht",
-          "searchJob": "missouri",
-          "text": "Cope n seethe rules exist long before NIL and NIL doesn’t cancel out the rules. Plus he and his brother already said Mizzou will always be home Mizzou just didn’t have the same money to offer Mark for one year of work that UK did. Now that "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094516576833732612",
-          "author": "boomerton35",
-          "searchJob": "missouri",
-          "text": "Still a huge market for large universities that offer social life at affordable prices Mizzou was terrible at sports when I went there It was a good regional school and fun as hell"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094542006378738122",
-          "author": "nebpubmedianews",
-          "searchJob": "nebraska",
-          "text": "A new report says Nebraska’s foster care system is improving, but federal funds could offer more support for overworked caseworkers. https://t.co/df0IchgxpP"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094519361289789704",
-          "author": "whitebone_fomo",
-          "searchJob": "nebraska",
-          "text": "A $55 MILLION deal closed on ONE PAGE, with no audit, on a HANDSHAKE, and 6 years later the 95 YEAR OLD woman who sold it opened a rival store right across the street. Warren Buffett trusted her word once. It cost him the second contract. H"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094541744977162327",
-          "author": "josiahmarti76",
-          "searchJob": "oklahoma",
-          "text": "More than 2,000 ✡️ Canadians have expressed interest in relocating to the United States because of safety concerns. Christian lawmakers ask Trump for easy path to relocate endangered ✡️ ——————————————— [https://t.co/z6OF1cpUKg 30 Aug] A coa"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094538165184852012",
-          "author": "sultanknish",
-          "searchJob": "oklahoma",
-          "text": "Oklahoma offers asylum to Jews in Canada"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094520898497745304",
-          "author": "ucrrg",
-          "searchJob": "oklahoma",
-          "text": "Dealer plates, loaners, test drives, service bays—exposures move fast. Our Oklahoma-domiciled RRG offers automobile liability and garage liability coverage for eligible auto businesses in NY, NJ, CA, FL, GA &amp; TX. Keep the lot open and w"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094515600961724612",
-          "author": "fsuwire",
-          "searchJob": "ole-miss",
-          "text": "FSU offers unranked 2027 defensive lineman in Mississippi 📸 Bob Donnan-USA TODAY Sports https://t.co/7TSRrbRH1F https://t.co/KcqOwiU6c4"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094541757891350648",
-          "author": "artemisprimex",
+          "postId": "2094527149545820282",
+          "author": "loofyb0i",
           "searchJob": "texas-tech",
-          "text": "So What!? Sounds like you are making money off these Data Centers being built in some way. Why would a community sell its soul to the Devil? The truth is that data centers only provide construction jobs during their construction, and most o"
+          "text": "Mark Carney to Americans on Trump's tariffs: \"tariffs are taxes, taxes which are ultimately paid by US consumers\" this is him explaining why Canada just walked away from a trade deal with its closest ally \"The United States has continually "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2094539916726149219",
-          "author": "followcodetech",
+          "postId": "2094526675883069651",
+          "author": "pondwhale",
           "searchJob": "texas-tech",
-          "text": "@coinbureau They are afraid because tech companies like CoDeTech have such a broad operational scope that they can offer banking services—and do so in a decentralized manner. I have reported on this. They fear losing customers to these comp"
+          "text": "@guycalledfrank look, i get it. im not an AI booster. im not out here defending yassified cloud strife. most of what ive seen looks like shit. im just not willing to completely write this tech off on its first showing without understanding "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2094538948823367832",
-          "author": "skyhawkcloudsec",
+          "postId": "2094524336304484578",
+          "author": "money644",
           "searchJob": "texas-tech",
-          "text": "The 2026 Gartner Emerging Tech Impact Radar: Generative AI opens with a sentence that in our view should stop every technology buyer mid-scroll: “Generative AI is facing a validation hurdle as, despite surging investment in associated techn"
+          "text": "Why don’t the rich politicians and tech CEOs offer to have data centers built in the actual communities and neighborhoods they live in? I bet the dialogue changes real quick if that were the case."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094524236995903558",
+          "author": "marketwirenews",
+          "searchJob": "texas-tech",
+          "text": "$LNVGY - Lenovo Labour Day Sale Makes It Easier to Find the Right Tech for Work School and Play Lenovo is marking Labour Day with two weeks of savings designed to help customers upgrade the technology they rely on every day. From August 31 "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094524024265355464",
+          "author": "dasnoorranand",
+          "searchJob": "texas-tech",
+          "text": "most [technical] founders think distribution means becoming an influencer. but here are 10 faceless, $0 distribution tactics you can run behind a screen: 1. buy abandoned communities instead of building one there are thousands of dead FB gr"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094522744717086920",
+          "author": "o_abouelnour",
+          "searchJob": "texas-tech",
+          "text": "This isn't really about ideology, communist versus democratic systems. It's transactional. China offers industrial investment, tech transfer, and flexible financing without political conditions attached, while the US remains Egypt's dominan"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2094522736701833260",
+          "author": "o_abouelnour",
+          "searchJob": "texas-tech",
+          "text": "One flashpoint: Huawei has offered to build AI and data centers in Egypt. Washington is pushing Microsoft, Nvidia, and AMD as alternatives, worried about Chinese tech infrastructure embedding itself in a key regional partner."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094522286661374441",
+          "author": "dailytechonx",
+          "searchJob": "texas-tech",
+          "text": "Already on iPhone 17 Pro? The iPhone 18 Pro looks set to offer battery life boosts, major camera upgrades, and a sleeker design—three solid reasons many users could skip this year’s hold-off. Keywords: iPhone 18 Pro, battery, camera hardwar"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094521275754713559",
+          "author": "fastbeak_",
+          "searchJob": "texas-tech",
+          "text": "One prospective Lead via VC Response, for Zindaca the Shareholder Governance Platform - however I'm going to complete the 250 Page Blocks, block by block. I have concerns around the Media that worked with Elon Musk in particular 2022-2024, "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094521055335374949",
+          "author": "leixing77",
+          "searchJob": "texas-tech",
+          "text": "💥NEW VIDEO💥 I offer my concluding thoughts of the #AUDIE7X on my way returning it to Volkswagen Group China after driving it around in Beijing for three days and experiencing the Momenta R6 intelligent driving solution. It really combines"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094519471113453655",
+          "author": "truthnow24",
+          "searchJob": "texas-tech",
+          "text": "A genius 16 year old acquaintance just got an on-the-spot internship offer at a hot SV tech company after chatting up an employee at an event. Employee recognized his brilliance just from talking to him. Kid wasn’t even looking for a job. S"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094519008938594544",
+          "author": "existician",
+          "searchJob": "texas-tech",
+          "text": "@Lukewearechange That sweet, sweet, chemical-assisted dissociation, game/sim-assisted dissociation, etc... bummer that our society doesn't have much more to offer for most of us. My favorite dissociation to date? Using tech, including AI, t"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094518013068484826",
+          "author": "gregisenberg",
+          "searchJob": "texas-tech",
+          "text": "The \"marketing engineer\" is the NEW forward deployed engineer, and I think the BEST ones will make $1M a year! A forward deployed engineer embeds with your team and uses AI to build the workflows The marketing engineer does that BUT for gro"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094517610163630320",
+          "author": "tetratechjobs",
+          "searchJob": "texas-tech",
+          "text": "We want to make a difference with you! See what #TetraTechJobs we have to offer, and work with some of the brightest minds in the industry. https://t.co/lRuTObHq0N #TetraTechJobs"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094545412095135846",
+          "author": "susan_dupres",
+          "searchJob": "washington-state",
+          "text": "Washington State FAIR CHANCE ACT Washington Background Check Requirements in Effect Now for Large + Medium Employers and in January for Small Businesses Monday, August 31, 2026 Washington State Fair Chance Act Amendments Criminal History Re"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094538983779033151",
+          "author": "susan_dupres",
+          "searchJob": "washington-state",
+          "text": "Washington State WA State Health Care Authority (HCA) Recovery Support Services Peer to Peer Newsletter Part 5 August 31, 2026 Help shape the future of the Washington Peer Jobs website Washington Peer Network is excited to be working on exp"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094538887632683259",
-          "author": "ttu58689",
-          "searchJob": "texas-tech",
-          "text": "@40AcresFight @KeithInglisDT Really it’s that Sark is the biggest pussy of all time since Tech even offered to buy out the Texas State game and the Horns still said no. You guys know you want nothing to do with Tech since Cody C started wit"
+          "postId": "2094536524524331398",
+          "author": "susan_dupres",
+          "searchJob": "washington-state",
+          "text": "Washington State WA State Health Care Authority (HCA) Recovery Support Services Peer to Peer Newsletter Part 3 August 31, 2026 OPS Webinar series: For administrators and supervisors of Peers Webinars explore topics relevant to organizations"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094529757887041572",
+          "author": "jucofootballace",
+          "searchJob": "western-michigan",
+          "text": "Zachery Warren @ZacheryWarren18 @ NEO JuCo @Norsemen_FB picks up @WMU_Football Offer @CoachCrissup https://t.co/hKaUwxwQAx"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094543738970488919",
+          "author": "afterburnsoccer",
+          "searchJob": "texas",
+          "text": "Are you looking for a live FC Dallas stream that talks FC Dallas and North Texas SC and offers wild speculation about transfers? We answer your prayer. Live at 7 PM CST tonight to enjoy feasting on road points that keep both teams in it. Se"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094541969418764303",
+          "author": "randyanderson13",
+          "searchJob": "texas",
+          "text": "@ClownWorld Can't wait to hear em cry when Texas Roadhouse no longer offers pickup orders. Problem solved sorry losers. https://t.co/bnsStVkKqh"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094539832215114060",
+          "author": "dottiehoward10",
+          "searchJob": "texas",
+          "text": "You know nothing.. it was rinos who wanted Paxton out of office, brought allegations but in trial had no proof. Acquited.. watch the trial. Trump requested that either Cornyn or Paxton drop out of primary. Paxton offered to drop out if Corn"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094538312576872594",
+          "author": "bcopland12",
+          "searchJob": "texas",
+          "text": "🚨 You can renovate a kitchen. You can’t renovate your commute. When buying in Austin, the location should be about more than the ZIP code. Think about where you’ll actually spend your time every day. That’s what makes 2300 Leon St. #101 so"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094533827830104394",
+          "author": "intlstacker",
+          "searchJob": "texas",
+          "text": "🚨Gold & Silver Just Got Hit With a Triple Bearish Warning... Don't Panic! 👉Gold moved lower today—& the reason wasn’t one headline. 👉Oil, the G20 & US manufacturing all pushed the market toward higher inflation & tighter monetary policy."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094531433800896674",
+          "author": "change",
+          "searchJob": "texas",
+          "text": "A woman says she repeatedly begged her neighbors to stop leaving their 2-year-old Goldendoodle, Rocco, chained outside in the Texas heat for 10 to 15 hours a day without water or shade. She says she called animal control and even offered to"
         }
       ]
     },
@@ -431,20 +438,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 33,
+      "swept": 34,
       "failed": 1,
-      "requests": 34,
+      "requests": 35,
       "errors": [
-        "washington-state: rate limited"
+        "class:2027: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 52,
-      "brandNewOffers": 1
+      "acceptedEvidence": 3,
+      "rejectedCandidates": 64,
+      "brandNewOffers": 2
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-08-31T21:58:30.968Z"
+    "status rebuilt locally from current store on 2026-08-31T22:14:04.561Z"
   ]
 }
