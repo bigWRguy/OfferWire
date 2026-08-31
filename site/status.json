@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-31T08:49:18.733Z",
+  "generatedAt": "2026-08-31T08:58:02.321Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-08-31T08:43:36.720Z",
+    "at": "2026-08-31T08:58:02.187Z",
     "jobsTotal": 162,
-    "sweptThisRun": 36,
-    "requests": 36,
-    "fullSweepCycles": 5
+    "sweptThisRun": 24,
+    "requests": 25,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T08:49:18.231Z",
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.6287138888888889,
-    "p95Hours": 1.0853677777777777,
-    "worstHours": 1.3820508333333332
+    "medianHours": 0.5321597222222222,
+    "p95Hours": 1.2308088888888888,
+    "worstHours": 1.2308088888888888
   },
   "decisionCoverage": {
-    "total": 56,
-    "decided": 56,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "pending": {
@@ -52,319 +52,53 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-08-31T08:49:18.230Z",
-      "got": 518,
-      "new": 56,
-      "lag": 1.87
+      "at": "2026-08-31T08:58:02.186Z",
+      "got": 1,
+      "new": 0,
+      "lag": 0.82
     }
   },
   "audit": {
-    "at": "2026-08-31T08:46:45.072Z",
-    "mode": "backfill",
+    "at": "2026-08-31T08:56:22.882Z",
+    "mode": "live",
     "collection": {
-      "returned": 518,
-      "kept": 56,
-      "duplicate": 459,
-      "tooOld": 3,
+      "returned": 1,
+      "kept": 0,
+      "duplicate": 1,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 43,
-      "rejected": 13,
-      "reasons": {
-        "no_offer_term": 10,
-        "hard_negative": 3
-      },
-      "samples": [
-        {
-          "reason": "no_offer_term",
-          "postId": "2088387636327047535",
-          "author": "rojastalkstampa",
-          "searchJob": "backfill:v2:akron:2026-07-31:2026-08-30",
-          "text": "https://t.co/oPMSDzbqMC"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094296162597527813",
-          "author": "pit5000",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "https://t.co/uJ2gbEgprV"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094260157056254309",
-          "author": "reuters",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "US Treasury Secretary Scott Bessent said he will encourage G20 members to re-examine terms of trade with China to shrink global imbalances and press Beijing to rebalance its economy away from exports and toward domestic consumption https://"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2094257908791775439",
-          "author": "allamay_shi",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "@usbank U.S. Bank publicly presents itself as one of the world’s most ethical companies. Yet the environment I experienced there was the most ethically troubling workplace environment of my career. A state employment record now says that I "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094091449575088344",
-          "author": "b1g10trojan",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "What do you rednecks expect lmao a full stadium makes you giddy?"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094062612614901908",
-          "author": "honestreporting",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "It's 2026 and @TIME is still pumping out the same tired and simplistic narrative that has been pushed for years: Israel is the obstacle to peace You know what you won't find? Any mention of PA corruption, violent indoctrination, or the infl"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2094193793079599245",
-          "author": "umesidaniel",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "Never let your spouse question their place in your life...✍🏽 Not even quietly. Not even once. Because the moment doubt enters, love no longer feels like shelter—it starts to feel like something they have to earn or defend. And no one shoul"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2094193671134417251",
-          "author": "umesidaniel",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "Never let your spouse question their place in your life...✍🏽 Not even quietly. Not even once. Because the moment doubt enters, love no longer feels like shelter—it starts to feel like something they have to earn or defend. And no one shoul"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094279814794338525",
-          "author": "ft",
-          "searchJob": "backfill:v2:army:2026-07-31:2026-08-30",
-          "text": "German gunmaker with loaded history sets sights on British army’s next rifle https://t.co/qr1tj3wr9M"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094249720902296033",
-          "author": "strategicdriftz",
-          "searchJob": "backfill:v2:army:2026-07-31:2026-08-30",
-          "text": "A $5,000 drone threatens a billion-dollar system. We build cheaper defenses. Power becomes the bottleneck. Then the target moves again. Ukraine. Microreactors. Venezuela. Three stories. One system. **THE DRAG STRIP** @StrategicDriftz https:"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094246806008053835",
-          "author": "islamic_values",
-          "searchJob": "backfill:v2:army:2026-07-31:2026-08-30",
-          "text": "Most people never meet him. They meet a headline, a cartoon, an argument someone else was having. Then they move on... But a life is a record. You can walk the whole arc in one sitting. Here it is, from the orphan to the last day. https://t"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094226363418833204",
-          "author": "apollophanes",
-          "searchJob": "backfill:v2:army:2026-07-31:2026-08-30",
-          "text": "Sailing for Africa in 533, Belisarios crossed the Mediterranean before Gelimer, king of the Vandals, had drawn the full strength of his kingdom together; with the Vandal forces still scattered, he landed at Caput Vada without opposition and"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2091110571374510472",
-          "author": "gunthereagleman",
-          "searchJob": "backfill:v2:baylor:2026-07-31:2026-08-30",
-          "text": "Baylor University was founded by Texas Baptists. It is the largest Christian Baptist university on the planet. And now it’s proudly serving certified halal chicken in its dining halls because, in their own words, they want to “support growi"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 43,
-      "reasons": {
-        "school_not_resolved_confidently": 16,
-        "bare_mention_requires_llm": 21,
-        "multiple_resolved_schools": 6
-      },
-      "samples": [
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2092263232555618419",
-          "author": "absolutelyvexed",
-          "searchJob": "backfill:v2:akron:2026-07-31:2026-08-30",
-          "text": "Wind as friend and enemy for airships: An airship flies with the air mass. Early low-power engines could not usefully fight headwinds. Later ships were faster but still slow by airplane standards. Captains waited for favourable weather and "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094244876057522614",
-          "author": "nathanholston3",
-          "searchJob": "backfill:v2:alabama:2026-07-31:2026-08-30",
-          "text": "Roll Tide!! Alabama Offered. https://t.co/Wnf2JsbSRQ"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094299946639917413",
-          "author": "emprizze",
-          "searchJob": "backfill:v2:arizona:2026-07-31:2026-08-30",
-          "text": "@Local4News Is also sad that Michigan and Ohio are some of the few states that don't offer eyelash technician courses so that you can go for 300 clock hours like you can in Texas, New York, Connecticut, Arizona Tennessee, Minnesota 🤯🤦🏻‍♀"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094298375927554425",
-          "author": "antonioeus5m",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "POPULAR UNITY (with AI DeepSeek and ChatGTP collaboration) \"...we must ask: when is a popular unity truly unbeatable? Political theory and history offer some conditions: Institutionalized pluralism: unity is not fusion, but respectful coord"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094295600703418412",
-          "author": "_inchyderabadi",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "The Congress government completes 1,000 days in Telangana, and the numbers offer a magnificent picture of the direction the CM Revanth Reddy government has taken! Telangana’s per capita income has reached ₹4,18,931 in 2025–26, marking a sig"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094292153774039243",
-          "author": "freespeech_on_x",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "🔥🔥🔥 TO THE UKRAINIAN PEOPLE 🔥🔥🔥 The West did not liberate you. It financed you — and the bill is sitting on your soil. ☝️☝️☝️ 🫵🫵🫵 You are supposed to believe this is about • your freedom • your borders • your children in the Donbas"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094272230658072880",
-          "author": "iamsagzee",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "WHY DOES EVERY TIME AMERICAN LEADERS LECTURE OTHER COUNTRIES LOOK A SIGN OF FAILURE OF THE US? The research assistant paused the live video feed on her tablet as the spokesman finished his speech. \"Every time Washington issues one of these "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094269519988441236",
-          "author": "johndillin8k7i",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "@JoelKatz @3YearLetterman USA offered Canada to become a state and they said fuck that https://t.co/8V55fGONNL"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094269140077015271",
-          "author": "chilly99705",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "@moseskagan @hkarthik Having attended an Ivy, I agree with you. Parents should ensure they live in a state with a strong public university system. Even better if it offers free tuition to high achievers. Great if you get into Ivy+ but almos"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094265515942253020",
-          "author": "rich_toronto",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "Not long ago, the west was safe, yes there was a time. Before the explosion of Islamofascists, before Palestine. Before the Arabs fabricated a people and a place, And now they use their made up plight, to destroy the human race. Why do the "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094247496000156028",
-          "author": "beitworldwide",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "The scientifically usable claim is amplification and allocation of attention, not remote collapse of other minds. 8. The legal anatomy of human–AI co-creation 8.1 Copyright: human authorship remains the gate The Copyright Office’s Part 2 re"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094240971437314514",
-          "author": "pistarstar",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "Finality in 3 to 5 seconds is what makes both micropayments and larger transfers possible. People often mix up TPS, confirmation speed, and fees. For someone paying, the question that matters is usually not a claim of a million TPS. It is w"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094239576076194268",
-          "author": "atedk",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "“stoops down to that level” Stoops where?! The only stooping we see or hear about is Canada accuses the USA of insults or talk of war courtesy Ford, Carney and other heads of Canada swear all sorts of nasty insults bent on threatening war!?"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094230145745703138",
-          "author": "javierloquasto",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "@muerteserena_ @iam_Teniolaa @BradenDudebro @furnaceglowx Israel offered Palestinians statehood on 5 separate occasions and they rejected it every time. They don't want a state bc they don't want to have actually take responsibility and lea"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094225838170575195",
-          "author": "bevoaureliusbyu",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "The funniest thing to everyone outside of California is how Californians have a superiority complex because they live in a state most Americans have no interest in. I had an offer to live in Santa Monica and work for one of the biggest PE s"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094223138477187321",
-          "author": "mchill613",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "@daveteymouri @YairNetanyahu @RupertLowe10 A state was offered to the Palestinians multiple times you stupid f*ck. Yair doesn’t speak for all Israelis past and present. That’s not how things work in the real world."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094217025732129045",
-          "author": "deruyterstan",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "@john_st_helen @ChmEngr12 I had scholarship offers of ~20-25k to both Baylor and TCU. Still would’ve been more expensive than a state school without a scholarship, and I ended up at Tech because I went to school for free"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094213540777247085",
-          "author": "l_j_cool_j1",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "@WeWillBeFree24 @Myrandapolisci Literally a state version of some parts of the NDAA 2027… which offers federal grants for cyber warfare… no justification to gift our state-based public assets and institutions for foreign private profit… and"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094212118165729374",
-          "author": "ekaner21430",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "@nirhasson @Elad_Si I'm embarrassed to be lecturing Israeli's about Israeli history. But Palestinians were offered a state in 1948, 1967, 1992, 2000, 2008 and 2012. They rejected it each time. They had a de facto state in Gaza in 2005. The "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094206030498369558",
-          "author": "catholicmall",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "Good night beloved Faithful on 𝕏 🙏✨🛌 Night Prayer for August 30, 2026 ~~ Salvation In the name of the Father, and of the Son, and of the Holy Spirit. Amen. O my God, I adore Thee and thank Thee for all the graces granted me this day. I o"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094202705912758340",
-          "author": "normguy1954",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "And you won't hear about all the times that the Arabs have been offered a state of Their Own and turned it down. Again and again."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094188244581712179",
-          "author": "baronbonks",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "@Adi_Schwartz Just stop playing this game and move on. They were offered a state several times on a silver plate and they refused it every time. Instead they did oct 7. Time to abandon 2 state solution and annex all of Area C for good. Let "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094181964685144231",
-          "author": "kavanaughm69090",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "@JayGenXer Doug Ford’s province is spiralling downward. Rioting and crime are on the rise, and major cities like Ottawa and the GTA are in a state of disarray. It’s almost amusing to watch him offer advice and warnings to Americans (mainly "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094181607619936439",
-          "author": "apexcapitalnet",
-          "searchJob": "backfill:v2:arkansas-state:2026-07-31:2026-08-30",
-          "text": "@EricLDaugh Businesses follow incentives. If a state offers a better environment to build, hire, and expand, companies will notice. Simple as that. 🇺🇸📈"
-        }
-      ]
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 136,
-      "swept": 13,
-      "failed": 0,
-      "requests": 38,
-      "errors": []
+      "jobs": 162,
+      "swept": 24,
+      "failed": 1,
+      "requests": 25,
+      "errors": [
+        "duke: rate limited"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 43,
+      "rejectedCandidates": 0,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-08-31T08:49:18.734Z"
+    "status rebuilt locally from current store on 2026-08-31T08:58:02.322Z"
   ]
 }
