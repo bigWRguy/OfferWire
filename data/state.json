@@ -18043,10 +18043,10 @@
   },
   "health": {
     "search": {
-      "at": "2026-08-31T12:13:33.782Z",
-      "got": 43,
-      "new": 25,
-      "lag": 0.11
+      "at": "2026-08-31T12:26:20.607Z",
+      "got": 0,
+      "new": 0,
+      "lag": null
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -18142,9 +18142,9 @@
       "truncated": false
     },
     "missouri": {
-      "at": "2026-08-31T11:11:21.983Z",
+      "at": "2026-08-31T12:26:11.048Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 1,
+      "lastPosts": 0,
       "truncated": false
     },
     "nebraska": {
@@ -19132,11 +19132,11 @@
   "lastRateLimitAt": "2026-08-31T09:56:10.983Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-08-31T12:13:33.783Z",
+    "at": "2026-08-31T12:26:20.607Z",
     "jobsTotal": 162,
-    "sweptThisRun": 36,
-    "requests": 36,
-    "fullSweepCycles": 5
+    "sweptThisRun": 1,
+    "requests": 2,
+    "fullSweepCycles": 162
   },
   "backfill": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -19156,233 +19156,50 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-08-31T12:11:22.631Z",
+    "at": "2026-08-31T12:26:11.030Z",
     "mode": "live",
     "collection": {
-      "returned": 43,
-      "kept": 25,
-      "duplicate": 18,
+      "returned": 0,
+      "kept": 0,
+      "duplicate": 0,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 17,
-      "rejected": 8,
-      "reasons": {
-        "no_offer_term": 3,
-        "no_fbs_school": 4,
-        "hard_negative": 1
-      },
-      "samples": [
-        {
-          "reason": "no_offer_term",
-          "postId": "2094374582228561931",
-          "author": "creasonjana",
-          "searchJob": "arkansas-state",
-          "text": "This woman wants to know if we are upset about Trump dismantling the Dept of Ed. She claims our children will suffer. I say … Since the @usedgov was established in 1979, our children have been dumbed down. So, I applaud getting rid of it! h"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094394571773845629",
-          "author": "spacedragononi",
-          "searchJob": "arkansas-state",
-          "text": "Finally put Onironi’s full ZZZ Agent Story in one place 📖🐉 Phoenix and Dragon: courier routes, Project Phoenix, Hollow Zero &amp; Spook Shack hehe (￣▽￣)ゞ My little headcanon... https://t.co/jHYxUZhsNN"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094396123712475183",
-          "author": "giacoats12",
-          "searchJob": "illinois",
-          "text": "After a great conversation with coach @MarqusMcglothan, l am blessed to receive my second Division 1 offer from Eastern Illinois University @EIUWBB https://t.co/Lh34FqynUI"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094395370604200220",
-          "author": "ahirealestate",
-          "searchJob": "illinois",
-          "text": "Finding time for professional development as a busy real estate broker can be daunting. That's why we offer flexible course formats to fit seamlessly into your packed schedule. Sign up today! Save $10 with the promo code AHICE10. https://t."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094395168812077553",
-          "author": "healthhoco",
-          "searchJob": "indiana",
-          "text": "Our weekly STI testing clinic will not operate this morning. However, testing will still be offered this afternoon from 1-3 PM. No other services at @HealthHoco are affected. We apologize for the inconvenience. #healthfirst #STItesting #STD"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094394544682864664",
-          "author": "muggyswords",
-          "searchJob": "iowa",
-          "text": "⠀ ⠀⠀i don't smoke. ( she didn't consider herself a smoker and yet there was a thing called indulgence which she partook in occasionally. two fingers positioned and extended, welcoming the offered cigarette. ) ⠀"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094165274052481320",
-          "author": "marinecognition",
-          "searchJob": "iowa",
-          "text": "ᅠ ᅠᅠᅠᅠ( expression drops , staring at the warlord for a few moments . ah . fair . well — he * knew all that but — she made it sound way sadder . ᅠᅠᅠᅠhe mutely shrugged , lips lightly pursed . [ cont. ] ᅠ"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2094388788902428697",
-          "author": "lol19559014",
-          "searchJob": "maryland",
-          "text": "I know this is mean, and in my better moments I probably don't really mean this (but I just read yet another story about a mother and daughter killed on Saturday night by an illegal who was driving drunk, going the wrong way down a highway "
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 17,
-      "reasons": {
-        "school_not_resolved_confidently": 2,
-        "bare_mention_requires_llm": 12,
-        "multiple_resolved_schools": 3
-      },
-      "samples": [
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094394895385383200",
-          "author": "hdmw18",
-          "searchJob": "notre-dame",
-          "text": "Once the cordon sanitaire is in place, the focus will shift to other solutions. One is offered in Ireland by the Irish Republican Army, the IRA which has announced it will target immigrants. The IRA has 'form' as Scotland Yard would say. i."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094392739181789316",
-          "author": "drone_wars_",
-          "searchJob": "air-force",
-          "text": "The U.S. Air Force is preparing to keep the RQ-4 Global Hawk flying well into the 2030s, with a 17 August contracting notice outlining modernisation and sustainment potentially through June 2033, according to Army Recognition. The service i"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094394630531862697",
-          "author": "revdrjestus",
-          "searchJob": "arkansas-state",
-          "text": "Children suffer by going to a State school. Offer Minnesota as proof."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094390497468907839",
-          "author": "elfel1",
-          "searchJob": "arkansas-state",
-          "text": "Maybe if the fucking Arabs would stop attacking Israel there wouldn't be the mindset of those propagandized people. This is the most idiotic take on the conflict. The Arabs DON'T want a state of their own, they WANT the destruction of Israe"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094380051575763097",
-          "author": "benkoby1911",
-          "searchJob": "arkansas-state",
-          "text": "@Baumann_Mac They were first offered what is now Jordan. Then the UN offered them some of the land that was legally designated for Israel The Arabs refused Several times the Arab population were given the opportunity to have a state and the"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094395031012425825",
-          "author": "icegov",
-          "searchJob": "buffalo",
-          "text": "Don't miss the DHS Career Expo #tomorrow and Wednesday at the Buffalo Convention Center in Buffalo, NY! There's still time to register at https://t.co/CsmcwA19pS. ICE DEPORTATION OFFICER APPLICANTS ICE will be conducting onsite hiring at th"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094388250907381982",
-          "author": "stockfarmmag",
-          "searchJob": "buffalo",
-          "text": "BVN Brangus, Triangle Farms Brangus, and Two Brothers Brangus. The Prime Brangus sale takes place on 3 September at Newlands farm, Hertzogville, Free State. On offer are 35 bulls, 20 stud female animals, and 120 commercial females. See the "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094396331720667486",
-          "author": "owengregorian",
-          "searchJob": "coastal-carolina",
-          "text": "Jellyfish took three of the six reactors at France’s Gravelines nuclear plant offline this summer and cut a fourth to half power, as they shut Scotland’s Torness for a week in 2011, because a plant that swallows a canal of seawater to stay "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094391129534030125",
-          "author": "jsltoday",
-          "searchJob": "coastal-carolina",
-          "text": "🚨 #BREAKING: Qatar Charity @qcharity to build first seawater desalination plant in #Somaliland, in co-operation with Somailand's Ministry of Water. In co-operation with Somaliland’s Ministry of Water development, Qatar Charity (QC) has lau"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094381513202635137",
-          "author": "samahoole",
-          "searchJob": "coastal-carolina",
-          "text": "@GordonDudman Southern Scotland could absorb displaced rural labour into mines, mills and towns. Sutherland’s coastal crofts offered fishing and potatoes, but nothing remotely equivalent in scale."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094396559869841632",
-          "author": "darrylb1983",
-          "searchJob": "florida",
-          "text": "@Lisa45135382 @Randomvideos107 Florida: Your registration expires at midnight on your renewal date. (typically your birthday), and you can be ticketed the very next day. Florida offers zero grace period for an expired vehicle tag or registr"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094396048156360968",
-          "author": "darrylb1983",
-          "searchJob": "florida",
-          "text": "@mikeyjustdied @Randomvideos107 Florida: Your registration expires at midnight on your renewal date. (typically your birthday), and you can be ticketed the very next day. Florida offers zero grace period for an expired vehicle tag or regist"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094391594048753824",
-          "author": "jakemrowe",
-          "searchJob": "georgia",
-          "text": "Let's take everything we've heard out of Georgia preseason camp and use it to offer a final depth chart projection heading into the 2026 season. READ: https://t.co/BQIjlMu3Mw There are several tweaks and changes from the one we published at"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094383407123833129",
-          "author": "pekalalaw",
-          "searchJob": "illinois",
-          "text": "@Sachinettiyil Illinois Gov. Pritzker signed into law that all public schools must offer Halal food."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094390459032322111",
-          "author": "tgrb8_sec",
-          "searchJob": "lsu",
-          "text": "@baseballguy1625 @Rebelfanmatt @walkerj29 Wright Chose LSU over Ole Miss, South Carolina and some other schools. Harris turned downed ole Miss because they offered him as an OL. And Lane was right….. https://t.co/SpAOAno2Sr"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094385234858950917",
-          "author": "sghwealthmgmt",
-          "searchJob": "michigan",
-          "text": "College classes start today at 🟢 Michigan State ⚪ making for a perfect timing to share an article I was featured in on how WE are breaking 💥 industry norms in wealth management in part thanks to an innovative wealth management major 🎓 of"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094396283255410698",
-          "author": "ceejaytalksball",
-          "searchJob": "minnesota",
-          "text": "@C_B_3_3 @SplashWRLD_ Never was offered 30m/yr but he did turn down an extra yr of $25M off his previous deal to be able to choose his future. He took a 2/48 team option over a 3/75 + team option. So if he doesn’t get a big deal after this "
-        }
-      ]
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 36,
-      "failed": 0,
-      "requests": 36,
-      "errors": []
+      "swept": 1,
+      "failed": 1,
+      "requests": 2,
+      "errors": [
+        "nebraska: rate limited"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 17,
+      "rejectedCandidates": 0,
       "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 25,
-    "decided": 25,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z"
