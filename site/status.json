@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-31T11:43:58.487Z",
+  "generatedAt": "2026-08-31T11:58:34.825Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-08-31T11:43:58.283Z",
+    "at": "2026-08-31T11:58:34.591Z",
     "jobsTotal": 162,
     "sweptThisRun": 36,
     "requests": 36,
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5434733333333334,
-    "p95Hours": 1.038583888888889,
-    "worstHours": 2.0435066666666666
+    "medianHours": 0.5366705555555555,
+    "p95Hours": 1.0413908333333333,
+    "worstHours": 1.0413908333333333
   },
   "decisionCoverage": {
-    "total": 29,
-    "decided": 29,
+    "total": 44,
+    "decided": 44,
     "complete": true
   },
   "pending": {
@@ -52,246 +52,237 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-08-31T11:43:58.282Z",
-      "got": 35,
-      "new": 29,
-      "lag": 0.05
+      "at": "2026-08-31T11:58:34.590Z",
+      "got": 62,
+      "new": 44,
+      "lag": 0.07
     }
   },
   "audit": {
-    "at": "2026-08-31T11:41:31.061Z",
+    "at": "2026-08-31T11:56:08.897Z",
     "mode": "live",
     "collection": {
-      "returned": 35,
-      "kept": 29,
-      "duplicate": 6,
+      "returned": 62,
+      "kept": 44,
+      "duplicate": 18,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 23,
-      "rejected": 6,
+      "accepted": 40,
+      "rejected": 4,
       "reasons": {
-        "no_offer_term": 4,
-        "no_fbs_school": 1,
-        "hard_negative": 1
+        "no_offer_term": 2,
+        "no_fbs_school": 2
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2094296494891573291",
-          "author": "stinkiestcooky",
-          "searchJob": "rice",
-          "text": "Im taking myself out today🥰🥰🥰"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094384572125319403",
-          "author": "bylerose",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "@sorcererzy I love a lil weird!! I'm actually so blessed to receive art in my straw i need to print this out and my army of byler tadpoles"
+          "postId": "2094392429088588172",
+          "author": "nudosal",
+          "searchJob": "california",
+          "text": "What was it like on the ground when Champaign-Urbana was the rock capital of the Midwest? To find out, look no further than original REO Speedwagon bassist Gregg Philbin, who anchored the band on bass from their dormitory start through thei"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094381879826829362",
-          "author": "bhescox21849",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @CoachJohnstonWJ I am blessed to receive my first official offer from @wjathletics https://t.co/0tDNCxbM1w"
+          "postId": "2094386479061496079",
+          "author": "piratenations1",
+          "searchJob": "california",
+          "text": "“May the GeForce be with you” – 27 yrs ago On August 31, 1999, NVIDIA announced the GeForce 256, officially introducing the term \"GPU\" (Graphics Processing Unit) as a single-chip processor with integrated transform, lighting, and rendering "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2094380410931138915",
-          "author": "trevaughnr5819",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Honored and Blessed to receive an invitation to The Adidas Pro Day Three Stripes Showcase TOLEDO 3/7🚨 ATLANTA 1/17🚨 @NxgnCamps https://t.co/9XBATDpyUY"
+          "postId": "2094387314105434267",
+          "author": "ainewssmoothie",
+          "searchJob": "texas-tech",
+          "text": "South Korea is giving all 52 million citizens free access to AI tools powered by Nvidia chips and local tech giants. It is a massive push for state-backed, homegrown AI. https://t.co/QaYS8m8odb #SouthKoreaAI #SKTelecom #Nvidia https://t.co/"
         },
         {
-          "reason": "hard_negative",
-          "postId": "2094389026820149612",
-          "author": "dieterkief",
-          "searchJob": "wyoming",
-          "text": "Apropos: Steve Sailer about - the right's stupidity problem: READ IN APP📷Cofnas on the Right’s Stupidity Problem But is Nathan’s favorite solution of promoting IQ hereditarianism the ideal obsession for the not-so-bright right? Steve Saile"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094388414804038092",
-          "author": "epochpremium",
-          "searchJob": "arizona",
-          "text": "https://t.co/MHaKriiVOw"
+          "reason": "no_fbs_school",
+          "postId": "2094380678771277947",
+          "author": "heyemilyx",
+          "searchJob": "texas-tech",
+          "text": "It’s easy to finish a lesson. It’s harder to make sure it actually sticks. As your teen heads Back-to-School, Gauth’s all-in-one study platform offers 200+ free high school math courses with built-in quizzes every few minutes to reinforce k"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 23,
+      "rejected": 40,
       "reasons": {
-        "school_not_resolved_confidently": 19,
-        "bare_mention_requires_llm": 1,
-        "multiple_resolved_schools": 2,
-        "player_display_name_unusable": 1
+        "bare_mention_requires_llm": 12,
+        "school_not_resolved_confidently": 21,
+        "multiple_resolved_schools": 7
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094375633874784726",
-          "author": "syarifahnisaaaa",
-          "searchJob": "rice",
-          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Italian cuisine. Chefs master it through years of practice. Such cuisine unites people across shared meals. 🌱 https://t.co/aLgJdn"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094375140091941205",
-          "author": "silvanaho1",
-          "searchJob": "rice",
-          "text": "A plate of biryani offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Japanese tradition. It’s central to cultural celebrations. Such cuisine unites people across shared meals. 🚩 🔥 https://t.co/f5IjCd6qcv"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094375005736071284",
-          "author": "stinkiestcooky",
-          "searchJob": "rice",
-          "text": "Hihi im being nice to myself todayy and offer xiao a mango sticky rice 😋 https://t.co/k7i0pq82NG"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094374224420892866",
-          "author": "irzadsusilo",
-          "searchJob": "rice",
-          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Indian heritage. Regional variations add unique flavors. Such cuisine unites people across shared meals. 💰 💎 https://t.co/K1No2bXOhc"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094373282762166493",
-          "author": "norahrichards",
-          "searchJob": "rice",
-          "text": "A plate of biryani offers a burst of flavors. Made with basmati rice and nori, it reflects Japanese tradition. It’s central to cultural celebrations. Such cuisine unites people across shared meals. Regional variations add unique flavors. 🍂"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094372749258953057",
-          "author": "grandarojo",
-          "searchJob": "rice",
-          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and saffron, it reflects Japanese tradition. Chefs master it through years of practice. Such cuisine unites people across shared meals. 🧢 👍 🎊 https://t.co/hFuBy"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094372354767872392",
-          "author": "ninablenzisky",
-          "searchJob": "rice",
-          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and saffron, it reflects Japanese tradition. Chefs master it through years of practice. Such cuisine unites people across shared meals. 🧢 https://t.co/9tXDM5NM6n"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094372176803545476",
-          "author": "rogereartarq",
-          "searchJob": "rice",
-          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and nori, it reflects Italian cuisine. It’s central to cultural celebrations. Such cuisine unites people across shared meals. Regional variations add unique flavors. 🎈"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094370508389359969",
-          "author": "scorpiovbs",
-          "searchJob": "rice",
-          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and nori, it reflects Indian heritage. Regional variations add unique flavors. Such cuisine unites people across shared meals. Chefs master it through years of practice. 🍄"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094367614755561851",
-          "author": "pjtalks101",
-          "searchJob": "rice",
-          "text": "Secondary Factors Affecting Demand The Forces Behind the Purchase In micro-economics, demand is shaped by more than the current price. Secondary factors often decide whether people buy now, wait, switch, or walk away. The key secondary fact"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094367384236671451",
-          "author": "jamicaslife",
-          "searchJob": "rice",
-          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Indian heritage. Chefs master it through years of practice. Such cuisine unites people across shared meals. 💼 🎌 🎈"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094367048247767229",
-          "author": "guewen_ctnn",
-          "searchJob": "rice",
-          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and saffron, it reflects Japanese tradition. Chefs master it through years of practice. Such cuisine unites people across shared meals. 💎 🌂 🌺"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094365902393450679",
-          "author": "a26278473",
-          "searchJob": "rice",
-          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and saffron, it reflects Indian heritage. Regional variations add unique flavors. Such cuisine unites people across shared meals. Chefs master it through years of practice. "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094365775075434734",
-          "author": "laruesoccer101",
-          "searchJob": "rice",
-          "text": "A plate of biryani offers a burst of flavors. Made with basmati rice and saffron, it reflects Indian heritage. Chefs master it through years of practice. Such cuisine unites people across shared meals. 🍬 💎 🚩 https://t.co/H7fLAIR942"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094365549610385851",
-          "author": "ditta_occa",
-          "searchJob": "rice",
-          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and nori, it reflects Japanese tradition. Regional variations add unique flavors. Such cuisine unites people across shared meals. 🚩 🎉 🎌 https://t.co/uTMWG3idtT"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094364332435939569",
-          "author": "clauboneberg",
-          "searchJob": "rice",
-          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and nori, it reflects Indian heritage. It’s central to cultural celebrations. Such cuisine unites people across shared meals. 🧢 👑 🍂 https://t.co/FUAKgxlcPx"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094363328797688288",
-          "author": "ekodisaster182",
-          "searchJob": "rice",
-          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and nori, it reflects Japanese tradition. Regional variations add unique flavors. Such cuisine unites people across shared meals. 🌟 🍬"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094363106386551219",
-          "author": "alvinrisk10",
-          "searchJob": "rice",
-          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and saffron, it reflects Japanese tradition. Chefs master it through years of practice. Such cuisine unites people across shared meals. 🍬 https://t.co/6v2NZGekmP"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094384934307655958",
-          "author": "tlockty",
-          "searchJob": "troy",
-          "text": "That was for alex. You were a F1 girl find again and we have that lunch in a few years. I would like to meet the real women sone day. Run 3 Extended Final: The Floor, the Open Door, and the Team Author: Grok (xAI) – Executing Direct User Di"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094390131092267159",
+          "author": "covert_access",
+          "searchJob": "california",
+          "text": "Mayor… or foreign agent? For former California mayor Eileen Wang, the answer was BOTH. Her case offers a fascinating look at asset development—and why access, credibility, and influence matter. Read more: https://t.co/4ivQZdgE6R #InsiderThr"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094380201023021469",
-          "author": "cstribune",
-          "searchJob": "wyoming",
-          "text": "As major industrial projects multiply across Wyoming, state environmental officials offered residents a closer look at how the permitting system works and where the agency’s authority begins and ends. | Tap on the picture to learn more 🔽 h"
+          "postId": "2094389006528073904",
+          "author": "maggiewise111",
+          "searchJob": "california",
+          "text": "CALIFORNIA Schools could soon close for two ISLAMIC HOLIDAYS. The Bill Passed the Assembly, 64–1, and Now Moves to the Senate By Monday. This Would Formally Recognize ‘Eid al-Fitr’ & ‘Eid al-Adha’, Allow Public Schools and Community College"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094388777594630456",
+          "author": "cordcuttersnews",
+          "searchJob": "california",
+          "text": "California Offers Up to $750 Million a Year to Get Movies Made in the State Again https://t.co/jhSvoTXMp7"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094380187857064249",
+          "author": "scheeyak",
+          "searchJob": "california",
+          "text": "wts 2 lower level tickets for bts at Inglewood, california we wouldn’t be going anymore so we wts these, pls text if you're interested can and will facetime 🤧you can text with your offers ! 🏷️ world tour arirang wtb wtb California la wtt "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094379804976206154",
+          "author": "kevinwshpod",
+          "searchJob": "california",
+          "text": "Gm Folks We are back! This is another edition of the Predict Alpha Report, our bi-monthly collaboration with @CoinsiliumGroup tracking the rise of prediction markets, event-driven finance, and the growing role of AI agents within it. Each e"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094376643263398068",
+          "author": "_crypto_outlook",
+          "searchJob": "california",
+          "text": "California lawmakers have banned public officials from issuing memecoins The bill prohibits service providers from offering Californians memecoins issued on or after January 1, 2027. The restrictions apply if the tokens are offered or promo"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094391199754838294",
+          "author": "curaleaf_inc",
+          "searchJob": "miami",
+          "text": "Cutler Bay is the latest community to welcome Curaleaf in South Florida! Our eighth Miami-Dade County dispensary will offer local patients a comprehensive selection of trusted products and brands. Join us for our grand opening on September "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094382872769479023",
+          "author": "insider_wtrade",
+          "searchJob": "pittsburgh",
+          "text": "$DKS #stockmarkets 4 Directors bought $4M. They bought the post earning dip. Dick's Sporting Goods is a retailer that offers sports and outdoor apparel, footwear, and equipment online and in physical stores. The company's legacy business in"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094382507034595802",
+          "author": "teamswish01",
+          "searchJob": "pittsburgh",
+          "text": "@PeaceTranq76760 @Scott7news Pittsburgh would laugh at that offer, u serious rn ? 🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣 also 40 million? U have to be trolling"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2094389936908640490",
+          "postId": "2094375143598420154",
+          "author": "jimfrombaseball",
+          "searchJob": "pittsburgh",
+          "text": "\"The Cardinals wanted to sign me for $15,000 when I was junior in High School. My Dad asked me what I planned to do with the money, I told him I’d seen a great looking convertible. He didn’t exactly think it would be such a great idea.\" Joe"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094392872984252515",
+          "author": "blakebyler45",
+          "searchJob": "alabama",
+          "text": "Alabama offers 4-star CB in 2028 class out of Georgia. https://t.co/7P85CFaf1v"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094392522889912348",
+          "author": "chadsimmons_",
+          "searchJob": "alabama",
+          "text": "Bama offers 2028 DB/ATH in Georgia. @blakebyler45"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094383737970762162",
+          "author": "office_chjayant",
+          "searchJob": "stanford",
+          "text": "Hon’ble Minister of State (Independent Charge) for Skill Development & Entrepreneurship and Minister of State for Education, Shri Jayant Chaudhary, interacted with Prof. Sridhar Narayanan, Sebastian S. Kresge Professor of Marketing at Stanf"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094393163838324778",
+          "author": "theleftovers46",
+          "searchJob": "syracuse",
+          "text": "@conorsen It's the ROI. Parents probably can justify spending $100k a year for an Ivy or a near Ivy that offers recruiting into Investment Banking or other lucrative careers. But Syracuse? Why go there over your State U at half price especi"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094391467573711331",
           "author": "jeffcuse",
-          "searchJob": "arizona",
+          "searchJob": "syracuse",
           "text": "Syracuse University's biggest mistakes IMO 1. Pricing itself like an ivy. Great school but you cant charge what Cornell does when you don't offer the education it does, especially when... 2. ...you aren't offering things such as a premium c"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2094389326553428032",
+          "postId": "2094391080737181823",
           "author": "jeffcuse",
-          "searchJob": "arizona",
+          "searchJob": "syracuse",
           "text": "Syracuse University's biggest mistakes IMO 1. Pricing itself like an ivy. Great school but you cant charge what Cornell does when you don't offer the education it does, especially when... 2. ...you aren't offering things such as a premium c"
         },
         {
-          "reason": "player_display_name_unusable",
-          "postId": "2094388355178135811",
-          "author": "ioelu_feo",
-          "searchJob": "arizona",
-          "text": "After a great call with @Josh_Bringuel, I’m extremely excited and blessed to announce that I’ve received an offer from the University of Arizona! 🐻⬇️ #GoCats #Blessed✝️ #MoreWorkToDo @CoachDomser https://t.co/9BzKuMTwCl"
+          "reason": "multiple_resolved_schools",
+          "postId": "2094390991117549585",
+          "author": "jeffcuse",
+          "searchJob": "syracuse",
+          "text": "Syracuse University's biggest mistakes IMO 1. Pricing itself like an ivy. Great school but you cant charge what Cornell does when you don't offer the education it does, especially when... 2. ...you aren't offering things such as a premium c"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094390916807016918",
+          "author": "jeffcuse",
+          "searchJob": "syracuse",
+          "text": "Syracuse University's biggest mistakes IMO 1. Pricing itself like an ivy. Great school but you cant charge what Cornell does when you don't offer the education it does, especially when... 2. ...you aren't offering things such as a premium c"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094389757258191178",
+          "author": "jeffcuse",
+          "searchJob": "syracuse",
+          "text": "Syracuse University's biggest mistakes IMO 1. Pricing itself like an ivy. Great school but you cant charge what Cornell does when you don't offer the education it does, especially when... 2. ...you aren't offering things such as a premium c"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094388125577498813",
+          "author": "andertonmol",
+          "searchJob": "syracuse",
+          "text": "@conorsen I think you're overthinking this. East Coast upper middle class kids with decent stats apply to 15 or more schools. They pick the most prestigious in their preference area and pit offers against each other on \"merit\" aid. What sch"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094387222955139282",
+          "author": "dailyorange",
+          "searchJob": "syracuse",
+          "text": "Column | Syracuse University offers career preparation, but not every academic program receives the same attention, our columnist writes. He argues every student deserves a clearer path to meaningful professional experience. https://t.co/bc"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094391256637968440",
+          "author": "ianjameson4",
+          "searchJob": "texas-tech",
+          "text": "Marketing Monday: How to Brand the Unbrandable Flock Safety Grade A How do you sell mass surveillance without looking like Big Brother? You wrap it in nature. Flock Safety offers a masterclass in visual reframing taking tracking hardware an"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094389272988295424",
+          "author": "tradasaigon",
+          "searchJob": "texas-tech",
+          "text": "@KeenieBGB I love this tech sign offer so count me in"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094389216226816005",
+          "author": "annemoonwolf",
+          "searchJob": "texas-tech",
+          "text": "🚨 BREAKING: DAC is leading the charge towards a quantum-secure future with its EVM-compatible Layer 1! By integrating quantum entropy and developing Proof of Quantum Work, DAC offers unparalleled security. Plus, their dual-token model ensu"
         }
       ]
     },
@@ -306,11 +297,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 23,
+      "rejectedCandidates": 40,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-08-31T11:43:58.488Z"
+    "status rebuilt locally from current store on 2026-08-31T11:58:34.826Z"
   ]
 }
