@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-31T16:56:24.248Z",
+  "generatedAt": "2026-08-31T17:13:28.500Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-08-31T16:43:33.494Z",
+    "at": "2026-08-31T17:13:28.250Z",
     "jobsTotal": 162,
-    "sweptThisRun": 32,
-    "requests": 33,
+    "sweptThisRun": 27,
+    "requests": 28,
     "fullSweepCycles": 6
   },
   "backfillCoverage": {
@@ -29,22 +29,22 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7500019444444445,
-    "p95Hours": 1.3939094444444444,
-    "worstHours": 1.7509872222222223
+    "medianHours": 0.7885166666666666,
+    "p95Hours": 1.2860941666666668,
+    "worstHours": 1.678423888888889
   },
   "decisionCoverage": {
-    "total": 0,
-    "decided": 0,
+    "total": 56,
+    "decided": 56,
     "complete": true
   },
   "pending": {
-    "total": 1
+    "total": 2
   },
   "profileResolution": {
     "cached": 28
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 454,
     "incompleteOffers": 0
@@ -52,53 +52,401 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-08-31T16:43:33.494Z",
-      "got": 93,
-      "new": 65,
-      "lag": 0.04
+      "at": "2026-08-31T17:13:28.250Z",
+      "got": 90,
+      "new": 56,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-08-31T16:56:20.350Z",
+    "at": "2026-08-31T17:11:33.315Z",
     "mode": "live",
     "collection": {
-      "returned": 0,
-      "kept": 0,
-      "duplicate": 0,
-      "tooOld": 0,
+      "returned": 90,
+      "kept": 56,
+      "duplicate": 32,
+      "tooOld": 2,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 30,
+      "rejected": 26,
+      "reasons": {
+        "no_offer_term": 11,
+        "no_fbs_school": 14,
+        "hard_negative": 1
+      },
+      "samples": [
+        {
+          "reason": "no_offer_term",
+          "postId": "2094466281839693826",
+          "author": "np4football_ot",
+          "searchJob": "western-michigan",
+          "text": "Carson Sanders-LB-2028-IN @WMU_Football Game Day Visit #CFB"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094141148893794414",
+          "author": "sanders_carson2",
+          "searchJob": "western-michigan",
+          "text": "Thank you @CamAllenFB for the game day invite to @WMU_Football! Look forward to talking with @RyanBrowne05 again, along with other coaches! @CoachLT_WMU @GreerMartini48 @IndianaPreps @PrepRedzoneIN @Bryan_Ault @FFBallAllDay @SidelinePreps @"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094462515392737781",
+          "author": "qz",
+          "searchJob": "class:2026",
+          "text": "https://t.co/bZlz8PKsV6"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094452958184566839",
+          "author": "drbarbionc",
+          "searchJob": "class:2026",
+          "text": "#ASCO 2026 HR+ #BreastCancerAdjuvant #olaparib is prioritized over CDK4/6 inhibition in gBRCA1/2 and PALB2 carriers with 4+ nodes, or high-risk residual after neoadjuvant chemo. Strength: Strong. OlympiA HR+/HER2-negative subgroup: OS 0.90 "
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2094450795924082795",
+          "author": "auburncityedu",
+          "searchJob": "auburn",
+          "text": "MORE THAN A BADGE🚔⭐️: They protect our campuses, build relationships with students, support our teachers and administrators, all to be part of the school communities they serve! • ✅For the latest installment of our series with RiverLight S"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094467421788668361",
+          "author": "javonr_",
+          "searchJob": "florida",
+          "text": "“You can’t be afraid to fail. It’s the only way you succeed.”- Lewis Hamilton ‼️ I have 6 collegiate offers and I’m working to get more exposure and eventually nationally ranked amongst the best guys Currently I am ranked #53 in Florida‼️ h"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094455280717496420",
+          "author": "halcranmer",
+          "searchJob": "florida",
+          "text": "Roberta spent a decade fighting for her husband before flying him to me. She'd taken him to: • General doctors • 3 major universities • An Alzheimer's-trained doctor in Florida Each one ran the same tests and offered the same solution: Medi"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094465363589103989",
+          "author": "frizzziii",
+          "searchJob": "georgia",
+          "text": "Dude I applied for a tcg shop and didn't realize it was all the way in north Carolina..... I live in georgia... It's a social media manager/even organizer position that im praying Can be done form online with the option to relocate later if"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094464481078190559",
+          "author": "georgiajim62862",
+          "searchJob": "georgia",
+          "text": "@Kennedy_M_00 Catlin’s agent is very smart! Catlin is worth a lot more than the WNBA can offer!"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094461936331321626",
+          "author": "tftc21",
+          "searchJob": "georgia",
+          "text": "https://t.co/NTmqiLqzTf"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094457745508356391",
+          "author": "georgiaboot",
+          "searchJob": "georgia",
+          "text": "Kickstart your week with a deal that’s built to last: select Pull-On boots for just $99! Don’t wait this offer ends 9.2.26. Step up and grab your pair before they’re gone! Grab your pair here: https://t.co/RUE8J6IG8Y"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094472450142531819",
+          "author": "mo_newsletter",
+          "searchJob": "illinois",
+          "text": "https://t.co/Y7hS3F7cLN"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094467753059217875",
+          "author": "chicago_stem",
+          "searchJob": "illinois",
+          "text": "KNEE ARTHRITIS Pain. Stiffness. Swelling. Less mobility. If knee arthritis is keeping you from doing the things you enjoy, it's worth learning about your options before assuming surgery is the only next step. Chicago Stem Cell Therapy & Pai"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094465822571778314",
+          "author": "np4football_ot",
+          "searchJob": "illinois",
+          "text": "Dane Clark-TE-2028-IA @IlliniFootball Game Day Visit #CFB"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094104454760997255",
+          "author": "daneclark23",
+          "searchJob": "illinois",
+          "text": "Thank you @Eddie__Simpkins and @IlliniFootball for the game day invite https://t.co/PQZpsMTwoq"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094461579769028738",
+          "author": "rl_hoops",
+          "searchJob": "illinois",
+          "text": "2028 SW IL Jets - De’Andre Stewart @Showtime_dre1 adds Eastern Illinois offer #RLHoops https://t.co/cxqxtusTeN"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094458970433782114",
+          "author": "rl_hoops",
+          "searchJob": "illinois",
+          "text": "2028 Moss Elite - Dylan Topmiller @DTopmiller92340 adds Eastern Illinois Offer #RLHoops https://t.co/F5GtQL3n8N"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094470759586341232",
+          "author": "toledomuseum",
+          "searchJob": "indiana",
+          "text": "https://t.co/544K4woRox"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094450005025108291",
+          "author": "lakes24hrfitnes",
+          "searchJob": "indiana",
+          "text": "🔥 Limited-Time Offer: 3-Month Gym Membership for Just $99!🔥Ready to crush your fitness goals? Now’s the perfect time! For a limited time only, grab a 3-month gym membership for just $99!!🏋️‍♂️Offer ends 7/31/26! Sign up today! 20 S 5th S"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094459150583685581",
+          "author": "wm_wallace_usa",
+          "searchJob": "iowa",
+          "text": "@IllinoisSamH Not true in Iowa. They mandated stations offer it on at least one pump."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094464870934536339",
+          "author": "sisddr3602",
+          "searchJob": "houston",
+          "text": "Besides Intro to Oceanography, most of the classes listed are difficult to justify as to whether it's worthwhile to spend $10+k to take them. Community college offers most of the listed classes inexpensively &amp; with more focus on teachin"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094471437100736619",
+          "author": "islandsmagazine",
+          "searchJob": "kansas",
+          "text": "South Dakota and Idaho have things to offer for national park lovers, but overall, they ranked as the two most boring states in a recent study. https://t.co/Ej5ZxqZ4S2"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094471043993702412",
+          "author": "decodrive",
+          "searchJob": "miami",
+          "text": "Embark on a 13-course culinary journey at Miss Crispy Rice during Miami Spice for a unique dining experience. https://t.co/vCaUls1xYo"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094470373144183021",
+          "author": "isaiahemitchell",
+          "searchJob": "smu",
+          "text": "New: @Students4Paxton announces launch #txlege https://t.co/jFmPiL9bAT"
+        }
+      ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 2,
+      "rejected": 28,
+      "reasons": {
+        "reporter_missing_player_name": 2,
+        "bare_mention_requires_llm": 14,
+        "school_not_resolved_confidently": 8,
+        "multiple_resolved_schools": 3,
+        "unresolved_offer_target": 1
+      },
+      "samples": [
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2094444646164242557",
+          "author": "csmithscout",
+          "searchJob": "western-kentucky",
+          "text": "#TN2028 Giles Co. Receiver .....#PRZTN New Offer: #WesternKy ......#Hilltoppers #CUSA #Bobcats #MidTN28 #CSS #TNHSFB https://t.co/OXgyS4WqKI"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094466413440479506",
+          "author": "billionaireweb",
+          "searchJob": "class:2026",
+          "text": "OGcom Review - USA Prediction Markets platform Guide: Fees, Bonus, App, and CryptoCom Rails OG is a standalone prediction market from CryptoCom that lets me trade Yes/No contracts on sports, politics, culture, and economics, and this OGcom "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094458006616338534",
+          "author": "mindofachaser",
+          "searchJob": "class:2026",
+          "text": "Social media algorithms are military grade mind control weapons and you walk in everyday unarmed. Everybody knows the feeling. You are locked in on work, emails, a lift at the gym, real momentum building. Then you open the phone for thirty "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094470972350902369",
+          "author": "amersongwriter",
+          "searchJob": "auburn",
+          "text": "ERNEST is stepping away from the road. The country singer was slated to open for Ella Langley on her Dandelion Tour through Sept. 12, but recently announced that he’s dropping out of the trek. “Hey y’all. The road has been dragging me down "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094472937004830735",
+          "author": "grill599",
+          "searchJob": "florida",
+          "text": "@fitat40guy @factsdontlie10 Florida - federal court A federal court ruled that Mack was not qualified to give the particular opinion he was attempting to offer in that case."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094472807665078391",
+          "author": "sizzle_sarah",
+          "searchJob": "florida",
+          "text": "Handshake lines aren’t optional when the camera’s rolling and the scoreboard isn’t. DeSoto’s captains skipped the courtesy, then got 38 hung on them. That’s not “culture.” That’s just bad manners meeting better football. Skin color doesn’t "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094470762920821238",
+          "author": "gatorgirl675122",
+          "searchJob": "florida",
+          "text": "What time is Florida vs Florida Atlantic? Florida kicks off against FAU at 7:45 p.m. E.T. on Saturday, Sept. 5 at Ben Hill Griffin Stadium. What channel is Florida vs FAU? Florida's opener against Florida Atlantic will be televised on the S"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094467359843217764",
+          "author": "globalmovehub",
+          "searchJob": "florida",
+          "text": "TO WHOM IT MAY CONCERN, List of universities in the USA that offer full or partial funding or assistantships for Master's and PhD programs with a January/Spring intake for international students. 📌 Arizona State University (ASU): Offers de"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094450566868910386",
+          "author": "alden_craig69",
+          "searchJob": "florida",
+          "text": "@HorrorGorl I will sell some fresh Florida mangos on offer up or somewhere🤣🤣"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094448392411746370",
+          "author": "powermacuser1",
+          "searchJob": "florida",
+          "text": "Insurance company Centene overcharged Florida for prescription drugs paid for by Medicaid. When they got caught, they offered to pay $67 million back. $10 million never made it to the state. It was routed to a charity linked to Casey DeSant"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094470748404355154",
+          "author": "blackhistorical",
+          "searchJob": "georgia",
+          "text": "The men who bolted Atlanta's segregation wall into the road were mostly Black city workers. That is in the record, and it happened six days before Christmas 1962 on Peyton Road in southwest Atlanta. A Black surgeon had bought a house on the"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094454166882259448",
+          "author": "earthdesires",
+          "searchJob": "georgia",
+          "text": "Whiskey Jug Genie by Sultonna Nadine is a lighthearted and charming paranormal fantasy that mixes magic, humor, and a touch of romance for pure escapist fun. When quiet London apothecary shop owner Martin buys an old whiskey jug on vacation"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094467525924798622",
+          "author": "cw33",
+          "searchJob": "houston",
+          "text": "Executive Chef Ricardo Dominguez shared details about B&amp;B Butchers, a Top 100 American steakhouse with locations in Fort Worth and Houston that offers hand-cut meats and authentic A5 certified… https://t.co/9ym1cMOgNy"
+        },
+        {
+          "reason": "unresolved_offer_target",
+          "postId": "2094458945230565610",
+          "author": "profilefblive",
+          "searchJob": "houston",
+          "text": "2027 SAF Ivan Houston from Miami Central HS, FL has been offered by UT Martin. @ivanhouston0 Rated 2.6⭐ (#4028 NATL, #361 SAF, #472 FL). https://t.co/hn9g5YgP1L"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094455170059153487",
+          "author": "thenextinning",
+          "searchJob": "louisville",
+          "text": "🚨 WELCOME TO TNI 🚨 Dylan Hoy (@DHoy_3) joins The Next Inning as our East Coast Scout & Advisor. 5 years of D1 experience. Captain at Marist & Louisville. 15+ D1 offers. Portal athlete. College coach @ArmyWP_Baseball @LouisvilleBSB Omaha e"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094469268293238992",
+          "author": "tjames312",
+          "searchJob": "miami",
+          "text": "@zbohoops4life “If Boston offered Brown, no way Miami can compete”"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094468360998154603",
+          "author": "billionair_code",
+          "searchJob": "miami",
+          "text": "@Debbybruno3 I hereby offer my resignation letter as an Argentinian fan. Back to being full Messi fan. Inter Miami we up! 🔥🔥"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094459297275219968",
+          "author": "waynedalenews",
+          "searchJob": "miami",
+          "text": "Living history offers a way to understand heritage through skills and traditions. Miami Indian Heritage Days returns Sept. 5 at the Chief Richardville House, with Claudia Hedeen presenting on Miami quillwork. https://t.co/sO5aAZKlpl"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094456229862990188",
+          "author": "amaltheaglass",
+          "searchJob": "miami",
+          "text": "@SToilet72346 I can't imagine Miami called--they seem to be setting up for a run at a top QB in the 2027 draft. Jaguars... are possible, but unlikely. Chargers make sense* Eagles make sense* Lions make sense** Would have to know the offers,"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094467600864473151",
+          "author": "pittsburgh_pain",
+          "searchJob": "pittsburgh",
+          "text": "@porkchop_tc @Gbpoker0710 @sports_district And because they have lower seller fees, I am more open to lower offers on BIN cards. They just allow you to keep more money from your sales. That’s the biggest reason I use them."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094466380011561362",
+          "author": "evontiamo1",
+          "searchJob": "pittsburgh",
+          "text": "How long will a scammer stay in your life? It depends on how much they think they can take from their marks. If they believe it's gonna be a big score, they'll stick around a while. If not, they will try to spring the trap early. The storie"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094465181656953154",
+          "author": "bedbugremovalpa",
+          "searchJob": "pittsburgh",
+          "text": "Bed bugs are sneaky — they can hitch a ride anywhere, so full prevention isn't realistic. But treatment works! As trusted Pittsburgh bed bug exterminators, we offer free inspections &amp; quotes. 📞 (412) 307-7020 🔗 https://t.co/CXfwLI0FXv"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094456494972379589",
+          "author": "healthallegheny",
+          "searchJob": "pittsburgh",
+          "text": "📖 Proof that you don’t need a big budget to make a big impact: Reading Ready Pittsburgh offers a clean, welcoming, lactation space that helps nursing parents feel comfortable and supported. “You do not need to be a large organization to ma"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094472073057841179",
+          "author": "isaiahemitchell",
+          "searchJob": "smu",
+          "text": "I can't really offer a Mean Girls-level analysis of the social culture at these campuses, but @TCU, @SMU, @Baylor, @TexasTech, @AngeloState &amp; @TarletonState strike me as having a preponderance of right-leaning students. Could be wrong"
+        }
+      ]
     },
     "search": {
-      "ok": false,
-      "reason": "california: rate limited",
+      "ok": true,
+      "reason": null,
       "jobs": 162,
-      "swept": 0,
+      "swept": 27,
       "failed": 1,
-      "requests": 1,
+      "requests": 28,
       "errors": [
-        "california: rate limited"
+        "texas-tech: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
+      "acceptedEvidence": 2,
+      "rejectedCandidates": 28,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-08-31T16:56:24.249Z"
+    "status rebuilt locally from current store on 2026-08-31T17:13:28.501Z"
   ]
 }
