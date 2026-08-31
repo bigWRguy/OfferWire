@@ -17474,17 +17474,31 @@
     "2094226946398072835",
     "2094203335918174472",
     "2094197094676382184",
-    "2094196813104345228"
+    "2094196813104345228",
+    "2094296053499806047",
+    "2094296949424029974",
+    "2094296353061081189",
+    "2094299098371457108",
+    "2094299491138424925",
+    "2094297605421572578",
+    "2094298169018646959",
+    "2094297128524997029",
+    "2094257361221554194",
+    "2094254791732150707",
+    "2094282735535722542",
+    "2094278848494080293",
+    "2094268361098047497",
+    "2094248066509406541"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-08-31T05:28:40.558Z",
-      "got": 771,
-      "new": 21,
-      "lag": 0.1
+      "at": "2026-08-31T05:43:44.428Z",
+      "got": 790,
+      "new": 14,
+      "lag": 0.04
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -17545,9 +17559,9 @@
       "truncated": false
     },
     "illinois": {
-      "at": "2026-08-30T11:18:04.000Z",
+      "at": "2026-08-30T13:21:27.000Z",
       "truncated": true,
-      "lastPosts": 19
+      "lastPosts": 20
     },
     "backfill:arizona-state:2026-07-28": {
       "at": "2026-08-27T17:04:38.724Z",
@@ -17711,7 +17725,7 @@
     "oregon": {
       "at": "2026-08-29T15:12:35.000Z",
       "truncated": true,
-      "lastPosts": 22
+      "lastPosts": 21
     },
     "backfill:boise-state:2026-07-29": {
       "at": "2026-08-28T13:04:51.553Z",
@@ -17831,7 +17845,7 @@
     "wisconsin": {
       "at": "2026-08-30T11:45:19.000Z",
       "truncated": true,
-      "lastPosts": 22
+      "lastPosts": 19
     },
     "backfill:akron:2026-07-30": {
       "at": "2026-08-29T04:03:05.446Z",
@@ -18088,7 +18102,7 @@
     "colorado": {
       "at": "2026-08-30T14:00:20.000Z",
       "truncated": true,
-      "lastPosts": 20
+      "lastPosts": 19
     },
     "backfill:colorado:2026-07-30": {
       "at": "2026-08-29T18:49:07.348Z",
@@ -18132,7 +18146,7 @@
     "houston": {
       "at": "2026-08-30T13:58:17.000Z",
       "truncated": true,
-      "lastPosts": 19
+      "lastPosts": 20
     },
     "backfill:east-carolina:2026-07-30": {
       "at": "2026-08-29T18:49:07.348Z",
@@ -18148,7 +18162,7 @@
     "kansas": {
       "at": "2026-08-29T17:06:15.000Z",
       "truncated": true,
-      "lastPosts": 25
+      "lastPosts": 24
     },
     "kansas-state": {
       "at": "2026-08-30T20:26:04.555Z",
@@ -18413,7 +18427,7 @@
     "kent-state": {
       "at": "2026-08-29T23:29:32.000Z",
       "truncated": true,
-      "lastPosts": 21
+      "lastPosts": 22
     },
     "liberty": {
       "at": "2026-08-29T10:54:41.407Z",
@@ -18438,7 +18452,7 @@
     "marshall": {
       "at": "2026-08-29T22:54:41.407Z",
       "truncated": true,
-      "lastPosts": 21
+      "lastPosts": 22
     },
     "massachusetts": {
       "at": "2026-08-30T22:44:51.188Z",
@@ -18628,7 +18642,7 @@
       "lastPosts": 8
     },
     "class:2026": {
-      "at": "2026-08-30T14:05:44.000Z",
+      "at": "2026-08-30T15:17:56.000Z",
       "truncated": true,
       "lastPosts": 20
     },
@@ -25485,14 +25499,14 @@
   "lastRateLimitAt": "2026-08-30T10:26:03.959Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-08-31T05:28:40.559Z",
+    "at": "2026-08-31T05:43:44.430Z",
     "jobsTotal": 162,
     "sweptThisRun": 36,
     "requests": 36,
     "fullSweepCycles": 5
   },
   "backfill": {
-    "at": "2026-08-31T05:28:40.559Z",
+    "at": "2026-08-31T05:43:44.430Z",
     "days": 30,
     "chunkDays": 30,
     "totalWindows": 136,
@@ -25503,182 +25517,140 @@
     "remainingTeamDays": 0
   },
   "backfillCoverage": {
-    "at": "2026-08-31T05:28:40.559Z",
+    "at": "2026-08-31T05:43:44.430Z",
     "jobsTotal": 0,
     "sweptThisRun": 0,
     "requests": 0
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
   "lastAudit": {
-    "at": "2026-08-31T05:26:05.014Z",
+    "at": "2026-08-31T05:41:09.129Z",
     "mode": "all",
     "collection": {
-      "returned": 771,
-      "kept": 21,
-      "duplicate": 747,
+      "returned": 790,
+      "kept": 14,
+      "duplicate": 773,
       "tooOld": 3,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 8,
-      "rejected": 13,
+      "accepted": 10,
+      "rejected": 4,
       "reasons": {
-        "no_offer_term": 4,
-        "non_fbs_offer_target": 5,
         "hard_negative": 1,
-        "no_fbs_school": 3
+        "no_fbs_school": 2,
+        "no_offer_term": 1
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2094282995083391009",
-          "author": "irnaenglish",
-          "searchJob": "liberty",
-          "text": "IRGC: A US MQ9 drone was struck in the skies above the Strait of Hormuz and fell into the Persian Gulf. https://t.co/wSsFUaqwlR"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094282193161863347",
-          "author": "irnaenglish",
-          "searchJob": "liberty",
-          "text": "President @drpezeshkian officially seen off on Kyrgyzstan-bound visit Pezeshkian has left Tehran for Bishkek to attend and speak at the SCO member states' summit and the Shanghai Plus meeting. https://t.co/FDLBG7v5K8"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094248914031399320",
-          "author": "whitehouse",
-          "searchJob": "liberty",
-          "text": "“I’m proud of the country. I want to see it fixed and made better.” - President Donald J. Trump 🇺🇸 https://t.co/p8kzRlZjEy"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094230331859652800",
-          "author": "spacex",
-          "searchJob": "liberty",
-          "text": "More from today's Falcon Heavy launch https://t.co/GjhKFWmIPQ"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2094277316289442253",
-          "author": "htx_abraham713",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "#AGTG🙏After a great conversation with Coach Gorwin I am blessed to receive another Official Offer from Waldorf University @warriorsXCTF https://t.co/BUGTdwGaDH"
-        },
-        {
           "reason": "hard_negative",
-          "postId": "2094252404430483885",
-          "author": "addipumphrey",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @EdwardBraatz23, I’m blessed to have received my first offer to play basketball for @LadyBuilders !! @CoachSchollNCSA @carsonbmathews https://t.co/b9gx8BzM7S"
+          "postId": "2094296353061081189",
+          "author": "dunnbilly87734",
+          "searchJob": "michigan",
+          "text": "rapture(n.) c. 1600, \"act of carrying off\" as prey or plunder, from rapt + -ure, or else from French rapture, from Medieval Latin raptura \"seizure, rape, kidnapping,\" from Latin raptus \"a carrying off, abduction, snatching away; rape\" (see "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094248649702220171",
-          "author": "hamzahoops28",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with Coach Shelton, I am blessed to receive my first offer Ecclesia College. #Blessed https://t.co/MFemfdT7zn"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2094246595357294672",
-          "author": "swiftm74849",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with Coach Eskildsen and staff Im blessed to have received an offer from McPherson College. https://t.co/niSn5QZnF8"
+          "postId": "2094297128524997029",
+          "author": "asromadaily1927",
+          "searchJob": "class:2026",
+          "text": "ICYMI 🔴 Roma have accepted RB Leipzig’s offer for Neil El Aynaoui. The midfielder will leave on a paid loan with an option to buy and a future sell-on clause—but no obligation. Read More: https://t.co/WJCjxhomTe"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094232875491094692",
-          "author": "brycenscowden",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with Coach Shelton, I am blessed to have received an offer from @EcclesiaMBB_ @OkieBall_1 @CoachPaulHarvey @ErnieBarber9 @ccsroyalsbball @prep_super @PrepHoopsOK @NxtProHoops @NCSAmbb https://t.co/s79N2R1qK9"
+          "postId": "2094257361221554194",
+          "author": "fzd19990831",
+          "searchJob": "class:2026",
+          "text": "$CRWD $NET Yes, I think your skepticism is quite logically grounded. But let me refine it into a more precise formulation: Cloudflare's Agentic AI narrative is real, but the financials have not yet proven that \"Agentic AI is becoming a suff"
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2094226946398072835",
-          "author": "saulfraga8",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation on the phone with @CoachTJungman I am extremely grateful to receive my first official offer from Minot State University GO BEAVERS! #AG2G🙏🏽 @CoachPage805 @CharlieWeis455 @fhsflashesfb https://t.co/oDQujVjkDJ"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094203335918174472",
-          "author": "morelljack2027",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "after a great conversation with @coreymcd12 i’m blessed to say that I’ve received my second offer from @UWOFootball @AntonGraham_ @MJ_NFLDraft #classof2027 https://t.co/z1RoG0XKQI"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2094197094676382184",
-          "author": "j_spencer_08",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with Coach Henry I’m beyond blessed to say I’ve received an offer from William Penn University!! @AllNOneSports1 @RealtorNikkiS @TAJUS_S https://t.co/Cvi3HcdbZn"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2094196813104345228",
-          "author": "kensoshifty",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @Coach_MFloyd10 and @camawls I am blessed to receive an offer from Defiance College! @DefiCollegeMBB https://t.co/P6nbEZYCFb"
+          "reason": "no_offer_term",
+          "postId": "2094248066509406541",
+          "author": "joetegtmeyer",
+          "searchJob": "florida",
+          "text": "Tesla's \"Exclusive\" Cybercab Launch Event is just 4 days away &amp; it is a major milestone &amp; launch for the company, perhaps as important as the original 2012 Model S or the 2017 Model 3. What do I hope Tesla will tell us &amp; what sh"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 7,
+      "accepted": 0,
+      "rejected": 10,
       "reasons": {
         "bare_mention_requires_llm": 5,
-        "school_not_resolved_confidently": 2
+        "school_not_resolved_confidently": 4,
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094294809821221309",
-          "author": "freephonefrees1",
+          "postId": "2094296053499806047",
+          "author": "ashokdadhwal196",
           "searchJob": "liberty",
-          "text": "🇺🇸😎🚔 41 M, 🇮🇷 😎 CONF & APPD ALL MY X 43 M, PRES DR PEZESHKIAN ❤️ CONF & APPD ALL MY X https://t.co/43MaFFyOgi 1 H, PRES TRUMP ❤️ CONF & APPD ALL MY X https://t.co/gRRslJaAiA 2 H, MY HUBBY ELON ♥️ CONF & APPD ALL MY X Stunningly beaut"
+          "text": "Prof. V. K. Tripathi: “RSS Ideology Is Not the Ideology of Humanity” “An ideology founded on hatred and the curtailment of freedom cannot be a good ideology.” Prof. V. K. Tripathi, retired Professor Emeritus of Physics at IIT Delhi and a lo"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094294108613349730",
-          "author": "freephonefrees1",
-          "searchJob": "liberty",
-          "text": "🇺🇸😎🚔 43 M, PRES DR PEZESHKIAN ❤️ CONF & APPD ALL MY X 1 H, PRES TRUMP ❤️ CONF & APPD ALL MY X https://t.co/gRRslJaAiA 2 H, MY HUBBY ELON ♥️ CONF & APPD ALL MY X Stunningly beautiful https://t.co/aDv1b5UzGC 2 H, DoW CONF & APPD ALL MY X "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094292840180240659",
-          "author": "freephonefrees1",
-          "searchJob": "liberty",
-          "text": "🇺🇸😎🚔 1 H, PRES TRUMP ❤️ CONF & APPD ALL MY X 2 H, MY HUBBY ELON ♥️ CONF & APPD ALL MY X Stunningly beautiful https://t.co/aDv1b5UzGC 2 H, DoW CONF & APPD ALL MY X https://t.co/LZ4s3aQyRI DEAR 🇮🇷, TAKE A LOOK AT THIS 👓👓👓👓 Prabowo W"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094292172950376776",
-          "author": "freephonefrees1",
-          "searchJob": "liberty",
-          "text": "🇺🇸😎🚔 2 H, MY HUBBY ELON ♥️ CONF & APPD ALL MY X Stunningly beautiful https://t.co/QOOmCDGSb2 2 H, DoW CONF & APPD ALL MY X https://t.co/LZ4s3aQyRI DEAR 🇮🇷, TAKE A LOOK AT THIS 👓👓👓👓 Prabowo Welcomes Belarus President Lukashenko at "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094294131145130348",
-          "author": "azfamily",
-          "searchJob": "arizona",
-          "text": "Glendale gas station offers relief as Arizona fuel prices soar https://t.co/BKOH9fJZJC https://t.co/uTObRNc9hQ"
+          "postId": "2094296949424029974",
+          "author": "mcewanjc",
+          "searchJob": "oregon",
+          "text": "Paul I had a quick look at the paper itself: not the puff piece that is the press article. Andrew, Alyssa C., Chad W. Higgins, Mary A. Smallman, Maggie Graham, and Serkan Ates. 2021. “Herbage Yield, Lamb Growth and Foraging Behavior in Agri"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2094293414351450224",
-          "author": "oldmanlefty1",
-          "searchJob": "wake-forest",
-          "text": "@dicapito When has Trump worked with Democrats? He had one meeting with Jeffries and Schumer and he clowned them by having is campaign paraphernalia all over his desk, and even offered Jeffries a red cap. You need to wake up.. Trump will NE"
+          "postId": "2094299098371457108",
+          "author": "davidhinkle90",
+          "searchJob": "kent-state",
+          "text": "TUCKER CARLSON, WHO BACKED TRUMP THROUGH 2 IMPEACHMENTS, NOW SAYS REMOVE HIM IF HE WEIGHS A FIRST NUCLEAR STRIKE COLBY OFFERS \"CREDIBLE NUCLEAR OPTIONS.\" KENT ASKS: IF CONVENTIONAL FAILS IN IRAN, WHAT THEN? TOLERATING THIS IS UNFIT. TRUMP C"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2094293144854745368",
-          "author": "thirumangai89",
+          "postId": "2094299491138424925",
+          "author": "alan_t_johnston",
           "searchJob": "wake-forest",
-          "text": "Very disturbing and painful to read. @narendramodi ji , a road map is needed. At times when Bangladesh Hindus are lunched, burnt , raped and killed, we have Sheikh Hasina as our guest. We are planning to roll red carpet for terrorist nation"
+          "text": "@Dog85French @Mike_Adams_OG @data_republican @DataRepublican Most politicians take money from anyone who offers it. The Arab nations with HUGE sovereign funds and CAIR put 100X more money into US politics and influence that Israel does. Wak"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094297605421572578",
+          "author": "dunnbilly87734",
+          "searchJob": "illinois",
+          "text": "So the question arises; Why are Protestants using a Latin word like rapture instead of English or at least the Greek from which our Protestant Bibles are translated? Perhaps the speculation which has scrutinized Irving’s work as springing f"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094298169018646959",
+          "author": "lakersfaithful_",
+          "searchJob": "houston",
+          "text": "@Baller_Report Amen more athletic and better defense… But Austin is better overall.. But if Houston called and offered amen for Austin then I might say yes."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094254791732150707",
+          "author": "saveraaintl",
+          "searchJob": "class:2026",
+          "text": "🌱 Soybean Mark Summary — 28 Aug 2026 📈 Soybean futures surged again: CME November soybeans rose 20¢/bu (+1.58%) to $12.88/bu. 🥣 Derived products led the rally: October soymeal gained 2.42% to $342.50/st, while soyoil jumped 3.80% to $70."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094282735535722542",
+          "author": "dnaonejax",
+          "searchJob": "florida",
+          "text": "@SchnauzerCoco I was not aware they made schnauzer contact lenses. That is great they are able to offer the top care for mini schnauzers in UK! ❤️. In Florida I don't know what they would do? Best of Luck! Get well soon!"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094278848494080293",
+          "author": "perfectrose2011",
+          "searchJob": "florida",
+          "text": "@guyfelicella We all know on taxpayer's money, she has travelled to Florida to be hosted by the WH fraudster &amp; felon. Makes one wonder why &amp; what kind of bribe she was offered. Can someone check her bank accounts (bet she has some o"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094268361098047497",
+          "author": "homeinvasioncop",
+          "searchJob": "florida",
+          "text": "@balldenial6 @j_fishback This matters as Florida may elect its first governor that cannot swim. I have asked various AIs if there's ever been a Florida Governor that could not swim and it's evident that Mr Donalds may be the first. My offer"
         }
       ]
     },
@@ -25692,9 +25664,9 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 7,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 10,
+      "brandNewOffers": 0
     }
   }
 }
