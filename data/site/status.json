@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-31T18:13:31.647Z",
+  "generatedAt": "2026-08-31T18:28:41.620Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-08-31T18:13:31.399Z",
+    "at": "2026-08-31T18:28:41.334Z",
     "jobsTotal": 162,
-    "sweptThisRun": 31,
-    "requests": 32,
+    "sweptThisRun": 29,
+    "requests": 30,
     "fullSweepCycles": 6
   },
   "backfillCoverage": {
@@ -29,22 +29,22 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5368644444444445,
-    "p95Hours": 1.5362166666666666,
-    "worstHours": 1.5362166666666666
+    "medianHours": 0.5423555555555556,
+    "p95Hours": 1.0362219444444445,
+    "worstHours": 1.2856369444444444
   },
   "decisionCoverage": {
-    "total": 48,
-    "decided": 48,
+    "total": 64,
+    "decided": 64,
     "complete": true
   },
   "pending": {
-    "total": 2
+    "total": 3
   },
   "profileResolution": {
     "cached": 28
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 461,
     "incompleteOffers": 0
@@ -52,309 +52,382 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-08-31T18:13:31.399Z",
-      "got": 82,
-      "new": 48,
-      "lag": 0.04
+      "at": "2026-08-31T18:28:41.333Z",
+      "got": 92,
+      "new": 64,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-08-31T18:11:17.531Z",
+    "at": "2026-08-31T18:26:32.381Z",
     "mode": "live",
     "collection": {
-      "returned": 82,
-      "kept": 48,
-      "duplicate": 34,
-      "tooOld": 0,
+      "returned": 92,
+      "kept": 64,
+      "duplicate": 26,
+      "tooOld": 2,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 34,
-      "rejected": 14,
+      "accepted": 35,
+      "rejected": 29,
       "reasons": {
-        "no_fbs_school": 10,
-        "hard_negative": 2,
-        "no_offer_term": 2
+        "no_offer_term": 6,
+        "hard_negative": 1,
+        "no_fbs_school": 21,
+        "unclassified_offer_text": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2094470902138237180",
-          "author": "personalbest711",
-          "searchJob": "ohio",
-          "text": "Olive furnace in Ohio. These furnaces were used in Ancient Egypt durning the Iron Age. We have a lot of Ancient Egypt proof everywhere. This is the promised land and always has been. From sin we forgot who we were. The offer stands. All who"
+          "reason": "no_offer_term",
+          "postId": "2094472558305591666",
+          "author": "saltedthad",
+          "searchJob": "troy",
+          "text": "https://t.co/5kocl5mJfs"
         },
         {
           "reason": "hard_negative",
-          "postId": "2094485251146092633",
-          "author": "norfolkknights",
-          "searchJob": "alabama",
-          "text": "Kai Harris II (6’3 2029 PSAT Academy, TX) was one of the most intriguing prospects at the Paul Biancardi Basketball Camp at Randolph Macon College due in large part to his length, skill set and versatility. Proficient operating in the mid p"
+          "postId": "2094489325941493834",
+          "author": "joshknows11",
+          "searchJob": "auburn",
+          "text": "@hoosiers180 @BoersBurner He only had offers from Auburn, Miss St and Oklahoma. Stop being stupid 😆"
         },
         {
-          "reason": "hard_negative",
-          "postId": "2094487885462360237",
-          "author": "profilefblive",
-          "searchJob": "byu",
-          "text": "📈 Trending Recruit 📈 2027 RB Filisi Filipe from Herriman HS, UT is currently Profile's Top Trending 2027 recruit after receiving his first P4 offer from BYU. @filisifilipe Rated 3.3 ⭐ (#1504 NATL, #113 RB, #31 UT) with 5 offers overall. h"
+          "reason": "no_fbs_school",
+          "postId": "2094489213475377599",
+          "author": "jaxdotcom",
+          "searchJob": "florida",
+          "text": "Domino's is leaning into its competitors to offer customers free pizza. https://t.co/8ELdsDXttV"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094485391860433159",
+          "author": "floridabartley",
+          "searchJob": "florida",
+          "text": "President Trump should offer a 10 day amnesty period for anyone in government and Congress being blackmailed by foreign interest like China. Would lose position but be pardoned for coming forward and providing background and intelligence on"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094483049589207133",
+          "author": "sebbax7799",
+          "searchJob": "florida",
+          "text": "I wasn't offended. Just did not have any answers to offer for your question from earlier tweet. Anyway, I'm pleased you're OK, and that whatever nasty people were planning for you in Florida did not materialise. Stay healthy and good luck👍"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2094434224862351513",
-          "author": "max_olson",
-          "searchJob": "byu",
-          "text": "Will Hammond is no stranger to being underestimated. Now he's starting and the goal hasn't changed: Texas Tech is aiming for a CFP title. \"I love that narrative that people think we're going to take a step back.\" Story on the new QB1 for @T"
+          "postId": "2094359022195421546",
+          "author": "yairnetanyahu",
+          "searchJob": "florida",
+          "text": "Dear Brits, You got offended by my comment about the Falkland Islands—a bunch of rocks 8,000 miles from your shores? Good. Now imagine how we Israelis feel about your government’s recognition of “Palestine” over our ancestral heartland of J"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2094476989415469552",
-          "author": "streetwiseprof",
-          "searchJob": "california",
-          "text": "As much information as AI can collect and collate, that is only a sliver of that which markets produce https://t.co/1m9B6ruM7O"
+          "postId": "2093342170849677591",
+          "author": "live_free_603",
+          "searchJob": "florida",
+          "text": "In New Hampshire even our realtors use guns as marketing tools to sell houses and illuminate our lifestyle. https://t.co/JtUGeAdMJU"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094470273382928874",
-          "author": "kickitca",
-          "searchJob": "california",
-          "text": "You don’t have to quit vaping alone. 🤝 @Kickitca offers free, confidential, &amp; nonjudgmental support to help you quit for good. Ready to kick vaping? Chat with a Quit Coach today: 💬https://t.co/U2YtYtrxTY Mon-Fri 7am-9pm | Sat 9am-5pm "
+          "postId": "2094489230382678251",
+          "author": "tcpalm",
+          "searchJob": "georgia",
+          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/dtexMu3JJR"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094488847627219132",
+          "author": "cbsnewsatl",
+          "searchJob": "georgia",
+          "text": "https://t.co/R3jp1AQNrV"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094466483695071569",
-          "author": "jimamen",
-          "searchJob": "california",
-          "text": "Everybody in this business is bragging about response time. Almost nobody can tell you what those fast calls actually bought them. Speed became the standard for a reason. The baseline was terrible. Studies going back years found the average"
+          "postId": "2094485672245518368",
+          "author": "chieftainnews",
+          "searchJob": "georgia",
+          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/7VBcAtvZNE"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094471527928418503",
-          "author": "thecoopergrp",
-          "searchJob": "cincinnati",
-          "text": "JUST SOLD! 100% Occupied, Dollar General (S&amp;P BBB/Moody's Baa3) Anchored Center | Multiple Competitive Offers | Sold for 93% of Asking Price | 8.02% CAP Rate | Cincinnati, OH https://t.co/GTjHMgPbBt https://t.co/elAdftPX6c"
+          "postId": "2094485667614978550",
+          "author": "ocalastarbanner",
+          "searchJob": "georgia",
+          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/cKDJbAcRTP"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094485512530678210",
-          "author": "vaechcs",
-          "searchJob": "colorado",
-          "text": "VA ECHCS may reach out before some of your appointments through the BHL-Screener, with a short questionnaire by text or email. Completing it ahead of time can help focus the conversation when you meet with your care team. The BHL-Screener, "
+          "postId": "2094485613344923871",
+          "author": "fostersdailydem",
+          "searchJob": "georgia",
+          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/xvlSCeKjKN"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094478380489998633",
-          "author": "mg1701e",
-          "searchJob": "duke",
-          "text": "@JackieTainsh @Mikeo56977865 @hopperpy You offered him good advice, that his response was to block you speaks volumes about who he is, and none of it’s good. We’re in excellent company though, a lot of really good people in the #blockedbyvi"
+          "postId": "2094485587587735865",
+          "author": "ldnews",
+          "searchJob": "georgia",
+          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/Kpc4f2zkv8"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094479111120937154",
-          "author": "4pr0ngtriangle",
-          "searchJob": "rice",
-          "text": "@Simmons360 @HandofArsenal @ElBobble Every single 100m transfer is a risk. We took that risk with Rice, we should have taken it with Barcola, we should have offered more for Rogers."
+          "postId": "2094485587587731783",
+          "author": "dbnewsjournal",
+          "searchJob": "georgia",
+          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/P2Ql6lOPQz"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094477531462111519",
-          "author": "hthejambo",
-          "searchJob": "temple",
-          "text": "@celtic_jaime Thing is even if you go for bigger name players you're then competing with efl clubs and the wages they offer will dwarf anything celtic can offer"
+          "postId": "2094485582470656226",
+          "author": "breakingnews_rs",
+          "searchJob": "georgia",
+          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/gMof2B31Kp"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094468380090564663",
-          "author": "genxbonvivant",
-          "searchJob": "temple",
-          "text": "My body is a temple, so I offer it sacrifices of fine steak https://t.co/WUfTtyXijc"
+          "postId": "2094485571145961715",
+          "author": "heraldmailnews",
+          "searchJob": "georgia",
+          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/7tiKuCpvyu"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094466430494187523",
-          "author": "hthejambo",
-          "searchJob": "temple",
-          "text": "@GorgieOpinion Be interested to see what £ was offered for big tam and who bid"
+          "postId": "2094485570659500310",
+          "author": "hburgamerican",
+          "searchJob": "georgia",
+          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/OqNkdUsEDU"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094483664360915271",
+          "author": "acheofgeorgia",
+          "searchJob": "georgia",
+          "text": "Enhance your leadership skills by joining our Virtual Interactive webinar, \"Developing Mentoring and Coaching Skills,\" on Sept. 17 from 12:00 PM to 1:30 PM ET. This session offers 1.5 hours of ACHE Virtual Interactive Credit. Registration i"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094481644438610413",
+          "author": "dandc",
+          "searchJob": "georgia",
+          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/ZLpI1UYCSt"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094481644090491378",
+          "author": "heraldtribune",
+          "searchJob": "georgia",
+          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/dCfWVU5tFw"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094481642832203984",
+          "author": "pbpost",
+          "searchJob": "georgia",
+          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/GhTufD1vLL"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094478011357688199",
+          "author": "enquirer",
+          "searchJob": "georgia",
+          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/MkuyaVlidu"
+        },
+        {
+          "reason": "unclassified_offer_text",
+          "postId": "2094480927879475420",
+          "author": "vitaminretailer",
+          "searchJob": "illinois",
+          "text": "Five natural product brands are offering free products to Midwest independent retailers affected by the storms in Iowa, Illinois and Indiana. https://t.co/Fzu2CkeUdt"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094478706680922580",
+          "author": "dadinfw",
+          "searchJob": "indiana",
+          "text": "My bank sent me this today. Like, you have access to my checking account balance for the last decade. You should know better than anyone this is an offer I will never be able to take advantage of. And if I had $150-500K+ lying around I'd in"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 33,
+      "accepted": 0,
+      "rejected": 35,
       "reasons": {
-        "bare_mention_requires_llm": 12,
-        "school_not_resolved_confidently": 19,
-        "reporter_missing_player_name": 1,
-        "multiple_resolved_schools": 1
+        "bare_mention_requires_llm": 19,
+        "school_not_resolved_confidently": 8,
+        "unresolved_offer_target": 1,
+        "multiple_resolved_schools": 4,
+        "reporter_missing_player_name": 2,
+        "author_not_recruit:no recruit fields": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094482425262830071",
-          "author": "jezzaica",
-          "searchJob": "nevada",
-          "text": "Set in 1936, Raiders of the Lost Ark follows the globe-trotting archaeologist Indiana Jones as he races to find the biblical Ark of the Covenant before it falls into the hands of Nazi Germany, who believe its supernatural power will make Ad"
+          "postId": "2094488270549692614",
+          "author": "montybennett",
+          "searchJob": "texas-state",
+          "text": "The whole intended point of H-1B visas is to fill jobs when we can’t find the “specialized talent” here at home. America has 340 million people. Texas State literally offers a degree in public relations. It graduates students in public rela"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094465772458230168",
-          "author": "oapoh_official",
-          "searchJob": "nevada",
-          "text": "#OnThisDay August 31, 1870: Road Agents https://t.co/j00jtcyEF6 | Own A Piece Of History ---------------- FREE AUDIO BOOK OFFER: Hero Tales From American History Originally Written In 1895 By Theodore Roosevelt And Henry Cabot Lodge: https:"
+          "postId": "2094487378308006124",
+          "author": "verbalcommits",
+          "searchJob": "uab",
+          "text": "Jacksonville State and UAB offered 2027 Navarro College (TX) F Evans Barning, Jr. @EvansBarning_ https://t.co/JgHmssrTpI"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094485425205190817",
+          "author": "jucorecruiting",
+          "searchJob": "uab",
+          "text": "UAB has offered 2027 Navarro College 6’7 F Evans Barning Jr (@EvansBarning_). Barning and @NavarroBball will be at the All-American Jamboree in Wichita in October."
+        },
+        {
+          "reason": "unresolved_offer_target",
+          "postId": "2094481593880789191",
+          "author": "profilefblive",
+          "searchJob": "unlv",
+          "text": "2030 QB Matthew Mensing from Houston Memorial HS, TX has been offered by UNLV. @mmbys2030 Rated 3.0⭐ (#100 NATL, #11 QB, #11 TX). https://t.co/bsYbKmXanU"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094490654327873972",
+          "author": "robertobalbinox",
+          "searchJob": "florida",
+          "text": "Delaware is NOT a tax haven. That distinction matters. Delaware is a U.S. state and one of the world’s most established corporate jurisdictions. Its competitive advantage was built over more than a century through sophisticated corporate la"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094463667723235815",
-          "author": "alanicwholesal1",
-          "searchJob": "new-mexico",
-          "text": "Stand out with tailored designs. Alanic Wholesale Clothing offers custom apparel New Mexico collection, which helps brands create distinctive pieces that customers connect with while ensuring scalable production. Visit https://t.co/M7evCn9i"
+          "postId": "2094489282509451695",
+          "author": "upnorth_tory371",
+          "searchJob": "florida",
+          "text": "@nypost You might want to review the well and septic report on your dream Florida island house before making an offer."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094485622534848963",
-          "author": "reimakayla",
-          "searchJob": "ohio",
-          "text": "I renovated 35 houses last year without stepping foot inside a single one of them Not one walkthrough. Not one site visit. Not one trip to Home Depot. I managed every renovation from my laptop and my phone. The houses are in Ohio. I was not"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094482223160291561",
-          "author": "calgkildow",
-          "searchJob": "ohio",
-          "text": "@OhioSenateGOP @TPAction @GabeGuidarini One of the best young patriots Ohio has to offer"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094473325531554256",
-          "author": "elegantessenti1",
-          "searchJob": "ohio",
-          "text": "💗 Shop our Amoena Swimwear, now 40% through the end of the month (in-store offer only)! Call us today to schedule your appointment: 1-800-350-5053 💗 #ElegantEssentials #Medina #Ohio #HotDaysCoolFinds #HereForYou"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094486088127767025",
-          "author": "highlimitracing",
-          "searchJob": "oregon",
-          "text": ".@BMRacing19 and @JamesMcFadden25 won the last two High Limit trips to Oregon. Who wins tonight?! Visit https://t.co/wLOv6dTRiu to learn how/where you can play &amp; claim exclusive sign-up bonus offers. https://t.co/KVllYzQgeO"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094484067354030586",
-          "author": "oregoneaglenews",
-          "searchJob": "oregon",
-          "text": "@ChristineDrazan offers a plan for Oregon. Now It’s Kotek’s turn. https://t.co/VosoMWKOnq"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094482890981851606",
-          "author": "carriegrec",
-          "searchJob": "oregon",
-          "text": "@TinaKotek Driving Oregon into the ditch doesnt offer you much standing room to advise anyone on anything. Tariffs over taxation"
+          "postId": "2094485172783563018",
+          "author": "rdone",
+          "searchJob": "florida",
+          "text": "@Cathy2NotToday @KatiePhang They never had any intention of having Hope Florida use the money to benefit underprivileged children. The grand jury was offered a fairy story instead of an explanation. Whoever testified to it was lying."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094479813981704683",
-          "author": "duckyirving",
-          "searchJob": "oregon",
-          "text": "@Clemson_Addict @PopeClemson1st Mestemaker is making $3.5 million at OSU and I think Oregon offered him more"
+          "postId": "2094484489309221214",
+          "author": "cathy2nottoday",
+          "searchJob": "florida",
+          "text": "After nearly 30 yrs of Florida Republican rule in executive/legislative branches ( and now judicial) •Less access to healthcare •inability to afford home/rent •bottom for health insurance bc few companies offer it in a tourism safe economy "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094486030359330827",
-          "author": "panvulpesv",
-          "searchJob": "arizona",
-          "text": "The Hot South of Mars Yes, there’s still a lot going on on Mars, and we’re constantly making interesting new discoveries! Mars has two faces: smooth, young lowlands in the north, and ancient, crater-riddled highlands in the south—often thre"
+          "postId": "2094483930908963102",
+          "author": "washblade",
+          "searchJob": "florida",
+          "text": "For LGBTQ youth starting with nothing, Pride House in Florida offers help https://t.co/rZGVPKZZoi"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094477668817203614",
-          "author": "nordiconex25271",
-          "searchJob": "arizona",
-          "text": "@nicksortor We have a lot of Americans missing in Nepal. We people in Arizona missing after a Grand Canyon flood. Not one word about them. Not No offer of help. No words of comfort to US families. He’s too busy making sure tech companies ar"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094472897381478628",
-          "author": "coolcywrites",
-          "searchJob": "byu",
-          "text": "Interesting recruiting story. Never knew Hammond wanted to go to BYU but never got offered."
+          "reason": "multiple_resolved_schools",
+          "postId": "2094479261486723287",
+          "author": "svenvonerick",
+          "searchJob": "florida",
+          "text": "Everything I have had my whole life has been stolen. I was kidnapped by a Russian Non Semite Jew Cop Sgt. Foxx Connecticut State Police Troop C to sign over my 3 Apartment Buildings after he destroyed my Marriage &; permanently estranged me"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094484323273445554",
-          "author": "scheeyak",
-          "searchJob": "california",
-          "text": "wts 2 lower level tickets for bts at Inglewood, california we wouldn’t be going anymore so we wts these, pls text if you're interested can and will facetime 🤧you can text with your offers ! 🏷️ world tour arirang wtb wtb California la wtt "
+          "postId": "2094474907128099120",
+          "author": "cathy2nottoday",
+          "searchJob": "florida",
+          "text": "After nearly 30 yrs of Florida Republican rule in executive/legislative branches ( and now judicial) •Less access to healthcare •inability to afford home/rent •bottom for health insurance bc few companies offer it in a tourism safe economy "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094474455732916496",
+          "author": "svenvonerick",
+          "searchJob": "florida",
+          "text": ", Steven G. Erickson, have never voted Democrat. I got SWATTED by FBI & Salem NH PD saying what I post on https://t.co/01qRypyZW5 is Antisemitic wanting to Defund Israel & Aipac. They were prepared to shoot me. I had evidence of Non Semite "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094490345681592334",
+          "author": "ttunlehs",
+          "searchJob": "georgia",
+          "text": "Interesting... Oh, and the Corporate officer was spying on children. There is no single official tally, because cases continue to surface as departments run audits, journalists review public logs, and Flock’s own “Audit Assistance” tool fla"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094483357690142889",
-          "author": "dataguidance",
-          "searchJob": "california",
-          "text": "🇺🇸 California lawmakers approved SB 923 to expand CCPA deletion rights. If signed: 🗑️ Delete non-exempt personal data 🚫 Keep suppression lists to prevent re-acquisition 📩 Offer email + online request methods Read more: https://t.co/iVP"
+          "postId": "2094486207941968232",
+          "author": "marsyslawforga",
+          "searchJob": "georgia",
+          "text": "Veterans can be victims too. The Atlanta Victim Assistance of the Georgia Department of Veterans Service is a place that can offer help. https://t.co/9GYybhlkll https://t.co/Fuw7ruF9Sf"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094479175717429650",
-          "author": "classaction_org",
-          "searchJob": "california",
-          "text": "NEW: A $12.47M Trader Joe’s settlement offers cash to resolve a class action lawsuit over alleged violations of California labor laws. https://t.co/SWgdLT04Xr"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094477220056334374",
-          "author": "tinoisfunny",
-          "searchJob": "california",
-          "text": "🚨👀 KEITH JONES TAKES THE STAND — TESTIFIES ABOUT ALLEGED $1 MILLION HIT ON QUANDO RONDO Keith Jones took the stand and told the courtroom that he is currently in federal custody after pleading guilty to charges involving murder-for-hire a"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094470129287582006",
-          "author": "benjamins_st",
-          "searchJob": "california",
-          "text": "Lil Uzi Vert (Symere Woods) is suing a Malibu rehab facility after an employee allegedly recorded part of a private therapy session and the clip later leaked online‼️. What happened (according to the lawsuit)⁉️ Uzi entered Oro House Recover"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094466838055068064",
-          "author": "teco_denver",
-          "searchJob": "colorado",
-          "text": "2026科州龍舟節隆重登場！ 科州年度盛事「科羅拉多龍舟節」8月29日在美麗的 Sloan 湖熱鬧開場啦！ 科州龍舟節不僅是全美規模最大的龍舟賽事之一，也是科羅拉多州最大型的節慶活動之一，現場人潮滿滿、氣氛熱烈！開幕活動中，本處黃虹慧總領事與丹佛市長 Mike Johnston、Edgewater 市長 Steven Conklin、科州副州長候選人 Lesley Dahlkemper及日本總領事岡島洋之（Okajima Hiroyuki）等受邀貴賓逐一上台與大家見面，每位貴"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094475814150488428",
-          "author": "vickervics9",
-          "searchJob": "duke",
-          "text": "Duke had watched so many dogs leave the shelter, one after another, while he remained behind. Every adoption day, he waited quietly on his bed, holding onto his favorite toy and hoping that someone might finally choose him. Then one day, an"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094474773178761451",
-          "author": "12pitchatbat",
-          "searchJob": "duke",
-          "text": "How has the portal affected recruiting for the non blue chip prospects? Seems to me coaches will first look to proven players in the portal before looking at high school prospects unless they are obvious blue chippers. I ask because my son "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094484858622071023",
-          "author": "nntaleb",
-          "searchJob": "rice",
-          "text": "This presents us with an interesting methodological problem. Before refuting an argument, one must establish that an argument exists. This is not merely pedantry. It is a foundational principle of intellectual hygiene. A sandwich requires b"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094484399836328219",
-          "author": "nntaleb",
-          "searchJob": "rice",
-          "text": "This presents us with an interesting methodological problem. Before refuting an argument, one must establish that an argument exists. This is not merely pedantry. It is a foundational principle of intellectual hygiene. A sandwich requires b"
+          "postId": "2094485473960051125",
+          "author": "earthdesires",
+          "searchJob": "georgia",
+          "text": "Whiskey Jug Genie by Sultonna Nadine is a lighthearted and charming paranormal fantasy that mixes magic, humor, and a touch of romance for pure escapist fun. When quiet London apothecary shop owner Martin buys an old whiskey jug on vacation"
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2094481287981433114",
-          "author": "colesheeks",
-          "searchJob": "rice",
-          "text": "Week 2 Stats for Brother Rice QB Sam Holcomb---8-for-8 w/181 yds, 4 TD's, and 16 yd's &amp; 1 TD on the ground in a 69-0 win over Woodlawn last Friday. The freshman has an offer from Michigan &amp; is 19-for-22, w/285 yards, 5 TD’s, plus 72"
+          "postId": "2094480596353286302",
+          "author": "clintonthought",
+          "searchJob": "georgia",
+          "text": "@neoaegean Ossetians are the only ethnicity I dislike, but regardless Georgia has offered genuine guarantees and autonomy in the past. If the Greeks had been willing to negotiate seriously after Attila 1, they wouldn’t be in the situation t"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2094479876329816384",
+          "author": "recruitgeorgia",
+          "searchJob": "georgia",
+          "text": "Toombs County SR OL has been putting in work over the last year &amp; now has earned an offer from UVA-Wise #RecruitGeorgia"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094476256381473058",
+          "author": "freedomrealtyil",
+          "searchJob": "illinois",
+          "text": "🏡✨ JUST LISTED IN NORMAL! ✨🏡 📍 1420 Westview Drive, Normal, IL 🔥 RARE & BEAUTIFUL 3 BEDROOM | 3.5 BATH PARTIAL-BRICK RANCH! Nicely tucked away on a great corner lot in a highly desirable Normal neighborhood, this well-built home offers "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094475832123384058",
+          "author": "ilbrucebak",
+          "searchJob": "illinois",
+          "text": "He's not wrong Darren. Illinois needs to welcome every bit of new business anyone can offer. Even if you somehow win, the factories and Steel mills aren't coming back. We can build the energy needed to supply these data centers and add more"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094486120289460408",
+          "author": "genbio",
+          "searchJob": "indiana",
+          "text": "Indiana Emerges as a Leading U.S. Biopharma Hub For investors seeking compelling inventions, researchers looking for clinical partners, and companies deciding where to expand, #Indiana offers a rare combination Sponsored by #BioHeartland ht"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094485448928235795",
+          "author": "aspireindiana",
+          "searchJob": "indiana",
+          "text": "Struggling with mental health challenges or addiction? Same-day help is available right now! Aspire Indiana Health's Greenfield Health Center offers Same Day Access with in-person behavioral health appointments. Get the compassionate care y"
+        },
+        {
+          "reason": "author_not_recruit:no recruit fields",
+          "postId": "2094484798945529897",
+          "author": "amayaribbens",
+          "searchJob": "indiana",
+          "text": "extremely blessed to receive an offer to indiana university! #gohoosiers #agtG https://t.co/KsLYLCrm1o"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094486123951116633",
+          "author": "ceegeedfs",
+          "searchJob": "houston",
+          "text": "⚾ MLB DFS Top Stacks Monday, August 31st Main Slate Baltimore leads the slate if the Coors weather cooperates, while the Yankees, Minnesota, Houston and Texas offer the best alternatives for balanced and tournament builds https://t.co/oEYGg"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094489328525210044",
+          "author": "ouvinavarela",
+          "searchJob": "miami",
+          "text": "Upgrade your home security &amp; boost property value! 🔒✨ From AI cameras to smart locks, whole-home systems offer safety &amp; equity. 🏠 Check the link below! #SmartHome #HomeSecurity #MiamiRealEstate #RealEstateTips #HomeValue #OuvinaVa"
         }
       ]
     },
@@ -362,20 +435,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 31,
+      "swept": 29,
       "failed": 1,
-      "requests": 32,
+      "requests": 30,
       "errors": [
-        "texas-state: rate limited"
+        "utsa: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 33,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 35,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-08-31T18:13:31.648Z"
+    "status rebuilt locally from current store on 2026-08-31T18:28:41.621Z"
   ]
 }
