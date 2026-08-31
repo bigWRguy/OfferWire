@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T15:13:31.054Z",
+  "generatedAt": "2026-08-31T15:25:58.453Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0311091666666667,
-    "p95Hours": 1.5947544444444444,
-    "worstHours": 1.5947544444444444
+    "medianHours": 1.23872,
+    "p95Hours": 1.8023652777777779,
+    "worstHours": 1.8023652777777779
   },
   "decisionCoverage": {
-    "total": 33,
-    "decided": 33,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "pending": {
@@ -59,265 +59,46 @@
     }
   },
   "audit": {
-    "at": "2026-08-31T15:11:20.684Z",
+    "at": "2026-08-31T15:25:54.081Z",
     "mode": "live",
     "collection": {
-      "returned": 57,
-      "kept": 33,
-      "duplicate": 24,
+      "returned": 0,
+      "kept": 0,
+      "duplicate": 0,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 17,
-      "rejected": 16,
-      "reasons": {
-        "no_fbs_school": 6,
-        "no_offer_term": 9,
-        "hard_negative": 1
-      },
-      "samples": [
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094427272383975672",
-          "author": "ruralwastewater",
-          "searchJob": "alabama",
-          "text": "\"Environmental sampling offers a direct measure of how human waste is being contained or released into the environment and is fit to capture the potential health and environmental benefits of improved sanitation infrastructure.\" Read more: "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094438737434538251",
-          "author": "loopingcloud",
-          "searchJob": "arkansas",
-          "text": "https://t.co/QNHaBGEioz"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2093812203954524380",
-          "author": "nbcsports",
-          "searchJob": "arizona",
-          "text": "HOW did Carson Clark come down with it! 👀 📺 San Jose State vs USC on NBC and Peacock https://t.co/syLkg07ymj"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094426196633419924",
-          "author": "satyenraja",
-          "searchJob": "baylor",
-          "text": "https://t.co/Yr17JIbzmH"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094216117631811817",
-          "author": "j_gallagher4ca",
-          "searchJob": "california",
-          "text": "We grow world-class grapes right here. Let’s stop undercutting our own farmers with lower-quality imports and start putting California agriculture first. https://t.co/LKzw5l110Z"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094421920313717032",
-          "author": "kellyg581976179",
-          "searchJob": "california",
-          "text": "‼️Extremely Urgent in Central California How has no one adopted this gorgeous good girl⁉️ To be killed, Weds. 9/2 at 6:30am PT‼️ This is beautiful, 2 year old , Siberian Husky mix , Blanca . She is very sweet , loves attention , is affectio"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094230016095625577",
-          "author": "luv2laugh12",
-          "searchJob": "california",
-          "text": "Can anyone save Blanca? 🙏 She’s at SASA in Modesto, CA…set to be 💉on Wed. 9/2 at 6:30 a.m.😳 https://t.co/ZC4J6TAJVS"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2094437941011464527",
-          "author": "accfootballnews",
-          "searchJob": "clemson",
-          "text": "UNC Sports Weekly: Defense Delivers in Dublin; Fens’ Eligibility Put on Hold North Carolina opened football season with a 15–10 victory over TCU in Dublin, riding decisive defensive stops to a 1–0 start. Basketball produced a significant el"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094436804866834848",
-          "author": "coloradosun",
-          "searchJob": "colorado",
-          "text": "BLM will offer parcels near Aurora Reservoir for oil and gas drilling https://t.co/GDBoRhaXlh"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094415409692774738",
-          "author": "allezamani",
-          "searchJob": "duke",
-          "text": "@silverpenydr Which day you go throw me this offer?"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094433588381171717",
-          "author": "loopingcloud",
-          "searchJob": "tulsa",
-          "text": "https://t.co/LBFopmLB2K"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094432747246985224",
-          "author": "loopingcloud",
-          "searchJob": "tulsa",
-          "text": "https://t.co/hUGKVEGpAb"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094426876727239136",
-          "author": "loopingcloud",
-          "searchJob": "tulsa",
-          "text": "https://t.co/U4hfGM72ER"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094428795943940288",
-          "author": "uabmedicine",
-          "searchJob": "uab",
-          "text": "Today is International #OverdoseAwarenessDay.💜 Knowing how to recognize an overdose and access naloxone can save a life. @jcdhtweets offers free naloxone, fentanyl test strips, and local distribution resources. ➡️ https://t.co/CcSAvI9kZZ h"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094431569762975913",
-          "author": "knifedepot",
-          "searchJob": "class:2026",
-          "text": "National Knife Day 2026: Celebrate the Blade with the Best EDC & Pocket Knives Every August 24th, knife enthusiasts across the country come together to celebrate one of America's most enduring tools — the knife. National Knife Day isn't jus"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094087725389619469",
-          "author": "thekingpkm",
-          "searchJob": "class:2026",
-          "text": "#Tinnhanh24h Các sự kiện chính trong tuần tới. Khi mà làm phát vẫn còn cao so với mục tiêu thì mọi con mắt đều đổ dồn vào thị trường lao động, điều này sẽ ảnh hưởng đến các quyết định chính sách của Fed."
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
-      "accepted": 3,
-      "rejected": 14,
-      "reasons": {
-        "school_not_resolved_confidently": 6,
-        "bare_mention_requires_llm": 8
-      },
-      "samples": [
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094422317413683397",
-          "author": "jasongarri19388",
-          "searchJob": "alabama",
-          "text": "@BoersBurner No. I had this argument with @HoosierHaze a few weeks ago. I thought he would come to Bama if offered but he has built too strong of a foundation for himself at Indy just to up and leave."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094437050988576795",
-          "author": "pjfoster1313",
-          "searchJob": "arizona",
-          "text": "true FR wk0 breakout 🚨 Carson Clark San Jose St - the highest rated player in the SJSU 2026 class, offered by many other schools in P4 including Texas, A&amp;M, Michigan, Mich St, Utah, Arizona 23 routes 6 targets 6 catches 74 yards includ"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094432752867090893",
-          "author": "odds_shopper",
-          "searchJob": "arizona",
-          "text": "First-inning lines trading away from their fair price YRFI Philadelphia Phillies vs Arizona Diamondbacks: +106 offered vs +105 fair (0.4% gap) How the Odds Screen calculates a fair price: https://t.co/kRB623Yc9P https://t.co/e4V86EwH87"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094418673406468263",
-          "author": "ericgdorsey",
-          "searchJob": "arizona",
-          "text": "@birdland_jay @charliecash1126 @PigTownSports They offered him a generous contract. It’s not his fault that Burnes was from Arizona and that Marylanders elect dumbasses who make this state a tax hell. He also signed a guy named Pete who has"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094442825014288817",
-          "author": "graygrundhoefer",
-          "searchJob": "baylor",
-          "text": "Baylor offers Decatur (GA) 2027 EDGE Nasir Braxton. #SicEm 🐻"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094431653536092199",
-          "author": "ehuntcpa",
-          "searchJob": "california",
-          "text": "California private retirement plans may offer asset protection, flexible investments, and contribution potential. Business owners can explore options to strengthen retirement plans. 🌐 https://t.co/rCP6u3Da9u #privateretirementplan #califor"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094431221787115538",
-          "author": "colesthiac",
-          "searchJob": "california",
-          "text": "wts 2 vip tickets ( soundcheck ) for bts at Inglewood, california (9/6) day 4 wouldn’t be going anymore so we wts these, please text if you need them going for fv but you can text with your offers ! 🏷️ world tour arirang wtb iso wtb Califo"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094427405364732249",
-          "author": "robertdolezal",
-          "searchJob": "california",
-          "text": "Sorry, @J_Gallagher4CA. California produces great wines, everyday wines, and junk wines across the pricing spectrum. They can compete with imports that offer grapes and traditions that produce wines different from ours, but consumers should"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094415198501077249",
-          "author": "int_mon_econ",
-          "searchJob": "california",
-          "text": "Highly recommended! 💻 WEBINAR: “Empires, Nation-States, and Democracies”, Gérard Roland (University of California, Berkeley). ⏲️ October 14, 18:00 – 19:00 CEST REGISTRATION HERE: https://t.co/9ZTojk6tCi Here is the link to the book: https:"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094420141412851991",
-          "author": "dukeoforanges",
-          "searchJob": "duke",
-          "text": "self improvement culture is ruining us to preface- I think there is a ton of merit to self improvement. before the internet, the way in which it was consumed was limited to books and in-person seminars. Now, there is: - Books - Substacks - "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094442587243282437",
-          "author": "profilefblive",
-          "searchJob": "utsa",
-          "text": "🚨 First D1 Offer 🚨 2028 TE Logan Woods from Lake Creek HS, TX has received his first offer from UTSA. @loganwoods111 https://t.co/LupoMQZFdx"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094435546047099081",
-          "author": "wyofile",
-          "searchJob": "wyoming",
-          "text": "Six students at a Lusk prison graduated with University of Wyoming bachelor’s degrees earlier this month. They were the first group to reach this milestone under a program that offers higher education to incarcerated people. https://t.co/vm"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094440844124405912",
-          "author": "mcreekfutures",
-          "searchJob": "class:2026",
-          "text": "USDA Nebraska Weekly Livestock Auction Summary for the week ending August 29, 2026 For The Week The Nebraska livestock market experienced sharp, broad-based downward pressure through the week ending August 29 as persistent CME board sell of"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094428878618181916",
-          "author": "thekingpkm",
-          "searchJob": "class:2026",
-          "text": "#Tinnhanh24h Thị trường Chứng Khoán Mỹ mở cửa ngày 31/8/2026. Diễn biến chỉ số chính (sau mở cửa) Thị trường Mỹ mở cửa ngày 31/8/2026 giảm nhẹ, chịu áp lực kép từ căng thẳng Trung Đông và thông điệp hawkish của Fed.( Dữ liệu cập nhật theo t"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
-      "ok": true,
-      "reason": null,
+      "ok": false,
+      "reason": "class:2027: rate limited",
       "jobs": 162,
-      "swept": 30,
+      "swept": 0,
       "failed": 1,
-      "requests": 31,
+      "requests": 1,
       "errors": [
         "class:2027: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 3,
-      "rejectedCandidates": 14,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 0,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-08-31T15:13:31.055Z"
+    "status rebuilt locally from current store on 2026-08-31T15:25:58.454Z"
   ]
 }
