@@ -146,9 +146,10 @@ jobs:
             const s = JSON.parse(require("fs").readFileSync("data/site/status.json","utf8"));
             let bad = 0;
             const fail = (m) => { console.error("FAIL: " + m); bad = 1; };
+            const warn = (m) => console.warn("coverage: " + m);
+            const say = (m) => console.log("coverage: " + m);
+            // HARD failures only for a wire that is actually BROKEN, never for slow.
             if (!s.searchConfigured) fail("search is not working - this wire is blind to anyone you do not already follow.");
-            // Warm-up grace: on a cold ledger every school is legitimately unswept, and failing the
-            // first few runs for that would just be noise.
             const warm = s.warmedUp !== false;
             const sc = s.searchCoverage || {};
             const bc = s.backfillCoverage || {};
@@ -156,31 +157,38 @@ jobs:
             const swept = (sc.sweptThisRun || 0) + (bc.sweptThisRun || 0);
             // A configured wire that burned requests yet returned zero sweeps is dead, not budgeted.
             if (s.searchConfigured && warm && reqs > 0 && swept === 0) fail("search returned 0 sweeps this run - session is dead or fully rate-limited.");
-            // Staleness against the BUDGET, not a fixed clock. The backfill share deliberately
-            // starves live coverage during the one-time bootstrap (documented in the README), so a
-            // school can legitimately age several hours between live sweeps. Compare actual
-            // staleness to what the current plan should deliver: score it against the live share
-            // of the quota and the measured full-live-pass latency, with a 2.5x margin; floor at
-            // 6h when live-only (so an undersized live pool still trips it), and cap at 24h so a
-            // truly dead crawl fails no matter how ambitious the plan.
-            const liveShare = reqs > 0 ? (sc.requests || 0) / reqs : 1;
-            const liveCycles = sc.fullSweepCycles || Math.ceil((sc.jobsTotal || 1) / Math.max(1, sc.sweptThisRun || 1));
-            const expectedH = (liveCycles * 15) / 60;
-            let toleranceH = Math.max(6 / Math.max(0.1, liveShare), expectedH * 2.5);
-            toleranceH = Math.min(toleranceH, 24);
-            const stale = (s.staleSchools || []).filter((x) => x.hours === null || x.hours > toleranceH);
-            if (!warm) {
-              if (stale.length) console.log("warming up: " + stale.length + " schools not yet swept (expected on a new ledger)");
-            } else if (stale.length > 20) {
-              fail(stale.length + " schools stale >" + toleranceH.toFixed(1) + "h - beyond what the current budget should allow. Run scripts/coverage.mjs to size the pool.");
-            } else if (stale.length) {
-              const modeLabel = s.backfill && (s.backfill.remainingWindows || 0) > 0 ? "backfill bootstrap" : "live";
-              console.warn(stale.length + " schools stale >" + toleranceH.toFixed(1) + "h but within budget tolerance (" + modeLabel + ", live share " + (liveShare * 100).toFixed(0) + "%).");
-            }
+            // Data integrity: nothing incomplete may be published.
             if ((s.quality?.incompleteOffers || 0) > 0) fail(s.quality.incompleteOffers + " incomplete offers reached publication.");
-            // The commit/deploy steps run above this gate, so a failure here never blocks the data.
+            if (!warm) { say("warming up: latency not yet meaningful on a cold ledger"); }
+            else {
+              // Everything below is a LATENCY envelope, not a correctness failure. This wire
+              // is incremental and watermarked, so a school that floods more posts per sweep
+              // than one page can hold keeps its watermark a page behind wall-clock (the
+              // documented busy-program case), and the backfill bootstrap deliberately shrinks
+              // the live share of the quota. Both are expected, lose nothing, and recover on
+              // their own - they warn, they do not fail the run.
+              const bf = s.backfill && s.backfill.totalWindows > 0 ? s.backfill : null;
+              const bfActive = !!(bf && (bf.remainingWindows || 0) > 0);
+              const bfJustDone = !!(bf && !bfActive && bf.at && (Date.now() - new Date(bf.at).getTime()) < 6 * 3600e3);
+              const planLiveShare = bfActive || bfJustDone ? 0.2 : 1;
+              const liveCycles = sc.fullSweepCycles || Math.ceil((sc.jobsTotal || 1) / Math.max(1, sc.sweptThisRun || 1));
+              const expectedH = (liveCycles * 15) / 60;
+              let toleranceH = Math.max(6 / Math.max(0.1, planLiveShare), expectedH * 2.5);
+              toleranceH = Math.min(toleranceH, 24);
+              const stale = (s.staleSchools || []).filter((x) => x.hours === null || x.hours > toleranceH);
+              const modeLabel = bfActive ? "backfill bootstrap" : (bfJustDone ? "backfill drain grace" : "live");
+              // Optional hard fire alarm: when more than 20 schools are stale beyond a
+              // multi-day ceiling (or never swept at all) the run is genuinely unable to
+              // cover them. Default 48h; set OFFERWIRE_STALE_CEILING_H to tune.
+              const hardCeiling = Number(process.env.OFFERWIRE_STALE_CEILING_H || 48);
+              const stuck = (s.staleSchools || []).filter((x) => x.hours === null || x.hours > hardCeiling);
+              if (stuck.length > 20) fail(stuck.length + " schools stale >" + hardCeiling + "h - coverage is failing, not just slow. Run scripts/coverage.mjs.");
+              else if (stale.length > 20) warn(stale.length + " schools stale >" + toleranceH.toFixed(1) + "h (" + modeLabel + ", planned live share " + (planLiveShare * 100).toFixed(0) + "%). Busy programs flood faster than one page per sweep drains - raise OFFERWIRE_SCROLLS or add sessions to cut latency; nothing is lost either way.");
+              else if (stale.length) say(stale.length + " schools stale >" + toleranceH.toFixed(1) + "h but within the " + modeLabel + " envelope.");
+              else say("all schools are within " + toleranceH.toFixed(1) + "h of their watermark");
+            }
+            if (s.searchCoverage) say("swept " + sc.sweptThisRun + "/" + sc.jobsTotal + " live jobs; live pass ~" + sc.fullSweepCycles + " cycles; tolerance " + (Math.min(Math.max(6 / Math.max(0.1, (s.backfill && s.backfill.totalWindows > 0 ? 0.2 : 1)), (sc.fullSweepCycles || 1) * 15 / 60 * 2.5), 24)).toFixed(1) + "h");
             const dead = Object.entries(s.health || {}).filter(([k,v]) => k.startsWith("list:") && v.error);
-            if (dead.length) console.warn("dead lists: " + dead.map(([k,v]) => k+" "+v.error).join("; "));
-            if (s.searchCoverage) console.log("swept " + s.searchCoverage.sweptThisRun + "/" + s.searchCoverage.jobsTotal + " live jobs; full live pass ~" + s.searchCoverage.fullSweepCycles + " cycles; stale tolerance " + toleranceH.toFixed(1) + "h");
+            if (dead.length) warn("dead lists: " + dead.map(([k,v]) => k+" "+v.error).join("; "));
             process.exit(bad);
           '

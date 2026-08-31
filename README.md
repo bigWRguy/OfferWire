@@ -93,6 +93,18 @@ Live latency is intentionally reduced during this short bootstrap period.
 `node scripts/coverage.mjs N` prints this for your actual config. Running out of budget
 mid-sweep is normal and is reported as such — it is not treated as a failure.
 
+**What the Actions coverage gate means.** The workflow's `verify coverage` step fails the
+run only when the wire is genuinely **broken** — search not configured, a warm run that
+burned requests but swept nothing (dead / fully rate-limited session), or incomplete
+offers published (a data-integrity bug). *Latency* is not a failure: staleness beyond the
+current budget's expected envelope (backfill bootstrap, or busy programs whose watermark
+legitimately trails a page behind wall-clock because they flood faster than one page per
+sweep) prints an amber `coverage:` warning instead of red, because it loses nothing and
+recovers on its own. If you want a hard ceiling anyway, set `OFFERWIRE_STALE_CEILING_H`
+(a repo variable; default 48h): more than 20 schools beyond it fails the run. To actually
+reduce latency, raise `OFFERWIRE_SCROLLS` (read more pages per sweep — the busy-program
+case) or add sessions (`node scripts/coverage.mjs N`).
+
 ### Historical backfill
 
 `OFFERWIRE_BACKFILL_DAYS=30` adds one fixed 30-day window per school: **136 initial
