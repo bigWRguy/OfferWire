@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-31T09:28:41.609Z",
+  "generatedAt": "2026-08-31T09:43:40.252Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-08-31T09:28:41.440Z",
+    "at": "2026-08-31T09:43:40.054Z",
     "jobsTotal": 162,
     "sweptThisRun": 36,
     "requests": 36,
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5385316666666666,
-    "p95Hours": 1.0430730555555556,
-    "worstHours": 1.0430730555555556
+    "medianHours": 0.29081305555555553,
+    "p95Hours": 1.0391708333333334,
+    "worstHours": 1.0391708333333334
   },
   "decisionCoverage": {
-    "total": 10,
-    "decided": 10,
+    "total": 32,
+    "decided": 32,
     "complete": true
   },
   "pending": {
@@ -52,110 +52,258 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-08-31T09:28:41.440Z",
-      "got": 16,
-      "new": 10,
-      "lag": 0.19
+      "at": "2026-08-31T09:43:40.054Z",
+      "got": 44,
+      "new": 32,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-08-31T09:26:13.313Z",
+    "at": "2026-08-31T09:41:21.853Z",
     "mode": "live",
     "collection": {
-      "returned": 16,
-      "kept": 10,
-      "duplicate": 6,
+      "returned": 44,
+      "kept": 32,
+      "duplicate": 12,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 8,
-      "rejected": 2,
+      "accepted": 25,
+      "rejected": 7,
       "reasons": {
-        "no_offer_term": 2
+        "no_offer_term": 4,
+        "no_fbs_school": 3
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2094338752143360372",
-          "author": "keefacom",
-          "searchJob": "arkansas-state",
-          "text": "Government UPE capitation grants for public primary schools stand at about UGX 18,000–20,000 per pupil per year plus a modest per-school allocation, far below the National Planning Authority’s earlier estimate of roughly UGX 59,000 needed f"
+          "postId": "2094358185226514449",
+          "author": "ddball67",
+          "searchJob": "florida",
+          "text": "https://t.co/Otruo1BUMu"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094356675750769111",
+          "author": "grizzlewdg2",
+          "searchJob": "kentucky",
+          "text": "I Went To Eastern Kentucky (America's Poorest Region) https://t.co/zVQOgEbVUh via @YouTube the bible is hard to understand. I asked many in places who their favorite pastors were... they attend, or don't local churches... but they like thos"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094358601020174605",
+          "author": "michigan409",
+          "searchJob": "michigan",
+          "text": "@FoxyhitsW Let him raise his offer 😂"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2093010928211988706",
-          "author": "armedmaidan",
-          "searchJob": "buffalo",
-          "text": "Wild Hornets Raffle for HUR/Timur Spec Ops We're partnering with @Rebel44CZ to fund Queen Hornets and a Hornet Vision station for the elite Art Division •Donate $10/entry: https://t.co/s7X7M9S4cO •$500=named STING+guaranteed strike video •M"
+          "postId": "2094345377616937119",
+          "author": "saghbiny",
+          "searchJob": "army",
+          "text": "https://t.co/5VdNaLEMAV"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2093984269979013605",
+          "author": "gurusidea",
+          "searchJob": "army",
+          "text": "Prashanth Kishore bamboozled the oligarch Smita Lovely to listen again He was in full form https://t.co/lxdxmVI8lm"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094344846827745619",
+          "author": "defmatterseu",
+          "searchJob": "army",
+          "text": "https://t.co/e1LXTMvjCS"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094357951364624715",
+          "author": "deccanchronicle",
+          "searchJob": "temple",
+          "text": "Kurnool: Devotees usually offer clothes, money, #gold, #silver, milk and other items to #deities. But at a #LordVenkateswaraSwamytemple in Kodumuru of Kurnool district, devotees follow a unique tradition of offering scorpions to the deity. "
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 8,
+      "rejected": 25,
       "reasons": {
         "bare_mention_requires_llm": 4,
-        "school_not_resolved_confidently": 3,
-        "multiple_resolved_schools": 1
+        "multiple_resolved_schools": 3,
+        "school_not_resolved_confidently": 18
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094345966505623790",
-          "author": "daijoboo",
-          "searchJob": "arkansas-state",
-          "text": "@dylanotes Congress should be slightly more circumspect about passing sweeping legislation that offers outsized protection to a state whose Minister of National Security is posting concentration camp propaganda as a campaign ad."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094353761455997304",
-          "author": "moriarty554468",
-          "searchJob": "buffalo",
-          "text": "Thanks to you as well. Sacrifice in the OT is a form of worship and also a bandaid on sin. The first mErder in the Bible was over worship and sacrifice. Today under the Cross the sacrifice has been made, once for all delivered to the saints"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094348650621419616",
-          "author": "betabeth007",
-          "searchJob": "buffalo",
-          "text": "@theliamnissan @RepThomasMassie Start w/who we KNOW should be investigated - #EvaDubin and her husband, who in an email, offered #Epstein access to their own daughter and her gf's at a sleepover and who gave her to be his God daughter. Dems"
+          "postId": "2094349587397972134",
+          "author": "teamrenick",
+          "searchJob": "florida",
+          "text": "💰 One thing worth knowing before you write an offer in Florida: the number that actually breaks your budget isn't the price on the listing. I built a tool that shows you the real number — free, no email, no call. Team Renick: Florida's Wes"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094342940797636862",
-          "author": "anno1540",
-          "searchJob": "buffalo",
-          "text": "We're very honoured to offer this spectacular century-old hand-made Nepalese Kukri knife as a Wild Hornets raffle prize Heartfelt thanks to Ukrainian-Canadian author Victor Malarek for donating it The Kukri is Nepal's national weapon—associ"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094351197452828964",
-          "author": "aliyumujah70791",
-          "searchJob": "coastal-carolina",
-          "text": "🌍 Africa's Natural Wealth. The 45th country is 🇬🇳 Guinea-Bissau Its natural resources are: 🥜 Cashew Nuts 🌊 Fisheries 🌳 Timber 🌱 Agricultural Land 🪨 Bauxite Potential 🪨 Phosphate 🧂 Salt 🌞 Solar Energy Potential Economic Insight: G"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094347950130614610",
-          "author": "bsgovernate",
-          "searchJob": "coastal-carolina",
-          "text": "قام سعادة المهندس مسعود بن سعيد الهاشمي، محافظ جنوب الباطنة، بزيارة ميدانية إلى مشروع الواجهة البحرية بولاية المصنعة ، بحضور المهندس نائب والي المصنعة والمدير العام المساعد لبلدية جنوب الباطنة والمدير المساعد لدائرة البلدية بالمصنعة. واطّلع"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094342382116638962",
-          "author": "gbbventure",
-          "searchJob": "kent-state",
-          "text": "𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐟𝐢𝐫𝐞 𝐬𝐚𝐟𝐞𝐭𝐲. 𝐏𝐫𝐨𝐯𝐞𝐧 𝐞𝐱𝐩𝐞𝐫𝐭𝐢𝐬𝐞. 𝐆𝐫𝐞𝐚𝐭𝐞𝐫 𝐟𝐫𝐞𝐞𝐝𝐨𝐦 𝐢𝐧 𝐝𝐞𝐬𝐢𝐠𝐧.🏢 We are thrilled to welcome 𝐊𝐞𝐧𝐭 𝐒𝐦𝐨𝐤𝐞 𝐚𝐧𝐝 𝐅𝐢𝐫𝐞 𝐂𝐮𝐫𝐭𝐚𝐢𝐧𝐬 as a 𝐒𝐢𝐥𝐯𝐞𝐫 𝐏𝐚𝐫𝐭𝐧𝐞𝐫 at "
+          "postId": "2094355768384606222",
+          "author": "earthdesires",
+          "searchJob": "georgia",
+          "text": "Whiskey Jug Genie by Sultonna Nadine is a lighthearted and charming paranormal fantasy that mixes magic, humor, and a touch of romance for pure escapist fun. When quiet London apothecary shop owner Martin buys an old whiskey jug on vacation"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2094347775894790548",
-          "author": "pileckiinstitut",
-          "searchJob": "liberty",
-          "text": "What lessons and inspiration can the Polish Solidarity movement offer today, at a time of growing polarisation? It vindicates Arendt’s insight that freedom arises when people come together and act in concert. Its ethos points to the value o"
+          "postId": "2094353172135342152",
+          "author": "mrjeanphilippe",
+          "searchJob": "georgia",
+          "text": "SSU should have remained in the MEAC Every year that SSU has been in the SIAC student enrollment has dropped One reason being lack of exposure and lack of funding from the state of Georgia The MEAC has a more lucrative television rights dea"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094359017212580041",
+          "author": "busuyidotun",
+          "searchJob": "illinois",
+          "text": "WHITE HEROIN: THE POISON BEHIND THE FORFEITURE Letters from Stockholm — by Kio Amachree There is a reason the United States government does not treat heroin trafficking as a paperwork offence. Heroin is not contraband. It is a death sentenc"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094344639079735540",
+          "author": "n3ck__",
+          "searchJob": "indiana",
+          "text": "@TexasBigSky @C_3C_3 Ok little man. Looks like I hit the right nerve. Easy to do with beta cuck losers like yourself. I know a lot about Canada retard. Been there a lot, grew up Indiana and Michigan. Turned down a job offer because the comp"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094359704033960400",
+          "author": "ukrinform_news",
+          "searchJob": "army",
+          "text": "Fedorov offers U.S. help building a “drone army” in exchange for Patriot Interceptors https://t.co/fHsRQ3eemz https://t.co/AFUNJCuWPG"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094356964956688881",
+          "author": "iqbalbasheer81",
+          "searchJob": "army",
+          "text": "@PachShirsh77166 @tequieremos You Bangladeshi Kanglu’s offer nothing to this pact instead you’ll use this opportunity to beg for an apology from Pak over 71 The Pak Punjabi Army treated you Bengalis the way you deserved to be"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094355265948930280",
+          "author": "earthdesires",
+          "searchJob": "army",
+          "text": "To the man caught between two worlds, who must choose between duty and heritage before darkness consumes them all — this is for you. Righteous Allegiance by George Yuhasz A divided nation. A deadly plot. A man caught between two worlds. Wil"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094354788599083465",
+          "author": "alanlow94031599",
+          "searchJob": "army",
+          "text": "Richard O’Rawe, the prisoners’ PRO inside the jail daid in Blanketmen (2005) that around 5 July 1981 — after four deaths, with McDonnell near death — a secret British offer via the intermediary known as the “Mountain Climber” (Brendan Duddy"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094352337397817726",
+          "author": "fgenteroyjr",
+          "searchJob": "army",
+          "text": "MESSAGE FROM ST. MICHAEL THE ARCHANGEL, AUGUST 30, 2026 GO AND EVANGELIZE \"Dear brothers in Christ, King of the Universe and Our Lord, today I want to speak to you about evangelization in the modern world in which you live. As in the time o"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094351525221154959",
+          "author": "inogetjoyatall",
+          "searchJob": "army",
+          "text": "Hey! wts / lfb bts in LA sofi stadium vip soundcheck tickets -open to offers -will provide as many proofs as needed -apple cash or cashapp -comes with free set of freebies - yes!willing to facetime during the transaction arirang world tour "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094349446947786828",
+          "author": "kannaroy",
+          "searchJob": "army",
+          "text": "Hmmm. Not necessarily. It's from Akbar. Babur founded the Mughal Empire in 1526 after winning the First Battle of Panipat. He died four years later in 1530. Humayun lost the throne to the Afghan ruler Sher Shah Suri(Afghani) in 1540, who ha"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094348673593311342",
+          "author": "mariaangelagrow",
+          "searchJob": "army",
+          "text": "August 31 Saint Raymond Nonnatus, Confessor: From the Liturgical Year of Dom Prosper Louis Pascal Guéranger, O.S.B., 1903. . White Double . August closes as it began, with a feast of deliverance; as though that were the divine seal set by E"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094346376314310934",
+          "author": "stillintooongi",
+          "searchJob": "army",
+          "text": "WTS X2 (two) bts los angeles arirang tickets! sunday 9/6 day 4 - floor C5, row 1 - ticket includes: vip soundcheck - would like to make back what I paid for but open to reasonable offers - can send any proof ! please dm if interested for mo"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094345228769763406",
+          "author": "surajitdasgupta",
+          "searchJob": "army",
+          "text": "I had blown this misleading bite from Prashant Kishor to smithereens at the time of Operation Sindoor. Here it is again, and it will continue till the time the propaganda continues: A. Fact checks 1. OS did not end in a day. Due to Pakistan"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094341420278595947",
+          "author": "turdefcom",
+          "searchJob": "navy",
+          "text": "🇫🇷🇸🇪 France has offered Sweden @MBDAGroup MdCN/NCM land attack cruise missile for use onboard the @navalgroup FDI frigates to be built for the Swedish Navy. https://t.co/u8wiO4zuDu"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094356570926989803",
+          "author": "vipertoxin",
+          "searchJob": "new-mexico",
+          "text": "New Mexico DOJ offers restitution for victims of Fastbucks loan company - YouTube https://t.co/dZFUXsNZIH"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094357119738794371",
+          "author": "nward81978",
+          "searchJob": "rice",
+          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and nori, it reflects Japanese tradition. Regional variations add unique flavors. Such cuisine unites people across shared meals. 👍 🧳 🍁"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094357098897244596",
+          "author": "robingraha27262",
+          "searchJob": "rice",
+          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and saffron, it reflects Indian heritage. It’s central to cultural celebrations. Such cuisine unites people across shared meals. 🍄 🎈 https://t.co/ebIGkFyinP"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094341924182196230",
+          "author": "birc2026",
+          "searchJob": "rice",
+          "text": "Packaging should answer the buyer before the pack is opened. Where does it fit? What value does it offer? Why should the market trust it? Channel fit. Clear information. Brand credibility. 23, 24 &amp; 25 October 2026 | https://t.co/vJZyALj"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094359662447501621",
+          "author": "mrsb_is_ready",
+          "searchJob": "temple",
+          "text": "I’m so sick of zionists claiming our Savior was Jewish. Our Savior was GOD in the flesh. That so far surpasses any other human label that we could possibly put on anyone and the ONLY thing that matters. The Jews WERE the chosen people to br"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094357800826581148",
+          "author": "mrsb_is_ready",
+          "searchJob": "temple",
+          "text": "I’m so sick of zionists claiming our Savior was Jewish. Our Savior was GOD in the flesh. That so far surpasses any other human label that we could possibly put on anyone and the ONLY thing that matters. The Jews WERE the chosen people to br"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094346234425495646",
+          "author": "newseisamay",
+          "searchJob": "temple",
+          "text": "Spiritual visit in Kolkata: Renowned lyricist and National Award winner Manoj Muntashir offers prayers at the historic Kalighat Kali Temple #ManojMuntashir #KalighatTemple #Kolkata #NewsEiSamay https://t.co/GF2vAXhoH0"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094344365171003866",
+          "author": "newsarenaindia",
+          "searchJob": "temple",
+          "text": "Andhra Pradesh Minister Kolusu Parthasarathy offers prayers at Srisailam Temple. https://t.co/81j90TduK9"
         }
       ]
     },
@@ -170,11 +318,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 8,
+      "rejectedCandidates": 25,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-08-31T09:28:41.611Z"
+    "status rebuilt locally from current store on 2026-08-31T09:43:40.253Z"
   ]
 }
