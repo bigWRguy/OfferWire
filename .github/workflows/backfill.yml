@@ -4,6 +4,11 @@ name: offer wire backfill
 # quota share; an independent cron on the same X session competes for that quota.
 on:
   workflow_dispatch:
+    inputs:
+      schools:
+        description: 'Optional comma-separated school IDs (for example: kansas-state) to recover immediately'
+        required: false
+        default: ''
 
 concurrency:
   group: offer-wire
@@ -34,6 +39,7 @@ jobs:
           X_CT0: ${{ secrets.X_CT0 }}
           OFFERWIRE_MODE: backfill
           OFFERWIRE_BACKFILL_DAYS: 30
+          OFFERWIRE_BACKFILL_SCHOOLS: ${{ inputs.schools }}
           OFFERWIRE_BACKFILL_CHUNK_DAYS: ${{ vars.OFFERWIRE_BACKFILL_CHUNK_DAYS || '30' }}
           # One-time re-anchor: leave empty to keep the stored anchor.
           OFFERWIRE_BACKFILL_ANCHOR: ${{ vars.OFFERWIRE_BACKFILL_ANCHOR || '' }}

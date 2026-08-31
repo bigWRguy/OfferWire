@@ -124,7 +124,9 @@ async function collect(state, log, audit) {
     state.searchConfigured = false;
   } else {
     const days = BACKFILL_DAYS;
-    const historicalPlan = days ? backfillJobs(days, backfillAnchorDate(state)) : [];
+    const backfillSchools = new Set(String(process.env.OFFERWIRE_BACKFILL_SCHOOLS || '').split(',').map((id) => id.trim()).filter(Boolean));
+    const historicalPlan = (days ? backfillJobs(days, backfillAnchorDate(state)) : [])
+      .filter((job) => !backfillSchools.size || backfillSchools.has(job.schoolId));
     const historical = historicalPlan.filter((job) => !state.watermarks?.[job.key]?.completed);
     // A manual backfill spends its entire X-search budget on the historical backlog; live runs retain their normal coverage and can optionally interleave history.
     const jobs = mode === 'backfill' ? historical : [...allJobs(), ...historical];
