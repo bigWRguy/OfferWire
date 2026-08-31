@@ -79,7 +79,7 @@ watch.promote(wl, { observedAt: replayAt });
 const playerStats = decorateOffers(db.offers);
 for (const p of db.players) {
   const st = playerStats.get(p.id);
-  if (st) p.offerCounts = { total: st.total, p4: st.p4, g5: st.g5, firstOfferAt: st.firstOfferAt, firstP4At: st.firstP4At, firstG5At: st.firstG5At };
+  if (st) p.offerCounts = { total: st.total, p4: st.p4, g5: st.g5 };
 }
 
 const before = {

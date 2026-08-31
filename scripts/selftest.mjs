@@ -461,8 +461,7 @@ t('Big Ten is P4', tierOf({ id: 'michigan', conference: 'B1G' }) === 'P4');
 t('Notre Dame (IND) is P4', tierOf({ id: 'notre-dame', conference: 'IND' }) === 'P4');
 t('Mountain West is G5', tierOf({ id: 'boise-state', conference: 'MW' }) === 'G5');
 t('UConn (IND) is G5', tierOf({ id: 'uconn', conference: 'IND' }) === 'G5');
-// A real recruit: G5 first, P4 later. The earliest of each tier gets the milestone
-// flag; the P4 one is the headline "first P4 offer".
+// Archive ordering is not evidence of a player's actual first offer.
 {
   const offers = [
     { playerId: 'p1', schoolId: 'boise-state', offeredAt: '2026-07-01T00:00:00Z' },
@@ -471,12 +470,10 @@ t('UConn (IND) is G5', tierOf({ id: 'uconn', conference: 'IND' }) === 'G5');
   ];
   const st = decorateOffers(offers);
   t('tiers assigned to rows', offers.every((o) => o.tier === 'G5' || o.tier === 'P4') && offers[2].tier === 'P4');
-  t('first offer flagged', offers[0].firstForPlayer === true && offers[1].firstForPlayer === undefined);
-  t('first P4 flagged on the Alabama row', offers[2].firstP4ForPlayer === true && offers[0].firstP4ForPlayer === undefined);
-  t('first G5 flagged on the earliest G5', offers[0].firstG5ForPlayer === true);
+  t('first-offer claims are never inferred from archive order', offers.every((o) => !('firstForPlayer' in o) && !('firstP4ForPlayer' in o) && !('firstG5ForPlayer' in o)));
   const s = st.get('p1');
   t('player stats total/p4/g5', s.total === 3 && s.p4 === 1 && s.g5 === 2, JSON.stringify(s));
-  t('milestone timestamps', s.firstOfferAt === '2026-07-01T00:00:00Z' && s.firstP4At === '2026-08-01T00:00:00Z' && s.firstG5At === '2026-07-01T00:00:00Z', JSON.stringify(s));
+  t('player totals contain only evidence-backed counts', !('firstOfferAt' in s) && s.total === 3, JSON.stringify(s));
 }
 // Idempotent: decorating the same ledger twice must not double-count flags (a rebuild
 // runs decorate on freshly-built rows, but guard against re-decoration anyway).
@@ -484,7 +481,7 @@ t('UConn (IND) is G5', tierOf({ id: 'uconn', conference: 'IND' }) === 'G5');
   const offers = [{ playerId: 'p2', schoolId: 'alabama', offeredAt: '2026-08-01T00:00:00Z' }];
   decorateOffers(offers);
   const st = decorateOffers(offers);
-  t('decorate is idempotent', offers[0].firstP4ForPlayer === true && st.get('p2').p4 === 1 && offers[0].tier === 'P4');
+  t('decorate is idempotent', !('firstP4ForPlayer' in offers[0]) && st.get('p2').p4 === 1 && offers[0].tier === 'P4');
 }
 
 console.log('phrase job coverage');

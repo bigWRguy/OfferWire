@@ -100,8 +100,6 @@ body{background:var(--bg);color:var(--t1);font-family:var(--f-sans);min-height:1
   <select id="pos"><option value="">All positions</option></select>
   <select id="conf"><option value="">All conferences</option></select>
   <label><input type="checkbox" id="corr"> 2+ sources</label>
-  <label><input type="checkbox" id="p4"> 1st P4</label>
-  <label><input type="checkbox" id="first"> 1st offer</label>
   <div class="btns" id="tbtns">
     <button class="btn on" data-h="all">All</button>
     <button class="btn" data-h="24">24h</button>
@@ -149,7 +147,7 @@ function htwt(p){if(!p)return'';const parts=[];if(p.height)parts.push(p.height);
 
 function render(){
   const q=$('q').value.toLowerCase().trim(),cls=$('cls').value,pos=$('pos').value;
-  const conf=$('conf').value,corr=$('corr').checked,school=$('school').value,p4only=$('p4').checked,firstonly=$('first').checked;
+  const conf=$('conf').value,corr=$('corr').checked,school=$('school').value;
   let rows=DATA;
   if(hourFilter!=='all'){
     const cutoff=Date.now()-parseInt(hourFilter)*3600000;
@@ -161,8 +159,6 @@ function render(){
   if(conf)rows=rows.filter(o=>o.conference===conf);
   if(school)rows=rows.filter(o=>o.schoolId===school);
   if(corr)rows=rows.filter(o=>(o.corroborations||1)>=2);
-  if(p4only)rows=rows.filter(o=>o.firstP4ForPlayer);
-  if(firstonly)rows=rows.filter(o=>o.firstForPlayer);
   rows.sort((a,b)=>new Date(b.offeredAt)-new Date(a.offeredAt));
 
   const html=rows.slice(0,1000).map(o=>{
@@ -172,12 +168,7 @@ function render(){
     const tint=confColors[o.conference]||null;
     const oid=esc(o.id);
     const tier=o.tier||null;
-    // Milestone badges: a recruit's FIRST P4 offer is the headline event of their
-    // recruiting; first G5 and first-ever offers matter too.
-    let firsts='';
-    if(o.firstForPlayer)firsts+='<span class="r-first fo">1st offer</span>';
-    if(o.firstP4ForPlayer)firsts+='<span class="r-first fp4">1st P4</span>';
-    if(o.firstG5ForPlayer)firsts+='<span class="r-first fg5">1st G5</span>';
+    var firsts='';
     if(firsts)firsts='<span class="sep">&middot;</span>'+firsts;
 
     let metaParts=[];
@@ -191,8 +182,8 @@ function render(){
 
     let bioLines='';
     const oc=p.offerCounts||null;
-    if(oc)bioLines+='<div class="bio-line">Offers: <b>'+oc.total+'</b> total &middot; <b>'+oc.p4+'</b> P4 &middot; <b>'+oc.g5+'</b> G5'+(oc.firstP4At?' &middot; 1st P4 '+ago(oc.firstP4At):'')+(oc.firstG5At?' &middot; 1st G5 '+ago(oc.firstG5At):'')+'</div>';
-    if(p.offers&&p.offers.length)bioLines+='<div class="bio-line r-offers">'+p.offers.map(x=>'<span class="oc">'+esc(x.schoolName)+(x.tier?' <span class="r-tier '+(x.tier==='P4'?'p4':'g5')+'">'+x.tier+'</span>':'')+(x.firstP4ForPlayer?' <span class="r-first fp4">1st P4</span>':'')+(x.firstG5ForPlayer?' <span class="r-first fg5">1st G5</span>':'')+(x.firstForPlayer?' <span class="r-first fo">1st offer</span>':'')+'</span>').join('')+'</div>';
+    if(oc)bioLines+='<div class="bio-line">Offers in this wire: <b>'+oc.total+'</b> total &middot; <b>'+oc.p4+'</b> P4 &middot; <b>'+oc.g5+'</b> G5</div>';
+    if(p.offers&&p.offers.length)bioLines+='<div class="bio-line r-offers">'+p.offers.map(x=>'<span class="oc">'+esc(x.schoolName)+(x.tier?' <span class="r-tier '+(x.tier==='P4'?'p4':'g5')+'">'+x.tier+'</span>':'')+'</span>').join('')+'</div>';
     if(p.bio)bioLines+='<div class="bio-line">Bio: '+esc(p.bio)+'</div>';
     if(p.gpa)bioLines+='<div class="bio-line">GPA: '+p.gpa+'</div>';
 

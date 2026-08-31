@@ -37,9 +37,6 @@ try {
           schoolName: o.schoolName,
           tier: o.tier ?? null,
           offeredAt: o.offeredAt,
-          firstForPlayer: !!o.firstForPlayer,
-          firstP4ForPlayer: !!o.firstP4ForPlayer,
-          firstG5ForPlayer: !!o.firstG5ForPlayer,
         });
       }
       for (const list of offersByPlayer.values()) list.sort((a, b) => new Date(b.offeredAt) - new Date(a.offeredAt));

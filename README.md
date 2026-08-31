@@ -321,8 +321,8 @@ history of what the wire saw and threw away since day one.
 
 | File | Contents |
 |---|---|
-| `data/offers.json` | The ledger. One row per (player, school) with every post reporting it. Each row carries a `tier` (`P4`/`G5`) and milestone flags: `firstForPlayer`, `firstP4ForPlayer`, `firstG5ForPlayer`. |
-| `data/players.json` | Resolved identities, bios, mined measurables, and `offerCounts` — total / P4 / G5 offer tallies plus first-milestone timestamps, computed over the FULL ledger. |
+| `data/offers.json` | The ledger. One row per (player, school) with every post reporting it. Each row carries a `tier` (`P4`/`G5`). |
+| `data/players.json` | Resolved identities, bios, mined measurables, and evidence-backed `offerCounts` (total / P4 / G5). |
 | `data/state.json` | Per-school watermarks, completed backfill slices, rate budget. |
 | `data/watchlist.json` | Recruit handles discovered by the wire, scored and promoted. |
 | `data/review.ndjson` | Ambiguous merges for human review. |
@@ -335,11 +335,7 @@ days later must not reset the clock.
 **P4 vs G5.** Schools tier automatically by conference: ACC / Big Ten / Big 12 / SEC plus
 Notre Dame are **Power 4**; AAC / C-USA / MAC / Mountain West / Sun Belt and the other
 independents are **Group of 5**. Every offer row is tagged `tier`, and per-player
-`offerCounts` (total · P4 · G5) plus first-milestone timestamps are computed over the
-full ledger. The site highlights a recruit's **first P4 offer** (gold badge), **first
-G5 offer**, and **first offer ever**, shows each player's running total in the detail
-panel with their full offer history, and has a **"1st P4"** filter to watch blue-chip
-breakouts in real time.
+`offerCounts` (total / P4 / G5) are evidence-backed ledger totals. The site shows observed offer history and does not claim any offer was a player's first.
 
 ---
 
