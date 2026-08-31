@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T20:09:27.037Z",
+  "generatedAt": "2026-08-31T20:29:53.609Z",
   "counts": {
     "offers": 466,
     "players": 365,
@@ -232,9 +232,9 @@
       "conference": "SEC",
       "offeredAt": "2026-08-31T17:24:23.000Z",
       "firstSeenAt": "2026-08-31T17:43:27.006Z",
-      "lastSeenAt": "2026-08-31T17:43:27.006Z",
-      "confidence": 0.45,
-      "corroborations": 1,
+      "lastSeenAt": "2026-08-31T20:29:53.595Z",
+      "confidence": 0.53,
+      "corroborations": 2,
       "evidence": [
         {
           "postId": "2094476404725301729",
@@ -249,9 +249,23 @@
             "schoolEvidenceType": "official_school_tag",
             "affiliationSource": "fbs_handle"
           }
+        },
+        {
+          "postId": "2094504243168494005",
+          "author": "profilefblive",
+          "url": "https://x.com/profilefblive/status/2094504243168494005",
+          "postedAt": "2026-08-31T19:15:00.000Z",
+          "via": "search:(@Vol_Football OR \"Tennessee\" OR \"Vols\")",
+          "confidence": 0.45,
+          "text": "2028 IOL Collin Burris from Marysville HS, OH has been offered by Tennessee. @c_burris2028\n\nRated 3.8⭐ (#478 NATL, #29 IOL, #16 OH).\nhttps://t.co/qFUfikGiIF",
+          "attribution": {
+            "targetText": "Tennessee",
+            "schoolEvidenceType": "full_school_name",
+            "affiliationSource": "name"
+          }
         }
       ],
-      "status": "new",
+      "status": "corroborated",
       "tier": "P4",
       "playerHandle": "c_burris2028",
       "classYear": 2028,
