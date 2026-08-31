@@ -82,15 +82,19 @@ export function phraseJobs() {
   const P = (q, priority = 5) => ({ key: 'phrase:' + q.slice(0, 40), query: `${q} -filter:retweets`, priority, kind: 'phrase' });
   return [
     // Player voice. Highest-yield strings in the system: this is how a kid with 40
-    // followers announces the offer no service has logged.
-    P('"blessed to receive an offer"'),
-    P('"blessed to receive my"'),
-    P('"extremely blessed to receive"'),
+    // followers announces the offer no service has logged. "blessed to receive" is the
+    // GENERAL any-team net — X phrase search matches the contiguous substring, so one
+    // query covers "blessed to receive an/a/my/another/this offer" AND "extremely
+    // blessed to receive", AND it catches a post that names no school surface we have
+    // on file. It deliberately has no school clause, which is the point: a recruit who
+    // writes "@CoachX Im blessed to receive a offer from @SMUFB" is found no matter
+    // which program school-resolution later maps the tag to.
+    P('"blessed to receive"'),
+    P('"blessed to have received"'),
     P('"honored to receive an offer"'),
     P('"humbled to receive an offer"'),
     P('"grateful to receive an offer"'),
     P('"thankful to receive an offer"'),
-    P('"blessed to have received an offer"'),
     P('"after a great conversation" offer'),
     P('"all glory to god" offer'),
     P('"AGTG" offer'),

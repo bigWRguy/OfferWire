@@ -239,7 +239,16 @@ export function looksLikeRecruit(bio, displayName = '') {
   const t = ` ${bio || ''} ${displayName || ''} `.replace(/\s+/g, ' ');
   if (!t.trim()) return { ok: false, why: 'no bio' };
 
-  const hasFootball = /football|🏈/i.test(t);
+  const hasFootball = /football|🏈/i.test(t)
+    // A football POSITION/role code is football context even when the word "football"
+    // is absent — "ATH | Guard | Cl-2030" is a recruit bio, not hoops. This stopped a
+    // real offer from being dropped: Maverick Owens ("5'11|175lbs|Cl-2030|ATH|Guard|…")
+    // announced an @SMUFB offer and was rejected as "different sport" because bare
+    // "guard" tripped the basketball check below and no "football" word was in the bio.
+    // "Guard" is ambiguous (it is also an OL position), but presence of any unambiguous
+    // football code (ATH, WR, OL, DL, …) settles the sport. The single-letter codes that
+    // collide with prose (C, S) are deliberately excluded; C/O and 's are everywhere.
+    || /\b(?:QB|RB|FB|WR|TE|OT|OG|OL|IOL|DL|DE|DT|EDGE|LB|ILB|OLB|CB|DB|SS|FS|SAF|ATH|LS)\b/i.test(t);
 
   // Wrong sport is disqualifying outright — nothing else in the bio can rescue it.
   // ("track" is deliberately absent: nearly every football recruit also runs track.)

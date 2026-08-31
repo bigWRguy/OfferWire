@@ -9,7 +9,7 @@ import { findSchools } from '../src/resolve/schools.js';
 import { classify, findClassYear, findPosition, findNameCandidates, findTaggedRecruit, findReportedName, handleClassYear, maskAwardYears } from '../src/extract/rules.js';
 import { nameKey, fuzzyKey, canMerge, parseBio, looksLikeRecruit, cleanPersonName } from '../src/resolve/players.js';
 import { prefilter, rulesOnlyOffers } from '../src/pipeline.js';
-import { backfillJobs, schoolJobs, backfillAnchorDate } from '../src/collect/queries.js';
+import { backfillJobs, schoolJobs, backfillAnchorDate, phraseJobs } from '../src/collect/queries.js';
 import { prioritizeJobs, SearchSession } from '../src/collect/search.js';
 import { dispatchWire } from '../netlify/functions/trigger-wire.mjs';
 
@@ -178,6 +178,21 @@ t('plain basketball guard bio rejected', !R('Class of 2027 | 6-3 guard | 3.1 GPA
 // football is a different game; a tackle recruit always names a position or a 40.
 t('flag football without tackle evidence is rejected', !R("Park Hill || 3SSB Della KC || 5'9\" ComboG || CO '28 || 4.0 GPA || Basketball || Flag Football"));
 t('flag football WITH tackle evidence (position) is a recruit', R("6-2 180 WR | Flag Football | C/O 2028"));
+// Bare "Guard" is ambiguous — an OL position as much as a basketball one. A football
+// offer post from @MaverickOwens ("5'11|175lbs|Cl-2030|ATH|Guard|To whom much is
+// given") was DROPPED as "different sport" because "guard" tripped the basketball
+// check and no "football" word was in the bio. Presence of any unambiguous football
+// position code (ATH) settles the sport.
+t('guard alongside a football position code is not basketball',
+  R("5'11|175lbs|Cl-2030|ATH|Guard|To whom much is given, much is required!"),
+  JSON.stringify(looksLikeRecruit("5'11|175lbs|Cl-2030|ATH|Guard|To whom much is given, much is required!")));
+t('requested bio parses class 2030 and ATH',
+  B("5'11|175lbs|Cl-2030|ATH|Guard").classYear === 2030 && B("5'11|175lbs|Cl-2030|ATH|Guard").position === 'ATH',
+  JSON.stringify(B("5'11|175lbs|Cl-2030|ATH|Guard")));
+t('plain basketball guard bio is still rejected (no football code)',
+  !R('Class of 2027 | 6-3 guard | 3.1 GPA'));
+t('girls basketball jargon without the word basketball is still rejected',
+  !R("2028 • 5'11 • 3-Guard • 3.8 GPA • Victory Christian Academy • Duval Elite AAU"));
 t('JUCO player rejected from high-school wire', !R('2027 CB | Iowa Western CC | JUCO All-American | 6-2 190'));
 t('current college athlete without literal JUCO is rejected',
   !R("Navarro College 6'4|285|OL/DL Class of 25' GPA: 3.5"));
@@ -295,6 +310,26 @@ console.log('rules-only player gate');
     recs.length === 1 && recs[0].class_year === 2028,
     JSON.stringify(recs));
 }
+// Live case: @MaverickOwens self-announced an SMU offer; his bio ("ATH | Guard") was
+// rejected as basketball before the football-code fix, so no SMU row ever appeared.
+{
+  const [p] = prefilter([{
+    id: 't5', author: 'maverickowens', authorName: 'Maverick owens',
+    authorBio: "5'11|175lbs|Cl-2030|ATH|Guard|To whom much is given, much is required!",
+    text: 'After a great conversation with @Thamannjr Im blessed to receive a offer from @SMUFB',
+    createdAt: '2026-08-29T19:34:00Z',
+  }]);
+  const recs = rulesOnlyOffers(p);
+  t('self-announcement with ATH-guard bio publishes to SMU',
+    recs.length === 1 && recs[0].school_id === 'smu' && recs[0].class_year === 2030 && recs[0].position === 'ATH' && recs[0].player_handle === 'maverickowens',
+    JSON.stringify(recs));
+}
+// @SMUFB is a handle surface for smu; the abbreviation and hashtag resolve too.
+t('SMU resolves from handle, abbrev, name and hashtag',
+  ids('blessed to receive a offer from @SMUFB').includes('smu')
+    && ids('after a great conversation Im blessed to receive from SMU').includes('smu')
+    && ids("this time it's #SMU").includes('smu')
+    && ids('picks up another offer from Southern Methodist').includes('smu'));
 
 const rn = (s) => findReportedName(s);
 t('name before offer verb', rn('BREAKING: 2028 four-star ATH Marcus Lee has been offered by Georgia') === 'Marcus Lee', String(rn('BREAKING: 2028 four-star ATH Marcus Lee has been offered by Georgia')));
@@ -392,6 +427,18 @@ t('offer attributed to an earlier season is stale',
   classify('His potential gained recognition during the summer when he earned his first Division I scholarship offer from Miami.').hardNegative);
 t('unrelated seasonal phrase does not suppress a current offer',
   !classify('After training during the summer, Marcus Lee has received an offer from Georgia today.').hardNegative);
+
+console.log('phrase job coverage');
+const PJS = phraseJobs().map((j) => j.query);
+t('general "blessed to receive" phrase query is present',
+  PJS.some((q) => q.includes('"blessed to receive"')),
+  PJS.join(' | '));
+t('over-specific blessed-to-receive variants are folded into the general one',
+  !PJS.some((q) => q.includes('"blessed to receive an offer"') || q.includes('"blessed to receive my"')),
+  PJS.join(' | '));
+t('other player-voice phrasings remain individual queries',
+  PJS.some((q) => q.includes('"after a great conversation"')) && PJS.some((q) => q.includes('"AGTG"')),
+  PJS.join(' | '));
 
 console.log('historical job generation');
 const history = backfillJobs(30, new Date('2026-08-27T12:00:00Z'));

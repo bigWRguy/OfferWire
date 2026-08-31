@@ -235,6 +235,12 @@ token** — a position, or football language (`football`, `FB`, `FBU`, 🏈), or
 time — so a bare stat-block bio that could be basketball ("5'11 · G/F · 4.0 GPA") stays
 out of the wire while "Football/Track Star" and "FBU All American" bios get in.
 "Flag football" counts only when the same bio shows tackle evidence (a position or 40).
+A bio that names an unambiguous football position code (`ATH`, `WR`, `OL`, `DL`, …)
+is football context for sport disambiguation even when the word "football" is absent —
+bare **"Guard"** is ambiguous (an OL position as much as a basketball one), and an
+`ATH | Guard` bio announcing an `@SMUFB` offer was silently dropped as "different sport"
+until presence of `ATH` settled it. (`C` and `S` are deliberately not counted: `C/O`
+and `'s` are everywhere.)
 
 **Recap posts are fatal, not just taxed.** "He Has Offers From The Duke Blue Devils,
 Maryland Terrapins, Appalachian State Mountaineers, & More" is existing offer inventory,
