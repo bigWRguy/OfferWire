@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T21:28:54.234Z",
+  "generatedAt": "2026-08-31T21:41:29.442Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7870997222222222,
-    "p95Hours": 1.5473308333333333,
-    "worstHours": 1.7885622222222222
+    "medianHours": 0.9968794444444444,
+    "p95Hours": 1.7571105555555555,
+    "worstHours": 1.9983419444444444
   },
   "decisionCoverage": {
-    "total": 76,
-    "decided": 76,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "pending": {
@@ -59,379 +59,46 @@
     }
   },
   "audit": {
-    "at": "2026-08-31T21:26:40.719Z",
+    "at": "2026-08-31T21:41:25.424Z",
     "mode": "live",
     "collection": {
-      "returned": 98,
-      "kept": 76,
-      "duplicate": 21,
-      "tooOld": 1,
+      "returned": 0,
+      "kept": 0,
+      "duplicate": 0,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 54,
-      "rejected": 22,
-      "reasons": {
-        "no_fbs_school": 13,
-        "no_offer_term": 5,
-        "hard_negative": 4
-      },
-      "samples": [
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094529506383987163",
-          "author": "peterazalewski",
-          "searchJob": "south-florida",
-          "text": "Is the Aventura condo market gaining momentum in the 2026 South Florida Summer Buying Season due to an increasing number of sellers accepting low-ball offers? @CVRRealty https://t.co/UEFgrvR9zq"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094531321586462795",
-          "author": "workboottherapy",
-          "searchJob": "florida",
-          "text": "@WeGotsTheMeats Wife has job offer in Florida, near Cape Coral. E2 employee so it's non immigrant. Still though, getting my kids moved down there and set up in school, is gonna be a heck of an upgrade from this Ottawa rainbow crap they're i"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094529243115905056",
-          "author": "christiedilemme",
-          "searchJob": "florida",
-          "text": "🏡✨ NEW Featured Property in Boynton Beach, Florida ✨🏡Offered at ONLY $497,000, this waterfront home features 3 bedrooms, 2 bathrooms and 1,469 sq. ft. of living space with a 2 car garage and relaxing screened patio overlooking the lake. \ud83d"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094519371418730816",
-          "author": "flvoicenews",
-          "searchJob": "florida",
-          "text": "@SecRollins READ MORE: https://t.co/OqTZDNYASn"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094476176135741808",
-          "author": "glennthrush",
-          "searchJob": "georgia",
-          "text": "NEW: Harmeet Dhillon, head of the civil rights division, feuded w/ DOJ officials Stan Woodward &amp; Leo Terrell - calling both incompetent. Terrell told officials she was disrespectful &amp; jealous cos he got more airtime on Fox. Me &amp;"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094530987501723889",
-          "author": "goupstate",
-          "searchJob": "georgia",
-          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/dPru3cKxWS"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094530955079782768",
-          "author": "mgmadvertiser",
-          "searchJob": "georgia",
-          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/ksPNBIPtAc"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094530911203148193",
-          "author": "amestribnews",
-          "searchJob": "georgia",
-          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/7fOLfHS8gY"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094530851308495091",
-          "author": "savannahnow",
-          "searchJob": "georgia",
-          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/zhNn6lhXLB"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094166721837871349",
-          "author": "jazerbeam",
-          "searchJob": "indiana",
-          "text": "I think I’ve reached my limit of canes content until Friday. Everyone is in the best shape of their life and every level of the depth chart is pushing for playing time. I need to see the games"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094531099347046747",
-          "author": "iowastatedaily",
-          "searchJob": "iowa",
-          "text": "Center Grove Orchard offers a glimpse of the fall season just outside Ames. https://t.co/YSqVVpdija"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2094520319700590793",
-          "author": "dreamblue99781",
-          "searchJob": "iowa",
-          "text": "@CjSauceJohnson Just wondering if u had an offer from Hutch before committing to Iowa Western?"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094516399234236885",
-          "author": "kyinhoopsaau",
-          "searchJob": "kentucky",
-          "text": "Elijah Neel picks up an offer from @ShawneeStateMBB! One of the top 2027 PG’s in Kentucky. Had a huge season on the @PRO16League with us @KYINhoops @Scotty_Sprigg1"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094530758698303838",
-          "author": "uthpsychiatry",
-          "searchJob": "houston",
-          "text": "Recognizing catatonia in young people with Down syndrome is critical for timely diagnosis and treatment. Discover how ECT may offer hope for patients experiencing severe regression and functional decline. https://t.co/S4XNzv2tlP https://t.c"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094515802427015222",
-          "author": "texanscommenter",
-          "searchJob": "houston",
-          "text": "One thing worth remembering with practice squads now that they’re being filled out (my understanding of the rules): Teams can’t simply claim a player off another team’s practice squad. They have to offer/sign him to their 53-man roster, and"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2094527933478232529",
-          "author": "morpheu5watcher",
-          "searchJob": "kansas",
-          "text": "AUGUST IS BITCOIN'S WORST MONTH ON AVERAGE. ISHARES BITCOIN TRUST $IBIT JUST GAINED 25% IN IT: iShares Bitcoin Trust IBIT at $44.64 (after hours), +$0.74 / +1.69% today. It is the largest US fund with one job: buy actual bitcoin, store it, "
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2094532198762230012",
-          "author": "uoflrecruiting1",
-          "searchJob": "louisville",
-          "text": "Louisville needs to offer usf commit @Khorifaulkner9 dude has been an absolute monster this season for Baylor! Get him to the Ville @vincemarrow"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094520466941608188",
-          "author": "iamofferonly",
-          "searchJob": "miami",
-          "text": "While at, there should be a requirement that remaining eligibility ends after the semester you’ve graduated. No reason for Carson Beck to be QB for a school (Miami) where he never attended classes in 2025, after he graduated from University"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094495219106582714",
-          "author": "edlawdude",
-          "searchJob": "miami",
-          "text": "It should go without saying, but I’ll say it again: this is a hard line college athletics needs to draw. The return of players who have already gone professional is exactly the kind of issue on which conference members have an obvious inter"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094535848356188316",
-          "author": "pghbiztimes",
-          "searchJob": "pittsburgh",
-          "text": "The Bethel Park clinic offers evaluations, therapy and assessments for children through young adults. https://t.co/4jGZcjRSHT"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094523560987357313",
-          "author": "pghseminary",
-          "searchJob": "pittsburgh",
-          "text": "We invite applications for Associate Curator/Curator of Community Engagement of the Kelso Museum of Near Eastern Archaeology. Appointment level (Associate Curator or Curator) will be commensurate with qualifications and experience. This ful"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2094516170669862973",
-          "author": "johntheknife",
-          "searchJob": "temple",
-          "text": "1937: Arabs reject the Peel Commission to create a Jewish and Arab state. 1947: Arabs reject the UN partition plan to create a Jewish and Arab state. Arabs wage a stupid racist war against the new nation of Israel and lose more land than th"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 54,
-      "reasons": {
-        "school_not_resolved_confidently": 14,
-        "bare_mention_requires_llm": 20,
-        "multiple_resolved_schools": 19,
-        "reporter_missing_player_name": 1
-      },
-      "samples": [
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094532690460422589",
-          "author": "peterazalewski",
-          "searchJob": "south-florida",
-          "text": "Don't worry about disrespecting sellside real estate agents with low-ball offers on South Florida condo listings. Tune in Tuesdays at 4 pm for the Miami Condo Exchange™ podcast livestreamed at https://t.co/ETpj0SfvNN https://t.co/uxDbATiLcI"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094531233749344508",
-          "author": "grayandsons",
-          "searchJob": "south-florida",
-          "text": "Audemars Piguet Royal Oak Offshore: Athletic elegance meets luxury craftsmanship ⌚✨ Gray &amp; Sons' authenticated pre-owned collection offers 20-40% savings with immediate availability. Surfside showroom | Miami | Fort Lauderdale https://t"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094527877505020009",
-          "author": "gjdorsey7",
-          "searchJob": "south-florida",
-          "text": "Former #Bulls head coach Billy Donovan revealed in a recent interview that the Reinsdorfs offered him an opportunity to stay as Chicago's head coach or move into the front office. My story on his comments and the decision that let the Bulls"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094526469133251012",
-          "author": "blake_alderman",
-          "searchJob": "florida",
-          "text": "Shoutout to Gator Nation! Almost 400 signups at Gators Online this month 📈 Team coverage and intel 🧃 Recruiting scoop and RPM 🔮 Message board community 🐊 Join us for $2.49/month! This offer won't last much longer! ➡️: https://t.co/RylV3"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094519369573253257",
-          "author": "flvoicenews",
-          "searchJob": "florida",
-          "text": "USDA cattle initiative targets herd rebuilding, offers new tools for Florida ranchers @SecRollins: “President Trump promised to put the American ranchers first, and the Ranchers First Initiative delivers on that promise.\" https://t.co/gCLl4"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094518940340772958",
-          "author": "ddbcelts",
-          "searchJob": "florida",
-          "text": "Most of what you are saying is due to it being the summer. You will love it much more by mid-Oct and certainly by November. Also, it's busy in the Tampa/St. Pete area. There are other beach areas in Florida that offer all the beauty Florida"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094534255153906039",
-          "author": "emptywheel",
-          "searchJob": "georgia",
-          "text": "Because it pisses me off that the NYT rarely offers the same solidarity to independent journalists that other journalists offer to them, I gotta say it was obnoxious to leave out how @HarmeetKDhillon used customs summons to get 6 months of "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094533416913871071",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS (updated daily) The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094533237016232332",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS (updated daily) The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094532977170534422",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS (updated daily) The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094532838158725252",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS (updated daily) The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094532735750619375",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS (updated daily) The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094532663667220520",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS (updated daily) The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094532214381764803",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS (updated daily) The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094531992679284806",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS (updated daily) The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094531820591182239",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS (updated daily) The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094531643415347228",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS (updated daily) The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094531550318645740",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS (updated daily) The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094531424019714096",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS (updated daily) The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094531177554084303",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS (updated daily) The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094531026022232303",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS (updated daily) The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094530936398336410",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS (updated daily) The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094518153384522159",
-          "author": "mvsonwilliams",
-          "searchJob": "illinois",
-          "text": "While addressing storm recovery efforts today in Gary, Indiana Gov. Mike Braun was asked whether the crisis facing NW Indiana will affect the #Bears' perspective on the area, Roger Goodell meeting with Illinois lawmakers &amp; if Indiana's "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094532368857969141",
-          "author": "chicagobreaking",
-          "searchJob": "indiana",
-          "text": "Indiana Gov. Braun, FEMA assess NWI storm damage, offer resources https://t.co/2sZrucv9Tt"
-        }
-      ]
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
-      "ok": true,
-      "reason": null,
+      "ok": false,
+      "reason": "georgia: rate limited",
       "jobs": 162,
-      "swept": 30,
+      "swept": 0,
       "failed": 1,
-      "requests": 31,
+      "requests": 1,
       "errors": [
-        "unlv: rate limited"
+        "georgia: rate limited"
       ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 54,
+      "rejectedCandidates": 0,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-08-31T21:28:54.235Z"
+    "status rebuilt locally from current store on 2026-08-31T21:41:29.442Z"
   ]
 }
