@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-31T20:56:21.633Z",
+  "generatedAt": "2026-08-31T21:05:52.500Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-08-31T20:43:51.237Z",
+    "at": "2026-08-31T21:05:52.282Z",
     "jobsTotal": 162,
-    "sweptThisRun": 34,
-    "requests": 35,
+    "sweptThisRun": 33,
+    "requests": 34,
     "fullSweepCycles": 5
   },
   "backfillCoverage": {
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0049416666666666,
-    "p95Hours": 1.5018280555555557,
-    "worstHours": 1.7523022222222222
+    "medianHours": 0.6359525,
+    "p95Hours": 1.4047472222222221,
+    "worstHours": 1.6604022222222221
   },
   "decisionCoverage": {
-    "total": 0,
-    "decided": 0,
+    "total": 50,
+    "decided": 50,
     "complete": true
   },
   "pending": {
@@ -44,7 +44,7 @@
   "profileResolution": {
     "cached": 28
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 466,
     "incompleteOffers": 0
@@ -52,53 +52,379 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-08-31T20:43:51.236Z",
-      "got": 54,
-      "new": 21,
-      "lag": 0.14
+      "at": "2026-08-31T21:05:52.282Z",
+      "got": 66,
+      "new": 50,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-08-31T20:56:16.292Z",
+    "at": "2026-08-31T21:03:32.729Z",
     "mode": "live",
     "collection": {
-      "returned": 0,
-      "kept": 0,
-      "duplicate": 0,
+      "returned": 66,
+      "kept": 50,
+      "duplicate": 16,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 29,
+      "rejected": 21,
+      "reasons": {
+        "no_fbs_school": 9,
+        "hard_negative": 2,
+        "no_offer_term": 10
+      },
+      "samples": [
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094531362355057109",
+          "author": "ourhomeswtbama",
+          "searchJob": "alabama",
+          "text": "Would you have waited for a full-price offer? Paid around $8 from Goodwill. Brand new with tag, corduroy, \"purple\" pants. I think I would have waited, but since Slim-Fit isn't in style right now I took the offer. https://t.co/iEOV7Eu68I"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094508100598329367",
+          "author": "_bosoxfan_",
+          "searchJob": "alabama",
+          "text": "@TheLaurenChen those 3 men are 100% correct there is no right answer to justify strangling not 1 not 2 but THREE BABIES!!!!!! she deserves the shortest rope the system has to offer‼️"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2094524808436342809",
+          "author": "madehoops",
+          "searchJob": "arkansas",
+          "text": "DeMarcus Henry had himself a summer to remember and proved that he is one of the best hoopers in HS💯🔥 Henry picked up offers from Kentucky, UNC, Duke, UCONN, Arkansas, Kansas and many more this year 📝 @demarcushenry15 @AZCompass_Prep htt"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094503019262161164",
+          "author": "fb_filmanalysis",
+          "searchJob": "oregon",
+          "text": "@CoachCrocky Show the clips 👀"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094525218798633005",
+          "author": "j_gergely",
+          "searchJob": "arizona",
+          "text": "Dramaturgiailag elképzelhető, hogy a szerepek polarizációi váltakoznak a különböző időkörnyezetek, esemény-koordináták és denzitádok mentén, ahogyan beszámolhatunk \"bukkottakról\" és \"felemelkedettekről\" egyaránt, ez pedig a 7D előtt széles "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094519140765852101",
+          "author": "voidelur",
+          "searchJob": "arizona",
+          "text": "@tasteofscarIet https://t.co/Bg5Zt4NB3O"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094518527315050781",
+          "author": "voidelur",
+          "searchJob": "arizona",
+          "text": "He's what??? https://t.co/62A283joaA"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094517386712113627",
+          "author": "voidelur",
+          "searchJob": "arizona",
+          "text": "@tasteofscarIet Zenone"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094508460914171906",
+          "author": "voidelur",
+          "searchJob": "arizona",
+          "text": "Fuck I forgot my chains 🤦"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094530210641191367",
+          "author": "cadmhc",
+          "searchJob": "california",
+          "text": "Have you been denied or delayed care by your health care plan? You have the right to appeal! The DMHC Help Center offers free help available in all languages. Visit https://t.co/IVkO7KiDQo. https://t.co/axa6yngbdy"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094419227167850851",
+          "author": "zayn11milli",
+          "searchJob": "california",
+          "text": "In case you don't know, this is the particular Shooting (of Lul Pab) that Lil Durk, OTF JAM, OTF DeDe, OTF Vonnie are standing trial for. It is alleged that it's a revenge mvrder for the death of King Von. In the Video you can see a hysteri"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094522739927155192",
+          "author": "chitrader",
+          "searchJob": "california",
+          "text": "📊 MARKET WRAP 8/31/2026 https://t.co/RwgtL0LfQv"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094520413191798989",
+          "author": "kipsamerica",
+          "searchJob": "california",
+          "text": "Do you actually do anything Teddy? All you do is bitch, whine, moan, & complain Teddy! What have you done for your constituents in California Teddy? NOTHING! Absolutely NOTHING! You’re a feckless leach on your constituents & community Teddy"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094518568528273660",
+          "author": "nameiya0818",
+          "searchJob": "duke",
+          "text": "@safc_AoL @Capt_Fishpaste You get what you pay for in this league. Cheap offers get you cheap players"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094514779238850833",
+          "author": "heis_duke",
+          "searchJob": "duke",
+          "text": "i've been offered more drugs and substances than i've been offered life changing opportunities."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094520661989597357",
+          "author": "samandashlaw",
+          "searchJob": "nevada",
+          "text": "On Sunday night, a truck and a motorcyclist collided in Carson City, NV. The motorcyclist was killed, and the truck driver was hospitalized. Nevada State Police say impairment was a factor, but have not offered details. https://t.co/D7A7sC1"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094530723549999531",
+          "author": "eaglegazette",
+          "searchJob": "ohio",
+          "text": "Sweet Corn Festival offers four days of free family entertainment https://t.co/OUsHZAIDNj"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094529115009470962",
+          "author": "dimitrigeier",
+          "searchJob": "ohio",
+          "text": "https://t.co/W95Wc9LbHn"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094527786304061479",
+          "author": "jasonmarsh3434",
+          "searchJob": "ohio",
+          "text": "@juliusmarchi W2 job is the best option if they offer insurance. I use a broker here in Ohio who helps me shop around. She has access and knowledge about a lot of different plans. I would recommend that route. You don't pay more."
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2094527831560855784",
+          "author": "recruitintelhq",
+          "searchJob": "old-dominion",
+          "text": "@moses_irwin4 @ODUFootball @CoachHSims @chrisculig @CoachKerfoot3 @bnm_nil @BKKnightsFB @IdahoRecruitHub @adamgorney @BrandonHuffman @GregBiggins @PeteNakos @TomLoy247 @On3 @247recruiting Moses called his shot accurately. Count the distinct"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094508191602413853",
+          "author": "notaherooi",
+          "searchJob": "rice",
+          "text": "| 𝘪 𝘢𝘮 𝘧𝘦𝘦𝘭𝘪𝘯𝘨 𝘢 𝘣𝘪𝘵 𝘥𝘪𝘴𝘤𝘰𝘯𝘯𝘦𝘤𝘵𝘦𝘥 𝘢𝘯𝘥 𝘰𝘶𝘵 𝘰𝘧 𝘴𝘰𝘳𝘵𝘴 𝘢𝘵 𝘵𝘩𝘦 𝘮𝘰𝘮𝘦𝘯𝘵, 𝘭𝘢𝘳𝘨𝘦𝘭𝘺 𝘣𝘦𝘤𝘢𝘶𝘴𝘦 𝘪 𝘩𝘢𝘷𝘦𝘯’𝘵 𝘩𝘢𝘥 𝘢 𝘤𝘩𝘢𝘯𝘤𝘦 𝘵𝘰 𝘦𝘢𝘵 𝙖𝙡𝙡 𝘥𝘢𝘺. 𝘢𝘭𝘭 𝘰𝘰𝘱𝘴𝘪𝘦’𝘴 𝘵𝘰"
+        }
+      ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "rejected": 29,
+      "reasons": {
+        "bare_mention_requires_llm": 15,
+        "school_not_resolved_confidently": 10,
+        "multiple_resolved_schools": 3,
+        "author_not_recruit:different sport": 1
+      },
+      "samples": [
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094521217755533639",
+          "author": "jamiest64513315",
+          "searchJob": "alabama",
+          "text": "@FosterReub81830 @JacquesDoucet @LSUfootball @Lane_Kiffin @Greg_Byrne That lying piece of shit will leave LSU in 0.01 seconds if Bama offered him the job"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094515805207593173",
+          "author": "blakebyler45",
+          "searchJob": "alabama",
+          "text": "Earlier this month Alabama extended an offer to CB Logan Thompson (Belleville, Ill.), a top-50 prospect in the 2028 class. \"Getting the offer was amazing. Alabama’s been one of my dream schools since I started watching football.\" https://t."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094526220579098660",
+          "author": "prospecscamp",
+          "searchJob": "arkansas",
+          "text": "🚨 2027 FLOOR GENERAL 🚨 Greg Nash | East Central (Tulsa) Shifty PG who lives in the paint. Change of pace, crafty floaters, and vision to dump it off when help comes. Competes, leads, and makes winning plays. Multiple JUCO offers + D1 from"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094518283320148414",
+          "author": "expatportland",
+          "searchJob": "oregon",
+          "text": "@LarsLarsonShow The schools are shit because that’s how the democrats want them, and the republicans refuse to offer an alternative. Did the republicans oppose lockdowns? Do they oppose Oregon being flooded with third worlders? Do they oppo"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094508117673550089",
+          "author": "coachcrocky",
+          "searchJob": "oregon",
+          "text": "Haha here’s one. Sophomore to sophomore . Beattie (The receiver) Was the fastest 400 runner freshman in the nation (47.03) .. runs 10.72… football offers to Oregon State and Nevada. 😮‍💨 @Antwone_Beattie https://t.co/G9Ebhw8cpF"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094526239822262747",
+          "author": "odds_shopper",
+          "searchJob": "arizona",
+          "text": "First-inning pricing gaps on today's board NRFI San Francisco Giants vs Atlanta Braves: +115 offered vs +112 fair (1.5% gap) YRFI Philadelphia Phillies vs Arizona Diamondbacks: +110 offered vs +108 fair (0.9% gap) Where these numbers come f"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094525716285321453",
+          "author": "j_gergely",
+          "searchJob": "arizona",
+          "text": "Utriusque Cosmi — by ROBERT CHARLES WILSON — \"Diving back into the universe (now that the universe is a finished object, boxed and ribboned from bang to bounce), Carlotta calculates ever-finer loci on the frozen ordinates of spacetime until"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094529772323807233",
+          "author": "real_stmichael",
+          "searchJob": "california",
+          "text": "@Scott_Wiener Scott is the deepest kind of sick California has to offer. So sad whats happened to that place. Nobody should be living there, at least not families. Let the degenerates have their sex parties. Get the hell out."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094529313508823370",
+          "author": "yourhoodlawyer",
+          "searchJob": "california",
+          "text": "Pabst offers reward for return of 40,000 pound haul of beer stolen from California warehouse https://t.co/JWkB8f0rGA"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094522953719504898",
+          "author": "zayn11milli",
+          "searchJob": "california",
+          "text": "🚨😳 KEITH JONES TESTIFIES DURK WAS “PART OF IT” — CLAIMS $1 MILLION WAS OFFERED TO KILL QUANDO RONDO I want you to read all this A major moment unfolded in Lil Durk’s federal trial as Keith Jones testified about the alleged plot targeting "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094518286356508834",
+          "author": "geraldswazo",
+          "searchJob": "california",
+          "text": "@9NEWS @DenverChannel @KyleClark @denverwestword \"Shasta County's job offer to a felon CONVICTED OF TAMPERING WITH VOTING MACHINES to work on their election process is a disgrace. CDCR to make every effort to BLOCK any transfer of her parol"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094517544854143107",
+          "author": "ruthless22777",
+          "searchJob": "california",
+          "text": "https://t.co/YWHB1n9VJ8 Early release programs do not work. They put communities at risk. It tells the victim they do not matter. We need real prison reform. Low level offenders that have the ability to be rehabilitated should be housed in "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094511210926584034",
+          "author": "jterencedaly",
+          "searchJob": "california",
+          "text": "Yes, items are more expensive. The Left, socialists, want change. They talk in platitudes like better health care and housing but offer no solutions or funding. Maybe you have incandescent hate for Trump, but socialism is not the answer. Lo"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094509960399028265",
+          "author": "3caloan",
+          "searchJob": "california",
+          "text": "From “I Want to Buy” to “I’m Ready to Make an Offer”: The Mortgage Roadmap https://t.co/ttIpNqVi2e #calhomes #california #realestatefinance #mortgagebroker #twittwer #facebook #meta #loanofficer #twittssk #facebook #bird #loanofficer #equit"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094511160225661091",
+          "author": "mattclion",
+          "searchJob": "clemson",
+          "text": "@DavidBearman There is no way that’s going to happen… but if it did, the “competition” between FSU and Clemson to get invited would be quite something. I think FSU has more to offer overall, though."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094520666791813144",
+          "author": "mheartsya",
+          "searchJob": "colorado",
+          "text": "If you don’t realize by now that any statistics reflecting badly on the Left are grossly understated, I’m sad for you. Even from the Heritage foundation. The Left has systematically persecuted and prosecuted anyone looking into election fra"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094518813223997870",
+          "author": "davidliptonwi",
+          "searchJob": "colorado",
+          "text": "@guardpilot @RobAbramowitz @BY9701754156788 @ReichlinMelnick They lied about a ton of evidence in court including what he told the border patrol officer in jail as well as his Mexican ID number as well as his offer to present a Colorado bir"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094515617969696932",
+          "author": "redflameliberty",
+          "searchJob": "colorado",
+          "text": "Did you know some people have never voted in an honest election until this morning? Voting across different states like Missouri, Kansas, Minnesota, Illinois, and Colorado offers a unique perspective. #CivicDuty #Voting https://t.co/BnRtMx3"
+        },
+        {
+          "reason": "author_not_recruit:different sport",
+          "postId": "2094517204607778955",
+          "author": "coachscottpost",
+          "searchJob": "duke",
+          "text": "I got 1 D-1 offer. Duke University. The head coach was Shirley Red Wilson. My recruiter was named Roger Slaughter. (such a great football name.) He called me and I talked to him in my room the day after 1982 Christmas is my memory. He said,"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094516040508063895",
+          "author": "bwambalewesley4",
+          "searchJob": "duke",
+          "text": "Queen Elizabeth national park is one of uganda’s most beautiful and diverse wildlife destinations. From the majestic Kazinga Channel and its hippos and crocodiles to elephants, buffaloes, lions, leopards and countless bird species, the park"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094524980599869740",
+          "author": "fccaupdates",
+          "searchJob": "nevada",
+          "text": "Nestled between the Caribbean Sea and the majestic Sierra Nevada mountains, Santa Marta offers an extraordinary blend of natural beauty, cultural heritage, and outdoor adventure. It's a destination where every landscape tells a story. Photo"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094508818843722108",
+          "author": "davidzvolsky",
+          "searchJob": "nevada",
+          "text": "@SenJackyRosen NEVADA is falling behind in the gambling industry. KALSHI and other prediction markets should be offered in Nevada.The Lottery should be here too. Scumbag democrats are stopping Nevada from progressing with the times. Obvious"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094526939247583625",
+          "author": "13hurrlcanes",
+          "searchJob": "ohio",
+          "text": "I fear I’m going to have to offer one of my Josh drumsticks for a trade soon to get a pilots Ohio pit ticket at this rate 🫠🫠🫠"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094526107508760872",
+          "author": "jonathan_f32966",
+          "searchJob": "old-dominion",
+          "text": "🎓 VIRGINIA COLLEGES ARE MAKING ADMISSION EASIER—BUT AN ACCEPTANCE LETTER ISN’T A FINANCIAL-AID PACKAGE. Common App Direct Admissions now includes 14 Virginia institutions, including George Mason, VCU, Old Dominion and Christopher Newport. "
+        }
+      ]
     },
     "search": {
-      "ok": false,
-      "reason": "liberty: rate limited",
+      "ok": true,
+      "reason": null,
       "jobs": 162,
-      "swept": 0,
+      "swept": 33,
       "failed": 1,
-      "requests": 1,
+      "requests": 34,
       "errors": [
-        "liberty: rate limited"
+        "south-florida: rate limited"
       ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
+      "rejectedCandidates": 29,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-08-31T20:56:21.635Z"
+    "status rebuilt locally from current store on 2026-08-31T21:05:52.501Z"
   ]
 }
