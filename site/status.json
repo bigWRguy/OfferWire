@@ -1,586 +1,26 @@
 {
-  "generatedAt": "2026-08-31T05:56:58.444Z",
+  "generatedAt": "2026-08-31T06:01:30.420Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-08-31T05:43:44.430Z",
+    "at": "2026-08-31T06:01:30.246Z",
     "jobsTotal": 162,
     "sweptThisRun": 36,
     "requests": 36,
     "fullSweepCycles": 5
   },
-  "backfillCoverage": {
-    "at": "2026-08-31T05:43:44.430Z",
-    "jobsTotal": 0,
-    "sweptThisRun": 0,
-    "requests": 0
-  },
-  "backfill": {
-    "at": "2026-08-31T05:43:44.430Z",
-    "days": 30,
-    "chunkDays": 30,
-    "totalWindows": 136,
-    "completedWindows": 136,
-    "remainingWindows": 0,
-    "totalTeamDays": 136,
-    "completedTeamDays": 136,
-    "remainingTeamDays": 0
-  },
-  "staleSchools": [
-    {
-      "id": "auburn",
-      "hours": 84.9
-    },
-    {
-      "id": "penn-state",
-      "hours": 64.9
-    },
-    {
-      "id": "ohio-state",
-      "hours": 58.9
-    },
-    {
-      "id": "liberty",
-      "hours": 43
-    },
-    {
-      "id": "navy",
-      "hours": 40.3
-    },
-    {
-      "id": "oregon",
-      "hours": 38.7
-    },
-    {
-      "id": "kansas",
-      "hours": 36.8
-    },
-    {
-      "id": "air-force",
-      "hours": 33
-    },
-    {
-      "id": "stanford",
-      "hours": 33
-    },
-    {
-      "id": "syracuse",
-      "hours": 33
-    },
-    {
-      "id": "maryland",
-      "hours": 32.8
-    },
-    {
-      "id": "iowa",
-      "hours": 32.7
-    },
-    {
-      "id": "michigan",
-      "hours": 32.5
-    },
-    {
-      "id": "ole-miss",
-      "hours": 32.4
-    },
-    {
-      "id": "kentucky",
-      "hours": 31.9
-    },
-    {
-      "id": "marshall",
-      "hours": 31
-    },
-    {
-      "id": "kent-state",
-      "hours": 30.5
-    },
-    {
-      "id": "toledo",
-      "hours": 29.5
-    },
-    {
-      "id": "tulsa",
-      "hours": 29.5
-    },
-    {
-      "id": "wake-forest",
-      "hours": 28.1
-    },
-    {
-      "id": "indiana",
-      "hours": 27.3
-    },
-    {
-      "id": "north-carolina",
-      "hours": 26.9
-    },
-    {
-      "id": "duke",
-      "hours": 22.7
-    },
-    {
-      "id": "charlotte",
-      "hours": 20.7
-    },
-    {
-      "id": "minnesota",
-      "hours": 18.2
-    },
-    {
-      "id": "wisconsin",
-      "hours": 18.2
-    },
-    {
-      "id": "cincinnati",
-      "hours": 17.5
-    },
-    {
-      "id": "arkansas",
-      "hours": 16.6
-    },
-    {
-      "id": "illinois",
-      "hours": 16.6
-    },
-    {
-      "id": "oklahoma",
-      "hours": 16.3
-    },
-    {
-      "id": "lsu",
-      "hours": 16.1
-    },
-    {
-      "id": "houston",
-      "hours": 16
-    },
-    {
-      "id": "colorado",
-      "hours": 15.9
-    },
-    {
-      "id": "florida",
-      "hours": 15.6
-    },
-    {
-      "id": "temple",
-      "hours": 15.5
-    },
-    {
-      "id": "arkansas-state",
-      "hours": 15.1
-    },
-    {
-      "id": "south-florida",
-      "hours": 15
-    },
-    {
-      "id": "rice",
-      "hours": 14.5
-    },
-    {
-      "id": "texas-tech",
-      "hours": 14.5
-    },
-    {
-      "id": "tennessee",
-      "hours": 14
-    },
-    {
-      "id": "alabama",
-      "hours": 13.8
-    },
-    {
-      "id": "ohio",
-      "hours": 13.8
-    },
-    {
-      "id": "pittsburgh",
-      "hours": 13.6
-    },
-    {
-      "id": "texas",
-      "hours": 13.5
-    },
-    {
-      "id": "washington",
-      "hours": 12.8
-    },
-    {
-      "id": "usc",
-      "hours": 12.5
-    },
-    {
-      "id": "coastal-carolina",
-      "hours": 12.4
-    },
-    {
-      "id": "miami",
-      "hours": 12
-    },
-    {
-      "id": "buffalo",
-      "hours": 11.5
-    },
-    {
-      "id": "california",
-      "hours": 11.4
-    },
-    {
-      "id": "virginia",
-      "hours": 11.2
-    },
-    {
-      "id": "missouri",
-      "hours": 10.8
-    },
-    {
-      "id": "arizona-state",
-      "hours": 10.5
-    },
-    {
-      "id": "baylor",
-      "hours": 10.3
-    },
-    {
-      "id": "boston-college",
-      "hours": 10.3
-    },
-    {
-      "id": "byu",
-      "hours": 10
-    },
-    {
-      "id": "clemson",
-      "hours": 10
-    },
-    {
-      "id": "army",
-      "hours": 9.8
-    },
-    {
-      "id": "florida-state",
-      "hours": 9.5
-    },
-    {
-      "id": "georgia-tech",
-      "hours": 9.5
-    },
-    {
-      "id": "iowa-state",
-      "hours": 9.5
-    },
-    {
-      "id": "kansas-state",
-      "hours": 9.5
-    },
-    {
-      "id": "louisville",
-      "hours": 9.3
-    },
-    {
-      "id": "nc-state",
-      "hours": 9.3
-    },
-    {
-      "id": "oklahoma-state",
-      "hours": 9.3
-    },
-    {
-      "id": "smu",
-      "hours": 9
-    },
-    {
-      "id": "tcu",
-      "hours": 9
-    },
-    {
-      "id": "ucf",
-      "hours": 9
-    },
-    {
-      "id": "virginia-tech",
-      "hours": 8.8
-    },
-    {
-      "id": "west-virginia",
-      "hours": 8.8
-    },
-    {
-      "id": "akron",
-      "hours": 8.5
-    },
-    {
-      "id": "nebraska",
-      "hours": 8.5
-    },
-    {
-      "id": "uconn",
-      "hours": 8.5
-    },
-    {
-      "id": "utah",
-      "hours": 8.5
-    },
-    {
-      "id": "notre-dame",
-      "hours": 8.1
-    },
-    {
-      "id": "appalachian-state",
-      "hours": 8
-    },
-    {
-      "id": "ball-state",
-      "hours": 8
-    },
-    {
-      "id": "boise-state",
-      "hours": 8
-    },
-    {
-      "id": "bowling-green",
-      "hours": 8
-    },
-    {
-      "id": "central-michigan",
-      "hours": 8
-    },
-    {
-      "id": "colorado-state",
-      "hours": 8
-    },
-    {
-      "id": "delaware",
-      "hours": 7.8
-    },
-    {
-      "id": "east-carolina",
-      "hours": 7.8
-    },
-    {
-      "id": "eastern-michigan",
-      "hours": 7.8
-    },
-    {
-      "id": "florida-atlantic",
-      "hours": 7.8
-    },
-    {
-      "id": "florida-international",
-      "hours": 7.8
-    },
-    {
-      "id": "fresno-state",
-      "hours": 7.8
-    },
-    {
-      "id": "georgia-southern",
-      "hours": 7.8
-    },
-    {
-      "id": "georgia-state",
-      "hours": 7.5
-    },
-    {
-      "id": "hawaii",
-      "hours": 7.5
-    },
-    {
-      "id": "jacksonville-state",
-      "hours": 7.5
-    },
-    {
-      "id": "james-madison",
-      "hours": 7.5
-    },
-    {
-      "id": "kennesaw-state",
-      "hours": 7.5
-    },
-    {
-      "id": "louisiana",
-      "hours": 7.5
-    },
-    {
-      "id": "louisiana-monroe",
-      "hours": 7.5
-    },
-    {
-      "id": "arizona",
-      "hours": 7.4
-    },
-    {
-      "id": "louisiana-tech",
-      "hours": 7.2
-    },
-    {
-      "id": "massachusetts",
-      "hours": 7.2
-    },
-    {
-      "id": "memphis",
-      "hours": 6.8
-    },
-    {
-      "id": "miami-oh",
-      "hours": 6.5
-    },
-    {
-      "id": "middle-tennessee",
-      "hours": 6.5
-    },
-    {
-      "id": "missouri-state",
-      "hours": 6.5
-    },
-    {
-      "id": "nevada",
-      "hours": 6.5
-    },
-    {
-      "id": "new-mexico",
-      "hours": 6.2
-    },
-    {
-      "id": "new-mexico-state",
-      "hours": 6.2
-    },
-    {
-      "id": "north-texas",
-      "hours": 6.2
-    },
-    {
-      "id": "northern-illinois",
-      "hours": 6.2
-    },
-    {
-      "id": "old-dominion",
-      "hours": 5.8
-    },
-    {
-      "id": "oregon-state",
-      "hours": 5.8
-    },
-    {
-      "id": "sam-houston",
-      "hours": 5.8
-    },
-    {
-      "id": "san-diego-state",
-      "hours": 5.8
-    },
-    {
-      "id": "san-jose-state",
-      "hours": 5.8
-    },
-    {
-      "id": "south-alabama",
-      "hours": 5.5
-    },
-    {
-      "id": "southern-miss",
-      "hours": 5.5
-    },
-    {
-      "id": "texas-state",
-      "hours": 5.5
-    },
-    {
-      "id": "troy",
-      "hours": 5.5
-    },
-    {
-      "id": "tulane",
-      "hours": 5.5
-    },
-    {
-      "id": "georgia",
-      "hours": 5.3
-    },
-    {
-      "id": "michigan-state",
-      "hours": 5.3
-    },
-    {
-      "id": "mississippi-state",
-      "hours": 5.3
-    },
-    {
-      "id": "uab",
-      "hours": 5.3
-    },
-    {
-      "id": "unlv",
-      "hours": 5.3
-    },
-    {
-      "id": "utah-state",
-      "hours": 5.3
-    },
-    {
-      "id": "utep",
-      "hours": 5.3
-    },
-    {
-      "id": "northwestern",
-      "hours": 5
-    },
-    {
-      "id": "utsa",
-      "hours": 5
-    },
-    {
-      "id": "washington-state",
-      "hours": 5
-    },
-    {
-      "id": "western-kentucky",
-      "hours": 5
-    },
-    {
-      "id": "western-michigan",
-      "hours": 5
-    },
-    {
-      "id": "wyoming",
-      "hours": 5
-    },
-    {
-      "id": "purdue",
-      "hours": 4.8
-    },
-    {
-      "id": "rutgers",
-      "hours": 4.8
-    },
-    {
-      "id": "south-carolina",
-      "hours": 4.8
-    },
-    {
-      "id": "texas-am",
-      "hours": 4.8
-    },
-    {
-      "id": "ucla",
-      "hours": 4.8
-    },
-    {
-      "id": "vanderbilt",
-      "hours": 4.8
-    }
-  ],
+  "backfillCoverage": null,
+  "backfill": null,
+  "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 8.76399,
-    "p95Hours": 33.04555861111111,
-    "worstHours": 84.87214416666667
+    "medianHours": 0.12403777777777777,
+    "p95Hours": 0.12403777777777777,
+    "worstHours": 0.12403777777777777
   },
   "decisionCoverage": {
-    "total": 0,
-    "decided": 0,
+    "total": 2,
+    "decided": 2,
     "complete": true
   },
   "pending": {
@@ -597,140 +37,50 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-08-31T05:43:44.428Z",
-      "got": 790,
-      "new": 14,
-      "lag": 0.04
+      "at": "2026-08-31T06:01:30.245Z",
+      "got": 2,
+      "new": 2,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-08-31T05:41:09.129Z",
-    "mode": "all",
+    "at": "2026-08-31T05:59:03.870Z",
+    "mode": "live",
     "collection": {
-      "returned": 790,
-      "kept": 14,
-      "duplicate": 773,
-      "tooOld": 3,
+      "returned": 2,
+      "kept": 2,
+      "duplicate": 0,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 10,
-      "rejected": 4,
-      "reasons": {
-        "hard_negative": 1,
-        "no_fbs_school": 2,
-        "no_offer_term": 1
-      },
-      "samples": [
-        {
-          "reason": "hard_negative",
-          "postId": "2094296353061081189",
-          "author": "dunnbilly87734",
-          "searchJob": "michigan",
-          "text": "rapture(n.) c. 1600, \"act of carrying off\" as prey or plunder, from rapt + -ure, or else from French rapture, from Medieval Latin raptura \"seizure, rape, kidnapping,\" from Latin raptus \"a carrying off, abduction, snatching away; rape\" (see "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094297128524997029",
-          "author": "asromadaily1927",
-          "searchJob": "class:2026",
-          "text": "ICYMI 🔴 Roma have accepted RB Leipzig’s offer for Neil El Aynaoui. The midfielder will leave on a paid loan with an option to buy and a future sell-on clause—but no obligation. Read More: https://t.co/WJCjxhomTe"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094257361221554194",
-          "author": "fzd19990831",
-          "searchJob": "class:2026",
-          "text": "$CRWD $NET Yes, I think your skepticism is quite logically grounded. But let me refine it into a more precise formulation: Cloudflare's Agentic AI narrative is real, but the financials have not yet proven that \"Agentic AI is becoming a suff"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094248066509406541",
-          "author": "joetegtmeyer",
-          "searchJob": "florida",
-          "text": "Tesla's \"Exclusive\" Cybercab Launch Event is just 4 days away &amp; it is a major milestone &amp; launch for the company, perhaps as important as the original 2012 Model S or the 2017 Model 3. What do I hope Tesla will tell us &amp; what sh"
-        }
-      ]
+      "accepted": 2,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 2,
       "reasons": {
-        "bare_mention_requires_llm": 5,
-        "school_not_resolved_confidently": 4,
+        "school_not_resolved_confidently": 1,
         "multiple_resolved_schools": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094296053499806047",
-          "author": "ashokdadhwal196",
-          "searchJob": "liberty",
-          "text": "Prof. V. K. Tripathi: “RSS Ideology Is Not the Ideology of Humanity” “An ideology founded on hatred and the curtailment of freedom cannot be a good ideology.” Prof. V. K. Tripathi, retired Professor Emeritus of Physics at IIT Delhi and a lo"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094296949424029974",
-          "author": "mcewanjc",
-          "searchJob": "oregon",
-          "text": "Paul I had a quick look at the paper itself: not the puff piece that is the press article. Andrew, Alyssa C., Chad W. Higgins, Mary A. Smallman, Maggie Graham, and Serkan Ates. 2021. “Herbage Yield, Lamb Growth and Foraging Behavior in Agri"
-        },
-        {
           "reason": "school_not_resolved_confidently",
-          "postId": "2094299098371457108",
-          "author": "davidhinkle90",
-          "searchJob": "kent-state",
-          "text": "TUCKER CARLSON, WHO BACKED TRUMP THROUGH 2 IMPEACHMENTS, NOW SAYS REMOVE HIM IF HE WEIGHS A FIRST NUCLEAR STRIKE COLBY OFFERS \"CREDIBLE NUCLEAR OPTIONS.\" KENT ASKS: IF CONVENTIONAL FAILS IN IRAN, WHAT THEN? TOLERATING THIS IS UNFIT. TRUMP C"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094299491138424925",
-          "author": "alan_t_johnston",
-          "searchJob": "wake-forest",
-          "text": "@Dog85French @Mike_Adams_OG @data_republican @DataRepublican Most politicians take money from anyone who offers it. The Arab nations with HUGE sovereign funds and CAIR put 100X more money into US politics and influence that Israel does. Wak"
+          "postId": "2094302839246094500",
+          "author": "yzo57",
+          "searchJob": "michigan",
+          "text": "Abdul El-Sayed — who said “hurt people do hurt people” after the Hezbollah-inspired terrorist attack on Temple Israel in Michigan — is now trying to defend his comment: “What I was trying to do is offer context…” https://t.co/9sEpXFPP11"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2094297605421572578",
+          "postId": "2094303645420732594",
           "author": "dunnbilly87734",
-          "searchJob": "illinois",
-          "text": "So the question arises; Why are Protestants using a Latin word like rapture instead of English or at least the Greek from which our Protestant Bibles are translated? Perhaps the speculation which has scrutinized Irving’s work as springing f"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094298169018646959",
-          "author": "lakersfaithful_",
-          "searchJob": "houston",
-          "text": "@Baller_Report Amen more athletic and better defense… But Austin is better overall.. But if Houston called and offered amen for Austin then I might say yes."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094254791732150707",
-          "author": "saveraaintl",
-          "searchJob": "class:2026",
-          "text": "🌱 Soybean Mark Summary — 28 Aug 2026 📈 Soybean futures surged again: CME November soybeans rose 20¢/bu (+1.58%) to $12.88/bu. 🥣 Derived products led the rally: October soymeal gained 2.42% to $342.50/st, while soyoil jumped 3.80% to $70."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094282735535722542",
-          "author": "dnaonejax",
-          "searchJob": "florida",
-          "text": "@SchnauzerCoco I was not aware they made schnauzer contact lenses. That is great they are able to offer the top care for mini schnauzers in UK! ❤️. In Florida I don't know what they would do? Best of Luck! Get well soon!"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094278848494080293",
-          "author": "perfectrose2011",
-          "searchJob": "florida",
-          "text": "@guyfelicella We all know on taxpayer's money, she has travelled to Florida to be hosted by the WH fraudster &amp; felon. Makes one wonder why &amp; what kind of bribe she was offered. Can someone check her bank accounts (bet she has some o"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094268361098047497",
-          "author": "homeinvasioncop",
-          "searchJob": "florida",
-          "text": "@balldenial6 @j_fishback This matters as Florida may elect its first governor that cannot swim. I have asked various AIs if there's ever been a Florida Governor that could not swim and it's evident that Mr Donalds may be the first. My offer"
+          "searchJob": "washington",
+          "text": "Terrorism in Saudi Arabia: Past and Present Wednesday, December 2, 2009 12:30 pm - 2:00 pm EST The Brookings Institution St. LOUIS Room 1775 Massachusetts Ave., NW Washington, DC On December 2, 2009, the Saban Center for Middle East Policy "
         }
       ]
     },
@@ -745,11 +95,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 10,
+      "rejectedCandidates": 2,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-08-31T05:56:58.445Z"
+    "status rebuilt locally from current store on 2026-08-31T06:01:30.421Z"
   ]
 }
