@@ -1,12 +1,48 @@
 {
-  "generatedAt": "2026-08-31T13:26:14.320Z",
+  "generatedAt": "2026-08-31T13:40:01.011Z",
   "counts": {
-    "offers": 446,
+    "offers": 447,
     "players": 351,
-    "newThisRun": 0,
+    "newThisRun": 1,
     "watchlist": 1088
   },
   "offers": [
+    {
+      "id": "o_6aadb8564b72e82d",
+      "playerId": "p_59febf6dba66ed6a",
+      "playerName": "Lucas Cornwell",
+      "schoolId": "wake-forest",
+      "schoolName": "Wake Forest",
+      "conference": "ACC",
+      "offeredAt": "2026-08-31T13:25:00.000Z",
+      "firstSeenAt": "2026-08-31T13:40:00.994Z",
+      "lastSeenAt": "2026-08-31T13:40:00.994Z",
+      "confidence": 0.45,
+      "corroborations": 1,
+      "evidence": [
+        {
+          "postId": "2094416162897776761",
+          "author": "profilefblive",
+          "url": "https://x.com/profilefblive/status/2094416162897776761",
+          "postedAt": "2026-08-31T13:25:00.000Z",
+          "via": "search:(@WakeFB OR \"Wake Forest\" OR \"Demon Deac",
+          "confidence": 0.45,
+          "text": "🚨 First P4 Offer 🚨\n\n2028 TE Lucas Cornwell from Smith County HS, TN has received his first P4 offer from Wake Forest. @lucascornwell6\n\nRated 3.1⭐ (#1383 NATL, #62 TE, #54 TN).\nhttps://t.co/MTFy5uM54J",
+          "attribution": {
+            "targetText": "Wake Forest",
+            "schoolEvidenceType": "full_school_name",
+            "affiliationSource": "name"
+          }
+        }
+      ],
+      "status": "new",
+      "tier": "P4",
+      "playerHandle": "lucascornwell6",
+      "classYear": 2028,
+      "position": "TE",
+      "highSchool": null,
+      "state": null
+    },
     {
       "id": "o_b01661cae84451f4",
       "playerId": "p_03400140e8da4fa5",
@@ -1202,9 +1238,9 @@
       "conference": "ACC",
       "offeredAt": "2026-08-30T15:28:14.000Z",
       "firstSeenAt": "2026-08-31T09:40:39.000Z",
-      "lastSeenAt": "2026-08-31T09:40:39.000Z",
-      "confidence": 0.45,
-      "corroborations": 1,
+      "lastSeenAt": "2026-08-31T13:40:00.998Z",
+      "confidence": 0.53,
+      "corroborations": 2,
       "evidence": [
         {
           "postId": "2094084788453863795",
@@ -1219,9 +1255,23 @@
             "schoolEvidenceType": "official_school_tag",
             "affiliationSource": "fbs_handle"
           }
+        },
+        {
+          "postId": "2094418679551422845",
+          "author": "profilefblive",
+          "url": "https://x.com/profilefblive/status/2094418679551422845",
+          "postedAt": "2026-08-31T13:35:00.000Z",
+          "via": "search:(@GatorsFB OR \"Florida\" OR \"Gators\") (of",
+          "confidence": 0.45,
+          "text": "2027 DT Jeremiah Mark from Picayune HS, MS has been offered by Florida State. @jeremiahmark44\n\nRated 3.5⭐ (#1068 NATL, #59 DT, #23 MS).\nhttps://t.co/EcZzF34fov",
+          "attribution": {
+            "targetText": "Florida State",
+            "schoolEvidenceType": "full_school_name",
+            "affiliationSource": "name"
+          }
         }
       ],
-      "status": "new",
+      "status": "corroborated",
       "tier": "P4",
       "playerHandle": "jeremiahmark44",
       "classYear": 2027,
