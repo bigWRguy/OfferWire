@@ -17445,17 +17445,25 @@
     "2094283292149510452",
     "2094047612831694893",
     "2094285175437865045",
-    "2094286286253425064"
+    "2094286286253425064",
+    "2094291236190388407",
+    "2094243794002559380",
+    "2094289610989797791",
+    "2094291929559343608",
+    "2094285995940438198",
+    "2094278387493679238",
+    "2094266427155120444",
+    "2094256273521066041"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-08-31T04:58:39.242Z",
-      "got": 810,
-      "new": 2,
-      "lag": 0.16
+      "at": "2026-08-31T05:13:46.397Z",
+      "got": 813,
+      "new": 8,
+      "lag": 0.04
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -18297,9 +18305,9 @@
       "lastPosts": 1
     },
     "buffalo": {
-      "at": "2026-08-30T08:10:23.000Z",
+      "at": "2026-08-30T18:27:51.000Z",
       "truncated": true,
-      "lastPosts": 21
+      "lastPosts": 20
     },
     "central-michigan": {
       "at": "2026-08-30T21:55:59.103Z",
@@ -18312,7 +18320,7 @@
       "lastPosts": 26
     },
     "coastal-carolina": {
-      "at": "2026-08-30T13:41:51.000Z",
+      "at": "2026-08-30T17:30:30.000Z",
       "truncated": true,
       "lastPosts": 19
     },
@@ -18384,12 +18392,12 @@
     "kent-state": {
       "at": "2026-08-29T23:29:32.000Z",
       "truncated": true,
-      "lastPosts": 21
+      "lastPosts": 22
     },
     "liberty": {
       "at": "2026-08-29T10:54:41.407Z",
       "truncated": true,
-      "lastPosts": 27
+      "lastPosts": 28
     },
     "louisiana": {
       "at": "2026-08-30T22:26:07.201Z",
@@ -25456,14 +25464,14 @@
   "lastRateLimitAt": "2026-08-30T10:26:03.959Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-08-31T04:58:39.244Z",
+    "at": "2026-08-31T05:13:46.399Z",
     "jobsTotal": 162,
     "sweptThisRun": 36,
     "requests": 36,
     "fullSweepCycles": 5
   },
   "backfill": {
-    "at": "2026-08-31T04:58:39.244Z",
+    "at": "2026-08-31T05:13:46.399Z",
     "days": 30,
     "chunkDays": 30,
     "totalWindows": 136,
@@ -25474,52 +25482,95 @@
     "remainingTeamDays": 0
   },
   "backfillCoverage": {
-    "at": "2026-08-31T04:58:39.244Z",
+    "at": "2026-08-31T05:13:46.399Z",
     "jobsTotal": 0,
     "sweptThisRun": 0,
     "requests": 0
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
   "lastAudit": {
-    "at": "2026-08-31T04:56:03.233Z",
+    "at": "2026-08-31T05:11:09.261Z",
     "mode": "all",
     "collection": {
-      "returned": 810,
-      "kept": 2,
-      "duplicate": 803,
+      "returned": 813,
+      "kept": 8,
+      "duplicate": 800,
       "tooOld": 5,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 1,
-      "rejected": 1,
+      "accepted": 5,
+      "rejected": 3,
       "reasons": {
-        "no_fbs_school": 1
+        "no_offer_term": 1,
+        "no_fbs_school": 2
       },
       "samples": [
         {
+          "reason": "no_offer_term",
+          "postId": "2094243794002559380",
+          "author": "militarydotcom",
+          "searchJob": "liberty",
+          "text": "Iran swiftly vowed to retaliate for what it called a deadly attack. https://t.co/RdzV7ZdJOa"
+        },
+        {
           "reason": "no_fbs_school",
-          "postId": "2094286286253425064",
-          "author": "thickaxxcassie",
-          "searchJob": "colorado",
-          "text": "I was offered 100’s of $$$$ for nature pee videos 😭🤣 also married Pueblo, Colorado"
+          "postId": "2094289610989797791",
+          "author": "ghrsussexkent",
+          "searchJob": "kent-state",
+          "text": "University Hospitals Sussex says it offers its deepest condolences to families after concerns were raised over maternity care. Those in charge of a new review are preparing to meet those affected later this week. Read more ⬇️ https://t.co/O"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094291929559343608",
+          "author": "sreeramjvc",
+          "searchJob": "buffalo",
+          "text": "Can Joseph Vijay emerge as a PM candidate in 2029? If so are there other regional parties willing to offer support? https://t.co/W0W2F3mGF8"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 5,
       "reasons": {
-        "bare_mention_requires_llm": 1
+        "bare_mention_requires_llm": 5
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094285175437865045",
-          "author": "tylertalksball",
-          "searchJob": "buffalo",
-          "text": "@AndrewDBailey The Bulls and Kings are tanking, why would Jonathan Kuminga play there? Wolves can offer a 1 yr, $15.87M deal via the full MLE in 2027. This gives Minnesota early bird rights in 2028 to sign Kuminga up to 175% of his previous"
+          "postId": "2094291236190388407",
+          "author": "freephonefrees1",
+          "searchJob": "liberty",
+          "text": "🇺🇸😎🚔 2 H, DoW CONF & APPD ALL MY X DEAR 🇮🇷, TAKE A LOOK AT THIS 👓👓👓👓 Prabowo Welcomes Belarus President Lukashenko at Palace July 2, 2026 https://t.co/DgZ1K0vNUm POST BY 🇮🇩 PRES SUBIANTO, IN ☠️ STYLE ON 🇬🇧 LYNN FORESTER DE ROT"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094285995940438198",
+          "author": "wurzer_joseph",
+          "searchJob": "coastal-carolina",
+          "text": "@latimes I now see 🇨🇦 as a nation security threat. I hope we help break up 🇨🇦. -Quebec will🗳️on secession soon. If we offer a🆓Trade deal if they become independent we tip the ⚖️. -Alberta will follow. Then at least one other province "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094278387493679238",
+          "author": "kikaogroup",
+          "searchJob": "coastal-carolina",
+          "text": "🌴✨ Looking for a luxurious escape in Diani? This stunning Airbnb studio offers the ultimate getaway! With modern amenities, serene surroundings, and even a gorgeous pool, it’s your perfect coastal retreat. 💙 Ready to make your dream vacat"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094266427155120444",
+          "author": "nuclear_bp",
+          "searchJob": "coastal-carolina",
+          "text": "Nuclear energy isn't just about electricity—it's about water. Nuclear desalination is one of the most under-discussed solutions to global water scarcity. A single nuclear reactor can produce enough desalinated water to supply a city of 1 mi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094256273521066041",
+          "author": "morninggba",
+          "searchJob": "coastal-carolina",
+          "text": "Shenzhen has added a new waterfront sports destination with the opening of the Prince Bay Coastal Sports Center on Aug 29. Located between the Shenzhen Cruise Homeport and Sea World Culture and Arts Center, the facility offers paddleboardin"
         }
       ]
     },
@@ -25534,7 +25585,7 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 1,
+      "rejectedCandidates": 5,
       "brandNewOffers": 0
     }
   }
