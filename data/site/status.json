@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-01T06:58:42.704Z",
+  "generatedAt": "2026-09-01T07:13:48.658Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-01T06:58:42.237Z",
+    "at": "2026-09-01T07:13:48.205Z",
     "jobsTotal": 162,
     "sweptThisRun": 36,
     "requests": 36,
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7855036111111111,
-    "p95Hours": 1.7055680555555555,
-    "worstHours": 1.7055680555555555
+    "medianHours": 0.7914005555555556,
+    "p95Hours": 1.5420733333333334,
+    "worstHours": 1.5420733333333334
   },
   "decisionCoverage": {
-    "total": 53,
-    "decided": 53,
+    "total": 52,
+    "decided": 52,
     "complete": true
   },
   "pending": {
@@ -52,292 +52,279 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-01T06:58:42.236Z",
-      "got": 60,
-      "new": 53,
-      "lag": 0.04
+      "at": "2026-09-01T07:13:48.204Z",
+      "got": 63,
+      "new": 52,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-01T06:56:18.207Z",
+    "at": "2026-09-01T07:11:18.814Z",
     "mode": "live",
     "collection": {
-      "returned": 60,
-      "kept": 53,
-      "duplicate": 6,
+      "returned": 63,
+      "kept": 52,
+      "duplicate": 10,
       "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 41,
-      "rejected": 12,
+      "accepted": 42,
+      "rejected": 10,
       "reasons": {
-        "no_offer_term": 7,
-        "no_fbs_school": 5
+        "no_offer_term": 5,
+        "no_fbs_school": 4,
+        "hard_negative": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2094680656110625079",
-          "author": "orahonx",
-          "searchJob": "wake-forest",
-          "text": "A man in a Space says police took his daughter. The High Court says something else. 13 ignored return orders. A contempt finding. And a mother who never stopped fighting. Two sides. One story. https://t.co/8cUhYcEcCW"
+          "postId": "2094305695906881631",
+          "author": "upkiraftaargovt",
+          "searchJob": "arkansas-state",
+          "text": "Pure happiness, captured. #YogiAdityanath #CMYogi #YogiSarkar #UttarPradesh #JantaDarshan #LittleSmiles https://t.co/7lQFHisgBf"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2094651194383986760",
-          "author": "hanaabira",
-          "searchJob": "wake-forest",
-          "text": "“Oh, thank you, that’s nice of you to say,” Miki smiled softly. Getting promoted in the middle of a calamity didn’t leave much room for congratulations or celebration, so it was nice to receive a bit of acknowledgment. https://t.co/jGhSvo8b"
+          "postId": "2094473079670120475",
+          "author": "transforming_up",
+          "searchJob": "arkansas-state",
+          "text": "From transforming its business environment to attracting record investments, Uttar Pradesh is emerging as a leading investment destination. ₹50 Lakh Crore+ investment proposals | 1.10 Cr potential jobs | ₹2.01 Lakh Cr exports Invest in UP. "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2094656462295630113",
-          "author": "the_far_queen",
-          "searchJob": "wake-forest",
-          "text": "The Far Queen arrives on Mars. https://t.co/iMz8WsAWI3"
+          "postId": "2094676854179594574",
+          "author": "usambindia",
+          "searchJob": "army",
+          "text": "A major step forward for the U.S.-India defense partnership. This collaboration between @LockheedMartin, @Raytheon, and @tataadvanced will create new opportunities for U.S. companies, strengthen America’s defense-industrial base, and boost "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094678485843197959",
-          "author": "bts_report",
-          "searchJob": "phrase:\"picked up an offer from\"",
-          "text": "Congratulations to @CalvinGoss2028 who has picked up an offer from @MercerMBB"
+          "postId": "2094669769018634469",
+          "author": "charlottea61941",
+          "searchJob": "charlotte",
+          "text": "Stay safe in the crypto world! Always do your research before investing, be cautious of offers that seem too good to be true, and never share your private keys. Trust your instincts! https://t.co/asa9S5fDXn"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2094673823501345157",
-          "author": "prafulsai",
-          "searchJob": "rice",
-          "text": "What if someone offers me a random medal?"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094638235867910382",
-          "author": "redboxindia",
-          "searchJob": "rice",
-          "text": "PM MODI SAYS INDIANS TO AVOID FOREIGN TRAVEL"
+          "reason": "hard_negative",
+          "postId": "2094672225479630859",
+          "author": "josiahjdp",
+          "searchJob": "coastal-carolina",
+          "text": "I accepted after reviewing every page with an attorney. The decision was not dramatic, but signing my name felt more meaningful than signing a marriage license would have felt months earlier because this future belonged entirely to me. I in"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2094532714787385540",
-          "author": "queen_aeesha",
-          "searchJob": "rice",
-          "text": "I am so sorry MLS but Guimarães is better."
+          "postId": "2094664401231995230",
+          "author": "gbengawemimo",
+          "searchJob": "temple",
+          "text": "https://t.co/Ln9yrHnDoO"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094668743645491320",
-          "author": "farukbhyn",
-          "searchJob": "california",
-          "text": "Luxury Home For Sale in Riverside-Paid Off Solar 18570 HALTER LN, RIVERSIDE, CA 92504 ( Horse Property for Sale in Riverside, California ) Offered at: $1,050,000 Beds: 4 Baths: 3 Sq Ft: 2207 2.48 Acres Lot Built In: 1979 Offered at: $1,050,"
+          "postId": "2094668007477829992",
+          "author": "showtroylove",
+          "searchJob": "troy",
+          "text": "@MarcNixon24 Thank you, Canada. You should have used that in negotiations with the US: you can keep all your tariffs if you round up, take, and keep all the liberals in the USA indefinitely. Learn how to make good offers Trumpian-style. Goo"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094655810164920748",
-          "author": "raymiramontes_",
-          "searchJob": "california",
-          "text": "🏡 Looking for a fully renovated pool home in Downey? Here’s what $1,325,000 gets you. 🚨 Interested? Call or text Ray directly at 562-600-9793 for the address, photos & full details. This Downey home for sale offers 4 bedrooms, 3 bathrooms"
+          "postId": "2094672055690207573",
+          "author": "princess_ikeaka",
+          "searchJob": "florida",
+          "text": "Goes to show what an echo chamber can do to somebody… you do realize that: it was because of #Trump that started the investigation because he turned him in (according to the sheriff in Florida) was the only man who actually punished Epstein"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094671675551838226",
+          "author": "thedukeofmadrid",
+          "searchJob": "duke",
+          "text": "Jude Bellingham is a better midfielder than both Pedri, Fermín, Laporta and De Jong combined, and he offers more to the team than just scoring goals. Jude Bellingham is in a conversation for the all-time greatest midfielders, and none of th"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2094678591154118762",
-          "author": "erik_thorvalds",
-          "searchJob": "notre-dame",
-          "text": "https://t.co/cuzXdCFeVK"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094508018352456116",
-          "author": "marionawfal",
-          "searchJob": "notre-dame",
-          "text": "🇧🇪🇪🇺🇷🇺 Belgium told EU the Russian money stays locked. Defense Minister Francken said no after Poland, the Netherlands, Spain and Sweden pushed to revive a €210B Ukraine loan backed by frozen Russian reserves. Almost all of it sits at"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094673014155542774",
-          "author": "irish_eagles",
-          "searchJob": "notre-dame",
-          "text": "@thomasrp93 Do you think right now Ertz can still be a no.2 TE behind Dallas and can offer more than the rest of the TE’s we have on the roster.. because I do!"
+          "postId": "2094670356904599741",
+          "author": "shadrack12g",
+          "searchJob": "duke",
+          "text": "Most of you might not agree with what I’m about to say, but the truth is the truth. 😂 Pedri and Fermín Lopez combined are nowhere near Jude Bellingham in terms of overall quality and impact. And honestly, I think Pedri is one of the most o"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 41,
+      "rejected": 42,
       "reasons": {
-        "bare_mention_requires_llm": 3,
-        "school_not_resolved_confidently": 18,
+        "bare_mention_requires_llm": 10,
+        "school_not_resolved_confidently": 12,
         "multiple_resolved_schools": 20
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094676794888912973",
+          "postId": "2094678543544328210",
+          "author": "lavaheadza",
+          "searchJob": "arkansas-state",
+          "text": "🇿🇦 Sjoe! TRC2 Loading… South Africa’s Unfinished Justice Is Still Waiting for the Truth 🔍⚖️ ~ 🇿🇦 Sjoe! The Missing Ingredient in Reconciliation? Presidential Truth-Telling 🗣️⚖️ ~ 🚪 The Door to Constitutional Repair May Begin With the"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094677432724812122",
+          "author": "skateboards_cow",
+          "searchJob": "arkansas-state",
+          "text": "Even if he were to incur a latae sentiae excommunication, the pope would not cease being the pope, for the same reason a priest can offer the Mass even if he is in a state of mortal sin and a formal heretic. If the validity of the sacrament"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094666991713837137",
+          "author": "nickfshort",
+          "searchJob": "arkansas-state",
+          "text": "No, it's just what I say to you. AJP Taylor's assessment reflects a view that was held for many years but recent research - in particular about the timeline involved - comes to a very different conclusion. The critical part of which is that"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094662413723525295",
+          "author": "real_pushpa",
+          "searchJob": "arkansas-state",
+          "text": "This is not just a cute clip. This is the difference between two models of power. In the old SP Sarkar years, Uttar Pradesh was remembered for fear first and governance later. Families thought twice before stepping into a public hall with a"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094658213119746504",
+          "author": "real_pushpa",
+          "searchJob": "arkansas-state",
+          "text": "Under the previous SP Sarkar, Uttar Pradesh was a cautionary tale. Investors stayed away. Factories barely grew. Law and order was a joke — mafia raj, frequent riots (815 communal incidents between 2012-2017), and an image so damaged that e"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094655949889761698",
+          "author": "drhachi3",
+          "searchJob": "arkansas-state",
+          "text": "@Murat_Temur_80 @VerminusM A formula to formalize apartheid and enslavement was offered as a state solution, in other words, the Gaza model for all of Palestinians, nothing in or out without Israel."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094683053767660006",
+          "author": "moixety",
+          "searchJob": "army",
+          "text": "LETTING GO OF (2) INGLEWOOD VIP SOUNDCHECK PACKAGE BTS TICKETS (9/6) d4 GOING FOR LOWER THAN I GOT THEM🥺 Open to OFFERS PLEASE TEXT ME IF INTERESTED💜 🏷️ army bts world tour arirang California ca la wtt wts ticket Los Angeles day 4 wtb is"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094681243141206286",
+          "author": "abhishek_8724",
+          "searchJob": "army",
+          "text": "US Ambassador confirms Javelin Joint Venture: Lockheed Martin + Raytheon ink MoU with Tata Advanced Systems to co-produce Javelin in India — days after Indian Army signed a Letter of Offer and Acceptance for the Javelin system through US Fo"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094680027359051909",
+          "author": "normalhottook",
+          "searchJob": "army",
+          "text": "‼️wts bts army membership presale tickets for LA ‼️ 2 second row tickets. reason: I can no longer attend want fv or best offer PAYMENT METHOD: apple cash, paypal or zelle willing to facetime DM if interested bts arirang world tour sofi stad"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094674689847374011",
+          "author": "duninvitedpress",
+          "searchJob": "army",
+          "text": "51 Indian lives lost after recruitment into the Russian army. India’s Foreign Secretary Vikram Misri confirmed that 51 of 227 Indian nationals who joined Russian forces have been killed in the Ukraine war. Another 139 have been discharged. "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094673659193618938",
+          "author": "resonant_news",
+          "searchJob": "army",
+          "text": "🔴51 Indians Killed in Russian Army, 139 Discharged; India Pushes for Return of Remaining Personnel 227 Indians are known to have been recruited into the Russian armed forces. 139 have been discharged and India is working to bring them home"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094662694708326425",
+          "author": "alpha_abhijit",
+          "searchJob": "army",
+          "text": "As of 31 August 2026, India’s Foreign Secretary Vikram Misri confirmed that 227 Indian nationals had been recruited into the Russian army during the Ukraine war. Of these, 139 have been discharged and 51 have been killed. Remaining cases ar"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094657640534065260",
+          "author": "historyfactou",
+          "searchJob": "army",
+          "text": "HISTORICAL BACKGROUND OF PUNGWES OR ALL NIGHT VIGILS Pungwes (from the Shona word often linked to “sunrise” or all-night gatherings lasting until dawn) were traditional or adapted night vigils that ZANLA guerrillas and rural communities tra"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094672478471921859",
           "author": "savinthebees",
-          "searchJob": "wake-forest",
-          "text": "My name is Daejon Love. I’m 35 years old. My house is in the northeast section of Malibu, where all the $15 million beach houses are, and I am not married. I work as a wide receiver for the San Francisco 49ers, and I get home every day afte"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094666065833873784",
-          "author": "spookede86704",
-          "searchJob": "wake-forest",
-          "text": "Building a business from scratch is brutal. You ship the product. Write the offer. Find clients. Market every day. Handle every setback. Then wake up and do it again. Financial freedom demands endurance."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094659920612520397",
-          "author": "wyatt_claypool",
-          "searchJob": "wake-forest",
-          "text": "Outside of the Chicoutimi Le Fjord riding in Quebec where CPC vote bottomed out due to Richard Martel leaving for a Senate appointment from Carney, the other 2 ridings (North Van, and Beaches) basically just reflect the reality of what Angu"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094656580746711284",
-          "author": "kyuubantaii",
-          "searchJob": "wake-forest",
-          "text": "“It was a weird time to step up. You handled it well.” Stoic as he might be, efforts deserved to be recognized in the wake of hardships. At least, to those who deserved it. As he crouched to inspect the herbs shed so graciously offered, his"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094654290925117660",
-          "author": "91352y",
-          "searchJob": "wake-forest",
-          "text": "👻😝Chase warm sunrise on your early‑morning travel. Stand on high hilltops as orange sunlight spills all over the valley, wake up alongside nature. Let the stunning morning view wash away your weariness and appreciate the breathtaking beau"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094654263729529077",
-          "author": "juliangoldieseo",
-          "searchJob": "wake-forest",
-          "text": "🚨 𝗙𝗜𝗡𝗔𝗟 𝟲𝟬 𝗠𝗜𝗡𝗨𝗧𝗘𝗦 𝗢𝗙 𝗔𝗨𝗚𝗨𝗦𝗧! 𝗟𝗔𝗦𝗧 𝗖𝗔𝗟𝗟 𝗙𝗢𝗥 𝗔𝗟𝗟 𝟲𝟳 𝗞𝗜𝗧𝗦 + 𝟮 𝗙𝗥𝗘𝗘 𝗖𝗨𝗦𝗧𝗢𝗠 𝗔𝗜 𝗕𝗨𝗜𝗟𝗗𝗦 + 𝗧𝗢𝗗𝗔𝗬'𝗦 𝗣𝗥𝗜𝗖𝗘 𝗙𝗢𝗥𝗘𝗩𝗘𝗥 → https://t.co/Ppmk5h9rw3 🚨 𝗔𝗧 𝗠𝗜𝗗𝗡𝗜𝗚𝗛𝗧 𝗣\ud835"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094652739917697390",
-          "author": "jjoelpadilla",
-          "searchJob": "wake-forest",
-          "text": "🃏🇬🇷🕎🦅👑 USKrael offers military protection to Greece: We already have the new sacrificial for their war against Türkiye/Balkans... Lie down with Judas and you’ll wake up dead! 👑🦅🕎🇬🇷🃏"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094679412109349224",
-          "author": "arunabhahalder1",
-          "searchJob": "rice",
-          "text": "@SwiggyCares @SwiggyIndia daylight theft on Independence Day! RID: 1358310 (Addy's Rice Spice) My set offer: FEASTMODE40 (Max ₹80 off). But your system auto-applied \"Flat ₹100 off\" + extra discounts totaling ~₹200! Why is money cut from my "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094678727229927906",
-          "author": "tanmedia",
-          "searchJob": "rice",
-          "text": "@MichaelWestBiz The data source you are referring to for rice prices is the US futures price. In Japan right now, rice prices are down 16% yoy and farmers have been offered prices &lt; prodn cost. In China, prices are slightly negative. Vie"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094662064937558042",
-          "author": "adunniolaide02",
-          "searchJob": "rice",
-          "text": "Yesterday, someone came to buy foodstuff and said, “Please, measure it well o. I don’t want to get home and start wondering where the rest went.” 😂 I laughed because that’s exactly why I chose the name Accurate Measure Foodstuff Store. Whe"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094657847879442733",
-          "author": "delaware_goonaa",
-          "searchJob": "rice",
-          "text": "Myles offers us so much creativity but Bruno G’s reading of the game is levels ahead. He’s Rice with incredible passing."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094678210344530181",
-          "author": "phaneroombarara",
-          "searchJob": "south-florida",
-          "text": "THE PRIESTLY CALL: INTERCESSION AS SERVICE TO GOD Job 42:8 (NKJV): “Now therefore, take for yourselves seven bulls and seven rams, go to My servant Job, and offer up for yourselves a burnt offering; and My servant Job shall pray for you. Fo"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094675932367786463",
-          "author": "jeizrel",
-          "searchJob": "south-florida",
-          "text": "@D_WarEagle The truth is, Man Utd is a victim of its success. Lots of those talking bulls about our players are not Utd fans. They are just looking for quick ways to gain social media traffic, and @ManUtd offers that. One word about Utd gua"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094675728717479978",
-          "author": "dhinkie1",
-          "searchJob": "south-florida",
-          "text": "THE PRIESTLY CALL: INTERCESSION AS SERVICE TO GOD Job 42:8 (NKJV): “Now therefore, take for yourselves seven bulls and seven rams, go to My servant Job, and offer up for yourselves a burnt offering; and My servant Job shall pray for you. #P"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094674373571662200",
-          "author": "ncyrus44",
-          "searchJob": "south-florida",
-          "text": "THE PRIESTLY CALL: INTERCESSION AS SERVICE TO GOD Job 42:8 (NKJV): “Now therefore, take for yourselves seven bulls and seven rams, go to My servant Job, and offer up for yourselves a burnt offering; and My servant Job shall pray for you. Fo"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094669868561756269",
-          "author": "phanerookampala",
-          "searchJob": "south-florida",
-          "text": "THE PRIESTLY CALL: INTERCESSION AS SERVICE TO GOD Job 42:8 (NKJV): “Now therefore, take for yourselves seven bulls and seven rams, go to My servant Job, and offer up for yourselves a burnt offering; and My servant Job shall pray for you. Fo"
+          "searchJob": "charlotte",
+          "text": "Okay so I’m on my way to get my mom. I know I get a lot of fans who want to know how ball works or how I got involved in the league and stuff like that. I know it’s difficult now since switching teams. I just want to give some context cuz a"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094671882096087053",
-          "author": "firearmsguide",
-          "searchJob": "arizona",
-          "text": "No Need to Travel Far for Excellent Dove Hunting City of Buckeye welcomes hunters for season opener https://t.co/Le4Utw9asS - Professional Gunsmithing Library with 27,650 Printable Gun Manuals, Catalogs, Schematics & Blueprints + Guns & Amm"
+          "postId": "2094667608972783696",
+          "author": "josiahjdp",
+          "searchJob": "coastal-carolina",
+          "text": "I drove south with no destination, following the highway until the skyline disappeared behind me and the air coming through the cracked window began to smell faintly of salt. Near midnight, I stopped at a gas station, bought coffee that tas"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094682492381131152",
+          "author": "vitaltooth_",
+          "searchJob": "temple",
+          "text": "Firstly—this is not against any organization or spiritual guru.🙏🏻 But let's be honest 🙏🏻👇🏻 Your mind is constantly bombarded with thoughts. That's why you seek detachment. But money cannot buy you peace. If your mind is still—your tho"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094676127377985706",
+          "author": "ians_india",
+          "searchJob": "temple",
+          "text": "Lucknow, Uttar Pradesh: Minister Sanjay Nishad says, \"Those who never went to help build the Ram Temple, never went there to offer prayers, and never even visited or made any effort to serve there, what have they got to do with this? Neithe"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094668387444195481",
+          "author": "newsarenaindia",
+          "searchJob": "temple",
+          "text": "Telangana Governor Shiv Pratap Shukla offers prayers at Tirumala temple. https://t.co/Q8rCMcd59P"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094664193190601094",
-          "author": "4thesakeofpeace",
-          "searchJob": "california",
-          "text": "@BMartin1776 @TimRunsHisMouth California is not a failed state; it is the fourth-largest economy in the world, a hub of innovation, an incredible state in terms of quality of life, and it offers the best education in the country. People who"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094676414880497794",
-          "author": "rasnamban",
-          "searchJob": "notre-dame",
-          "text": "Rás na mBan is delighted to announce Cycling Ireland will sponsor the Points classification for the 20th edition of Ireland’s international stage race for women. Cycling Ireland joins a number of other Rás na mBan partners in extending thei"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094676022062981390",
-          "author": "marcorio61o",
-          "searchJob": "notre-dame",
-          "text": "**🇧🇪 Belgium just told the EU: \"The door is closed.\"** Four EU countries — Poland, Netherlands, Spain, Sweden — pushed to revive a €210 billion loan for Ukraine backed by frozen Russian assets. Belgium said no. Again. **This is not stupid"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094662646112879104",
-          "author": "rasnamban",
-          "searchJob": "notre-dame",
-          "text": "As Rás na mBan prepares for its 20th edition of Ireland’s leading international stage race for women, we’re delighted to confirm Sport Ireland’s continued support which is recognised at the event through the Best Young Rider classification."
+          "postId": "2094662465938420004",
+          "author": "lorraineevanoff",
+          "searchJob": "florida",
+          "text": "\"They Said It Was Legal. A Grand Jury Said Otherwise. An insurance company called Centene overcharged the state of Florida for prescription drugs—medicine paid for by Medicaid. When they got caught, they offered to pay $67 million back. $10"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2094680697441005955",
+          "postId": "2094684445106151722",
           "author": "randyferrell",
-          "searchJob": "air-force",
+          "searchJob": "georgia",
           "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2094680620899180719",
+          "postId": "2094684322762547427",
           "author": "randyferrell",
-          "searchJob": "air-force",
+          "searchJob": "georgia",
           "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2094680374978764882",
+          "postId": "2094684211923783811",
           "author": "randyferrell",
-          "searchJob": "air-force",
+          "searchJob": "georgia",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094684117489078579",
+          "author": "randyferrell",
+          "searchJob": "georgia",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094684021154365460",
+          "author": "randyferrell",
+          "searchJob": "georgia",
           "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
         }
       ]
@@ -353,11 +340,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 41,
+      "rejectedCandidates": 42,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-01T06:58:42.706Z"
+    "status rebuilt locally from current store on 2026-09-01T07:13:48.660Z"
   ]
 }
