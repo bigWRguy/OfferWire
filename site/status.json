@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-01T09:58:48.316Z",
+  "generatedAt": "2026-09-01T10:13:33.358Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-01T09:58:48.063Z",
+    "at": "2026-09-01T10:13:33.197Z",
     "jobsTotal": 162,
     "sweptThisRun": 36,
     "requests": 36,
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5446005555555555,
-    "p95Hours": 1.0439672222222223,
-    "worstHours": 1.0439672222222223
+    "medianHours": 0.53537,
+    "p95Hours": 1.0329905555555556,
+    "worstHours": 1.0329905555555556
   },
   "decisionCoverage": {
-    "total": 24,
-    "decided": 24,
+    "total": 7,
+    "decided": 7,
     "complete": true
   },
   "pending": {
@@ -52,210 +52,88 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-01T09:58:48.062Z",
-      "got": 41,
-      "new": 24,
-      "lag": 0.08
+      "at": "2026-09-01T10:13:33.197Z",
+      "got": 9,
+      "new": 7,
+      "lag": 0.17
     }
   },
   "audit": {
-    "at": "2026-09-01T09:56:18.063Z",
+    "at": "2026-09-01T10:11:06.888Z",
     "mode": "live",
     "collection": {
-      "returned": 41,
-      "kept": 24,
-      "duplicate": 17,
+      "returned": 9,
+      "kept": 7,
+      "duplicate": 2,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 19,
-      "rejected": 5,
+      "accepted": 5,
+      "rejected": 2,
       "reasons": {
-        "hard_negative": 2,
-        "no_fbs_school": 2,
-        "no_offer_term": 1
+        "hard_negative": 1,
+        "no_fbs_school": 1
       },
       "samples": [
         {
           "reason": "hard_negative",
-          "postId": "2094708339057754591",
-          "author": "coffeejointtv",
-          "searchJob": "miami",
-          "text": "I can prove they committed fraud in my mortgage and in the Court in Miami by intentionally leaving out evidence in my complaint and Not Showing up For Court as the Judge was placed on my case directly from Home Land Security Judge John Schl"
+          "postId": "2094727702657831135",
+          "author": "nims213",
+          "searchJob": "washington-state",
+          "text": "What's the salary? These employers aren’t saying, despite warnings from New York regulators https://t.co/5rZWWDmiOo Getty Images; Tyler Le/BI New York in 2023 began requiring companies to include pay ranges in job listings. Polymarket and o"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094724550399303880",
-          "author": "codealpha00",
-          "searchJob": "texas",
-          "text": "@rascal113646 @IdahoansFirst @POTUS 100,000 sq feet are just under 2 acres. I have a 4 acre plot in Texas. If anyone wants to build a data center there, make an offer. The offer needs to include compute."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094720158053138598",
-          "author": "brucemartinez",
-          "searchJob": "texas",
-          "text": "Who remembers the start of the legend of the Chupacabra? August 1995. Canóvanas, Puerto Rico. A woman named Madelyne Tolentino looks out her window one afternoon and sees something that shouldn’t exist: about four feet tall, walking on two "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094722728029036801",
-          "author": "prosperofficial",
-          "searchJob": "washington",
-          "text": "https://t.co/rfHPUDXa4k"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2094714300614971855",
-          "author": "katt3jc1",
-          "searchJob": "washington",
-          "text": "Biden killed the original project. Trump wants it back. Canada’s side was already approved and some pipe is still sitting in the ground in Alberta. That’s all true. Here’s the actual government picture. Alberta’s position is straightforward"
+          "postId": "2094724206185357640",
+          "author": "islandsmagazine",
+          "searchJob": "california",
+          "text": "Badger Pass Ski Area in Yosemite, California, the oldest in the state, offers several areas for skiing and snowboarding, as well as lessons for all ages. https://t.co/oFCGDY2vg8"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 19,
+      "rejected": 5,
       "reasons": {
-        "multiple_resolved_schools": 1,
-        "bare_mention_requires_llm": 7,
-        "school_not_resolved_confidently": 11
+        "bare_mention_requires_llm": 5
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094718428879982949",
-          "author": "dunnbilly87734",
-          "searchJob": "buffalo",
-          "text": "AI Overview Islamic Prophecy (The Kaaba) In authentic hadith (such as in Sahih al-Bukhari), the Prophet Muhammad prophesied that the Kaaba—the famous black cubic shrine in Mecca—will be destroyed at the very end of time. The destroyer is de"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094725958330888235",
+          "author": "earthdesires",
+          "searchJob": "north-carolina",
+          "text": "To the man caught between two worlds, who must choose between duty and heritage before darkness consumes them all — this is for you. Righteous Allegiance by George Yuhasz A divided nation. A deadly plot. A man caught between two worlds. Wil"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094712546397651329",
-          "author": "uphonestreal",
-          "searchJob": "buffalo",
-          "text": "🍟 CANADA HAS PIZZA CHAINS. BURGER CHAINS. COFFEE CHAINS. But somehow one of the country's most recognizable foods is still wildly fragmented: POUTINE. 🇨🇦 Fries. Cheese curds. Gravy. Three ingredients. Thousands of interpretations. And an"
+          "postId": "2094718433736733125",
+          "author": "ctopiniononly",
+          "searchJob": "liberty",
+          "text": "Mornin World. Taco Tuesday is here. The day that really doesn't offer much. But how about we start off with a trip to the porch for some coffee, another God blessed sunrise and a big ole slice of FREEDOM. I pledge allegiance to the flag of "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094719283892785223",
-          "author": "josiahjdp",
-          "searchJob": "delaware",
-          "text": "The realization forced a different kind of silence over the room. Dominic ordered the cleaners to preserve every device while Leo connected the first phone to an isolated terminal. Clara asked for gloves, ignored Dominic’s instruction to re"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094725403491602636",
-          "author": "gmohapatrabjp",
-          "searchJob": "temple",
-          "text": "At the Hanuman Temple in Dera, Talcher Assembly Constituency, I had the divine darshan of Prabhu Bajrangbali and offered prayers for the welfare, peace and prosperity of all. #JaiShreeRam #JaiBajrangbali #Talcher #Dera #GolakMohapatra #BJPO"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094719795031625750",
-          "author": "janecampbell15",
-          "searchJob": "temple",
-          "text": "@SDegidon @bonnewillbonne @Marybegood4all @carothers_30703 @GuideRealist @Katie4west7 @AngelaW14838915 @DarkKnight469 @MeaghieC @PeterMOrem @JohnnieBo77 @DaveOfVilnius @TomHillsisyphus @bryce_tatroe @AtlOBrien @Burgess7281975 @kit3588 @Call"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094718653870780926",
-          "author": "fgenteroyjr",
-          "searchJob": "temple",
-          "text": "💔 Month of September — Our Lady of Sorrows A Month of Compassion, Reflection, and Love at the Foot of the Cross 📌 Why September? The whole month of September is dedicated to Our Lady of Sorrows, whose feast we celebrate on September 15. I"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094718475780624579",
-          "author": "uptourismgov",
-          "searchJob": "temple",
-          "text": "Discover The Divine Charm Of Shri Banke Bihari Temple Located in the sacred town of Vrindavan, Shri Banke Bihari Temple is dedicated to Lord Krishna in His beloved form of Bihari Ji. From its vibrant atmosphere to the deep devotion of its v"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094718197329240166",
-          "author": "newspopfff",
-          "searchJob": "temple",
-          "text": "#Snake_Climbs_Onto_Shivling_Youth_Takes_Away Unnao Temple CCTV Captures Shocking Moment: Youth Takes Snake From Shivling in a Bag Unnao, Uttar Pradesh: A bizarre incident at a Shiva temple in the Ganga Ghat police station area of Unnao has "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094717514903404564",
-          "author": "yunnanconnect",
-          "searchJob": "temple",
-          "text": "Looking for a mountain escape in Yunnan? ⛰️ Yunfeng Mountain in Tengchong city rises 2,449 meters above sea level, with lush vegetation and a thriving ecosystem. Perched on the mountainside, Yunfeng Temple offers breathtaking views over the"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094711879654367387",
-          "author": "maximumpain333",
-          "searchJob": "temple",
-          "text": "IF EVERYTHING YOU OFFERED WAS NOT ENOUGH, OFFER YOUR ABSENCE. There comes a sacred threshold where giving more becomes a form of self-erasure. You poured light into rooms that preferred the dark. You laid your heart on altars that never lea"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094709677015826666",
-          "author": "ians_india",
-          "searchJob": "temple",
-          "text": "Koppal, Karnataka: Minister K. S. Basavanthappa visited Koppal district headquarters for the first time after assuming office and offered prayers at the Huligemma Devi Temple https://t.co/qUADmmAZvk"
+          "postId": "2094712322472243653",
+          "author": "xrpl_demon",
+          "searchJob": "liberty",
+          "text": "🏆🦅 GOLDEN BATCH — OFFICIAL QUALIFICATION INFO The Golden Batch NFT is an exclusive premium NFT created for the earliest $VALOR supporters who participated during the Pre-Market phase. ━━━━━━━━━━━━━━━━━━ 🏆 HOW TO QUALIFY Hold a minimum of"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094722512684724660",
-          "author": "godxine",
-          "searchJob": "toledo",
-          "text": "@EliasKokinos We don’t even keep our own players so? If Inacio is handed these minutes and his market value sky rockets, we sell if an inviting offer comes in, so??"
+          "postId": "2094727851144524131",
+          "author": "galloptvrsa",
+          "searchJob": "arizona",
+          "text": "Leading The Way with Rouvaun Smit this Wednesday, 02 September 2026 at Hollywoodbets Durbanville. Away from the hustle and bustle of the city, Hollywoodbets Durbanville offers racing with a distinctly relaxed country feel, where fresh air, "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094714878195859495",
-          "author": "luiyaakov",
-          "searchJob": "toledo",
-          "text": "Um why would they? They offered Gaza back to Egypt in 1967 and in the 90s. At great cost they evacuated Gaza in 2005, and were rewarded with 2 years of rocket fire until they finally blockaded it. The founding document of the leaders of Gaz"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094721644652613910",
-          "author": "dimon3m",
-          "searchJob": "troy",
-          "text": "Your email is the reset link for every other account. Your domain registrar is the reset link for your email. Most people secure those two last. A 20-minute fix, in the order that actually matters: 1. Write down your reset chain, top to bot"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094710160446882140",
-          "author": "davidijaseun",
-          "searchJob": "miami",
-          "text": "When Lionel Messi declined a rumored $1.5 billion offer from Saudi Arabia to sign with Inter Miami CF, the sports world was stunned. But from a venture and sports business perspective, the decision wasn’t about leaving money on the table—it"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094722281842847817",
-          "author": "movemetotx",
-          "searchJob": "texas",
-          "text": "Four free days left at the Houston Zoo. The zoo offers free admission on the first Tuesday of each month, with remaining dates on September 1, October 6, November 3, and December 1. Reservations are required and go fast — comment ZOO and I’"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094719072235577848",
-          "author": "chris_segroves",
-          "searchJob": "texas",
-          "text": "@sunnyright @EWErickson And Paxton even offered to drop out. It’s like Cornyn wanted to have Texas lose."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094724993556844751",
-          "author": "zatawa2",
-          "searchJob": "washington",
-          "text": "Although, I wouldn't count on Trump administration at this critical moment in U.S. political climate as the mid-term elections are approaching. The Republic of Somaliland’s president Abdirahman M Abdillahi, should go to Washington D.C. U.S."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094711862147330094",
-          "author": "greatevent_",
-          "searchJob": "washington",
-          "text": "Historic architecture can set the tone for an unforgettable event. ✨ O’Connell Hall offers timeless ballroom character, elegant interiors, and space for weddings, galas, banquets, and corporate gatherings. Explore this distinctive Washingto"
+          "postId": "2094727194719158360",
+          "author": "sparqio",
+          "searchJob": "california",
+          "text": "Anthropic is facing a class-action lawsuit over allegations of misleading pricing and usage limits for its Claude Max AI subscription tiers. The suit was filed June 14 in a California US District Court. Plaintiff Karl Kahn contends that Ant"
         }
       ]
     },
@@ -270,11 +148,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 19,
+      "rejectedCandidates": 5,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-01T09:58:48.319Z"
+    "status rebuilt locally from current store on 2026-09-01T10:13:33.361Z"
   ]
 }
