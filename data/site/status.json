@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-01T05:02:46.420Z",
+  "generatedAt": "2026-09-01T05:18:26.764Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-01T05:02:46.244Z",
+    "at": "2026-09-01T05:18:26.608Z",
     "jobsTotal": 162,
-    "sweptThisRun": 35,
+    "sweptThisRun": 36,
     "requests": 36,
     "fullSweepCycles": 5
   },
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.6088144444444444,
-    "p95Hours": 1.1080091666666667,
-    "worstHours": 1.1080091666666667
+    "medianHours": 0.6163144444444445,
+    "p95Hours": 1.1217125,
+    "worstHours": 1.1217125
   },
   "decisionCoverage": {
-    "total": 18,
-    "decided": 18,
+    "total": 31,
+    "decided": 31,
     "complete": true
   },
   "pending": {
@@ -52,168 +52,258 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-01T05:02:46.243Z",
-      "got": 26,
-      "new": 18,
+      "at": "2026-09-01T05:18:26.607Z",
+      "got": 48,
+      "new": 31,
       "lag": 0.09
     }
   },
   "audit": {
-    "at": "2026-09-01T05:00:39.930Z",
+    "at": "2026-09-01T05:16:22.651Z",
     "mode": "live",
     "collection": {
-      "returned": 26,
-      "kept": 18,
-      "duplicate": 8,
+      "returned": 48,
+      "kept": 31,
+      "duplicate": 17,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 13,
-      "rejected": 5,
+      "accepted": 23,
+      "rejected": 8,
       "reasons": {
-        "no_offer_term": 2,
-        "no_fbs_school": 2,
-        "non_fbs_offer_target": 1
+        "hard_negative": 2,
+        "no_fbs_school": 4,
+        "no_offer_term": 2
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2094635666298597724",
-          "author": "generalwarmong",
-          "searchJob": "washington",
-          "text": "https://t.co/Gx5DEz9tTT"
+          "reason": "hard_negative",
+          "postId": "2094651536588886215",
+          "author": "prasannavishy",
+          "searchJob": "arkansas-state",
+          "text": "Under India semiconductor mission 2.0, India is now putting serious money behind its second chip fab. Centre will fund up to 40% of capex for a modern silicon fab, with a minimum project investment of ₹20,000 crore. A mature-node fab (say 2"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094632622198489215",
-          "author": "kcrg",
-          "searchJob": "wisconsin",
-          "text": "Measles cases rise in Wisconsin counties near Dubuque, free walk-in clinics offered https://t.co/fxXur95ozs"
+          "postId": "2094641208823808096",
+          "author": "lola_writes26",
+          "searchJob": "charlotte",
+          "text": "@PilotingSR That's amazing, have you ever kept any of the kitties? Thats the best way so you can keep helping. I have 3 foster fails at home lol, l've fostered with a few rescues and animals who just found their way to me or l offered help "
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2094637163488919703",
-          "author": "davionferg40",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "blessed to receive a post grad offer from semo prep post grad academy https://t.co/9Uu8M0KhDL"
+          "reason": "hard_negative",
+          "postId": "2094654758741213416",
+          "author": "himalaytrekker",
+          "searchJob": "temple",
+          "text": "Ashwatthama of Mahabharata- mysterious sightings Ashwatthama had received a curse from Bhagwan Shri Krishna Himself when Bhagwan punished Him by destroying the shining mani (jewel) on Ashwatthama's forehead with His Sudarshana Chakra. This "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2094637123831828837",
-          "author": "andrewgaryjr",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive a Game Day Invite from @thielcollege &amp; @coachporter1010 🏈🙏🏾 Grateful for the opportunity and looking forward to experiencing Game Day and continuing to build relationships with the coaching staff! #ClassOf2027 #Rec"
+          "postId": "2094306845557149991",
+          "author": "naliniskitchen",
+          "searchJob": "temple",
+          "text": "An anonymous Indian couple went on a honeymoon trip to New Zealand. On Reddit, they shared how much money they spent on their honeymoon: International Flights: ₹2,11,000 Domestic Flight: ₹13,000 Visa for 2: ₹30,000 12 nights Airbnb: ₹87,000"
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2094650836412506497",
-          "author": "_bre2raww",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "After a conversation with Coach Steffen I am grateful to receive my first offer from Alverno college!! (Offered June 30th, 2026) #AGTG #blessed #Collegebasketball https://t.co/2N5goBvQrp"
+          "reason": "no_offer_term",
+          "postId": "2094647384726769891",
+          "author": "publicsignalx",
+          "searchJob": "temple",
+          "text": "We call it the attention economy. But maybe attention isn’t what we really want. From likes and followers to conversational AI, technology keeps selling us something older and more human: recognition. We tap on the glass. Something taps bac"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094652715250995532",
+          "author": "prepredzoneaz",
+          "searchJob": "arizona",
+          "text": "2027 Offer Tracker: Cyrus Padilla | @adamburby_ | @chuckie_127 | @JackYost19 | Xavier Campbell | @ruocco_trevor | @rosenthalkenyon | @jacobladuke8 | @iona_kupu | @ChrisMcComber https://t.co/kbBj1NRS7r"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094652869618356316",
+          "author": "mozingo___",
+          "searchJob": "california",
+          "text": "@nettermike Tell the investigators to register to vote in California under a cartoon name and offer no ID. When they receive a mail in ballot they can charge the person who sent it to them."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094652730849784106",
+          "author": "lily_10asl",
+          "searchJob": "california",
+          "text": "The Girl Who Arrived Late — And Changed Ballet Forever Long before Misty Copeland stood beneath the lights of the American Ballet Theatre, she was a thirteen-year-old girl trying to sleep on the floor of a motel room. Around her were her mo"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 13,
+      "rejected": 23,
       "reasons": {
-        "bare_mention_requires_llm": 9,
-        "multiple_resolved_schools": 1,
-        "school_not_resolved_confidently": 3
+        "school_not_resolved_confidently": 16,
+        "bare_mention_requires_llm": 7
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094642017855004973",
-          "author": "therebeljoe",
-          "searchJob": "minnesota",
-          "text": "@MJacobsLF Minnesota prolly offered him and his family all you can eat passes or some shit."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094641866654294264",
-          "author": "thunder78825",
-          "searchJob": "minnesota",
-          "text": "I chose Minnesota over L.A. because I wanted to focus strictly on my game without the circus. The Lakers environment brings heavy noise and expectations that can pull your focus away. The Timberwolves offer a stronger defensive system, a de"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094639064410698050",
-          "author": "sjw1025",
-          "searchJob": "minnesota",
-          "text": "@GoSeaRich @AvgMarinersFan_ He practiced with Carlos Santana in the off season and Mariners didn’t even offer Santana a contract after his time here.. he ended up signing with Minnesota for 6 million dollars.. 6 million. Malpractice"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094624614311924204",
-          "author": "bballforever_",
-          "searchJob": "minnesota",
-          "text": "Jonathan Kuminga on choosing Minnesota over the Lakers 🗣️ “Not to come off disrespectful, but I didn’t feel like Los Angeles was the right environment for me. There’s a level of expectation and outside noise surrounding the Lakers that can"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094646544515350595",
-          "author": "elyzza_tours",
-          "searchJob": "washington",
-          "text": "Offer of the day... 50% early bird discounts!! WhatsApp --- 0721 585 333 kevin nduguta Hongera NMG Board Harry Misiko TheFifth Estate Washington Gikunju Joe Ageyo New Chapter Nation #MainaAndKingangi Wilfred Musau Juliana Rotich Bharat Thak"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094644185618100518",
-          "author": "guyeconomy6",
-          "searchJob": "washington",
-          "text": "Bessent vs. Bessent: How the U.S. Treasury Secretary Became an Inverted Version of Himself Scott Bessent spent years as a macro investor who bet against central bank interventions in the markets — and now, as Treasury Secretary, he himself "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094640095139869154",
-          "author": "newsagnika",
-          "searchJob": "washington",
-          "text": "Look past the handshake in Bishkek. China Russia India Pakistan and Iran sat in the same room this week while two wars still burn. Ukraine after four and a half years. Iran after six months of fire with Washington and Tel Aviv. The SCO is t"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094640030400819685",
-          "author": "thesportsontap",
-          "searchJob": "washington",
-          "text": "Pat Tillman was the 226th pick in the 1998 draft. Seventh round. An undersized safety out of Arizona State who was supposed to be a camp body. By 2000 he held the Arizona Cardinals franchise record with 224 tackles in a season. In 2001, the"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094637330896138593",
-          "author": "amopsychic",
-          "searchJob": "washington",
-          "text": "Congratulations Washington Gikunju for the new NMG Board. This transition offers an opportunity to strengthen editorial standards and restore confidence in responsible journalism. #CleanNationMedia. Hongera NMG Board. New Chapter Nation. ht"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094633665162539256",
-          "author": "marionawfal",
-          "searchJob": "washington",
-          "text": "🇷🇺🇨🇳🇮🇳 India and Pakistan, China and India, all seated at the same table in Kyrgyzstan this week. The SCO is 25: Ten members, roughly half the planet. China, Russia, India, Pakistan, Iran, Belarus, and Central Asia are meeting while U"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094646462525448452",
+          "author": "nothing_r_boss",
+          "searchJob": "notre-dame",
+          "text": "@historyinmemes I’d rather take the rat taxi home than perform some awkward Irish goodbye at parties tonight. Europeans spent centuries blaming neighbors for ghosting parties while rats quietly offered the best getaway ride."
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2094646430849798236",
-          "author": "inneinnih",
-          "searchJob": "rice",
-          "text": "You are not Mike Tyson so... STOP FIGHTING THE MEAT Sometimes the meat is not stubborn. You are simply cooking the wrong cut the wrong way. And Yes, there are meat cuts. Let me shock you... not every piece of meat wants the same treatment. "
+          "postId": "2094644605577007270",
+          "author": "ukusmd",
+          "searchJob": "notre-dame",
+          "text": "@DODubhda The Irish are the very worse Jew haters, as bad as their Nazi pals from WWII . The IRA even offered to assist Hitler to invade Britain . They really are the scum of the earth and dregs of humanity"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094654143403077849",
+          "author": "greenday_pissed",
+          "searchJob": "arkansas-state",
+          "text": "For a better Future and near future for 🇮🇱💯✨️🙏❤️💔😢💙✡️🇮🇱 In praise of Zionism, the most successful national liberation movement of the modern age. PIERRE REHOV WRITES: \"That is the story worth telling, and it has been buried under s"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094642602503262656",
+          "author": "lorineal66",
+          "searchJob": "arkansas-state",
+          "text": "Wrong. First trial was a hung jury then the kid refused to testify at a second trial and without the main witness the chances of conviction were not that great so they offered a plea deal. Although Paxton was an associate of Hoffman they we"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2094636367317778683",
-          "author": "deeptanagpal",
-          "searchJob": "rice",
-          "text": "September is Poshan Maah. It is an opportunity to understand nutrition better, improve our everyday food choices, and contribute towards a healthier, malnutrition-free India. This year’s focus is on supporting brain development during the f"
+          "postId": "2094652841516495050",
+          "author": "abscbnnews",
+          "searchJob": "army",
+          "text": "Senator-judge Erwin Tulfo asks if other agencies offered assistance to the Philippine Army in implementing the Youth Leadership Summit (YLS) and Information Education Campaign (IEC). Prosecution witness Col. Manaros Boransing II says some s"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2094642137098776856",
-          "author": "isaacphan01",
-          "searchJob": "south-florida",
-          "text": "*Job 42:8 (NKJV):* “Now therefore, take for yourselves seven bulls and seven rams, go to My servant Job, and offer up for yourselves a burnt offering; and My servant Job shall pray for you. For I will accept him, lest I deal with you accord"
+          "postId": "2094651996359803357",
+          "author": "garykronos",
+          "searchJob": "army",
+          "text": "STARLINK Is the NEXT ESCALATION | Ukraine Offers US “ARMY OF DRONES” | I... https://t.co/g2zpEyzIWo via @YouTube"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094650713171542226",
+          "author": "i45187",
+          "searchJob": "army",
+          "text": "#Mass was his first South film, dubbed as Meri Jung One Man Army in 2007. He bought it for ₹7 lakh; when dubbed films averaged 0.8 TRP, Meri Jung delivered 1.2 TRP. That success started Goldmines South-dubbing journey. Today films are offer"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094647329043177548",
+          "author": "stillintooongi",
+          "searchJob": "army",
+          "text": "WTS X2 (two) bts los angeles arirang tickets! sunday 9/6 day 4 - floor C5, row 1 - ticket includes: vip soundcheck - would like to make back what I paid for but open to reasonable offers - can send any proof ! please dm if interested for mo"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094646672097681697",
+          "author": "vvachirawhip",
+          "searchJob": "army",
+          "text": "WTS 2 vip soundcheck tickets to bts tour in LA d2 wed september 2nd @ sofi stadium sec b3 row 1 want face value or best offer rfs: can’t make it anymore! willing to FaceTime during transfers bts arirang tour vip army los angeles soundcheck "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094642445996663039",
+          "author": "normalhottook",
+          "searchJob": "army",
+          "text": "‼️wts bts army membership presale tickets for LA ‼️ 2 second row tickets. reason: I can no longer attend want fv or best offer PAYMENT METHOD: apple cash, paypal or zelle willing to facetime DM if interested bts arirang world tour sofi stad"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094642442523844917",
+          "author": "thomasdavik",
+          "searchJob": "army",
+          "text": "This is not Wikipedia. It is your own periodization. February and October are two events. The tsar fell while Lenin was in Zurich writing letters about a revolution that had already happened without him. German money put him on a train. It "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094636538382438509",
+          "author": "jesusarmy",
+          "searchJob": "army",
+          "text": "Gospel of Judas Mirrors Gospel of Judas Mirrors: Line-by-Line Analysis Lines 1-10: The Secret Revelation Gospel of Judas: plogo{s} età|h p‘ Ntapofa|| - \"The secret account of the revelation [that] Jesus spoke\" s|is N{ta ç} H|—s é|aèe mN çoy"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094651490728022401",
+          "author": "ducks_wire",
+          "searchJob": "boise-state",
+          "text": "Dan Lanning offers injury update on Oregon RG Dave Iuli before Week 1 📸 Kevin C. Cox, Getty Images https://t.co/VHMq74MWqM https://t.co/ToZUVjNsG2"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094646154415706600",
+          "author": "foolgushesfolly",
+          "searchJob": "buffalo",
+          "text": "#Sabres #NHL #letsgobuffalo @martybiron43 #NHLJets GROK If you were the Sabre's GM would you trade for Connor Hellebuyck or is he not worth it. What would be a fair price in trade for him. Thought for 38s I would not do the deal if Winnipeg"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094647703040909798",
+          "author": "primesiteuk",
+          "searchJob": "coastal-carolina",
+          "text": "JS Hotels offers stylish beachfront resorts across Okinawa, Ishigaki, Miyakojima and more—combining modern comfort, stunning coastal scenery and warm Japanese hospitality for couples, families and island travellers. RED MORE &gt; https://t."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094650741168431351",
+          "author": "sanakisanatani",
+          "searchJob": "temple",
+          "text": "A well-planned tour across India is entirely feasible with this amount. Circular journey train tickets offer affordable travel, and accommodation at dharamshalas, gurudwaras, or temple guesthouses—found in nearly every city—keeps costs mini"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094646919171903586",
+          "author": "nileshsing11576",
+          "searchJob": "temple",
+          "text": "@LMdutchie @Crazyunfill94 I welcome the camera But I offer you to visit any temple and bring one hate speech from there against any other religion We will bring that temple down to ground I am so confident We Hindus never against any religi"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094641802515243434",
+          "author": "allu_srilatha",
+          "searchJob": "temple",
+          "text": "Making flower garlands has been one of my favourite things since childhood. I used to make huge garlands for the temple near my home and offer them every Saturday evening. I had such a beautiful, innocent belief back then. I truly believed "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094641496163307695",
+          "author": "iammgoudar",
+          "searchJob": "temple",
+          "text": "#Karnataka #Breaking Vijayendra Offers Prayers Ahead of 175-km Padayatra; JD(S) Likely to Boycott, Setback for BJP Ahead of the launch of the 175-km padayatra against the @INCKarnataka government in Karnataka, @BJP4Karnataka President @BYVi"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094636933964066999",
+          "author": "catholicismf",
+          "searchJob": "temple",
+          "text": "@Tom_in_SFCA @marcthiessen Did not the Athenians offer some worship to the true God in their temple to the unknown god? Protestants and Catholics share many aspects of the faith but that does not make all of it saving. Your inability to gra"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094646374239248535",
+          "author": "jcg52",
+          "searchJob": "arizona",
+          "text": "Paxton and his crack MAGA team have spent the last year telling non-MAGA Republicans and Independents that we were has-beens and they did not need us. We believed them. Now they want us back but offer no arguments other than their own fears"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094648806130540892",
+          "author": "jules31415",
+          "searchJob": "california",
+          "text": "Seems like many are on government assistance here? It’s crazy crowded. And the local restaurant owner I spoke with today told me the food is way overrated—while the Boomers eating there told me Trump ruined the economy (the guy brought up p"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094646697104462224",
+          "author": "godogsgo2023",
+          "searchJob": "california",
+          "text": "@OS_Beaver I'm on the fence until I see proof that they offer recruiting and tv viewers. If they need to pull from California, and we can't pull any NFL talent out of their region, that's a negative."
         }
       ]
     },
@@ -221,20 +311,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 35,
-      "failed": 1,
+      "swept": 36,
+      "failed": 0,
       "requests": 36,
-      "errors": [
-        "phrase:\"received my first offer\": SearchTimeline HTTP 404,404 (slice left pending)"
-      ]
+      "errors": []
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 13,
+      "rejectedCandidates": 23,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-01T05:02:46.422Z"
+    "status rebuilt locally from current store on 2026-09-01T05:18:26.766Z"
   ]
 }
