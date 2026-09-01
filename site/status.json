@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-01T03:26:14.190Z",
+  "generatedAt": "2026-09-01T03:43:30.024Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-01T03:13:43.344Z",
+    "at": "2026-09-01T03:43:29.779Z",
     "jobsTotal": 162,
     "sweptThisRun": 31,
     "requests": 32,
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7473036111111111,
-    "p95Hours": 1.9987966666666668,
-    "worstHours": 1.9987966666666668
+    "medianHours": 0.7875377777777778,
+    "p95Hours": 1.5360177777777777,
+    "worstHours": 2.036122777777778
   },
   "decisionCoverage": {
-    "total": 0,
-    "decided": 0,
+    "total": 70,
+    "decided": 70,
     "complete": true
   },
   "pending": {
@@ -46,59 +46,407 @@
   },
   "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 500,
+    "completeOffers": 501,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-01T03:13:43.343Z",
-      "got": 88,
-      "new": 59,
-      "lag": 0.04
+      "at": "2026-09-01T03:43:29.778Z",
+      "got": 108,
+      "new": 70,
+      "lag": 0.08
     }
   },
   "audit": {
-    "at": "2026-09-01T03:26:09.262Z",
+    "at": "2026-09-01T03:41:16.455Z",
     "mode": "live",
     "collection": {
-      "returned": 0,
-      "kept": 0,
-      "duplicate": 0,
-      "tooOld": 0,
+      "returned": 108,
+      "kept": 70,
+      "duplicate": 37,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 30,
+      "rejected": 40,
+      "reasons": {
+        "no_offer_term": 12,
+        "hard_negative": 9,
+        "no_fbs_school": 14,
+        "non_fbs_offer_target": 5
+      },
+      "samples": [
+        {
+          "reason": "no_offer_term",
+          "postId": "2094624226087207246",
+          "author": "kiti_samoa619",
+          "searchJob": "oregon-state",
+          "text": "Thank You @sixstarfootball for the write up. Aaron Jennings I appreciate you sir🫡. @HelixFootball @Daygofootball @SDPrepInsider @PrepRedzoneCA https://t.co/3qecv6ucWE"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2094629577553232017",
+          "author": "lukehamptonorg",
+          "searchJob": "south-carolina",
+          "text": "@FCRecruits @AggieFootball @CoachWiz77 @CoachDerekShay @CoachJohn_Perry Watch Shelby / Week One Highlights on QwikCut: https://t.co/1Kiky3nNsp Luke Hampton Class of 2029 Corvian Community School, Charlotte Dt/De 255 6’3 Gpa 3.2 Currently ho"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2094629375756910866",
+          "author": "lukehamptonorg",
+          "searchJob": "south-carolina",
+          "text": "@FCRecruits @Vol_Football @coachjoshheupel @CoachMHunter @Coachpoindexter Watch Shelby / Week One Highlights on QwikCut: https://t.co/1Kiky3nNsp Luke Hampton Class of 2029 Corvian Community School, Charlotte Dt/De 255 6’3 Gpa 3.2 Currently "
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2094629157149827424",
+          "author": "lukehamptonorg",
+          "searchJob": "south-carolina",
+          "text": "@FCRecruits Watch Shelby / Week One Highlights on QwikCut: https://t.co/1Kiky3nNsp Luke Hampton Class of 2029 Corvian Community School, Charlotte Dt/De 255 6’3 Gpa 3.2 Currently hold 3 offers from south carolina, kent state, and louisville "
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2094628286915592218",
+          "author": "lukehamptonorg",
+          "searchJob": "south-carolina",
+          "text": "@FCRecruits @MT_FB Watch Shelby / Week One Highlights on QwikCut: https://t.co/1Kiky3nNsp Luke Hampton Class of 2029 Corvian Community School, Charlotte Dt/De 255 6’3 Gpa 3.2 Currently hold 3 offers from south carolina, kent state, and loui"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2094626792770265230",
+          "author": "lukehamptonorg",
+          "searchJob": "south-carolina",
+          "text": "@TP_recruiting Watch Shelby / Week One Highlights on QwikCut: https://t.co/1Kiky3nNsp Luke Hampton Class of 2029 Corvian Community School, Charlotte Dt/De 255 6’3 Gpa 3.2 Currently hold 3 offers from south carolina, kent state, and louisvil"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2094631008356245971",
+          "author": "tdfridaynight",
+          "searchJob": "texas",
+          "text": "In less than a week after performing well in his first game as a freshman, Bixby's @MaverickOwens has picked up offers from SMU, Mississippi State, Texas Tech and now Arkansas. 👀 #tdfn #okpreps @BixbySpartanFB"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094630425998295209",
+          "author": "aerialkiwi",
+          "searchJob": "texas",
+          "text": "Voice Agent Builder: Create Your Own Voice Agent in Under 2 Minutes | SpaceXAI https://t.co/ELJfYv0qiD https://t.co/EXJIlL3mHz https://t.co/lj58TpHisd"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094629917593899144",
+          "author": "gpataki_pgs",
+          "searchJob": "texas",
+          "text": "Groundwork will beginning moving in Louisiana, Texas and across the Gulf Coast as soon as the regulatory burdens allow us to do so. “Today I am not here to offer charity, I’m here to give people a fair deal, a real deal: hard work for a rea"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094627129321275776",
+          "author": "tolake1",
+          "searchJob": "texas",
+          "text": "@SaltyDo20134950 @BeKind1965 @RossKneeDeep Floyd's friend, who had outstanding felony warrants in Texas, had unsuccessfully tried to use a similar $20 at the same store. https://t.co/XEmiQHmfgj"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094610665281335504",
+          "author": "dd19751981",
+          "searchJob": "texas",
+          "text": "I live in a small rural town in Texas. Most of the people around me, including the state trooper who patrols our neighborhood, are Republican. Everybody knows https://t.co/SjSwK12KZk next-door neighbor (just a tree line between our properti"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094604006911840403",
+          "author": "turbo3333333",
+          "searchJob": "texas",
+          "text": "I have officially achieved the pinnacle of my online TX Kid Fucker Hater career by being blocked by the biggest protector of child pedophiles in Texas? @AngelaPaxtonTX along with TUCKER, MADDIE, ABBY and KATIE! Will you offer them to those "
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2094603459790082063",
+          "author": "txballerselite",
+          "searchJob": "texas",
+          "text": "Big Game James had one of the best performances @RL_HoopsKS putting up 30 points with 8 3 pointers @JamesBaref63054 this kid is the real deal… 3.8 GPA James has NAIA/D2 offer and receiving a lot of interest. Coaches, this kid is still avail"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094317061388308680",
+          "author": "viadelcorso2266",
+          "searchJob": "washington",
+          "text": "@denvercunning \"This crew\" implies that ******I assign******* a \"masks-off-Jew-hatred\" to the entirety of The Conservative Hour. THAT IS PATENTLY FALSE In fact, I specifically spoke up for the Co-host @chrisG7676 who, from the moment he was"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2094623708371366197",
+          "author": "thevalueist",
+          "searchJob": "washington",
+          "text": "https://t.co/M5Cr9S4V91 $VLO $MPC $PSX $DINO EXECUTIVE ASSESSMENT (1/x) The August 31, 2026 White House fact sheet materially changes the underwriting of the original announcement. The initial statement provided only a 65 billion-barrel res"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094610855963033981",
+          "author": "gtran78613",
+          "searchJob": "washington",
+          "text": "❤️Last night, Shen Yun artists joined a special viewing of Unbroken: The Untold Story of Shen Yun on Capitol Hill in Washington, DC. Following a reception with VIP guests and a member of Congress, our artists shared firsthand stories of tra"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2094613184225149178",
+          "author": "_melowilliams",
+          "searchJob": "wisconsin",
+          "text": "2027 PG Origin Prewitt | Madison La Follette HS picked up an offer from Loras College men's basketball. Prewitt stock increased after a standout AAU season with All-Wisconsin. https://t.co/5l0wPZwrdY"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2094630574958789009",
+          "author": "randalrb2027",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "#AGTG Blessed to receive an offer from Thiel College @fbcoachsamp @Thiel_FB @coachscott33 @HuguenotFB https://t.co/z1J4U5SsGa"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094628663861936317",
+          "author": "thedevinlovell",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "#AGTG blessed to receive a offer from @Threshers_FB @jwlawson1 @SmithInspire @coacheastham_15 @JordanKilgo @PellCityFTBL @CoachJRoss_ @Camwillis_ @cjenks1279 @PPRecruits @Donaldlovell77 @jakeganus #trackcity #goodenoughmentality💎 https://t"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094627713000542255",
+          "author": "coltensiebert65",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive a gameday invite from @UTM_FOOTBALL from Coach James @GymEOri6 @LHSWildcatsFB @OLMafia https://t.co/xKAf7GEwRt"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094625701320073646",
+          "author": "dinarioverton_8",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive a game day invite @WMU_Football thank you @CamAllenFB looking forward to the experience. @CoachStekala @BengalFB08 https://t.co/qpjJ7LtvGQ"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094624902355554750",
+          "author": "christianhdb",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After great conversations with @coachwebber12 I am blessed to receive an offer from @MNUFootball_ !! @willfranklin_85 @CoachKetz @JPRockMO @PrepRedzoneMO @6starfootballMO @GSV_STL https://t.co/MXffJ6BWHN"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094624314863845416",
+          "author": "dylanmoreno82",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with @coachwebber12 i am blessed to receive my first offer to MidAmerica Nazarene. #AGTG @CoBasslikdafish @CDublins14 @CoachDomCosta @breezepreps @LACitySection @latsondheimer @CIFLACS @kt_recruiting @CSKRECRUITIN"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2094623200093098033",
+          "author": "chris_retic",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my first D1 Juco offer from Cleveland State. Thank you Coach Howard for the opportunity. #D1Juco #CollegeBasketball #agtg #Blessed https://t.co/MbiHE7781X"
+        }
+      ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 1,
+      "rejected": 29,
+      "reasons": {
+        "multiple_resolved_schools": 2,
+        "school_not_resolved_confidently": 15,
+        "bare_mention_requires_llm": 11,
+        "player_display_name_unusable": 1
+      },
+      "samples": [
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094627980597473407",
+          "author": "helixfootball",
+          "searchJob": "oregon-state",
+          "text": "Kiti Fuga ‘28 OL 6’3 286lb 3 Division I Offers. Oregon State, San Jose St &amp; Arizona @BrandonHuffman @GregBiggins @BlairAngulo @adamgorney @DontonioKeshon"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094617607173550511",
+          "author": "piacentralvis",
+          "searchJob": "rice",
+          "text": "𝐒𝐔𝐊𝐖𝐀𝐇𝐈 𝐒𝐀 𝐌𝐆𝐀 𝐏𝐎𝐒𝐓𝐒: 𝐆𝐢𝐤𝐥𝐚𝐫𝐨 𝐬𝐚 𝐃𝐒𝐖𝐃 𝐧𝐠𝐚 𝐏𝟕𝟗𝟕.𝟖𝟎 𝐥𝐚𝐦𝐚𝐧𝐠 𝐚𝐧𝐠 𝐦𝐚𝐭𝐚𝐠 𝐅𝐚𝐦𝐢𝐥𝐲 𝐅𝐨𝐨𝐝 𝐏𝐚𝐜𝐤 Giklaro sa DSWD nga 𝐏𝟕𝟗𝟕.𝟖𝟎 lamang ang kantidad sa matag kahon sa prepacked Family "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094613347362861116",
+          "author": "porus2017",
+          "searchJob": "rice",
+          "text": "@B_JesusParty ISKCON dont offer Rice for conversion."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094597772137930762",
+          "author": "pseudofunny",
+          "searchJob": "rice",
+          "text": "@B_JesusParty They don't offer rice bags."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094622452215083287",
+          "author": "lloydfrazier",
+          "searchJob": "san-diego-state",
+          "text": "Back in the 80s they taught us in class about the Mayans and the Aztecs and how they performed human sacrifice. I remember one teacher saying, “There were women who would offer up their babies to be sacrificed to the gods,” and she would sa"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094603255376445908",
+          "author": "robinhanson",
+          "searchJob": "san-diego-state",
+          "text": "@LeahLibresco @PsmithBooks Yes, I agree that the Aztecs offer a very clear example of a bad culture."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094598754192281956",
+          "author": "marcusrandalljr",
+          "searchJob": "san-diego-state",
+          "text": "@FCRecruits @AztecFB Football email Marcus Randall Jr Sophomore, Co 28’ RB/LB 5’10 195 0 Current offers 3.57GPA, First Team defensive, Inglewood high school https://t.co/QGevhidbXW Defense https://t.co/jZ5YRtNWw7 Offense"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094604321325281283",
+          "author": "parkeredits23",
+          "searchJob": "purdue",
+          "text": "GAME DAY VISITS: DT/OL Cash Patrick from Celina HS (OH) is planning several stadium stops this season, with seven games circled on the calendar. He just received his 10th offer today from Purdue in the Big 10! Follow @parkeredits23 for grap"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094619947234459929",
+          "author": "recruitintelhq",
+          "searchJob": "texas",
+          "text": "@GregHkir84 @DAWGHZERECRUITS @12thMan @AggieFootball @Aggies @Rivals @RivalsHS @espn @Highespn @LAmustangFB @DilfersDimes @agaudet_tamu @gkjrii28 @KimLKirwan @247Sports @247recruiting @SECNetwork @SEC @PrepRedzoneTN That Texas A&amp;M offer"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094619115134566436",
+          "author": "eloisetackett",
+          "searchJob": "texas",
+          "text": "Thank you so much Coach Madrid @MadridHoops for blessing me with an offer to play at Texas A&amp;M Kingsville!! I am incredibly grateful for this opportunity. @L3_Recruiting @SBS_Athletics https://t.co/OfqWJotoDU"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094611122317832543",
+          "author": "mikesparkman",
+          "searchJob": "texas",
+          "text": "@diamonddawg2323 @SickosCommittee They had to do it that way so as to not lose money on the Texas trip. One Texas offered the game, Sewanne scheduled the others on the way back to pick up more money. Notice the games are in order geographic"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094628878463467880",
+          "author": "ktwu01",
+          "searchJob": "ucla",
+          "text": "我意识到一点 我TM走狗屎运 16岁上大学 17岁带领5人团队创建一个现在已经1300群友的社团 19岁第一次来US 20岁本科毕业，拒绝了UCLA等一众PhD 全奖offer 21岁发表了一作SCI文章 花了一年时间转AI，拿到大厂人才计划offer 现在22岁 虽然一事无成，但是非常健康 我他妈担心啥！ 我他妈不应该为了工作或者其他束缚我的东西担忧 只要我老老实实健身 睡觉 吃些健康的东西 我还能在世界上活好几十年，搅他个天翻地覆，大闹天宫 不需要说今天什么东西失败了，或"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094602155667653072",
+          "author": "tfloss32",
+          "searchJob": "ucla",
+          "text": "Dallas Lake Highlands '28 LB Israel Samuel (@Israel__Samuel) secures a UCLA offer. #GoBruins https://t.co/AfL9bDwQIT https://t.co/LpKksC0t5u 𝕏 @13campbell | @LHHS_FOOTBALL"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094623497003635183",
+          "author": "shotgunspr",
+          "searchJob": "usc",
+          "text": "Four-star TE Presley DeLance recaps scholarship offer from #USC The Oregon tight end talks to @gmartlive about the impact of his newest offer: ($) https://t.co/5hhSTKEOdy https://t.co/v9LecIDRTz"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094629650257399887",
+          "author": "fundji3",
+          "searchJob": "washington",
+          "text": "❗️❗️❗️I am, quite frankly, pissed off by this (see @ViadelCorso2266 's post). Not because Bryan (@denvercunning ) is my friend, although he is, and that matters when I watch a man's name being taken apart in public. I am angry because I hav"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094622753383186771",
+          "author": "mreinard7",
+          "searchJob": "washington",
+          "text": "@coachbconover Max Filliung-Reinard CO 2028 Paul Lawrence Dunbar High School (Washington, D.C.) DE/DT/RT 6'2\" 210lbs 3.7 GPA Week 1: 2TFL 1 QB Hit (&lt;10 Snaps) Team Captain 0 OFFERS UNDER RATED AND UNDER RECRUITED"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094622654129156474",
+          "author": "mreinard7",
+          "searchJob": "washington",
+          "text": "@TP_recruiting Max Filliung-Reinard CO 2028 Paul Lawrence Dunbar High School (Washington, D.C.) DE/DT/RT 6'2\" 210lbs 3.7 GPA Week 1: 2TFL 1 QB Hit (&lt;10 Snaps) Team Captain 0 OFFERS UNDER RATED AND UNDER RECRUITED"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094622404555530423",
+          "author": "mreinard7",
+          "searchJob": "washington",
+          "text": "@TP_recruiting @DelSt_Football @DeSeanJackson10 Max Filliung-Reinard CO 2028 Paul Lawrence Dunbar High School (Washington, D.C.) DE/DT/RT 6'2\" 210lbs 3.7 GPA Week 1: 2TFL 1 QB Hit (&lt;10 Snaps) Team Captain 0 OFFERS UNDER RATED AND UNDER R"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094622364390785372",
+          "author": "mreinard7",
+          "searchJob": "washington",
+          "text": "@TP_recruiting Max Filliung-Reinard CO 2028 Paul Lawrence Dunbar High School (Washington, D.C.) DE/DT/RT 6'2\" 210lbs 3.7 GPA Week 1: 2TFL 1 QB Hit (&lt;10 Snaps) Team Captain 0 OFFERS UNDER RATED AND UNDER RECRUITED"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094622313597792709",
+          "author": "mreinard7",
+          "searchJob": "washington",
+          "text": "@TP_recruiting Max Filliung-Reinard CO 2028 Paul Lawrence Dunbar High School (Washington, D.C.) DE/DT/RT 6'2\" 210lbs 3.7 GPA Week 1: 2TFL 1 QB Hit (&lt;10 Snaps) Team Captain 0 OFFERS UNDER RATED AND UNDER RECRUITED"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094621988983886192",
+          "author": "mreinard7",
+          "searchJob": "washington",
+          "text": "@TP_recruiting Max Filliung-Reinard CO 2028 Paul Lawrence Dunbar High School (Washington, D.C.) DE/DT/RT 6'2\" 210lbs 3.7 GPA Week 1: 2TFL 1 QB Hit (&lt;10 Snaps) Team Captain 0 OFFERS UNDER RATED AND UNDER RECRUITED https://t.co/jzIIur16nA"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094616246470008904",
+          "author": "mreinard7",
+          "searchJob": "washington",
+          "text": "@BallCoachHP Max Filliung-Reinard 6'2\" 210lbs Washington, D.C. DE/DT/RT 0 Offers Paul Lawrence Dunbar High School https://t.co/jzIIur16nA https://t.co/lD9yCjOzbc"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094623301540671709",
+          "author": "mwpatriot01",
+          "searchJob": "wisconsin",
+          "text": "And you’re lying again. The Republicans have offered standalone voter ID bills and the Democrats have still voted against them. So don’t sit here and lie through your teeth claiming if it was just about voter ID and nothing else the Democra"
+        },
+        {
+          "reason": "player_display_name_unusable",
+          "postId": "2094621428175802532",
+          "author": "drewrolison",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer from the University of Oregon!! #AGTG 🙏🏾🦆@CoachWadu @oregonfootball https://t.co/GzBB0dekI1"
+        }
+      ]
     },
     "search": {
-      "ok": false,
-      "reason": "texas-tech: rate limited",
+      "ok": true,
+      "reason": null,
       "jobs": 162,
-      "swept": 0,
+      "swept": 31,
       "failed": 1,
-      "requests": 1,
+      "requests": 32,
       "errors": [
-        "texas-tech: rate limited"
+        "phrase:\"receives an offer from\": rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 29,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-01T03:26:14.192Z"
+    "status rebuilt locally from current store on 2026-09-01T03:43:30.026Z"
   ]
 }
