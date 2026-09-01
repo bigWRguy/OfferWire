@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-01T07:13:48.658Z",
+  "generatedAt": "2026-09-01T07:28:43.380Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-01T07:13:48.205Z",
+    "at": "2026-09-01T07:28:42.971Z",
     "jobsTotal": 162,
     "sweptThisRun": 36,
     "requests": 36,
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7914005555555556,
-    "p95Hours": 1.5420733333333334,
-    "worstHours": 1.5420733333333334
+    "medianHours": 0.2901536111111111,
+    "p95Hours": 1.2856913888888888,
+    "worstHours": 1.7906072222222222
   },
   "decisionCoverage": {
-    "total": 52,
-    "decided": 52,
+    "total": 25,
+    "decided": 25,
     "complete": true
   },
   "pending": {
@@ -52,280 +52,215 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-01T07:13:48.204Z",
-      "got": 63,
-      "new": 52,
-      "lag": 0.05
+      "at": "2026-09-01T07:28:42.970Z",
+      "got": 30,
+      "new": 25,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-01T07:11:18.814Z",
+    "at": "2026-09-01T07:26:17.237Z",
     "mode": "live",
     "collection": {
-      "returned": 63,
-      "kept": 52,
-      "duplicate": 10,
+      "returned": 30,
+      "kept": 25,
+      "duplicate": 4,
       "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 42,
-      "rejected": 10,
+      "accepted": 24,
+      "rejected": 1,
       "reasons": {
-        "no_offer_term": 5,
-        "no_fbs_school": 4,
         "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2094305695906881631",
-          "author": "upkiraftaargovt",
-          "searchJob": "arkansas-state",
-          "text": "Pure happiness, captured. #YogiAdityanath #CMYogi #YogiSarkar #UttarPradesh #JantaDarshan #LittleSmiles https://t.co/7lQFHisgBf"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094473079670120475",
-          "author": "transforming_up",
-          "searchJob": "arkansas-state",
-          "text": "From transforming its business environment to attracting record investments, Uttar Pradesh is emerging as a leading investment destination. ₹50 Lakh Crore+ investment proposals | 1.10 Cr potential jobs | ₹2.01 Lakh Cr exports Invest in UP. "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094676854179594574",
-          "author": "usambindia",
-          "searchJob": "army",
-          "text": "A major step forward for the U.S.-India defense partnership. This collaboration between @LockheedMartin, @Raytheon, and @tataadvanced will create new opportunities for U.S. companies, strengthen America’s defense-industrial base, and boost "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094669769018634469",
-          "author": "charlottea61941",
-          "searchJob": "charlotte",
-          "text": "Stay safe in the crypto world! Always do your research before investing, be cautious of offers that seem too good to be true, and never share your private keys. Trust your instincts! https://t.co/asa9S5fDXn"
-        },
-        {
           "reason": "hard_negative",
-          "postId": "2094672225479630859",
-          "author": "josiahjdp",
-          "searchJob": "coastal-carolina",
-          "text": "I accepted after reviewing every page with an attorney. The decision was not dramatic, but signing my name felt more meaningful than signing a marriage license would have felt months earlier because this future belonged entirely to me. I in"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094664401231995230",
-          "author": "gbengawemimo",
-          "searchJob": "temple",
-          "text": "https://t.co/Ln9yrHnDoO"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094668007477829992",
-          "author": "showtroylove",
-          "searchJob": "troy",
-          "text": "@MarcNixon24 Thank you, Canada. You should have used that in negotiations with the US: you can keep all your tariffs if you round up, take, and keep all the liberals in the USA indefinitely. Learn how to make good offers Trumpian-style. Goo"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094672055690207573",
-          "author": "princess_ikeaka",
-          "searchJob": "florida",
-          "text": "Goes to show what an echo chamber can do to somebody… you do realize that: it was because of #Trump that started the investigation because he turned him in (according to the sheriff in Florida) was the only man who actually punished Epstein"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094671675551838226",
-          "author": "thedukeofmadrid",
-          "searchJob": "duke",
-          "text": "Jude Bellingham is a better midfielder than both Pedri, Fermín, Laporta and De Jong combined, and he offers more to the team than just scoring goals. Jude Bellingham is in a conversation for the all-time greatest midfielders, and none of th"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094670356904599741",
-          "author": "shadrack12g",
-          "searchJob": "duke",
-          "text": "Most of you might not agree with what I’m about to say, but the truth is the truth. 😂 Pedri and Fermín Lopez combined are nowhere near Jude Bellingham in terms of overall quality and impact. And honestly, I think Pedri is one of the most o"
+          "postId": "2094684782869516588",
+          "author": "dunnbilly87734",
+          "searchJob": "missouri",
+          "text": "King David's Priestly Role The Prophecy: In Psalm 110:4, King David prophesied about the coming Messiah, writing: \"You are a priest forever, in the order of Melchizedek\". Royal Authority: Because David was from the tribe of Judah, he could "
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 42,
+      "rejected": 24,
       "reasons": {
-        "bare_mention_requires_llm": 10,
-        "school_not_resolved_confidently": 12,
-        "multiple_resolved_schools": 20
+        "school_not_resolved_confidently": 1,
+        "multiple_resolved_schools": 20,
+        "bare_mention_requires_llm": 3
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094678543544328210",
-          "author": "lavaheadza",
-          "searchJob": "arkansas-state",
-          "text": "🇿🇦 Sjoe! TRC2 Loading… South Africa’s Unfinished Justice Is Still Waiting for the Truth 🔍⚖️ ~ 🇿🇦 Sjoe! The Missing Ingredient in Reconciliation? Presidential Truth-Telling 🗣️⚖️ ~ 🚪 The Door to Constitutional Repair May Begin With the"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094677432724812122",
-          "author": "skateboards_cow",
-          "searchJob": "arkansas-state",
-          "text": "Even if he were to incur a latae sentiae excommunication, the pope would not cease being the pope, for the same reason a priest can offer the Mass even if he is in a state of mortal sin and a formal heretic. If the validity of the sacrament"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094666991713837137",
-          "author": "nickfshort",
-          "searchJob": "arkansas-state",
-          "text": "No, it's just what I say to you. AJP Taylor's assessment reflects a view that was held for many years but recent research - in particular about the timeline involved - comes to a very different conclusion. The critical part of which is that"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094662413723525295",
-          "author": "real_pushpa",
-          "searchJob": "arkansas-state",
-          "text": "This is not just a cute clip. This is the difference between two models of power. In the old SP Sarkar years, Uttar Pradesh was remembered for fear first and governance later. Families thought twice before stepping into a public hall with a"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094658213119746504",
-          "author": "real_pushpa",
-          "searchJob": "arkansas-state",
-          "text": "Under the previous SP Sarkar, Uttar Pradesh was a cautionary tale. Investors stayed away. Factories barely grew. Law and order was a joke — mafia raj, frequent riots (815 communal incidents between 2012-2017), and an image so damaged that e"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094655949889761698",
-          "author": "drhachi3",
-          "searchJob": "arkansas-state",
-          "text": "@Murat_Temur_80 @VerminusM A formula to formalize apartheid and enslavement was offered as a state solution, in other words, the Gaza model for all of Palestinians, nothing in or out without Israel."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094683053767660006",
-          "author": "moixety",
-          "searchJob": "army",
-          "text": "LETTING GO OF (2) INGLEWOOD VIP SOUNDCHECK PACKAGE BTS TICKETS (9/6) d4 GOING FOR LOWER THAN I GOT THEM🥺 Open to OFFERS PLEASE TEXT ME IF INTERESTED💜 🏷️ army bts world tour arirang California ca la wtt wts ticket Los Angeles day 4 wtb is"
-        },
-        {
           "reason": "school_not_resolved_confidently",
-          "postId": "2094681243141206286",
-          "author": "abhishek_8724",
-          "searchJob": "army",
-          "text": "US Ambassador confirms Javelin Joint Venture: Lockheed Martin + Raytheon ink MoU with Tata Advanced Systems to co-produce Javelin in India — days after Indian Army signed a Letter of Offer and Acceptance for the Javelin system through US Fo"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094680027359051909",
-          "author": "normalhottook",
-          "searchJob": "army",
-          "text": "‼️wts bts army membership presale tickets for LA ‼️ 2 second row tickets. reason: I can no longer attend want fv or best offer PAYMENT METHOD: apple cash, paypal or zelle willing to facetime DM if interested bts arirang world tour sofi stad"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094674689847374011",
-          "author": "duninvitedpress",
-          "searchJob": "army",
-          "text": "51 Indian lives lost after recruitment into the Russian army. India’s Foreign Secretary Vikram Misri confirmed that 51 of 227 Indian nationals who joined Russian forces have been killed in the Ukraine war. Another 139 have been discharged. "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094673659193618938",
-          "author": "resonant_news",
-          "searchJob": "army",
-          "text": "🔴51 Indians Killed in Russian Army, 139 Discharged; India Pushes for Return of Remaining Personnel 227 Indians are known to have been recruited into the Russian armed forces. 139 have been discharged and India is working to bring them home"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094662694708326425",
-          "author": "alpha_abhijit",
-          "searchJob": "army",
-          "text": "As of 31 August 2026, India’s Foreign Secretary Vikram Misri confirmed that 227 Indian nationals had been recruited into the Russian army during the Ukraine war. Of these, 139 have been discharged and 51 have been killed. Remaining cases ar"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094657640534065260",
-          "author": "historyfactou",
-          "searchJob": "army",
-          "text": "HISTORICAL BACKGROUND OF PUNGWES OR ALL NIGHT VIGILS Pungwes (from the Shona word often linked to “sunrise” or all-night gatherings lasting until dawn) were traditional or adapted night vigils that ZANLA guerrillas and rural communities tra"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094672478471921859",
-          "author": "savinthebees",
-          "searchJob": "charlotte",
-          "text": "Okay so I’m on my way to get my mom. I know I get a lot of fans who want to know how ball works or how I got involved in the league and stuff like that. I know it’s difficult now since switching teams. I just want to give some context cuz a"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094667608972783696",
-          "author": "josiahjdp",
-          "searchJob": "coastal-carolina",
-          "text": "I drove south with no destination, following the highway until the skyline disappeared behind me and the air coming through the cracked window began to smell faintly of salt. Near midnight, I stopped at a gas station, bought coffee that tas"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094682492381131152",
-          "author": "vitaltooth_",
-          "searchJob": "temple",
-          "text": "Firstly—this is not against any organization or spiritual guru.🙏🏻 But let's be honest 🙏🏻👇🏻 Your mind is constantly bombarded with thoughts. That's why you seek detachment. But money cannot buy you peace. If your mind is still—your tho"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094676127377985706",
-          "author": "ians_india",
-          "searchJob": "temple",
-          "text": "Lucknow, Uttar Pradesh: Minister Sanjay Nishad says, \"Those who never went to help build the Ram Temple, never went there to offer prayers, and never even visited or made any effort to serve there, what have they got to do with this? Neithe"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094668387444195481",
-          "author": "newsarenaindia",
-          "searchJob": "temple",
-          "text": "Telangana Governor Shiv Pratap Shukla offers prayers at Tirumala temple. https://t.co/Q8rCMcd59P"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094662465938420004",
-          "author": "lorraineevanoff",
-          "searchJob": "florida",
-          "text": "\"They Said It Was Legal. A Grand Jury Said Otherwise. An insurance company called Centene overcharged the state of Florida for prescription drugs—medicine paid for by Medicaid. When they got caught, they offered to pay $67 million back. $10"
+          "postId": "2094662065336000878",
+          "author": "zepplarouche",
+          "searchJob": "kent-state",
+          "text": "https://t.co/VuqE6Ska7D William Hartung, a veteran critic of US military spending, took on Undersecretary of Defense for Policy Elbridge Colby’s suggestion that a change is needed in U.S. nuclear doctrine because the President needs “more r"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2094684445106151722",
+          "postId": "2094688230222311850",
           "author": "randyferrell",
-          "searchJob": "georgia",
+          "searchJob": "liberty",
           "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2094684322762547427",
+          "postId": "2094688062672413065",
           "author": "randyferrell",
-          "searchJob": "georgia",
+          "searchJob": "liberty",
           "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2094684211923783811",
+          "postId": "2094687927087358377",
           "author": "randyferrell",
-          "searchJob": "georgia",
+          "searchJob": "liberty",
           "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2094684117489078579",
+          "postId": "2094687781062631588",
           "author": "randyferrell",
-          "searchJob": "georgia",
+          "searchJob": "liberty",
           "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2094684021154365460",
+          "postId": "2094687685428363492",
           "author": "randyferrell",
-          "searchJob": "georgia",
+          "searchJob": "liberty",
           "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094687566494658665",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094687475973201996",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094687389637636295",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094687153703801134",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094687048384852160",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094686879614452175",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094686756163440930",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094686671090385073",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094686552303575371",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094686455759085729",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094686217132486696",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094686098639253888",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094685996105302250",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094685923501920681",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094685806094885028",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094674374825545906",
+          "author": "krisco7791",
+          "searchJob": "michigan",
+          "text": "Iran funds the weapons that Hamas and Hezbollah seem to constantly have, enabling them to launch daily rocket attacks on Israel. On October 7, Hamas entered Israel, killed over 1,000 innocent concertgoers, kidnapped, raped, held hostages, a"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094681229551607936",
+          "author": "larrybuysland12",
+          "searchJob": "oklahoma",
+          "text": "Even ALLIGATORS Want to Sell Land?#shorts Think #selling your land is hard? If you own 5 or more acres of vacant land in Arkansas or Oklahoma, we want to buy it! the link below, and get your cash offer today! 👇 Click below to get started! "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094682929427616216",
+          "author": "jhallito",
+          "searchJob": "penn-state",
+          "text": "@BBgunn42 Penn State allegedly never even offer Kalani the job. He used the threat of that to parlay another raise. Like he does now every year or 2"
         }
       ]
     },
@@ -340,11 +275,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 42,
+      "rejectedCandidates": 24,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-01T07:13:48.660Z"
+    "status rebuilt locally from current store on 2026-09-01T07:28:43.382Z"
   ]
 }
