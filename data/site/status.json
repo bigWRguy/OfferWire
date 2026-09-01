@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-01T06:28:42.908Z",
+  "generatedAt": "2026-09-01T06:41:20.963Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-01T06:28:42.671Z",
+    "at": "2026-09-01T06:41:20.835Z",
     "jobsTotal": 162,
-    "sweptThisRun": 36,
-    "requests": 36,
-    "fullSweepCycles": 5
+    "sweptThisRun": 1,
+    "requests": 2,
+    "fullSweepCycles": 162
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7904761111111112,
-    "p95Hours": 1.467491388888889,
-    "worstHours": 1.467491388888889
+    "medianHours": 1.0010469444444445,
+    "p95Hours": 1.6780622222222221,
+    "worstHours": 1.6780622222222221
   },
   "decisionCoverage": {
-    "total": 37,
-    "decided": 37,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "pending": {
@@ -52,304 +52,53 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-01T06:28:42.670Z",
-      "got": 50,
-      "new": 37,
-      "lag": 0.12
+      "at": "2026-09-01T06:41:20.834Z",
+      "got": 1,
+      "new": 0,
+      "lag": 1.73
     }
   },
   "audit": {
-    "at": "2026-09-01T06:26:19.603Z",
+    "at": "2026-09-01T06:41:13.255Z",
     "mode": "live",
     "collection": {
-      "returned": 50,
-      "kept": 37,
-      "duplicate": 12,
-      "tooOld": 1,
+      "returned": 1,
+      "kept": 0,
+      "duplicate": 1,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 26,
-      "rejected": 11,
-      "reasons": {
-        "no_fbs_school": 6,
-        "no_offer_term": 5
-      },
-      "samples": [
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094671983862542542",
-          "author": "539labs",
-          "searchJob": "texas",
-          "text": "Here I come, Son. Back on my feet and focused. IACR ePrint here we come... zabnā ḥdā ʿadlā Yehūšūʿ Title: The 128 Logical-Qutrit Hampton Processor, Software and FPGA Execution of HQH-539-512 A fixed-round ternary engine with a SHA3-512 enve"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094667117425496074",
-          "author": "kageshep",
-          "searchJob": "texas",
-          "text": "@KizmaHusky I could offer ya pretty good, and low cost accomodations at my place in texas if youd wanna think of that option? Hmu here, or telegram would be better.. @KageShep is my handle there"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094494339581841772",
-          "author": "texasdemocrats",
-          "searchJob": "texas",
-          "text": "🚨 After trying to close 140 polling places last month, Republicans in Tarrant county are now pushing a plan to close 92 polling places 🚨 This is not a compromise. Closing one-third of polling places compared to 2022– despite the county gr"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094650025603117355",
-          "author": "texitdarling",
-          "searchJob": "texas",
-          "text": "@JacquiHeinrich @SenJkennedy All these sore losers in @SenateGOP conveniently forget that Paxton offered to leave the race if they’d get the SAVE Act passed. They couldn’t get it done so go whine about money somewhere else, you spent 100M o"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094666794724360252",
-          "author": "ashiqtech1",
-          "searchJob": "texas-tech",
-          "text": "Stocks and crypto don’t always need separate platforms. One interesting use case on @MEXC is Stock Futures — designed for traders who want to express a view on stock-market moves without directly owning the underlying shares. With Stock Fut"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094656296356118838",
-          "author": "askash",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/6kVju1ZThA"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094648348447793499",
-          "author": "techdropsdeals",
-          "searchJob": "texas-tech",
-          "text": "NewEgg [$5,999.00]: Cooler Master TD5 Pro - Intel Core Ultra 9-285K - GeForce RTX 5090 - 32GB DDR5 6000MHz - 2TB M.2 NVMe SSD - Windows 11 - 360mm AIO - Gaming PC (AYG-M6... 🛍 https://t.co/TIYE7kipJ8 Free games w/ purchase, limited offer ⏰"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094651176666984553",
-          "author": "f_abolhosseini",
-          "searchJob": "minnesota",
-          "text": "Callum McCowatt har bestået lægetjekket i AGF, som giver den nu tidligere Silkeborg-stjerne en aftale på fire år. De danske mestre betaler to millioner euro, 15 mio. kr., i garanteret sum og 500.000 euro, knap 4 mio. kr., mere i bonusser. I"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2093988218513301639",
-          "author": "k_sonin",
-          "searchJob": "washington",
-          "text": "100% true by @sikorskiradek: When the USSR collapsed in 1991, the West did a lot to support Russia. Unlike Germany after Versailles, Russia wnas't paying anything - instead, it received a huge amount of help, directly and indirectly. It was"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094654593699598467",
-          "author": "asiatimesonline",
-          "searchJob": "washington",
-          "text": "#CIA chief #JohnRatcliffe’s Moscow trip may have carried a far bigger offer than a ceasefire. If Ukrainian back-channel claims are true, Washington floated pulling US troops from #Europe in exchange for freezing the #UkraineWar. #NATO #Russ"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094666016634921168",
-          "author": "satele13",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an invite from @HawaiiFoot For their game against UNLV this weekend! Mike Satele Class of 2029 | OLB/SS Waianae High School 🦈🌈🤙🏽 #GoBows #BRADDAHHOOD https://t.co/evWAAiIB6X"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 25,
-      "reasons": {
-        "bare_mention_requires_llm": 6,
-        "school_not_resolved_confidently": 19
-      },
-      "samples": [
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094664621923971453",
-          "author": "spacewoot",
-          "searchJob": "texas",
-          "text": "@BallisticDaddyO 😑I offered to pop by on my way thru Arizona to Texas... she got defensive(understandably) ...online friendship can be confusing."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094650597743943714",
-          "author": "kristinelogie",
-          "searchJob": "texas",
-          "text": "@GregAbbott_TX You need to stop messing with Texas voters immediately‼️ Not all of us want to have your big government boots on our throats. You may have caved and offered submission but real Texans don’t. https://t.co/gjg92tEePS"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094665595031629986",
-          "author": "bobhynemanusa",
-          "searchJob": "syracuse",
-          "text": "@CulturedChem @AstorAaron I had not considered the pressure on K12 schools. I was thnking: A math proficient student has a choice of attending SUNY or Syacuse. But syracuse offers a 'thing' So sudent choses Syracuse."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094671440834420756",
-          "author": "blazetech_ng",
-          "searchJob": "texas-tech",
-          "text": "Hello, Blaze Tech Family, we are glad to meet you all in September. We are always available to offer you the best and premium devices. https://t.co/RftmE0dtdN"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094671134671192253",
-          "author": "michaelgarfield",
-          "searchJob": "texas-tech",
-          "text": "So the irony is that a farmer without a computer was precisely the teacher we needed in this age of magical technologies. Unwavering in his devotion to quality and propriety, Wendell Berry lived as a reminder that it is good and true and be"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094669471336292827",
-          "author": "warnowinners",
-          "searchJob": "texas-tech",
-          "text": "100%! Definitely a lot less interaction… tech playing a big part. You’re also right about discriminating against white males getting employed. One of my tenants faced that for 2 months and had to settle for whatever was offered. It was brut"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094666475600797785",
-          "author": "ita_taipei",
-          "searchJob": "texas-tech",
-          "text": "印度拍板推動「半導體任務 2.0」，聚焦國際大廠與台商進駐！ 印度政府正式批准「印度半導體任務 2.0」（ISM 2.0），政府補貼預算擴增至 148 億美元，預計將帶動整體私營部門投資上看 465 億美元。 三大重點解析： 一、 補齊全產業鏈缺塊：ISM 1.0 主要著重於吸引晶圓製造與封測廠（ATMP/OSAT）落腳印度；而全新的 ISM 2.0 則將範圍擴大至「半導體材料、設備製造、晶片設計、封測、晶圓製造以及研發新創」等六大支柱，意圖打造本土半導體產業鏈。 二、 國際"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094661113741009148",
-          "author": "setusavla",
-          "searchJob": "texas-tech",
-          "text": "VENKATRAMAN NARAYANAN OF HAPPIEST MINDS TECH SAYS Happiest Minds Is Valued At 15.1x EBITDA Vs 13.6x For ITC Infotech ITC Infotech Is 2.17x Larger In Revenue & Profit, Has More Cash ITC Will Hold Approx 74% Of The Combined Company Post-Integ"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094659610099786161",
-          "author": "ipowatch_info",
-          "searchJob": "texas-tech",
-          "text": "IPO Listing Today 💊 Symbiotec Pharmalab IPO 📢 👉🏻 Listed at Rs 988 against the offer price of Rs 988 at Premium of +0.00% ⬆️ 📦 Skyways Air IPO 📢 👉🏻 Listed at Rs 124 against the offer price of Rs 138 at Discount of -10.14% ⬇️ 🔩 Hy-Te"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094656221802553813",
-          "author": "ipo_wala",
-          "searchJob": "texas-tech",
-          "text": "🔩 Hy-Tech Engineers IPO Listed 📢 👉🏻 Listed at Rs 75 against the offer price of Rs 53 at Premium of +41.51% ⬆️"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094652010083782724",
-          "author": "ribelinosrrpp",
-          "searchJob": "texas-tech",
-          "text": "Keeping pace with today's rapid tech evolution is quite something….🤷‍♂️ Happy to be partnering with to offer cutting-edge solutions for what's ahead. https://t.co/8jQtN9UXXJ"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094650625938337817",
-          "author": "niwatori0301",
-          "searchJob": "texas-tech",
-          "text": "#28卒 理系専用のスカウト型就活サービス【TECH OFFER】。 下記URLからご登録いただくと、紹介者と登録者それぞれにAmazonギフトカードをプレゼント！ -- ※2026年9月30日まで https://t.co/2v2zzlFwl9"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094648128221704454",
-          "author": "blackrainlabs",
-          "searchJob": "texas-tech",
-          "text": "I love how Sony released the PS5 to hold like 5 games max in a world where the game companies are pushing for digital downloads. Feel like this was a slight attempt to push gamers into the cloud library subscription while seeming to \"offer\""
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094648095330197743",
-          "author": "nseindia",
-          "searchJob": "texas-tech",
-          "text": "Congratulations to Hy-Tech Engineers Limited on getting listed on NSE today. Hy-Tech Engineers Limited is an engineering company engaged in the design, manufacture and supply of hydraulic fittings for diverse industrial applications. With o"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094659600775807203",
-          "author": "lawyerdave1",
-          "searchJob": "navy",
-          "text": "@J_L_Trasancos @RadioFreeTom It's amazing what a little jingoism will do to the under-employed underclasses, huh, Jose? Interesting side note though, the Army has to pay up to $40K to induce retention, even to some of the lower ranks. The N"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094654187204423680",
-          "author": "drizzlybear1995",
-          "searchJob": "navy",
-          "text": "@Eretlock @anvilpw @MattCouture5 @teakbucki62 You can absolutely enlist in the Navy, ask the men aboard the Lincoln how that has been going? I'm sure that will work out great for you. Hell why do y you go ahead and offer to help the oil tan"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094661326811373597",
-          "author": "youngrichgreek",
-          "searchJob": "ohio",
-          "text": "creators fuck up scaling info products the same 4 ways every single time i've watched these mistakes cap accounts with half a million followers... while our client had 14k and did $50k in 24 hours lol MISTAKE 1: selling cheap shit your $47 "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094658881100112146",
-          "author": "rockie_thunder",
-          "searchJob": "ohio",
-          "text": "Alliant Treatment Center Presents - A Methadone Treatment Clinic Also visit us on the web at https://t.co/FJO0qXsO0p. Eligible Individuals must be 18 years of age or older. Dosing Hours 6 am to 12 pm Eastern Standard Time. Call Us at Allian"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094664810357203389",
-          "author": "teapartypdx",
-          "searchJob": "minnesota",
-          "text": "Like the Boycott, Divest, Sanction campaign you led WASN’T intentional & coordinated? Funny how all of the messaging came out in synchronicity back in 2001 & the invitations to the Soros funded coalition for the U.S. Campaign to End Israeli"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094663675235762483",
-          "author": "pwrmos",
-          "searchJob": "minnesota",
-          "text": "ÄR DET MULTIETNISKA MONOKULTURELLA SAMHÄLLET LÖSNINGEN PÅ MÅNGKULTURENS PROBLEM? Nu när mångkulturen visar sig inte fungera särskilt väl med sjunkande skolresultat, segregation. utanförskap, ojämlikhet, klanstrukturer, hederskultur, krimina"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094662216197034420",
-          "author": "thenichecache",
-          "searchJob": "minnesota",
-          "text": "Callum McCowatt's move to AGF is complete ☑️ €2m fee upfront with €500k add-ons, exceeding what Minnesota Utd offered in their bids CM has passed his medical and signed a 4yr contract with the reigning Danish champs, will play UEFA Conferen"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094661059949039853",
-          "author": "laurasmiscmovie",
-          "searchJob": "usc",
-          "text": "@LaInaMinute @jimrome I'm a big USC football fan and if I'd been offered free tickets I would not have gone last Saturday. It was HOT, w/humidity levels rarely experienced here. Walking a long distance from parking/baking a few hours in the"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094653358191546629",
-          "author": "redraiderlex",
-          "searchJob": "usc",
-          "text": "@TheB1GCommish and ut and usc offered more so try another avenue lol"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094668156073574703",
-          "author": "zambianobserver",
-          "searchJob": "washington",
-          "text": "TALIBAN OFFERS WASHINGTON ACCESS TO AFGHANISTAN’S MINERAL WEALTH FOR FROZEN ASSETS https://t.co/G52XN4uLt4"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 36,
-      "failed": 0,
-      "requests": 36,
-      "errors": []
+      "swept": 1,
+      "failed": 1,
+      "requests": 2,
+      "errors": [
+        "phrase:\"my first D1 offer\": rate limited"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 25,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 0,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-01T06:28:42.911Z"
+    "status rebuilt locally from current store on 2026-09-01T06:41:20.965Z"
   ]
 }
