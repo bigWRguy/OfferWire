@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T04:43:34.100Z",
+  "generatedAt": "2026-09-01T04:56:11.514Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5404169444444444,
-    "p95Hours": 1.038231388888889,
-    "worstHours": 1.5341066666666667
+    "medianHours": 0.7508094444444444,
+    "p95Hours": 1.248623888888889,
+    "worstHours": 1.7444991666666667
   },
   "decisionCoverage": {
-    "total": 36,
-    "decided": 36,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "pending": {
@@ -59,272 +59,46 @@
     }
   },
   "audit": {
-    "at": "2026-09-01T04:41:28.022Z",
+    "at": "2026-09-01T04:56:07.438Z",
     "mode": "live",
     "collection": {
-      "returned": 51,
-      "kept": 36,
-      "duplicate": 15,
+      "returned": 0,
+      "kept": 0,
+      "duplicate": 0,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 29,
-      "rejected": 7,
-      "reasons": {
-        "no_fbs_school": 3,
-        "no_offer_term": 4
-      },
-      "samples": [
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094643223314804971",
-          "author": "businesstodaym1",
-          "searchJob": "texas-tech",
-          "text": "The updated range is now offered in three variants — E, V and RS — with the RS gaining a new black front grille and an exclusive Two-Tone Blazing Red Pearl finish. https://t.co/pjOZ4XexZX"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094379702546784496",
-          "author": "eu_commission",
-          "searchJob": "texas-tech",
-          "text": "We have designated ChatGPT as a Very Large Online Search Engine and Reddit and Roblox as Very Large Online Platforms under the Digital Services Act. They now have four months to comply with additional DSA obligations. More: https://t.co/gIR"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094640808498770278",
-          "author": "juliangoldieseo",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/CFtX2QW5H0"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094642828404306025",
-          "author": "dinopontino",
-          "searchJob": "utah",
-          "text": "@eastdakota At what can does the vail board have to accept your offer? Also, I’d be careful suggesting parkites earn the right to vote people out of town."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094496728380485924",
-          "author": "thenewmexican",
-          "searchJob": "new-mexico",
-          "text": "In the proposed private equity buyout of Public Service Company of New Mexico, the question of who is poised to own the state’s largest electric utility is difficult to answer. Officials have declined to provide information on the investors"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094646061457678496",
-          "author": "onenationck",
-          "searchJob": "texas",
-          "text": "blackrock inc is this a bank? No, BlackRock is not a bank. What is BlackRock? Asset Manager: It is the world's largest asset management https://t.co/yYR0fAifI9 Management: Instead of taking deposits or offering checking accounts, it invests"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094640494739378405",
-          "author": "jhonsmall",
-          "searchJob": "texas",
-          "text": "https://t.co/b1YaWH4FUD"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 28,
-      "reasons": {
-        "bare_mention_requires_llm": 5,
-        "school_not_resolved_confidently": 23
-      },
-      "samples": [
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094634246413447532",
-          "author": "gurpalvirdi",
-          "searchJob": "stanford",
-          "text": "@saranormous If only Stanford could offer their patients EVO ICL"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094630115661762999",
-          "author": "laurikeye_",
-          "searchJob": "stanford",
-          "text": "@elvisofdallas I took my kids out of school each year for at least an extra month as I knew it wouldn't hurt them, only help ( they had me as their mother lol ) and, I was right and even one of them went to Stanford- and all 4 were offered "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094633384710480188",
-          "author": "cuyahogacuse",
-          "searchJob": "syracuse",
-          "text": "@JeffCuse @veganroundtable Same story here. My kids were Syracuse fans from birth. One played D-III college football for a top 10 program. The other is an out of state student at Purdue. The engineering education is top notch. The price tag"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094645325546086802",
-          "author": "jaininvestment",
-          "searchJob": "texas-tech",
-          "text": "🔔IPO ALERT : ◾IPO Listing Update : 🔹#Hy-Tech Engineers 👉🏻 Listed @ ₹75 against offer price of ₹53 @ Premium of +41.51% ⬆️ 🔸🔹🔸"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094644840482938968",
-          "author": "simion28718336",
-          "searchJob": "texas-tech",
-          "text": "𝘼𝙪𝙜𝙪𝙨𝙩 𝙐𝙥𝙙𝙖𝙩𝙚: 𝟮.𝟭𝟵% 𝙃𝙞𝙜𝙝𝙚𝙧, 𝙖𝙣𝙙 𝙩𝙝𝙚 𝙊𝙪𝙩𝙥𝙚𝙧𝙛𝙤𝙧𝙢𝙖𝙣𝙘𝙚 𝙆𝙚𝙚𝙥𝙨 𝘽𝙪𝙞𝙡𝙙𝙞𝙣𝙜 August closed up 2.19%, bringing the portfolio to 16.30% YTD versus 12.1% for the S&P 500. Zooming out further, we're a"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094644028872728849",
-          "author": "smsmfund",
-          "searchJob": "texas-tech",
-          "text": "Hy-Tech Engineers #IPO Listed 📢 Listed at Rs 75 against the offer price of Rs 53 at Premium of +41.51%"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094643913235583314",
-          "author": "nxpindia",
-          "searchJob": "texas-tech",
-          "text": "🚀 Want to build the skills behind tomorrow’s chips? #WomenInTech offers training in SoC Architecture, Verification, Embedded Software, Python, Verilog, RISC-V, ARM &amp; hands-on semiconductor projects. Apply now: https://t.co/CFnNWY5lIp #"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094643417586471081",
-          "author": "woshixql",
-          "searchJob": "texas-tech",
-          "text": "Heavy-duty machinery, drone simulation training, brainwave-controlled cars... Beyond cultural experiences, Urumqi, China's Xinjiang, offers plenty of tech experiences to explore, showcasing the city's vibrant spirit of innovation. #adatewit"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094642775509868869",
-          "author": "tradeswan121956",
-          "searchJob": "texas-tech",
-          "text": "Hy-Tech Engineers IPO Listed 👉🏻 Listed at Rs 75 against the offer price of Rs 53 at Premium of +41.51% ⬆️ #Hytech #IPO #Listing #GMP #Gain"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094642735248736463",
-          "author": "24_rohitgupta",
-          "searchJob": "texas-tech",
-          "text": "Hy-Tech Engineers #IPO : Listed at Rs 75 against the offer price of Rs 53 at Premium of +41.51%. Only MainBoard #ipo listed today which has not shattered the dream of #ipo investors."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094642597981511793",
-          "author": "shamasharan",
-          "searchJob": "texas-tech",
-          "text": "At some point a tech company will just decide it's easier and better to not offer a product in Europe than it is to nerf itself. I eagerly await that day. Maybe it is today."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094641965447184488",
-          "author": "capitalinsight3",
-          "searchJob": "texas-tech",
-          "text": "IPO LISTING UPDATE | TODAY Symbiotec Pharmalab IPO • Listed at ₹988 vs Offer Price of ₹988 • Listing Gain: 0% • Retailer Profit per Lot: ₹0 Skyways Air Services IPO • Listed at ₹138 vs Offer Price of ₹138 • Listing Gain: 0% • Retailer Profi"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094641304299004032",
-          "author": "dpzd99",
-          "searchJob": "texas-tech",
-          "text": "🚨Main Board IPO Listing UPDATE🚨 🔩Hy-Tech Engineers IPO Listed 📢 👉🏻 Listed at Rs 75 against the offer price of Rs 53 at Premium of +41.51% ⬆️ 📦 Skyways Air IPO Listed📢 👉🏻 Listed at Rs 124 against the offer price of Rs 138 at Discou"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094640973246558599",
-          "author": "sabinowitz",
-          "searchJob": "texas-tech",
-          "text": "Today is Tim Cook's last day at Apple. It's tough to eulogize Tim Cook's time at  properly, so close to the event that threatens to (unfairly) define his career... Going to the White House, as a CEO of an important American company, and pr"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094640947829276946",
-          "author": "demandorsupply",
-          "searchJob": "texas-tech",
-          "text": "🔩 Hy-Tech Engineers IPO Listed 📢 👉🏻 Listed at Rs 75 against the offer price of Rs 53 at Premium of +41.51%"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094640890036023428",
-          "author": "ipowiz",
-          "searchJob": "texas-tech",
-          "text": "🔩 Hy-Tech Engineers IPO Listed 📢 👉🏻 Listed at Rs 75 against the offer price of Rs 53 at Premium of +41.51% ⬆️ #ipo #ipolisting #hytechEngineers #HyTechIPO https://t.co/AxZTq6wxhJ"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094640637203378608",
-          "author": "ipowiz",
-          "searchJob": "texas-tech",
-          "text": "🔩 Hy-Tech Engineers IPO Listed 📢 👉🏻 Listed at Rs 75 against the offer price of Rs 53 at Premium of +41.51% ⬆️ #ipo #ipolisting #hytechEngineers #HyTechIPO https://t.co/0LsZw7XubL"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094640557054431232",
-          "author": "ipowiz",
-          "searchJob": "texas-tech",
-          "text": "🔩 Hy-Tech Engineers IPO Listed 📢 👉🏻 Listed at Rs 75 against the offer price of Rs 53 at Premium of +41.51% ⬆️ #ipo #ipolisting #hytechEngineers #HyTechIPO https://t.co/uZOxKvkwHp"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094640272080797704",
-          "author": "thermuus",
-          "searchJob": "texas-tech",
-          "text": "H1b + DEI fucked a generation of stem graduates. I graduated from a top 15 school in 2020 with an engineering degree and 2 stem minors. Zero ability to get a job in big tech and same with all my boys. The girls or people who checked the rig"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094639967855317434",
-          "author": "sharemarket_ipo",
-          "searchJob": "texas-tech",
-          "text": "🔩 Hy-Tech Engineers IPO Listed 📢 👉🏻 Listed at Rs 75 against the offer price of Rs 53 at Premium of +41.51% ⬆️"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094637664645362004",
-          "author": "projectionslab",
-          "searchJob": "texas-tech",
-          "text": "The Cooling Shortage Explained by Trading Assistant @elonmusk is onto something… again… The US data center industry is facing a severe bottleneck driven by the exponential growth of artificial intelligence. AI workloads require high-density"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094637001240649851",
-          "author": "mainefly",
-          "searchJob": "navy",
-          "text": "@aniemyer @jefftvalois A couple of them, on wheels, fly for the Owls Head Transportation Museum here in Maine. One in army colors, one in navy colors. They offer rides to the general public, one of the best fights I’ve ever had wish it last"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094638472577646729",
-          "author": "moneyviscoach",
-          "searchJob": "new-mexico",
-          "text": "Daniel W. Hoan, Second Socialist Mayor of Milwaukee would say: “Apparently New Mexico is being offered a very special investment product: ‘Buy our electric utility!’ ‘Who is buying it?’ ‘That's private.’ ‘Who owns the fund?’ ‘That's private"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094635367991218549",
-          "author": "billebere",
-          "searchJob": "ohio",
-          "text": "Reimagining World Wrestling Entertainment World Wrestling Entertainment needs a complete reset: not less wrestling, but a stronger identity built around professional wrestling as a major sporting institution. The model would combine modern "
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
-      "ok": true,
-      "reason": null,
+      "ok": false,
+      "reason": "minnesota: rate limited",
       "jobs": 162,
-      "swept": 34,
-      "failed": 2,
-      "requests": 36,
+      "swept": 0,
+      "failed": 1,
+      "requests": 1,
       "errors": [
-        "minnesota: SearchTimeline HTTP 404 (slice left pending)",
-        "texas-am: rate limited"
+        "minnesota: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 28,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 0,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-01T04:43:34.100Z"
+    "status rebuilt locally from current store on 2026-09-01T04:56:11.516Z"
   ]
 }
