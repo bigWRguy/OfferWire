@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-01T06:41:20.963Z",
+  "generatedAt": "2026-09-01T06:58:42.704Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-01T06:41:20.835Z",
+    "at": "2026-09-01T06:58:42.237Z",
     "jobsTotal": 162,
-    "sweptThisRun": 1,
-    "requests": 2,
-    "fullSweepCycles": 162
+    "sweptThisRun": 36,
+    "requests": 36,
+    "fullSweepCycles": 5
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0010469444444445,
-    "p95Hours": 1.6780622222222221,
-    "worstHours": 1.6780622222222221
+    "medianHours": 0.7855036111111111,
+    "p95Hours": 1.7055680555555555,
+    "worstHours": 1.7055680555555555
   },
   "decisionCoverage": {
-    "total": 0,
-    "decided": 0,
+    "total": 53,
+    "decided": 53,
     "complete": true
   },
   "pending": {
@@ -44,7 +44,7 @@
   "profileResolution": {
     "cached": 28
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 505,
     "incompleteOffers": 0
@@ -52,53 +52,312 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-01T06:41:20.834Z",
-      "got": 1,
-      "new": 0,
-      "lag": 1.73
+      "at": "2026-09-01T06:58:42.236Z",
+      "got": 60,
+      "new": 53,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-01T06:41:13.255Z",
+    "at": "2026-09-01T06:56:18.207Z",
     "mode": "live",
     "collection": {
-      "returned": 1,
-      "kept": 0,
-      "duplicate": 1,
-      "tooOld": 0,
+      "returned": 60,
+      "kept": 53,
+      "duplicate": 6,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 41,
+      "rejected": 12,
+      "reasons": {
+        "no_offer_term": 7,
+        "no_fbs_school": 5
+      },
+      "samples": [
+        {
+          "reason": "no_offer_term",
+          "postId": "2094680656110625079",
+          "author": "orahonx",
+          "searchJob": "wake-forest",
+          "text": "A man in a Space says police took his daughter. The High Court says something else. 13 ignored return orders. A contempt finding. And a mother who never stopped fighting. Two sides. One story. https://t.co/8cUhYcEcCW"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094651194383986760",
+          "author": "hanaabira",
+          "searchJob": "wake-forest",
+          "text": "“Oh, thank you, that’s nice of you to say,” Miki smiled softly. Getting promoted in the middle of a calamity didn’t leave much room for congratulations or celebration, so it was nice to receive a bit of acknowledgment. https://t.co/jGhSvo8b"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094656462295630113",
+          "author": "the_far_queen",
+          "searchJob": "wake-forest",
+          "text": "The Far Queen arrives on Mars. https://t.co/iMz8WsAWI3"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094678485843197959",
+          "author": "bts_report",
+          "searchJob": "phrase:\"picked up an offer from\"",
+          "text": "Congratulations to @CalvinGoss2028 who has picked up an offer from @MercerMBB"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094673823501345157",
+          "author": "prafulsai",
+          "searchJob": "rice",
+          "text": "What if someone offers me a random medal?"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094638235867910382",
+          "author": "redboxindia",
+          "searchJob": "rice",
+          "text": "PM MODI SAYS INDIANS TO AVOID FOREIGN TRAVEL"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094532714787385540",
+          "author": "queen_aeesha",
+          "searchJob": "rice",
+          "text": "I am so sorry MLS but Guimarães is better."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094668743645491320",
+          "author": "farukbhyn",
+          "searchJob": "california",
+          "text": "Luxury Home For Sale in Riverside-Paid Off Solar 18570 HALTER LN, RIVERSIDE, CA 92504 ( Horse Property for Sale in Riverside, California ) Offered at: $1,050,000 Beds: 4 Baths: 3 Sq Ft: 2207 2.48 Acres Lot Built In: 1979 Offered at: $1,050,"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094655810164920748",
+          "author": "raymiramontes_",
+          "searchJob": "california",
+          "text": "🏡 Looking for a fully renovated pool home in Downey? Here’s what $1,325,000 gets you. 🚨 Interested? Call or text Ray directly at 562-600-9793 for the address, photos & full details. This Downey home for sale offers 4 bedrooms, 3 bathrooms"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094678591154118762",
+          "author": "erik_thorvalds",
+          "searchJob": "notre-dame",
+          "text": "https://t.co/cuzXdCFeVK"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094508018352456116",
+          "author": "marionawfal",
+          "searchJob": "notre-dame",
+          "text": "🇧🇪🇪🇺🇷🇺 Belgium told EU the Russian money stays locked. Defense Minister Francken said no after Poland, the Netherlands, Spain and Sweden pushed to revive a €210B Ukraine loan backed by frozen Russian reserves. Almost all of it sits at"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094673014155542774",
+          "author": "irish_eagles",
+          "searchJob": "notre-dame",
+          "text": "@thomasrp93 Do you think right now Ertz can still be a no.2 TE behind Dallas and can offer more than the rest of the TE’s we have on the roster.. because I do!"
+        }
+      ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "rejected": 41,
+      "reasons": {
+        "bare_mention_requires_llm": 3,
+        "school_not_resolved_confidently": 18,
+        "multiple_resolved_schools": 20
+      },
+      "samples": [
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094676794888912973",
+          "author": "savinthebees",
+          "searchJob": "wake-forest",
+          "text": "My name is Daejon Love. I’m 35 years old. My house is in the northeast section of Malibu, where all the $15 million beach houses are, and I am not married. I work as a wide receiver for the San Francisco 49ers, and I get home every day afte"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094666065833873784",
+          "author": "spookede86704",
+          "searchJob": "wake-forest",
+          "text": "Building a business from scratch is brutal. You ship the product. Write the offer. Find clients. Market every day. Handle every setback. Then wake up and do it again. Financial freedom demands endurance."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094659920612520397",
+          "author": "wyatt_claypool",
+          "searchJob": "wake-forest",
+          "text": "Outside of the Chicoutimi Le Fjord riding in Quebec where CPC vote bottomed out due to Richard Martel leaving for a Senate appointment from Carney, the other 2 ridings (North Van, and Beaches) basically just reflect the reality of what Angu"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094656580746711284",
+          "author": "kyuubantaii",
+          "searchJob": "wake-forest",
+          "text": "“It was a weird time to step up. You handled it well.” Stoic as he might be, efforts deserved to be recognized in the wake of hardships. At least, to those who deserved it. As he crouched to inspect the herbs shed so graciously offered, his"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094654290925117660",
+          "author": "91352y",
+          "searchJob": "wake-forest",
+          "text": "👻😝Chase warm sunrise on your early‑morning travel. Stand on high hilltops as orange sunlight spills all over the valley, wake up alongside nature. Let the stunning morning view wash away your weariness and appreciate the breathtaking beau"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094654263729529077",
+          "author": "juliangoldieseo",
+          "searchJob": "wake-forest",
+          "text": "🚨 𝗙𝗜𝗡𝗔𝗟 𝟲𝟬 𝗠𝗜𝗡𝗨𝗧𝗘𝗦 𝗢𝗙 𝗔𝗨𝗚𝗨𝗦𝗧! 𝗟𝗔𝗦𝗧 𝗖𝗔𝗟𝗟 𝗙𝗢𝗥 𝗔𝗟𝗟 𝟲𝟳 𝗞𝗜𝗧𝗦 + 𝟮 𝗙𝗥𝗘𝗘 𝗖𝗨𝗦𝗧𝗢𝗠 𝗔𝗜 𝗕𝗨𝗜𝗟𝗗𝗦 + 𝗧𝗢𝗗𝗔𝗬'𝗦 𝗣𝗥𝗜𝗖𝗘 𝗙𝗢𝗥𝗘𝗩𝗘𝗥 → https://t.co/Ppmk5h9rw3 🚨 𝗔𝗧 𝗠𝗜𝗗𝗡𝗜𝗚𝗛𝗧 𝗣\ud835"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094652739917697390",
+          "author": "jjoelpadilla",
+          "searchJob": "wake-forest",
+          "text": "🃏🇬🇷🕎🦅👑 USKrael offers military protection to Greece: We already have the new sacrificial for their war against Türkiye/Balkans... Lie down with Judas and you’ll wake up dead! 👑🦅🕎🇬🇷🃏"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094679412109349224",
+          "author": "arunabhahalder1",
+          "searchJob": "rice",
+          "text": "@SwiggyCares @SwiggyIndia daylight theft on Independence Day! RID: 1358310 (Addy's Rice Spice) My set offer: FEASTMODE40 (Max ₹80 off). But your system auto-applied \"Flat ₹100 off\" + extra discounts totaling ~₹200! Why is money cut from my "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094678727229927906",
+          "author": "tanmedia",
+          "searchJob": "rice",
+          "text": "@MichaelWestBiz The data source you are referring to for rice prices is the US futures price. In Japan right now, rice prices are down 16% yoy and farmers have been offered prices &lt; prodn cost. In China, prices are slightly negative. Vie"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094662064937558042",
+          "author": "adunniolaide02",
+          "searchJob": "rice",
+          "text": "Yesterday, someone came to buy foodstuff and said, “Please, measure it well o. I don’t want to get home and start wondering where the rest went.” 😂 I laughed because that’s exactly why I chose the name Accurate Measure Foodstuff Store. Whe"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094657847879442733",
+          "author": "delaware_goonaa",
+          "searchJob": "rice",
+          "text": "Myles offers us so much creativity but Bruno G’s reading of the game is levels ahead. He’s Rice with incredible passing."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094678210344530181",
+          "author": "phaneroombarara",
+          "searchJob": "south-florida",
+          "text": "THE PRIESTLY CALL: INTERCESSION AS SERVICE TO GOD Job 42:8 (NKJV): “Now therefore, take for yourselves seven bulls and seven rams, go to My servant Job, and offer up for yourselves a burnt offering; and My servant Job shall pray for you. Fo"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094675932367786463",
+          "author": "jeizrel",
+          "searchJob": "south-florida",
+          "text": "@D_WarEagle The truth is, Man Utd is a victim of its success. Lots of those talking bulls about our players are not Utd fans. They are just looking for quick ways to gain social media traffic, and @ManUtd offers that. One word about Utd gua"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094675728717479978",
+          "author": "dhinkie1",
+          "searchJob": "south-florida",
+          "text": "THE PRIESTLY CALL: INTERCESSION AS SERVICE TO GOD Job 42:8 (NKJV): “Now therefore, take for yourselves seven bulls and seven rams, go to My servant Job, and offer up for yourselves a burnt offering; and My servant Job shall pray for you. #P"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094674373571662200",
+          "author": "ncyrus44",
+          "searchJob": "south-florida",
+          "text": "THE PRIESTLY CALL: INTERCESSION AS SERVICE TO GOD Job 42:8 (NKJV): “Now therefore, take for yourselves seven bulls and seven rams, go to My servant Job, and offer up for yourselves a burnt offering; and My servant Job shall pray for you. Fo"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094669868561756269",
+          "author": "phanerookampala",
+          "searchJob": "south-florida",
+          "text": "THE PRIESTLY CALL: INTERCESSION AS SERVICE TO GOD Job 42:8 (NKJV): “Now therefore, take for yourselves seven bulls and seven rams, go to My servant Job, and offer up for yourselves a burnt offering; and My servant Job shall pray for you. Fo"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094671882096087053",
+          "author": "firearmsguide",
+          "searchJob": "arizona",
+          "text": "No Need to Travel Far for Excellent Dove Hunting City of Buckeye welcomes hunters for season opener https://t.co/Le4Utw9asS - Professional Gunsmithing Library with 27,650 Printable Gun Manuals, Catalogs, Schematics & Blueprints + Guns & Amm"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094664193190601094",
+          "author": "4thesakeofpeace",
+          "searchJob": "california",
+          "text": "@BMartin1776 @TimRunsHisMouth California is not a failed state; it is the fourth-largest economy in the world, a hub of innovation, an incredible state in terms of quality of life, and it offers the best education in the country. People who"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094676414880497794",
+          "author": "rasnamban",
+          "searchJob": "notre-dame",
+          "text": "Rás na mBan is delighted to announce Cycling Ireland will sponsor the Points classification for the 20th edition of Ireland’s international stage race for women. Cycling Ireland joins a number of other Rás na mBan partners in extending thei"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094676022062981390",
+          "author": "marcorio61o",
+          "searchJob": "notre-dame",
+          "text": "**🇧🇪 Belgium just told the EU: \"The door is closed.\"** Four EU countries — Poland, Netherlands, Spain, Sweden — pushed to revive a €210 billion loan for Ukraine backed by frozen Russian assets. Belgium said no. Again. **This is not stupid"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094662646112879104",
+          "author": "rasnamban",
+          "searchJob": "notre-dame",
+          "text": "As Rás na mBan prepares for its 20th edition of Ireland’s leading international stage race for women, we’re delighted to confirm Sport Ireland’s continued support which is recognised at the event through the Best Young Rider classification."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094680697441005955",
+          "author": "randyferrell",
+          "searchJob": "air-force",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094680620899180719",
+          "author": "randyferrell",
+          "searchJob": "air-force",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094680374978764882",
+          "author": "randyferrell",
+          "searchJob": "air-force",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
+        }
+      ]
     },
     "search": {
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 1,
-      "failed": 1,
-      "requests": 2,
-      "errors": [
-        "phrase:\"my first D1 offer\": rate limited"
-      ]
+      "swept": 36,
+      "failed": 0,
+      "requests": 36,
+      "errors": []
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
+      "rejectedCandidates": 41,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-01T06:41:20.965Z"
+    "status rebuilt locally from current store on 2026-09-01T06:58:42.706Z"
   ]
 }
