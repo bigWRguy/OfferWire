@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-01T01:13:27.129Z",
+  "generatedAt": "2026-09-01T01:28:24.040Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-01T01:13:26.889Z",
+    "at": "2026-09-01T01:28:23.756Z",
     "jobsTotal": 162,
-    "sweptThisRun": 30,
-    "requests": 31,
-    "fullSweepCycles": 6
+    "sweptThisRun": 33,
+    "requests": 34,
+    "fullSweepCycles": 5
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7853563888888889,
-    "p95Hours": 2.0273833333333333,
-    "worstHours": 2.0273833333333333
+    "medianHours": 0.7855252777777778,
+    "p95Hours": 1.7864605555555555,
+    "worstHours": 1.7864605555555555
   },
   "decisionCoverage": {
-    "total": 64,
-    "decided": 64,
+    "total": 60,
+    "decided": 60,
     "complete": true
   },
   "pending": {
@@ -46,388 +46,303 @@
   },
   "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 491,
+    "completeOffers": 496,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-01T01:13:26.888Z",
-      "got": 103,
-      "new": 64,
-      "lag": 0.1
+      "at": "2026-09-01T01:28:23.755Z",
+      "got": 90,
+      "new": 60,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-01T01:11:21.645Z",
+    "at": "2026-09-01T01:26:18.512Z",
     "mode": "live",
     "collection": {
-      "returned": 103,
-      "kept": 64,
-      "duplicate": 38,
-      "tooOld": 1,
+      "returned": 90,
+      "kept": 60,
+      "duplicate": 30,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 29,
-      "rejected": 35,
+      "accepted": 48,
+      "rejected": 12,
       "reasons": {
-        "non_fbs_offer_target": 1,
-        "no_fbs_school": 27,
-        "no_offer_term": 3,
-        "unclassified_offer_text": 3,
+        "no_offer_term": 5,
+        "no_fbs_school": 5,
+        "unclassified_offer_text": 1,
         "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2094550307489366092",
-          "author": "jonahh74980",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I am blessed to receive my second offer from Graceland University! @CS904_ @CoachGCase @CoachTKrause @JeremyHodges04 @CoachStaback https://t.co/Io8RDyZr1m"
+          "reason": "no_offer_term",
+          "postId": "2094586792079249542",
+          "author": "agihouse_org",
+          "searchJob": "stanford",
+          "text": "https://t.co/VIGh0GtraR"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094549275577332105",
-          "author": "antoniocamano10",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer form @buildersports at Southwestern College 🙏🙏🙏 thank you Coach @ricebowl727 @KellyvilleHoops @BOE_918 https://t.co/0fIsORcAZl"
+          "postId": "2094596143413969069",
+          "author": "wendi_irlbeck",
+          "searchJob": "michigan",
+          "text": "This looks so yummy!! Do y’all offer ranch tours to the public? I’ve loved farm tours over the years both with the Dairy Council and the Beef Council. I worked for the Dairy Council in Michigan for over a year before I started my own privat"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2093836810799718780",
-          "author": "chloexchacha",
-          "searchJob": "navy",
-          "text": "決定阿姨長什麼樣子，我花了六分錢。 (English version below 🇬🇧 / 日本語は下にあります 🇯🇵) 螢幕上排出三張臉。第一張，豐腴慈祥，坐在客廳裡會替你剝橘子的那種長輩。第二張，精瘦俐落，一頭銀髮剪得短短的，看得出年輕時脾氣不小。第三張，質樸，臉上有操勞的痕跡，吃藥時間要靠 AI 提醒的那種人。 先交代一下我在做什麼。我在做一個工具，把劇本變成電影。手上這份劇本，改編自我伯母的真實故事——她照顧體弱的家人很多年了，而那個家裡，有一個住在 LINE"
+          "reason": "no_fbs_school",
+          "postId": "2094592567803261035",
+          "author": "_bryson_davis_",
+          "searchJob": "michigan",
+          "text": "AGTG!✝️ Blessed to receive a Division 1 offer from Western Michigan University. @Ski_Axel @CoachAbbasi @coachZHollis @CoachJacks209 @JUCOFFrenzy @JuCoFootballACE https://t.co/xdzwXTQiIA"
         },
         {
           "reason": "unclassified_offer_text",
-          "postId": "2094589990583853068",
-          "author": "amarietrammell",
-          "searchJob": "auburn",
-          "text": "%1 better everyday 💯 @WeGetYouOffers @OrangeBeachFB @adamgorney @ChadSimmons_ @DemetricDWarren @On3 @SWiltfong_ @Andrew_Ivins @ScoutFball @DexPreps @TomLuginbill @TheUCReport https://t.co/4HIgK56Zp8"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094588860797747668",
-          "author": "elishebaoriah",
-          "searchJob": "florida",
-          "text": "Blakey who works in finance offered for me to be his trophy wife and live with him in Florida he’s still in love with me he tried texting my old phone last year"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094571590998483114",
-          "author": "experien_ev",
-          "searchJob": "florida",
-          "text": "@rahul @Ned_Donovan Flock is banned from operating in Florida That answers everything I need to know Only a fool or a coward would defend anything flark has to offer Which one are you?"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094591311730888776",
-          "author": "jsunnews",
-          "searchJob": "georgia",
-          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/JDt77QnIxX"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094591289006100846",
-          "author": "reporternews",
-          "searchJob": "georgia",
-          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/pZnegTvSIR"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094591257087504475",
-          "author": "timesrecordnews",
-          "searchJob": "georgia",
-          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/9Xeqn4o4HX"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094591256475173128",
-          "author": "metrowestdaily",
-          "searchJob": "georgia",
-          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/SGW5WNp4F7"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094591154700349929",
-          "author": "southcoasttoday",
-          "searchJob": "georgia",
-          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/Ur0ugc0Lia"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094583635407933700",
-          "author": "starnewsonline",
-          "searchJob": "georgia",
-          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/CWrYNf72Ur"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094576274173804730",
-          "author": "columbiatribune",
-          "searchJob": "georgia",
-          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/KV5vaWFo2s"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094576273372672310",
-          "author": "stevenspointjrl",
-          "searchJob": "georgia",
-          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/ZkZOmTpNNS"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094576272621855065",
-          "author": "messengerpost",
-          "searchJob": "georgia",
-          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/zl1NCOm6y8"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094576266087141671",
-          "author": "theintellnews",
-          "searchJob": "georgia",
-          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/OnCvKdaIso"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094576239319081191",
-          "author": "dailycomet",
-          "searchJob": "georgia",
-          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/rrqfs15ROj"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094576135304601873",
-          "author": "gastongazette",
-          "searchJob": "georgia",
-          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/A94jBq6Xaf"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094573958905340260",
-          "author": "callingalldawgz",
-          "searchJob": "georgia",
-          "text": "@TheBritLad Offer them part of my ham sandwich and pork rinds."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094572235461636164",
-          "author": "azcentral",
-          "searchJob": "georgia",
-          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/IT6e7s2d1A"
+          "postId": "2094591475942355069",
+          "author": "michaelarothman",
+          "searchJob": "michigan",
+          "text": "𝐄𝐋-𝐒𝐀𝐘𝐄𝐃 𝐀𝐏𝐎𝐋𝐎𝐆𝐈𝐙𝐄𝐒 𝐓𝐎 𝐉𝐄𝐖𝐈𝐒𝐇 𝐃𝐄𝐌𝐎𝐂𝐑𝐀𝐓𝐒 𝐅𝐎𝐑 𝐇𝐈𝐒 ’𝐇𝐔𝐑𝐓 𝐏𝐄𝐎𝐏𝐋𝐄’ 𝐄𝐗𝐂𝐔𝐒𝐄 𝐀𝐅𝐓𝐄𝐑 𝐀 𝐒𝐘𝐍𝐀𝐆𝐎𝐆𝐔𝐄 𝐀𝐓𝐓𝐀𝐂𝐊 Michigan Senate candidate Abdul El-Sayed spent Saturday apologizing t"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2094592771093057988",
+          "postId": "2094595006971707488",
           "author": "brentswancer",
-          "searchJob": "illinois",
-          "text": "https://t.co/7Tue5DtKVS"
+          "searchJob": "minnesota",
+          "text": "https://t.co/PKRkwIR6FS"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094588146096722011",
-          "author": "natureinchicago",
-          "searchJob": "illinois",
-          "text": "I've published a new story at my blog, Nature in Chicagoland: Hennen Conservation Area in McHenry County, Illinois, Offers Great Birding and Relaxing Hiking https://t.co/sxMa5qLdmG Check out this spot for some great trails, birdwatching, an"
+          "postId": "2094593321914318984",
+          "author": "techstoriesin",
+          "searchJob": "texas-tech",
+          "text": "[ AmazonIndia Deal Rs 1,949 ] 40707701 PUMA mens F1 Leadcat 2.0 Logo in Slide [ad] https://t.co/xgudj8XsAH Offer Price: Rs 1,949 ( MRP: Rs 3,499 ) ( Lowest Price on Sep 1, 2026 )"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094325840964452559",
+          "author": "rockflowapp",
+          "searchJob": "texas-tech",
+          "text": "巴克莱测算：AI 模型公司每赚 100 美元，35-40 美元交给云平台。市场的第一反应是：云平台赢了。 Bobby 认为这个结论太浅。真正值得讨论的，是这个数字背后几个没人认真讲的结构性问题。👇🏻 https://t.co/CDPutEvM3z"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094258193136521335",
+          "author": "dream_library_",
+          "searchJob": "texas-tech",
+          "text": "歴史は繰り返します。 かつてアメリカには、巨大家電メーカーが君臨していました。 RCA社:(カラーTV放送方式のNTSCを開発、RCAコネクタに名前が残る) GE(General Electric)社:(トーマス・エジソンが設立した由緒ある巨大企業) Zenith Electronics社:(アマチュア無線家が創業、米国の松下的企業、現在は韓国LGの子会社) Magnavox社:(ボイスコイルを使ったスピーカーを発明、現在はPhilipsの子会社) Philco社:(ラジオお"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094575797696712938",
+          "author": "bobzhangai",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/zmpRWJzAWO"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094588140958716120",
-          "author": "dreamweaver61",
-          "searchJob": "illinois",
-          "text": "@mattvanswol I worked for home health care in Illinois. We weren't allowed to even eat food if it was offered. Taking a house would have been an automatic investigation of elderly financial abuse."
+          "postId": "2094595503769919718",
+          "author": "realdrewcarson",
+          "searchJob": "utah",
+          "text": "@lomcflurry_ Where in Utah? You'll have to beat the deal we swung at another place but interested in what you have to offer!"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094586416533508461",
-          "author": "jpelite_girls",
-          "searchJob": "illinois",
-          "text": "CONGRATS to 2027 Abigail Pressley for receiving an offer to play at Illinois Tech‼️ https://t.co/bRq7XWtu45"
+          "postId": "2094582147906478348",
+          "author": "benmurphypr8r",
+          "searchJob": "utah",
+          "text": "Between Grand Canyon National Park and Zion National park there has been substantial flooding. #flooding #journalism #news #nationalparks Flash flooding threatens Southern Utah, including Zion National Park; Hurricane offers sandbags https:"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2094593650705522794",
+          "author": "jake_trail11",
+          "searchJob": "virginia",
+          "text": "@TP_recruiting Jake Trail, Class of 2027. Veterans highschool QB 6’0 155lbs. Hold the school record for passing yards, also hold offers from Plymouth university and West Virginia state. Check out my highlight from my school record breaking "
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 29,
+      "accepted": 6,
+      "rejected": 42,
       "reasons": {
-        "school_not_resolved_confidently": 8,
-        "reporter_missing_player_name": 2,
-        "bare_mention_requires_llm": 16,
+        "bare_mention_requires_llm": 13,
+        "school_not_resolved_confidently": 25,
         "multiple_resolved_schools": 2,
-        "reporter_missing_position": 1
+        "reporter_missing_position": 1,
+        "reporter_missing_football_context": 1
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094549672278786364",
-          "author": "brooklynn2029",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer to play for @ECUWBB . Much gratitude to @ECUCoachJH3 and @ecucoachkim for this opportunity. Look forward to a visit this winter. #ecu #gopirates @LerryLegend @CoachBrittM @MMBR_CoachGBell @SAthletesLBB @Avi_Burme"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2094576823342428464",
-          "author": "johnn__p",
-          "searchJob": "massachusetts",
-          "text": "Blessed &amp; humbled to Earn an offer from @UMassFootball ! @coach_celiscar #buco #jucoproduct https://t.co/bRLKuoNPoQ"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094597541115359422",
+          "author": "podcast_quickie",
+          "searchJob": "stanford",
+          "text": "Podcast Summary | Huberman Lab: How to Accelerate Learning & Improve Education | Joe Liemandt Overview Education has reached a breaking point. For over a century, the universal K-12 model has delivered access to schooling, but not universal"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2094561465210654769",
-          "author": "chloexchacha",
-          "searchJob": "navy",
-          "text": "我丟一張男人的側臉照進去，它還我三個同一個人。 (English version below 🇬🇧 / 日本語は下にあります 🇯🇵) 不是大頭照。側著臉，半張臉被螢幕擋住，不是誰會挑來代表自己的那種照片。我把它放到「主管」這個角色的卡片上，當作測試。 一分鐘左右，三張卡出來。黑高領，新創公司那種強勢主管。淺藍襯衫，大組織裡的中階主管。橄欖綠外套，很有主見的創意總監。衣服不同、房間不同。臉，三張都是側臉照那個人：三十多歲、短髮、剃邊、一點鬍渣。照片裡根本沒拍到的正面，三"
+          "postId": "2094596739680317555",
+          "author": "therealpetey21",
+          "searchJob": "rice",
+          "text": "Day 2 of 2 stack sale! Check pinned tweet for shipping. All offers considered 2moro Post 25 $70 each Rice on card /99 https://t.co/rxCczUG4nH"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2094582096945877339",
-          "author": "612ceros",
-          "searchJob": "nevada",
-          "text": "9th Circuit ruling sets up Supreme Court fight over Kalshi on Sept 3 New Jersey has until Thursday to ask the U.S. Supreme Court to review a Third Circuit ruling that shields Kalshi's sports event contracts from state gambling laws. On Frid"
+          "postId": "2094593118058565988",
+          "author": "theoneyedbandit",
+          "searchJob": "rice",
+          "text": "@Quintorris_ Rice offers literally nothing beyond 10 yards downfield. You can't be WR1 overall with 0 vertical threat. They're going to spread the ball a ton, too"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2094581931308642569",
-          "author": "vanness_eric",
-          "searchJob": "nevada",
-          "text": "True .. Eric got recruited by Tesla Giga Nevada (LFP) in December 2024 for his strong construction and drywall background. He was a high-output Drywall & Paint Technician — fast, reliable, trained people, and made scopes run smoother. In Au"
+          "postId": "2094591797980971076",
+          "author": "kinzhaldaq",
+          "searchJob": "rice",
+          "text": "Sadhguru’s wife, Vijayakumari (known as Vijji), died in January 1997 at the Isha Yoga Center in Tamil Nadu. The Spiritual Account: Sadhguru and his followers state that she attained Mahasamadhi. This is a yogic process where a realized pers"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2094577004632813718",
-          "author": "fccaupdates",
-          "searchJob": "nevada",
-          "text": "Nestled between the Caribbean Sea and the majestic Sierra Nevada mountains, Santa Marta offers an extraordinary blend of natural beauty, cultural heritage, and outdoor adventure. It's a destination where every landscape tells a story. Photo"
+          "postId": "2094591306391511074",
+          "author": "bashareport",
+          "searchJob": "rice",
+          "text": "Iran’s 18 Million Toman Government Salary Struggles Against Tehran Food Prices For lower-paid government employees in Iran, a monthly salary of around 18 million toman leaves increasingly little room for basic household expenses as food pri"
         },
         {
-          "reason": "reporter_missing_player_name",
-          "postId": "2094590571041972676",
-          "author": "therayrudolph_",
-          "searchJob": "auburn",
-          "text": "Best DT in the State for the 2030 class!!! Picked up offers from both Alabama &amp; Auburn today!!! 📈🔥"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094587908040843675",
+          "author": "ailuqiao123",
+          "searchJob": "rice",
+          "text": "Zhang Guan'an, a 700-acre rice farmer, received on-site pest control advice from agricultural experts! The team offers data-driven solutions for disease and pest control during the grain-filling stage. #WeLoveZhejiang #FarmTechSupport https"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094592893017067666",
-          "author": "historicr53187",
-          "searchJob": "florida",
-          "text": "Flying into Key West International Airport at sunset offers breathtaking aerial views, as the sky turns brilliant shades of orange and gold over the vibrant blue waters and the winding string of the Florida Keys. https://t.co/8AzD3Gndlh"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094589488345285009",
-          "author": "dentalblush",
-          "searchJob": "florida",
-          "text": "Looking for a dental cleaning in Miami? Dental Blush is offering a $79 New Patient Special: • Regular Cleaning (D1110) • Full-Mouth X-Rays (D0210) • Comprehensive Evaluation (D0150) We provide regular cleaning (D1110) when clinically approp"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094564165050609790",
+          "author": "ambagboola",
+          "searchJob": "rice",
+          "text": "Aston Villa vs Arsenal Player-by-Player Analysis - David Raya Quiet afternoon. Villa generated almost nothing of quality and Raya faced no shots on target. Meanwhile, he commanded his box well, distributed cleanly under limited pressure, an"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094576591053500600",
-          "author": "iremidexxx",
-          "searchJob": "florida",
-          "text": "“I think Cubans love gold.” Those were President Donald Trump’s words when he was asked about whether the next president would keep the gold décor he added to the White House. And one question immediately comes to mind: What comes after Tru"
+          "postId": "2094565912028541048",
+          "author": "_pastafari_",
+          "searchJob": "southern-miss",
+          "text": "@roadtocfb @AndyGillilandMD We actually offered him more than Southern miss did. I dont think he liked huntington. And I mean, I get it."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094566903398203436",
-          "author": "mjkcarpetman",
-          "searchJob": "florida",
-          "text": "@conservativeoh1 @MountainManTN My kids live in the city and the wife’s family. That’s why I can’t move to Florida but I like where I’m at now it cost too much for what they offer, but it’s peaceful. I’m happy here."
+          "postId": "2094571571658588549",
+          "author": "juliusharriscb1",
+          "searchJob": "maryland",
+          "text": "Julius Harris class of 2027 senior season Height 5’8, weight 150lbs Still searching for my first offer, my gpa is 3.2 and I am from Baltimore Maryland and play for sparrows point high school here’s the link to my Hudl https://t.co/qI5rlQzxs"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094566822011863361",
-          "author": "rationalhumanis",
-          "searchJob": "florida",
-          "text": "@Empty_America It's especially crazy when you consider that NY is one of the highest tax-burden states in the US. Florida, which has zero income taxes, offers $6,440/yr in-state tuition at University of Florida, which is a top-rated public "
+          "postId": "2094596373345607996",
+          "author": "breakaleggie",
+          "searchJob": "michigan",
+          "text": "A detail in a credit union case study from late last year explains why every corporate deepfake statistic in circulation is unreliable. Michigan State University Federal Credit Union, $8.26 billion in assets and 367,000 members, deployed ca"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094590354926260362",
-          "author": "mbphuddle",
-          "searchJob": "illinois",
-          "text": "Aggies offer big OT from Illinois"
+          "postId": "2094594786099671089",
+          "author": "thorton_throck",
+          "searchJob": "michigan",
+          "text": "@CougSportsMedia @Big12Radio Jay Hill &gt;&gt;&gt;&gt; Kalani. Sitake is mid at best. Hill becoming BYU's HC would have been a HUGE program from Utah fans. Now that Hill's on a bigger stage at Michigan he'll never come back to BYU. He's goi"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094571185954513009",
-          "author": "jimsimp98383139",
-          "searchJob": "illinois",
-          "text": "@NapervilleUp @ryanburge Seems like every big state school outside of Illinois offers tremendous benefits to their instate students. Gets the best and brightest to stay. Illinois has to be propped up by international students."
+          "postId": "2094577727550423242",
+          "author": "danholbrook",
+          "searchJob": "michigan",
+          "text": "A Hezbollah-inspired terrorist rammed a truck into Temple Israel in West Bloomfield and opened fire with more than 100 children inside. Abdul El-Sayed condemned it. Then Michigan’s Democratic Senate nominee said hurt people hurt people and "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094575221428953095",
+          "author": "nygeshikta",
+          "searchJob": "michigan",
+          "text": "Isn't she the same person who said she wasn't going to attend Michigan Democrats convention because she was afraid for her physical safety? And now she's saying that we should sacrifice our physical safety? Sounds like they got to her and o"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2094583296252612764",
-          "author": "thejohnettecruz",
-          "searchJob": "indiana",
-          "text": "INDIANAPOLIS — Young athletes and their fathers took the main floor at Gainbridge Fieldhouse on Friday afternoon for an active basketball clinic hosted by GirlDads Care in partnership with the Indiana Fever. The event offered families two h"
+          "postId": "2094582260464779266",
+          "author": "kristin80812320",
+          "searchJob": "minnesota",
+          "text": "✨The BASIS of our state flag is the Regimental Banner of the 1st Minnesota Volunteer Infantry Regiment ~The farmer & the Native American on horseback, \"L'Etoile du Nord\" for French Voyageurs, & Mississippi River w/ Saint Anthony Falls. ✨Our"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094581549295640897",
-          "author": "goldenst8dubs",
-          "searchJob": "indiana",
-          "text": "Reminder: Aaron Turner, Jonathan Kuminga’s current agent, was also the agent for Victor Oladipo when he rejected the Indiana Pacers extension offers before he got hurt"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094578608132255962",
-          "author": "casablancaric",
-          "searchJob": "indiana",
-          "text": "@DudespostingWs @IndianaFootball Respectfully I would offer him a position."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094591654598431048",
-          "author": "normfaurot",
-          "searchJob": "kentucky",
-          "text": "@tanman1994 @PlngDvlsAdvcPod @TheFieldOf68 @RobDauster @GoodmanHoops Why was Kentucky having to offer over double what Mizzou was then? By your logic, all they had to do was match the offer and MM would have left.. Didn’t really think this "
+          "postId": "2094580279012687930",
+          "author": "_drcharliewardq",
+          "searchJob": "minnesota",
+          "text": "MIKE LINDELL VOWS TO TAKE HIS CASE TO THE U.S. SUPREME COURT AFTER MINNESOTA DENIAL Mike Lindell says the fight for election transparency in Minnesota is far from over after the Minnesota Supreme Court ruled against his effort to obtain the"
         },
         {
           "reason": "reporter_missing_position",
-          "postId": "2094585012834214314",
-          "author": "kyfuturestars",
-          "searchJob": "kentucky",
-          "text": "Huge congratulations to Kentucky Future Stars alum Jude Lanier on receiving an offer from UT Martin! The extremely talented baller adds another to his bag‼️ #Brotherhood🏈🏈💨💨 @judelanier_2028 @UTM_FOOTBALL https://t.co/0ZcjfSmoCC"
+          "postId": "2094590236193955953",
+          "author": "nathanpurvis",
+          "searchJob": "mississippi-state",
+          "text": "| OFFERED | AJ Stokes (@Alfred_Stokes95), the class of 2028 edge from Germantown High School (Madison, MS), picks up the offer from Mississippi State. #HailState https://t.co/myX6HlvazU"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094578593313538312",
-          "author": "secretaryturner",
-          "searchJob": "kentucky",
-          "text": "Kentucky is leading the nation in ending the failed Housing First model. @RepAndyBarr and local leaders are providing more than a bed — they are working with the private sector to offer second chances and expand pathways to the American Dre"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094570294702678427",
-          "author": "jupo1182",
-          "searchJob": "kentucky",
-          "text": "@KyleTuckerCBB Why would it be awkward? He left for the NBA, and then was enticed to Kentucky for 6 million dollars. I don’t know many players that would be loyal if 6 million was offered to them lol"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094581522745741354",
-          "author": "damienractliffe",
-          "searchJob": "houston",
-          "text": "@kent_hodder Would Saints trade their pick for two or three of Carlton’s? Then could offer like pick 17 for Houston."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094590323628335432",
-          "author": "tfloss32",
-          "searchJob": "kansas",
-          "text": "'28 DE Preston Stauts (@30kpreston) from Mansfield Timberview scores a Kansas State offer. #EMAW https://t.co/0AvSXQFwfS https://t.co/9Y93pqeVeR 𝕏 @JColemanFB | @TViewWolves"
+          "reason": "reporter_missing_football_context",
+          "postId": "2094583043096707510",
+          "author": "nathanpurvis",
+          "searchJob": "mississippi-state",
+          "text": "| OFFERED | Jashawn Crayton (@jashawncrayton5), the class of 2029 @247Sports 3⭐️ wide receiver from Waxahachie High School (Waxahatchie, TX), picks up the offer from Mississippi State. #HailState Profile: https://t.co/BiEt86Zmcj https://t.c"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2094589884233064505",
-          "author": "tfloss32",
-          "searchJob": "kansas",
-          "text": "Kansas State has offered '28 DE Luke Baysinger (@baysinger_luke) of Texarkana Liberty-Eylau. #EMAW https://t.co/JWltyMSoDq https://t.co/oGmdEE5wto 𝕏 @Coach_BWillard"
+          "postId": "2094596426592391375",
+          "author": "emmett_delp",
+          "searchJob": "missouri",
+          "text": "After an amazing conversation with Coach Keeley, I am blessed to receive an offer from Northwest Missouri State University! #agtg #bearcats https://t.co/yw1hv8uppg"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094579614966272067",
+          "author": "corey_miller5",
+          "searchJob": "missouri",
+          "text": "I think the Mark Mitchell discourse is pretty simple - Always loved #Mizzou - Got an offer he couldn’t refuse from UK and tried to make it work - It didn’t work, rightly decided going back to MIZ was better than being in no man’s land as a "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094576208285753773",
+          "author": "robweirdicht",
+          "searchJob": "missouri",
+          "text": "Given we knew he was considering trying to get a 5th year when the 5 in 5 rule became a possibility That’s your fault and in a way his. Mizzou fans knew he was going to tear the nba and he’d have to sue to get his 5th year but we also knew "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094591324154695927",
+          "author": "westofeverthing",
+          "searchJob": "oklahoma",
+          "text": "@mario4thenorth Thank you Oklahoma for the generous offer"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094583574783504736",
+          "author": "story16327",
+          "searchJob": "oklahoma",
+          "text": "@tigers69420 @MandoSando11 @holihanm14 @405pokefan @jdpickell @405pokefan You live in Oklahoma I assume, tell these people what Oklahoma has to offer beyond football."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094597105058992465",
+          "author": "bitkanofficial",
+          "searchJob": "texas-tech",
+          "text": "Crypto Highlights of the Week (31 Aug ~ 6 Sept 2026) Insights: The strongest trading window centers on September 4 at 20:30, when U.S. unemployment and non-farm employment data arrive simultaneously after earlier ADP and jobless-claims sign"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094594103115985188",
+          "author": "techstoriesin",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon India Deal ] URJO-M-META-GRY-D.GRY | Urjo-m-meta URJO Italia Meta Men’s Boys’ Casual Waterproof Clogs, Grey, 10 UK - Current Price: Rs 889 | List Price: Rs 2,199. [ad] Offer Link: https://t.co/bxOEsnndYL These clogs feature a soft "
         }
       ]
     },
@@ -435,20 +350,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 30,
+      "swept": 33,
       "failed": 1,
-      "requests": 31,
+      "requests": 34,
       "errors": [
-        "oklahoma-state: rate limited"
+        "virginia-tech: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 29,
-      "brandNewOffers": 0
+      "acceptedEvidence": 6,
+      "rejectedCandidates": 42,
+      "brandNewOffers": 5
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-01T01:13:27.132Z"
+    "status rebuilt locally from current store on 2026-09-01T01:28:24.042Z"
   ]
 }
