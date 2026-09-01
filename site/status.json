@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-01T07:28:43.380Z",
+  "generatedAt": "2026-09-01T07:43:39.022Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-01T07:28:42.971Z",
+    "at": "2026-09-01T07:43:38.837Z",
     "jobsTotal": 162,
     "sweptThisRun": 36,
     "requests": 36,
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.2901536111111111,
-    "p95Hours": 1.2856913888888888,
-    "worstHours": 1.7906072222222222
+    "medianHours": 0.5389430555555556,
+    "p95Hours": 1.2887238888888888,
+    "worstHours": 1.2887238888888888
   },
   "decisionCoverage": {
-    "total": 25,
-    "decided": 25,
+    "total": 10,
+    "decided": 10,
     "complete": true
   },
   "pending": {
@@ -44,7 +44,7 @@
   "profileResolution": {
     "cached": 28
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 505,
     "incompleteOffers": 0
@@ -52,215 +52,111 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-01T07:28:42.970Z",
-      "got": 30,
-      "new": 25,
-      "lag": 0.04
+      "at": "2026-09-01T07:43:38.837Z",
+      "got": 13,
+      "new": 10,
+      "lag": 0.07
     }
   },
   "audit": {
-    "at": "2026-09-01T07:26:17.237Z",
+    "at": "2026-09-01T07:41:14.011Z",
     "mode": "live",
     "collection": {
-      "returned": 30,
-      "kept": 25,
-      "duplicate": 4,
-      "tooOld": 1,
+      "returned": 13,
+      "kept": 10,
+      "duplicate": 3,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 24,
-      "rejected": 1,
+      "accepted": 6,
+      "rejected": 4,
       "reasons": {
-        "hard_negative": 1
+        "no_fbs_school": 2,
+        "no_offer_term": 2
       },
       "samples": [
         {
-          "reason": "hard_negative",
-          "postId": "2094684782869516588",
-          "author": "dunnbilly87734",
-          "searchJob": "missouri",
-          "text": "King David's Priestly Role The Prophecy: In Psalm 110:4, King David prophesied about the coming Messiah, writing: \"You are a priest forever, in the order of Melchizedek\". Royal Authority: Because David was from the tribe of Judah, he could "
+          "reason": "no_fbs_school",
+          "postId": "2094682086200193523",
+          "author": "mdbaynews",
+          "searchJob": "texas",
+          "text": "This is disgusting. A 2-year-old Goldendoodle was allegedly left chained outside in Texas heat for 10–15 hours a day, without proper water or shade. A neighbor begged to help. She called animal control. She even offered to take the dog. Roc"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2094691537632317557",
+          "author": "staunovo",
+          "searchJob": "washington",
+          "text": "Chinese leader Xi Jinping is setting off on what’s shaping up as his busiest travel schedule in more than seven years, partly in a bid to convince nations that Beijing offers better global leadership than the US. This month, Xi is visiting "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094688187843280990",
+          "author": "ts86142",
+          "searchJob": "washington",
+          "text": "https://t.co/TEeXP3RbXC"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094688033102762032",
+          "author": "showtimejalen",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive special teams player of the week for week 1 #agtg @CoachMcMurray5 @CCGladiatorFB https://t.co/1xVSZFFiMJ"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 24,
+      "rejected": 6,
       "reasons": {
-        "school_not_resolved_confidently": 1,
-        "multiple_resolved_schools": 20,
-        "bare_mention_requires_llm": 3
+        "bare_mention_requires_llm": 3,
+        "reporter_missing_player_name": 2,
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094662065336000878",
-          "author": "zepplarouche",
-          "searchJob": "kent-state",
-          "text": "https://t.co/VuqE6Ska7D William Hartung, a veteran critic of US military spending, took on Undersecretary of Defense for Policy Elbridge Colby’s suggestion that a change is needed in U.S. nuclear doctrine because the President needs “more r"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094691462138986715",
+          "author": "khaledmahmoued1",
+          "searchJob": "washington",
+          "text": "Amidst Israeli apprehension and American unease, President Abdel Fattah El-Sisi is meeting today with Chinese President Xi Jinping during an official visit to Egypt to celebrate the 70th anniversary of bilateral relations. The official spok"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094688230222311850",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
+          "reason": "reporter_missing_player_name",
+          "postId": "2094685899758154237",
+          "author": "911y3",
+          "searchJob": "washington",
+          "text": "The US has offered up to $18 million for credible information leading to the identification or location of two senior Afghan ISIS K commander, Sanaullah Ghafari (Shahab al-Muhajir) and Obaidullah. Washington accuses Ghafari of leading ISIS-"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094688062672413065",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094687927087358377",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094687781062631588",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094687685428363492",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094687566494658665",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094687475973201996",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094687389637636295",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094687153703801134",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094687048384852160",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094686879614452175",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094686756163440930",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094686671090385073",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094686552303575371",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094686455759085729",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094686217132486696",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094686098639253888",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094685996105302250",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094685923501920681",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2094685806094885028",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • August 31, 2026 — Treasury blocks major news organizations from G20 coverage: Treasury denied reporters from The New York Times, The "
+          "reason": "reporter_missing_player_name",
+          "postId": "2094685437071962231",
+          "author": "newsforce",
+          "searchJob": "washington",
+          "text": "🇺🇸 Somaliland's President Abdullahi is expected to make his first-ever trip to Washington this week, seeking U.S. recognition of Somaliland as an independent state. He'll hold meetings in DC and New York with U.S. politicians and members "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094674374825545906",
-          "author": "krisco7791",
-          "searchJob": "michigan",
-          "text": "Iran funds the weapons that Hamas and Hezbollah seem to constantly have, enabling them to launch daily rocket attacks on Israel. On October 7, Hamas entered Israel, killed over 1,000 innocent concertgoers, kidnapped, raped, held hostages, a"
+          "postId": "2094677465436397915",
+          "author": "dizmal_one",
+          "searchJob": "washington",
+          "text": "He published six books on his harmonic grid, UFO, and anti-gravity ideas between 1968 and 1994, kept flying as a commercial airline captain, lectured publicly, and died in 2013 at age 83. He even said New Zealand authorities, after he brief"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094677007992819730",
+          "author": "jamnewscaucasus",
+          "searchJob": "washington",
+          "text": "Tuesday morning headlines from #Azerbaijan, 1 September ● A meeting between Azerbaijani President Ilham Aliyev and Armenian Prime Minister Nikol Pashinyan was held in Bishkek on the sidelines of the Shanghai Cooperation Organisation (SCO) s"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094681229551607936",
-          "author": "larrybuysland12",
-          "searchJob": "oklahoma",
-          "text": "Even ALLIGATORS Want to Sell Land?#shorts Think #selling your land is hard? If you own 5 or more acres of vacant land in Arkansas or Oklahoma, we want to buy it! the link below, and get your cash offer today! 👇 Click below to get started! "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094682929427616216",
-          "author": "jhallito",
-          "searchJob": "penn-state",
-          "text": "@BBgunn42 Penn State allegedly never even offer Kalani the job. He used the threat of that to parlay another raise. Like he does now every year or 2"
+          "postId": "2094673929902137392",
+          "author": "andreea87377594",
+          "searchJob": "washington",
+          "text": "Tim Cook Stepped Down . Apple Is Worth $4 Trillion More Than When He Took Over\" A day marking the end of an era at Apple, a disappointing IPO, military escalation in the Gulf, and record numbers across stocks and Bitcoin. Let's go through i"
         }
       ]
     },
@@ -275,11 +171,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 24,
+      "rejectedCandidates": 6,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-01T07:28:43.382Z"
+    "status rebuilt locally from current store on 2026-09-01T07:43:39.026Z"
   ]
 }
