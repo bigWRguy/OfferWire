@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-01T04:28:33.778Z",
+  "generatedAt": "2026-09-01T04:43:34.100Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-01T04:28:33.566Z",
+    "at": "2026-09-01T04:43:33.808Z",
     "jobsTotal": 162,
-    "sweptThisRun": 33,
-    "requests": 34,
+    "sweptThisRun": 34,
+    "requests": 36,
     "fullSweepCycles": 5
   },
   "backfillCoverage": {
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5378308333333334,
-    "p95Hours": 1.2840172222222221,
-    "worstHours": 1.2840172222222221
+    "medianHours": 0.5404169444444444,
+    "p95Hours": 1.038231388888889,
+    "worstHours": 1.5341066666666667
   },
   "decisionCoverage": {
-    "total": 18,
-    "decided": 18,
+    "total": 36,
+    "decided": 36,
     "complete": true
   },
   "pending": {
@@ -44,169 +44,265 @@
   "profileResolution": {
     "cached": 28
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 503,
+    "completeOffers": 504,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-01T04:28:33.565Z",
-      "got": 34,
-      "new": 18,
-      "lag": 0.11
+      "at": "2026-09-01T04:43:33.807Z",
+      "got": 51,
+      "new": 36,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-01T04:26:14.675Z",
+    "at": "2026-09-01T04:41:28.022Z",
     "mode": "live",
     "collection": {
-      "returned": 34,
-      "kept": 18,
-      "duplicate": 16,
+      "returned": 51,
+      "kept": 36,
+      "duplicate": 15,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 7,
-      "rejected": 11,
+      "accepted": 29,
+      "rejected": 7,
       "reasons": {
-        "no_offer_term": 4,
-        "no_fbs_school": 6,
-        "hard_negative": 1
+        "no_fbs_school": 3,
+        "no_offer_term": 4
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2094637436777418864",
-          "author": "fere_ai",
-          "searchJob": "class:2026",
-          "text": "https://t.co/gfk6jAhTCK"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094634623993073773",
-          "author": "brucegoldwell",
-          "searchJob": "florida",
-          "text": "How much are you overpaying simply because you didn’t know a discount existed? Senior Vet Discounts helps Veterans and Seniors Find. Show. Save. https://t.co/zuWPYYASlD"
-        },
-        {
           "reason": "no_fbs_school",
-          "postId": "2094621488410210622",
-          "author": "theledger",
-          "searchJob": "georgia",
-          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/6OG4iZKLDf"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094621454021046300",
-          "author": "mydelmarvanow",
-          "searchJob": "georgia",
-          "text": "The donkey belonged to the owners of Elsberry Riding and Farm, a farm and ranch in Rockmart, Georgia, that offers daily trail rides and a petting zoo. https://t.co/IUvhcEOfNS"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094640438816714859",
-          "author": "changeillinois",
-          "searchJob": "illinois",
-          "text": "We can neither confirm nor deny that warmonger, mass murderer and low testosterone @petehegseth and sidekick @emilmichael offered to pay us [$redacted] to stop telling people POS Pete has low testosterone. #BREAKING @CENTCOM @whitehouse @pr"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2094641895913996497",
-          "author": "heychristinamac",
-          "searchJob": "indiana",
-          "text": "Receipt 6: The key qualifier was left out of the day’s headline answer. HTC (Lunch Live, 0:09:46): \"did you find Richard Allen's DNA in your findings her answer no I did not did you develop a male DNA profile of any man no I did not develop"
+          "postId": "2094643223314804971",
+          "author": "businesstodaym1",
+          "searchJob": "texas-tech",
+          "text": "The updated range is now offered in three variants — E, V and RS — with the RS gaining a new black front grille and an exclusive Two-Tone Blazing Red Pearl finish. https://t.co/pjOZ4XexZX"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2094635867025330578",
-          "author": "efpjosephhudson",
-          "searchJob": "miami",
-          "text": "Blessed to receive an invite to a Miami RedHawks gameday! Thank you @MiamiOHFootball @LeoOtt123 @jtwestfootball @EDGYTIM @scottybscout @PrepRedzoneIL @DeepDishFB @MidwestFootbal1 @ScoutingA1_IL @ChiPlayerWatch @hpisani91 https://t.co/GHVLJ9"
+          "postId": "2094379702546784496",
+          "author": "eu_commission",
+          "searchJob": "texas-tech",
+          "text": "We have designated ChatGPT as a Very Large Online Search Engine and Reddit and Roblox as Very Large Online Platforms under the Digital Services Act. They now have four months to comply with additional DSA obligations. More: https://t.co/gIR"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2094494166906761315",
-          "author": "wadexflash",
-          "searchJob": "miami",
-          "text": "The Zach Lowe Show has Pelle Larsson as a Most Improved Player candidate for the upcoming season👀 Mo: “I don’t know if you caught what Pelle Larsson has done over the past few games…I think they’re going to need him on the floor this seaso"
+          "postId": "2094640808498770278",
+          "author": "juliangoldieseo",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/CFtX2QW5H0"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094621943962145247",
-          "author": "dudehumorreport",
-          "searchJob": "miami",
-          "text": "MAN KICKED OFF CRUISE AFTER RIGGING A HAMMOCK BETWEEN TWO LIFEBOATS MIAMI, FL — Dustin Farrow, 36, was removed from a Caribbean cruise after crew discovered he had rigged a personal hammock between two lifeboats on an upper deck, reportedly"
+          "postId": "2094642828404306025",
+          "author": "dinopontino",
+          "searchJob": "utah",
+          "text": "@eastdakota At what can does the vail board have to accept your offer? Also, I’d be careful suggesting parkites earn the right to vote people out of town."
         },
         {
-          "reason": "hard_negative",
-          "postId": "2094633716869898364",
-          "author": "karenupitykaren",
-          "searchJob": "memphis",
-          "text": "@CarmineWilding @wil_da_beast630 Men across every race ethnicity commit more crime that’s been true for thousands of years. Race offers the strongest correlation for crime, which is why we see higher rates in cities like Memphis or St. Loui"
+          "reason": "no_offer_term",
+          "postId": "2094496728380485924",
+          "author": "thenewmexican",
+          "searchJob": "new-mexico",
+          "text": "In the proposed private equity buyout of Public Service Company of New Mexico, the question of who is poised to own the state’s largest electric utility is difficult to answer. Officials have declined to provide information on the investors"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094626628546531554",
-          "author": "johnrlll2027",
-          "searchJob": "class:2027",
-          "text": "WEEK 2 HIGHLIGHTS John Robinson lll Class of 2027 Jackson, TN 1 Division 1️⃣ Offer ATH 5’11 173.3 4.6 40 3.6 GPA 2 Catches for 70 yards 1 touchdown 1 TFL 94 yard Pick Six 85 Yard Kick Return (Coach Gillard) Head Coach number - +1 (731) 298-"
+          "postId": "2094646061457678496",
+          "author": "onenationck",
+          "searchJob": "texas",
+          "text": "blackrock inc is this a bank? No, BlackRock is not a bank. What is BlackRock? Asset Manager: It is the world's largest asset management https://t.co/yYR0fAifI9 Management: Instead of taking deposits or offering checking accounts, it invests"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094640494739378405",
+          "author": "jhonsmall",
+          "searchJob": "texas",
+          "text": "https://t.co/b1YaWH4FUD"
         }
       ]
     },
     "extraction": {
       "accepted": 1,
-      "rejected": 6,
+      "rejected": 28,
       "reasons": {
-        "school_not_resolved_confidently": 2,
-        "reporter_missing_player_name": 1,
-        "bare_mention_requires_llm": 3
+        "bare_mention_requires_llm": 5,
+        "school_not_resolved_confidently": 23
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2094624481058975926",
-          "author": "theriskregister",
-          "searchJob": "auburn",
-          "text": "Auburn newborn baby death Police are investigating after a newborn baby boy was found dead in Auburn, while also expressing serious concern for the welfare of the mother. At this stage, we don’t know enough to speculate about what happened."
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2094631982730715442",
-          "author": "bhoward_11",
-          "searchJob": "florida",
-          "text": "Florida offers 2029 prospect."
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094634246413447532",
+          "author": "gurpalvirdi",
+          "searchJob": "stanford",
+          "text": "@saranormous If only Stanford could offer their patients EVO ICL"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094641198891978785",
-          "author": "karavas_alex",
-          "searchJob": "houston",
-          "text": "Alright…..here goes haha I want the Pies to be brave this offseason. If there is interest in Houston, JDG etc…..consider it. Look at the offers and really weigh it all up. We are in a delicate position now where this list needs a bit more l"
+          "postId": "2094630115661762999",
+          "author": "laurikeye_",
+          "searchJob": "stanford",
+          "text": "@elvisofdallas I took my kids out of school each year for at least an extra month as I knew it wouldn't hurt them, only help ( they had me as their mother lol ) and, I was right and even one of them went to Stanford- and all 4 were offered "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094639525028884833",
-          "author": "tramblejoe",
-          "searchJob": "miami",
-          "text": "THEUNIT MIDWEST RECRUITMENT Spotlight Athlete: @RiccoCrudup @CoachSnowden @ErikCampbell @Coach_Creighton @CoachBrown24 @CoachFoster23 @LoganM_CFB 2028 WR/DB Ricco Crudup 6'1 185lbs Roseville High School, Michigan Offer: Miami of Ohio https:"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2094637177883726005",
-          "author": "tramblejoe",
-          "searchJob": "miami",
-          "text": "THEUNIT MIDWEST RECRUITMENT Spotlight Athlete: @1takeiann @FlintPrepFan @ErikCampbell @ACruse15 @CoachKenniBurns @CoachCPatt @Coach_Creighton @hodgimoto1 @wtjr_19 @CoachWooster 2028 WR Ian Shields 6'2 180lbs GPA: 3.0 Davison HS, Michigan Of"
+          "postId": "2094633384710480188",
+          "author": "cuyahogacuse",
+          "searchJob": "syracuse",
+          "text": "@JeffCuse @veganroundtable Same story here. My kids were Syracuse fans from birth. One played D-III college football for a top 10 program. The other is an out of state student at Purdue. The engineering education is top notch. The price tag"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2094628552826314884",
-          "author": "wadexflash",
-          "searchJob": "miami",
-          "text": "REPORT: The Miami Heat could face a decision on Pelle Larsson’s future before his value gets higher, per @IraHeatBeat “While some contend the Heat acted with too much haste in extending Nikola Jovic, there seems to be enough there with Pell"
+          "postId": "2094645325546086802",
+          "author": "jaininvestment",
+          "searchJob": "texas-tech",
+          "text": "🔔IPO ALERT : ◾IPO Listing Update : 🔹#Hy-Tech Engineers 👉🏻 Listed @ ₹75 against offer price of ₹53 @ Premium of +41.51% ⬆️ 🔸🔹🔸"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094644840482938968",
+          "author": "simion28718336",
+          "searchJob": "texas-tech",
+          "text": "𝘼𝙪𝙜𝙪𝙨𝙩 𝙐𝙥𝙙𝙖𝙩𝙚: 𝟮.𝟭𝟵% 𝙃𝙞𝙜𝙝𝙚𝙧, 𝙖𝙣𝙙 𝙩𝙝𝙚 𝙊𝙪𝙩𝙥𝙚𝙧𝙛𝙤𝙧𝙢𝙖𝙣𝙘𝙚 𝙆𝙚𝙚𝙥𝙨 𝘽𝙪𝙞𝙡𝙙𝙞𝙣𝙜 August closed up 2.19%, bringing the portfolio to 16.30% YTD versus 12.1% for the S&P 500. Zooming out further, we're a"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094644028872728849",
+          "author": "smsmfund",
+          "searchJob": "texas-tech",
+          "text": "Hy-Tech Engineers #IPO Listed 📢 Listed at Rs 75 against the offer price of Rs 53 at Premium of +41.51%"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094643913235583314",
+          "author": "nxpindia",
+          "searchJob": "texas-tech",
+          "text": "🚀 Want to build the skills behind tomorrow’s chips? #WomenInTech offers training in SoC Architecture, Verification, Embedded Software, Python, Verilog, RISC-V, ARM &amp; hands-on semiconductor projects. Apply now: https://t.co/CFnNWY5lIp #"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094643417586471081",
+          "author": "woshixql",
+          "searchJob": "texas-tech",
+          "text": "Heavy-duty machinery, drone simulation training, brainwave-controlled cars... Beyond cultural experiences, Urumqi, China's Xinjiang, offers plenty of tech experiences to explore, showcasing the city's vibrant spirit of innovation. #adatewit"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094642775509868869",
+          "author": "tradeswan121956",
+          "searchJob": "texas-tech",
+          "text": "Hy-Tech Engineers IPO Listed 👉🏻 Listed at Rs 75 against the offer price of Rs 53 at Premium of +41.51% ⬆️ #Hytech #IPO #Listing #GMP #Gain"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094642735248736463",
+          "author": "24_rohitgupta",
+          "searchJob": "texas-tech",
+          "text": "Hy-Tech Engineers #IPO : Listed at Rs 75 against the offer price of Rs 53 at Premium of +41.51%. Only MainBoard #ipo listed today which has not shattered the dream of #ipo investors."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094642597981511793",
+          "author": "shamasharan",
+          "searchJob": "texas-tech",
+          "text": "At some point a tech company will just decide it's easier and better to not offer a product in Europe than it is to nerf itself. I eagerly await that day. Maybe it is today."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094641965447184488",
+          "author": "capitalinsight3",
+          "searchJob": "texas-tech",
+          "text": "IPO LISTING UPDATE | TODAY Symbiotec Pharmalab IPO • Listed at ₹988 vs Offer Price of ₹988 • Listing Gain: 0% • Retailer Profit per Lot: ₹0 Skyways Air Services IPO • Listed at ₹138 vs Offer Price of ₹138 • Listing Gain: 0% • Retailer Profi"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094641304299004032",
+          "author": "dpzd99",
+          "searchJob": "texas-tech",
+          "text": "🚨Main Board IPO Listing UPDATE🚨 🔩Hy-Tech Engineers IPO Listed 📢 👉🏻 Listed at Rs 75 against the offer price of Rs 53 at Premium of +41.51% ⬆️ 📦 Skyways Air IPO Listed📢 👉🏻 Listed at Rs 124 against the offer price of Rs 138 at Discou"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094640973246558599",
+          "author": "sabinowitz",
+          "searchJob": "texas-tech",
+          "text": "Today is Tim Cook's last day at Apple. It's tough to eulogize Tim Cook's time at  properly, so close to the event that threatens to (unfairly) define his career... Going to the White House, as a CEO of an important American company, and pr"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094640947829276946",
+          "author": "demandorsupply",
+          "searchJob": "texas-tech",
+          "text": "🔩 Hy-Tech Engineers IPO Listed 📢 👉🏻 Listed at Rs 75 against the offer price of Rs 53 at Premium of +41.51%"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094640890036023428",
+          "author": "ipowiz",
+          "searchJob": "texas-tech",
+          "text": "🔩 Hy-Tech Engineers IPO Listed 📢 👉🏻 Listed at Rs 75 against the offer price of Rs 53 at Premium of +41.51% ⬆️ #ipo #ipolisting #hytechEngineers #HyTechIPO https://t.co/AxZTq6wxhJ"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094640637203378608",
+          "author": "ipowiz",
+          "searchJob": "texas-tech",
+          "text": "🔩 Hy-Tech Engineers IPO Listed 📢 👉🏻 Listed at Rs 75 against the offer price of Rs 53 at Premium of +41.51% ⬆️ #ipo #ipolisting #hytechEngineers #HyTechIPO https://t.co/0LsZw7XubL"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094640557054431232",
+          "author": "ipowiz",
+          "searchJob": "texas-tech",
+          "text": "🔩 Hy-Tech Engineers IPO Listed 📢 👉🏻 Listed at Rs 75 against the offer price of Rs 53 at Premium of +41.51% ⬆️ #ipo #ipolisting #hytechEngineers #HyTechIPO https://t.co/uZOxKvkwHp"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094640272080797704",
+          "author": "thermuus",
+          "searchJob": "texas-tech",
+          "text": "H1b + DEI fucked a generation of stem graduates. I graduated from a top 15 school in 2020 with an engineering degree and 2 stem minors. Zero ability to get a job in big tech and same with all my boys. The girls or people who checked the rig"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094639967855317434",
+          "author": "sharemarket_ipo",
+          "searchJob": "texas-tech",
+          "text": "🔩 Hy-Tech Engineers IPO Listed 📢 👉🏻 Listed at Rs 75 against the offer price of Rs 53 at Premium of +41.51% ⬆️"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094637664645362004",
+          "author": "projectionslab",
+          "searchJob": "texas-tech",
+          "text": "The Cooling Shortage Explained by Trading Assistant @elonmusk is onto something… again… The US data center industry is facing a severe bottleneck driven by the exponential growth of artificial intelligence. AI workloads require high-density"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094637001240649851",
+          "author": "mainefly",
+          "searchJob": "navy",
+          "text": "@aniemyer @jefftvalois A couple of them, on wheels, fly for the Owls Head Transportation Museum here in Maine. One in army colors, one in navy colors. They offer rides to the general public, one of the best fights I’ve ever had wish it last"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094638472577646729",
+          "author": "moneyviscoach",
+          "searchJob": "new-mexico",
+          "text": "Daniel W. Hoan, Second Socialist Mayor of Milwaukee would say: “Apparently New Mexico is being offered a very special investment product: ‘Buy our electric utility!’ ‘Who is buying it?’ ‘That's private.’ ‘Who owns the fund?’ ‘That's private"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2094635367991218549",
+          "author": "billebere",
+          "searchJob": "ohio",
+          "text": "Reimagining World Wrestling Entertainment World Wrestling Entertainment needs a complete reset: not less wrestling, but a stronger identity built around professional wrestling as a major sporting institution. The model would combine modern "
         }
       ]
     },
@@ -214,20 +310,21 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 33,
-      "failed": 1,
-      "requests": 34,
+      "swept": 34,
+      "failed": 2,
+      "requests": 36,
       "errors": [
-        "michigan: rate limited"
+        "minnesota: SearchTimeline HTTP 404 (slice left pending)",
+        "texas-am: rate limited"
       ]
     },
     "outcome": {
       "acceptedEvidence": 1,
-      "rejectedCandidates": 6,
+      "rejectedCandidates": 28,
       "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-01T04:28:33.780Z"
+    "status rebuilt locally from current store on 2026-09-01T04:43:34.100Z"
   ]
 }
