@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-01T10:13:33.358Z",
+  "generatedAt": "2026-09-02T23:02:49.185Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-01T10:13:33.197Z",
+    "at": "2026-09-02T23:02:48.404Z",
     "jobsTotal": 162,
-    "sweptThisRun": 36,
+    "sweptThisRun": 35,
     "requests": 36,
     "fullSweepCycles": 5
   },
@@ -27,113 +27,921 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "cincinnati",
+      "hours": 37.9
+    },
+    {
+      "id": "louisiana",
+      "hours": 37.9
+    },
+    {
+      "id": "louisiana-tech",
+      "hours": 37.9
+    },
+    {
+      "id": "marshall",
+      "hours": 37.9
+    },
+    {
+      "id": "massachusetts",
+      "hours": 37.9
+    },
+    {
+      "id": "memphis",
+      "hours": 37.9
+    },
+    {
+      "id": "miami-oh",
+      "hours": 37.9
+    },
+    {
+      "id": "wyoming",
+      "hours": 37.9
+    },
+    {
+      "id": "auburn",
+      "hours": 37.6
+    },
+    {
+      "id": "colorado",
+      "hours": 37.6
+    },
+    {
+      "id": "duke",
+      "hours": 37.6
+    },
+    {
+      "id": "florida",
+      "hours": 37.6
+    },
+    {
+      "id": "georgia",
+      "hours": 37.6
+    },
+    {
+      "id": "houston",
+      "hours": 37.6
+    },
+    {
+      "id": "illinois",
+      "hours": 37.6
+    },
+    {
+      "id": "indiana",
+      "hours": 37.6
+    },
+    {
+      "id": "iowa",
+      "hours": 37.6
+    },
+    {
+      "id": "kentucky",
+      "hours": 37.6
+    },
+    {
+      "id": "lsu",
+      "hours": 37.6
+    },
+    {
+      "id": "maryland",
+      "hours": 37.6
+    },
+    {
+      "id": "navy",
+      "hours": 37.6
+    },
+    {
+      "id": "nevada",
+      "hours": 37.6
+    },
+    {
+      "id": "new-mexico",
+      "hours": 37.6
+    },
+    {
+      "id": "new-mexico-state",
+      "hours": 37.6
+    },
+    {
+      "id": "north-texas",
+      "hours": 37.6
+    },
+    {
+      "id": "northern-illinois",
+      "hours": 37.6
+    },
+    {
+      "id": "ohio",
+      "hours": 37.6
+    },
+    {
+      "id": "old-dominion",
+      "hours": 37.6
+    },
+    {
+      "id": "pittsburgh",
+      "hours": 37.6
+    },
+    {
+      "id": "smu",
+      "hours": 37.6
+    },
+    {
+      "id": "stanford",
+      "hours": 37.6
+    },
+    {
+      "id": "syracuse",
+      "hours": 37.6
+    },
+    {
+      "id": "tcu",
+      "hours": 37.6
+    },
+    {
+      "id": "texas-tech",
+      "hours": 37.6
+    },
+    {
+      "id": "ucf",
+      "hours": 37.6
+    },
+    {
+      "id": "utah",
+      "hours": 37.6
+    },
+    {
+      "id": "virginia",
+      "hours": 37.6
+    },
+    {
+      "id": "virginia-tech",
+      "hours": 37.6
+    },
+    {
+      "id": "wake-forest",
+      "hours": 37.6
+    },
+    {
+      "id": "west-virginia",
+      "hours": 37.6
+    },
+    {
+      "id": "air-force",
+      "hours": 37.4
+    },
+    {
+      "id": "akron",
+      "hours": 37.4
+    },
+    {
+      "id": "appalachian-state",
+      "hours": 37.4
+    },
+    {
+      "id": "arkansas-state",
+      "hours": 37.4
+    },
+    {
+      "id": "army",
+      "hours": 37.4
+    },
+    {
+      "id": "kansas",
+      "hours": 37.4
+    },
+    {
+      "id": "michigan",
+      "hours": 37.4
+    },
+    {
+      "id": "michigan-state",
+      "hours": 37.4
+    },
+    {
+      "id": "mississippi-state",
+      "hours": 37.4
+    },
+    {
+      "id": "missouri",
+      "hours": 37.4
+    },
+    {
+      "id": "nebraska",
+      "hours": 37.4
+    },
+    {
+      "id": "northwestern",
+      "hours": 37.4
+    },
+    {
+      "id": "notre-dame",
+      "hours": 37.4
+    },
+    {
+      "id": "ohio-state",
+      "hours": 37.4
+    },
+    {
+      "id": "oklahoma",
+      "hours": 37.4
+    },
+    {
+      "id": "ole-miss",
+      "hours": 37.4
+    },
+    {
+      "id": "oregon-state",
+      "hours": 37.4
+    },
+    {
+      "id": "penn-state",
+      "hours": 37.4
+    },
+    {
+      "id": "purdue",
+      "hours": 37.4
+    },
+    {
+      "id": "rice",
+      "hours": 37.4
+    },
+    {
+      "id": "rutgers",
+      "hours": 37.4
+    },
+    {
+      "id": "sam-houston",
+      "hours": 37.4
+    },
+    {
+      "id": "san-diego-state",
+      "hours": 37.4
+    },
+    {
+      "id": "san-jose-state",
+      "hours": 37.4
+    },
+    {
+      "id": "south-alabama",
+      "hours": 37.4
+    },
+    {
+      "id": "south-carolina",
+      "hours": 37.4
+    },
+    {
+      "id": "south-florida",
+      "hours": 37.4
+    },
+    {
+      "id": "southern-miss",
+      "hours": 37.4
+    },
+    {
+      "id": "uconn",
+      "hours": 37.4
+    },
+    {
+      "id": "ball-state",
+      "hours": 37.1
+    },
+    {
+      "id": "boise-state",
+      "hours": 37.1
+    },
+    {
+      "id": "bowling-green",
+      "hours": 37.1
+    },
+    {
+      "id": "buffalo",
+      "hours": 37.1
+    },
+    {
+      "id": "central-michigan",
+      "hours": 37.1
+    },
+    {
+      "id": "charlotte",
+      "hours": 37.1
+    },
+    {
+      "id": "coastal-carolina",
+      "hours": 37.1
+    },
+    {
+      "id": "colorado-state",
+      "hours": 37.1
+    },
+    {
+      "id": "delaware",
+      "hours": 37.1
+    },
+    {
+      "id": "east-carolina",
+      "hours": 37.1
+    },
+    {
+      "id": "eastern-michigan",
+      "hours": 37.1
+    },
+    {
+      "id": "kansas-state",
+      "hours": 37.1
+    },
+    {
+      "id": "louisville",
+      "hours": 37.1
+    },
+    {
+      "id": "miami",
+      "hours": 37.1
+    },
+    {
+      "id": "minnesota",
+      "hours": 37.1
+    },
+    {
+      "id": "temple",
+      "hours": 37.1
+    },
+    {
+      "id": "tennessee",
+      "hours": 37.1
+    },
+    {
+      "id": "texas",
+      "hours": 37.1
+    },
+    {
+      "id": "texas-am",
+      "hours": 37.1
+    },
+    {
+      "id": "toledo",
+      "hours": 37.1
+    },
+    {
+      "id": "troy",
+      "hours": 37.1
+    },
+    {
+      "id": "tulane",
+      "hours": 37.1
+    },
+    {
+      "id": "tulsa",
+      "hours": 37.1
+    },
+    {
+      "id": "uab",
+      "hours": 37.1
+    },
+    {
+      "id": "ucla",
+      "hours": 37.1
+    },
+    {
+      "id": "usc",
+      "hours": 37.1
+    },
+    {
+      "id": "vanderbilt",
+      "hours": 37.1
+    },
+    {
+      "id": "washington",
+      "hours": 37.1
+    },
+    {
+      "id": "wisconsin",
+      "hours": 37.1
+    },
+    {
+      "id": "alabama",
+      "hours": 36.9
+    },
+    {
+      "id": "arizona",
+      "hours": 36.9
+    },
+    {
+      "id": "arizona-state",
+      "hours": 36.9
+    },
+    {
+      "id": "arkansas",
+      "hours": 36.9
+    },
+    {
+      "id": "baylor",
+      "hours": 36.9
+    },
+    {
+      "id": "boston-college",
+      "hours": 36.9
+    },
+    {
+      "id": "byu",
+      "hours": 36.9
+    },
+    {
+      "id": "california",
+      "hours": 36.9
+    },
+    {
+      "id": "florida-atlantic",
+      "hours": 36.9
+    },
+    {
+      "id": "florida-international",
+      "hours": 36.9
+    },
+    {
+      "id": "fresno-state",
+      "hours": 36.9
+    },
+    {
+      "id": "georgia-southern",
+      "hours": 36.9
+    },
+    {
+      "id": "georgia-state",
+      "hours": 36.9
+    },
+    {
+      "id": "hawaii",
+      "hours": 36.9
+    },
+    {
+      "id": "jacksonville-state",
+      "hours": 36.9
+    },
+    {
+      "id": "james-madison",
+      "hours": 36.9
+    },
+    {
+      "id": "kennesaw-state",
+      "hours": 36.9
+    },
+    {
+      "id": "kent-state",
+      "hours": 36.9
+    },
+    {
+      "id": "liberty",
+      "hours": 36.9
+    },
+    {
+      "id": "nc-state",
+      "hours": 36.9
+    },
+    {
+      "id": "north-carolina",
+      "hours": 36.9
+    },
+    {
+      "id": "oregon",
+      "hours": 36.9
+    },
+    {
+      "id": "texas-state",
+      "hours": 36.9
+    },
+    {
+      "id": "unlv",
+      "hours": 36.9
+    },
+    {
+      "id": "utah-state",
+      "hours": 36.9
+    },
+    {
+      "id": "utep",
+      "hours": 36.9
+    },
+    {
+      "id": "utsa",
+      "hours": 36.9
+    },
+    {
+      "id": "washington-state",
+      "hours": 36.9
+    },
+    {
+      "id": "western-michigan",
+      "hours": 36.9
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 0.53537,
-    "p95Hours": 1.0329905555555556,
-    "worstHours": 1.0329905555555556
+    "medianHours": 37.356433055555556,
+    "p95Hours": 37.85405361111111,
+    "worstHours": 37.85405361111111
   },
   "decisionCoverage": {
-    "total": 7,
-    "decided": 7,
+    "total": 557,
+    "decided": 557,
     "complete": true
   },
   "pending": {
-    "total": 6
+    "total": 7
   },
   "profileResolution": {
-    "cached": 28
+    "cached": 29
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 26,
   "quality": {
-    "completeOffers": 505,
+    "completeOffers": 529,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-01T10:13:33.197Z",
-      "got": 9,
-      "new": 7,
-      "lag": 0.17
+      "at": "2026-09-02T23:02:48.403Z",
+      "got": 646,
+      "new": 557,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-09-01T10:11:06.888Z",
+    "at": "2026-09-02T23:00:10.402Z",
     "mode": "live",
     "collection": {
-      "returned": 9,
-      "kept": 7,
-      "duplicate": 2,
-      "tooOld": 0,
+      "returned": 646,
+      "kept": 557,
+      "duplicate": 85,
+      "tooOld": 4,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 5,
-      "rejected": 2,
+      "accepted": 325,
+      "rejected": 232,
       "reasons": {
-        "hard_negative": 1,
-        "no_fbs_school": 1
+        "no_fbs_school": 87,
+        "no_offer_term": 95,
+        "hard_negative": 48,
+        "unclassified_offer_text": 2
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2095226842626117949",
+          "author": "hockeysaucehq",
+          "searchJob": "cincinnati",
+          "text": "@CoachMongero Absolutely wrong. MLB shouldn’t be able to make any offers to anyone under the age of 17 at the youngest. And international funds for every team should be capped"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095193123420774502",
+          "author": "rotolegends",
+          "searchJob": "cincinnati",
+          "text": "Brian Thomas Jr.: Last Year's Mess, This Year's Monster https://t.co/HaQCsGfzxT"
+        },
+        {
           "reason": "hard_negative",
-          "postId": "2094727702657831135",
-          "author": "nims213",
-          "searchJob": "washington-state",
-          "text": "What's the salary? These employers aren’t saying, despite warnings from New York regulators https://t.co/5rZWWDmiOo Getty Images; Tyler Le/BI New York in 2023 began requiring companies to include pay ranges in job listings. Polymarket and o"
+          "postId": "2095108717599478008",
+          "author": "pokeokc",
+          "searchJob": "cincinnati",
+          "text": "Oklahoma State offers C/O 2028 ⭐️⭐️⭐️ RB Ky’ren Edmon from (Bradley-Bourbonnais HS) Bradley, IL Holds additional offers from Cincinnati, Ohio, Ole Miss and Wisconsin #Gopokes 🤠"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094831207921979872",
+          "author": "sleeperreds",
+          "searchJob": "cincinnati",
+          "text": "Should the Reds extend Tyler Stephenson?👀 https://t.co/TAQJkqtGDK"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2094724206185357640",
-          "author": "islandsmagazine",
-          "searchJob": "california",
-          "text": "Badger Pass Ski Area in Yosemite, California, the oldest in the state, offers several areas for skiing and snowboarding, as well as lessons for all ages. https://t.co/oFCGDY2vg8"
+          "postId": "2094896828126810455",
+          "author": "pcquakersbball",
+          "searchJob": "cincinnati",
+          "text": "6’4 c/o 2028 @_cartersmith8 has received an offer from @GoBearcatsMBB #Be3💛💙 https://t.co/xNg2vd6KIe"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2094910302961971243",
+          "author": "dudehumorreport",
+          "searchJob": "cincinnati",
+          "text": "LEAGUE INVESTIGATES COACH WHO ALLEGEDLY CHARGED PARENTS FOR GUARANTEED PLAYING TIME CINCINNATI, OH — Youth league coach Bill Osterhoudt, 47, is under investigation after several parents reported he had been privately charging a fee in excha"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2094906796309676459",
+          "author": "miller_report",
+          "searchJob": "cincinnati",
+          "text": "Carter Smith, a 2028 guard playing for Team Final /William Penn Charter (PA) has picked up his most recent offer from Cincinnati, per his coach. https://t.co/tlcxwnGl8y"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094880888425418855",
+          "author": "sportedgereport",
+          "searchJob": "cincinnati",
+          "text": "Before the 2026 season kicks off, we break down five years of head-to-head results to uncover the strongest Week 1 moneyline, ATS, and Over/Under trends. https://t.co/Dj24UzAO6G"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2094880334009540661",
+          "author": "paulbiancardi",
+          "searchJob": "cincinnati",
+          "text": "SC NEXT four-star prospect Shawn Foster commits to HC Kyle Getter and CBU. @KyleGetter | @CBUmbb That is the second four-star commitment for coach Getter. Four-star Steven Reynolds is a freshman this year. Foster had offers from programs ea"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095240033989017888",
+          "author": "johngwilkinson1",
+          "searchJob": "iowa-state",
+          "text": "@8BitAnarchist @esidery @espn Good for the Texans. They made a fair offer, and Stroud’s agent certainly conveyed that to CJ. And everybody will be happy if Stroud proves he’s actually worth a lot more."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094816854648701275",
+          "author": "zach_seyko",
+          "searchJob": "iowa-state",
+          "text": "Breaking: Penn State HC Matt Campbell confirms the team's starting O-line. LT Malachi Goodman LG Trevor Buhr C Brock Riker RG Cooper Cousins RT Anthony Donkoh"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095134538179424492",
+          "author": "methuselasmuse",
+          "searchJob": "iowa-state",
+          "text": "Why has the north magnetic pole shifted? Might it relate to the cataclysm? This article summarizes my thinking. It is hefty- 23 figures, 14 citations. I suggest a cup of coffee to sit down and read it, though given the topic you might prefe"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095273059011944895",
+          "author": "profilefblive",
+          "searchJob": "phrase:\"has offered\" recruit",
+          "text": "Louisiana Tech has offered 2028 Edge Alfred Stokes from Germantown HS, MS. @Alfred_Stokes95 Rated 3.1⭐ (#1295 NATL, #87 Edge, #28 MS). https://t.co/ZqulCNLVKW"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095191270415122909",
+          "author": "profilefblive",
+          "searchJob": "phrase:\"has offered\" recruit",
+          "text": "Virginia Tech has offered 2028 CB Justin Austin from Sandy Creek HS, GA. @JustinAustin26 Rated 3.9⭐ (#353 NATL, #34 CB, #47 GA). https://t.co/RILBoRPs04"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095171138364092835",
+          "author": "profilefblive",
+          "searchJob": "phrase:\"has offered\" recruit",
+          "text": "San Diego has offered 2027 OT Jake Pekarek from Palos Verdes HS, CA. @JakePekarek Rated 2.4⭐ (#4469 NATL, #274 OT, #378 CA). https://t.co/W8PCTTG55G"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095195015739826584",
+          "author": "belinsonmatt",
+          "searchJob": "louisiana",
+          "text": "Lincoln Prep JR Jabari Levingston now has game invites from UL-Lafayette, Miami-Ohio, and #LATech. Holds offers from Grambling State and Texas Southern."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095193530926797038",
+          "author": "jlevingston2028",
+          "searchJob": "louisiana",
+          "text": "I will the at the University of Lafayette on September 5th!! #gocajuns @CoreyThomas337 @VyronBrown31 @ChadSimmons_ @JeritRoser @247recruiting @PrepRedzoneLA @RecruitLouisian https://t.co/OyWtt4OF4k"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095190417616826492",
+          "author": "hotlesson",
+          "searchJob": "louisiana",
+          "text": "https://t.co/UBdUk3kr0T"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095180960681615695",
+          "author": "drylet",
+          "searchJob": "louisiana",
+          "text": "Looking to expand what you can offer your wastewater customers? Meet Justin Whitley at WEFTEC 2026. As CEO of Drylet, Justin works closely with distributors, manufacturers, engineering firms, and other industry partners exploring new opport"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2094742405664657410",
+          "author": "firecrackermoon",
+          "searchJob": "louisiana-monroe",
+          "text": "It’s September! Fall season is about to kick off, and we are proud of our players’ as their receive offers and commit to play at the next level: so excited to cheer on the Warhawks next year! Let’s go, @CGortney2027 💪 🧨 @Coach_DBowling @w"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095277526943719454",
+          "author": "joshtpm",
+          "searchJob": "marshall",
+          "text": "@AJentleson More like I'd offer John $50k if he could stay off Fox News for two weeks. It would allow him to get off his parents allowance for the first time maybe. But I don't think he can do it."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095274166236975204",
+          "author": "cffdfs",
+          "searchJob": "marshall",
+          "text": "Let's Breakdown the Quarterbacks for the Saturday DFS Main Slates. https://t.co/USrgcqiSL9"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095238774267539469",
+          "author": "fieldcommando",
+          "searchJob": "marshall",
+          "text": "@GideonMudiaga @ndumdinakachi @lanreadelowo Uber is predatory everywhere. They refuse to be passenger oriented and function for themselves. Indrive and bolt offer both passenger and driver incentives and allow drivers to negotiate directly "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095236946142625817",
+          "author": "fieldcommando",
+          "searchJob": "marshall",
+          "text": "@visionaryjerome @BochuofBerlin @akintollgate @uberng Indrive and bolt run different models from Uber. They offer both drivers and passenger incentives with the option of negotiating directly with each other. Uber was too stuck in their own"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 5,
+      "accepted": 33,
+      "rejected": 292,
       "reasons": {
-        "bare_mention_requires_llm": 5
+        "bare_mention_requires_llm": 151,
+        "reporter_missing_position": 4,
+        "reporter_missing_player_name": 12,
+        "author_not_recruit:different sport": 1,
+        "multiple_resolved_schools": 53,
+        "school_not_resolved_confidently": 63,
+        "author_not_recruit:no recruit fields": 3,
+        "unresolved_offer_target": 1,
+        "player_display_name_unusable": 1,
+        "player_missing_football_context": 2,
+        "reporter_missing_class_year": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094725958330888235",
-          "author": "earthdesires",
-          "searchJob": "north-carolina",
-          "text": "To the man caught between two worlds, who must choose between duty and heritage before darkness consumes them all — this is for you. Righteous Allegiance by George Yuhasz A divided nation. A deadly plot. A man caught between two worlds. Wil"
+          "postId": "2095187557264904523",
+          "author": "enquirer",
+          "searchJob": "cincinnati",
+          "text": "Cincinnati-area Planned Parenthood offers telehealth herpes treatment https://t.co/zVb7eExB8f"
+        },
+        {
+          "reason": "reporter_missing_position",
+          "postId": "2095118377391948016",
+          "author": "calhounscats",
+          "searchJob": "cincinnati",
+          "text": "Per his IG - 4⭐️ 2029 - 7’0 C Mason Grivna has been offered by Cincinnati. Has recently accumulated some big time offers in his recruitment. #Bearcats https://t.co/yeSitmD3tI"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094718433736733125",
-          "author": "ctopiniononly",
-          "searchJob": "liberty",
-          "text": "Mornin World. Taco Tuesday is here. The day that really doesn't offer much. But how about we start off with a trip to the porch for some coffee, another God blessed sunrise and a big ole slice of FREEDOM. I pledge allegiance to the flag of "
+          "postId": "2095112069875962332",
+          "author": "tennistipster88",
+          "searchJob": "cincinnati",
+          "text": "US Open R1 Clash! 🎾 ATP #13 Rafael Jodar takes on #124 Bu Yunchaokete on the hard courts of New York. Jodar enters with strong form (7/3 L10, 49–15 YTD), following a high-quality Cincinnati R4 loss. Bu's recent record is 6/4 L10 and 29–16 "
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2094941597842432228",
+          "author": "goatman815",
+          "searchJob": "cincinnati",
+          "text": "BLESSED TO BE OFFERED BY @CowboyFB @AllenTrieu @Rivals @PrepRedzoneIL @EDGYTIM @mikeclarkpreps @michaelsobrien @Bryan_Ault @scottybscout @RecruitingBBCHS @adamgorney @On3 https://t.co/13wVEHCyK5"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094712322472243653",
-          "author": "xrpl_demon",
-          "searchJob": "liberty",
-          "text": "🏆🦅 GOLDEN BATCH — OFFICIAL QUALIFICATION INFO The Golden Batch NFT is an exclusive premium NFT created for the earliest $VALOR supporters who participated during the Pre-Market phase. ━━━━━━━━━━━━━━━━━━ 🏆 HOW TO QUALIFY Hold a minimum of"
+          "postId": "2094987742602022946",
+          "author": "dayers63",
+          "searchJob": "cincinnati",
+          "text": "Yes. And while you’re at it, offer Elly and Sal contracts so large they never leave Cincinnati. Give them an option on West Chester. And hire @JoeyVotto as the GM. Oh and keep your manager. Go @Reds!"
+        },
+        {
+          "reason": "reporter_missing_position",
+          "postId": "2094957280630383029",
+          "author": "nextuprecruits",
+          "searchJob": "cincinnati",
+          "text": "NEWS: 5⭐️ 2029 - 7’0 C Mason Grivna (@Mason_Grivna33) of Ballard HS (KY) has been offered by Cincinnati. https://t.co/PCwt0u4CXs"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2094944060439974115",
+          "author": "calhounscats",
+          "searchJob": "cincinnati",
+          "text": "Cincinnati has offered 2028 6'3\" 4 Star Combo Guard Carter Smith #Bearcats https://t.co/eQFS3Bxu45"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2094942319820546490",
+          "author": "calhounscats",
+          "searchJob": "cincinnati",
+          "text": "Cincinnati has offered 2028 6'6\" 4 Star CG Rowan Phillips. #Bearcats https://t.co/ZGpGbwoLhz"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094727851144524131",
-          "author": "galloptvrsa",
-          "searchJob": "arizona",
-          "text": "Leading The Way with Rouvaun Smit this Wednesday, 02 September 2026 at Hollywoodbets Durbanville. Away from the hustle and bustle of the city, Hollywoodbets Durbanville offers racing with a distinctly relaxed country feel, where fresh air, "
+          "postId": "2094919040707760147",
+          "author": "rowanphillips_",
+          "searchJob": "cincinnati",
+          "text": "Cincinnati offered! https://t.co/6sr7U2tgAA"
+        },
+        {
+          "reason": "author_not_recruit:different sport",
+          "postId": "2094935901998567487",
+          "author": "pobscout",
+          "searchJob": "cincinnati",
+          "text": "2028 Rowan Phillips received an offer from Cincinnati #PhenomHoops @Rowanphillips_ https://t.co/9MNDtarm73"
+        },
+        {
+          "reason": "reporter_missing_position",
+          "postId": "2094921303564108159",
+          "author": "knickoson42",
+          "searchJob": "cincinnati",
+          "text": "Cincinnati offers 2028 CG Rowan Phillips out of Pennsylvania. Saw him at Peach Jam. High powered offensive player, more of a wing IMO. #Bearcats"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2094913810377113783",
+          "author": "dushawnlondon1",
+          "searchJob": "cincinnati",
+          "text": "Cincinnati has offered four-star guard Carter Smith of @TeamFinalEYBL and @PCquakersBBall , @247Sports is told"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094895484007526471",
+          "author": "cernbasher",
+          "searchJob": "cincinnati",
+          "text": "Waymo will begin testing robotaxis in Greater Cincinnati (paving the way for Tesla) Story from the Cincinnati Business Courier... \"Waymo, the company that has launched its driverless robotaxis in 14 metropolitan markets, will \"soon\" begin t"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2094883751239053683",
+          "author": "phagankean",
+          "searchJob": "cincinnati",
+          "text": "The State presented a number of witnesses concerning what they described as Leo Frank’s lewd, lecherous, licentious, and lascivious conduct toward women and girls. Thomas E. Watson later repeated many of these accusations in his August 1915"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2094727194719158360",
-          "author": "sparqio",
-          "searchJob": "california",
-          "text": "Anthropic is facing a class-action lawsuit over allegations of misleading pricing and usage limits for its Claude Max AI subscription tiers. The suit was filed June 14 in a California US District Court. Plaintiff Karl Kahn contends that Ant"
+          "postId": "2095145318119567584",
+          "author": "hbreak8898",
+          "searchJob": "iowa-state",
+          "text": "Couldn’t be any of his Iowa state o linemen because they all sucked. Campbell and Heacock didn’t put any focus into the trenches. Their only good linemen were Will McDonald and Jalen Travis. They lucked into big citrus because every big sch"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2094818925263348061",
+          "author": "ggallman",
+          "searchJob": "iowa-state",
+          "text": "@COSProject We celebrate the wisdom of over 5000 attendees of the Iowa State Fair that understand legislators SHOULD vote to support an Article V Convention of States to offer Amendments to the US Constitution to rein in an out of control f"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095283125329031431",
+          "author": "profilefblive",
+          "searchJob": "phrase:\"has offered\" recruit",
+          "text": "Purdue has offered 2028 WR Dennis Tua'one from Timpview HS, UT. @Dennis_2a1 Rated 4.7⭐ (#93 NATL, #9 WR, #5 UT). https://t.co/5rwpJ6XYEn"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095275575585931647",
+          "author": "profilefblive",
+          "searchJob": "phrase:\"has offered\" recruit",
+          "text": "Mississippi State has offered 2029 Edge Dotarius Washington from Booker T. Washington HS, AL. @DJwashington___ Rated 3.7⭐ (#130 NATL, #11 Edge, #2 AL). https://t.co/NwjtPLnOGj"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095232795085832563",
+          "author": "profilefblive",
+          "searchJob": "phrase:\"has offered\" recruit",
+          "text": "Tulane has offered 2029 Edge Machi Harden from Westbury HS, TX. @thegoatkai99 Rated 3.1⭐ (#514 NATL, #31 Edge, #93 TX). https://t.co/JizJoZzTbU"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095213919665058227",
+          "author": "profilefblive",
+          "searchJob": "phrase:\"has offered\" recruit",
+          "text": "SMU has offered 2030 WR Youssouf Jungman from Kaufman HS, TX. @youssoufjungman Rated 3.3⭐ (#67 NATL, #15 WR, #9 TX). https://t.co/XWgebh92Hl"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095188753681731789",
+          "author": "profilefblive",
+          "searchJob": "phrase:\"has offered\" recruit",
+          "text": "Troy has offered 2028 WR Christopher Cunningham from Saraland HS, AL. @Christopher15CC Rated 3.2⭐ (#1215 NATL, #228 WR, #35 AL). https://t.co/6QHYEzUKmL"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095168621479698458",
+          "author": "profilefblive",
+          "searchJob": "phrase:\"has offered\" recruit",
+          "text": "Toledo has offered 2028 LB Pete Fortkamp from Elder HS, OH. @FortkampPete Rated 3.0⭐ (#1486 NATL, #102 LB, #60 OH). https://t.co/btCBZRcUhC"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095163588201627923",
+          "author": "profilefblive",
+          "searchJob": "phrase:\"has offered\" recruit",
+          "text": "UT Martin has offered 2027 TE Maddox Hager from Boyle County HS, KY. @maddox_hager13 Rated 3.1⭐ (#1747 NATL, #85 TE, #20 KY). https://t.co/Nmpk7cJi0n"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095267560560419290",
+          "author": "krispykriskring",
+          "searchJob": "louisiana",
+          "text": "In a previous post, the Ed Iskenderian's story was mentioned. The Camfather. Born 1921. Died 2026 at 104. Founded Isky Racing Cams from a single cam grinding machine in 1946. First president of SEMA. \"From one hot rodder to another.\" What w"
         }
       ]
     },
@@ -141,18 +949,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 36,
-      "failed": 0,
+      "swept": 35,
+      "failed": 1,
       "requests": 36,
-      "errors": []
+      "errors": [
+        "louisiana-tech: SearchTimeline HTTP 404 (slice left pending)"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 5,
-      "brandNewOffers": 0
+      "acceptedEvidence": 33,
+      "rejectedCandidates": 292,
+      "brandNewOffers": 24
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-01T10:13:33.361Z"
+    "status rebuilt locally from current store on 2026-09-02T23:02:49.186Z"
   ]
 }
