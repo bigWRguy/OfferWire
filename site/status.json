@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-03T14:26:15.727Z",
+  "generatedAt": "2026-09-03T14:43:17.981Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-03T14:13:30.032Z",
+    "at": "2026-09-03T14:43:17.634Z",
     "jobsTotal": 162,
-    "sweptThisRun": 29,
-    "requests": 30,
+    "sweptThisRun": 31,
+    "requests": 32,
     "fullSweepCycles": 6
   },
   "backfillCoverage": {
@@ -30,109 +30,45 @@
   "staleSchools": [
     {
       "id": "texas-tech",
-      "hours": 3
-    },
-    {
-      "id": "air-force",
-      "hours": 2.2
-    },
-    {
-      "id": "alabama",
-      "hours": 2.2
-    },
-    {
-      "id": "louisiana-tech",
-      "hours": 2.2
-    },
-    {
-      "id": "navy",
-      "hours": 2.2
-    },
-    {
-      "id": "nevada",
-      "hours": 2.2
-    },
-    {
-      "id": "new-mexico",
-      "hours": 2.2
+      "hours": 3.3
     },
     {
       "id": "new-mexico-state",
-      "hours": 2.2
+      "hours": 2.5
     },
     {
       "id": "north-texas",
-      "hours": 2.2
+      "hours": 2.5
     },
     {
       "id": "northern-illinois",
-      "hours": 2.2
-    },
-    {
-      "id": "notre-dame",
-      "hours": 2.2
+      "hours": 2.5
     },
     {
       "id": "ohio",
-      "hours": 2.2
+      "hours": 2.5
     },
     {
       "id": "old-dominion",
-      "hours": 2.2
+      "hours": 2.5
     },
     {
       "id": "texas",
-      "hours": 2.2
-    },
-    {
-      "id": "texas-am",
-      "hours": 2.2
-    },
-    {
-      "id": "ucla",
-      "hours": 2.2
-    },
-    {
-      "id": "uconn",
-      "hours": 2.2
-    },
-    {
-      "id": "usc",
-      "hours": 2.2
-    },
-    {
-      "id": "vanderbilt",
-      "hours": 2.2
-    },
-    {
-      "id": "virginia-tech",
-      "hours": 2.2
-    },
-    {
-      "id": "wake-forest",
-      "hours": 2.2
+      "hours": 2.5
     },
     {
       "id": "washington",
-      "hours": 2.2
-    },
-    {
-      "id": "west-virginia",
-      "hours": 2.2
-    },
-    {
-      "id": "wisconsin",
-      "hours": 2.2
+      "hours": 2.5
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.2518375,
-    "p95Hours": 2.2359980555555556,
-    "worstHours": 3.001869722222222
+    "medianHours": 1.0342777777777779,
+    "p95Hours": 2.5199575,
+    "worstHours": 3.285829166666667
   },
   "decisionCoverage": {
-    "total": 0,
-    "decided": 0,
+    "total": 109,
+    "decided": 109,
     "complete": true
   },
   "pending": {
@@ -141,61 +77,410 @@
   "profileResolution": {
     "cached": 33
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 3,
   "quality": {
-    "completeOffers": 604,
+    "completeOffers": 606,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-03T14:13:30.032Z",
-      "got": 90,
-      "new": 68,
-      "lag": 0.06
+      "at": "2026-09-03T14:43:17.633Z",
+      "got": 134,
+      "new": 109,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-03T14:26:11.328Z",
+    "at": "2026-09-03T14:41:11.392Z",
     "mode": "live",
     "collection": {
-      "returned": 0,
-      "kept": 0,
-      "duplicate": 0,
-      "tooOld": 0,
+      "returned": 134,
+      "kept": 109,
+      "duplicate": 24,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 67,
+      "rejected": 42,
+      "reasons": {
+        "no_offer_term": 20,
+        "no_fbs_school": 19,
+        "hard_negative": 2,
+        "non_fbs_offer_target": 1
+      },
+      "samples": [
+        {
+          "reason": "no_offer_term",
+          "postId": "2095484639804875059",
+          "author": "verge",
+          "searchJob": "texas-tech",
+          "text": "The P80 Ultra is TCL’s first Nxtpaper phone with an OLED display. https://t.co/0zaf8Jl03f"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095484012781580510",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] 010-02862-11 | Garmin vivoactive 5 Garmin vívoactive 5 Health and Fitness GPS Smartwatch, Ivory - 𝗻𝗼𝘄 𝗮𝘁 $𝟭𝟴𝟭.𝟵𝟳 — 𝟯𝟵% 𝗼𝗳𝗳 𝘁𝗵𝗲 $𝟮𝟵𝟵.𝟵𝟵 𝗹𝗶𝘀𝘁 𝗽𝗿𝗶𝗰𝗲. [ad] Offer Link: https://t.co/ZH9oWChKSv #"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095483690663231740",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] 6000Sq.Ft | RHEA | PN: RHEA-002 AEOCKY 6000 Sq.Ft Commercial Energy Star Dehumidifier, 105 pints / 6000 Sq.Ft, White - 𝗻𝗼𝘄 𝗮𝘁 $𝟮𝟱𝟵.𝟵𝟵 — 𝟮𝟰% 𝗼𝗳𝗳 𝘁𝗵𝗲 $𝟯𝟯𝟵.𝟵𝟵 𝗹𝗶𝘀𝘁 𝗽𝗿𝗶𝗰𝗲. [ad] Offer Link: http"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095483462480535881",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] 34DC094-OFW | PN: 4069991292043 adidas Adizero Pacer Men's Running Shorts, White/Black/Crystal White - 𝗻𝗼𝘄 𝗮𝘁 $𝟲𝟯.𝟵𝟴 — 𝟮𝟬% 𝗼𝗳𝗳 𝘁𝗵𝗲 $𝟴𝟬.𝟬𝟬 𝗹𝗶𝘀𝘁 𝗽𝗿𝗶𝗰𝗲. [ad] Offer Link: https://t.co/mY5mdr5ndh "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095483087429808578",
+          "author": "thomasterjourno",
+          "searchJob": "texas-tech",
+          "text": "Scotland is betting on data centres it can't yet measure. Internal papers show CoreWeave and DataVita pressing ministers on power and planning. Now Ofgem warns the queue is clogged with speculative projects. https://t.co/813a8Wg1dp https://"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095482417524191454",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] 941-000121 Logitech G920 Racing Wheel and Pressure Sensitive Pedals, Xbox X|S, Xbox One, PC - 𝗻𝗼𝘄 𝗮𝘁 $𝟭𝟵𝟵.𝟵𝟵 — 𝟯𝟯% 𝗼𝗳𝗳 𝘁𝗵𝗲 $𝟮𝟵𝟵.𝟵𝟵 𝗹𝗶𝘀𝘁 𝗽𝗿𝗶𝗰𝗲. [ad] Offer Link: https://t.co/zaIcOitWul #tech"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095482210539205095",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] PN: NF0A3VY3 The North Face Women's Vault Everyday Laptop Backpack, Pale Teal, One Size - 𝗻𝗼𝘄 𝗮𝘁 $𝟱𝟮.𝟱𝟬 — 𝟮𝟱% 𝗼𝗳𝗳 𝘁𝗵𝗲 $𝟳𝟬.𝟬𝟬 𝗹𝗶𝘀𝘁 𝗽𝗿𝗶𝗰𝗲. [ad] Offer Link: https://t.co/CHqGLwHciW #techdeals #a"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095481735610044873",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] X903 STRIX MORPH 96/NW2/CA/ADS ASUS ROG Strix Morph 96 Wireless Mechanical Gaming Keyboard - 𝗻𝗼𝘄 𝗮𝘁 $𝟵𝟵.𝟵𝟵 — 𝟮𝟵% 𝗼𝗳𝗳 𝘁𝗵𝗲 $𝟭𝟯𝟵.𝟵𝟵 𝗹𝗶𝘀𝘁 𝗽𝗿𝗶𝗰𝗲. [ad] Offer Link: https://t.co/SnkfOCMp8Q #techdea"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095481178329579753",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] LS27H800EFAXZA | Samsung S80HF Samsung ViewFinity S8 5K High-Resolution Monitor - 𝗻𝗼𝘄 𝗮𝘁 $𝟱𝟴𝟵.𝟵𝟵 — 𝟭𝟲% 𝗼𝗳𝗳 𝘁𝗵𝗲 $𝟲𝟵𝟵.𝟵𝟵 𝗹𝗶𝘀𝘁 𝗽𝗿𝗶𝗰𝗲. [ad] Offer Link: https://t.co/6LFVmRQaNG #techdeals #amazo"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095500702189752592",
+          "author": "hotbets365",
+          "searchJob": "alabama",
+          "text": "https://t.co/BQnKTiC81M"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095520942693007595",
+          "author": "profilefblive",
+          "searchJob": "texas",
+          "text": "Texas Tech has offered 2028 DE LeRoi Kamtio from Gardner-Edgerton HS, KS. @LKamtio Rated 3.6⭐ (#695 NATL, #38 DE, #7 KS). https://t.co/ZPIuKxxJOJ"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095518853904449813",
+          "author": "japan_nobunaga",
+          "searchJob": "texas",
+          "text": "September in Texas brings a cold front that drops the night to sixty degrees. At 11:00 PM on Friday, my neighbor Hank lit a fire inside a welded steel cylinder that looks like a miniature steam locomotive. Hank is sixty-four. His wife died "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095518602325639207",
+          "author": "siredmund888",
+          "searchJob": "texas",
+          "text": "Incorrect. Is he using the roads, sewer and water system in his city? Does he use the library or any other amenity offered in his town? If he’s in Texas, there is no tax on his income. Local property taxes fund the municipal government that"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095518590019727439",
+          "author": "dirtdragonmom",
+          "searchJob": "texas",
+          "text": "@mandalynns23 I'm sure you had good reason to move. My daughter's husband to be got a fantastic job offer in Texas. His dream job. It has all happened so quickly. She didn't want to be so far from him."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095517667251700112",
+          "author": "bidziil1964",
+          "searchJob": "texas",
+          "text": "She killed her child. The court said NOT GUILTY. From 1860 to 2000, such verdicts concealed radically different truths: insanity, failed proof, jury mercy—or innocence. This is how courts decided when a mother who killed was not legally a m"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095515716413780352",
+          "author": "deeprivertx",
+          "searchJob": "texas",
+          "text": "Church's Fried Chicken opens in China to long waits. \"When you eat it, you have to say: 'This is exactly the same taste I had when I was studying in Texas.' That's what makes it classy enough.\" https://t.co/n1lN8NDIuC"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095516565601124391",
+          "author": "willtaylor0202",
+          "searchJob": "ucla",
+          "text": "Is now a thing of the past thanks to the great work @UCLA and the DEDICATED medical staff 🙏🏽 https://t.co/6KV9lj2KtA https://t.co/uCQSVBBEvT"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095504837849030744",
+          "author": "newagehero",
+          "searchJob": "usc",
+          "text": "News: Cathedral Catholic High School's Honor Fa’alave-Johnson, a five-star recruit, has announced his commitment to USC Trojans. Considered one of the best players in the country, he chose USC after attracting multiple major program offers."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095328875098042767",
+          "author": "tomloy247",
+          "searchJob": "vanderbilt",
+          "text": "A lot of people are taking weird shots at freshman quarterback Jared Curtis. “He couldn’t even win the job at Vanderbilt.” A lot of people are going to regret those comments. He’s the real deal and will prove that when it’s his time."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2094670944405192782",
+          "author": "abjeffberube",
+          "searchJob": "washington",
+          "text": "In my opinion, that is not a realistic option in a viable timeline. With all due respect to your cause (And I command anyone that puts themselves out there for what they believe in), it is mine and others’ belief that Canada has already hit"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095512412581396806",
+          "author": "arabcenterdc",
+          "searchJob": "washington",
+          "text": "📄 #SaudiArabia gains new arms suppliers and technology transfers, while #Turkey gains market access for its defense industry and a broader regional footprint. Read more 👇 https://t.co/eLyVU1QqOh"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095509785278103898",
+          "author": "conservtunde",
+          "searchJob": "washington",
+          "text": "🇸🇾 Syria Laws Used to Suppress Women: Code of Hammurabi (c. 1750 BCE): Subordinated women through unequal inheritance, harsh adultery punishments, and limited legal rights in marriage contracts amid Mesopotamian patriarchal structures in "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095508166595252530",
+          "author": "jimpethokoukis",
+          "searchJob": "washington",
+          "text": "Who decides who gets to enter and what they can do there? https://t.co/blz6TmSfZo"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095502304518488442",
+          "author": "gpepitone1",
+          "searchJob": "washington",
+          "text": "Alejandro Betancourt managed to burn hundreds of millions of dollars on one of the worst acquisition ideas this century.....our Venezuela annexation thesis was inspired by Bad Bunny...instead we got this guy... https://t.co/SJLuHXO5Mu"
+        }
+      ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 2,
+      "rejected": 65,
+      "reasons": {
+        "school_not_resolved_confidently": 33,
+        "multiple_resolved_schools": 3,
+        "bare_mention_requires_llm": 27,
+        "author_not_recruit:different sport": 1,
+        "reporter_missing_player_name": 1
+      },
+      "samples": [
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095492029169992059",
+          "author": "ufcise",
+          "searchJob": "texas-tech",
+          "text": "Good times at last week's Tech Coast Conference, where CISE was talking up the Master of Science in Computer Science degree, now being offered at UF's campus in Jacksonville, with concentrations in AI and cybersecurity. Learn more about the"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095491146453537251",
+          "author": "deiny_design",
+          "searchJob": "texas-tech",
+          "text": "Funny how things work 😂😭 After all the applications and emails I sent looking for an internship placement, Thexora Tech Academy just got back to me with an offer… when I’ve already gotten one 😂🤧 Still grateful though. The journey was de"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095485749361803709",
+          "author": "_dakshmadaan",
+          "searchJob": "texas-tech",
+          "text": "Wait did I read that incorrectly or does Github education actually offer 3 different 1 year free domains Namecheap- .me .tech domains- .tech Name.com- any one from .dev, .live etc (25 total options I think)"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095485669644914898",
+          "author": "jeffreyleefunk",
+          "searchJob": "texas-tech",
+          "text": "The tech sector must think we are idiots. \"AI and data centers may offer a generational opportunity to clean up our electricity grid, improve water quality and water-use efficiency, and accelerate technologies to lighten burden we impose on"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095485296888733919",
+          "author": "scr01111",
+          "searchJob": "texas-tech",
+          "text": "Want a Google SWE offer? 📌 Don't prepare for the interview. Prepare to become the engineer they want to hire. Google L2 roadmap Phase 1: DSA 6–8 weeks Arrays Strings Hashing Two Pointers Sliding Window Binary Search Stack / Queue Linked Li"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095482951069045221",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] SR Yellow Bundle SC SKYROVER X1 4K Camera Drone with Touchscreen Controller, X1 Fly More Combo with Screen Controller - 𝗻𝗼𝘄 𝗮𝘁 $𝟲𝟵𝟵.𝟬𝟬 — 𝟭𝟱% 𝗼𝗳𝗳 𝘁𝗵𝗲 $𝟴𝟭𝟵.𝟬𝟬 𝗹𝗶𝘀𝘁 𝗽𝗿𝗶𝗰𝗲. [ad] Offer Link: htt"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095481951738065159",
+          "author": "efenigson",
+          "searchJob": "texas-tech",
+          "text": "🎙️She Left It All for Bitcoin: The Ex-CMO's Journey to Financial Freedom - Efrat on the “ReDeFined” pod Back in May 2026 I’ve been interviewed by @jeremyalmond, CEO of @paystand, on his podcast @ReDeFined_talks. In his words: “In this epis"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095480163182215308",
+          "author": "amr_nannaware",
+          "searchJob": "texas-tech",
+          "text": "BREAKING: PayPal has laid off around 600 employees across its Chennai, Bengaluru, and Hyderabad offices, affecting roughly 10% of its India workforce. Key facts: · Roles impacted span technology, engineering, operations, payments, and finan"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095515129672528235",
+          "author": "mageemp5",
+          "searchJob": "alabama",
+          "text": "@WorkforLife3 @WCespar My son is a national merit scholar from Knoxville and he went to Bama for the free ride. UTK offers an embarrassing low aid package for elite academic students. Best students in TN need to be incentivized to stay in T"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095521981940523243",
+          "author": "chron",
+          "searchJob": "texas",
+          "text": "👔 Trump backs Paxton, but not his wardrobe. President Donald Trump offered Ken Paxton a strong endorsement for Texas’ open U.S. Senate seat, while taking a pointed jab at the candidate’s suits, looks and TV interviews. Paxton has also face"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095521237019598926",
+          "author": "247sports",
+          "searchJob": "texas",
+          "text": "Isaac Brown averaged an FBS-best 8.8 yards per carry. Then Texas, Georgia, Oregon and Texas A&M came calling with seven-figure offers. Why college football’s most elusive running back stayed at Louisville and the question he must answer bef"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095521172523724803",
+          "author": "tpsrealtoratx",
+          "searchJob": "texas",
+          "text": "Texas home contracts revolve around a short, negotiated option period, very different from what many out-of-state buyers expect. How did your last home offer handle inspection timelines? https://t.co/F3MRJsWSBy"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095520048408395948",
+          "author": "asfreedomflies",
+          "searchJob": "texas",
+          "text": "Abraham Lincoln offered Slaves 40 acres and a Mule and started handing out land and livestock up and down the East coast from Brunswick Ga. to Washington DC. A democrat voter shot Lincoln in the back of the head so a Democrat VP could take "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095519722728993275",
+          "author": "woodlandsbiz",
+          "searchJob": "texas",
+          "text": "🎶 𝗝𝘂𝘀𝘁𝗶𝗻 𝗣𝗲𝗻̃𝗮 The Gooses Acre 📅 Date: 9/3/2026, 6:00:00 PM 🌐 Location: The Gooses Acre 📌 Address: 21 Waterway Ave , The Woodlands, Texas 77380 🎟️ Ticket Prices: FREE Justin Peña is a versatile musician based in Houston, Texa"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095517995023966215",
+          "author": "masemans",
+          "searchJob": "texas",
+          "text": "@floridanow1 Yup. They will have to compete for customers with the best prices &amp; best service/benefits. Residents will move to the places that have the best options, like how many people are moving to Texas and Florida. Offer the best v"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095517064832143709",
+          "author": "b1ack0wl",
+          "searchJob": "texas",
+          "text": "this is my current plan: at the moment I can only sell my baked goods within Texas, but Texas is huge af. So, I'm going to offer shipping on non-fragile things like cookies, brownies, and things like that within the state of Texas"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095516374298673506",
+          "author": "harvey1538092",
+          "searchJob": "texas",
+          "text": "@RonTit4tat3 Can't get any lower. What cowards. Gotta rob a little old lady. Too bad that wasn't in Texas or Florida. Mama would have had a hollow point to offer them."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095514453018063227",
+          "author": "klhigginssr",
+          "searchJob": "texas",
+          "text": "About \"Ghost Drop\": For teleoperator Sam Knightsbridge, the line between virtual combat and real-world terror is about to be obliterated. The terrorists came to ignite a war on American soil. In the pre-dawn dark along the Texas border, gun"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095513391913664920",
+          "author": "bernade56365676",
+          "searchJob": "texas",
+          "text": "Do not email me please! 2023-2026 for what. Harass me! Insulting job offers! Where is Cornelius Texas? https://t.co/4nacUhp5H3"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095504594604339556",
+          "author": "txtpassportvisa",
+          "searchJob": "texas",
+          "text": "Skip the stress—Texas Tower offers fast, reliable notary services to make your paperwork a breeze. Visit us today and experience hassle-free service! #NotaryServices #LegalServices #PaperworkMadeEasy #TexasNotary https://t.co/y1R64p1BH1"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095503987109695567",
+          "author": "sanantoniozoo",
+          "searchJob": "texas",
+          "text": "Everyone’s invited! We’re excited to expand our popular $8 admission offer beyond Bexar County residents to all guests, regardless of where they live. This Saturday’s Community Locals Day, Presented by Community First Health Plans, will spo"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095503906767827126",
+          "author": "westexascindy",
+          "searchJob": "texas",
+          "text": "@amilynne87 @BradWinsAgain2 @hcfwire for example offers news about Texas as well as original reporting. Their recent articles on the TLR-Arnold connection and reduction of taxes in Ft Worth are top-notch. To me, a journalist is much more th"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095502725404389636",
+          "author": "1109patricia",
+          "searchJob": "texas",
+          "text": "In a week full of ugly headlines, this one is worth holding onto. Daniel Romano owns D’Romano’s Pizza in Throggs Neck in the Bronx. He saw an elderly woman pulling a half-eaten slice out of his garbage. He did not yell. He did not film her "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095512672754151927",
+          "author": "janeotn",
+          "searchJob": "vanderbilt",
+          "text": "True confession. I always mix up Gloria Steinem and Gloria Vanderbilt. I can picture each woman's face but I can't keep the names straight. So somehow I thought Gloria Steinem was Anderson Cooper's mom and I was going to offer him my condol"
+        }
+      ]
     },
     "search": {
-      "ok": false,
-      "reason": "texas-tech: rate limited",
+      "ok": true,
+      "reason": null,
       "jobs": 162,
-      "swept": 0,
+      "swept": 31,
       "failed": 1,
-      "requests": 1,
+      "requests": 32,
       "errors": [
-        "texas-tech: rate limited"
+        "new-mexico-state: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
-      "brandNewOffers": 0
+      "acceptedEvidence": 2,
+      "rejectedCandidates": 65,
+      "brandNewOffers": 2
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-03T14:26:15.728Z"
+    "status rebuilt locally from current store on 2026-09-03T14:43:17.982Z"
   ]
 }
