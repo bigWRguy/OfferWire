@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T14:13:30.311Z",
+  "generatedAt": "2026-09-03T14:26:15.727Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
@@ -30,17 +30,109 @@
   "staleSchools": [
     {
       "id": "texas-tech",
-      "hours": 2.8
+      "hours": 3
+    },
+    {
+      "id": "air-force",
+      "hours": 2.2
+    },
+    {
+      "id": "alabama",
+      "hours": 2.2
+    },
+    {
+      "id": "louisiana-tech",
+      "hours": 2.2
+    },
+    {
+      "id": "navy",
+      "hours": 2.2
+    },
+    {
+      "id": "nevada",
+      "hours": 2.2
+    },
+    {
+      "id": "new-mexico",
+      "hours": 2.2
+    },
+    {
+      "id": "new-mexico-state",
+      "hours": 2.2
+    },
+    {
+      "id": "north-texas",
+      "hours": 2.2
+    },
+    {
+      "id": "northern-illinois",
+      "hours": 2.2
+    },
+    {
+      "id": "notre-dame",
+      "hours": 2.2
+    },
+    {
+      "id": "ohio",
+      "hours": 2.2
+    },
+    {
+      "id": "old-dominion",
+      "hours": 2.2
+    },
+    {
+      "id": "texas",
+      "hours": 2.2
+    },
+    {
+      "id": "texas-am",
+      "hours": 2.2
+    },
+    {
+      "id": "ucla",
+      "hours": 2.2
+    },
+    {
+      "id": "uconn",
+      "hours": 2.2
+    },
+    {
+      "id": "usc",
+      "hours": 2.2
+    },
+    {
+      "id": "vanderbilt",
+      "hours": 2.2
+    },
+    {
+      "id": "virginia-tech",
+      "hours": 2.2
+    },
+    {
+      "id": "wake-forest",
+      "hours": 2.2
+    },
+    {
+      "id": "washington",
+      "hours": 2.2
+    },
+    {
+      "id": "west-virginia",
+      "hours": 2.2
+    },
+    {
+      "id": "wisconsin",
+      "hours": 2.2
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.0392219444444444,
-    "p95Hours": 2.0233825,
-    "worstHours": 2.789254166666667
+    "medianHours": 1.2518375,
+    "p95Hours": 2.2359980555555556,
+    "worstHours": 3.001869722222222
   },
   "decisionCoverage": {
-    "total": 68,
-    "decided": 68,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "pending": {
@@ -64,394 +156,46 @@
     }
   },
   "audit": {
-    "at": "2026-09-03T14:11:29.568Z",
+    "at": "2026-09-03T14:26:11.328Z",
     "mode": "live",
     "collection": {
-      "returned": 90,
-      "kept": 68,
-      "duplicate": 22,
+      "returned": 0,
+      "kept": 0,
+      "duplicate": 0,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 43,
-      "rejected": 25,
-      "reasons": {
-        "no_fbs_school": 16,
-        "no_offer_term": 7,
-        "hard_negative": 2
-      },
-      "samples": [
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095501630691008760",
-          "author": "robertvegan7",
-          "searchJob": "texas-tech",
-          "text": "I've always thought all along, and I'm not knocking the Nattokinase ideas, I have Nattokinase, but even being plant based I've leaned toward the use of Trypsin and Chymotrypsin for clotting and spikes. Now there are some reasons to think it"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095498207266803773",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon US Pre-order $279.99 ] RACGTING Foldable Sim Racing Cockpit with Seat, Touring & Open-Wheel Modes, 375 lb steel frame, breathable mesh seat, adjustable wheel/pedals, left/right shifter mount, folds compactly, fits major gear [ad] h"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095497137186390375",
-          "author": "arnoldmagtech",
-          "searchJob": "texas-tech",
-          "text": "📢We're Hiring! Quality Engineer – Sheffield | Early Friday Finish!📢 Arnold Magnetic Technologies is growing, and we’re looking for an experienced Quality Engineer to join our Sheffield team. In this role, you’ll support customer quality, "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095497086154502469",
-          "author": "hubgiri",
-          "searchJob": "texas-tech",
-          "text": "Congratulations... Suraj for your job offer!! 🎉 #placement2026 #ITjobs #placements #javafullstack #javafullstackdeveloper https://t.co/JI09s0mE2F"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095494290189197407",
-          "author": "roundhill",
-          "searchJob": "texas-tech",
-          "text": "How long can semi profits climb? We dug into earnings and margin forecasts across our eight semi subsegments to find out when this boom could peak. One segment's margins keep expanding all the way through 2030. Find out more in our Market M"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095512135053005127",
-          "author": "tdfridaynight",
-          "searchJob": "nebraska",
-          "text": "Happy birthday to former Edmond Santa Fe, University of Oklahoma and NFL defensive back Reggie Smith, born on this day in 1986 in Edmond. Smith was an All-State selection and was also selected to the USA Today's All-USA team and was the Gat"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095503352792551483",
-          "author": "11w",
-          "searchJob": "ohio-state",
-          "text": "Urban Meyer wants colleges to offer Braxton Miller's son, Landon, who is entering eighth grade as an athlete in the 2031 recruiting class. Feel old yet? https://t.co/4EHbgU6wVc"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095511404992250240",
-          "author": "scfbins",
-          "searchJob": "south-carolina",
-          "text": "#DidYouKnow that Farm Bureau Insurance offers students a Good Student Discount? Check out this article for more information! #backtoschool https://t.co/MYM9Ml5uJc https://t.co/juGxNu5VW4"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095487102884745631",
-          "author": "anothercodingx",
-          "searchJob": "tennessee",
-          "text": "https://t.co/z1LvyOk8eV"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095497233944768626",
-          "author": "mcckansascity",
-          "searchJob": "kansas",
-          "text": "MCC students have support when they need it. 💙 MCC Cares connects students in distress with campus resources, while Wolf Wellness offers free therapy, 24/7 emotional support and wellbeing workshops. Learn more: https://t.co/JMGUSds6yj http"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095462757223010530",
-          "author": "tombogert",
-          "searchJob": "utah",
-          "text": "🇨🇦 Sources: Real Salt Lake sign Canada int’l center back Luc de Fougerolles on loan from Fulham. Loan until winter with option to extend to summer. De Fougerolles, 20, appeared in all five games for Canada at the World Cup. With @joshuakl"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095512138991206444",
-          "author": "bbbwesternva",
-          "searchJob": "virginia",
-          "text": "BBB Serving Western Virginia recently visited @BandDComics to connect with Diana Fain and team to learn more about the company's continued growth and commitment to serving our region. Accredited since 1983, B & D Comic Shop has been serving"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095500859291369589",
-          "author": "shawnweneta",
-          "searchJob": "virginia",
-          "text": "For those who believe Governor Spanberger shouldn’t have this much power over who gets to vote, Question 3 offers a straightforward solution: Take it away from her. And from every governor to come. https://t.co/A8U8D03voe https://t.co/GbqwE"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095491724470571347",
-          "author": "virginiayankee1",
-          "searchJob": "virginia",
-          "text": "If you’re a MAGA influencer with an IQ hovering around today’s air temp in DC and you didn’t get offered a job in DOD, how low are you feeling right now? https://t.co/BMT2CzeCb6"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095513469646692566",
-          "author": "muadvmfg",
-          "searchJob": "marshall",
-          "text": "Attention, all you creative types! Our weekly Makes Meetup is today from 5 to 7 p.m. here at MAMC Huntington (1050 4th Ave.) Bring a cool project you’re working on. Get feedback. Share ideas. Network with other makers. Learn what tools we o"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095498489597665750",
-          "author": "jmarshall1973",
-          "searchJob": "marshall",
-          "text": "@RossyPrime Offer them some"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095496101398811103",
-          "author": "chrisma73898003",
-          "searchJob": "marshall",
-          "text": "write to them demanding 24months free subscription to an credit check service such as offered by Experian... If we all did it to every corporate they would have an incentive to take more care..."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095447308947030259",
-          "author": "biggle1908",
-          "searchJob": "marshall",
-          "text": "If you forget Manchester Airport's drop-off charge you get a £100 fine. So when Manchester Airport leaks our personal data can we fine them £100 each? That’s fair, isn’t it? #BrokenBritian"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095511610206912736",
-          "author": "french_friezed",
-          "searchJob": "massachusetts",
-          "text": "@Kristin82489364 Thanks i had never heard of it. Although i made some research and it doesnt seem to be available in Massachusetts. Doubt the DA would even offer this as a plea (if its even possible in MA) because he seems hellbent on a 1st"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095514606252839326",
-          "author": "fvbankus",
-          "searchJob": "class:2026",
-          "text": "August was a milestone month for FV Bank—and we’re just getting started. 🌎 https://t.co/gfhfOMJ4ZT"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095505493208797252",
-          "author": "pesgresearch",
-          "searchJob": "class:2026",
-          "text": "$NVCT: the caliber of healthcare-specialist investors now backing Nuvectis Pharma is a clinical signal in its own right. Perceptive Advisors, Tang Capital, and Soleus Capital do not accumulate based on narrative. They accumulate when the sc"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095504662069707048",
-          "author": "tokenterminal",
-          "searchJob": "class:2026",
-          "text": "https://t.co/l8W8YXyN5W"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095503801600094521",
-          "author": "my_stock_picker",
-          "searchJob": "class:2026",
-          "text": "Ten analysts. One company. Targets from $15 to $108. Why? That spread isn't a disagreement about Upstart. It's a disagreement about which multiple, which metric, and which forecast year to use. Educational only, not investment advice. https"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095493501890842732",
-          "author": "finetmobile",
-          "searchJob": "class:2026",
-          "text": "🚨 GOOD NEWS! THE OFFER HAS BEEN EXTENDED! 🎉 The Infinix NOTE Edge limited-time offer has been extended and shifted to 7th September 2026! 🔥Don’t miss this second chance! 🌐 https://t.co/28NF7jz1Sb 📲 0916 641 2554 | 0916 000 1762 #FINET "
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
-      "accepted": 3,
-      "rejected": 40,
-      "reasons": {
-        "school_not_resolved_confidently": 22,
-        "reporter_missing_position": 1,
-        "bare_mention_requires_llm": 14,
-        "reporter_missing_player_name": 2,
-        "multiple_resolved_schools": 1
-      },
-      "samples": [
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095502119512002686",
-          "author": "stevecase",
-          "searchJob": "texas-tech",
-          "text": "The abundance modern technology offers is a marvel. But the more it fills our lives, the more we seek what it can’t replicate. In the ‘80s, futurist John Naisbitt called this idea “high tech/high touch.” I write why AI has made that idea ur"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095501949948866618",
-          "author": "techregard",
-          "searchJob": "texas-tech",
-          "text": "London launches its first self driving taxis as Uber and artificial intelligence firm Wayve offer autonomous rides across the city. Londoners can now hail self driving taxis for the very first time after ride sharing company Uber partnered "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095501395550158934",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095501254428688474",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095501049562120566",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095500712025456897",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095500567623921769",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095500205986820426",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095500036708991109",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095499907591180630",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095499461762154701",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095497261618770330",
-          "author": "vietnambriefing",
-          "searchJob": "texas-tech",
-          "text": "Singapore offers Vietnamese tech firms incredible opportunities for #IP management and R&amp;D expansion. Tap into the Singapore-Vietnam Connectivity Framework to access #GreenEnergy and tech networks. Explore the framework ⤵️ https://t.co/"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095497189187309574",
-          "author": "grandiosegreed",
-          "searchJob": "texas-tech",
-          "text": "@RaidenFailure ー of smoke ; hopefully, The message is sent Clearly enough. ) To answer you, then, A scrap pile could Offer greater benefits Than ancient tech, if The project allows it . Ironic, isn't it .ᐣ ( God or not, value and Quality we"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095495022233928178",
-          "author": "rising_cap",
-          "searchJob": "texas-tech",
-          "text": "📡 Rising Market Pulse 🧭 Brent Hits $95 & 10Y Yields Surge → BoJ Yen-Carry Unwind Warning → BTC Flushes $370M Longs to $76.5k • Macro: Brent crude reaches $95/bbl, driving US 10Y yields to multi-year highs and stoking inflation fears. ADP "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095494018649964784",
-          "author": "carbon_acc",
-          "searchJob": "texas-tech",
-          "text": "@Hexarad Hello — many tech businesses are paying more than they should for their audit, especially those juggling rapid growth, R&D claims and complex revenue models. We offer a clear, transparent review and in most cases can reduce fees by"
-        },
-        {
-          "reason": "reporter_missing_position",
-          "postId": "2095503326691332166",
-          "author": "profilefblive",
-          "searchJob": "nebraska",
-          "text": "🚨 First P4 Offer 🚨 2028 Edge Jackson Lewandowski from Lake Zurich HS, IL has received his first P4 offer from Nebraska. @jacksonlew49038 Rated 3.2⭐ (#1226 NATL, #87 Edge, #33 IL). https://t.co/SvBS9CqJer"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095497836586848348",
-          "author": "_medbillingpro",
-          "searchJob": "nebraska",
-          "text": "Swagpro offers #medicalbillingservices near me with trusted Best #DentalBillingServices in #Nebraska, helping dental practices process claims faster, reduce denials, maximize collections, and increase revenue efficiently. Visit at: https://"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095510696712630529",
-          "author": "bornhatinduke",
-          "searchJob": "ohio-state",
-          "text": "If I had to guess where some of UNC’s offers will end up— Rosser and Page to UNC. Beckham Black and Uvwo to Duke. Diggs and Wabbington to AZ. Henry to Ohio State. Williams to BYU. https://t.co/oAJhe3dMqL"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095508661623804091",
-          "author": "pokesfandom",
-          "searchJob": "oklahoma",
-          "text": "Oklahoma State Football Offers Ky’ren ‘Goatman’ Edmon for Class of 2028 #okstate #oklahomastate #gopokes https://t.co/kqDAPWvAiG"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095512608346456462",
-          "author": "cmrlslibrary",
-          "searchJob": "ole-miss",
-          "text": "Central Mississippi Regional Library SystemMAGEE: MSU Extension Services is excited to present this FREE course intended for adults. This six-week course offers a weekly class with trained educators who teach food preparation, grocery shopp"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095495284633608412",
-          "author": "iamn0tthe1",
-          "searchJob": "ole-miss",
-          "text": "@ABC A redneck from Mississippi uses racial stereotypes and slurs. Hardly breaking news. And he offered his resignation earlier and they refused it and gave him a vote of confidence. They only fired him when there was backlash for not accep"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095511692067135897",
-          "author": "drew_toennies",
-          "searchJob": "purdue",
-          "text": "#TN2028 TE out of Lipscomb Academy adds an offer to his resume from Purdue ⬇️"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095485392996667453",
-          "author": "edobriencfb",
-          "searchJob": "purdue",
-          "text": "Andre Maina adds Purdue as ninth FBS offer https://t.co/YS8vext3wK VIA @AllStatePreps @AndreMaina99435"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095512155114090570",
-          "author": "plusev_bets",
-          "searchJob": "rutgers",
-          "text": "UMass @ Rutgers under 51.5 offers +3.3% EV as consensus models favor the under at 52%, while DraftKings prices it at just 49%. Both defenses rank bottom-20 nationally, but limited offensive firepower… The book + full FairLine breakdown → ht"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
-      "ok": true,
-      "reason": null,
+      "ok": false,
+      "reason": "texas-tech: rate limited",
       "jobs": 162,
-      "swept": 29,
+      "swept": 0,
       "failed": 1,
-      "requests": 30,
+      "requests": 1,
       "errors": [
-        "alabama: rate limited"
+        "texas-tech: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 3,
-      "rejectedCandidates": 40,
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 0,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-03T14:13:30.312Z"
+    "status rebuilt locally from current store on 2026-09-03T14:26:15.728Z"
   ]
 }
