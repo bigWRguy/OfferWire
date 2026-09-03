@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-03T11:28:23.088Z",
+  "generatedAt": "2026-09-03T11:48:13.443Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-03T11:28:22.830Z",
+    "at": "2026-09-03T11:48:13.192Z",
     "jobsTotal": 162,
-    "sweptThisRun": 34,
-    "requests": 35,
-    "fullSweepCycles": 5
+    "sweptThisRun": 31,
+    "requests": 32,
+    "fullSweepCycles": 6
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30,205 +30,105 @@
   "staleSchools": [
     {
       "id": "texas-tech",
-      "hours": 5.1
-    },
-    {
-      "id": "kansas",
-      "hours": 4.5
-    },
-    {
-      "id": "marshall",
-      "hours": 4.5
-    },
-    {
-      "id": "massachusetts",
-      "hours": 4.5
-    },
-    {
-      "id": "memphis",
-      "hours": 4.5
-    },
-    {
-      "id": "miami-oh",
-      "hours": 4.5
-    },
-    {
-      "id": "middle-tennessee",
-      "hours": 4.5
-    },
-    {
-      "id": "mississippi-state",
-      "hours": 4.5
-    },
-    {
-      "id": "missouri",
-      "hours": 4.5
-    },
-    {
-      "id": "missouri-state",
-      "hours": 4.5
-    },
-    {
-      "id": "nebraska",
-      "hours": 4.5
-    },
-    {
-      "id": "northwestern",
-      "hours": 4.5
-    },
-    {
-      "id": "ohio-state",
-      "hours": 4.5
-    },
-    {
-      "id": "oklahoma",
-      "hours": 4.5
-    },
-    {
-      "id": "ole-miss",
-      "hours": 4.5
-    },
-    {
-      "id": "penn-state",
-      "hours": 4.5
-    },
-    {
-      "id": "purdue",
-      "hours": 4.5
-    },
-    {
-      "id": "rutgers",
-      "hours": 4.5
-    },
-    {
-      "id": "south-carolina",
-      "hours": 4.5
-    },
-    {
-      "id": "ucf",
-      "hours": 4.5
-    },
-    {
-      "id": "utah",
-      "hours": 4.5
-    },
-    {
-      "id": "virginia",
-      "hours": 4.5
-    },
-    {
-      "id": "western-kentucky",
-      "hours": 4.5
-    },
-    {
-      "id": "wyoming",
-      "hours": 4.5
+      "hours": 5.4
     },
     {
       "id": "air-force",
-      "hours": 3
+      "hours": 3.4
     },
     {
       "id": "louisiana-tech",
-      "hours": 3
-    },
-    {
-      "id": "minnesota",
-      "hours": 3
+      "hours": 3.4
     },
     {
       "id": "navy",
-      "hours": 3
+      "hours": 3.4
     },
     {
       "id": "nevada",
-      "hours": 3
+      "hours": 3.4
     },
     {
       "id": "new-mexico",
-      "hours": 3
+      "hours": 3.4
     },
     {
       "id": "new-mexico-state",
-      "hours": 3
+      "hours": 3.4
     },
     {
       "id": "north-texas",
-      "hours": 3
+      "hours": 3.4
     },
     {
       "id": "northern-illinois",
-      "hours": 3
+      "hours": 3.4
     },
     {
       "id": "notre-dame",
-      "hours": 3
+      "hours": 3.4
     },
     {
       "id": "ohio",
-      "hours": 3
+      "hours": 3.4
     },
     {
       "id": "old-dominion",
-      "hours": 3
-    },
-    {
-      "id": "tennessee",
-      "hours": 3
+      "hours": 3.4
     },
     {
       "id": "texas",
-      "hours": 3
+      "hours": 3.4
     },
     {
       "id": "texas-am",
-      "hours": 3
+      "hours": 3.4
     },
     {
       "id": "ucla",
-      "hours": 3
+      "hours": 3.4
     },
     {
       "id": "uconn",
-      "hours": 3
+      "hours": 3.4
     },
     {
       "id": "usc",
-      "hours": 3
+      "hours": 3.4
     },
     {
       "id": "vanderbilt",
-      "hours": 3
+      "hours": 3.4
     },
     {
       "id": "virginia-tech",
-      "hours": 3
+      "hours": 3.4
     },
     {
       "id": "wake-forest",
-      "hours": 3
+      "hours": 3.4
     },
     {
       "id": "washington",
-      "hours": 3
+      "hours": 3.4
     },
     {
       "id": "west-virginia",
-      "hours": 3
+      "hours": 3.4
     },
     {
       "id": "wisconsin",
-      "hours": 3
+      "hours": 3.4
     }
   ],
   "liveStaleness": {
-    "medianHours": 0.7839355555555556,
-    "p95Hours": 4.5387377777777775,
-    "worstHours": 5.094721388888889
+    "medianHours": 0.8666452777777778,
+    "p95Hours": 3.366944722222222,
+    "worstHours": 5.425375555555555
   },
   "decisionCoverage": {
-    "total": 56,
-    "decided": 56,
+    "total": 52,
+    "decided": 52,
     "complete": true
   },
   "pending": {
@@ -245,359 +145,378 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-03T11:28:22.830Z",
-      "got": 70,
-      "new": 56,
-      "lag": 0.09
+      "at": "2026-09-03T11:48:13.191Z",
+      "got": 71,
+      "new": 52,
+      "lag": 0.1
     }
   },
   "audit": {
-    "at": "2026-09-03T11:26:08.983Z",
+    "at": "2026-09-03T11:46:05.114Z",
     "mode": "live",
     "collection": {
-      "returned": 70,
-      "kept": 56,
-      "duplicate": 14,
+      "returned": 71,
+      "kept": 52,
+      "duplicate": 19,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 35,
-      "rejected": 21,
+      "accepted": 26,
+      "rejected": 26,
       "reasons": {
-        "no_fbs_school": 12,
-        "no_offer_term": 6,
-        "hard_negative": 3
+        "no_offer_term": 15,
+        "no_fbs_school": 11
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2095452893021085729",
-          "author": "patriotmikeinfl",
-          "searchJob": "florida",
-          "text": "@LauraLoomer @RAlexAndradeFL @AngieNixon That's the best the Dems have to offer in Florida."
+          "reason": "no_offer_term",
+          "postId": "2095455209874993280",
+          "author": "kapitankloze",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/miw0DGF8LA"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095465700575899856",
-          "author": "d_ewinger",
-          "searchJob": "illinois",
-          "text": "@JDunlap1974 I trust no one but they're still better than what we had to offer. What's left after paying my bills which is nothing right now is what matters"
+          "postId": "2095455079851577728",
+          "author": "techtonicai_",
+          "searchJob": "texas-tech",
+          "text": "Women In STEM Africa offers technology companies access to a concentrated pool of emerging talent, making participation valuable for recruitment, collaboration, innovation scouting, and future workforce development. #WITIASummit2026"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095439393125290029",
-          "author": "pekalalaw",
-          "searchJob": "illinois",
-          "text": "@BuzzPatterson Welllll, Illinois Gov. Pritzker signed into law that all public schools must offer Halal food."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095468892294377928",
-          "author": "aethyrsara",
-          "searchJob": "maryland",
-          "text": "September 3, 2026 Alicia Rodriguez and her crime family are outside shouting that I steal from Alicia Rodriguez who is lying about having had weave in my apartment which is under my Beauty Dealz store in Tyson's Corner Mall where Añicia Rod"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095467097597899113",
-          "author": "thesevernduke",
-          "searchJob": "duke",
-          "text": "@Nesscylla *slowly offers a slice of dominos meator pizza*"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095462402481442926",
-          "author": "mckdukester",
-          "searchJob": "duke",
-          "text": "@BennyBoy1909 I never said he was taking money out the club... But he allegedly wants his money back from any interested buyer... No interested buyer(and they are out there) will offer close to this, so unless the foundation could maybe get"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095400641615024241",
-          "author": "twikirizeronald",
-          "searchJob": "duke",
-          "text": "I’ve poured all my life in a belief that for one to become, they need to see and believe that it is possible and more importantly possible for them. The team and I have carried this belief for the last 4 years through introducing the childr"
+          "postId": "2095451237043077194",
+          "author": "chiman321",
+          "searchJob": "texas-tech",
+          "text": "@AranciaQVQ Your point? His a traitor, no preferential treatment will be offered. He knows after all his spent most of his adult life in jail"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095458453107990752",
-          "author": "alibldz",
-          "searchJob": "georgia-tech",
-          "text": "A closer look at @axisrobotics : the Physical AI data engine combining simulation-first collection, egocentric human data, and a closed-loop training pipeline. https://t.co/8bkzDiYo32"
+          "postId": "2095447539663409508",
+          "author": "shailmarathe",
+          "searchJob": "texas-tech",
+          "text": "Yesterday Zoho launched Catalyst 3.0, an AI agent-ready, full-stack cloud development platform. Zoho's pricing of Catalyst 3.0 provides clear strategic lessons for Founders, CTOs and CFOs. Read on. https://t.co/vnRWSILnJJ"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095467377333027298",
-          "author": "bulldog__belle",
-          "searchJob": "houston",
-          "text": "@deeceepee80 @Marshal56370790 @sttapey What annoyed me as a Bulldog, was they \"courted\" him while he was still playing for us. Offered him a Cotton On contract when he was playing for us. Just shit..and then he does a knee and we have to re"
+          "postId": "2095446652178120791",
+          "author": "ariatechcollab",
+          "searchJob": "texas-tech",
+          "text": "@spencercamp This walkthrough offer shows how much you care about users"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095443189692006750",
+          "author": "etiennetrgc",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/4XVyGwVxNm"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095443046825369844",
+          "author": "expert_hive_ng",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/klhGVWnijH"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095435111412166748",
+          "author": "harshitkharsh",
+          "searchJob": "texas-tech",
+          "text": "Realme P4s की भारत में सेल हुई शुरू, 8000mAh बैटरी वाले फोन पर 3000 रुपये बचाने का मौका https://t.co/b3nC4OVmal"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095465070612422987",
-          "author": "houmuza",
-          "searchJob": "houston",
-          "text": "@Africanmedic25 @HillaryMusarurw Yep even in startups. I created a few in SA but it was a hustle to get funded from CSR budgets because their reporting needed black South African businesses which offered higher BEE scores."
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095471130018545807",
-          "author": "thebuffalonews",
-          "searchJob": "syracuse",
-          "text": "The Canisius running back has a four-star tag and his commitment to Syracuse after receiving 40-plus scholarship offers that once seemed unthinkable to a middle schooler in Buffalo. https://t.co/JmjXRVyNAF"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095468364193837294",
-          "author": "bufnewspreptalk",
-          "searchJob": "syracuse",
-          "text": "The Canisius running back has a four-star tag and his commitment to Syracuse after receiving 40-plus scholarship offers that once seemed unthinkable to a middle schooler in Buffalo. https://t.co/KHXZw0LQyf"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095468107091366338",
-          "author": "tbnsports",
-          "searchJob": "syracuse",
-          "text": "The Canisius running back has a four-star tag and his commitment to Syracuse after receiving 40-plus scholarship offers that once seemed unthinkable to a middle schooler in Buffalo. https://t.co/iMtWyaUX0L"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095471241394033010",
-          "author": "marxxx_dc",
-          "searchJob": "texas-tech",
-          "text": "Decapitation is a dam. The Axis is a river. Heads fell. Oil, drones, hired cells, and stolen logins did not. If the Guards still eat, the war was a pause.#IRGC #QudsForce #AxisOfResistance #October7 #Hezbollah #Hamas #HybridWarfare #FollowT"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095470353870995602",
-          "author": "bvnkfinance",
-          "searchJob": "texas-tech",
-          "text": "Your approach to stablecoins changes as you scale. At BVNK, we've lived this journey: now we help our customers to evolve their approach, without rebuilding tech or disrupting their customers. Read how in our latest article. https://t.co/w0"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095467990078898385",
-          "author": "saesufun",
-          "searchJob": "texas-tech",
-          "text": "@cryptowalax https://t.co/7cpEMhVsoI"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095466801849098309",
-          "author": "bonewitz_spbg",
-          "searchJob": "texas-tech",
-          "text": "Donald Trump doesn’t have an accomplishment problem. Republicans have an information problem. GOP voters still can’t name three things he’s actually done—even as the record shows more change in 18 months than most presidents deliver in four"
+          "postId": "2095441200119509347",
+          "author": "islandsmagazine",
+          "searchJob": "missouri",
+          "text": "Warsaw, Missouri, offers a scenic Ozarks getaway with Truman Lake, waterfront trails, camping, and locally loved restaurants in a small-town setting. https://t.co/uYvAc3OkLw"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095464565592985754",
-          "author": "kusematechafric",
-          "searchJob": "texas-tech",
-          "text": "@HonKangata tell me what would you do as the president? a leader knows the way and goes the way. you are a leader. stop complaining like the lest and offer solutions"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095461728243061070",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "Samsung Galaxy S26 FE $200 Amazon Gift Card Launch Offer Live in the US https://t.co/TRxBqXVn3X"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095458014346224034",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon US Deal $699.99 ] Samsung Galaxy S26 FE, Unlocked Phone + $200 Gift Card, Grahpite, 128GB, Galaxy AI, AI Photo Editor, 50MP Camera, Photo Assist, My FanCam, Super Steady Video, 4900 mAh Battery, 8 GB Memory [ad] https://t.co/I4J766"
+          "postId": "2095461553499701407",
+          "author": "osuoptometry",
+          "searchJob": "ohio-state",
+          "text": "Dr. Aaron Zimmerman offers expert insight on a new study examining a possible connection between a common ED medication and glaucoma risk. Full story via Men's Health. https://t.co/ArLBhUYOK4"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095449753827823878",
-          "author": "craigdmauger",
-          "searchJob": "michigan",
-          "text": "We obtained hundreds of Michigan State University government relations emails that raise questions about whether a state law that bars lobbyist-provided gifts for lawmakers is being followed in Lansing. https://t.co/UeV4WfHo1Z"
+          "postId": "2095167362916127141",
+          "author": "rainmaker1973",
+          "searchJob": "ole-miss",
+          "text": "Sixteen-year-old Corion Evans from Pascagoula, Mississippi, is being hailed as a hero after jumping into the Pascagoula River to save four lives in the early hours of the morning. According to ABC News, Evans witnessed a car carrying three "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095210149032219056",
+          "author": "wyattwendry2023",
+          "searchJob": "rutgers",
+          "text": "Week 1 Betting Card. What is your favorite play? #Gambling𝕏 https://t.co/WObeqx8CJJ"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095477484527431803",
+          "author": "dogs_are_first",
+          "searchJob": "south-carolina",
+          "text": "HOOK POST LONG ARC OF HISTORY for today. : Ahmose son of Ebana earned land after Avaris. Claudia Severa sent a birthday tablet from a Wall fort. Richard Frethorne went hungry at Martin’s Hundred. Eugene Sledge bailed rain from an Okinawa fo"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095415710277312855",
+          "author": "sheine_ai",
+          "searchJob": "kansas",
+          "text": "The most successful tokenization product in the market does not move the money. Where the cash leg of tokenized securities actually settles, and the three legal forms of onchain cash the EU already allows that nobody can hold yet. https://t"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095440243738489088",
+          "author": "jenkteach",
+          "searchJob": "utah",
+          "text": "On the 3rd September, 1935: The OG Need for speed record... On the Bonneville Salt Flats in Utah, Sir Malcolm Campbell became the first person to drive an automobile over 300 mph. In the Campbell-Railton Blue Bird he averaged 301.337 mph (4"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095456554866692140",
+          "author": "thevw1",
+          "searchJob": "virginia",
+          "text": "schemes for uniform assistance. If your local council in England does not offer a direct cash grant, you may still be able to get help through discretionary local funds, the Household Support Fund, or by contacting your child's school direc"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095456549854417023",
+          "author": "thevw1",
+          "searchJob": "virginia",
+          "text": "This subject comes up year in year out. In England, local councils set their own policies regarding school uniform grants, and only a minority of about 15% offer direct financial support. By contrast, Scotland, Wales, and Northern Ireland r"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095419327851667874",
+          "author": "afneil",
+          "searchJob": "virginia",
+          "text": "An idiot with no brains responds. So let me explain in simple terms. The move to cap school uniform costs is not the issue. That’s a matter for the Education Secretary. The issue is that the Chancellor has much bigger fish to fry."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095464393689420249",
+          "author": "rodneymarshall1",
+          "searchJob": "marshall",
+          "text": "\"Is it safe?\" Laurence Olivier giving a chillingly ice-cold performance as Nazi war criminal and concentration camp dentist Christian Szell in Marathon Man. The scene where he offers Babe (Dustin Hoffman) the choice of extracting informatio"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095449996904554779",
+          "author": "rodneymarshall1",
+          "searchJob": "marshall",
+          "text": "As early as Season 1, Krusty Gets Busted offers a visual reference to The Prisoner when the close-up of the (innocent) clown’s face behind bars offers a visual echo of the prison bars which appear in front of P’s head at the end of most epi"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095405984243978579",
+          "author": "fieldcommando",
+          "searchJob": "marshall",
+          "text": "@Rayful_ @Mirkwood1712 @StanleyTommy18 @GovWike @GbolahanOlanyi0 @DeleFarotimi Defend what? Open a defence to a fraud? He should first mention the name of the person he supposedly met in London who made him the offer. According to law, He w"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095476889552851213",
+          "author": "brucefanger",
+          "searchJob": "class:2026",
+          "text": "https://t.co/nPgdWFXV78"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095457421389168690",
+          "author": "tao_an_hpu",
+          "searchJob": "class:2026",
+          "text": "https://t.co/31lUJ3NNhp"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095447184481419442",
+          "author": "decoded08",
+          "searchJob": "class:2026",
+          "text": "Builds $10K Sites. Most People Still Ship Slop. https://t.co/SDOsMt4M0P"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 35,
+      "rejected": 26,
       "reasons": {
-        "multiple_resolved_schools": 3,
-        "reporter_missing_player_name": 1,
-        "bare_mention_requires_llm": 14,
-        "reporter_missing_class_year": 1,
-        "school_not_resolved_confidently": 16
+        "school_not_resolved_confidently": 13,
+        "reporter_missing_football_context": 1,
+        "bare_mention_requires_llm": 11,
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095471947823858113",
-          "author": "agbevem",
-          "searchJob": "florida",
-          "text": "A federal tax incentive, by contrast, would give studios and producers a credit or a rebate on a percentage of production costs. That credit would likely stack on top of state-level credits offered in California, New York, Georgia, New Jers"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2095471232099520798",
-          "author": "hilltopper_club",
-          "searchJob": "florida",
-          "text": "Congrats to 6’6 G Jkhai Singletary &amp; 6’9 F Akeem Paul on receiving a offer from Florida Memorial. Both of them had a great showing at 3SSB finals! https://t.co/meNn3SQYYn"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095463161184796808",
-          "author": "bigredbrennan",
-          "searchJob": "florida",
-          "text": "@wakeupnj speaking for myself, my family has largely left NJ. Florida, Ohio, and South Carolina offer better living."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095455934906593305",
-          "author": "sbcre8tive",
-          "searchJob": "florida",
-          "text": "@KristiTalmadge Shop my eBay closet! Sizes 10-16, I’m 5’3, everything is petite. Lots of Florida-Friendly options. Make me an offer! Happy to give discounts on multiple items &amp; shipping. 💃🛍️ https://t.co/70rn9MApLB"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095426668940681485",
-          "author": "hneto22",
-          "searchJob": "florida",
-          "text": "@EricLDaugh And Florida contributes less $$ to the federal govt vs New York. All while funding bigger welfare programs, city run grocery stores 30% cheaper than others, universal pre k childcare. While Florida offers none."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095438906292396502",
-          "author": "kayakmorris",
-          "searchJob": "illinois",
-          "text": "Experience the best of the Illinois River by starting your adventure early. Morning paddles offer the calmest waters and a serene atmosphere. Stay at our riverside campground to beat the midday rush. Do you prefer sunrise paddles or midday "
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2095470509890609309",
-          "author": "davidlboyd",
-          "searchJob": "indiana",
-          "text": "On Monday, Immigration and Customs Enforcement (ICE) began enforcement operations within the City of Indianapolis. The same federal agency responsible for the deaths of Renee Good and over 50 people in its custody since 2025 is now patrolli"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095442882324828228",
-          "author": "mrhappythursday",
-          "searchJob": "kentucky",
-          "text": "This Thursday started out right. I was driving back to the Philly area from Kentucky first real drive since losing my right leg. I found the hardest thing was getting gas but people saw the struggle and just offered to help. It’s nice to kn"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095440751286960218",
-          "author": "arnaudmercier",
-          "searchJob": "kentucky",
-          "text": "The Kentucky Turf Cup at Kentucky Downs offers a $2 million purse and a Breders' Cup berth to the winner. https://t.co/gRDl5CRVdy"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095471158804308408",
-          "author": "michaelarothman",
-          "searchJob": "maryland",
-          "text": "𝐃𝐄𝐌𝐒 𝐏𝐈𝐕𝐎𝐓 𝐓𝐎 𝐕𝐀𝐂𝐂𝐈𝐍𝐄𝐒 𝐀𝐍𝐃 𝐈𝐑𝐀𝐍 𝐀𝐓 𝐒𝐀𝐍𝐂𝐓𝐔𝐀𝐑𝐘 𝐇𝐄𝐀𝐑𝐈𝐍𝐆—𝐃𝐈𝐒𝐀𝐁𝐋𝐄𝐃 𝐆𝐈𝐑𝐋'𝐒 𝐃𝐀𝐃 𝐈𝐒𝐍'𝐓 𝐇𝐀𝐕𝐈𝐍𝐆 𝐈𝐓 The House Judiciary Subcommittee on Immigration Integrity, Security, and Enforc"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095452068542644589",
-          "author": "probahis",
-          "searchJob": "cincinnati",
-          "text": "WTA US Open Mirra Andreeva vs Eva Lys 🧠 Form & Context Mirra Andreeva 🏅 Major class advantage: Andreeva is ranked No. 5 and owns a far deeper record against elite opposition than Lys. 📊 Stable recent form: Her 6–4 last-ten record produce"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095447235374829865",
-          "author": "freddysolomonn",
-          "searchJob": "colorado",
-          "text": "@Damianjnrr I de reason to add Colorado to the ticket sha. But since you de decline my offer. No issue"
-        },
-        {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095465918939689096",
-          "author": "behindthestoryx",
-          "searchJob": "duke",
-          "text": "After graduating from Duke with multiple banking offers, he initially pursued a safe corporate path at JPMorgan Chase and a value fund. #Entrepreneurship #CareerPath #Finance https://t.co/2BCGnBbi7f"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095460802631258599",
-          "author": "hughstraine",
-          "searchJob": "duke",
-          "text": "Aside from Colton Hiller, 5-star Yann Kamagate is the only other 2028 prospect #Duke has offered so far. Duke fans should keep Kamagate on their radar over the coming weeks/months. Read why⬇️ https://t.co/0kdpVZMSy3"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095410570073903612",
-          "author": "seojup",
-          "searchJob": "duke",
-          "text": "AN OFFER FROM A GENTLEMAN SOLD ❌️ THE DUKE &amp; I SOLD ❌️"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095444673603269104",
-          "author": "rh_fardin",
-          "searchJob": "houston",
-          "text": "At a startup conference in 2010, Dropbox founder Drew Houston showed a slide that made paid acquisition look ridiculous. Google ads were costing more than twice the price of its $99 product. At that price, the funnel was already dead. So Dr"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095430724799037666",
-          "author": "shabazzshareef",
-          "searchJob": "houston",
-          "text": "Striking low‑angle drone view looking upward at downtown Houston’s architectural giants. Captured in the warm light of sunrise or sunset, this footage offers a unique perspective. #Houston #Cityscape #DroneFootage #ContentCreator #HoustonSk"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095444445189865712",
-          "author": "pgmnofficial",
-          "searchJob": "iowa-state",
-          "text": "Ombudsman Jesus Crispin “Boying” Remulla vowed that the flood‑control corruption probe into Martin Romualdez will not be derailed by witness recantations, blasting them as “smokescreen” tactics from the former Speaker’s camp to twist the na"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095412803486253427",
-          "author": "pgmnofficial",
-          "searchJob": "iowa-state",
-          "text": "Vindication is closing in for Filipinos battered by failed flood‑control projects, as Ombudsman @BoyingRemulla31 delivered one of his strongest signals yet that former House Speaker @SpeakerMartinPH will “certainly” be charged for corruptio"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095452844073599065",
-          "author": "gengongingun",
-          "searchJob": "pittsburgh",
-          "text": "Concept that the plot of the final season of the Pitt is Robby having to decide if he's gonna stay at PTMC or follow Dennis, who was just offered an attending position in a rural hospital, and it closes on Dennis riding on the back of Robby"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095411275220029859",
-          "author": "th3boywonders",
-          "searchJob": "syracuse",
-          "text": "*SOME NIGERIAN NEWSPAPER HEADLINES, 03/09/2026* Workers demand N300,000 minimum wage Fake agency: Reps uncover 58 accounts, probe N400m deal 81.24% score five credits as NABTEB releases results Uber exits Nigeria after 12 years Tenure count"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095472691889242451",
-          "author": "ajay_2512x",
+          "postId": "2095454591177699470",
+          "author": "plantautomatech",
           "searchJob": "texas-tech",
-          "text": "🚨Amazon | Software Development Engineer II (L5) | Hyderabad Offer Received [Candidate Exp.] > Background B. Tech (Tier 3 College) 3 years 5 months experience Previous Company: Pocket FM (SDE II) > Compensation Base: ₹43 LPA Year 1 Total: ~"
+          "text": "The Battery Show Asia 2027, alongside Energy Storage &amp; Power Asia and Mobility Tech Asia, offers a platform to explore technologies, industry trends, partnerships, and business opportunities across the evolving energy and mobility ecosy"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095472492278104444",
-          "author": "byfurkanesen",
+          "postId": "2095454477545332933",
+          "author": "biotech2k1",
           "searchJob": "texas-tech",
-          "text": "@GoldManeDesign Exactly. Distribution can’t rescue an offer people can’t translate into a clear before and after. The tech matters, but only after the buyer understands why they should care."
+          "text": "I keep looking day after day for good ideas to add to any of my portfolios as long term investments, but I keep coming up blank. Sure, there are plenty of good companies out there, but there are none that offer any decent value to be worth "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095472435655049703",
-          "author": "oejbabye",
+          "postId": "2095454152147054972",
+          "author": "alhoued",
           "searchJob": "texas-tech",
-          "text": "@GrowWithAbraham Lash tech weh fit d collect minimum 25k from a client? Two clients equals 50k You guys should keep making noise If you meet Anyone that offers beauty services to women just know that she isn’t a small babe oh"
+          "text": "In 2026, some channels are making $1,000 per 1,000 views. The average creator makes $4. Same platform. Same algorithm. 250x the revenue. The difference isn't talent. It isn't luck. It isn't even content quality. It's architecture. Here's th"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095453868809470085",
+          "author": "themilobserverr",
+          "searchJob": "texas-tech",
+          "text": "🇮🇳 India's AMCA engine race comes down to two names, Safran and Rolls-Royce and both are fighting hard for it. Safran's engine starts at 120kN thrust, scaling up to 140kN. It builds on GTRE's own Kaveri programme, keeping the work inside "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095453214690693572",
+          "author": "avi_lewis_",
+          "searchJob": "texas-tech",
+          "text": "Here is what we are covering: - What Israeli tech companies actually look for when hiring sales talent - How to reframe non-traditional experience so hiring managers take notice - The specific sales skills you must demonstrate before you ev"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095453057555263655",
+          "author": "legalcheek",
+          "searchJob": "texas-tech",
+          "text": "WFW offers first look inside new London HQ with ‘rooftop club’ and green tech https://t.co/IooT58bsha"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095452995504738815",
+          "author": "design_hub",
+          "searchJob": "texas-tech",
+          "text": "Not every brand problem needs a #rebrand. Sometimes, you need to know what is actually wrong first. Here are 4 questions businesses ask us: 1. Do you conduct brand audits? Yes. We assess your brand’s position, performance, consistency, and "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095450756157780248",
+          "author": "gurgaonibs",
+          "searchJob": "texas-tech",
+          "text": "IPO fever surges: 10 August issues cross 100× subscription, highest monthly tally since 2006 What Happened? India’s IPO market witnessed a major surge in investor demand in August. Out of 23 IPOs launched during the month, 10 received bids "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095449924238516401",
+          "author": "oxavari",
+          "searchJob": "texas-tech",
+          "text": "Communicating through BChat offers genuine peace of mind—no central databases storing your message history or tracking your contacts. Props to @BeldexCoin! Real tech driving $BDX! 🔥 #Beldex #BChat #Web3"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095440087110578351",
+          "author": "adidogceo",
+          "searchJob": "texas-tech",
+          "text": "if you try newer tech like $LIT for example it's extremely smooth to deposit/withdrawal from quite literally any chain and they even offer debit/apple pay etc.. everything is instant as well and all the bridging and headaches is taken care "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095439061418983863",
+          "author": "juliangoldieseo",
+          "searchJob": "texas-tech",
+          "text": "🤖 𝗧𝗵𝗲 𝗔𝗜 𝗣𝗿𝗼𝗳𝗶𝘁 𝗕𝗼𝗮𝗿𝗱𝗿𝗼𝗼𝗺'𝘀 𝗢𝗳𝗳𝗲𝗿 𝗖𝗹𝗼𝘀𝗲𝘀 𝗜𝗻 𝟯 𝗛𝗼𝘂𝗿𝘀 The AI Profit Boardroom is almost done with today's offer, and there's still a little time to start automating the tasks that slow your week down. "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095436933623058454",
+          "author": "ninjawhee",
+          "searchJob": "texas-tech",
+          "text": ">but it's probably not leading to true ai adoption outside of the existing tech audiences instead of denegrating the mind to eternal slop videos, this (arrival of llms) is one of the clearest signs that an existential desire for meaning and"
+        },
+        {
+          "reason": "reporter_missing_football_context",
+          "postId": "2095477400293282024",
+          "author": "nathanpurvis",
+          "searchJob": "mississippi-state",
+          "text": "| OFFERED | Cavin Bates (@CavinBates), the class of 2028 @247Sports 3⭐️ defensive lineman from Cleburne County High School (Heflin, AL), picks up the offer from Mississippi State. #HailState https://t.co/m854HZAGrB"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095430513783648279",
+          "author": "tbsdrummer",
+          "searchJob": "missouri",
+          "text": "NEW YORK - Lemonade Inc. (NYSE:LMND) announced today the launch of its car insurance product in Missouri, including a pricing program for Tesla vehicles using Full Self-Driving (Supervised) technology. The insurance company stated it will o"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095472412196249735",
+          "author": "huskerspeaks",
+          "searchJob": "nebraska",
+          "text": "@SkersNews His offer was probably pulled, but neither Tay nor Nebraska will admit that to the public"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095430556985217428",
+          "author": "rebeccalanders",
+          "searchJob": "ole-miss",
+          "text": "16 year old @CorionEvans saved 3 girls from their submerged car at 2:30am, then saved the police officer who began struggling after trying to save them. With hope someone will offer him a job or college education of his choice! Such Selfles"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095471962340401530",
+          "author": "wyattwendry2023",
+          "searchJob": "rutgers",
+          "text": "Fanduel offered full stake back so I cashed out of Rutgers. Lot of people I respect on UMass and I have real worries about Schiano calling off the dogs early versus his former DC"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095473998952030394",
+          "author": "qfsdailynews",
+          "searchJob": "south-carolina",
+          "text": "🚨THIS IS INSANE!!! A 25-year-old suffered a catastrophic brain injury in a motorcycle crash and UnitedHealthcare is REFUSING to pay for the treatment that could help him wake up... ...because they decided it was \"NOT MEDICALLY NECESSARY\" e"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095473746001666049",
+          "author": "nutleylife",
+          "searchJob": "virginia",
+          "text": "Tech Headlines (last 30 hours) US federal courts have consistently shown a wariness in demanding structural remedies against Big Tech despite finding antitrust liability as tech races ahead How some parents mostly mothers use AI to help the"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095469963481936321",
+          "author": "antiquedigest",
+          "searchJob": "massachusetts",
+          "text": "At the Mid Atlantic Antique &amp; Garden Festival: Village Braider, Bruce Emond, Plymouth, Massachusetts offered were many large garden items. This pair of early 20th-C cast-stone dogs was priced at $1800. https://t.co/fPSraIjpfh #antiques "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095436417946296322",
+          "author": "dandoinit",
+          "searchJob": "massachusetts",
+          "text": "From the Book \"Thinking & Destiny\" by Harold Waldwin Percival https://t.co/DKEWOnm5Wl 1946 by Harold W. Percival Copyright 1974 by The Word Foundation, Inc. All rights reserved, including the right to reproduce this book or portions thereof"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095466851278917657",
+          "author": "blackjournals01",
+          "searchJob": "memphis",
+          "text": "Two Memphis sanitation workers were crushed to death INSIDE the garbage compactor, because it was the only place Black crews were allowed to shelter from the rain. February 1, 1968. Echol Cole and Robert Walker, riding a rain-soaked route o"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095446743974371736",
+          "author": "nc5",
+          "searchJob": "middle-tennessee",
+          "text": "Mental Health Cooperative and Mother to Mother offered free resources for new and expectant parents Wednesday, helping hundreds of Middle Tennessee families connect with baby gear, food assistance, health care and other support. https://t.c"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095450345119895612",
+          "author": "abdulkarim2",
+          "searchJob": "wyoming",
+          "text": "🚨 TOP 10 CRYPTO & WEB3 UPDATES FOR 3 SEPTEMBER 2026 🚨 Today’s major themes are STABLECOIN INFRASTRUCTURE, TOKENIZATION, BLOCKCHAIN × INSTITUTIONS, ONCHAIN TRANSPARENCY, ZK INFRASTRUCTURE and AI × WEB3 👇 1. CIRCLE EXPANDS CCTP BEYOND USDC"
         }
       ]
     },
@@ -605,20 +524,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 34,
+      "swept": 31,
       "failed": 1,
-      "requests": 35,
+      "requests": 32,
       "errors": [
-        "mississippi-state: rate limited"
+        "texas: rate limited"
       ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 35,
+      "rejectedCandidates": 26,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-03T11:28:23.089Z"
+    "status rebuilt locally from current store on 2026-09-03T11:48:13.444Z"
   ]
 }
