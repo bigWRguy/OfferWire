@@ -5,7 +5,7 @@
 // including the ones that historically produce FALSE positives — commitment posts,
 // offer-list recaps, hypotheticals and walk-on offers. A rules layer that passes only
 // the happy path is worthless, so most of the value here is in the negatives.
-import { findSchools, explicitNonFbsOfferTarget } from '../src/resolve/schools.js';
+import { findSchools, explicitNonFbsOfferTarget, foreignInstitution, nonFbsRosterSize, SCHOOLS as SCHOOLS_LIST } from '../src/resolve/schools.js';
 import { classify, findClassYear, findPosition, findNameCandidates, findTaggedRecruit, findReportedName, handleClassYear, maskAwardYears } from '../src/extract/rules.js';
 import { nameKey, fuzzyKey, canMerge, parseBio, looksLikeRecruit, cleanPersonName } from '../src/resolve/players.js';
 import { prefilter, rulesOnlyOffers } from '../src/pipeline.js';
@@ -394,6 +394,80 @@ t('branch campus is not the flagship',
 t('Arkansas Tech is not Arkansas', !ids('offer from Arkansas Tech University').includes('arkansas'));
 t('South Carolina State is not South Carolina', !ids('offer from South Carolina State').includes('south-carolina'));
 t('Arkansas State Mid-South is not Arkansas State', !ids('offer from Arkansas State University Mid-South').includes('arkansas-state'));
+
+// --- institution boundaries --------------------------------------------------------
+// There are ~2,400 US colleges and 136 of them play FBS football. Every case here is a
+// post where an FBS name sits INSIDE the name of one of the other 2,264, which used to
+// file a fabricated offer against the FBS school. They are fixed by one rule, not by a
+// regex each: a school surface only counts when the whole institution name in the post
+// is that school's name (config/non-fbs.txt + the shape rule in schools.js).
+console.log('institution boundaries');
+const notSchool = (id, text) => t(`${id} is not named by: ${text.slice(0, 54)}`,
+  !ids(text).includes(id), JSON.stringify(ids(text)));
+
+notSchool('colorado', 'I am beyond blessed to receive a scholarship offer from The Colorado School of Mines! @MinesFootball');
+notSchool('oklahoma', '2027 Madi House has been offered by Oklahoma Panhandle State University.');
+notSchool('wisconsin', 'Blessed to receive my first offer from Wisconsin Lutheran College. Thank you Coach Schwall');
+notSchool('california', '2029 Julius Ogunfuye received an offer from Cal State Northridge.');
+notSchool('arizona', 'After a great conversation with Arizona Christian I am blessed to receive my 5th offer');
+notSchool('kansas', 'I have received a collegiate offer from Kansas Christian. Thank you Coach Jackson');
+notSchool('west-virginia', 'So blessed to receive an offer from West Virginia Wesleyan! Thank you, Coach Vincent');
+notSchool('minnesota', 'I am grateful to receive an offer from Minnesota North College - Itasca');
+notSchool('texas-am', 'OFFER WIRE: Cam Claiborne 2027 Petersburg (VA) to Texas A&M-Texarkana');
+notSchool('missouri', 'So blessed to receive my 6th offer from Missouri Valley College');
+notSchool('florida', 'Congratulations to Morgan Mocadlo on receiving an offer to continue her career at Florida Southern!');
+notSchool('kentucky', 'The art exhibit at Kentucky State University offers a range of perspectives');
+notSchool('indiana', "A professor at Indiana University's Kelley School of Business");
+notSchool('houston', 'The residency is offered in partnership with the University of Houston College of Pharmacy');
+notSchool('iowa', 'Zavian Chones @ Iowa Central JuCo picks up @ODUFootball Offer');
+notSchool('new-mexico', 'Congratulations on your offer to New Mexico Highlands University');
+notSchool('louisiana', 'thankful to receive an offer to continue my career at Centenary College of Louisiana!');
+
+// The same rule, run the other way: these ARE the programs and must still resolve. The
+// old per-pattern regexes stripped them, so seven real FBS schools - every "<direction>
+// <state>" and every "<state> Tech" - could never be resolved by name at all.
+const isSchool = (id, text) => t(`${id} still resolves: ${text.slice(0, 54)}`,
+  ids(text).includes(id), JSON.stringify(ids(text)));
+
+isSchool('western-michigan', 'Congratulations on receiving an offer from Western Michigan University.');
+isSchool('northern-illinois', 'truly honored and blessed to receive an offer from Northern Illinois University');
+isSchool('central-michigan', 'Blessed to receive an offer from Central Michigan');
+isSchool('eastern-michigan', 'picks up his 5th NCAA Division I offer, this one from Eastern Michigan');
+isSchool('western-kentucky', 'Blessed to receive an offer from Western Kentucky');
+isSchool('virginia-tech', 'After a great conversation I am blessed to receive an offer from Virginia Tech!');
+isSchool('georgia-tech', 'Extremely blessed to receive my 35th Offer FROM GEORGIA TECH!!');
+isSchool('south-alabama', 'Blessed to receive an Offer from the University Of South Alabama!!');
+isSchool('south-florida', 'Beyond blessed to announce I received my 21st D1 offer from the University of South Florida');
+isSchool('ucf', 'Blessed to receive an offer from the University of Central Florida');
+isSchool('tcu', 'Blessed to receive an offer from Texas Christian University');
+isSchool('colorado-state', 'After a great conversation with Coach Wilson Colorado State offered me');
+isSchool('michigan-state', 'Michigan State Spartans Football has offered him');
+isSchool('sam-houston', 'Offer from Sam Houston State');
+isSchool('louisiana-monroe', 'Blessed to receive an offer from Louisiana-Monroe');
+isSchool('uab', 'Blessed to receive an offer from Alabama-Birmingham');
+
+// A two-letter postal code is a hometown, never a program.
+t('postal code after a school is a state, not a program',
+  JSON.stringify(ids('2029 DE Emavian Gibson - Dorman HS, SC. Offer - Texas Tech')) === JSON.stringify(['texas-tech']),
+  JSON.stringify(ids('2029 DE Emavian Gibson - Dorman HS, SC. Offer - Texas Tech')));
+t('parenthesised postal code is a state',
+  !ids('2030 ABC Prep (NM) G Jamal Washington has received an offer').includes('new-mexico'));
+
+// Region talk is not a program.
+t('"North Texas universities" is a region', !ids('See which North Texas universities offer free tuition').includes('north-texas'));
+t('"in south Florida" is a region', !ids('In south Florida we offer food and coffee').includes('south-florida'));
+t('but the program still resolves', ids('Blessed to receive an offer from South Florida!').includes('south-florida'));
+
+// The non-FBS roster must never be able to blank out a real program.
+t('no FBS school is shadowed by the non-FBS roster', (() => {
+  for (const s of SCHOOLS_LIST) {
+    for (const v of [s.name, `${s.name} University`, `University of ${s.name}`, `${s.name} ${s.nickname}`, ...s.aliases]) {
+      if (foreignInstitution(v)) return false;
+    }
+  }
+  return true;
+})());
+t('the non-FBS roster is loaded', nonFbsRosterSize() > 2000, String(nonFbsRosterSize()));
 
 console.log('offer verb forms');
 t('plural "offers" is a reporter voice', classify('Bama offers 2028 WR Jaylen Carter').kind === 'reporter_voice');

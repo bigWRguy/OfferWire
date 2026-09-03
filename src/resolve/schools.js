@@ -90,6 +90,283 @@ export const HANDLES = new Map(SCHOOLS.map((s) => [s.handle.toLowerCase(), s.id]
 // Longest-form-first so "michigan state" beats "michigan".
 const FORM_LIST = [...forms.keys()].sort((a, b) => b.length - a.length);
 
+// ---------------------------------------------------------------------------
+// Institution-name boundaries  (the core precision rule)
+// ---------------------------------------------------------------------------
+// There are ~2,400 colleges in the United States and 136 of them play FBS football.
+// Most of the wire's worst errors were the same mistake: matching an FBS name INSIDE
+// the name of one of the other 2,264. "The Colorado School of Mines" became Colorado.
+// "Alabama State University" became Alabama. "Wisconsin Lutheran College" became
+// Wisconsin. Each one used to get its own hand-written regex, which is a losing game.
+//
+// Two general layers replace that pile, in this order:
+//
+//   1. ROSTER — config/non-fbs.txt lists every US institution that is not an FBS
+//      program (built by scripts/build-non-fbs.mjs). If a name phrase in the post
+//      contains one of them, the phrase is about that school, full stop.
+//   2. SHAPE — for names the roster has never heard of, one rule: a school surface
+//      only counts when the WHOLE institution name it sits inside is that school's
+//      name. Anything else in the phrase that names a different institution
+//      ("... School of Mines", "... State University", "Northern ...") disqualifies it.
+//
+// The shape rule is symmetric, which also fixes the opposite bug: the old
+// directional-prefix regexes DELETED five real programs, so Western Michigan, Central
+// Michigan, Eastern Michigan, Western Kentucky and Northern Illinois could never be
+// resolved by name at all.
+
+// Words that make a phrase institution-shaped. "State" and "Tech" are here because
+// "Alabama State" / "Wentworth Tech" need no "University" to be a different school.
+const INSTITUTION_WORD = new Set(['university', 'universities', 'college', 'colleges', 'school', 'schools',
+  'institute', 'institutes', 'academy', 'academies', 'seminary', 'conservatory', 'polytechnic',
+  'community', 'junior', 'state', 'tech', 'technical', 'technological', 'prep', 'preparatory', 'cc', 'jc']);
+
+// Words that may trail a school's name WITHOUT naming a different school.
+const GENERIC_TAIL = new Set(['university', 'univ', 'the', 'of', 'at', 'football', 'fb', 'athletics',
+  'athletic', 'program', 'staff', 'recruiting', 'sports', 'mens', 'womens', 'men', 'women',
+  'department', 'edu', 'u']);
+
+// Words that, sitting directly in front of a school's name, make it a different school
+// ("Northern Colorado", "Southeastern Louisiana"). Closed set on purpose: an arbitrary
+// preceding word is usually a coach's name ("Coach Wilson Colorado State") and must not
+// disqualify the school behind it. FBS names that legitimately start this way - North
+// Texas, Western Michigan, Southern Miss - are matched at full length first, so the
+// qualifier is inside the matched form and never reaches this test.
+const QUALIFIER_PREFIX = new Set(['north', 'south', 'east', 'west', 'central', 'northern', 'southern',
+  'eastern', 'western', 'northeastern', 'northwestern', 'southeastern', 'southwestern',
+  'northwest', 'northeast', 'southwest', 'southeast', 'upper', 'lower', 'greater', 'saint', 'st',
+  'mount', 'mt']);
+
+// The mirror image of QUALIFIER_PREFIX: a word from this closed class directly AFTER a
+// school's name is part of a different school's name, with or without a trailing
+// "College" — "Arizona Christian", "Kansas Christian", "West Virginia Wesleyan",
+// "Concordia Lutheran". FBS names that contain one ("Texas Christian") match at full
+// length first and never reach this test.
+const MODIFIER_SUFFIX = new Set(['christian', 'baptist', 'lutheran', 'wesleyan', 'methodist',
+  'catholic', 'adventist', 'bible', 'biblical', 'mennonite', 'nazarene', 'brethren',
+  'evangelical', 'theological', 'presbyterian', 'episcopal', 'hebrew', 'islamic',
+  'military', 'maritime', 'valley', 'highlands']);
+
+// A campus join: what follows is a different campus, not the flagship.
+// "University of Alabama at Birmingham", "Indiana University of Pennsylvania".
+const BRANCH_JOIN = new Set(['at', 'in', 'of']);
+
+// Lowercase words allowed to sit INSIDE a name phrase. "and" is deliberately absent:
+// "Coach Smith and Colorado State" must be two phrases, not one.
+const CONNECTOR = new Set(['of', 'at', 'the']);
+
+// Institutional tails a post routinely omits: "Kansas Wesleyan University" is written
+// "Kansas Wesleyan", "East Mississippi Community College" is "East Mississippi".
+const TRIMMABLE_TAIL = new Set(['university', 'college', 'colleges', 'institute', 'academy',
+  'seminary', 'community', 'junior', 'the', 'of', 'at', 'and']);
+
+// ---- the non-FBS roster -----------------------------------------------------------
+// Loaded once. Absent file is tolerated (the shape rule still runs) so the resolver
+// never hard-fails on a fresh checkout before scripts/build-non-fbs.mjs has run.
+const NON_FBS = new Map();
+let NON_FBS_MAX = 0;
+try {
+  const txt = fs.readFileSync(path.join(CONFIG, 'non-fbs.txt'), 'utf8');
+  for (const line of txt.split('\n')) {
+    const name = line.trim();
+    if (!name || name.startsWith('#')) continue;
+    const n = norm(name);
+    // Posts drop the institutional tail: "Kansas Wesleyan!", "West Virginia Wesleyan",
+    // "East Mississippi", "Florida Southern". Index the shortened forms too, but never
+    // one that is itself an FBS surface.
+    const variants = [n];
+    const t = n.split(' ');
+    while (t.length > 2 && TRIMMABLE_TAIL.has(t[t.length - 1])) {
+      t.pop();
+      const v = t.join(' ');
+      if (!forms.has(v) && !isFbsInstitutionName(v)) variants.push(v);
+    }
+    for (const v of variants) {
+      const len = v.split(' ').length;
+      if (len < 2) continue;
+      if (!NON_FBS.has(v)) NON_FBS.set(v, name);
+      if (len > NON_FBS_MAX) NON_FBS_MAX = len;
+    }
+  }
+} catch { /* roster not built yet */ }
+
+export const nonFbsRosterSize = () => NON_FBS.size;
+
+/** Longest contiguous roster (non-FBS) school name inside a normalised token list. */
+function longestNonFbsSpan(tokens) {
+  for (let len = Math.min(tokens.length, NON_FBS_MAX); len >= 2; len--) {
+    for (let s = 0; s + len <= tokens.length; s++) {
+      const hit = NON_FBS.get(tokens.slice(s, s + len).join(' '));
+      if (hit) return { name: hit, s, e: s + len };
+    }
+  }
+  return null;
+}
+
+/** Maximal capitalised name phrases in raw text, with their character spans. */
+export function namePhrases(raw) {
+  const src = String(raw || '');
+  const toks = [];
+  for (const m of src.matchAll(/[A-Za-z][A-Za-z0-9&'’.]*(?:[-–][A-Za-z0-9&'’.]+)*/g)) {
+    toks.push({ t: m[0], i: m.index, e: m.index + m[0].length });
+  }
+  const out = [];
+  let cur = [];
+  const flush = () => {
+    while (cur.length && CONNECTOR.has(cur[cur.length - 1].t.toLowerCase())) cur.pop();
+    if (cur.length) out.push({ start: cur[0].i, end: cur[cur.length - 1].e, text: src.slice(cur[0].i, cur[cur.length - 1].e) });
+    cur = [];
+  };
+  for (let k = 0; k < toks.length; k++) {
+    // Only plain spaces join a phrase. A comma, a line break, an emoji or any other
+    // punctuation ends it, so "Thank you Coach Smith, Colorado State" is two phrases.
+    const joined = k > 0 && /^[ \t]*(?:[-–—][ \t]*)?$/.test(src.slice(toks[k - 1].e, toks[k].i));
+    if (!joined) flush();
+    const t = toks[k].t;
+    if (/^[A-Z]/.test(t)) cur.push(toks[k]);
+    else if (cur.length && CONNECTOR.has(t.toLowerCase())) cur.push(toks[k]);
+    else flush();
+  }
+  flush();
+  return out;
+}
+
+/** Longest contiguous FBS surface form inside a normalised token list. */
+function longestFormSpan(tokens) {
+  for (let len = Math.min(tokens.length, 7); len >= 1; len--) {
+    for (let s = 0; s + len <= tokens.length; s++) {
+      const f = tokens.slice(s, s + len).join(' ');
+      if (forms.has(f)) return { s, e: s + len, form: f };
+    }
+  }
+  return null;
+}
+
+/**
+ * The shape rule: given the FBS surface found inside a name phrase, does the REST of
+ * the phrase name a different institution? Roster-independent, so the roster builder
+ * can use it to decide which downloaded names are the FBS school itself.
+ */
+function foreignByShape(tokens, best, dashStarts = new Set()) {
+  // In front of the name: a regional qualifier, or an institution head ("College of X",
+  // "School of X"). "University of X" is the FBS school itself, so it is excluded.
+  const before = tokens[best.s - 1];
+  if (before && QUALIFIER_PREFIX.has(before)) return 'qualifier';
+  if (before === 'of' && best.s >= 2 && INSTITUTION_WORD.has(tokens[best.s - 2]) && tokens[best.s - 2] !== 'university') {
+    return 'head';
+  }
+
+  const after = tokens.slice(best.e);
+  if (!after.length) return null;
+  if (MODIFIER_SUFFIX.has(after[0])) return 'modifier';
+  // Everything up to the LAST institution word after the name is part of the name.
+  // Anything non-generic in there is a different school: "[Colorado] School of Mines",
+  // "[Alabama] State University", "[Cal] State Northridge", "[Wisconsin] Lutheran
+  // College". Tokens past that word are ordinary prose and are ignored, so "Colorado
+  // State Thank You Coach" survives.
+  let lastKw = -1;
+  after.forEach((t, i) => { if (INSTITUTION_WORD.has(t)) lastKw = i; });
+  if (lastKw >= 0) return after.slice(0, lastKw + 1).some((t) => !GENERIC_TAIL.has(t)) ? 'suffix' : null;
+  // No institution word after the name. Only a campus join or a regional qualifier
+  // changes identity ("University of Alabama at Birmingham", "Purdue University
+  // Northwest"); a bare trailing word does not, so "University of Colorado Boulder"
+  // and "Michigan State Spartans Football" survive.
+  if (BRANCH_JOIN.has(after[0]) && after.some((t) => !GENERIC_TAIL.has(t))) return 'branch';
+  if (QUALIFIER_PREFIX.has(after[0])) return 'branch';
+  // A dash right after the name is a campus join too ("University of Alabama -
+  // Huntsville"). It only counts when the school's own name did not already span the
+  // dash, which is why this reads the token index rather than rewriting the text:
+  // "Louisiana-Monroe", "Texas-San Antonio" and "Alabama-Birmingham" ARE the programs.
+  if (dashStarts.has(best.e) && after.some((t) => !GENERIC_TAIL.has(t))) return 'branch';
+  return null;
+}
+
+/** Normalised tokens for a phrase, plus the indexes that start a post-dash segment. */
+function tokenizePhrase(phrase) {
+  const tokens = [];
+  const dashStarts = new Set();
+  const segs = String(phrase || '').split(/\s*[-–—]\s*/);
+  segs.forEach((seg, i) => {
+    const t = norm(seg).split(' ').filter(Boolean);
+    if (i > 0 && t.length) dashStarts.add(tokens.length);
+    tokens.push(...t);
+  });
+  return { tokens, dashStarts };
+}
+
+/**
+ * Does this name phrase name an institution OTHER than the FBS school inside it?
+ * @returns {null|{name:string, why:string}} null = phrase is (or contains no) FBS school
+ */
+export function foreignInstitution(phrase) {
+  const { tokens, dashStarts } = tokenizePhrase(phrase);
+  const best = longestFormSpan(tokens);
+  const known = longestNonFbsSpan(tokens);
+  // Both rosters can hit the same words ("Middle Tennessee State" is an FBS program and
+  // contains the non-FBS "Tennessee State"). The longer name is the one being written.
+  if (known && (!best || known.e - known.s > best.e - best.s)) return { name: known.name, why: 'roster' };
+  if (!best) return null;
+  const why = foreignByShape(tokens, best, dashStarts);
+  return why ? { name: best.form, why } : null;
+}
+
+/**
+ * Is this full institution name an FBS program? Used by scripts/build-non-fbs.mjs to
+ * keep FBS schools (Miami University, Ohio University, University of Colorado) off the
+ * non-FBS roster — the roster must never be able to blank out a real program.
+ */
+export function isFbsInstitutionName(name) {
+  const tokens = norm(name).split(' ').filter(Boolean);
+  const best = longestFormSpan(tokens);
+  if (!best) return false;
+  // The name is the FBS school only if it is the school's own name and nothing else:
+  // "Miami University", "University of Colorado". Any extra naming token means a
+  // different institution ("Arkansas State University Mid-South", "University of
+  // Alabama in Huntsville"), which belongs on the non-FBS roster.
+  return [...tokens.slice(0, best.s), ...tokens.slice(best.e)].every((t) => GENERIC_TAIL.has(t));
+}
+
+/** Blank out every name phrase that names a non-FBS institution. */
+function stripForeignInstitutions(raw) {
+  let out = String(raw || '');
+  for (const p of namePhrases(out)) {
+    if (foreignInstitution(p.text)) out = out.slice(0, p.start) + ' '.repeat(p.end - p.start) + out.slice(p.end);
+  }
+  return out;
+}
+
+// Surfaces that are ordinary English words as often as they are schools ("Tech",
+// "Rice", "Army", "Liberty", "the U"). They still resolve - the LLM pass reads the
+// context we cannot - but they never carry the high confidence the rules-only path is
+// allowed to act on by itself.
+// Kept to clipped nicknames and abbreviations. A school's actual NAME stays at full
+// confidence even when it is also a common word ("Liberty", "Rice", "Army"): by the
+// time this runs the post has already been classified as offer language, where the
+// name reading is the right one.
+const WEAK_SURFACE = new Set(['tech', 'wake', 'app', 'coastal', 'kent', 'cards', 'irish',
+  'rockets', 'the u', 'cuse', 'cards', 'hogs', 'horns']);
+
+// "Dorman HS, SC" and "ABC Prep (NM)" are hometowns. A two-letter postal code after a
+// comma or in parentheses is a location, never a program - that read "SC" as South
+// Carolina and "UT"/"IN"/"OK" as programs on genuinely unrelated posts.
+const POSTAL_CODE = /(,\s*|\(\s*)(A[KLRZ]|C[AOT]|D[CE]|FL|GA|HI|I[ADLN]|K[SY]|LA|M[ADEINOST]|N[CDEHJMVY]|O[HKR]|P[AR]|RI|S[CD]|T[NX]|UT|V[AT]|W[AIVY])\b/g;
+
+// A tagged program account that is NOT one of the 136 is direct evidence about who is
+// offering: "@MinesFootball", "@GVSUFootball". When one of those is in the post and no
+// FBS account is tagged at all, a name-only match is corroborated by nothing and must
+// not reach the confidence the rules-only path acts on.
+// It must be the OFFER TARGET, not just any tagged account: half the recruiting world
+// (7v7 teams, scouting services, coaches) has a handle ending in FB, so "a non-FBS
+// football handle appears somewhere in the post" says nothing at all.
+const OFFER_TARGET_HANDLE = /\b(?:offer|offered|offers|scholarship)\s+(?:from|by)\s+@([A-Za-z0-9_]{2,15})/gi;
+function taggedForeignProgram(raw) {
+  let foreign = false;
+  for (const m of String(raw || '').matchAll(OFFER_TARGET_HANDLE)) {
+    if (HANDLES.has(m[1].toLowerCase())) return false; // an FBS program is the target
+    foreign = true;
+  }
+  return foreign;
+}
+
 /**
  * Find every FBS school referenced in a blob of text.
  * @param {string} text raw post text (mentions/hashtags included)
@@ -110,47 +387,37 @@ export function findSchools(text) {
   // Longest form first, and each match CONSUMES its span. Without consumption
   // "Michigan State" also matches the shorter form "Michigan" and the post gets
   // attributed to two schools, one of which never offered anybody.
-  // Half the FBS is named after a state, so a recruit HOMETOWN reads as a program:
-  //   "Florida has offered 4-star 2028 WR Malachi Lee out of ... Leesburg, Virginia."
-  // Florida offered him; Virginia is where he lives. Filing that as a Virginia offer
-  // would be a fabricated row, so strip location-shaped mentions before matching.
+  //
+  // Two classes of text are removed first, because neither is a program:
+  //   a) institution names that are not this FBS school (see foreignInstitution),
+  //   b) hometowns - half the FBS is named after a state, so
+  //      "out of ... Leesburg, Virginia" would otherwise file a Virginia offer.
   // Handle matches are unaffected - that pass already ran and is exact.
-  const STATE_NAMES = new RegExp("(,\\s*|\\bin\\s+|\\bout\\s+of\\s+[^,]{0,40},\\s*)(Alabama|Arizona|Arkansas|California|Colorado|Connecticut|Florida|Georgia|Idaho|Illinois|Indiana|Iowa|Kansas|Kentucky|Louisiana|Maryland|Massachusetts|Michigan|Minnesota|Mississippi|Missouri|Nebraska|Nevada|New Mexico|North Carolina|Ohio|Oklahoma|Oregon|Pennsylvania|South Carolina|Tennessee|Texas|Utah|Virginia|Washington|West Virginia|Wisconsin|Wyoming)\\b(?!\\s*(?:State|Tech|A&M|Football|offer))", 'gi');
+  const STATE_NAMES = new RegExp("(,\\s*|\\bin\\s+|\\bout\\s+of\\s+[^,]{0,40},\\s*)(?:(?:North|Northern|South|Southern|East|Eastern|West|Western|Central)\\s+)?(Alabama|Arizona|Arkansas|California|Colorado|Connecticut|Florida|Georgia|Idaho|Illinois|Indiana|Iowa|Kansas|Kentucky|Louisiana|Maryland|Massachusetts|Michigan|Minnesota|Mississippi|Missouri|Nebraska|Nevada|New Mexico|North Carolina|Ohio|Oklahoma|Oregon|Pennsylvania|South Carolina|Tennessee|Texas|Utah|Virginia|Washington|West Virginia|Wisconsin|Wyoming)\\b(?!\\s*(?:State|Tech|A&M|Football|offer))", 'gi');
   // A school-named CITY immediately followed by a state is a hometown too:
   //   "a kid out of Houston, Texas" names neither Houston nor Texas as a program.
+  // The same names are REGIONS as often as they are programs: "in South Florida", 
+  // "North Texas universities offer free tuition", "Southern California weather".
+  // Built from the same state list, with the directional prefixes the programs use, so
+  // it stays one rule rather than one regex per school.
+  const REGION_USE = new RegExp("(?:(?:North|Northern|South|Southern|East|Eastern|West|Western|Central)\\s+)?(Alabama|Arizona|Arkansas|California|Colorado|Connecticut|Florida|Georgia|Idaho|Illinois|Indiana|Iowa|Kansas|Kentucky|Louisiana|Maryland|Massachusetts|Michigan|Minnesota|Mississippi|Missouri|Nebraska|Nevada|New Mexico|North Carolina|Ohio|Oklahoma|Oregon|Pennsylvania|South Carolina|Tennessee|Texas|Utah|Virginia|Washington|West Virginia|Wisconsin|Wyoming)\\s+(?:area|areas|region|regions|universities|colleges|schools|residents|natives?|weather|county|counties|cities)\\b", "gi");
   const CITY_THEN_STATE = new RegExp("\\b(Houston|Miami|Buffalo|Cincinnati|Memphis|Charlotte|Toledo|Akron|Tulsa|Auburn|Boise|Fresno|Reno|Baylor|Rice|Temple|Troy|Duke|Rutgers|Syracuse)\\s*,\\s*(?:Alabama|Arizona|Arkansas|California|Colorado|Florida|Georgia|Idaho|Illinois|Indiana|Iowa|Kansas|Kentucky|Louisiana|Maryland|Massachusetts|Michigan|Minnesota|Mississippi|Missouri|Nebraska|Nevada|New York|North Carolina|Ohio|Oklahoma|Oregon|Pennsylvania|South Carolina|Tennessee|Texas|Utah|Virginia|Washington|Wisconsin|[A-Z]{2}\\b)", 'gi');
-  // "Central Arkansas", "Northern Colorado", "Southeastern Louisiana" — a directional
-  // prefix in front of a bare state name is an FCS/D2 program that happens to share the
-  // state's name, not the FBS school. Real live failure: "offered by Nathan Brown and
-  // Central Arkansas" filed as a Razorbacks (Arkansas) offer. FBS names that legitimately
-  // start this way ("North Texas", "South Carolina", "West Virginia"...) are matched at
-  // full length earlier in FORM_LIST and are gone from `hay` by the time this would fire,
-  // so stripping the bare tail here cannot cost them.
-  const REGIONAL_STATE = new RegExp("\\b(?:Central|Northern|Southern|Eastern|Western|Northeastern|Northwestern|Southeastern|Southwestern)\\s+(Alabama|Arizona|Arkansas|California|Colorado|Connecticut|Florida|Georgia|Idaho|Illinois|Indiana|Iowa|Kansas|Kentucky|Louisiana|Maryland|Massachusetts|Michigan|Minnesota|Mississippi|Missouri|Nebraska|Nevada|Ohio|Oklahoma|Oregon|Pennsylvania|Tennessee|Texas|Utah|Virginia|Washington|Wisconsin|Wyoming)\\b", 'gi');
-  // "Alabama State University" is FCS/SWAC, not the FBS "Alabama" (Crimson Tide) — there
-  // is no FBS "Alabama State" to consume the phrase first, so the bare state name was
-  // left exposed underneath it. Live failure: a girls'-basketball offer from Alabama
-  // State filed as a Crimson Tide football offer. Only strip "<state> State [University]"
-  // for states whose "State" school is NOT itself in the FBS roster — Arizona State, Ohio
-  // State etc. already match their own full-length form earlier and must reach it intact.
-  const FBS_STATE_NAMES = new Set(SCHOOLS.filter((s) => /\bState\b/.test(s.name)).map((s) => s.name.replace(/\s+State\b.*/, '')));
-  const NON_FBS_STATE_SCHOOLS = ['Alabama', 'Alaska', 'Delaware', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Maine', 'Minnesota', 'Montana', 'Nevada', 'New York', 'North Dakota', 'Norfolk', 'South Dakota', 'Tennessee', 'Wisconsin']
-    .filter((n) => !FBS_STATE_NAMES.has(n));
-  const STATE_UNIV = new RegExp(`\\b(${NON_FBS_STATE_SCHOOLS.join('|')})\\s+State(?:\\s+University)?\\b`, 'gi');
-  // "University of Alabama - Huntsville" / "University of Alabama at Birmingham" are
-  // separate D2/non-FBS branch campuses, not the FBS flagship. Live failure: an
-  // Alabama-Huntsville women's-basketball offer filed as a Crimson Tide football offer.
-  // Strip the branch-campus tail so the bare "university of X" form cannot fire on it.
-  const BRANCH_CAMPUS = /\b(university\s+of\s+\w+)\s*[-–—]\s*\w+|\b(university\s+of\s+\w+)\s+at\s+\w+/gi;
-  const NON_FBS_SUFFIX = /\b(Alabama|Arizona|Arkansas|California|Colorado|Florida|Georgia|Illinois|Indiana|Iowa|Kansas|Kentucky|Louisiana|Maryland|Michigan|Minnesota|Mississippi|Missouri|Nebraska|Nevada|Ohio|Oklahoma|Oregon|Tennessee|Texas|Utah|Virginia|Washington|West Virginia|Wisconsin)\s+(?:Tech|Baptist|Wesleyan|Christian|College)\b/gi;
-  const NON_FBS_PREFIX = /\b(?:North|South|East|West|Central|Northern|Southern|Eastern|Western)\s+(Alabama|Arizona|Arkansas|California|Colorado|Florida|Georgia|Illinois|Indiana|Iowa|Kansas|Kentucky|Louisiana|Michigan|Mississippi|Missouri|Nebraska|Ohio|Oklahoma|Oregon|Texas|Virginia|Washington)(?:\s+University)?\b/gi;
-  const NON_FBS_STATE = /\b(?:Alabama|Delaware|Idaho|Illinois|Indiana|Montana|South Carolina|Tennessee)\s+State(?:\s+University)?\b/gi;
-  const NAMED_BRANCH = /\bArkansas\s+State\s+University\s+Mid[- ]South\b/gi;
-  const deBranched = (raw || '').replace(BRANCH_CAMPUS, ' ').replace(NAMED_BRANCH, ' ').replace(NON_FBS_SUFFIX, ' ').replace(NON_FBS_PREFIX, ' ').replace(NON_FBS_STATE, ' ');
-  const deLocated = deBranched.replace(CITY_THEN_STATE, ' ').replace(REGIONAL_STATE, ' ').replace(STATE_UNIV, ' ').replace(STATE_NAMES, (m, pre) => pre + ' ');
+  const deSchooled = stripForeignInstitutions(raw);
+  // A postal code is a location, EXCEPT where the school's own name carries it:
+  // "Miami (OH)" is a program, "Dorman HS, SC" is a hometown.
+  const deLocated = deSchooled.replace(POSTAL_CODE, (m, pre, code, offset, str) => {
+    const prev = (str.slice(Math.max(0, offset - 30), offset).match(/([A-Za-z]+)[^A-Za-z]*$/) || [])[1];
+    return prev && forms.has(norm(`${prev} ${code}`)) ? m : pre;
+  }).replace(REGION_USE, ' ').replace(CITY_THEN_STATE, ' ').replace(STATE_NAMES, (m, pre) => pre + ' ');
 
   let hay = ' ' + norm(deLocated.replace(/#([A-Za-z]+)/g, (_, w) => ' ' + w.replace(/([a-z])([A-Z])/g, '$1 $2') + ' ')) + ' ';
   const consume = (form) => { hay = hay.split(' ' + form + ' ').join('     '); };
+  // Corroboration available in the post itself, applied to every name-only match.
+  const unbacked = taggedForeignProgram(raw);
+  const nameConfidence = (form) => {
+    if (form.length <= 6 || WEAK_SURFACE.has(form)) return 0.8;
+    return unbacked ? 0.85 : 0.92;
+  };
 
   for (const form of FORM_LIST) {
     if (!hay.includes(' ' + form + ' ')) continue;
@@ -160,7 +427,7 @@ export function findSchools(text) {
       const id = ids[0];
       consume(form);
       if (!hits.has(id)) {
-        hits.set(id, { id, surface: form, method: 'name', confidence: form.length > 6 ? 0.92 : 0.8 });
+        hits.set(id, { id, surface: form, method: 'name', confidence: nameConfidence(form) });
       }
       continue;
     }
@@ -207,31 +474,37 @@ function containsFbsName(phrase) {
 /**
  * Does the post name a NON-FBS institution as the offer source?
  *
- * Live failure: "Blessed to receive an offer from Community Christian College! Thank
- * you ... Go cyclones!" — the offer is from a small non-FBS college, but the trailing
- * cheer "Go cyclones!" resolves to Iowa State (the Cyclones) and the post was filed as
- * a fabricated P4 offer. When the offer verb attaches to an institution-shaped name
- * (…College / …University / …Academy / …Institute) that is NOT on the FBS roster, the
- * post is not reporting an FBS offer, and no cheer in it may be read as the target.
+ * Live failures this exists for:
+ *   "Blessed to receive an offer from Community Christian College! ... Go cyclones!"
+ *   — a small-college offer, filed as a fabricated Iowa State P4 row because of the
+ *   trailing cheer.
+ *   "I'm beyond blessed to receive a scholarship offer from The Colorado School of
+ *   Mines! @MinesFootball" — filed as a Colorado P4 offer.
  *
- * It is deliberately ATTACHED: the institution must sit directly after the offer verb
- * ("offer from X College", "offered by Y University"). A bare mention of a college
- * elsewhere in the post does not veto a real FBS offer. And an FBS school named as
- * "X University" (Auburn University, Western Kentucky University, ...) is never vetoed.
+ * The rule reads the institution named DIRECTLY after the offer verb and asks the same
+ * question the resolver asks: is that whole name an FBS program? A college mentioned
+ * anywhere else in the post does not veto a real FBS offer.
  */
 export function explicitNonFbsOfferTarget(text) {
-  // Case-explicit on purpose: the institution name must genuinely start with a capital
-  // letter (under a bare /i flag, "offer from the University of Alabama" captured "the
-  // University" and falsely vetoed a real offer). The optional leading "The" is consumed
-  // case-insensitively so "THE University of X" never captures "THE University".
-  const re = /\b(?:[Oo]ffer|[Oo]ffered|[Oo]ffers|[Ss]cholarship)\s+(?:[Tt]o\s+[Pp]lay\s+\w+\s+)?(?:[Ff]rom|[Bb]y)\s+(?:[Tt][Hh][Ee]\s+)?([A-Z][\w&.'-]*(?:\s+(?:[A-Z][\w&.'-]*|[Oo]f|[Aa]t|[Tt]o|[Tt]he|[Ss]t\.?|[Nn]orth|[Ss]outh|[Ee]ast|[Ww]est)){0,6}\s+(?:[Cc]ollege|[Uu]niversity|[Ii]nstitute|[Aa]cademy))\b/;
-  const m = String(text || '').match(re);
+  const src = String(text || '');
+  // An FBS program account in the post outranks anything read out of prose: the handle
+  // is exact, and a misspelled name is not evidence against it ("OFFER FROM EASTERN
+  // CAROLINA UNIVERSITY!! @ECUPiratesFB" is an East Carolina offer, typo and all).
+  for (const h of src.matchAll(/@([A-Za-z0-9_]{2,15})/g)) if (HANDLES.has(h[1].toLowerCase())) return false;
+  const m = src.match(/\b(?:offer|offered|offers|scholarship)\s+(?:to\s+play\s+\w+\s+)?(?:from|by)\s+(?:the\s+)?/i);
   if (!m) return false;
-  // Spurious captures: when a connector is written twice or capitalized, the first
-  // token of the capture is a FUNCTION WORD, not an institution — "The University Of
-  // Purdue", "Offer From From the University of Colorado" capturing "From the
-  // University". A real offer target never literally starts with one of these; bail so
-  // the normal FBS resolution handles the post.
-  if (/^(?:The|From|By|To|Of|At|A|An|For)\b/i.test(m[1])) return false;
-  return !containsFbsName(m[1]);
+  const at = m.index + m[0].length;
+  // The name phrase must START at the offer verb's object; a phrase found later in the
+  // post is some other school being talked about.
+  const rest = src.slice(at);
+  const phrase = namePhrases(rest).find((p) => p.start === 0);
+  if (!phrase) return false;
+  const tokens = norm(phrase.text).split(' ').filter(Boolean);
+  // "offer from Alabama" / "offer from Coach Smith" — not an institution-shaped name,
+  // so there is nothing here to contradict normal resolution.
+  if (!tokens.some((t) => INSTITUTION_WORD.has(t))) return false;
+  // Names a different institution than the FBS school inside it ("Colorado School of
+  // Mines"), or is institution-shaped with no FBS school in it at all ("Harvard
+  // University", "Santa Monica College").
+  return !!foreignInstitution(phrase.text) || !containsFbsName(phrase.text);
 }
