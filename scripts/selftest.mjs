@@ -590,6 +590,48 @@ tt('the offer target is read, not a trailing cheer',
 t('"committing" is a commitment, not a new offer',
   classify('Trey Wright wasted little time committing to USC days after receiving a scholarship offer').hardNegative);
 
+// --- a familiar place name wearing somebody else's colours -------------------------
+// All of these were live rows. They share a shape the earlier rules missed: the post
+// writes a real FBS place name and then says, in the very next word, that it means a
+// different team - a mascot that is not that school's, a campus, a branch.
+console.log('place name, different team');
+const notSchool2 = (id, text) => t(`${id} is not named by: ${text.slice(0, 46)}`,
+  !ids(text).includes(id), JSON.stringify(ids(text)));
+
+notSchool2('georgia', 'EXTREMELY BLESSED TO RECEIVE AN OFFER FROM GEORGIA KNIGHTS FOOTBALL!!! Via Coach Wesley Jr.');
+notSchool2('arizona', 'blessed to receive my second offer from Arizona Spiders #Gospiders');
+notSchool2('alabama', 'I’m blessed to receive my First Offer from Alabama Rays #Gorays');
+notSchool2('smu', 'I am super appreciative to receive a U-Sports offer from the SMU Huskies');
+notSchool2('arizona', 'I am blessed to have received an offer from Ottawa University Arizona');
+notSchool2('alabama', '#AGTG blessed to receive an offer from the University of Alabama Birmingham!');
+
+// The same rule must leave a school's OWN mascot alone.
+t('a school’s own mascot is not a different team', [
+  ['michigan-state', 'Michigan State Spartans Football has offered him'],
+  ['boston-college', 'Boston College Eagles offered him'],
+  ['georgia', 'Blessed to receive an offer from the Georgia Bulldogs'],
+  ['ucf', 'Blessed to receive an offer from the UCF Knights'],
+  ['alabama', 'Blessed to receive an offer from the University of Alabama'],
+  ['ohio-state', 'offer from Ohio State University Thank You Coach'],
+].every(([id, text]) => ids(text).includes(id)));
+
+// A tagged account's display name is the most literal statement of who it belongs to.
+t('a tagged non-FBS program overrules the prose', resolveOfferTarget({
+  text: 'After a great call with Coach Orris @IndWesleyan_FB and i’m grateful to receive another offer from Indiana Westland',
+  mentioned: [{ handle: 'indwesleyan_fb', name: 'Indiana Wesleyan FB' }],
+}).reason === 'non_fbs_program_tagged');
+t('a tagged high school does not block a real offer', resolveOfferTarget({
+  text: 'Blessed to receive an offer from Alabama! Roll Tide',
+  mentioned: [{ handle: 'hooverfb', name: 'Hoover High School Football' }],
+}).schoolId === 'alabama');
+
+// Women's flag football is a different sport.
+t('women’s flag football is not this wire', resolveOfferTarget({
+  text: 'Beyond grateful to announce that I’ve received an offer from Eastern Michigan University Women’s Flag Football!',
+}).status === 'rejected');
+t('the same school’s football offer is fine',
+  resolveOfferTarget({ text: 'Blessed to receive an offer from Eastern Michigan University!' }).schoolId === 'eastern-michigan');
+
 console.log('offer tiers and player stats');
 t('SEC school is P4', tierOf({ id: 'alabama', conference: 'SEC' }) === 'P4');
 t('Big Ten is P4', tierOf({ id: 'michigan', conference: 'B1G' }) === 'P4');

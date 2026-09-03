@@ -35,7 +35,7 @@ function writtenTarget(text) {
   if (span.form === 'whole') return null;
   // @handles are not written names - the resolver reads them exactly, in its own pass -
   // and the tag pile at the end of a post is not the offer target.
-  const spanText = span.text.replace(/@[A-Za-z0-9_]+/g, ' ');
+  const spanText = span.text.replace(/@[A-Za-z0-9_]+/g, ' ').replace(/#[A-Za-z0-9_]+/g, ' ');
   const inSpan = namePhrases(spanText);
   if (!inSpan.length) return null;
   // EVERY name written in the span, nearest the verb first. A row is suspect only when
@@ -44,6 +44,14 @@ function writtenTarget(text) {
   return (span.form === 'object' ? inSpan.slice(0, 3) : inSpan.slice(-3))
     .map((p) => p.text.replace(/\s+/g, ' ').trim());
 }
+
+// Filler that may appear inside a written institution name without making it a
+// different school. Anything outside this and the school's own words is a real word
+// from some other school's name.
+const GENERIC = new Set(['the', 'of', 'at', 'university', 'universities', 'univ', 'u', 'college',
+  'football', 'fb', 'athletics', 'program', 'staff', 'and', 'a', 'an', 'to', 'for', 'my', 'via',
+  'coach', 'from', 'by', 'official', 'd1', 'division', 'i', 'blessed', 'receive', 'received',
+  'extremely', 'thank', 'you', 'go', 'agtg', 'first', 'second', 'third', 'st', 'nd', 'rd', 'th']);
 
 const flags = [];
 const pairs = new Map();
@@ -58,6 +66,33 @@ for (const o of offers) {
   const target = writtenTarget(text);
 
   const add = (why) => flags.push({ why, id: o.id, school: o.schoolName, player: o.playerName, target: target && target.join(' | '), url: ev.url, text: text.replace(/\s+/g, ' ').slice(0, 200) });
+
+  // 0. THE CHECK THAT DOES NOT TRUST THE RESOLVER.
+  //
+  // Everything else here asks findSchools() whether the target names the filed school,
+  // which means it inherits whatever findSchools() is currently blind to — that is
+  // exactly how "GEORGIA KNIGHTS FOOTBALL" passed a clean audit as a Georgia offer.
+  //
+  // This check uses no resolution at all. It subtracts the school's OWN vocabulary
+  // (name, nickname, aliases, handle) and ordinary filler from the institution name the
+  // post actually wrote. Whatever is left over is a word that belongs to some other
+  // school's name — "KNIGHTS", "SCHOOL OF MINES", "A & M", "LUTHERAN", "VALLEY".
+  // An official handle for this school in the post is exact evidence; the prose spelling
+  // ("EASTERN CAROLINA UNIVERSITY", "University Of Michagan") cannot overrule it.
+  const taggedOwnHandle = school && new RegExp(`@${school.handle}\\b`, 'i').test(text);
+  if (target && !taggedOwnHandle) {
+    const schoolWords = new Set([school?.name, school?.nickname, school?.handle, ...(school?.aliases || [])]
+      .filter(Boolean).flatMap((v) => norm(v).split(' ')));
+    const own = new Set([...GENERIC, ...schoolWords]);
+    for (const written of target) {
+      const words = norm(written).split(' ').filter(Boolean);
+      // Only the phrase that actually contains this school's name is a claim ABOUT this
+      // school. The others in the span are the player's name and prose.
+      if (!words.some((w) => schoolWords.has(w))) continue;
+      const leftover = words.filter((w) => !own.has(w));
+      if (leftover.length) { add(`written name has words that are not this school: ${JSON.stringify(leftover.join(' '))}`); break; }
+    }
+  }
 
   // 1. The post names an institution that is NOT this school.
   if (target) {

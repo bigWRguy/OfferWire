@@ -156,6 +156,34 @@ const MODIFIER_SUFFIX = new Set(['christian', 'baptist', 'lutheran', 'wesleyan',
   'evangelical', 'theological', 'presbyterian', 'episcopal', 'hebrew', 'islamic',
   'military', 'maritime', 'valley', 'highlands']);
 
+// Team names. The 136 FBS nicknames are in here automatically; the rest is the ordinary
+// stock of American college and club mascots, which is a closed vocabulary — clubs and
+// small colleges draw from the same well ("Spiders", "Rays", "Crusaders"). A mascot that
+// belongs to somebody else, sitting behind a place name we know, means a different team.
+const MASCOT = new Set([
+  ...SCHOOLS.flatMap((s) => norm(s.nickname).split(' ')),
+  'knights', 'spiders', 'rays', 'huskies', 'crusaders', 'saints', 'warriors', 'chargers',
+  'titans', 'vikings', 'pirates', 'raiders', 'lions', 'bears', 'wolves', 'wolverines',
+  'hornets', 'jackets', 'gators', 'colonels', 'generals', 'patriots', 'pioneers', 'blazers',
+  'bison', 'bobcats', 'braves', 'bruins', 'chiefs', 'comets', 'cyclones', 'demons', 'dragons',
+  'dukes', 'explorers', 'flames', 'foxes', 'gaels', 'greyhounds', 'griffins', 'hawks',
+  'highlanders', 'jaguars', 'lancers', 'leopards', 'lumberjacks', 'mavericks', 'monarchs',
+  'mustangs', 'thunder', 'penguins', 'phoenix', 'ravens', 'rebels', 'roadrunners', 'royals',
+  'scots', 'seahawks', 'sharks', 'stallions', 'stars', 'storm', 'thunderbirds', 'tornadoes',
+  'trojans', 'vandals', 'vipers', 'yellowjackets', 'elite', 'select',
+]);
+
+/** Every word that belongs to the school(s) a surface form names. */
+function ownVocabulary(form) {
+  const out = new Set();
+  for (const id of forms.get(form) || []) {
+    const s = byId.get(id);
+    if (!s) continue;
+    for (const v of [s.name, s.nickname, s.handle, ...s.aliases]) norm(v).split(' ').forEach((w) => out.add(w));
+  }
+  return out;
+}
+
 // A campus join: what follows is a different campus, not the flagship.
 // "University of Alabama at Birmingham", "Indiana University of Pennsylvania".
 const BRANCH_JOIN = new Set(['at', 'in', 'of']);
@@ -282,10 +310,31 @@ function foreignByShape(tokens, best, dashStarts = new Set()) {
   if (before === 'of' && best.s >= 2 && INSTITUTION_WORD.has(tokens[best.s - 2]) && tokens[best.s - 2] !== 'university') {
     return 'head';
   }
+  // An institution word sitting IN FRONT of the name, other than in "University of X",
+  // means the name is a campus of something else: "Ottawa University Arizona" is a NAIA
+  // school in Surprise, AZ, and was published as an Arizona offer.
+  if (before && INSTITUTION_WORD.has(before)) return 'campus';
 
   const after = tokens.slice(best.e);
   if (!after.length) return null;
   if (MODIFIER_SUFFIX.has(after[0])) return 'modifier';
+  // A MASCOT that is not this school's own is a different team wearing a familiar
+  // place name: "GEORGIA KNIGHTS FOOTBALL" (Georgia Knights, a small college), "Arizona
+  // Spiders", "Alabama Rays" (7v7 clubs), "SMU Huskies" (Saint Mary's, in Canada).
+  // Georgia's mascot is the Bulldogs, and a post that says otherwise is not about
+  // Georgia. The school's OWN nickname is allowed, so "Michigan State Spartans" and
+  // "Boston College Eagles" are untouched.
+  if (MASCOT.has(after[0]) && !ownVocabulary(best.form).has(after[0])) return 'mascot';
+  // Once the FORMAL name is complete ("University of Alabama"), one or two further
+  // naming words are a different campus, not decoration: "University of Alabama
+  // Birmingham" is UAB and was published as an Alabama P4 offer. Capped at two words so
+  // an ordinary Title-Case sentence tail ("Ohio State University Thank You Coach") is
+  // still read as prose.
+  const spare = after.filter((t) => !GENERIC_TAIL.has(t));
+  if (spare.length && spare.length <= 2 && best.form.split(' ').some((t) => INSTITUTION_WORD.has(t))
+      && !spare.some((t) => ownVocabulary(best.form).has(t))) {
+    return 'campus';
+  }
   // Everything up to the LAST institution word after the name is part of the name.
   // Anything non-generic in there is a different school: "[Colorado] School of Mines",
   // "[Alabama] State University", "[Cal] State Northridge", "[Wisconsin] Lutheran

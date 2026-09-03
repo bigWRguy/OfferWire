@@ -2,7 +2,10 @@
 import { SCHOOLS, HANDLES, findSchools, foreignInstitution, explicitNonFbsOfferTarget, namePhrases, norm } from './schools.js';
 import { decodeEntities } from '../lib/store.js';
 
-const OTHER_SPORT = /\b(?:baseball|softball|basketball|soccer|volleyball|lacrosse|golf|tennis)\b/i;
+// Not the sport this wire covers. Flag football and women's/girls' teams belong here
+// too: "Eastern Michigan University Women's Flag Football" was published as an Eastern
+// Michigan football offer.
+const OTHER_SPORT = /\b(?:baseball|softball|basketball|soccer|volleyball|lacrosse|golf|tennis|wrestling|rowing|hockey)\b|\bflag\s+football\b|\b(?:women|womens|girls|ladies)(?:['’]s)?\s+(?:flag\s+)?(?:football|team|program)\b/i;
 
 // Every form the verb takes. The old pattern listed only "offer|offered|scholarship",
 // so the extremely common PLURAL ("holds two FBS offers from Tulsa and Samford", "Offers
@@ -73,6 +76,21 @@ export function resolveOfferTarget(post, cache = { accounts: {} }) {
   const objectHandle = span.form === 'object' && clause.match(/^\s*@([A-Za-z0-9_]{2,15})/);
   if (objectHandle && !HANDLES.has(objectHandle[1].toLowerCase()) && /(?:football|fball|athletics|_fb|fb)$/i.test(objectHandle[1])) {
     return { status: 'rejected', reason: 'non_fbs_handle_target', evidence: { targetText: clause.slice(0, 180) } };
+  }
+
+  // X hands us the DISPLAY NAME of every tagged account, which is the most literal
+  // statement of who a program account belongs to that a post contains. When one of
+  // them is a non-FBS institution and no FBS program is tagged at all, the post is not
+  // reporting an FBS offer, whatever the prose says: "another offer from Indiana
+  // Westland" tagging "Indiana Wesleyan FB" was published as an Indiana offer.
+  const taggedFbs = (post.mentioned || []).some((m) => HANDLES.has(String(m.handle || '').toLowerCase()))
+    || [...text.matchAll(/@([A-Za-z0-9_]{2,15})/g)].some((x) => HANDLES.has(x[1].toLowerCase()));
+  if (!taggedFbs) {
+    const foreignTag = (post.mentioned || []).find((m) => {
+      const name = String(m.name || '').replace(/\b(?:FB|Football|Athletics|Recruiting)\b/gi, ' ').trim();
+      return name.split(/\s+/).length >= 2 && foreignInstitution(name);
+    });
+    if (foreignTag) return { status: 'rejected', reason: 'non_fbs_program_tagged', evidence: { targetText: String(foreignTag.name).slice(0, 180) } };
   }
 
   // Exact official handle is authoritative, and is read from the WHOLE post: recruits
