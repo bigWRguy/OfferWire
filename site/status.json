@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T14:58:24.373Z",
+  "generatedAt": "2026-09-03T15:10:02.436Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
@@ -30,57 +30,57 @@
   "staleSchools": [
     {
       "id": "texas-tech",
-      "hours": 3.5
+      "hours": 3.7
     },
     {
       "id": "army",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "san-diego-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "san-jose-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "south-alabama",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "south-florida",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "southern-miss",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "temple",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "toledo",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "troy",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "tulane",
-      "hours": 2.3
+      "hours": 2.5
     }
   ],
   "liveStaleness": {
-    "medianHours": 0.7818869444444444,
-    "p95Hours": 2.284518333333333,
-    "worstHours": 3.5376047222222224
+    "medianHours": 0.9757933333333333,
+    "p95Hours": 2.4784247222222224,
+    "worstHours": 3.7315111111111112
   },
   "decisionCoverage": {
-    "total": 112,
-    "decided": 112,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "pending": {
@@ -104,395 +104,46 @@
     }
   },
   "audit": {
-    "at": "2026-09-03T14:56:10.959Z",
+    "at": "2026-09-03T15:09:57.399Z",
     "mode": "live",
     "collection": {
-      "returned": 153,
-      "kept": 112,
-      "duplicate": 40,
-      "tooOld": 1,
+      "returned": 0,
+      "kept": 0,
+      "duplicate": 0,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 84,
-      "rejected": 28,
-      "reasons": {
-        "no_fbs_school": 12,
-        "no_offer_term": 14,
-        "hard_negative": 2
-      },
-      "samples": [
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095479922223722651",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "🛍️ [ Amazon India | Rs 1,14,990 ] ( 83K101JGIN ) Lenovo IdeaPad Slim 3 13th Gen Intel Core i7-13620H 15.3 inch (38.8cm) WUXGA IPS Laptop (16GB RAM/512GB SSD/Windows 11/Office 2024/Metal A Cover/Backlit Keyboard/Luna Grey/1.6Kg) ( 199276686"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095478379906736520",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "🛍️ [ Amazon India | Rs 1,53,990 ] ( 83JX00H2IN ) Lenovo Yoga Slim 7 Aura Edition Intel Evo Core Ultra 7 256V (16GB RAM/512GB SSD/14 (35.5cm)/WUXGA OLED/Copilot+ PC/Windows 11/MSO 365 Basic+Office 2024/1Yr ADP/Seashell/1.19Kg), AI Laptop ( "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095477945607614812",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "🛍️ [ Amazon India | Rs 4,69,990 ] ( H7606WW-SE066WS | PN: 90NB17F1-M003M0 ) ASUS ProArt P16 (2026),AMD Ryzen AI 9 HX 370,RTX 5080-16GB,32GB RAM,1TB SSD,4K OLED,16\"(40 cm),Windows 11 Home,M365 Basic(1 Year),Office 2024,Nano Black,1.95 Kg - "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095477715508035940",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "🛍️ [ Amazon India | Rs 6,13,490 ] ( 83F500Q6IN ) Lenovo Legion Pro 7 FIFA World Cup 26 Edition Intel Core Ultra 9 290HX Plus | NVIDIA RTX 5090 24GB (64GB RAM/1TB SSD/WQXGA OLED/240Hz/16(40.6cm)/Win 11/Black/2.5Kg), AI Gaming Laptop ( 19927"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095477480228573606",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "🛍️ [ Amazon India | Rs 1,76,990 ] ( 83JE01G5IN ) Lenovo LOQ Intel Core i7-13645HX | NVIDIA RTX 5050 8GB (16GB RAM/1TB SSD/144Hz Refresh Rate/440 AI TOPS/15.6\" (39.6cm)/Windows 11/Office 2024/Grey/2.4Kg), Gaming Laptop ( 199276325945 ) [ad]"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095477067337155014",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "🛍️ [ Amazon India | Rs 2,09,990 ] ( FX610JM-TU105WS ) ASUS TUF 16 (2026),14th Gen,Intel Core i7 14650HX,RTX 5060-8GB,16GB RAM (Upgradeable),512GB SSD,FHD+,16\"(40 cm),Win 11,M365 Basic(1Y),Office 2024,Off Black,2.2 Kg - Gaming Laptop [ad] h"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095497797218767054",
-          "author": "cynical_waffles",
-          "searchJob": "texas",
-          "text": "@iguessyourereal If I had a nickel for every time a professional qb in Texas said the contract offered wasn’t enough money despite it being more than they’re worth, I’d have 2 nickels. Which isn’t a lot, but it’s weird it happened twice"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095504594830787012",
-          "author": "hb_dupage",
-          "searchJob": "northern-illinois",
-          "text": "Give your rugs the deep clean they deserve! Enjoy 30% off in-shop rug cleaning with promo code SUMMER30 with Heaven's Best of Northern Illinois. Book online today and let us bring your rugs back to life! https://t.co/yVWiTzl51w LAST CHANCE!"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095504593681551786",
-          "author": "heavensbest_il",
-          "searchJob": "northern-illinois",
-          "text": "Give your rugs the deep clean they deserve! Enjoy 30% off in-shop rug cleaning with promo code SUMMER30 with Heaven's Best of Northern Illinois. Book online today and let us bring your rugs back to life! https://t.co/8sG4ECvonF LAST CHANCE!"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095525958908317743",
-          "author": "aybeeinoh",
-          "searchJob": "ohio",
-          "text": "@JonnyMicro Bob Evans should partner with them for the eggs and offer T-Rex omelettes."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095512733479272720",
-          "author": "arktimes",
-          "searchJob": "arkansas",
-          "text": "Alpha-gal syndrome, a mysterious tick-borne illness, is spreading rapidly. The Natural State may offer a window into what’s driving its rise, how it functions and what comes next. https://t.co/YrxrajfYbO"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095519180867187159",
-          "author": "derekyoungkso",
-          "searchJob": "kansas-state",
-          "text": "NEW: K-State is mining the JUCO market for the 2027 class, and CB Coaleon Johnson (Iowa Western CC) is a name to know 👀 He's already got a visit locked in — and his own words on K-State will raise some eyebrows. Intel: https://t.co/D1l7782"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094805757019521116",
-          "author": "gopoversight",
-          "searchJob": "miami",
-          "text": "This is Dr. Wladimir Lorentz. He boasted on his website that he helped deliver roughly 2,000 babies through birth tourism. Chairman @RepBrandonGill asked if he helped members of the Chinese Communist Party obtain American citizenship. HE PL"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095516741119901762",
-          "author": "getbarkley",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/XCiYBU3Kxg"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095520239379227054",
-          "author": "cancelledpapi",
-          "searchJob": "army",
-          "text": "https://t.co/iR4NNQ64hM"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095518562899165203",
-          "author": "defmatterseu",
-          "searchJob": "army",
-          "text": "https://t.co/stXn6FJ3So"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095518200150556968",
-          "author": "chase__chappell",
-          "searchJob": "army",
-          "text": "https://t.co/4irqOeYyZN"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095497467555164249",
-          "author": "polarisman17",
-          "searchJob": "boise-state",
-          "text": "@GolfingFrogs @BarstoolBoise @BarstoolDucks You couldn’t be more incorrect. He committed to BSU AFTER many big school offers and official visits. The coaching change at Boise State likely played into his decision to decommit as much as anyt"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095523382712221731",
-          "author": "therugbyissue",
-          "searchJob": "buffalo",
-          "text": "@PaulCon27059910 @RugbyPass https://t.co/VnLkX8wQLE"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095515118880563410",
-          "author": "vecertradar",
-          "searchJob": "buffalo",
-          "text": "The investigation reveals the administrative panel, privileged accounts, a superuser API key, internal logs, and associated IP addresses. Evidence points to an operational infrastructure. https://t.co/gcrzfin1qh"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095505773866737815",
-          "author": "joeyzhuo777",
-          "searchJob": "buffalo",
-          "text": "https://t.co/ICxnLbiFEw"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095195382586208403",
-          "author": "zeldaagabriel",
-          "searchJob": "buffalo",
-          "text": "My words are not blasphemy. The Trinity is the only one God I worship. The notion that the saints bring us closer to Christ is not dismissing the Holy Spirit."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095525761373331549",
-          "author": "jwmediadc",
-          "searchJob": "charlotte",
-          "text": "https://t.co/e4UvKy0q5i"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095495448727351788",
-          "author": "ckalexanderxxx",
-          "searchJob": "charlotte",
-          "text": "@CrossAndCaptial My 5 year old is always offered seats so idk what you’re on about"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 83,
-      "reasons": {
-        "school_not_resolved_confidently": 54,
-        "bare_mention_requires_llm": 24,
-        "reporter_missing_position": 1,
-        "reporter_missing_class_year": 1,
-        "multiple_resolved_schools": 2,
-        "reporter_missing_player_name": 1
-      },
-      "samples": [
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095479876933517552",
-          "author": "tetratechjobs",
-          "searchJob": "texas-tech",
-          "text": "We want to make a difference with you! See what #TetraTechJobs we have to offer, and work with some of the brightest minds in the industry. https://t.co/7dKVIhd19M #LeadingWithScience"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095479781001191467",
-          "author": "ictadvocates",
-          "searchJob": "texas-tech",
-          "text": "With support from @APC_News, we host a 1-day workshop on dComms/Fediverse for journalists, civil society &amp; other professionals in Kano, Nigeria. Participants will be taken through various aspects of dComms, what is offers that the other"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095479661853610175",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095479380973871184",
-          "author": "shaun_d_y_",
-          "searchJob": "texas-tech",
-          "text": "Here's why that matters beyond tech. A bond market is a finite pool of capital at any given moment. When a very large, very creditworthy borrower arrives and takes a meaningful share of it, everyone else has to offer more to compete. That's"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095479250832826594",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095479072302256377",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095478865678197153",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095478693699138022",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095478456599400626",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095478246917787712",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095477581499731975",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095477414339981395",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095477347579224537",
-          "author": "tarnaykristof",
-          "searchJob": "texas-tech",
-          "text": "I'm glad to share that I completed and received a passing grade in EPTC: Tech Ethics: Critical Thinking in the Age of Apps, Algorithms, and AI, a course of study offered by HarvardX, an online learning initiative of @Harvard University on t"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095477206575153383",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095501929463926954",
-          "author": "pettunia14",
-          "searchJob": "texas",
-          "text": "\"The benchmark 10-year Treasury note yield last traded around 4.75%, seeing declines after Federal Reserve Governor Christopher Waller said he’d be “inclined to support” holding rates steady barring any surprises in upcoming inflation data."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095501650614190210",
-          "author": "oeingoboeing",
-          "searchJob": "texas",
-          "text": "This 182’s equippage was intented to be happy medium. Not backcountry STOL, but a cruiser still with some enhanced performance and expanded margins at slow speeds. Had I not had the 210 offered to me, I was about six months from sending the"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095501317426823393",
-          "author": "mdjobsite",
-          "searchJob": "texas",
-          "text": "🚨 Sleep Medicine Physician (MD/DO) Fort Worth, TX 💼 View job: https://t.co/nTI6ybPj7U 📍 Texas-Fort Worth Sleep Medicine Physician (MD/DO) | Fort Worth, TXOverview: | Our Sleep Medicine clinic in Fort Worth, TX offers a stable patient bas"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095500820812882236",
-          "author": "usbirthcert",
-          "searchJob": "texas",
-          "text": "Skip the stress—Texas Tower offers fast, reliable notary services to make your paperwork a breeze. Visit us today and experience hassle-free service! #NotaryServices #LegalServices #PaperworkMadeEasy #TexasNotary https://t.co/QAX7Iw2JzZ"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095497918765510700",
-          "author": "hqdepot1",
-          "searchJob": "texas",
-          "text": "to harbor the belief that instead of all the wealth being pulled out of the soil of Iran going to British Petroleum and Big Three Texas Tea, it should go to the MODERNIZATION OF IRAN and it's people. He even offered to split it 50/50. 9/"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095497006965768201",
-          "author": "seldomphooey",
-          "searchJob": "texas",
-          "text": "You managed to confuse original jurisdiction with standing in a post beginning “let’s start with facts.” Article III extending the judicial power to controversies between states does not mean that the words “Texas” and “Pennsylvania” magica"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095517280369025088",
-          "author": "j98264912",
-          "searchJob": "ohio",
-          "text": "@SCgirl111 You can go to Ohio in January an offer an opinion on the cold...😂"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095498305836810542",
-          "author": "j_lautzenheiser",
-          "searchJob": "ohio",
-          "text": "Amy Acton’s refusal to accept Vivek’s debate offers tells me that she’s no underdog right now… he’s struggling to dodge scandals, rumors, and connections to corporate greed &amp; corruption. And she’s out talking to voters about kitchen tab"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095497049068220650",
-          "author": "bjbroderick",
-          "searchJob": "ohio",
-          "text": "💵👀 The first settlement offer after an Ohio injury may not reflect what your claim is really worth. 💰 See what to consider before accepting an offer. 👉 https://t.co/0QDPTNVoUn #PersonalInjury #OhioAttorney #InjuryClaim #LegalRights #Ins"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095523076892991953",
-          "author": "jucofootballace",
-          "searchJob": "old-dominion",
-          "text": "Kindal Moorehead @KindalJr @ East Mississippi JuCo @EMCCathletics picks up @ODUFootball Offer @jucoweekly @MSJUCOREPORT https://t.co/U96eWjwQpO"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
-      "ok": true,
-      "reason": null,
+      "ok": false,
+      "reason": "texas-tech: rate limited",
       "jobs": 162,
-      "swept": 32,
+      "swept": 0,
       "failed": 1,
-      "requests": 33,
+      "requests": 1,
       "errors": [
-        "san-diego-state: rate limited"
+        "texas-tech: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 83,
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 0,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-03T14:58:24.374Z"
+    "status rebuilt locally from current store on 2026-09-03T15:10:02.437Z"
   ]
 }
