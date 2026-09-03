@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-03T20:56:11.616Z",
+  "generatedAt": "2026-09-03T21:13:26.162Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-03T20:43:34.821Z",
+    "at": "2026-09-03T21:13:25.918Z",
     "jobsTotal": 162,
-    "sweptThisRun": 34,
-    "requests": 35,
+    "sweptThisRun": 33,
+    "requests": 34,
     "fullSweepCycles": 5
   },
   "backfillCoverage": {
@@ -27,24 +27,15 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [
-    {
-      "id": "coastal-carolina",
-      "hours": 2.2
-    },
-    {
-      "id": "navy",
-      "hours": 2.2
-    }
-  ],
+  "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7429072222222223,
-    "p95Hours": 1.7473136111111112,
-    "worstHours": 2.249716388888889
+    "medianHours": 0.7857355555555555,
+    "p95Hours": 1.2837030555555555,
+    "worstHours": 1.5367225
   },
   "decisionCoverage": {
-    "total": 0,
-    "decided": 0,
+    "total": 45,
+    "decided": 45,
     "complete": true
   },
   "pending": {
@@ -53,61 +44,373 @@
   "profileResolution": {
     "cached": 35
   },
-  "paginationBacklog": 3,
+  "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 623,
+    "completeOffers": 625,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-03T20:43:34.820Z",
-      "got": 121,
-      "new": 59,
-      "lag": 0.13
+      "at": "2026-09-03T21:13:25.918Z",
+      "got": 74,
+      "new": 45,
+      "lag": 0.08
     }
   },
   "audit": {
-    "at": "2026-09-03T20:56:07.764Z",
+    "at": "2026-09-03T21:11:10.931Z",
     "mode": "live",
     "collection": {
-      "returned": 0,
-      "kept": 0,
-      "duplicate": 0,
+      "returned": 74,
+      "kept": 45,
+      "duplicate": 29,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 24,
+      "rejected": 21,
+      "reasons": {
+        "no_offer_term": 8,
+        "no_fbs_school": 10,
+        "hard_negative": 3
+      },
+      "samples": [
+        {
+          "reason": "no_offer_term",
+          "postId": "2095615366189695276",
+          "author": "mkomichi_",
+          "searchJob": "ohio",
+          "text": "In one country you sign a paper and move in on Friday. In the other you build for twelve years. The difference is not discipline. It is whether anyone will lend you the future. https://t.co/QIrpjrhXS6"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095597642025779495",
+          "author": "ohheartofitall",
+          "searchJob": "ohio",
+          "text": "Nestled along the shores of Lake Erie is beautiful Ottawa County, Ohio. 🌊 Our blog offers a sample itinerary for a waterfront weekend there: https://t.co/96s6WeibLp This weekend (9/4-9/5), Port Clinton celebrates their annual Perch, Peach,"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095595230779048291",
+          "author": "limaynn",
+          "searchJob": "ohio",
+          "text": "Here are some of the programs and events being offered by the Johnny Appleseed Park District for the month of September! https://t.co/zwYjkhqkZT"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095618079388500011",
+          "author": "howitzern5",
+          "searchJob": "rice",
+          "text": "@nick4768 @bry5913 Quite a bit of noise that he was being offered around via the usually routes of intermediaries. Club so desperate to sell they were almost forcing things. It’s just further mismanagement."
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095609485129908244",
+          "author": "bucknuts247",
+          "searchJob": "ohio-state",
+          "text": "The moment @bradyedmunds9's grandfather found out he got an #OhioState offer, things got emotional. 😢 Hear more from the #Buckeyes' QB commit in his discussion with @davebiddle on #BM5 Extra 👇 https://t.co/T7GAyBtv4l"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095256654266658892",
+          "author": "bucknuts247",
+          "searchJob": "ohio-state",
+          "text": "Welcome to #BM5 Extra, where we bring @Bucknuts247 VIP members some extra podcast content. In our first show, @davebiddle sits down with #OhioState commit @bradyedmunds9 to discuss his summer decision, the start of his senior season and muc"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095617629440368868",
+          "author": "np4football_ot",
+          "searchJob": "penn-state",
+          "text": "Liam Carroll-WR-2028-PA @PennStateFball Game Day Visit #CFB"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095557895098155187",
+          "author": "liamcarroll_2",
+          "searchJob": "penn-state",
+          "text": "I’m Excited to Be Back In Happy Valley for Their Home Opener This Weekend‼️ @Coachcliff904 @JohnGarcia_Jr @ChadSimmons_ @CharlesPower @FriedmanAdamm @adamgorney @BrianDohn247 @CraigHaubert @TheUCReport @MikeWakins @RyanSnyderOn3 @tyler_calv"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095600877910339642",
+          "author": "phl17",
+          "searchJob": "penn-state",
+          "text": "Would you take a class on how to use AI responsibly? Penn State is rolling out an online AI Essentials course and expanded AI resources designed to build real-world skills. https://t.co/jq5SV7HzOC https://t.co/mt3hHwzxhk"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095600636049969547",
+          "author": "whiteoutfb",
+          "searchJob": "penn-state",
+          "text": "I sat down with Jordan two weeks ago to talk about his recruitment and where things stand with Penn State. He is now available. Time to make a move https://t.co/jGA49fsheL"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095599730025800065",
+          "author": "whiteoutfb",
+          "searchJob": "penn-state",
+          "text": "Class of 2029 Central Catholic offensive lineman @Elvis_bethea58 will be inside Beaver Stadium Saturday for the home opener. The 6’4 290 lb monster has offers from 9 D1 programs already in his SO season This kid def checks every box to play"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095610124328906818",
+          "author": "xhandedbootboy",
+          "searchJob": "south-carolina",
+          "text": "@regulationxvx i got offered an edge day show in SOUTH CAROLINA and my band cant play it kms"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095609994813071373",
+          "author": "mbre88",
+          "searchJob": "south-carolina",
+          "text": "@MrHankey4460 @SarahGAllenSC Trump had no business interfering in our elections in South Carolina. He offered us somebody who had no experience whatsoever and we have been embarrassed by her. Trump should be ashamed and I voted for him 3 ti"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095602839858843943",
+          "author": "vatennvalley",
+          "searchJob": "tennessee",
+          "text": "TVHS Recreation Therapy offers a variety of adaptive sports and recreational activities designed to help Veterans stay active, explore new interests and connect with others. From individual activities to group sessions, Veterans can find op"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095599763571818925",
+          "author": "thetnholler",
+          "searchJob": "tennessee",
+          "text": "WATCH: “I gotta confess to you: that’s a damn good answer!” @stephenasmith reacts to @AbdulElSayed telling him 3 million people listen to @hasanthehun and he wants to offer them a pathway into an electoral movement vs. sitting outside the s"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095619796171702619",
+          "author": "texanscommenter",
+          "searchJob": "houston",
+          "text": "@theeezy1 People are saying he should take 30 or 45 million. He’s already been offered in the 50s. They should be saying he should’ve accepted that. How is this so hard to follow? Who in their right mind would take 10m less per year than wh"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095612601199947812",
+          "author": "rugasco1",
+          "searchJob": "houston",
+          "text": "@heyitkb @Arkypatriot A normal man would have offered her when he found it and avoided this circuis"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095603516865671544",
+          "author": "tarlanderson",
+          "searchJob": "houston",
+          "text": "**OPEN HOUSE ✨** 📍 219 Pheasant Street Unit C, Houston, TX 77018 📅 Saturday, September 5th ⏰ 11:00 AM – 2:00 PM 🏡 Offered at $399,900 🛏️ 3 Bedrooms 🛁 2.5 Bathrooms 🚗 2-Car Garage 🌿 Fenced Backyard + Covered Patio 🔥 Outdoor Kitchen h"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095602986173264036",
+          "author": "houstonluxurylt",
+          "searchJob": "houston",
+          "text": "Our integrated LED technology eliminates the need to constantly change bulbs, &amp; our durable construction means fewer repairs. We offer professional maintenance to keep your fixtures clean, properly aimed, &amp; performing like new. Call"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095613724396769348",
+          "author": "loopingcloud",
+          "searchJob": "south-florida",
+          "text": "https://t.co/Fv3yR7JjPk"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095609405869846844",
+          "author": "chitrader",
+          "searchJob": "south-florida",
+          "text": "🇺🇸 US MARKET CLOSE NEWSLETTER September 3, 2026 https://t.co/rDDH7ojo6K"
+        }
+      ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 2,
+      "rejected": 22,
+      "reasons": {
+        "multiple_resolved_schools": 4,
+        "bare_mention_requires_llm": 12,
+        "school_not_resolved_confidently": 5,
+        "reporter_missing_player_name": 1
+      },
+      "samples": [
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095609854916227273",
+          "author": "whiteoutfb",
+          "searchJob": "ohio",
+          "text": "@tyler_calvaruso If Ohio state offers and is serious I think that’s where he will end up. If not , IMO Penn state will be the team to beat out for him. He really like Huggins"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095602731167723960",
+          "author": "lettermenrow",
+          "searchJob": "ohio",
+          "text": "Buckeye fans MUST take advantage of this Season Kickoff Sale 🏈 Get 75% off @LettermenRow before the offer expires! That’s $30 a year for the BEST Ohio State coverage. JOIN: https://t.co/e9P4WemX3K https://t.co/KaR8KjdLJy"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095601269507322169",
+          "author": "buckeyehero1",
+          "searchJob": "ohio",
+          "text": "@Dan_Hope A possible Ohio State offer could change everything 👀"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095600899959685132",
+          "author": "buckeyehero1",
+          "searchJob": "ohio",
+          "text": "@2k_jlo @AllenTrieu @On3 @Rivals @SWiltfong_ @RivalsHS @TomLoy247 @TheUCReport @adamgorney @247Sports @Bryan_Ault Possible Ohio State offer coming??? 👀 https://t.co/LqYietioNF"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095620066205171937",
+          "author": "__mydestiny_",
+          "searchJob": "rice",
+          "text": "You ask for snacks at my house I’ll offer you shit like banana chips, veggie straws, and rice cakes 😭😭😭 everything organic in this bitch"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095615112795345313",
+          "author": "alves13742",
+          "searchJob": "rice",
+          "text": "🌷Spring promenade BlossomsStanding amidst the bustling market, I savor my mango sticky rice while observing merchants peddling their wares. Vendors shout their offers and customers haggle, filling the air with energy and color, making the "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095602034124726377",
+          "author": "dlordthadon",
+          "searchJob": "rice",
+          "text": "Rice begged to join Chelsea and asked to match arsenals offer but we flat out refused, leaving him to head to Arsenal."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095598783606247858",
+          "author": "ode_wan_",
+          "searchJob": "rice",
+          "text": "@damian_highbury It’s not the same. Villa rejected our offer. West Ham accepted both our offer for Rice as well as City’s. In the Rice deal, the decision was in his hands. That wasn’t the case with Rogers"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2095611313095335938",
+          "author": "jamieshaw5",
+          "searchJob": "kentucky",
+          "text": "4⭐️ center Akol Nyok (@Akolnyok34) of Columbus (FL)/@TreMannElite announces he’s been offered by #Kentucky @RowlandRIVALS @BRamseyKSR https://t.co/woR0XdbPaW"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095613594201129146",
+          "author": "fravel_ryan",
+          "searchJob": "nebraska",
+          "text": "BREAKING: Class Of 2028 4⭐ TE Max Jones will visit Notre Dame for the Irish Wear Green game vs Stanford on October 10th! This will be his 2nd trip to South Bend. Jones has yet to receive an offer from the Irish. The St. Louis product curren"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095602868724088901",
+          "author": "dioceseoftulsa",
+          "searchJob": "oklahoma",
+          "text": "‼️Catholic Scouting Celebrating 100 Years of Ad Altar Dei Emblem The Catholic Committee on Scouting for the Diocese of Tulsa & Eastern Oklahoma will celebrate the 100th anniversary of the Ad Altare Dei religious emblem and is preparing seve"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095614056111718477",
+          "author": "profilefblive",
+          "searchJob": "ole-miss",
+          "text": "Mississippi State has extended scholarship offers to 5 prospects in the last 24 hours. @HailStateFB 3.4⭐ 2030 ATH Demarco Cody @DemarcoCod26972 3.8⭐ 2029 RB De'Quarrion Trammell @hunnatt1k 3.8⭐ 2029 Edge Dotarius Washington @DJwashington___"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095603935910224139",
+          "author": "truthproject247",
+          "searchJob": "ole-miss",
+          "text": "@EverythingRebs It would have been financially stupid of Trinidad to go pro. @OleMissFB offered him $6 Million to return to college and they also found him a sympathetic Mississippi judge to grant him the TRO."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095602965579014291",
+          "author": "ieeelearn",
+          "searchJob": "rutgers",
+          "text": "The Mini-MBA for Engineers, in collaboration with Rutgers University, UnitelmaSapienza, and IEEE, offers targeted training for students and professionals to build in-demand skills for a rapidly evolving job market. Register by 18 November: "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095613337304490081",
+          "author": "drroyateeljr1",
+          "searchJob": "tennessee",
+          "text": "Here are the facts. As of **September 3, 2026**, Roy, there’s an important distinction between **Tesla’s Robotaxi service** and the actual purpose-built **Tesla Cybercab**. Tesla’s Robotaxi network is already operating in several cities, bu"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095610316587413815",
+          "author": "hville_standard",
+          "searchJob": "tennessee",
+          "text": "The University of Tennessee Extension Service of Sumner County has announced that it will offer the Tennessee Tree Stewards certification training this fall through the Tennessee Urban Forestry Council. READ: https://t.co/daLKvjFcOj https:/"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095609937401373094",
+          "author": "okadikeonyeisi",
+          "searchJob": "tennessee",
+          "text": "@markfrigsby This sounds like the perfect blend of peaceful country living and convenient access to everything Tennessee has to offer! 🏡🌄❤️"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095601194911650252",
+          "author": "groovy36754",
+          "searchJob": "tennessee",
+          "text": "@DougWahl1 Tennessee. I’ve been told by 2 social workers that police offer rides shelters and only arrest if they refuse. https://t.co/6WLZHABO5N"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095617062274015470",
+          "author": "sullyvino",
+          "searchJob": "houston",
+          "text": "@esidery @espn 😂😂 he should’ve taken the money. Houston will be happy by the end of the year he didn’t take the deal if it was even offered"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095613988872831474",
+          "author": "profootballsoc",
+          "searchJob": "houston",
+          "text": "C.J. Stroud is betting millions on himself. The Texans were reportedly prepared to pay their franchise quarterback somewhere in the $50M+ per year range, but Stroud appears ready to play the 2026 season without a new deal (Per: Jeremy Fowle"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095599822258528711",
+          "author": "houstondynamo",
+          "searchJob": "houston",
+          "text": "These two lucky fans got the ultimate matchday experience thanks to @MichelobULTRA 🤩 Check out our 'Pitchside Sweepstakes' winners as they enjoy all that a Houston Dynamo match at @ShellEnergyStdm has to offer! https://t.co/lszpUrrU92"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095618550941585676",
+          "author": "valeriefoushee",
+          "searchJob": "north-carolina",
+          "text": "Amidst the chaos that Trump is causing at home and abroad, the USDA and Forest Service have announced plans to rescind the 2001 Roadless Area Conservation Rule, or “Roadless Rule”. The Roadless Rule protects 44 million acres of national for"
+        }
+      ]
     },
     "search": {
-      "ok": false,
-      "reason": "coastal-carolina: rate limited",
+      "ok": true,
+      "reason": null,
       "jobs": 162,
-      "swept": 0,
+      "swept": 33,
       "failed": 1,
-      "requests": 1,
+      "requests": 34,
       "errors": [
-        "coastal-carolina: rate limited"
+        "temple: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
-      "brandNewOffers": 0
+      "acceptedEvidence": 2,
+      "rejectedCandidates": 22,
+      "brandNewOffers": 2
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-03T20:56:11.617Z"
+    "status rebuilt locally from current store on 2026-09-03T21:13:26.163Z"
   ]
 }
