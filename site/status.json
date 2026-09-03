@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-03T15:43:28.148Z",
+  "generatedAt": "2026-09-03T15:58:13.361Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-03T15:43:27.910Z",
+    "at": "2026-09-03T15:58:13.157Z",
     "jobsTotal": 162,
     "sweptThisRun": 30,
     "requests": 31,
@@ -27,15 +27,24 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "houston",
+      "hours": 2.3
+    },
+    {
+      "id": "texas-tech",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 0.7881036111111112,
-    "p95Hours": 2.0371016666666666,
-    "worstHours": 2.0371016666666666
+    "medianHours": 0.7016958333333333,
+    "p95Hours": 1.7788280555555556,
+    "worstHours": 2.2829944444444443
   },
   "decisionCoverage": {
-    "total": 47,
-    "decided": 47,
+    "total": 64,
+    "decided": 64,
     "complete": true
   },
   "pending": {
@@ -44,296 +53,387 @@
   "profileResolution": {
     "cached": 33
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 2,
   "quality": {
-    "completeOffers": 608,
+    "completeOffers": 612,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-03T15:43:27.910Z",
-      "got": 75,
-      "new": 47,
-      "lag": 0.05
+      "at": "2026-09-03T15:58:13.156Z",
+      "got": 111,
+      "new": 64,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-09-03T15:41:22.609Z",
+    "at": "2026-09-03T15:56:26.662Z",
     "mode": "live",
     "collection": {
-      "returned": 75,
-      "kept": 47,
-      "duplicate": 28,
-      "tooOld": 0,
+      "returned": 111,
+      "kept": 64,
+      "duplicate": 44,
+      "tooOld": 3,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
       "accepted": 36,
-      "rejected": 11,
+      "rejected": 28,
       "reasons": {
-        "no_offer_term": 6,
-        "hard_negative": 1,
-        "no_fbs_school": 4
+        "no_fbs_school": 16,
+        "no_offer_term": 9,
+        "hard_negative": 3
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2095497038507249840",
-          "author": "vanewsvanguard",
-          "searchJob": "liberty",
-          "text": "🚨GOOD GRIEF: A VIRGINIA UNIVERSITY: THIS Is Who Students Think Attacked Us on 9/11?! \"How much do college students really know about the 9/11 terrorist attacks? YAF headed to George Mason University to find out if students who weren't aliv"
+          "reason": "no_fbs_school",
+          "postId": "2095540837442560280",
+          "author": "texanscommenter",
+          "searchJob": "houston",
+          "text": "How many times am I going to see people say CJ Stroud should take 45m (or even less like 30m 😂), when it was reported just yesterday he’s already gotten an offer in the 50’s. Okay I’m done entertaining these takes."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095535562161561936",
-          "author": "callthehogs",
-          "searchJob": "tulsa",
-          "text": "https://t.co/KkghhfkQqA"
+          "postId": "2095526041951351044",
+          "author": "buterinstin",
+          "searchJob": "houston",
+          "text": "@TexansCommenter If he could get 45m a year to play QB, he will be committing highway robbery. He is getting terrible advice internally. Not everyone needs to “bet on themself” CJ gonna Dennis Schroeder himself"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095539964989554930",
+          "author": "texanscommenter",
+          "searchJob": "houston",
+          "text": "@ANGUIANOABRAM They already reportedly offered him a decent deal"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095539708000374877",
+          "author": "texanscommenter",
+          "searchJob": "houston",
+          "text": "@hayton_loyd @JeremyBranham Or maybe he’s already been reported to be offered well above 45m"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095528170673901893",
+          "author": "coco7fg",
+          "searchJob": "houston",
+          "text": "I Have two extra tickets for Tame Impala concert on Sep 19 at Toyota Center, Houston, TX. Letting them go for face value but open to offers. DM me if interested! 🫶 WTS WTB ISO WTT"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095518659615621424",
+          "author": "texanscommenter",
+          "searchJob": "houston",
+          "text": "“I’m not encouraging him a whack deal.” Proceeds to encourage him to take a whack deal, one that’s less than what his colleague reported he’s already being offered 😂"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095518323119157538",
+          "author": "texanscommenter",
+          "searchJob": "houston",
+          "text": "@HOUPropaganda It’s been reported he’s been offered more than that 😂"
         },
         {
           "reason": "hard_negative",
-          "postId": "2095536591846383784",
-          "author": "scarboroughmike",
-          "searchJob": "lsu",
-          "text": "“That was always my dream school.” 🐯 6-foot-6, 280-pound 2028 OL Ryan Rodgers @RyanRodger72728 already has offers from Georgia, Ole Miss, Arkansas and others. But when LSU offered the Louisiana standout, it hit differently. Rodgers talks T"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095511840075780232",
-          "author": "chrishollo637",
-          "searchJob": "lsu",
-          "text": "Just walk through the tailgate area, you’ll catch some me good ole trash talk but you’ll also be offered some of the best tasting food you’ve ever had in your life"
+          "postId": "2095515436284616998",
+          "author": "kickoffmagazine",
+          "searchJob": "houston",
+          "text": "Lyle Foster had offers from Turkey, Greece, and France — but chose the USA. 🇺🇸 The Bafana striker is reportedly closing in on a loan move to Houston Dynamo from Burnley, with a reported R112 million buy option attached. An article in Socc"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095168430374625570",
-          "author": "colegerard4",
-          "searchJob": "lsu",
-          "text": "#LSU #LSUFootball fans!! What do y’all recommend for us Clemson fans traveling to Baton Rouge this weekend? Looking for the best food, best casino, and anything else we should check out while we’re there! 🐅 vs 🐯"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095529345901035863",
-          "author": "thewolverineon3",
-          "searchJob": "michigan",
-          "text": "Time is running out! Join https://t.co/gPdrE1lG7g before our season kickoff offer expires this weekend. $29.99 for an entire year! $2.49 per month! Details: https://t.co/eJSlkbloYZ https://t.co/ekuYUq6T4d"
+          "postId": "2095541051817677182",
+          "author": "idontexisttore",
+          "searchJob": "texas-tech",
+          "text": "4 fuses. 1 of them lit itself on 8/21, the day the White House recited the snake poem again. 11 days later, 4 commands dissented on Iran war, and Driscoll walked out. Nobody had to plan this. He built the room. How do you destroy a tank? Fr"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095536934953075066",
-          "author": "np4football_ot",
-          "searchJob": "michigan-state",
-          "text": "PJ Williams-DB-2028-WI @MSU_Football Game Day Visit #CFB"
+          "postId": "2095539116830277838",
+          "author": "alsamahi",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/M3yRsjkM1M"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095319928433741930",
-          "author": "p_will22",
-          "searchJob": "michigan-state",
-          "text": "Thank you @AndrewwFranklin for the gameday invite!!! Really excited to catch a game this fall‼️@MSU_Football @WNFball @CoachSwegsWN https://t.co/iESOQVLbFI"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095514174709281009",
-          "author": "cdphe",
-          "searchJob": "colorado",
-          "text": "Apply now! New grant funding is available for operators of municipal solid waste landfills. This program offers support for landfill operators to reduce methane emissions faster than required. Learn more and apply: https://t.co/u3BL5aruul h"
+          "postId": "2095538901402235265",
+          "author": "awkward_andyy",
+          "searchJob": "texas-tech",
+          "text": "This is what happens if you pay attention to @every, @gauntletai, @rileybrown and @petergyang https://t.co/L7Af664CLM"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095528807448940835",
-          "author": "dukemozzarelli",
-          "searchJob": "duke",
-          "text": "[EPIC GAMES MOBILE] (GAME) Evan's Remains Android + iOS: https://t.co/BgOSgaqfQz Android: https://t.co/eV2Vdajg3Y iOS: https://t.co/hbhJiGH18j not available in South Korea ! Available for free until September 10th, 15:00 UTC. https://t.co/X"
+          "postId": "2095536612801126825",
+          "author": "trendyvest",
+          "searchJob": "texas-tech",
+          "text": "$NVDA · $AVGO · $HPE · $DELL · $MRVL · $SNOW · $PLTR https://t.co/Krz0XL5zTz"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095515398334459949",
-          "author": "investorpee195",
-          "searchJob": "duke",
-          "text": "@JoyEzenwafor And knack what else can you offer me"
+          "postId": "2095533262932468100",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "🛍️ [ Amazon US | $249.99 ] ( RZ03-05521800-R3U1 ) Razer Huntsman V3 Pro TKL 8KHz Esports Gaming Keyboard, Sentinels Edition ( 840272926048 ) [ad] https://t.co/4aZMbtHP3a Price: $249.99 ( Lowest Price on Sep 3, 2026 ) Specs and Features PRO"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095501866272489515",
+          "author": "buildcanada",
+          "searchJob": "texas-tech",
+          "text": "Read from @financeit founder and @theC100 co-chair Michael Garrity: https://t.co/y5bGsIu5r7 \"We can start to fix this with a series of focused policies that close the cash incentives gap between other nations and our own. We can also multip"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095532116255576172",
+          "author": "ronaldjmexico1",
+          "searchJob": "louisiana",
+          "text": "@250_Revolution My understanding is many are building power plants on-site. With any overage going out for commercial use. We have a lot of that with refinerys down here in Louisiana so it isnt as much of a foreign concept. The only thing I"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095512193009623551",
+          "author": "lafirstnews",
+          "searchJob": "louisiana",
+          "text": "Top doctors offer updated flu and COVID vaccine recommendations to ease confusion https://t.co/f52nXlP1wg"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095530004696412282",
+          "author": "donmiguelslc",
+          "searchJob": "utah-state",
+          "text": "ELECTION AUDIT HOAX: On this day, two years ago, Utah State Auditor John Dougall released the findings of an audit he conducted at the request of @LGHendersonUtah 🐘 Recall that gubernatorial candidates @phil_lyman & @NatalieforUtah (Lt. Go"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095516669003039130",
+          "author": "kyoshajournal",
+          "searchJob": "kentucky",
+          "text": "OSHA does not require mental health training. An ISHN opinion piece asks what would change if it did. More than 80% of workers report job stress. Most large employers offer an assistance program, but only 4 to 10% of workers use it. Full pi"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095515558867259822",
+          "author": "goknightsbsb",
+          "searchJob": "kentucky",
+          "text": "Kentucky Christian University Baseball will be hosting our annual fall prospect showcase on Saturday, September 26. Open to all 2027 and 2028 high school grads, we will also offer scholarship opportunities the day of the camp. https://t.co/"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095539881208369293",
+          "author": "brnagnews_kh",
+          "searchJob": "nebraska",
+          "text": "The @NEStateFair offers an opportunity to connect consumers with dairy products with @MidwestDairy. Read more on @brownfield: https://t.co/IALALIWwag"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095534965341503923",
+          "author": "bhoward_11",
+          "searchJob": "oklahoma",
+          "text": "2028 who currently holds offers from Oklahoma St &amp; New Mexico St"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095338539747545574",
+          "author": "jabraylenanders",
+          "searchJob": "oklahoma",
+          "text": "WEEK 1 !! Big win away @ Plano high school ! Starting the season off 1-0 195 rec yards 2 touchdowns 9 catches 1 forced fumble @Coach_Lopez12 @Hartman3Clint @BSmithUTEP @TTU_SeanK @AdenParker_ @mjgaynor https://t.co/hUuZoMptBJ"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095534786475348459",
+          "author": "passportamerica",
+          "searchJob": "oklahoma",
+          "text": "📍Ardmore, Oklahoma - Shangri-la RV Resort offers guests a quiet, country location with large RV sites, full hookups, WiFi, playground, and a location convenient to Lake Murray, Lake Texoma, Hickory Creek Wildlife, and Winstar and Choctaw C"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095532753009651952",
+          "author": "precedentdaily",
+          "searchJob": "ole-miss",
+          "text": "In 1847 America sent famine relief to Ireland on a vast private scale — but New York refused one government warship because she had been a British prize in 1812. Boston loaded her anyway. While food sailed east, the starving tens of thousan"
         }
       ]
     },
     "extraction": {
-      "accepted": 3,
-      "rejected": 33,
+      "accepted": 5,
+      "rejected": 31,
       "reasons": {
-        "school_not_resolved_confidently": 7,
-        "bare_mention_requires_llm": 22,
-        "multiple_resolved_schools": 3,
-        "reporter_missing_football_context": 1
+        "author_not_recruit:different sport": 1,
+        "bare_mention_requires_llm": 13,
+        "multiple_resolved_schools": 2,
+        "school_not_resolved_confidently": 15
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095512324480127316",
-          "author": "benenden_hosp",
-          "searchJob": "kent-state",
-          "text": "Last week, Becky Friend, Clinical Skills Facilitator at Benenden Hospital, and Cheryl Lythgoe, Nurse Consultant and Head of the Benenden Charitable Trust, delivered Be a Lifesaver (BSL) training to non-clinical hospital teams and local busi"
+          "reason": "author_not_recruit:different sport",
+          "postId": "2095540077182980435",
+          "author": "dylreed23",
+          "searchJob": "houston",
+          "text": "After a great conversation I am blessed to recieve another division 1 offer from Houston Christain university #agtg #Blessed https://t.co/YQ63nAFrwY"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095529282822951054",
-          "author": "abraxashudson",
-          "searchJob": "liberty",
-          "text": "Truth has to be spoken, no matter how uncomfortable. We must face it, accept it, and decide what to do with it. Yes, @shethinkslibrty the large swath of dead weight in the middle of society will always choose the path that requires the leas"
+          "postId": "2095534021715608037",
+          "author": "josephdubya",
+          "searchJob": "houston",
+          "text": "@esidery @espn Guys needs a real agent. Has won nothing, has a team that won’t be winning anything and still a 50M per year offer? Houston is a great place to live, what is he thinking 😂"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2095527462159438290",
-          "author": "gabbypressltv",
-          "searchJob": "liberty",
-          "text": "Why President Trump Keeps Contradicting Himself on Regulating AI, (The Atlantic, June 3, 2026). Gabby Press Responds to the Threat of National Regulatory Capture by 10 AI Corporations. The Atlantic Magazine raises the issue of Trump’s contr"
+          "postId": "2095533944003551233",
+          "author": "goatjamesinsta",
+          "searchJob": "houston",
+          "text": "You’ll see more about to come. Reaves just got close to 50 avv. Duren is stalling and currently has offers on the table worth more than both Sengun and Amen. B Mill and Charlotte are in negotiations, That should be announced around training"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095524192074559967",
-          "author": "bluecollie43",
-          "searchJob": "liberty",
-          "text": "My kid attended Liberty U. Her BS included a class on the history of American politics, constitutional gov't and free enterprise. Highly applaud for that one. Does it depend on the degree or type of history classes offered? Honestly, the ki"
+          "postId": "2095532836413444328",
+          "author": "smalblock94",
+          "searchJob": "houston",
+          "text": "@nflrums @espn Texans offer that he seeking to earn 60 and if he gets that’s a great season in Houston"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095520661922021881",
-          "author": "polispider",
-          "searchJob": "liberty",
-          "text": "You have just proved how stupid you are, Benny, not that proof was needed, you utter cretin! The rot in Britain’s housing system didn’t start yesterday — it began with Margaret Thatcher’s so-called “Right to Buy” revolution, circa 1981 / 19"
+          "postId": "2095519312165433617",
+          "author": "realryannichols",
+          "searchJob": "houston",
+          "text": "This is what I mean when I say your website should do more than sit there and look good. Look at this screenshot. These two leads came into Premier Dental Academy this morning, only 33 minutes apart. The first person was in Houston and foun"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095519747248972093",
-          "author": "rebeccagbemudia",
-          "searchJob": "liberty",
-          "text": "You’re the mad one here cause I never lived in wherever you referring to. Also note that man by nature has the liberty to migrate and emigrate. Even hatred or racism can never stop immigration. So what’s your dirty point? Your Tinubu’s wife"
+          "postId": "2095515529804960020",
+          "author": "milkhoneyranch",
+          "searchJob": "houston",
+          "text": "Send this to your mini cow cuddle partner 🐮❤️⬇️ 🥰 We offer mini cow cuddles to let your love for mini highland cows out as much as you want! 🐐 We also have baby goats, baby kangaroos, baby alpacas, and other animals for you to love at Mi"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095506510143017173",
-          "author": "rebholister",
-          "searchJob": "liberty",
-          "text": "SOCIALISM 🟦 America began b/c of religious oppression Actually Socialism was the underlying issue for mass migration Freedom, liberty, rights were worth fighting for TODAY SOCIALISM messaging is pretending to offer these rights thru you de"
+          "postId": "2095513740091220343",
+          "author": "tkell311",
+          "searchJob": "houston",
+          "text": "@State0Jefferson Wow, they tried to make a huge mistake and he let them off the hook. He will still get at least a Baker type contract, but that is what Houston should have offered at this point."
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095519035450400917",
-          "author": "matt_stepp817",
-          "searchJob": "tulsa",
-          "text": "Talented young DB from Gunter, who started Week 1 as a freshman picks up a Tulsa offer...young guy to watch #txhsfb @GPowersScout @malloryhartley"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095513595219951788",
+          "author": "enthusiast18714",
+          "searchJob": "houston",
+          "text": "Houston humidity tests cure. Expert climate control + initial no-wash window protect bond. PayPal Pay Later may offer flexible pay-over-time; PayPal determines eligibility, approval &amp; terms. https://t.co/kZeDqFtUDv https://t.co/saTVxeHS"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095518149999542280",
+          "author": "sachinrekhi",
+          "searchJob": "stanford",
+          "text": "Exciting to see @mihail_eric and @Stanford offer such an up-to-date AI engineering course"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2095536794066653309",
-          "author": "couchpsports",
-          "searchJob": "unlv",
-          "text": "TOP WR IN NM: Through 2 games, Cleveland WR Evan Nanez (@EvanNanez5245 ) has 16 catches, 360 receiving yards (445 all-purpose yards), and 4 TDs. Those two matchups came against an out-of-state team, and a top 6A team in NM. Nanez has an off"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095519722305417320",
-          "author": "bizdownload",
-          "searchJob": "iowa",
-          "text": "In the summers after seventh and eighth grades, former @iowaffa state president Chloe Zittergruen's first agriculture teacher offered her a \"floral internship.\" She spent those hot days \"planting, watering, weeding, and caring for his dahli"
+          "postId": "2095541367191834708",
+          "author": "brianphillipsa1",
+          "searchJob": "texas-tech",
+          "text": "🏈UTAH STATE FOOTBALL OFFER ALERT🏈 CLASS of 2029 Matai Poutoa-Alo 6'2\" 175 (NR) - S - Lipscomb Academy, TN Offers from: Arizona, Arizona St, byu, California, Colorado St, utah, Virginia Tech Primary recruiter: Jordan Pulou https://t.co/eZG"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095512057214861815",
-          "author": "joshwright1977",
-          "searchJob": "iowa",
-          "text": "Really? I doubt it. Neither Iowa nor Penn agreed to abide by the AALS \"Statement of Good Practices for the Recruitment of Law Professors\" which prohibited schools from \"mak[ing] an[y] offer of an indefinite appointment as a teacher during t"
+          "postId": "2095540974994718821",
+          "author": "scvts",
+          "searchJob": "texas-tech",
+          "text": "The Salem Tech Fall Spirit Wear Store is officially open! This sale includes Chargers gear and the 2026 Special Edition Homecoming Tees only offered in our fall store. The store is only open through September 16, so don't miss out! Shop Now"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095510816556478631",
-          "author": "hawkeyereport",
-          "searchJob": "iowa",
-          "text": "Week one of the Iowa football season is nearly here. Join us this year as a subscriber and take advantage of this special 75% offer! Just $2.50 a month! Time is running short on this special offer. Sign up today at the link: https://t.co/Cq"
+          "postId": "2095540321144668407",
+          "author": "tv10global",
+          "searchJob": "texas-tech",
+          "text": "Israeli cybersecurity startup Upwind has completed a massive $300 million funding round, catapulting its company valuation to $3.8 billion. The round was led by Bessemer Venture Partners, with active participation from the firm's existing s"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095535179699728434",
-          "author": "cmb_wps",
-          "searchJob": "lsu",
-          "text": "@JacksonCollier Why didn’t she hold any offers from the powerhouse programs like USC, SC, UConn, LSU…?"
+          "postId": "2095539993963897259",
+          "author": "callummelly",
+          "searchJob": "texas-tech",
+          "text": "Ahead of my 'Weekend Playbook #2 ', here are my current tech coin holdings: $BRICKS @brickswalltech Bricks is \"an agentic/algorithmic buyback and vault system\" that provides a wall of buyback protection for any token. CA: 0x7b7faa885c237fab"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095520498406895672",
-          "author": "sheadixon",
-          "searchJob": "lsu",
-          "text": "New: James Allen, the No. 1 overall prospect in the country for the 2029 class, already has 50+ offers. No surprise, LSU's Corey Raymond already has the Tigers in the mix. “(Corey Raymond's resume) speaks for itself.\" Scoop from @ChadSimmon"
+          "postId": "2095539111742345275",
+          "author": "mlysimonsen",
+          "searchJob": "texas-tech",
+          "text": "@NWidgets55215 @David_J_Bier How are they important? List a few outside tech. I will anticipatorily concede that since we give preferential treatment to immigrants in higher education, they do offer some benefit there because we discriminat"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095538994646061225",
+          "author": "bhupendrapbjp",
+          "searchJob": "texas-tech",
+          "text": "Had an engaging and vibrant interaction with dynamic young entrepreneurs in Mumbai as part of our #VGGS2027 Roadshow. ​Under the visionary leadership of Hon’ble PM Shri @narendramodi Ji, India is experiencing historic economic growth driven"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095538841415503974",
+          "author": "frito278842",
+          "searchJob": "texas-tech",
+          "text": "things you couldn’t get elsewhere. Invest in a silly dog or cat meme, etc. If you want to buy a tech company stock you just buy the stock. But this offered us all a way to have fun and have asymmetrical outcomes unavailable elsewhere. Feels"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095535348499562885",
+          "author": "moralauthoriti",
+          "searchJob": "texas-tech",
+          "text": "I have also requested:required counterparties to procure a lawyer and resolve in court after delivering proof of eminent domain after verbal communication and served liens to via email to both exlandlords and lawyer. I have subsequently rec"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095535087794483593",
+          "author": "dansickles",
+          "searchJob": "texas-tech",
+          "text": "\"marketing to potential customers, not to retail investors\". And those potential customers are identified by market research. Broadcasting to everyone is market research failure. The goal is to *know* who will pay for your offer, not becaus"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095534287613251830",
+          "author": "mraustinpredict",
+          "searchJob": "texas-tech",
+          "text": "🚨MARKET MOVER: Robinhood, a Tech-Focused Financial Services Company that offers a plethora of products ranging from stocks, banking, prediction markets, Trump Accounts, crypto, and MUCH MORE, is up +15% TODAY. I LOVE AI/TECH integration in"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095533609872441605",
+          "author": "rwa_inc_",
+          "searchJob": "texas-tech",
+          "text": "Sproutly IDO is coming on the RWA Inc. Investor Platform. @sproutlyrwa is a live Web3 climate-tech ecosystem connecting real-world environmental assets and measurable climate impact to blockchain. With 3M+ trees and plants growing across 10"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095533449155088512",
+          "author": "circlethywagons",
+          "searchJob": "texas-tech",
+          "text": "All good and well theory, but AGAIN, you and everyone else fails to address: THE INFLECTION POINT We must \"envision\" how we deal with this: AI, robotics, and humanoids will not put your business into bankruptcy directly, it will instead, in"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095531617271840925",
+          "author": "lucyhargreaves4",
+          "searchJob": "texas-tech",
+          "text": "when it comes to staying in Canada, the math doesn't math for many of our top STEM graduates cash is the single largest factor acting on individual decisions pay, and taxation on that pay, heavily influence the take-home math for a graduate"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095537493516955889",
+          "author": "utep_p3",
+          "searchJob": "utep",
+          "text": "We offer courses for all levels in English Conversation, General English, and Business English! 📷Register today! 📷 Call: 915-747-5142 📷 Email: P3LANG@UTEP.EDU 📷 Register here: [https://t.co/PVW9dLbRGZ...] #utep #English #learnenglish #e"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095527332517695759",
-          "author": "crussrealestate",
-          "searchJob": "maryland",
-          "text": "Are you planning a move to Maryland? You need the assistance of a local market expert who can tell you about area neighborhoods and all they have to offer. Call or text 410-908-7723 and I can help you find the perfect place for you and your"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095524717373637014",
-          "author": "the_unipedia",
-          "searchJob": "maryland",
-          "text": "WHAT'S ON OFFER: Amount Varies WHO'S ELIGIBLE: International undergraduates END DATE: 1 Feb, 2027 MORE DETAILS: https://t.co/2TjXDdu2KR #merit #international #scholarship #undergraduate #freshman #Maryland #dream https://t.co/Az0O6Mg6kN"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095537429700624410",
-          "author": "minewssource",
-          "searchJob": "michigan",
-          "text": "Caring for an Aging Loved One? U-M Offers Tips to Make the Job a Little Easier #caregiving #tips #michigan #aging #elderly #disabled https://t.co/SLG4cfF7dV"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095537367092244864",
-          "author": "isbelljp",
-          "searchJob": "michigan",
-          "text": "Caring for an Aging Loved One? U-M Offers Tips to Make the Job a Little Easier #caregiving #tips #michigan #aging #elderly #disabled https://t.co/Ck0I0Pk1jK"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095535318065692866",
-          "author": "underwood_szn",
-          "searchJob": "michigan",
-          "text": "@tracksidejive Michigan wasn't gonna offer him that much money with Marshall and Hiter. He could make more money somewhere else. business is business"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095533445472518355",
-          "author": "g_le_h",
-          "searchJob": "michigan",
-          "text": "@Tj_Ronin Michigan will probably be desperate for clout by that time so they will offer him the bag just like they did with Underwood 🤷‍♂️"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095532741672468630",
-          "author": "michdetpitts",
-          "searchJob": "michigan",
-          "text": "@Austin_RB2 Congrats on ur #Michigan offer"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095527040791269660",
-          "author": "esoxdn",
-          "searchJob": "michigan",
-          "text": "Michigan State University offered football and basketball tickets to more than 100 lawmakers, legislative staffers, budget analysts and key state government officials in a single one-year period, https://t.co/300zjniyMN"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095514201477292121",
-          "author": "simone34982",
-          "searchJob": "michigan",
-          "text": "@DonnieDetroit19 I wouldn't give him the time of day... El Sayed doesn't offer Michigan one good thing...not one! All he wants to do is mental gymnastics with Rogers. He won't answer any questions, he'll just attack everyone from Trump, JD "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095512186307092626",
-          "author": "thespartanswire",
-          "searchJob": "michigan",
-          "text": "Michigan State football offers highly-ranked OT prospect from Europe 📸 Mike Carter, Mike Carter-USA TODAY Sports https://t.co/cKFiQdHqAG https://t.co/sni1lT3rcM"
+          "postId": "2095534262900637944",
+          "author": "courtsidefilms",
+          "searchJob": "ole-miss",
+          "text": "6’6 freshman Tory Walker is going to be a problem! @ToryWalkerJr @NikeEYB He already holds 6 division 1 offers! Mississippi St., West Virginia, Ole Miss and more 👀 https://t.co/eJu7FJvGLD"
         }
       ]
     },
@@ -345,16 +445,16 @@
       "failed": 1,
       "requests": 31,
       "errors": [
-        "georgia-tech: rate limited"
+        "ucf: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 3,
-      "rejectedCandidates": 33,
-      "brandNewOffers": 2
+      "acceptedEvidence": 5,
+      "rejectedCandidates": 31,
+      "brandNewOffers": 4
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-03T15:43:28.148Z"
+    "status rebuilt locally from current store on 2026-09-03T15:58:13.361Z"
   ]
 }
