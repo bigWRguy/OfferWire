@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-03T12:26:13.040Z",
+  "generatedAt": "2026-09-03T12:43:38.844Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-03T12:14:28.718Z",
+    "at": "2026-09-03T12:43:38.553Z",
     "jobsTotal": 162,
-    "sweptThisRun": 36,
+    "sweptThisRun": 35,
     "requests": 36,
     "fullSweepCycles": 5
   },
@@ -27,87 +27,424 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [
-    {
-      "id": "texas-tech",
-      "hours": 6.1
-    },
-    {
-      "id": "washington",
-      "hours": 4
-    }
-  ],
+  "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0011233333333334,
-    "p95Hours": 1.7478111111111112,
-    "worstHours": 6.058596944444444
+    "medianHours": 0.9593652777777778,
+    "p95Hours": 1.7903677777777778,
+    "worstHours": 2.0383122222222223
   },
   "decisionCoverage": {
-    "total": 0,
-    "decided": 0,
+    "total": 75,
+    "decided": 75,
     "complete": true
   },
   "pending": {
     "total": 12
   },
   "profileResolution": {
-    "cached": 32
+    "cached": 33
   },
-  "paginationBacklog": 2,
+  "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 602,
+    "completeOffers": 603,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-03T12:14:28.718Z",
-      "got": 100,
-      "new": 82,
-      "lag": 0.04
+      "at": "2026-09-03T12:43:38.553Z",
+      "got": 123,
+      "new": 75,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-03T12:26:08.247Z",
+    "at": "2026-09-03T12:41:20.095Z",
     "mode": "live",
     "collection": {
-      "returned": 0,
-      "kept": 0,
-      "duplicate": 0,
+      "returned": 123,
+      "kept": 75,
+      "duplicate": 48,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 46,
+      "rejected": 29,
+      "reasons": {
+        "no_offer_term": 16,
+        "no_fbs_school": 6,
+        "hard_negative": 7
+      },
+      "samples": [
+        {
+          "reason": "no_offer_term",
+          "postId": "2095447549565866312",
+          "author": "frontierledger",
+          "searchJob": "washington",
+          "text": "https://t.co/gI95CBu4DY"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095432654258627020",
+          "author": "danielswedin",
+          "searchJob": "washington",
+          "text": "A weak yen is not just Japan’s problem. It shows how currencies, bond markets, state guarantees and cheap energy shape industrial competition, while Europe clings to the fiction of a level playing field. https://t.co/FVeMAqSIAy"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095485265221427407",
+          "author": "d_flaherty57",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @CoachAaronKeen I’m blessed to receive an offer from WashU! @BrianPAllen3 @coachfish42 @washufootball @nafootball_tfl https://t.co/cZQcdkk4O3"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095474272848208261",
+          "author": "haydenf2448",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "🏀 OFFER #2! 🏀 After a great conversation with @CoachMGabler and @coachOBatSC , I’m excited to announce that I’ve received my 2nd college basketball offer from Southwestern College! Thank you, Coach, for believing in me and giving me this "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095486193718735043",
+          "author": "letthebeavspeak",
+          "searchJob": "miami",
+          "text": "https://t.co/JaDe5ydEGI"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095264026234109974",
+          "author": "spursreporter",
+          "searchJob": "miami",
+          "text": "Watching the Clippers implode today, you have to wonder if Rui Hachimura regrets his July free agency choice. The Spurs called him with the full MLE to put him next to Wemby on a contender with plenty of draft capital and a bright future bu"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095484284987412942",
+          "author": "sirxterminator",
+          "searchJob": "arkansas-state",
+          "text": "https://t.co/E36KWsQdzj"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095433399586451820",
+          "author": "truthtrumppost",
+          "searchJob": "arkansas-state",
+          "text": "President Donald Trump has announced that Chinese President Xi Jinping will visit United States in two weeks. XI is expected to visit from September 23 to September 25. 🇺🇸🇨🇳 High level talks between Trump and Xi will primarily focus on "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095462680400461987",
+          "author": "theflowinsight",
+          "searchJob": "arkansas-state",
+          "text": "https://t.co/nfWcxtifEL"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095480638543409245",
+          "author": "nationalnews_zw",
+          "searchJob": "army",
+          "text": "Zimbabwean among foreign fighters killed while serving in Russian army in Ukraine https://t.co/GGdxep9QnV"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095477638903054798",
+          "author": "shahidaqureshi5",
+          "searchJob": "army",
+          "text": "I think the military establishment are playing yet another hideous trick on Pakistanis .. time will tell what it is!! 27 Sept was set as a date while someone is negotiating “Devious Deal not for Imran Khan’s benefit but for himself “!! I am"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095474829889847450",
+          "author": "kanhaa67",
+          "searchJob": "army",
+          "text": "https://t.co/2uybbgtZuM"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095490255998558665",
+          "author": "bullsrunners",
+          "searchJob": "buffalo",
+          "text": "You cannot pretend to offer an informed opinion when you don’t even understand how our launches work. You can absolutely have an opinion. But first, you need to actually understand what you’re talking about. How can you form an opinion on o"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095490049530015823",
+          "author": "mediamanoz",
+          "searchJob": "buffalo",
+          "text": "Bulls And Bears Under The Media Man Watercooler September 2026 Aussie PM with Gonzo Elements Fresh News From Down Under And Evergreen News Elements Google Search and A.I Search Friendly X / Grok Friendly TKO (WWE and UFC etc) Fight Week Onl"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095489902750191821",
+          "author": "neilfissler",
+          "searchJob": "buffalo",
+          "text": "An Exclusive from me. Don’t believe the story parasites from Ruck. They don’t know what day of the week it is. https://t.co/N7YOhqw15H"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095487369634013373",
+          "author": "mediamangroup",
+          "searchJob": "buffalo",
+          "text": "Bulls And Bears Under The Media Man Watercooler September 2026 Aussie PM with Gonzo Elements Fresh News From Down Under And Evergreen News Elements Google Search and A.I Search Friendly X / Grok Friendly TKO (WWE and UFC etc) Fight Week Onl"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095485501478191113",
+          "author": "mediamanint",
+          "searchJob": "buffalo",
+          "text": "Bulls And Bears Under The Media Man Watercooler September 2026 Aussie PM with Gonzo Elements Fresh News From Down Under And Evergreen News Elements Google Search and A.I Search Friendly X / Grok Friendly TKO (WWE and UFC etc) Fight Week Onl"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095489381540741545",
+          "author": "rangersfann01",
+          "searchJob": "charlotte",
+          "text": "@Chris_Jack89 Any idea on how much they offered"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095486042476281908",
+          "author": "charlotteakank1",
+          "searchJob": "charlotte",
+          "text": "@AllanSseky U are the reason women fail to give their right age. Too quick to think aging is bad yet it’s the best thing life could ever offer to man. Mbu chai mukalu.. or for u were u promised to remain young ???Mxxccchhhw Abeg"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095467102421352658",
+          "author": "houseofdouleur",
+          "searchJob": "charlotte",
+          "text": "Let’s talk about this… Class: Why would I rather pay a professional than accept this offer? Gold star for the correct answer."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095457464695075137",
+          "author": "subboy6xaz",
+          "searchJob": "charlotte",
+          "text": "@HouseOfDouleur You could also find slaves that would do this very work for free, am always available"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095480127484297218",
+          "author": "trip_sasa",
+          "searchJob": "coastal-carolina",
+          "text": "𝐃𝐈𝐀𝐌𝐎𝐍𝐃𝐒 𝐌𝐀𝐋𝐈𝐍𝐃𝐈 𝐒𝐏𝐄𝐂𝐈𝐀𝐋 𝐎𝐅𝐅𝐄𝐑~𝐒𝐓𝐀𝐘 𝟑 𝐍𝐈𝐆𝐇𝐓𝐒, 𝐏𝐀𝐘 𝐅𝐎𝐑 𝟐!!! Stay longer for less, unwind deeper, and soak in every moment of your coastal escape. 𝐒𝐞𝐥𝐟-𝐃𝐫𝐢𝐯𝐞 𝐏𝐚𝐜𝐤𝐚𝐠𝐞𝐬 KES 33,500 Pe"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095487585149952313",
+          "author": "kartikdiscovers",
+          "searchJob": "rice",
+          "text": "A quick escape from Chandigarh to Storii by ITC Hotels, The Kaba Retreat, Solan 🏔️🌧️ Forest Pod, private outdoor sit-out, mountain views, great food &amp; a peaceful staycation, perfect for a one-night getaway. https://t.co/piB8K982Ms"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095463579407507466",
+          "author": "patentlyapple",
+          "searchJob": "rice",
+          "text": "https://t.co/YZTi0YAbuq"
+        }
+      ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 1,
+      "rejected": 45,
+      "reasons": {
+        "bare_mention_requires_llm": 18,
+        "school_not_resolved_confidently": 26,
+        "multiple_resolved_schools": 1
+      },
+      "samples": [
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095445506293907931",
+          "author": "glum_gary",
+          "searchJob": "washington",
+          "text": "The United States provided extensive covert and overt assistance to the United Kingdom during the 1982 Falklands War, despite initially claiming neutrality. The U.S. redirected spy satellites operated by the National Reconnaissance Office ("
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095438334369665399",
+          "author": "shehzadyounis",
+          "searchJob": "washington",
+          "text": "How U.S. Allies Can Resist Washington’s Bullying - The attack on the ICC offers a chance for solidarity on shared values. https://t.co/5H9lQA3Wxg"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095491493070856532",
+          "author": "thiedeinvests",
+          "searchJob": "miami",
+          "text": "$SVE | $SLVRF Silver One Resources was among the biggest winners yesterday. The Canadian junior company, which focuses on silver projects in Nevada and Arizona, closed up ~10%. It is a development-stage company with approximately 353 millio"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095479516067938453",
+          "author": "concern01404572",
+          "searchJob": "miami",
+          "text": "If Miami wants to make a power move, offer the Clippers Jovic and a 1st. Reduce the cap, increase the talent."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095479405455778167",
+          "author": "truthnetwork24",
+          "searchJob": "miami",
+          "text": "Fun Fact: (Nowhere near the benefit to counteract the horrific societal and economic damage the H1B program has wrought upon America) The H-1B petitioner-fee account (created by the American Competitiveness and Workforce Improvement Act) se"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095491513987830268",
+          "author": "bluegoldnews",
+          "searchJob": "appalachian-state",
+          "text": "More items to track as we offer up our weekly compendium of pregame nuggets for #WVU - Coastal Carolina. Read them all in the link 👇 #BlueGoldNews #Mountaineers #WVNews #Big 12 #Football https://t.co/Eq1dZwJMe2"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095490091799986481",
+          "author": "crypto_anon_",
+          "searchJob": "arkansas-state",
+          "text": "@KHAL1D_UTD @AbsurdityCool @NathanJRobinson Because of endless terrorism and wars against Israel lol Convenient to leave out, not to mention Israel has given offers to leave so they can set up a state there, offers which were rejected"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095480360704287086",
+          "author": "stevehalper",
+          "searchJob": "arkansas-state",
+          "text": "@firelinepress @YosephHaddad @firelinepress - #1 - Gaza is ruled by Hamas. Is that Israel's fault. The Palestinians were given multiple opportunities to create a state and live side by side with Israel and every offer was rejected. Whose fa"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095475644050391546",
+          "author": "novasphere8866",
+          "searchJob": "arkansas-state",
+          "text": "A summit like this is a signal, not just a photo op. AI governance and trade are two sides of the same coin—whoever leads both sets the rules for the next decade. Curious if they'll announce a joint framework or keep it vague. The timing is"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095472378818007043",
+          "author": "chrmitxc",
+          "searchJob": "arkansas-state",
+          "text": "2/ A state that measures its legitimacy through religious posturing while starving Kashmiris of economic opportunity &amp; basic amenities has nothing left to offer. The social contract is completely broken. @MehlaqaCAPJ"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095490698267009063",
+          "author": "oct7neverforget",
+          "searchJob": "army",
+          "text": "When Joan Kroc died in 2003, she left behind a fortune built on billions of hamburgers. Then she gave so much of it away that the numbers still seem almost unbelievable. Joan was born on August 27, 1928. Many years later, she married Ray Kr"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095489463329653080",
+          "author": "dfbbear",
+          "searchJob": "army",
+          "text": "The US regime has always weaponized healthcare or debt as a recruiting tool. Join the army, get coverage. Stay civilian, pay thousands. That's the system: make civilian life unaffordable, then offer survival in exchange for service. It's no"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095488275444039938",
+          "author": "tomdanscfa",
+          "searchJob": "army",
+          "text": "Arctic Microbes Arctic Research provides an extraordinary wealth of newly-discovered microbes that can be millions of years old. These can be sourced both on land at sea, wherever access can be had to these ancient frozen life forms. These "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095485187631047022",
+          "author": "andreibtvt",
+          "searchJob": "army",
+          "text": "#OTD 50 Years of the T-64B! By Resolution No. 733-244 of the CPSU Central Committee and the USSR Council of Ministers of September 3, 1976, the \"447\" and \"437\" tanks were adopted into service with the Soviet Army and designated the T-64B an"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095482367179989127",
+          "author": "purpleafterglo",
+          "searchJob": "army",
+          "text": "wts bts 2 vip soundcheck tickets 09/05 saturday in LA at sofi stadium section A1 row 3 seats 7 and 8 want face value for both or best offer!! arirang world tour army wts wtt wtb los angeles vip soundcheck"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095480957092450622",
+          "author": "captain1ma",
+          "searchJob": "army",
+          "text": "@PeteHegseth when my niece graduated from boot camp, she looking nothing like that. if thats the best canada has to offer, making them a 51st state should only take a couple of days. if thats army fighting form, canada is doomed!"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095477462453158155",
+          "author": "lobstaface",
+          "searchJob": "army",
+          "text": "@ThePuckLibrary @Mpj613 @NHL @StLouisBlues It was all speculation, even from reputable sources. You also said \"trying to trade him\" and \"shopping him around\" whereas Armstrong was looking to make trades but not for Thomas. Some teams probab"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095475981100196274",
+          "author": "stillintooongi",
+          "searchJob": "army",
+          "text": "WTS X2 (two) bts los angeles arirang tickets! sunday 9/6 day 4 - floor C5, row 1 - ticket includes: vip soundcheck - would like to make back what I paid for but open to reasonable offers - can send any proof ! please dm if interested for mo"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095474091406815348",
+          "author": "nanuq072",
+          "searchJob": "army",
+          "text": "BTW, your time in the military playing army gives you absolutely no authority on geopolitics or war. You Swedes think you’re so enabled since joining NATO and you’ve nothing to offer and you sure as fuck haven’t invested much. You should si"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095472222714400808",
+          "author": "ahamadnooh",
+          "searchJob": "army",
+          "text": "When Britain declared war on Nazi Germany #OTD in 1939, #Bahrain’s ruler wrote to King George VI “Our sympathies in this war which is now being waged against the evil forces of Nazism are with Great Britain. If we possessed an army, we woul"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095468150825316594",
+          "author": "jcpinnwwales",
+          "searchJob": "army",
+          "text": "Want a job that builds your future? The British Army offers careers with training, skills, and development across a wide range of roles Start your journey: https://t.co/ImGgzUFf5D #ArmedForcesSupport #ArmyJobs https://t.co/NMHFaYYmeD"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095484853542330660",
+          "author": "toplinesec",
+          "searchJob": "buffalo",
+          "text": "Topline Market Review (Sep 03, 2026): Volatility Prevails as Rising Oil Prices Keep Bulls in Check The local bourse witnessed a volatile trading session today, with the KSE-100 Index opening on a positive note and climbing to an intraday hi"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095475571429974518",
+          "author": "goodbadrugby",
+          "searchJob": "buffalo",
+          "text": "Trouble for Northampton Saints? 😳 Acording to RugbyPass, Newcastle Red Bulls are understood to have made a seven-figure, three-year deal for Henry Pollock. The massive offer would meet Eddie Hearn’s own valuation of the 21-year-old England"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095471652817571967",
+          "author": "barbedquill",
+          "searchJob": "buffalo",
+          "text": "Not suggesting the offer isn't there, but there's not a chance Pollock ends up at the Red Bulls At all levels, playing good rugby with your mates trumps everything else, and he's got lots of them at FG Sounds like a Hearn tactic to spook Do"
+        }
+      ]
     },
     "search": {
-      "ok": false,
-      "reason": "texas-tech: rate limited",
+      "ok": true,
+      "reason": null,
       "jobs": 162,
-      "swept": 0,
+      "swept": 35,
       "failed": 1,
-      "requests": 1,
+      "requests": 36,
       "errors": [
-        "texas-tech: rate limited"
+        "phrase:\"all glory to god\" offer: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 45,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-03T12:26:13.041Z"
+    "status rebuilt locally from current store on 2026-09-03T12:43:38.845Z"
   ]
 }
