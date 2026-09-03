@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T17:58:47.839Z",
+  "generatedAt": "2026-09-03T18:11:30.946Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
@@ -27,15 +27,20 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "texas-tech",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 0.7899002777777778,
-    "p95Hours": 1.7937041666666667,
-    "worstHours": 2.039213611111111
+    "medianHours": 1.0018744444444445,
+    "p95Hours": 2.0056783333333335,
+    "worstHours": 2.2511877777777776
   },
   "decisionCoverage": {
-    "total": 63,
-    "decided": 63,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "pending": {
@@ -59,395 +64,46 @@
     }
   },
   "audit": {
-    "at": "2026-09-03T17:56:59.636Z",
+    "at": "2026-09-03T18:11:27.274Z",
     "mode": "live",
     "collection": {
-      "returned": 103,
-      "kept": 63,
-      "duplicate": 40,
+      "returned": 0,
+      "kept": 0,
+      "duplicate": 0,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 36,
-      "rejected": 27,
-      "reasons": {
-        "no_fbs_school": 17,
-        "no_offer_term": 6,
-        "hard_negative": 3,
-        "non_fbs_offer_target": 1
-      },
-      "samples": [
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095547540787617932",
-          "author": "richard13844184",
-          "searchJob": "liberty",
-          "text": "Gauntlet Thrown: Fetterman Offers $50K, Dares El-Sayed to Appear With His Buddy Hasan Piker on 9/11. https://t.co/rdmIX7vI9u"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095542218983698631",
-          "author": "turbs888",
-          "searchJob": "liberty",
-          "text": "@Chris_Smth I stopped this behavior after a client was texting me at Midnight and then 4 am, ticked I didn’t respond. Along with a Realtors who call at 10pm. “writing up an offer, just want to chat\""
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095538820993188035",
-          "author": "almgranby",
-          "searchJob": "liberty",
-          "text": "Thinking about buying a home? Getting pre-approved can help you understand your potential budget before you start house hunting. It can also help you feel more prepared when you're ready to make an offer. 📞 303-416-7000 🌐 https://t.co/Bt5"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095566406930588107",
-          "author": "kansasoec",
-          "searchJob": "kansas",
-          "text": "As we continue transitioning existing programs to the Office of Early Childhood, we want to ensure you still have access to the resources you rely on. The KOEC website offers a wide range of resources for providers and families. Learn more "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095565695031398466",
-          "author": "airencoombs",
-          "searchJob": "kansas",
-          "text": "Blessed to receive my 3rd offer from Kansas Christian College Thank you @Coachsteph_j @KansasCC_MBB @la_vegaBball @Coach_WAC_IV @coachbrownLVHS @MattChampionATX https://t.co/FhbnCsGZ9q"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095543669491126550",
-          "author": "dimentbarb",
-          "searchJob": "kansas",
-          "text": "@LahnHQ @ZachLahn It’s like you went to sleep in Kansas for a decade and never read a Farm Bill or current USDA programs! Thx Sec Vilsack! Zach has offered NOTHING NEW!! https://t.co/e3NcpBp6qZ"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095542488752627889",
-          "author": "kcstar",
-          "searchJob": "kansas",
-          "text": "Lee’s Summit must offer cheaper, smaller and more housing options, report says https://t.co/FxBGxyBLNy"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095543043315159430",
-          "author": "tip8915",
-          "searchJob": "pittsburgh",
-          "text": "@RocJingle623 @Allarbeliever If you could tell me where to put one then do tell. If people are not going to offer at least somewhere to put it by even say anything. This conversation is getting old"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094973585743925711",
-          "author": "jomboymedia",
-          "searchJob": "stanford",
-          "text": "Making a young fan’s day is the highlight of the night https://t.co/U5yjlWnDA0"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095567499068850445",
-          "author": "profilefblive",
-          "searchJob": "phrase:\"has offered\" recruit",
-          "text": "Dartmouth has offered 2028 DT Anthony Nelson from Camden HS, NJ. @AntNels0n Rated 2.8⭐ (#1806 NATL, #98 DT, #54 NJ). https://t.co/S9IJbQnNkE"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095546108651184292",
-          "author": "profilefblive",
-          "searchJob": "phrase:\"has offered\" recruit",
-          "text": "North Dakota State has offered 2028 WR Jaxon Virgel from Sulphur Springs HS, TX. @JaxonVirgel Rated 3.0⭐ (#1480 NATL, #281 WR, #210 TX). https://t.co/1S3Pi9TLzW"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095558732277018672",
-          "author": "chadsimmons_",
-          "searchJob": "alabama",
-          "text": "2028 EDGE @Mikel__Morgan12 of Columbia in Lake City, Fla is quickly ascending up recruiting boards. Bama offered this week. FSU and Miami have already offered. https://t.co/muebHisZ4b https://t.co/pBbJFFPZBt"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095566964752339033",
-          "author": "nobleone",
-          "searchJob": "texas",
-          "text": "Did i get bought off? My latest article on my trip to Poland. https://t.co/Donj8QWyxW"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095512138873708871",
-          "author": "blakekresses",
-          "searchJob": "texas",
-          "text": "John Doyle explains how Flock cameras only became an issue because the Left is upset that they're being used to go after criminals and illegal aliens. \"The Left has no problem with Big Tech. They used it to censor every person in this room!"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095559050192707809",
-          "author": "badplastic20",
-          "searchJob": "texas",
-          "text": "@wcdispatch After over 18 months of knowing this, being offered free tickets home and payment to leave does the status change to foreign national vs. immigrant. This is not an immigrant issue. It’s foreign nationals asked to leave. They are"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095557664113578049",
-          "author": "txhoopscene",
-          "searchJob": "texas",
-          "text": ". @CadarianUrune_ has committed to @LamarMBB The @AllenEagleBball guard announced August 25. Class of 2027, listed at 6-3. ⭐⭐⭐ three-star, No. 14 in Texas per the 247Sports Composite. Lamar was one of six reported offers. #TXHoopScene https"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095557437176914223",
-          "author": "_elysium_spa",
-          "searchJob": "texas",
-          "text": "Most people try to fix chronic fatigue with extra caffeine or rigid sleep schedules. However, if your nervous system remains in fight-or-flight, true rest stays out of reach. Distance reiki offers gentle energy balancing to quiet a hyperact"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095552315281277173",
-          "author": "cartistny",
-          "searchJob": "texas",
-          "text": "This is pedo trump's pedo friend: Some of Ken Paxton's scandals so far: —Offered an admitted child molester one day in jail after he repeatedly raped a young boy —Impeached by his own party on 20 counts of corruption, bribery, abuse of publ"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095550374828511241",
-          "author": "txtcutheatre",
-          "searchJob": "texas",
-          "text": "⭐SPECIAL OFFER⭐ Anne Wilson is coming to @txtcutheatre October 1 and tickets are 25% off at https://t.co/htcz7WEU5I! Don't miss out on this limited time deal! Ends 11:59PM 9/7. https://t.co/raBVl94Qe4"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095569928317456787",
-          "author": "cfbnobodies",
-          "searchJob": "ucla",
-          "text": "https://t.co/aXWxmbj2lu"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095566166034936100",
-          "author": "w89690_wayne",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "@wicknellchivayo You have to be truly blessed to receive a blessing like this. People like us, we don’t even dream about things like this. Sometimes life gives you something you never imagined, and that’s when you realise just how powerful "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095564525630116293",
-          "author": "tariqbell_",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "God is great! After a great conversation with @CoachBlome I’m blessed to receive an offer to play at the next level! https://t.co/ZtYp3VlUlL"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095563904147481018",
-          "author": "huddy9621",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an official offer from @nwc_fb @grhegstad @coachmmmcc @Coach_Fryar @MitchAalbers @mocfvFootball https://t.co/C3GwmawYLv"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095558579574939676",
-          "author": "mattmatwiejczyk",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I’m very blessed to receive my 2nd official offer from Earlham College! @EarlhamBaseball https://t.co/kkDRmCHQVu"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
-      "accepted": 5,
-      "rejected": 31,
-      "reasons": {
-        "bare_mention_requires_llm": 10,
-        "school_not_resolved_confidently": 18,
-        "reporter_missing_player_name": 1,
-        "multiple_resolved_schools": 2
-      },
-      "samples": [
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095543435516375406",
-          "author": "pointer_chaser",
-          "searchJob": "liberty",
-          "text": "@LPNH The idea that liberty can only be offered in a confined area, and that it must be protected to exist, is hardly a new one. It's just one that Libertarians have somehow forgotten over the past 20 years."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095542333404241931",
-          "author": "coachzackgoodfb",
-          "searchJob": "liberty",
-          "text": "🚨 New '28 Head Hunter Alert: @NigelLightner Pos: DB HT: 6'0 WT: 200 HS: Rock Hill, SC GPA: 3.7 Offers: Liberty, Gardner Webb, Wofford Hudl:https://t.co/PICl8AEtxi Rank: #6 '28 Head Hunter DB https://t.co/0rgVzbB0gl"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095560211851313225",
-          "author": "newmansdog",
-          "searchJob": "kansas",
-          "text": "New puppy? 🐶 Start building good habits early! Newman’s Dog Training offers positive, reward-based puppy training for potty training, biting, jumping, leash skills, manners &amp; more. 📍 Kansas City 📍 Northwest Arkansas 🐾 https://t.co/5"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095562281681658023",
-          "author": "pittsburgh_pain",
-          "searchJob": "pittsburgh",
-          "text": "@tm1515152005 That I have to over price my cards on eBay cuz every offer I get is an extreme lowball. Also, just eBay in general."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095543990602891754",
-          "author": "412groyper",
-          "searchJob": "pittsburgh",
-          "text": "SHEETZ IS OFFERING FREE GAS UNTIL SEPTEMBER 8TH! JUST ACTIVATE THE OFFER ON YOUR APP! https://t.co/s1Vbmf30pk"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095565914334695894",
-          "author": "0x_leonn",
-          "searchJob": "stanford",
-          "text": "A candidate with no MIT, no Stanford, applied to 150 tech jobs over two years. Last month SpaceXAI offered him $850,000. He credits one 1-hour video for the shift. The video is Lauren Tan, ex-Cursor, now at SpaceXAI, walking through \"Coding"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095556638056796369",
-          "author": "larrychiang",
-          "searchJob": "stanford",
-          "text": "In LA, at UCLA A little kid came and offered me Carter Grahams home run ball Imma get that kid a 4-year D1 deal using #ch8 Probably to Dartmouth WeatPoint or my safety safety school Harvard Stanford Karma Gimme a baseball #cs183Karmageddon "
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2095568239052849352",
-          "author": "fourthgensu",
-          "searchJob": "syracuse",
-          "text": "@Cookinwithcinco @Trenton928 @AMannicciCuse @CuseFootball @FranBrownCuse @CoachNixon_Cuse @Coach_Gattis @CT_DUB Congratulations on your offer from Syracuse. Great School. Great Coaches. Great Tradition. #Cuse28"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095562465891287340",
-          "author": "profilefblive",
-          "searchJob": "phrase:\"has offered\" recruit",
-          "text": "Texas A&amp;M has offered 2028 DE Daylan Richardson from Simmons HS, MS. @daylanrichards5 Rated 2.9⭐ (#1731 NATL, #92 DE, #35 MS). https://t.co/9PmfjrLysV"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095553657949549019",
-          "author": "profilefblive",
-          "searchJob": "phrase:\"has offered\" recruit",
-          "text": "Utah has offered 2028 SAF Drake Coellner from Carmel HS, IN. @DrakeCoellner Rated 4.2⭐ (#237 NATL, #15 SAF, #3 IN). https://t.co/NhXU07wjRn"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095551549011333180",
-          "author": "jweswalk",
-          "searchJob": "louisiana",
-          "text": "If you’re trying to sell your home, don’t let these three things turn off ❌❌ buyers when they go look at it! If any of these three are true, there’s a high chance that you’re not getting an offer. #realestate #louisiana #home #thewalkergrou"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095562494777626680",
-          "author": "cocollective303",
-          "searchJob": "utep",
-          "text": "Christian Cobb earns an offer from UTEP. Congrats young man!! 📈📈 @PRO16League"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095553695047979361",
-          "author": "aldailynews",
-          "searchJob": "alabama",
-          "text": "Walter will offer her analysis of what the post-midterm political landscape might hold for the country during the event. #Alabama #ALPolitics https://t.co/YwlWHfrWlN"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095570761196941663",
-          "author": "jbecoolpeace",
-          "searchJob": "texas",
-          "text": "@RJRGhost @SecMullinDHS @DHSgov @POTUS @SusieWiles47 @StephenM @ICEgov Ask your state Governor to change laws like TEXAS to aid federal agents with deportation! Empower law enforcement to assist federal agents with deportations! Not sure ho"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095566687089381605",
-          "author": "thevisasnatcher",
-          "searchJob": "texas",
-          "text": "@MikeCrispi New Jersey has an expensive business environment, and business groups have repeatedly complained about corporate taxes, regulation, permitting and operating costs. Texas offers no state corporate income tax in the conventional s"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095563559610544312",
-          "author": "dunsnortin",
-          "searchJob": "texas",
-          "text": "@JosephGelman Why not offer Argentina Texas?"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095562410753241377",
-          "author": "hiteshprajapt7",
-          "searchJob": "texas",
-          "text": "🔹He is Rajat Gupta, an #NRI Indian-American Cyber Security by profession moved to USA from India, settled in Texas. The YouTube and Instagram vlogging channel \"Our American Dream\" Our American Dream (handle @ouramericandream.vlogs) 🔹On hi"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095561175941390383",
-          "author": "opaladins2",
-          "searchJob": "texas",
-          "text": "I entirely disagree. I do not see what greater aid they can offer us. Maybe they can help us round up illegals, sure, but is their continued use worth their introduction as a tool that can be used both ways? For instance the state with the "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095559971442512191",
-          "author": "flap_dzack",
-          "searchJob": "texas",
-          "text": "Mc D's has the new TEXAS meal, This is 'suggestive false claims'. TEXAS has the best beef, meats. But mc'ds Texas Meal is a regular meal with a cup for a town. NOWHERE does it claim the meat,potatoes are sourced from TEXAS. Because the ARGE"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095555311579079104",
-          "author": "srsanders2",
-          "searchJob": "texas",
-          "text": "shares a September 1, 2026 news headline screenshot detailing a $1M+ lawsuit against the Islamic School of Irving, alleging staff failed to call police after a 22-year-old cleaner reported being raped by a 14-year-old former student known f"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095568704679391593",
-          "author": "canadave21",
-          "searchJob": "ucla",
-          "text": "@newenglandedt And.. his prick agent, convict, A. Eagleson screwed #4 by not disclosing the Bruins offer to ensure he would remain a lifetime Bruins including an 18% share in ownership- when he was a free agent, so he ended up in Chicago 😡"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095560613598756914",
-          "author": "uscdornsife",
-          "searchJob": "usc",
-          "text": "In 1862, flooding turned California’s Sacramento Valley into a 300-mile inland sea. Natural evidence of that disaster may offer clues about the climate risks ahead. From Alaska to Florida, USC Dornsife researchers are studying how a changin"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095561364563517719",
-          "author": "girlmoneyguide",
-          "searchJob": "vanderbilt",
-          "text": "@Augustine5899 @CoachPayneVandy @VandyFootball @KrisDurham16 @OsiUmenyiora @chasebaker91 @NFLAcademy @coachstevehagen When blessings show up as offers, you know the universe is taking notes."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095569024385941778",
-          "author": "aubrey_h22",
-          "searchJob": "phrase:\"grateful to receive an offer\"",
-          "text": "After an amazing visit with Coach Noles, i’m very grateful to receive an offer to continue my academic and athletic career at Otterbein!! @Ott_Wbasketball @bwickgbb @MacBasketballUA @metch33 https://t.co/MGePoM4CBq"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
-      "ok": true,
-      "reason": null,
+      "ok": false,
+      "reason": "texas-tech: rate limited",
       "jobs": 162,
-      "swept": 30,
-      "failed": 2,
-      "requests": 32,
+      "swept": 0,
+      "failed": 1,
+      "requests": 1,
       "errors": [
-        "texas-tech: SearchTimeline HTTP 404,404 (slice left pending)",
-        "virginia: rate limited"
+        "texas-tech: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 5,
-      "rejectedCandidates": 31,
-      "brandNewOffers": 4
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 0,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-03T17:58:47.840Z"
+    "status rebuilt locally from current store on 2026-09-03T18:11:30.947Z"
   ]
 }
