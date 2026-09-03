@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T20:43:35.059Z",
+  "generatedAt": "2026-09-03T20:56:11.616Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
@@ -27,15 +27,24 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "coastal-carolina",
+      "hours": 2.2
+    },
+    {
+      "id": "navy",
+      "hours": 2.2
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 0.5327522222222222,
-    "p95Hours": 1.537158611111111,
-    "worstHours": 2.039561388888889
+    "medianHours": 0.7429072222222223,
+    "p95Hours": 1.7473136111111112,
+    "worstHours": 2.249716388888889
   },
   "decisionCoverage": {
-    "total": 59,
-    "decided": 59,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "pending": {
@@ -59,393 +68,46 @@
     }
   },
   "audit": {
-    "at": "2026-09-03T20:41:18.404Z",
+    "at": "2026-09-03T20:56:07.764Z",
     "mode": "live",
     "collection": {
-      "returned": 121,
-      "kept": 59,
-      "duplicate": 62,
+      "returned": 0,
+      "kept": 0,
+      "duplicate": 0,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 33,
-      "rejected": 26,
-      "reasons": {
-        "hard_negative": 1,
-        "no_offer_term": 13,
-        "no_fbs_school": 12
-      },
-      "samples": [
-        {
-          "reason": "hard_negative",
-          "postId": "2095606663839453643",
-          "author": "charlottenevis3",
-          "searchJob": "charlotte",
-          "text": "@VladVexler Not an immediate solution, but an idea for the long term. I had 8 years of digestive problems, and all the tests on offer. Was finally referred to a dietitian who I see online, who recommended the FODMAP diet. It takes commitmen"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095575980928635208",
-          "author": "wrestlefeatures",
-          "searchJob": "charlotte",
-          "text": "Bayley is expected to remain with WWE. (PWInsider Elite) https://t.co/YT4q3kXk0Y"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095610307377000840",
-          "author": "loopingcloud",
-          "searchJob": "coastal-carolina",
-          "text": "https://t.co/N608qymGSc"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095600368109638045",
-          "author": "loopingcloud",
-          "searchJob": "coastal-carolina",
-          "text": "https://t.co/f9hvOfezqi"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095598547907514603",
-          "author": "loopingcloud",
-          "searchJob": "coastal-carolina",
-          "text": "https://t.co/wG7hRsGGKC"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095595778295382477",
-          "author": "loopingcloud",
-          "searchJob": "coastal-carolina",
-          "text": "https://t.co/U8yyB5P2X7"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095576346072371655",
-          "author": "karilake",
-          "searchJob": "coastal-carolina",
-          "text": "Maria Bartiromo has always been courageous enough to cover stories others in the MSM wouldn’t touch—including stories involving media management & election fraud. She’s one of the few good journalists out there. It’s a shame FOX is letting "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095583743041794413",
-          "author": "thepm_001",
-          "searchJob": "coastal-carolina",
-          "text": "https://t.co/bJHpQPskEw"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095335075282137436",
-          "author": "acyn",
-          "searchJob": "navy",
-          "text": "MSnow: Now, I also got a chance to speak to some of the crew, the regular rank and file sailors who are part of this 5000 member crew that have been on this record setting deployment. And many of them told me that this was, in fact, the wor"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095595700717256803",
-          "author": "ktvn",
-          "searchJob": "nevada",
-          "text": "A free Carson City star party on Saturday will give visitors a chance to see planets, star clusters, and galaxies. https://t.co/updjlMPdPw"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095592193503252973",
-          "author": "jdgoldboys",
-          "searchJob": "nevada",
-          "text": "New Polymarket US offer 👀 Deposit $10+ and get a $50 bonus with code JD50. Link: https://t.co/VsDzuaw1Kc Available in 49 states + D.C. Not available in Nevada. I shared a trade I’m taking on PolyMarket US below ⬇️ PolymarketPartner https:/"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095593587291586676",
-          "author": "chitxfan",
-          "searchJob": "lsu",
-          "text": "No one would have believed ANY attorney, much less a multibillion institution, would offer a blatantly absurd defense even a week ago."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095564153112912159",
-          "author": "heitner",
-          "searchJob": "lsu",
-          "text": "The SEC is suing LSU (weird to type that), not for breaking a contract, but under the First Amendment, arguing LSU forcing ex-NFL players onto its roster infringes the Conference's constitutional right not to associate with that conduct. It"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095604241012322646",
-          "author": "glampingcabin",
-          "searchJob": "maryland",
-          "text": "A destination wedding doesn’t have to mean traveling far. ❤️ For couples from PA, WV, VA &amp; DC, Western Maryland offers a beautiful place to gather and celebrate. Explore Timber Valley: https://t.co/JLWbQM4nBr © Timber Valley Farm Barn R"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095592577034797201",
-          "author": "yannitesh22",
-          "searchJob": "michigan",
-          "text": "DraftKings offers free gas in Detroit Wednesday. Where to get it https://t.co/KVuFQtxgGF"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095595153540956199",
-          "author": "teeohenwy",
-          "searchJob": "minnesota",
-          "text": "I just got offered to run a political field office office in Minnesota. I wonder if I can take a leave of absence at the school for a month and a half to go work till the midterms ….🌚"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095606944123982023",
-          "author": "loopingcloud",
-          "searchJob": "missouri",
-          "text": "https://t.co/e1a801lVKE"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095581362422231099",
-          "author": "kaischwemmer",
-          "searchJob": "byu",
-          "text": "Interviewing students at BYU to ask what they would say to Donald Trump! Are there any campuses like this left? 🤔 Follow: @UtahCollegeReps https://t.co/aoXeOAuo2k"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095611709822222521",
-          "author": "cjthelender",
-          "searchJob": "california",
-          "text": "Big news — I've joined CIVIC Financial. Now able to offer fix &amp; flip investors even stronger loan products, and we're launching with promo rates as low as 7.99% in California this month. DM me or call (818) 458-7446 to lock in your next"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095604249430241757",
-          "author": "pomonacollege",
-          "searchJob": "california",
-          "text": "For more than 400 new students, Orientation Adventure offered three days to experience Southern California and bond with new classmates. They could \"choose their own adventure.\" https://t.co/cJ8WujlSsn"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095603007610146990",
-          "author": "visitgocal",
-          "searchJob": "california",
-          "text": "Labor Day weekend just got better. ☀️🎟️ Grab a Labor Day 4-Pack for Faultline Fest for just $150! ⚡️ Use code: LABOR ⏰ Offer valid: Thursday, 9/3 at 10 AM – Monday, 9/7 at 10 PM 🎫 https://t.co/wD8KCegRxH (Note: Offer applies per single-ni"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095602953310683516",
-          "author": "fbimostwanted",
-          "searchJob": "california",
-          "text": "The #FBI has added Bernhard Eugen Fritsch to its Most Wanted Fraudsters List. He is #wanted for his alleged involvement in a scheme to defraud investors after raising approximately $35 million for his technology company, Starclub Inc. betwe"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095602766869594548",
-          "author": "dayton247now",
-          "searchJob": "cincinnati",
-          "text": "Concerns grow after report of smelling salts offered to local 5th grade football players https://t.co/D4g1aXi2AP"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095572533542277592",
-          "author": "madehoops",
-          "searchJob": "duke",
-          "text": "Just months ago, Yann Kamagate was UNRANKED. 🤯Now? He’s the #1 player in the Class of 2028. 🔥 @yann_kamag46946 All it takes is one summer💯 https://t.co/cUGKprlPrM"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 33,
-      "reasons": {
-        "school_not_resolved_confidently": 12,
-        "bare_mention_requires_llm": 17,
-        "multiple_resolved_schools": 3,
-        "reporter_missing_player_name": 1
-      },
-      "samples": [
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095601976499191931",
-          "author": "phantastik6",
-          "searchJob": "charlotte",
-          "text": "@JoshSimmons33 There was some beef after he left bc they wouldn’t offer him more and then a fight broke out between him and a falcons player or something like that. Him and the 49ers wipe the floor with the Falcons in that game 42-3"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095593453891592626",
-          "author": "inklingmario",
-          "searchJob": "charlotte",
-          "text": "Definitely was a possibility of her leaving but with Lyra mentioning her name since SNME her re signing became much more of a reality I genuinely hope that after this program with Lyra is done she not treated as a gatekeeper I feel like at "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095589048391729517",
-          "author": "theboplex",
-          "searchJob": "charlotte",
-          "text": "SPECIAL OFFER: Now until October 11th, get $30 tickets to see MercyMe, Jeremy Camp, Tim Timmons, Sam Wesley in Charlotte at Bojangles Coliseum on Sunday, October 11th! No code needed! Get tickets: https://t.co/QhSokR66Vr #theboplex #cltente"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095586431230222527",
-          "author": "darkhalo2x",
-          "searchJob": "charlotte",
-          "text": "@grantcohn 1. Given the recent events with Jed York and the departure of Paarag Marathe, do you see the 49ers being flexible before the free agent deadline in 2026 / FA 2027? 2. In the same vein, do you expect the the Yorks / Al Guido to of"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095611062682886580",
-          "author": "llubder67",
-          "searchJob": "coastal-carolina",
-          "text": "The coastal path offers an expansive display of the ocean's magnificence, with its boundless horizon leaving visitors feeling uplifted and awestruck by the sea's vastness. 😳 Additionally, the lamp perched atop the dresser is adorned with o"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095600131748118711",
-          "author": "politicsveteran",
-          "searchJob": "coastal-carolina",
-          "text": "Get to know some of these ‘shitty’ people and you’ll find 99.99% of them some of the nicest and most humble people especially Muslims. I treat people as I want to be treated and 99% of the time it comes back. Every knew face in my community"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095598950279790649",
-          "author": "loveavabel",
-          "searchJob": "coastal-carolina",
-          "text": "During the sweltering summer months, the refreshing shade of leafy trees offers a welcome escape from the scorching sun. Under the thick canopy, the breeze feels crisp and soothing, providing much-needed relief in the heat of the season. Th"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095598852808356221",
-          "author": "milky6101",
-          "searchJob": "coastal-carolina",
-          "text": "The sandy path offers a distinctive coastal feel, with its gentle, shifting surface creating a one-of-a-kind walking sensation beside the sea. As for the frozen treat — ice cream — it's been freshly made and chilled. https://t.co/uTZWOEpM3T"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095596442685497822",
-          "author": "sellnrealestate",
-          "searchJob": "coastal-carolina",
-          "text": "The 30-year fixed hit 6.89% on Monday, the highest it has been since June 2025 (Mortgage News Daily, 09/01/2026). Here is what that is in actual money on a coastal condo. $450,000. 20% down. $360,000 financed at 6.89%. Principal and interes"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095593449747796061",
-          "author": "sintwo",
-          "searchJob": "coastal-carolina",
-          "text": "Beach vacations offer a chance to unwind along the shore, taking in unhurried coastal moments. Stretch out on the gentle sand, soak up the warm rays, and let the rhythm of the waves melt away every bit of tension for a truly restful escape."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095592796149170497",
-          "author": "mrsscotty_m",
-          "searchJob": "coastal-carolina",
-          "text": "PhD Grants 2027 | Onni Talas Foundation 🇫🇮 The Onni Talas Foundation offers PhD grants for marine research at the Tvärminne Zoological Station, University of Helsinki, particularly focusing on coastal environments. 💰 Funding: €2,300/mont"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095591280474775780",
-          "author": "mvs2709",
-          "searchJob": "coastal-carolina",
-          "text": "Driving along the coastal highway offers the most stunning ocean vistas by the roadside. The azure waters and clear skies are constant companions throughout the journey, infusing every mile with a sense of romance and liberation.😇A sweeten"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095590574094942587",
-          "author": "itsallrighty",
-          "searchJob": "coastal-carolina",
-          "text": "Maria Bartiromo’s Departure Is a Loss for Viewers Who Care About Markets, America, and Straight Talk Fox News Media announced Thursday that it has parted ways with Maria Bartiromo after 12 and a half years. The network offered the usual cor"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095587637885091945",
-          "author": "theddfiles",
-          "searchJob": "coastal-carolina",
-          "text": "While the Roman Empire, Napoleon, and the Third Reich crumbled to dust, a tiny mountain commune outlived them all. Founded by a fleeing stonecutter on Mount Titano, San Marino remains the world's oldest republic. When Napoleon swept Italy, "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095584997608661366",
-          "author": "sarahivasquez",
-          "searchJob": "coastal-carolina",
-          "text": "Exploring coastal wetlands offers a glimpse into the seamless interplay between the ocean and its ecosystem. The diverse wildlife and tranquil waterscapes highlight the splendor of nature's equilibrium. 😼 Room Cleaning Housekeeping has bee"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095589372984725756",
-          "author": "topsiswear",
-          "searchJob": "delaware",
-          "text": "@Jubrady_goat @UDBlueHens @Delaware_FB @JuJuSports1 @Coach___Wilson @PrepRedzoneTX @Sagt_CoachWade Congratulations on the Fightin’ Blue Hens offer Germann 🔵⚪️🏈🔥🔥!!!! More blessings on the way 🌟‼️"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095610560540823758",
-          "author": "smart_dow",
-          "searchJob": "navy",
-          "text": "At Naval Air Warfare Center Weapons Division, SMART scholars are making an impact both in the lab and in the community. SMART scholars Madison Long and Kayla Tran recently led activities at the Society of American Military Engineers Navy ST"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095610384661266528",
-          "author": "karlcontrarian",
-          "searchJob": "navy",
-          "text": "We are doomed if this is the best that the Navy has to offer. My Uncles served during WWII and I doubt they raised even an eyebrow."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095609637735452795",
-          "author": "clickdopamine",
-          "searchJob": "navy",
-          "text": "Another ten accounts worth adding to the input stream. The algorithm will survive the extra signal, probably. @JoeDarth1 — Brings firsthand 1969 Woodstock history and keeps the feed firmly against spam, hate, sales, and assorted internet de"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095602236105638209",
-          "author": "grainger10588",
-          "searchJob": "navy",
-          "text": "@EricLDaugh Argentina can’t get a frigate or sub out to sea. Even our smaller navy and military would crush what they offer"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095597211556208847",
-          "author": "_lolocamargo",
-          "searchJob": "navy",
-          "text": "Taking time for steady, deliberate self-reflection keeps you connected to your own development. If you never stop to evaluate how far you've come, you fail to notice the changes you've made and can quickly become discouraged. 🎈White sneake"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095599425536090322",
-          "author": "thepauly85",
-          "searchJob": "iowa",
-          "text": "Well Iowa friends (the state, not the college), I've got a job offer in NE Central Iowa!"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095603916440256525",
-          "author": "bamba2smooth",
-          "searchJob": "lsu",
-          "text": "Blessed to receive an offer from lsu https://t.co/oUUxatK2Oz"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095601924833943826",
-          "author": "sixstreetpie",
-          "searchJob": "lsu",
-          "text": "FUCK THE SEC Time for LSU to explore a move to the Big 12 or ACC Sankey wants to sue LSU , but hasn't said shit against Mizzou, Kentucky, Texas. Hasn't acknowledged that LSU's new BACKUP TE was also offered by South Carolina & Ole Miss. Tim"
-        }
-      ]
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
-      "ok": true,
-      "reason": null,
+      "ok": false,
+      "reason": "coastal-carolina: rate limited",
       "jobs": 162,
-      "swept": 34,
+      "swept": 0,
       "failed": 1,
-      "requests": 35,
+      "requests": 1,
       "errors": [
-        "northern-illinois: rate limited"
+        "coastal-carolina: rate limited"
       ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 33,
+      "rejectedCandidates": 0,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-03T20:43:35.059Z"
+    "status rebuilt locally from current store on 2026-09-03T20:56:11.617Z"
   ]
 }
