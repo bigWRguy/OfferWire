@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-03T12:56:12.478Z",
+  "generatedAt": "2026-09-03T13:13:35.287Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-03T12:43:38.553Z",
+    "at": "2026-09-03T13:13:35.030Z",
     "jobsTotal": 162,
-    "sweptThisRun": 35,
+    "sweptThisRun": 36,
     "requests": 36,
     "fullSweepCycles": 5
   },
@@ -27,20 +27,15 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [
-    {
-      "id": "army",
-      "hours": 2.2
-    }
-  ],
+  "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.1687080555555556,
-    "p95Hours": 1.9997105555555557,
-    "worstHours": 2.247655
+    "medianHours": 1.0247647222222223,
+    "p95Hours": 1.790636388888889,
+    "worstHours": 1.790636388888889
   },
   "decisionCoverage": {
-    "total": 0,
-    "decided": 0,
+    "total": 42,
+    "decided": 42,
     "complete": true
   },
   "pending": {
@@ -57,53 +52,348 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-03T12:43:38.553Z",
-      "got": 123,
-      "new": 75,
-      "lag": 0.05
+      "at": "2026-09-03T13:13:35.029Z",
+      "got": 66,
+      "new": 42,
+      "lag": 0.08
     }
   },
   "audit": {
-    "at": "2026-09-03T12:56:08.629Z",
+    "at": "2026-09-03T13:11:09.100Z",
     "mode": "live",
     "collection": {
-      "returned": 0,
-      "kept": 0,
-      "duplicate": 0,
+      "returned": 66,
+      "kept": 42,
+      "duplicate": 24,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
-    },
-    "extraction": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
-    },
-    "search": {
-      "ok": false,
-      "reason": "army: rate limited",
-      "jobs": 162,
-      "swept": 0,
-      "failed": 1,
-      "requests": 1,
-      "errors": [
-        "army: rate limited"
+      "accepted": 24,
+      "rejected": 18,
+      "reasons": {
+        "hard_negative": 1,
+        "no_offer_term": 4,
+        "no_fbs_school": 13
+      },
+      "samples": [
+        {
+          "reason": "hard_negative",
+          "postId": "2095486329186390306",
+          "author": "coachroach757",
+          "searchJob": "boston-college",
+          "text": "Sophomore QB!!! Currently Holds A D1 Offer From Stetson University.. Also Receiving Interests From ODU, Duke, Boston College, &amp; NSU… Big Year Ahead For The Young QB 🙏🏾"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095372175318331483",
+          "author": "mikhiimorris",
+          "searchJob": "boston-college",
+          "text": "Couple clips from my first official varsity game went 10-13 had 180 passing yards not all the film. https://t.co/oZHlOtB4PY"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095497058685747471",
+          "author": "berkeleyair",
+          "searchJob": "california",
+          "text": "New on the BA website! 👀 We are now a distributor of Access Sensor Technologies air monitoring products in California. Explore our new equipment section to learn more about the tools and training we offer for air quality monitoring here: h"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095491111384936893",
+          "author": "worldwidennx",
+          "searchJob": "california",
+          "text": "PABST OFFERS $20,000 REWARD FOR 1,600 STOLEN BEER CASES Pabst Blue Ribbon is now offering a 20-thousand dollar reward to whoever can help find its stolen beer. The company is still looking to recover more than 16-hundred cases of Pabst Blue"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095466850171617335",
+          "author": "loopingcloud",
+          "searchJob": "california",
+          "text": "Hayward investment opportunity! 2,040 SF at 1711–1715 B St with approved plans for two 3-bedroom units, gated lot & 4 parking spaces. 🔨 Offered at $749K. Brian Merrion | ExpCommercial | 415-802-1400 https://t.co/qTrdkKveWU #HaywardCA #Comm"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095479558770209163",
+          "author": "foodgodzilla",
+          "searchJob": "hawaii",
+          "text": "@DCENTWALLETS Looks good… just hope it feels more premium than what’s currently offered. We don’t like “cheap” things holding our crypto."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095473181326708860",
+          "author": "cozartke",
+          "searchJob": "liberty",
+          "text": "@gamecock_rev She is a prejudiced hate filled bigot No program should offer her a dime"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095499246753431959",
+          "author": "fldadreborn",
+          "searchJob": "florida",
+          "text": "For high profile cases in the future with obvious suspects, investigators should just say “yep, no clue. Really stumped on this one.” Then the bored wine moms will offer up Lindsay Clancy and Tyler Robinson, without them being labeled as “t"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095497044303769897",
+          "author": "alufabusa1",
+          "searchJob": "florida",
+          "text": "Hurricane screens can offer a flexible protection option for lanais, patios, outdoor kitchens, and other large openings. 📞 Call Alufab USA Hurricane Protection at (239) 299-9759 for a free estimate. 🪪 𝗖𝗚𝗖 𝗟𝗶𝗰𝗲𝗻𝘀𝗲 # 𝟭𝟱𝟮𝟬𝟰𝟱\ud835"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095490459405611129",
+          "author": "lheaton58927",
+          "searchJob": "florida",
+          "text": "@riverrat328 May I offer you this 😂😊 https://t.co/eg5GRbK9pk"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095173209813336558",
+          "author": "trobinsonnewera",
+          "searchJob": "florida",
+          "text": "Sagal Abdi-Wali is now the frontrunner to be Labour’s candidate to take Keir Starmer's seat in Holborn and St Pancras. A Somalian refugee 🤡 https://t.co/1JDRAD2Rxx"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095484687250526239",
+          "author": "fnubaseball",
+          "searchJob": "florida",
+          "text": "🚨 FALL/SPRING 26-27 NEEDS 🚨 It's not too late to enroll at FNU!!! Transfers 🔥 SS 🔥 Pitchers 🔥 Catchers 🔥 IMpact Bats EXPECTATIONS ✅️ BE VOCAL/HIGH ENERGY ✅️ WANTS HARD COACHING ✅️ VALUES WINNING ✅️ WORLD SERIES MINDSET ✅️ NO QUIET SHY"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095479632053076332",
+          "author": "floridaissues",
+          "searchJob": "florida",
+          "text": "Wildlife shifts – Frogs and snakes offer clues to a changing environment - https://t.co/6qIWE93Wif #GoogleAlerts"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095473802658365589",
+          "author": "joevalanyc",
+          "searchJob": "florida",
+          "text": "@Owennfa Bro, I would not buy property in Florida now. I was offered two houses in Orlando back in 2007. Vegas was the same at the time. If anything, I would probably go to Myrtle Beach or Portsmouth. Friends of mine sold their house on Lon"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095492325674000421",
+          "author": "terminanny",
+          "searchJob": "georgia",
+          "text": "@SirDogTurd @MEGAMAGAMONSTER @s8n Just don't offer to meet in Georgia😁and maybe he'll reconsider your deal."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095488720153575762",
+          "author": "pokertourist1",
+          "searchJob": "georgia",
+          "text": "Hey guys, just letting you know about an offer that we currently have running in Batumi, Georgia. With this deal, you will have complimentary airport transfers, hotel, food and drink. And you must pay six hours of cash per day. For you guys"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095493234688483665",
+          "author": "scjanoe",
+          "searchJob": "illinois",
+          "text": "Your insurer can pay your doctor as if your visit were shorter than it was. One step down is worth $36.11, about 30% of the visit. Illinois says a person must make or review that call, starting 2028. It regulated downcoding without ever mea"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095263470807830595",
+          "author": "andrewj626",
+          "searchJob": "illinois",
+          "text": "There is something very beautiful and profound about George Lucas building a museum dedicated to storytelling, free public library, and garden park in the neighborhood I grew up in... and then placing these giant statues of Leia choking Jab"
+        }
       ]
     },
+    "extraction": {
+      "accepted": 1,
+      "rejected": 23,
+      "reasons": {
+        "bare_mention_requires_llm": 17,
+        "school_not_resolved_confidently": 5,
+        "reporter_missing_player_name": 1
+      },
+      "samples": [
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095496508556620099",
+          "author": "tchrist21",
+          "searchJob": "arizona",
+          "text": "How funny would it be if he follows Daddy Gronk and goes to Arizona. He won’t. But I bet he’ll get a few SEC offers https://t.co/wk5tF2BLU8"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095497039391908319",
+          "author": "borahaeforyf",
+          "searchJob": "california",
+          "text": "Army in California i wts 4 La bts tickets for Saturday d3 and 3 tickets for d4 sept 6 we can't make it anymore due to a schedule conflict, so I'm Selling BELOW what I paid - $450. Open to offers! Serious buyers only. Scammers stay AWAY. #BT"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095494986020118697",
+          "author": "benjaminturon",
+          "searchJob": "california",
+          "text": "@marcjoffe He wasn't very realistic @Lucid_Stew so no big loss - Ed Markey has a good record on rail. California needs to sort CaHSR out themselves. I be happy to do it for them for a 🍔🍔🍔 from In-Out Burger today, but doubt they accept m"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2095471788264231246",
+          "author": "agbevem",
+          "searchJob": "california",
+          "text": "Trump Endorses U.S. Tax Incentive to Keep Hollywood Production: ‘Let’s Get This Done President Trump on Monday endorsed a federal tax incentive for film and TV production, a move long sought by Hollywood studios and unions. In a statement p"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095466849001459758",
+          "author": "worldscientific",
+          "searchJob": "california",
+          "text": "✨ 𝐅𝐨𝐫𝐛𝐞𝐬 𝟓𝟎 𝐎𝐯𝐞𝐫 𝟓𝟎: 𝐂𝐞𝐥𝐞𝐛𝐫𝐚𝐭𝐢𝐧𝐠 𝐏𝐫𝐨𝐟. 𝐉𝐞𝐧𝐧𝐢𝐟𝐞𝐫 𝐓𝐨𝐮𝐫 𝐂𝐡𝐚𝐲𝐞𝐬’ 𝐏𝐢𝐨𝐧𝐞𝐞𝐫𝐢𝐧𝐠 𝐖𝐨𝐫𝐤 𝐢𝐧 𝐀𝐈 & 𝐌𝐚𝐭𝐡𝐞𝐦𝐚𝐭𝐢𝐜𝐬 Congratulations to 𝐉𝐞𝐧𝐧𝐢𝐟𝐞𝐫 𝐂𝐡𝐚𝐲𝐞𝐬, Dean of the UC Be"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095492521212227714",
+          "author": "gregg_davi95296",
+          "searchJob": "north-carolina",
+          "text": "@WIPMorningShow Looking for advice for the Eagles–Rams game. I’m bringing my 29-year-old son, who has cerebral palsy and autism. He can walk slowly for short distances, but he uses a wheelchair to get around the stadium. Last year, we had a"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095484678866100227",
+          "author": "srobertm",
+          "searchJob": "kennesaw-state",
+          "text": "🏠 Cobb County: Compare 3 recent nearby sales before you price or offer in Marietta, Kennesaw, Acworth or Smyrna. Robert Masoudpour, Associate Broker | (678) 269-6680 | Sold@Path2Sold.com | https://t.co/gBAzDLyD18 https://t.co/1L57OFUX17"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095497035361452252",
+          "author": "saveukpubs",
+          "searchJob": "kent-state",
+          "text": "When The Black Horse in Stansted, Kent, closed its doors, the village did not lose one pub among several. It lost the last pub left in the parish. Within weeks, 182 residents packed a public meeting. A steering group formed. And because peo"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095473996720435294",
+          "author": "powerofwisdomhq",
+          "searchJob": "liberty",
+          "text": "2/9 The details: World Liberty Trust Company (WLTC) would be based in Bay Harbor Islands, FL. It would directly issue/redeem USD1, hold reserves, and offer digital asset custody — bringing services in-house that are currently outsourced to "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095470245683339418",
+          "author": "jacobincambodia",
+          "searchJob": "liberty",
+          "text": "You’re not going to keep thousands of sailors and Marines, fresh off more than 200 days at sea, away from everything Pattaya has to offer, including its commercial sex industry. Add a few drinks and a few nights of liberty and some are goin"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095492200712843665",
+          "author": "cabdallas",
+          "searchJob": "texas-state",
+          "text": "@8_hotrod @crenshaw99 Nothing wrong with that at the time except the playoff losses. And because we did well he was offered the Texas State job."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095482103139852448",
+          "author": "dioceseoftulsa",
+          "searchJob": "tulsa",
+          "text": "✝️Bishop Konderla's Prayer Challenge on Hallow - Day 4 This August 31, join Bishop David Konderla for \"Called by Name\", a seven-day prayer journey on the Hallow app. Whether you are discerning God's direction for your life or simply seeking"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095480684248772698",
+          "author": "ryanbartow",
+          "searchJob": "auburn",
+          "text": "Wide receiver Jaylen Johnson, who shines for powerhouse First Academy (Orlando, Fla.), has two early offers. He’s one of the best in central Florida and covets an offer from the Tigers. https://t.co/HvvXm56iE8 https://t.co/SwlG5oL9GT"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095496678195528189",
+          "author": "hoabulletin",
+          "searchJob": "florida",
+          "text": "Searching for the perfect place to call home? 🏡 Fort Pierce 96 Communities offers the ideal blend of modern living and relaxed Florida charm. Spacious homes, a welcoming neighborhood, and a location that keeps you close to everything that "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095490260813656451",
+          "author": "konrad__adam",
+          "searchJob": "florida",
+          "text": "@ElizabtchTaylor Suggestion offer those flights to minority white people with complimentary visa to FLORIDA THE DAYS ARE NUMBERED JUST READ THE BIBLE WHAT’S COMING"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095475019425968407",
+          "author": "dalton_cats_fb",
+          "searchJob": "florida",
+          "text": "🚨OFFER ALERT🚨 Congratulations Elijah Long on your offer to Florida State University!! #GBR https://t.co/pdDRWigE48"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095474947082559939",
+          "author": "winstonontherun",
+          "searchJob": "florida",
+          "text": "@Owennfa Most people coming to Florida are from NY, NJ, and CA. For many of the people Florida still offers lower overall costs."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095499045032644610",
+          "author": "dittiepe",
+          "searchJob": "georgia",
+          "text": "A 17-year ICE veteran who ran the unit vetting new agents filed a formal whistleblower complaint with the DHS Inspector General, warning of an “unprecedented lowering of standards” that put “grave national security risks” into the agency’s "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095497165405622527",
+          "author": "medlinkga",
+          "searchJob": "georgia",
+          "text": "📍 Now serving Habersham! Welcome Dana List, FNP to MedLink Georgia! 💚 She’s providing primary care in Demorest for patients ages 5+ and offers Spanish-speaking support. 📅 Appointments available now! #MedLinkGeorgia #PrimaryCare #Habersha"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095482105236984233",
+          "author": "gahousebuyers",
+          "searchJob": "georgia",
+          "text": "🏡 Downsizing or facing a house full of repairs? Georgia House Buyers buys Middle Georgia homes as-is. No repairs, showings or commissions. Get a cash offer within 48 hours and close in as little as 10 days. 📞 478-739-3968 #Downsizing #Mac"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095478253939003844",
+          "author": "commjacobs",
+          "searchJob": "georgia",
+          "text": "📚✨ During Library Card Sign-Up Month, @GADeptEarlyCare and @georgialibs join libraries across Georgia to invite everyone to discover all a library card has to offer. 📖💻🌱 Learn more: https://t.co/RTJtQT8WLy"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095490744715035094",
+          "author": "aakashgupta",
+          "searchJob": "illinois",
+          "text": "Two cities turned down a free billion dollar museum before Los Angeles said yes. George Lucas paid for the whole thing out of pocket, and it opens in three weeks on top of a parking lot. San Francisco went first. In 2014 the Presidio Trust "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095490298348491123",
+          "author": "emilaldaddah",
+          "searchJob": "illinois",
+          "text": "The consensus trade in private equity and founder exits right now has a major blind spot. ​Everyone is focused on the OBBBA expanding the QSBS Section 1202 cap to $15M, while ignoring that Illinois quietly decoupled under Public Act 104-046"
+        }
+      ]
+    },
+    "search": {
+      "ok": true,
+      "reason": null,
+      "jobs": 162,
+      "swept": 36,
+      "failed": 0,
+      "requests": 36,
+      "errors": []
+    },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 23,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-03T12:56:12.479Z"
+    "status rebuilt locally from current store on 2026-09-03T13:13:35.288Z"
   ]
 }
