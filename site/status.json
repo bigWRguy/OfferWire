@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-03T13:26:05.363Z",
+  "generatedAt": "2026-09-03T13:43:17.144Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-03T13:13:35.030Z",
+    "at": "2026-09-03T13:43:16.911Z",
     "jobsTotal": 162,
-    "sweptThisRun": 36,
-    "requests": 36,
-    "fullSweepCycles": 5
+    "sweptThisRun": 32,
+    "requests": 34,
+    "fullSweepCycles": 6
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -27,15 +27,24 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "kentucky",
+      "hours": 2.3
+    },
+    {
+      "id": "texas-tech",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 1.2331191666666668,
-    "p95Hours": 1.9989908333333333,
-    "worstHours": 1.9989908333333333
+    "medianHours": 1.0325102777777777,
+    "p95Hours": 1.9533375,
+    "worstHours": 2.2855966666666667
   },
   "decisionCoverage": {
-    "total": 0,
-    "decided": 0,
+    "total": 63,
+    "decided": 63,
     "complete": true
   },
   "pending": {
@@ -46,59 +55,309 @@
   },
   "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 603,
+    "completeOffers": 604,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-03T13:13:35.029Z",
-      "got": 66,
-      "new": 42,
-      "lag": 0.08
+      "at": "2026-09-03T13:43:16.911Z",
+      "got": 82,
+      "new": 63,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-03T13:26:01.116Z",
+    "at": "2026-09-03T13:41:14.566Z",
     "mode": "live",
     "collection": {
-      "returned": 0,
-      "kept": 0,
-      "duplicate": 0,
+      "returned": 82,
+      "kept": 63,
+      "duplicate": 19,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 53,
+      "rejected": 10,
+      "reasons": {
+        "no_fbs_school": 7,
+        "hard_negative": 1,
+        "no_offer_term": 2
+      },
+      "samples": [
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095506455872909609",
+          "author": "csayf23",
+          "searchJob": "michigan",
+          "text": "OFFER ENDS SOON! Unlock access to all content on The Wolverine, On3 and Rivals for just $29.99 for an entire year Join: https://t.co/AzQKnG9ieT https://t.co/CCQblk3J8M"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095500762834964572",
+          "author": "jdm0211",
+          "searchJob": "michigan",
+          "text": "Only here folks, only here. Inside The Rotten Mind Of The Anti-American Botox-Bimbo Blaming Israel For Everything By Chloe Trapanotto Some people look and sound like they were dropped on their heads as babies. Jennifer (Wench) Welch is one "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095498112861094398",
+          "author": "brentgreenlmcu",
+          "searchJob": "michigan",
+          "text": "A seller concession is a credit sellers may offer the homebuyer to use toward closing costs, prepaid expenses, and even a lower interest rate – permanently! Contact me today and see how we can get you the lowest rate possible on your new ho"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095497135470882964",
+          "author": "onwnews",
+          "searchJob": "michigan",
+          "text": "See the inner workings of the SS Badger during rare tours this fall https://t.co/nlvNvgnrxv"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095495719738056833",
+          "author": "namracka",
+          "searchJob": "michigan",
+          "text": "1960 USA Gibson SG Doublecut Special, factory Cherry nitrocellulose lacquer finish, solid mahogany slab-body double-cutaway construction, mahogany Slim C-profile glued neck, Brazilian rosewood 12” radius fingerboard with 22 original medium-"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095482004087169384",
+          "author": "htrnews",
+          "searchJob": "michigan",
+          "text": "⛴️ Ever wonder what the inside of the S.S. Badger looks like? Limited fall tours offer a rare peek. https://t.co/weLwZZzxB5"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095496292625752224",
+          "author": "chadhatten1",
+          "searchJob": "colorado",
+          "text": "I never imagined that after more than two years of searching, I'd still be fighting just for the chance to work. Kind connections have offered to take in my dog if I become homeless; I hope it never comes to that. I'm a disabled military sp"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095506423266316391",
+          "author": "average_duke",
+          "searchJob": "duke",
+          "text": "@dan_huns @MrWhiplash_ Is better than anything the DSA can offer! I remember our current Government has over $20 trillion of debt and they say they can do a better job with our money than we can. Apparently they can’t so we should never tru"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095505569742233650",
+          "author": "mismoteam",
+          "searchJob": "texas-tech",
+          "text": "HR capacity problems are no longer solved by adding U.S. headcount. 🌎 In 2026, moving the right functions to #NearshoreHR can cut costs 30–60%, but not every operation should move the same way. The real edge is knowing what, where, and how"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095482031115317405",
+          "author": "lawyermn",
+          "searchJob": "minnesota",
+          "text": "Managed Services Organizations offer a path for private equity investment in law firms, raising ethics, ownership, and regulatory questions. https://t.co/ZrsnDOw4sY"
+        }
+      ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 1,
+      "rejected": 52,
+      "reasons": {
+        "school_not_resolved_confidently": 27,
+        "bare_mention_requires_llm": 23,
+        "reporter_missing_player_name": 1,
+        "multiple_resolved_schools": 1
+      },
+      "samples": [
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095505807261475071",
+          "author": "ashariexpresses",
+          "searchJob": "iowa",
+          "text": "@PollTracker2024 Dude it’s Iowa. She’s didn’t offer to help so they wasn’t finna get it. &amp; as for Alaska, MP asked her for donations, that’s what she got. Since January. So, this whole is just dead &amp; beyond unserious."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095479333070475278",
+          "author": "allentrieu",
+          "searchJob": "iowa",
+          "text": "Oswego (Ill.) RB Ammar Banire already has seven touchdowns in two games this season. Indiana gets him on campus this weekend. Hoosiers offered in the summer. https://t.co/OGuKIen7OU https://t.co/I0ngAKBX77"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095499316970303687",
+          "author": "tinam_howell",
+          "searchJob": "lsu",
+          "text": "7 Brew has partnered with #LSU Athletics to launch a new promotion! If LSU kickers score 7 or more points in a game, Tiger fans get a BOGO offer at participating @7BrewCoffee locations. The “Sips for Kicks” promotion runs throughout the reg"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095488093465759939",
+          "author": "dawggypapabear",
+          "searchJob": "lsu",
+          "text": "@atw15 Does the player have a case if LSU doesn’t offer him a scholarship?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095504565705592960",
+          "author": "simone34982",
+          "searchJob": "michigan",
+          "text": "@DonnieDetroit19 So tired of this... back to Trump, before it was JD and his wife.... he OFFERS NOTHING TO MICHIGAN! It's all about me, me, me. I wouldn't waste my time on him either, all he want's to do is mental gymnastics with Rogers. @D"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095503796583424003",
+          "author": "simone34982",
+          "searchJob": "michigan",
+          "text": "@GreatLakes_HQ You have to respect John Fetterman, he tells the truth - El Sayed supports Sharia Law (Muslim Brotherhood). It's the real reason he's running; he doesn't offer America's state of Michigan one thing, but he will destroy it. @D"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095495638851141683",
+          "author": "lou_twin",
+          "searchJob": "michigan",
+          "text": "Abdul El-Sayed will not accept Sen Fetterman's offer because 'he's a coward': Jason Rantz Senator John Fetterman challenges Abdul El-Sayed to a campaign event with Hasan Piker. Liz MacDonald and guest Jason Rantz analyze why the Michigan ca"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095495538330526005",
+          "author": "lou_twin",
+          "searchJob": "michigan",
+          "text": "Abdul El-Sayed will not accept Sen Fetterman's offer because 'he's a coward': Jason Rantz Senator John Fetterman challenges Abdul El-Sayed to a campaign event with Hasan Piker. Liz MacDonald and guest Jason Rantz analyze why the Michigan ca"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095484016564548073",
+          "author": "mlive",
+          "searchJob": "michigan",
+          "text": "Mid-Michigan offers plenty of fun activities this weekend https://t.co/w203ccT0G3"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095478454804234602",
+          "author": "thespartanswire",
+          "searchJob": "michigan",
+          "text": "Michigan State football offers highly-ranked OT prospect from Europe 📸 Mike Carter, Mike Carter-USA TODAY Sports https://t.co/bjIxGfcYKV https://t.co/JkZUB2zu7G"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095481943605366902",
+          "author": "pittsburghsport",
+          "searchJob": "cincinnati",
+          "text": "EXCLUSIVE: Former #Steelers DB Lavar Glover \"Erik Totten, me and James Harrison were all released on the same day. Harrison and I went to the movies after and ran into each other there. We were so damn depressed – we ended up watching diffe"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095492907587469381",
+          "author": "me28071barbara",
+          "searchJob": "colorado",
+          "text": "Colorado parents must stand with Patricia Fox and get loud about September 4th, Friday and let schools who have misled students into thinking that walking out because ICE is in town suggests ICE serves a negative service is irresponsible an"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095491604765360394",
+          "author": "me28071barbara",
+          "searchJob": "colorado",
+          "text": "Colorado parents must stand with Patricia Fox and get loud about September 4th, Friday and let schools who have misled students into thinking that walking out because ICE is in town suggests ICE serves a negative service is irresponsible an"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095491578945065252",
+          "author": "fonsietrader",
+          "searchJob": "colorado",
+          "text": "The number people quote is +15.4%. Put it in a box. NIASRA trial, Oman, 2013–2018: ~16% extra rain when conditions were there. That’s the paper. Operating frame now cited: median +15.4%, 2013–2024, same country. Cousins. Not twins. Not a Ro"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095482568909140172",
+          "author": "chadhatten1",
+          "searchJob": "colorado",
+          "text": "I’m running out of time. But I’m not giving up. Nearly two years ago, I lost my job during layoffs. I thought I’d be underemployed for a few months. I never imagined I’d still be fighting to get back to work nearly two years later. I’ve don"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2095506675071410212",
+          "author": "hughstraine",
+          "searchJob": "duke",
+          "text": "Yann Kamagate is one of two 2028 prospects to be offered by #Duke. We discussed why Duke fans should be monitoring the 5-star center over the coming weeks on the Duke Blue Devils Insider Podcast⬇️ 📺 https://t.co/tzUwfgJJLx https://t.co/imz"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095498205626507671",
+          "author": "arnaudmercier",
+          "searchJob": "houston",
+          "text": "The Houston Astros’ former general manager offered a telling response about the franchise shortstop’s future after being fired. https://t.co/vByhUE9iY3"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095492052129607995",
+          "author": "letmebet_com",
+          "searchJob": "houston",
+          "text": "White Sox-Astros Total Runs Edge https://t.co/Mtt9UvODOi The Chicago White Sox and Houston Astros series finale presents a compelling opportunity to capitalize on a total runs discrepancy between market platforms. With Luis Castillo and Hun"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095501970656088125",
+          "author": "dale_nen",
+          "searchJob": "pittsburgh",
+          "text": "@ECampWSJ @foxandfriends @foxnewspolitics @ainsleyearhardt Hello Emma. Saw your Fox&Friends Interview this morning.... Thank you for discussing Medicare For All.... I want to point out, the GENERALITYS Democrat & DSA talk in, implies Medica"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095483622253904077",
+          "author": "athlonsports",
+          "searchJob": "pittsburgh",
+          "text": "A Steelers Now report claims Pittsburgh has made Joey Porter Jr. an actionable contract offer, but the two sides remain far apart with Week 1 nearing. https://t.co/tmbqOqRgz9"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095483172829942262",
+          "author": "zitosalena",
+          "searchJob": "pittsburgh",
+          "text": ".@AaronRodgers12 understands Pittsburgh’s relationship with the Steelers because he sees what the team has meant for the region. It was never only football. The modern idea of Steelers Nation hardened into something permanent in the 1970s, "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095481805361012851",
+          "author": "pghsharkeys",
+          "searchJob": "pittsburgh",
+          "text": "Do you enjoy making a child smile and the sound of their laughter? Our Sharkey’s Cuts for Kids – Pittsburgh PA (Robinson Twp / North Fayette Twp area) continues to grow! We are seeking Full-Time and Part-Time Hair Stylists to join our team!"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095503517158969519",
+          "author": "bowdensflipfone",
+          "searchJob": "smu",
+          "text": "@MustangStudioCo @SMUFB @rdj13__ @CollegeSportsCo Apologies in advance to the SMU fans coming to Tallahassee this week. Unfortunately, we don't offer valet parking at Doak, and we're sorry if it comes as a shock that nobody here cares who y"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095505371527881074",
+          "author": "owengregorian",
+          "searchJob": "stanford",
+          "text": "Why lower-class workers are less likely to negotiate for higher pay—and how it could cost some nearly $800,000 | Stanford University Michele Gelfand has studied and taught negotiation for years. A professor of organizational behavior at Sta"
+        }
+      ]
     },
     "search": {
-      "ok": false,
-      "reason": "florida: rate limited",
+      "ok": true,
+      "reason": null,
       "jobs": 162,
-      "swept": 0,
-      "failed": 1,
-      "requests": 1,
+      "swept": 32,
+      "failed": 2,
+      "requests": 34,
       "errors": [
-        "florida: rate limited"
+        "kentucky: SearchTimeline JSON unreadable (slice left pending)",
+        "nebraska: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 52,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-03T13:26:05.364Z"
+    "status rebuilt locally from current store on 2026-09-03T13:43:17.145Z"
   ]
 }
