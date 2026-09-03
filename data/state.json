@@ -27067,17 +27067,21 @@
     "2095603288368685338",
     "2095603200242168177",
     "2095602724859724149",
-    "2095613668947808385"
+    "2095613668947808385",
+    "2095626341366321460",
+    "2095615355913703891",
+    "2095603133921509401",
+    "2095597564724740121"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-09-03T21:28:21.960Z",
-      "got": 86,
-      "new": 58,
-      "lag": 0.04
+      "at": "2026-09-03T21:40:09.023Z",
+      "got": 4,
+      "new": 4,
+      "lag": 0.11
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -27961,9 +27965,9 @@
       "truncated": false
     },
     "toledo": {
-      "at": "2026-09-03T19:41:13.961Z",
+      "at": "2026-09-03T21:39:59.629Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 0,
+      "lastPosts": 4,
       "truncated": false
     },
     "troy": {
@@ -28175,11 +28179,11 @@
   "lastRateLimitAt": "2026-09-03T20:56:11.494Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-09-03T21:28:21.961Z",
+    "at": "2026-09-03T21:40:09.023Z",
     "jobsTotal": 162,
-    "sweptThisRun": 34,
-    "requests": 36,
-    "fullSweepCycles": 5
+    "sweptThisRun": 1,
+    "requests": 2,
+    "fullSweepCycles": 162
   },
   "backfill": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -28199,374 +28203,60 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-09-03T21:26:08.872Z",
+    "at": "2026-09-03T21:39:59.616Z",
     "mode": "live",
     "collection": {
-      "returned": 86,
-      "kept": 58,
-      "duplicate": 28,
+      "returned": 4,
+      "kept": 4,
+      "duplicate": 0,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 33,
-      "rejected": 25,
+      "accepted": 3,
+      "rejected": 1,
       "reasons": {
-        "no_fbs_school": 10,
-        "no_offer_term": 6,
-        "hard_negative": 1,
-        "non_fbs_offer_target": 8
+        "no_fbs_school": 1
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2095621180753694812",
-          "author": "tpacifici3",
-          "searchJob": "troy",
-          "text": "Plump and crunchy wax apples, bursting with midsummer juiciness, offer a refreshingly cool and sweet flavor. Perfect for easing the heat and parchedness of the season, they make the ideal fruit to enjoy on sultry afternoons.🌥Tomato and oli"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095623842584531257",
-          "author": "scottwrightok",
-          "searchJob": "alabama",
-          "text": "Notable ‘29 hoops offer out in Alabama."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095619221980082594",
-          "author": "royalendeavour",
-          "searchJob": "alabama",
-          "text": "Canada: A Liberal Potemkin Village https://t.co/mDDa14sGHS"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095618805099577746",
-          "author": "youareathlete",
-          "searchJob": "alabama",
-          "text": "Saarland (AL) 4-star EDGE Keoni Snipes (@_thatkidky_) holds offers from #Alabama, #LSU, and many more Snipes has solidified himself as one of the top prospects in the country https://t.co/K6mkR9JowC"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095623578620207554",
-          "author": "kevindiazp6",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive a gameday invite from @CoachTaylorTE @Shorter_FB! @HerreraRecruits @naplesfootball https://t.co/0Y1AsQMUdg"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095623042944663689",
-          "author": "aidenobp",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my first offer from Ottawa University! I would like to thank my family, coaches, and Coach @jules2x_ for this opportunity to play at the next level! @Ottawa_Baseball @ramsbaseball12 https://t.co/dTWwAIhk79"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095622948363096091",
-          "author": "javonmartinn3",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive a game day invite from @CoachTaylorTE of @Shorter_FB !!! @naplesfootball @CoachDad1906 @HerreraRecruits https://t.co/BsJJRNHugW"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095621120023998967",
-          "author": "kadeleyva55",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After A Great Talk With @OLCoachKnox I’m Blessed To Receive My 10th Offer From @SNCfootball !!! https://t.co/TdH5YWt2au"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095618995093155932",
-          "author": "tysonphillips72",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from Washburn university @CoachSharpWU @Travis_Britz https://t.co/dYDHvBHpDp"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095617638852383148",
-          "author": "cj_miranda1",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from Pheifer University!!!#GoFalcons #AGTG https://t.co/locJYb7PZQ"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095616849199431745",
-          "author": "khdeuce5",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive @3C2Asports defensive player of the week #AGTG @CCCFootball_24 @thecoachdavis17 @Coach_SamAdams @Ma_Thomass https://t.co/1wcAWn87jd"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095615679877816637",
-          "author": "scott_evan12441",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @CoachGriffSBVC I am blessed to receive my second collegiate offer from San Bernardino Valley College‼️@CoachPerrone @GCHS_KnightsFB @HSFBRecruitRprt @fivestarphenom @AZSPORTSNETWORK @SBVCFB https://t.co/FUXM"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095613270031769953",
-          "author": "babythird13",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from otero college #AGTG LLG https://t.co/qb6am3ukc9"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095613020949156144",
-          "author": "arturoxcarrillo",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I’m extremely blessed to receive an offer from Willamette University! Thank you to Coach Gonzalez and the staff! #AGTG @CoachPgonz @HHSCoachWyatt @Coach_Mac79 https://t.co/LOsPQb9KsT"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095611379797365074",
-          "author": "damiannic4",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with coach @PorcheCoach I’m blessed to receive an offer from @SCWarriorFB ! @RashadDaniels12 @PrepRedzoneKS @cargile_wade https://t.co/Lssn1iKndv"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095609247027585304",
-          "author": "izaiahmontiel",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I am blessed to receive my 5th offer from Cornell College. @CornellRamsFB @CoachFrankHaege . @CoolFmSports @N_W_Sports @BisbeeCoachLos @AZPrepVarsity @CoachHulmes https://t.co/X9ioFyFIC8"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095606993637540318",
-          "author": "amarikbentley",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my first offer from BREVARD COLLEGE !!! https://t.co/bHx915oWhx"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095619922625806455",
-          "author": "dylanlogan1",
-          "searchJob": "phrase:\"grateful to receive an offer\"",
-          "text": "I am grateful to receive an offer from Franklin College. Thank you @FCGrizHoops for the opportunity. @BJPSBasketball @BRamseyKSR https://t.co/rGhJTSbmII"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095619875779612909",
-          "author": "kansas_select",
-          "searchJob": "kansas",
-          "text": "🚨 OFFER ALERT 🚨 Congrats to Braedyn McCaffree on picking up his second college offer from Sterling College! 🏀🔥 https://t.co/PByFZL8LpE"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095613491495211168",
-          "author": "vakansascity",
-          "searchJob": "kansas",
-          "text": "Congratulations to Lynn Everman (second from left) and Anne Kisato (second from right) for graduating the Primary Care Nurse Practitioner Residency Program today. After completing the 12-month program, Everman and Kisato both accepted offer"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095614241969520904",
-          "author": "0xvenix",
-          "searchJob": "stanford",
-          "text": "https://t.co/09DxcQWg7Z"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095606462995480693",
-          "author": "sotirov",
-          "searchJob": "stanford",
-          "text": "https://t.co/m6sVMeqZnl"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095614514075238591",
-          "author": "nigelmesta",
-          "searchJob": "kent-state",
-          "text": "@TH1983698577302 @Fenrithial @kurarosu_ Save the world or save the girl? \"7 seconds to the end, but what will you do w/ it?\" \"Let us defy Destiny together &amp; create an eternal world where she lives &amp; nothing ever dies or fulfil desti"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095612991979000212",
-          "author": "nigelmesta",
-          "searchJob": "kent-state",
-          "text": "@TH1983698577302 @Fenrithial @kurarosu_ I emphasize these alternative worlds material realism because the game is setting what I think is an fairly obvious narrative climax. Sephiroth will offer Cloud a world, ruled by him, in which Aerith "
+          "postId": "2095597564724740121",
+          "author": "lynnikerc",
+          "searchJob": "toledo",
+          "text": "At nightfall, she ate at a Catalan eatery, indulging in crema catalana—a silky custard dessert crowned with a crunchy, caramelized sugar layer, much like crème brûlée. The custard felt velvety and luscious on the palate, while the burnt-sug"
         }
       ]
     },
     "extraction": {
-      "accepted": 5,
-      "rejected": 28,
+      "accepted": 0,
+      "rejected": 3,
       "reasons": {
-        "school_not_resolved_confidently": 13,
-        "multiple_resolved_schools": 1,
-        "author_not_recruit:different sport": 1,
-        "bare_mention_requires_llm": 12,
+        "school_not_resolved_confidently": 2,
         "reporter_missing_player_name": 1
       },
       "samples": [
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095623846443274349",
-          "author": "polycarpspen",
-          "searchJob": "temple",
-          "text": "Yeah I’d say that’s an oversimplification for sure. We should obey the Torah out of love for God and to preserve our souls. The Torah says only levitical priests can offer up sacrifices. Only farmers should keep the farming laws. Only women"
+          "postId": "2095626341366321460",
+          "author": "propatriahr",
+          "searchJob": "toledo",
+          "text": "@Dzebic_Dean The decision to choose anti-aircraft defense is coming soon, currently the most likely offers are from Germany and South Korea. In addition, we are definitely going to purchase Meteor rockets for the Rafale, which will soon be "
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2095615355913703891",
+          "author": "alexxhashemi",
+          "searchJob": "toledo",
+          "text": "The AI and space industries shifted hard today. OpenAI launched GPT-6 Astra and called it a new frontier in computer and browser use. The model navigates spreadsheets, websites, and desktop apps, writes code, and hunts vulnerabilities. Open"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095622271960547379",
-          "author": "8okvfyelkciruab",
-          "searchJob": "temple",
-          "text": "🎾A family winter-weekend read packed with adventure—\"So what's our next move?\" he wondered aloud. \"Here we are in Egypt, yet the Temple of Osiris remains a mystery. Grandpa's diary offers a few hints, though they're far from straightforwar"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095620134031274456",
-          "author": "polycarpspen",
-          "searchJob": "temple",
-          "text": "Nope. 1. Only levitical priests can perform sacrifices. Paul went to the temple to have priests offer sacrifices for him in Acts 21. It is strictly forbidden in the Torah for a layperson to sacrifice animals to God. “And behold, I have take"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095619075112407411",
-          "author": "visionforgeusa",
-          "searchJob": "temple",
-          "text": "A republic that subsidizes the financial architecture of another civilization is no longer merely generous. It is confused about whose house it is. Minnesota taxpayers just underwrote $7.25 million in down-payment grants that only work with"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095613291573936586",
-          "author": "orbitinggod",
-          "searchJob": "temple",
-          "text": "Malachi 1:1-6, rebuked the priests for offering blemished sacrifices and dishonoring God. St. John Chrysostom argued that after the destruction of the Temple, the Jewish sacrifices could no longer validly be offered anywhere on earth. Since"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095604899954442478",
-          "author": "m6drkrejsupzesy",
-          "searchJob": "temple",
-          "text": "“So, what’s our next move?” he inquired. “Here we are in Egypt, yet we’ve got no idea where to locate the Temple of Osiris. My grandfather’s diary does offer a few hints, though they’re pretty vague.” https://t.co/HvURhzpjeF"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095602894019907949",
-          "author": "getstylemag",
-          "searchJob": "temple",
-          "text": "Prime + Ember Proves Great Cocktails Don’t Need Alcohol to Deliver Flavor and a Memorable Experience 🍹 For those who don’t drink, can’t drink or simply take an occasional self-imposed exile from alcohol, the options out in the wild have lo"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095604484797853772",
-          "author": "tricknole",
-          "searchJob": "texas-am",
-          "text": "@JrWolfpackBball @seminolegoat Hasn't done shit in 10 years Worse record at tamu than Kevin Sumlin Forced to give up play calling at tamu &amp; had similar grumbling when at FSU Loses 4 games per season w/o Jameis Flirted w/ offer jobs ever"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095623958024601698",
-          "author": "adamgorney",
-          "searchJob": "ucla",
-          "text": "UCLA offers the Danville (Calif.) San Ramon Valley DB @Tracy_McDannald"
-        },
-        {
-          "reason": "author_not_recruit:different sport",
-          "postId": "2095612259783381249",
-          "author": "brooklynmiles05",
-          "searchJob": "phrase:\"honored to receive an offer\"",
-          "text": "After a great conversation with @_CoachRoman and @CoachJPineda24 of @LouisvilleWBB , I’m super honored to receive an offer to play as a cardinal! Thank you Jesus for all you’re doing!!! https://t.co/0eFfaFHbIK"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095618096547373176",
-          "author": "blockheadai",
-          "searchJob": "kansas",
-          "text": "🏈 CSU Pueblo @ Fort Hays · College Football · Thu 7:00 PM CT CSU Pueblo heads to Hays, Kansas, for a high-stakes non-conference showdown against Fort Hays State. The Thunderwolves enter with momentum after a dominant 44-25 victory in their"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095608470988878318",
-          "author": "412groyper",
-          "searchJob": "pittsburgh",
-          "text": "dont forget to fill up for FREE at @sheetz on your ride home from work today! offerz good for FREE fill ups (up to 25 gallons) from now until september 8. pls activate this offer on the app. everybody could use a week of free gas. https://t"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095624351211213012",
-          "author": "panabee",
-          "searchJob": "stanford",
-          "text": "Caution with the word \"cure\" is right, but incomplete if building trust and conquering cancer are paramount. In the AI ecosystem, Jensen Huang has described Nvidia's role as funding what venture capitalists will not and building what no one"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095618122950619484",
-          "author": "0xvenix",
-          "searchJob": "stanford",
-          "text": "Two people get the same job offer. One negotiates and gets $7,000 more. Thirty years later that person is earning $100,000 a year more than the one who didn't. Same offer, same start, one conversation. Margaret Neale teaches negotiation at "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095619857677009255",
-          "author": "np4football_ot",
-          "searchJob": "kent-state",
-          "text": "Julius Lefevre-OL-2028-Denmark @KentStFootball Offer #CFB"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095614688835010621",
-          "author": "imelizabethlane",
-          "searchJob": "kent-state",
-          "text": "America has a men problem, we have no real men left anymore and some of these clowns pretending to be tough online are the perfect example. Today, one of these keyboard warriors decided he was going to get tough, throw around some insults, "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095614542705557895",
-          "author": "anacristwright",
-          "searchJob": "kent-state",
-          "text": "@HilzFuld Please for Nicole, Stacey, Kent and Neva. Thank you for your kind offer. God blessed you greatly"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095604673918992595",
-          "author": "newsnew97351204",
-          "searchJob": "kent-state",
-          "text": "Breaking News Seattle police union sounds alarm after city axes officer hiring bonuses amid staffing shortage The department is hundreds of officers short of staffing goals, while nearby Bellevue police offer $30,000 signing bonuses Seattle"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095624141563150400",
-          "author": "visionforgeusa",
-          "searchJob": "liberty",
-          "text": "Keith Ellison’s office did not invent compassion. It invented a rule that disagreement is “intolerance” and that a parent who will not affirm a child’s confusion may need supervised visits. That is not care. That is the state taking a child"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095622795791352273",
-          "author": "bunchasheeple",
-          "searchJob": "liberty",
-          "text": "His organizations absolutely have done some good. But that no way excuses the incredible harm he has inflicted on our nation and in fact our world over decades. 1. He taught the country that Christian morality is a weapon, not a standard. I"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095622152540049495",
-          "author": "newstonguex",
-          "searchJob": "liberty",
-          "text": "🔴 Revolut wins conditional OCC approval to become U.S. bank Revolut secured conditional approval Thursday from the U.S. Office of the Comptroller of the Currency to operate as a federally supervised bank and offer loans, stablecoins, and c"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095621705154875488",
-          "author": "dailyobaa",
-          "searchJob": "liberty",
-          "text": "Strolling through the woods offers the liberty of spontaneous exploration. Without set paths or schedules, you can simply roam at will and stumble upon serendipitous natural wonders along the way.📒Housekeeping Tidy up the space https://t.c"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095618260784095395",
-          "author": "wfrvps88bkjkxci",
-          "searchJob": "liberty",
-          "text": "Traveling on the open highway offers the pure joy of continuous progress. As the landscape steadily falls away on either side, it evokes a profound sense of unbounded liberty and tranquility.🙊The sole boundary that exists is the one within"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095617420425891879",
-          "author": "jackpot32431",
-          "searchJob": "liberty",
-          "text": "Taking a casual walk outdoors offers a sense of solitary liberty and charm. Strolling solo through city avenues, savoring peaceful downtime and moments of personal reflection. Playing table hockey alongside companions, secured a 3:0 victory"
+          "postId": "2095603133921509401",
+          "author": "brian_newell",
+          "searchJob": "toledo",
+          "text": "@ThunderFan2079 @geola388 The Rockets believe Amen Thompson can be their franchise cornerstone. Cason Wallace doesn’t get that money no matter what. If he wants to ride out the year with no deal.. Presti’s going to pull back his minutes and"
         }
       ]
     },
@@ -28574,25 +28264,24 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 34,
-      "failed": 2,
-      "requests": 36,
+      "swept": 1,
+      "failed": 1,
+      "requests": 2,
       "errors": [
-        "toledo: SearchTimeline JSON unreadable (slice left pending)",
-        "texas: SearchTimeline JSON unreadable (slice left pending)"
+        "texas: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 5,
-      "rejectedCandidates": 28,
-      "brandNewOffers": 5
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 3,
+      "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 58,
-    "decided": 58,
+    "total": 4,
+    "decided": 4,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z"
