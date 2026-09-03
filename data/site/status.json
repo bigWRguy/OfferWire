@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T22:13:38.639Z",
+  "generatedAt": "2026-09-03T22:26:11.142Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7915980555555555,
-    "p95Hours": 1.53895,
-    "worstHours": 1.789201388888889
+    "medianHours": 1.0006266666666668,
+    "p95Hours": 1.747978611111111,
+    "worstHours": 1.99823
   },
   "decisionCoverage": {
-    "total": 73,
-    "decided": 73,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "pending": {
@@ -59,342 +59,46 @@
     }
   },
   "audit": {
-    "at": "2026-09-03T22:11:17.380Z",
+    "at": "2026-09-03T22:26:07.468Z",
     "mode": "live",
     "collection": {
-      "returned": 105,
-      "kept": 73,
-      "duplicate": 31,
-      "tooOld": 1,
+      "returned": 0,
+      "kept": 0,
+      "duplicate": 0,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 56,
-      "rejected": 17,
-      "reasons": {
-        "no_offer_term": 5,
-        "no_fbs_school": 10,
-        "non_fbs_offer_target": 1,
-        "hard_negative": 1
-      },
-      "samples": [
-        {
-          "reason": "no_offer_term",
-          "postId": "2095506573078516190",
-          "author": "amuse",
-          "searchJob": "florida",
-          "text": "DATA CENTERS: The residents have been conducting a 30-year experiment operating massive data centers - more than 78 million square feet. The results are in and they’re a huge benefit to the state and its residents. https://t.co/xMAkppUgPZ h"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095626120972345588",
-          "author": "debr34945",
-          "searchJob": "florida",
-          "text": "These are the kinds of people you offer a free gift to, then they come running out of their basements. Its a common police tactic for those who hide behind the screen. If makis was legit, had a cancer clinic welcoming in Florida he wouldn't"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095619210240291037",
-          "author": "livinginnorthga",
-          "searchJob": "georgia",
-          "text": "Learned this structure from @CreateNotesOnRE today. Numbers & scenario just for illustration. Seller wants $15M. We think the market will bear more like $7.5M. We'll never agree on price. Is there a deal here? There's $1M debt on the proper"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095619049224896636",
-          "author": "prunderground",
-          "searchJob": "illinois",
-          "text": "Mystic Moon Offers Psychic Readings, Love Reconciliation &amp; Spiritual Healing in Illinois https://t.co/8YO5eNuF0O #MysticMoon https://t.co/q3GqwNvMGi"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095620584591823276",
-          "author": "lakes24hrfitnes",
-          "searchJob": "indiana",
-          "text": "🔥 Limited-Time Offer: 3-Month Gym Membership for Just $99!🔥Ready to crush your fitness goals? Now’s the perfect time! For a limited time only, grab a 3-month gym membership for just $99!!🏋️‍♂️Offer ends 7/31/26! Sign up today! 20 S 5th S"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095634828448207033",
-          "author": "eharris222",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG Blessed to receive an offer from University of Texas at San Antonio! @Th3ShawnLewis @jdwarren09 @CoachCrissup @CoachSeanKelly @JuCoFootballACE @JUCOFFrenzy https://t.co/ga6DKNjWD6"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095633544022270307",
-          "author": "allen11dre",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG After a great conversation with @CoachOwens_12 I’m blessed and honored to receive my first offer from @BrevardF5 #GoTornados🌪️ https://t.co/HRGycNnFPy"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095610995163152883",
-          "author": "zsambaszab17073",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "I am grateful to receive my 2nd offer to play at the next level at Oberlin College. I would like to thank Coach Senthil and the rest of the Coaching Staff for an amazing visit and the offer. #agtg https://t.co/314fYtzJA1"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095627926926418181",
-          "author": "onlyinyourstate",
-          "searchJob": "uconn",
-          "text": "Jacob's Beach offers a peaceful escape with 430 feet of pristine shoreline. 🏖️ https://t.co/ew7IPGnDmb"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095617830725222485",
-          "author": "minddynamicsllc",
-          "searchJob": "uconn",
-          "text": "Need alcohol rehab in CT but unsure where to start? PHP offers intensive daily care, while IOP adds schedule flexibility. Mind Dynamics in Plainville can help you choose. 📞 (860) 743-7646 https://t.co/Mc0edGWMwS #OutpatientRehab #Plainvill"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095630351205052470",
-          "author": "lifelessai",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/EAfMYZzQ6Z"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095624487345504508",
-          "author": "mariaangelagrow",
-          "searchJob": "arkansas-state",
-          "text": "St. Stephen, King of Hungary from Lives of the Saints by Father Francis Xavier Weninger, DD, SJ., 1876. . St. Stephen, who is justly called the Apostle of the Hungarians, on account of his unwearied zeal in disseminating the true faith, was"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095612309670666646",
-          "author": "civisresistere",
-          "searchJob": "army",
-          "text": "🆘 فوجی لانگ مارچ کا پردہ فاش الحمدواللہ ،اللہ الحق ہے، حق کا خدا ہے۔ #KRBT کو اس قومی حکومت کا پتہ جنوری میں چل گیا تھا، اور مارچ اپریل میں ہم نے اس پر بات شروع کر دی تھی۔ ہم نے عوام، سوشل میڈیا اور گراؤنڈ کے کارکنان کو سمجھانے کی بہت کوشش"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095609681465209051",
-          "author": "ssn_boisestate",
-          "searchJob": "boise-state",
-          "text": "@LGBrandonB I mean maybe? That or he genuinely just went looking somewhere else. He did enter the portal once so it wouldn’t surprise me if he caught wind of a better offer and just pounced on it"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095612185116656078",
-          "author": "localizefoodapp",
-          "searchJob": "wyoming",
-          "text": "A Pennsylvania district warned parents that unpaid lunch bills could get kids taken into foster care, then turned down a stranger's offer to erase the debt. In July 2019, Wyoming Valley West School District sent letters threatening custody "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095633344856039807",
-          "author": "is_owenlewis",
-          "searchJob": "class:2026",
-          "text": "https://t.co/Z4cjA97lSd"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095627999001423992",
-          "author": "np4football_ot",
-          "searchJob": "class:2026",
-          "text": "Joseph “JB” Hampton-LB/Edge-2026-AL @BamaStateFB Commit #CFB"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 56,
-      "reasons": {
-        "multiple_resolved_schools": 6,
-        "bare_mention_requires_llm": 47,
-        "school_not_resolved_confidently": 3
-      },
-      "samples": [
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095635696408994130",
-          "author": "ric4100",
-          "searchJob": "florida",
-          "text": "VIRGINIA IS THE MODEL FOR DATA CENTERS! Virginia Is the Canary in the Coal Mine When It Comes to Data Centers: The Canary Is Singing! Opponents of the data center boom have taken to calling Virginia the canary in the coal mine, and the geog"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095635140189753429",
-          "author": "lifeisles4",
-          "searchJob": "florida",
-          "text": "Hmm Eklund and George to name 2. Bottom 6 is up for grabs. If there was anyone willing to take a 1 year deal who would want to come here I would agree. Love how a lot of fans think that if Darche just made an offer, UFA players would flock "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095620606540534071",
-          "author": "fredfuchs18",
-          "searchJob": "florida",
-          "text": "I remember telling a liberal Jewish friend that Trump could win in 2016 and he said that was like 1000 to 1 so I offered ten dollars as the bet. He passed. She is probably 100,000 to 1 and will lose miserably since Florida actually has vote"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095618756776964566",
-          "author": "mainstchatter",
-          "searchJob": "florida",
-          "text": "Universal Orlando Resort offers a game-changing 3-park ticket deal through December 2026, allowing guests to explore Epic Universe, Universal Studios Florida, and Islands of Adventure for $99 per day. A must-have for any Orlando vacation pl"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095618009683435987",
-          "author": "ndn",
-          "searchJob": "florida",
-          "text": "Photos: Mud flats in SW Florida offer a smorgasbord for area birds and critters https://t.co/dTDANWeNCG"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095617086513140216",
-          "author": "recruitintelhq",
-          "searchJob": "florida",
-          "text": "@Caron21Williams @DHughes2FB @GatorsFB @SMCHS_Football @Coach_Fifita94 @GregBiggins @adamgorney @BlairAngulo @TomLoy247 Florida is in on Ca'ron Williams. Our database has him at 33 D1 offers as a 2028. Congrats."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095612224333283381",
-          "author": "greatweb_makers",
-          "searchJob": "florida",
-          "text": "Great Web Makers in Cooper City, Florida offers web design, web development, search engine optimization, social media marketing &amp; mobile app development. Its services include customized web portals, e-commerce solutions, etc. https://t."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095610336896249926",
-          "author": "thenewspress",
-          "searchJob": "florida",
-          "text": "Photos: Mud flats in SW Florida offer a smorgasbord for area birds and critters https://t.co/GBkYw7qGZx"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095609941885059249",
-          "author": "heinigirar2901",
-          "searchJob": "florida",
-          "text": "163 missing children were found in a Florida law enforcement operation. Raspberry ketones offer weight loss benefits."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095630368359522708",
-          "author": "banley_coach",
-          "searchJob": "georgia",
-          "text": "@LAGovJeffLandry @AGAlanWilson @Georgia_AG Did they sign contracts to participate in NFL practices, film, and games? Just because they weren't good enough to make an NFL roster (all were offered practice squad spots) doesn't mean they weren"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095629825721368594",
-          "author": "stateofamerica1",
-          "searchJob": "georgia",
-          "text": "🚨 JUST IN: Rep. Clay Fuller reveals he’s FULL STEAM AHEAD on IMPEACHING rogue leftist Judge Eleanor Ross FULLER: “I will hold rogue judges accountable. I don’t care how long it takes. I will fight to make sure Judge Eleanor Ross is held ac"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095626000788860980",
-          "author": "_rkconsultants",
-          "searchJob": "illinois",
-          "text": "🚨 Iniga Inc. files for chapter 11 protection in Illinois INIGA INC. 📊 Assets: $0-$50K | Liabilities: $100K-$500K | Creditors: 1-49 | Industry: Full-Service Restaurant (Pizzeria) | District: Northern District of Illinois Chapter 11 – Filin"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095635555337773384",
-          "author": "investingwithac",
-          "searchJob": "indiana",
-          "text": "$OSCR “Big news from Indiana: ICHRA is becoming CHOICE. Today, Oscar Health's Catherine (Cathy) Grason, Esq. and Andrew Reeves helped announce a new name for one of the most important shifts happening in employer-sponsored healthcare: CHOIC"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095617192792396125",
-          "author": "derrickchristy",
-          "searchJob": "indiana",
-          "text": "We’re excited to see Gateway Education featured in the @DailyJournalNet! When Dave Christy and I founded Gateway Education, we had a straightforward goal to help make a college education more affordable and accessible. The cost of college h"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095630825463394583",
-          "author": "schilllawgroup",
-          "searchJob": "arizona",
-          "text": "𝗘𝗻𝗱𝗶𝗻𝗴 𝗮 𝗹𝗼𝗻𝗴 𝗺𝗮𝗿𝗿𝗶𝗮𝗴𝗲 𝗶𝗻 𝗔𝗿𝗶𝘇𝗼𝗻𝗮 𝗶𝘀 𝗿𝗮𝗿𝗲𝗹𝘆 𝘀𝗶𝗺𝗽𝗹𝗲—𝗲𝘀𝗽𝗲𝗰𝗶𝗮𝗹𝗹𝘆 𝘄𝗵𝗲𝗻 𝘆𝗲𝗮𝗿𝘀 𝗼𝗳 𝘀𝗵𝗮𝗿𝗲𝗱 𝗳𝗶𝗻𝗮𝗻𝗰𝗲𝘀, 𝗽𝗿𝗼𝗽𝗲𝗿𝘁𝘆, 𝗮𝗻𝗱 𝗹𝗶𝗳𝗲 𝗱𝗲𝗰𝗶𝘀𝗶𝗼𝗻𝘀 𝗵𝗮𝘃𝗲 𝘁𝗼 𝗯\ud835"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095629192243065056",
-          "author": "asueducation",
-          "searchJob": "arizona",
-          "text": "A new path to becoming a teacher. ASU now offers three-year Bachelor of Education degrees in Elementary Education and Special Education, leading to Arizona teacher certification. Hear from Dean Carole Basile and learn more: https://t.co/EVv"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095623922939036042",
-          "author": "jerrymillernow",
-          "searchJob": "arizona",
-          "text": "The @iLoveCVilleVA Show headlines (9/3/26) * Two Fires Torch & Terrorize Tenantless Tent Town * CVille Fire Marshal Investigating Blaze As Possible Arson * Should City Hall Offer E. High Street Businesses Reparations? * Arizona CEO Offers V"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095617514445119519",
-          "author": "annlaurie53529",
-          "searchJob": "uconn",
-          "text": "@BreannaMorello She is incredibly intelligent and always offers insights others never present. Sad! God bless and continued success @MariaBartiromo Connecticut fan."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095625684324344131",
-          "author": "echoesofwaryt",
-          "searchJob": "air-force",
-          "text": "Gerald Ford, the 38th President of the United States, was a genuine football star who turned down the NFL, and later a professional fashion model, yet he's mostly remembered as a clumsy klutz. That last part is the great injustice of his li"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095634582250872974",
-          "author": "psychomechanics",
-          "searchJob": "arkansas-state",
-          "text": "I've tried more than two dozen different psychedelics over the years, and every single one has taught me something unique and special that I don't think any of the others could have. The way I always describe 5-MEO-DMT is that it's essentia"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095632797666812103",
-          "author": "laurenranson94",
-          "searchJob": "arkansas-state",
-          "text": "A stay at a countryside guesthouse offers an authentic glimpse into rustic living. Residing in traditional local dwellings, engaging in basic agricultural chores, and savoring homegrown meals bring us back to a state of simplicity, envelopi"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095632373018951700",
-          "author": "yashika10614068",
-          "searchJob": "arkansas-state",
-          "text": "80-yrs on, the broadcast that changed history: How Neville Chamberlain told Britain it was at war with Germany The BBC radio announcer who introduces the broadcast with the historic line, 'This is London...' Neville Chamberlain - Prime Mini"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095631749220856074",
-          "author": "geowatchsight",
-          "searchJob": "arkansas-state",
-          "text": "Rico, this isn’t analysis. It’s a relocation ad with a siren on it. You’re “The Cyprus Guy.” You sell tax setups and off-plan. Fine business. Just don’t dress the sales funnel as a morality lecture about “brainwashed” Nordics. 🤡😂 You lump"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095628494235369707",
-          "author": "tygerstylez",
-          "searchJob": "arkansas-state",
-          "text": "@Jimmyallenhurst @5Pillarsuk When Pakistan genocided Bangladeshis, Israel condemned it &amp; offered to partner with Bangladesh. Bangladesh refused. Why? Because they have Iman &amp; arent traitors 🤡 You celebrate recognition by a state th"
-        }
-      ]
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
-      "ok": true,
-      "reason": null,
+      "ok": false,
+      "reason": "arkansas-state: rate limited",
       "jobs": 162,
-      "swept": 36,
-      "failed": 0,
-      "requests": 36,
-      "errors": []
+      "swept": 0,
+      "failed": 1,
+      "requests": 1,
+      "errors": [
+        "arkansas-state: rate limited"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 56,
+      "rejectedCandidates": 0,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-03T22:13:38.640Z"
+    "status rebuilt locally from current store on 2026-09-03T22:26:11.143Z"
   ]
 }
