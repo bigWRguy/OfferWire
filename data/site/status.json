@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-03T19:43:19.510Z",
+  "generatedAt": "2026-09-03T19:58:22.260Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-03T19:43:19.261Z",
+    "at": "2026-09-03T19:58:21.940Z",
     "jobsTotal": 162,
-    "sweptThisRun": 29,
-    "requests": 30,
-    "fullSweepCycles": 6
+    "sweptThisRun": 33,
+    "requests": 34,
+    "fullSweepCycles": 5
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -27,15 +27,20 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "liberty",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 1.0352425,
-    "p95Hours": 2.033802777777778,
-    "worstHours": 2.033802777777778
+    "medianHours": 0.7836036111111111,
+    "p95Hours": 2.0229475,
+    "worstHours": 2.2845666666666666
   },
   "decisionCoverage": {
-    "total": 54,
-    "decided": 54,
+    "total": 85,
+    "decided": 85,
     "complete": true
   },
   "pending": {
@@ -44,373 +49,390 @@
   "profileResolution": {
     "cached": 34
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 2,
   "quality": {
-    "completeOffers": 621,
+    "completeOffers": 622,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-03T19:43:19.260Z",
-      "got": 75,
-      "new": 54,
-      "lag": 0.04
+      "at": "2026-09-03T19:58:21.940Z",
+      "got": 110,
+      "new": 85,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-03T19:41:13.940Z",
+    "at": "2026-09-03T19:56:24.820Z",
     "mode": "live",
     "collection": {
-      "returned": 75,
-      "kept": 54,
-      "duplicate": 21,
-      "tooOld": 0,
+      "returned": 110,
+      "kept": 85,
+      "duplicate": 24,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 32,
-      "rejected": 22,
+      "accepted": 38,
+      "rejected": 47,
       "reasons": {
-        "no_fbs_school": 13,
-        "no_offer_term": 5,
-        "hard_negative": 4
+        "no_fbs_school": 16,
+        "hard_negative": 20,
+        "no_offer_term": 10,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2095596306890711505",
-          "author": "zlabe",
-          "searchJob": "south-florida",
-          "text": "\"South Florida sits on the front lines of sea-level rise and climate change—and this WLRN original production offers a compelling look at how local communities are responding.\" - new documentary via @WLRN at https://t.co/PWq8FpreKy"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095595990653006209",
-          "author": "ilirmehmetaj",
-          "searchJob": "temple",
-          "text": "The same water in a village as in the capital — because every tower makes it the same way. A village with its own water and its own power — where staying becomes a choice. https://t.co/i6L3tWIGAD"
+          "postId": "2095599292308447606",
+          "author": "nigelmesta",
+          "searchJob": "kent-state",
+          "text": "@TH1983698577302 @Fenrithial @kurarosu_ Once again evidence not presented in the game but speculation offered by others. Take the games as presented then speculate. Don't assume a conclusion then fit the games presentation."
         },
         {
           "reason": "hard_negative",
-          "postId": "2095591141962035244",
-          "author": "varsitycombine1",
-          "searchJob": "temple",
-          "text": "🚨 COMBINE MVP ALERT: CARTER TEMPLE 🚨 QB | c/o 2027 | Kearney (MO) @cartertemple2 🏆 Combine MVP 📏 Wingspan: 77\" ⚖️ 6'3\" / 220 lbs ⏱️ 20-Yard Shuttle : 4.24 Recognized by @CoachHoover Spin It https://t.co/mQVyrNuAW2 team in @montellcozart"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095566982087369163",
-          "author": "tv13gujarati",
-          "searchJob": "temple",
-          "text": "Ambaji Shitala Mata Mandir: અંબાજી ગામના પાદરે આવેલા શીતળા માતા મંદિરે દર્શનાર્થે ઉમટ્યા શ્રદ્ધાળુઓ, બાળકોના સ્વાસ્થ્ય માટે કરી પ્રાર્થના https://t.co/zkKW79btl8 #Ambaji #ShitalaSatam #AmbajiNews #ShitalaMataMandir #BanaskanthaNews #Shravan"
+          "postId": "2095594636983066781",
+          "author": "notfenlandbum",
+          "searchJob": "kent-state",
+          "text": "Unfortunately our recent offer of a luxury vehicle has to be rescinded. The offer was just too popular to the people of Kent who’d never seen such opulence on 4 wheels. New offer next week- probably some kind of Tupperware to make them feel"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095571843910381995",
-          "author": "troycperry",
-          "searchJob": "troy",
-          "text": "@JohnDePetroshow Lunatic-Lindsay Crazy-Clancy forever took those babies from this realm out of selfishness &amp; spite. If she wanted to end her life - FINE! She had NO RIGHT to take them &amp; their untapped potential they had to offer thi"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095575564522254357",
-          "author": "freemanschool",
-          "searchJob": "tulane",
-          "text": "Freeman MBA alumni: Ready to return to the classroom? Our Lifelong Learning Initiative offers: ✅Weekend intensives at Uptown Campus ✅ Official academic credit ✅ Courses in AI, strategy, finance &amp; innovation Request info: https://t.co/Ns"
+          "postId": "2095599362437005516",
+          "author": "trueliberalist",
+          "searchJob": "liberty",
+          "text": "@Ungovernab1e Waiting on a few more open records productions still. I’ve compiled the bulk of my redress. I’ve reached out to all the commissioners. One is hosting a town hall. I sent him my commentary and supporting docs in advance so it’s"
         },
         {
           "reason": "hard_negative",
-          "postId": "2095594539138404560",
-          "author": "whiteoutfb",
-          "searchJob": "kentucky",
-          "text": "6 foot 2 251 pound 3 Star DL out of Cincinnati Ohio @McKinney2028 will be inside Beaver Stadium Saturday for the home opener. McKinney has offers from all over the nation. Iowa State to Minnesota. Indiana to Kentucky. The Cincy DL will be a"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095592332468818372",
-          "author": "kentuckyag",
-          "searchJob": "kentucky",
-          "text": "Photos you can hear! From early-morning rooster crows and post drivers on a summer's day to late-night tractor startups — agriculture across the commonwealth offers a variety of unique beauty and individuality. https://t.co/68CJDu11Zl"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095579590328553746",
-          "author": "cune",
-          "searchJob": "nebraska",
-          "text": "Our September Continuing Education Unit courses offer practical learning and spiritual encouragement in a short, non-credit format. Courses start soon! Visit https://t.co/mpj9gFbNVE to register today. https://t.co/6IZqnfqx40"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095587908568723814",
-          "author": "mftxac",
-          "searchJob": "northwestern",
-          "text": "https://t.co/q2HF2zoWgf"
+          "postId": "2095599226067484864",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
         },
         {
           "reason": "hard_negative",
-          "postId": "2095592966626664877",
-          "author": "allentrieu",
-          "searchJob": "ohio-state",
-          "text": "Cincinnati Princeton RB decommits from Miami (Ohio). Earned several new offers after his week one performance and visits Ohio State this weekend: https://t.co/5X80scaed2"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095592512110919998",
-          "author": "2k_jlo",
-          "searchJob": "ohio-state",
-          "text": "Thank you miami for everything ❤️ https://t.co/ksACoIQp4q"
+          "postId": "2095592795180290082",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
         },
         {
           "reason": "hard_negative",
-          "postId": "2095592665161302264",
+          "postId": "2095592676242637095",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095592479001088496",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095592339032952902",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095592196892193128",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095591930185039981",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095591818385621468",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095591645760700668",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095591438624989446",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095590804299374755",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095590675412824532",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095590548450976163",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095589852649607354",
+          "author": "benthomaspreps",
+          "searchJob": "alabama",
+          "text": "See who moved up in the latest Best in Bama high school football recruiting rankings. @kennedy_randy #alpreps https://t.co/kGYmraDuMW"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095580000984457268",
+          "author": "np4football_ot",
+          "searchJob": "alabama",
+          "text": "Christian Harris-DL-2027-AL Week One Highlights.. Harris Currently has 4 Offers.. @TalkoftheTownFB"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095576320658805020",
+          "author": "alrealtors",
+          "searchJob": "alabama",
+          "text": "The season may just be starting to shift from summer to fall, but the final quarter of the year will be here before you know it. September offers a natural opportunity to take stock of the year so far and set the stage for a strong finish. "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095329418726248696",
+          "author": "keyshawn",
+          "searchJob": "texas",
+          "text": "Stop worrying about USC! The fans will show up when we need them. It’s LA, not Lubbock, Texas. We got stuff to do. 👀✌🏾 #USC #FightOn #KeyshawnJohnson https://t.co/l0Z1OuPiwQ"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095597698078712061",
           "author": "profilefblive",
-          "searchJob": "ole-miss",
-          "text": "📈 Trending Recruit 📈 2029 Edge Darrius Gross from Germantown HS, MS is currently Profile's Top Trending 2029 recruit after recent offers from Tennessee, Ole Miss, and Mississippi State. @GrossDarrius Rated 3.4 ⭐ (#298 NATL, #22 Edge, #7 M"
+          "searchJob": "texas",
+          "text": "📈 Trending Recruit 📈 2028 DE Daylan Richardson from Simmons HS, MS is currently a Top Five Trending 2028 recruit on Profile after a recent offer from Texas A&amp;M. @daylanrichards5 Rated 2.9 ⭐ (#1731 NATL, #92 DE, #35 MS) with 2 offers o"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095587515381989815",
-          "author": "medunivsc",
-          "searchJob": "south-carolina",
-          "text": "Yesterday, we welcomed some of the newest members of the MUSC community at our annual New Student Luncheon! Explore what else student life at MUSC has to offer: https://t.co/AYRdDPoSXX #ChangingWhatsPossible https://t.co/Zd4qolDVKC"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095578142219887005",
-          "author": "wesmitchellgc",
-          "searchJob": "south-carolina",
-          "text": "BREAKING: South Carolina is adding 5th-year Houston transfer kicker Ethan Sanchez to its roster for this season. Read: https://t.co/wOAgsWpTR6 https://t.co/hpmZ88GcOc"
+          "postId": "2095596036886843536",
+          "author": "txhoopscene",
+          "searchJob": "texas",
+          "text": "Kaiden Eason has transferred to Dynamic Prep. The 6-4 forward comes from Dallas Carter, the UIL 4A Division II state champion. ⭐⭐⭐, No. 35 in Texas for 2027 per the 247Sports Composite. Four reported offers, three Division I. #TXHoopScene @"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095597891075067958",
-          "author": "texanscommenter",
-          "searchJob": "houston",
-          "text": "@theeezy1 Still don’t follow. This isn’t about what he is. It’s about what he’s been offered. Can you read again?"
+          "postId": "2095595897979600962",
+          "author": "washtimes",
+          "searchJob": "texas",
+          "text": "In Texas' high-stakes Senate race, Republican Attorney General Ken Paxton has turned down an offer from CNN to debate his Democratic opponent, state Rep. James Talarico. https://t.co/uVE1eE9TxY"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2095585699667869714",
-          "author": "texanscommenter",
-          "searchJob": "houston",
-          "text": "@theeezy1 People are saying to accept 45 when he’s been offered in the 50s. Follow along"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095580868718793068",
-          "author": "texanscommenter",
-          "searchJob": "houston",
-          "text": "@nuttallriley1 Yes in 50s. But l said that to counter you saying no way Caserio would sign him. Giving him a respectable offer doesn’t reflect that imo"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095579704417747143",
-          "author": "kellyg581976179",
-          "searchJob": "houston",
-          "text": "@MarjonQ17isBACK Houston, TX area: Please adopt or offer to foster this absolutely precious , sweetheart! He’s urgent !! A rescue can’t pull him without a foster home to take him to🙏😢"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095574960051728781",
-          "author": "texanscommenter",
-          "searchJob": "houston",
-          "text": "@nuttallriley1 They’ve already made a competitive offer reportedly"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095574055915036846",
-          "author": "texanscommenter",
-          "searchJob": "houston",
-          "text": "@L0ckD0wn101 Ah yes, lower that what he’s already been reportedly offered"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095573020274299276",
-          "author": "texanscommenter",
-          "searchJob": "houston",
-          "text": "@Brandon51786 He’s been reportedly offered in the 50s. Why would you take less??"
+          "reason": "hard_negative",
+          "postId": "2095592390233047240",
+          "author": "pwilsondtf",
+          "searchJob": "texas",
+          "text": "❌This is the most BS claim no matter how you see it! Ignorance isn’t an excuse for breaking the law and neither should be mental illness! Hey everyone go out and commit murD£r and claim Postpartum psychosis! Sometimes offered as the medical"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 32,
+      "accepted": 2,
+      "rejected": 36,
       "reasons": {
-        "bare_mention_requires_llm": 16,
-        "school_not_resolved_confidently": 10,
+        "bare_mention_requires_llm": 19,
+        "school_not_resolved_confidently": 13,
         "reporter_missing_player_name": 1,
-        "multiple_resolved_schools": 5
+        "author_not_recruit:organisation": 1,
+        "author_not_recruit:different sport": 1,
+        "reporter_missing_class_year": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095582626044133757",
-          "author": "scmonitoring",
-          "searchJob": "north-carolina",
-          "text": "North Carolina dealers, this one is for you. Our upcoming September 17 training class, sponsored by ELK Products, offers 6 CEU credit hours and a valuable opportunity to keep your team current. Seats are limited and filling up quickly. Regi"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095569751640514897",
-          "author": "noahweiskopf",
-          "searchJob": "north-carolina",
-          "text": "#UNC coach Michael Malone offered the latest update on center Cameron Fens, who is currently ineligible to play, on Thursday. Here’s what Malone said: https://t.co/DCJ6FrX1ju"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095597330271789494",
-          "author": "johnddavidson",
-          "searchJob": "san-diego-state",
-          "text": "Modern people who live in a desacralized world don’t understand this: all sacrifice involves consuming that which is sacrificed. In the Old Testament, the Israelites sacrificed animals, wine, oil—some of which was given as a burnt offering "
+          "postId": "2095576489165013223",
+          "author": "ivankatrumprv45",
+          "searchJob": "georgia-state",
+          "text": "🚨 JUST IN: Rep. Clay Fuller reveals he’s FULL STEAM AHEAD on IMPEACHING rogue leftist Judge Eleanor Ross GOOD! Impeachments are long overdue 🔥 FULLER: “I will hold rogue judges accountable. I don’t care how long it takes. I will fight to "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095586056259432489",
-          "author": "barkingfrogger_",
-          "searchJob": "san-diego-state",
-          "text": "The Aztecs were still a mercenary people. The offer, as he puts it, was simple: serve the empire and live, or face the ritual machinery of a state that did not flinch. That is less a mystery of “savagery” than a pattern empires keep repeati"
+          "postId": "2095570132143640834",
+          "author": "_drcharliewardq",
+          "searchJob": "georgia-state",
+          "text": "🚨 JUST IN: Rep. Clay Fuller reveals he’s FULL STEAM AHEAD on IMPEACHING rogue leftist Judge Eleanor Ross GOOD! Impeachments are long overdue 🔥 FULLER: “I will hold rogue judges accountable. I don’t care how long it takes. I will fight to "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095593373151187259",
+          "author": "teamfoldscope",
+          "searchJob": "hawaii",
+          "text": "If the Foldscope 2.0 Explorer Kit has been on your wish list, now’s the time to grab one! 🔬 For a limited time, get FREE SHIPPING on the Foldscope 2.0 Explorer Kit! Discover what’s hiding beyond the naked eye with a portable paper microsco"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095587670940389616",
+          "author": "akeemmccoy",
+          "searchJob": "hawaii",
+          "text": "@Team2Trading @fredtrades You never offered me this opportunity even tho I don’t live in Hawaii lol"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095584417712648647",
-          "author": "newstart_2024",
-          "searchJob": "san-diego-state",
-          "text": "The Aztecs did not out-civilize Mesoamerica. They out-hustled it. Ed Barnhart’s version is blunt. They spread south into the Maya world like a fire, renamed other people’s towns, and put them on tribute. Neighbors had grown settled and comf"
+          "postId": "2095577902007898422",
+          "author": "uhpressnews",
+          "searchJob": "hawaii",
+          "text": "Celebrate Hawaiian History Month! 📚 Save 30% on featured books with code HHM26, or 25% on Hawai‘i: A Kingdom Crossing Oceans with code KINGDOM25. Offers end Sept. 30. https://t.co/UDrWFP4pBO #HawaiianHistoryMonth #HawaiiHistory #QueenLiliu"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095570595794522323",
+          "author": "ballcoachhp",
+          "searchJob": "kennesaw-state",
+          "text": "Let’s welcome @Ashton23elite Ashton Kelley 5’11 170’ Kicker Kennesaw, Georgia No offers https://t.co/jrD4pZHTS6 3.62 GPA #TeamGrind🔥 https://t.co/cRYN1NitJl"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095600888379490758",
+          "author": "newkentmotel",
+          "searchJob": "kent-state",
+          "text": "Looking for a place to stay in Hollywood, South Florida? New Kent Motel offers rooms with comfortable bedding, internet, cable TV, and access to a large swimming pool. Some rooms include kitchens. https://t.co/YPdFlk76ze #NewKentMotel #Holl"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095589338478497989",
-          "author": "thatcryptolad_",
-          "searchJob": "south-florida",
-          "text": "🌙 BTC EVENING WRAP ₿ BTC: $81,276.68 📈 Trend: BULLISH 📊 RSI: 80.29 (OVERBOUGHT) 🎯 OVERNIGHT LEVELS 🟢 Bulls need: $81,321.71 🔴 Bears need: $76,591.45 📋 CURRENT BIAS 🟡 WAIT 👀 Watch above $81,321.71 for LONG 👀 Watch below $76,591.45 "
+          "postId": "2095570012715250088",
+          "author": "ryannokneel",
+          "searchJob": "kent-state",
+          "text": "Tried to pay my alcohol awareness course fine in 6 monthly installments but it wouldn't let me book the course until all 6 were paid and my driving licence return will depend on this course. Had to pay it in a one-er. Some fucking holiday i"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095597738318823857",
+          "author": "babybosun",
+          "searchJob": "liberty",
+          "text": "Mastering any skill adds to the options life offers you. As your talents grow, you gain greater liberty to turn away from paths that don't suit you and pursue what truly resonates with your spirit. ⚔Strolling with my son at dusk, the stars "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095595061203595432",
+          "author": "ertyu3467",
+          "searchJob": "liberty",
+          "text": "Embrace the liberty of jogging and the splendor of sunrise during serene early hours. Free from schedules and petty interruptions, simply let your intuition guide your steps and savor the untainted delight of physical activity. 🐵 Dawn Stre"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095592916613730687",
+          "author": "orthodoxreflec1",
+          "searchJob": "liberty",
+          "text": "Liberty Needs a Last Line of Defense Courts, legislatures and elections can all fail. What remains when government power becomes oppressive? Jury nullification has historically offered citizens a peaceful check against unjust prosecution. h"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095595627237503285",
-          "author": "ani",
-          "searchJob": "temple",
-          "text": "#WATCH | Golaghat, Assam: CM Himanta Biswa Sarma visited the Negheriting Shiva Doul temple in Dergaon and offered prayers. He reviewed plans to develop the temple complex into a major tourist destination. (03.09) https://t.co/BlU6q7bgK6"
+          "postId": "2095597951234277602",
+          "author": "reimakayla",
+          "searchJob": "tulsa",
+          "text": "Tulsa will pay you $10,000 to move there. West Virginia will pay you $12,000. A clean 3-bedroom in Tulsa runs about $165,000, and the down payment on it is $5,775 The city just paid your down payment and gave you $4,225 for the U-Haul These"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095592793431543932",
-          "author": "lancelands",
-          "searchJob": "temple",
-          "text": "Brother Edwards, you don't deserve the dog pile, so let me offer some perspective that might allow for a different point of view. The first time I ever met your grandpa in person was in an endowement session in the old Provo Temple over 30 "
+          "postId": "2095601110186631197",
+          "author": "scedwards707",
+          "searchJob": "alabama",
+          "text": "You hire the clown you get the circus. For the very few Bama fans out there that wonder if Lane would ever get an offer in Ttown… he’s showing you why that won’t ever happen #SEC"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095598209607291358",
+          "author": "willengel743466",
+          "searchJob": "alabama",
+          "text": "You are delusional mark carney has already made three concessions and trump is yet to make one. We will win this trade war whether you like it or not. -Scrapping the Digital Services Tax (DST): Canada dropped its planned tax targeting major"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095588715154350295",
+          "author": "np4football_ot",
+          "searchJob": "alabama",
+          "text": "Correction: Harris the 2027 DL from Alabama has 6 Offers to Date**"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095584075348385963",
+          "author": "coachdrew94",
+          "searchJob": "alabama",
+          "text": "Josh Jacobs came to me his senior year with zero offers. After enrolling in my program he had 20+ offers — including one from Nick Saban at Alabama. He won two national championships. Went in the first round of the NFL Draft. Signing bonus:"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095591068045853157",
-          "author": "bhaveshlivelife",
-          "searchJob": "temple",
-          "text": "When Steve Jobs Sent Mark Zuckerberg To Kainchi Dham 🙏 During Facebook’s difficult early phase, Mark Zuckerberg approached Apple founder Steve Jobs for guidance. Jobs advised him to visit the Indian temple that had influenced his own spiri"
+          "postId": "2095599345232195902",
+          "author": "fitarmy",
+          "searchJob": "texas",
+          "text": "He quoted John 20:17. He skipped John 20:28. Eleven verses later Thomas looks at the risen Yeshua and says “My Lord and my God.” Yeshua does not correct him. He blesses him. Eleven verses away, and it never made the video. Watch the same mo"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095598177457987922",
+          "author": "bryce_cruse",
+          "searchJob": "texas",
+          "text": "I love California and everything it has to offer but when a crisp Saturday night in the fall rolls around, there’s no place I’d rather be than in Lubbock watching Texas Tech play football."
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095579926384824818",
-          "author": "exile_2jsb_3jsb",
-          "searchJob": "temple",
-          "text": "“So, what’s our next move?” he inquired. “Here we are in Egypt, yet we have no idea where to find the Temple of Osiris. My grandfather’s diary offers a few hints, though they’re quite vague.” https://t.co/Szwdb8pd1F"
+          "postId": "2095595511999086940",
+          "author": "montaname1",
+          "searchJob": "texas",
+          "text": "@DanPatrick 🤣Riiiiiight. Paxton is a terrible orator, and everyone knows he would drive away voters in any \"debate.\" He has nothing to offer but proximity to trump. And he doesn't want to answer ANY hard questions about his corruption. Tex"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095570529243844679",
-          "author": "ajantaneog",
-          "searchJob": "temple",
-          "text": "This evening, I joined Hon’ble Chief Minister Dr. @himantabiswa at the historic Negheriting Shiva Doul in Golaghat, where he offered prayers to Mahadev and sought His blessings for the peace, prosperity and well-being of the people of Assam"
+          "postId": "2095594674899837033",
+          "author": "montaname1",
+          "searchJob": "texas",
+          "text": "@cbs11jack @KenPaxtonTX 🤣Riiiiiight. Paxton is a terrible orator, and everyone knows he would drive away voters in any \"debate.\" He has nothing to offer but proximity to trump. And he doesn't want to answer ANY hard questions about his cor"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095568564384415902",
-          "author": "oscarwhittierca",
-          "searchJob": "temple",
-          "text": "1/5 ABOUT 1 Kings 5 -SOLOMON PREPARES TO BUILD THE TEMPLE: When David offered to build a femple, God said no through the prophet Nathan (2 Samuel 7: 1-17). God wanted a PEACEMAKER not a warrior, to build his house of prayer (1 Chronicles 28"
+          "postId": "2095586397902053833",
+          "author": "amilynne87",
+          "searchJob": "texas",
+          "text": "@WeaselPrime @ProsecutorsPod Happy little echo chambers - it’s why I don’t block ppl who disagree with me on political stuff or information I put forth regarding legislative reforms in Texas. It’s good to know and hear the other side bc the"
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2095576238148509791",
-          "author": "iam_alinedouard",
-          "searchJob": "tulane",
-          "text": "C/O 29 (@PrepRedzoneTX) All Saints HS OL Carson Campbell was offered by Tulane @GreenWaveFB 🚨🔥"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095593006531330439",
-          "author": "fravel_ryan",
-          "searchJob": "ohio-state",
-          "text": "BREAKING: ELITE Class Of 2028 4⭐ LB Gabriel Player will visit Notre Dame for the Miami game November 7th! He was offered by the Irish back in February and this will be his first trip to South Bend. Miami, Ohio State, Texas, Texas A&M, & Flo"
+          "postId": "2095585379982217316",
+          "author": "theodoreii1975",
+          "searchJob": "texas",
+          "text": "@AndrewSandra90 @X here is the free estimate & free consultation. We did for Mr John, from Sarasota Florida. That is residing on the Northside of Texas. He wanted his patio roof fixed. It didn't or doesn't have a waterproofing solution. The"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095584859062145061",
-          "author": "ucrrg",
-          "searchJob": "oklahoma",
-          "text": "From service bays to test drives to ransomware scares, dealers face risk from every angle. Our Oklahoma-domiciled Risk Retention Group offers garage liability, auto liability and cyber coverage for eligible auto dealers in select states."
+          "postId": "2095583960025702572",
+          "author": "cityofcc",
+          "searchJob": "texas",
+          "text": "𝗩𝗼𝗹𝘂𝗻𝘁𝗲𝗲𝗿𝘀 𝗡𝗲𝗲𝗱𝗲𝗱 𝗳𝗼𝗿 𝘁𝗵𝗲 𝗖.𝗔.𝗦.𝗧. 𝗙𝗶𝘀𝗵𝗶𝗻𝗴 𝗘𝘃𝗲𝗻𝘁! Join us for an inspiring day at the 𝗖𝗔𝗦𝗧 𝗞𝗶𝗱𝘀 𝗙𝗶𝘀𝗵𝗶𝗻𝗴 𝗘𝘃𝗲𝗻𝘁 𝗼𝗻 𝗦𝗮𝘁𝘂𝗿𝗱𝗮𝘆, 𝗢𝗰𝘁𝗼𝗯𝗲𝗿 𝟭𝟳. 𝗛𝗼𝘀𝘁𝗲𝗱 𝗯𝘆 𝘁𝗵𝗲 𝗖\ud835"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095592003538936068",
-          "author": "theucreport",
-          "searchJob": "ole-miss",
-          "text": "Xavien Littleton has been one of the biggest stock risers of the high school football season so far this year 🔥 @X_Littleton Arkansas, Texas A&amp;M, Virginia Tech, Ole Miss, Miami, Auburn, and West Virginia have all offered since the seas"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095591406962348286",
-          "author": "packwbb_jerry",
-          "searchJob": "ole-miss",
-          "text": "Pack 2027 Offer Series: Abuna Ruop (@AbunaRuop) is the size they don’t find every cycle.6-6 to 6-9 center at Norfolk Christian (VA). Shot-blocker and rebounder first. About 12.8 points, 11.7 rebounds, 4.5 blocks. Alters shots just by standi"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095584632867623228",
-          "author": "girlmoneyguide",
-          "searchJob": "ole-miss",
-          "text": "@lifeofbrycee @OleMissFB @CoachGolding @_kbolden @drm_12 @ESPN3ALLDAY @adamgorney @ChadSimmons_ @samspiegs @BSonnone Looks like they’re collecting offers like trophies—soon to open a museum of wins."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095576324320440717",
-          "author": "misslou365",
-          "searchJob": "ole-miss",
-          "text": "Ole Miss offers Germantown 2028 playmaker Bryce Johnson - Ole Miss 365 @OleMiss365 Story: https://t.co/QW7EBm8eEJ #OleMiss #HottyToddy @Rebels247"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095574211280445704",
-          "author": "wolf0dte",
-          "searchJob": "ole-miss",
-          "text": "@bryantnickels @ConnorHennes ??? Define currently. This past season? Anyone would leave if they were offered more resources for a school. Ole Miss has made the playoffs a collective total of one time, and it was under Kiffin. There’s not re"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095570325891072193",
-          "author": "recruitgeorgia",
-          "searchJob": "ole-miss",
-          "text": "Stephenson's 6'4\" freshman lands an #SEC offer from Ole Miss. Young edge holds several P4 program offers now #RecruitGeorgia"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095579718644830279",
-          "author": "sassyeagleusa",
-          "searchJob": "penn-state",
-          "text": "@JayPops5 @rcb05 Oh, you didn’t know A&amp;M, Tennessee, Oregon, Penn State, and quite a few other schools offered him a scholarship to play QB for them? Maybe check out his Bio."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095587147059220637",
-          "author": "coachebenton",
-          "searchJob": "south-carolina",
-          "text": "USC will literally do anything NOT to offer a South Carolina kid.. going as far as having four or five kickers on the roster, even adding one days before the season starts. 30 yards and counting."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095587212167385425",
-          "author": "jboyd_dc",
-          "searchJob": "tennessee",
-          "text": "Tennessee minority party's gubernatorial nominee works to encourage party leaders despite uphill battle against Blackburn for state's top seat. Jerri Green offers message of hope to Democrats | Elections | https://t.co/yYSR9OwCic https://t."
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095583902249165042",
+          "author": "thedail20381014",
+          "searchJob": "texas",
+          "text": "John W Lang | Texas Realtor | HomeSmart Realty https://www. workforce-resource. com/dpr/pmt/HAR/JWL77318 TSAHC Mortgage Credit Certificate tip. Education only. Not a loan offer. https://t.co/pJB7rfcNny"
         }
       ]
     },
@@ -418,20 +440,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 29,
+      "swept": 33,
       "failed": 1,
-      "requests": 30,
+      "requests": 34,
       "errors": [
-        "georgia-state: rate limited"
+        "louisiana: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 32,
-      "brandNewOffers": 0
+      "acceptedEvidence": 2,
+      "rejectedCandidates": 36,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-03T19:43:19.511Z"
+    "status rebuilt locally from current store on 2026-09-03T19:58:22.260Z"
   ]
 }
