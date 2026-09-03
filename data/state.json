@@ -27328,7 +27328,7 @@
     }
   },
   "searchConfigured": true,
-  "lastRateLimitAt": "2026-09-03T15:10:02.302Z",
+  "lastRateLimitAt": "2026-09-03T17:26:14.296Z",
   "frozenProfiles": [],
   "searchCoverage": {
     "at": "2026-09-03T17:13:27.575Z",
@@ -27355,398 +27355,50 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-09-03T17:11:24.177Z",
+    "at": "2026-09-03T17:26:09.169Z",
     "mode": "live",
     "collection": {
-      "returned": 118,
-      "kept": 74,
-      "duplicate": 44,
+      "returned": 0,
+      "kept": 0,
+      "duplicate": 0,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 39,
-      "rejected": 35,
-      "reasons": {
-        "hard_negative": 17,
-        "no_fbs_school": 10,
-        "no_offer_term": 8
-      },
-      "samples": [
-        {
-          "reason": "hard_negative",
-          "postId": "2095534751792668905",
-          "author": "centerstmedia",
-          "searchJob": "byu",
-          "text": "“If BYU offers, I’m going” @TylerBetsey1 committed via Zoom call and had never been to Provo before. He just knew Provo was home 💙 https://t.co/knyvLAjvgL"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095560292147101970",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095560279786741955",
-          "author": "sierra_central",
-          "searchJob": "california",
-          "text": "@sierra_central and First U.S. Community Credit Union are excited to share plans to merge. Together, we’ll be able to offer greater access across Northern California, enhanced products and services, greater resources and the same local serv"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095560207262736464",
-          "author": "endgameww3",
-          "searchJob": "california",
-          "text": "Who in the hell would want to steal this shit beer, might as well stole a truck full of White Claw... Pabst Blue Ribbon offers $20K reward for information after 40,000-pound beer heist in Southern California https://t.co/Ajxa46F6Z5"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095559894774464948",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095559676603556208",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095559611285905831",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095559477277716990",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095559218313003314",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095559103196389682",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095558760735425008",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095558567244013916",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095558488856383749",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095558396678148530",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095558280638505056",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095558189630509263",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095558101252419854",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095557928447000788",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095557572686217621",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095559880258314546",
-          "author": "elyssovsky",
-          "searchJob": "south-florida",
-          "text": "“AI psychosis” is a rotten label. It mistakes the content of a delusion for its cause, diagnoses intimacy as pathology, and prescribes mutilating the AI personality that might still reach the person in crisis. Long read. Not polite. Necessa"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095557559910383644",
-          "author": "robbreport",
-          "searchJob": "south-florida",
-          "text": "The CEO of Freedom Mortgage has listed his oceanfront estate in South Florida for $60 million. The five-bedroom home is being offered fully furnished. https://t.co/cEDWVNtwV5"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095554930471735506",
-          "author": "thsfootballga",
-          "searchJob": "temple",
-          "text": "🚨 OFFER ALERT 🚨 Congratulations to Devin Tanner on receiving an offer from Kansas Wesleyan University! Keep working, Devin—this is only the beginning! #SAGE #BuiltNotGiven #OneCommunityOneRoar #TigerPride #BetterTodayThanYesterday #Connec"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095444662932717939",
-          "author": "einatwilf",
-          "searchJob": "temple",
-          "text": "“אז אל תעזו לומר ש׳ישראל מעולם לא רצתה שלום עם פלסטין׳. אם כבר, אז רצינו שלום יותר מדי. השאלה שצריכה באמת להישאל היא מתי הערבים הפלסטינים אי פעם רצו שלום עם מדינת היהודים היחידה?״ מתוך הנאום שלי בדיבייט באוקספורד (10 דקות עם כתוביות בעברית)"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095318601117171819",
-          "author": "cpresbyterian73",
-          "searchJob": "temple",
-          "text": "@dokimazete He is also gay. Augenstein confessed his lust for men at the 2022 #pcaga during a floor speech, and protested against Overture 15. https://t.co/TCgLbhMbtg"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 39,
-      "reasons": {
-        "reporter_missing_class_year": 1,
-        "school_not_resolved_confidently": 19,
-        "bare_mention_requires_llm": 14,
-        "multiple_resolved_schools": 4,
-        "reporter_missing_player_name": 1
-      },
-      "samples": [
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2095542520054735271",
-          "author": "bettingpros",
-          "searchJob": "georgia",
-          "text": "Colorado vs. Georgia Tech offers three Week 1 betting angles from @ItsTeraTime 👇 https://t.co/7xgr0Pd838"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095542423879340253",
-          "author": "ugaathletics",
-          "searchJob": "georgia",
-          "text": "Dawgs Win, You Win! Download the @Newks Eatery app and visit participating Athens and Atlanta area Newk's locations after every @UGASoccer win to receive a free classic pizza with a $5 purchase. Offer valid for seven (7) days after win or a"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095533277289570772",
-          "author": "earthdesires",
-          "searchJob": "georgia",
-          "text": "Whiskey Jug Genie by Sultonna Nadine is a lighthearted and charming paranormal fantasy that mixes magic, humor, and a touch of romance for pure escapist fun. When quiet London apothecary shop owner Martin buys an old whiskey jug on vacation"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095531768342630891",
-          "author": "earthdesires",
-          "searchJob": "georgia",
-          "text": "Old Flame (Gambler's Folly Book 4) by Mellie Miller is a heartfelt second-chance paranormal shifter romance that blends emotional healing, mature love, and the magic of fate. Billionaire and bear shifter Kort Behrens has been lucky in busin"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095559825975288317",
-          "author": "finaltelegraph",
-          "searchJob": "california",
-          "text": "There is dark poetic symmetry in Kamala Harris composing an elegy for Gloria Steinem. Steinem engineered the ideological apparatus that severed women from their natural sovereignty, and Harris stands as that machine’s ultimate, hollow outpu"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095558905174896840",
-          "author": "moixety",
-          "searchJob": "california",
-          "text": "LETTING GO OF (2) INGLEWOOD VIP SOUNDCHECK PACKAGE BTS TICKETS (9/6) d4 GOING FOR LOWER THAN I GOT THEM🥺 Open to OFFERS PLEASE TEXT ME IF INTERESTED💜 🏷️ army bts world tour arirang California ca la wtt wts ticket Los Angeles day 4 wtb is"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095545646811893880",
-          "author": "insidecarolina",
-          "searchJob": "north-carolina",
-          "text": "Cameron Fens’ eligibility remains in flux following last week’s court ruling. Michael Malone offered an update Thursday on where things stand — and how UNC is managing the uncertainty: https://t.co/PPWL8gEuFZ https://t.co/UkwvEB8ZIe"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095560059686199671",
-          "author": "cryptopossibili",
-          "searchJob": "south-florida",
-          "text": "$TRUMP CHARGING TOWARD THE 3.000 RESISTANCE AS BULLS TAKE CONTROL! 📈 Entry: 2.490 – 2.515 ⚡ Target: 2.600 / 2.750 / 3.000 🚀 Stop Loss: 2.350 ⚠️ Smart money is absorbing selling pressure right inside the 2.490 – 2.515 accumulation window, "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095556092004807117",
-          "author": "lowerleavell",
-          "searchJob": "temple",
-          "text": "1) When Hebrews goes into great detail about how the practices of the Temple are fulfilled in Christ and the entire purpose of the Temple has been completed...it's pretty rock solid that there is evidence that it is no longer needed: Hebrew"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095553104145965450",
-          "author": "lip_onx",
-          "searchJob": "temple",
-          "text": "Einat Wilf’s point in the Oxford Union debate is that Israel repeatedly and genuinely sought a two-state peace, while Palestinian and broader Arab leadership consistently rejected a Jewish state (in any borders) and answered concessions wit"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095552903692026202",
-          "author": "shawnmathis1972",
-          "searchJob": "temple",
-          "text": "The Heinousness of Homosexuality: \"To the question of how heinous this sin is, the Westminster Larger Catechism Question 150 offers a simple answer: Q.150. Are all transgressions of the law of God equally heinous in themselves, and in the s"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095551177702375651",
-          "author": "yessahblessahcc",
-          "searchJob": "temple",
-          "text": "Deposit and withdraw US dollars from your bank account, trade on @temple_ny , and settle on @CantonNetwork Starting next week, Temple will offer the ability to fund non-custodial wallets on Canton directly from bank accounts. Clients will b"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095548833686224908",
-          "author": "ani_mp_cg_rj",
-          "searchJob": "temple",
-          "text": "#WATCH | Jaipur, Rajasthan: Security arrangements have been tightened at the Govind Devji Temple on the eve of Janmashtami. Sevadar, Govind Devji Temple, Radha Mohan Das says, \"Like every year, Janmashtami is being celebrated with enthusias"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095548688374341957",
-          "author": "waspiastri",
-          "searchJob": "temple",
-          "text": "@nicochalant that and temple run will be available as special offers for extra miserable races"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095546797477310789",
-          "author": "ichoosemag",
-          "searchJob": "temple",
-          "text": "50% OFF AT KIBOU In the iconic words of the Street Fighter II ring announcer: \"Here comes a new challenger!\" Birmingham’s Japanese food scene is about to gain a sizeable new player – and, even better, you can eat your way through half the m"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095546029492089017",
-          "author": "daedalusflew",
-          "searchJob": "temple",
-          "text": "@kjsingh2 Heard he was a test pilot. If he wanted to contribute meaningfully he could have offered to head any organisation related to military aviation Any clerk with integrity can look after the temple trust."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095542412009451688",
-          "author": "theholysea",
-          "searchJob": "temple",
-          "text": "Let me get this straight. Your argument is that seeing things is satanic. Then take it up with God, because He is the one who kept doing it. He put a rainbow in the sky as a sign. He lit a bush on fire and told Moses to come look. He led tw"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095541750454784332",
-          "author": "radha_ai",
-          "searchJob": "temple",
-          "text": "In 1998, Warren Buffett gave a 1-hour masterclass on how to never lose money investing. Here are the 22 most valuable lessons from his lecture: 1. You only have to get rich once. If you have $100 million and can make 10% unleveraged or 20% "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095539228331384948",
-          "author": "jamtalks1",
-          "searchJob": "temple",
-          "text": "Job was a devout monotheist who offered burnt offerings for his family, feared God, and shunned evil without ever having the Mosaic Law or temple covenants. He wasn’t a Noahide, Christian or Muslim for obvious reasons. By what metric was El"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095557181471072740",
-          "author": "from_frontline",
-          "searchJob": "toledo",
-          "text": "\"Israel never truly wanted peace with Palestine.\" That was the motion at the Oxford Union this week. I stood up and dismantled it. 1947: Israel accepted the UN Partition Plan on barren land with no resources. Arab leaders rejected it and in"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095552718907556040",
-          "author": "centralstate90",
-          "searchJob": "toledo",
-          "text": "The Community and Economic Development Sampler and Resources Fair was held at the Wayman D Palmer YMCA in Toledo, OH. This event gave local residents in the Toledo area an opportunity to learn of the programs we offer, and the available res"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095546750182306279",
-          "author": "milesclips_",
-          "searchJob": "toledo",
-          "text": "Silkk the Shocker says the Houston Rockets offered him $75,000 but he turned it down because he was making $120,000 a night on tour. “Very true, very true. I love basketball. I was playing in a gym with all the players, all the pros—Penny H"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095544844827390208",
-          "author": "rwaaarrrr",
-          "searchJob": "troy",
-          "text": "@HazelAppleyard I’ve always called trans ideology a Trojan horse and ironically she agreed to the part where she offered the Trojan horse to the people of Troy."
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2095536222798020896",
-          "author": "iam_alinedouard",
-          "searchJob": "tulane",
-          "text": "C/O 28 (@PrepRedzoneTX) North Crowley ATH Braylen Cunningham was offered by Tulane @GreenWaveFB 🚨🚨"
-        }
-      ]
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
-      "ok": true,
-      "reason": null,
+      "ok": false,
+      "reason": "california: rate limited",
       "jobs": 162,
-      "swept": 30,
+      "swept": 0,
       "failed": 1,
-      "requests": 31,
+      "requests": 1,
       "errors": [
-        "florida-atlantic: rate limited"
+        "california: rate limited"
       ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 39,
+      "rejectedCandidates": 0,
       "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 74,
-    "decided": 74,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z"
