@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-03T19:26:15.080Z",
+  "generatedAt": "2026-09-03T19:43:19.510Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-03T19:13:26.465Z",
+    "at": "2026-09-03T19:43:19.261Z",
     "jobsTotal": 162,
-    "sweptThisRun": 33,
-    "requests": 34,
-    "fullSweepCycles": 5
+    "sweptThisRun": 29,
+    "requests": 30,
+    "fullSweepCycles": 6
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -27,60 +27,15 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [
-    {
-      "id": "california",
-      "hours": 2.2
-    },
-    {
-      "id": "north-carolina",
-      "hours": 2.2
-    },
-    {
-      "id": "san-diego-state",
-      "hours": 2.2
-    },
-    {
-      "id": "san-jose-state",
-      "hours": 2.2
-    },
-    {
-      "id": "south-alabama",
-      "hours": 2.2
-    },
-    {
-      "id": "south-florida",
-      "hours": 2.2
-    },
-    {
-      "id": "southern-miss",
-      "hours": 2.2
-    },
-    {
-      "id": "temple",
-      "hours": 2.2
-    },
-    {
-      "id": "toledo",
-      "hours": 2.2
-    },
-    {
-      "id": "troy",
-      "hours": 2.2
-    },
-    {
-      "id": "tulane",
-      "hours": 2.2
-    }
-  ],
+  "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0010027777777777,
-    "p95Hours": 2.2474672222222223,
-    "worstHours": 2.2474672222222223
+    "medianHours": 1.0352425,
+    "p95Hours": 2.033802777777778,
+    "worstHours": 2.033802777777778
   },
   "decisionCoverage": {
-    "total": 0,
-    "decided": 0,
+    "total": 54,
+    "decided": 54,
     "complete": true
   },
   "pending": {
@@ -89,7 +44,7 @@
   "profileResolution": {
     "cached": 34
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 621,
     "incompleteOffers": 0
@@ -97,53 +52,386 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-03T19:13:26.464Z",
-      "got": 101,
-      "new": 82,
+      "at": "2026-09-03T19:43:19.260Z",
+      "got": 75,
+      "new": 54,
       "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-03T19:26:10.623Z",
+    "at": "2026-09-03T19:41:13.940Z",
     "mode": "live",
     "collection": {
-      "returned": 0,
-      "kept": 0,
-      "duplicate": 0,
+      "returned": 75,
+      "kept": 54,
+      "duplicate": 21,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 32,
+      "rejected": 22,
+      "reasons": {
+        "no_fbs_school": 13,
+        "no_offer_term": 5,
+        "hard_negative": 4
+      },
+      "samples": [
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095596306890711505",
+          "author": "zlabe",
+          "searchJob": "south-florida",
+          "text": "\"South Florida sits on the front lines of sea-level rise and climate change—and this WLRN original production offers a compelling look at how local communities are responding.\" - new documentary via @WLRN at https://t.co/PWq8FpreKy"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095595990653006209",
+          "author": "ilirmehmetaj",
+          "searchJob": "temple",
+          "text": "The same water in a village as in the capital — because every tower makes it the same way. A village with its own water and its own power — where staying becomes a choice. https://t.co/i6L3tWIGAD"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095591141962035244",
+          "author": "varsitycombine1",
+          "searchJob": "temple",
+          "text": "🚨 COMBINE MVP ALERT: CARTER TEMPLE 🚨 QB | c/o 2027 | Kearney (MO) @cartertemple2 🏆 Combine MVP 📏 Wingspan: 77\" ⚖️ 6'3\" / 220 lbs ⏱️ 20-Yard Shuttle : 4.24 Recognized by @CoachHoover Spin It https://t.co/mQVyrNuAW2 team in @montellcozart"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095566982087369163",
+          "author": "tv13gujarati",
+          "searchJob": "temple",
+          "text": "Ambaji Shitala Mata Mandir: અંબાજી ગામના પાદરે આવેલા શીતળા માતા મંદિરે દર્શનાર્થે ઉમટ્યા શ્રદ્ધાળુઓ, બાળકોના સ્વાસ્થ્ય માટે કરી પ્રાર્થના https://t.co/zkKW79btl8 #Ambaji #ShitalaSatam #AmbajiNews #ShitalaMataMandir #BanaskanthaNews #Shravan"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095571843910381995",
+          "author": "troycperry",
+          "searchJob": "troy",
+          "text": "@JohnDePetroshow Lunatic-Lindsay Crazy-Clancy forever took those babies from this realm out of selfishness &amp; spite. If she wanted to end her life - FINE! She had NO RIGHT to take them &amp; their untapped potential they had to offer thi"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095575564522254357",
+          "author": "freemanschool",
+          "searchJob": "tulane",
+          "text": "Freeman MBA alumni: Ready to return to the classroom? Our Lifelong Learning Initiative offers: ✅Weekend intensives at Uptown Campus ✅ Official academic credit ✅ Courses in AI, strategy, finance &amp; innovation Request info: https://t.co/Ns"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095594539138404560",
+          "author": "whiteoutfb",
+          "searchJob": "kentucky",
+          "text": "6 foot 2 251 pound 3 Star DL out of Cincinnati Ohio @McKinney2028 will be inside Beaver Stadium Saturday for the home opener. McKinney has offers from all over the nation. Iowa State to Minnesota. Indiana to Kentucky. The Cincy DL will be a"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095592332468818372",
+          "author": "kentuckyag",
+          "searchJob": "kentucky",
+          "text": "Photos you can hear! From early-morning rooster crows and post drivers on a summer's day to late-night tractor startups — agriculture across the commonwealth offers a variety of unique beauty and individuality. https://t.co/68CJDu11Zl"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095579590328553746",
+          "author": "cune",
+          "searchJob": "nebraska",
+          "text": "Our September Continuing Education Unit courses offer practical learning and spiritual encouragement in a short, non-credit format. Courses start soon! Visit https://t.co/mpj9gFbNVE to register today. https://t.co/6IZqnfqx40"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095587908568723814",
+          "author": "mftxac",
+          "searchJob": "northwestern",
+          "text": "https://t.co/q2HF2zoWgf"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095592966626664877",
+          "author": "allentrieu",
+          "searchJob": "ohio-state",
+          "text": "Cincinnati Princeton RB decommits from Miami (Ohio). Earned several new offers after his week one performance and visits Ohio State this weekend: https://t.co/5X80scaed2"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095592512110919998",
+          "author": "2k_jlo",
+          "searchJob": "ohio-state",
+          "text": "Thank you miami for everything ❤️ https://t.co/ksACoIQp4q"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095592665161302264",
+          "author": "profilefblive",
+          "searchJob": "ole-miss",
+          "text": "📈 Trending Recruit 📈 2029 Edge Darrius Gross from Germantown HS, MS is currently Profile's Top Trending 2029 recruit after recent offers from Tennessee, Ole Miss, and Mississippi State. @GrossDarrius Rated 3.4 ⭐ (#298 NATL, #22 Edge, #7 M"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095587515381989815",
+          "author": "medunivsc",
+          "searchJob": "south-carolina",
+          "text": "Yesterday, we welcomed some of the newest members of the MUSC community at our annual New Student Luncheon! Explore what else student life at MUSC has to offer: https://t.co/AYRdDPoSXX #ChangingWhatsPossible https://t.co/Zd4qolDVKC"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095578142219887005",
+          "author": "wesmitchellgc",
+          "searchJob": "south-carolina",
+          "text": "BREAKING: South Carolina is adding 5th-year Houston transfer kicker Ethan Sanchez to its roster for this season. Read: https://t.co/wOAgsWpTR6 https://t.co/hpmZ88GcOc"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095597891075067958",
+          "author": "texanscommenter",
+          "searchJob": "houston",
+          "text": "@theeezy1 Still don’t follow. This isn’t about what he is. It’s about what he’s been offered. Can you read again?"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095585699667869714",
+          "author": "texanscommenter",
+          "searchJob": "houston",
+          "text": "@theeezy1 People are saying to accept 45 when he’s been offered in the 50s. Follow along"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095580868718793068",
+          "author": "texanscommenter",
+          "searchJob": "houston",
+          "text": "@nuttallriley1 Yes in 50s. But l said that to counter you saying no way Caserio would sign him. Giving him a respectable offer doesn’t reflect that imo"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095579704417747143",
+          "author": "kellyg581976179",
+          "searchJob": "houston",
+          "text": "@MarjonQ17isBACK Houston, TX area: Please adopt or offer to foster this absolutely precious , sweetheart! He’s urgent !! A rescue can’t pull him without a foster home to take him to🙏😢"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095574960051728781",
+          "author": "texanscommenter",
+          "searchJob": "houston",
+          "text": "@nuttallriley1 They’ve already made a competitive offer reportedly"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095574055915036846",
+          "author": "texanscommenter",
+          "searchJob": "houston",
+          "text": "@L0ckD0wn101 Ah yes, lower that what he’s already been reportedly offered"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095573020274299276",
+          "author": "texanscommenter",
+          "searchJob": "houston",
+          "text": "@Brandon51786 He’s been reportedly offered in the 50s. Why would you take less??"
+        }
+      ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "rejected": 32,
+      "reasons": {
+        "bare_mention_requires_llm": 16,
+        "school_not_resolved_confidently": 10,
+        "reporter_missing_player_name": 1,
+        "multiple_resolved_schools": 5
+      },
+      "samples": [
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095582626044133757",
+          "author": "scmonitoring",
+          "searchJob": "north-carolina",
+          "text": "North Carolina dealers, this one is for you. Our upcoming September 17 training class, sponsored by ELK Products, offers 6 CEU credit hours and a valuable opportunity to keep your team current. Seats are limited and filling up quickly. Regi"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095569751640514897",
+          "author": "noahweiskopf",
+          "searchJob": "north-carolina",
+          "text": "#UNC coach Michael Malone offered the latest update on center Cameron Fens, who is currently ineligible to play, on Thursday. Here’s what Malone said: https://t.co/DCJ6FrX1ju"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095597330271789494",
+          "author": "johnddavidson",
+          "searchJob": "san-diego-state",
+          "text": "Modern people who live in a desacralized world don’t understand this: all sacrifice involves consuming that which is sacrificed. In the Old Testament, the Israelites sacrificed animals, wine, oil—some of which was given as a burnt offering "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095586056259432489",
+          "author": "barkingfrogger_",
+          "searchJob": "san-diego-state",
+          "text": "The Aztecs were still a mercenary people. The offer, as he puts it, was simple: serve the empire and live, or face the ritual machinery of a state that did not flinch. That is less a mystery of “savagery” than a pattern empires keep repeati"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095584417712648647",
+          "author": "newstart_2024",
+          "searchJob": "san-diego-state",
+          "text": "The Aztecs did not out-civilize Mesoamerica. They out-hustled it. Ed Barnhart’s version is blunt. They spread south into the Maya world like a fire, renamed other people’s towns, and put them on tribute. Neighbors had grown settled and comf"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095589338478497989",
+          "author": "thatcryptolad_",
+          "searchJob": "south-florida",
+          "text": "🌙 BTC EVENING WRAP ₿ BTC: $81,276.68 📈 Trend: BULLISH 📊 RSI: 80.29 (OVERBOUGHT) 🎯 OVERNIGHT LEVELS 🟢 Bulls need: $81,321.71 🔴 Bears need: $76,591.45 📋 CURRENT BIAS 🟡 WAIT 👀 Watch above $81,321.71 for LONG 👀 Watch below $76,591.45 "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095595627237503285",
+          "author": "ani",
+          "searchJob": "temple",
+          "text": "#WATCH | Golaghat, Assam: CM Himanta Biswa Sarma visited the Negheriting Shiva Doul temple in Dergaon and offered prayers. He reviewed plans to develop the temple complex into a major tourist destination. (03.09) https://t.co/BlU6q7bgK6"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095592793431543932",
+          "author": "lancelands",
+          "searchJob": "temple",
+          "text": "Brother Edwards, you don't deserve the dog pile, so let me offer some perspective that might allow for a different point of view. The first time I ever met your grandpa in person was in an endowement session in the old Provo Temple over 30 "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095591068045853157",
+          "author": "bhaveshlivelife",
+          "searchJob": "temple",
+          "text": "When Steve Jobs Sent Mark Zuckerberg To Kainchi Dham 🙏 During Facebook’s difficult early phase, Mark Zuckerberg approached Apple founder Steve Jobs for guidance. Jobs advised him to visit the Indian temple that had influenced his own spiri"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095579926384824818",
+          "author": "exile_2jsb_3jsb",
+          "searchJob": "temple",
+          "text": "“So, what’s our next move?” he inquired. “Here we are in Egypt, yet we have no idea where to find the Temple of Osiris. My grandfather’s diary offers a few hints, though they’re quite vague.” https://t.co/Szwdb8pd1F"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095570529243844679",
+          "author": "ajantaneog",
+          "searchJob": "temple",
+          "text": "This evening, I joined Hon’ble Chief Minister Dr. @himantabiswa at the historic Negheriting Shiva Doul in Golaghat, where he offered prayers to Mahadev and sought His blessings for the peace, prosperity and well-being of the people of Assam"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095568564384415902",
+          "author": "oscarwhittierca",
+          "searchJob": "temple",
+          "text": "1/5 ABOUT 1 Kings 5 -SOLOMON PREPARES TO BUILD THE TEMPLE: When David offered to build a femple, God said no through the prophet Nathan (2 Samuel 7: 1-17). God wanted a PEACEMAKER not a warrior, to build his house of prayer (1 Chronicles 28"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2095576238148509791",
+          "author": "iam_alinedouard",
+          "searchJob": "tulane",
+          "text": "C/O 29 (@PrepRedzoneTX) All Saints HS OL Carson Campbell was offered by Tulane @GreenWaveFB 🚨🔥"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095593006531330439",
+          "author": "fravel_ryan",
+          "searchJob": "ohio-state",
+          "text": "BREAKING: ELITE Class Of 2028 4⭐ LB Gabriel Player will visit Notre Dame for the Miami game November 7th! He was offered by the Irish back in February and this will be his first trip to South Bend. Miami, Ohio State, Texas, Texas A&M, & Flo"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095584859062145061",
+          "author": "ucrrg",
+          "searchJob": "oklahoma",
+          "text": "From service bays to test drives to ransomware scares, dealers face risk from every angle. Our Oklahoma-domiciled Risk Retention Group offers garage liability, auto liability and cyber coverage for eligible auto dealers in select states."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095592003538936068",
+          "author": "theucreport",
+          "searchJob": "ole-miss",
+          "text": "Xavien Littleton has been one of the biggest stock risers of the high school football season so far this year 🔥 @X_Littleton Arkansas, Texas A&amp;M, Virginia Tech, Ole Miss, Miami, Auburn, and West Virginia have all offered since the seas"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095591406962348286",
+          "author": "packwbb_jerry",
+          "searchJob": "ole-miss",
+          "text": "Pack 2027 Offer Series: Abuna Ruop (@AbunaRuop) is the size they don’t find every cycle.6-6 to 6-9 center at Norfolk Christian (VA). Shot-blocker and rebounder first. About 12.8 points, 11.7 rebounds, 4.5 blocks. Alters shots just by standi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095584632867623228",
+          "author": "girlmoneyguide",
+          "searchJob": "ole-miss",
+          "text": "@lifeofbrycee @OleMissFB @CoachGolding @_kbolden @drm_12 @ESPN3ALLDAY @adamgorney @ChadSimmons_ @samspiegs @BSonnone Looks like they’re collecting offers like trophies—soon to open a museum of wins."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095576324320440717",
+          "author": "misslou365",
+          "searchJob": "ole-miss",
+          "text": "Ole Miss offers Germantown 2028 playmaker Bryce Johnson - Ole Miss 365 @OleMiss365 Story: https://t.co/QW7EBm8eEJ #OleMiss #HottyToddy @Rebels247"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095574211280445704",
+          "author": "wolf0dte",
+          "searchJob": "ole-miss",
+          "text": "@bryantnickels @ConnorHennes ??? Define currently. This past season? Anyone would leave if they were offered more resources for a school. Ole Miss has made the playoffs a collective total of one time, and it was under Kiffin. There’s not re"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095570325891072193",
+          "author": "recruitgeorgia",
+          "searchJob": "ole-miss",
+          "text": "Stephenson's 6'4\" freshman lands an #SEC offer from Ole Miss. Young edge holds several P4 program offers now #RecruitGeorgia"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095579718644830279",
+          "author": "sassyeagleusa",
+          "searchJob": "penn-state",
+          "text": "@JayPops5 @rcb05 Oh, you didn’t know A&amp;M, Tennessee, Oregon, Penn State, and quite a few other schools offered him a scholarship to play QB for them? Maybe check out his Bio."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095587147059220637",
+          "author": "coachebenton",
+          "searchJob": "south-carolina",
+          "text": "USC will literally do anything NOT to offer a South Carolina kid.. going as far as having four or five kickers on the roster, even adding one days before the season starts. 30 yards and counting."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095587212167385425",
+          "author": "jboyd_dc",
+          "searchJob": "tennessee",
+          "text": "Tennessee minority party's gubernatorial nominee works to encourage party leaders despite uphill battle against Blackburn for state's top seat. Jerri Green offers message of hope to Democrats | Elections | https://t.co/yYSR9OwCic https://t."
+        }
+      ]
     },
     "search": {
-      "ok": false,
-      "reason": "california: rate limited",
+      "ok": true,
+      "reason": null,
       "jobs": 162,
-      "swept": 0,
+      "swept": 29,
       "failed": 1,
-      "requests": 1,
+      "requests": 30,
       "errors": [
-        "california: rate limited"
+        "georgia-state: rate limited"
       ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
+      "rejectedCandidates": 32,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-03T19:26:15.081Z"
+    "status rebuilt locally from current store on 2026-09-03T19:43:19.511Z"
   ]
 }
