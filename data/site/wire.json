@@ -1,12 +1,48 @@
 {
-  "generatedAt": "2026-09-03T23:43:35.093Z",
+  "generatedAt": "2026-09-03T23:58:15.428Z",
   "counts": {
-    "offers": 673,
-    "players": 482,
+    "offers": 674,
+    "players": 483,
     "newThisRun": 1,
-    "watchlist": 1426
+    "watchlist": 1427
   },
   "offers": [
+    {
+      "id": "o_637ee2bb73586128",
+      "playerId": "p_a6929fb6879e677b",
+      "playerName": "Cartae Ligon",
+      "schoolId": "duke",
+      "schoolName": "Duke",
+      "conference": "ACC",
+      "offeredAt": "2026-09-03T23:50:00.000Z",
+      "firstSeenAt": "2026-09-03T23:58:15.405Z",
+      "lastSeenAt": "2026-09-03T23:58:15.405Z",
+      "confidence": 0.45,
+      "corroborations": 1,
+      "evidence": [
+        {
+          "postId": "2095660612751630502",
+          "author": "profilefblive",
+          "url": "https://x.com/profilefblive/status/2095660612751630502",
+          "postedAt": "2026-09-03T23:50:00.000Z",
+          "via": "search:(@DukeFOOTBALL OR \"Duke\" OR \"Blue Devils",
+          "confidence": 0.45,
+          "text": "Duke has offered 2028 ATH Cartae Ligon from Chillicothe HS, OH. @CartaeLigon1\n\nRated 4.0⭐ (#298 NATL, #12 ATH, #10 OH).\nhttps://t.co/zDKS1j8ciS",
+          "attribution": {
+            "targetText": "Duke has ",
+            "schoolEvidenceType": "full_school_name",
+            "affiliationSource": "name"
+          }
+        }
+      ],
+      "status": "new",
+      "tier": "P4",
+      "playerHandle": "cartaeligon1",
+      "classYear": 2028,
+      "position": "ATH",
+      "highSchool": null,
+      "state": null
+    },
     {
       "id": "o_381df470438687ac",
       "playerId": "p_783661d530a43540",
@@ -1080,9 +1116,9 @@
       "conference": "SEC",
       "offeredAt": "2026-09-03T15:45:00.000Z",
       "firstSeenAt": "2026-09-03T21:51:07.000Z",
-      "lastSeenAt": "2026-09-03T21:51:07.000Z",
-      "confidence": 0.6,
-      "corroborations": 1,
+      "lastSeenAt": "2026-09-03T23:58:15.399Z",
+      "confidence": 0.6799999999999999,
+      "corroborations": 2,
       "evidence": [
         {
           "postId": "2095538559054660048",
@@ -1097,9 +1133,23 @@
             "schoolEvidenceType": "full_school_name",
             "affiliationSource": "name"
           }
+        },
+        {
+          "postId": "2095661307307389221",
+          "author": "thedorereport",
+          "url": "https://x.com/thedorereport/status/2095661307307389221",
+          "postedAt": "2026-09-03T23:52:45.000Z",
+          "via": "search:\"2027\" (offer OR offered) (QB OR RB OR W",
+          "confidence": 0.45,
+          "text": "Vanderbilt has offered Class of 2027 DL Augustine Irek\n\n6’7, 260 pounds out of England\n\nPlayer Profile: https://t.co/xrDYWuht8b",
+          "attribution": {
+            "targetText": "Vanderbilt has ",
+            "schoolEvidenceType": "full_school_name",
+            "affiliationSource": "name"
+          }
         }
       ],
-      "status": "new",
+      "status": "corroborated",
       "tier": "P4",
       "playerHandle": "augustine5899",
       "classYear": 2027,

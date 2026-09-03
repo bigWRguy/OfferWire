@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-03T23:43:35.232Z",
+  "generatedAt": "2026-09-03T23:58:15.569Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-03T23:43:34.948Z",
+    "at": "2026-09-03T23:58:15.272Z",
     "jobsTotal": 162,
-    "sweptThisRun": 35,
-    "requests": 36,
+    "sweptThisRun": 33,
+    "requests": 35,
     "fullSweepCycles": 5
   },
   "backfillCoverage": {
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5398105555555556,
-    "p95Hours": 1.5382883333333333,
-    "worstHours": 1.5382886111111111
+    "medianHours": 0.5350675,
+    "p95Hours": 1.0340919444444445,
+    "worstHours": 1.2956275
   },
   "decisionCoverage": {
-    "total": 48,
-    "decided": 48,
+    "total": 35,
+    "decided": 35,
     "complete": true
   },
   "pending": {
@@ -44,345 +44,283 @@
   "profileResolution": {
     "cached": 33
   },
-  "paginationBacklog": 3,
+  "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 673,
+    "completeOffers": 674,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-03T23:43:34.947Z",
-      "got": 133,
-      "new": 48,
-      "lag": 0.07
+      "at": "2026-09-03T23:58:15.272Z",
+      "got": 73,
+      "new": 35,
+      "lag": 0.09
     }
   },
   "audit": {
-    "at": "2026-09-03T23:41:14.532Z",
+    "at": "2026-09-03T23:56:03.480Z",
     "mode": "live",
     "collection": {
-      "returned": 133,
-      "kept": 48,
-      "duplicate": 85,
+      "returned": 73,
+      "kept": 35,
+      "duplicate": 38,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 30,
-      "rejected": 18,
+      "accepted": 22,
+      "rejected": 13,
       "reasons": {
-        "no_fbs_school": 5,
-        "hard_negative": 9,
-        "non_fbs_offer_target": 1,
-        "no_offer_term": 3
+        "no_offer_term": 2,
+        "hard_negative": 10,
+        "no_fbs_school": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2095641904679407992",
-          "author": "mooreforpa",
-          "searchJob": "marshall",
-          "text": "Something about the Pennsylvania governor polling is starting to bother me. Most of these polls keep asking voters some version of the same question: Josh Shapiro or Stacy Garrity? Meanwhile, look at what is sitting outside those two names."
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095647255789211811",
-          "author": "huskersmn",
-          "searchJob": "massachusetts",
-          "text": "The legend of Pop Watson III: Mark Whipple discovered him as a 6th grader in Massachusetts. He offered as soon as he could in 8th grade and immediately convinced Frost to take him as a commit in ‘22. Now he’s about to beat Rutgers"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095634895741612259",
-          "author": "mattybojax",
-          "searchJob": "massachusetts",
-          "text": "Here are the options they’ve been given: Guilty of first-degree murder They find she was criminally responsible and that the killings were either premeditated or committed with extreme atrocity or cruelty. That carries a mandatory life sent"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095653106092581316",
-          "author": "379michael379",
-          "searchJob": "florida",
-          "text": "I don’t see it that way. I’m against Flock cameras. And in Florida, we’ve started winning that war. We’ve had sheriffs completely dismantle their flock camera systems. But some people like Laura here are four the surveillance state. And jus"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095657579401626088",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095657368440787097",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095656835235680648",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095655640521671065",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095655012055543831",
-          "author": "ebube_joseph11",
-          "searchJob": "phrase:\"all glory to god\" offer",
-          "text": "I’m blessed to say I’ve received a Division II offer from Newman University. All glory to God. #agtg @GrandOaksHoops @CoachAstephens @AllNOneSports1 https://t.co/tHXp9J7kkR"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095657922692796552",
-          "author": "jayquankelji52",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "I’m very blessed to receive my third offer 3 in 1 day AGTG @JAX_MBB @peedeesportss @247recruiting @AndrewBaxleySC @uhoopsllc https://t.co/nVzZP4arlQ"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095657425256743392",
-          "author": "jayquankelji52",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "I’m very blessed to receive my 2nd offer from Coker mbb AGTG @peedeesportss @AndrewBaxleySC @247recruiting @uhoopsllc https://t.co/ssIZiU4Go2"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095655598087909498",
-          "author": "jayquankelji52",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "Very blessed to receive my first offer from newberry mbb AGTG @NewberryMBB @peedeesportss @AndrewBaxleySC @247recruiting @uhoopsllc https://t.co/Dt3OspJSln"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095652120242290937",
-          "author": "adamseian44",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG blessed to receive my first offer from the Salt Lake yetis https://t.co/3nfWEy25Cz"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095656585318060121",
-          "author": "bigskysuperfan",
-          "searchJob": "arizona",
-          "text": "Northern Arizona MBB has received a commitment from Zac Borrego, a 6'1 guard, from Albuquerque Academy (NM) Zac appears to have had several offers before agreeing to play for Coach Shane Burcar at NAU Welcome to the Big Sky and go have a gr"
+          "reason": "no_offer_term",
+          "postId": "2095622208664089004",
+          "author": "freddyla7",
+          "searchJob": "iowa",
+          "text": "Alright, the flight is booked!!!🇺🇸✈️ In exactly one week we’re flying back to America! We’ll land in Chicago on Thursday, do some quick sightseeing, and then on Friday we’ll get in the car and drive to Iowa City for our first ever college"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095536140107571389",
-          "author": "zacborrego",
-          "searchJob": "arizona",
-          "text": "1000% committed Lumberjack nation🪓🪓 @NAUCoachBurcar @NAUBasketball @coachrussotim @NikMains https://t.co/rSOEUN5R5G"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095645974068601339",
-          "author": "mattwilson8178",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/7qVwKQLi4a"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095642974730506410",
-          "author": "animusoakley",
-          "searchJob": "arkansas-state",
-          "text": "#WelcomeToVoidsEdge https://t.co/tZ9QeOgRwL"
+          "postId": "2095481945220415541",
+          "author": "pontifex_es",
+          "searchJob": "missouri",
+          "text": "No tengan miedo de sembrar sin ver inmediatamente los frutos. A ustedes les corresponde sembrar; el crecimiento pertenece a Dios. Ningún gesto realizado en el nombre de Cristo es inútil."
         },
         {
           "reason": "hard_negative",
-          "postId": "2095637315267788820",
-          "author": "magpie24_7",
-          "searchJob": "arkansas-state",
-          "text": "🏗️👷​David Hopkinson has revealed that the £190 million bill for Newcastle United’s brand-new world class training ground, the second biggest in Europe behind Real Madrid's, is being direct-funded by the owners—the Rubin family and PIF! 💰"
+          "postId": "2095660162870657033",
+          "author": "randyferrell",
+          "searchJob": "california",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095660076212289716",
+          "author": "randyferrell",
+          "searchJob": "california",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095659954392723920",
+          "author": "randyferrell",
+          "searchJob": "california",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095659875766296951",
+          "author": "randyferrell",
+          "searchJob": "california",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095659758740996537",
+          "author": "randyferrell",
+          "searchJob": "california",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095659629661311249",
+          "author": "randyferrell",
+          "searchJob": "california",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095659370151293324",
+          "author": "randyferrell",
+          "searchJob": "california",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095659269978796322",
+          "author": "randyferrell",
+          "searchJob": "california",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095659135073206721",
+          "author": "randyferrell",
+          "searchJob": "california",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095657033928180146",
+          "author": "randyferrell",
+          "searchJob": "california",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095655802124009821",
+          "author": "disabilityca",
+          "searchJob": "california",
+          "text": "Join us for a virtual teach-in to learn about the history and future of the Peer Movement: Where we’ve been, where we are now, and what we want for the future. The Peer Movement for mental health is founded on the importance of community, p"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 29,
+      "accepted": 2,
+      "rejected": 20,
       "reasons": {
-        "bare_mention_requires_llm": 22,
-        "multiple_resolved_schools": 6,
-        "author_not_recruit:no recruit fields": 1
+        "bare_mention_requires_llm": 10,
+        "multiple_resolved_schools": 7,
+        "reporter_missing_player_name": 1,
+        "explicit_non_fbs_target": 1,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095656317717188725",
-          "author": "ezekielaltman",
-          "searchJob": "massachusetts",
-          "text": "Halftime Thoughts: - No Justin Williams-Thomas and it doesn't look like much of a problem. Curtis Kimmons IV and Elijah Faulkner contributing in massive ways right now! - Both DePaepe brothers look ridiculously good right now, getting past "
+          "postId": "2095638330578788359",
+          "author": "hitsquad_og",
+          "searchJob": "wyoming",
+          "text": "@CoachZSims @JUCOFFrenzy @wyo_football @JoshAllenQB No bitch they offered him because frenzy recognized his size and talent first! Shut tf up!"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095645135786672632",
-          "author": "numbertalker",
-          "searchJob": "massachusetts",
-          "text": "@TheMaineWire every blue state is bidding higher and higher amounts to keep these people in their states. if Massachusetts offers $10,000, we'll offer $19,000"
+          "postId": "2095659300920443335",
+          "author": "bobcatattack",
+          "searchJob": "iowa",
+          "text": "Ohio offers Iowa Western Community College CB Coaleon Johnson"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095655298816155899",
-          "author": "flemmermertin",
-          "searchJob": "florida",
-          "text": "@DavidD41044 @RonFilipkowski Florida is a cesspool of the worst America has to offer. And that includes the orange asshole living at mar-a-lago. Disney should move out of Orlando so we can saw Florida off the mainland and watch you meth-hea"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095651637213958451",
-          "author": "memesmetax",
-          "searchJob": "florida",
-          "text": "🚨🕵️‍♂️The $10 million everyone agrees was stolen, that no one will be charged for. A Florida grand jury just concluded that the DeSantis administration misappropriated $10 million in taxpayer money. Not “raised questions.” Misappropriated"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095640724310311171",
-          "author": "crweworld",
-          "searchJob": "florida",
-          "text": "FBI Offers Reward for Information Leading to the Arrest of Onur Simsek #FBI, #Florida, #Turkey, #Turkiye, #Fraud, #MostWanted https://t.co/nGqVvAptJ7"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095652813913436502",
-          "author": "earthdesires",
-          "searchJob": "georgia",
-          "text": "Old Flame (Gambler's Folly Book 4) by Mellie Miller is a heartfelt second-chance paranormal shifter romance that blends emotional healing, mature love, and the magic of fate. Billionaire and bear shifter Kort Behrens has been lucky in busin"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095647693397688500",
-          "author": "stephaniehefli7",
-          "searchJob": "illinois",
-          "text": "@TaylorZorro @JulianaStratton @GreenVelvet_ This is what late stage TDS looks like. They have nothing to offer except extreme cringe and the further destruction of Illinois."
+          "postId": "2095653535211798647",
+          "author": "indeehawk",
+          "searchJob": "iowa",
+          "text": "I hope @HawkeyeFootball can hook Freddy up. Show him the best time Kinnick has to offer"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2095649611620982961",
-          "author": "apples4short",
-          "searchJob": "arizona",
-          "text": "@jackrussellhome @RepBrandonGill NOT EVERYONE HAS A KITCHEN. Only California &amp; Arizona, offer the RMP option that allows EBT cards at fast-food restaurants.Personal Eligibility: You must be age 60 or older, disabled, or experiencing hom"
+          "postId": "2095661243625243019",
+          "author": "lord_chewie",
+          "searchJob": "lsu",
+          "text": "Breaking: LSU has offered UMass QB, Joseph Griffin Jr, and NIL deal to transfer after the game."
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2095649170375975066",
-          "author": "apples4short",
-          "searchJob": "arizona",
-          "text": "@Charles40037125 @RepBrandonGill NOT EVERYONE HAS A STOVE Only a few states, such as California &amp; Arizona offer the RMP option that allows EBT cards at fast-food restaurants.Personal Eligibility: You must be age 60 or older, disabled, o"
+          "postId": "2095659913972236757",
+          "author": "reportbulldawg",
+          "searchJob": "lsu",
+          "text": "However, I will hear offers on LSU to the B12 for UCF."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095651295709274143",
+          "author": "coach_theriot",
+          "searchJob": "lsu",
+          "text": "@JackD_Vol I 100% agree. I think I can say most reasonable LSU fans (we know not every one is reasonable) are ok if they want to offer a blanket waiver or a blanket ban on all 5th years. The issue I personally have is this is being painted "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095644456280023437",
+          "author": "fauxartbriles",
+          "searchJob": "lsu",
+          "text": "Rod Serling voiceover: Imagine, if you will, a world where Will Wade —- he of the strong-ass offer —- is the most-liked coach at LSU. Only in … the Twilight Zone."
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2095648923704774732",
-          "author": "apples4short",
-          "searchJob": "arizona",
-          "text": "@RepBrandonGill Only a few states, such as California and Arizona, offer the RMP option that allows EBT cards at fast-food restaurants.Personal Eligibility: You must be age 60 or older, disabled, or experiencing homelessness to use your foo"
+          "postId": "2095660689809363369",
+          "author": "queenanticommie",
+          "searchJob": "maryland",
+          "text": "In March 1861, Congress passed and Lincoln endorsed sending to the states a constitutional amendment that would have permanently banned the federal government from abolishing slavery in any state. It never says “slavery”; it locks in “domes"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095655580975464575",
+          "author": "fisher4maryland",
+          "searchJob": "maryland",
+          "text": "Maryland Exports Crime — Maryland makes the news as an exporter of juvenile crime. @MDFreedomCaucus offers a bill to solve this issue every year, but Democrats always reject it. Join @chisholmstrong &amp; me for the Dumbest Bill in America!"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2095648037981032573",
-          "author": "azfreenews",
-          "searchJob": "arizona",
-          "text": "Arizona and the Lower Basin states reached a Colorado River deal with the Trump administration, reducing Arizona’s water use by 61%, the largest cut among the states. Leaders called the agreement a short‑term fix that offers two years of st"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095654647226622463",
-          "author": "fredgrebs",
-          "searchJob": "uconn",
-          "text": "@NosiahDavis1016 Picks up @UConnFootball Offer @tlofton15 @CoachKJohnson1_ @ESPN3ALLDAY @derekplexdavis https://t.co/UsK3PjkhAg"
-        },
-        {
-          "reason": "author_not_recruit:no recruit fields",
-          "postId": "2095652723639095436",
-          "author": "westonscambler",
-          "searchJob": "appalachian-state",
-          "text": "2028 LB Reginald Ward out Williamson High School (AL) has received an offer from App State!"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095656579995680979",
-          "author": "careyrussell45",
-          "searchJob": "arkansas-state",
-          "text": "Trump met at the White House with a delegation of Hasidic and ultra-Orthodox rabbis, 👉🏽including several identified as anti-Zionist or non-Zionist👈🏽👉🏽most notably from the Satmar movement, one of haredi Judaism’s most prominent anti-Z"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095654860062367855",
-          "author": "klsparrow2",
-          "searchJob": "arkansas-state",
-          "text": "@libsoftiktok The Jews conquered Palestine.” That line is repeated every day. It is also false. Jews have lived in the Land of Israel for more than 3,500 years. Archaeology and history confirm it. “Palestine” was a Roman name for a region, "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095654749357908122",
-          "author": "klsparrow2",
-          "searchJob": "arkansas-state",
-          "text": "The Jews conquered Palestine.” That line is repeated every day. It is also false. Jews have lived in the Land of Israel for more than 3,500 years. Archaeology and history confirm it. “Palestine” was a Roman name for a region, not a country."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095652566243647565",
-          "author": "np4football_ot",
-          "searchJob": "arkansas-state",
-          "text": "Jairius Jones-Edge-2027-LA @AStateFB Offer #CFB"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095647611730772065",
-          "author": "keyrakarina1",
-          "searchJob": "arkansas-state",
-          "text": "In the tranquil afternoon, savoring a cup of warm milk tea offers a precious moment of unhurried serenity. The enduring, velvety aroma soothes restless minds, guiding the spirit back to a state of calm and comfort. 🧉A gentle purr resonates"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095647343504924816",
-          "author": "simodine_19",
-          "searchJob": "arkansas-state",
-          "text": "One Canada economy is not equal. Two Canada has and was offered the BEST trade deal in the world. For the US this isn’t about Canada. It’s how their current trade practice is. Now Canada doesn’t just want the best trade deal. They want to b"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095646054062415972",
-          "author": "dov_baer",
-          "searchJob": "arkansas-state",
-          "text": "@mattxiv We were oppressed in Europe and the Middle East for centuries. In 1948 we rebelled and decolonized our land. The Palestinians aren't victims. The colonizers were offered a state. They chose misery, hate, and war instead. Although, "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095640353080488277",
-          "author": "markkreuts",
-          "searchJob": "arkansas-state",
-          "text": "I built 2 directory websites in 6 months. 18,158 business listings. ~14,000 visits last month. ~100 people phoned in looking for a local pro. I sold 3 of those calls. Here’s the mistake, because it’s the one nobody teaches about programmati"
+          "postId": "2095652165683446247",
+          "author": "coreywriting",
+          "searchJob": "maryland",
+          "text": "@CFBTalkDaily I mean, the best kids in NJ are also offered by Ohio State, Michigan, Penn State, etc. Heck, I'd rather go to Maryland (a short drive from NJ) than Rutgers."
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2095657818728624251",
-          "author": "borahaeforyf",
-          "searchJob": "army",
-          "text": "Army in California i wts 4 La bts tickets for Saturday d3 and 3 tickets for d4 sept 6 we can't make it anymore due to a schedule conflict, so I'm Selling BELOW what I paid - $450. Open to offers! Serious buyers only. Scammers stay AWAY. #BT"
+          "postId": "2095656040268283908",
+          "author": "jewishlives1",
+          "searchJob": "michigan",
+          "text": "Vance meets with Temple #Israel rabbi on Michigan visit, offers support to community ...Follow https://t.co/zJVf2fGfuJ for more. https://t.co/T1SNAGl2Xn #WeRemember #AmYisraelChai #IsraelUnderAttack #JewishVoices #FightAntisemitism #StandWi"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2095646983512060353",
+          "author": "kirsoccer",
+          "searchJob": "michigan",
+          "text": "@unbiased2cent @marcus_ut182 @guvernmentname Show me where I said he was offered at Michigan. That was Dampier. Byrd said he received offers and turned them down. Do you think he's lying? YOU are the delusional one."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095657246294483192",
-          "author": "7incandescent",
-          "searchJob": "army",
-          "text": "@ARIR4NG_ When I see groups of army just mingling, I ask if they would like a freebie. If they also have freebies and offer, I’m happy to receive one. I also approach random people in my hotel lounge, concert seatmates around me, airport lo"
+          "postId": "2095650949893075403",
+          "author": "tlschwerz",
+          "searchJob": "minnesota",
+          "text": "Source: Former Twins outfielder Kyler Fedko has agreed to a MiLB deal with the Pittsburgh Pirates. Minnesota offered. He’s headed to his hometown organization."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095656473313374307",
-          "author": "stillintooongi",
-          "searchJob": "army",
-          "text": "WTS X2 (two) bts los angeles arirang tickets! sunday 9/6 day 4 - floor C5, row 1 - ticket includes: vip soundcheck - would like to make back what I paid for but open to reasonable offers - can send any proof ! please dm if interested for mo"
+          "postId": "2095650657483022734",
+          "author": "naterealmidwest",
+          "searchJob": "minnesota",
+          "text": "How is this fair? Minnesota Supreme Court just shot down Mike Lindell’s recount petition after he offered to pay for it himself. Same court makes time to hear a discrimination case against a Catholic school over a transgender librarian. One"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095660614773571746",
+          "author": "dunnbilly87734",
+          "searchJob": "missouri",
+          "text": "Papa León XIV @Pontifex_es Translated from Spanish Do not be afraid to sow without seeing the fruits immediately. It is your responsibility to sow; the growth belongs to God. No gesture performed in the name of Christ is in VAIN. 5:00 AM · "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095649763756585288",
+          "author": "kremlincardinal",
+          "searchJob": "missouri",
+          "text": "@MatthewKeysLive @Lokay When KOMU's sports director died suddenly last summer, right before Mizzou and high school football, the ABC affiliate here (where I'm at now) offered their help with sports coverage and sharing any sports video we n"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095661379696918881",
+          "author": "millypea",
+          "searchJob": "california",
+          "text": "WTS 2 BTS tickets for LA Inglewood day 4 • September 6th at So-Fi stadium Dm me army if you’re interested I’m willing to let them go for fv, and also open to offers 💜 Arirang tour ticket california cali wtb wtt https://t.co/BBpMXbzlE5"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095654186020929893",
+          "author": "bearforcecubhq",
+          "searchJob": "colorado",
+          "text": "GTA VI ONLINE — YEAR 2 ROADMAP PITCH @RockstarGames, after Year 1 establishes our character in Leonida, builds the criminal empire, introduces major businesses and expands GTA Online beyond the main storyline, Year 2 should be the point whe"
+        },
+        {
+          "reason": "explicit_non_fbs_target",
+          "postId": "2095647688603603138",
+          "author": "micahprice777",
+          "searchJob": "nc-state",
+          "text": "Beyond blessed to Announce I received my 22nd D1 offer from North Carolina State University https://t.co/7NziQgzJLg"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095647361846718777",
+          "author": "bambam25917",
+          "searchJob": "coastal-carolina",
+          "text": "The coastal path offers sweeping views of the ocean’s boundless beauty. Walking alongside it, the endless horizon opens the mind and fills one with a sense of the sea’s magnificence. ♂️ Friends camping together, the tent was taken down. htt"
         }
       ]
     },
@@ -390,20 +328,21 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 35,
-      "failed": 1,
-      "requests": 36,
+      "swept": 33,
+      "failed": 2,
+      "requests": 35,
       "errors": [
-        "phrase:\"my first D1 offer\": SearchTimeline HTTP 404 (slice left pending)"
+        "florida-state: SearchTimeline HTTP 404 (slice left pending)",
+        "delaware: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 29,
+      "acceptedEvidence": 2,
+      "rejectedCandidates": 20,
       "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-03T23:43:35.233Z"
+    "status rebuilt locally from current store on 2026-09-03T23:58:15.570Z"
   ]
 }
