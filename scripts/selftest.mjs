@@ -13,6 +13,8 @@ import { tierOf, decorateOffers } from '../src/resolve/tiers.js';
 import { backfillJobs, schoolJobs, backfillAnchorDate, phraseJobs } from '../src/collect/queries.js';
 import { prioritizeJobs, SearchSession } from '../src/collect/search.js';
 import { dispatchWire } from '../netlify/functions/trigger-wire.mjs';
+import { resolveOfferTarget } from '../src/resolve/attribution.js';
+import { decodeEntities } from '../src/lib/store.js';
 
 let pass = 0, fail = 0;
 const t = (name, cond, detail = '') => {
@@ -528,6 +530,65 @@ t('offer attributed to an earlier season is stale',
   classify('His potential gained recognition during the summer when he earned his first Division I scholarship offer from Miami.').hardNegative);
 t('unrelated seasonal phrase does not suppress a current offer',
   !classify('After training during the summer, Marcus Lee has received an offer from Georgia today.').hardNegative);
+
+// --- attribution: WHO is doing the offering -----------------------------------------
+// Every case below was a fabricated row published on the live wire. They are not
+// school-name bugs: the school was read out of text that never claimed to be offering
+// anybody - a hashtag, a media handle, a game preview, the recruit's own surname, or
+// somebody else's offer list.
+console.log('offer attribution');
+const target = (text) => { const r = resolveOfferTarget({ text }); return r.status === 'accepted' ? r.schoolId : `${r.status}:${r.reason}`; };
+const tt = (label, text, want) => t(label, target(text) === want, `${target(text)} != ${want}`);
+
+// HTML entities: X serves post text escaped, and "&" never arrived, so the name split
+// in half and "Alabama A &amp; M university" was published as an Alabama P4 offer.
+tt('Alabama A&M is not Alabama',
+  'Blessed to say I’ve received an D1 offer from Alabama A &amp; M university @Tylan_G',
+  'rejected:explicit_non_fbs_target');
+t('entities are decoded everywhere', decodeEntities('A &amp; M &#39;27 &quot;x&quot;') === 'A & M \'27 "x"', decodeEntities('A &amp; M &#39;27'));
+t('& holds a name together', !findSchools('offer from Franklin &amp; Marshall College').some((s) => s.id === 'marshall'));
+t('& does not glue two schools together',
+  ['alabama', 'auburn'].every((id) => findSchools('offers from Alabama & Auburn').some((s) => s.id === id)));
+t('Texas A&M still resolves', findSchools('offer from Texas A&M').some((s) => s.id === 'texas-am'));
+
+// The offer verb has a plural. Missing it meant the target span fell back to the WHOLE
+// post, so any school mentioned anywhere became the offerer.
+tt('another school’s offer list is not an offer',
+  'Spain Park 2028 RB CJ Davis is a strong runner. Offers from Oregon, Tennessee, Vanderbilt and others.',
+  'pending:ambiguous_target');
+tt('a hashtag is not an offer',
+  'The 2029 QB already holds two FBS offers from Tulsa and Samford. #RecruitGeorgia',
+  'tulsa');
+t('a comma-separated school list is not a hometown',
+  ['oregon', 'tennessee', 'vanderbilt'].every((id) => findSchools('Offers from Oregon, Tennessee, Vanderbilt').some((s) => s.id === id)),
+  JSON.stringify(findSchools('Offers from Oregon, Tennessee, Vanderbilt').map((s) => s.id)));
+t('a real hometown is still a hometown',
+  !findSchools('Florida has offered WR Malachi Lee out of an academy in Leesburg, Virginia').some((s) => s.id === 'virginia'));
+
+// A media or scout handle is not a program. The handle pass reads handles exactly;
+// letting them fall through into the name pass published "@Alabama_Varsity" as Alabama.
+t('a media handle is not a program',
+  !findSchools('offer from talladega prep u @Alabama_Varsity @DexPreps').length,
+  JSON.stringify(findSchools('offer from talladega prep u @Alabama_Varsity').map((s) => s.id)));
+t('an official program handle still resolves',
+  findSchools('Blessed to receive an offer from @AlabamaFTBL').some((s) => s.id === 'alabama'));
+tt('a non-FBS program handle as the target is rejected',
+  'After a great visit at Northwestern I am excited to announce that I have received an offer to play @nwc_fb!',
+  'rejected:non_fbs_handle_target');
+tt('an FBS program handle after "to play" is accepted',
+  'Blessed to receive an offer to play @AuburnFootball', 'auburn');
+
+// Span shape: the school is the subject or the object of the offer verb, never the
+// recruit's high school and never a word that merely sits nearby.
+tt('reporter voice reads the subject', 'Wake Forest has offered 2028 OT Roman Maurizio from Central Catholic HS, PA.', 'wake-forest');
+tt('the recruit’s high school is not the offerer', 'Penn State offers 2028 DL Kiren Green from Ohio.', 'penn-state');
+tt('"scholarship" does not outrank "offer"',
+  'Blessed to announce I have received my first SEC Division I scholarship offer from the University of Oklahoma.', 'oklahoma');
+tt('the offer target is read, not a trailing cheer',
+  'Blessed to receive an offer from Community Christian College! Go cyclones!',
+  'rejected:explicit_non_fbs_target');
+t('"committing" is a commitment, not a new offer',
+  classify('Trey Wright wasted little time committing to USC days after receiving a scholarship offer').hardNegative);
 
 console.log('offer tiers and player stats');
 t('SEC school is P4', tierOf({ id: 'alabama', conference: 'SEC' }) === 'P4');

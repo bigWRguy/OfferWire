@@ -5,7 +5,7 @@
 // next cycle re-covers, because every reader deliberately overlaps its window).
 import fs from 'node:fs';
 import path from 'node:path';
-import { readJson, writeJson, appendNdjson, readNdjson, sha1, DATA, CONFIG } from './lib/store.js';
+import { readJson, writeJson, appendNdjson, readNdjson, sha1, decodeEntities, DATA, CONFIG } from './lib/store.js';
 import { fetchList, fetchProfile, lagHours } from './collect/x.js';
 import { sweep, configured as searchConfigured, loadCredentials } from './collect/search.js';
 import { allJobs, schoolJobs, backfillJobs, backfillAnchorDate, backfillProgress } from './collect/queries.js';
@@ -247,7 +247,8 @@ export function prefilter(posts, log = () => {}, audit = null) {
   const kept = [];
   let hardNeg = 0, noSignal = 0;
   for (const p of posts) {
-    const text = [p.text, p.extra].filter(Boolean).join(' ');
+    // Decoded here as well as at collection, because the archive predates the fix.
+    const text = decodeEntities([p.text, p.extra].filter(Boolean).join(' '));
     if (!/offer/i.test(text)) { noSignal++; if (audit) auditReject(audit, 'prefilter', 'no_offer_term', p); continue; }
     const c = classify(text);
     if (c.hardNegative) { hardNeg++; if (audit) auditReject(audit, 'prefilter', 'hard_negative', p); continue; }
@@ -433,9 +434,29 @@ export function rulesOnlyOffers(p) {
 // ---------------------------------------------------------------------------
 function offerKey(playerId, schoolId) { return `${playerId}::${schoolId}`; }
 
+/**
+ * Is the school nothing but the player's own surname? Live failure: "Dartmouth has
+ * offered 2027 SAF Nicholas Washington from River Bluff HS" was published as a
+ * Washington offer — Dartmouth is not FBS, so the only school left in the post was the
+ * recruit's name. The school counts only if it survives with that name taken out.
+ */
+function schoolOnlyFromPlayerName(rec, post) {
+  const name = String(rec.player_name || '');
+  if (!name || !findSchools(name).some((s) => s.id === rec.school_id)) return false;
+  const text = decodeEntities([post.text, post.extra].filter(Boolean).join(' '));
+  // Remove the player's name where it appears AS A NAME, not every occurrence of its
+  // words: "Washington has offered ... Nicholas Washington" is a real Washington offer,
+  // and blanking the surname everywhere would throw it away.
+  const words = name.split(/\s+/).filter(Boolean).map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+  if (words.length < 2) return false;
+  const stripped = text.replace(new RegExp(`\\b${words.join('\\s+')}\\b`, 'gi'), ' ');
+  return !findSchools(stripped).some((s) => s.id === rec.school_id);
+}
+
 export function upsert(db, rec, post, verdictConfidence, observedAt = now()) {
   const school = byId.get(rec.school_id);
   if (!school) return null;
+  if (schoolOnlyFromPlayerName(rec, post)) return null;
 
   const incoming = {
     name: rec.player_name,

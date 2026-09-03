@@ -3,7 +3,7 @@
 // "Miss State", or just a helmet emoji next to a coach's name. We normalise all of it.
 import fs from 'node:fs';
 import path from 'node:path';
-import { CONFIG } from '../lib/store.js';
+import { CONFIG, decodeEntities } from '../lib/store.js';
 
 export const norm = (s) => (s || '')
   .normalize('NFKD').replace(/[̀-ͯ]/g, '')
@@ -85,6 +85,16 @@ for (const [form, ids] of Object.entries(AMBIGUOUS)) {
   ids.forEach((i) => forms.get(form).add(i));
 }
 
+// Forms that ARE a school's name (as opposed to a nickname or a clipped alias), so a
+// short name like "Oregon" is not treated as flimsier evidence than a long one.
+const FULL_NAME_FORMS = new Set();
+for (const s2 of SCHOOLS) {
+  for (const f of [s2.name, `${s2.name} university`, `university of ${s2.name}`, `${s2.name} ${s2.nickname}`, ...s2.aliases]) {
+    const k = norm(f);
+    if (k && k !== norm(s2.nickname)) FULL_NAME_FORMS.add(k);
+  }
+}
+
 export const HANDLES = new Map(SCHOOLS.map((s) => [s.handle.toLowerCase(), s.id]));
 
 // Longest-form-first so "michigan state" beats "michigan".
@@ -152,7 +162,10 @@ const BRANCH_JOIN = new Set(['at', 'in', 'of']);
 
 // Lowercase words allowed to sit INSIDE a name phrase. "and" is deliberately absent:
 // "Coach Smith and Colorado State" must be two phrases, not one.
-const CONNECTOR = new Set(['of', 'at', 'the']);
+// "&" is part of a name far more often than it is a conjunction: "Alabama A & M",
+// "Texas A&M", "Franklin & Marshall". Spelled-out "and" is NOT here - "Coach Smith and
+// Colorado State" must stay two phrases.
+const CONNECTOR = new Set(['of', 'at', 'the', '&']);
 
 // Institutional tails a post routinely omits: "Kansas Wesleyan University" is written
 // "Kansas Wesleyan", "East Mississippi Community College" is "East Mississippi".
@@ -174,6 +187,15 @@ try {
     // "East Mississippi", "Florida Southern". Index the shortened forms too, but never
     // one that is itself an FBS surface.
     const variants = [n];
+    // Posts also drop the LEADING "University of": UW-River Falls is written "Wisconsin
+    // River Falls", UAH "Alabama-Huntsville". Without this, "offer from Wisconsin River
+    // Falls" resolved to Wisconsin.
+    const head = n.split(' ');
+    while (head.length > 2 && ['the', 'university', 'college', 'of', 'at'].includes(head[0])) {
+      head.shift();
+      const v = head.join(' ');
+      if (head.length >= 2 && !forms.has(v) && !isFbsInstitutionName(v)) variants.push(v);
+    }
     const t = n.split(' ');
     while (t.length > 2 && TRIMMABLE_TAIL.has(t[t.length - 1])) {
       t.pop();
@@ -206,7 +228,7 @@ function longestNonFbsSpan(tokens) {
 export function namePhrases(raw) {
   const src = String(raw || '');
   const toks = [];
-  for (const m of src.matchAll(/[A-Za-z][A-Za-z0-9&'’.]*(?:[-–][A-Za-z0-9&'’.]+)*/g)) {
+  for (const m of src.matchAll(/&|[A-Za-z][A-Za-z0-9&'’.]*(?:[-–][A-Za-z0-9&'’.]+)*/g)) {
     toks.push({ t: m[0], i: m.index, e: m.index + m[0].length });
   }
   const out = [];
@@ -222,8 +244,14 @@ export function namePhrases(raw) {
     const joined = k > 0 && /^[ \t]*(?:[-–—][ \t]*)?$/.test(src.slice(toks[k - 1].e, toks[k].i));
     if (!joined) flush();
     const t = toks[k].t;
-    if (/^[A-Z]/.test(t)) cur.push(toks[k]);
-    else if (cur.length && CONNECTOR.has(t.toLowerCase())) cur.push(toks[k]);
+    // A full stop ends the phrase. Tokens keep internal dots so "St. John's" and "A.J."
+    // survive, but that let "Community Christian College. Go Cyclones" become ONE name
+    // — which hid the college behind a cheer. An abbreviation is short; a word is not.
+    const endsSentence = /\.$/.test(t) && t.replace(/\.+$/, '').length > 2;
+    if (/^[A-Z]/.test(t)) { cur.push(toks[k]); if (endsSentence) flush(); continue; }
+    // Institution words are typed lowercase constantly ("Georgia Christian college",
+    // "Alabama A & M university"); they are still part of the name.
+    else if (cur.length && (CONNECTOR.has(t.toLowerCase()) || INSTITUTION_WORD.has(t.toLowerCase()))) cur.push(toks[k]);
     else flush();
   }
   flush();
@@ -374,7 +402,9 @@ function taggedForeignProgram(raw) {
  */
 export function findSchools(text) {
   const hits = new Map();
-  const raw = text || '';
+  // Decoded defensively: the archive, the fixtures and the replay all carry raw X text,
+  // and an encoded "&amp;" silently splits an institution name in two.
+  const raw = decodeEntities(text || '');
 
   // 1. @handles are the strongest signal there is — exact and unambiguous.
   for (const m of raw.matchAll(/@([A-Za-z0-9_]{2,15})/g)) {
@@ -408,14 +438,35 @@ export function findSchools(text) {
   const deLocated = deSchooled.replace(POSTAL_CODE, (m, pre, code, offset, str) => {
     const prev = (str.slice(Math.max(0, offset - 30), offset).match(/([A-Za-z]+)[^A-Za-z]*$/) || [])[1];
     return prev && forms.has(norm(`${prev} ${code}`)) ? m : pre;
-  }).replace(REGION_USE, ' ').replace(CITY_THEN_STATE, ' ').replace(STATE_NAMES, (m, pre) => pre + ' ');
+  }).replace(REGION_USE, ' ').replace(CITY_THEN_STATE, ' ').replace(STATE_NAMES, (m, pre, state, offset, str) => {
+    // "out of Leesburg, Virginia" is a hometown; "offers from Oregon, Tennessee,
+    // Vanderbilt" is a LIST OF SCHOOLS. What sits in front of the comma tells them
+    // apart: another program means this is a list, and stripping it invented a
+    // single-school post out of a three-school one.
+    const words = str.slice(Math.max(0, offset - 40), offset).trim().replace(/[,;]\s*$/, '').split(/\s+/);
+    for (let k = 1; k <= 4 && k <= words.length; k++) {
+      if (forms.has(norm(words.slice(-k).join(' ')))) return m;
+    }
+    return pre + ' ';
+  });
 
-  let hay = ' ' + norm(deLocated.replace(/#([A-Za-z]+)/g, (_, w) => ' ' + w.replace(/([a-z])([A-Z])/g, '$1 $2') + ' ')) + ' ';
+  // @handles are removed before the NAME pass. Pass 1 already read every handle exactly,
+  // and normalising them into words turns media and scout accounts into schools:
+  // "@Alabama_Varsity" became an Alabama offer for a Talladega Prep recruit, and
+  // "@TexasHSFootball", "@GeorgiaPreps", "@RecruitLouisiana" are all the same trap.
+  const deHandled = deLocated.replace(/@[A-Za-z0-9_]+/g, ' ');
+  let hay = ' ' + norm(deHandled.replace(/#([A-Za-z]+)/g, (_, w) => ' ' + w.replace(/([a-z])([A-Z])/g, '$1 $2') + ' ')) + ' ';
   const consume = (form) => { hay = hay.split(' ' + form + ' ').join('     '); };
   // Corroboration available in the post itself, applied to every name-only match.
   const unbacked = taggedForeignProgram(raw);
+  // A school's actual NAME is reliable however short it is. The old rule scored every
+  // form of 6 characters or less at 0.8, which quietly demoted Oregon, Auburn, Kansas,
+  // Purdue, Baylor and Toledo below the threshold the deterministic path acts on - so a
+  // three-school offer list ("Oregon, Tennessee, Vanderbilt") looked like ONE solid
+  // school and got published as an offer from it. Nicknames and clipped surfaces stay
+  // weak, because those are the ones that collide with ordinary English.
   const nameConfidence = (form) => {
-    if (form.length <= 6 || WEAK_SURFACE.has(form)) return 0.8;
+    if (WEAK_SURFACE.has(form) || !FULL_NAME_FORMS.has(form)) return 0.8;
     return unbacked ? 0.85 : 0.92;
   };
 
@@ -486,7 +537,7 @@ function containsFbsName(phrase) {
  * anywhere else in the post does not veto a real FBS offer.
  */
 export function explicitNonFbsOfferTarget(text) {
-  const src = String(text || '');
+  const src = decodeEntities(text || '');
   // An FBS program account in the post outranks anything read out of prose: the handle
   // is exact, and a misspelled name is not evidence against it ("OFFER FROM EASTERN
   // CAROLINA UNIVERSITY!! @ECUPiratesFB" is an East Carolina offer, typo and all).
@@ -499,12 +550,16 @@ export function explicitNonFbsOfferTarget(text) {
   const rest = src.slice(at);
   const phrase = namePhrases(rest).find((p) => p.start === 0);
   if (!phrase) return false;
+  // Names a different institution than the FBS school inside it ("Colorado School of
+  // Mines", "Alabama A & M", "Georgia Christian"). Checked FIRST and without requiring
+  // an institution word: "Franklin & Marshall" and "Arizona Christian" carry none, and
+  // a cheer later in the post ("Go Knights!", "Go cyclones!") was being read as the
+  // offer target of a small-college offer.
+  if (foreignInstitution(phrase.text)) return true;
   const tokens = norm(phrase.text).split(' ').filter(Boolean);
   // "offer from Alabama" / "offer from Coach Smith" — not an institution-shaped name,
   // so there is nothing here to contradict normal resolution.
   if (!tokens.some((t) => INSTITUTION_WORD.has(t))) return false;
-  // Names a different institution than the FBS school inside it ("Colorado School of
-  // Mines"), or is institution-shaped with no FBS school in it at all ("Harvard
-  // University", "Santa Monica College").
-  return !!foreignInstitution(phrase.text) || !containsFbsName(phrase.text);
+  // Institution-shaped with no FBS school in it at all ("Harvard University").
+  return !containsFbsName(phrase.text);
 }

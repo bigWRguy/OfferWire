@@ -12,10 +12,11 @@
     "fixture": "node scripts/fixture-run.mjs",
     "audit": "node scripts/audit.mjs && node scripts/replay.mjs --rejected",
     "status": "node scripts/build-status.mjs",
-    "test": "node scripts/selftest.mjs && node scripts/fixture-run.mjs && node scripts/reliability-test.mjs",
+    "test": "node scripts/selftest.mjs && node scripts/fixture-run.mjs && node scripts/reliability-test.mjs && node scripts/audit-attribution.mjs",
     "plan-lists": "node scripts/plan-lists.mjs",
     "rebuild": "node scripts/rebuild-ledger.mjs --write",
-    "non-fbs": "node scripts/build-non-fbs.mjs"
+    "non-fbs": "node scripts/build-non-fbs.mjs",
+    "audit-wire": "node scripts/audit-attribution.mjs"
   },
   "dependencies": {
     "playwright": "^1.62.1"

@@ -19,6 +19,7 @@
 //     is never mistaken for a quiet account (see `frozenProfiles` in pipeline.js).
 // ============================================================================
 import { get } from '../lib/http.js';
+import { decodeEntities } from '../lib/store.js';
 
 const HOSTS = [
   'https://cdn.syndication.twimg.com',
@@ -37,7 +38,8 @@ function harvest(node, out = [], seen = new Set()) {
   if (Array.isArray(node)) { for (const n of node) harvest(n, out, seen); return out; }
 
   const id = node.id_str || node.rest_id;
-  const text = node.full_text ?? node.text;
+  // X serves this HTML-escaped; every downstream rule reads plain text.
+  const text = decodeEntities(node.full_text ?? node.text);
   const created = node.created_at;
   if (id && typeof text === 'string' && created && !seen.has(id)) {
     seen.add(id);

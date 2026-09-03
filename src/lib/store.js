@@ -28,6 +28,18 @@ export function readNdjson(rel) {
 }
 export const sha1 = (s) => crypto.createHash('sha1').update(s).digest('hex').slice(0, 16);
 
+// X serves post text HTML-escaped. Left encoded, "Alabama A &amp; M University" is not
+// one name to any reader of the text: the "&" never arrives, the name splits at it, and
+// the wire filed an Alabama A&M (SWAC) offer as an Alabama P4 offer. Decode once, at
+// every point text enters the system, so no downstream rule has to know about entities.
+const ENTITIES = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ', '#39': "'", '#x27': "'", '#x2F': '/', '#160': ' ' };
+export const decodeEntities = (s) => String(s ?? '').replace(
+  /&(amp|lt|gt|quot|apos|nbsp|#39|#x27|#x2F|#160|#\d{1,6}|#x[0-9a-fA-F]{1,5});/g,
+  (m, e) => (ENTITIES[e] ?? (e[0] === '#'
+    ? String.fromCodePoint(e[1] === 'x' || e[1] === 'X' ? parseInt(e.slice(2), 16) : parseInt(e.slice(1), 10))
+    : m)),
+);
+
 // Bounded cache so we never pay the LLM twice for the same text.
 export class Cache {
   constructor(rel, max = 40000) { this.rel = rel; this.max = max; this.map = readJson(rel, {}); }

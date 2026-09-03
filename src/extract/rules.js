@@ -47,7 +47,7 @@ const BARE = [/\boffers?\b/i, /\boffered\b/i];
 
 // Things that look like offers but are not new-offer events.
 const NEGATIVE = [
-  /\bcommit(?:ted|ment|s)?\b/i,
+  /\bcommit(?:ted|ment|ting|s)?\b/i,
   /\bdecommit/i,
   /\bflip(?:ped|s)?\b/i,
   /\bsign(?:ed|ing)\b/i,
@@ -218,7 +218,7 @@ export function classify(text) {
   const recapStatesOffer = /\b(?:has|have|had|holds?|held|boasts?)\s+offers?\s+(?:from|at)\b/i.test(t);
   const newOfferVerb = /\b(?:receiv\w+|was\s+offered|has\s+been\s+offered|being\s+offered|offered\s+by|officially\s+offered|extends?\s+an?\s+offer|lands?\s+an?\s+offer|landed\s+an?\s+offer|earned\s+an?\s+offer|picked?\s+up\s+(?:an?|a|\d+\w*)\s+offer|got\s+\w+\s+(?:\w+\s+)*offer)\b/i.test(t);
   const hardRecap = recapStatesOffer && !newOfferVerb;
-  const hard = multiSchoolRecap || staleOffer || aspirational || nonScholarship || nonFbsLevel || otherSportOffer || hardRecap || /\bcommit(?:ted|ment|s)?\b|\bdecommit|\bsigning day\b|\bofferlist\b|\boffer list\b|\bwalk[\s-]?on\b|\bpwo\b|\bthrowback\b|\bon this day\b/i.test(t);
+  const hard = multiSchoolRecap || staleOffer || aspirational || nonScholarship || nonFbsLevel || otherSportOffer || hardRecap || /\bcommit(?:ted|ment|ting|s)?\b|\bdecommit|\bsigning day\b|\bofferlist\b|\boffer list\b|\bwalk[\s-]?on\b|\bpwo\b|\bthrowback\b|\bon this day\b/i.test(t);
   if (hard) return { kind, prior: 0, negatives: neg, hardNegative: true };
 
   const prior = Math.max(0, base - 0.12 * neg.length);
