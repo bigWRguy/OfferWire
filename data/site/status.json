@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-03T19:58:22.260Z",
+  "generatedAt": "2026-09-03T20:14:00.487Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-03T19:58:21.940Z",
+    "at": "2026-09-03T20:14:00.165Z",
     "jobsTotal": 162,
-    "sweptThisRun": 33,
-    "requests": 34,
+    "sweptThisRun": 35,
+    "requests": 36,
     "fullSweepCycles": 5
   },
   "backfillCoverage": {
@@ -27,20 +27,15 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [
-    {
-      "id": "liberty",
-      "hours": 2.3
-    }
-  ],
+  "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7836036111111111,
-    "p95Hours": 2.0229475,
-    "worstHours": 2.2845666666666666
+    "medianHours": 0.5462572222222222,
+    "p95Hours": 1.546625,
+    "worstHours": 1.7969491666666666
   },
   "decisionCoverage": {
-    "total": 85,
-    "decided": 85,
+    "total": 66,
+    "decided": 66,
     "complete": true
   },
   "pending": {
@@ -57,382 +52,351 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-03T19:58:21.940Z",
-      "got": 110,
-      "new": 85,
+      "at": "2026-09-03T20:14:00.163Z",
+      "got": 102,
+      "new": 66,
       "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-03T19:56:24.820Z",
+    "at": "2026-09-03T20:11:37.137Z",
     "mode": "live",
     "collection": {
-      "returned": 110,
-      "kept": 85,
-      "duplicate": 24,
+      "returned": 102,
+      "kept": 66,
+      "duplicate": 35,
       "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 38,
-      "rejected": 47,
+      "accepted": 46,
+      "rejected": 20,
       "reasons": {
-        "no_fbs_school": 16,
-        "hard_negative": 20,
         "no_offer_term": 10,
-        "non_fbs_offer_target": 1
+        "hard_negative": 2,
+        "no_fbs_school": 8
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2095599292308447606",
-          "author": "nigelmesta",
-          "searchJob": "kent-state",
-          "text": "@TH1983698577302 @Fenrithial @kurarosu_ Once again evidence not presented in the game but speculation offered by others. Take the games as presented then speculate. Don't assume a conclusion then fit the games presentation."
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095594636983066781",
-          "author": "notfenlandbum",
-          "searchJob": "kent-state",
-          "text": "Unfortunately our recent offer of a luxury vehicle has to be rescinded. The offer was just too popular to the people of Kent who’d never seen such opulence on 4 wheels. New offer next week- probably some kind of Tupperware to make them feel"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095599362437005516",
-          "author": "trueliberalist",
-          "searchJob": "liberty",
-          "text": "@Ungovernab1e Waiting on a few more open records productions still. I’ve compiled the bulk of my redress. I’ve reached out to all the commissioners. One is hosting a town hall. I sent him my commentary and supporting docs in advance so it’s"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095599226067484864",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095592795180290082",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095592676242637095",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095592479001088496",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095592339032952902",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095592196892193128",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095591930185039981",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095591818385621468",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095591645760700668",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095591438624989446",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095590804299374755",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095590675412824532",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095590548450976163",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
           "reason": "no_offer_term",
-          "postId": "2095589852649607354",
-          "author": "benthomaspreps",
-          "searchJob": "alabama",
-          "text": "See who moved up in the latest Best in Bama high school football recruiting rankings. @kennedy_randy #alpreps https://t.co/kGYmraDuMW"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095580000984457268",
-          "author": "np4football_ot",
-          "searchJob": "alabama",
-          "text": "Christian Harris-DL-2027-AL Week One Highlights.. Harris Currently has 4 Offers.. @TalkoftheTownFB"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095576320658805020",
-          "author": "alrealtors",
-          "searchJob": "alabama",
-          "text": "The season may just be starting to shift from summer to fall, but the final quarter of the year will be here before you know it. September offers a natural opportunity to take stock of the year so far and set the stage for a strong finish. "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095329418726248696",
-          "author": "keyshawn",
-          "searchJob": "texas",
-          "text": "Stop worrying about USC! The fans will show up when we need them. It’s LA, not Lubbock, Texas. We got stuff to do. 👀✌🏾 #USC #FightOn #KeyshawnJohnson https://t.co/l0Z1OuPiwQ"
+          "postId": "2095572667382251816",
+          "author": "shelbylawfirm",
+          "searchJob": "louisiana",
+          "text": "A trust can protect assets from probate, taxes and even a beneficiary's own circumstances. See how a Beneficiary Controlled Trust structure works for Louisiana families: https://t.co/wJPBdj83BD https://t.co/ArNla3xkHh"
         },
         {
           "reason": "hard_negative",
-          "postId": "2095597698078712061",
+          "postId": "2095600214723977378",
           "author": "profilefblive",
-          "searchJob": "texas",
-          "text": "📈 Trending Recruit 📈 2028 DE Daylan Richardson from Simmons HS, MS is currently a Top Five Trending 2028 recruit on Profile after a recent offer from Texas A&amp;M. @daylanrichards5 Rated 2.9 ⭐ (#1731 NATL, #92 DE, #35 MS) with 2 offers o"
+          "searchJob": "washington",
+          "text": "📈 Trending Recruit 📈 2029 Edge Dotarius Washington from Booker T. Washington HS, AL is currently a Top Five Trending 2029 recruit on Profile after recent offers from Mississippi State and Florida State. @DJwashington___ Rated 3.8 ⭐ (#117 "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095596036886843536",
-          "author": "txhoopscene",
-          "searchJob": "texas",
-          "text": "Kaiden Eason has transferred to Dynamic Prep. The 6-4 forward comes from Dallas Carter, the UIL 4A Division II state champion. ⭐⭐⭐, No. 35 in Texas for 2027 per the 247Sports Composite. Four reported offers, three Division I. #TXHoopScene @"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095595897979600962",
-          "author": "washtimes",
-          "searchJob": "texas",
-          "text": "In Texas' high-stakes Senate race, Republican Attorney General Ken Paxton has turned down an offer from CNN to debate his Democratic opponent, state Rep. James Talarico. https://t.co/uVE1eE9TxY"
+          "postId": "2095599166143463758",
+          "author": "nrsmaine",
+          "searchJob": "washington",
+          "text": "---> With Our Luck - he will turn up hiding out in Maine, running another crooked Learing/Homecare Center... FBI Most Wanted The # FBI has added Manjit Singh Bedi to its Most Wanted Fraudsters List. He is wanted for his alleged involvement "
         },
         {
           "reason": "hard_negative",
-          "postId": "2095592390233047240",
-          "author": "pwilsondtf",
-          "searchJob": "texas",
-          "text": "❌This is the most BS claim no matter how you see it! Ignorance isn’t an excuse for breaking the law and neither should be mental illness! Hey everyone go out and commit murD£r and claim Postpartum psychosis! Sometimes offered as the medical"
+          "postId": "2095596721405325534",
+          "author": "bush200004",
+          "searchJob": "washington",
+          "text": "Paul Modi Maucha was a Kenyan citizen who moved from Kenya to the United States on a Temporary Worker Visa. According to U.S. Customs and Border Protection records, he never left the United States after his initial entry expired and never l"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095581600234811726",
+          "author": "ulgensophia74",
+          "searchJob": "washington",
+          "text": "1/ War criminal Ukrainian mujahedeen Zelensky at says we \"burnt down\" a Coca-Cola Plant with a drone in Ukraine today! “The strike on the Coca-Cola plant is a clear Russian signal to America,” he says!!! 🤡🤡🤡 Zelensky says there will be a"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095587123592130780",
+          "author": "23homes",
+          "searchJob": "washington",
+          "text": "NEW PRICE $999,900 | Exceptional Value in Pinecrest Welcome to this beautifully updated home in the highly sought-after Pinecrest community, now offered under $1 million and featuring the rare convenience of two main-level bedrooms and two "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095585497926267331",
+          "author": "mr_mrsnukacola",
+          "searchJob": "washington",
+          "text": "Man this shouldn’t be a tough decision when it comes down to it , 1st….Mariners are going to have to make an offer that will stand out over all other teams and we all know that Boras Corporations is going to make it clear to Randy he’s wort"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095581505401803145",
+          "author": "unicornverse_io",
+          "searchJob": "washington",
+          "text": "https://t.co/dhV7cC0JE9"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095602990790918385",
+          "author": "lukeduran08",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "#AGTG After a great conversation with @CoachTycenGray I am blessed to receive an offer to @kwufootball‼️ @TERRANCEORRII @dirtyque2 @coachsims_ @PoteetFB https://t.co/tjMJwvEocM"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095584487417483418",
+          "author": "bradykerrigan34",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with Coach @AustenJacobs I am extremely blessed and excited to announce I have received a Division 1 offer from @USDFootball! @madbacker56 @CoachNFulton @CoachJakeBurton @STRAKEJESUITFB @CoachNoonan15 @CoachBigBro"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095523020886417670",
+          "author": "thelistfinspod",
+          "searchJob": "miami",
+          "text": "Dolphins PGC Kevin Patullo shocked Jeff Hafley when he told him earlier this summer that, last season, the Eagles had half of the Packers defense pressure packages on tape ahead of the week 1 matchup between the teams because they were reco"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095603754548756640",
+          "author": "poecidebrain",
+          "searchJob": "texas-tech",
+          "text": "They told us that AI was going to take all our jobs. It hasn't yet, but something much more annoying and demoralizing is going on https://t.co/5uliRRxJs9"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095509540808872081",
+          "author": "mikromoons",
+          "searchJob": "texas-tech",
+          "text": "your fav tech billionaire did this"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095603099385966899",
+          "author": "loopingcloud",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/Vv61oJ8OKi"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095598060126470485",
+          "author": "kirillmorozovop",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/wcc4ib5Oin"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095591607999554005",
+          "author": "qz",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/iNpdHKyr7F"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095603995763167430",
+          "author": "heronpower",
+          "searchJob": "virginia",
+          "text": "On July 22 a routine transmission fault in Northern Virginia caused roughly 3,100 MW of demand to vanish in seconds as data centers switched to backup power. Our CEO @baglino wrote in @UtilityDive this week with @nvidia, @InvenergyLLC and @"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095590296952176720",
+          "author": "sikhichooran",
+          "searchJob": "virginia",
+          "text": "Sikhs offer FREE langar, food, (by taking donations elsewhere) in Virginia at their gurudwaras 1. Men must wear Islamic Pagg 2. Women must cover their head like Burkha 3. Eat Beef 4. Bad Mouth India, Hindus 5. Play Victimcard when necessary"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095590032522575880",
+          "author": "dhruvamin",
+          "searchJob": "wake-forest",
+          "text": "https://t.co/Vbc8qLw6TL"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095594867090960864",
+          "author": "brianbarishisho",
+          "searchJob": "marshall",
+          "text": "@SafaricomPLC mtu akitumia mpesa mbona mna spam simu yangu na message za offers za ujinga. Muache ufala sasa pia nyinyi ghasia"
         }
       ]
     },
     "extraction": {
-      "accepted": 2,
-      "rejected": 36,
+      "accepted": 0,
+      "rejected": 46,
       "reasons": {
-        "bare_mention_requires_llm": 19,
-        "school_not_resolved_confidently": 13,
+        "bare_mention_requires_llm": 14,
+        "school_not_resolved_confidently": 29,
         "reporter_missing_player_name": 1,
-        "author_not_recruit:organisation": 1,
-        "author_not_recruit:different sport": 1,
-        "reporter_missing_class_year": 1
+        "multiple_resolved_schools": 2
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095576489165013223",
-          "author": "ivankatrumprv45",
-          "searchJob": "georgia-state",
-          "text": "🚨 JUST IN: Rep. Clay Fuller reveals he’s FULL STEAM AHEAD on IMPEACHING rogue leftist Judge Eleanor Ross GOOD! Impeachments are long overdue 🔥 FULLER: “I will hold rogue judges accountable. I don’t care how long it takes. I will fight to "
+          "postId": "2095587745645080601",
+          "author": "lainsurancedept",
+          "searchJob": "louisiana",
+          "text": "𝗗𝗶𝗱 𝘆𝗼𝘂 𝗸𝗻𝗼𝘄 𝘄𝗶𝗻𝗱 𝗺𝗶𝘁𝗶𝗴𝗮𝘁𝗶𝗼𝗻 𝗳𝗲𝗮𝘁𝘂𝗿𝗲𝘀 𝗰𝗼𝘂𝗹𝗱 𝘀𝗮𝘃𝗲 𝘆𝗼𝘂 𝗵𝘂𝗻𝗱𝗿𝗲𝗱𝘀 𝗼𝗿 𝘁𝗵𝗼𝘂𝘀𝗮𝗻𝗱𝘀 𝗼𝗻 𝘆𝗼𝘂𝗿 𝗵𝗼𝗺𝗲𝗼𝘄𝗻𝗲𝗿'𝘀 𝗶𝗻𝘀𝘂𝗿𝗮𝗻𝗰𝗲? 🏠💰 Insurance companies in Louisiana are requ"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095570132143640834",
-          "author": "_drcharliewardq",
-          "searchJob": "georgia-state",
-          "text": "🚨 JUST IN: Rep. Clay Fuller reveals he’s FULL STEAM AHEAD on IMPEACHING rogue leftist Judge Eleanor Ross GOOD! Impeachments are long overdue 🔥 FULLER: “I will hold rogue judges accountable. I don’t care how long it takes. I will fight to "
+          "postId": "2095602837703074086",
+          "author": "1reformalliance",
+          "searchJob": "arkansas",
+          "text": "Finding a K-12 school that provides what their child needs is a journey for every family, and every family deserves access to that environment that will help their child thrive. Explore programs that offer these opportunities: https://t.co/"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095589923713609863",
+          "author": "oaklawn_sports",
+          "searchJob": "arkansas",
+          "text": "🏈 New Customers: Bet $1 on #Arkansas vs. UNA this weekend and get $100 in Bonus Bets if 1 point is scored in the game. Just one point. That's all it takes. Join Oaklawn Sports – #FanDuel today to take advantage of this offer. 💰 #CollegeFo"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095593373151187259",
-          "author": "teamfoldscope",
-          "searchJob": "hawaii",
-          "text": "If the Foldscope 2.0 Explorer Kit has been on your wish list, now’s the time to grab one! 🔬 For a limited time, get FREE SHIPPING on the Foldscope 2.0 Explorer Kit! Discover what’s hiding beyond the naked eye with a portable paper microsco"
+          "postId": "2095602964878483616",
+          "author": "oregonsbdc",
+          "searchJob": "oregon",
+          "text": "The Oregon SBDC Network’s 𝐒𝐦𝐚𝐥𝐥 𝐁𝐮𝐬𝐢𝐧𝐞𝐬𝐬 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 (𝐒𝐁𝐌) 𝐩𝐫𝐨𝐠𝐫𝐚𝐦 returns this fall! The SBM program is offered at SBDCs throughout Oregon. Find a program near you: https://t.co/PxJZ02JPjJ #OregonSBDC #Small"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095587670940389616",
-          "author": "akeemmccoy",
-          "searchJob": "hawaii",
-          "text": "@Team2Trading @fredtrades You never offered me this opportunity even tho I don’t live in Hawaii lol"
+          "postId": "2095605450645352715",
+          "author": "fsuwire",
+          "searchJob": "washington",
+          "text": "Blue-chip 2029 edge receives offer from FSU 📸 Jim Dedmon-USA TODAY Sports https://t.co/TRPJud2dx0 https://t.co/LMJI5YY1xz"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095577902007898422",
-          "author": "uhpressnews",
-          "searchJob": "hawaii",
-          "text": "Celebrate Hawaiian History Month! 📚 Save 30% on featured books with code HHM26, or 25% on Hawai‘i: A Kingdom Crossing Oceans with code KINGDOM25. Offers end Sept. 30. https://t.co/UDrWFP4pBO #HawaiianHistoryMonth #HawaiiHistory #QueenLiliu"
+          "postId": "2095604431849234567",
+          "author": "trendtowar18751",
+          "searchJob": "washington",
+          "text": "From Sacred Medicine to 65 Billion Barrels: The Latest Plunder of Venezuela The Añú and Wayuu knew it as mene — sacred, warm, black. They skimmed it from Lake Maracaibo’s surface, softened it in the sun, sealed their curiaras with it, and r"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095570595794522323",
-          "author": "ballcoachhp",
-          "searchJob": "kennesaw-state",
-          "text": "Let’s welcome @Ashton23elite Ashton Kelley 5’11 170’ Kicker Kennesaw, Georgia No offers https://t.co/jrD4pZHTS6 3.62 GPA #TeamGrind🔥 https://t.co/cRYN1NitJl"
+          "postId": "2095603961730334761",
+          "author": "glum_gary",
+          "searchJob": "washington",
+          "text": "The United States provided extensive covert and overt assistance to the United Kingdom during the 1982 Falklands War, despite initially claiming neutrality. The U.S. redirected spy satellites operated by the National Reconnaissance Office ("
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095600888379490758",
-          "author": "newkentmotel",
-          "searchJob": "kent-state",
-          "text": "Looking for a place to stay in Hollywood, South Florida? New Kent Motel offers rooms with comfortable bedding, internet, cable TV, and access to a large swimming pool. Some rooms include kitchens. https://t.co/YPdFlk76ze #NewKentMotel #Holl"
+          "postId": "2095601727210930670",
+          "author": "zionhealthshare",
+          "searchJob": "washington",
+          "text": "Before care, ask what’s included and if self-pay pricing is offered: https://t.co/NhRCIC59vq Zion HealthShare operates as a non-profit medical cost-sharing community. We are not insurance and cannot operate in the state of Washington. Pleas"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095593765251563902",
+          "author": "ulgensophia74",
+          "searchJob": "washington",
+          "text": "Zelensky's video-summary for the day (3 September 2026) begins with the statement that they are \"trying to find a solution\" for Russia's jet-powered drones and just yesterday there was a very good report about these drones of Russia in the "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095593281946280222",
+          "author": "barryesharp",
+          "searchJob": "washington",
+          "text": "Post 1. Rooms are not a register. That is the bluff. 3rd September 2026 Mark Carney’s method is to keep files in separate drawers and call the furniture management. In this trade war, the neighbour is pricing one clock. The citizen pays whi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095592495409213540",
+          "author": "jacjack202",
+          "searchJob": "washington",
+          "text": "@TedLeonsis please offer John Wall a minimum 1-2 year deal so our guy can retire the right way. John could bring a lot of leader ship and that competitive win now mentality. The city of Washington DC would be forever greatful. #Wallstar"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095570012715250088",
-          "author": "ryannokneel",
-          "searchJob": "kent-state",
-          "text": "Tried to pay my alcohol awareness course fine in 6 monthly installments but it wouldn't let me book the course until all 6 were paid and my driving licence return will depend on this course. Had to pay it in a one-er. Some fucking holiday i"
+          "postId": "2095592269734695333",
+          "author": "jezzaica",
+          "searchJob": "washington",
+          "text": "The Carlyle Group has several indirect business, financial, and leadership connections to Israel, though it is a US-headquartered global investment firm rather than an Israeli company. On December 19, 2023, global investment firm The Carlyl"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095597738318823857",
-          "author": "babybosun",
-          "searchJob": "liberty",
-          "text": "Mastering any skill adds to the options life offers you. As your talents grow, you gain greater liberty to turn away from paths that don't suit you and pursue what truly resonates with your spirit. ⚔Strolling with my son at dusk, the stars "
+          "postId": "2095590561466228942",
+          "author": "witness360hq",
+          "searchJob": "washington",
+          "text": "@nationalpost Prime Minister Carney: stop arguing with memes and start answering the case. 🇨🇦 What terms did Washington demand? What did Canada offer? What would walking away cost workers and exporters? Put the evidence before Canadians. "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095595061203595432",
-          "author": "ertyu3467",
-          "searchJob": "liberty",
-          "text": "Embrace the liberty of jogging and the splendor of sunrise during serene early hours. Free from schedules and petty interruptions, simply let your intuition guide your steps and savor the untainted delight of physical activity. 🐵 Dawn Stre"
+          "postId": "2095588282545353104",
+          "author": "hhzqfckdgh_page",
+          "searchJob": "washington",
+          "text": "♦️ Carney didn’t offer a trade plan. He offered a speech code. Talks resume, he said, when Americans “stop doing memes, stop throwing shade, stop trying to be tough.” ♦️Translation: mute the White House first, then Ottawa might sit down. Th"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095592916613730687",
-          "author": "orthodoxreflec1",
-          "searchJob": "liberty",
-          "text": "Liberty Needs a Last Line of Defense Courts, legislatures and elections can all fail. What remains when government power becomes oppressive? Jury nullification has historically offered citizens a peaceful check against unjust prosecution. h"
+          "postId": "2095585649432707458",
+          "author": "roddmartin",
+          "searchJob": "washington",
+          "text": "Venezuela: The Biggest Oil Deal Ever — and Canada’s Strategic Folly Cary Dunst and I discuss how Trump’s Venezuelan oil deal gives Washington new leverage over Ottawa, offers a free Iran a way to restore its energy wealth, and gives Venezue"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095602774377464024",
+          "author": "uwstevenspoint",
+          "searchJob": "wisconsin",
+          "text": "#UWSP now leads all of the comprehensive Universities of Wisconsin schools in the number of doctoral degree offerings. The Doctor of Audiology, Doctor of Physical Therapy, and two Doctor of Education degrees in educational sustainability an"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095597951234277602",
-          "author": "reimakayla",
-          "searchJob": "tulsa",
-          "text": "Tulsa will pay you $10,000 to move there. West Virginia will pay you $12,000. A clean 3-bedroom in Tulsa runs about $165,000, and the down payment on it is $5,775 The city just paid your down payment and gave you $4,225 for the U-Haul These"
+          "postId": "2095602930531377341",
+          "author": "miamilawschool",
+          "searchJob": "miami",
+          "text": "#MiamiLaw welcomed our adjunct faculty for a start-of-year reception hosted by Dean Patricia Sanchez Abril. The gathering offered an opportunity to reconnect with colleagues and celebrate the important role our adjunct faculty play in the M"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095601110186631197",
-          "author": "scedwards707",
-          "searchJob": "alabama",
-          "text": "You hire the clown you get the circus. For the very few Bama fans out there that wonder if Lane would ever get an offer in Ttown… he’s showing you why that won’t ever happen #SEC"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095598209607291358",
-          "author": "willengel743466",
-          "searchJob": "alabama",
-          "text": "You are delusional mark carney has already made three concessions and trump is yet to make one. We will win this trade war whether you like it or not. -Scrapping the Digital Services Tax (DST): Canada dropped its planned tax targeting major"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095588715154350295",
-          "author": "np4football_ot",
-          "searchJob": "alabama",
-          "text": "Correction: Harris the 2027 DL from Alabama has 6 Offers to Date**"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095584075348385963",
-          "author": "coachdrew94",
-          "searchJob": "alabama",
-          "text": "Josh Jacobs came to me his senior year with zero offers. After enrolling in my program he had 20+ offers — including one from Nick Saban at Alabama. He won two national championships. Went in the first round of the NFL Draft. Signing bonus:"
+          "postId": "2095581490822422956",
+          "author": "therealxavierp",
+          "searchJob": "miami",
+          "text": "@egoldie80 @NickPaulus correction without the Watson deal, Lamar isn’t thinking about it. Also, do you know the 230M contract came for the colts? The browns learned from them, Texans said no. We learned and offered it. I think we are blamin"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095599345232195902",
-          "author": "fitarmy",
-          "searchJob": "texas",
-          "text": "He quoted John 20:17. He skipped John 20:28. Eleven verses later Thomas looks at the risen Yeshua and says “My Lord and my God.” Yeshua does not correct him. He blesses him. Eleven verses away, and it never made the video. Watch the same mo"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095598177457987922",
-          "author": "bryce_cruse",
-          "searchJob": "texas",
-          "text": "I love California and everything it has to offer but when a crisp Saturday night in the fall rolls around, there’s no place I’d rather be than in Lubbock watching Texas Tech play football."
+          "postId": "2095580649922945387",
+          "author": "ghostofadamgase",
+          "searchJob": "miami",
+          "text": "Breaking News: The NFL Strips the Miami Dolphins of their 2027 1st round pick due to current staff member (Kevin Patullo) using fan generated content to scout the Packers in 2026. Roger Goodall offered no additional comments."
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095595511999086940",
-          "author": "montaname1",
-          "searchJob": "texas",
-          "text": "@DanPatrick 🤣Riiiiiight. Paxton is a terrible orator, and everyone knows he would drive away voters in any \"debate.\" He has nothing to offer but proximity to trump. And he doesn't want to answer ANY hard questions about his corruption. Tex"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095594674899837033",
-          "author": "montaname1",
-          "searchJob": "texas",
-          "text": "@cbs11jack @KenPaxtonTX 🤣Riiiiiight. Paxton is a terrible orator, and everyone knows he would drive away voters in any \"debate.\" He has nothing to offer but proximity to trump. And he doesn't want to answer ANY hard questions about his cor"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095586397902053833",
-          "author": "amilynne87",
-          "searchJob": "texas",
-          "text": "@WeaselPrime @ProsecutorsPod Happy little echo chambers - it’s why I don’t block ppl who disagree with me on political stuff or information I put forth regarding legislative reforms in Texas. It’s good to know and hear the other side bc the"
+          "postId": "2095603752065700255",
+          "author": "marduk21",
+          "searchJob": "texas-tech",
+          "text": "It is our responsibility to use technology to mitigate the effects the melting ice has on people. Yes this impacts the poor first. One of the ways to help the poor is to offer them better options in the job market to get them rich enough to"
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2095585379982217316",
-          "author": "theodoreii1975",
-          "searchJob": "texas",
-          "text": "@AndrewSandra90 @X here is the free estimate & free consultation. We did for Mr John, from Sarasota Florida. That is residing on the Northside of Texas. He wanted his patio roof fixed. It didn't or doesn't have a waterproofing solution. The"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095583960025702572",
-          "author": "cityofcc",
-          "searchJob": "texas",
-          "text": "𝗩𝗼𝗹𝘂𝗻𝘁𝗲𝗲𝗿𝘀 𝗡𝗲𝗲𝗱𝗲𝗱 𝗳𝗼𝗿 𝘁𝗵𝗲 𝗖.𝗔.𝗦.𝗧. 𝗙𝗶𝘀𝗵𝗶𝗻𝗴 𝗘𝘃𝗲𝗻𝘁! Join us for an inspiring day at the 𝗖𝗔𝗦𝗧 𝗞𝗶𝗱𝘀 𝗙𝗶𝘀𝗵𝗶𝗻𝗴 𝗘𝘃𝗲𝗻𝘁 𝗼𝗻 𝗦𝗮𝘁𝘂𝗿𝗱𝗮𝘆, 𝗢𝗰𝘁𝗼𝗯𝗲𝗿 𝟭𝟳. 𝗛𝗼𝘀𝘁𝗲𝗱 𝗯𝘆 𝘁𝗵𝗲 𝗖\ud835"
+          "postId": "2095603494275121331",
+          "author": "arunansuspeaks",
+          "searchJob": "texas-tech",
+          "text": "Aidan McConnell had to convince people who could work at Google or Meta to move to freezing-cold Minnesota instead. And it worked. The founder and CEO of https://t.co/0OzbED87TF told me recruiting was the single hardest thing about the earl"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095583902249165042",
-          "author": "thedail20381014",
-          "searchJob": "texas",
-          "text": "John W Lang | Texas Realtor | HomeSmart Realty https://www. workforce-resource. com/dpr/pmt/HAR/JWL77318 TSAHC Mortgage Credit Certificate tip. Education only. Not a loan offer. https://t.co/pJB7rfcNny"
+          "postId": "2095603293623894158",
+          "author": "rvalucyjay",
+          "searchJob": "texas-tech",
+          "text": "🇺🇸 US Market Update — September 3, 2026 US stocks rose today, led by tech stocks and high-beta stocks. Investors are digesting comments from the Federal Reserve and preparing for tomorrow's jobs report, with risk appetite increasing. Toda"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095600563593335186",
+          "author": "yarhuter",
+          "searchJob": "texas-tech",
+          "text": "Aptos tech isn’t the question - best offer on the market. Attention is. It’s a Lambo in the garage. Institutions like the garage. They still won’t drive a car with no road traffic. Liquidity follows users. Users follow attention. Same engin"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095599121243717887",
+          "author": "tetratechjobs",
+          "searchJob": "texas-tech",
+          "text": "We want to make a difference with you! See what #TetraTechJobs we have to offer, and work with some of the brightest minds in the industry. https://t.co/6skzg2eGXJ #LeadingWithScience"
         }
       ]
     },
@@ -440,20 +404,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 33,
+      "swept": 35,
       "failed": 1,
-      "requests": 34,
+      "requests": 36,
       "errors": [
-        "louisiana: rate limited"
+        "western-kentucky: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 2,
-      "rejectedCandidates": 36,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 46,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-03T19:58:22.260Z"
+    "status rebuilt locally from current store on 2026-09-03T20:14:00.488Z"
   ]
 }
