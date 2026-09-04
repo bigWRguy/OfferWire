@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-04T08:58:44.307Z",
+  "generatedAt": "2026-09-04T09:13:45.058Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-04T08:58:44.112Z",
+    "at": "2026-09-04T09:13:44.792Z",
     "jobsTotal": 162,
-    "sweptThisRun": 36,
+    "sweptThisRun": 35,
     "requests": 36,
     "fullSweepCycles": 5
   },
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5405088888888889,
-    "p95Hours": 1.0433836111111112,
-    "worstHours": 1.0433836111111112
+    "medianHours": 0.5353086111111112,
+    "p95Hours": 1.0432147222222221,
+    "worstHours": 1.0432147222222221
   },
   "decisionCoverage": {
-    "total": 3,
-    "decided": 3,
+    "total": 46,
+    "decided": 46,
     "complete": true
   },
   "pending": {
@@ -52,57 +52,287 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-04T08:58:44.111Z",
-      "got": 8,
-      "new": 3,
-      "lag": 0.07
+      "at": "2026-09-04T09:13:44.792Z",
+      "got": 52,
+      "new": 46,
+      "lag": 0.12
     }
   },
   "audit": {
-    "at": "2026-09-04T08:56:20.999Z",
+    "at": "2026-09-04T09:11:25.558Z",
     "mode": "live",
     "collection": {
-      "returned": 8,
-      "kept": 3,
+      "returned": 52,
+      "kept": 46,
       "duplicate": 5,
-      "tooOld": 0,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 3,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 35,
+      "rejected": 11,
+      "reasons": {
+        "hard_negative": 2,
+        "no_fbs_school": 5,
+        "no_offer_term": 4
+      },
+      "samples": [
+        {
+          "reason": "hard_negative",
+          "postId": "2095800634457129224",
+          "author": "readjoyscom",
+          "searchJob": "california",
+          "text": "The Absurdity of America as Seen Through California's Anti-Shirley Bill！！！！I have argued in my book The Course of Western Civilization and in numerous articles that the greatest flaw of the American electoral system is this: if the voter ba"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095789007774900278",
+          "author": "abc7newsbayarea",
+          "searchJob": "california",
+          "text": "PBR offers $20K reward for information after 40,000-pound beer heist in Southern California https://t.co/XQZjgMnIWB https://t.co/Pvjy8oQFNO"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095787316623073635",
+          "author": "jeddahfintech25",
+          "searchJob": "california",
+          "text": "We are thrilled to announce @multibankgroup Group as Global Partner of Jeddah Fintech Week 2027. Established in California and headquartered in Dubai, MultiBank Group is one of the world's largest and most regulated online financial derivat"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095787737806749971",
+          "author": "indystar",
+          "searchJob": "notre-dame",
+          "text": "Coach Marcus Freeman has experienced fatherhood and football from when he wore cleats. He's able to offer his players advice who are balancing the same. https://t.co/Zno2bHpPm8"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095800101318922349",
+          "author": "nicholasidokohq",
+          "searchJob": "arkansas-state",
+          "text": "https://t.co/KX2FfUqaei"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095729311248732230",
+          "author": "abhiattorney_",
+          "searchJob": "army",
+          "text": "Krishna to Shakuni: “Deceit in the service of Dharma is Dharma. On this Kurukshetra, the Pandavas must win by any means. Bhishma,Drona ,Karna all three will fall through deceit.” https://t.co/9gLxGKAZ2G"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095748563531629033",
+          "author": "manishindiatv",
+          "searchJob": "army",
+          "text": "Sanjay and Kabir, who worked as a foreman and in the mechanical team at the #Trishuli 3A Hydropower Project, have been safely rescued. Relief and rescue operations continue for those still missing. At #Trishuli 3A, the #Nepal Army is leadin"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095792475072032972",
+          "author": "burhanalmufti",
+          "searchJob": "washington",
+          "text": "The United States is committing approximately $100 billion to the development of Venezuela’s oil sector, including 17 oil fields with combined reserves estimated at around 65 billion barrels. This investment would give Washington greater st"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095791917984297174",
+          "author": "avner_vilan",
+          "searchJob": "washington",
+          "text": "Pressure only works if there is something to surrender to. https://t.co/zfpGh3NJXh"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095797307425820910",
+          "author": "dukebiz",
+          "searchJob": "duke",
+          "text": "@David_Coslett That cold-caller background is a useful edge. Growing a £250k–£1m service business usually comes down to turning repeated sales conversations into a clear offer and a delivery system that does not depend on the founder."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095788846864531687",
+          "author": "dukebiz",
+          "searchJob": "duke",
+          "text": "@laurencebuilds The first invoice is also the best market research. Once someone pays, the conversation gets more honest, and that makes the next version of the offer much easier to shape."
+        }
+      ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 35,
       "reasons": {
-        "bare_mention_requires_llm": 2,
-        "school_not_resolved_confidently": 1
+        "bare_mention_requires_llm": 33,
+        "school_not_resolved_confidently": 1,
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095785399314415995",
-          "author": "benenden_hosp",
-          "searchJob": "kent-state",
-          "text": "Last week, Becky Friend, Clinical Skills Facilitator at Benenden Hospital, and Cheryl Lythgoe, Nurse Consultant and Head of the Benenden Charitable Trust, delivered Be a Lifesaver (BLS) training to non-clinical hospital teams and local busi"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095797589882839388",
-          "author": "elcontador2000",
-          "searchJob": "liberty",
-          "text": "Imagine arriving in Gaza, kicking off your shoes and immediately feeling the warm, welcoming breeze of total personal liberty. Everyone there is busy celebrating diversity and individual expression. The local tourist office even offers a ha"
+          "postId": "2095788254771777557",
+          "author": "mndarkfire",
+          "searchJob": "california",
+          "text": "@DoucheAlmighty @RinoTheBouncer Yeah, no they fucking won’t, Sony pony. In California, where the lawsuit is. California assembly bill 2426 declares it unlawful to advertise or offer for sale a digital good using terms like “buy” or “purchas"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095792184985600337",
-          "author": "bballstrategy",
-          "searchJob": "south-florida",
-          "text": "If Tatum is made available for trade decisions at some point, there will be many offers, very serious or not so much. I'd guess the Bulls and Hornets could be prominent suitors. Multi-team deals may be desirable or necessary."
+          "postId": "2095784386138415159",
+          "author": "shelbournepark",
+          "searchJob": "notre-dame",
+          "text": "Semi-Final time this Saturday 5th September Be here as our Finalists are decided! The final six in the 2026 BOYLE Sports Irish Greyhound Derby will be decided this Saturday 5th September with two unmissable Semi-Finals headlining the racing"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095798365350920255",
+          "author": "solaidback69",
+          "searchJob": "arkansas-state",
+          "text": "@Magpie24_7 This will significantly increase the clubs overall value &amp; it will also increase the sponsorship value of the TG massively as I doubt KNOX will be able to offer 40-50m/yr sponsorship on a state-of-the-art TG either, so it wi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095795523454480736",
+          "author": "loveandpeacein",
+          "searchJob": "arkansas-state",
+          "text": "@dmuthuk Why should we offer wishes for some nonsense which we don’t accept? Grow up man., A state can’t grow up with mere wishes, it needs a man with vision and action 🫢"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095794485502578865",
+          "author": "katekatejaye3",
+          "searchJob": "arkansas-state",
+          "text": "@CharlieGordon20 @OnCritter @jeremyleibler @NickMcKim Arafat rejected a state which was a reasonable offer in 2000 and to abbas in 2008 . What followed was Passover massacre. Israel build a security wall in Judea /WB to protect itself . Pay"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095793062970622190",
+          "author": "uskthegreat",
+          "searchJob": "arkansas-state",
+          "text": "To most of us, at least at a first glance, maps appear to describe reality. They show states, borders, capitals, and frontiers with the reassuring precision of geography. We learn them at school, consult them in newspapers, and rarely quest"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095792110293143604",
+          "author": "neillg65",
+          "searchJob": "arkansas-state",
+          "text": "@ClearReason Israel has never offered Palestinians a state, even Netanyahu referred to Gaza as a defacto state - not intended, not legal, not accepted. Israel has never allowed Gazans to control their own borders. How much of a state is tha"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095800639611621472",
+          "author": "teadiplomacy",
+          "searchJob": "army",
+          "text": "📜 THIS DAY IN DIPLOMATIC HISTORY September 4, 1870 France has lost its Emperor at Sedan. A republic is proclaimed from from the balcony of the Hôtel de Ville in Paris. The new government calls itself the Government of National Defence and "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095798394585276762",
+          "author": "esty_welch",
+          "searchJob": "army",
+          "text": "@Osint613 The Lebanese President offered them safe passage and the Lebaneee army taking over the tunnels. They refused."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095796274503062000",
+          "author": "nigeriaarmyinfo",
+          "searchJob": "army",
+          "text": "AWCN COURSE 10/2026 PARTICIPANTS COMMENCE OPERATIONAL THEATRE VISIT TO 1 DIVISION Participants of the Army War College Nigeria (AWCN) Course 10/2026 have officially commenced an operational theatre visit to the Headquarters of the 1 Divisio"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095792633540972648",
+          "author": "whiffofreshair",
+          "searchJob": "army",
+          "text": "There is just one problem with this quote. Krishna never says it to Shakuni in Vyasa’s Mahabharata. Not in K.M. Ganguli. Not in the Critical Edition. “Deceit in the service of Dharma is Dharma” may make a terrific meme. It is not Vyasa. Nor"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095789738124820486",
+          "author": "vynndayo",
+          "searchJob": "army",
+          "text": "I think im applying to the army for a job, doing cybersec. that shit pays too well. also they offer bonus for your rent, bonus for your move, bonus for add. education, company car, and they pay your fkn gym???? is that not insane?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095788307997417593",
+          "author": "elitepredatorss",
+          "searchJob": "army",
+          "text": "Great that he is alive and safe now, but hardly anyone will tell you that he is among the 200+ others who are still stuck at two different locations. Be advised, we have entered 10th day of the flood. The absolutely genius management of the"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095786364629402028",
+          "author": "bjarne147",
+          "searchJob": "army",
+          "text": "@bbctms Blame his Barmy Army organisation who offer packaged slop to the gullible masses. They mark the prices up and the directors make a killing. They are a package holiday co masquerading as a supporters group. Money grabbing, unwanted d"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095785944016105820",
+          "author": "michael55615440",
+          "searchJob": "army",
+          "text": "Israel fantasizes about a US ground invasion of Iran The Jerusalem Post published an analysis by AJ Jaff arguing that air strikes alone cannot defeat Iran. The author claims the 180-day air campaign failed to collapse Tehran's military pote"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095785367437722074",
+          "author": "beatelandefeld",
+          "searchJob": "army",
+          "text": "🇮🇱 Israel fantasizes about a US ground invasion of Iran The Jerusalem Post published an analysis by AJ Jaff arguing that air strikes alone cannot defeat Iran. The author claims the 180-day air campaign failed to collapse Tehran's military"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095788313659503025",
+          "author": "jony2_old",
+          "searchJob": "marshall",
+          "text": "The MIT economist Barack Obama called into the White House to model the Affordable Care Act accidentally destroyed the pricing consulting industry in a free 76-minute lecture on the math behind every price on earth. He filmed the lecture as"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095787889372127277",
+          "author": "viarifnote",
+          "searchJob": "massachusetts",
+          "text": "Genetically modified pig kidney functions for record 271 days in US man A genetically modified pig kidney functioned in a US man for 271 days, setting a record for the longest time a pig kidney has operated in a human body, according to the"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095800506363113801",
+          "author": "deccanchronicle",
+          "searchJob": "temple",
+          "text": "Large crowds gathered at Bengaluru’s ISKCON temple to celebrate Krishna Janmashtami, offer prayers for health and prosperity, and seek blessings. Actress Shanvi Srivastava also joined devotees. #Janmashtami #ISKCONBangalore #Bengaluru #Kris"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095799753724534854",
+          "author": "pti_news",
+          "searchJob": "temple",
+          "text": "VIDEO | Bhopal: Union Minister Shivraj Singh Chouhan (@ChouhanShivraj) offers prayers at Krishna Temple on the occasion of Janmashtami. (Full video available on PTI Videos - https://t.co/d8jp61yd2p) https://t.co/f6n9EI4WK3"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095796373606346762",
+          "author": "hindfirstnews",
+          "searchJob": "temple",
+          "text": "Janmashtami 2026 | श्रीकृष्ण जन्मभूमि मंदिर में मंगला आरती, मंदिर में विशेष प्रार्थना, भक्तिमय हुआ माहौल | Hind First मथुरा के श्रीकृष्ण जन्मभूमि मंदिर में जन्माष्टमी के अवसर पर मंगला आरती और विशेष प्रार्थनाएं की जा रही हैं। मंदिर परिसर में"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095795410581532711",
+          "author": "vic_vij",
+          "searchJob": "temple",
+          "text": "@svembu We used to offer seva every weekend. One person would sponsor the feast, &amp; all of us would come together. ISKCON was often the only temple in remote parts of the world then guess that was the case in the USA too, since you were "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095793882235892082",
+          "author": "httweets",
+          "searchJob": "temple",
+          "text": "#InPhotos | Devotees offer prayers at the ISKCON temple in Sector 33, Noida, on Friday, September 4, 2026, as they celebrate Janmashtami, marking the birth of Lord Krishna. 📸: Sunil Ghosh/Hindustan Times 📲 For News on the go, download the"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095792996554096740",
+          "author": "ani",
+          "searchJob": "temple",
+          "text": "#WATCH | Bhopal, Madhya Pradesh: Chief Minister Mohan Yadav offers prayers at Radha Krishna Temple on the occasion of Janmashtami. https://t.co/7EBte6365U"
         }
       ]
     },
@@ -110,18 +340,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 36,
-      "failed": 0,
+      "swept": 35,
+      "failed": 1,
       "requests": 36,
-      "errors": []
+      "errors": [
+        "colorado: SearchTimeline HTTP 404 (slice left pending)"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 3,
+      "rejectedCandidates": 35,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-04T08:58:44.308Z"
+    "status rebuilt locally from current store on 2026-09-04T09:13:45.059Z"
   ]
 }
