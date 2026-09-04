@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T02:43:25.890Z",
+  "generatedAt": "2026-09-04T02:56:06.960Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7861519444444445,
-    "p95Hours": 1.2881644444444444,
-    "worstHours": 1.787451388888889
+    "medianHours": 0.9975602777777778,
+    "p95Hours": 1.4995727777777779,
+    "worstHours": 1.9988597222222222
   },
   "decisionCoverage": {
-    "total": 67,
-    "decided": 67,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "pending": {
@@ -59,393 +59,46 @@
     }
   },
   "audit": {
-    "at": "2026-09-04T02:41:08.492Z",
+    "at": "2026-09-04T02:56:02.563Z",
     "mode": "live",
     "collection": {
-      "returned": 104,
-      "kept": 67,
-      "duplicate": 37,
+      "returned": 0,
+      "kept": 0,
+      "duplicate": 0,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 34,
-      "rejected": 33,
-      "reasons": {
-        "no_fbs_school": 17,
-        "non_fbs_offer_target": 3,
-        "no_offer_term": 12,
-        "hard_negative": 1
-      },
-      "samples": [
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095681866997125532",
-          "author": "michaelbry50",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive another offer from DBCU !!!!! https://t.co/mkWdFxWTxI"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095679695618523541",
-          "author": "micahh1kk",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Wow!!! After a Great Conversation with @evan_nunez24 I Am Extremely Blessed To Receive An Offer From Capital University!!!! @VeniceRecruit10 @VeniceIndianFB @jleee74 @larryDshannon @john_p34 @BallCoachHP https://t.co/ITgWL6VBeP"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095679044356337770",
-          "author": "teddy_aiv",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I am blessed to receive a game day invite from @CatholicU_FB. I am looking forward to watching! @CoachMattyVogel @CoachStaySharp @mzpafootball https://t.co/PX5ercVqsZ"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095678704546382097",
-          "author": "caidenhdidio",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great talk with @Coach_Lebeau I am blessed to receive an offer to play at Western New England!! @DuganMethuen @seenandresults @WNEFB @PactPerformance https://t.co/Y3xXnGJE5Y"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095678378804199779",
-          "author": "gavin_delaney8",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After talking with Coach Durham I am blessed to receive an offer from Kuyper college!!! @WlnorthernB @coach_gsmitty @TheLOUDAcademy @KingHulk_7 @BrzezinskiAlec https://t.co/aQOun14eC3"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095677551733547213",
-          "author": "drewfischer152",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great visit and conversation with @CoachSchlabaugh and @zschla3, I’m blessed to receive an offer from @CornellRamsMBB!! https://t.co/UUfG0QlN0Q"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095676995736686733",
-          "author": "isaiahbingham53",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I’m blessed to receive a game day invite from @BrownU_Football 🤎 @_CoachHughes @Coach_McGuire5 https://t.co/nOr44xLwAj"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095676633453576475",
-          "author": "jerseyrae111",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great visit at Sewanee I'm very blessed to receive an offer. I want to thank @SewaneeWBB for putting the time in with me today. Thank you @Coach_Jay32 and @katieburtonn33 for the amazing tour and thank my lord and savior for opening"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095675558533169652",
-          "author": "asht1nf4",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive a camp invitation from Valdosta State University! @VState_MBB @Nate_Nowicki https://t.co/abU4P328nj"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095675203372093532",
-          "author": "ansleyharris12",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "So blessed to receive this recognition! Thank you @LineDsoftball!"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095665693823746189",
-          "author": "atlvipersmcbay",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "We’ve got another @LineDsoftball Hot 100 player for the Class of 2028 to recognize! Hailing from Hull, GA and holding down 3B at @ECCHS_SOFTBALL is one of our OG players @AnsleyHarris12! Ansley comes in as the #64 ranked player in her class"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095674533336281394",
-          "author": "maddyice2027",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great visit with @INTechWBB I am blessed to receive an offer to be apart of their program! Thank you coaches for this opportunity! https://t.co/NgS7mKkRDH"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095690726063411594",
-          "author": "commoncentsanon",
-          "searchJob": "texas",
-          "text": "@ScottPresler @JoeGruters lol I’ve been offered free tickets by several different groups for a rally in Texas. Seems to me the base isn’t motivated by lies and bullshit anymore"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095682885550215176",
-          "author": "shaine",
-          "searchJob": "texas",
-          "text": "I remember, growing up, that it was customary to offer guests something to drink, especially here in South Texas where you melt in the summer. These days, most people go around with a water bottle and hardly visit friends and family. We are"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095678229633958032",
-          "author": "ceomagazinegl",
-          "searchJob": "texas",
-          "text": "@LeagueCityTX offers not only a wealth of opportunities for investment and education, it’s also the ideal location to establish a business, explore beautiful natural surroundings or raise a family. https://t.co/yeTE29lrZL"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095693829252821064",
-          "author": "collinswashin24",
-          "searchJob": "washington",
-          "text": "Pizza 🍕 Offers are on Buy one large 🍕 &amp; get another pizza 🆓 https://t.co/XwXz2Q3al9"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095665024651989211",
-          "author": "qubit711",
-          "searchJob": "washington",
-          "text": "@montoyalouis1 No one is winning these days with the cost of everything outrageous"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095682181452771661",
-          "author": "treytonsavea",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @AustenJacobs I Am Blessed and Honored to receive my First Division one offer to the University of San Diego!#AG2G #GoToreros @coachSpikeRossi @TheLoFootball @coach_pacheco @ScottySuesue @PrepRedzoneNV @GregB"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095703360028414191",
-          "author": "tygall_",
-          "searchJob": "miami",
-          "text": "Sarasota High ‘27 product Johnny Lackaff has announced his commitment to Illinois State men’s basketball. The 6’3 guard had offers from Furman, Florida State, Ball State, Florida International and Miami (OH) #REDBIRDbasketball https://t.co/"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095690568466841807",
-          "author": "somerandomdev5",
-          "searchJob": "texas-tech",
-          "text": "@BabatundeOnabaj @joekreiner Again, use the educational resources I've offered you in order to reduce your ignorance. https://t.co/0EOlnsoBvS"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095685440611438879",
-          "author": "somerandomdev5",
-          "searchJob": "texas-tech",
-          "text": "@BabatundeOnabaj @joekreiner Here's a Wikipedia article. Educate yourself rather than wasting your time arguing and proving your ignorance. https://t.co/cvcpTcvQif"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095689085490991159",
-          "author": "bradcoreos",
-          "searchJob": "texas-tech",
-          "text": "Stop burning $150k+ and 7 months on dev delays. Transferring full B2B IP rights for 4 production engines (AIR-Pro, G-Sync, PSP-Pro, TrailerForge). 🔹 Value: $177k+ 🔹 Price: $35k (or 4x $8,750) 🔹 Risk-Free: 48-hr Escrow inspection Full det"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095688694879387680",
-          "author": "christinayiotis",
-          "searchJob": "texas-tech",
-          "text": "“Although smart glasses offer many of the same capabilities as smartphones, they pose new safety challenges because they remove visible cues that someone is recording,4 such as holding up a phone.” https://t.co/P3Y5ijjeeW"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095685258821971969",
-          "author": "techstoriesin",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon India Deal ] RM113 | reMarkable 2 Combo Pack with Marker Plus reMarkable 2 Paper Tablet with Marker Plus Pen, reMarkable 2 Starter Bundle - 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟰𝟴,𝟯𝟵𝟵 | 𝗟𝗶𝘀𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟱𝟰,𝟵𝟵𝟵. [ad] O"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 34,
-      "reasons": {
-        "multiple_resolved_schools": 3,
-        "bare_mention_requires_llm": 15,
-        "school_not_resolved_confidently": 16
-      },
-      "samples": [
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095680976626258278",
-          "author": "georgeontap",
-          "searchJob": "texas-am",
-          "text": "Von Miller wanted his number 40 back when he joined the Cowboys. But there was one problem, it belonged to his teammate Hunter Luepke. And the only way to get it was to give up equity from a chicken business. Miller first offered a lifetime"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095694461825056986",
-          "author": "girlmoneyguide",
-          "searchJob": "arkansas",
-          "text": "@JayJohnson_23 @Coach_Jiannoni @RazorbackFB @BishopMiege_FB @coachjonholmes @MathurinAgency @RashadDaniels12 @healthyjava1 @AllenTrieu @SGasper_UArk Twelve offers deep and still climbing—like a trophy shelf that refuses to quit."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095703208010072293",
-          "author": "sassyeagleusa",
-          "searchJob": "oregon",
-          "text": "@JayPops5 @rcb05 Only an Aggie would think pointing out 11 total scholarship offers, from colleges like Oregon, Auburn, A&amp;M, Tennessee, Penn State, Houston, Oklahoma State, Incarnate Word, UTSA, and Tarleton State, is a dig… 🙄"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095694151870206441",
-          "author": "dave_delfavero",
-          "searchJob": "oregon",
-          "text": "@DialgaMarine92 @Orioles Revenge for what you fucking moron? He was loved in Baltimore. But he rejected the team/city because he wants to play on west coast near his Oregon home. He turned down at least two extension offers. While he was in"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095684040976130287",
-          "author": "kgwnews",
-          "searchJob": "oregon",
-          "text": "Willamette University will offer tuition-free education to eligible Oregon students from families earning $80,000 or less starting Fall 2027. https://t.co/lL3nrkZDah"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095697905587998909",
-          "author": "gmitchelldaily",
-          "searchJob": "texas",
-          "text": "Officer searched plates linked to his wife nearly 4,000 times before agency acted A majority of Americans now oppose new data centers being built in their communities, and the opposition crosses party lines nearly evenly. The Annenberg Publ"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095696949261263279",
-          "author": "taylorrrrr_22",
-          "searchJob": "texas",
-          "text": "I’m looking to sell 4 tickets to Texas Longhorns Football vs. Ohio State Football Game. ——Darrell K Royal-Texas Memorial Stadium. 6:30pm Asking for $250 each or best offer Dm for more details if you’re interested."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095690820221272386",
-          "author": "barlofa",
-          "searchJob": "texas",
-          "text": "🧐Paxton’s Trump endorsement comes with a catch In a must-win Texas Senate race for Republicans, Trump offers Ken Paxton some unusual campaign support. https://t.co/9tB4oAznLm via @YouTube"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095684465536225477",
-          "author": "texanreport",
-          "searchJob": "texas",
-          "text": "🏍️💔 17-Year-Old Smithson Valley High School Student Killed in Comal County Motorcycle Crash 💔🏍️ Comal County, TX — A 17-year-old boy was killed Thursday morning in a crash involving a motorcycle and two pickup trucks on State Highway 46"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095693335319232656",
-          "author": "lawenforcetoday",
-          "searchJob": "washington",
-          "text": "FREE HALAL BREAKFAST AND LUNCH SENT HOME BY A PUBLIC SCHOOL DISTRICT SPECIFICALLY FOR RAMADAN. Yep, taxpayers are already funding religiously compliant take-home meals in American schools. Federal Way Public Schools in Washington offered fr"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095691292332466333",
-          "author": "kpmramani",
-          "searchJob": "washington",
-          "text": "India-US trade deal to be finalised once Washington offers competitive tariff rate, says Goyal https://t.co/sxg3H83Hiq"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095679299881693505",
-          "author": "montoyalouis1",
-          "searchJob": "washington",
-          "text": "Long post. Scroll on if you want. Stay if you still think this country’s worth saving. You’re not wrong. Groceries, rent, insurance, gas — nobody feels like they’re winning right now. A lot of families are just trying to add a little more t"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095694276147458527",
-          "author": "girlmoneyguide",
-          "searchJob": "kansas-state",
-          "text": "@AIDENAIRE @CoachAD__12 @KStateFB @CoachJonRoberts @LG_Blount @coachJArtis @angxfoster @MP_PrideFB @BrandonHuffman @BlairAngulo @JUSTCHILLY @adamgorney @therealbeadle @ADAPDTraining @Rivals @KStateRecruits @gridironarizona @PrepRedzoneAZ @B"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095701807674618253",
-          "author": "danglinwang92",
-          "searchJob": "miami",
-          "text": "@cash_money_cane @whoistrip @ChefMaal7 @damanofyadreamz Adidas and Nike have been in a bidding war for Miami. If they have similar offers, I’d take Nike any day of the week for their gear. Adidas gear is shit, but i continue to spend tons o"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095699948129976646",
-          "author": "themrsghostface",
-          "searchJob": "miami",
-          "text": "taking a break from the charts and my mental health for awhile to really focus on diving \"head\" first into my deepest darkest sexual fantasizes realized through music , coz at the end of the day it doesn't matter how much money you or i mak"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095702644883083532",
-          "author": "bharathp7",
-          "searchJob": "texas-tech",
-          "text": "A strong start to “Signal to Noise” by @RajeevRC_X ji in The Indian Express. The question he raises is one every parent and policymaker should think about: if Big Tech can offer stronger protections to children in the US, why should Indian "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095701228298572124",
-          "author": "radarph_media",
-          "searchJob": "texas-tech",
-          "text": "You step on a sheet of bond paper. Someone traces your feet. Then you wait. In an age when shoes can be ordered with a few taps and delivered from factories thousands of kilometers away, Justin Neil along Recto in Manila still does things t"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095699856413294817",
-          "author": "orthogonalmind",
-          "searchJob": "texas-tech",
-          "text": "@TexSandlin Tex, I’m not up to date, but one of my brothers specifically went to Tech because they offered an architectural bachelors that met all of the licensing requirements. Graduates from other TX schools had to get a Masters to be lic"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095699262504124648",
-          "author": "magashawn",
-          "searchJob": "texas-tech",
-          "text": "@Starlink & @elonmusk . The South Rim Grand Canyon had Flash flooding that unfortunately has had caused devastating damage to our natural spring water pipe in the canyon. They say we have 2-3 weeks of water in our towers. We are on stage 4 "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095698857699012925",
-          "author": "iexs_official",
-          "searchJob": "texas-tech",
-          "text": "Weekly ranges stayed wide: Nasdaq +1.4% to -1.03%, DAX +0.77% to -1.17%. U.S. tech offered the strongest upside, while Europe showed deeper reversals. Watch whether payrolls trigger a break beyond these ranges. https://t.co/UMjvuAGY54 #IEXS"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095694381319889268",
-          "author": "alexriad84837",
-          "searchJob": "texas-tech",
-          "text": "🚀 16 YouTube Channels Every Tech Enthusiast Should Follow Looking to level up your tech skills without spending a fortune? These YouTube channels offer some of the best free content for learning programming, AI, data science, and more. 1. "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095691979354980432",
-          "author": "gamegpu_com",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/rdd8XxYMbb A buyer on eBay was scammed after purchasing a GeForce RTX 4070 Ti Super priced from $800. Instead of the ordered modern GPU, the parcel contained an older GeForce RTX 3070, which currently sells for around $250 to $"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095691217560633824",
-          "author": "annatulriy61627",
-          "searchJob": "texas-tech",
-          "text": "🚀 Excited about #DAC's approach to quantum-secure blockchain? Their dual-token economy with $DACT offers predictable transaction costs and a dynamic ecosystem. Discover their tech-driven vision today! Learn more: https://t.co/3S0717iNVg @d"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095685772754247794",
-          "author": "techstoriesin",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon India Deal ] 39272506 PUMA Blktop Rider Unisex Adult Vibrant Sneaker, White-Persian Blue, 10 UK - 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟰,𝟬𝟰𝟵 | 𝗟𝗶𝘀𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟴,𝟵𝟵𝟵. [ad] Offer Link: https://t.co/Kvk7d7wRCk #amazonindi"
-        }
-      ]
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
-      "ok": true,
-      "reason": null,
+      "ok": false,
+      "reason": "phrase:\"blessed to receive\": rate limited",
       "jobs": 162,
-      "swept": 33,
+      "swept": 0,
       "failed": 1,
-      "requests": 34,
+      "requests": 1,
       "errors": [
-        "temple: rate limited"
+        "phrase:\"blessed to receive\": rate limited"
       ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 34,
+      "rejectedCandidates": 0,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-04T02:43:25.891Z"
+    "status rebuilt locally from current store on 2026-09-04T02:56:06.961Z"
   ]
 }
