@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-04T12:58:30.657Z",
+  "generatedAt": "2026-09-04T13:13:48.014Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-04T12:58:30.405Z",
+    "at": "2026-09-04T13:13:47.711Z",
     "jobsTotal": 162,
-    "sweptThisRun": 36,
+    "sweptThisRun": 35,
     "requests": 36,
     "fullSweepCycles": 5
   },
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.775835,
-    "p95Hours": 1.2860633333333333,
-    "worstHours": 1.2860633333333333
+    "medianHours": 0.5350897222222222,
+    "p95Hours": 1.283828888888889,
+    "worstHours": 1.5408847222222222
   },
   "decisionCoverage": {
-    "total": 23,
-    "decided": 23,
+    "total": 52,
+    "decided": 52,
     "complete": true
   },
   "pending": {
@@ -44,7 +44,7 @@
   "profileResolution": {
     "cached": 33
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 698,
     "incompleteOffers": 0
@@ -52,197 +52,310 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-04T12:58:30.404Z",
-      "got": 36,
-      "new": 23,
+      "at": "2026-09-04T13:13:47.710Z",
+      "got": 68,
+      "new": 52,
       "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-04T12:56:07.034Z",
+    "at": "2026-09-04T13:11:28.942Z",
     "mode": "live",
     "collection": {
-      "returned": 36,
-      "kept": 23,
-      "duplicate": 13,
-      "tooOld": 0,
+      "returned": 68,
+      "kept": 52,
+      "duplicate": 15,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 15,
-      "rejected": 8,
+      "accepted": 38,
+      "rejected": 14,
       "reasons": {
-        "no_offer_term": 3,
+        "no_fbs_school": 8,
+        "no_offer_term": 4,
         "hard_negative": 1,
-        "non_fbs_offer_target": 1,
-        "no_fbs_school": 3
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2095851931985969233",
+          "author": "hudclark",
+          "searchJob": "phrase:\"grateful to receive an offer\"",
+          "text": "After a great conversation with @Cj_buckhalter9 I am grateful to receive an offer from @kwufootball @iam_lamarcus @Marcusdent93 @CoachIssac @Young_Charger99 @recruitchargers https://t.co/7ZZjQaVxhi"
+        },
+        {
           "reason": "no_offer_term",
-          "postId": "2095552294959890756",
-          "author": "bjcruickshank",
-          "searchJob": "notre-dame",
-          "text": "Many of us have been saying for years, English nationalism will destroy the union: https://t.co/wLuVQPQxyZ"
+          "postId": "2095849637886214432",
+          "author": "iamjonathanj_",
+          "searchJob": "syracuse",
+          "text": "🍊🍊 https://t.co/sFvI0imato"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095849467400397068",
+          "author": "joedaddy789",
+          "searchJob": "texas-tech",
+          "text": "@FinancialPhys Capitalism has objectively lifted more people out of poverty than any other system on earth Our poor don’t starve in this country Mountains of debt is largely a choice Capitalism didn’t do that Your poor choices did But yeah "
         },
         {
           "reason": "hard_negative",
-          "postId": "2095837283421155560",
-          "author": "uphonestreal",
-          "searchJob": "miami",
-          "text": "⛽ EVERY DRIVER ASKS THE SAME QUESTION. WHERE IS FUEL CHEAPEST RIGHT NOW? But for businesses moving thousands of vehicles, millions of gallons, or entire supply chains, the question becomes much bigger: WHERE ARE FUEL PRICES GOING NEXT? Gaso"
+          "postId": "2095859611513356334",
+          "author": "chitrader",
+          "searchJob": "delaware",
+          "text": "📈 STOCK SPECIFIC Basically all the mornings headlines: 🔹 $NVDA in talks to put about $2.5B into Thinking Machines Lab. Startup also shopping at least $1B at a ~$40B valuation. $NVDA already lined up at least 1 GW of systems. 🔹 $MU plans "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095855244940837115",
-          "author": "andrew__ashur",
-          "searchJob": "charlotte",
-          "text": "Most of the robotics industry is talking about the wrong half of the business. A working robot is necessary, but it is not sufficient. The other half is how you scale it. https://t.co/9VFVDfM7ts"
+          "postId": "2095846708718809134",
+          "author": "pradeep891730",
+          "searchJob": "wyoming",
+          "text": "https://t.co/w1BnoL8fhL"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095851967037759525",
+          "author": "chard1964ltd",
+          "searchJob": "class:2026",
+          "text": "Gold and Silver Continue to Edge Higher Despite Fed Uncertainty Since 31 August, precious metals have remained resilient, with both gold and silver posting gains despite changing expectations around US interest rates and a closely watched U"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095850150363021727",
+          "author": "phl17",
+          "searchJob": "texas",
+          "text": "A Philadelphia nun is making a difference one court hearing at a time. Every week, Sister Rose Patrice Kuhn offers prayers, encouragement, and hope to people facing life-changing hearings in Texas. Read her inspiring story. https://t.co/Aug"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095848069426520304",
+          "author": "senshin108",
+          "searchJob": "texas",
+          "text": "THE SIGNAL | SEPTEMBER 4 Astra crosses a new cyber threshold. Hormuz tests a global chokepoint. Climate policy enters the overshoot era. AI’s power boom runs into “ghost demand” Four signals worth understanding before the day gets louder ht"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095847997498077378",
+          "author": "robertgeorgetti",
+          "searchJob": "texas",
+          "text": "Tesla to offer Cybercab rides in Austin, Texas after muted launch https://t.co/VTgjGnsB0z"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095860805648396450",
+          "author": "pastortonysmith",
+          "searchJob": "wisconsin",
+          "text": "The General, [Sep 4, 2026 at 8:59 AM] BREAKING: A Flock Safety sales representative offered Sheboygan, Wisconsin, five years of speed and vehicle-movement data captured by its cameras—data the city says it never knew Flock was collecting. @"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095858944535081072",
+          "author": "generalmcnews",
+          "searchJob": "wisconsin",
+          "text": "BREAKING: A Flock Safety sales representative offered Sheboygan, Wisconsin, five years of speed and vehicle-movement data captured by its cameras—data the city says it never knew Flock was collecting."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095860095640834225",
+          "author": "_eli_covington",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @TARIKEMBRACK I am extremely blessed to have received my first offer from @Threshers_FB https://t.co/FaST2DG7S1"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095856759361479161",
+          "author": "cashhill50",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "AGTG! After a great conversation with @QBcoachsnyder I have earned an offer from @kwufootball! @Cedar_ParkFB @twolf_pins_TX @CoachQCPProud @AllenMarrow @CoachPedraza60 @BarksdaleBeau @_CoachPerez @GRIT_FIT_ @nadnerbmac @CoachLumbreras @Pres"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2095844864415948980",
-          "author": "peytonstev83190",
-          "searchJob": "south-carolina",
-          "text": "Blessed to receive a offer from South Carolina Central‼️ @RHS_FB @MattRochester50 @twilkes13 @ZachariasM27 @coachLos_5 ⚔️ https://t.co/CCU1E75BEh"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095858255721607501",
-          "author": "zavierferreira",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive a great recruiting recognition from @sixstarfootball ! @Sean_Reeder @IdahoRecruitHub @CoachBishJHS @DanSwanstrom https://t.co/GZBxFLlEbT"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095854591887724797",
-          "author": "wesleygeaslin77",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @QBcoachsnyder I am blessed to receive my 5th offer! @BeardAndABowt1e @tctabler @PrepRedzoneAR https://t.co/EhwRPhlCqE"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095853245952315546",
-          "author": "traviswolf48499",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my 4th offer from @QBcoachsnyder #AGTG @kwufootball https://t.co/p14hV7dF5L"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095851825119240654",
-          "author": "reese_lockett_",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with Coach Durham I’m blessed to receive an offer to Kuyper college! #Agtg🙏🏽 https://t.co/vX6AgVEYm5"
+          "postId": "2095854386647871971",
+          "author": "juliandancear5",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "#AGTG After a great conversation with @Coach_Layer I am proud to announce that I have received my first official offer from the University of Allegheny! @coachivy1788 @CoachDonHoll1 @GatewayGatorAD @WPIAL_Insider @wpialsportsnews @theking1 "
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 14,
+      "accepted": 0,
+      "rejected": 38,
       "reasons": {
-        "school_not_resolved_confidently": 8,
-        "multiple_resolved_schools": 4,
-        "bare_mention_requires_llm": 2
+        "bare_mention_requires_llm": 14,
+        "multiple_resolved_schools": 2,
+        "school_not_resolved_confidently": 21,
+        "author_not_recruit:no recruit fields": 1
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095858158249894077",
-          "author": "eoinjmartainn",
-          "searchJob": "notre-dame",
-          "text": "@fotoole, the numbers you quote in the attached clip are fourteen years old. The 2021 census reversed the 2011 identity result outright (English-only 58% to 15%), and ONS puts most of that down to one thing. The state moved \"British\" to the"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095855495504363647",
-          "author": "ftnfan62",
-          "searchJob": "notre-dame",
-          "text": "@CollegeFBonX Notre Dame for sure,more than just stadium. Michigan for sure, massive. LSU / Bama night game might be a toss up. Ole Miss for the stadium / Tailgate. There are so many, you would really need to add another 10 to get the best "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095852796616593609",
-          "author": "liffeymills",
-          "searchJob": "notre-dame",
-          "text": "For all Equine Enthusiasts, there will be a sale held in Gurteen College this Sunday showcasing some of the finest Irish Draught Horses &amp; Breeders. Make sure and pop by Liffey Mills trailer to say hi &amp; see what we have to offer in t"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095855411307958386",
-          "author": "j_currier94",
-          "searchJob": "louisville",
-          "text": "@TheHoody27 Send Rutgers to mars. Bring in Cincy or WV. Hell even offer Iowa St or Louisville."
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095858376068792466",
+          "author": "thesupermanmx",
+          "searchJob": "stanford",
+          "text": "Stanford shows ChatGPT tells you you're right even when you're wrong. and even when you're hurting someone. they tested 11 state-of-the-art AI models across over 11,500 advice-seeking conversations and moral dilemmas (including scenarios so"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095852305304227855",
-          "author": "oxmoorchrysler",
-          "searchJob": "louisville",
-          "text": "Oxmoor Chrysler's Weekly Used Car Specials, 9-4-26 Searching for the best used cars in Louisville, KY? I’m Gabrielle at Oxmoor Chrysler, and we offer a large selection of pre-owned vehicles, competitive pricing, and top-rated customer servi"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095851174578565254",
-          "author": "fightful",
-          "searchJob": "charlotte",
-          "text": "Charlotte Flair Confirms WWE Offers Counseling https://t.co/1hNieJU1KN"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095839687302648123",
-          "author": "offshoreinsider",
-          "searchJob": "charlotte",
-          "text": "NFL — 49ERS vs RAMS, Thursday September 10, 8:35 ET — SAN FRANCISCO LOSES EXPECTED STARTING EDGE RUSHER Meaningful new development: 49ers defensive end Sam Okuayinonu has been officially ruled out of the season opener because of a foot inju"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095854254644679035",
-          "author": "esstaugustine",
-          "searchJob": "coastal-carolina",
-          "text": "Make your next gathering one to remember. ✨ Embassy Suites St. Augustine Beach Oceanfront Resort offers a beautiful coastal setting and thoughtful amenities to bring it all together. Let our team help make your next event feel effortless. \ud83c"
+          "postId": "2095853858752753755",
+          "author": "larpromix",
+          "searchJob": "stanford",
+          "text": "THIS COMMUNICATION EXPERT REVEALED HOW STEVE JOBS TURNED SIMPLE IDEAS INTO $10K+ OPPORTUNITIES Carmine Gallo explained at Stanford GSB how leaders like Steve Jobs and Bill Gates communicate something most people miss: they don't just sell p"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2095853774191349899",
-          "author": "yourpremiertra1",
-          "searchJob": "coastal-carolina",
-          "text": "Western USA in October! Exoticca Set off on a journey through iconic destinations in America’s West. From the buzz of Los Angeles to the unique landscapes of Death Valley, this trip is anything but ordinary. Trip Highlights From $2,549/pers"
+          "postId": "2095841096651731396",
+          "author": "schnappyss",
+          "searchJob": "stanford",
+          "text": "I’ve never gotten to make any freebies personally, but I’ve seen mostly people doing “trades” or very selective to whom they’re giving them out to (either to get something in return or to younger/hipper army). Was chatting with some women w"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095843588097614133",
-          "author": "jcsellsmiami",
-          "searchJob": "coastal-carolina",
-          "text": "Fort Lauderdale Beach attracts luxury buyers because it offers a true waterfront lifestyle with ocean views, boating access, and high-end branded residences. It also has a walkable, lively coastal setting with fine dining, shopping, and ent"
+          "postId": "2095862112514191693",
+          "author": "volklub",
+          "searchJob": "texas-tech",
+          "text": "See, I personally don’t see Maruti making BIG compromises. With their Global-C platform very much safe, other budget cars providing 6 airbags, some still having 4 cyl engine Wide network + parts availability… this ecosystem comes at a cost."
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095838499845128443",
-          "author": "for_carers",
-          "searchJob": "coastal-carolina",
-          "text": "Mental Health Inpatient RN Contracts | $1000 Bonus offer*!!! | Coastal NSW at Curis Recruitment (Northern NSW) https://t.co/0BJOVM5jH6 #carejobs #agedcare"
+          "postId": "2095862080792674525",
+          "author": "web3cooking",
+          "searchJob": "texas-tech",
+          "text": "Not a university. Not a specialized tech school. These are electives at a regular middle school in China: 3D design, digital circuits, AI, and industrial robotics. When exposure starts this early, China’s momentum—and its deep AI talent poo"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095838474402173209",
-          "author": "nbcdigitalnews",
-          "searchJob": "coastal-carolina",
-          "text": "The Ministry of Environment, Forestry and Tourism has entered the final validation stage of the revised National Policy on Sustainable Tourism Development. The Tourism Policy Finalisation engagement is underway in Mariental, bringing togeth"
+          "postId": "2095862056469541186",
+          "author": "alemacleo",
+          "searchJob": "texas-tech",
+          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095836218034409526",
-          "author": "doggslife",
-          "searchJob": "coastal-carolina",
-          "text": "Limited offer! This awesome Pismo Beach Scenic Jigsaw Puzzle: Coastal Family Game for $30.99.. #fun #cases https://t.co/8yPmPDT58s"
+          "postId": "2095861477445960012",
+          "author": "alemacleo",
+          "searchJob": "texas-tech",
+          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095860925571977529",
+          "author": "alemacleo",
+          "searchJob": "texas-tech",
+          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095860768268759208",
+          "author": "alemacleo",
+          "searchJob": "texas-tech",
+          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095860377959453043",
+          "author": "alemacleo",
+          "searchJob": "texas-tech",
+          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095860062585495676",
+          "author": "alemacleo",
+          "searchJob": "texas-tech",
+          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095859892598792410",
+          "author": "alemacleo",
+          "searchJob": "texas-tech",
+          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095859683609178368",
+          "author": "alemacleo",
+          "searchJob": "texas-tech",
+          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095859576834822579",
+          "author": "financialphys",
+          "searchJob": "texas-tech",
+          "text": "if it lifted so many out of poverty, explain the expanding $220T of govt debt Why the reliance on endless money printing gimmicks? If it lifted everyone out of poverty, why is everyone in debt? Why does capitalism have a central bank? Why a"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095859451060212003",
+          "author": "alemacleo",
+          "searchJob": "texas-tech",
+          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095859037740863577",
+          "author": "alemacleo",
+          "searchJob": "texas-tech",
+          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095858676296761514",
+          "author": "alemacleo",
+          "searchJob": "texas-tech",
+          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095858223592976417",
+          "author": "alemacleo",
+          "searchJob": "texas-tech",
+          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095857872529727744",
+          "author": "alemacleo",
+          "searchJob": "texas-tech",
+          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095857824915914929",
+          "author": "croninautoinc",
+          "searchJob": "texas-tech",
+          "text": "2026 Atlas Cross Sport SE Tech. $479 per month for a 36-month lease. $4,999 due at signing. Excludes tax, title, license, options and dealer fees. No security deposit. For well-qualified customers. Limited inventory available. Offer ends Se"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095857726211440913",
+          "author": "alemacleo",
+          "searchJob": "texas-tech",
+          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095857495075954860",
+          "author": "alemacleo",
+          "searchJob": "texas-tech",
+          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095856196314120544",
+          "author": "theindiatalkies",
+          "searchJob": "texas-tech",
+          "text": "Vembu wants India to create “high-paying” jobs while complaining everyone about the quality of employment. Fair enough. But the obvious question is: does his company Zoho lead by example? The irony of capitalists like Vembu lecturing India "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2095853976243548275",
-          "author": "rawdogslawdog",
-          "searchJob": "alabama",
-          "text": "Watching LSU fans defend a guy who would leave them high and dry tomorrow if the Bama job was offered is the only thing funny about this situation."
+          "postId": "2095855458489630804",
+          "author": "thestockguytv",
+          "searchJob": "navy",
+          "text": "Your friday morning market and economic recap - US Pentagon to test troop's testosterone immediately - South Korea is reviewing a possible military contribution to keep the Strait of Hormuz open - The average 30-year fixed mortgage rate has"
         }
       ]
     },
@@ -250,18 +363,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 36,
-      "failed": 0,
+      "swept": 35,
+      "failed": 1,
       "requests": 36,
-      "errors": []
+      "errors": [
+        "byu: rate limited"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 14,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 38,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-04T12:58:30.658Z"
+    "status rebuilt locally from current store on 2026-09-04T13:13:48.015Z"
   ]
 }
