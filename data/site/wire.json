@@ -1,12 +1,48 @@
 {
-  "generatedAt": "2026-09-04T13:56:30.691Z",
+  "generatedAt": "2026-09-04T14:13:35.928Z",
   "counts": {
-    "offers": 698,
+    "offers": 699,
     "players": 495,
-    "newThisRun": 0,
+    "newThisRun": 1,
     "watchlist": 1466
   },
   "offers": [
+    {
+      "id": "o_473c73965722648c",
+      "playerId": "p_528feecee52f6cb0",
+      "playerName": "Taddrick Gibson Jr",
+      "schoolId": "lsu",
+      "schoolName": "LSU",
+      "conference": "SEC",
+      "offeredAt": "2026-09-04T13:48:53.000Z",
+      "firstSeenAt": "2026-09-04T14:13:35.902Z",
+      "lastSeenAt": "2026-09-04T14:13:35.902Z",
+      "confidence": 0.45,
+      "corroborations": 1,
+      "evidence": [
+        {
+          "postId": "2095871724453585208",
+          "author": "taddrickgjr",
+          "url": "https://x.com/taddrickgjr/status/2095871724453585208",
+          "postedAt": "2026-09-04T13:48:53.000Z",
+          "via": "search:\"AGTG\" offer -filter:retweets since_time",
+          "confidence": 0.45,
+          "text": "Blessed to have received an Offer from Louisiana State University!!!!#Agtg🟣🟡🐯@CoachCRaymond @CoachBlakeBaker @LSUfootball @CoachCainFB @dfhsfootball @ChadSimmons_ @TomLoy247 @GregBiggins @adamgorney @AnnaH247 @samspiegs @Andrew_Ivins @benjaminwolk https://t.co/xyqVIpsEnw",
+          "attribution": {
+            "targetText": "Louisiana State University!",
+            "schoolEvidenceType": "official_school_tag",
+            "affiliationSource": "fbs_handle"
+          }
+        }
+      ],
+      "status": "new",
+      "tier": "P4",
+      "playerHandle": "taddrickgjr",
+      "classYear": 2029,
+      "position": "DB",
+      "highSchool": null,
+      "state": null
+    },
     {
       "id": "o_294ca6c5bf8c5c57",
       "playerId": "p_76ea0fbdcb13637c",
@@ -786,9 +822,9 @@
       "conference": "B12",
       "offeredAt": "2026-09-03T23:53:06.000Z",
       "firstSeenAt": "2026-09-04T00:31:39.004Z",
-      "lastSeenAt": "2026-09-04T00:31:39.004Z",
-      "confidence": 0.45,
-      "corroborations": 1,
+      "lastSeenAt": "2026-09-04T14:13:35.908Z",
+      "confidence": 0.53,
+      "corroborations": 2,
       "evidence": [
         {
           "postId": "2095661392984477910",
@@ -803,9 +839,23 @@
             "schoolEvidenceType": "official_school_tag",
             "affiliationSource": "fbs_handle"
           }
+        },
+        {
+          "postId": "2095873264312860852",
+          "author": "profilefblive",
+          "url": "https://x.com/profilefblive/status/2095873264312860852",
+          "postedAt": "2026-09-04T13:55:00.000Z",
+          "via": "search:(@ArizonaFBall OR \"Arizona\" OR \"U of A\")",
+          "confidence": 0.45,
+          "text": "Arizona has offered 3.3⭐ 2028 RB Antonio Booker from Woodlands College Park HS, TX. @AntonioBooker25\n\nRated (#1003 NATL, #61 RB, #144 TX) - 8 offers overall.\nhttps://t.co/h5NaVwc08q",
+          "attribution": {
+            "targetText": "Arizona has ",
+            "schoolEvidenceType": "full_school_name",
+            "affiliationSource": "name"
+          }
         }
       ],
-      "status": "new",
+      "status": "corroborated",
       "tier": "P4",
       "playerHandle": "antoniobooker25",
       "classYear": 2028,
