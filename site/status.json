@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-04T04:13:19.183Z",
+  "generatedAt": "2026-09-04T04:43:16.260Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-04T04:13:18.935Z",
+    "at": "2026-09-04T04:43:16.019Z",
     "jobsTotal": 162,
-    "sweptThisRun": 32,
-    "requests": 33,
-    "fullSweepCycles": 6
+    "sweptThisRun": 34,
+    "requests": 35,
+    "fullSweepCycles": 5
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -29,30 +29,18 @@
   },
   "staleSchools": [
     {
-      "id": "new-mexico-state",
-      "hours": 2.3
-    },
-    {
-      "id": "north-texas",
-      "hours": 2.3
-    },
-    {
-      "id": "northern-illinois",
-      "hours": 2.3
-    },
-    {
-      "id": "ohio",
+      "id": "sam-houston",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.0348338888888888,
-    "p95Hours": 1.7875369444444444,
-    "worstHours": 2.284288611111111
+    "medianHours": 1.034895,
+    "p95Hours": 2.0354877777777776,
+    "worstHours": 2.286725277777778
   },
   "decisionCoverage": {
-    "total": 29,
-    "decided": 29,
+    "total": 38,
+    "decided": 38,
     "complete": true
   },
   "pending": {
@@ -63,253 +51,308 @@
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 695,
+    "completeOffers": 696,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-04T04:13:18.935Z",
-      "got": 43,
-      "new": 29,
-      "lag": 0.15
+      "at": "2026-09-04T04:43:16.019Z",
+      "got": 57,
+      "new": 38,
+      "lag": 0.18
     }
   },
   "audit": {
-    "at": "2026-09-04T04:11:12.018Z",
+    "at": "2026-09-04T04:41:10.781Z",
     "mode": "live",
     "collection": {
-      "returned": 43,
-      "kept": 29,
-      "duplicate": 14,
+      "returned": 57,
+      "kept": 38,
+      "duplicate": 19,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 17,
-      "rejected": 12,
+      "accepted": 19,
+      "rejected": 19,
       "reasons": {
-        "no_fbs_school": 5,
-        "no_offer_term": 4,
-        "non_fbs_offer_target": 2,
-        "hard_negative": 1
+        "no_fbs_school": 7,
+        "no_offer_term": 5,
+        "hard_negative": 1,
+        "non_fbs_offer_target": 6
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2095710014589870417",
-          "author": "saveraaintl",
-          "searchJob": "class:2026",
-          "text": "🌴 Vegoils Summary — 3 Sept 2026 📉 CPO: Nov futures fell 1.13% to RM4,902/t, pressured by weaker vegoils and concerns over rising Malaysian stocks. 📦 Malaysia: August stocks could hit 2.76m tonnes, a 7-month high, though UOB expects produ"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095698652664664153",
-          "author": "crypto1618",
-          "searchJob": "class:2026",
-          "text": "https://t.co/6PhzSfnBKX"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095690015959593149",
-          "author": "neojohnson113",
-          "searchJob": "class:2026",
-          "text": "Written by Fable 5 in Cursor Pro plan, with deep and hard research and early drafts by local hosting Qwen 3.8 Flash Next on dual Spark stack, and my steering. https://t.co/tMWBauCOuu"
+          "postId": "2095706020328927572",
+          "author": "adilibertox",
+          "searchJob": "ohio",
+          "text": "An auto-parts bankruptcy in Ohio reached a DeFi lending market through a fund administrator's spreadsheet. And the thing that nearly broke wasn't the credit. It was the plumbing around it. The market uses a tokenized private credit fund as "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095702031163875762",
-          "author": "mai1kaden",
-          "searchJob": "nebraska",
-          "text": "After an amazing visit, I am blessed to announce my first offer to continue my athletic and academic career at Nebraska Wesleyan University! https://t.co/KLnR6aZYVG"
+          "postId": "2095706056106152327",
+          "author": "thed_zone",
+          "searchJob": "class:2027",
+          "text": "Almont 2027 RB/S Brody Corneau had a tremendous game tonight. Hear what he had to say following the win about the game and the team. He holds an LTU offer. #80 Almont (2-0) beat #72 Armada (1-1) 14-0 @AlmontRaidersFB @BrodyCorneau4 https://"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095708439985135805",
-          "author": "tosu_city",
-          "searchJob": "ohio-state",
-          "text": "#サガン鳥栖 をグループシートで応援しよう⚽️ 【9月19日(土曜日)19時00分～ vsいわきFC】 鳥栖市民を対象に、テーブルを囲んで観戦できるグループシートに1組ご招待します🎁 https://t.co/1lZmWDxMCv 締切：9月11日(金曜日)23時59分まで https://t.co/44SesMaq0n"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095715351451553946",
-          "author": "jrmosley32",
-          "searchJob": "ole-miss",
-          "text": "Blessed to have received my first division one offer from Mississippi Valley State University! 🙏🏽 @Malcolm_Flaggs @OG6_SM https://t.co/D0hOZ19SDy"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095714986215829605",
-          "author": "pollonpreps",
-          "searchJob": "ole-miss",
-          "text": "Maranatha junior guard JR Mosley Did two years at Legacy Christian Really good player Offer from Mississippi Valley State https://t.co/twM2Wxqiqj"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095632763676225991",
-          "author": "ryanobles",
-          "searchJob": "ole-miss",
-          "text": "NEW: I asked swing district Republican Rep. Rob Wittman three different times if he wants President Trump to campaign with him in Virginia. This is how he responded: https://t.co/byaeVwfh0g"
+          "postId": "2095631465992032387",
+          "author": "tennesseechris",
+          "searchJob": "alabama",
+          "text": "Who wants to tell LSU that Lane will battle for this until the end, only to leave the university for the Alabama job as soon as DeBoer odd fired, leaving LSU sanctioned to death by the SEC and in shambles"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095707213566280075",
-          "author": "talltexanrealty",
-          "searchJob": "houston",
-          "text": "@OilCoIntern I’d cut my offer in half if that’s the case."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095719404046545366",
-          "author": "stompsmud",
-          "searchJob": "north-carolina",
-          "text": "This is a done deal, this is also orchestrated by @vonderleyen. It doesn’t matter what Canadians think, @ZelenskyyUa will get what he wants. Money Laundering 101. But mark my words he will his grubby on that money and most likely a done dea"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095702315001094561",
-          "author": "renegadeexp",
-          "searchJob": "nevada",
-          "text": "Renegade Exploration (ASX: RNX) has expanded its Caisson Project in Nevada with 32 new claims. With Caisson still undrilled, the project offers strong indicators, district‑scale potential and a completely untested system. Read the full feat"
+          "postId": "2095704894631989714",
+          "author": "_braves__",
+          "searchJob": "alabama",
+          "text": "@BlazinTiger1974 @BabysitterBari Ironic coming from the school that offers trailers as student housing"
         },
         {
           "reason": "hard_negative",
-          "postId": "2095720237047939114",
-          "author": "dubsportsmedia",
-          "searchJob": "new-mexico",
-          "text": "2027 RB J-uan Harrison Jr. is one to watch at Mansfield Timberview. The 5’10”, 190-pound back holds offers from Texas Southern, Eastern New Mexico, Augustana and more. @JayJayDaBeast31 @TViewWolves https://t.co/9TrhdW1iEr"
+          "postId": "2095700626965483726",
+          "author": "6ontheway",
+          "searchJob": "usc",
+          "text": "And he had offers from UGA, OSU &amp; USC. 😬🥴🥴🥴"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095729016439222361",
+          "author": "jaidenbryce82",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "blessed to receive a game day invite from @BrownU_Football @BrownHCPerry @Football_Steele @GregBiggins @247Sports @ChadSimmons_ @BrandonHuffman @coachTMcCormick @R_Brauninger @BDammone @_RL_Martin @iam_alinedouard @samspiegs @znpatterson @R"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095727423224500557",
+          "author": "theisdh",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with coachmcquillan I am blessed to receive my 3rd offer to go play college football🙏❤️GCHSFBAGTG https://t.co/OtkOS5Qemw"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2095723095151534084",
+          "author": "elise_m18",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After an amazing visit and conversation with @CoachLBronson , I'm blessed to receive an offer from UW- Oshkosh. Thank you coaches for all your interest and support!! @UWOWBB1 https://t.co/dAmBpQRVoP"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2095719724457816135",
+          "author": "alipscomb98961",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my first offer from The University of Olivet Thank you @CoachGarland5 in the rest of the Olivet coaching staff and thank you to my coach’s for always supporting me @Coach_Jay_Shake #Agtg #Jobnotdone https://t.co/6fjUJ0FDp"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2095715981913891095",
+          "author": "caynem22",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an Official Offer from Allen university💛💙.#AGTG✝️@RecruitELFB @CoachMcRae77 @PrepRedzoneAL @paupaupau5 @BallCoachHP @HallTechSports1 @Benji_Jae https://t.co/B0nYwWfKg9"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095715225593139534",
+          "author": "derickmcafee",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "@WitoldDevotee @TF_WOG Mary was blessed to receive this request from the lord. Nothing more."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095714068455727316",
+          "author": "carsonhowell28",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an invite and will be attending this AAE BOWL!! Waiting to be noticed‼️‼️ https://t.co/T4YivVMM2i"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095707097652490684",
+          "author": "elli_malinoski",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After an amazing visit and conversation with Coach @Candice_103, I am blessed to receive an offer to play at The College of the Holy Cross! Thank you to the entire coaching staff for believing in me!! https://t.co/1F26HcBfYz"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2095702118711582965",
+          "author": "jaydenhopkins__",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive a offer from Dallas college EastFeild @KempnerHoops @HankampScott @EHoopsSpotlight @bench424nmore @NXTLevelSN @LetsGoRedStorm @KHS_Cougars @AllNOneSports1 https://t.co/leu7CxVE7a"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2095704225577664891",
+          "author": "keatonwatkins27",
+          "searchJob": "phrase:\"blessed to have received\"",
+          "text": "After a great conversation with Coach @KnickrehmKyle I am blessed to have received an offer from LaGrange College! @LaGrangeMBB @FanninCobball @galegacyhoops @KyleSandy355 https://t.co/3IQxYi7jUR"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095712698956693516",
+          "author": "bradyn_stu",
+          "searchJob": "phrase:\"grateful to receive an offer\"",
+          "text": "After a great conversation with @CoachBStrauss I’m grateful to receive an offer to continue playing football @SCWarriorFB!!! @lclark3965 @CoachWinger20 @avery_parker20 @ONWRavensTF https://t.co/7dNpJVudi8"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2095700164103307469",
+          "author": "jennaayres22",
+          "searchJob": "phrase:\"grateful to receive an offer\"",
+          "text": "Blessed and grateful to receive an offer from Howard Payne University! Thank you to the entire staff for believing in me and giving me this opportunity! https://t.co/c52zoGwsAo"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095713433006051411",
+          "author": "nvrbanother1",
+          "searchJob": "kansas",
+          "text": "Kansas City has a lot more to offer than I realized"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095721658342416745",
+          "author": "tpmllcusa",
+          "searchJob": "stanford",
+          "text": "AI is narrowing the first rung of the career ladder, not erasing it. This article examines which entry-level roles are shrinking, which skills still matter, and how young workers can adapt as professional work changes. https://t.co/lDmVvQLX"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 17,
+      "accepted": 1,
+      "rejected": 18,
       "reasons": {
-        "reporter_missing_player_name": 2,
-        "multiple_resolved_schools": 5,
-        "invalid_or_incomplete_offer_record": 1,
-        "bare_mention_requires_llm": 9
+        "bare_mention_requires_llm": 16,
+        "multiple_resolved_schools": 1,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095723007578882349",
+          "author": "cecileshaw",
+          "searchJob": "alabama",
+          "text": "@Polymarket Lol. Canadian here. If your dream is dying on a waitlist, waiting years for surgery, getting offered euthanasia for depression, 14% youth unemployment, and a GDP per capita lower than Alabama… then by all means, move."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095716178157019603",
+          "author": "_tide18tymes",
+          "searchJob": "alabama",
+          "text": "1. DeBoer isn’t getting fired 2. Alabama will never EVER offer Kiffin the job"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095703646658859010",
+          "author": "lea_3451",
+          "searchJob": "alabama",
+          "text": "@TennesseeChris Alabama will never offer that man the job."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095706445182591479",
+          "author": "recruitintelhq",
+          "searchJob": "ucla",
+          "text": "@LangstonPri @UCLAFootball @D_Co0p @EddieWhitley37 @CoachMcGregor @DenocD @mikegete20 @TheRealCAshby @RocCarmichael @BrandonHuffman @EdOBrienCFB @WillVapreps @PrepRedzoneMD @TomLoy247 @on3recruits @BrianDohn247 Coming into today, fewer than"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095719609848721546",
+          "author": "heythereh2o",
+          "searchJob": "usc",
+          "text": "@hilucyleduck Most embarrassing team in the Big Ten is Oregon because they will go down in history as the school that begged and begged the Big Ten to let them in that they didn’t care about the 100 million TV deal that was offered to USC a"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095700413660139850",
+          "author": "simihughjaynus",
+          "searchJob": "usc",
+          "text": "@cpg_95 @AmbroserayRay You’re such a myopic liar. USC wasn’t the one who refused to sign the 1 year extension offer to the last contract which means ND &amp; USC would’ve continued playing this year in L.A."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095730505794961521",
+          "author": "bestaitoolfind",
+          "searchJob": "stanford",
+          "text": "ThunderPhone - Best AI Tool Finder https://t.co/YovhSNasy5 ThunderPhone is a platform for building, testing, deploying, and monitoring AI agents that conduct inbound and outbound phone calls. It combines telephony, speech recognition, langu"
+        },
+        {
           "reason": "reporter_missing_player_name",
-          "postId": "2095705981548437618",
-          "author": "jucoffrenzy",
-          "searchJob": "class:2026",
-          "text": "Rising: 2026 (@IowaCentralFB ) JUCO OL @MichaelSmith25W was just offered by @OhioFootball https://t.co/szXHBtHlmx"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095723574883393548",
-          "author": "tramblejoe",
-          "searchJob": "kentucky",
-          "text": "THEUNIT MIDWEST RECRUITMENT Spotlight Athlete: The Interview @bush_treyv44529 @CoachCarr52 @CoachBlackwell_ @smsbacademy 2028 WR/ATH Treyveon Bush 6'1 195lb GPA: 3.7 Detroit Denby HS, Michigan Offers: Kentucky, Louisville, Memphis Bowling G"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2095718356208779351",
-          "author": "men_of_ksr",
-          "searchJob": "kentucky",
-          "text": "The list of high school targets for Mark Pope and the Kentucky Wildcats in the 2027 class just keeps getting longer, and this latest one might be the most interesting. Akol Nyok, a 7-foot-1 center from Ellicott City, MD, just got a scholars"
-        },
-        {
-          "reason": "invalid_or_incomplete_offer_record",
-          "postId": "2095706447925408098",
-          "author": "wildcatreport",
-          "searchJob": "northwestern",
-          "text": "Northwestern offers three-star 2028 DL RJ Cruz III from Lancaster (Pa.) McDonough. Profile: https://t.co/GyALM0RW7Y"
+          "postId": "2095719832083919110",
+          "author": "notcapitalcity",
+          "searchJob": "stanford",
+          "text": "also, he didnt like barge into mclaren office and dump a sack of money on the table to get his seat. again, the team SEEKED him to drive the number 6. mtfkr he was about to go to fucking stanford if the offer from mclaren didnt arrive"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095710914674573642",
-          "author": "julia_jhixon06",
-          "searchJob": "oklahoma",
-          "text": "@thejacobshipley @mhp_guy You should bring her to Oklahoma for a Braums tour. I believe they still offer them."
+          "postId": "2095713397996245154",
+          "author": "dphbuckeyes",
+          "searchJob": "stanford",
+          "text": "@Dubbs_Up @_RealCactusPete Stanford offers a lot more across the board for sports."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095712141416288564",
-          "author": "alldspeed",
-          "searchJob": "ole-miss",
-          "text": "Donald Trump said earlier this year that he offered to come to Mississippi and do rallies for Cindy Hyde-Smith but she declined."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095724645991219670",
-          "author": "pbr1389le",
-          "searchJob": "rutgers",
-          "text": "@Keith_McPherson Why is rutgers in big 10? Atleast uconn offers 2 best basketball teams and great Olympic sports! Rutgers offers best library in the big 10! Lol why is schiano employed as the sun comes up?"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095724096273190974",
-          "author": "pbr1389le",
-          "searchJob": "rutgers",
-          "text": "@Ki11ersix @cfbtravelguy And uconn is in big east for basketball a d football is independent lol big 10 made a massive mistake in rutgers! Atleast uconn has 2 best basketball teams in the country! What does rutgers offer in anything? Best l"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095716605153939916",
-          "author": "pbr1389le",
-          "searchJob": "rutgers",
-          "text": "@CS_Pxp No surprise, schiano round 2 has been worse than edsall round 2 at uconn! Rutgers football is a mess! What do they offer big 10 in football or basketball? Absolutely nothing!!! Big 10 schould contract and not expand!"
+          "postId": "2095705349005181126",
+          "author": "chrisboyledbnj",
+          "searchJob": "ucf",
+          "text": "#UCF offers Mainland 2028 WR Jaden Parks, who attended tonight’s win over Bethune-Cookman"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095713082521649190",
-          "author": "pbr1389le",
-          "searchJob": "rutgers",
-          "text": "@Brett_McMurphy Schiano rehire has been a disaster! He looks defeated on sideline tonight! Where is that fiery guy? Can rutgers really go 3 and 9 yes! What exactly does rutgers offer big 10? Basketball is embarrassing, football is hot ass d"
+          "postId": "2095723558299123993",
+          "author": "hawaiinewsnow",
+          "searchJob": "hawaii",
+          "text": "NOAA offers up to $20K for information on Molokai monk seal death #HNN #HINEWS #HawaiiNews https://t.co/wxqSfYw11z"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095703901018210601",
-          "author": "badtakesmonitor",
-          "searchJob": "rutgers",
-          "text": "@barstoolsports The Big 10 needs to strongly consider relegation for Rutgers. What value do they offer the conference? There has to be better east coast schools to offer us, right? 🤔"
+          "postId": "2095701106466971838",
+          "author": "sardonischism",
+          "searchJob": "hawaii",
+          "text": "What state? I’m unaware of ANY state that doesn’t offer TOU billing. Not incentivizing off peak usage means it just gets wasted if there isn’t storage because they cannot ramp production up and down that quickly. Maybe Hawaii has something "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095700991429505490",
-          "author": "thejderoshow",
-          "searchJob": "rutgers",
-          "text": "@RFootball Rutgers is a swim school! Best swimmers the Jersey shore has to offer."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095716911069728877",
-          "author": "kingdavid9y",
-          "searchJob": "navy",
-          "text": "“I could have erased my Jewish roots — simply destroyed the thing that had caused me so much discomfort for so many years. But keeping my real name and wearing it as a badge seemed like a far greater challenge.” In Shaker Heights outside Cl"
+          "postId": "2095731710746886236",
+          "author": "jcdurbant",
+          "searchJob": "rice",
+          "text": "I'M HERE TO PROTECT YOUR BEAUTIFUL DIVERSITY (What ancient monsters our voracious and ruthless globalization might in its recklessness bring back to life ?) I’m here to help you protect your beautiful diversity. French NGO bear counter You "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095712189546213428",
-          "author": "alexwright1028",
-          "searchJob": "nevada",
-          "text": "ALSO: Tag me or email me with any recruiting information, offers, top lists announcements or commitments and we will update in our recruiting tracker. Nevada Preps recruiting tracker: Foothill QB gets 1st Division I offers https://t.co/u6NF"
+          "postId": "2095719075930341628",
+          "author": "culeshb",
+          "searchJob": "rice",
+          "text": "@DynastyZack @deermoney223 i’m getting offered rice and kyler i trade tet and tate"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095700917899145439",
-          "author": "nevadapreps",
-          "searchJob": "nevada",
-          "text": "Check out all the latest college recruiting news in the Nevada Preps recruiting tracker. A Foothill quarterback received his first Division I college offers. STORY: https://t.co/8gCSV6P9sA https://t.co/viCOY0DrR4"
+          "postId": "2095718288672338333",
+          "author": "pierre_bezukov",
+          "searchJob": "rice",
+          "text": "If a brahmin advertising the poverty of another Brahmin family merely because their plight serves the “Reservation Hatao” narrative, that is deplorable. Poverty should not be turned into propaganda. If fellow Brahmins and other Hindus canno"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095695593150836788",
-          "author": "iamvictor_e",
-          "searchJob": "nevada",
-          "text": "Mama Smurf wants me to take her to Nevada, but it’s been so long, our offers and comps are gone. So no free rooms :("
+          "postId": "2095716594156749173",
+          "author": "6tmh28r1",
+          "searchJob": "rice",
+          "text": "🌙Switch off the bedside lightFor her evening meal, she sampled dolma—grape leaves packed with seasoned rice and aromatic herbs, accompanied by tzatziki. The dolma was soft, its stuffing bursting with taste, while the tzatziki offered a smo"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095721736721555672",
-          "author": "1527ka",
-          "searchJob": "new-mexico",
-          "text": "@Ay_Blinkin She moved to New Mexico in the 1940s and I prefer her NM stuff. Her Museum is here in Santa Fe w/a Welcome Center near her home on Ghost Ranch where they offer tours of her home and studio."
+          "postId": "2095715055157604701",
+          "author": "astrotherapist1",
+          "searchJob": "rice",
+          "text": "*JANMASHTAMI -7 GUPT REMEDIES* On this sacred night, don't ask Shri Krishna for everything. Choose only ONE remedy according to what your heart genuinely needs. 1. For Stuck Money & Prosperity Place 5 tulsi leaves before Shri Krishna and of"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095700009740296621",
+          "author": "0808pchan",
+          "searchJob": "rice",
+          "text": "There are many types of Japanese food. Some look similar to dishes you already know, but there is a specific dish called tonkatsu — a deep-fried pork cutlet. It is extremely popular in Japan, and some restaurants even offer free refills on "
         }
       ]
     },
@@ -317,20 +360,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 32,
+      "swept": 34,
       "failed": 1,
-      "requests": 33,
+      "requests": 35,
       "errors": [
-        "new-mexico-state: rate limited"
+        "sam-houston: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 17,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 18,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-04T04:13:19.184Z"
+    "status rebuilt locally from current store on 2026-09-04T04:43:16.261Z"
   ]
 }
