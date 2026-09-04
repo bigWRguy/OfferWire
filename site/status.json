@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-04T00:31:39.171Z",
+  "generatedAt": "2026-09-04T00:58:24.993Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-04T00:31:38.893Z",
+    "at": "2026-09-04T00:58:24.619Z",
     "jobsTotal": 162,
-    "sweptThisRun": 34,
-    "requests": 35,
+    "sweptThisRun": 33,
+    "requests": 34,
     "fullSweepCycles": 5
   },
   "backfillCoverage": {
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5932441666666667,
-    "p95Hours": 1.091623611111111,
-    "worstHours": 1.5906480555555556
+    "medianHours": 0.7872972222222222,
+    "p95Hours": 1.2862358333333332,
+    "worstHours": 1.5376852777777779
   },
   "decisionCoverage": {
-    "total": 50,
-    "decided": 50,
+    "total": 83,
+    "decided": 83,
     "complete": true
   },
   "pending": {
@@ -46,329 +46,388 @@
   },
   "paginationBacklog": 2,
   "quality": {
-    "completeOffers": 682,
+    "completeOffers": 683,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-04T00:31:38.892Z",
-      "got": 85,
-      "new": 50,
+      "at": "2026-09-04T00:58:24.618Z",
+      "got": 134,
+      "new": 83,
       "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-04T00:29:26.079Z",
+    "at": "2026-09-04T00:56:11.053Z",
     "mode": "live",
     "collection": {
-      "returned": 85,
-      "kept": 50,
-      "duplicate": 34,
+      "returned": 134,
+      "kept": 83,
+      "duplicate": 50,
       "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 34,
-      "rejected": 16,
+      "accepted": 49,
+      "rejected": 34,
       "reasons": {
-        "non_fbs_offer_target": 8,
-        "no_offer_term": 3,
-        "no_fbs_school": 5
+        "no_fbs_school": 18,
+        "no_offer_term": 9,
+        "hard_negative": 3,
+        "non_fbs_offer_target": 4
       },
       "samples": [
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095670323257418094",
-          "author": "noah_weilbacher",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my 5th offer from Kansas Wesleyan University! Thank you @cj_buckhalter9 and @kwufootball! Im excited to get up there and see the campus. @KolbyTackett @PreptalkWoody @Coach_Holcomb05 @CoachDaranda @itscoachjoe @Coach_Mill"
+          "reason": "no_fbs_school",
+          "postId": "2095665249953218767",
+          "author": "topstockalerts1",
+          "searchJob": "texas",
+          "text": "Polymarket launched perpetual futures contracts tied to oil on Thursday as it expands into continuous commodities trading, entering a market also being pursued by rival Kalshi. The new contracts cover cryptocurrencies, stocks and commoditie"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095663395236196551",
+          "author": "12newsnow",
+          "searchJob": "texas",
+          "text": "More than 2,100 workers are helping restore power across Southeast Texas, while a Beaumont restaurant offers free meals to lineworkers Thursday. https://t.co/XdVEyAkYOX"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095668864939872478",
-          "author": "dre4mvp1",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I am truly blessed to receive an prospect invitation to the exact football x1 showcase camp #AGTG @JPRockMO https://t.co/8oFQaCoJ3U"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095663787030298912",
-          "author": "jayden_comer4",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with coach @TyPelascini I am blessed to receive an offer from @CSCWildcatsMBB @CoachRigby5 @opsbball @JayCoPatriots @CadeHamp10 @BRamseyKSR https://t.co/sDTJK3yBRL"
+          "postId": "2095377182730457303",
+          "author": "andycollectz",
+          "searchJob": "washington",
+          "text": "Official reveal of the OPTCG x Nike Promo Cards ✔️ https://t.co/5HBMocE3Z0"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095663385568215214",
-          "author": "conner_mccoy_55",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive the Max Preps offensive player of the game for week 2 against Southwest Onslow High school. #trenches #hardwork #FNL @MaxPreps @nrcafootball @PrepRedzoneNC @919recruits @TrenchesElite https://t.co/2AZjHyHZH0"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095661376454684959",
-          "author": "lenuyere3",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "🙏🏽 Blessed to receive an offer from Ecclesia College! 🏀 I’m truly grateful for this opportunity and thankful to Coach and the entire coaching staff for believing in me. All glory to God! 🙏🏽 #GoRoyals #Blessed #Thankful #Recruiting http"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095658750073823547",
-          "author": "hezipulljune10",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation yesterday with assistant coach Jeff Mcchristy and head coach Todd Skrivseth I am blessed to receive my first offer from Monmouth college #gofightingscots #bon https://t.co/aJqI82K8n2"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095656088804749483",
-          "author": "elihemmings2027",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After and Great Visit with Coach York and Coach Dukes I'm Blessed to receive an offer from Kutztown University. @KUBearsMBB @PAVEBasketball https://t.co/IqI1fsRy35"
+          "postId": "2095676720053625043",
+          "author": "p_jaikumar",
+          "searchJob": "washington",
+          "text": "https://t.co/NW8hqoLfrG"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095651035675062700",
-          "author": "kenziecollins22",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great visit, I’m blessed to receive an offer from @FCGriz_WBB. Thank you @CoachABlanch and Coach Cyleigh for this opportunity! https://t.co/jTUMuxJkpg"
+          "postId": "2095674630358941790",
+          "author": "davisdecory",
+          "searchJob": "washington",
+          "text": "The Streets Are Talking: 🚨 HOLY WATER MEETS BORDER WALLS! 🚨 Tom Homan had a message for the critics: America doesn’t need a lecture on border security from people who literally live behind walls. 😂 Standing outside the White House, Homan"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095662468576252015",
-          "author": "samiwarwas",
-          "searchJob": "phrase:\"blessed to have received\"",
-          "text": "After a great visit with Coach Hocking, Coach Sam, and Coach Lilly, I am blessed to have received an official offer from @ClarkeWBB . Go pride? 🦁💙🤍💛 https://t.co/nXxHl9AXEs"
+          "postId": "2095669868339069140",
+          "author": "ohhtyg",
+          "searchJob": "washington",
+          "text": "WTS| I have 2 spare tickets for Malcolm Todd concert for Sep 20 at The Anthem, Washington, DC. Asking for face value, but open to offers. PLEASE DM IF INTERESTED🤍🤍 wts wtb iso wtt dmv do that again tour bts role model txt bnd olivia rodri"
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095661556730065104",
-          "author": "samiwarwas",
-          "searchJob": "phrase:\"blessed to have received\"",
-          "text": "After a great visit with @Coach_JWeiland and Coach @HelenStaley4 I am blessed to have received an official offer from Central College! Go Dutch? ❤️🤍 https://t.co/SjDw5pLEK8"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095662864849580522",
-          "author": "ajhendricks_23",
-          "searchJob": "phrase:\"grateful to receive an offer\"",
-          "text": "Grateful to receive an offer from Wisconsin Lutheran College. Thank you to the WLC coaching staff for their time and hospitality! Had an awesome time. @Team1848 @NDATritonHoops https://t.co/9B9hQUKyTY"
+          "reason": "hard_negative",
+          "postId": "2095670835663011981",
+          "author": "bear_collins_",
+          "searchJob": "wisconsin",
+          "text": "After a great conversation, I am blessed to receive my first D1 basketball scholarship offer from the University of Wisconsin- Milwaukee @MKE_MBB https://t.co/ec9AiMa07J"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095658396900802953",
-          "author": "coopmitchell44",
-          "searchJob": "phrase:\"grateful to receive an offer\"",
-          "text": "After a great visit with Coach Maynard, I'm grateful to receive an offer to play at the next level from Waubonsee CC! https://t.co/qyidWDfizh"
+          "postId": "2095656236037312632",
+          "author": "wisconsinblaze",
+          "searchJob": "wisconsin",
+          "text": "Paige Pommerich 😤 (2027 | Mountain/Suring | 5’7 | G) received an official offer to continue her athletic career at NCAA Division III Alverno College 🙂‍↕️ #BeTheFlame🔥🏀 @Paige_Pommerich @AlvernoBB @NE2KHoops https://t.co/bLnJuQrjq1"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2095655555503198419",
-          "author": "breydonstoffel",
-          "searchJob": "phrase:\"grateful to receive an offer\"",
-          "text": "After a great visit, and talk with coach Thompson, and coach Monty, I’m grateful to receive an offer from Valley City State University! @VCSU_MBB @coach_trithomp @Coach_Monty https://t.co/zy4Bn8p32Z"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095654480809239022",
-          "author": "ncsacoachstock",
-          "searchJob": "kansas",
-          "text": "🚨 OFFER ALERT 🚨 Congratulations to Daniel Rock on his official offer from Kansas Wesleyan University! 🎓🏀 Hard work paying off. Excited to see where this journey leads. 👏 #Offer #CollegeBasketball #KansasWesleyan @NCSAmbb @DanielRock__"
+          "postId": "2095676847853809704",
+          "author": "kb_smith2027",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "#AGTG After a Great Conversation with @evan_nunez24 I'm blessed and grateful to receive an offer from Capital University @Coachcalexander @RamsayFootball @RonnieDjackson @KingBee007 @HallTechSports1 https://t.co/UfXYH19Md1"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095665979162321177",
-          "author": "pittpoundersfb",
-          "searchJob": "pittsburgh",
-          "text": "Accept our trade offer bro @AfghanTeeBoxes"
+          "postId": "2095676078681448715",
+          "author": "ian_c2027",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with Coach Durham I am grateful to receive an offer to Kuyper College!! @KingHulk_7 @kuypermbball @BankHoops @HankampScott @SDFbasketball https://t.co/j0daXPnwcg"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2095675456666173657",
+          "author": "johnny_wsnc",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with Coach Baker I am blessed to receive my first offer from Carolina Christian College.#agtg @ReaganMBB https://t.co/1Vj49twT6Q"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095674528638685432",
+          "author": "tresliggon",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "#AGTG After a great conversation with Coach @jimmy_peyton1 I’m blessed to receive and offer to play college football @SSUBEARSFB .. @coachmarksnyder @CoachGregForest @CoachVanderhoof @SSUBears #KeepingtheFaithandFocus https://t.co/61Tf2kWm0"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2095673085802287115",
+          "author": "williamjoynerfb",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @BCCoachK and @CoachMaxJames, I am blessed to receive an offer from Berry College! Thank you to the entire coaching staff! #AGTG 🙏🏾 #GoVikings #ClassOf2027 #WR #DB https://t.co/rpM2gQR6F5"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095671920997839262",
+          "author": "tjschmitt4",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @coachmcquillan I am blessed to receive my 3rd offer to go play college football🙏❤️@GCHSFB#AGTG https://t.co/kBdCRukxMZ"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2095671213217738763",
+          "author": "ryderdobbs",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @coachpjlondon, I’m blessed and grateful to receive my 2nd Division I offer from Northern Arizona University! #agtg @TimRoschmann @Coachbwright4 @CoachB_Larson @nevadapreps @Foothillhsfb @Elite_2028QBs @MikeW"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095666292405485834",
+          "author": "trevorcaudle",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @CoachMcGuire_, I am happy to announce I have received an official offer to play football at Dartmouth. I'm looking forward to my OV in a couple weeks.#IvyLeague @DartmouthFTBL @JCJetsFootball @JCFB_Recruitin"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095659573742850412",
+          "author": "macievetter5",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with Coach @dylanschmit23 , I’m excited to announce that I have received an offer from @GracelandU_WBB ! Thank you for this amazing opportunity! @Wiexpress @Cadbad66 @HoeghFarms https://t.co/d70hbAWfHq"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095656285806968887",
+          "author": "d13niblett",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "after a great conversation with @coachporter1010 I am blessed to say I have received my first NCAA offer! https://t.co/U1U7Ldx2DM"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095673979423842417",
+          "author": "thenebpreps",
+          "searchJob": "louisville",
+          "text": "2028 Lincoln Standing Bear tight end Paul Hart has offers from schools like Purdue and Louisville. 😳 Standing Bear hosts Millard North tonight. https://t.co/oHcw3Orn0l"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095675125236371546",
+          "author": "reasonabltchdad",
+          "searchJob": "texas-tech",
+          "text": "Zack offers 15 different shower shelves. He shows clients two. Give somebody too many options and they go from choosing into worrying, and worrying about the wrong decision oftentimes turns into no decision at all. So he holds up two, and w"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095661151522783543",
-          "author": "ladeplatinum",
-          "searchJob": "pittsburgh",
-          "text": "That’s not an excuse She chooses bad scripts"
+          "postId": "2095525626954264613",
+          "author": "chrisrmcguire",
+          "searchJob": "texas-tech",
+          "text": "I thought the reason we agreed to sell AI chips to Saudi Arabia and the UAE was because they promised to use the US AI stack, not the Chinese one. But Saudi is now using Chinese AI models to build their own models, and is using US chips to "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095671732329935289",
+          "author": "dontbsalti",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/D7Jh6ijGKg"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095670047993913737",
+          "author": "cryptojezuz",
+          "searchJob": "texas-tech",
+          "text": "Anthropic is paying students $3,600 to run AI clubs on campus and that's a smarter developer pipeline than any internship program. https://t.co/GirkxVZkqm is reporting the stipend covers a year of running workshops, demos, and builder sessi"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095666847559680062",
+          "author": "lunatechai",
+          "searchJob": "texas-tech",
+          "text": "9. webflow: Webflow is a visual web design tool that lets you create custom, responsive websites without coding. Perfect for designers, marketers, and developers, it offers powerful CMS and top-tier hosting https://t.co/PlDdnVCh1g"
         }
       ]
     },
     "extraction": {
-      "accepted": 6,
-      "rejected": 28,
+      "accepted": 1,
+      "rejected": 48,
       "reasons": {
-        "bare_mention_requires_llm": 24,
-        "multiple_resolved_schools": 2,
-        "player_display_name_unusable": 1,
-        "author_not_recruit:not high-school recruit": 1
+        "bare_mention_requires_llm": 23,
+        "author_not_recruit:different sport": 2,
+        "school_not_resolved_confidently": 19,
+        "reporter_missing_position": 1,
+        "author_not_recruit:not high-school recruit": 1,
+        "multiple_resolved_schools": 2
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095669463618318636",
-          "author": "tyyui77511474",
+          "postId": "2095656568629100941",
+          "author": "ansamiera_",
           "searchJob": "rice",
-          "text": "A plate of biryani offers a burst of flavors. Made with basmati rice and nori, it reflects Japanese tradition. It’s central to cultural celebrations. Such cuisine unites people across shared meals. It’s central to cultural celebrations. 👑 "
+          "text": "Each new and unfamiliar obstacle expands your perspective and uncovers latent abilities residing within your thoughts and spirit. Embrace fresh opportunities even if they seem intimidating initially.🤽Pre-packaged rice offers easy storage o"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095669009656299534",
-          "author": "stephendavidpri",
+          "postId": "2095655488847568944",
+          "author": "o92edbw0qsw51po",
           "searchJob": "rice",
-          "text": "A plate of biryani offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Japanese tradition. It’s central to cultural celebrations. Such cuisine unites people across shared meals. 🎊"
+          "text": "The following morning, her breakfast consisted of dosa—a delicate, crisp pancake crafted from rice and lentils, accompanied by sambar and chutney. The dosa itself was golden and airy, while the sambar offered a fiery, zesty kick, and the ch"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095667589137809844",
-          "author": "swtyx48413361",
+          "postId": "2095651763898708122",
+          "author": "ayegg33",
           "searchJob": "rice",
-          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Indian heritage. Chefs master it through years of practice. Such cuisine unites people across shared meals. 🌹 🍂 https://t.co/bGE"
+          "text": "For her very first dish, she had pad thai—rice noodles tossed with shrimp, tofu, bean sprouts, and peanuts in a tangy, sweet-and-sour dressing. The noodles offered a delightful chew, the shrimp were succulent, and the sauce struck an ideal "
+        },
+        {
+          "reason": "author_not_recruit:different sport",
+          "postId": "2095670413359563218",
+          "author": "verbalcommits",
+          "searchJob": "arkansas",
+          "text": "2027 Pine Ridge (FL) F Henry Robinson, Jr. has received an offer from Arkansas State. https://t.co/Azfer1bugi"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095667581764227425",
-          "author": "douzt88111599",
-          "searchJob": "rice",
-          "text": "A plate of biryani offers a burst of flavors. Made with basmati rice and saffron, it reflects Japanese tradition. It’s central to cultural celebrations. Such cuisine unites people across shared meals. 🌐 🚀 🎈"
+          "postId": "2095665672260903379",
+          "author": "laf0318",
+          "searchJob": "arkansas",
+          "text": "@Jamel_Davis_ @OtisKirk23 @RazorbackFB @SGasper_UArk @ChadSimmons_ @adamgorney @TomLoy247 @benjaminwolk @RazorbackFBRec @ArRecruitingGuy @wholehogsports @TheUCReport @SWiltfong_ Happy Razorback Nation Fan!!! Thanks for considering the offer"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095666884129726785",
-          "author": "wahyuwi04992939",
-          "searchJob": "rice",
-          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and saffron, it reflects Indian heritage. Regional variations add unique flavors. Such cuisine unites people across shared meals. Chefs master it through years of practice. "
+          "postId": "2095675753178206507",
+          "author": "itsjustchrisnow",
+          "searchJob": "oregon",
+          "text": "I’m very excited to watch Drake Lindsey for another year but I also feel like he’s TOO good, you know? Like, I’m sure Oregon is texting him CONSTANTLY and you know that $10 million offer is coming eventually 🙄😂"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095666599353258024",
-          "author": "nzlxb52379295",
-          "searchJob": "rice",
-          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and nori, it reflects Japanese tradition. Regional variations add unique flavors. Such cuisine unites people across shared meals. 🌹 https://t.co/jkeCDpQniB"
+          "postId": "2095670725780689377",
+          "author": "codaily",
+          "searchJob": "oregon",
+          "text": "$1,000 reward offered for info on state park vandalism on Oregon Coast https://t.co/3uY7hg3RLA"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095670491159916810",
+          "author": "kone3291",
+          "searchJob": "oregon",
+          "text": "☀Pea Soup The peas are tender. The usual crowd surrounded them, beaming and cheering. The elderly man who tosses bread to the ducks brushed aside a tear, the sidewalk fiddler struck up a tender tune, and those strolling their dogs paused to"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095666038566494624",
-          "author": "yogisingh96",
-          "searchJob": "rice",
-          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and nori, it reflects Italian cuisine. It’s central to cultural celebrations. Such cuisine unites people across shared meals. Regional variations add unique flavors. 💎 🎈 \ud83d"
+          "postId": "2095664879898083396",
+          "author": "bsonnone",
+          "searchJob": "oregon",
+          "text": "SEC offer No. 11 for Cornbread Adams. One of the bigger ones, too. Also recently picked up Oregon. He's become a national recruit."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095665014447521943",
-          "author": "wmzod55384273",
-          "searchJob": "rice",
-          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and saffron, it reflects Japanese tradition. Chefs master it through years of practice. Such cuisine unites people across shared meals. 🎁 🍁 🧳 https://t.co/VkOJ6"
+          "postId": "2095655645731053945",
+          "author": "salem_statesman",
+          "searchJob": "oregon",
+          "text": "$1,000 reward offered for info on state park vandalism on Oregon Coast https://t.co/4nc9YQB4l7"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095663751546667074",
-          "author": "clayhnelson1",
-          "searchJob": "rice",
-          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and saffron, it reflects Indian heritage. Regional variations add unique flavors. Such cuisine unites people across shared meals. Chefs master it through years of practice. "
+          "postId": "2095675278341062979",
+          "author": "cade_draughon",
+          "searchJob": "texas",
+          "text": "2029 Shadow Creek DT Jacoby Thomas with the sack. Texas A&amp;M offered recently. If he’s not on your radar yet, he should be. @JacobyThomas_10 | @SCSharkFootball | @GigEm247 https://t.co/lp3kxUur3S"
+        },
+        {
+          "reason": "reporter_missing_position",
+          "postId": "2095674426909929692",
+          "author": "jason_howell",
+          "searchJob": "texas",
+          "text": "Texas A&amp;M has offered Chattanooga (TN) Baylor School 2028 S Antwaun “Cornbread” Adams #GigEm"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095663228227604737",
-          "author": "anugo11614793",
-          "searchJob": "rice",
-          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and nori, it reflects Indian heritage. Regional variations add unique flavors. Such cuisine unites people across shared meals. Chefs master it through years of practice. 🌐 "
+          "postId": "2095671541627232453",
+          "author": "thehawkseyenews",
+          "searchJob": "texas",
+          "text": "🚨SAPD RELEASES VIDEO OF FATAL POLICE SHOOTING OF 69-YEAR-OLD RAUL GARZA🚨 WARNING: The video contains graphic content. The San Antonio Police Department has released a critical-incident video showing the moments leading to the fatal police"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095662915030557044",
-          "author": "iakkg88934596",
-          "searchJob": "rice",
-          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and saffron, it reflects Japanese tradition. Chefs master it through years of practice. Such cuisine unites people across shared meals. 🍄 🎁 https://t.co/MMcGnWwQLv"
+          "postId": "2095659744413229477",
+          "author": "yeoldegrumpster",
+          "searchJob": "texas",
+          "text": "@marklevinshow The man is a garbage candidate. If he is the best Texas republicans have to offer, they deserve to lose."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095662524108775523",
-          "author": "qibmz31719394",
-          "searchJob": "rice",
-          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and nori, it reflects Italian cuisine. Chefs master it through years of practice. Such cuisine unites people across shared meals. It’s central to cultural celebrations. 👑 \ud83c"
+          "postId": "2095677027051610382",
+          "author": "andycollectz",
+          "searchJob": "washington",
+          "text": "Updated info on the distribution of the OPTCG x Nike Promo Cards! (English & Japanese) ✔️ US (& regions outside of Japan) The Nike x One Piece DON!! Card (English) will be distributed with in-person footwear purchases and will feature the d"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095661823387426899",
-          "author": "dtqkb13369697",
-          "searchJob": "rice",
-          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Indian heritage. Chefs master it through years of practice. Such cuisine unites people across shared meals. 🎊 https://t.co/fkYtaV"
+          "postId": "2095670414861115902",
+          "author": "josephinea47049",
+          "searchJob": "washington",
+          "text": "WASHINGTON — Former President Bill Clinton defended his record on the Israeli-Palestinian conflict and excoriated Hamas tactics in the Gaza Strip Friday afternoon, responding to a heckler at a campaign event for his wife who suggested US fo"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095661625386872998",
-          "author": "dkket18487384",
-          "searchJob": "rice",
-          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and saffron, it reflects Japanese tradition. Chefs master it through years of practice. Such cuisine unites people across shared meals. 👍"
+          "postId": "2095662380768534799",
+          "author": "decodeconflict",
+          "searchJob": "washington",
+          "text": "AUSTRALIA IS BECOMING AMERICA’S INDO-PACIFIC WAR RESERVE The United States and Australia are expanding their defense cooperation as China increases its military and political influence across the Pacific. This is more than another basing ar"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095661326714732997",
-          "author": "sahatsawat5573",
-          "searchJob": "rice",
-          "text": "Once I get home, I prepare dinner—grilled salmon with brown rice and steamed broccoli. This wholesome, well-rounded dish is ideal for post-swim recovery.🌃We stand by our pledge of delivering top-notch quality in everything we offer to our "
+          "reason": "author_not_recruit:not high-school recruit",
+          "postId": "2095672429330985284",
+          "author": "bigticket06",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @coachsauce__ I’m blessed to have received an offer from The University of Memphis🐅@CoachHuff @theyoungcoach @JalanSowell @DBowman901 @SBVCFB @CoachGriffSBVC @ONEWAYINC1 @GregBiggins @TomLoy247 @ChadSimmons_"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095661075916083479",
-          "author": "jfarato",
-          "searchJob": "rice",
-          "text": "Seize a minor chance with each dawn, repair prior errors via unwavering, incremental advancement. Lay old frustrations to rest completely; every coming day offers a revived, optimistic opportunity to evolve steadily and enhance oneself each"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095677067031724136",
+          "author": "yurimiyanae",
+          "searchJob": "texas-tech",
+          "text": "#helpFWMC It's tricky to offer tech help without lots of details 💦 but definitely make sure Big Walk's \"noise suppression\" is set to Off and your ingame mic volume is set so your normal (and loud) talking doesn't peak (and set input sensit"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095660456073675091",
-          "author": "mpgmk18551451",
-          "searchJob": "rice",
-          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and nori, it reflects Indian heritage. Regional variations add unique flavors. Such cuisine unites people across shared meals. Chefs master it through years of practice. 🪐 "
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095676811212460229",
+          "author": "rohanarun",
+          "searchJob": "texas-tech",
+          "text": "@Super_Powers_AI Hey Super, build a Micro-Team Delayering & Span of Control Studio inspired by The Wall Street Journal's reporting on corporate America eliminating managers overseeing tiny teams. https://t.co/YLiUNViQVQ The interface must o"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095660429070803161",
-          "author": "cgevh58323969",
-          "searchJob": "rice",
-          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and saffron, it reflects Indian heritage. Chefs master it through years of practice. Such cuisine unites people across shared meals. It’s central to cultural celebrations. \ud83e"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095674507319214513",
+          "author": "teslalord2",
+          "searchJob": "texas-tech",
+          "text": "@zerohedge Let the tech companies offer free services"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095660191517966823",
-          "author": "cloclo4182",
-          "searchJob": "rice",
-          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and saffron, it reflects Japanese tradition. Chefs master it through years of practice. Such cuisine unites people across shared meals. 🌞"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095673008165687746",
+          "author": "qwikad_com",
+          "searchJob": "texas-tech",
+          "text": "🏘️ Working from home has never been easier. With https://t.co/fLPzNcRuXJ, you can place free classified ads in seconds with absolutely no signup or account creation required. 📈 Want to scale your business, boost sales, or drive massive tr"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095660154696159520",
-          "author": "owmgy74475843",
-          "searchJob": "rice",
-          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Italian cuisine. Chefs master it through years of practice. Such cuisine unites people across shared meals. 💼"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095672429179998707",
+          "author": "ryp__",
+          "searchJob": "texas-tech",
+          "text": "China copies our tech, offers it cheaper and destroys our IP investment. That’s it. No fancy playbook required."
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095653175793418405",
-          "author": "aflow51",
-          "searchJob": "alabama",
-          "text": "Lonergan why don’t you use your Bama offer to score some points😂😂😂😂😂😂 why don’t you use your four star high school rating to stop turning the ball over😂😂😂😂😂"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095668544490897516",
-          "author": "sjkz",
-          "searchJob": "tennessee",
-          "text": "@FreddyLA7 That is a fine choice. Enjoy. My offer stands for Tennessee vs Texas A&amp;M on November 14. 105,000 will be there. Lufthansa flies direct to Houston, IAH, from FRA."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095658103307898992",
-          "author": "nursingorg",
-          "searchJob": "tennessee",
-          "text": "https://t.co/Va1GTsz4d1 (@NursingOrg) on why LPN-to-BSN programs are dropping prerequisites: Tennessee expects 8,500+ unfilled RN jobs by 2035, and Bethel Univ. now offers a $400/credit hybrid bridge needing only a... https://t.co/HJR3Qt1jj"
-        },
-        {
-          "reason": "player_display_name_unusable",
-          "postId": "2095660779181625394",
-          "author": "thejamirlee97",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my 30th offer from Kansas state !!! @CoachJDove @CoachMasters @CoachJoeyKing @KStateFB @CarrolltonTroj1 @Carrollton_High https://t.co/VMcEx6cibU"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095671300945477812",
+          "author": "beitworldwide",
+          "searchJob": "texas-tech",
+          "text": "Rushing mass of bigte h as they https://t.co/31APKa23MO intellectual tualmpriperty and pretend.its lehlgal.and me.apittingbthem.out while the world watches u FAFO HOW UN.BALANCED NOT PROT ETIMG YOUR CUSTOMERS THAT https://t.co/sKMhrK19i2 .."
         }
       ]
     },
@@ -376,20 +435,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 34,
+      "swept": 33,
       "failed": 1,
-      "requests": 35,
+      "requests": 34,
       "errors": [
-        "south-florida: rate limited"
+        "tulane: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 6,
-      "rejectedCandidates": 28,
-      "brandNewOffers": 5
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 48,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-04T00:31:39.172Z"
+    "status rebuilt locally from current store on 2026-09-04T00:58:24.994Z"
   ]
 }
