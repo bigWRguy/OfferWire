@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-04T07:43:33.070Z",
+  "generatedAt": "2026-09-04T07:58:28.747Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-04T07:43:32.843Z",
+    "at": "2026-09-04T07:58:28.447Z",
     "jobsTotal": 162,
     "sweptThisRun": 36,
     "requests": 36,
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5377527777777777,
-    "p95Hours": 1.0381969444444445,
-    "worstHours": 1.0381969444444445
+    "medianHours": 0.5393086111111111,
+    "p95Hours": 1.0395269444444444,
+    "worstHours": 1.286996111111111
   },
   "decisionCoverage": {
-    "total": 6,
-    "decided": 6,
+    "total": 45,
+    "decided": 45,
     "complete": true
   },
   "pending": {
@@ -44,7 +44,7 @@
   "profileResolution": {
     "cached": 33
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 697,
     "incompleteOffers": 0
@@ -52,83 +52,301 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-04T07:43:32.843Z",
-      "got": 6,
-      "new": 6,
-      "lag": 0.09
+      "at": "2026-09-04T07:58:28.446Z",
+      "got": 53,
+      "new": 45,
+      "lag": 0.07
     }
   },
   "audit": {
-    "at": "2026-09-04T07:41:15.925Z",
+    "at": "2026-09-04T07:56:08.114Z",
     "mode": "live",
     "collection": {
-      "returned": 6,
-      "kept": 6,
-      "duplicate": 0,
+      "returned": 53,
+      "kept": 45,
+      "duplicate": 8,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 3,
-      "rejected": 3,
+      "accepted": 32,
+      "rejected": 13,
       "reasons": {
-        "no_fbs_school": 1,
-        "no_offer_term": 1,
-        "unclassified_offer_text": 1
+        "no_offer_term": 9,
+        "hard_negative": 2,
+        "no_fbs_school": 2
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2095772623955165528",
-          "author": "peeterskor80361",
-          "searchJob": "phrase:\"extends an offer to\"",
-          "text": "@baroncoleman @peacefulhitler @BlakeSNeff @DrFrankTurek Wow, our humble host extends an offer to Blake! I don’t think he’s man enough, but it would boost your ratings Blake? 🤔"
+          "reason": "no_offer_term",
+          "postId": "2095775525088153897",
+          "author": "sahbymehalla",
+          "searchJob": "california",
+          "text": "Cisco faces discrimination allegations after a US federal agency found reasonable cause to believe Middle Eastern and Muslim employees were subjected to a hostile work environment over their support for Palestinian rights. https://t.co/IqLs"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095763079388934621",
-          "author": "realmanubhaker",
-          "searchJob": "south-florida",
-          "text": "श्रीभगवानुवाच | असंशयं महाबाहो! मनो दुर्निग्रहं चलम् | अभ्यासेन तु कौन्तेय वैराग्येण च गृह्यते || अर्थात्? श्री कृष्ण जन्माष्टमी की हार्दिक शुभकामनाएँ 💙 There is so much we can learn from Lord Krishna. He was playful and mischievous as a c"
+          "postId": "2095781552408183106",
+          "author": "bscnews",
+          "searchJob": "arkansas-state",
+          "text": "The GENIUS Act sounds settled. It isn't yet. Here's what US law actually requires stablecoin issuers to do, and when it kicks in. https://t.co/MZvStn6TcQ"
         },
         {
-          "reason": "unclassified_offer_text",
-          "postId": "2095778447268163796",
-          "author": "arnaudmercier",
-          "searchJob": "kentucky",
-          "text": "The Nashville Derby features a highly competitive 12 horse field and a $3 million purse. It is second only to the Kentucky Derby in monetary offerings for three-year-olds https://t.co/vuWGax1Ceo"
+          "reason": "hard_negative",
+          "postId": "2095780586199605562",
+          "author": "shulafink11",
+          "searchJob": "army",
+          "text": "@threefingerBr @LuanaGoriss Anecdotal evidence of soldiers committing illegal acts is a reality of war. War is hell. Arabs should have opted for any of the 2 state solutions on offer. I want to know what your standard for an army is? The Br"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095747465060262226",
+          "author": "ntvkenya",
+          "searchJob": "army",
+          "text": "Former KDF pilot Samuel Kariuki narrates how he survived drone attacks on the warfront of the Russia-Ukraine conflict. Kariuki went to Russia hoping for a security job at a mall. #FixingTheNationNTV https://t.co/xKDmV0z6I4"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095770275984150561",
+          "author": "artrac_ia",
+          "searchJob": "army",
+          "text": "𝐒𝐞𝐯𝐞𝐧 𝐘𝐞𝐚𝐫𝐬 𝐨𝐟 𝐏𝐞𝐫𝐬𝐞𝐯𝐞𝐫𝐚𝐧𝐜𝐞, 𝐎𝐧𝐞 𝐃𝐫𝐞𝐚𝐦 𝐅𝐮𝐥𝐟𝐢𝐥𝐥𝐞𝐝 : 𝐒𝐭𝐨𝐫𝐲 𝐨𝐟 𝐎𝐂 𝐌𝐨𝐡𝐢𝐭 𝐀𝐫𝐨𝐫𝐚 Officer Cadet Mohit Arora from Phagwara, District Kapurthala, Punjab, exemplifies resilience, perseveranc"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095776077226594526",
+          "author": "lifepartnerin",
+          "searchJob": "temple",
+          "text": "https://t.co/7i8C1OZ1rP"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095771652445622771",
+          "author": "pratibhapriyad3",
+          "searchJob": "temple",
+          "text": "Kalabhairava Karma: The Ancient Śaiva Theology Behind a Contemporary Ritual https://t.co/sDJeggzq7E"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095769032058433817",
+          "author": "mhone_news",
+          "searchJob": "temple",
+          "text": "श्रीकृष्ण जन्मभूमि पहुंचे CM योगी, गर्भगृह में ‘लाला’ के किए दर्शन, चांदी से सजा मंदिर देख निहारे भगवान https://t.co/c5vyuVLGIe #CMYogi #KrishnaJanmabhoomi #Janmashtami #Mathura #KrishnaJanmashtami"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095766828832399429",
+          "author": "lalluram_cg",
+          "searchJob": "temple",
+          "text": "*105 वर्ष पुराने बांके बिहारी मंदिर में 'श्रीकृष्ण जन्माष्टमी' की धूम, चढ़ा 5 किलो का लड्डू भोग* https://t.co/5hirn5HC9k"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095782491382489124",
+          "author": "notshofunnyvols",
+          "searchJob": "tennessee",
+          "text": "@NerdroticsWife @DomCardboard Right. Everyone feels like they have to make their own price no matter how good the deal already is. And for the love of god you better offer free shipping too!"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095782273266110955",
+          "author": "notshofunnyvols",
+          "searchJob": "tennessee",
+          "text": "@mkeklik15 @BullpenBurner @DomCardboard I will have a $50 card (with a $60+ market value) have plenty watchers but sits for a few weeks. so, by then I just want it out of inventory, I’ll drop it down to $35/40. Next thing I know I’m getting"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095782397711368487",
+          "author": "bettikannan",
+          "searchJob": "phrase:\"blessed to have received\"",
+          "text": "@sona_sebin really we feel blessed to have received janmashtami greetings from none other than our CM"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095781149914358169",
+          "author": "kotauchisunsun",
+          "searchJob": "cincinnati",
+          "text": "日刊「世界のスマートグラスのニュース」を更新しました！！ https://t.co/EwmdCR7JB3"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 32,
       "reasons": {
-        "multiple_resolved_schools": 1,
+        "bare_mention_requires_llm": 27,
+        "multiple_resolved_schools": 3,
         "school_not_resolved_confidently": 2
       },
       "samples": [
         {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095776137985081375",
+          "author": "mcompassmedia",
+          "searchJob": "notre-dame",
+          "text": "STOLEN BABIES: COULD TUSLA BE REPEATING THE MISTAKES OF THE PAST? The BBC documentary Stolen Babies broadcast this week exposes how an estimated 250,000 unmarried mothers across the UK were coerced into surrendering their babies for adoptio"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095775957667791065",
+          "author": "alliancebirth",
+          "searchJob": "notre-dame",
+          "text": "STOLEN BABIES: COULD TUSLA BE REPEATING THE MISTAKES OF THE PAST? The BBC documentary Stolen Babies broadcast this week exposes how an estimated 250,000 unmarried mothers across the UK were coerced into surrendering their babies for adoptio"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095780717196128618",
+          "author": "moonwiddy",
+          "searchJob": "uconn",
+          "text": "I promised my grandmother I’ll NEVER date a girl from Connecticut again. She didn’t even ask me to. I offered that shit myself. 😂😂😂"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095781094486577190",
+          "author": "altan",
+          "searchJob": "arkansas-state",
+          "text": "Now the rest, since you’ll raise it anyway: Rabin. Yes, Oslo was intent for peace. He offered less than a state, said so in the Knesset in Oct 1995, and a Jew shot him for it a month later. His party’s heirs voted 68-9 that it never happens"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095780505774129214",
+          "author": "aria_asta",
+          "searchJob": "arkansas-state",
+          "text": "@IhabHassane Ihab I have huge respect for you and read everything you say about Israeli settler terrorism in the West Bank. But you were offered a state in 2000 and rejected it, and you were given Gaza in 2005 and elected Hamas and turned i"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095774172370886681",
+          "author": "romanxprofit",
+          "searchJob": "arkansas-state",
+          "text": "Every operator I have watched try to launch an info offer and struggle made the same mistake. They sat down to build a curriculum, produced a bloated body of material nobody asked for, and had no idea what to do with the material once assem"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095771498883748186",
+          "author": "altan",
+          "searchJob": "arkansas-state",
+          "text": "Good, now we’re arguing. You gave me the standard, so here it is applied to both sides. “Peace = no killing. If you wanted it you’d have made it.” 1993: Hamas bombs Israelis to stop Oslo. 1994: Goldstein shoots 29 Palestinians at prayer to "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095780223581131118",
+          "author": "jlbkl",
+          "searchJob": "army",
+          "text": "Indeed, but lethal as they are they cannot occupy territory and as History shows Niether bombing nor artillery can cause a people to hand over territory (save for the use of Nuclear weapons). So strategically only the Army can force regime "
+        },
+        {
           "reason": "multiple_resolved_schools",
-          "postId": "2095777034106814634",
+          "postId": "2095778313771827478",
+          "author": "loyalafridian10",
+          "searchJob": "army",
+          "text": "@TheDiamond_10 he rejected PMLN offers, PTI offers &amp; other parties to join them and is pressurised by army too. his family isnʼt safe in UK/USA like others! he only wants all to unite for Pak but they want him to worship one. he is righ"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095776467183337946",
+          "author": "wenewsenglish",
+          "searchJob": "army",
+          "text": "Flood survivors in Nepal are using a roughly 250-metre makeshift cable to cross over the swollen Trishuli River, a week after one of the country's worst disasters. The Nepal Army installed the temporary cable crossing to offer a precarious "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095776168859627962",
           "author": "dunnbilly87734",
-          "searchJob": "south-florida",
-          "text": "Our conclusion is rooted in the principles of Baker v. Carr. Despite the dissent's cataclysmic and speculative projections about the sweep of our opinion, our decision boils down to letting the common law property claims proceed to the next"
+          "searchJob": "army",
+          "text": "AI Overview The Knights of Malta (historically known as the Knights Hospitaller or the Order of St. John) have deep historical ties to the areas in and around London’s Square Mile (the City of London). While their primary medieval English h"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095775686237839815",
+          "author": "sristi82708",
+          "searchJob": "army",
+          "text": "Lt Gen Nathu Singh Rathore from Dungarpur, Rajasthan. During Quit India Movement he refused an order from British to fire on his country's protestors. Refused the offer by PM Nehru for the first Indian Army Chief, he refused and suggested t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095773811996033146",
+          "author": "saddiqueshaban",
+          "searchJob": "army",
+          "text": "Illegal Enlistment, Deception and Trafficking. Joining a foreign army without presidential approval is an offense. Unless the man was offered Amnesty and returned home without facing prosecution, Section 68 of the Kenyan Penal Code makes it"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095770688179372477",
+          "author": "mikejfc1",
+          "searchJob": "army",
+          "text": "🎟️ BTS Tickets Available! 🫶💜 I have 2 extra tickets for BTS on September 5 at SoFi Stadium, Inglewood, CA. Letting them go for face value, but open to reasonable offers. DM me if you’re interested or want more details! 📩 WTS • WTB • ISO"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095767538747457551",
+          "author": "normalhottook",
+          "searchJob": "army",
+          "text": "‼️wts bts army membership presale tickets for LA ‼️ 2 second row tickets. reason: I can no longer attend want fv or best offer PAYMENT METHOD: apple cash, paypal or zelle willing to facetime DM if interested bts arirang world tour sofi stad"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095769342046884302",
+          "author": "morgan181525",
+          "searchJob": "massachusetts",
+          "text": "Okay first, thanks for the response back. I have to clarify: I am not 'arguing' this issue. I simply have a pov. That's all. That is why I spoke of binary choices, 'either this or that'. It's like the conversational possibilities have been "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095780415974031761",
+          "author": "gpyadav315",
+          "searchJob": "temple",
+          "text": "@Krishnavallabhi The Navagraha Kindi beautifully reflects India’s temple heritage, where architecture itself becomes part of worship. Its nine openings offer devotees a distinctive darshan of Balakrishna, preserving a remarkable devotional "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095778330683617720",
+          "author": "ians_india",
+          "searchJob": "temple",
+          "text": "Delhi: Surendranath Avdhut, Mahant, Kalkaji Temple, says, \"Today, the festival of Shri Krishna Janmashtami is being celebrated with great enthusiasm across the country. Especially in Mathura and Vrindavan, special preparations have been mad"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095778057714098526",
+          "author": "ians_india",
+          "searchJob": "temple",
+          "text": "Delhi: BJP national president Nitin Nabin visits ISKCON Temple and offers prayers to Lord Krishna. BJP State president Harsh Malhotra, MP Tarun Chugh, MP Bansuri Swaraj, former MP Meenakshi Lekhi and MLA Sikha Rai, among other BJP leaders, "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095777666893037812",
+          "author": "nepalnews_eng",
+          "searchJob": "temple",
+          "text": "Devotees have flocked to the Krishna Temple in Patan, Lalitpur, since early Friday morning. On the occasion of Krishna Janmashtami today, large crowds gathered early in the morning to offer prayers and worship. #nepalnews #nepalinews #Nepal"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095774597786571065",
+          "author": "simranbhatia23",
+          "searchJob": "temple",
+          "text": "Dr @ShashiTharoor articulating true essence of Hinduism, it is not a rigid creed but a lived, intellectually open way of being that fits a liberal temperament. He starts with the obvious: he was born Hindu. Most people inherit their faith b"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095773705960091667",
-          "author": "stocky_bulls",
-          "searchJob": "south-florida",
-          "text": "🙏 Celebrate Janmashtami with Stocky_Bulls Premium Telegram Group🚀 🔥 ₹4,999 ➡️ ₹3,999 ONLY 💥 💰 SAVE ₹1,000 ⏳ LIMITED-TIME OFFER 📈 Premium trade updates, targets &amp; real-time alerts. 📩 DM NOW TO JOIN! 😎 #Janmashtami #StockyBulls #T"
+          "postId": "2095774095929463206",
+          "author": "f1spirit_",
+          "searchJob": "temple",
+          "text": "🏎️ The 2026 \"Temple of Speed\" is setting up the biggest engineering puzzle on the calendar. With the new regulations splitting power evenly between the ICE and the battery, drivers will virtually have to relearn how to drive Monza. 📌 Why "
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095768228568158412",
-          "author": "vaibhavspace",
-          "searchJob": "south-florida",
-          "text": "Krishna, the prince of Dwarika who ended up married to eight queens through eight completely different kinds of trials. Rukmini, princess of Vidarbha, had loved Krishna from stories alone since childhood, though her brother arranged her mar"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095773911904641098",
+          "author": "argusnews_in",
+          "searchJob": "temple",
+          "text": "Dharmendra Pradhan Offers Prayers at Puri Jagannath Temple on Janmashtami https://t.co/IayS328Bo0"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095772518791430625",
+          "author": "coreops",
+          "searchJob": "temple",
+          "text": "🖤: “So, what do you think of our kid?” 🤍: 555555555 🖤: “People actually wrote to me and typed that this is \"Kuman Miang\"! Kuman Miang! Look at his outfit!” 🤍: “Whoa, in that case, Phi shouldn’t we take it to be blessed?” 🖤: “Yeah, get "
         }
       ]
     },
@@ -143,11 +361,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 3,
+      "rejectedCandidates": 32,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-04T07:43:33.071Z"
+    "status rebuilt locally from current store on 2026-09-04T07:58:28.748Z"
   ]
 }
