@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-04T11:13:31.163Z",
+  "generatedAt": "2026-09-04T11:28:17.810Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-04T11:13:30.881Z",
+    "at": "2026-09-04T11:28:17.576Z",
     "jobsTotal": 162,
     "sweptThisRun": 35,
     "requests": 36,
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.2077808333333333,
-    "p95Hours": 1.7895088888888888,
-    "worstHours": 2.0348869444444446
+    "medianHours": 0.7300466666666666,
+    "p95Hours": 1.7852422222222222,
+    "worstHours": 2.0357994444444443
   },
   "decisionCoverage": {
-    "total": 55,
-    "decided": 55,
+    "total": 12,
+    "decided": 12,
     "complete": true
   },
   "pending": {
@@ -44,7 +44,7 @@
   "profileResolution": {
     "cached": 33
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 697,
     "incompleteOffers": 0
@@ -52,301 +52,126 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-04T11:13:30.880Z",
-      "got": 66,
-      "new": 55,
-      "lag": 0.07
+      "at": "2026-09-04T11:28:17.575Z",
+      "got": 21,
+      "new": 12,
+      "lag": 0.08
     }
   },
   "audit": {
-    "at": "2026-09-04T11:11:13.300Z",
+    "at": "2026-09-04T11:26:02.869Z",
     "mode": "live",
     "collection": {
-      "returned": 66,
-      "kept": 55,
-      "duplicate": 11,
+      "returned": 21,
+      "kept": 12,
+      "duplicate": 9,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 42,
-      "rejected": 13,
+      "accepted": 6,
+      "rejected": 6,
       "reasons": {
-        "no_offer_term": 4,
-        "hard_negative": 1,
-        "no_fbs_school": 8
+        "no_offer_term": 2,
+        "no_fbs_school": 3,
+        "hard_negative": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2095817759632367751",
-          "author": "ukinvestormag",
-          "searchJob": "notre-dame",
-          "text": "AIM movers: Premier African Minerals seeks spproval for share issues and Pri0r1ty Intelligence purchase https://t.co/ypWVZGCZGb"
+          "postId": "2095789777450676479",
+          "author": "blessing_olivi",
+          "searchJob": "miami",
+          "text": "If Messi is better than Ronaldo, why does Al Nassr pays Ronaldo more than Inter Miami pays Messi."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095803289644241344",
-          "author": "leverageshares",
-          "searchJob": "notre-dame",
-          "text": "https://t.co/lRXGFXQBZr"
+          "postId": "2095826337391050910",
+          "author": "capper_rmac",
+          "searchJob": "kentucky",
+          "text": "Picking names out a hat for the 2026 Spinaway Stakes at Saratoga https://t.co/aBu7TlUclT"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095829290872905972",
+          "author": "abc12wjrt",
+          "searchJob": "michigan",
+          "text": "A Michigan school district found a way to offer free health care to ALL employees — teachers, bus drivers, custodial staff and more. 🏥 https://t.co/NLmMjxh867"
         },
         {
           "reason": "hard_negative",
-          "postId": "2095812962464231515",
-          "author": "menaunleashed",
-          "searchJob": "arkansas-state",
-          "text": "A company that has never disclosed a profit is about to launch a venture fund larger than $10bn. Read the condition attached and it stops looking like an investment vehicle at all. Money only goes to firms that commit to running their compu"
+          "postId": "2095820303427346845",
+          "author": "wcwnitrobook",
+          "searchJob": "minnesota",
+          "text": "Ch. 6 of NITRO: The Inside Story of WCW Monday Nitro's Debut - 31 Years Ago Today (9/4/95)! If Luger couldn’t keep quiet, word of his possible ‘jump’ would surely reach the WWF. Although Nitro would emanate as a live program, secretive plan"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095820307017683100",
-          "author": "mazharbutt2030",
-          "searchJob": "marshall",
-          "text": "@rebirthdotsol This has been a great idea from the start! I offer FREE assistance, just reach out! 🚀"
+          "postId": "2095816754891018590",
+          "author": "outsidemagazine",
+          "searchJob": "minnesota",
+          "text": "Sweetbriar Ridge in Pine City, Minnesota, offers luxury domes and wood-burning hot tubs just an hour outside of the Twin Cities. https://t.co/0tZGq9XSMh"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095819355736985645",
-          "author": "mazharbutt2030",
-          "searchJob": "marshall",
-          "text": "@MeiMeiOnRH This idea has real momentum! I offer FREE support, just reach out! 🔥"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095802780103405716",
-          "author": "marshallscore",
-          "searchJob": "marshall",
-          "text": "Try harder you pathetic retard ⚠️ \"Farage was caught on camera accepting the offer of a £500,000 donation from an American citizen\" 🚨MISLEADING / INACCURATE. • ❌The undercover footage shows discussions about a £500,000 donation being offer"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095823206972088737",
-          "author": "tgg_memphis",
-          "searchJob": "memphis",
-          "text": "Respond to the need, not the surveillance. Offer useful help without listing the private behavior that triggered it. https://t.co/Nlw1giQz9u"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095828923179565266",
-          "author": "ians_india",
-          "searchJob": "temple",
-          "text": "Deeg, Rajasthan: On the occasion of Janmashtami, Rajasthan Chief Minister Bhajan Lal Sharma, along with his wife, offered prayers at the Shrinathji Temple at Poonchhari Ka Lautha in Deeg (Video Source: CMO) https://t.co/F4e3CzMdvS"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095023519004516526",
-          "author": "ananthontrack",
-          "searchJob": "temple",
-          "text": "My photo from August 27th - can anyone guess where this tower is located? This is the Periya Manara (the Big Minaret), which stands directly aligned with the primary gateway of the Nagore Dargah. The 131-foot (40-meter) tall minaret was bui"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095811978598269101",
-          "author": "lagatarin",
-          "searchJob": "temple",
-          "text": "योगी ने श्रीकृष्ण जन्मभूमि मंदिर में पूजा की, कहा,सनातन को मिटाने का प्रयास करनेवाले मिट्टी में मिल गये https://t.co/BgOH8RY8kV"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095812894407401718",
-          "author": "toledonarilou",
-          "searchJob": "toledo",
-          "text": "I see that - passkeys, security keys are options being offered but there has to be another secured option of having user-specific private identifier created by the user, instead of publicly available email address, along with strong passwor"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095814183778398464",
-          "author": "travelzork",
-          "searchJob": "florida",
-          "text": "Ritz Carlton South Beach offers an unmatched experience for those who want to discover Miami, Florida at its finest. https://t.co/wBk3dK7Sg1"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095823707734458716",
-          "author": "chadhatten1",
-          "searchJob": "colorado",
-          "text": "I never imagined that after more than two years of searching, I'd still be fighting just for the chance to work. Kind connections have offered to take in my dog if I become homeless; I hope it never comes to that. I'm a disabled military sp"
+          "postId": "2095830015980257515",
+          "author": "tomshardware",
+          "searchJob": "ole-miss",
+          "text": "SpaceXAI offers 50% Starlink discount to placate data center neighbors; 2,000 have signed up — goodwill gesture comes amid vociferous community backlash https://t.co/ew7RfcDZ1L"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 42,
+      "rejected": 6,
       "reasons": {
-        "bare_mention_requires_llm": 36,
         "school_not_resolved_confidently": 2,
-        "multiple_resolved_schools": 4
+        "bare_mention_requires_llm": 3,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095825041980035358",
-          "author": "ukinvestormag",
-          "searchJob": "notre-dame",
-          "text": "Pri0r1ty Intelligence Group #PR1 is acquiring the operating assets and technology of Pirkx, a technology platform providing wellbeing and healthcare services and benefits to small and medium enterprises’ employees. There has been £5.4m of i"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095817769157534181",
+          "author": "vanemrys15",
+          "searchJob": "miami",
+          "text": "Ronaldo current salary is roughly what Al Hilal offered Messi three years ago just to come and play for two years. But Inter Miami gave him the opportunity to make money through several different channels while also building long term busin"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095807983250817508",
-          "author": "buckser23",
-          "searchJob": "notre-dame",
-          "text": "@GerHerbert1 I am in total agreement of helmets and hi viz clothing from a safety perspective, the increase in public transport charges are just to cover up the massive waste of money in the services they offer eg. 50 million Irish Rail, Hu"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095805560750776412",
-          "author": "garveyssv_dun",
-          "searchJob": "notre-dame",
-          "text": "Huge Offers here at our Butcher Counter this weekend Irish Round Roast Beef Half Price Irish Hampshire Pork Loin Roast Half Price And with your Real Rewards Card Extra Large Irish Whole Chicken now only €5 https://t.co/ngOehwAuAX"
+          "postId": "2095809803683864948",
+          "author": "karthiss",
+          "searchJob": "coastal-carolina",
+          "text": "#adanient Adani Enterprises Ltd is the group incubator, not a single operating utility. NSE/BSE ticker ADANIENT. Face value Rs 1. It starts or scales new platforms, then either keeps them inside AEL or lists them later, as it did with Ports"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095802693642072286",
-          "author": "delta25194939",
-          "searchJob": "air-force",
-          "text": "@LeePheonix360 Mamdani is more American then Trump...Trump took ironically a plane from them, offered an air force base..don't taint 1 man with the same brush but your hatred for anyone non white is really showing."
+          "postId": "2095810839244578891",
+          "author": "newmediane52690",
+          "searchJob": "maryland",
+          "text": "HEALTH CARE · NATIONAL Friday, September 4, 2026 By NewMediaNews Staff 2.9 Million Forced Off Medicare Advantage Plans for 2026 Insurers exit markets. One in 10 enrollees must find new coverage. Nearly 2.9 million Medicare Advantage enrolle"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095825392321896822",
-          "author": "dearjohnil",
-          "searchJob": "arkansas-state",
-          "text": "@JaxyObserver @JewishChron Well, some people were there when they were offered a state and refused, not for the first time https://t.co/CNou5EeaD0"
+          "postId": "2095832422021583286",
+          "author": "66dlm327350",
+          "searchJob": "michigan",
+          "text": "\"So that’s the story. He apologized. I listened to what he said. The question is what he thinks he apologized for. After the attack on Temple Israel in West Bloomfield, El-Sayed condemned it. Then he kept going. “Hurt people hurt people.” H"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095824202649444427",
-          "author": "alkuds9691",
-          "searchJob": "arkansas-state",
-          "text": "@IhabHassane Palestinians living there should be listened to the most. All the voices saying ‘but Palestinians were offered a state’ have no idea what that ‘offer’ actually meant. Living under Israeli military occupation is like living unde"
+          "postId": "2095830470005035196",
+          "author": "suzylebo",
+          "searchJob": "michigan",
+          "text": "What explains people like Michigan AG Dana Nessel? Internalized stigma. Members of stigmatized groups often adopt the majority's frame of reference, including its negative valuation of the in-group. If the surrounding culture treats your pa"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095819383545155947",
-          "author": "debugliesnews",
-          "searchJob": "arkansas-state",
-          "text": "Geopolitical Realignment & Kurdish Disarmament Architecture 2026-2031 - The forced convergence of Syrian Democratic Forces dissolution and Kurdistan Workers’ Party disarmament in August 2026 creates a temporary security stabilization across"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095826524465254661",
-          "author": "kcleobury",
-          "searchJob": "army",
-          "text": "@SteveGrant1983 @TheBarmyArmy He’s just a member,like anyone else that joins, he doesn’t run it 🤣😂 But I do agree the Barmy Army can’t complain about prices with what they “offer” to Australia and South Africa."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095825958016254152",
-          "author": "earthdesires",
-          "searchJob": "army",
-          "text": "To the man caught between two worlds, who must choose between duty and heritage before darkness consumes them all — this is for you. Righteous Allegiance by George Yuhasz A divided nation. A deadly plot. A man caught between two worlds. Wil"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095819926615580935",
-          "author": "sam_gomeshere",
-          "searchJob": "army",
-          "text": "MP government has refused to sanction prosecution of BJP minister Kunwar Vijay Shah for targeting Col. Sofiya Qureshi. No complaint, apology offered, “no intent” and the matter ends. A sitting minister can demean Army officer &amp; still wa"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095814195115704821",
-          "author": "pariseaugroup",
-          "searchJob": "massachusetts",
-          "text": "🚲This bike path offers an unforgettable historic adventure. 🤩 #bikeride #thingstodo #outdooradventure #placestogo #MinutemanBikeway #familyfun #onlyinyourstate #Massachusetts #Pariseaufamily #onlyinMassachusetts #PariseauPropertiesGroup #"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095828607868551401",
-          "author": "dailyexcelsior1",
-          "searchJob": "temple",
-          "text": "#InPics | Devotees offer prayers before the beautifully decorated Idol of Lord Shri Krishna, sing devotional songs and dance during Janmashtami celebrations at the ISKCON Temple in Jammu. #Devotees #LordKrishna #Jammu #Janmashtami #ISKCON h"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095828201096581235",
-          "author": "np_nationpress",
-          "searchJob": "temple",
-          "text": "BJP chief Nitin Nabin offers prayers at Delhi ISKCON temple on Janmashtami BJP National President Nitin Nabin offered prayers at Delhi's ISKCON temple on Janmashtami, joined by senior party leaders praying for peace and prosperity. https://"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095827922905137460",
-          "author": "uni_photos",
-          "searchJob": "temple",
-          "text": "In Photos | Devotees offered prayers before the beautifully decorated idol of Lord Shri Krishna, sang devotional songs, and danced during the Janmashtami celebrations at the ISKCON temple in Jammu on Friday (04/09). 📸: Aman Sharma / UNI #I"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095826662084444237",
-          "author": "diamondboy237",
-          "searchJob": "temple",
-          "text": "Martin's Career - 06 by Diamondboy Introduction: Martin is a business consultant who has romantic encounters Martin stood before the full-length mirror in his hotel suite, the new charcoal suit from Evelyn’s store fitting him like a second "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095826597735723315",
-          "author": "newsarenaindia",
-          "searchJob": "temple",
-          "text": "Karnataka CM DK Shivakumar offers prayers at Sangameshwara temple in Kudalasangama. https://t.co/zSYMoitMyE"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095826111280332853",
-          "author": "tv5kannada",
-          "searchJob": "temple",
-          "text": "DK Shivakumar Visits Kudalasangama: ಡಿಕೆಶಿಗೆ ಬೆಳ್ಳಿಯ ಗಧೆ, ಬಸವೇಶ್ವರ ಮೂರ್ತಿ ನೀಡಿ ಸನ್ಮಾನ ಬಾಗಲಕೋಟೆ ಜಿಲ್ಲೆಯ ಹುನಗುಂದ ತಾಲೂಕಿನ ಪ್ರಸಿದ್ಧ ಪವಿತ್ರ ಕ್ಷೇತ್ರ ಕೂಡಲಸಂಗಮಕ್ಕೆ ಉಪಮುಖ್ಯಮಂತ್ರಿ ಹಾಗೂ ಕೆಪಿಸಿಸಿ ಅಧ್ಯಕ್ಷ ಡಿ.ಕೆ. ಶಿವಕುಮಾರ್ ಅವರು ಭೇಟಿ ನೀಡಿದ್ದು, ಐತಿಹಾಸಿಕ ಸಂ"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095825900210409631",
-          "author": "ians_india",
-          "searchJob": "temple",
-          "text": "Bhopal: Madhya Pradesh Chief Minister Mohan Yadav visited the Radha Rani Temple in Bhopal on the occasion of Krishna Janmashtami. Chief Minister offered prayers at the temple and participated in the Janmashtami celebrations. https://t.co/2X"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095825715967238328",
-          "author": "ians_india",
-          "searchJob": "temple",
-          "text": "Bhopal, MP: Madhya Pradesh Chief Minister Mohan Yadav visited the Radha Rani Temple in Bhopal on the occasion of Krishna Janmashtami. Chief Minister offered prayers at the temple and participated in the Janmashtami celebrations. https://t.c"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095825508152000772",
-          "author": "zihozi",
-          "searchJob": "temple",
-          "text": "Those who worship Him in spirit and in truth will be witnesses.Scripture tells us Satan stood at the pinnacle of the temple-a building made by man-and instructed Jesus(Luke 4:9-12).In v 5-8 he offered Jesus all the kingdoms and their glory "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095823498799452262",
-          "author": "timothyjphelan",
-          "searchJob": "temple",
-          "text": "Japan has a day for thanking old combs. Today, September 4, is “Comb Day.” In Japanese, 9 can be read ku and 4 shi: kushi, or comb. Hairdressers bring their worn-out combs and brushes to a Buddhist temple. A priest chants sutras. They offer"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095821670376509891",
-          "author": "ians_india",
-          "searchJob": "temple",
-          "text": "Patna: Bihar Governor Syed Ata Hasnain visited the ISKCON Temple in Patna on the occasion of Janmashtami and offered prayers to Lord Krishna. He also performed a milk abhishek and extended Janmashtami greetings to the people of the state, w"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095820392971849750",
-          "author": "ians_india",
-          "searchJob": "temple",
-          "text": "Udhampur, J&K: Janmashtami was celebrated with great devotion and enthusiasm across Udhampur. Radha-Krishna temples were decorated and devotees began arriving from the morning to offer prayers. A grand celebration is being held at the ISKCO"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095820128458006959",
-          "author": "ians_india",
-          "searchJob": "temple",
-          "text": "Kishtwar, J&K: Janmashtami was celebrated with religious fervour across Kishtwar district of Jammu and Kashmir. Thousands of devotees visited the Gori Shankar Temple in Sarkoot to offer prayers and seek blessings. In view of the large gathe"
+          "reason": "reporter_missing_player_name",
+          "postId": "2095835190442459273",
+          "author": "m_bailey2sports",
+          "searchJob": "arizona-state",
+          "text": "Sophomore stand out RB, Chris Lark (@Chris_thefutur3) earns an offer from Arizona State!"
         }
       ]
     },
@@ -358,16 +183,16 @@
       "failed": 1,
       "requests": 36,
       "errors": [
-        "louisville: rate limited"
+        "nc-state: SearchTimeline JSON unreadable (slice left pending)"
       ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 42,
+      "rejectedCandidates": 6,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-04T11:13:31.164Z"
+    "status rebuilt locally from current store on 2026-09-04T11:28:17.810Z"
   ]
 }
