@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T15:43:46.216Z",
+  "generatedAt": "2026-09-04T15:56:21.130Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
@@ -27,15 +27,20 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "old-dominion",
+      "hours": 2.2
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 0.7937702777777778,
-    "p95Hours": 1.5418105555555555,
-    "worstHours": 2.038057222222222
+    "medianHours": 1.003468611111111,
+    "p95Hours": 1.7515088888888888,
+    "worstHours": 2.2477555555555555
   },
   "decisionCoverage": {
-    "total": 60,
-    "decided": 60,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "pending": {
@@ -59,337 +64,46 @@
     }
   },
   "audit": {
-    "at": "2026-09-04T15:41:34.247Z",
+    "at": "2026-09-04T15:56:16.130Z",
     "mode": "live",
     "collection": {
-      "returned": 103,
-      "kept": 60,
-      "duplicate": 42,
-      "tooOld": 1,
+      "returned": 0,
+      "kept": 0,
+      "duplicate": 0,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 18,
-      "rejected": 42,
-      "reasons": {
-        "no_fbs_school": 11,
-        "no_offer_term": 9,
-        "hard_negative": 22
-      },
-      "samples": [
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095898036358578383",
-          "author": "oh_sporttalk",
-          "searchJob": "ohio",
-          "text": "Reds Fans #ATOBTTR What contract would you offer Sal Stewart today? My offer would look like this.... https://t.co/JYmYhVMxb8"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095897206096105772",
-          "author": "wsyx6",
-          "searchJob": "ohio",
-          "text": "The rides can be redeemed between 5 p.m. and 3 a.m. Friday through Labor Day https://t.co/cPBhaDWSz3"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095602731377365021",
-          "author": "notsofastdp",
-          "searchJob": "ohio",
-          "text": "What is the BEST tailgating school? 🏈🍻 @NicoleAuerbach gives us her picks. 👀 https://t.co/5KsQaJYnUl"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095893124019294317",
-          "author": "dudehumorreport",
-          "searchJob": "ohio",
-          "text": "CASHIER WALKS OFF REGISTER AFTER A CUSTOMER COUNTS OUT A RETURN IN EXACT PENNIES JUST TO BE DIFFICULT CLEVELAND, OHIO — A grocery store cashier abandoned her register mid-shift Sunday after a customer demanded her $4.73 refund be paid entir"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095889265989198229",
-          "author": "liveoptimistic",
-          "searchJob": "rice",
-          "text": "@kayleefabulous Offer $100 and say you’ll pick it up today"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095897780405346484",
-          "author": "np4football_ot",
-          "searchJob": "class:2027",
-          "text": "Jackson Becker-OL-2027-OH @FerrisFootball Commit #CFB"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095666469090574795",
-          "author": "jacksonbecker51",
-          "searchJob": "class:2027",
-          "text": "Excited to announce I’m officially committing to Ferris State!! I’m grateful for the opportunity the Coaches are giving me and I’m ready to get to work!! 🐶🐶🐶 @CoachDrewBurton @FerrisFootball @ferrisathletics https://t.co/aUuMNkgNyX"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095884029933269277",
-          "author": "lucaskendall28",
-          "searchJob": "class:2028",
-          "text": "Thank you @sixstarfootball for the write up. Lucas Kendall | 6'2, 270 | OL | 2028 | Minnetonka (MN) | @lucaskendall28 SIX STAR FOOTBALL SCOUTING REPORT: Kendall brings a strong build and good length to the Minnetonka offensive line. He meas"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095883699522789382",
-          "author": "jdsmith31smith",
-          "searchJob": "class:2028",
-          "text": "Jasper 2028 4-Star RB Zion Coger @Zion_Coger tells @TDAlabamaMag he will be in Tuscaloosa this weekend for Alabama vs. ECU. Coger earned an Alabama offer during the summer. @ALLGASTRNG https://t.co/jb5g90AhaA"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095892993102188706",
-          "author": "markgra96588410",
-          "searchJob": "kentucky",
-          "text": "OPINION, Kentucky has been here before: What data centers can offer the state https://t.co/Tz0phaq76j via @levisalazernews"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095886464034697245",
-          "author": "dogs_dc",
-          "searchJob": "maryland",
-          "text": "Friday, September 4, 2026 PLEASE🙏 share for: PAW Partnership for Animal Welfare Greenbelt, MD 20770 (301) 572-4729 Meet SPICE🐾🐾! Sugar and Spice and EVERYTHING Nice! 💕 Spice🐾🐾 is a sweet, playful, cuddly girl who absolutely loves peop"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095890984114553102",
-          "author": "mike_adams_og",
-          "searchJob": "michigan",
-          "text": "Adam Fox and Barry Croft weren’t “framed.” They were convicted by a federal jury, and their convictions were upheld on appeal. The evidence showed they were involved in an actual plot to kidnap Gov. Whitmer, and Croft was also convicted ove"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095890452935270609",
-          "author": "crowdfundinside",
-          "searchJob": "michigan",
-          "text": "Kalshi still cannot offer sports prediction contracts in Michigan. A circuit judge converted the freeze into a preliminary injunction while the case proceeds. https://t.co/rxSnjh2yzf"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095889839292067894",
-          "author": "helenguo_",
-          "searchJob": "michigan",
-          "text": "I just met a guy who bought a tiny $60K business in an industry he knew nothing about and sold it a decade later for $80M. Kevin’s realtor friend brought the radon mitigation industry on to his radar. It’s a substance that can leak in a hom"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095889817296871765",
-          "author": "newmediaamerica",
-          "searchJob": "michigan",
-          "text": "A former St. Clair County, Michigan substitute teacher has been sentenced to 40 years in federal prison after admitting to sexually exploiting minors. Federal prosecutors say Timothy Higle targeted more than a dozen victims over roughly 12 "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095885851565736420",
-          "author": "wilxtv",
-          "searchJob": "michigan",
-          "text": "As families fire up the grill over Labor Day weekend, the Michigan Department of Agriculture and Rural Development is reminding Michiganders to put food safety first. https://t.co/4E3Jr0oKy5"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095879828679369001",
-          "author": "thewolverineon3",
-          "searchJob": "michigan",
-          "text": "OFFER ENDS SOON! Get The Wolverine, On3 and Rivals at a 75% discount — less than 30 bucks for a full year. Join now: https://t.co/VmO6IVAusE https://t.co/vAYcpcT1lX"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095878544312123624",
-          "author": "atlasmd",
-          "searchJob": "michigan",
-          "text": "@BuckeyeGrad1999 here's the original source - https://t.co/iFtf2UMexy"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095891989296243022",
-          "author": "ethanmiller_1",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG I AM EXTREMELY BLESSED to receive a offer from @gojsutigersfb @Coachjavjones @D_Mitchell91 @ChoctawCountyFB https://t.co/0tHxN09cKL"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095893487661330861",
-          "author": "milkroadai",
-          "searchJob": "arizona",
-          "text": "Nvidia is prepaying billions for a material that most people have never heard of (Save this). Indium phosphide is the only material that efficiently turns electricity into laser light at fiber wavelengths and silicon cannot do it, so every "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095885374987862106",
-          "author": "voidelur",
-          "searchJob": "arizona",
-          "text": "@_meowzai_ Mój psychiatra na pierwszej wizycie zapytał czy gram w gry. Odczułem stres, bo pewnie będzie wszystko zwalać na gry... No nie, on sam jest weteranem gier i rpgów. Nasze wizyty trwały tak z godzinę przeważnie, bo gadaliśmy o warha"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095882828491665672",
-          "author": "azfec",
-          "searchJob": "arizona",
-          "text": "🚨 A second DCS official just went on the record. In Nov. 2022, Mike Faust told deputy Shalom Jacobs that Sunshine CEO Simon Kottoor offered to “put in a good word with the Governor” if Faust signed a special rate hike. Jacobs says Faust wa"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095353628672319841",
-          "author": "azcentral",
-          "searchJob": "arizona",
-          "text": "A second former state official is now supporting a disputed account at the center of Arizona’s Sunshine Residential investigation. https://t.co/h9OeLRZulN"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095899516142592331",
-          "author": "randyferrell",
-          "searchJob": "liberty",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
-      "accepted": 2,
-      "rejected": 16,
-      "reasons": {
-        "multiple_resolved_schools": 3,
-        "bare_mention_requires_llm": 12,
-        "school_not_resolved_confidently": 1
-      },
-      "samples": [
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095895695278453022",
-          "author": "garrettsearight",
-          "searchJob": "ohio",
-          "text": "This was obviously a long time ago, but tailgated Ohio vs Penn State in 2012. First game after JoePa died. Fans couldn't have been nicer. Never been offered more brats and beer in my life. After Ohio won, it very quickly became \"We gotta ge"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095895530102784305",
-          "author": "wvf3aqfgbyquo5n",
-          "searchJob": "rice",
-          "text": "😙Craft charm within your personal universe. The following dawn, she enjoyed kimchi jjigae as her morning meal—a fiery kimchi broth featuring pork, silken tofu, and assorted veggies, paired with steamed rice. The soup offered cozy warmth, t"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095884812460630379",
-          "author": "ians_india",
-          "searchJob": "rice",
-          "text": "Dwarka, Gujarat: The 5,252nd birth anniversary of Lord Dwarkadhish Ji is being celebrated today at the Jagat Mandir. On the occasion of Janmashtami, Rajbhog comprising fruits is offered to the deity, while the special night-time bhog includ"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095880645360652587",
-          "author": "ericksmith",
-          "searchJob": "rice",
-          "text": "@damian_highbury Arsenal paid 15 million more than City's offer for Rice."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095879749495079257",
-          "author": "peanutsalwayz",
-          "searchJob": "rice",
-          "text": "@JudeHeavenly Is Rice our problem, instead of creating jobs opportunity and create enabling environment for business to grow. You don't have anything to offer Nigerian."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095882092240372058",
-          "author": "tribefan74",
-          "searchJob": "maryland",
-          "text": "@dpshow The highest bidder isn’t the whole picture, what if OSU offered a football recruit $1M, but Maryland offered him $1.5M. That recruit would get more exposure, and have a better opportunity to become a higher draft pick, due to better"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095898778314113120",
-          "author": "notradix",
-          "searchJob": "michigan",
-          "text": "No actually, five men were acquitted at trial over entrapment. Three just had their convictions vacated by the Michigan Court of Appeals. Adam and Barry were not convicted at the first trial. They were only convicted in a hasty retrial beca"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095878352783471006",
-          "author": "msk68",
-          "searchJob": "michigan",
-          "text": "These were all things I did while hubs was at the conference. AIC, The Field, and out to dinner every night for something new. We loved the Weber Grill Restaurant. I had a great spa day at a Red Door salon. We went and stood under the Bean "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095877554234069089",
-          "author": "jagrawrtv",
-          "searchJob": "michigan",
-          "text": "So Justice Haynes left Michigan (Best Running Back room in the Country) To go to Georgia Tech cuz they offered more mone And he couldn’t even get a TD vs Colorado……. Dude just ruined his Draft Stock for some money now. Literally screwed him"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095882072103833949",
-          "author": "healthysmilesaz",
-          "searchJob": "arizona",
-          "text": "Show off your best smile this weekend! 😁 Arizona Healthy Smiles offers cosmetic dentistry to help you feel confident again. Learn more from Shawn Young, D.M.D: https://t.co/UegyvFqw89 #ShawnYoungDMD #tempedentist #tempedentistry #cosmeticd"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095884954055921720",
-          "author": "bigbagsosa24",
-          "searchJob": "colorado",
-          "text": "@TeezoTheTruth @HardRockBet The scamming fucks didn’t even list Welch on Colorado as first TD scorer and are refusing to void bets even though no winning selection was offered"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095895877114114099",
-          "author": "precruiting7",
-          "searchJob": "georgia-tech",
-          "text": "@Carter_R_Nash @GeorgiaTechFB @FBCoachJSmith @CoachAnderson28 @CoachQueen82 @dormanstrength @247recruiting @OLCoachLanc @DormanAthletics @DormanFootball @CoachSewell61 @coachmorrisDHS @Hawkinsjs @charonepeake_ @coachfarmer71 Congrats on the"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095879428215656753",
-          "author": "blvckjxsus",
-          "searchJob": "houston",
-          "text": "@angie_goodwood i never been to houston but i’m touching down tmrw, excited to see what y’all got to offer."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095894554968772906",
-          "author": "dmossesq",
-          "searchJob": "kent-state",
-          "text": "#499d Something for the weekend, Sir? https://t.co/JL8WmD9qiw: Imagined by Claude at the user's request — not a real Economist article and not real reporting The Economist June 20th–26th 2026 Briefing | The unverified state The Economist Ju"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095889761151959520",
-          "author": "cityofkent",
-          "searchJob": "kent-state",
-          "text": "Today is National Food Bank Day! The Kent Food Bank provides important resources to residents facing food insecurity in the Kent community. 🌯🥑 It's located in the Alliance Center in downtown Kent, home to social services offered by South "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095898474042564922",
-          "author": "jaysonyork",
-          "searchJob": "liberty",
-          "text": "@adp5121 yet so, as thereby neither is God the author of sin, nor is violence offered to the will of the creatures; nor is the liberty or contingency of second causes taken away, but rather established. (WCF 3.1) 2/end"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
-      "ok": true,
-      "reason": null,
+      "ok": false,
+      "reason": "old-dominion: rate limited",
       "jobs": 162,
-      "swept": 32,
-      "failed": 2,
-      "requests": 34,
+      "swept": 0,
+      "failed": 1,
+      "requests": 1,
       "errors": [
-        "old-dominion: SearchTimeline JSON unreadable (slice left pending)",
-        "louisiana: rate limited"
+        "old-dominion: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 2,
-      "rejectedCandidates": 16,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 0,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-04T15:43:46.217Z"
+    "status rebuilt locally from current store on 2026-09-04T15:56:21.131Z"
   ]
 }
