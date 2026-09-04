@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-04T22:58:21.647Z",
+  "generatedAt": "2026-09-04T23:13:26.225Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-04T22:58:21.351Z",
+    "at": "2026-09-04T23:13:25.947Z",
     "jobsTotal": 162,
-    "sweptThisRun": 32,
-    "requests": 33,
-    "fullSweepCycles": 6
+    "sweptThisRun": 33,
+    "requests": 34,
+    "fullSweepCycles": 5
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7857413888888889,
-    "p95Hours": 1.2865677777777778,
-    "worstHours": 1.7783616666666666
+    "medianHours": 0.6295141666666667,
+    "p95Hours": 1.2870408333333334,
+    "worstHours": 1.5378397222222222
   },
   "decisionCoverage": {
-    "total": 47,
-    "decided": 47,
+    "total": 40,
+    "decided": 40,
     "complete": true
   },
   "pending": {
@@ -44,180 +44,130 @@
   "profileResolution": {
     "cached": 34
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 720,
+    "completeOffers": 722,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-04T22:58:21.350Z",
-      "got": 69,
-      "new": 47,
+      "at": "2026-09-04T23:13:25.946Z",
+      "got": 62,
+      "new": 40,
       "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-04T22:56:12.105Z",
+    "at": "2026-09-04T23:11:12.896Z",
     "mode": "live",
     "collection": {
-      "returned": 69,
-      "kept": 47,
-      "duplicate": 19,
-      "tooOld": 3,
+      "returned": 62,
+      "kept": 40,
+      "duplicate": 21,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
       "accepted": 27,
-      "rejected": 20,
+      "rejected": 13,
       "reasons": {
-        "no_offer_term": 8,
+        "no_offer_term": 2,
         "no_fbs_school": 9,
-        "non_fbs_offer_target": 1,
-        "hard_negative": 2
+        "non_fbs_offer_target": 2
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2096004387151716460",
-          "author": "clawbankhq",
-          "searchJob": "new-mexico",
-          "text": "https://t.co/FrDbcNTiOm"
+          "postId": "2095909000323719281",
+          "author": "rmconservative",
+          "searchJob": "wyoming",
+          "text": "Today's show is the most important one of the year. Democrats took over the GOP in Wyoming, the reddest state. They nominated a Democrat under the GOP party line. The real Republican, my friend @RebeccaBextel is running on the Constitution "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2096007674361954376",
-          "author": "prepbaseballne",
-          "searchJob": "nebraska",
-          "text": "🍁𝗟𝗔𝗕𝗢𝗥 𝗗𝗔𝗬 𝗦𝗔𝗟𝗘🍁 Take 𝟮𝟬% 𝗼𝗳𝗳 on our fall showcases using the code 𝗟𝗮𝗯𝗼𝗿𝗗𝗮𝘆𝟮𝟬𝟮𝟲. Offer ends at midnight on Monday! ᴇᴠᴇɴᴛ ᴄᴀʟᴇɴᴅᴀʀ👇 https://t.co/zrFK1U0Jwq https://t.co/ROoNgR8WOY"
+          "postId": "2096011338577494517",
+          "author": "secondorderres",
+          "searchJob": "class:2026",
+          "text": "NXP Semiconductors ($NXPI): The Edge-AI Stock Hiding in Plain Sight? Most investors know NXP as an automotive-chip company. Management wants us to see something bigger: A systems company positioned at the intersection of software-defined ve"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2096005226197385367",
-          "author": "rapida145",
-          "searchJob": "nebraska",
-          "text": "@DeniseForNE All of this has already been accomplished, tariffs are legal, Nebraska energy costs are 2nd lowest in the nation, who pays for public health care? Obamacare 2.0 a new tax, you offered nothing, stop China from buying US land may"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2096006206435541464",
-          "author": "ddball67",
-          "searchJob": "oklahoma",
-          "text": "https://t.co/XuhnVd8LYD"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095983707488182654",
-          "author": "neshobahoops",
-          "searchJob": "ole-miss",
-          "text": "Congratulations to Kendarian Thomas on picking up a Scholarship Offer to East Mississippi Community College. He and his brother Kendarius took a recruiting visit to EMCC on Thursday. We want to wish the best of Luck to Coach Begley, Coach D"
+          "postId": "2096011410081829312",
+          "author": "darious_marshal",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After having a nice conversation with @trogersOLCoach I am blessed to receive my second offer to Knox college I want to Thank my coaches for pushing me @Coach870Cody @TheBkellSHOW_ @CoachC21_ https://t.co/CyCLnGjDEA"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2096004965361766723",
-          "author": "emaviangibson",
-          "searchJob": "south-carolina",
-          "text": "Thanks to @JGonzalesJr10 & @6starfootballMO for the article!! “After receiving an offer from Texas-Tech I felt great inside, but I didn't show it. I was still sharp and ready to go for Friday night.\" READ MORE - https://t.co/iRZpBKFWMq @coa"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2096008287552475388",
-          "author": "prospect_prof",
-          "searchJob": "kansas",
-          "text": "📡 PROFESSOR’S RADAR: EDITION II 9 more prospects. 9 different recruiting stories. 9 names giving us a reason to keep watching. 👀🏀 @AllNOneSports1 @NXTLevelSN https://t.co/BztgIgucmN"
+          "postId": "2096011076752261442",
+          "author": "jj1crawford",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my 23rd offer from Weber State University #AGTG! https://t.co/AfmNcxsGXS"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2096001866685407680",
-          "author": "rnjobsite",
-          "searchJob": "kansas",
-          "text": "🚨 Registered Nurse (RN) Operating Room Circulator 💼 View job: https://t.co/WrS4ClDiA0 📍 Quinter, Kansas We are seeking an experienced RN OR Circulator for an operating room role in Quinter, Kansas. This position supports podiatry, cardia"
+          "postId": "2096010612652290153",
+          "author": "neelsappidi_",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great visit, I am blessed to receive an offer from Haverford. Thank you Coach Doherty! https://t.co/pnShcsUGaK"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2096009552030318646",
+          "author": "jack_krantzcke",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer from Gordon College. Thank you to Coach @tallbaldcoach and Coach @KAnzulavich for the opportunity. @JasonTocabens @calebmolnari @TWCAbasketball @TurfAndCourt @bigsloan32 https://t.co/91KNTOb7Wi"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095999093080518986",
-          "author": "kansasturnpike",
-          "searchJob": "kansas",
-          "text": "Kinda chic to offer one of the lowest toll rates per mile in the country, too 👀 Travel without the hassle of cash payments. Snag a free KTAG and save 50%! 👉 Get yours at https://t.co/tnB7hTnrvM https://t.co/fyIiJ2CnZZ"
+          "postId": "2096006880283738240",
+          "author": "masondavislhp",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my first offer after a great talk with Hesston. https://t.co/1jQxSc4Pgh"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095996065564533018",
-          "author": "librahorse78",
-          "searchJob": "kansas",
-          "text": "Why would maps even offer a 2 lane highway route? Ain’t nobody got time for all that. I-70 Westbound is the answer. 🚗💨 #SmashTheGas I’ll hit KC at like 10am and was needing recommendations for a decent Mom n Pop spot for food? @TheIdealEx"
+          "postId": "2095998973727096915",
+          "author": "edleewhite3",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive a offer from St Xavier @AllNOneSports1 @djones8301 @WWFE_RCT https://t.co/WsdPamAmzU"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095984071868383443",
-          "author": "blockheadai",
-          "searchJob": "kansas",
-          "text": "⚾ Toronto Blue Jays @ Kansas City Royals · MLB 📊 Toronto Blue Jays +100 | Kansas City Royals -120 · Spread 0 (home) · O/U 9.5 The Blue Jays visit Kansas City for a series opener that profiles as a high-scoring affair. Toronto enters at 70-"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2096001768555466976",
-          "author": "nslitarchive",
-          "searchJob": "arkansas-state",
-          "text": "From \"Alfred Rosenberg - The Man and His Work\" by Franz Theodor Hart, originally published in 1933, (this one using the 1937 edition) - a comprehensive biography of Alfred Rosenberg and his importance to National Socialism. https://t.co/pez"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2096000346820861980",
-          "author": "andrewrust_sol",
-          "searchJob": "arkansas-state",
-          "text": "Solana Transaction V1 is live on Testnet and Devnet. It raises the transaction size limit to 4,096 bytes but drops Address Lookup Tables. Here’s why and when to use V1 vs V0 + ALTs. cc @solana_devs https://t.co/CxMHyceJ7r"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095924892269183278",
-          "author": "nematsadat",
-          "searchJob": "arkansas-state",
-          "text": "These are not historical figures. They are living schools of political thought. Nine living Afghans. Nine competing visions for Afghanistan — from clerical theocracy to secular democratic constitutional monarchy. Afghans have a decision to "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095927428715540842",
-          "author": "ntvuganda",
-          "searchJob": "army",
-          "text": "#NTVPOLL: Share your fondest memory or tribute to King Oyo Nyimba Kabamba Iguru Rukidi IV."
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2096005384540406161",
-          "author": "cryptocommandom",
-          "searchJob": "army",
-          "text": "they won’t release the migrant crime‑data, so the only record that exists is the one the public builds from verified reports already in the open……. This is JUST August! 02/08: Szczepan Zenon Malczewski raped a young woman in the toilets of "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095990917358301440",
-          "author": "dd_geopolitics",
-          "searchJob": "army",
-          "text": "🇺🇦🇺🇸🇮🇳 Six Ukrainians and American mercenary linked to drone attack on civilian aircraft in Myanmar — Indian investigators India’s National Investigation Agency says six Ukrainian nationals and American psychopath Matthew Aaron VanDyk"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095998122073952537",
-          "author": "imtiazmadmood",
-          "searchJob": "army",
-          "text": "They won’t release the migrant crime‑data, so the only record that exists is the one the public builds from verified reports already in the open……. This is JUST August! 02/08: Szczepan Zenon Malczewski raped a young woman in the toilets of "
+          "postId": "2095996163048521907",
+          "author": "bralyn_bodie",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my second official football offer from Brevard college. #blessed #offer @CoachOwens_12 @BrevardF5 @TbredRecruits @TreehouzP https://t.co/wWltl9BiE6"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095993312373100656",
-          "author": "rons68725251",
-          "searchJob": "army",
-          "text": "@SecretService The Revolutionary Army of America wants to offer Donald Trump an chance to explain his role in the Epstein cases. Can the Secret Service please arrange a safe location. We will introduce him as the fittest, tallest, most hand"
+          "postId": "2096011219010200024",
+          "author": "harry_hotspur86",
+          "searchJob": "notre-dame",
+          "text": "@HotspurLane Offer to extend his contract..... This cunt lies more than Trump😆"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095989323191431469",
-          "author": "spursarmytweets",
-          "searchJob": "army",
-          "text": "🚨🎙️ Roberto De Zerbi has REVEALED that Richarlison REJECTED a new contract offer from #thfc earlier this summer. ❌✍️ “You don't know one important thing, at the beginning of pre-season I spoke to Richarlison and asked him if he wanted to "
+          "postId": "2096007822269878587",
+          "author": "mlorrm",
+          "searchJob": "notre-dame",
+          "text": "2/ The hedge was neither proposed with the original loan offer nor made a condition of the initial drawdown. It was initiated only AFTER the loans had been advanced and the indebtedness had reached approximately £73 million. Square brackets"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095998620000514086",
+          "author": "trueliberalist",
+          "searchJob": "liberty",
+          "text": "@Ungovernab1e Yeah she subdivided her land and made it covenanted. So basically her land parcel had all the votes and it read alot like an hoa. I started to offer her a life trust with no rules but hell she might outlive me."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095999373641383991",
+          "author": "qz",
+          "searchJob": "rice",
+          "text": "https://t.co/eZro2kpE0X"
         }
       ]
     },
@@ -225,181 +175,178 @@
       "accepted": 2,
       "rejected": 25,
       "reasons": {
-        "bare_mention_requires_llm": 14,
-        "multiple_resolved_schools": 6,
-        "school_not_resolved_confidently": 2,
-        "reporter_missing_position": 1,
-        "reporter_missing_class_year": 1,
-        "author_not_recruit:different sport": 1
+        "bare_mention_requires_llm": 11,
+        "school_not_resolved_confidently": 9,
+        "multiple_resolved_schools": 5
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095980475970118135",
-          "author": "unopablocy60",
-          "searchJob": "new-mexico",
-          "text": "In plain English: We have created programs that can help purchase a pump without creating a dependable way to pay and retain the person who must keep that pump alive. 🔧 ✂️ A grant can cut a ribbon. A trained operator must still be there af"
+          "postId": "2095996198448705875",
+          "author": "russ62960450",
+          "searchJob": "wyoming",
+          "text": "We America Firsts (anti Establishment Republicans) have to get organized and offer a third party alternatives re: governors’ and DC races, to “Democrats in R skin suit” awful nominees — in the most conservative red states (states where Trum"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095990929350131889",
-          "author": "realfrankgreco",
-          "searchJob": "nebraska",
-          "text": "Dr. Greco’s Weather Lab — Wichita, Kansas Edition 09/04/2026 Today’s Weather Snapshot As of 4:00 PM CDT Friday, September 4, 2026, west Wichita is in a dry, unseasonably hot afternoon under a few high clouds. Official air temperature at Eis"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095987477601464641",
+          "author": "epkon406",
+          "searchJob": "wyoming",
+          "text": "@TimothyDooner I forgot to answer you simple question in that giant post. I think Montana seriously has alot more to offer than Wyoming. I personally think Wyoming is boring other than Yellowstone Park and hate traveling though it!"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095983654241779761",
+          "author": "wyostable",
+          "searchJob": "wyoming",
+          "text": "This role will be hands-on, helping Commission Staff with more than task management. The BPMA will help automate the agency's recurring tasks while also supporting onchain testing &amp; deployment. Candidates must currently reside or reloca"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095988101831176520",
-          "author": "cm_sooners360",
-          "searchJob": "oklahoma",
-          "text": "Quick Recruiting Notes in a PreGame edition of the audio Sooners360 Daily Recruiting Update. Potential visitors @KamieonNero &amp; @KingUnderwood28 for the game, recent OU offers, and some RB recruiting news. https://t.co/CByDTqQIvp"
+          "postId": "2095999440112792027",
+          "author": "abedo108",
+          "searchJob": "arkansas",
+          "text": "@BCNOgi This would be possible if they had Rodri. Valverde and Bernardo are literal statues. They offer no presence. Madrid is going to get chewed alive by any team with a good midfield. They need to pray to the lord above that they don't m"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2096009159368139091",
-          "author": "pennstateon3",
-          "searchJob": "penn-state",
-          "text": "Penn State fans: time is running out on our 75% off annual subscription offer. That's a full year of premium Penn State coverage for just $30. Learn more about everything you'll see as a @PennStateOn3 subscriber. 🔗 https://t.co/DYpSQAMFCy "
+          "postId": "2096010476324798639",
+          "author": "salem_statesman",
+          "searchJob": "oregon",
+          "text": "$1,000 reward offered for info on state park vandalism on Oregon Coast https://t.co/s55Ib2cEGU"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096006517275418631",
+          "author": "michaelbecket8",
+          "searchJob": "oregon",
+          "text": "@Theworld119944 Oregon origin, organ, optometrist, orgasm, organic optimism, original opioid operator offend offer Orchestra organism, opossum, ocean osprey, ovary oriental opinion observatory, observer, ostrich, optimism oval office, Oprah"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095992495062888679",
+          "author": "the_sheventurer",
+          "searchJob": "oregon",
+          "text": "@SoCalAmy468 @MyFryHole No, I meant the Ducks. If the rumors are true that Leo's agent gave Pat Verbeek multiple chances to avoid an offer sheet, but Pat played hardball in negotiations, it's hard to blame Leo or his agent. There's somethin"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2096004559462129935",
-          "author": "rohanarun",
-          "searchJob": "tennessee",
-          "text": "@Super_Powers_AI Hey Super, build a professional, authoritative AI Music Ad Likeness Clearance & Risk Audit Workbench grounded in Complex's reporting on Suno pulling its unauthorized Mary J. Blige ad campaign. https://t.co/vA8f7tBCbj The fi"
+          "postId": "2095996612682379404",
+          "author": "calbearshistory",
+          "searchJob": "ucla",
+          "text": "Cal had been using \"Bruins\" alternatively with \"Bears\" for many years. In a friendly gesture, ASUC leaders offered to relinquish Bruins so UC Los Angeles could finally settle on a mascot. This proved unwise since thereafter, UC Los Angeles "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2096013104899576145",
+          "author": "projectionslab",
+          "searchJob": "miami",
+          "text": "And right back with Marlins vs Cubs… The Read: I lean toward the Chicago Cubs (ML -161). The Fundamentals: This matchup offers a clear starting pitching advantage in a controlled environment. The Cubs are sending Shota Imanaga to the mound,"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2096012567009219052",
+          "author": "jacquiecharles",
+          "searchJob": "miami",
+          "text": "OAS offers help as Haiti prepares first elections in decade | Miami Herald https://t.co/znjH07fh46"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095991444414533926",
-          "author": "kscowboy21",
-          "searchJob": "kansas",
-          "text": "@HT_GunWriter You are most welcome!! Offer still stands you guys make it to western Kansas drinks are on me"
+          "postId": "2096004699266945263",
+          "author": "m_alonsorealty",
+          "searchJob": "miami",
+          "text": "JUST LISTED IN CUTLER BAY — $195,000. 🌴 Opportunities at this price point in Miami-Dade deserve attention—especially when there’s a lake view waiting outside your door. Welcome to Saga Bay Gardens, where this 760 SQFT condo gives you somet"
         },
         {
-          "reason": "reporter_missing_position",
-          "postId": "2096002867815657974",
-          "author": "profilefblive",
-          "searchJob": "appalachian-state",
-          "text": "Appalachian State has offered 3.7⭐ 2028 Edge Qwayvon Cleveland from Green Run HS, VA. @QwayvonC1 Rated (#574 NATL, #43 Edge, #11 VA) - 15 offers overall. https://t.co/k5iu8ePTfp"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2096003715484512610",
+          "author": "m_alonsorealty",
+          "searchJob": "miami",
+          "text": "PRICE IMPROVED — AND THIS ONE DESERVES A SECOND LOOK. 🏡✨ Now offered at $4,300/month in Lakes of the Meadow, this beautifully renovated home gives you the space, location, and lifestyle that are becoming harder to find in Miami. 4 Bedrooms"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2096002508594299063",
+          "author": "clipslegacy",
+          "searchJob": "miami",
+          "text": "@zbohoops4life I go to school in Miami I might have to take this offer"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095998759796912205",
+          "author": "finetravelnz",
+          "searchJob": "miami",
+          "text": "Silversea's latest offer includes savings of up to 45% on select ultra-luxury voyages worldwide, with a reduced 15% deposit. Reserve by 8 September 2026. A few of our favourites: * Tokyo to Tokyo * Dakar to Lisbon * Vancouver to Seward * Va"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095995344563962093",
+          "author": "betwithtow",
+          "searchJob": "miami",
+          "text": "The Cubs arrive in Miami holding an NL Wild Card spot. The Marlins are close enough to make the weekend considerably more interesting. Chicago is 79-62, while Miami has climbed to 71-70 and remains within striking distance of the final post"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2096005873638293518",
-          "author": "alpha_omega_llc",
-          "searchJob": "arkansas-state",
-          "text": "\"Christ is with us, dear readers! Faith instead of control The meeting between two women in the highlands of Judea is one of the most touching episodes in the New Testament. The righteous Elizabeth, filled with the Holy Spirit, greets the y"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095996680554336468",
-          "author": "guerillalawyer",
-          "searchJob": "arkansas-state",
-          "text": "You think so huh? Are you an attorney or want to offer precedent to support this assertion because “plagiarism” isn’t a standalone cause of action. It’s an academic standard. However, the analysis of what constitutes plagiarism often comes "
+          "postId": "2096010365511335989",
+          "author": "toscaausten",
+          "searchJob": "north-carolina",
+          "text": "👑✨The Queen of Injunction Dysfunction strikes again. Judge Indira Talwani just issued the third block on the Postal Service mail-in ballot rule. Yes, the third time. The same black robe. The same Obama Judge is meddling in the midterms. In"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2095992364581920938",
-          "author": "cliffschecter",
-          "searchJob": "arkansas-state",
-          "text": "There's no \"schtick\" Aaron, and for someone who has \"I hate hypocrisy\" in their bio, it's this bs that's getting old. You go ahead, believe what you want. But as long as ppl talk about this war like it didn't start with the largest single d"
+          "postId": "2096005030134611984",
+          "author": "lesliemack",
+          "searchJob": "north-carolina",
+          "text": "Ohio is amazing Eagle Mound & Great Circle — Heath, Ohio 40°02'30.56\"N 82°25'48.62\"W The Great Pyramid of Giza could fit inside this enclosure, and it's just one piece of a much larger ceremonial landscape. Part of the Newark Earthworks com"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095991621158621533",
-          "author": "nematsadat",
-          "searchJob": "arkansas-state",
-          "text": "Reconciliatory language is welcome, but platitudes are not reform. Under Karzai’s presidency, LGBT+ Afghans and people accused of apostasy did not enjoy equal protection or genuine freedom of conscience. And even in this interview, he still"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095987796297273400",
-          "author": "acrowley79",
-          "searchJob": "arkansas-state",
-          "text": "@abuobaidasson Maybe next time Palestine is offered a state they could say YES instead of No??"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095984831041622080",
-          "author": "martynm700",
-          "searchJob": "arkansas-state",
-          "text": "@IainSankey @georgegalloway It's quite scary really and what happens with money going into the accounts? Will they return it?. This is where we need the Government to reopen Girobank at the post office so people can use a state owned bank i"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096007912200003671",
-          "author": "ozelle_kayom",
-          "searchJob": "army",
-          "text": "4th November 2024 Expecting any ordinary client to check at one of the homes I work with. On arrival I see police &amp; army escorts enter the gate. Guess who I see, I was star struck. During his stay I give him a memorable tour of jinja. O"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095992893286875305",
+          "author": "pollygone6",
+          "searchJob": "notre-dame",
+          "text": "@andrewc44104127 Good ok the Irish. They obviously give no shits! Eat it or starve and they can if it’s the only food on offer. Mo says so."
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2096004937004228616",
-          "author": "moixety",
-          "searchJob": "army",
-          "text": "LETTING GO OF (2) INGLEWOOD VIP SOUNDCHECK PACKAGE BTS TICKETS (9/6) d4 GOING FOR LOWER THAN I GOT THEM🥺 Open to OFFERS PLEASE TEXT ME IF INTERESTED💜 🏷️ army bts world tour arirang California ca la wtt wts ticket Los Angeles day 4 wtb is"
+          "postId": "2096010381101801673",
+          "author": "lasvegassun",
+          "searchJob": "liberty",
+          "text": "One theory in football holds that teams make their biggest jump between the first and second games of the season — meaning tonight’s matchups across Southern Nevada should offer an early glimpse of who’s a real contender. Tonight’s slate is"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095998567169085502",
+          "author": "gabriel_limaaaa",
+          "searchJob": "liberty",
+          "text": "🧻 Knitted trousers are finished. A cat struts, stunned by the road. Prioritize lasting progress over fleeting ease, day in and day out. Small, consistent efforts build up into liberty and openings that idle comfort can never offer you. htt"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2096004382143717842",
-          "author": "melaniecsd",
-          "searchJob": "army",
-          "text": "Army in California i wts 4 La bts tickets for Saturday d3 and 3 tickets for d4 sept 6 Our plans fell through, so I’m letting the tickets go for less than I paid.- $450. Open to offers! Serious buyers only. Scammers stay AWAY. #BTS #875ticke"
+          "postId": "2095993335370707109",
+          "author": "cryptominers_co",
+          "searchJob": "liberty",
+          "text": "Revolut gets conditional OCC approval to become U.S. bank @Revolut has received conditional approval from the U.S. Office of the Comptroller of the Currency (OCC) as it seeks to become a federally supervised bank and directly offer loans, s"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095999534925046086",
+          "author": "keatylistings",
+          "searchJob": "louisiana",
+          "text": "This preview offers just a glimpse into what could be your future property. Learn more here! https://t.co/4ClRyY6LKB #realestate #louisiana #buying #selling https://t.co/gkxXWr7PR6"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096010417227047272",
+          "author": "irentdumpsters",
+          "searchJob": "ohio",
+          "text": "A contractor in Columbus OHIO built one massive services page listing roofing, siding, gutters, window replacement, and storm restoration on a single URL. He could not understand why his site refused to rank anywhere on page one for gutter "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2096000147901632762",
-          "author": "coloneltowner",
-          "searchJob": "army",
-          "text": "Matthew Aaron VanDyke has come up a time or two in research. He has an uncanny ability to be everywhere the CIA would want someone. He is billed as an American security analyst, documentary filmmaker, “freedom fighter,” and founder of the n"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095998902512095729",
-          "author": "ahmedshahazfar",
-          "searchJob": "army",
-          "text": "Obviously the Saudis won’t offer it without a soft green signal from India. It’s a big market for Saudi exports too. India has a million critical issues right now so this may not get priority right now. Also due to lack of capabilities of t"
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2095998677764407407",
-          "author": "shawnwwrites",
-          "searchJob": "army",
-          "text": "@AntiLeftMemes Never used milk crates, but lawn chairs, cheapest stuff on offer from Salvation Army/Goodwill, garage sales, trash rescue, etc. Glassware was empty jars. A friend of mine's plates? I kid you not - old frisbies. Didn't last lo"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095998084241117260",
-          "author": "wgmorrow",
-          "searchJob": "army",
-          "text": "(Sir*), Mine is the all-time winner. During basic training, my two DI's brought me to the CO's office; I had no idea why. I was offered a slot at West Point and told it was an 8 year committment. Both DI's looked at me and shook their heads"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095991590766448709",
-          "author": "heyitszoey7",
-          "searchJob": "army",
-          "text": "BTS ARIRANG — SEPTEMBER 5🇺🇸 I have 2 tickets available for BTS at SoFi Stadium, Los Angeles on Sept. 5. 💜 Offer price in dms! FaceTime during transfer/with proofs 📩 DM me if interested. #BTS #BTS_ARIRANG #ARMY"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095991436911185947",
-          "author": "nanceabdallah",
-          "searchJob": "army",
-          "text": "⚡️🇮🇷🇺🇸 Iranian FM Spokesman Esmaeil Baqaei comments on army enlistment in the US with a Squid Game meme: Americans, ask yourselves one question: Why should your sons and daughters be offered debt forgiveness in exchange for fighting and"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095990005122338956",
-          "author": "normalhottook",
-          "searchJob": "army",
-          "text": "‼️wts bts army membership presale tickets for LA ‼️ 2 second row tickets. reason: I can no longer attend want fv or best offer PAYMENT METHOD: apple cash, paypal or zelle willing to facetime DM if interested bts arirang world tour sofi stad"
-        },
-        {
-          "reason": "author_not_recruit:different sport",
-          "postId": "2095992302866935865",
-          "author": "tyresestovall",
-          "searchJob": "jacksonville-state",
-          "text": "Blessed to receive an offer from Jacksonville state!!🙏🏾 https://t.co/syORKH1bfZ"
+          "postId": "2096008385472999687",
+          "author": "morpheu5watcher",
+          "searchJob": "ohio",
+          "text": "PBF ENERGY $PBF SWUNG FROM A LOSS TO $6.22 A SHARE IN NINETY DAYS: Six Len5es, six names, and one question sitting underneath all of them tonight: is this year's number the new normal, or just a good year? The board prices that question rat"
         }
       ]
     },
@@ -407,11 +354,11 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 32,
+      "swept": 33,
       "failed": 1,
-      "requests": 33,
+      "requests": 34,
       "errors": [
-        "louisiana-tech: rate limited"
+        "sam-houston: rate limited"
       ]
     },
     "outcome": {
@@ -421,6 +368,6 @@
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-04T22:58:21.647Z"
+    "status rebuilt locally from current store on 2026-09-04T23:13:26.226Z"
   ]
 }
