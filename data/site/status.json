@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T22:13:11.261Z",
+  "generatedAt": "2026-09-04T22:25:52.169Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5336830555555555,
-    "p95Hours": 1.282843611111111,
-    "worstHours": 1.7801633333333333
+    "medianHours": 0.7450463888888889,
+    "p95Hours": 1.4942069444444444,
+    "worstHours": 1.9915266666666667
   },
   "decisionCoverage": {
-    "total": 55,
-    "decided": 55,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "pending": {
@@ -59,375 +59,46 @@
     }
   },
   "audit": {
-    "at": "2026-09-04T22:11:12.966Z",
+    "at": "2026-09-04T22:25:47.458Z",
     "mode": "live",
     "collection": {
-      "returned": 67,
-      "kept": 55,
-      "duplicate": 12,
+      "returned": 0,
+      "kept": 0,
+      "duplicate": 0,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 34,
-      "rejected": 21,
-      "reasons": {
-        "non_fbs_offer_target": 1,
-        "no_fbs_school": 12,
-        "no_offer_term": 7,
-        "hard_negative": 1
-      },
-      "samples": [
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095995266226622674",
-          "author": "noveabrandon3",
-          "searchJob": "wisconsin",
-          "text": "After a great visit I am honored to receive an offer from University of Wisconsin-Oshkosh! Huge thank you to Coach Bronson and Coach Lev for believing in me and giving me this opportunity. Excited to keep working! Go Titans💛🖤 @UWOWBB1 @Co"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095976595064271285",
-          "author": "wisconsinblaze",
-          "searchJob": "wisconsin",
-          "text": "Another one for Kessler Rae Wood 😤 (2027 | West De Pere | 5’9 | W)! Kessler received an official offer to continue her athletic career at NJCAA Division II Harper College! @KesslerRae_ @NE2KHoops https://t.co/SFbl3DjRog"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095993222656868406",
-          "author": "livinginnorthga",
-          "searchJob": "georgia",
-          "text": "A seller wants to sell their property and the business that they operate on it. Five years ago, seller's net income was $2M and they wanted to sell for $20M. Now their net income is $1M. And they want to sell for $15M. Offer: Exactly the sa"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095992842229567969",
-          "author": "naomi_smit42414",
-          "searchJob": "georgia",
-          "text": "EVERYTHING HAS DEPTH. This ain't no joke. This is precisely how EVERYTHING is positioned. Let's strip some things down. In this world, money is POWER. Power becomes influence, and influence becomes a SUPERPOWER. Now strip that down. The way"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095990980449038810",
-          "author": "fitztrubey",
-          "searchJob": "georgia",
-          "text": "Georgia State launches free legal clinic for property and inheritance issues https://t.co/0X5useK8El"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095957414126465229",
-          "author": "nostre_damus",
-          "searchJob": "georgia",
-          "text": "Stop helping Iran and Ukraine is yours"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095979957591630156",
-          "author": "sugarbeelatte",
-          "searchJob": "georgia",
-          "text": "Listen if I accept ur lowball offer the polite thing to do is BUY THE DAMN THING"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095971915487756739",
-          "author": "coleparke_wsc",
-          "searchJob": "kentucky",
-          "text": "It would be easy to offer standard complimentary remarks about an FCS opponent. Will Stein took it a step further, putting the Penguins a tier above last year's FCS National Champions. For The Cats' Pause, @247Sports https://t.co/r43NLz6gEw"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095984478250279025",
-          "author": "askacapper",
-          "searchJob": "maryland",
-          "text": "I don’t care… Algebra is a trap designed to keep kids in school. I don’t wanna learn something just to unlearn it later. @grok I think the GED is smarter nowadays. You are not wrong. You've identified another gate in a system full of them. "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095992929189756980",
-          "author": "grouse_beater",
-          "searchJob": "california",
-          "text": "ARCHITECTURE 'The Lucas Museum of Narrative Art' I’m used to doing the impossible,” George Lucas said on Wednesday. But “this one almost broke my will”. The film-maker was describing the decades of work that went into his latest project, th"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095988224225136726",
-          "author": "raymiramontes_",
-          "searchJob": "california",
-          "text": "🏡 Looking for a 3-bedroom home in Long Beach? Here’s what $699,000 gets you. 🚨 Interested? Call or text Ray directly at 562-600-9793 for available homes, photos & full details. This North Long Beach home features 3 bedrooms, 2.5 bathrooms"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095992017163546959",
-          "author": "duke456521",
-          "searchJob": "duke",
-          "text": "@ProvisionistP @StevenUllmer Does the offer still stand?"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095987832724890098",
-          "author": "dukedirtywork",
-          "searchJob": "duke",
-          "text": "@YUGEBOLZ Should have just taken @POTUS offer of statehood when turdo admitted it couldn't survive without the USA!"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095983672478388326",
-          "author": "dukemagus",
-          "searchJob": "duke",
-          "text": "@JNavok So the increased productivity will make the life of two ganedevs much more miserable and just fire all their colleagues? Doesn't sound like progress to me. Offer your peers something good like \"never having to crunch to release the "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095976506677707004",
-          "author": "dukeofpeckham",
-          "searchJob": "duke",
-          "text": "@Buntun I’m sorry bro. If I knew you around those times I definitely would have offered for Watch The Throne"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095995848135975386",
-          "author": "whiffofreshair",
-          "searchJob": "wake-forest",
-          "text": "Krishna once broke His vow, leapt from Arjuna’s chariot and reached for a wheel. What if this is the Krishna Bharat needs to rediscover? When you falter, He doesn’t merely console. He picks up the wheel. 👇 #Janmashtami #SriKrishna #Mahabha"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095988023863492879",
-          "author": "kingsolomon_jnr",
-          "searchJob": "wake-forest",
-          "text": "STAKE MIDNIGHT TICKETS 🌌🕛 💥 Wake up to Big BoooM. 💵 🏆2 odds ➡️ https://t.co/SmTGQIUNmk 🏆2 odds ➡️ https://t.co/BS6K40tWbF 💻 Register here 🔽🔽🔽 🔗 https://t.co/1lUMt3a1CW Use Promocode: KINGJNR to get up to $500 bonus https://t.co/O"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095981086291685487",
-          "author": "the_sleepnews",
-          "searchJob": "wake-forest",
-          "text": "A bed that sways all night cut mid-night wake time by about 34% in a small Journal of Sleep Research study (n=16 poor sleepers). Spindles synced with the rock. Didn't speed falling asleep. One night only — early days. https://t.co/VbxGxzpV9"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095945579125731723",
-          "author": "marklevinshow",
-          "searchJob": "wake-forest",
-          "text": "I’ve been watching this debate over flock cameras with an open mind. I conclude the cameras are important law enforcement tools for tracking vehicles, illegal alien crossings and movements, etc. If there are abuses of the kind re improper s"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095987843067953339",
-          "author": "nextfootystars",
-          "searchJob": "toledo",
-          "text": "🏟️ POST-MATCH REPORT Fixture: Paris Saint-Germain vs Monaco Comp: Ligue 1 | Round: 3 Final Score: Paris Saint-Germain 1 - 2 Monaco (FT) Date: September 04, 2026 | Venue: Parc des Princes, Paris Referee: Jérôme Brisard (France) Valuation: P"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095980616403546220",
-          "author": "draft2thefuture",
-          "searchJob": "troy",
-          "text": "We are excited to announce of new series! We are following along the journey of a high school football player as he hopes to play college football! He has a lot of work to do, but he's motivated! The Process - Episode 1 https://t.co/MyTdq4p"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 33,
-      "reasons": {
-        "school_not_resolved_confidently": 5,
-        "multiple_resolved_schools": 4,
-        "bare_mention_requires_llm": 23,
-        "unresolved_offer_target": 1
-      },
-      "samples": [
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095969058760094187",
-          "author": "tetratechjobs",
-          "searchJob": "texas-tech",
-          "text": "We want to make a difference with you! See what #TetraTechJobs we have to offer, and work with some of the brightest minds in the industry. https://t.co/tBuhS7otpT #TetraTechJobs"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095991714867499495",
-          "author": "recruitgeorgia",
-          "searchJob": "georgia",
-          "text": "Alpharetta JR OL earns #SEC offer from Kentucky #RecruitGeorgia"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095987854807806200",
-          "author": "courvoisier911",
-          "searchJob": "georgia",
-          "text": "@shadierspice You drop an Georgia address and I'm in Vegas, I offered to go live that's the best you'll get from me hoe. Try again"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095985790023328213",
-          "author": "greatpowerowl",
-          "searchJob": "georgia",
-          "text": "I doubt the US is ready to make this offer (let alone enforce it), but it’s a bad deal for Russia anyways —> Russia won’t take it. Even abstracting from reputational damages for not being a good ally, if Iran falls under Western control, Ru"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095985751255343526",
-          "author": "greatpowerowl",
-          "searchJob": "georgia",
-          "text": "I doubt the US is ready to make this offer (let alone enforce it), but it’s a bad deal for Russia anyways —> Russia won’t take it. Even abstracting from reputational damages for not being a good ally, if Iran falls under Western control, Ru"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095984469052420140",
-          "author": "rightyjim",
-          "searchJob": "georgia",
-          "text": "Not the brightest bulb are you? #CommunityNotes This 2022 video by Georgia farmer Patrick Shivers (MP Produce) offers $10/bushel (~$1400/wk) + free housing for pea picking. He reported zero takers, blaming benefits not immigration. Season i"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095983242096861585",
-          "author": "earthdesires",
-          "searchJob": "georgia",
-          "text": "Whiskey Jug Genie by Sultonna Nadine is a lighthearted and charming paranormal fantasy that mixes magic, humor, and a touch of romance for pure escapist fun. When quiet London apothecary shop owner Martin buys an old whiskey jug on vacation"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095990285054460172",
-          "author": "centermodhealth",
-          "searchJob": "indiana",
-          "text": "@IndianaCapital Indiana ranks #20 in the new Health Freedom Index. The state scores especially well in Professional and Payment Freedom, while other areas offer room for improvement. See how Indiana compares across 54 healthcare policy vari"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095981881707684285",
-          "author": "kylecomm",
-          "searchJob": "indiana",
-          "text": "Government Cameras: Indiana Commissioner Surveilled Employees, Offered Raise for a Vote; Urges FBI Referral https://t.co/kPBIFtI4kD"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095972913874870783",
-          "author": "scottyjoeyaknow",
-          "searchJob": "kentucky",
-          "text": "@Milajoy It’s senate fraud to allow a missing/dead member to “vote” in absentia. Kentucky has no proven live voting representation in McConnell, and his staff continues to take home paychecks until January. It’s evil and anti-American. You’"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095975568605130928",
-          "author": "newswhathq",
-          "searchJob": "lsu",
-          "text": "Knox Kiffin is a Class of 2028 quarterback, meaning his recruitment timeline is on a two-year delay compared to the headlines: offers now are placeholders, not decisions, and the only program that can't extend one is LSU, no offer yet, and "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095982996209713445",
-          "author": "mymdfarmers",
-          "searchJob": "maryland",
-          "text": "“Maryland’s farmers are the backbone of our communities, and the 2026 Maryland Farm Tours offer a unique opportunity to experience working farms and see the care and skill behind every harvest.” – Maryland Secretary of Agriculture Kevin Att"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095990960186413221",
-          "author": "shottracker",
-          "searchJob": "byu",
-          "text": "For BYU Women’s Basketball Head Coach Lee Cummard, being able to see those extra reps offers another window into the habits players are building and the investment they’re making in their game. Watch our full conversation https://t.co/XT0v1"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095982302241448122",
-          "author": "veritasanchor",
-          "searchJob": "byu",
-          "text": "Anti-Mormons, I’m giving you another chance. Sell me your church. Seriously. Give me your best pitch. So far, about 98% of you seem terrified to even tell me which church you belong to. You’ll spend six straight hours explaining papyri, pol"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095995580665237769",
-          "author": "exitcapitalre",
-          "searchJob": "california",
-          "text": "CA's Most Affordable Places To Live Dreaming of affordable California living? 🏡✨ Discover 10 cities where home values start at just $317K and rents as low as $1,358! These spots offer a cost of living up to 27% below state average—are you "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095995358752960991",
-          "author": "kfox14",
-          "searchJob": "california",
-          "text": "As Americans prepare to mark 25 years since the Sept. 11 attacks, a California nonprofit is traveling to New York City with weighted teddy bears designed to offer comfort to families who lost loved ones. https://t.co/kZSmIVrrFk"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095994629673918607",
-          "author": "melaniecsd",
-          "searchJob": "california",
-          "text": "Army in California i wts 4 La bts tickets for Saturday d3 and 3 tickets for d4 sept 6 Our plans fell through, so I’m letting the tickets go for less than I paid.- $450. Open to offers! Serious buyers only. Scammers stay AWAY. #BTS #875ticke"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095979914151268838",
-          "author": "realkimyeater",
-          "searchJob": "california",
-          "text": "This is a game-changer! A well-studied, proven plan offers hope and a path forward. We must not give up; keep pushing and declare the emergency. This could make a tremendous difference, and California needs it. See Full show at: https://t.c"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095978532103172160",
-          "author": "lorifer86724135",
-          "searchJob": "california",
-          "text": "@MCGOP_CA @XavierBecerra He’s showing us all what he has to offer California…NOTHING!!!"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095977304052961492",
-          "author": "princebullock",
-          "searchJob": "california",
-          "text": "I didn't mean any disrespect by calling your father an in-law. No, I saying that KAREN RENEE BROOKS AKA Candy Jones was programmed by the same people, CIA Occult Bureau Doctors. I knew LAFFAYETTE ZIEGLER, your father's co-defendant. MS. BRO"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095995274799788042",
-          "author": "tiinclemson",
-          "searchJob": "clemson",
-          "text": "🎉 #CLEMSON Football is back. Get in the game with a subscription - now 75% OFF - at https://t.co/N7J1obM5qb, The No. 1 Authority On CLEMSON Football &amp; Recruiting. A must-have for Clemson fans! 🎉 🚨 THIS SPECIAL OFFER IS SET TO EXPIRE "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095985255979081891",
-          "author": "rosterlabsai",
-          "searchJob": "clemson",
-          "text": "Meanwhile the NCAA's tampering probe into Ole Miss is still unfolding: Clemson alleges coach Pete Golding pursued LB Luke Ferrelli while he was still enrolled there, including texts about his buyout and a $1M offer. NCAA has requested foren"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095993223202369895",
-          "author": "simspatti",
-          "searchJob": "utah",
-          "text": "@sidelinesammy @Utah_Football Game was great and you were too. Tidbit of advice, you don’t need to yell into a microphone. I know the stadium is loud but yelling into the microphone doesn’t help. It starts off great and then gets shrill. I "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095980222525165831",
-          "author": "utwomenleaders",
-          "searchJob": "utah",
-          "text": "We are excited to invite you to join us for our Fall Women’s Leadership Forum 2026 Series! This fall, the Utah Women & Leadership Project will bring together experts and community members for timely conversations on topics impacting women, "
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
-      "ok": true,
-      "reason": null,
+      "ok": false,
+      "reason": "illinois: rate limited",
       "jobs": 162,
-      "swept": 29,
-      "failed": 3,
-      "requests": 32,
+      "swept": 0,
+      "failed": 1,
+      "requests": 1,
       "errors": [
-        "illinois: SearchTimeline JSON unreadable (slice left pending)",
-        "iowa: SearchTimeline JSON unreadable (slice left pending)",
-        "unlv: rate limited"
+        "illinois: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 33,
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 0,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-04T22:13:11.262Z"
+    "status rebuilt locally from current store on 2026-09-04T22:25:52.170Z"
   ]
 }
