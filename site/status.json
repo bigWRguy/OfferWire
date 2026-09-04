@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-04T12:43:47.944Z",
+  "generatedAt": "2026-09-04T12:58:30.657Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-04T12:43:47.619Z",
+    "at": "2026-09-04T12:58:30.405Z",
     "jobsTotal": 162,
-    "sweptThisRun": 30,
-    "requests": 32,
-    "fullSweepCycles": 6
+    "sweptThisRun": 36,
+    "requests": 36,
+    "fullSweepCycles": 5
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7838094444444444,
-    "p95Hours": 1.2958508333333334,
-    "worstHours": 1.5429533333333334
+    "medianHours": 0.775835,
+    "p95Hours": 1.2860633333333333,
+    "worstHours": 1.2860633333333333
   },
   "decisionCoverage": {
-    "total": 72,
-    "decided": 72,
+    "total": 23,
+    "decided": 23,
     "complete": true
   },
   "pending": {
@@ -44,351 +44,205 @@
   "profileResolution": {
     "cached": 33
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 697,
+    "completeOffers": 698,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-04T12:43:47.617Z",
-      "got": 80,
-      "new": 72,
+      "at": "2026-09-04T12:58:30.404Z",
+      "got": 36,
+      "new": 23,
       "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-04T12:41:41.679Z",
+    "at": "2026-09-04T12:56:07.034Z",
     "mode": "live",
     "collection": {
-      "returned": 80,
-      "kept": 72,
-      "duplicate": 8,
+      "returned": 36,
+      "kept": 23,
+      "duplicate": 13,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 53,
-      "rejected": 19,
+      "accepted": 15,
+      "rejected": 8,
       "reasons": {
-        "no_offer_term": 10,
-        "no_fbs_school": 7,
-        "hard_negative": 2
+        "no_offer_term": 3,
+        "hard_negative": 1,
+        "non_fbs_offer_target": 1,
+        "no_fbs_school": 3
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2095851201208148203",
-          "author": "chidiacedmond",
-          "searchJob": "arkansas-state",
-          "text": "Over the past few months, Syria’s Druze have moved significantly closer to Israel, distancing themselves from their traditional allegiance to the Syrian state. How did we get to this point? That is what I invite you to explore in this artic"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095834956945559597",
-          "author": "corrine13239467",
-          "searchJob": "arkansas-state",
-          "text": "@marriedmn I Love Being In A State Of Wifey Slavery...It Just Happens To Be The Most Important Position On This Planet... In Any Way Shape Or Form If I Can Offer Him Something I Will...For He Is Not My Equal He Is The Head Of The Family...Y"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095847842070044752",
-          "author": "maxgrowthh",
-          "searchJob": "army",
-          "text": "https://t.co/6QbUr6hPsL"
+          "postId": "2095552294959890756",
+          "author": "bjcruickshank",
+          "searchJob": "notre-dame",
+          "text": "Many of us have been saying for years, English nationalism will destroy the union: https://t.co/wLuVQPQxyZ"
         },
         {
           "reason": "hard_negative",
-          "postId": "2095844421275398635",
-          "author": "rabbip",
-          "searchJob": "army",
-          "text": "22 Elul - Jews In The Polish Army -1794 On this day in 1794, Poland issued a proclamation calling on its Jews to join the uprising against Russia. The proclamation came from Tadeusz Kosciuszko, a Polish military engineer who had fought in t"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095840520354275676",
-          "author": "ronfarra",
-          "searchJob": "army",
-          "text": "@MTVEnglishNews Those who died inside the tunnels committed hara kiri since they were offered the possibility of surrendering to the Lebanese army and they refused the offer https://t.co/pkRyfXwxDf"
+          "postId": "2095837283421155560",
+          "author": "uphonestreal",
+          "searchJob": "miami",
+          "text": "⛽ EVERY DRIVER ASKS THE SAME QUESTION. WHERE IS FUEL CHEAPEST RIGHT NOW? But for businesses moving thousands of vehicles, millions of gallons, or entire supply chains, the question becomes much bigger: WHERE ARE FUEL PRICES GOING NEXT? Gaso"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095853570503668219",
-          "author": "_jibee",
-          "searchJob": "buffalo",
-          "text": "Come and hear, all you who fear God, And I will declare what He has done for my soul. https://t.co/ZLdZzznNuE"
+          "postId": "2095855244940837115",
+          "author": "andrew__ashur",
+          "searchJob": "charlotte",
+          "text": "Most of the robotics industry is talking about the wrong half of the business. A working robot is necessary, but it is not sufficient. The other half is how you scale it. https://t.co/9VFVDfM7ts"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2095844864415948980",
+          "author": "peytonstev83190",
+          "searchJob": "south-carolina",
+          "text": "Blessed to receive a offer from South Carolina Central‼️ @RHS_FB @MattRochester50 @twilkes13 @ZachariasM27 @coachLos_5 ⚔️ https://t.co/CCU1E75BEh"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095858255721607501",
+          "author": "zavierferreira",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive a great recruiting recognition from @sixstarfootball ! @Sean_Reeder @IdahoRecruitHub @CoachBishJHS @DanSwanstrom https://t.co/GZBxFLlEbT"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095848797771330042",
-          "author": "sparty_vz",
-          "searchJob": "buffalo",
-          "text": "@MarkZinno Bills fan here. It sucked during the drought years but one plus was that schedule. I would take the Raiders schedule in a second if it was offered."
+          "postId": "2095854591887724797",
+          "author": "wesleygeaslin77",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with @QBcoachsnyder I am blessed to receive my 5th offer! @BeardAndABowt1e @tctabler @PrepRedzoneAR https://t.co/EhwRPhlCqE"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095835980133511464",
-          "author": "mazharbutt2030",
-          "searchJob": "marshall",
-          "text": "@dancememecoin This has been a great idea from the start! I offer FREE assistance, just reach out! 🚀"
+          "postId": "2095853245952315546",
+          "author": "traviswolf48499",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my 4th offer from @QBcoachsnyder #AGTG @kwufootball https://t.co/p14hV7dF5L"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095852740580610514",
-          "author": "mabiznetwork",
-          "searchJob": "massachusetts",
-          "text": "Are your clients and customers local? Use Facebook groups to connect! These free communities are full of people in the areas you serve. Show up consistently, provide value, and offer help. Then, when someone needs a business like yours, you"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095844441672069318",
-          "author": "memphisnews",
-          "searchJob": "memphis",
-          "text": "New Shelby County sheriff meets with clergy, offers jail tours https://t.co/1igOywgOZl"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095842789548503542",
-          "author": "online_khabar",
-          "searchJob": "temple",
-          "text": "श्रीकृष्ण जन्माष्टमी पर्वका अवसरमा राष्ट्रप्रमुखद्वारा हरेक वर्ष कृष्ण मन्दिरमा दर्शन गरी पूजाआजा गर्ने परम्परा छ । #onlinekhabar #RamChandraPaudel https://t.co/K5rHahQ5jJ"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095649889871138885",
-          "author": "ani",
-          "searchJob": "temple",
-          "text": "#WATCH | Delhi: Devotees gather at ISKCON Temple in East of Kailash for the mangla aarti on the occasion of Janmashtami. https://t.co/bsyG4d3Mrv"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095498587975073807",
-          "author": "backthenfb",
-          "searchJob": "troy",
-          "text": "September 3rd, 2009: LeGarrette Blount punches Byron Hout after losing to Boise State #GoDucks https://t.co/zn8nk6Gvwo"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095847753423237145",
-          "author": "thewolverineon3",
-          "searchJob": "michigan",
-          "text": "Unlock access to ALL content on The Wolverine, On3 and Rivals at a 75% discount for the year Join before the offer goes away: https://t.co/VmO6IVAusE https://t.co/Gx4quYST4w"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095847531179647130",
-          "author": "csayf23",
-          "searchJob": "michigan",
-          "text": "OFFER ENDS SOON! Get The Wolverine, On3 and Rivals for a full year at 75% off! Less than 30 bucks. Sign up: https://t.co/AzQKnG9ieT https://t.co/75pd2T4Rk0"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095670427469111660",
-          "author": "thomassowell",
-          "searchJob": "minnesota",
-          "text": "\"Some of the most vocal critics of the way things are being done are people who have done nothing themselves, and whose only contributions to society are their complaints and moral exhibitionism.\" — Thomas Sowell"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095661051593310472",
-          "author": "stevelovesammo",
-          "searchJob": "minnesota",
-          "text": "Here’s the truth about Communism. Stop using cute words like Marxism, Socialism or any of that and call it for what it truly is. https://t.co/UBV47vJGDC"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095752347846692974",
-          "author": "sowelleconomics",
-          "searchJob": "minnesota",
-          "text": "People who pride themselves on their complexity deride others for being simplistic should realize that the truth is often not very complicated. What gets complex is evading the truth. - Thomas Sowell https://t.co/GHS68xlW2B"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095671368809419123",
-          "author": "missourisos",
-          "searchJob": "missouri",
-          "text": "Statement from Secretary of State Denny Hoskins: https://t.co/cia8DjftT8"
+          "postId": "2095851825119240654",
+          "author": "reese_lockett_",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with Coach Durham I’m blessed to receive an offer to Kuyper college! #Agtg🙏🏽 https://t.co/vX6AgVEYm5"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 53,
+      "accepted": 1,
+      "rejected": 14,
       "reasons": {
-        "bare_mention_requires_llm": 47,
-        "school_not_resolved_confidently": 2,
-        "multiple_resolved_schools": 4
+        "school_not_resolved_confidently": 8,
+        "multiple_resolved_schools": 4,
+        "bare_mention_requires_llm": 2
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095844323304886665",
-          "author": "egebio",
-          "searchJob": "kansas",
-          "text": "Volunteer wheat can create a green bridge that allows pests and disease...including Wheat Streak Mosaic...to carry into the next crop. Break the cycle with an effective burndown program. EGE Products offers options like Corporal HSOC, Absor"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095858158249894077",
+          "author": "eoinjmartainn",
+          "searchJob": "notre-dame",
+          "text": "@fotoole, the numbers you quote in the attached clip are fourteen years old. The 2021 census reversed the 2011 identity result outright (English-only 58% to 15%), and ONS puts most of that down to one thing. The state moved \"British\" to the"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095837156950389000",
-          "author": "waldootto89432",
-          "searchJob": "uconn",
-          "text": "@CTAmericaFirst @libsoftiktok @ct_asnuntuck @AAGDhillon UCONN Engineering offers tutoring assistance for black engineering students. They have a chapter of Black Engineers."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095834016779751924",
-          "author": "mmagamblingtip",
-          "searchJob": "air-force",
-          "text": "And FFS, put some of the burden on your beloved Russia and Palestine for putting them in the predicament they are in today. If the Arab coalition of 1967 had their way, there would be no Israel. Yes. you can fault the Russians, Palestinians"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095833777209548926",
-          "author": "madjeric",
-          "searchJob": "air-force",
-          "text": "https://t.co/p1ozNTceBF_Galactic_Diplomacy_Getting_to_Yes_with_ET_-_Michael_Salla.pdf Galactic Diplomacy Getting to Yes with ET Michael E. Salla, M.A., Ph.D. pg. 62-64 CHAPTER 2 Eisenhower’s Secret Meetings with Extraterrestrials: Laying th"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095832517530063337",
-          "author": "mmagamblingtip",
-          "searchJob": "air-force",
-          "text": "Also, you can fault the Russians, Palestinians and all the Islamic nations for starting an unprovoked war with Israel in 1967. They started a war and lost. This gave Israel such a strong hand. As time progressed in 1967, the Arab coalition "
+          "reason": "multiple_resolved_schools",
+          "postId": "2095855495504363647",
+          "author": "ftnfan62",
+          "searchJob": "notre-dame",
+          "text": "@CollegeFBonX Notre Dame for sure,more than just stadium. Michigan for sure, massive. LSU / Bama night game might be a toss up. Ole Miss for the stadium / Tailgate. There are so many, you would really need to add another 10 to get the best "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2095837908011786500",
-          "author": "katie_midw30281",
-          "searchJob": "akron",
-          "text": "@PRTLNDLTHR Love my Circle Crossbody but I’m traveling in some sketchy areas soon. Sure wish you offered bags with RFID protection, locking zips, and slash-resistant straps. A tote with a sleeve that fits over my carry on handle would be a "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095854558115139869",
-          "author": "keskanana",
-          "searchJob": "arkansas-state",
-          "text": "@salvokenya Not in a state to offer help"
+          "postId": "2095852796616593609",
+          "author": "liffeymills",
+          "searchJob": "notre-dame",
+          "text": "For all Equine Enthusiasts, there will be a sale held in Gurteen College this Sunday showcasing some of the finest Irish Draught Horses &amp; Breeders. Make sure and pop by Liffey Mills trailer to say hi &amp; see what we have to offer in t"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2095853473300431193",
-          "author": "rtbrownjr",
-          "searchJob": "arkansas-state",
-          "text": "You can make that argument (he was given a state sentence for aggravated assault two decades ago, he was given a likely state sentence for drugs a decade ago, and some people think probation should never be offered to people who've already "
+          "postId": "2095855411307958386",
+          "author": "j_currier94",
+          "searchJob": "louisville",
+          "text": "@TheHoody27 Send Rutgers to mars. Bring in Cincy or WV. Hell even offer Iowa St or Louisville."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095851946791858209",
-          "author": "joshsgood",
-          "searchJob": "arkansas-state",
-          "text": "She left out one last critical point- these peace offers have not dissappeared into the ether. The Palestinians can take any of those deal TODAY and be heros of history. Instead, their zealotry robs them of reason. They can have a State, wi"
+          "postId": "2095852305304227855",
+          "author": "oxmoorchrysler",
+          "searchJob": "louisville",
+          "text": "Oxmoor Chrysler's Weekly Used Car Specials, 9-4-26 Searching for the best used cars in Louisville, KY? I’m Gabrielle at Oxmoor Chrysler, and we offer a large selection of pre-owned vehicles, competitive pricing, and top-rated customer servi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095851174578565254",
+          "author": "fightful",
+          "searchJob": "charlotte",
+          "text": "Charlotte Flair Confirms WWE Offers Counseling https://t.co/1hNieJU1KN"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095839687302648123",
+          "author": "offshoreinsider",
+          "searchJob": "charlotte",
+          "text": "NFL — 49ERS vs RAMS, Thursday September 10, 8:35 ET — SAN FRANCISCO LOSES EXPECTED STARTING EDGE RUSHER Meaningful new development: 49ers defensive end Sam Okuayinonu has been officially ruled out of the season opener because of a foot inju"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095854254644679035",
+          "author": "esstaugustine",
+          "searchJob": "coastal-carolina",
+          "text": "Make your next gathering one to remember. ✨ Embassy Suites St. Augustine Beach Oceanfront Resort offers a beautiful coastal setting and thoughtful amenities to bring it all together. Let our team help make your next event feel effortless. \ud83c"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2095851875170136369",
-          "author": "acadofideas",
-          "searchJob": "arkansas-state",
-          "text": "FROM ENERGY CAPS TO RENT CONTROLS: CAN THE STATE RUN THE MARKET? Government intervention in the market for all sorts of utilities and services has been around for decades. While many rail against modern society as ‘neoliberal’, the reality "
+          "postId": "2095853774191349899",
+          "author": "yourpremiertra1",
+          "searchJob": "coastal-carolina",
+          "text": "Western USA in October! Exoticca Set off on a journey through iconic destinations in America’s West. From the buzz of Los Angeles to the unique landscapes of Death Valley, this trip is anything but ordinary. Trip Highlights From $2,549/pers"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095849428225593801",
-          "author": "romanpuglise",
-          "searchJob": "arkansas-state",
-          "text": "State tax deduction rules vary as much as conformity rules do, and this is the piece that gets skipped constantly. Some states cap the annual deductible contribution. Some only allow the deduction if you fund the in-state plan specifically."
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095843588097614133",
+          "author": "jcsellsmiami",
+          "searchJob": "coastal-carolina",
+          "text": "Fort Lauderdale Beach attracts luxury buyers because it offers a true waterfront lifestyle with ocean views, boating access, and high-end branded residences. It also has a walkable, lively coastal setting with fine dining, shopping, and ent"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095839066453352781",
-          "author": "weaverofwoe",
-          "searchJob": "arkansas-state",
-          "text": "Most apologies are not primarily about the person who was hurt. They are about the restoration of comfort in the person doing the apologizing. The discomfort of having caused harm, of sitting in another person's justified anger, of watching"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095838499845128443",
+          "author": "for_carers",
+          "searchJob": "coastal-carolina",
+          "text": "Mental Health Inpatient RN Contracts | $1000 Bonus offer*!!! | Coastal NSW at Curis Recruitment (Northern NSW) https://t.co/0BJOVM5jH6 #carejobs #agedcare"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095838474402173209",
+          "author": "nbcdigitalnews",
+          "searchJob": "coastal-carolina",
+          "text": "The Ministry of Environment, Forestry and Tourism has entered the final validation stage of the revised National Policy on Sustainable Tourism Development. The Tourism Policy Finalisation engagement is underway in Mariental, bringing togeth"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095836218034409526",
+          "author": "doggslife",
+          "searchJob": "coastal-carolina",
+          "text": "Limited offer! This awesome Pismo Beach Scenic Jigsaw Puzzle: Coastal Family Game for $30.99.. #fun #cases https://t.co/8yPmPDT58s"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2095833593822277945",
-          "author": "ceen_omn",
-          "searchJob": "arkansas-state",
-          "text": "🇴🇲 Oman–UK: historic ties, a new state visit ❓ What has been announced about His Majesty’s forthcoming visit? Buckingham Palace has announced that His Majesty Sultan Haitham bin Tarik will pay a state visit to the United Kingdom from (20)"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095845817227846121",
-          "author": "vitalflux",
-          "searchJob": "army",
-          "text": "If you were about to fight the war of your life, would you choose an army — or one unarmed advisor who has promised not to lift a weapon? The Mahabharata turns on exactly that question. And the answer is stranger, and more useful, than it f"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095845133535089140",
-          "author": "angleeyze",
-          "searchJob": "army",
-          "text": "A group of uswere indoors in Baltimore at an Army meet up before the show and I had pcs to share but even if I gave just those, only I in my group would be offered a freebie- weird when its a group and one selected out of 4- I personally gi"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095840472098906458",
-          "author": "bockbockbucock",
-          "searchJob": "army",
-          "text": "I served in the Army four years. I was decorated for service. I never fired a shot. The roles blacks played in the CSA have been documented to include skirmish fighters and snipers. You can stick that \"non-combatant\" lie where the sun dont "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095839882484826181",
-          "author": "maytelleling",
-          "searchJob": "army",
-          "text": "💜 WTS/LFB: BTS ARMY BOMB VER. 4 ✨ USED ONCE ONLY — at Goyang ✨ NO ISSUES RFS: Di naka-secure + need funds 🥹💜 📦 Inclusions: • Complete inclusions / lahat kasama 💰 PRICE: ₱3,000 NEGOTIABLE 📌 Reasonable offers only, please! 📍 Location: "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095837281043288474",
-          "author": "purpleafterglo",
-          "searchJob": "army",
-          "text": "wts bts 2 vip soundcheck tickets 09/05 saturday in LA at sofi stadium section A1 row 3 seats 7 and 8 want face value for both or best offer!! arirang world tour army wts wtt wtb los angeles vip soundcheck https://t.co/Gv5eOCmsNm"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095835052588626243",
-          "author": "i3masterminds",
-          "searchJob": "army",
-          "text": "🎖️ His father served as a sepoy in the Indian Army. Today, Lieutenant Vishal Kumar has earned two of the IMA’s most prestigious honours. The son of retired Bihar Regiment sepoy Binod Kumar, Lt Vishal’s journey has been shaped by military e"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095834364047229164",
-          "author": "charles59000775",
-          "searchJob": "army",
-          "text": "Federal Government Can Lease Land to Data Centers The U.S. government has several active pathways for leasing federal land and buildings to data center developers: Executive Order Push (Jan 2025): The Department of Defense and Department of"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095846108467491245",
-          "author": "cardmedia_bsu",
-          "searchJob": "ball-state",
-          "text": "If you need help with your first year, Ball State offers a plethora of resources to support your academic path. https://t.co/tf0tEewfpj"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095837074121257231",
-          "author": "doug_outs",
-          "searchJob": "massachusetts",
-          "text": "Is @DKSports too nerv to offer UMass MAC champion / Pop Watson Heisman odds?? #UMass https://t.co/7eJf02hxmA"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095832690960253328",
-          "author": "freedomsharon",
-          "searchJob": "massachusetts",
-          "text": "@RepPressley There are hundreds of thousands of Haitians living in this country. If you are losing the Haitians' skills and talent, why don't you recruit them from other parts of the country i.e., offer them bonuses to relocate? Massachuset"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095854232406794610",
-          "author": "timesnow",
-          "searchJob": "temple",
-          "text": "WATCH | Bihar | Former CM and JD(U) chief Nitish Kumar, along with party MP Sanjay Kumar Jha, offered prayers at the ISKCON temple in Patna, on the occasion of Krishna Janmashtami https://t.co/f28txxiv9V"
+          "postId": "2095853976243548275",
+          "author": "rawdogslawdog",
+          "searchJob": "alabama",
+          "text": "Watching LSU fans defend a guy who would leave them high and dry tomorrow if the Bama job was offered is the only thing funny about this situation."
         }
       ]
     },
@@ -396,21 +250,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 30,
-      "failed": 2,
-      "requests": 32,
-      "errors": [
-        "notre-dame: SearchTimeline JSON unreadable (slice left pending)",
-        "ole-miss: rate limited"
-      ]
+      "swept": 36,
+      "failed": 0,
+      "requests": 36,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 53,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 14,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-04T12:43:47.945Z"
+    "status rebuilt locally from current store on 2026-09-04T12:58:30.658Z"
   ]
 }
