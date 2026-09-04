@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-04T14:26:17.069Z",
+  "generatedAt": "2026-09-04T14:33:02.195Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-04T14:13:35.756Z",
+    "at": "2026-09-04T14:33:01.839Z",
     "jobsTotal": 162,
-    "sweptThisRun": 34,
-    "requests": 35,
-    "fullSweepCycles": 5
+    "sweptThisRun": 30,
+    "requests": 31,
+    "fullSweepCycles": 6
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -29,76 +29,425 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.2466986111111111,
-    "p95Hours": 1.7431605555555556,
-    "worstHours": 1.7431605555555556
+    "medianHours": 0.8591625,
+    "p95Hours": 1.615318888888889,
+    "worstHours": 1.8556955555555557
   },
   "decisionCoverage": {
-    "total": 0,
-    "decided": 0,
+    "total": 82,
+    "decided": 82,
     "complete": true
   },
   "pending": {
-    "total": 3
+    "total": 4
   },
   "profileResolution": {
     "cached": 33
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 699,
+    "completeOffers": 700,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-04T14:13:35.755Z",
-      "got": 69,
-      "new": 40,
+      "at": "2026-09-04T14:33:01.837Z",
+      "got": 107,
+      "new": 82,
       "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-09-04T14:26:12.587Z",
+    "at": "2026-09-04T14:30:53.965Z",
     "mode": "live",
     "collection": {
-      "returned": 0,
-      "kept": 0,
-      "duplicate": 0,
-      "tooOld": 0,
+      "returned": 107,
+      "kept": 82,
+      "duplicate": 23,
+      "tooOld": 2,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 58,
+      "rejected": 24,
+      "reasons": {
+        "no_fbs_school": 12,
+        "no_offer_term": 11,
+        "hard_negative": 1
+      },
+      "samples": [
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095874730540622038",
+          "author": "stonksrookie",
+          "searchJob": "minnesota",
+          "text": "A Republican activist and conservative opinionator offered his take on the state of affairs at the State Fair. https://t.co/fLOEdqfPYY"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095863895881633920",
+          "author": "sensible_jojo",
+          "searchJob": "minnesota",
+          "text": "A Republican activist and conservative opinionator offered his take on the state of affairs at the State Fair. https://t.co/fp2pcH5CRL"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095860017131856293",
+          "author": "thevandalorian",
+          "searchJob": "missouri",
+          "text": "With the regular season started, here are four recruiting updates, including a second visit to #Mizzou for a Class of 2028 wide receiver, in The Friday File: https://t.co/bknRNYlVTp https://t.co/89BowR5Szb"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095858978693456131",
+          "author": "mizzoutoday",
+          "searchJob": "missouri",
+          "text": "As the 2026 season got underway, more #Mizzou football recruiting updates flowed in. The Friday File: https://t.co/beYGqO8PHh https://t.co/DuF6vnhR9L"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095874810618282394",
+          "author": "huskerextra",
+          "searchJob": "nebraska",
+          "text": "Tom Shatel has never been around a Nebraska football season with lower expectations. That’s usually when a surprise comes — and fans could really use it. https://t.co/aD3ShU4fHA"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095880863649058825",
+          "author": "okassocpgg",
+          "searchJob": "oklahoma",
+          "text": "Wiley was at the KOCO 5 studio yesterday to discuss prediction markets and sports betting. While the debate around the legality of prediction markets to offer sports bets continues, OAPGG's will continue to advocate for regulation and gambl"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095861418083951044",
+          "author": "bball_sadie",
+          "searchJob": "oklahoma",
+          "text": "I had such an amazing day at Oklahoma Wesleyan yesterday!! I enjoyed so much my time with all the players and coaches!! Thank you coaches for making the visit so very special! I am very grateful and blessed by your offer to continue my acad"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095879263979474996",
+          "author": "precedentdaily",
+          "searchJob": "kansas",
+          "text": "After seven years, Rockefeller's authorized biographer finished a book meant to answer Ida Tarbell. William Allen White called it too reverential. Tarbell read the manuscript and told Junior to shelve it. The project never reached the publi"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095878706921079144",
+          "author": "midas1311",
+          "searchJob": "arkansas-state",
+          "text": "$BTC is currently drifting in a high-friction zone where neither bulls nor bears have a clear edge. Price action is deceptive; while it looks stable, we are essentially trading in a vacuum between key moving averages. The data reflects a st"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095857462511313071",
+          "author": "emilykschrader",
+          "searchJob": "arkansas-state",
+          "text": "E1 is 0.21% of Judea and Samaria but Ed Miliband claims 1200 housing units is what will destroy the two-state solution? It’s ridiculous. The Palestinians have repeatedly rejected statehood, refused to accept Israel in any borders and even r"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095848948640481687",
+          "author": "dineshdsouza",
+          "searchJob": "army",
+          "text": "Why the biblical narratives of Pharaoh’s “hardening” and Paul’s conversion do not support the simplistic Calvinist reading that God decreed one for damnation and the other for salvation. Here’s a close reading of the texts."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095862426713411612",
+          "author": "spursarmytweets",
+          "searchJob": "army",
+          "text": "🚨🎙️ Roberto De Zerbi has provided some clarity on Richarlison: “He decided everything alone. “He spoke with me at the beginning of pre-season. He told me his idea, his desire was to leave. In the end we went to bring another striker and l"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095878175548973335",
+          "author": "pikithomes",
+          "searchJob": "marshall",
+          "text": "Seriously if you're looking in Wilmington NC heres $12,000 in closing costs on this property in wilmington NC! Test out $OPEN mortgage program. I own this property and is brand new construction, have 2 others coming as well I'll offer same "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095838095199424842",
+          "author": "pikithomes",
+          "searchJob": "marshall",
+          "text": "BETA TEST WILMINGTON NC If anyone is looking to buy a home in Wilmington NC let me know. First person that uses me, and uses $OPEN mortgage I’ll credit 50% of my commission back to you Appears you can do Primary, Investment, or 2nd home mor"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095863798150144367",
+          "author": "fieldcommando",
+          "searchJob": "marshall",
+          "text": "@grok @atiku @Oluwabunmi63697 So in essence the university is for the elite while he offers crumbs to Almajiris as bare minimum."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095856340833034482",
+          "author": "kellyma14148957",
+          "searchJob": "marshall",
+          "text": "@resamater @Milajoy I don’t believe in murdering innocent children. Maybe God will forgive her. She belongs in prison for the rest of her life. And just so you know, acquittal is not one of the options offered to the jury. Maybe you should "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095880023831965994",
+          "author": "bidziil1964",
+          "searchJob": "massachusetts",
+          "text": "One holdout. Five verdicts. Three dead children. Inside a Massachusetts trial where the Commonwealth must prove criminal responsibility, unanimity can become paralysis, and the Tuey–Rodriguez charge tests the boundary between deliberation a"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095608029362176431",
+          "author": "tntjohn1717",
+          "searchJob": "temple",
+          "text": "🚨‼️50 Reasons I Am Pre-Trib and Not Pre-Wrath🚨‼️ 1 - The Church is explicitly told that God “hath not appointed us to wrath.” 1 Thessalonians 5:9 2 - Jesus is the One “which delivered us from the wrath to come.” 1 Thessalonians 1:10 3 - T"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095848650757083475",
+          "author": "daarshik108",
+          "searchJob": "temple",
+          "text": "I met a yogi near the Neelkanth Mahadev Temple, and he taught me one of the best lessons about karma I have ever heard. While discussing Jyotisha and karma, I asked him a simple question: “What is the true meaning of karma?” In a very humbl"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095868857516712067",
+          "author": "troypallotto",
+          "searchJob": "troy",
+          "text": "@Smil3yAngel He walked away from the best trade deal America has offered anyone. He hates you 🤣🤣"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095864010411246037",
+          "author": "wolf298d",
+          "searchJob": "troy",
+          "text": "@RedDirtSooner @TheCalvinCooli1 Did I say they made those? I didn’t. However, that’s exactly how pretty much every development is done, so this one likely is too. On the news last night one of the smaller cities wanting it said they couldn’"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095874531588001872",
+          "author": "al_housebuyer",
+          "searchJob": "alabama",
+          "text": "🤝Getting an offer is exciting — but there are still a few steps before the sale is complete. 🏠 At North Alabama House Buyer, we believe selling your house should come with clear communication and no unnecessary surprises. #SellYourHouse #"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095859429543465071",
+          "author": "yea_ala",
+          "searchJob": "alabama",
+          "text": "The 2026 Alabama football depth chart revealed. 🚩 https://t.co/nLJdEwqaxh"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095860939035709491",
+          "author": "alreporter",
+          "searchJob": "alabama",
+          "text": "VA-led psychedelic therapy trials may offer a new hope for veterans with treatment-resistant PTSD or depression, said mental health advocate Adam Marr. #alpolitics https://t.co/k9YgchmTcV"
+        }
+      ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 1,
+      "rejected": 57,
+      "reasons": {
+        "bare_mention_requires_llm": 50,
+        "explicit_non_fbs_target": 2,
+        "multiple_resolved_schools": 2,
+        "unresolved_offer_target": 1,
+        "reporter_missing_player_name": 1,
+        "school_not_resolved_confidently": 1
+      },
+      "samples": [
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095874802028359950",
+          "author": "onekindesign",
+          "searchJob": "minnesota",
+          "text": "Dream House Tour: This luxurious home in Minnesota offers a sanctuary https://t.co/dyfYDLFtoW https://t.co/n3KkB5D8wC"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095879877819850847",
+          "author": "visitmo",
+          "searchJob": "missouri",
+          "text": "St. Louis history is still up for grabs. 🏺 At Riverside Antiques, doors, doorknobs and stained glass salvaged from historic homes and buildings offer a real piece of the city’s past. Explore Missouri antique trails: https://t.co/IEk0Oj5oni"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095861718844936468",
+          "author": "obasifoundation",
+          "searchJob": "missouri",
+          "text": "🚨 NEWS; NIGERIA Female Passenger Causes Scene Over Alleged Overbooking on Air Peace Flight A female passenger reportedly caused a scene after being told that the Air Peace flight was fully booked and she would have to take the next availab"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095861288886812710",
+          "author": "573realty",
+          "searchJob": "missouri",
+          "text": "STUNNING KITCHEN WITH PRIVATE WOODED VIEWS on 5 Acres in SW COMO Nestled on more than 5 private, wooded acres just minutes from downtown, parks, and trails, this extraordinary property offers the rare combination of privacy, character, and "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095861037966733693",
+          "author": "573realty",
+          "searchJob": "missouri",
+          "text": "STUNNING in Bristol Ridge Fall in love with this stunning new construction by Anderson Homes in the desirable Bristol Ridge community! One of Anderson's most popular floor plans, this 1.5-story slab home offers 4 bedrooms, 4.5 baths, and ov"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095860780793008557",
+          "author": "573realty",
+          "searchJob": "missouri",
+          "text": "BEAUTIFUL NEW HOME in Boonville Welcome to your brand-new countryside retreat, perfectly balancing modern luxury with everyday convenience. This exceptional 3-bedroom new construction home sits in a peaceful, newly developed subdivision, of"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095869587896115282",
+          "author": "storeycopy",
+          "searchJob": "nebraska",
+          "text": "Skool's #1 ranked copywriting coaching program is FREE... ...Until tomorrow. Saturday September 5 @ 8 pm EST is the deadline to get a 7-day free trial. Less than 36 hours left. After that, you'll have to pay $119 to enter. Claim your FREE 7"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095867871683342614",
+          "author": "huskersnilstore",
+          "searchJob": "nebraska",
+          "text": "No one does it like the Huskers. Celebrate College Colors Day by shopping all of what the Nebraska NIL Store has to offer! Graphic tees, exclusive jerseys, and more! ➡️https://t.co/gURY9JhSyj #GBR🌽 https://t.co/wZch0LCrCK"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095877690335154606",
+          "author": "philabirds62",
+          "searchJob": "ohio-state",
+          "text": "@FFBirdGang Tried this exact offer but buddy is an Ohio state fan and has almost all of them. Wonders why he’s always picking high enough to select them 🤔"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095866745424842992",
+          "author": "cwcooper810",
+          "searchJob": "oklahoma",
+          "text": "Haven’t seen my dad in a few years and he’s had a tough year so far. Flew in and surprised him with tickets to @OU_Football tonight. You can see it all click as to why his work shift was cut short and they wouldn’t offer any explanation 😂 "
+        },
+        {
+          "reason": "explicit_non_fbs_target",
+          "postId": "2095875781335695390",
+          "author": "profilefblive",
+          "searchJob": "kansas",
+          "text": "Kansas State has offered 3.8⭐ 2028 WR Aiden-Caleb Rodriguez from Mountain Pointe HS, AZ. @AIDENAIRE Rated (#556 NATL, #89 WR, #9 AZ) - 12 offers overall. https://t.co/PxoMnY3x9Y"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095875063442530340",
+          "author": "ichealthcarect",
+          "searchJob": "uconn",
+          "text": "In honor of #NationalRecoveryMonth, we want to remind you that recovery from substance use IS possible, you're not alone, and we can help. 💜 Learn more about the recovery services InterCommunity offers at: https://t.co/69rKFI4Wpa #InterCom"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095873164123230544",
+          "author": "0xvirtanen",
+          "searchJob": "uconn",
+          "text": "UConn was one of two research schools in the US to even offer a Robotics Engineering major. Meanwhile Connecticut just put a robot dog on the floor of a manufacturing forum in Hartford and wrote a $4.8 million check so high school kids can "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095866016244937073",
+          "author": "viadelcorso2266",
+          "searchJob": "arkansas-state",
+          "text": "@Ed_Miliband, leader of the radical wing of the Labour Party needs to stop playing the ancient game of BLAME THE JEWS in order to appease his radical constituency. Im sick to death of the lies regarding building in E1 of Judea and Samaria. "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095865653794095142",
+          "author": "viadelcorso2266",
+          "searchJob": "arkansas-state",
+          "text": "@Ed_Miliband, leader of the radical wing of the Labour Party needs to stop playing the ancient game of BLAME THE JEWS in order to appease his radical constituency. Im sick to death of the lies regarding building in E1 of Judea and Samaria. "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095861048251240802",
+          "author": "candlelovers12",
+          "searchJob": "arkansas-state",
+          "text": "I have a state rep form the insurance and soon the health regulatory body for my state filing grievances against @cigna for illegal delays and a bunch of other stuff. Also looking into the insurance fraud from the \"palliative care\" place th"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095881409860894909",
+          "author": "connectwithjjr",
+          "searchJob": "army",
+          "text": "🔥 #IHG × #AirIndiaMaharaja Club ✈️🏨 A BIG new partnership for hotel + airline points collectors! 👑 Air India Maharaja Club members can now earn Maharaja Points on eligible IHG stays worldwide — and there’s a limited-time 3X launch offer!"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095880259509903858",
+          "author": "eth8k",
+          "searchJob": "army",
+          "text": "Army in California i wts 4 La bts ticketa for d4 sept 6' Selling below what I originally paid for which was 350 lam open to your offer @875tickets #875ticketsale Scammers looking for screen recording proof to use against my fellow army stay"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095878238707101878",
+          "author": "revsarahgarner",
+          "searchJob": "army",
+          "text": "Study Notes - (ISBE Dictionary) (PART B) Tahutmes I set up his statue on the Euphrates, and all Syria was in his hands. Tahutmes III repeatedly raided Syria, bringing back plunder and captives year by year throughout most of his reign. The "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095876955392369067",
+          "author": "rajaram_vsr",
+          "searchJob": "army",
+          "text": "@iihtishamm Why count a pilot ? Even Pakistani Army Chiefs and ISI Chiefs will consider lucrative offer. Ex Army Chief Raheel Sharif took over as Saudi Palace Guard (aka Muslim NATO Chief 😅). Ex ISI Chief took up private job. https://t.co/"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095873772582567939",
+          "author": "cliffccc078",
+          "searchJob": "army",
+          "text": "Paul was a man who knew prison cells, beatings, hunger, and the threat of death, and he died still preaching what he believed. He listed his own record, more imprisonments, countless stripes, five times thirty nine lashes from the Jews, thr"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095872170874339399",
+          "author": "askwhyisit",
+          "searchJob": "army",
+          "text": "Dinesh D’Souza @DineshDSouza offers apologetic explanations for both Paul’s “revelation” and Pharaoh’s stubbornness—because the biblical accounts themselves create serious problems. None of it is established fact. Paul could have invented t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095869642418122950",
+          "author": "techtornadoooo",
+          "searchJob": "army",
+          "text": "🚨 BREAKING: Major General Shao Hui of the Chinese People's Liberation Army offers advice to Ukrainian President Zelenskyy: \"Think about the value of Ukrainian lives. What are they fighting for? What are the Ukrainian people fighting for?\" "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095866070301327844",
+          "author": "gbc_press",
+          "searchJob": "army",
+          "text": "🚨 BREAKING: Major General Shao Hui of the Chinese People's Liberation Army offers advice to Ukrainian President Zelenskyy: \"Think about the value of Ukrainian lives. What are they fighting for? What are the Ukrainian people fighting for?\" "
+        }
+      ]
     },
     "search": {
-      "ok": false,
-      "reason": "michigan-state: rate limited",
+      "ok": true,
+      "reason": null,
       "jobs": 162,
-      "swept": 0,
+      "swept": 30,
       "failed": 1,
-      "requests": 1,
+      "requests": 31,
       "errors": [
-        "michigan-state: rate limited"
+        "purdue: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 57,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-04T14:26:17.070Z"
+    "status rebuilt locally from current store on 2026-09-04T14:33:02.196Z"
   ]
 }
