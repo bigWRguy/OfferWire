@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-04T23:26:13.601Z",
+  "generatedAt": "2026-09-04T23:45:26.822Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-04T23:13:25.947Z",
+    "at": "2026-09-04T23:45:26.605Z",
     "jobsTotal": 162,
-    "sweptThisRun": 33,
-    "requests": 34,
-    "fullSweepCycles": 5
+    "sweptThisRun": 9,
+    "requests": 36,
+    "fullSweepCycles": 18
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -27,15 +27,36 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "sam-houston",
+      "hours": 2.1
+    },
+    {
+      "id": "san-diego-state",
+      "hours": 2.1
+    },
+    {
+      "id": "san-jose-state",
+      "hours": 2.1
+    },
+    {
+      "id": "south-alabama",
+      "hours": 2.1
+    },
+    {
+      "id": "south-florida",
+      "hours": 2.1
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 0.8426741666666666,
-    "p95Hours": 1.5002008333333334,
-    "worstHours": 1.7509997222222222
+    "medianHours": 1.1630133333333332,
+    "p95Hours": 1.82054,
+    "worstHours": 2.071338888888889
   },
   "decisionCoverage": {
-    "total": 0,
-    "decided": 0,
+    "total": 7,
+    "decided": 7,
     "complete": true
   },
   "pending": {
@@ -46,59 +67,116 @@
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 722,
+    "completeOffers": 723,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-04T23:13:25.946Z",
-      "got": 62,
-      "new": 40,
-      "lag": 0.05
+      "at": "2026-09-04T23:45:26.605Z",
+      "got": 13,
+      "new": 7,
+      "lag": 0.15
     }
   },
   "audit": {
-    "at": "2026-09-04T23:26:09.422Z",
+    "at": "2026-09-04T23:41:24.672Z",
     "mode": "live",
     "collection": {
-      "returned": 0,
-      "kept": 0,
-      "duplicate": 0,
+      "returned": 13,
+      "kept": 7,
+      "duplicate": 6,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 5,
+      "rejected": 2,
+      "reasons": {
+        "no_offer_term": 1,
+        "no_fbs_school": 1
+      },
+      "samples": [
+        {
+          "reason": "no_offer_term",
+          "postId": "2095994644257505360",
+          "author": "canton_catalyst",
+          "searchJob": "marshall",
+          "text": "Canton Catalyst deep dive 06. Can a regulated European fund hold a Canton-native asset? https://t.co/dXH8zsFkBF"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2096019572713230688",
+          "author": "britthapp3ns",
+          "searchJob": "massachusetts",
+          "text": "Agreed! The jury offered that information on their own (no one provoked them to share about the deliberations), and they made it clear that the “rogue” juror understood the instructions but consciously decided not to abide by them. Because "
+        }
+      ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 1,
+      "rejected": 4,
+      "reasons": {
+        "multiple_resolved_schools": 2,
+        "bare_mention_requires_llm": 2
+      },
+      "samples": [
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2096012675969102190",
+          "author": "aswvickyflynn",
+          "searchJob": "massachusetts",
+          "text": "I really thought Rutgers losing to UMass set the bar for embarrassing NJ headlines this weekend. Apparently, it was just the warm-up. 🏈 Reports today revealed an active investigation into the Lieutenant Governor/Secretary of State involvin"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095994849816199659",
+          "author": "lynne31345113",
+          "searchJob": "massachusetts",
+          "text": "@MikeBales This is Massachusetts Gonna need a change to Spain DA needs to offer a plea And all the drs are getting sued so that’s gonna be fun Court tv staying in business"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095999547491393992",
+          "author": "aihbmemphis",
+          "searchJob": "memphis",
+          "text": "Sell my house fast Lakeland: skip the commission, skip the negotiation back and forth, skip repairs near Chambers Chapel Rd. We're Memphis cash buyers, offer in 24 hrs. Call or text: (901) 763-6616 #AsIsHomeBuyerMemphis"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2096007901240279364",
+          "author": "profilefblive",
+          "searchJob": "class:2029",
+          "text": "Georgia Tech has offered 3.3⭐ 2029 RB Carter Nash from Dorman HS, SC. @Carter_R_Nash Rated (#355 NATL, #35 RB, #11 SC) - 4 offers overall. https://t.co/8KLlKNWAHy"
+        }
+      ]
     },
     "search": {
-      "ok": false,
-      "reason": "sam-houston: rate limited",
+      "ok": true,
+      "reason": null,
       "jobs": 162,
-      "swept": 0,
-      "failed": 1,
-      "requests": 1,
+      "swept": 9,
+      "failed": 27,
+      "requests": 36,
       "errors": [
-        "sam-houston: rate limited"
+        "sam-houston: SearchTimeline response missing (slice left pending)",
+        "san-diego-state: SearchTimeline response missing (slice left pending)",
+        "san-jose-state: SearchTimeline response missing (slice left pending)",
+        "south-alabama: SearchTimeline response missing (slice left pending)",
+        "south-florida: SearchTimeline response missing (slice left pending)",
+        "class:2027: SearchTimeline response missing (slice left pending)",
+        "class:2028: SearchTimeline response missing (slice left pending)",
+        "florida: SearchTimeline response missing (slice left pending)"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 4,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-04T23:26:13.602Z"
+    "status rebuilt locally from current store on 2026-09-04T23:45:26.823Z"
   ]
 }
