@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T03:43:18.240Z",
+  "generatedAt": "2026-09-04T03:56:11.946Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
@@ -27,15 +27,36 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "utsa",
+      "hours": 2.3
+    },
+    {
+      "id": "washington-state",
+      "hours": 2.3
+    },
+    {
+      "id": "western-kentucky",
+      "hours": 2.3
+    },
+    {
+      "id": "western-michigan",
+      "hours": 2.3
+    },
+    {
+      "id": "wyoming",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 1.0360377777777778,
-    "p95Hours": 1.7840269444444445,
-    "worstHours": 2.0365502777777778
+    "medianHours": 1.2509561111111112,
+    "p95Hours": 1.9989452777777779,
+    "worstHours": 2.251468611111111
   },
   "decisionCoverage": {
-    "total": 46,
-    "decided": 46,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "pending": {
@@ -59,323 +80,46 @@
     }
   },
   "audit": {
-    "at": "2026-09-04T03:41:10.626Z",
+    "at": "2026-09-04T03:56:08.692Z",
     "mode": "live",
     "collection": {
-      "returned": 67,
-      "kept": 46,
-      "duplicate": 19,
-      "tooOld": 2,
+      "returned": 0,
+      "kept": 0,
+      "duplicate": 0,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 32,
-      "rejected": 14,
-      "reasons": {
-        "no_fbs_school": 9,
-        "hard_negative": 2,
-        "no_offer_term": 3
-      },
-      "samples": [
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095713845667090526",
-          "author": "tommy_cleary",
-          "searchJob": "tulane",
-          "text": "@Ayjchan @Tulane Do you think that @sciencecohen will offer a right of reply to the Fauci @LawrenceGostin interview article? Perhaps Science and Journalism are only possible in a friendly setting where everyone is a fair-weather thinker? ht"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095714486980051114",
-          "author": "dubsportsmedia",
-          "searchJob": "tulsa",
-          "text": "Steven Hall ➡️ Trysten Shaw. The 2028 QB-to-2027 WR connection at Mansfield Timberview is one to watch. Shaw is a Tulsa commit with offers from Missouri, UCLA, Ole Miss and others. https://t.co/LXkaMvGKWO"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095708483937075545",
-          "author": "cbsdetroit",
-          "searchJob": "michigan",
-          "text": "After two days of severe weather, Friday morning offers Southeast Michigan its final chance for storms, for now. https://t.co/CoCAzZV8Br"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095683133026750623",
-          "author": "chrisvannini",
-          "searchJob": "michigan",
-          "text": "This UMass blowout of Rutgers is one of the more shocking things in college football history. 16-game losing streak, 23-game losing streak vs. FBS teams. UMass was a 29.5-point underdog and wins by 16. That's a 45.5-point miss."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095702759656058935",
-          "author": "legit_merk_",
-          "searchJob": "michigan",
-          "text": "@AbdulElSayed \"There are 3M people who listen to Hasan. I want to offer them a pathway into an electoral movement where rather than sit outside the electoral system\" For one his fans aren't out of the political system they engage and weapon"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095712712332304463",
-          "author": "wikitube911",
-          "searchJob": "minnesota",
-          "text": "https://t.co/5ZLljUbVY7"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095710529146814658",
-          "author": "haitikronwall",
-          "searchJob": "minnesota",
-          "text": "I’m hearing that the Minnesota state fair offers barf bags for when you walk behind sweaty somalis. #truth #must"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095708437615456598",
-          "author": "loopingcloud",
-          "searchJob": "california",
-          "text": "El Sobrante commercial opportunity! Retail property at 3635 San Pablo Dam Rd with office space, secure gated lot & RB zoning. 📍 Near I-80. Offered at $895K. Contact Brian Merrion, ExpCommercial: 415-802-1400. https://t.co/BPcmF50kuT #ElSob"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095706389234729278",
-          "author": "morpheu5watcher",
-          "searchJob": "california",
-          "text": "HOKA GREW 19.8%. A YEAR LATER, 7.7%. THAT IS THE ONLY REASON DECKERS $DECK LOOKS CHEAP: Deckers Outdoor DECK at $84.33 (after hours), after finishing the regular day at $84.50, +$0.74 / +0.88%. Six ways of looking at this market, and tonigh"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095703391255314651",
-          "author": "daddeo10",
-          "searchJob": "california",
-          "text": "@socantre @MorosKostas You do realize they're being offered here in California, right? They gave up that promise at the beginning of this year."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095695443594563758",
-          "author": "rcoats24",
-          "searchJob": "california",
-          "text": "Intimacy guaranteed during events!! https://t.co/zVxCKBrUEJ"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095693329178804482",
-          "author": "loopingcloud",
-          "searchJob": "california",
-          "text": "Oakland commercial opportunity! Explore a 1,321 SF commercial condo corner unit at 990 W Grand Ave, Oakland, CA 94607. Built in 2021 and offered at $320K. 📍 Contact Brian Merrion | ExpCommercial | 415-802-1400. https://t.co/r0dbHyNQUX #Oak"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095693349072073075",
-          "author": "dayton247now",
-          "searchJob": "cincinnati",
-          "text": "Tri-State man suspected of sharing child porn online lives in home that offers childcare https://t.co/6QcVhOaJC2"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095706380799971748",
-          "author": "jacksonmoore247",
-          "searchJob": "colorado",
-          "text": "Making a pit stop in Porterville where Tulare Western 2028 3-Star WR Amarion Taylor just took his first touch of the game 86 yards to the house for a touchdown! Taylor holds offers from Fresno State, Cal, Utah, Colorado State, UNLV and Idah"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
-      "accepted": 2,
-      "rejected": 30,
-      "reasons": {
-        "bare_mention_requires_llm": 20,
-        "school_not_resolved_confidently": 3,
-        "multiple_resolved_schools": 5,
-        "reporter_missing_player_name": 2
-      },
-      "samples": [
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095715861881356774",
-          "author": "n_parrott478",
-          "searchJob": "tulsa",
-          "text": "(#73) Philip Loadholt III (OL) X: @PhilipLoadholt HT: 6'3 - WT: 260 lbs. C/O: '28 ('25) 5A-3 Offensive POY - District 5A-3 Offensive Lineman of the Year - 3rd Team All-State (@PrepRedzoneOK) Offer(s): \"2\" D1 Offers Hudl(Soph. Season): https"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095698731878265164",
-          "author": "girlmoneyguide",
-          "searchJob": "tulsa",
-          "text": "@Dalton_Cats_FB @ElijahLong9L @TulsaFootball @NwGaFootball @CalebSisk_ @Dale_Dowden @__AustinButler @RecruitGeorgia @caprewett @Crafts_DPS @scoreatlanta @GPBsports @ChadSimmons_ Elijah's stacking offers like trophies on a shelf made of pure"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095703210841219460",
-          "author": "iowacentralfb",
-          "searchJob": "iowa",
-          "text": "🔱🚨🔱🚨🔱🚨🔱🚨🔱🚨🔱🚨🔱🚨🔱 ‼️ OFFER ALERT ‼️ Bobcats pounce on this Triton olineman! #developedindodge"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095702280766894396",
-          "author": "jucofootballace",
-          "searchJob": "iowa",
-          "text": "Michael Smith @MichaelSmith25W @ Iowa Central JuCo @IowaCentralFB picks up @OhioFootball Offer @Coach_Kratch https://t.co/h8mMcgJn0G"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095697972994376028",
-          "author": "chubbpuppy",
-          "searchJob": "iowa",
-          "text": "American justice system: Iowa man burns LGBTQ flag on sidewalk. $0 damage. Church won’t press charges, offers to pay his lawyer. 16 years in prison. Man burns Fox News Christmas tree. Repeat offender, criminally insane. $500k damage. Out in"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095708704439980495",
-          "author": "wademc402",
-          "searchJob": "lsu",
-          "text": "@LSU_Tiger1981 @GeauxTeamPod @TBob53 @smc2of3 @TGTChip @ZOMBIEG67 @PoG_New @JakeCrain_ @GeauxldMike TV networks are pretty good at business, if they thought there was money to be made with LSU, you'd already have had an offer, idiot"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095702996461998278",
-          "author": "sweatinbets",
-          "searchJob": "lsu",
-          "text": "Lane Kiffin worried about leftover NFL cut players at TE and DT shows you LSU is desperate. Clemson ML is a 🔒. If ASU thought Sam Leavitt was the truth, they would’ve matched that offer for 1 year"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095696392396099687",
-          "author": "notasnailgary",
-          "searchJob": "lsu",
-          "text": "@ToxieHavok I can offer a LSU guy haha"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095712411504230718",
-          "author": "cfbreport",
-          "searchJob": "michigan",
-          "text": "@b2aboveall I never understood how that was his best offer/deal tbh, guy was one of the best RBs in the country at Michigan"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095707300241485968",
-          "author": "zachlibby_",
-          "searchJob": "michigan",
-          "text": "#Michigan offers the 4⭐️ 2028 safety from powerhouse St. John Bosco. #GoBlue"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095706845923234121",
-          "author": "adamgorney",
-          "searchJob": "michigan",
-          "text": "Michigan offers the Bellflower (Calif.) St. John Bosco safety @ethanmmcdowell"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2095704971815645689",
-          "author": "iam_alinedouard",
-          "searchJob": "michigan",
-          "text": "C/O 28 (@PrepRedzoneTX) Brennan HS RB Jayshawn Mitchell was offered by Michigan @UMichFootball 🚨🔥"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095704785194307973",
-          "author": "johnubacon",
-          "searchJob": "michigan",
-          "text": "Woof. Hard to remember that, back in 2007-08, Michigan offered Schiano the job, he accepted, then the next morning declined. Bet he'd like to do that over."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095703340944359804",
-          "author": "zachlibby_",
-          "searchJob": "michigan",
-          "text": "#Michigan offers the 4⭐️ 2028 RB out of San Antonio. #GoBlue"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095692335971434933",
-          "author": "chadousdahl",
-          "searchJob": "michigan",
-          "text": "Sen. John Fetterman dares Michigan Senate candidate Abdul El-Sayed to take Hasan Piker with him on the campaign trail, offers him $25,000 for every rally they hold together https://t.co/fsn2z8853p"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095689011125780606",
-          "author": "umichwsoccer",
-          "searchJob": "michigan",
-          "text": "It’s a Pizza Party, powered by dairy! @MilkMeansMore For 48 hours after the game, use online promo code “UM BOGO” at checkout to get your BOGO offer at participating Hungry Howie’s locations across Michigan. Milk the Win! 🥛🍕 https://t.co/"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095691925122666954",
-          "author": "weckesserbill",
-          "searchJob": "michigan-state",
-          "text": "@SpartanCenterig @MSU_Football Gibson coming out of college today would be offered a zillion dollars. And be worth every penny"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095717032352162086",
-          "author": "wikitube911",
-          "searchJob": "minnesota",
-          "text": "@JoshuaLisec @JackPosobiec The University of Minnesota offered the first accredited BA in Women's Studies and the first African-American Studies program. The first state you could get student loans to get into the administrative class as a "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095698670247108711",
-          "author": "gopherfootball",
-          "searchJob": "minnesota",
-          "text": "The #Gophers scored, and so do you! My Delicious Rewards Members get free cheese curds with a purchase. Visit https://t.co/UpcWXIeLfr to claim your curds. Offer Valid 48 hours following tonight's game. https://t.co/dqxmQDP0Yh"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2095713405734646019",
-          "author": "thevandalorian",
-          "searchJob": "missouri",
-          "text": "A late signee in the 2026 class, Preston Hatfield scored the first touchdown among the #Mizzou freshmen. The running back didn't have an offer from the Tigers until this past January:"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095694731317530751",
-          "author": "samspiegs",
-          "searchJob": "missouri",
-          "text": "Mizzou offers top-100 EDGE prospect David Dotson https://t.co/YDLXYekEdc"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095714950065090858",
-          "author": "truepatriotvox",
-          "searchJob": "california",
-          "text": "🅱️ Democrats Offered Sympathy. He Threw It Back. They didn’t come to that hearing to help a little girl. They came to perform. Marcus Coleman’s daughter Dalilah will never get her childhood back. An illegal immigrant with a California CDL "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095710501577675019",
-          "author": "kcufsnacilbuper",
-          "searchJob": "california",
-          "text": "@RepBrandonGill Did California Republicans call him an offer condolences?"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095704653673668877",
-          "author": "theworldcorresp",
-          "searchJob": "cincinnati",
-          "text": "WHAT SACHS SAW ON THE GROUND Sachs traveled through modern, middle-class societies across Asia, encountering shopping centers along the route \"indistinguishable from those you'd see in Cincinnati or Pittsburgh or upstate New York,\" and infr"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
-      "ok": true,
-      "reason": null,
+      "ok": false,
+      "reason": "utsa: rate limited",
       "jobs": 162,
-      "swept": 31,
+      "swept": 0,
       "failed": 1,
-      "requests": 32,
+      "requests": 1,
       "errors": [
         "utsa: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 2,
-      "rejectedCandidates": 30,
-      "brandNewOffers": 2
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 0,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-04T03:43:18.241Z"
+    "status rebuilt locally from current store on 2026-09-04T03:56:11.947Z"
   ]
 }
