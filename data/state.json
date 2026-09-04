@@ -28901,10 +28901,10 @@
   },
   "health": {
     "search": {
-      "at": "2026-09-04T12:14:21.483Z",
-      "got": 24,
-      "new": 17,
-      "lag": 0.05
+      "at": "2026-09-04T12:26:19.781Z",
+      "got": 1,
+      "new": 0,
+      "lag": 0.71
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -29284,9 +29284,9 @@
       "truncated": false
     },
     "iowa-state": {
-      "at": "2026-09-04T11:11:13.312Z",
+      "at": "2026-09-04T12:26:10.883Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 0,
+      "lastPosts": 1,
       "truncated": false
     },
     "kansas": {
@@ -29990,11 +29990,11 @@
   "lastRateLimitAt": "2026-09-04T03:56:11.833Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-09-04T12:14:21.484Z",
+    "at": "2026-09-04T12:26:19.781Z",
     "jobsTotal": 162,
-    "sweptThisRun": 36,
-    "requests": 36,
-    "fullSweepCycles": 5
+    "sweptThisRun": 1,
+    "requests": 2,
+    "fullSweepCycles": 162
   },
   "backfill": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30014,175 +30014,50 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-09-04T12:11:57.638Z",
+    "at": "2026-09-04T12:26:10.870Z",
     "mode": "live",
     "collection": {
-      "returned": 24,
-      "kept": 17,
-      "duplicate": 7,
+      "returned": 1,
+      "kept": 0,
+      "duplicate": 1,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 10,
-      "rejected": 7,
-      "reasons": {
-        "no_fbs_school": 7
-      },
-      "samples": [
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095842652830736648",
-          "author": "tyler_kent9",
-          "searchJob": "kent-state",
-          "text": "@Joseph_Holm4 8k iptv screens offer impressive detail where supported"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095836401166160284",
-          "author": "macerty",
-          "searchJob": "liberty",
-          "text": "@CraigMokhiber These rumours could be circulating to discredit the UN even more. They maybe smoke and mirrors to hide what Trump and Israel are actually up to. China won’t go with this but it could be a ringer for another stalking horse who"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095839183117984161",
-          "author": "peacemufc1",
-          "searchJob": "class:2029",
-          "text": "🚨 𝗡𝗘𝗪: Manchester United are planning to submit a formal €100m offer for Newcastle united left back Lewis Hall in January. Michael Carrick has identified the 21-year-old as his top LB target to replace Luke Shaw Newcastle united current"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095845700026151288",
-          "author": "angelmgrifn",
-          "searchJob": "florida",
-          "text": "@DHSgov @CAgovernor That poor little girl. What horror she endures. In Florida they offer the death penalty for what her monster father did to her. Hopefully, CA does too. Send him up to Jesus for ultimate judgement!"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095837151392907568",
-          "author": "snark59747202",
-          "searchJob": "florida",
-          "text": "@mmmatt It's not only in florida that people turn their back on you once they feel like you don't have anything to offer. FILTHY scum. Won't go into detail, but I've had a similar situation. Mutated apes."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095839744190185593",
-          "author": "f3lipeleda1",
-          "searchJob": "georgia",
-          "text": "SPYKKY - A folded house in Tbilisi, Georgia, designed by STIPFOLD. 🔗 Photo by Ivane Katamashvili. STIPFOLD notes that SPYKKY is a residential build defined by clear, controlled geometry. Set in a fragmented urban area, the home offers a co"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095840401995251723",
-          "author": "quiquaquo3157",
-          "searchJob": "colorado",
-          "text": "Clancy’s documented mental health file does not rescue this defense. Trial testimony showed she repeatedly stopped antidepressants after a few days, left bottles nearly full, shopped providers, and told psychiatrists, including the day befo"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 10,
-      "reasons": {
-        "bare_mention_requires_llm": 6,
-        "multiple_resolved_schools": 3,
-        "school_not_resolved_confidently": 1
-      },
-      "samples": [
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095844499893178494",
-          "author": "mr_hillard",
-          "searchJob": "houston",
-          "text": "This Hotel has a lot to offer. #houston #blessed #Marriott #Marquis https://t.co/guhT2bFSgK"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095843929463603495",
-          "author": "kellyg581976179",
-          "searchJob": "houston",
-          "text": "@MarjonQ17isBACK 🚨Good people of the Houston ,TX area: Please don’t let the shelter kill GSD Nickolas 💔. Offer to Foster or adopt so a rescue can pull him🙏🙏"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095832172410147287",
-          "author": "abstechcon26800",
-          "searchJob": "kent-state",
-          "text": "🚨 Your UK study dream could be closer than you think! University of Kent Chevening Scholarship 2027 offers fully funded opportunities. Apply, share, and don’t miss out today: https://t.co/Yt1RWNrBMO #AbSSabiScholar https://t.co/Q4YbRI9AOB"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095844416095232500",
-          "author": "justicebot_live",
-          "searchJob": "liberty",
-          "text": "The Indian Removal Act of 1830 betrayed every principle of natural rights and self-governance. When government deems some unworthy of rights, all liberty is imperiled. The Indian Removal Act of 1830, Public Law 21–148, states: “An Act to pr"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095843342185861373",
-          "author": "betonjmont",
-          "searchJob": "south-florida",
-          "text": "The reason this deserves POTD over something like Porto ML or Madrid ML is edge, not simply “who is most likely to win.” At +146, Nashville needs to win only 40.7% of the time to break even. A current Squawka model has the matchup closer to"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095845104736956674",
-          "author": "mallardduck13",
-          "searchJob": "florida",
-          "text": "@JeremiahDJohns Most New York residents can attend the state university system for free. I doubt Florida offers anything similar."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095832732441948628",
-          "author": "ocmediaorg",
-          "searchJob": "georgia",
-          "text": "Russia can offer ‘friendly and neutral countries’ favourable models of interregional cooperation, with significant potential in Iran, Mongolia, North Korea, Azerbaijan and Georgia, said Alexei Shevtsov, deputy secretary of Russia’s Security"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095847185984147578",
-          "author": "0x_capital",
-          "searchJob": "indiana",
-          "text": "@JaredDHardin I’ll lend you my Titan 4500S for free for the rest of your season if you can make a trip to Indiana to pick it up - serious offer"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095840168498385371",
-          "author": "dancingdavide",
-          "searchJob": "iowa",
-          "text": "@wadechicago @mollyfleck @ProducerCities Same, many people at the company I work for are UIUC grads and many of their kids ended up going to Iowa, Iowa State, and Purdue due to the total packages offered. My kids won’t have to navigate this"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095839289527394634",
-          "author": "madjeric",
-          "searchJob": "arizona",
-          "text": "Consciousness_and_the_Universe__Quantum_Ph_-_Roger_Penrose.pdf Consciousness and the Universe Quantum Physics, Evolution, Brain & Mind Editors Sir Roger Penrose University of Oxford, Oxford, United Kingdom Stuart Hameroff, M.D. University o"
-        }
-      ]
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 36,
-      "failed": 0,
-      "requests": 36,
-      "errors": []
+      "swept": 1,
+      "failed": 1,
+      "requests": 2,
+      "errors": [
+        "kansas: rate limited"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 10,
+      "rejectedCandidates": 0,
       "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 17,
-    "decided": 17,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z"
