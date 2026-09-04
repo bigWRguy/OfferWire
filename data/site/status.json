@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T23:13:26.225Z",
+  "generatedAt": "2026-09-04T23:26:13.601Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.6295141666666667,
-    "p95Hours": 1.2870408333333334,
-    "worstHours": 1.5378397222222222
+    "medianHours": 0.8426741666666666,
+    "p95Hours": 1.5002008333333334,
+    "worstHours": 1.7509997222222222
   },
   "decisionCoverage": {
-    "total": 40,
-    "decided": 40,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "pending": {
@@ -59,315 +59,46 @@
     }
   },
   "audit": {
-    "at": "2026-09-04T23:11:12.896Z",
+    "at": "2026-09-04T23:26:09.422Z",
     "mode": "live",
     "collection": {
-      "returned": 62,
-      "kept": 40,
-      "duplicate": 21,
-      "tooOld": 1,
+      "returned": 0,
+      "kept": 0,
+      "duplicate": 0,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 27,
-      "rejected": 13,
-      "reasons": {
-        "no_offer_term": 2,
-        "no_fbs_school": 9,
-        "non_fbs_offer_target": 2
-      },
-      "samples": [
-        {
-          "reason": "no_offer_term",
-          "postId": "2095909000323719281",
-          "author": "rmconservative",
-          "searchJob": "wyoming",
-          "text": "Today's show is the most important one of the year. Democrats took over the GOP in Wyoming, the reddest state. They nominated a Democrat under the GOP party line. The real Republican, my friend @RebeccaBextel is running on the Constitution "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2096011338577494517",
-          "author": "secondorderres",
-          "searchJob": "class:2026",
-          "text": "NXP Semiconductors ($NXPI): The Edge-AI Stock Hiding in Plain Sight? Most investors know NXP as an automotive-chip company. Management wants us to see something bigger: A systems company positioned at the intersection of software-defined ve"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2096011410081829312",
-          "author": "darious_marshal",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After having a nice conversation with @trogersOLCoach I am blessed to receive my second offer to Knox college I want to Thank my coaches for pushing me @Coach870Cody @TheBkellSHOW_ @CoachC21_ https://t.co/CyCLnGjDEA"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2096011076752261442",
-          "author": "jj1crawford",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my 23rd offer from Weber State University #AGTG! https://t.co/AfmNcxsGXS"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2096010612652290153",
-          "author": "neelsappidi_",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great visit, I am blessed to receive an offer from Haverford. Thank you Coach Doherty! https://t.co/pnShcsUGaK"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2096009552030318646",
-          "author": "jack_krantzcke",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from Gordon College. Thank you to Coach @tallbaldcoach and Coach @KAnzulavich for the opportunity. @JasonTocabens @calebmolnari @TWCAbasketball @TurfAndCourt @bigsloan32 https://t.co/91KNTOb7Wi"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2096006880283738240",
-          "author": "masondavislhp",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my first offer after a great talk with Hesston. https://t.co/1jQxSc4Pgh"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095998973727096915",
-          "author": "edleewhite3",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive a offer from St Xavier @AllNOneSports1 @djones8301 @WWFE_RCT https://t.co/WsdPamAmzU"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095996163048521907",
-          "author": "bralyn_bodie",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my second official football offer from Brevard college. #blessed #offer @CoachOwens_12 @BrevardF5 @TbredRecruits @TreehouzP https://t.co/wWltl9BiE6"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2096011219010200024",
-          "author": "harry_hotspur86",
-          "searchJob": "notre-dame",
-          "text": "@HotspurLane Offer to extend his contract..... This cunt lies more than Trump😆"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2096007822269878587",
-          "author": "mlorrm",
-          "searchJob": "notre-dame",
-          "text": "2/ The hedge was neither proposed with the original loan offer nor made a condition of the initial drawdown. It was initiated only AFTER the loans had been advanced and the indebtedness had reached approximately £73 million. Square brackets"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095998620000514086",
-          "author": "trueliberalist",
-          "searchJob": "liberty",
-          "text": "@Ungovernab1e Yeah she subdivided her land and made it covenanted. So basically her land parcel had all the votes and it read alot like an hoa. I started to offer her a life trust with no rules but hell she might outlive me."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095999373641383991",
-          "author": "qz",
-          "searchJob": "rice",
-          "text": "https://t.co/eZro2kpE0X"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
-      "accepted": 2,
-      "rejected": 25,
-      "reasons": {
-        "bare_mention_requires_llm": 11,
-        "school_not_resolved_confidently": 9,
-        "multiple_resolved_schools": 5
-      },
-      "samples": [
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095996198448705875",
-          "author": "russ62960450",
-          "searchJob": "wyoming",
-          "text": "We America Firsts (anti Establishment Republicans) have to get organized and offer a third party alternatives re: governors’ and DC races, to “Democrats in R skin suit” awful nominees — in the most conservative red states (states where Trum"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095987477601464641",
-          "author": "epkon406",
-          "searchJob": "wyoming",
-          "text": "@TimothyDooner I forgot to answer you simple question in that giant post. I think Montana seriously has alot more to offer than Wyoming. I personally think Wyoming is boring other than Yellowstone Park and hate traveling though it!"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095983654241779761",
-          "author": "wyostable",
-          "searchJob": "wyoming",
-          "text": "This role will be hands-on, helping Commission Staff with more than task management. The BPMA will help automate the agency's recurring tasks while also supporting onchain testing &amp; deployment. Candidates must currently reside or reloca"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095999440112792027",
-          "author": "abedo108",
-          "searchJob": "arkansas",
-          "text": "@BCNOgi This would be possible if they had Rodri. Valverde and Bernardo are literal statues. They offer no presence. Madrid is going to get chewed alive by any team with a good midfield. They need to pray to the lord above that they don't m"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096010476324798639",
-          "author": "salem_statesman",
-          "searchJob": "oregon",
-          "text": "$1,000 reward offered for info on state park vandalism on Oregon Coast https://t.co/s55Ib2cEGU"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096006517275418631",
-          "author": "michaelbecket8",
-          "searchJob": "oregon",
-          "text": "@Theworld119944 Oregon origin, organ, optometrist, orgasm, organic optimism, original opioid operator offend offer Orchestra organism, opossum, ocean osprey, ovary oriental opinion observatory, observer, ostrich, optimism oval office, Oprah"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095992495062888679",
-          "author": "the_sheventurer",
-          "searchJob": "oregon",
-          "text": "@SoCalAmy468 @MyFryHole No, I meant the Ducks. If the rumors are true that Leo's agent gave Pat Verbeek multiple chances to avoid an offer sheet, but Pat played hardball in negotiations, it's hard to blame Leo or his agent. There's somethin"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095996612682379404",
-          "author": "calbearshistory",
-          "searchJob": "ucla",
-          "text": "Cal had been using \"Bruins\" alternatively with \"Bears\" for many years. In a friendly gesture, ASUC leaders offered to relinquish Bruins so UC Los Angeles could finally settle on a mascot. This proved unwise since thereafter, UC Los Angeles "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2096013104899576145",
-          "author": "projectionslab",
-          "searchJob": "miami",
-          "text": "And right back with Marlins vs Cubs… The Read: I lean toward the Chicago Cubs (ML -161). The Fundamentals: This matchup offers a clear starting pitching advantage in a controlled environment. The Cubs are sending Shota Imanaga to the mound,"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2096012567009219052",
-          "author": "jacquiecharles",
-          "searchJob": "miami",
-          "text": "OAS offers help as Haiti prepares first elections in decade | Miami Herald https://t.co/znjH07fh46"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096004699266945263",
-          "author": "m_alonsorealty",
-          "searchJob": "miami",
-          "text": "JUST LISTED IN CUTLER BAY — $195,000. 🌴 Opportunities at this price point in Miami-Dade deserve attention—especially when there’s a lake view waiting outside your door. Welcome to Saga Bay Gardens, where this 760 SQFT condo gives you somet"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2096003715484512610",
-          "author": "m_alonsorealty",
-          "searchJob": "miami",
-          "text": "PRICE IMPROVED — AND THIS ONE DESERVES A SECOND LOOK. 🏡✨ Now offered at $4,300/month in Lakes of the Meadow, this beautifully renovated home gives you the space, location, and lifestyle that are becoming harder to find in Miami. 4 Bedrooms"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2096002508594299063",
-          "author": "clipslegacy",
-          "searchJob": "miami",
-          "text": "@zbohoops4life I go to school in Miami I might have to take this offer"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095998759796912205",
-          "author": "finetravelnz",
-          "searchJob": "miami",
-          "text": "Silversea's latest offer includes savings of up to 45% on select ultra-luxury voyages worldwide, with a reduced 15% deposit. Reserve by 8 September 2026. A few of our favourites: * Tokyo to Tokyo * Dakar to Lisbon * Vancouver to Seward * Va"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095995344563962093",
-          "author": "betwithtow",
-          "searchJob": "miami",
-          "text": "The Cubs arrive in Miami holding an NL Wild Card spot. The Marlins are close enough to make the weekend considerably more interesting. Chicago is 79-62, while Miami has climbed to 71-70 and remains within striking distance of the final post"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096010365511335989",
-          "author": "toscaausten",
-          "searchJob": "north-carolina",
-          "text": "👑✨The Queen of Injunction Dysfunction strikes again. Judge Indira Talwani just issued the third block on the Postal Service mail-in ballot rule. Yes, the third time. The same black robe. The same Obama Judge is meddling in the midterms. In"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2096005030134611984",
-          "author": "lesliemack",
-          "searchJob": "north-carolina",
-          "text": "Ohio is amazing Eagle Mound & Great Circle — Heath, Ohio 40°02'30.56\"N 82°25'48.62\"W The Great Pyramid of Giza could fit inside this enclosure, and it's just one piece of a much larger ceremonial landscape. Part of the Newark Earthworks com"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095992893286875305",
-          "author": "pollygone6",
-          "searchJob": "notre-dame",
-          "text": "@andrewc44104127 Good ok the Irish. They obviously give no shits! Eat it or starve and they can if it’s the only food on offer. Mo says so."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2096010381101801673",
-          "author": "lasvegassun",
-          "searchJob": "liberty",
-          "text": "One theory in football holds that teams make their biggest jump between the first and second games of the season — meaning tonight’s matchups across Southern Nevada should offer an early glimpse of who’s a real contender. Tonight’s slate is"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095998567169085502",
-          "author": "gabriel_limaaaa",
-          "searchJob": "liberty",
-          "text": "🧻 Knitted trousers are finished. A cat struts, stunned by the road. Prioritize lasting progress over fleeting ease, day in and day out. Small, consistent efforts build up into liberty and openings that idle comfort can never offer you. htt"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095993335370707109",
-          "author": "cryptominers_co",
-          "searchJob": "liberty",
-          "text": "Revolut gets conditional OCC approval to become U.S. bank @Revolut has received conditional approval from the U.S. Office of the Comptroller of the Currency (OCC) as it seeks to become a federally supervised bank and directly offer loans, s"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095999534925046086",
-          "author": "keatylistings",
-          "searchJob": "louisiana",
-          "text": "This preview offers just a glimpse into what could be your future property. Learn more here! https://t.co/4ClRyY6LKB #realestate #louisiana #buying #selling https://t.co/gkxXWr7PR6"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096010417227047272",
-          "author": "irentdumpsters",
-          "searchJob": "ohio",
-          "text": "A contractor in Columbus OHIO built one massive services page listing roofing, siding, gutters, window replacement, and storm restoration on a single URL. He could not understand why his site refused to rank anywhere on page one for gutter "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2096008385472999687",
-          "author": "morpheu5watcher",
-          "searchJob": "ohio",
-          "text": "PBF ENERGY $PBF SWUNG FROM A LOSS TO $6.22 A SHARE IN NINETY DAYS: Six Len5es, six names, and one question sitting underneath all of them tonight: is this year's number the new normal, or just a good year? The board prices that question rat"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
-      "ok": true,
-      "reason": null,
+      "ok": false,
+      "reason": "sam-houston: rate limited",
       "jobs": 162,
-      "swept": 33,
+      "swept": 0,
       "failed": 1,
-      "requests": 34,
+      "requests": 1,
       "errors": [
         "sam-houston: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 2,
-      "rejectedCandidates": 25,
-      "brandNewOffers": 2
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 0,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-04T23:13:26.226Z"
+    "status rebuilt locally from current store on 2026-09-04T23:26:13.602Z"
   ]
 }
