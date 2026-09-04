@@ -31238,7 +31238,7 @@
     }
   },
   "searchConfigured": true,
-  "lastRateLimitAt": "2026-09-04T15:56:20.976Z",
+  "lastRateLimitAt": "2026-09-04T19:11:26.329Z",
   "frozenProfiles": [],
   "searchCoverage": {
     "at": "2026-09-04T18:58:45.927Z",
@@ -31265,397 +31265,50 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-09-04T18:56:28.243Z",
+    "at": "2026-09-04T19:11:21.505Z",
     "mode": "live",
     "collection": {
-      "returned": 118,
-      "kept": 79,
-      "duplicate": 38,
-      "tooOld": 1,
+      "returned": 0,
+      "kept": 0,
+      "duplicate": 0,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 43,
-      "rejected": 36,
-      "reasons": {
-        "no_fbs_school": 12,
-        "hard_negative": 21,
-        "no_offer_term": 3
-      },
-      "samples": [
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095947329874370973",
-          "author": "edmundonesir",
-          "searchJob": "florida",
-          "text": "#EdmundDeSotoONESIR #SunnyIsles Offered to the public for the first time, Residence 3002 at Jade Signature. Positioned on the 30th floor, this is an exceptional three-bedroom, four-and-a-half-bath residence. https://t.co/JuzKT4pkQi ny Isles"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095947252120297841",
-          "author": "lighthousetg",
-          "searchJob": "florida",
-          "text": "🚢🌴 KIDS & TEENS SAIL FREE — SUMMER 2027! 🌴🚢 It’s time to plan a family getaway! Royal Caribbean’s limited-time offer gives families even more reason to set sail in Summer 2027. 🏝️☀️ 👨‍👩‍👧‍👦 KIDS & TEENS SAIL FREE* 🌎 ALASKA • EUROP"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095927426387705966",
-          "author": "iuphilanthropy",
-          "searchJob": "florida",
-          "text": "The Patterson Foundation Fellowship offers a 2+ year, full-time opportunity in Sarasota, Florida, where Fellows gain hands-on experience, mentorship, professional development support, and competitive salary and benefits. Learn more: https:/"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095923189725409702",
-          "author": "furiasruler",
-          "searchJob": "florida",
-          "text": "I get them daily all sorts of poses. Then I get offered massages by therapists saying they will drive to my home in Florida. I am thinking that’s not what they want when where they live is Seattle or Las Vegas, that’s a block Lady Lisa. I a"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095949090815091054",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095948954064007569",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095948832085258561",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095948698274468218",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095948525674570105",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095948100200206500",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095947895212003694",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095947792174948722",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095947650835353849",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095947473843823019",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095947313340387448",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095947112672288958",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095946978756792634",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095946803044827479",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095946665320432096",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095946469500965175",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095945904838549802",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095945776446984604",
-          "author": "randyferrell",
-          "searchJob": "georgia",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095945955514134968",
-          "author": "gybcircuit_",
-          "searchJob": "illinois",
-          "text": "Class of 2029 (All Iowa Attack EYBL) Eyani Mills holds offers from Ohio State, Kansas, Nebraska, Illinois and more. Eyani makes jumpers from three easily, tremendous body control offensively, versatile, gets to her spots, doesn’t settle, at"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095930690009268530",
-          "author": "ilhousegop",
-          "searchJob": "illinois",
-          "text": "A new law passed by State Representative Nicole La Ha will offer stronger legal protections to domestic violence survivors who have been coerced into debt. “Financial abuse can keep victims trapped long after an abusive relationship ends,” "
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 42,
-      "reasons": {
-        "bare_mention_requires_llm": 30,
-        "multiple_resolved_schools": 4,
-        "reporter_missing_player_name": 2,
-        "school_not_resolved_confidently": 6
-      },
-      "samples": [
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095913810162762115",
-          "author": "toilucknow",
-          "searchJob": "temple",
-          "text": "CM Yogi Adityanath offers prayers at the Shri Krishna Janmabhoomi Temple in Mathura https://t.co/I0ICpAkls2"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095913309946171847",
-          "author": "prasidha_naresh",
-          "searchJob": "temple",
-          "text": "Nation Rejoices on Janmashtami- Home Minister Offers Devout Prayers at Delhi's Birla Temple https://t.co/88rrr9FpoD"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095913263276151246",
-          "author": "xerox_349",
-          "searchJob": "temple",
-          "text": "Commemoration. Hieromartyr Babylas, Bishop of Antioch He was archbishop of Antioch at the time of the wicked Emperor Numerian. Once the Emperor came to Antioch and attempted to enter a church where Babylas was serving. Coming to the door, t"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095912722152214592",
-          "author": "rcatholicprayer",
-          "searchJob": "temple",
-          "text": "A reading from the holy Gospel according to Luke for Friday September 4, 2026 (Luke 5:33-39) The Pharisees questioned why Jesus disciples did not fast like those of John. Jesus answered that wedding guests cannot fast while the bridegroom r"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095946346092011535",
-          "author": "indytruther1",
-          "searchJob": "florida",
-          "text": "Oh look! Another consequence Florida is facing for CHOOSING THE WRONG MOTHERFUCKERS! Has anyone seen my give a fuck button? I know that bitch is broken but I seem to have misplaced it. I think I lost it around the time I offered a deal to t"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095945818658251149",
-          "author": "_mikemayrealtor",
-          "searchJob": "florida",
-          "text": "FLORIDA REALTOR MICHAEL MAY 239-989-6357 Customer loyalty offers a key business metric https://t.co/gKoHLIYZOp #RealEstate #Housing #forex #SWFL #EURO"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095943103362322610",
-          "author": "boner60",
-          "searchJob": "florida",
-          "text": "@flagzatnight @RonDeSantis Actually, there’s one you didn’t mention that is really good. Florida now offers free clinic visits to get Ron DeSantis’s and Donald Trump’s ball sack out of your mouth if you’re a maga male."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095941711885193349",
-          "author": "_jpevans_",
-          "searchJob": "florida",
-          "text": "Mike Norvell offers his thoughts on No. 19 SMU ahead of the Seminoles' ACC opener https://t.co/jXfC40dx2O"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095935032007233704",
-          "author": "cityofaltamonte",
-          "searchJob": "florida",
-          "text": "Get clear, unbiased guidance about Medicare and health insurance at the #CityLibrary. SHINE Medicare Counseling offers free assistance with Medicare, Medicaid and health insurance. Drop in anytime from 10 am. to 2 p.m. on Friday, September "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095920037177462908",
-          "author": "tomsonwoo",
-          "searchJob": "florida",
-          "text": "A Florida Amazon driver, Wes Stott, took a $4 cake pop from Homemade Haven Porch Bakery in Milton after mistaking its “Treat Yourself” sign for an offer of free snacks, but the bakery later posted doorbell footage online asking for help ide"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095948116986061017",
-          "author": "kellyg581976179",
-          "searchJob": "georgia",
-          "text": "⚠️Northeast Georgia~Adopter Or Foster Needed This poor girl has been at the shelter for over 6 months‼️💔 This is beautiful, spayed , 3 to 5 year old , Rottweiler named Rogue . She loves people, is house broken, knows commands and is dog se"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095946436969988294",
-          "author": "hbtfdawgscast",
-          "searchJob": "georgia",
-          "text": "Sorry I can’t really offer suggestions. I simply don’t have time to listen to others’ work. My schedule is too demanding and I can really only focus on my productions. Plus, I would never want ‘content bleed’ to occur anyway. I’m legit not "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095947292087923073",
-          "author": "rjmoses1947",
-          "searchJob": "illinois",
-          "text": "This should be NO SURPRISE to you but ALL 14 of Illinois’ congressional Democrats were a part of the 192 Democrats who VOTED AGAINST CONDEMNING SOCIALISM. Socialism is just a wimpy word for Communism! And, if you think socialism/communism w"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095935694749278661",
-          "author": "terrymu97456187",
-          "searchJob": "illinois",
-          "text": "@JulianaStratton Another fucking DEI being installed? GO VOTE! RED-Remove Every Democrat NO policies. Nothing to offer Illinois. She’s a BLACK C*NT DEI LOW INTELLIGENT POS! Look at Chicago! Another MORON will tank Illinois permanently. http"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095929567915426156",
-          "author": "thegrandkansan",
-          "searchJob": "indiana",
-          "text": "@7_bosslady29488 Well what do you get out of indiana , i usually do pretty well there coming back , its not about an individual load but a weekly average . If you dont like the load and rate dont take it . We dont need to haul every load of"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095935000818397665",
-          "author": "khiorg",
-          "searchJob": "iowa",
-          "text": "Missed Session 3? You can still be part of the learning. 👇 ICYMI: Region 7 Maternal Health ECHO® Session 3 took a closer look at structural and financial barriers impacting maternal health — and how partners across Missouri, Iowa, Nebraska"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095933461525680423",
-          "author": "downwith710",
-          "searchJob": "iowa",
-          "text": "An Iowa political ad talks about our dangerous crime (under GOP control), but claim that voting for the Democratic candidate will make it worse. They've got nothing to offer, but fear."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095942357271101445",
-          "author": "trealpeternorth",
-          "searchJob": "lsu",
-          "text": "@TannerW78778 @ChrisMack79 @JacquesDoucet @DesmondHoward @LSUfootball but he still tried and would have signed if offered. you can't knock the guys who were simply slightly more successful in their pursuit before ultimately failing just the"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095941648232390882",
-          "author": "bryceochandler",
-          "searchJob": "lsu",
-          "text": "@Rebelfanmatt @DennyBurk That’s not what happened at all but okay. These guys would have clearly stayed in college had the NCAA made the ruling in June. Everyone with a room temperature iq knows LSU and Ole Miss would offer more than a prac"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095936770407870946",
-          "author": "c_r_webb",
-          "searchJob": "lsu",
-          "text": "@TomMarsLaw Tom, hypothetical, if LSU called and offered you 100 million to defend them against the SEC, you’d look at this and say this easy work because it’s clear the SEC is discriminating against LSU and Lane. Easiest W of your career"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2095935670799786043",
-          "author": "rebelfanmatt",
-          "searchJob": "lsu",
-          "text": "@JacquesDoucet @DesmondHoward @LSUfootball So Jac. Answer the question. You’re okay with juniors declaring for the draft next year, trying out for NFL teams, then accepting higher NIL offers from college teams on Sept. 1? Becuase that’s wha"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095931297730588687",
-          "author": "theodorelnancy",
-          "searchJob": "byu",
-          "text": "@DFW_Cougar @baby_maumau @carbonmfg We have to ask: 1. Why was BS not able to negotiate with KS and the BoT had to? 2. Why was he removed from football oversight as a P4 AD? 3. We can agree PsU offered him more in total. Why did he stay at "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095947675200061477",
-          "author": "usalei",
-          "searchJob": "california",
-          "text": "A mixed men’s apparel inventory is being offered from the Los Angeles, California area. Inventory breakdown: Men’s shirts: 7,804 pieces Casual and athletic shorts: 10,861 pieces Swim trunks: 8,106 pieces The assortment includes multiple pri"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095947401462735239",
-          "author": "weartv",
-          "searchJob": "california",
-          "text": "As Americans prepare to mark 25 years since the Sept. 11 attacks, a California nonprofit is traveling to New York City with weighted teddy bears designed to offer comfort to families who lost loved ones. https://t.co/QkwZ964Xp7"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
-      "ok": true,
-      "reason": null,
+      "ok": false,
+      "reason": "georgia: rate limited",
       "jobs": 162,
-      "swept": 33,
+      "swept": 0,
       "failed": 1,
-      "requests": 34,
+      "requests": 1,
       "errors": [
-        "florida-atlantic: rate limited"
+        "georgia: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 42,
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 0,
       "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 79,
-    "decided": 79,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z"
