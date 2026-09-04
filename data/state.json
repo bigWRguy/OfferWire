@@ -30054,17 +30054,96 @@
     "2095934976784994763",
     "2095934949928931571",
     "2095927851555885126",
-    "2095933838392189240"
+    "2095933838392189240",
+    "2095913810162762115",
+    "2095913309946171847",
+    "2095913263276151246",
+    "2095912722152214592",
+    "2095947329874370973",
+    "2095947252120297841",
+    "2095946346092011535",
+    "2095945818658251149",
+    "2095943103362322610",
+    "2095941711885193349",
+    "2095935032007233704",
+    "2095927426387705966",
+    "2095923189725409702",
+    "2095920037177462908",
+    "2095949090815091054",
+    "2095948954064007569",
+    "2095948832085258561",
+    "2095948698274468218",
+    "2095948525674570105",
+    "2095948116986061017",
+    "2095948100200206500",
+    "2095947895212003694",
+    "2095947792174948722",
+    "2095947650835353849",
+    "2095947473843823019",
+    "2095947313340387448",
+    "2095947112672288958",
+    "2095946978756792634",
+    "2095946803044827479",
+    "2095946665320432096",
+    "2095946469500965175",
+    "2095946436969988294",
+    "2095945904838549802",
+    "2095945776446984604",
+    "2095947292087923073",
+    "2095945955514134968",
+    "2095935694749278661",
+    "2095930690009268530",
+    "2095933190024180051",
+    "2095929567915426156",
+    "2095925581724385380",
+    "2095920929607979228",
+    "2095946274054762780",
+    "2095935000818397665",
+    "2095933991795007708",
+    "2095933461525680423",
+    "2095942357271101445",
+    "2095941648232390882",
+    "2095936770407870946",
+    "2095935670799786043",
+    "2095931297730588687",
+    "2095947675200061477",
+    "2095947401462735239",
+    "2095947219836846362",
+    "2095942682652668098",
+    "2095942540587376679",
+    "2095941105225552218",
+    "2095938293657489516",
+    "2095937744811745688",
+    "2095930021047091548",
+    "2095927661184823333",
+    "2095926607491846417",
+    "2095922302626001058",
+    "2095947556169601095",
+    "2095938377984196649",
+    "2095942709299052705",
+    "2095938359701151865",
+    "2095948018491040162",
+    "2095941044085072365",
+    "2095936257561874903",
+    "2095942471066722462",
+    "2095940120209953037",
+    "2095930122154938783",
+    "2095921134587793877",
+    "2095920333207576818",
+    "2095920305524912366",
+    "2095919965882696031",
+    "2095937437033767299",
+    "2095946466543984847"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-09-04T18:43:06.865Z",
-      "got": 154,
-      "new": 126,
-      "lag": 0.03
+      "at": "2026-09-04T18:58:45.926Z",
+      "got": 118,
+      "new": 79,
+      "lag": 0.04
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -30088,7 +30167,7 @@
       "truncated": false
     },
     "florida": {
-      "at": "2026-09-04T16:56:08.619Z",
+      "at": "2026-09-04T18:56:28.257Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 12,
       "truncated": false
@@ -30096,25 +30175,31 @@
     "georgia": {
       "at": "2026-09-04T16:56:08.619Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 0,
-      "truncated": false
+      "lastPosts": 22,
+      "truncated": true,
+      "window": {
+        "lower": "2026-09-04T16:51:08.619Z",
+        "upper": "2026-09-04T18:56:28.257Z",
+        "until_time": "2026-09-04T16:51:08.619Z",
+        "completed": false
+      }
     },
     "illinois": {
-      "at": "2026-09-04T16:56:08.619Z",
-      "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 0,
-      "truncated": false
-    },
-    "indiana": {
-      "at": "2026-09-04T16:56:08.619Z",
+      "at": "2026-09-04T18:56:28.257Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 5,
       "truncated": false
     },
-    "iowa": {
-      "at": "2026-09-04T16:56:08.619Z",
+    "indiana": {
+      "at": "2026-09-04T18:56:28.257Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 0,
+      "lastPosts": 4,
+      "truncated": false
+    },
+    "iowa": {
+      "at": "2026-09-04T18:56:28.257Z",
+      "migratedAt": "2026-08-31T05:59:03.885Z",
+      "lastPosts": 6,
       "truncated": false
     },
     "kentucky": {
@@ -30124,9 +30209,9 @@
       "truncated": false
     },
     "lsu": {
-      "at": "2026-09-04T16:56:08.619Z",
+      "at": "2026-09-04T18:56:28.257Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 5,
+      "lastPosts": 6,
       "truncated": false
     },
     "maryland": {
@@ -30232,16 +30317,10 @@
       "truncated": false
     },
     "texas": {
-      "at": "2026-09-04T16:41:09.992Z",
+      "at": "2026-09-04T18:41:10.287Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 23,
-      "truncated": true,
-      "window": {
-        "lower": "2026-09-04T16:36:09.992Z",
-        "upper": "2026-09-04T18:41:10.287Z",
-        "until_time": "2026-09-04T16:36:09.992Z",
-        "completed": false
-      }
+      "lastPosts": 0,
+      "truncated": false
     },
     "texas-am": {
       "at": "2026-09-04T18:41:10.287Z",
@@ -30268,16 +30347,10 @@
       "truncated": false
     },
     "washington": {
-      "at": "2026-09-04T16:41:09.992Z",
+      "at": "2026-09-04T18:41:10.287Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 21,
-      "truncated": true,
-      "window": {
-        "lower": "2026-09-04T16:36:09.992Z",
-        "upper": "2026-09-04T18:41:10.287Z",
-        "until_time": "2026-09-04T16:36:09.992Z",
-        "completed": false
-      }
+      "lastPosts": 0,
+      "truncated": false
     },
     "wisconsin": {
       "at": "2026-09-04T18:41:10.287Z",
@@ -30402,7 +30475,7 @@
       "truncated": false
     },
     "byu": {
-      "at": "2026-09-04T16:56:08.619Z",
+      "at": "2026-09-04T18:56:28.257Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 1,
       "truncated": false
@@ -30410,19 +30483,25 @@
     "california": {
       "at": "2026-09-04T16:56:08.619Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 0,
-      "truncated": false
+      "lastPosts": 21,
+      "truncated": true,
+      "window": {
+        "lower": "2026-09-04T16:51:08.619Z",
+        "upper": "2026-09-04T18:56:28.257Z",
+        "until_time": "2026-09-04T16:51:08.619Z",
+        "completed": false
+      }
     },
     "cincinnati": {
-      "at": "2026-09-04T16:56:08.619Z",
+      "at": "2026-09-04T18:56:28.257Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 2,
+      "lastPosts": 3,
       "truncated": false
     },
     "clemson": {
-      "at": "2026-09-04T16:56:08.619Z",
+      "at": "2026-09-04T18:56:28.257Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 2,
+      "lastPosts": 0,
       "truncated": false
     },
     "colorado": {
@@ -30432,9 +30511,9 @@
       "truncated": false
     },
     "duke": {
-      "at": "2026-09-04T16:56:08.619Z",
+      "at": "2026-09-04T18:56:28.257Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 2,
+      "lastPosts": 8,
       "truncated": false
     },
     "florida-state": {
@@ -30534,49 +30613,43 @@
       "truncated": false
     },
     "texas-tech": {
-      "at": "2026-09-04T16:41:09.992Z",
+      "at": "2026-09-04T18:41:10.287Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 21,
-      "truncated": true,
-      "window": {
-        "lower": "2026-09-04T16:36:09.992Z",
-        "upper": "2026-09-04T18:41:10.287Z",
-        "until_time": "2026-09-04T16:36:09.992Z",
-        "completed": false
-      }
+      "lastPosts": 0,
+      "truncated": false
     },
     "ucf": {
-      "at": "2026-09-04T16:56:08.619Z",
+      "at": "2026-09-04T18:56:28.257Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 1,
+      "lastPosts": 0,
       "truncated": false
     },
     "utah": {
-      "at": "2026-09-04T16:56:08.619Z",
+      "at": "2026-09-04T18:56:28.257Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 2,
+      "lastPosts": 5,
       "truncated": false
     },
     "virginia": {
-      "at": "2026-09-04T16:56:08.619Z",
+      "at": "2026-09-04T18:56:28.257Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 4,
+      "lastPosts": 7,
       "truncated": false
     },
     "virginia-tech": {
-      "at": "2026-09-04T16:56:08.619Z",
+      "at": "2026-09-04T18:56:28.257Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 1,
       "truncated": false
     },
     "wake-forest": {
-      "at": "2026-09-04T16:56:08.619Z",
+      "at": "2026-09-04T18:56:28.257Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 7,
       "truncated": false
     },
     "west-virginia": {
-      "at": "2026-09-04T16:56:08.619Z",
+      "at": "2026-09-04T18:56:28.257Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 0,
       "truncated": false
@@ -30630,9 +30703,9 @@
       "truncated": false
     },
     "phrase:\"has offered\" recruit": {
-      "at": "2026-09-04T16:56:08.619Z",
+      "at": "2026-09-04T18:56:28.257Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 9,
+      "lastPosts": 1,
       "truncated": false
     },
     "air-force": {
@@ -30720,13 +30793,13 @@
       "truncated": false
     },
     "east-carolina": {
-      "at": "2026-09-04T16:56:08.619Z",
+      "at": "2026-09-04T18:56:28.257Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 8,
+      "lastPosts": 1,
       "truncated": false
     },
     "eastern-michigan": {
-      "at": "2026-09-04T16:56:08.619Z",
+      "at": "2026-09-04T18:56:28.257Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 1,
       "truncated": false
@@ -30840,15 +30913,15 @@
       "truncated": false
     },
     "middle-tennessee": {
-      "at": "2026-09-04T16:41:09.992Z",
+      "at": "2026-09-04T18:56:28.257Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 1,
+      "lastPosts": 0,
       "truncated": false
     },
     "missouri-state": {
-      "at": "2026-09-04T16:41:09.992Z",
+      "at": "2026-09-04T18:56:28.257Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 1,
+      "lastPosts": 0,
       "truncated": false
     },
     "navy": {
@@ -30948,21 +31021,15 @@
       "truncated": false
     },
     "temple": {
-      "at": "2026-09-04T16:26:35.583Z",
+      "at": "2026-09-04T18:41:10.287Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 21,
-      "truncated": true,
-      "window": {
-        "lower": "2026-09-04T16:21:35.583Z",
-        "upper": "2026-09-04T18:41:10.287Z",
-        "until_time": "2026-09-04T16:39:31.000Z",
-        "completed": false
-      }
+      "lastPosts": 5,
+      "truncated": false
     },
     "texas-state": {
-      "at": "2026-09-04T16:41:09.992Z",
+      "at": "2026-09-04T18:56:28.257Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 0,
+      "lastPosts": 1,
       "truncated": false
     },
     "toledo": {
@@ -30978,37 +31045,37 @@
       "truncated": false
     },
     "tulane": {
-      "at": "2026-09-04T16:41:09.992Z",
+      "at": "2026-09-04T18:56:28.257Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 1,
+      "lastPosts": 0,
       "truncated": false
     },
     "tulsa": {
-      "at": "2026-09-04T16:41:09.992Z",
+      "at": "2026-09-04T18:56:28.257Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 1,
       "truncated": false
     },
     "uab": {
-      "at": "2026-09-04T16:41:09.992Z",
+      "at": "2026-09-04T18:56:28.257Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 0,
       "truncated": false
     },
     "unlv": {
-      "at": "2026-09-04T16:41:09.992Z",
+      "at": "2026-09-04T18:56:28.257Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 0,
       "truncated": false
     },
     "utah-state": {
-      "at": "2026-09-04T16:41:09.992Z",
+      "at": "2026-09-04T18:56:28.257Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 0,
       "truncated": false
     },
     "utep": {
-      "at": "2026-09-04T16:41:09.992Z",
+      "at": "2026-09-04T18:56:28.257Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 0,
       "truncated": false
@@ -31174,11 +31241,11 @@
   "lastRateLimitAt": "2026-09-04T15:56:20.976Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-09-04T18:43:06.866Z",
+    "at": "2026-09-04T18:58:45.927Z",
     "jobsTotal": 162,
-    "sweptThisRun": 32,
-    "requests": 33,
-    "fullSweepCycles": 6
+    "sweptThisRun": 33,
+    "requests": 34,
+    "fullSweepCycles": 5
   },
   "backfill": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -31198,373 +31265,372 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-09-04T18:41:10.279Z",
+    "at": "2026-09-04T18:56:28.243Z",
     "mode": "live",
     "collection": {
-      "returned": 154,
-      "kept": 126,
-      "duplicate": 27,
+      "returned": 118,
+      "kept": 79,
+      "duplicate": 38,
       "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 77,
-      "rejected": 49,
+      "accepted": 43,
+      "rejected": 36,
       "reasons": {
-        "no_offer_term": 16,
-        "no_fbs_school": 10,
+        "no_fbs_school": 12,
         "hard_negative": 21,
-        "non_fbs_offer_target": 2
+        "no_offer_term": 3
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2095920671507235215",
-          "author": "betsuiteai",
-          "searchJob": "buffalo",
-          "text": "https://t.co/dhuTih6ABO"
+          "reason": "no_fbs_school",
+          "postId": "2095947329874370973",
+          "author": "edmundonesir",
+          "searchJob": "florida",
+          "text": "#EdmundDeSotoONESIR #SunnyIsles Offered to the public for the first time, Residence 3002 at Jade Signature. Positioned on the 30th floor, this is an exceptional three-bedroom, four-and-a-half-bath residence. https://t.co/JuzKT4pkQi ny Isles"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095939649831145617",
-          "author": "marsh1956",
-          "searchJob": "marshall",
-          "text": "@Kimbrown424 @Onewhitefrijole @PrayTheRosary You ask good questions. Instead of replies, most offer “tradition” as being equal to the Bible, or deflect, or twist biblical passages to fit the tradition."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095874482514661546",
-          "author": "infantrydort",
-          "searchJob": "marshall",
-          "text": "LABOR DAY TRIBUTE #1: THE INFANTRY 1775–Present. The Army’s original branch and still somehow convinced everyone else is support. The original labor force of American war: men expected to carry half their body weight into terrible places, s"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095933171389120807",
-          "author": "davidsfiles",
-          "searchJob": "massachusetts",
-          "text": "Lindsay Clancy admitted killing her children. But admitting what she did doesn't answer whether she was legally responsible when she did it. A confession establishes the act. It doesn't automatically establish her mental state at the time. "
+          "postId": "2095947252120297841",
+          "author": "lighthousetg",
+          "searchJob": "florida",
+          "text": "🚢🌴 KIDS & TEENS SAIL FREE — SUMMER 2027! 🌴🚢 It’s time to plan a family getaway! Royal Caribbean’s limited-time offer gives families even more reason to set sail in Summer 2027. 🏝️☀️ 👨‍👩‍👧‍👦 KIDS & TEENS SAIL FREE* 🌎 ALASKA • EUROP"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095917352214802772",
-          "author": "marcedbygrace",
-          "searchJob": "massachusetts",
-          "text": "Unfortunately, there is no death penalty offered in Massachusetts"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095728111451070510",
-          "author": "casey_muldoon",
-          "searchJob": "massachusetts",
-          "text": "Why isn’t Lindsay Clancy begging for the death penalty? I thought she was suicidal?"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095916882519793763",
-          "author": "raphooptx",
-          "searchJob": "massachusetts",
-          "text": "https://t.co/IOaeBaTYMI"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095919078120546465",
-          "author": "yanagitaron",
-          "searchJob": "temple",
-          "text": "Remaining neutral, I asked ChatGPT, Gemini &amp; Grok to independently test Catholic doctrine against the Greek New Testament and earliest Church history. The results are what most logical and literal students of Scripture and history might"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095936768323584440",
-          "author": "ashley59676267",
-          "searchJob": "toledo",
-          "text": "https://t.co/rwc7Vg0sJa"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095925662314078407",
-          "author": "ar10nx",
-          "searchJob": "toledo",
-          "text": "Three failed rocket launches. A car company fighting to survive. In 2008, Elon Musk’s biggest bets weren’t about changing the world yet. They were about surviving long enough to try. Here’s what happened next. https://t.co/Vv7c7xiTF1"
+          "postId": "2095927426387705966",
+          "author": "iuphilanthropy",
+          "searchJob": "florida",
+          "text": "The Patterson Foundation Fellowship offers a 2+ year, full-time opportunity in Sarasota, Florida, where Fellows gain hands-on experience, mentorship, professional development support, and competitive salary and benefits. Learn more: https:/"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095937359602741368",
-          "author": "troygeaney1409",
-          "searchJob": "troy",
-          "text": "@VideosIrish That is shity carry on,,obviously asked them to come and have the 1 v 1,they turned up,he's said he's beat offers his hand,and he sucker punches him,,embarrassing from the 2 lads to run with the shit trailing along after them🙈"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095935925486285231",
-          "author": "troytorrence11",
-          "searchJob": "troy",
-          "text": "A few things I think of when reading this post: 1. What’s the cost of the advice relative to unit size? (must be considered) 2. Is their community involved? A solid community brings more value. 3. Is there something tangible offered by the "
+          "postId": "2095923189725409702",
+          "author": "furiasruler",
+          "searchJob": "florida",
+          "text": "I get them daily all sorts of poses. Then I get offered massages by therapists saying they will drive to my home in Florida. I am thinking that’s not what they want when where they live is Seattle or Las Vegas, that’s a block Lady Lisa. I a"
         },
         {
           "reason": "hard_negative",
-          "postId": "2095924786887004444",
-          "author": "_hermajestee",
-          "searchJob": "troy",
-          "text": "Troy rushed in first. “They’re making it sound like we abandoned you.” He did not ask how I felt. Mom was more worried about her reputation. “People are attacking us online. Your father’s boss called.” They wanted to issue a statement calli"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095940877097029786",
-          "author": "time0149",
-          "searchJob": "oregon",
-          "text": "https://t.co/NdRK2inl47"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095682692176031891",
-          "author": "ronnieripple603",
-          "searchJob": "oregon",
-          "text": "Very cool little feature on the website! ❤️"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095922185713885574",
-          "author": "neat_rips",
-          "searchJob": "oregon",
-          "text": "As livestreams borrow more from entertainment, influencer marketing, and casino-style psychology, collectors are left asking whether the hobby is still about cards or the rush of the next hit. https://t.co/eDV0YKR2ZO"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095916618937254305",
-          "author": "duckswild9",
-          "searchJob": "oregon",
-          "text": "@_VoiceofAmerica WHAT?? Last time I thought you offered $1million ??? https://t.co/dcrcTXFLMU"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095765761939702208",
-          "author": "prometheanactn",
-          "searchJob": "texas",
-          "text": "A strategic shift: America's deindustrialization post-Cold War led to dangerous dependencies. #Manufacturing #USPolitics https://t.co/zwEVg4Vv3T"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095919215421383085",
-          "author": "raper_dark",
-          "searchJob": "texas",
-          "text": "Imagine your nights like this ✨ Specs: 4 Bed • 3.5 Bath • 3,200,SqFt • 0.88 Acre lot • 2024 New Construction 📍Location: Red Oak, Texas 💲Offered for: $749,900 DM or comment for more information! https://t.co/DOTZ18m8Hq"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095917307860226456",
-          "author": "theevuniverse",
-          "searchJob": "texas",
-          "text": "https://t.co/wRvPJy19g2"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095945279006466193",
+          "postId": "2095949090815091054",
           "author": "randyferrell",
-          "searchJob": "washington",
+          "searchJob": "georgia",
           "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
         },
         {
           "reason": "hard_negative",
-          "postId": "2095945175453282356",
+          "postId": "2095948954064007569",
           "author": "randyferrell",
-          "searchJob": "washington",
+          "searchJob": "georgia",
           "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
         },
         {
           "reason": "hard_negative",
-          "postId": "2095945070729986463",
+          "postId": "2095948832085258561",
           "author": "randyferrell",
-          "searchJob": "washington",
+          "searchJob": "georgia",
           "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
         },
         {
           "reason": "hard_negative",
-          "postId": "2095944967915253954",
+          "postId": "2095948698274468218",
           "author": "randyferrell",
-          "searchJob": "washington",
+          "searchJob": "georgia",
           "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095948525674570105",
+          "author": "randyferrell",
+          "searchJob": "georgia",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095948100200206500",
+          "author": "randyferrell",
+          "searchJob": "georgia",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095947895212003694",
+          "author": "randyferrell",
+          "searchJob": "georgia",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095947792174948722",
+          "author": "randyferrell",
+          "searchJob": "georgia",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095947650835353849",
+          "author": "randyferrell",
+          "searchJob": "georgia",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095947473843823019",
+          "author": "randyferrell",
+          "searchJob": "georgia",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095947313340387448",
+          "author": "randyferrell",
+          "searchJob": "georgia",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095947112672288958",
+          "author": "randyferrell",
+          "searchJob": "georgia",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095946978756792634",
+          "author": "randyferrell",
+          "searchJob": "georgia",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095946803044827479",
+          "author": "randyferrell",
+          "searchJob": "georgia",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095946665320432096",
+          "author": "randyferrell",
+          "searchJob": "georgia",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095946469500965175",
+          "author": "randyferrell",
+          "searchJob": "georgia",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095945904838549802",
+          "author": "randyferrell",
+          "searchJob": "georgia",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095945776446984604",
+          "author": "randyferrell",
+          "searchJob": "georgia",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095945955514134968",
+          "author": "gybcircuit_",
+          "searchJob": "illinois",
+          "text": "Class of 2029 (All Iowa Attack EYBL) Eyani Mills holds offers from Ohio State, Kansas, Nebraska, Illinois and more. Eyani makes jumpers from three easily, tremendous body control offensively, versatile, gets to her spots, doesn’t settle, at"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095930690009268530",
+          "author": "ilhousegop",
+          "searchJob": "illinois",
+          "text": "A new law passed by State Representative Nicole La Ha will offer stronger legal protections to domestic violence survivors who have been coerced into debt. “Financial abuse can keep victims trapped long after an abusive relationship ends,” "
         }
       ]
     },
     "extraction": {
       "accepted": 1,
-      "rejected": 76,
+      "rejected": 42,
       "reasons": {
-        "school_not_resolved_confidently": 26,
-        "bare_mention_requires_llm": 44,
-        "multiple_resolved_schools": 3,
-        "reporter_missing_player_name": 3
+        "bare_mention_requires_llm": 30,
+        "multiple_resolved_schools": 4,
+        "reporter_missing_player_name": 2,
+        "school_not_resolved_confidently": 6
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095940432161108458",
-          "author": "fell_ogden35625",
-          "searchJob": "buffalo",
-          "text": "Little Office of the Blessed Virgin Mary FRIDAY Morning Prayer God, come to my assistance. - Lord, make haste to help me Glory to the Father and to the Son and to the Holy Spirit as it was in the beginning, is now, and will be forever. Amen"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095913810162762115",
+          "author": "toilucknow",
+          "searchJob": "temple",
+          "text": "CM Yogi Adityanath offers prayers at the Shri Krishna Janmabhoomi Temple in Mathura https://t.co/I0ICpAkls2"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095920663337013466",
-          "author": "robinsnewswire",
-          "searchJob": "buffalo",
-          "text": "Inside the NFL’s newest stadium: Buffalo Bills’ home offers Cleveland clues of what $2B-plus will buy (photos) https://t.co/5SNYVbScX5"
+          "postId": "2095913309946171847",
+          "author": "prasidha_naresh",
+          "searchJob": "temple",
+          "text": "Nation Rejoices on Janmashtami- Home Minister Offers Devout Prayers at Delhi's Birla Temple https://t.co/88rrr9FpoD"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095917629462491478",
-          "author": "marvin_white_jr",
-          "searchJob": "buffalo",
-          "text": "@wilsonhlthcoach Does you buffalo supplier offer options on how lean the buffalo meat is ground?"
+          "postId": "2095913263276151246",
+          "author": "xerox_349",
+          "searchJob": "temple",
+          "text": "Commemoration. Hieromartyr Babylas, Bishop of Antioch He was archbishop of Antioch at the time of the wicked Emperor Numerian. Once the Emperor came to Antioch and attempted to enter a church where Babylas was serving. Coming to the door, t"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095935177402810857",
-          "author": "doc2doc_lending",
-          "searchJob": "marshall",
-          "text": "The housing market has changed dramatically over the last five years—and that can completely change what “affordable” looks like. In this clip, Dr. Zwade Marshall explains how higher interest rates can significantly increase the monthly cos"
+          "postId": "2095912722152214592",
+          "author": "rcatholicprayer",
+          "searchJob": "temple",
+          "text": "A reading from the holy Gospel according to Luke for Friday September 4, 2026 (Luke 5:33-39) The Pharisees questioned why Jesus disciples did not fast like those of John. Jesus answered that wedding guests cannot fast while the bridegroom r"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095934060887416930",
-          "author": "christian1white",
-          "searchJob": "marshall",
-          "text": "@THEBC43 @HerdFB @CoachTonyGibson @GunterBrewer @CoachRSmith1 Driving up from Hurricane! I actually like the drive, you get to see the scenery WV has to offer. From atop it would look like a flat canvas. Me, my sis, her BF, and the mom are "
+          "postId": "2095946346092011535",
+          "author": "indytruther1",
+          "searchJob": "florida",
+          "text": "Oh look! Another consequence Florida is facing for CHOOSING THE WRONG MOTHERFUCKERS! Has anyone seen my give a fuck button? I know that bitch is broken but I seem to have misplaced it. I think I lost it around the time I offered a deal to t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095945818658251149",
+          "author": "_mikemayrealtor",
+          "searchJob": "florida",
+          "text": "FLORIDA REALTOR MICHAEL MAY 239-989-6357 Customer loyalty offers a key business metric https://t.co/gKoHLIYZOp #RealEstate #Housing #forex #SWFL #EURO"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095943103362322610",
+          "author": "boner60",
+          "searchJob": "florida",
+          "text": "@flagzatnight @RonDeSantis Actually, there’s one you didn’t mention that is really good. Florida now offers free clinic visits to get Ron DeSantis’s and Donald Trump’s ball sack out of your mouth if you’re a maga male."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095941711885193349",
+          "author": "_jpevans_",
+          "searchJob": "florida",
+          "text": "Mike Norvell offers his thoughts on No. 19 SMU ahead of the Seminoles' ACC opener https://t.co/jXfC40dx2O"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095935032007233704",
+          "author": "cityofaltamonte",
+          "searchJob": "florida",
+          "text": "Get clear, unbiased guidance about Medicare and health insurance at the #CityLibrary. SHINE Medicare Counseling offers free assistance with Medicare, Medicaid and health insurance. Drop in anytime from 10 am. to 2 p.m. on Friday, September "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095920037177462908",
+          "author": "tomsonwoo",
+          "searchJob": "florida",
+          "text": "A Florida Amazon driver, Wes Stott, took a $4 cake pop from Homemade Haven Porch Bakery in Milton after mistaking its “Treat Yourself” sign for an offer of free snacks, but the bakery later posted doorbell footage online asking for help ide"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095948116986061017",
+          "author": "kellyg581976179",
+          "searchJob": "georgia",
+          "text": "⚠️Northeast Georgia~Adopter Or Foster Needed This poor girl has been at the shelter for over 6 months‼️💔 This is beautiful, spayed , 3 to 5 year old , Rottweiler named Rogue . She loves people, is house broken, knows commands and is dog se"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095946436969988294",
+          "author": "hbtfdawgscast",
+          "searchJob": "georgia",
+          "text": "Sorry I can’t really offer suggestions. I simply don’t have time to listen to others’ work. My schedule is too demanding and I can really only focus on my productions. Plus, I would never want ‘content bleed’ to occur anyway. I’m legit not "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095947292087923073",
+          "author": "rjmoses1947",
+          "searchJob": "illinois",
+          "text": "This should be NO SURPRISE to you but ALL 14 of Illinois’ congressional Democrats were a part of the 192 Democrats who VOTED AGAINST CONDEMNING SOCIALISM. Socialism is just a wimpy word for Communism! And, if you think socialism/communism w"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095935694749278661",
+          "author": "terrymu97456187",
+          "searchJob": "illinois",
+          "text": "@JulianaStratton Another fucking DEI being installed? GO VOTE! RED-Remove Every Democrat NO policies. Nothing to offer Illinois. She’s a BLACK C*NT DEI LOW INTELLIGENT POS! Look at Chicago! Another MORON will tank Illinois permanently. http"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095929567915426156",
+          "author": "thegrandkansan",
+          "searchJob": "indiana",
+          "text": "@7_bosslady29488 Well what do you get out of indiana , i usually do pretty well there coming back , its not about an individual load but a weekly average . If you dont like the load and rate dont take it . We dont need to haul every load of"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2095926558900760719",
-          "author": "oberlenderc",
-          "searchJob": "marshall",
-          "text": "I am proud to be an Infantryman. Probably fate, in my case. I had other opportunities, West Point Prep School, MI, EOD (Hell no!), but as my basic training company commander, Captain (later Lieutenant Colonel) Lewis Swineheart, offered me t"
+          "postId": "2095935000818397665",
+          "author": "khiorg",
+          "searchJob": "iowa",
+          "text": "Missed Session 3? You can still be part of the learning. 👇 ICYMI: Region 7 Maternal Health ECHO® Session 3 took a closer look at structural and financial barriers impacting maternal health — and how partners across Missouri, Iowa, Nebraska"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095935601765990565",
-          "author": "mj196410",
-          "searchJob": "massachusetts",
-          "text": "@Grantoffgrid54 My understanding was they were claiming a novel affirmative defense of post partum psychosis, or something like that. If Massachusetts wants to offer that kinda defense so be it."
+          "postId": "2095933461525680423",
+          "author": "downwith710",
+          "searchJob": "iowa",
+          "text": "An Iowa political ad talks about our dangerous crime (under GOP control), but claim that voting for the Democratic candidate will make it worse. They've got nothing to offer, but fear."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095929148908904459",
-          "author": "tchsignal",
-          "searchJob": "memphis",
-          "text": "SpaceXAI's Starlink Discount Puts AI Data Center Community Impact in Focus Starlink is offering eligible residents in the Memphis area a 50% discount on monthly Residential service, while new eligible Residential customers can avoid upfront"
+          "postId": "2095942357271101445",
+          "author": "trealpeternorth",
+          "searchJob": "lsu",
+          "text": "@TannerW78778 @ChrisMack79 @JacquesDoucet @DesmondHoward @LSUfootball but he still tried and would have signed if offered. you can't knock the guys who were simply slightly more successful in their pursuit before ultimately failing just the"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095941648232390882",
+          "author": "bryceochandler",
+          "searchJob": "lsu",
+          "text": "@Rebelfanmatt @DennyBurk That’s not what happened at all but okay. These guys would have clearly stayed in college had the NCAA made the ruling in June. Everyone with a room temperature iq knows LSU and Ole Miss would offer more than a prac"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095944774729756691",
-          "author": "ani",
-          "searchJob": "temple",
-          "text": "#WATCH | Gorakhpur: Uttar Pradesh Chief Minister Yogi Adityanath offers prayers at midnight to mark the birth of Lord Krishna at the Gorakhnath Temple on the occasion of Shri Krishna Janmashtami. https://t.co/94PdRAsTwc"
+          "postId": "2095936770407870946",
+          "author": "c_r_webb",
+          "searchJob": "lsu",
+          "text": "@TomMarsLaw Tom, hypothetical, if LSU called and offered you 100 million to defend them against the SEC, you’d look at this and say this easy work because it’s clear the SEC is discriminating against LSU and Lane. Easiest W of your career"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2095935670799786043",
+          "author": "rebelfanmatt",
+          "searchJob": "lsu",
+          "text": "@JacquesDoucet @DesmondHoward @LSUfootball So Jac. Answer the question. You’re okay with juniors declaring for the draft next year, trying out for NFL teams, then accepting higher NIL offers from college teams on Sept. 1? Becuase that’s wha"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095931297730588687",
+          "author": "theodorelnancy",
+          "searchJob": "byu",
+          "text": "@DFW_Cougar @baby_maumau @carbonmfg We have to ask: 1. Why was BS not able to negotiate with KS and the BoT had to? 2. Why was he removed from football oversight as a P4 AD? 3. We can agree PsU offered him more in total. Why did he stay at "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095940583953203362",
-          "author": "pti_news",
-          "searchJob": "temple",
-          "text": "VIDEO | Raipur: Chhattisgarh Chief Minister Vishnu Deo Sai offers prayers at ISKON Temple on the occasion of Shri Krishna Janmashtami. (Full video available on PTI Videos - https://t.co/d8jp61yd2p) https://t.co/bxm6Gnw6c2"
+          "postId": "2095947675200061477",
+          "author": "usalei",
+          "searchJob": "california",
+          "text": "A mixed men’s apparel inventory is being offered from the Los Angeles, California area. Inventory breakdown: Men’s shirts: 7,804 pieces Casual and athletic shorts: 10,861 pieces Swim trunks: 8,106 pieces The assortment includes multiple pri"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095939787090006416",
-          "author": "biswajitthongam",
-          "searchJob": "temple",
-          "text": "Offered prayers at the sacred Shri Shri Govindajee Temple Ji, seeking the divine blessings of Lord Govindajee for peace, prosperity, harmony and the well-being of every citizen of Manipur. May His divine grace guide us towards unity, streng"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095938195167068198",
-          "author": "ani",
-          "searchJob": "temple",
-          "text": "#WATCH | Jaipur, Rajasthan: On the occasion of Krishna Janmashtami, CM Bhajanlal Sharma, along with his wife, visits the ISKCON Temple in Mansarovar and offers prayers at the temple. https://t.co/wnavfteBxH"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095937555816403234",
-          "author": "textrahedronix",
-          "searchJob": "temple",
-          "text": "**10 things the Quran doesn't know without the Bible**: 1. **The Quran doesn't know Jesus' earthly father's name or role.** It never mentions Joseph (or any human father figure) at all, even though the Bible presents Joseph as Mary's husban"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095937365349204113",
-          "author": "ians_india",
-          "searchJob": "temple",
-          "text": "North Guwahati, Assam: Janmashtami was celebrated with great enthusiasm at the historic Doul Govinda Temple, where large numbers of devotees gathered to offer prayers and seek Lord Krishna’s blessings. Special puja, devotional songs and rel"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095935286949920795",
-          "author": "ians_india",
-          "searchJob": "temple",
-          "text": "Delhi: On 2027 UP elections, CM Yogi Adityanath, Congress MLA Aradhana Mishra says, \"Now time will tell. First, they should answer how they played politics in the name of Ram Temple, not just in Uttar Pradesh, but across the country. And af"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095934505442025538",
-          "author": "ians_india",
-          "searchJob": "temple",
-          "text": "Ahmedabad, Gujarat: Chief Minister Bhupendra Patel visits the ISKCON temple on SG Highway and offers prayers. https://t.co/kFyhWktA28"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095932929306505510",
-          "author": "newsx",
-          "searchJob": "temple",
-          "text": "Uttar Pradesh CM Yogi Adityanath offered prayers at Shri Krishna Janmabhoomi Temple in Mathura on Janmashtami 2026. He performed Gau Pujan, sought blessings at the temple complex and greeted devotees as grand Krishna Janmashtami celebration"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095930643352006758",
-          "author": "pti_news",
-          "searchJob": "temple",
-          "text": "VIDEO | Tamil Nadu: Minister DK Prabhu attended the Krishna Jayanthi celebrations and offered prayers at the Venugopal Swamy temple in Sivaganga district. (Full video available on PTI Videos - https://t.co/d8jp61yd2p) https://t.co/3zdnKmPIo"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095930632224592183",
-          "author": "pti_news",
-          "searchJob": "temple",
-          "text": "VIDEO | Tripura: Devotees visit and offer prayers at the Sri Sri Jagannath Jiu Temple in Agartala on the occasion of Janmashtami. (Full video available on PTI Videos - https://t.co/d8jp61yd2p) https://t.co/x0HUooXC86"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095929310238609828",
-          "author": "rmpavithran26",
-          "searchJob": "temple",
-          "text": "Our @Karthi_Offl anna offered prayers &amp; had darshan at the Subramaniya Swamy Temple in Tiruchendur❤️ https://t.co/3BPwLkXoXc"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095927230081937479",
-          "author": "ians_india",
-          "searchJob": "temple",
-          "text": "Ayodhya, Uttar Pradesh: A 56-dish bhog prepared by special priests at Teerth Kshetra Bhawan has reached Ayodhya’s Ram Temple. The bhog will be offered to Lord Ram Lalla after Krishna Janmotsav. The Ram Temple Trust will distribute the festi"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095924462818672747",
-          "author": "sri_madhu_sai",
-          "searchJob": "temple",
-          "text": "A morning of festive fervour at Sathya Sai Grama 🦚 Krishna Janmashtami was celebrated at Sathya Sai Grama with Sadguru Sri Madhusudan Sai, beginning at the Goshala, where He fed the cows and offered prayers at the Krishna Temple. At Premam"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095923644954452339",
-          "author": "diprrajasthan",
-          "searchJob": "temple",
-          "text": "Chief Minister Shri Bhajanlal Sharma Offers Prayers at Shrinathji Temple in Poonchri ka Lautha CM Performs Abhishek of Shri Giriraj Ji at Mukut Mukharvind Temple https://t.co/CFqOetEW5H https://t.co/z1jCBY72Gf"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095916094192271677",
-          "author": "moneycontrolcom",
-          "searchJob": "temple",
-          "text": "#Watch | Ahmedabad’s ISKCON Temple witnessed a large gathering of devotees on Janmashtami as people turned up to offer prayers and seek darshan on the auspicious occasion celebrating the birth of Lord Krishna. #IskconTemple #Janmashtami htt"
+          "postId": "2095947401462735239",
+          "author": "weartv",
+          "searchJob": "california",
+          "text": "As Americans prepare to mark 25 years since the Sept. 11 attacks, a California nonprofit is traveling to New York City with weighted teddy bears designed to offer comfort to families who lost loved ones. https://t.co/QkwZ964Xp7"
         }
       ]
     },
@@ -31572,24 +31638,24 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 32,
+      "swept": 33,
       "failed": 1,
-      "requests": 33,
+      "requests": 34,
       "errors": [
-        "middle-tennessee: rate limited"
+        "florida-atlantic: rate limited"
       ]
     },
     "outcome": {
       "acceptedEvidence": 1,
-      "rejectedCandidates": 76,
-      "brandNewOffers": 1
+      "rejectedCandidates": 42,
+      "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 126,
-    "decided": 126,
+    "total": 79,
+    "decided": 79,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z"
