@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T13:43:31.152Z",
+  "generatedAt": "2026-09-04T13:56:30.805Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7900291666666667,
-    "p95Hours": 1.5259725,
-    "worstHours": 1.5259725
+    "medianHours": 1.0065994444444444,
+    "p95Hours": 1.7425427777777778,
+    "worstHours": 1.7425427777777778
   },
   "decisionCoverage": {
-    "total": 66,
-    "decided": 66,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "pending": {
@@ -59,395 +59,46 @@
     }
   },
   "audit": {
-    "at": "2026-09-04T13:41:29.201Z",
+    "at": "2026-09-04T13:56:24.697Z",
     "mode": "live",
     "collection": {
-      "returned": 96,
-      "kept": 66,
-      "duplicate": 30,
+      "returned": 0,
+      "kept": 0,
+      "duplicate": 0,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 41,
-      "rejected": 25,
-      "reasons": {
-        "no_fbs_school": 12,
-        "no_offer_term": 8,
-        "unclassified_offer_text": 2,
-        "hard_negative": 2,
-        "non_fbs_offer_target": 1
-      },
-      "samples": [
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095848010211020878",
-          "author": "asdafnews",
-          "searchJob": "texas-tech",
-          "text": "Bridging the Tech Gap: Commercial Vehicle and Caravan Professionals Offered Free Training on Advanced Driver Assistance Systems https://t.co/cvAXPv09PG https://t.co/th2XT9QExF"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095847588755013825",
-          "author": "tuttlecap",
-          "searchJob": "texas-tech",
-          "text": "$HBMX $DRMP https://t.co/GUMEeetyr5"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095844430825546000",
-          "author": "mashabledeals",
-          "searchJob": "texas-tech",
-          "text": "Get a 16GB MacBook Pro for $370 with this limited-time offer https://t.co/ckq0HNE92y"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095561434931568808",
-          "author": "munawarifaz",
-          "searchJob": "texas-tech",
-          "text": "This bill was not about taxpayers money. This bill was about academic institutions like Harvard, MIT engaging in boycotting or divesting from their partnerships with Israel. I am against any American universities cutting tie because Israeli"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095867843430519019",
-          "author": "neat_rips",
-          "searchJob": "california",
-          "text": "Labor Day weekend is packed with card shows across America! Check out our guide to 60 sports card, TCG, and collectibles shows happening September 4–7, with dates, locations, and links to help you find a show near you. https://t.co/ZGrNMHPz"
-        },
-        {
-          "reason": "unclassified_offer_text",
-          "postId": "2095859515971240425",
-          "author": "abc7ny",
-          "searchJob": "california",
-          "text": "Pabst Blue Ribbon needs your help finding its stolen beer, and the company is now offering a reward for information that helps them track it down. More: https://t.co/h5ApVpHig4 https://t.co/YAasd3Dg7X"
-        },
-        {
-          "reason": "unclassified_offer_text",
-          "postId": "2095846594310480308",
-          "author": "brewbound",
-          "searchJob": "california",
-          "text": "🚨 Pabst CEO Greig DeBow is offering $20,000 for info leading to the return of 1,602 cases of PBR allegedly stolen in a California cargo-theft operation. 🍺 https://t.co/3LojrhhSiW https://t.co/ysxTBKZw3C"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095844334159495328",
-          "author": "loopingcloud",
-          "searchJob": "california",
-          "text": "San Francisco opportunity! 1645 Mission St offers 3,781 SF with high ceilings, large windows & flexible office/retail/mixed-use potential near Hayes Valley, Mission & SoMa. 📍 Brian Merrion | 415-802-1400 https://t.co/Mc8Izha9VC #SanFrancis"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095867680364384749",
-          "author": "mustreadnewz",
-          "searchJob": "duke",
-          "text": "EXCLUSIVE: Byron Donalds Says GOP Must Offer Young Voters A ‘Plan For Their Success’ https://t.co/Yqr72um9S8 via @dailycaller"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095854036977422610",
-          "author": "lovesstripes",
-          "searchJob": "duke",
-          "text": "@hellomag Harriette has nothing new to offer. I've seen the same 'noise' they're creating now a few dayas after moving to the US. I wonder where the Duke of Duchess will move to again after six years? #Unsessexful #PrinceHarryisaBitch"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095853156601106609",
-          "author": "karas13133",
-          "searchJob": "duke",
-          "text": "EXCLUSIVE: Byron Donalds Says GOP Must Offer Young Voters A ‘Plan For Their Success’ https://t.co/1zy7EydJm2 via @dailycaller THEY WANT EVERYTHING FREE..THINGS ARE NOT FREE..DON'T EAT OUT EVERY DAY. DON'T HAVE A HIGH CREDIT CARD BALANCE.. D"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095869772072374684",
-          "author": "the_far_queen",
-          "searchJob": "wake-forest",
-          "text": "https://t.co/R2SgB3Oe6A"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095857191836062204",
-          "author": "pankoff_",
-          "searchJob": "wake-forest",
-          "text": "https://t.co/XwAEznyGAb"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095849200575713675",
-          "author": "imaskie",
-          "searchJob": "wake-forest",
-          "text": "01. A $200 Wake-Up Call: The Myth of the Monolithic Agent A developer recently voiced their frustration on X: \"Burned through 86% of the weekly Grok @bot limit on the $200 Ultra plan in just 1.5 days! Anyone else experiencing this or am I d"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095859424929923230",
-          "author": "father_rmv",
-          "searchJob": "ohio",
-          "text": "Our Lady of Consolation is a title given to the Virgin Mary, also known as Comforter of the Afflicted. It presents her as a mother who draws near to those in sorrow and offers the comfort that comes through her Son. The title has deep roots"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095844359564374285",
-          "author": "osmi_zzzmd",
-          "searchJob": "ohio",
-          "text": "Make the most of your Labor Day weekend—rest, recharge, and sleep well. If you need help feeling fully rested, consult Ohio Sleep Medicine Institute. We offer prompt evaluation and treatment of all sleep disorders. A dream come true just fo"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095869281053417474",
-          "author": "frank504616911",
-          "searchJob": "florida",
-          "text": "Weird how you never hear about any of this in the news...... TRUMP DOES THE UNTHINKABLE... I've never heard anything negative about the man until he announced he was running for president. • He's never even tried alcohol or tobacco. He does"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095865418283954446",
-          "author": "ja_oiv97756",
-          "searchJob": "florida",
-          "text": "@harryjsisson Old people always turn up when they offer free food"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095825546210885916",
-          "author": "floridatga",
-          "searchJob": "florida",
-          "text": "Today is the last day to take advantage of the early-bird discount at the 2026 Annual Florida Turfgrass Conference hotel. Hurry before the room block is sold out. Make reservations for your room at the Riding Academy Hotel today. Online Res"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095864523970236509",
-          "author": "cityofroswellga",
-          "searchJob": "georgia",
-          "text": "Parking on the street in downtown Roswell between 8 a.m. and 3 p.m.? Your first two hours are on us, but you still have to start a parking session! Look for the signage near your space &amp; then start your session on the app or at a kiosk."
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095857586452992018",
-          "author": "gadoenutrition",
-          "searchJob": "georgia",
-          "text": "The votes are in! Our #GATrayoftheWeek is the Oven Baked Chicken entrée from our hardworking team in Bryan County. This tray was served at Bryan County Elementary and is an excellent example of the quality meals offered by School Nutrition "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095595783177269348",
-          "author": "julianastratton",
-          "searchJob": "illinois",
-          "text": "If you know me, you know I’m a house head! Thank you @GreenVelvet_ for having me! https://t.co/ROxrr4FaUS"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095865879653154871",
-          "author": "rickfop86",
-          "searchJob": "indiana",
-          "text": "🚩RED FLAG WARNINGS 💰When the Indiana State Police has to Offer $10,000 Incentive Pay for New Troopers to Work in Marion County ⭕️ When Surrounding Counties won’t even allow their Officers to do police business in Indy due to Prosecutor Ry"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095864926417907838",
-          "author": "lohmiller_re",
-          "searchJob": "indiana",
-          "text": "Welcome home to this well-maintained 3-bedroom, 2 full bath, 1 half bath home conveniently located on Werner Way within the city limits of Batesville, Indiana. This home offers a comfortable layout, recent updates, and plenty of space both "
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 41,
-      "reasons": {
-        "school_not_resolved_confidently": 9,
-        "multiple_resolved_schools": 7,
-        "bare_mention_requires_llm": 24,
-        "explicit_non_fbs_target": 1
-      },
-      "samples": [
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095848908542878164",
-          "author": "whamp_playz",
-          "searchJob": "texas-tech",
-          "text": "With month-end finally here grabbing these deal is the besy investment u can make🤩 The #BlueTagSale has a HUGE range of tech on https://t.co/dz34s34OiE, the Shop App or retailers. Offers vary, check out @SamsungSA Only until 17 Aug - 27 Se"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095846842864898118",
-          "author": "calvinayre",
-          "searchJob": "texas-tech",
-          "text": "Advances in robotics have workers in many fields fearing the future, but we shouldn’t lose sight of the benefits that will come from no longer asking humans to risk life and limb to perform tasks necessary for economic growth. Last week’s ‘"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095846628099870919",
-          "author": "playtbr",
-          "searchJob": "texas-tech",
-          "text": "⚾🇺🇸 TBR LABOR DAY WEEKEND SALE! 🇺🇸⚾ Build your 2027 schedule at some of the best baseball destinations in the country—and save this weekend! Register for ANY 2027 TBR tournament during Labor Day Weekend and receive: 💰 $50 OFF EACH TOUR"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095844967780585765",
-          "author": "tech_mahindra",
-          "searchJob": "texas-tech",
-          "text": "Discover how AI is diffusing across the telecom ecosystem and reshaping the future of networks. Join Manish Mangal, President, Americas Communications Business, Tech Mahindra, in conversation with Chetan Sharma, CEO, Chetan Sharma Consultin"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095844636937847098",
-          "author": "overclockersuk",
-          "searchJob": "texas-tech",
-          "text": "V-Color offers a seriously impressive range of DDR5 memory, from high-speed gaming kits with RGB lighting to huge-capacity workstation memory for demanding workloads! ⚡ And if you want something a little different, select Manta XFinity+ kit"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095841151022457248",
-          "author": "legendof12thman",
-          "searchJob": "texas-tech",
-          "text": "Israeli technology is essential for America to remain a super power? 🤦‍♀️ The overwhelming majority of American military tech and equipmemt is designed, planned, researched, and implemented in the good ole USA. It's called NATIONAL SECURIT"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095840622758232463",
-          "author": "paulwarrick3",
-          "searchJob": "texas-tech",
-          "text": "They always offer 2 choices. Right now we're offered zionist Israel or Islam, left or right, red or blue. They run both sides & play out wars (to kill populations) not their families. It's why war zones are called theatre. Take this same id"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095862335634104655",
-          "author": "kennethfcrowe1",
-          "searchJob": "byu",
-          "text": "- AMERICA AS I SEE IT - ★ COMMENTARY BY KENNETH F CROWE ★ COLLEGE FOOTBALL WEEK 1 PICKS: HOW CLIPPERS CAN REBOUND FROM KAWHI SAGA LSU vs Clemson - Clippers Trade Kawhi To Raptors For Picks Folks, is that true? Let's be honest! USA TODAY / S"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095861234696401066",
-          "author": "scripted_3e",
-          "searchJob": "california",
-          "text": "wts 2 vip tickets ( soundcheck ) for bts at Inglewood, california (9/6) day 4 wouldn’t be going anymore so we wts these, please text if you need them going for fv but you can text with your offers ! 🏷️ world tour arirang wtb iso wtb Califo"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095859430273487136",
-          "author": "loopingcloud",
-          "searchJob": "california",
-          "text": "Berkeley mixed-use opportunity! 982 University Ave offers 3,436 SF with restaurant space + two 1-bedroom apartments near UC Berkeley. 🍽️🏠 Asking $1.198M. Brian Merrion | ExpCommercial | 415-802-1400 https://t.co/GHRyapd0qw #BerkeleyCA #Mi"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095859430026015026",
-          "author": "mrstanleycup",
-          "searchJob": "california",
-          "text": "A $5000 reward is being offered for information that solves this case! The Pennsylvania State Police Troop C - Clarion Station has an update regarding the unidentified woman that was found by children playing near a culvert in Monroe Townsh"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095845973691957485",
-          "author": "scottarnol79031",
-          "searchJob": "california",
-          "text": "I'm sorry but this is just a bunch of BS. The 'study' you cite was a study indicating how much each state throws at the public school systems and has nothing to do with actual outcomes. We have (thankfully) FULL school choice so of course t"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095865099554615720",
-          "author": "stephkuzy",
-          "searchJob": "cincinnati",
-          "text": "Fifth grade football players in the Cincinnati area were allegedly offered smelling salts to \"hype them up\" before a game, a practice long ago banned in the NFL. via @Local12 #athletesATrisk #SaferSidelines https://t.co/PtEIYri85X"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095860337295659101",
-          "author": "genzpolitico",
-          "searchJob": "duke",
-          "text": "@testosteroneHAV Counter offer; we make the Hunger Games real but specifically between Israel and Palestine. Each one monthly chooses their best fighters, we drop them off in uninhabited areas and let them duke it out while drones film for "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095848855690440858",
-          "author": "lauraakarim",
-          "searchJob": "duke",
-          "text": "#WarsoftheRoses OTD in 1455 - Birth of Henry Stafford, Duke of Buckingham. Buckingham is best known for his role in the events of 1483; first as a key ally who supported the accession of #RichardIII & then for his rebellion against the King"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095859845886779548",
-          "author": "dmurf26",
-          "searchJob": "utah",
-          "text": "@bforprogress @jp_gambatese I’d also argue that RFA’s are less secure in the offer sheet era. If he pops this year I’d expect to see an offer sheet from Utah next year 😂"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095857463048147225",
-          "author": "ethanmmcdowell",
-          "searchJob": "utah",
-          "text": "Amanaki Henoa was a rugby winger in New Zealand before moving to Utah this year. Now, he's a 6-4 DL with a Michigan offer. “I had to do my research, and people were saying, ‘Man, you don’t know who Michigan is?'” More on his journey to P4 f"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095865594830581830",
-          "author": "2ndmississippi",
-          "searchJob": "virginia",
-          "text": "\"Handshaking Distance\" Forrest, Morton, and the one command that still fought artillery at rifle range It was the afternoon of June 10, 1864, and the road out of Brice's Crossroads was narrow, and dry, and about to become famous. Four Confe"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095865088200581135",
-          "author": "chathamjournal",
-          "searchJob": "virginia",
-          "text": "The One Chatham Vision: A discussion with Dr. Kelly Batten - 9.3.26 👤 New superintendent: Dr. Kelly Batten became superintendent of Chatham County Schools on July 1 after 14 years with the district, most recently serving as assistant super"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095864464323035542",
-          "author": "briandevine",
-          "searchJob": "virginia",
-          "text": "Virginia overdose deaths continue to drop as Chesapeake offers free Narcan training https://t.co/82kqdq2mGr"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095862156482810279",
-          "author": "coastalvalaw",
-          "searchJob": "virginia",
-          "text": "Virginia DUI tip: A charge isn’t a conviction. Review the evidence and consequences before weighing a plea offer against trial. The best path is fact-dependent; not automatic. Free consults in Virginia Beach/Hampton Roads. https://t.co/bDO5"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095864310824042678",
-          "author": "andycarolin1",
-          "searchJob": "wake-forest",
-          "text": "A WG kid that transferred to Wake &amp; led the team in tackles last night. Could have played for Cuse but was not considered/offered a spot. https://t.co/iXwfD0Oacq"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095863361556644189",
-          "author": "kylefedz",
-          "searchJob": "wake-forest",
-          "text": "The fastest way to improve your offer is to stop selling the deliverable. Clients don't wake up wanting videos. They want attention, trust, leads, and sales. Sell the change. Use content to get them there."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095859403391971735",
-          "author": "ts_church",
-          "searchJob": "wake-forest",
-          "text": "I'm sorry this is wrong. The UK is leading the way in high borrowing costs because: 1) We had borrowed a lot before the Starmer govt 2) The Starmer govt (who came in without a plan!) made it far worse (Reeves' borrowing costs were consisten"
-        }
-      ]
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
-      "ok": true,
-      "reason": null,
+      "ok": false,
+      "reason": "phrase:\"all glory to god\" offer: rate limited",
       "jobs": 162,
-      "swept": 32,
+      "swept": 0,
       "failed": 1,
-      "requests": 33,
+      "requests": 1,
       "errors": [
         "phrase:\"all glory to god\" offer: rate limited"
       ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 41,
+      "rejectedCandidates": 0,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-04T13:43:31.153Z"
+    "status rebuilt locally from current store on 2026-09-04T13:56:30.806Z"
   ]
 }
