@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-04T03:56:11.946Z",
+  "generatedAt": "2026-09-04T04:13:19.183Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-04T03:43:17.968Z",
+    "at": "2026-09-04T04:13:18.935Z",
     "jobsTotal": 162,
-    "sweptThisRun": 31,
-    "requests": 32,
+    "sweptThisRun": 32,
+    "requests": 33,
     "fullSweepCycles": 6
   },
   "backfillCoverage": {
@@ -29,34 +29,30 @@
   },
   "staleSchools": [
     {
-      "id": "utsa",
+      "id": "new-mexico-state",
       "hours": 2.3
     },
     {
-      "id": "washington-state",
+      "id": "north-texas",
       "hours": 2.3
     },
     {
-      "id": "western-kentucky",
+      "id": "northern-illinois",
       "hours": 2.3
     },
     {
-      "id": "western-michigan",
-      "hours": 2.3
-    },
-    {
-      "id": "wyoming",
+      "id": "ohio",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.2509561111111112,
-    "p95Hours": 1.9989452777777779,
-    "worstHours": 2.251468611111111
+    "medianHours": 1.0348338888888888,
+    "p95Hours": 1.7875369444444444,
+    "worstHours": 2.284288611111111
   },
   "decisionCoverage": {
-    "total": 0,
-    "decided": 0,
+    "total": 29,
+    "decided": 29,
     "complete": true
   },
   "pending": {
@@ -73,53 +69,268 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-04T03:43:17.967Z",
-      "got": 67,
-      "new": 46,
+      "at": "2026-09-04T04:13:18.935Z",
+      "got": 43,
+      "new": 29,
       "lag": 0.15
     }
   },
   "audit": {
-    "at": "2026-09-04T03:56:08.692Z",
+    "at": "2026-09-04T04:11:12.018Z",
     "mode": "live",
     "collection": {
-      "returned": 0,
-      "kept": 0,
-      "duplicate": 0,
+      "returned": 43,
+      "kept": 29,
+      "duplicate": 14,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 17,
+      "rejected": 12,
+      "reasons": {
+        "no_fbs_school": 5,
+        "no_offer_term": 4,
+        "non_fbs_offer_target": 2,
+        "hard_negative": 1
+      },
+      "samples": [
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095710014589870417",
+          "author": "saveraaintl",
+          "searchJob": "class:2026",
+          "text": "🌴 Vegoils Summary — 3 Sept 2026 📉 CPO: Nov futures fell 1.13% to RM4,902/t, pressured by weaker vegoils and concerns over rising Malaysian stocks. 📦 Malaysia: August stocks could hit 2.76m tonnes, a 7-month high, though UOB expects produ"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095698652664664153",
+          "author": "crypto1618",
+          "searchJob": "class:2026",
+          "text": "https://t.co/6PhzSfnBKX"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095690015959593149",
+          "author": "neojohnson113",
+          "searchJob": "class:2026",
+          "text": "Written by Fable 5 in Cursor Pro plan, with deep and hard research and early drafts by local hosting Qwen 3.8 Flash Next on dual Spark stack, and my steering. https://t.co/tMWBauCOuu"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095702031163875762",
+          "author": "mai1kaden",
+          "searchJob": "nebraska",
+          "text": "After an amazing visit, I am blessed to announce my first offer to continue my athletic and academic career at Nebraska Wesleyan University! https://t.co/KLnR6aZYVG"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095708439985135805",
+          "author": "tosu_city",
+          "searchJob": "ohio-state",
+          "text": "#サガン鳥栖 をグループシートで応援しよう⚽️ 【9月19日(土曜日)19時00分～ vsいわきFC】 鳥栖市民を対象に、テーブルを囲んで観戦できるグループシートに1組ご招待します🎁 https://t.co/1lZmWDxMCv 締切：9月11日(金曜日)23時59分まで https://t.co/44SesMaq0n"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2095715351451553946",
+          "author": "jrmosley32",
+          "searchJob": "ole-miss",
+          "text": "Blessed to have received my first division one offer from Mississippi Valley State University! 🙏🏽 @Malcolm_Flaggs @OG6_SM https://t.co/D0hOZ19SDy"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2095714986215829605",
+          "author": "pollonpreps",
+          "searchJob": "ole-miss",
+          "text": "Maranatha junior guard JR Mosley Did two years at Legacy Christian Really good player Offer from Mississippi Valley State https://t.co/twM2Wxqiqj"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095632763676225991",
+          "author": "ryanobles",
+          "searchJob": "ole-miss",
+          "text": "NEW: I asked swing district Republican Rep. Rob Wittman three different times if he wants President Trump to campaign with him in Virginia. This is how he responded: https://t.co/byaeVwfh0g"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095707213566280075",
+          "author": "talltexanrealty",
+          "searchJob": "houston",
+          "text": "@OilCoIntern I’d cut my offer in half if that’s the case."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095719404046545366",
+          "author": "stompsmud",
+          "searchJob": "north-carolina",
+          "text": "This is a done deal, this is also orchestrated by @vonderleyen. It doesn’t matter what Canadians think, @ZelenskyyUa will get what he wants. Money Laundering 101. But mark my words he will his grubby on that money and most likely a done dea"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095702315001094561",
+          "author": "renegadeexp",
+          "searchJob": "nevada",
+          "text": "Renegade Exploration (ASX: RNX) has expanded its Caisson Project in Nevada with 32 new claims. With Caisson still undrilled, the project offers strong indicators, district‑scale potential and a completely untested system. Read the full feat"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095720237047939114",
+          "author": "dubsportsmedia",
+          "searchJob": "new-mexico",
+          "text": "2027 RB J-uan Harrison Jr. is one to watch at Mansfield Timberview. The 5’10”, 190-pound back holds offers from Texas Southern, Eastern New Mexico, Augustana and more. @JayJayDaBeast31 @TViewWolves https://t.co/9TrhdW1iEr"
+        }
+      ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "rejected": 17,
+      "reasons": {
+        "reporter_missing_player_name": 2,
+        "multiple_resolved_schools": 5,
+        "invalid_or_incomplete_offer_record": 1,
+        "bare_mention_requires_llm": 9
+      },
+      "samples": [
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2095705981548437618",
+          "author": "jucoffrenzy",
+          "searchJob": "class:2026",
+          "text": "Rising: 2026 (@IowaCentralFB ) JUCO OL @MichaelSmith25W was just offered by @OhioFootball https://t.co/szXHBtHlmx"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095723574883393548",
+          "author": "tramblejoe",
+          "searchJob": "kentucky",
+          "text": "THEUNIT MIDWEST RECRUITMENT Spotlight Athlete: The Interview @bush_treyv44529 @CoachCarr52 @CoachBlackwell_ @smsbacademy 2028 WR/ATH Treyveon Bush 6'1 195lb GPA: 3.7 Detroit Denby HS, Michigan Offers: Kentucky, Louisville, Memphis Bowling G"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2095718356208779351",
+          "author": "men_of_ksr",
+          "searchJob": "kentucky",
+          "text": "The list of high school targets for Mark Pope and the Kentucky Wildcats in the 2027 class just keeps getting longer, and this latest one might be the most interesting. Akol Nyok, a 7-foot-1 center from Ellicott City, MD, just got a scholars"
+        },
+        {
+          "reason": "invalid_or_incomplete_offer_record",
+          "postId": "2095706447925408098",
+          "author": "wildcatreport",
+          "searchJob": "northwestern",
+          "text": "Northwestern offers three-star 2028 DL RJ Cruz III from Lancaster (Pa.) McDonough. Profile: https://t.co/GyALM0RW7Y"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095710914674573642",
+          "author": "julia_jhixon06",
+          "searchJob": "oklahoma",
+          "text": "@thejacobshipley @mhp_guy You should bring her to Oklahoma for a Braums tour. I believe they still offer them."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095712141416288564",
+          "author": "alldspeed",
+          "searchJob": "ole-miss",
+          "text": "Donald Trump said earlier this year that he offered to come to Mississippi and do rallies for Cindy Hyde-Smith but she declined."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095724645991219670",
+          "author": "pbr1389le",
+          "searchJob": "rutgers",
+          "text": "@Keith_McPherson Why is rutgers in big 10? Atleast uconn offers 2 best basketball teams and great Olympic sports! Rutgers offers best library in the big 10! Lol why is schiano employed as the sun comes up?"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095724096273190974",
+          "author": "pbr1389le",
+          "searchJob": "rutgers",
+          "text": "@Ki11ersix @cfbtravelguy And uconn is in big east for basketball a d football is independent lol big 10 made a massive mistake in rutgers! Atleast uconn has 2 best basketball teams in the country! What does rutgers offer in anything? Best l"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095716605153939916",
+          "author": "pbr1389le",
+          "searchJob": "rutgers",
+          "text": "@CS_Pxp No surprise, schiano round 2 has been worse than edsall round 2 at uconn! Rutgers football is a mess! What do they offer big 10 in football or basketball? Absolutely nothing!!! Big 10 schould contract and not expand!"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095713082521649190",
+          "author": "pbr1389le",
+          "searchJob": "rutgers",
+          "text": "@Brett_McMurphy Schiano rehire has been a disaster! He looks defeated on sideline tonight! Where is that fiery guy? Can rutgers really go 3 and 9 yes! What exactly does rutgers offer big 10? Basketball is embarrassing, football is hot ass d"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095703901018210601",
+          "author": "badtakesmonitor",
+          "searchJob": "rutgers",
+          "text": "@barstoolsports The Big 10 needs to strongly consider relegation for Rutgers. What value do they offer the conference? There has to be better east coast schools to offer us, right? 🤔"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095700991429505490",
+          "author": "thejderoshow",
+          "searchJob": "rutgers",
+          "text": "@RFootball Rutgers is a swim school! Best swimmers the Jersey shore has to offer."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095716911069728877",
+          "author": "kingdavid9y",
+          "searchJob": "navy",
+          "text": "“I could have erased my Jewish roots — simply destroyed the thing that had caused me so much discomfort for so many years. But keeping my real name and wearing it as a badge seemed like a far greater challenge.” In Shaker Heights outside Cl"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095712189546213428",
+          "author": "alexwright1028",
+          "searchJob": "nevada",
+          "text": "ALSO: Tag me or email me with any recruiting information, offers, top lists announcements or commitments and we will update in our recruiting tracker. Nevada Preps recruiting tracker: Foothill QB gets 1st Division I offers https://t.co/u6NF"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095700917899145439",
+          "author": "nevadapreps",
+          "searchJob": "nevada",
+          "text": "Check out all the latest college recruiting news in the Nevada Preps recruiting tracker. A Foothill quarterback received his first Division I college offers. STORY: https://t.co/8gCSV6P9sA https://t.co/viCOY0DrR4"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095695593150836788",
+          "author": "iamvictor_e",
+          "searchJob": "nevada",
+          "text": "Mama Smurf wants me to take her to Nevada, but it’s been so long, our offers and comps are gone. So no free rooms :("
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095721736721555672",
+          "author": "1527ka",
+          "searchJob": "new-mexico",
+          "text": "@Ay_Blinkin She moved to New Mexico in the 1940s and I prefer her NM stuff. Her Museum is here in Santa Fe w/a Welcome Center near her home on Ghost Ranch where they offer tours of her home and studio."
+        }
+      ]
     },
     "search": {
-      "ok": false,
-      "reason": "utsa: rate limited",
+      "ok": true,
+      "reason": null,
       "jobs": 162,
-      "swept": 0,
+      "swept": 32,
       "failed": 1,
-      "requests": 1,
+      "requests": 33,
       "errors": [
-        "utsa: rate limited"
+        "new-mexico-state: rate limited"
       ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
+      "rejectedCandidates": 17,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-04T03:56:11.947Z"
+    "status rebuilt locally from current store on 2026-09-04T04:13:19.184Z"
   ]
 }
