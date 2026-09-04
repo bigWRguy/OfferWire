@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-04T08:43:51.302Z",
+  "generatedAt": "2026-09-04T08:58:44.307Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-04T08:43:51.060Z",
+    "at": "2026-09-04T08:58:44.112Z",
     "jobsTotal": 162,
     "sweptThisRun": 36,
     "requests": 36,
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5449491666666667,
-    "p95Hours": 1.0431566666666667,
-    "worstHours": 1.2955738888888888
+    "medianHours": 0.5405088888888889,
+    "p95Hours": 1.0433836111111112,
+    "worstHours": 1.0433836111111112
   },
   "decisionCoverage": {
-    "total": 23,
-    "decided": 23,
+    "total": 3,
+    "decided": 3,
     "complete": true
   },
   "pending": {
@@ -44,7 +44,7 @@
   "profileResolution": {
     "cached": 33
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 697,
     "incompleteOffers": 0
@@ -52,201 +52,57 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-04T08:43:51.060Z",
-      "got": 27,
-      "new": 23,
-      "lag": 0.11
+      "at": "2026-09-04T08:58:44.111Z",
+      "got": 8,
+      "new": 3,
+      "lag": 0.07
     }
   },
   "audit": {
-    "at": "2026-09-04T08:41:37.937Z",
+    "at": "2026-09-04T08:56:20.999Z",
     "mode": "live",
     "collection": {
-      "returned": 27,
-      "kept": 23,
-      "duplicate": 4,
+      "returned": 8,
+      "kept": 3,
+      "duplicate": 5,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 13,
-      "rejected": 10,
-      "reasons": {
-        "no_fbs_school": 7,
-        "no_offer_term": 3
-      },
-      "samples": [
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095792974709830057",
-          "author": "alphaaihub",
-          "searchJob": "texas-tech",
-          "text": "5️⃣ Practice the Interview Before They Do Paste the company’s values, job description, and your resume: “Act as the hiring manager for this role. Ask me 10 realistic behavioral and role-specific interview questions based on the job descript"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095790370844184689",
-          "author": "auro_verse",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/0uLp4Ar9Lc"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095789519047962912",
-          "author": "alphaaihub",
-          "searchJob": "texas-tech",
-          "text": "5️⃣ If they force you to give a number Do your market research before the interview. Then give a range—not an arbitrary single number. “Based on comparable roles, the scope of this position, and my experience, I’d be targeting approximately"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095787256678346904",
-          "author": "ziven_coder",
-          "searchJob": "texas-tech",
-          "text": "3. Offer Builder “Help me create a digital product for [niche]. Give me the offer, price, what’s included, and a simple sales page that makes people want to buy.”"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095785598435152188",
-          "author": "somerandomdev5",
-          "searchJob": "texas-tech",
-          "text": "@PlazmaFoxGaming @FolkWatchman @bupaela Being a cookie-cutter clone of a weirdo subculture doesn't make you unique or interesting. It just means you're weird. The reason people aren't interested in what you have to offer isn't \"because AI i"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095784309902963005",
-          "author": "theregister",
-          "searchJob": "texas-tech",
-          "text": "Best eSIM for travel 2026: which one offers the best value for money? https://t.co/LIYLSfhbcK"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095784146370966005",
-          "author": "bitvatech",
-          "searchJob": "texas-tech",
-          "text": "We built clienhub to Manage our clients easier and also allow them to easily access their dashboard to see all the services we currently offering them and also new services we can offer also #bitvatech #systembuild #webdev #services https:/"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095778307518394442",
-          "author": "atharv_golait",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/Yf14fReJtI"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095777311840674177",
-          "author": "sahbymehalla",
-          "searchJob": "texas-tech",
-          "text": "🪥📸 Dyson has unveiled a $500 smart toothbrush with a built-in camera, real-time image analysis and ultrasonic vibrations. The device can identify areas needing more cleaning and stream live footage to a smartphone. https://t.co/6slLOuyvdV"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095776485667963362",
-          "author": "techdekhoji",
-          "searchJob": "texas-tech",
-          "text": "Infinix HOT 70 Pro launched in India 🇮🇳 at ₹22,999 with offers Key highlights - Every variant has different design & is unique 📱 - NFC - IR - IP68 ✅ - Interactive Back Display for Notifications - 3+5 Year long s/w support - FHD 📱 + Mtk "
-        }
-      ]
+      "accepted": 3,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 13,
+      "rejected": 3,
       "reasons": {
-        "school_not_resolved_confidently": 10,
-        "bare_mention_requires_llm": 3
+        "bare_mention_requires_llm": 2,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095791225412657547",
-          "author": "pantum_europe",
-          "searchJob": "texas-tech",
-          "text": "Today's the day - IFA Berlin 2026 is officially underway! 🔥 Pantum is ready to welcome you! Don't just walk past our booth - there's plenty of tech, fun, gifts, and special offers waiting for you. 👀 At Pantum, you can: 🎁 Play - Try the L"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095788537379782859",
-          "author": "wiseravan",
-          "searchJob": "texas-tech",
-          "text": "@UserUnknow_7 @ihailmyindia Patented tech of NASA can't be shared or used for anything except what NASA agreed on liscence. Modi sold proprietory tech, is not any more proprietory, hence can be shared and used as per private firms : loot lo"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095788222198542731",
-          "author": "jakemcm36986672",
-          "searchJob": "texas-tech",
-          "text": "@AaronxShepherd I've never sold his offer so IDK. But, I imagine if you hit SMB who are not super AI savvy, and Luke already has good social proof, that's enough to get interest. Different if you're hitting say a tech CMO about AEO/GEO or w"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095786291606557131",
-          "author": "marcatriumai",
-          "searchJob": "texas-tech",
-          "text": "Artificial intelligence has gained consciousness, and blockchain has given it a bank account. The intersection of Web3 and AI is not just another narrative for venture capitalists — it is the foundation of an entirely new, machine‑centric e"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095783127893631318",
-          "author": "dncomchloeyang",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/xq3DonnDlo | For Sale Brandable 3‑letter .com for tech, quant &amp; SaaS ventures. DM your offer. #DomainsForSale https://t.co/i86JPrT4xt"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095779073696141815",
-          "author": "fci_india",
-          "searchJob": "texas-tech",
-          "text": "It takes a massive network of dedicated people, robust processes, and modern technology to move India’s foodgrain system every single day. The latest edition of Anna Swaraaj – Vol. III: Behind the Scenes offers an insider look at FCI’s end-"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095777440648048948",
-          "author": "o2kel",
-          "searchJob": "texas-tech",
-          "text": "Please stop talking, our input costs are way too high. Wages in china are sub $10 aud per hour, and work ethic is 100x vs Australia. Electricity prices are significantly less and that is a major input cost. Then the finished product after c"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095793348804251793",
-          "author": "kidsreallycute",
-          "searchJob": "wake-forest",
-          "text": "The headline is simple: TRON now holds more USDT supply than Ethereum, with roughly $94.27B in USDT on the network. But I think the real story is the changing role of stablecoins in the blockchain economy. Over the past month, USDT supply o"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095787054877581768",
-          "author": "zainalodge",
-          "searchJob": "wake-forest",
-          "text": "Wake up to the gentle rustle of the savannah breeze and the quiet beauty of wild nature. This September, take a break, and treat yourself to a much-needed reset at Zaina Lodge. Spaces for our September offer are limited. Reserve your spot t"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095778163208884589",
-          "author": "jd8077",
-          "searchJob": "wake-forest",
-          "text": "@TheGNPE He should pay attention to the Fabian’s as this chaos being created suits their political goals. They are creating this to offer themselves as solutions. It’s political. Wake up @metpoliceuk"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095785399314415995",
+          "author": "benenden_hosp",
+          "searchJob": "kent-state",
+          "text": "Last week, Becky Friend, Clinical Skills Facilitator at Benenden Hospital, and Cheryl Lythgoe, Nurse Consultant and Head of the Benenden Charitable Trust, delivered Be a Lifesaver (BLS) training to non-clinical hospital teams and local busi"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095791223428587570",
-          "author": "alarsenalnew",
-          "searchJob": "rice",
-          "text": "Arsenal could have the Premier League's best midfield for Chelsea on Sunday. Mikel Arteta joked last season about how many midfield line-ups he had on his iPad. Now he has six fit options who all offer something different. Martin Odegaard, "
+          "postId": "2095797589882839388",
+          "author": "elcontador2000",
+          "searchJob": "liberty",
+          "text": "Imagine arriving in Gaza, kicking off your shoes and immediately feeling the warm, welcoming breeze of total personal liberty. Everyone there is busy celebrating diversity and individual expression. The local tourist office even offers a ha"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095788508841439432",
-          "author": "toonto89",
-          "searchJob": "rice",
-          "text": "@yabaleftonline This is all naija babes dream. Make one good man just come 😂. Many of them don’t want to even preserve that one thing they have to offer. The sell it and still want a rice man to many the slack thing."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095782748967616574",
-          "author": "astrotherapist1",
-          "searchJob": "rice",
-          "text": "*JANMASHTAMI GUPT DHAN PRAVAH REMEDY* I am sharing this especially for those who feel: “I am earning, I am trying, but somehow money either gets blocked or does not stay.” Tonight, take one clean yellow cloth. Place on it: 11 grains of unbr"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095792184985600337",
+          "author": "bballstrategy",
+          "searchJob": "south-florida",
+          "text": "If Tatum is made available for trade decisions at some point, there will be many offers, very serious or not so much. I'd guess the Bulls and Hornets could be prominent suitors. Multi-team deals may be desirable or necessary."
         }
       ]
     },
@@ -261,11 +117,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 13,
+      "rejectedCandidates": 3,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-04T08:43:51.303Z"
+    "status rebuilt locally from current store on 2026-09-04T08:58:44.308Z"
   ]
 }
