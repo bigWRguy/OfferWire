@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-03T23:58:15.569Z",
+  "generatedAt": "2026-09-04T00:13:29.292Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-03T23:58:15.272Z",
+    "at": "2026-09-04T00:13:29.029Z",
     "jobsTotal": 162,
-    "sweptThisRun": 33,
+    "sweptThisRun": 34,
     "requests": 35,
     "fullSweepCycles": 5
   },
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5350675,
-    "p95Hours": 1.0340919444444445,
-    "worstHours": 1.2956275
+    "medianHours": 0.53743,
+    "p95Hours": 1.0381605555555555,
+    "worstHours": 1.287903888888889
   },
   "decisionCoverage": {
-    "total": 35,
-    "decided": 35,
+    "total": 31,
+    "decided": 31,
     "complete": true
   },
   "pending": {
@@ -46,281 +46,230 @@
   },
   "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 674,
+    "completeOffers": 677,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-03T23:58:15.272Z",
-      "got": 73,
-      "new": 35,
-      "lag": 0.09
+      "at": "2026-09-04T00:13:29.029Z",
+      "got": 86,
+      "new": 31,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-03T23:56:03.480Z",
+    "at": "2026-09-04T00:11:10.711Z",
     "mode": "live",
     "collection": {
-      "returned": 73,
-      "kept": 35,
-      "duplicate": 38,
-      "tooOld": 0,
+      "returned": 86,
+      "kept": 31,
+      "duplicate": 54,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 22,
-      "rejected": 13,
+      "accepted": 23,
+      "rejected": 8,
       "reasons": {
-        "no_offer_term": 2,
-        "hard_negative": 10,
-        "no_fbs_school": 1
+        "no_offer_term": 1,
+        "hard_negative": 2,
+        "no_fbs_school": 5
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2095622208664089004",
-          "author": "freddyla7",
-          "searchJob": "iowa",
-          "text": "Alright, the flight is booked!!!🇺🇸✈️ In exactly one week we’re flying back to America! We’ll land in Chicago on Thursday, do some quick sightseeing, and then on Friday we’ll get in the car and drive to Iowa City for our first ever college"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095481945220415541",
-          "author": "pontifex_es",
-          "searchJob": "missouri",
-          "text": "No tengan miedo de sembrar sin ver inmediatamente los frutos. A ustedes les corresponde sembrar; el crecimiento pertenece a Dios. Ningún gesto realizado en el nombre de Cristo es inútil."
+          "postId": "2095663184065528069",
+          "author": "wagerwiseusa",
+          "searchJob": "eastern-michigan",
+          "text": "1.43% of expected value sitting at ProphetX. Number won't hold. 🏈 San Jose State Spartans vs. Eastern Michigan Eagles on 9/4 6:30pm Eastern Michigan Eagles -3: +108 @ ProphetX Fair line: +105 Calc it yourself: https://t.co/EXwlBGFWDs #Gamb"
         },
         {
           "reason": "hard_negative",
-          "postId": "2095660162870657033",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095660076212289716",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095659954392723920",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095659875766296951",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095659758740996537",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095659629661311249",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095659370151293324",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095659269978796322",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095659135073206721",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095657033928180146",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 3, 2026 — CDC removed two Pennsylvania measles-linked deaths, saying causation was unproven; Reuters says RFK Jr. ordered i"
+          "postId": "2095662042128536003",
+          "author": "tdalabamamag",
+          "searchJob": "ohio-state",
+          "text": "Mae Jemison 2028 4-Star OL Samuel Bailey @SamuelSb28 is set to go to battle against Columbia. Bailey holds offers from Alabama, Ohio State, Georgia and others. Stream the game LIVE at 7 p.m. https://t.co/5qBW2zCvfL https://t.co/8HcszhS98s"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095655802124009821",
-          "author": "disabilityca",
-          "searchJob": "california",
-          "text": "Join us for a virtual teach-in to learn about the history and future of the Peer Movement: Where we’ve been, where we are now, and what we want for the future. The Peer Movement for mental health is founded on the importance of community, p"
+          "postId": "2095652064449712355",
+          "author": "tomvanderford",
+          "searchJob": "ole-miss",
+          "text": "@AGLizMurrill But I thought Lane said we offered? Which one is it?"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095651342014349764",
+          "author": "wilgunter",
+          "searchJob": "south-carolina",
+          "text": "Excited to help out and offer some thoughts on Gamecock football this fall on @GamecockCentral / @TheBigSpurOn3 . Here is the official 2026 football prediction for each game. Agree or Disagree? https://t.co/5G0cveIl9j"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095665024484462740",
+          "author": "derykhouston",
+          "searchJob": "houston",
+          "text": "@MelnykAndrij Good. Now...so...can you explain why Ukraine rejected outright a much better offer that was on the table in the first few days of the war? Can you explain why you rejected Diplomacy? Can you explain why Ukraine allowed itself "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095655946378686690",
+          "author": "yokeenan10",
+          "searchJob": "houston",
+          "text": "@JCChristopher My offer is $0.0000000000000"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095663133276979395",
+          "author": "thesportsontap",
+          "searchJob": "nevada",
+          "text": "Jett Washington could have played basketball. He was good enough. He helped Bishop Gorman in Las Vegas win back to back Nevada state basketball championships. College programs wanted him on the hardwood. His uncle was Kobe Bryant. He picked"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095663133247615384",
+          "author": "ruhcare",
+          "searchJob": "ohio",
+          "text": "Meet Aida Diallo, a Licensed Independent Social Worker based in Ohio. Aida offers a supportive space to pause, reconnect, and move forward while thoughtfully incorporating Islamic principles into her therapeutic practice🌿 Book a session: h"
         }
       ]
     },
     "extraction": {
-      "accepted": 2,
-      "rejected": 20,
+      "accepted": 5,
+      "rejected": 18,
       "reasons": {
-        "bare_mention_requires_llm": 10,
-        "multiple_resolved_schools": 7,
-        "reporter_missing_player_name": 1,
-        "explicit_non_fbs_target": 1,
-        "school_not_resolved_confidently": 1
+        "reporter_missing_player_name": 3,
+        "bare_mention_requires_llm": 11,
+        "multiple_resolved_schools": 4
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095638330578788359",
-          "author": "hitsquad_og",
-          "searchJob": "wyoming",
-          "text": "@CoachZSims @JUCOFFrenzy @wyo_football @JoshAllenQB No bitch they offered him because frenzy recognized his size and talent first! Shut tf up!"
+          "reason": "reporter_missing_player_name",
+          "postId": "2095663226306334788",
+          "author": "fsuwire",
+          "searchJob": "class:2029",
+          "text": "Blue-chip 2029 edge receives offer from FSU 📸 Jim Dedmon-USA TODAY Sports https://t.co/0Ve1vP888T https://t.co/K4K0btWEFe"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095659300920443335",
-          "author": "bobcatattack",
-          "searchJob": "iowa",
-          "text": "Ohio offers Iowa Western Community College CB Coaleon Johnson"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095653535211798647",
-          "author": "indeehawk",
-          "searchJob": "iowa",
-          "text": "I hope @HawkeyeFootball can hook Freddy up. Show him the best time Kinnick has to offer"
+          "postId": "2095665572415443074",
+          "author": "ksronx",
+          "searchJob": "kentucky",
+          "text": "Kentucky sent out an offer to a 7-foot-1 2027 center on Thursday. ➡️ https://t.co/n3UIpfQXwg https://t.co/Jh2z88NNz3"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2095661243625243019",
-          "author": "lord_chewie",
-          "searchJob": "lsu",
-          "text": "Breaking: LSU has offered UMass QB, Joseph Griffin Jr, and NIL deal to transfer after the game."
+          "postId": "2095650825494294829",
+          "author": "timverghese",
+          "searchJob": "nebraska",
+          "text": "Nebraska is set to host 30 visitors for the season opener against Ohio Here’s a look at the key targets to know and which visitors are on offer watch Saturday https://t.co/pNqXcv1qHn"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2095659913972236757",
-          "author": "reportbulldawg",
-          "searchJob": "lsu",
-          "text": "However, I will hear offers on LSU to the B12 for UCF."
+          "postId": "2095651056810119561",
+          "author": "whiteoutfb",
+          "searchJob": "ohio-state",
+          "text": "I can now confirm that 3 star fast rising running back @2k_jlo will be visiting Penn State in the near future Hall will stay in his home state this week and head to Ohio State. The Buckeyes have not offered yet but could be coming shortly. "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095651295709274143",
-          "author": "coach_theriot",
-          "searchJob": "lsu",
-          "text": "@JackD_Vol I 100% agree. I think I can say most reasonable LSU fans (we know not every one is reasonable) are ok if they want to offer a blanket waiver or a blanket ban on all 5th years. The issue I personally have is this is being painted "
+          "postId": "2095657432001216918",
+          "author": "geaux007",
+          "searchJob": "ole-miss",
+          "text": "@LynnFitchAG @LynnFitchAG you realize @MSStateFootball and @OleMissFB have both offered these “pros”. Great statement if only it were true."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095644456280023437",
-          "author": "fauxartbriles",
-          "searchJob": "lsu",
-          "text": "Rod Serling voiceover: Imagine, if you will, a world where Will Wade —- he of the strong-ass offer —- is the most-liked coach at LSU. Only in … the Twilight Zone."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095660689809363369",
-          "author": "queenanticommie",
-          "searchJob": "maryland",
-          "text": "In March 1861, Congress passed and Lincoln endorsed sending to the states a constitutional amendment that would have permanently banned the federal government from abolishing slavery in any state. It never says “slavery”; it locks in “domes"
+          "postId": "2095650096129999132",
+          "author": "real_goobird",
+          "searchJob": "ole-miss",
+          "text": "@studurando May &amp; SLU donors apparently have been saying SLU would have the $ if Avila was cleared now hearing today Ole Miss has an offer of $2 million compared to SLU $1 million. Avila is nuts not taking Ole Miss offer. NCAA is such a"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095655580975464575",
-          "author": "fisher4maryland",
-          "searchJob": "maryland",
-          "text": "Maryland Exports Crime — Maryland makes the news as an exporter of juvenile crime. @MDFreedomCaucus offers a bill to solve this issue every year, but Democrats always reject it. Join @chisholmstrong &amp; me for the Dumbest Bill in America!"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095652165683446247",
-          "author": "coreywriting",
-          "searchJob": "maryland",
-          "text": "@CFBTalkDaily I mean, the best kids in NJ are also offered by Ohio State, Michigan, Penn State, etc. Heck, I'd rather go to Maryland (a short drive from NJ) than Rutgers."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095656040268283908",
-          "author": "jewishlives1",
-          "searchJob": "michigan",
-          "text": "Vance meets with Temple #Israel rabbi on Michigan visit, offers support to community ...Follow https://t.co/zJVf2fGfuJ for more. https://t.co/T1SNAGl2Xn #WeRemember #AmYisraelChai #IsraelUnderAttack #JewishVoices #FightAntisemitism #StandWi"
+          "postId": "2095649539914920246",
+          "author": "misslou365",
+          "searchJob": "ole-miss",
+          "text": "Ole Miss offers massive 6-foot-4, 325-pound 2031 OL Julius Michael - Ole Miss 365 @OleMiss365 Story: https://t.co/oXJY8pUw5K #OleMiss #HottyToddy @Rebels247 @warren_rowan @Juliusjumichael"
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2095646983512060353",
-          "author": "kirsoccer",
-          "searchJob": "michigan",
-          "text": "@unbiased2cent @marcus_ut182 @guvernmentname Show me where I said he was offered at Michigan. That was Dampier. Byrd said he received offers and turned them down. Do you think he's lying? YOU are the delusional one."
+          "postId": "2095656444930510850",
+          "author": "tyler_calvaruso",
+          "searchJob": "penn-state",
+          "text": "Penn State offers 2028 Baltimore (Md.) Mount Saint Joseph linebacker Cyrus Zuah. https://t.co/vSxRMzEJ3m"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095650949893075403",
-          "author": "tlschwerz",
-          "searchJob": "minnesota",
-          "text": "Source: Former Twins outfielder Kyler Fedko has agreed to a MiLB deal with the Pittsburgh Pirates. Minnesota offered. He’s headed to his hometown organization."
+          "postId": "2095660950120505467",
+          "author": "tdrago90",
+          "searchJob": "rutgers",
+          "text": "@BarstoolRU Maybe get a D coordinator that has coached in D1🤣...dude jumped on that job as soon rutgers offered it"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2095653442346000642",
+          "author": "nolapels_saints",
+          "searchJob": "rutgers",
+          "text": "Charles Huff should get a coaching offer from Rutgers atp 😂"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095650657483022734",
-          "author": "naterealmidwest",
-          "searchJob": "minnesota",
-          "text": "How is this fair? Minnesota Supreme Court just shot down Mike Lindell’s recount petition after he offered to pay for it himself. Same court makes time to hear a discrimination case against a Catholic school over a transgender librarian. One"
+          "postId": "2095660688534392902",
+          "author": "robjob76",
+          "searchJob": "south-carolina",
+          "text": "@CoachEBenton Has anyone else offered a South Carolina kicker?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095664032132796909",
+          "author": "2k_shade",
+          "searchJob": "houston",
+          "text": "@broshantorr @Classicist9999 @UltraJohnus @nypost You're free to do something right now. How about this? I'll give you the same offer I gave another Nazi. They scurried away like the coward they are. Come to Houston. Sign a waiver and step "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095660370517991620",
+          "author": "jaypops5",
+          "searchJob": "houston",
+          "text": "@SassyEagleUSA @rcb05 Oh and you didn’t know that A&amp;M was nowhere near mad because he didn’t choose them? Maybe check the other scholarship offers that were also sent out. Lol"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095657613375812007",
+          "author": "jetbookinghub",
+          "searchJob": "houston",
+          "text": "✈️ EMPTY LEG FLIGHTS — 07 SEPTEMBER 2026 Private jet travel doesn’t always have to mean paying for a full one-way charter. Empty leg flights can offer access to repositioning aircraft at potentially attractive rates. 🌍 AVAILABLE ROUTES: 🇺"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095663121465786420",
+          "author": "weblogbooks",
+          "searchJob": "north-carolina",
+          "text": "She believes her sister’s death was her fault. A new life in North Carolina offers hope until a devastating storm and buried secrets threaten to destroy her again. By @GuarinoLucille Available on - Amazon https://t.co/cYAYZ7S1ki"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2095660614773571746",
-          "author": "dunnbilly87734",
-          "searchJob": "missouri",
-          "text": "Papa León XIV @Pontifex_es Translated from Spanish Do not be afraid to sow without seeing the fruits immediately. It is your responsibility to sow; the growth belongs to God. No gesture performed in the name of Christ is in VAIN. 5:00 AM · "
+          "postId": "2095661159198138422",
+          "author": "fduffy123",
+          "searchJob": "navy",
+          "text": "@EO_Halloran What makes you seriously think we don't already have some protection. I think the idea those cables aren't protected at all is for the birds, the Royal Navy offers assistance , the UK will always have superior capacity it makes"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095649763756585288",
-          "author": "kremlincardinal",
-          "searchJob": "missouri",
-          "text": "@MatthewKeysLive @Lokay When KOMU's sports director died suddenly last summer, right before Mizzou and high school football, the ABC affiliate here (where I'm at now) offered their help with sports coverage and sharing any sports video we n"
+          "postId": "2095659682543341705",
+          "author": "5230nick",
+          "searchJob": "navy",
+          "text": "@Bendover_sym @RupertLowe10 I wonder if you will send actual brits to fight or offer fast citizenship to the muslims and let the be part of the prestigious \"royal\" navy, you know since muslims are known for their ability to swim."
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2095661379696918881",
-          "author": "millypea",
-          "searchJob": "california",
-          "text": "WTS 2 BTS tickets for LA Inglewood day 4 • September 6th at So-Fi stadium Dm me army if you’re interested I’m willing to let them go for fv, and also open to offers 💜 Arirang tour ticket california cali wtb wtt https://t.co/BBpMXbzlE5"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095654186020929893",
-          "author": "bearforcecubhq",
-          "searchJob": "colorado",
-          "text": "GTA VI ONLINE — YEAR 2 ROADMAP PITCH @RockstarGames, after Year 1 establishes our character in Leonida, builds the criminal empire, introduces major businesses and expands GTA Online beyond the main storyline, Year 2 should be the point whe"
-        },
-        {
-          "reason": "explicit_non_fbs_target",
-          "postId": "2095647688603603138",
-          "author": "micahprice777",
-          "searchJob": "nc-state",
-          "text": "Beyond blessed to Announce I received my 22nd D1 offer from North Carolina State University https://t.co/7NziQgzJLg"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095647361846718777",
-          "author": "bambam25917",
-          "searchJob": "coastal-carolina",
-          "text": "The coastal path offers sweeping views of the ocean’s boundless beauty. Walking alongside it, the endless horizon opens the mind and fills one with a sense of the sea’s magnificence. ♂️ Friends camping together, the tent was taken down. htt"
+          "postId": "2095660995876110775",
+          "author": "texanreport",
+          "searchJob": "north-texas",
+          "text": "🚨🏍️ DPS Seeks Driver Who Fled After Fatal Motorcycle Crash in Grayson County 🏍️🚨 Grayson County, TX — The Texas Department of Public Safety is asking for the public’s help identifying the driver of a Toyota Corolla involved in a fatal J"
         }
       ]
     },
@@ -328,21 +277,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 33,
-      "failed": 2,
+      "swept": 34,
+      "failed": 1,
       "requests": 35,
       "errors": [
-        "florida-state: SearchTimeline HTTP 404 (slice left pending)",
-        "delaware: rate limited"
+        "old-dominion: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 2,
-      "rejectedCandidates": 20,
-      "brandNewOffers": 1
+      "acceptedEvidence": 5,
+      "rejectedCandidates": 18,
+      "brandNewOffers": 3
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-03T23:58:15.570Z"
+    "status rebuilt locally from current store on 2026-09-04T00:13:29.293Z"
   ]
 }
