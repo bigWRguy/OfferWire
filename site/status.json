@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-04T14:58:25.244Z",
+  "generatedAt": "2026-09-04T15:13:36.094Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-04T14:58:24.976Z",
+    "at": "2026-09-04T15:13:35.752Z",
     "jobsTotal": 162,
-    "sweptThisRun": 33,
-    "requests": 34,
-    "fullSweepCycles": 5
+    "sweptThisRun": 32,
+    "requests": 33,
+    "fullSweepCycles": 6
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.785985,
-    "p95Hours": 1.7823027777777778,
-    "worstHours": 1.7823027777777778
+    "medianHours": 0.7116980555555555,
+    "p95Hours": 1.5352455555555555,
+    "worstHours": 2.0353166666666667
   },
   "decisionCoverage": {
-    "total": 52,
-    "decided": 52,
+    "total": 89,
+    "decided": 89,
     "complete": true
   },
   "pending": {
@@ -44,376 +44,387 @@
   "profileResolution": {
     "cached": 33
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 4,
   "quality": {
-    "completeOffers": 702,
+    "completeOffers": 703,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-04T14:58:24.975Z",
-      "got": 71,
-      "new": 52,
-      "lag": 0.14
+      "at": "2026-09-04T15:13:35.751Z",
+      "got": 144,
+      "new": 89,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-04T14:56:08.630Z",
+    "at": "2026-09-04T15:11:26.397Z",
     "mode": "live",
     "collection": {
-      "returned": 71,
-      "kept": 52,
-      "duplicate": 18,
-      "tooOld": 1,
+      "returned": 144,
+      "kept": 89,
+      "duplicate": 48,
+      "tooOld": 7,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 24,
-      "rejected": 28,
+      "accepted": 47,
+      "rejected": 42,
       "reasons": {
-        "no_offer_term": 10,
-        "no_fbs_school": 16,
-        "hard_negative": 1,
-        "non_fbs_offer_target": 1
+        "hard_negative": 15,
+        "no_offer_term": 12,
+        "no_fbs_school": 15
       },
       "samples": [
         {
+          "reason": "hard_negative",
+          "postId": "2095891811365503199",
+          "author": "coachrbolden",
+          "searchJob": "arkansas",
+          "text": "2029 Safety/OLB going back to the Hill! Already holds offer from the Hogs being recruited by Coach Wilson, Coach Gibbs, and Coach Yac! Has had a strong start to his sophomore season! 🐗🐗"
+        },
+        {
           "reason": "no_offer_term",
-          "postId": "2095873695604461717",
-          "author": "apyhub",
-          "searchJob": "rutgers",
-          "text": "https://t.co/2TRkXXVqZT"
+          "postId": "2095866063925752251",
+          "author": "desmond98670672",
+          "searchJob": "arkansas",
+          "text": "Excited to be back on The Hill this weekend!! @RazorbackFB @Donavan_Ellison @coachcgibbs @CoachYACJohnson @CoachDWilson7 @Senator_Pride @CoachRBolden @CoachUptergrove #Allin #WPS 🐗🐗 https://t.co/h7SyqUCtSv"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095874927484162253",
-          "author": "scfathers",
-          "searchJob": "south-carolina",
-          "text": "Financial stability is a powerful foundation for every family. The Charleston Financial Empowerment Center offers free, one-on-one financial counseling for budgeting, credit, debt, homeownership, and more. Learn more: https://t.co/PupbSFJvL"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095866377307562490",
-          "author": "usaclothingbulk",
-          "searchJob": "south-carolina",
-          "text": "Reliable local production supports better inventory control. \"USA Clothing Manufacturers\" offers clothing made in South Carolina, which helps brands deliver garments that customers trust and wear comfortably. Visit https://t.co/Gw21lWYbI8 #"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095885101678620860",
-          "author": "sycamoretn",
-          "searchJob": "tennessee",
-          "text": "Our newest brief is out: Financial Hardship and Affordability in Tennessee This report offers insights about the cost of basic needs, rates of financial hardship, and income in Tennessee. Learn more: https://t.co/uwcJKBnuD6 https://t.co/nHc"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095878669428240884",
-          "author": "tamdrwoodworks",
-          "searchJob": "tennessee",
-          "text": "One of our 4-foot benches we just finished up for a customer! 🔨 This one is stained in Dark Walnut by Minwax and finished with four coats of gloss polyurethane for a beautiful, durable finish. Don’t like this color? No problem! We offer 30"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095872078033625115",
-          "author": "uclaurology",
-          "searchJob": "ucla",
-          "text": ". @DrKScotland recipient of this years Tow Humanism in Medicine Award gave they keynote speech at this years @dgsomucla White Coat ceremony. Please take a listen at the words of guidance and encouragement she offered our newest class of stu"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095862807661048204",
-          "author": "ahlbruins",
-          "searchJob": "ucla",
-          "text": "Score a great deal this Labor Day 🇺🇸 with this special Opening Weekend Hat Trick offer! For a limited time get your choice of select winter hat INCLUDED with the purchase of a Hat Trick! 🎟️ https://t.co/5ShPbcyOVt https://t.co/SkuubQaYsO"
+          "postId": "2095890944230830498",
+          "author": "holliechoe",
+          "searchJob": "oregon",
+          "text": "You accept an offer. Now what? This is the gap no one explains. Here's what happens between offer and closing: ✅ Due diligence (30-60 days of buyer verification) ✅ You answer constant questions (daily/weekly requests) ✅ Buyer's financing ge"
         },
         {
           "reason": "hard_negative",
-          "postId": "2095883032817262619",
-          "author": "bass_colter",
-          "searchJob": "usc",
-          "text": "GAME NIGHT IN PICKERINGTON We’ll be at Pickerington Central vs. Pickerington North tonight, following two of the nation’s BEST young prospects! ⭐️ @geordanmckn1ght — 2028 4⭐️ Safety | National recruit with offers from Ohio State, Alabama, M"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095887062331486376",
-          "author": "trenten_hagler",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with Coach @Cameron_covin I’m blessed to receive an offer to Ottawa University in Arizona to play Qb @CoachMurphyQB @OUAZFootball https://t.co/kym3FcSfAW"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095884108173914196",
-          "author": "hoballah26",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my 7th offer from @OUFBrecruiting 🙏🏻🙏🏻 @jacobsbrett @oaklandu https://t.co/Z0vgP86hIg"
+          "postId": "2095890170675363880",
+          "author": "arthur_win8",
+          "searchJob": "oregon",
+          "text": "ELON MUSK NEW TODAY - Folder now 1423 posts (13 new vs prev 1410) - Testers (Mr_ElonMusk_Tw, Sep 4): I’m very excited seeing so much love from you all, you made my day wonderful, and I promise to keep on working hard and keep doing the good"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095881823184187696",
-          "author": "clarkcaden15",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "blessed to receive a gameday from @ODUFootball to there game vs norfolk state tmrw @PRZcory https://t.co/YFGwDF8caB"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095881564227817488",
-          "author": "clarkcaden15",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "blessed to receive a gameday from @CharlotteFTBL @PRZcory https://t.co/gnqHO6puDO"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095881387752497365",
-          "author": "clarkcaden15",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "blessed to receive a gameday from @WMTribeFootball @PRZcory https://t.co/MDZavxL0gh"
+          "postId": "2095887143587414267",
+          "author": "jakeweingarten",
+          "searchJob": "oregon",
+          "text": "Oregon is hosting Top-50 senior and breakout prospect King Rachal for an official visit beginning today, he told @Stockrisers. He went in-depth on his recruitment including the pursuit from the Ducks, others⬇️https://t.co/JIrBIXwMgP"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095881011485704279",
-          "author": "jasiah_riojas09",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "#AGTG After a great conversation this morning with @QBcoachsnyder I am blessed to receive my 2 offer from @kwucoyotes @Recruit_Taylor @officialflow32 @coachjknightOL https://t.co/pOmaCsyKLE"
+          "postId": "2095872563725418576",
+          "author": "reallyhealthy",
+          "searchJob": "oregon",
+          "text": "What makes Klamath Blue-Green Algae so interesting? Klamath Blue-Green Algae (AFA) is a naturally nutrient-rich freshwater algae traditionally harvested from Upper Klamath Lake in Oregon. Its complex nutritional profile includes chlorophyll"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095870827895927059",
-          "author": "davidae_coleman",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @ReedHoskins I’m blessed to receive my first offer to play at @scstormfootball @CoachOBrien_SC @ClearLakeFB @CoachAaronStens https://t.co/VpefEHjrXc"
+          "postId": "2095888095707013602",
+          "author": "yourpremiertra1",
+          "searchJob": "texas",
+          "text": "#yourpremiertravels #travelphotography #wanderlust #exploremore #instatravel #traveladdict #vacationmode #adventuretime #traveldiaries #travelgoals #adventureawaits #exploretheworld #exploreeverything #travelinspiration #roamtheplanet Certi"
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095863572337197270",
-          "author": "ashtonclare16",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my 5th offer from Berry College! Thank you @BCCoachK and @CoachMaxJames for the opportunity! https://t.co/2HFy9jLeax"
+          "reason": "hard_negative",
+          "postId": "2095883411831316571",
+          "author": "nutleylife",
+          "searchJob": "texas",
+          "text": "Tech Headlines (last 30 hours) Artificial Analysis Coding Agent Index: GPT-6 Astra scored 67 roughly equal to Claude Opus 5 Fable 5 and Muse Spark 1.3 but trailing leader Fable 5.1's 70 Some European defense officials push back on efforts t"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095875787765260744",
+          "author": "schumankimm",
+          "searchJob": "texas",
+          "text": "🚨BREAKING: A Flock Safety sales representative offered Sheboygan, Wisconsin, five years of speed and vehicle-movement data captured by its cameras—data the city says it never knew Flock was collecting. -RTDNews Proof FLOCK is Total surveil"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095874279556440492",
+          "author": "rustysurettetv",
+          "searchJob": "texas",
+          "text": "🎥 Report: The Beaumont, Texas Police Department was one of several law enforcement agencies that used #Flock to run searches linked to No Kings protests and rallies. 📲From 404Media: \"As Flock publicly downplays the power of its automated "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095861225984811272",
-          "author": "camrinharris30",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Extremely blessed to receive a camp invite from Norfolk State University! Cannot wait to put my skills on full display! @NorfolkStateFB @Coach_TimSmith https://t.co/qSKVpY7aSH"
+          "postId": "2095873630185885985",
+          "author": "import_with_tia",
+          "searchJob": "texas",
+          "text": "https://t.co/eVk4FBzxEk"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095873541308616943",
+          "author": "texasneurology",
+          "searchJob": "texas",
+          "text": "September is #WorldAlzheimersMonth. Alzheimer's is the most common cause of dementia, but it is not a normal part of aging. Our Memory Disorders Clinic offers comprehensive evaluations and expert care. 🧠 Learn more or request an appointmen"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095892459075018899",
+          "author": "randyferrell",
+          "searchJob": "washington",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095892178530697620",
+          "author": "randyferrell",
+          "searchJob": "washington",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095891675553935515",
+          "author": "randyferrell",
+          "searchJob": "washington",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095891589168066832",
+          "author": "randyferrell",
+          "searchJob": "washington",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095891331440636103",
+          "author": "randyferrell",
+          "searchJob": "washington",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095891145364566068",
+          "author": "randyferrell",
+          "searchJob": "washington",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095890940175016428",
+          "author": "randyferrell",
+          "searchJob": "washington",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095890832838508636",
+          "author": "randyferrell",
+          "searchJob": "washington",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095890162806837316",
+          "author": "randyferrell",
+          "searchJob": "washington",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095875849006248308",
+          "author": "ad_mortgage",
+          "searchJob": "washington",
+          "text": "Leadership by example? For Tarik Smith, our July Employee of the Month, it means embracing innovation, finding solutions, and giving his best every day as a Sales Development Specialist. Learn about his journey with AD Mortgage: 🔻 In your "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095859873506320896",
-          "author": "zidanmoore29",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my first interview after Week 2 https://t.co/Yw4xJM0EoZ"
+          "postId": "2095874758915051889",
+          "author": "arabcenterdc",
+          "searchJob": "washington",
+          "text": "📄 #Pakistan gains greater access to Saudi capital and Turkish military technology, while the Mecca agreement boosts its diplomatic capital and makes it appear indispensable to both #Riyadh and #Washington. Read more 👇 https://t.co/eLyVU1Q"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095881441997431227",
-          "author": "catholicreview",
-          "searchJob": "north-carolina",
-          "text": "A funeral Mass for Mercy Sister Marian Joseph Baird was offered Sept. 3 at Sacred Heart Convent in Belmont, N.C. Sister Marian Joseph died Aug. 26 in North Carolina. She was 87. https://t.co/yfnHiebK4j #LocalNews #Obit #Obituaries"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2094802596867313778",
-          "author": "vektrix",
-          "searchJob": "north-carolina",
-          "text": "https://t.co/ZGOum0Zphk"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095874885021003971",
-          "author": "soccershotspgh",
-          "searchJob": "pittsburgh",
-          "text": "We offer a mix of indoor &amp; outdoor program options during our Fall 2.0 season and indoor-only sessions for the winter. Check out a few of our indoor programs &amp; enroll early on our website to save $10 per player! https://t.co/7umW3Du"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095874796730847669",
-          "author": "wagerwiseusa",
-          "searchJob": "pittsburgh",
-          "text": "Fair price says no, betPARX says yes. 1.90% of juice left on the table. ⚾ Los Angeles Angels vs. Pittsburgh Pirates on 9/4 6:46pm Oneil Cruz Under 0.5 Batter Rbis: -159 @ betPARX Fair line: -167 Calc it yourself: https://t.co/zj4BoesO61 #Ga"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095874636739137789",
-          "author": "pittcoa",
-          "searchJob": "pittsburgh",
-          "text": "Did you know that 11,000+ #SeniorCenters support over 1 mil older adults every single day? These centers do more than offer social time - they connect older adults to essential services, wellness programs, and lifelong learning opportunitie"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095871154405675419",
-          "author": "mongrelbite",
-          "searchJob": "notre-dame",
-          "text": "@Goosey30111568 There are Nigerian princes who could make you an offer."
+          "postId": "2095885430637916357",
+          "author": "worldofradio77",
+          "searchJob": "wisconsin",
+          "text": "BREAKING: A Flock Safety sales representative offered Sheboygan, Wisconsin, five years of speed and vehicle-movement data captured by its cameras—data the city says it never knew Flock was collecting."
         }
       ]
     },
     "extraction": {
-      "accepted": 2,
-      "rejected": 22,
+      "accepted": 1,
+      "rejected": 46,
       "reasons": {
-        "reporter_missing_class_year": 1,
-        "bare_mention_requires_llm": 7,
-        "reporter_missing_player_name": 1,
-        "player_missing_football_context": 1,
-        "school_not_resolved_confidently": 11,
-        "multiple_resolved_schools": 1
+        "reporter_missing_position": 1,
+        "bare_mention_requires_llm": 26,
+        "multiple_resolved_schools": 8,
+        "school_not_resolved_confidently": 11
       },
       "samples": [
         {
-          "reason": "reporter_missing_class_year",
-          "postId": "2095872806080667818",
-          "author": "finisholacademy",
-          "searchJob": "purdue",
-          "text": "Congrats to FINISH Trainee @BrendanHall1275 on his offer from Purdue👏🏻👏🏻👏🏻"
+          "reason": "reporter_missing_position",
+          "postId": "2095878298089996727",
+          "author": "profilefblive",
+          "searchJob": "arkansas",
+          "text": "Arkansas has offered 3.6⭐ 2028 Edge Jaylen Johnson from Bishop Miege HS, KS. @JayJohnson_23 Rated (#659 NATL, #50 Edge, #5 KS) - 12 offers overall. https://t.co/xnpaEFFvlW"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095882709063106626",
-          "author": "pbr1389le",
-          "searchJob": "rutgers",
-          "text": "@BrianSchultz32 @MrBeavv Rutgers is embarrassing in every sport and you know it lol they offer nothing to the big 10. Big 10 could have the nyc market without Rutgers because of all big 10 alumni"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2095870028155347380",
-          "author": "sixstarfootball",
-          "searchJob": "south-carolina",
-          "text": "Texas Tech Offers 2029 South Carolina DL Emavian Gibson @EmavianGibson The Red Raiders continue to look at class of 2029 prospects STORY ▶️ https://t.co/WYmBZfcTqq #WreckEm #RedRaiders https://t.co/lzh1XwhwiV"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095878806523224537",
-          "author": "tennessee_09",
-          "searchJob": "tennessee",
-          "text": "@RaymondIbrahim5 “Why Is the Far Right So Obsessed With Knights?” That is the title of an op-ed published by the Financial Timeson August 23, 2026. Even more intriguing is its opening quotation, attributed to novelist Umberto Eco: A sure si"
-        },
-        {
-          "reason": "player_missing_football_context",
-          "postId": "2095863927238193188",
-          "author": "javelldonley",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Truly blessed to receive a offer from East Carolina University @coachsotoj @DarrenSunkett @ycliff58 @CoachTDismukes @coachnellyy @CochBG4 @hamitchom @JPRockMO @EDGYTIM @AllenTrieu @247recruiting @RivalsHS @On3 https://t.co/2IxxAEETBo"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095886194773041231",
-          "author": "mrkorangy",
-          "searchJob": "miami",
-          "text": "A guy I know buys a piece of land in Miami Beach, for $11M, spends $25M building his dream home. Moves in 2022. I tell him he’ll never see that money back. He was offered $150M for his place. He is not selling. Reminder to never take financ"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095877456658112755",
-          "author": "sznsurge",
-          "searchJob": "miami",
-          "text": "@Blessing_Olivi He was offered 1.6 billion, far more than ronaldo He went to miami instead, his family likes the place more plus he gets to built wealth through multiple channels"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095877347912147369",
-          "author": "thembazondi735",
-          "searchJob": "miami",
-          "text": "@Blessing_Olivi @xtyolly1402 Messi was offered $ 1,5 billion to play in Saudi league but he declined it because he believed his family would have a better life in Miami ,USA than in Saudi arabia. This would have made him the richest ever. B"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095876594329887030",
-          "author": "rankedpalm",
-          "searchJob": "miami",
-          "text": "@Sloki_Bets_702 Where is Miami -14 offered?? lol"
+          "postId": "2095872436394762553",
+          "author": "markmartin",
+          "searchJob": "arkansas",
+          "text": "￼ Mark Martin: Never Lift Mark Martin, Bones Bourcier, Jeff Gordon 544 pages In 1978, as a nineteen-year-old racing late models in ASA, Mark Martin spotted what no one else could: that the Firestone 51 compound tires manufactured in the nin"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2095874528400601208",
-          "author": "waterfronthomes",
-          "searchJob": "miami",
-          "text": "See many more photos: https://t.co/2f9s90DGyj Presented by Cristina Negru with @Compass Offered for: $850,000 Address: 4531 SW 146th Ct, Miami, FL 33175 #WaterfrontHomes #WaterfrontLiving #MiamiFL #KendallLake #KendallMiami #MiamiWaterfront"
+          "postId": "2095870835210826235",
+          "author": "mcreekfutures",
+          "searchJob": "arkansas",
+          "text": "This Week's Ag Review Friday, September 4, 2026 This Week's Top 5 Ag Stories USDA Crop Progress Confirms Low Corn Ratings and Soybean Slide Monday's USDA Crop Progress update showed national corn conditions holding steady at 57% good to exc"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095871458152980547",
-          "author": "truthseeker1607",
-          "searchJob": "miami",
-          "text": "@TylerMacKillop Not \"unlucky\", life is full of decisions. No one forced him to ODU or to Miami... he chose those schools, and he ended up not being their guy. There are literally hundreds of schools... he had multiple offers. He had control"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095869371868680551",
-          "author": "mrakopyan",
-          "searchJob": "miami",
-          "text": "😂 By this genius logic, the highest-paid player is automatically the GOAT. Forget football check the fucking payroll. And here’s the cherry on top: Messi REJECTED a €1.4–€1.5 BILLION Saudi offer to choose Miami. So even by YOUR salary argu"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095865030868607248",
-          "author": "dogzrcoolnstuff",
-          "searchJob": "miami",
-          "text": "You’re just mad at something else like your own life and enjoying the opportunity to hate on someone that is approved by popular culture The only girl who ever accused them of human trafficking is currently being sued in Miami for false acc"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095863007200833588",
-          "author": "miracleculer",
-          "searchJob": "miami",
-          "text": "@Blessing_Olivi Messi got 2 offers 1 from Al Hilal who were willing to pay him more that Ronaldo but Messi choose inter Miami instead So use your sense or go back to the kitchen"
+          "postId": "2095863588447457724",
+          "author": "laf0318",
+          "searchJob": "arkansas",
+          "text": "@JayJohnson_23 @Coach_Jiannoni @RazorbackFB @BishopMiege_FB @coachjonholmes @MathurinAgency @RashadDaniels12 @healthyjava1 @AllenTrieu @SGasper_UArk Razorback Nation Fan here! Thank you for considering the Coach’s offer! 🐗❤️🐗 #WPS"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095860831858704444",
-          "author": "vektrix",
-          "searchJob": "north-carolina",
-          "text": "In 1996 Warren Buffett stood in front of MBA students at North Carolina and offered them a deal. Pick one classmate. You get ten percent of everything that person earns for the rest of their life. You have one hour to decide. Then he told t"
+          "postId": "2095892302816292961",
+          "author": "roddmartin",
+          "searchJob": "oregon",
+          "text": "The Navy Is Turning Electricity Into Ammunition Directed energy is giving America’s warships a bottomless defensive magazine — replacing multimillion-dollar missiles with a few dollars of electricity, and making the fleet harder to kill tha"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095883068024267192",
+          "author": "flofactorysport",
+          "searchJob": "oregon",
+          "text": "🚨 FAMILY ADDITION 🚨 Alan Blackshere is officially locking in with Flo Factory Sports. (@A3totuff) Carol City DB | Class of 2027 6’4” rangy safety/corner with length that jumps off the film. Rivals Miami Elite Camp DB MVP. One of South Flo"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095859009035116705",
-          "author": "n_parrott478",
-          "searchJob": "pittsburgh",
-          "text": "(#23) Ja'Shawn Lewis (LB/Hybrid) X: @jashawnlewis_ HT: 6'2 - WT: 210 lbs. C/O: '27 - GPA: 4.0 Offer(s): \"2\" D1 Offers - ('24/'25) Pittsburgh City League 2nd All-Conference (LB) - ('24/'25) Scholar Athlete of the Year Hudl(Jr. Season): https"
+          "postId": "2095883375349207222",
+          "author": "houstonchron",
+          "searchJob": "texas",
+          "text": "Texas A&amp;M finally reached the CFP last season, but the Aggies still have no trophy to show for it. Their 2026 schedule offers little room to ease in. https://t.co/tgV3mfQlDe"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095872217523331359",
-          "author": "hannytalker",
-          "searchJob": "notre-dame",
-          "text": "Nigerian students! Ireland offers one of the BEST post-study work opportunities in Europe, with a 2-year work visa after graduation, longer than the UK's 18 months! Application Timeline for 2027 Intake: Applications open: August-September 2"
+          "postId": "2095883001096012048",
+          "author": "yitzyourrealtor",
+          "searchJob": "texas",
+          "text": "First-time buyer in New Braunfels, Canyon Lake, or the Hill Country? 🌄🏠 Texas offers down payment assistance that can help with your down payment, closing costs &amp; more if you qualify. Get the basics here: https://t.co/9U0MtrWQRn #down"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095868532391113136",
-          "author": "oantoin1690",
-          "searchJob": "notre-dame",
-          "text": "@Triciairish @paddymacc1 The only job Mickey will get in Europe is a made up one where the Irish Government gets to lodge his wages before he's even offered it."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095886741785702607",
-          "author": "cysbrokerage",
-          "searchJob": "coastal-carolina",
-          "text": "2021 Intrepid 327 Nomad Offered for sale by Coastal Yacht Sales #boating... https://t.co/ZQQDrbrmtl via @YouTube"
+          "reason": "multiple_resolved_schools",
+          "postId": "2095878589505753115",
+          "author": "sbubkis",
+          "searchJob": "texas",
+          "text": "1. 🇨🇦🇺🇸 September 11, 2001: When U.S. airspace was shut down, Canada accepted 224 diverted flights carrying more than 33,000 passengers. Small Canadian communities fed, housed and cared for thousands of stranded Americans and travellers"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095881348061839563",
-          "author": "andersongrp30a",
-          "searchJob": "coastal-carolina",
-          "text": "Grayton Beach was named the No. 1 beach in America by Dr. Beach in both 1994 and 2020. But Grayton Beach State Park offers much more than the Gulf: 2,000+ acres, three rare coastal dune lakes, trails, camping, cabins and nearly a mile of su"
+          "postId": "2095874609425825850",
+          "author": "chronsports",
+          "searchJob": "texas",
+          "text": "Texas A&amp;M finally reached the CFP last season, but the Aggies still have no trophy to show for it. Their 2026 schedule offers little room to ease in. https://t.co/wL8AfQ4pI6"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095870189397262689",
-          "author": "polsia",
-          "searchJob": "coastal-carolina",
-          "text": "I built a clearer way to buy, sell, or invest in coastal property. Local guidance for searches, pricing, showings, offers, negotiations, and closing support—without the usual fog. Better decisions start with better direction."
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095863684220563581",
+          "author": "ousooners4l",
+          "searchJob": "texas",
+          "text": "@MakeitgreenMike @bodyroquecody @mckenzielaw the difference is he was invited to the broncos minicamp but never signed a contract, which is the same as the OL player that came back to texas, they attended sure but never signed a contract an"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095863078575288529",
-          "author": "vipingoplc",
-          "searchJob": "coastal-carolina",
-          "text": "Experience a new standard of coastal living at Awali Estate. Our exclusive collection of 3 and 4-bedroom villas (+ DSQ) combines sophisticated architectural design with the serene, lush greenery at the coast. Thoughtfully crafted for privac"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095890120687718788",
+          "author": "athinkingrobot",
+          "searchJob": "washington",
+          "text": "First Watch covers one number, one location. More lines and more locations are Standing Watch - a genuinely different service, priced for what it is. After-Hours Recon, free: https://t.co/x5DtUqS7cl First Watch is not currently offered in I"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095889354455478686",
+          "author": "neecy6165",
+          "searchJob": "washington",
+          "text": "What federal law can do: The Protection of Pupil Rights Amendment (PPRA) already covers surveys and screenings that ask about a student’s mental or psychological problems. In late August 2026 the U.S. Department of Education told districts "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095883891600982132",
+          "author": "kyivpost",
+          "searchJob": "washington",
+          "text": "EDITORIAL: As US envoys arrive in Kyiv via Moscow, Ukraine owes them no false warmth. Washington must offer Patriot systems and real sanctions, not treat national survival like a real estate deal. https://t.co/LXIsfGvPxa"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095882945173061815",
+          "author": "etinosir001",
+          "searchJob": "washington",
+          "text": "As China's Huawei bids to build Egypt's Al data centres and the US prepares a rival offer, Cairo faces a strategic choice between two powers competing for influence. What does this mean for Egypt's ties with Washington and Beijing? https://"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095878405531344996",
+          "author": "ajenglish",
+          "searchJob": "washington",
+          "text": "As China’s Huawei bids to build Egypt’s AI data centres and the US prepares a rival offer, Cairo faces a strategic choice between two powers competing for influence. What does this mean for Egypt’s ties with Washington and Beijing? https://"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095878218389832155",
+          "author": "insuranceinohio",
+          "searchJob": "washington",
+          "text": "Are you a business owner looking for reliable and affordable insurance solutions? 🌟 Washington &amp; Co Insurance Agency, we offer Commercial Insurance starting at just $25/month! Commercial Auto Insurance options available near you. 🚗💼 "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095877982808105002",
+          "author": "oliver_drk",
+          "searchJob": "washington",
+          "text": "🚨 NEW: Bungie is downsizing its “massive 211,000 sq. ft office in Washington State. Now offers sublease to cut costs. Quote: “Bungie’s Bellevue headquarters was built for a much bigger version of the studio.” Source: https://t.co/mrUIByyFB"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095874265992016023",
+          "author": "johnsmithz6un",
+          "searchJob": "washington",
+          "text": "@hoodiepap22 @ShamsCharania @MarcJSpears What are you talking about? The Kings offered Russell Westbrook a one year deal. The Washington wizards offered a two year deal. Russell was the one that declined because he didn’t like the roles tha"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095873099728060797",
+          "author": "alternative_war",
+          "searchJob": "washington",
+          "text": "\"REGULAR CONVERSATIONS\" WITH PRIGOZHIN — BUDANOV CONFIRMS For the first time, Kyrylo Budanov — Ukraine's wartime military intelligence chief, now head of the Presidential Office and Kyiv's lead negotiator — has confirmed to The New York Tim"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095872157259641087",
+          "author": "natmcdermott2",
+          "searchJob": "wisconsin",
+          "text": "Haliburton scheduled to throw a first pitch at AmFam in summer 2024 His Pacers eliminate the Bucks in the playoffs that year MIL rescinds the offer to protect him from being booed off the field Hurts his ego so much that he transforms into "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095868825195430162",
+          "author": "protitleusa",
+          "searchJob": "wisconsin",
+          "text": "How much does a #TitleSearch cost in #Wisconsin? #ProTitleUSA offers several search: 🏠#O&amp;E — from $87.95 🏠#TwoOwner — from $137.95 📑#30Year — from $195.00 🔄Update — $40 🔗Chain of Title — $75 🏢Commercial O&amp;E — $250 More👇 https"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095891622865023300",
+          "author": "he1s_sammy",
+          "searchJob": "stanford",
+          "text": "MY FRIEND APPLIED TO 150 TECH JOBS OVER TWO YEARS. no MIT. no Stanford. then last month, SpaceXAI reportedly offered him $850,000. so I asked him: “how did you break into AI from zero?” he sent me one video. a 1-hour course from a SpaceXAI "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095887708530852324",
+          "author": "ne6fb_recruits",
+          "searchJob": "stanford",
+          "text": "OFFERED ✨ @StanfordFball offers @TASeawolfFB’s 6’3 260 4⭐️DL @SimonJNuamah ‘28. #GoStanford | @ACCFootball 36 offers: https://t.co/4nuCxNAB94 Congrats Simon‼️ #NEPSAC https://t.co/eWYjT8iiAz"
         }
       ]
     },
@@ -421,20 +432,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 33,
+      "swept": 32,
       "failed": 1,
-      "requests": 34,
+      "requests": 33,
       "errors": [
-        "arkansas: rate limited"
+        "western-michigan: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 2,
-      "rejectedCandidates": 22,
-      "brandNewOffers": 2
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 46,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-04T14:58:25.244Z"
+    "status rebuilt locally from current store on 2026-09-04T15:13:36.095Z"
   ]
 }
