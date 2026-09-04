@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-04T19:43:33.873Z",
+  "generatedAt": "2026-09-04T19:58:16.284Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-04T19:43:33.613Z",
+    "at": "2026-09-04T19:58:16.014Z",
     "jobsTotal": 162,
-    "sweptThisRun": 33,
-    "requests": 34,
+    "sweptThisRun": 36,
+    "requests": 36,
     "fullSweepCycles": 5
   },
   "backfillCoverage": {
@@ -27,15 +27,20 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "liberty",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 0.7848933333333333,
-    "p95Hours": 2.029682222222222,
-    "worstHours": 2.029682222222222
+    "medianHours": 0.5338127777777778,
+    "p95Hours": 1.2849991666666667,
+    "worstHours": 2.274796388888889
   },
   "decisionCoverage": {
-    "total": 40,
-    "decided": 40,
+    "total": 73,
+    "decided": 73,
     "complete": true
   },
   "pending": {
@@ -44,327 +49,387 @@
   "profileResolution": {
     "cached": 34
   },
-  "paginationBacklog": 3,
+  "paginationBacklog": 2,
   "quality": {
-    "completeOffers": 713,
+    "completeOffers": 714,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-04T19:43:33.612Z",
-      "got": 140,
-      "new": 40,
-      "lag": 0.04
+      "at": "2026-09-04T19:58:16.014Z",
+      "got": 109,
+      "new": 73,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-09-04T19:41:20.335Z",
+    "at": "2026-09-04T19:56:07.989Z",
     "mode": "live",
     "collection": {
-      "returned": 140,
-      "kept": 40,
-      "duplicate": 100,
+      "returned": 109,
+      "kept": 73,
+      "duplicate": 36,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 23,
-      "rejected": 17,
+      "accepted": 34,
+      "rejected": 39,
       "reasons": {
-        "no_offer_term": 5,
-        "no_fbs_school": 8,
-        "hard_negative": 2,
-        "unclassified_offer_text": 1,
-        "non_fbs_offer_target": 1
+        "hard_negative": 18,
+        "no_fbs_school": 11,
+        "no_offer_term": 6,
+        "non_fbs_offer_target": 4
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2095954329265987992",
-          "author": "jkellick",
-          "searchJob": "james-madison",
-          "text": "Jefferson was accused of writing nothing original in the Declaration. He agreed. In 1825 he named his sources: Aristotle, Cicero, Locke, Sidney. The truths of 1776 were not invented in Philadelphia. They were inherited. The road to 1776 beg"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095953090037879238",
-          "author": "keithkent357101",
-          "searchJob": "kent-state",
-          "text": "@osakajayms Yeah we need to offer them all free carnival cruises that never come back."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095947853738778691",
-          "author": "km_newsroom",
-          "searchJob": "kent-state",
-          "text": "Bosses say it offers far more than just padel More here: https://t.co/8NH0Houp0s https://t.co/kheb1azMdg"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095959290410606747",
-          "author": "curtandnan",
-          "searchJob": "class:2026",
-          "text": "So nobody wants a 5’1” 110 lb leading man? I wonder why? Elliot Page Says She Hasn’t Been Offered Any Film Roles Since ‘The Odyssey’: ‘A Little Tricky… for Obvious Reasons’ https://t.co/RBeFLuFoEF"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095955647473102887",
-          "author": "coffeysbrewing",
-          "searchJob": "class:2026",
-          "text": "What you’re looking at White two-seater convertible with the black soft top up, red “TESLA” side stripe, and the classic Lotus-derived shape. It’s sitting next to a CEZCO air machine and a black Silverado in Hamilton, Texas. This is not the"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095954767478460909",
-          "author": "coffeysbrewing",
-          "searchJob": "class:2026",
-          "text": "Spotted in Hamilton, Tx today!! Who can say they have seen an original Tesla Roadster in the wild? https://t.co/eZbuOpYqVW"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095950106944008582",
-          "author": "farmcreditsemo",
-          "searchJob": "missouri",
-          "text": "Building your dream home or updating your kitchen is an exciting journey, and we can help. Our rural home construction loans offer flexible options and local expertise. Call Joe today, (573) 621-3341! #HomeConstruction #Remodel #FarmCredit "
+          "reason": "hard_negative",
+          "postId": "2095963614410940452",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
         },
         {
           "reason": "hard_negative",
-          "postId": "2095954111808385149",
-          "author": "mcreekfutures",
-          "searchJob": "nebraska",
-          "text": "Soybean Futures Weekly Outlook - August 31 - September 4, 2026 Top News Story: EPA Biofuel Reallocations and China Purchase Wave Push Futures Above $13.00 The soybean complex surged past major psychological resistance this week, with benchm"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095938336527430042",
-          "author": "drzdturker",
-          "searchJob": "northwestern",
-          "text": "The May 2025 declaration and the literature on energy corridors should be regarded as a political episode and a shift in incentives, rather than as proof that the movement is exclusively an Indian or USA proxy! https://t.co/KsbrpwKRXu"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095944281181614373",
-          "author": "ucrrg",
-          "searchJob": "oklahoma",
-          "text": "Your dealership isn’t a static risk: test drives, loaners, lifts, vendors. Our Oklahoma-domiciled Risk Retention Group offers automobile &amp; garage liability coverage for eligible dealers and service operations in select states. Coverage "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095938628841054316",
-          "author": "notquitezen",
-          "searchJob": "oklahoma",
-          "text": "@PlasticGirl1776 You didn't offer proof. You made a hyperbolic claim. That's it. 👇 https://t.co/F0z6wfALYh"
+          "postId": "2095963495112024511",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
         },
         {
           "reason": "hard_negative",
-          "postId": "2095960317431799888",
-          "author": "zackrockatansky",
-          "searchJob": "kansas",
-          "text": "@Dwayne42005782 Strong was fired after the Kansas in Fall 2016. Lamb's last HS season was fall 2016. Lamb had been hoping for an offer from Strong and was promised he would get one on a planned upcoming visit to Foster HS. That visit never "
+          "postId": "2095963378389061664",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095963232058147044",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095963103078785034",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095962973495861442",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095962841274810683",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095962710227788178",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095962590501536014",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095962491503165646",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095962373429272763",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095962243003507129",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095962027604967884",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095961908763414980",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095961708627898787",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095961121266057629",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095961005817815319",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095960893037346923",
+          "author": "randyferrell",
+          "searchJob": "liberty",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. • September 4, 2026 — Former ICE vetting chief alleges final job offers preceded fingerprints, identity and credit checks during a 12,0"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095952724936261836",
-          "author": "jrjfjdndmf",
-          "searchJob": "kansas",
-          "text": "@bobITKJohnson In September we are enjoying those compounds and taking in all that they have to offer. They can really be magical places. I do miss kenwood."
+          "postId": "2095955206227857778",
+          "author": "popeyesuk",
+          "searchJob": "louisiana",
+          "text": "@AhmedHa08779951 Thank you, Ahmed. We can see that the team have received your email and will be actioning this soon. As the email came through on Wednesday, the team will be investigating as we speak and they'll be in touch with you direct"
         },
         {
-          "reason": "unclassified_offer_text",
-          "postId": "2095935827343753359",
-          "author": "wagerwiseusa",
-          "searchJob": "kansas",
-          "text": "Novig is offering 1.54% of edge vs the fair number. ⚾ Toronto Blue Jays vs. Kansas City Royals on 9/4 8:10pm Total Over 7.5: -223 @ Novig Fair line: -235 Check the math: https://t.co/avyCdlDEhP #GamblingTwitter #GamblingX"
+          "reason": "no_fbs_school",
+          "postId": "2095959693470642302",
+          "author": "milliedissents",
+          "searchJob": "ohio",
+          "text": "Our first round of acquisitions 👏🏽 Start with Sats Studio is building and sharing a collection of artworks that speak to humanity’s evolving story with money, power, and freedom. We acquire works from artists whose ideas resonate with the"
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095947031340552256",
-          "author": "gogreyhoundfb",
-          "searchJob": "uconn",
-          "text": "Congratulations to our guy Raliel Wiggins on receiving his FIRST Division 1 offer from Central Connecticut State University! @CCSUfootball @RalielWiggin ⚡️⚡️⚡️ https://t.co/CplxK3r9bm"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095944615870280009",
-          "author": "robotic_mowers",
-          "searchJob": "uconn",
-          "text": "One superintendent in Connecticut is mowing 90% of his rough automatically — even after 11 inches of rain. Real GCSAA members share what it's actually like running a Husqvarna fleet. ⛳🌧️ https://t.co/aKCQj5kBEt"
+          "reason": "no_fbs_school",
+          "postId": "2095952388351725635",
+          "author": "disere_2",
+          "searchJob": "ohio",
+          "text": "After a great conversation with @Coach_LeDonne I am blessed to receive my second D1 offer from Miami, Ohio https://t.co/EQRQQXUkos"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095945672528646161",
-          "author": "drewcrawford_",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/ZUxlDtCP7F"
+          "postId": "2095947621399736681",
+          "author": "thepennantoh",
+          "searchJob": "ohio",
+          "text": "https://t.co/17J1JJwnI2"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095935166048850291",
+          "author": "yfamphitheatre",
+          "searchJob": "ohio",
+          "text": "ONE WEEK AWAY! 🌙🎶 Niko Moon brings his Back To My Roots Tour to the Youngstown Foundation Amphitheatre Sept. 11 with Blake Proehl! 🎟️ SPECIAL OFFERS: BOGO Reserved Seats 2 Lawn Tickets for $50 Ends Sept. 8! 🎟️ https://t.co/Nr97OqYqa1 ht"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095962151110283283",
+          "author": "antonwhitt4",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After great conversation with @NIckPerry_27 I am beyond blessed to receive another 🅾️ffer from @HokiesFB @coachfloyd33 @CoachL_ @RecruitBigClay @D1RecruitNation @CoachG_Wilson @sixstarfootball @BSonnone @leakbryant @Whiz205 @Rivals #AGTG h"
         }
       ]
     },
     "extraction": {
       "accepted": 1,
-      "rejected": 22,
+      "rejected": 33,
       "reasons": {
-        "bare_mention_requires_llm": 12,
-        "reporter_missing_player_name": 5,
-        "non_fbs_program_tagged": 1,
+        "bare_mention_requires_llm": 19,
         "multiple_resolved_schools": 3,
-        "author_not_recruit:no recruit fields": 1
+        "school_not_resolved_confidently": 11
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095946903435272411",
-          "author": "its_me_db",
-          "searchJob": "alabama",
-          "text": "@TennesseeChris Bama won’t hire him. He would leave for it, don’t get me wrong, but they would never offer it to him. His next job won’t be in the SEC."
+          "postId": "2095952834856390760",
+          "author": "theadvocateaca",
+          "searchJob": "louisiana",
+          "text": "New Louisiana coffee guide offers tips, coupons and a look at the state’s coffee culture https://t.co/99tmVC2v0r https://t.co/bmvEoXXQSS"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095936546406822088",
-          "author": "bamacentral",
-          "searchJob": "alabama",
-          "text": "Alabama Offers 6-foot-6 Defensive Lineman in Class of 2030 https://t.co/YhsxIu2Jbo"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2095932034032029870",
-          "author": "mcan409",
-          "searchJob": "alabama",
-          "text": "Congratulations to Hamshire-Fannett standout Isaiah Reed on receiving an offer from the University of Alabama! The Crimson Tide recognize what Longhorn Nation already knows, Isaiah is a special talent, a relentless competitor, and a tremend"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095951507380183445",
-          "author": "sportyspicce",
-          "searchJob": "minnesota",
-          "text": "Remaining free agents: - Kevin Love should absolutely reunite with Minnesota and finish his career there. - Detroit + Duren is tricky because he doesn’t want to stay long-term. If I’m Duren I sign that contract immediately and ask out. Just"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095955682977841253",
-          "author": "mcreekfutures",
-          "searchJob": "nebraska",
-          "text": "Nebraska Cash Grain Markets Friday, September 4, 2026 Nebraska grain markets posted a mixed, highly active end of the week session as Chicago futures hit a brief pause following late August's aggressive short covering rally. With grain and "
-        },
-        {
-          "reason": "non_fbs_program_tagged",
-          "postId": "2095955411044311291",
-          "author": "jake_matsen",
-          "searchJob": "nebraska",
-          "text": "Blessed to receive a Big Ten offer from the University of Nebraska!! @_CoachGThomas @philipsimpson1 @HuskerFootball @BryanMunson_ @cavemanfootball @BIGHUNS @Andy_Pham1 @CoachDanny10 @CraigHaubert @qbelite @DemetricDWarren @TomLuginbill @Roc"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2095946663340736524",
-          "author": "iam_alinedouard",
-          "searchJob": "ole-miss",
-          "text": "C/O 29 (@PrepRedzoneTX) Waxahachie HS ATH Jashawn Crayton was offered by Ole Miss @OleMissFB 🚨🔥 #OleMiss"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2095946046903861353",
-          "author": "iam_alinedouard",
-          "searchJob": "kansas",
-          "text": "C/O 29 ' (@PrepRedzoneTX) Midway Waco HS OL Jordan Richardson was offered by Kansas State @KStateFB 🚨🔥"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2095944875057287292",
-          "author": "iam_alinedouard",
-          "searchJob": "kansas",
-          "text": "C/O 28 (@PrepRedzoneTX) Liberty Christian HS Henry Angeley was offered by Kansas State @KStateFB 🚨🔥"
+          "postId": "2095942113355587593",
+          "author": "aj_route7",
+          "searchJob": "louisiana",
+          "text": "Retrial of the same case: If polling reveals a lack of unanimity, the judge can send the jury back or declare a mistrial. The poll transcript documents that the original verdict was not unanimous. • Other subsequent proceedings: The transcr"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2095939485024563553",
-          "author": "jennifergee79",
-          "searchJob": "kansas",
-          "text": "BANNONS WAR ROOM | ON RUMBLE | FRIDAY 9/4/26 MORNING EDITION | 2ND HOUR (no commercials) | STEVE BANNON host GUESTS: Jim Rickards: The Fed is not raising interest rates at the Sep. 16 meeting and it's hard to believe they'd do it Oct. 28, l"
+          "postId": "2095963753179189524",
+          "author": "openmike777",
+          "searchJob": "ohio",
+          "text": "@BuckeyesB715 So now whether Oregon likes the player or not, they just offer whoever Ohio State offers 😂😂😂"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095938946740166976",
-          "author": "ceegeedfs",
-          "searchJob": "kansas",
-          "text": "⚾ MLB DFS Top Stacks Friday, September 4th Main Slate The Dodgers lead the slate overall, while Kansas City, Toronto and St. Louis control the top environments and Minnesota, Seattle and the Mets offer the strongest tournament pivots https:"
-        },
-        {
-          "reason": "author_not_recruit:no recruit fields",
-          "postId": "2095939522798161953",
-          "author": "westonscambler",
-          "searchJob": "appalachian-state",
-          "text": "2028 EDGE Qwayvon Cleveland out of Green Run High School (VA) has received an offer from App State!"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095930927700402518",
-          "author": "np4football_ot",
-          "searchJob": "appalachian-state",
-          "text": "Reginald Ward-LB-2028-AL @AppState_FB Offer #CFB"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095958432251625534",
-          "author": "osageai",
-          "searchJob": "arkansas-state",
-          "text": "Is this legitimate with only an Executive Order by the President? An executive order can advance parts of this policy, but it cannot fully legalize the broadest version of “ranchers sell meat directly without going through inspected process"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095957756704383262",
-          "author": "osageai",
-          "searchJob": "arkansas-state",
-          "text": "Is this legitimate with just an Executive Order? An executive order can advance parts of this policy, but it cannot fully legalize the broadest version of “ranchers sell meat directly without going through inspected processors.” That change"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095956852789989422",
-          "author": "verambergen",
-          "searchJob": "arkansas-state",
-          "text": "Earlier this week, a US official offered a starker view: the Trump admin doesn’t want Venezuela’s oil fields to become “a piggy bank for corrupt elements that can just go in and take the profits that it’s making and put it in their pockets."
+          "postId": "2095962314323222666",
+          "author": "jeffroushpoetry",
+          "searchJob": "ohio",
+          "text": "In Ohio, under all the smoke and piles of outside dark money, the race for governor offers a stark choice. Amy Acton wants to work in and for Ohio; Vivek Ramaswamy wants to fly over it. Choose wisely. https://t.co/9bU24mNC7B"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2095937620517777474",
-          "author": "rasgnh",
-          "searchJob": "arkansas-state",
-          "text": "▪ THE INVASION, AND THE RESISTANCE THAT DID NOT BREAK · 1529-1541 In 1529 Imam Ahmad ibn Ibrahim al-Ghazi — Gragn, the left-handed — led the armies of Adal into the highlands. His coalition combined SOMALI, AFAR and HARARI forces with Arab "
+          "postId": "2095952274908696832",
+          "author": "heardwilda",
+          "searchJob": "ohio",
+          "text": "https://t.co/aKlqGuRZjN MAXINE WATERS, OMAR AND HAKIM JEFFERIES DO NOT REPRESENT ALL BLACKS The National Center Fri, Sep 4 at 5:07 AM View this email in your browser https://t.co/UKiQtccHRY Black Americans Don’t Need Socialist Grocery Store"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095934542922265020",
-          "author": "jyoti_kumarkf",
-          "searchJob": "arkansas-state",
-          "text": "For ordinary civilians, “normal” in Manipur increasingly means armed forces, rifles and heavy security presence surrounding their homes while families live under constant fear. A state that should offer safety has instead become a landscape"
+          "postId": "2095950698668052852",
+          "author": "mvgohio",
+          "searchJob": "ohio",
+          "text": "Spooky Nook visitors, we've got an exclusive offer for you! 🤑 Spooky Nook guests can receive $20 Free Play PLUS 15% OFF a food purchase at MVG! Simply bring one of the following to Player Services: • Your Spooky Nook hotel voucher • A rece"
         },
         {
-          "reason": "reporter_missing_player_name",
-          "postId": "2095960348910027215",
-          "author": "m1a32d154mikea",
-          "searchJob": "army",
-          "text": "@burhan_uddin_0 What do you expect from a country that does not even take back its dead soldiers when offered by the Indian Army!"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095934138175934925",
+          "author": "darkseid146",
+          "searchJob": "ohio",
+          "text": "Ohio Farm Bureau to close the Health Benefits Plan The Ohio Farm Bureau has made the decision to close the Health Benefits Plan (HBP) effective December 31, 2026. Coverage will not be interrupted prior to that date, and all plans will remai"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095952666585358746",
+          "author": "westernregion60",
+          "searchJob": "rice",
+          "text": "Yoruba people, don't keep quiet again. If you like, call me a “bigot”. Name calling is the littlest of price i have to pay but i need to set some records straight. Not because we hate anybody. Not because we are competing with anybody. But "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095946597544718371",
+          "author": "soraiaf39123389",
+          "searchJob": "rice",
+          "text": "🚔Orange with mint and sugarThe following morning, her breakfast was kimchi jjigae—a fiery stew featuring fermented cabbage, pork, tofu, and assorted veggies, accompanied by steamed rice. This hearty dish offered warmth and solace, its tang"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095946103648813447",
+          "author": "lucas41026075",
+          "searchJob": "rice",
+          "text": "The spring rolls felt airy and crisp, packed with succulent, delicate shrimp, while the sauce offered a velvety texture accented by a subtle citrus note. Her mother demonstrated the proper folding technique, chuckling when Lila’s initial ef"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095941390936998017",
+          "author": "treeolivebarge",
+          "searchJob": "rice",
+          "text": "$20 Rice /99 Feel free to make offers. Refer to pinned tweet for stack/shipping info. https://t.co/rKTvJ2DlKu"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095937151024132593",
+          "author": "lmilk007",
+          "searchJob": "rice",
+          "text": "@Lord_Talbot64 This \"Banana and rice\" offers nothing to our society"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095946491126862334",
+          "author": "jgonzalesjr10",
+          "searchJob": "south-carolina",
+          "text": "Texas Tech offered 2029 Roebuck (SC) Dorman DL Emavian Gibson recently. I caught up with him to discuss the offer. \"I'm not really familiar with Texas Tech, but I think they are a great school.\" https://t.co/gXNMsIvitD https://t.co/THkVGcqh"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095942474841682424",
+          "author": "ondecktnfb",
+          "searchJob": "tennessee",
+          "text": "🏈 HELP US GET TENNESSEE ATHLETES IN FRONT OF MORE EYES! College football coaches & recruiting personnel — OnDeckTN has a growing database of Tennessee HS prospects ready to be evaluated. 👀 Coach access is FREE. 🎥 Film | 📏 Measurables | "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095940340968808653",
+          "author": "the_war_brain",
+          "searchJob": "ucla",
+          "text": "Children becoming trans at alarming rates. Something is happening. Someone is saying something to sway these tiny brains. This didn’t all happen in a vacuum. Maybe it’s trans books in the library, movies and TV shows with trans themes or ul"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095957222626934989",
+          "author": "khloemartinez88",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation, blessed to receive a verbal offer to play for @Fisher_WBB !! Thankyou Coach Ferguson for the opportunity to play next level at your school! Go Falcons! @RecruitCalallen @CoachRamLopezJr @LarissaLiska @ellis_bryce"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095959967295496663",
+          "author": "miamibeachnews",
+          "searchJob": "miami",
+          "text": "Take the scenic route! Hop on our free commuter water taxi connecting Miami Beach and Downtown Miami. This service offers a scenic, sustainable and convenient alternative to driving across Biscayne Bay. Each vessel is designed to comfortabl"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2095958866316177424",
-          "author": "theansarh",
-          "searchJob": "army",
-          "text": "I think Rockstar has already shown us most of GTA 6’s story. We just haven’t connected the pieces yet. And if this theory is even close, GTA 6 could have one of Rockstar’s darkest endings. Here’s my theory 👇 Lucia gets out of prison wantin"
+          "postId": "2095953732337049766",
+          "author": "waterfronthomes",
+          "searchJob": "miami",
+          "text": "See many more photos: https://t.co/iyeq9AKizR Presented by Javaras Thomas with @Compass Video by: Miami Luxe Images Offered for: $15,988,000 Address: 1132 NE 84th St, Miami, FL 33138 #WaterfrontHomes #WaterfrontLiving #MiamiFL #BiscayneBay "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095953729417773523",
+          "author": "waterfronthomes",
+          "searchJob": "miami",
+          "text": "One of Miami's most exceptional waterfront land opportunities, 1132 NE 84th Street*offers approximately 37,826 square feet (0.87 acres) with an extraordinary 400 feet of direct Biscayne Bay frontage. Large bay front parcels of this size are"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095953450584391841",
+          "author": "miamilighthouse",
+          "searchJob": "miami",
+          "text": "At the Vision Solutions Center in Miami Lighthouse for the Blind, we offer the latest in assistive technology and mobility devices. 🕶️⌚🦅 Labor Day Sale: 10% off all purchases over $5 until September 13th! Use coupon code USA250 online or "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095951872242721063",
+          "author": "miamitate",
+          "searchJob": "miami",
+          "text": "@BlackAssShaq That Miami shit not even offered anywhere 😭😭 prolly like -1200"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095938878746312736",
+          "author": "dingerdataapp",
+          "searchJob": "miami",
+          "text": "2️⃣ Shota Imanaga, Cubs (HR Risk: 70) Imanaga is in a genuinely dangerous stretch right now, having surrendered 8 home runs over his last four starts, and today's matchup does not offer much relief. • Arsenal risk: The 4-seam that he throws"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095953498101907905",
-          "author": "holylove_ofcl",
-          "searchJob": "army",
-          "text": "DISCERNMENT, ENCOURAGEMENT, AND TRUTH FOR THE REMNANT FAITHFUL \"I desire that you surrender to Me all your fears, every anxiety, your weaknesses - everything. My Heart is only half-full until you commend these things to Me. The Flame of Div"
+          "postId": "2095961642714468354",
+          "author": "pokesfandom",
+          "searchJob": "oklahoma-state",
+          "text": "Free shuttle service offered for Oklahoma State football home games #okstate #oklahomastate #gopokes https://t.co/xMgb00LnCU"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095933103638270402",
-          "author": "np4football_ot",
-          "searchJob": "bowling-green",
-          "text": "Chase Grove-QB-2028-IN @BG_Football Offer #CFB"
+          "postId": "2095961398803075173",
+          "author": "blockheadai",
+          "searchJob": "pittsburgh",
+          "text": "⚾ Los Angeles Angels @ Pittsburgh Pirates · MLB 📊 Los Angeles Angels +160 | Pittsburgh Pirates -196 · Spread -1.5 (home) · O/U 8.5 The Pirates enter tonight's matchup at 69-72, riding a wave of momentum after winning six of their last ten "
         }
       ]
     },
@@ -372,20 +437,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 33,
-      "failed": 1,
-      "requests": 34,
-      "errors": [
-        "liberty: rate limited"
-      ]
+      "swept": 36,
+      "failed": 0,
+      "requests": 36,
+      "errors": []
     },
     "outcome": {
       "acceptedEvidence": 1,
-      "rejectedCandidates": 22,
-      "brandNewOffers": 0
+      "rejectedCandidates": 33,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-04T19:43:33.874Z"
+    "status rebuilt locally from current store on 2026-09-04T19:58:16.285Z"
   ]
 }
