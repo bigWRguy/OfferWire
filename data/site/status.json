@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-04T14:33:02.195Z",
+  "generatedAt": "2026-09-04T14:58:25.244Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-04T14:33:01.839Z",
+    "at": "2026-09-04T14:58:24.976Z",
     "jobsTotal": 162,
-    "sweptThisRun": 30,
-    "requests": 31,
-    "fullSweepCycles": 6
+    "sweptThisRun": 33,
+    "requests": 34,
+    "fullSweepCycles": 5
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.8591625,
-    "p95Hours": 1.615318888888889,
-    "worstHours": 1.8556955555555557
+    "medianHours": 0.785985,
+    "p95Hours": 1.7823027777777778,
+    "worstHours": 1.7823027777777778
   },
   "decisionCoverage": {
-    "total": 82,
-    "decided": 82,
+    "total": 52,
+    "decided": 52,
     "complete": true
   },
   "pending": {
@@ -44,389 +44,376 @@
   "profileResolution": {
     "cached": 33
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 700,
+    "completeOffers": 702,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-04T14:33:01.837Z",
-      "got": 107,
-      "new": 82,
-      "lag": 0.06
+      "at": "2026-09-04T14:58:24.975Z",
+      "got": 71,
+      "new": 52,
+      "lag": 0.14
     }
   },
   "audit": {
-    "at": "2026-09-04T14:30:53.965Z",
+    "at": "2026-09-04T14:56:08.630Z",
     "mode": "live",
     "collection": {
-      "returned": 107,
-      "kept": 82,
-      "duplicate": 23,
-      "tooOld": 2,
+      "returned": 71,
+      "kept": 52,
+      "duplicate": 18,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 58,
-      "rejected": 24,
+      "accepted": 24,
+      "rejected": 28,
       "reasons": {
-        "no_fbs_school": 12,
-        "no_offer_term": 11,
-        "hard_negative": 1
+        "no_offer_term": 10,
+        "no_fbs_school": 16,
+        "hard_negative": 1,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2095874730540622038",
-          "author": "stonksrookie",
-          "searchJob": "minnesota",
-          "text": "A Republican activist and conservative opinionator offered his take on the state of affairs at the State Fair. https://t.co/fLOEdqfPYY"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095863895881633920",
-          "author": "sensible_jojo",
-          "searchJob": "minnesota",
-          "text": "A Republican activist and conservative opinionator offered his take on the state of affairs at the State Fair. https://t.co/fp2pcH5CRL"
-        },
-        {
           "reason": "no_offer_term",
-          "postId": "2095860017131856293",
-          "author": "thevandalorian",
-          "searchJob": "missouri",
-          "text": "With the regular season started, here are four recruiting updates, including a second visit to #Mizzou for a Class of 2028 wide receiver, in The Friday File: https://t.co/bknRNYlVTp https://t.co/89BowR5Szb"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095858978693456131",
-          "author": "mizzoutoday",
-          "searchJob": "missouri",
-          "text": "As the 2026 season got underway, more #Mizzou football recruiting updates flowed in. The Friday File: https://t.co/beYGqO8PHh https://t.co/DuF6vnhR9L"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095874810618282394",
-          "author": "huskerextra",
-          "searchJob": "nebraska",
-          "text": "Tom Shatel has never been around a Nebraska football season with lower expectations. That’s usually when a surprise comes — and fans could really use it. https://t.co/aD3ShU4fHA"
+          "postId": "2095873695604461717",
+          "author": "apyhub",
+          "searchJob": "rutgers",
+          "text": "https://t.co/2TRkXXVqZT"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095880863649058825",
-          "author": "okassocpgg",
-          "searchJob": "oklahoma",
-          "text": "Wiley was at the KOCO 5 studio yesterday to discuss prediction markets and sports betting. While the debate around the legality of prediction markets to offer sports bets continues, OAPGG's will continue to advocate for regulation and gambl"
+          "postId": "2095874927484162253",
+          "author": "scfathers",
+          "searchJob": "south-carolina",
+          "text": "Financial stability is a powerful foundation for every family. The Charleston Financial Empowerment Center offers free, one-on-one financial counseling for budgeting, credit, debt, homeownership, and more. Learn more: https://t.co/PupbSFJvL"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095861418083951044",
-          "author": "bball_sadie",
-          "searchJob": "oklahoma",
-          "text": "I had such an amazing day at Oklahoma Wesleyan yesterday!! I enjoyed so much my time with all the players and coaches!! Thank you coaches for making the visit so very special! I am very grateful and blessed by your offer to continue my acad"
+          "postId": "2095866377307562490",
+          "author": "usaclothingbulk",
+          "searchJob": "south-carolina",
+          "text": "Reliable local production supports better inventory control. \"USA Clothing Manufacturers\" offers clothing made in South Carolina, which helps brands deliver garments that customers trust and wear comfortably. Visit https://t.co/Gw21lWYbI8 #"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2095879263979474996",
-          "author": "precedentdaily",
-          "searchJob": "kansas",
-          "text": "After seven years, Rockefeller's authorized biographer finished a book meant to answer Ida Tarbell. William Allen White called it too reverential. Tarbell read the manuscript and told Junior to shelve it. The project never reached the publi"
+          "reason": "no_fbs_school",
+          "postId": "2095885101678620860",
+          "author": "sycamoretn",
+          "searchJob": "tennessee",
+          "text": "Our newest brief is out: Financial Hardship and Affordability in Tennessee This report offers insights about the cost of basic needs, rates of financial hardship, and income in Tennessee. Learn more: https://t.co/uwcJKBnuD6 https://t.co/nHc"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095878669428240884",
+          "author": "tamdrwoodworks",
+          "searchJob": "tennessee",
+          "text": "One of our 4-foot benches we just finished up for a customer! 🔨 This one is stained in Dark Walnut by Minwax and finished with four coats of gloss polyurethane for a beautiful, durable finish. Don’t like this color? No problem! We offer 30"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095872078033625115",
+          "author": "uclaurology",
+          "searchJob": "ucla",
+          "text": ". @DrKScotland recipient of this years Tow Humanism in Medicine Award gave they keynote speech at this years @dgsomucla White Coat ceremony. Please take a listen at the words of guidance and encouragement she offered our newest class of stu"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095862807661048204",
+          "author": "ahlbruins",
+          "searchJob": "ucla",
+          "text": "Score a great deal this Labor Day 🇺🇸 with this special Opening Weekend Hat Trick offer! For a limited time get your choice of select winter hat INCLUDED with the purchase of a Hat Trick! 🎟️ https://t.co/5ShPbcyOVt https://t.co/SkuubQaYsO"
         },
         {
           "reason": "hard_negative",
-          "postId": "2095878706921079144",
-          "author": "midas1311",
-          "searchJob": "arkansas-state",
-          "text": "$BTC is currently drifting in a high-friction zone where neither bulls nor bears have a clear edge. Price action is deceptive; while it looks stable, we are essentially trading in a vacuum between key moving averages. The data reflects a st"
+          "postId": "2095883032817262619",
+          "author": "bass_colter",
+          "searchJob": "usc",
+          "text": "GAME NIGHT IN PICKERINGTON We’ll be at Pickerington Central vs. Pickerington North tonight, following two of the nation’s BEST young prospects! ⭐️ @geordanmckn1ght — 2028 4⭐️ Safety | National recruit with offers from Ohio State, Alabama, M"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095887062331486376",
+          "author": "trenten_hagler",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with Coach @Cameron_covin I’m blessed to receive an offer to Ottawa University in Arizona to play Qb @CoachMurphyQB @OUAZFootball https://t.co/kym3FcSfAW"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095884108173914196",
+          "author": "hoballah26",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my 7th offer from @OUFBrecruiting 🙏🏻🙏🏻 @jacobsbrett @oaklandu https://t.co/Z0vgP86hIg"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095857462511313071",
-          "author": "emilykschrader",
-          "searchJob": "arkansas-state",
-          "text": "E1 is 0.21% of Judea and Samaria but Ed Miliband claims 1200 housing units is what will destroy the two-state solution? It’s ridiculous. The Palestinians have repeatedly rejected statehood, refused to accept Israel in any borders and even r"
+          "postId": "2095881823184187696",
+          "author": "clarkcaden15",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "blessed to receive a gameday from @ODUFootball to there game vs norfolk state tmrw @PRZcory https://t.co/YFGwDF8caB"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095848948640481687",
-          "author": "dineshdsouza",
-          "searchJob": "army",
-          "text": "Why the biblical narratives of Pharaoh’s “hardening” and Paul’s conversion do not support the simplistic Calvinist reading that God decreed one for damnation and the other for salvation. Here’s a close reading of the texts."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095862426713411612",
-          "author": "spursarmytweets",
-          "searchJob": "army",
-          "text": "🚨🎙️ Roberto De Zerbi has provided some clarity on Richarlison: “He decided everything alone. “He spoke with me at the beginning of pre-season. He told me his idea, his desire was to leave. In the end we went to bring another striker and l"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095878175548973335",
-          "author": "pikithomes",
-          "searchJob": "marshall",
-          "text": "Seriously if you're looking in Wilmington NC heres $12,000 in closing costs on this property in wilmington NC! Test out $OPEN mortgage program. I own this property and is brand new construction, have 2 others coming as well I'll offer same "
+          "postId": "2095881564227817488",
+          "author": "clarkcaden15",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "blessed to receive a gameday from @CharlotteFTBL @PRZcory https://t.co/gnqHO6puDO"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095838095199424842",
-          "author": "pikithomes",
-          "searchJob": "marshall",
-          "text": "BETA TEST WILMINGTON NC If anyone is looking to buy a home in Wilmington NC let me know. First person that uses me, and uses $OPEN mortgage I’ll credit 50% of my commission back to you Appears you can do Primary, Investment, or 2nd home mor"
+          "postId": "2095881387752497365",
+          "author": "clarkcaden15",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "blessed to receive a gameday from @WMTribeFootball @PRZcory https://t.co/MDZavxL0gh"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095863798150144367",
-          "author": "fieldcommando",
-          "searchJob": "marshall",
-          "text": "@grok @atiku @Oluwabunmi63697 So in essence the university is for the elite while he offers crumbs to Almajiris as bare minimum."
+          "postId": "2095881011485704279",
+          "author": "jasiah_riojas09",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "#AGTG After a great conversation this morning with @QBcoachsnyder I am blessed to receive my 2 offer from @kwucoyotes @Recruit_Taylor @officialflow32 @coachjknightOL https://t.co/pOmaCsyKLE"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095856340833034482",
-          "author": "kellyma14148957",
-          "searchJob": "marshall",
-          "text": "@resamater @Milajoy I don’t believe in murdering innocent children. Maybe God will forgive her. She belongs in prison for the rest of her life. And just so you know, acquittal is not one of the options offered to the jury. Maybe you should "
+          "postId": "2095870827895927059",
+          "author": "davidae_coleman",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with @ReedHoskins I’m blessed to receive my first offer to play at @scstormfootball @CoachOBrien_SC @ClearLakeFB @CoachAaronStens https://t.co/VpefEHjrXc"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2095863572337197270",
+          "author": "ashtonclare16",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my 5th offer from Berry College! Thank you @BCCoachK and @CoachMaxJames for the opportunity! https://t.co/2HFy9jLeax"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095880023831965994",
-          "author": "bidziil1964",
-          "searchJob": "massachusetts",
-          "text": "One holdout. Five verdicts. Three dead children. Inside a Massachusetts trial where the Commonwealth must prove criminal responsibility, unanimity can become paralysis, and the Tuey–Rodriguez charge tests the boundary between deliberation a"
+          "postId": "2095861225984811272",
+          "author": "camrinharris30",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Extremely blessed to receive a camp invite from Norfolk State University! Cannot wait to put my skills on full display! @NorfolkStateFB @Coach_TimSmith https://t.co/qSKVpY7aSH"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095608029362176431",
-          "author": "tntjohn1717",
-          "searchJob": "temple",
-          "text": "🚨‼️50 Reasons I Am Pre-Trib and Not Pre-Wrath🚨‼️ 1 - The Church is explicitly told that God “hath not appointed us to wrath.” 1 Thessalonians 5:9 2 - Jesus is the One “which delivered us from the wrath to come.” 1 Thessalonians 1:10 3 - T"
+          "postId": "2095859873506320896",
+          "author": "zidanmoore29",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my first interview after Week 2 https://t.co/Yw4xJM0EoZ"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095881441997431227",
+          "author": "catholicreview",
+          "searchJob": "north-carolina",
+          "text": "A funeral Mass for Mercy Sister Marian Joseph Baird was offered Sept. 3 at Sacred Heart Convent in Belmont, N.C. Sister Marian Joseph died Aug. 26 in North Carolina. She was 87. https://t.co/yfnHiebK4j #LocalNews #Obit #Obituaries"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095848650757083475",
-          "author": "daarshik108",
-          "searchJob": "temple",
-          "text": "I met a yogi near the Neelkanth Mahadev Temple, and he taught me one of the best lessons about karma I have ever heard. While discussing Jyotisha and karma, I asked him a simple question: “What is the true meaning of karma?” In a very humbl"
+          "postId": "2094802596867313778",
+          "author": "vektrix",
+          "searchJob": "north-carolina",
+          "text": "https://t.co/ZGOum0Zphk"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095868857516712067",
-          "author": "troypallotto",
-          "searchJob": "troy",
-          "text": "@Smil3yAngel He walked away from the best trade deal America has offered anyone. He hates you 🤣🤣"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095864010411246037",
-          "author": "wolf298d",
-          "searchJob": "troy",
-          "text": "@RedDirtSooner @TheCalvinCooli1 Did I say they made those? I didn’t. However, that’s exactly how pretty much every development is done, so this one likely is too. On the news last night one of the smaller cities wanting it said they couldn’"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095874531588001872",
-          "author": "al_housebuyer",
-          "searchJob": "alabama",
-          "text": "🤝Getting an offer is exciting — but there are still a few steps before the sale is complete. 🏠 At North Alabama House Buyer, we believe selling your house should come with clear communication and no unnecessary surprises. #SellYourHouse #"
+          "postId": "2095874885021003971",
+          "author": "soccershotspgh",
+          "searchJob": "pittsburgh",
+          "text": "We offer a mix of indoor &amp; outdoor program options during our Fall 2.0 season and indoor-only sessions for the winter. Check out a few of our indoor programs &amp; enroll early on our website to save $10 per player! https://t.co/7umW3Du"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095859429543465071",
-          "author": "yea_ala",
-          "searchJob": "alabama",
-          "text": "The 2026 Alabama football depth chart revealed. 🚩 https://t.co/nLJdEwqaxh"
+          "postId": "2095874796730847669",
+          "author": "wagerwiseusa",
+          "searchJob": "pittsburgh",
+          "text": "Fair price says no, betPARX says yes. 1.90% of juice left on the table. ⚾ Los Angeles Angels vs. Pittsburgh Pirates on 9/4 6:46pm Oneil Cruz Under 0.5 Batter Rbis: -159 @ betPARX Fair line: -167 Calc it yourself: https://t.co/zj4BoesO61 #Ga"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2095860939035709491",
-          "author": "alreporter",
-          "searchJob": "alabama",
-          "text": "VA-led psychedelic therapy trials may offer a new hope for veterans with treatment-resistant PTSD or depression, said mental health advocate Adam Marr. #alpolitics https://t.co/k9YgchmTcV"
+          "postId": "2095874636739137789",
+          "author": "pittcoa",
+          "searchJob": "pittsburgh",
+          "text": "Did you know that 11,000+ #SeniorCenters support over 1 mil older adults every single day? These centers do more than offer social time - they connect older adults to essential services, wellness programs, and lifelong learning opportunitie"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095871154405675419",
+          "author": "mongrelbite",
+          "searchJob": "notre-dame",
+          "text": "@Goosey30111568 There are Nigerian princes who could make you an offer."
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 57,
+      "accepted": 2,
+      "rejected": 22,
       "reasons": {
-        "bare_mention_requires_llm": 50,
-        "explicit_non_fbs_target": 2,
-        "multiple_resolved_schools": 2,
-        "unresolved_offer_target": 1,
+        "reporter_missing_class_year": 1,
+        "bare_mention_requires_llm": 7,
         "reporter_missing_player_name": 1,
-        "school_not_resolved_confidently": 1
+        "player_missing_football_context": 1,
+        "school_not_resolved_confidently": 11,
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095874802028359950",
-          "author": "onekindesign",
-          "searchJob": "minnesota",
-          "text": "Dream House Tour: This luxurious home in Minnesota offers a sanctuary https://t.co/dyfYDLFtoW https://t.co/n3KkB5D8wC"
+          "reason": "reporter_missing_class_year",
+          "postId": "2095872806080667818",
+          "author": "finisholacademy",
+          "searchJob": "purdue",
+          "text": "Congrats to FINISH Trainee @BrendanHall1275 on his offer from Purdue👏🏻👏🏻👏🏻"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095879877819850847",
-          "author": "visitmo",
-          "searchJob": "missouri",
-          "text": "St. Louis history is still up for grabs. 🏺 At Riverside Antiques, doors, doorknobs and stained glass salvaged from historic homes and buildings offer a real piece of the city’s past. Explore Missouri antique trails: https://t.co/IEk0Oj5oni"
+          "postId": "2095882709063106626",
+          "author": "pbr1389le",
+          "searchJob": "rutgers",
+          "text": "@BrianSchultz32 @MrBeavv Rutgers is embarrassing in every sport and you know it lol they offer nothing to the big 10. Big 10 could have the nyc market without Rutgers because of all big 10 alumni"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2095870028155347380",
+          "author": "sixstarfootball",
+          "searchJob": "south-carolina",
+          "text": "Texas Tech Offers 2029 South Carolina DL Emavian Gibson @EmavianGibson The Red Raiders continue to look at class of 2029 prospects STORY ▶️ https://t.co/WYmBZfcTqq #WreckEm #RedRaiders https://t.co/lzh1XwhwiV"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095861718844936468",
-          "author": "obasifoundation",
-          "searchJob": "missouri",
-          "text": "🚨 NEWS; NIGERIA Female Passenger Causes Scene Over Alleged Overbooking on Air Peace Flight A female passenger reportedly caused a scene after being told that the Air Peace flight was fully booked and she would have to take the next availab"
+          "postId": "2095878806523224537",
+          "author": "tennessee_09",
+          "searchJob": "tennessee",
+          "text": "@RaymondIbrahim5 “Why Is the Far Right So Obsessed With Knights?” That is the title of an op-ed published by the Financial Timeson August 23, 2026. Even more intriguing is its opening quotation, attributed to novelist Umberto Eco: A sure si"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095861288886812710",
-          "author": "573realty",
-          "searchJob": "missouri",
-          "text": "STUNNING KITCHEN WITH PRIVATE WOODED VIEWS on 5 Acres in SW COMO Nestled on more than 5 private, wooded acres just minutes from downtown, parks, and trails, this extraordinary property offers the rare combination of privacy, character, and "
+          "reason": "player_missing_football_context",
+          "postId": "2095863927238193188",
+          "author": "javelldonley",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Truly blessed to receive a offer from East Carolina University @coachsotoj @DarrenSunkett @ycliff58 @CoachTDismukes @coachnellyy @CochBG4 @hamitchom @JPRockMO @EDGYTIM @AllenTrieu @247recruiting @RivalsHS @On3 https://t.co/2IxxAEETBo"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095861037966733693",
-          "author": "573realty",
-          "searchJob": "missouri",
-          "text": "STUNNING in Bristol Ridge Fall in love with this stunning new construction by Anderson Homes in the desirable Bristol Ridge community! One of Anderson's most popular floor plans, this 1.5-story slab home offers 4 bedrooms, 4.5 baths, and ov"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095886194773041231",
+          "author": "mrkorangy",
+          "searchJob": "miami",
+          "text": "A guy I know buys a piece of land in Miami Beach, for $11M, spends $25M building his dream home. Moves in 2022. I tell him he’ll never see that money back. He was offered $150M for his place. He is not selling. Reminder to never take financ"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095860780793008557",
-          "author": "573realty",
-          "searchJob": "missouri",
-          "text": "BEAUTIFUL NEW HOME in Boonville Welcome to your brand-new countryside retreat, perfectly balancing modern luxury with everyday convenience. This exceptional 3-bedroom new construction home sits in a peaceful, newly developed subdivision, of"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095877456658112755",
+          "author": "sznsurge",
+          "searchJob": "miami",
+          "text": "@Blessing_Olivi He was offered 1.6 billion, far more than ronaldo He went to miami instead, his family likes the place more plus he gets to built wealth through multiple channels"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095869587896115282",
-          "author": "storeycopy",
-          "searchJob": "nebraska",
-          "text": "Skool's #1 ranked copywriting coaching program is FREE... ...Until tomorrow. Saturday September 5 @ 8 pm EST is the deadline to get a 7-day free trial. Less than 36 hours left. After that, you'll have to pay $119 to enter. Claim your FREE 7"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095877347912147369",
+          "author": "thembazondi735",
+          "searchJob": "miami",
+          "text": "@Blessing_Olivi @xtyolly1402 Messi was offered $ 1,5 billion to play in Saudi league but he declined it because he believed his family would have a better life in Miami ,USA than in Saudi arabia. This would have made him the richest ever. B"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095867871683342614",
-          "author": "huskersnilstore",
-          "searchJob": "nebraska",
-          "text": "No one does it like the Huskers. Celebrate College Colors Day by shopping all of what the Nebraska NIL Store has to offer! Graphic tees, exclusive jerseys, and more! ➡️https://t.co/gURY9JhSyj #GBR🌽 https://t.co/wZch0LCrCK"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095877690335154606",
-          "author": "philabirds62",
-          "searchJob": "ohio-state",
-          "text": "@FFBirdGang Tried this exact offer but buddy is an Ohio state fan and has almost all of them. Wonders why he’s always picking high enough to select them 🤔"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095866745424842992",
-          "author": "cwcooper810",
-          "searchJob": "oklahoma",
-          "text": "Haven’t seen my dad in a few years and he’s had a tough year so far. Flew in and surprised him with tickets to @OU_Football tonight. You can see it all click as to why his work shift was cut short and they wouldn’t offer any explanation 😂 "
-        },
-        {
-          "reason": "explicit_non_fbs_target",
-          "postId": "2095875781335695390",
-          "author": "profilefblive",
-          "searchJob": "kansas",
-          "text": "Kansas State has offered 3.8⭐ 2028 WR Aiden-Caleb Rodriguez from Mountain Pointe HS, AZ. @AIDENAIRE Rated (#556 NATL, #89 WR, #9 AZ) - 12 offers overall. https://t.co/PxoMnY3x9Y"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095875063442530340",
-          "author": "ichealthcarect",
-          "searchJob": "uconn",
-          "text": "In honor of #NationalRecoveryMonth, we want to remind you that recovery from substance use IS possible, you're not alone, and we can help. 💜 Learn more about the recovery services InterCommunity offers at: https://t.co/69rKFI4Wpa #InterCom"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095873164123230544",
-          "author": "0xvirtanen",
-          "searchJob": "uconn",
-          "text": "UConn was one of two research schools in the US to even offer a Robotics Engineering major. Meanwhile Connecticut just put a robot dog on the floor of a manufacturing forum in Hartford and wrote a $4.8 million check so high school kids can "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095866016244937073",
-          "author": "viadelcorso2266",
-          "searchJob": "arkansas-state",
-          "text": "@Ed_Miliband, leader of the radical wing of the Labour Party needs to stop playing the ancient game of BLAME THE JEWS in order to appease his radical constituency. Im sick to death of the lies regarding building in E1 of Judea and Samaria. "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095865653794095142",
-          "author": "viadelcorso2266",
-          "searchJob": "arkansas-state",
-          "text": "@Ed_Miliband, leader of the radical wing of the Labour Party needs to stop playing the ancient game of BLAME THE JEWS in order to appease his radical constituency. Im sick to death of the lies regarding building in E1 of Judea and Samaria. "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095861048251240802",
-          "author": "candlelovers12",
-          "searchJob": "arkansas-state",
-          "text": "I have a state rep form the insurance and soon the health regulatory body for my state filing grievances against @cigna for illegal delays and a bunch of other stuff. Also looking into the insurance fraud from the \"palliative care\" place th"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095881409860894909",
-          "author": "connectwithjjr",
-          "searchJob": "army",
-          "text": "🔥 #IHG × #AirIndiaMaharaja Club ✈️🏨 A BIG new partnership for hotel + airline points collectors! 👑 Air India Maharaja Club members can now earn Maharaja Points on eligible IHG stays worldwide — and there’s a limited-time 3X launch offer!"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095876594329887030",
+          "author": "rankedpalm",
+          "searchJob": "miami",
+          "text": "@Sloki_Bets_702 Where is Miami -14 offered?? lol"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2095880259509903858",
-          "author": "eth8k",
-          "searchJob": "army",
-          "text": "Army in California i wts 4 La bts ticketa for d4 sept 6' Selling below what I originally paid for which was 350 lam open to your offer @875tickets #875ticketsale Scammers looking for screen recording proof to use against my fellow army stay"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095878238707101878",
-          "author": "revsarahgarner",
-          "searchJob": "army",
-          "text": "Study Notes - (ISBE Dictionary) (PART B) Tahutmes I set up his statue on the Euphrates, and all Syria was in his hands. Tahutmes III repeatedly raided Syria, bringing back plunder and captives year by year throughout most of his reign. The "
+          "postId": "2095874528400601208",
+          "author": "waterfronthomes",
+          "searchJob": "miami",
+          "text": "See many more photos: https://t.co/2f9s90DGyj Presented by Cristina Negru with @Compass Offered for: $850,000 Address: 4531 SW 146th Ct, Miami, FL 33175 #WaterfrontHomes #WaterfrontLiving #MiamiFL #KendallLake #KendallMiami #MiamiWaterfront"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095876955392369067",
-          "author": "rajaram_vsr",
-          "searchJob": "army",
-          "text": "@iihtishamm Why count a pilot ? Even Pakistani Army Chiefs and ISI Chiefs will consider lucrative offer. Ex Army Chief Raheel Sharif took over as Saudi Palace Guard (aka Muslim NATO Chief 😅). Ex ISI Chief took up private job. https://t.co/"
+          "postId": "2095871458152980547",
+          "author": "truthseeker1607",
+          "searchJob": "miami",
+          "text": "@TylerMacKillop Not \"unlucky\", life is full of decisions. No one forced him to ODU or to Miami... he chose those schools, and he ended up not being their guy. There are literally hundreds of schools... he had multiple offers. He had control"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095869371868680551",
+          "author": "mrakopyan",
+          "searchJob": "miami",
+          "text": "😂 By this genius logic, the highest-paid player is automatically the GOAT. Forget football check the fucking payroll. And here’s the cherry on top: Messi REJECTED a €1.4–€1.5 BILLION Saudi offer to choose Miami. So even by YOUR salary argu"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095865030868607248",
+          "author": "dogzrcoolnstuff",
+          "searchJob": "miami",
+          "text": "You’re just mad at something else like your own life and enjoying the opportunity to hate on someone that is approved by popular culture The only girl who ever accused them of human trafficking is currently being sued in Miami for false acc"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095863007200833588",
+          "author": "miracleculer",
+          "searchJob": "miami",
+          "text": "@Blessing_Olivi Messi got 2 offers 1 from Al Hilal who were willing to pay him more that Ronaldo but Messi choose inter Miami instead So use your sense or go back to the kitchen"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095873772582567939",
-          "author": "cliffccc078",
-          "searchJob": "army",
-          "text": "Paul was a man who knew prison cells, beatings, hunger, and the threat of death, and he died still preaching what he believed. He listed his own record, more imprisonments, countless stripes, five times thirty nine lashes from the Jews, thr"
+          "postId": "2095860831858704444",
+          "author": "vektrix",
+          "searchJob": "north-carolina",
+          "text": "In 1996 Warren Buffett stood in front of MBA students at North Carolina and offered them a deal. Pick one classmate. You get ten percent of everything that person earns for the rest of their life. You have one hour to decide. Then he told t"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095872170874339399",
-          "author": "askwhyisit",
-          "searchJob": "army",
-          "text": "Dinesh D’Souza @DineshDSouza offers apologetic explanations for both Paul’s “revelation” and Pharaoh’s stubbornness—because the biblical accounts themselves create serious problems. None of it is established fact. Paul could have invented t"
+          "postId": "2095859009035116705",
+          "author": "n_parrott478",
+          "searchJob": "pittsburgh",
+          "text": "(#23) Ja'Shawn Lewis (LB/Hybrid) X: @jashawnlewis_ HT: 6'2 - WT: 210 lbs. C/O: '27 - GPA: 4.0 Offer(s): \"2\" D1 Offers - ('24/'25) Pittsburgh City League 2nd All-Conference (LB) - ('24/'25) Scholar Athlete of the Year Hudl(Jr. Season): https"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095869642418122950",
-          "author": "techtornadoooo",
-          "searchJob": "army",
-          "text": "🚨 BREAKING: Major General Shao Hui of the Chinese People's Liberation Army offers advice to Ukrainian President Zelenskyy: \"Think about the value of Ukrainian lives. What are they fighting for? What are the Ukrainian people fighting for?\" "
+          "postId": "2095872217523331359",
+          "author": "hannytalker",
+          "searchJob": "notre-dame",
+          "text": "Nigerian students! Ireland offers one of the BEST post-study work opportunities in Europe, with a 2-year work visa after graduation, longer than the UK's 18 months! Application Timeline for 2027 Intake: Applications open: August-September 2"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095868532391113136",
+          "author": "oantoin1690",
+          "searchJob": "notre-dame",
+          "text": "@Triciairish @paddymacc1 The only job Mickey will get in Europe is a made up one where the Irish Government gets to lodge his wages before he's even offered it."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095886741785702607",
+          "author": "cysbrokerage",
+          "searchJob": "coastal-carolina",
+          "text": "2021 Intrepid 327 Nomad Offered for sale by Coastal Yacht Sales #boating... https://t.co/ZQQDrbrmtl via @YouTube"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095866070301327844",
-          "author": "gbc_press",
-          "searchJob": "army",
-          "text": "🚨 BREAKING: Major General Shao Hui of the Chinese People's Liberation Army offers advice to Ukrainian President Zelenskyy: \"Think about the value of Ukrainian lives. What are they fighting for? What are the Ukrainian people fighting for?\" "
+          "postId": "2095881348061839563",
+          "author": "andersongrp30a",
+          "searchJob": "coastal-carolina",
+          "text": "Grayton Beach was named the No. 1 beach in America by Dr. Beach in both 1994 and 2020. But Grayton Beach State Park offers much more than the Gulf: 2,000+ acres, three rare coastal dune lakes, trails, camping, cabins and nearly a mile of su"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095870189397262689",
+          "author": "polsia",
+          "searchJob": "coastal-carolina",
+          "text": "I built a clearer way to buy, sell, or invest in coastal property. Local guidance for searches, pricing, showings, offers, negotiations, and closing support—without the usual fog. Better decisions start with better direction."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095863078575288529",
+          "author": "vipingoplc",
+          "searchJob": "coastal-carolina",
+          "text": "Experience a new standard of coastal living at Awali Estate. Our exclusive collection of 3 and 4-bedroom villas (+ DSQ) combines sophisticated architectural design with the serene, lush greenery at the coast. Thoughtfully crafted for privac"
         }
       ]
     },
@@ -434,20 +421,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 30,
+      "swept": 33,
       "failed": 1,
-      "requests": 31,
+      "requests": 34,
       "errors": [
-        "purdue: rate limited"
+        "arkansas: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 57,
-      "brandNewOffers": 1
+      "acceptedEvidence": 2,
+      "rejectedCandidates": 22,
+      "brandNewOffers": 2
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-04T14:33:02.196Z"
+    "status rebuilt locally from current store on 2026-09-04T14:58:25.244Z"
   ]
 }
