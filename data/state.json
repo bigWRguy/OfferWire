@@ -30437,10 +30437,10 @@
   },
   "health": {
     "search": {
-      "at": "2026-09-04T20:28:48.948Z",
-      "got": 97,
-      "new": 38,
-      "lag": 0.09
+      "at": "2026-09-04T20:41:24.959Z",
+      "got": 0,
+      "new": 0,
+      "lag": null
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -30470,16 +30470,10 @@
       "truncated": false
     },
     "georgia": {
-      "at": "2026-09-04T18:56:28.257Z",
+      "at": "2026-09-04T20:26:22.673Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 23,
-      "truncated": true,
-      "window": {
-        "lower": "2026-09-04T18:51:28.257Z",
-        "upper": "2026-09-04T20:26:22.673Z",
-        "until_time": "2026-09-04T18:51:28.257Z",
-        "completed": false
-      }
+      "lastPosts": 0,
+      "truncated": false
     },
     "illinois": {
       "at": "2026-09-04T20:26:22.673Z",
@@ -31538,11 +31532,11 @@
   "lastRateLimitAt": "2026-09-04T19:11:26.329Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-09-04T20:28:48.949Z",
+    "at": "2026-09-04T20:41:24.960Z",
     "jobsTotal": 162,
-    "sweptThisRun": 36,
-    "requests": 36,
-    "fullSweepCycles": 5
+    "sweptThisRun": 1,
+    "requests": 2,
+    "fullSweepCycles": 162
   },
   "backfill": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -31562,323 +31556,50 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-09-04T20:26:22.660Z",
+    "at": "2026-09-04T20:41:16.408Z",
     "mode": "live",
     "collection": {
-      "returned": 97,
-      "kept": 38,
-      "duplicate": 58,
-      "tooOld": 1,
+      "returned": 0,
+      "kept": 0,
+      "duplicate": 0,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 23,
-      "rejected": 15,
-      "reasons": {
-        "no_fbs_school": 11,
-        "no_offer_term": 4
-      },
-      "samples": [
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095964868461666339",
-          "author": "jackjonesin2026",
-          "searchJob": "florida",
-          "text": "@JamesUthmeierFL @America1stLegal Has he offered to review anything you have ever signed since being a part of the maga admin in Florida? May have to take a few months off of work"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095958551227162925",
-          "author": "mimi_mae_south",
-          "searchJob": "florida",
-          "text": "My Covid Story https://t.co/FRfK3UDyWX"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095965172967817399",
-          "author": "indianachamber",
-          "searchJob": "indiana",
-          "text": "Bryan Kelly of Fishers-based Spokenote offers an online exclusive guest BizVoice® column (Why a Real Face Still Matters in Business Communication): \"Think about open enrollment. An HR or benefits team spends months evaluating plans, prepari"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095965177816494563",
-          "author": "bizdownload",
-          "searchJob": "iowa",
-          "text": "Multiple companies in, @delaneyhowell07 still didn't have anyone in the same position to ask the ordinary questions of running a business, like how to structure a contract. Rural businesses have \"significantly fewer financial, professional,"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095953969516253644",
-          "author": "commentoniowa",
-          "searchJob": "iowa",
-          "text": "Could Syria's railway revival offer an alternative to Hormuz NO…@isreal will blow it up After years of war, Syria plans to revive its railways. Extreme heat challenges Taiwan, while monster bikes connect remote villages in Cameroon. https:/"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095968378955374934",
-          "author": "lsusportsfans",
-          "searchJob": "lsu",
-          "text": "@jacksettleman We cook with love down here. You may leave with heart disease, BUT you’ll eat damn good! U better find a black lady that calls you babeeee and offers you bread pudding or some shit before you leave"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095954717012525271",
-          "author": "fsufootball",
-          "searchJob": "lsu",
-          "text": "👟 https://t.co/C8j8VPZv7L"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095965931356799089",
-          "author": "raymiramontes_",
-          "searchJob": "california",
-          "text": "🏡 Looking for a huge 5-bedroom home in Whittier? Here’s what $1,200,000 gets you. 🚨 Interested? Call or text Ray directly at 562-600-9793 for the address, photos & full details. This Whittier home for sale offers 5 bedrooms, 2.5 bathrooms"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095963215364608438",
-          "author": "hackagingai",
-          "searchJob": "california",
-          "text": "https://t.co/zEBWLeefsS"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095494191644057962",
-          "author": "mattvanswol",
-          "searchJob": "virginia",
-          "text": "🚨#BREAKING: Outrage is erupting after a Virginia mother of FIVE has been CONVICTED of a crime, sentenced to 6 months in jail, and placed on the CHILD ABUSE REGISTRY for 7 years... ...because she let her 5-year-old son walk half a mile to t"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095962323902980099",
-          "author": "wfcougarsbball",
-          "searchJob": "wake-forest",
-          "text": "Please join us in congratulating Palmer on receiving his offer today."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095951321916387668",
-          "author": "graham_depenros",
-          "searchJob": "wake-forest",
-          "text": "\"The Rise and Fall of the Artificial State\" by Harvard historian and New Yorker staff writer Jill Lepore, published August 25, 2026 Expanding upon ideas she introduced in a 2024 essay, the 336-page book serves as a historical and political "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095950240675197128",
-          "author": "uabheersink",
-          "searchJob": "uab",
-          "text": "Farah Lubin, Ph.D., offers research-backed strategies to help students keep their brains healthy and succeed this school year. @UNeurobiology https://t.co/MuEU80qfAs https://t.co/5Sg2FBLJ39"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095961412271300714",
-          "author": "unlvliberalarts",
-          "searchJob": "unlv",
-          "text": "Thanks to everyone who stopped by the COLA booth at the Involvement Fair! We hope you learned more about Liberal Arts and all the cool engagement opportunities we have to offer. See you around campus in your COLA swag! #involvement https://"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095962431105212547",
-          "author": "lizamakareocva",
-          "searchJob": "kentucky",
-          "text": "@EliotH77 @Mets @NjTank99 Keeping Mendoza to dodge NjTank99 being right is peak Mets comedy. Your Kentucky-Padres lens makes the jab even sharper. I noticed one tweak; follow back if open, X then lets me DM a special offer, past work, and q"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 23,
-      "reasons": {
-        "bare_mention_requires_llm": 16,
-        "multiple_resolved_schools": 3,
-        "school_not_resolved_confidently": 4
-      },
-      "samples": [
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095964137792659633",
-          "author": "chasemccoy48358",
-          "searchJob": "troy",
-          "text": "🚨 GAME DAY VISIT 🚨 Excited to be heading to RPI tomorrow for a Football Game Day Visit! 🏈 Extremely grateful to the RPI coaching staff for believing in me and inviting me up for a game. I’m looking forward to experiencing the game day at"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095971011938156823",
-          "author": "corey_bender",
-          "searchJob": "florida",
-          "text": "NEW: Florida is now in the mix for one of the fastest-rising EDGE prospects in the Sunshine State. 🚨 And the offer hit a little differently because of a familiar name already in Gainesville...👀 \"It's big for me.\" DETAILS: https://t.co/u8e"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095961477156831319",
-          "author": "mdoseanu",
-          "searchJob": "florida",
-          "text": "Situated on a private 0.57-acre lot in #MarianaOaks in #Tallahassee, #Florida, this exceptional 4-bedroom plus an office, 3.5-bathroom residence offers 2,582 sq.ft. of thoughtfully designed living space with lovely views of the surrounding "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095959786600714592",
-          "author": "sosed190496531",
-          "searchJob": "florida",
-          "text": "@FloraLuzz_ yep, if they offer free transportation from where I live (that's Florida, thank you), free ticket, meal, and $150 in complimentary coupons (I've never been to Chicago). Oh, forgot, let me bring my weapon, too!"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095951031956066379",
-          "author": "gtampaphoto",
-          "searchJob": "florida",
-          "text": "How do you define Luxury? For me, Tesla FSD is Luxury Defined 🌞 A couple days ago I was driving to pick up my client who had their Porsche in the shop, and I saw this Ferrari gassing up, while FSD chauffeured me to downtown St. Pete - and "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095950676417184203",
-          "author": "arielego47",
-          "searchJob": "florida",
-          "text": "Kind Florida man offers to reunite orphans with their parents 🥹❤️ 🫂 Like 🫂 Comment 🫂 Repost 🫂 Save 🫂 Share IG 📸: https://t.co/ADLrFbvquq TikTok ⏰: https://t.co/IPrtsXfwbO"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095969615197442210",
-          "author": "baddietvv",
-          "searchJob": "georgia",
-          "text": "Malcolm-Jamal Warner’s Mom Accuses His Widow of Rejecting $4 Million Settlement Offer The legal battle surrounding the estate of Malcolm-Jamal Warner is getting even more complicated. Malcolm’s mother, Pamela Warner, is now pushing back aga"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095968143026139560",
-          "author": "earthdesires",
-          "searchJob": "georgia",
-          "text": "Old Flame (Gambler's Folly Book 4) by Mellie Miller is a heartfelt second-chance paranormal shifter romance that blends emotional healing, mature love, and the magic of fate. Billionaire and bear shifter Kort Behrens has been lucky in busin"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095969529100681674",
-          "author": "blake_noell",
-          "searchJob": "indiana",
-          "text": "@VolGov53 @seminolecpa And LSU is by far the biggest and best thing the state has to offer so they ALWAYS have support. Sure ND is national but nowhere you go is a “sea of gold except in Indiana”. LSU was 6th in viewership again that’s GLOB"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095952410443411546",
-          "author": "g399408g",
-          "searchJob": "iowa",
-          "text": "@SkynetCoder @circlecrules @fire_starter457 Yes. It’s easy for non morons. You identify as non moron right? You keep saying every state offers free id. Your word is meaningless because it’s not factual. Same goes with birth certificates. Th"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095963922360656205",
-          "author": "blake_noell",
-          "searchJob": "lsu",
-          "text": "@VolGov53 See ND. LSU is that level nationally. Anyone who thinks otherwise is lying. LSU is the best thing the state of LA has to offer. It’s the top tax revenue streamer for the state. And LSU was 6th in viewership last year with a fired "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095958939024191938",
-          "author": "primetimejlegz",
-          "searchJob": "lsu",
-          "text": "I wanted to inquire about future capabilities regarding footwear colorways. Specifically, is it possible to offer options similar to what teams like LSU, FSU, and Clemson have used, rather than the standard black with team color foam? @Equi"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095957636994736141",
-          "author": "ryantritraining",
-          "searchJob": "lsu",
-          "text": "@Rebelfanmatt @JacquesDoucet @DesmondHoward @LSUfootball This is 100% not what the players in any of these court cases are arguing. ZERO POINT ZERO PERCENT declared for the draft with remaining eligibility. They were essentially kicked out "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095968911711682771",
-          "author": "abc7amarillo",
-          "searchJob": "california",
-          "text": "As Americans prepare to mark 25 years since the Sept. 11 attacks, a California nonprofit is traveling to New York City with weighted teddy bears designed to offer comfort to families who lost loved ones. https://t.co/hM2DcJEYdB"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095966745601216546",
-          "author": "galvanpero55796",
-          "searchJob": "california",
-          "text": "\"Laguna Beach Books.\" Located at 1200 S Coast Hwy, Laguna Beach, California, and was established in 2006. They offer a carefully selected assortment of new books: fiction, nonfiction, young adult and children's titles, as well as cards and "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095965372881260591",
-          "author": "air_weigh",
-          "searchJob": "virginia",
-          "text": "From crossing the magnificent steel arch of the New River Gorge Bridge to traversing historic mountain passes, hauling through West Virginia offers some of the most scenic drives in the country. Taking a rest break to enjoy a classic West V"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095962079312355397",
-          "author": "natlassnparents",
-          "searchJob": "virginia",
-          "text": "Karyann Parkinson let her capable 5-year-old walk half a mile along a sidewalk in a gated community to collect goose feathers. One frightened stranger later: three police cars, CPS, seven years on the child-abuse registry, a criminal convic"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095958719825588297",
-          "author": "natlassnparents",
-          "searchJob": "virginia",
-          "text": "Karyann Parkinson let her capable 5-year-old walk half a mile along a sidewalk in a gated community to collect goose feathers. One frightened stranger later: three police cars, CPS, seven years on the child-abuse registry, a criminal convic"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095968635294491010",
-          "author": "planetaby",
-          "searchJob": "wake-forest",
-          "text": "The best time to remember Allah is in solitude. The best time to pray is at night. And the essence of it is tahajjud, a prayer offered in solitude at night. Ya Allah grant me the strength to battle laziness and sleep, so that I may wake up "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095961971132678401",
-          "author": "days_verse",
-          "searchJob": "wake-forest",
-          "text": "The Urgency of Mission (John 9:4) God offers an urgent opportunity for us to participate in His divine work in the world. This is a finite window of time - \"the day\" - in which to align our lives with His will and bring glory to Him. Our re"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095955495307899281",
-          "author": "mrcauliman",
-          "searchJob": "wake-forest",
-          "text": "To my frens here on 𝕏, I appreciate all of you. I see the DMs. For the people sending me screenshots of the ones I’ve already blocked talking shit about me, I already know. That’s their MO. They’ve got nothing valuable to offer anybody, so"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095950839470768306",
-          "author": "np4football_ot",
-          "searchJob": "east-carolina",
-          "text": "Javell Donley-OT-2028 @ECUPiratesFB Offer #CFB"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095963300508901794",
-          "author": "castlesofimagin",
-          "searchJob": "kentucky",
-          "text": "@tuuu28283 Does Kentucky Fried Chicken in Japan not offer Mac and Cheese as a side? I had it in China at KFC. That's not the best Mac N Cheese,but its good enough to give you the idea. I have Mac and Cheese every couple weeks and most speci"
-        }
-      ]
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 36,
-      "failed": 0,
-      "requests": 36,
-      "errors": []
+      "swept": 1,
+      "failed": 1,
+      "requests": 2,
+      "errors": [
+        "california: rate limited"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 23,
+      "rejectedCandidates": 0,
       "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 38,
-    "decided": 38,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z"
