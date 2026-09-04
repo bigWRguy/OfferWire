@@ -28992,7 +28992,7 @@
     }
   },
   "searchConfigured": true,
-  "lastRateLimitAt": "2026-09-03T22:26:11.001Z",
+  "lastRateLimitAt": "2026-09-04T02:11:17.273Z",
   "frozenProfiles": [],
   "searchCoverage": {
     "at": "2026-09-04T01:58:28.076Z",
@@ -29019,201 +29019,50 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-09-04T01:56:15.731Z",
+    "at": "2026-09-04T02:11:13.525Z",
     "mode": "live",
     "collection": {
-      "returned": 50,
-      "kept": 23,
-      "duplicate": 27,
+      "returned": 0,
+      "kept": 0,
+      "duplicate": 0,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 16,
-      "rejected": 7,
-      "reasons": {
-        "no_offer_term": 2,
-        "no_fbs_school": 4,
-        "non_fbs_offer_target": 1
-      },
-      "samples": [
-        {
-          "reason": "no_offer_term",
-          "postId": "2095672378516770882",
-          "author": "rowlandrivals",
-          "searchJob": "kentucky",
-          "text": "We haven't seen Mark Pope develop the kind of freshman Akol Nyok will be next season. But the Cats are shooting their shot with the athletic developmental big. https://t.co/csrciABP4K"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095675648547172386",
-          "author": "nebraska_dave",
-          "searchJob": "nebraska",
-          "text": "“Hey, lets debate after people are voting so they can’t change their votes once they realize how much of an idiot I am!” Wow, Jane. You picked some winners this year. I would offer advice, but never advise an enemy when they’re making a mis"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095663085381964278",
-          "author": "rhuleaid",
-          "searchJob": "nebraska",
-          "text": "You’re the challenger. He offered dates before ballots go out September 28. You countered with October. That’s not “Flood is scared.” That’s you wanting the debate after people have already started voting. Weak."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095676524422680744",
-          "author": "tornadoalleycrd",
-          "searchJob": "oklahoma",
-          "text": "@cardboardbst Free shipping PWE Free shipping if buying multiple $6 BMWT otherwise Feel free to make offers https://t.co/5HWNSJgFLs"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095673326517522571",
-          "author": "isaiahchandler0",
-          "searchJob": "ole-miss",
-          "text": "Blessed to receive an offer from Mississippi Christian University! Thank You to Coach Brooks and Works for believing in me! https://t.co/goHyOi5tpa"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095682480938291590",
-          "author": "texanscommenter",
-          "searchJob": "houston",
-          "text": "@Conquistador713 He’s already been offered that reportedly and it’s too low fyi"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095672224380334587",
-          "author": "bakkenshale",
-          "searchJob": "ohio",
-          "text": "https://t.co/4SC6T03ZZq"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
-      "accepted": 3,
-      "rejected": 13,
-      "reasons": {
-        "reporter_missing_player_name": 1,
-        "bare_mention_requires_llm": 9,
-        "author_not_recruit:different sport": 1,
-        "multiple_resolved_schools": 2
-      },
-      "samples": [
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2095680724590276800",
-          "author": "jdrumuk",
-          "searchJob": "kentucky",
-          "text": "Akol Nyok announces offer from Kentucky https://t.co/EjoqQAUs3V via @on3"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095679632087425124",
-          "author": "ukwildcatswire",
-          "searchJob": "kentucky",
-          "text": "Kentucky offers another seven-footer in 2027 class 📸 Andy Lyons, Getty Images https://t.co/rX9wVDBXFM https://t.co/xy52h719U2"
-        },
-        {
-          "reason": "author_not_recruit:different sport",
-          "postId": "2095670817732403699",
-          "author": "verbalcommits",
-          "searchJob": "oklahoma",
-          "text": "2029 Central (AL) G Braylen Alexander has received an offer from Oklahoma State. https://t.co/bsVHOj64FI"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095672993456218529",
-          "author": "jaydfowl",
-          "searchJob": "ole-miss",
-          "text": "@AGLizMurrill How did he lose out on it if Ole Miss didn’t offer it to him to stay? Who did? Just an arbitrary number. And had the rule been in place, he couldn’t transfer in conference anyway."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095678229763997838",
-          "author": "lions247",
-          "searchJob": "penn-state",
-          "text": "Day after offer, offensive lineman locks in Penn State visit https://t.co/1seld3X4Js https://t.co/PzdJCM6QbN"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095679035028439253",
-          "author": "jogjamu79",
-          "searchJob": "rutgers",
-          "text": "Freedom Accelerato &amp; 72 Hour Freedom Challenge ,Earn $748.50 With This Incredibly High Converting BIZ OP Offer,Learn more &gt; https://t.co/WjMyRxlK5A .#freedomfinance #digistore24 #businesssupport #Business #JonathanM #Freedom Accelera"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095666985702994300",
-          "author": "thejayskr81",
-          "searchJob": "rutgers",
-          "text": "@CFBHome Can we kick Rutgers out the big 10? They offer nothing"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095685796959244530",
-          "author": "scsportsnow",
-          "searchJob": "south-carolina",
-          "text": "STRecruiting: South Carolina target 2028 DE Cassell Cruickshank of Fayetteville, NC, was offered by Stanford. He plans to visit South Carolina on Saturday."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095667719748145173",
-          "author": "precruiting7",
-          "searchJob": "georgia-tech",
-          "text": "@EmavianGibson @CoachAnderson28 @GeorgiaTechFB @coachmorrisDHS @Hawkinsjs @coachfarmer71 @OLCoachLanc @dormanstrength @DormanChain @fourquarterSC @SCSportsNow @HighSchoolBlitz @BHoward_11 Congrats on the offer @EmavianGibson"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095682640057671711",
-          "author": "goldengembe",
-          "searchJob": "houston",
-          "text": "In 2014 Turkish President Erdogan told a summit of Muslim leaders from Latin America that “Muslims discovered America in 1178, not Christopher Columbus\" He said Muslim sailors had reached America and claimed Columbus mentioned a mosque on a"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095680617266712586",
-          "author": "heardwilda",
-          "searchJob": "houston",
-          "text": "https://t.co/WgudKJyV5j https://t.co/OQup7MHwRh https://t.co/Beyfq4IPZ3 Amy Mek @AmyMek · 1h BEWARE, PARENTS - TEXAS PUBLIC SCHOOLS ARE FALLING TO THE MUSLIM BROTHERHOOD! The latest campus is Plano East Senior High. Their own notice says “F"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095667476948193651",
-          "author": "atxtrent",
-          "searchJob": "houston",
-          "text": "@KendraMiddleton Why would he not sign a deal? It would make more sense if Houston didn’t offer him until he showed he looked good this season?"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095668430657441870",
-          "author": "monaco1565",
-          "searchJob": "new-mexico",
-          "text": "@SheilaGreenfiel @AmYisraelChai_X There is only one state that offers free 4 year college tuition to resident children and that is New Mexico there are several that offer substantially low or free tuition if incomes are low- are you talking"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
-      "ok": true,
-      "reason": null,
+      "ok": false,
+      "reason": "class:2029: rate limited",
       "jobs": 162,
-      "swept": 32,
+      "swept": 0,
       "failed": 1,
-      "requests": 33,
+      "requests": 1,
       "errors": [
         "class:2029: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 3,
-      "rejectedCandidates": 13,
-      "brandNewOffers": 2
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 0,
+      "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 23,
-    "decided": 23,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z"
