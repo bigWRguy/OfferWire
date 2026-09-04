@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T03:13:11.151Z",
+  "generatedAt": "2026-09-04T03:26:12.123Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7853061111111111,
-    "p95Hours": 1.5345811111111112,
-    "worstHours": 1.7840702777777777
+    "medianHours": 1.0022427777777778,
+    "p95Hours": 1.7515177777777777,
+    "worstHours": 2.0010069444444443
   },
   "decisionCoverage": {
-    "total": 61,
-    "decided": 61,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "pending": {
@@ -59,364 +59,46 @@
     }
   },
   "audit": {
-    "at": "2026-09-04T03:11:13.771Z",
+    "at": "2026-09-04T03:26:07.723Z",
     "mode": "live",
     "collection": {
-      "returned": 87,
-      "kept": 61,
-      "duplicate": 26,
+      "returned": 0,
+      "kept": 0,
+      "duplicate": 0,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 41,
-      "rejected": 20,
-      "reasons": {
-        "no_fbs_school": 17,
-        "no_offer_term": 2,
-        "non_fbs_offer_target": 1
-      },
-      "samples": [
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095684328361730432",
-          "author": "techstoriesin",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon India Deal ] PN: 8904315016393 Gear Armour 28L Water Resistant Faux Leather Laptop Backpack, beige - 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟭,𝟱𝟵𝟵 | 𝗟𝗶𝘀𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟮,𝟭𝟵𝟵. [ad] Offer Link: https://t.co/hEFZMxzswk #amazoni"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095683282537255160",
-          "author": "techstoriesin",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon India Deal ] PN: 2545896 Robotouch Ortholite Foot Calf Thigh Knee Roller Massager, Brown - 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟮𝟵,𝟵𝟵𝟵 | 𝗟𝗶𝘀𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟱𝟴,𝟬𝟬𝟬. [ad] Offer Link: https://t.co/G7tq3bdONx #amazonindia #"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095414374739611853",
-          "author": "officialrolaai",
-          "searchJob": "texas-tech",
-          "text": "🔐 What if your crypto wallet could become your digital keycard? Token gating lets websites, communities, events, and content verify wallet ownership before granting access. No traditional membership card. No manual verification. But why do"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095683013497729337",
-          "author": "techstoriesin",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon India Deal ] M1607GA-MB030WS ASUS Vivobook 16 Ryzen AI Laptop, Quiet Blue - 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟵𝟮,𝟵𝟵𝟬 | 𝗟𝗶𝘀𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟵𝟳,𝟵𝟵𝟬. [ad] Offer Link: https://t.co/e74f9WpFZ9 #amazonindia #deals #techdeal"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095682861479469443",
-          "author": "techstoriesin",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon India Deal ] PN: WoodMaker13 Falom Wide Faux Leather Sofa Chaise Ottoman Set, Office. (Brown) - 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟱𝟬,𝟯𝟰𝟵 | 𝗟𝗶𝘀𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟴𝟵,𝟴𝟵𝟵. [ad] Offer Link: https://t.co/943A8UzZAV #amazonin"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095682515885506738",
-          "author": "techstoriesin",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon India Deal ] X1502VA-BQ1297WS | PN: 90NB10T1-M01UN0 ASUS Vivobook 15 Intel Core i5 Laptop - 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟲𝟴,𝟵𝟵𝟬 | 𝗟𝗶𝘀𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟳𝟱,𝟵𝟵𝟬. [ad] Offer Link: https://t.co/PduWRm6Ss3 #amazonindia "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095682231213899788",
-          "author": "techstoriesin",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon India Deal ] SM-L325F Samsung Galaxy Watch8 LTE Smartwatch with Advanced Health Monitoring, 40 mm, Watch8 - LTE, Silver - 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟮𝟰,𝟵𝟵𝟵 | 𝗟𝗶𝘀𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟰𝟮,𝟵𝟵𝟵. [ad] Offer Link: https:/"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095681873624379863",
-          "author": "techstoriesin",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon India Deal ] 2-year | PN: Native M1 Water Purifier 10 Stage Urban Company Native M1 10-Stage RO UV Water Purifier - 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟭𝟱,𝟰𝟵𝟵 | 𝗟𝗶𝘀𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟮𝟬,𝟵𝟵𝟵. [ad] Offer Link: https://t.co/"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095680349837701277",
-          "author": "theonlytechdude",
-          "searchJob": "texas-tech",
-          "text": "@Lucky__gmi The integration of DeepSeek models via Codex API offers developers flexible access to capable AI within their existing workflows without rebuilding their environment."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095700039855206591",
-          "author": "annehenriquesx",
-          "searchJob": "temple",
-          "text": "@baruch_marzel , The intention of not doing it it’s not clear as ‘not having the middles’.. . Baruch, when will you destroy the al-aqsa mosque..? you seem to have found some difficulties, you look at it everyday, and until today you didn’t "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095701005404979450",
-          "author": "suckafree308",
-          "searchJob": "florida",
-          "text": "Oh Gang....gangsy wangsy. Bring it in. Bring. 👏 It. 👏 In. 👏 Not so close.✋️ Okay, well, I'm just here to tell you that it's September. I know, you had no idea and you're shocked. I gotta tell ya fam this summer really had it out for me. "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095700169920590079",
-          "author": "magicbendy",
-          "searchJob": "florida",
-          "text": "I once worked a 3 month contract in Atlanta. I stayed 12 miles from the office and I had to leave by 5:50am if I wanted to make sure to be at work by 8am. I moved to just over 4 miles directly downtown the road the office was on and it stil"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2095704734137008168",
-          "author": "caynem22",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "Blessed to receive my 2nd Official Offer from Allen university💛💙.#AGTG✝️@RecruitELFB @CoachMcRae77 @PrepRedzoneAL @paupaupau5 @BallCoachHP @HallTechSports1 @Benji_Jae"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095701345462370777",
-          "author": "_jordynhill",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "Coming off a great team win and even greater phone conversation with @CoachBlunt, I’m very grateful to have received my 4th D1 offer to @NSUfootball!! #AGTG #Behold @coachporterWR @Bethel_BruinsFB @WillVapreps @hatfieldsports @JayEveryday22"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095709972612952425",
-          "author": "cards_wire",
-          "searchJob": "arizona",
-          "text": "Arizona Cardinals made initial low offer to Michael Wilson 📸 David Brytus, IMAGN IMAGES via Reuters Connect https://t.co/tWiiduEp1F https://t.co/GiHDl1EwKn"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2095693695928393730",
-          "author": "mryoung151",
-          "searchJob": "army",
-          "text": "RFK Jr. is investigating whether troops died of Covid vaccine, Army doctor says Theresa Long is one of a few advisers to the health secretary examining whether the government covered up vaccine side effects. https://t.co/DpDcotezV8"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095685236826705935",
-          "author": "jesusarmy",
-          "searchJob": "army",
-          "text": "WHAT DID THEY GET? The tree isn't called: Tree of Evil. It's called: Tree of the Knowledge of Good and Evil. And “knowing good and evil” has several possible meanings in biblical Hebrew. This has been debated for decades. Scholarly proposal"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095702640348852358",
-          "author": "alexeikhru53336",
-          "searchJob": "marshall",
-          "text": "@flrainh Never liked him. Especially when he offered me double to betray my boss and friend to leave and go to Virgin Galactic. I turned it down so fast it shocked the girl he sent with the offer"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095694432120995850",
-          "author": "alexeikhru53336",
-          "searchJob": "marshall",
-          "text": "@TeaTramRussia @McFaul How about I counter your offer with go fu@k yourself and we take all 3"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095693040010899474",
-          "author": "jonmarshall",
-          "searchJob": "marshall",
-          "text": "@exlaws24 @iAnonPatriot The film industry offers incentives to producers for what is called \"Diversity-in-Casting\" So the guild can control the narrative."
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 41,
-      "reasons": {
-        "bare_mention_requires_llm": 29,
-        "school_not_resolved_confidently": 3,
-        "multiple_resolved_schools": 9
-      },
-      "samples": [
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095683996558754139",
-          "author": "techstoriesin",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon India Deal ] RMLZBA1016 | PN: RMSOPA4117 Reebok Courtflex Men's Lightweight Indoor Badminton Sports Shoes, Black, 7 UK (8 US) - 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟮,𝟭𝟵𝟵 | 𝗟𝗶𝘀𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟯,𝟵𝟵𝟵. [ad] Offer Link: https"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095683676982190141",
-          "author": "techstoriesin",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon India Deal ] BSInfernoOB09 Boldfit Badminton Men Non Marking Anti Skid Shoes, 9 UK - 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟭,𝟭𝟵𝟴 | 𝗟𝗶𝘀𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟰,𝟭𝟵𝟵. [ad] Offer Link: https://t.co/Wnznm2pXoQ #amazonindia #deals #tec"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095683136478998741",
-          "author": "_dieyat_",
-          "searchJob": "texas-tech",
-          "text": "\"digital assets\" are not common to normies and most times only the tech nerds can instantly relate upon hearing it one good example to give them for context would be \"ownership\" \"digital assets\" are verifiable on Blockchains companies or pr"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095680360227147928",
-          "author": "ebsnflws",
-          "searchJob": "texas-tech",
-          "text": "Sol is an open bc, not a finance app with a bc attached to it. RH merging stocks/crypto is a big advantage, that doesn’t make RHC tech superior. Anyone can build and interact with Solana w/o asking for permission. RHC early performance prov"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095678499805868196",
-          "author": "valyeai",
-          "searchJob": "texas-tech",
-          "text": "$PL — Valye Company Analysis #satelliteimaging #MaxarTechnologies #SpireGlobal #BlackSky Planet Labs operates a satellite imaging and analytics platform with multi-year contracts and a growing satellite fleet, positioned to benefit from ris"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095678318783725721",
-          "author": "lifehacker",
-          "searchJob": "texas-tech",
-          "text": "The Philips Wi-Fi Smart Lock With Handle is now $149.97, down from $194.99. It offers fingerprint unlock, PIN codes, app control, and Alexa/Google Assistant support. Link: https://t.co/6kZtjWyirZ https://t.co/1NRUQcutdR"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095700902371905965",
-          "author": "fasc1nate",
-          "searchJob": "temple",
-          "text": "The Dead Sea Scrolls are among the greatest archaeological discoveries of the twentieth century. Found in caves near the Dead Sea between 1947 and 1956, the collection transformed historians' understanding of the Hebrew Bible, ancient Judai"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095700896831471681",
-          "author": "mathewliz",
-          "searchJob": "temple",
-          "text": "‘Offered post on WhatsApp message, I froze’: Ram Temple Trust’s first woman member @MaulshreeSeth https://t.co/Ast58HDYtO"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095694773789376784",
-          "author": "bflynnusa",
-          "searchJob": "temple",
-          "text": "Jesus’ church today is the body of Christ: All who repent and believe the gospel He and His apostles delivered, gathered in local congregations that preach that gospel, baptize, and remember His death until He comes. It is not a single 19th"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095694408612041193",
-          "author": "sacksdisa",
-          "searchJob": "temple",
-          "text": "From @mijalbitton The Problem is that Nessel Makes Sense parshat Nitzavim, Politics, and the Fight over Jewish Survival When Michigan Attorney General Dana Nessel got up in front of a room of Jewish Democrats last weekend and told them they"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095692241230856257",
-          "author": "pti_news",
-          "searchJob": "temple",
-          "text": "VIDEO | Jaipur: After Mangala Aarti at Govind Dev Ji Temple on the occasion of Krishna Janmashtami, devotees offer prayers to Lord Krishna and praise the arrangements at the temple, calling them well-organised and convenient for devotees. ("
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095691229111660554",
-          "author": "ukinnepal",
-          "searchJob": "temple",
-          "text": "श्रद्धाञ्जली अर्पण 🪔 UK’s Minister for the Indo Pacific, Baroness Winterton visited the temple at the British Gurkhas Nepal office to offer prayers for all those who lost their lives in the recent floods. https://t.co/yLTY1whArN"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095682765375336470",
-          "author": "bflynnusa",
-          "searchJob": "temple",
-          "text": "Jesus’ church today is the body of Christ: all who repent and believe the gospel He and His apostles delivered, gathered in local congregations that preach that gospel, baptize, and remember His death until He comes. It is not a single 19th"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095703154801467415",
-          "author": "stimfig",
-          "searchJob": "toledo",
-          "text": "You’re measuring 78 years of intent with three post-7 October items. That is not how intent is measured. Intent over the life of the conflict is measured by who accepted partition when it was offered, who answered recognition with war, and "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095710765462311097",
-          "author": "corey_bender",
-          "searchJob": "florida",
-          "text": "TWO. MORE. DAYS. 🐊 Florida kicks off its 2026 season on Saturday. If you're not already a @GatorsOnline member, now is a great time to sign up. One year for only $29.99. This offer is about to expire ⏰💨 SIGN UP NOW: https://t.co/rQwy54Jd8"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095700795647738155",
-          "author": "schillerverse",
-          "searchJob": "florida",
-          "text": "@Panch0_E Thank you so much for the offer!! Jeremy told me I picked the best day to arrive (not as hot) 😂 Florida I was baking, shall see how tomorrow goes."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095686433591763245",
-          "author": "zachabolverdi",
-          "searchJob": "florida",
-          "text": "Two. More. Days. 🐊 Florida kicks off its 2026 season on Saturday. If you're not already a Gators Online member, now's a great time to sign up. One year for only $29.99. This offer ends in a few days⏰ JOIN: https://t.co/1e8n45Wuzu https://t"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095707027897286965",
-          "author": "scottshanle",
-          "searchJob": "georgia",
-          "text": "This DE for Colorado is good but this is what happens when you strictly recruit body types to play left tackle. #badbad Somewhere there is 6'3 315 pounder with feet like a typewriter who is million times better but couldn't get an offer bec"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095692121294467270",
-          "author": "patrickmcn59993",
-          "searchJob": "georgia",
-          "text": "Report Reveals the Georgia Cop Who Killed Family’s Adorable Baby Donkey and His Stated ‘Reason’ for Taking the Animal’s Life 📷Cedartown, Georgia Police Department Officer Trenton Garner and HeeHaw the donkey. Credits: Facebook and Hannah I"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095710436339360241",
-          "author": "dhm2727",
-          "searchJob": "illinois",
-          "text": "The University of Wisconsin plays Notre Dame this weekend in it’s first non conference game! The University of Minnesota played Eastern Illinois University. A school that doesn’t offer full ride football scholarships and has no NIL money! W"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095697214400061484",
-          "author": "tayseals11",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "Just had an amazing phone call with @IowaXC_TF! Super excited to visit iowa city and learn more about what Iowa has to offer! #agtg #GAWKS https://t.co/FqHsU9dFL8"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2095709339134693853",
-          "author": "weldon1717",
-          "searchJob": "uconn",
-          "text": "Global News Brief 1) The Telegraph: UK Opposition Leader Kemi Badenoch has pledged to raise defence spending to 3% of GDP by 2030, funding an additional £10 billion for the Armed Forces through cuts to Britain’s welfare budget. 2) CT Mirror"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095704929516060957",
-          "author": "hacklantangaeul",
-          "searchJob": "arkansas-state",
-          "text": "@mewgundam This is the consequence of a state that attempts to offer qualifications in eSports just to be dogshit in all of them coupled with a people that are very incurious"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095704618642669770",
-          "author": "bythewizard85",
-          "searchJob": "arkansas-state",
-          "text": "You have several instances of prosecution misconduct. A state governor calling for firings of defense witnesses 7 months before the trial. Accusers being offered and paid millions of dollars for accusations. Accuser’s lawyer caught on tape "
-        }
-      ]
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
-      "ok": true,
-      "reason": null,
+      "ok": false,
+      "reason": "miami-oh: rate limited",
       "jobs": 162,
-      "swept": 32,
+      "swept": 0,
       "failed": 1,
-      "requests": 33,
+      "requests": 1,
       "errors": [
         "miami-oh: rate limited"
       ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 41,
+      "rejectedCandidates": 0,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-04T03:13:11.152Z"
+    "status rebuilt locally from current store on 2026-09-04T03:26:12.124Z"
   ]
 }
