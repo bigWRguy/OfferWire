@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-04T06:58:29.401Z",
+  "generatedAt": "2026-09-04T07:13:36.788Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-04T06:58:29.155Z",
+    "at": "2026-09-04T07:13:36.577Z",
     "jobsTotal": 162,
     "sweptThisRun": 36,
     "requests": 36,
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5379125,
-    "p95Hours": 1.2890897222222222,
-    "worstHours": 1.7877716666666668
+    "medianHours": 0.5392297222222222,
+    "p95Hours": 1.2898802777777778,
+    "worstHours": 1.2898802777777778
   },
   "decisionCoverage": {
-    "total": 26,
-    "decided": 26,
+    "total": 13,
+    "decided": 13,
     "complete": true
   },
   "pending": {
@@ -44,7 +44,7 @@
   "profileResolution": {
     "cached": 33
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 697,
     "incompleteOffers": 0
@@ -52,224 +52,131 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-04T06:58:29.154Z",
-      "got": 35,
-      "new": 26,
-      "lag": 0.23
+      "at": "2026-09-04T07:13:36.577Z",
+      "got": 14,
+      "new": 13,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-04T06:56:06.437Z",
+    "at": "2026-09-04T07:11:17.143Z",
     "mode": "live",
     "collection": {
-      "returned": 35,
-      "kept": 26,
-      "duplicate": 9,
+      "returned": 14,
+      "kept": 13,
+      "duplicate": 1,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 19,
-      "rejected": 7,
+      "accepted": 5,
+      "rejected": 8,
       "reasons": {
-        "no_offer_term": 2,
-        "hard_negative": 2,
-        "no_fbs_school": 3
+        "no_offer_term": 3,
+        "no_fbs_school": 4,
+        "hard_negative": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2095746571287801937",
-          "author": "public_lokpal",
-          "searchJob": "temple",
-          "text": "राम मंदिर ट्रस्ट: व्हाट्सएप संदेश से मिला बड़ा पद, पहली महिला सदस्य बोलीं-'विश्वास नहीं हुआ' https://t.co/t98EXP9hHW #DrNirmalaYadav #RamTempleTrust #publiclokpal #plnews"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095745325667414494",
-          "author": "fertigstrust",
-          "searchJob": "temple",
-          "text": "Cracks in Foundation of Traditionis Custodes Previously undisclosed documents raised serious questions about the stated rationale for Pope Francis’ 2021 decree restricting the Traditional Latin Mass. Diane Montagna (Abridged by Robert t. Fe"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095765024367169936",
-          "author": "agahlokpe2",
-          "searchJob": "duke",
-          "text": "@Pejuola_a Please extend me an offer as well. I have a Bachelors degree in Sociology."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095760923784794269",
-          "author": "god_really_said",
-          "searchJob": "duke",
-          "text": "@ktierneyisgoat @fivethirtyDwun Chelsea has achieved everything modern day football has to offer, every one of them"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2095746814385283537",
-          "author": "n_parrott478",
-          "searchJob": "charlotte",
-          "text": "(#3) Tyson Stancil (LB) X: @StancilTyson HT: 6'0 - WT: 210 lbs. C/O: '27 - GPA: 3.5 Offer(s): \"1\" D2 Offer ('25) GCAC All-Conference (LB) Hudl(Jr. Season): https://t.co/il0B1cpnQc Hudl(Sr. Season: Wk 1 & 2): https://t.co/LyhrQBWK1i Julius L"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2095756806349848788",
-          "author": "fizx",
-          "searchJob": "alabama",
-          "text": "Starfleet has always stood for the best humanity has to offer. But what happens when the biggest threat comes from inside its own ranks? https://t.co/ZXBHVweGrR https://t.co/13z30j36E7"
+          "postId": "2095758658768654345",
+          "author": "pureguava10300",
+          "searchJob": "navy",
+          "text": "SECRET // COMMAND EYES ONLY PATTAYA AO THREAT ASSESSMENT: CONNECT FOUR Command has identified a previously underestimated local weapons system. Connect Four. At 1930, four combat-seasoned sailors entered a beer bar and encountered Noi. Orig"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095749301544906839",
-          "author": "kunkicofficial",
-          "searchJob": "phrase:\"blessed to have received\"",
-          "text": "The holy month of Bhado carries with it a deep essence of devotion and spirituality, and right now, the resonant chanting of Hari Naam fills the air all around. In the beautiful and serene ambiance of the evening, enveloped by the divine fr"
+          "postId": "2095760855053070654",
+          "author": "singhvarun",
+          "searchJob": "class:2026",
+          "text": "https://t.co/I0IpKeDJoe"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095758223462826017",
+          "author": "imagineart_x",
+          "searchJob": "class:2026",
+          "text": "Its that time of the year again... @AnthropicAI vs @OpenAI. @claudeai vs @ChatGPT. The old war, new flags: Fable 5.1 vs GPT-6 Astra. Drop your favorite use case... https://t.co/5L3csuq9HZ"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095771402662240622",
+          "author": "mikejfc1",
+          "searchJob": "washington",
+          "text": "🎟️ 2 Angine de Poitrine tickets available for Sep 15 at The Atlantis, Washington, DC! 🫶 Face value, open to reasonable offers. DM if interested! 📩 WTS • WTB • ISO • WTT"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095770845453205926",
+          "author": "mikejfc1",
+          "searchJob": "washington",
+          "text": "🎟️ 2 Robyn tickets available for Sep 8 at The Anthem, Washington, DC! 🫶 Face value, open to reasonable offers. DM if interested! 📩 WTS • WTB • ISO • WTT"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095756898704523542",
+          "author": "takshashilainst",
+          "searchJob": "washington",
+          "text": "Every year since 2021, Washington has debated whether 2027 is the year China invades Taiwan. This Issue Brief argues that reading has always been wrong and traces how even the CIA and America's own intelligence community have walked it back"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095753329024647441",
+          "author": "gaze_observer",
+          "searchJob": "washington",
+          "text": "Tariff Advantage Must for Bilateral Trade Agreement with US: Goyal India's Firm Stand India holding out for a clear tariff advantage over its competitors in the US market before signing off on the proposed Bilateral Trade Agreement (BTA) wi"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095765803593277662",
+          "author": "native_mia45594",
+          "searchJob": "miami",
+          "text": "@ElectricNews3 @RoyalFamily AND WHY IS DIANA'S BROTHER MAKING OFFERS TO THE REPULSIVE TWO? IS THE DUDE STUPID?"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 19,
+      "rejected": 5,
       "reasons": {
-        "bare_mention_requires_llm": 15,
-        "reporter_missing_player_name": 1,
-        "school_not_resolved_confidently": 3
+        "bare_mention_requires_llm": 5
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095749493509755073",
-          "author": "newsarenaindia",
-          "searchJob": "temple",
-          "text": "Bihar : Devotees offer prayers at Patna's ISKCON temple on Janmashtami. https://t.co/52h91oaY3H"
+          "postId": "2095749519061254182",
+          "author": "dropsofemerald",
+          "searchJob": "north-carolina",
+          "text": "Alecia Eubanks of North Carolina, has a son, Omari DeShawn Eubanks, who has been missing since 12/4/24 police are threatening to arrest her if she continues asking questions and digging into his disappearance. Can you offer any advice about"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095749304535445528",
-          "author": "newsarenaindia",
-          "searchJob": "temple",
-          "text": "West Bengal : People offer prayers at ISKCON temple in Rajarhat near Kolkata on Janmashtami. https://t.co/ILGr9pUate"
+          "postId": "2095769903458668793",
+          "author": "pureguava10300",
+          "searchJob": "navy",
+          "text": "SECRET // COMMAND EYES ONLY THREAT ASSESSMENT CODENAME: JENGA At 2010, six combat-seasoned sailors encountered a previously unidentified weapons system. 54 wooden blocks. Operator: Lek. Rural Isan. Formal education: approximately third grad"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095748767337357644",
-          "author": "newsarenaindia",
-          "searchJob": "temple",
-          "text": "Andhra Pradesh: Devotees offer prayers at ISKCON temple in Vijayawada on the occasion of Krishna Janmashtami. https://t.co/Keve7G1S9k"
+          "postId": "2095761863413829799",
+          "author": "zilabamuzale254",
+          "searchJob": "texas",
+          "text": "@ainomugishajim Actually the president did offer a plane but it wasn't making economical and social sense for a plane to leave uganda and go to texas"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095748718394065356",
-          "author": "pti_news",
-          "searchJob": "temple",
-          "text": "VIDEO | Mathura: Uttar Pradesh Chief Minister Yogi Adityanath (@myogiadityanath) offers prayers at Shri Krishna Janmabhoomi Temple on the occasion of Janmashtami. (Full video available on PTI Videos - https://t.co/d8jp61yd2p) https://t.co/g"
+          "postId": "2095756264911323268",
+          "author": "huwhiteprussian",
+          "searchJob": "texas",
+          "text": "Nobody advocated killing Ukrainians. A question you can’t answer: **What would have happened if Ukraine had been allowed to sign the peace treaty in 2022? (Rather than the UK forcing them to tear it up and fight) Would there be less dead Uk"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095747820594901059",
-          "author": "yatradhamboard",
-          "searchJob": "temple",
-          "text": "This Janmashtami, experience the devotion of Krishna across Gujarat. From the sacred Dwarkadhish Temple in Dwarka to ISKCON Temple Ahmedabad and Shyamlaji Temple, Gujarat offers many places to experience the spirit of Krishna. https://t.co/"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095746987832610927",
-          "author": "public_lokpal",
-          "searchJob": "temple",
-          "text": "Ram Temple Trust's First Woman Member Recalls Shock of WhatsApp Offer https://t.co/rmHvTbq3Aj #DrNirmalaYadav #RamTempleTrust #publiclokpal #plnews"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095746869121241258",
-          "author": "np_nationpress",
-          "searchJob": "temple",
-          "text": "Janmashtami 2024: Dharmendra Pradhan prays at Puri's Jagannath Temple, calls spirituality key to self-development BJP MP Dharmendra Pradhan offered prayers at Puri's Jagannath Temple on Janmashtami, saying spiritual connect is key to self-d"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095746831204667456",
-          "author": "gujarattourism",
-          "searchJob": "temple",
-          "text": "This Janmashtami, experience the devotion of Krishna across Gujarat. 🙏🦚 From the sacred Dwarkadhish Temple in Dwarka to ISKCON Temple Ahmedabad and Shamlaji Temple, Gujarat offers many places to experience the spirit of Krishna. https://t"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095746178977554617",
-          "author": "cipher_revolt",
-          "searchJob": "temple",
-          "text": "🦚💙 KRISHNA JANMASHTAMI 2026 — CELEBRATING THE BIRTH OF LORD KRISHNA Today, millions of Hindus in India and around the world celebrate Krishna Janmashtami, one of Hinduism’s most joyful and widely celebrated festivals. If you’re unfamiliar"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095745807215722696",
-          "author": "argusnews_in",
-          "searchJob": "temple",
-          "text": "#WATCH | Puri: Sambalpur MP Dharmendra Pradhan offered prayers at the Shri Jagannath Temple on the auspicious occasion of Janmashtami. He said he prayed to Mahaprabhu Shri Jagannath and Lord Krishna for the welfare of the world, the people "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095745683894739075",
-          "author": "newsarenaindia",
-          "searchJob": "temple",
-          "text": "Devotees offer prayer at Laxmi Narayan temple in Chandigarh on Janmashtami. https://t.co/IjN5CpNgVo"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095744247374938278",
-          "author": "ommcomnews",
-          "searchJob": "temple",
-          "text": "On the auspicious occasion of the Janmashtami festival on Friday, Bharatiya Janata Party (BJP) MP and former Union Education Minister, Dharmendra Pradhan, offered prayers at the Jagannath Temple in Puri, #Odisha #OmmcomNews https://t.co/GLj"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095741738879271375",
-          "author": "newsarenaindia",
-          "searchJob": "temple",
-          "text": "Devotees gather in large numbers, offer prayers at ISKCON temple in Chennai on the occasion of Janmashtami. https://t.co/keJDT5Cwd9"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2095754648078463064",
-          "author": "emereolev",
-          "searchJob": "duke",
-          "text": "@Onomz_D1 Immediately INEC declared Tinubu, I accepted my unconditional offer from one uk university. Next week, I made payment. And the rest is history, no be me, APC go waste his twenties and thirties."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095748501682475400",
-          "author": "holidaylolo1",
-          "searchJob": "duke",
-          "text": "@ShakeLS A woman who, as a girl, stood up in a man’s world and held her own. Who knew exactly how she wanted the Royal Family to behave and is politely thinking on this offer for the Duke. As for Andrew, of course they resemble each other b"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095762873297305885",
-          "author": "ogeiitm",
-          "searchJob": "coastal-carolina",
-          "text": "Applications Open: ABCD Centre–RWTH Aachen University Joint Doctoral Programme! Passionate about AI and its role in shaping our coastlines? Here's your chance to pursue a PhD at the intersection of Artificial Intelligence, Coastal Engineeri"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095758760295674261",
-          "author": "aroundgreece",
-          "searchJob": "coastal-carolina",
-          "text": "Navagio Shipwreck: Zakynthos at Its Most Dramatic There are beautiful beaches, and then there are places that seem almost designed for a movie. Navagio, often called Shipwreck Beach, is one of the most recognisable landscapes in Greece. A w"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2095756693128810515",
-          "author": "daily_express",
-          "searchJob": "coastal-carolina",
-          "text": "The charming coastal village in Pembrokeshire offers all the delights of its famous neighbour, but with far fewer tourists and a far more tranquil atmosphere #DailyExpress https://t.co/JOZ5BY7OlF"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095762265110892588",
-          "author": "smartscience",
-          "searchJob": "south-carolina",
-          "text": "Scientists just successfully reversed cognitive decline and brain damage in Alzheimer's mice. Traditionally, Alzheimer’s disease has been considered an irreversible condition, with existing treatments only slowing down its devastating progr"
+          "postId": "2095771464440160735",
+          "author": "vachon49995",
+          "searchJob": "washington",
+          "text": "August 21–22, 2026: Carney said last-minute U.S. changes were “unfair, uneconomic,” that Washington “asked too much and offered too little,” and that the U.S. tried “until the very last minute” to restrict French-language and cultural prote"
         }
       ]
     },
@@ -284,11 +191,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 19,
+      "rejectedCandidates": 5,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-04T06:58:29.402Z"
+    "status rebuilt locally from current store on 2026-09-04T07:13:36.789Z"
   ]
 }
