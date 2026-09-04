@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-04T02:11:17.432Z",
+  "generatedAt": "2026-09-04T02:28:10.859Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-04T01:58:28.076Z",
+    "at": "2026-09-04T02:28:10.554Z",
     "jobsTotal": 162,
-    "sweptThisRun": 32,
+    "sweptThisRun": 31,
     "requests": 33,
     "fullSweepCycles": 6
   },
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7524816666666667,
-    "p95Hours": 1.6975941666666667,
-    "worstHours": 1.6975941666666667
+    "medianHours": 0.7845,
+    "p95Hours": 1.533276111111111,
+    "worstHours": 1.9791016666666668
   },
   "decisionCoverage": {
-    "total": 0,
-    "decided": 0,
+    "total": 44,
+    "decided": 44,
     "complete": true
   },
   "pending": {
@@ -44,61 +44,363 @@
   "profileResolution": {
     "cached": 33
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 690,
+    "completeOffers": 693,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-04T01:58:28.076Z",
-      "got": 50,
-      "new": 23,
-      "lag": 0.24
+      "at": "2026-09-04T02:28:10.554Z",
+      "got": 72,
+      "new": 44,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-04T02:11:13.525Z",
+    "at": "2026-09-04T02:26:04.037Z",
     "mode": "live",
     "collection": {
-      "returned": 0,
-      "kept": 0,
-      "duplicate": 0,
+      "returned": 72,
+      "kept": 44,
+      "duplicate": 28,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 22,
+      "rejected": 22,
+      "reasons": {
+        "hard_negative": 3,
+        "non_fbs_offer_target": 6,
+        "no_offer_term": 6,
+        "no_fbs_school": 6,
+        "unclassified_offer_text": 1
+      },
+      "samples": [
+        {
+          "reason": "hard_negative",
+          "postId": "2095688167646986308",
+          "author": "6ontheway",
+          "searchJob": "usc",
+          "text": "@bitchy_antics And was HIGHLY touted coming out of high school! Had a ton of D1 offers. Was committed to USC. 🤷🏼‍♀️"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2095694657552355598",
+          "author": "jonathanelli66",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my first offer from West Memphis Community Christian College @GatorsMemphis @SBAEaglesFB @MitchMmcdaniel @T__butler15 @KevinCobbs @CoachCCopeland @NajjaWilliams @j_spencer08 https://t.co/PbD1UDKL1k"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095694650325565524",
+          "author": "malikputman6",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an invitation to Davenport University for a gameday visit this Saturday! 🏈 Excited to meet the staff, tour the facilities, and experience the game day atmosphere. #GoPanthers @alex_pallone @SparkyMcEwen1 @CoachBedes @Eco"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095690712935227437",
+          "author": "gradyogden_10",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great visit and discussion with @coachOBatSC, @mcsorley_jimmy, and @ricebowl727, I’m blessed to receive an offer to play basketball at Southwestern College (@SCMensBall). Thanks to the entire coaching staff for having me on campus t"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095689904592199930",
+          "author": "jasan_reams09",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "#AGTG✝️ After a great conversation with @CoachReicoB I’m so blessed to receive my first offer from TOCC!!!! @Atlantic_Sharks @Coach_Law23 https://t.co/Iaui6GPLRi"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095688458228351072",
+          "author": "reevesnich91229",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "I was blessed to receive my STATE CHAMPIONSHIP RING today Thanks to the Man above I am the first Center to win a state championship in RCSD HISTORY‼️First game this Saturday VS Edison Tech 2 PEAT otw‼️ @GregCTC585 @CTC4CHANGE @riri_demos ht"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095687680310784402",
+          "author": "barleywill60",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "#AGTG After a great conversation with @AustenJacobs I’m blessed to receive an offer to @USDFootball !!! #GoToreros @madbacker56 @CoachJakeBurton @leemunn87 @coachvictorgill @Coach_Tibbitts @CoachRazloznik @SLC_Recruiting @5qpLinepride https"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095685201196163145",
+          "author": "colestiegman",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive a game day invite to @MiamiOHFootball @EDGYTIM @PrepRedzoneIL @6starfootballIL @QBHitList @LeoOtt123 https://t.co/yfD5WDJD4O"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095684628816314744",
+          "author": "braydenrose_1",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with @Pete_Lembo I am blessed to receive another Division 1 offer from @UBuffaloFB https://t.co/pTaLr1TA4Q"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2095684548117893501",
+          "author": "sean_c_smith2",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer from Shawnee State University. @SSUBEARSFB @jimmy_peyton1 @fumapgfootball @arrittfrank https://t.co/X0Pwf83hcY"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095683706144862517",
+          "author": "evan_3e",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "I’m blessed to receive a division 2 offer from Lees-McRae college! More will come soon! @HipposRunning @Coach_Spence_ @CoachWCompton https://t.co/9VQeMMLB0D"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2095682054901903412",
+          "author": "masonrobinson_2",
+          "searchJob": "phrase:\"blessed to have received\"",
+          "text": "After a great conversation with @evan_nunez24, I am blessed to have received an offer from Capital University #Alhamdulillah https://t.co/VWJfIF6mpX"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095671010171462108",
+          "author": "asher_spence",
+          "searchJob": "phrase:\"blessed to have received\"",
+          "text": "I’m beyond blessed to have received a scholarship offer to Kansas Wesleyan University. I want to thank Coach Holloway and the rest of the staff for believing in me! #goyotes https://t.co/oNgzmWghCG"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2095692714171899937",
+          "author": "sagepytel",
+          "searchJob": "phrase:\"grateful to receive an offer\"",
+          "text": "I am grateful to receive an offer from Tusculum University thank you Coach Bradford for believing in me. 🙏🏼 https://t.co/G0q5stvXZ2"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2095692359304429649",
+          "author": "sagepytel",
+          "searchJob": "phrase:\"grateful to receive an offer\"",
+          "text": "I am grateful to receive an offer from Lees-McRae College thank you Coach Galvani for believing in me. 🙏🏼 https://t.co/ciaSqrroL2"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2095689568716509474",
+          "author": "belcher2027",
+          "searchJob": "phrase:\"grateful to receive an offer\"",
+          "text": "Blessed and grateful to receive an offer from Illinois College! Thank you @GerikGarlington for the call and for believing in me and my ability to contribute to the program. Excited for the opportunity! #goblueboys #db @NWLIONSFOOTBALL @coac"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095688408203174118",
+          "author": "channingj2027",
+          "searchJob": "phrase:\"grateful to receive an offer\"",
+          "text": "THE W IS CALLING! 💙🦉🏀 Beyond blessed and grateful to receive an offer from @TheW_WBB ! Thank you to Coach @evgeeker and the entire W Basketball family for believing in me and giving me the opportunity to continue my basketball and academ"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095698964687274412",
+          "author": "hikerkc",
+          "searchJob": "kansas",
+          "text": "Want a fall getaway with no traffic jams or tourist traps? The Flint Hills offer a stark and remote beauty that's unsurpassed. Beyond the landscape, they're dotted with picturesque courthouses, ghost towns, bison and abandoned one-room scho"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095687534844293301",
+          "author": "zoomexofficial",
+          "searchJob": "kansas",
+          "text": "August: Congress left. The rulebook didn’t. SEC drafted. Treasury drew the stablecoin line. MiCA kept counting licenses. Warsh walked into Jackson Hole. Sept 15 now holds two calendars: CLARITY cloture and the next FOMC. #ZoomxInsight https"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095682110317121583",
+          "author": "r1abonaparte",
+          "searchJob": "stanford",
+          "text": "My first article: an attempt to answer the following: who captures the value at the AI frontier? It's more of a framework than a strong opinion, but I hope you find this informative or at least a bit interesting. https://t.co/MDvm3qFAj4"
+        },
+        {
+          "reason": "unclassified_offer_text",
+          "postId": "2095698361458303424",
+          "author": "khonnews",
+          "searchJob": "hawaii",
+          "text": "Who killed a Hawaiian monk seal on Molokaʻi? NOAA is offering up to $20,000 for information leading to a conviction or civil penalty. Here’s what investigators know: https://t.co/xKMtfdbeSS https://t.co/bZHshPZ6wz"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095678829117481266",
+          "author": "anchajaya1",
+          "searchJob": "hawaii",
+          "text": "Caution: the following recall of story might be traumatic to read, not appropriate for underage children. Please read at your own discretion. https://t.co/H7larikS8L"
+        }
+      ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 3,
+      "rejected": 19,
+      "reasons": {
+        "reporter_missing_position": 1,
+        "multiple_resolved_schools": 5,
+        "bare_mention_requires_llm": 10,
+        "school_not_resolved_confidently": 2,
+        "non_fbs_program_tagged": 1
+      },
+      "samples": [
+        {
+          "reason": "reporter_missing_position",
+          "postId": "2095675712157995426",
+          "author": "profilefblive",
+          "searchJob": "class:2029",
+          "text": "Syracuse has offered 2029 Edge James Cherry from Hardee HS, FL. @jcherry50149 Rated 3.4⭐ (#273 NATL, #19 Edge, #52 FL). https://t.co/KhZWmyERZW"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095694250868383979",
+          "author": "vivamusds",
+          "searchJob": "alabama",
+          "text": "LSU Just Won a Major Legal Battle. The Bigger Fight Starts Now. LSU and the players challenging the NCAA and SEC just won an important victory in Louisiana court, but this is not the final word. Judge William Jorden granted preliminary inju"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095682608910745641",
+          "author": "shenandoahriv69",
+          "searchJob": "alabama",
+          "text": "@wbj8118 Prolly the Bama offer lol you should see his QB this year 😭"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095672710642741690",
+          "author": "eanhorner51",
+          "searchJob": "alabama",
+          "text": "@LoganHayes_30 @swess_ball Tony Diaz? The same guy that Alabama and Tennessee also offered?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095694612337746188",
+          "author": "mikep78555306",
+          "searchJob": "tennessee",
+          "text": "@YoAdrienne1968 I graduated in 81’ my Uncle offered me a full ride to university of Tennessee I went into construction instead, major trauma for not taking his offer lol"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095686946542543031",
+          "author": "christinatippen",
+          "searchJob": "tennessee",
+          "text": "Vols need to offer him"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095674134034317616",
+          "author": "lockdowncbcj05",
+          "searchJob": "vanderbilt",
+          "text": "Making the trip to Vanderbilt this Saturday for a game-day visit. Excited to see what the program has to offer! @DanielGreenVU #true2029 @BallHawkU @NCEC_Recruiting @BuckFitz @NatlPlaymkrsAca @PrepRedzoneAL @AL6AFootball @Alabama_Varsity @H"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095699651978539279",
+          "author": "jaymitch_1",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "#AGTG After a great conversations with @Coach_AlfordUM I’m blessed to receive an offer from University of Michigan @UMichFootball #GoBlue 🏈 Trust the process. The GRIND continues 💪🏾 @BFNDFball @Basorecoach @CoachRitcheyFB @JeffHoweth7 @s"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095699542192562517",
+          "author": "noahjohnson5224",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my first official offer from juniata college GO EAGLES #thepack @Rolandt2__ @CoachCiesielski @Coach_Adolph @CoachAKolb @CoachTreadJC https://t.co/2017TI7GXY"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095695569628877123",
+          "author": "michaelsmith25w",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer from @OhioFootball thank you @Crook_Ohio for reaching out!! @Coach_Kratch @coachqgriffith #SledDawgs https://t.co/GhIDAfjdQH"
+        },
+        {
+          "reason": "non_fbs_program_tagged",
+          "postId": "2095693041579201011",
+          "author": "chasegrove3",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer from Bowling Green State University!! @SMcCourt12 @EddieGeorge2727 @NCHSPanthersFB @COACHCOFFER @jcboice @SWiltfong_ @Bryan_Ault @CoachDanny10 @CoachDubMaddox @WillHewlett https://t.co/pNZnnzKyXD"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095685075664822337",
+          "author": "islandsmagazine",
+          "searchJob": "pittsburgh",
+          "text": "Letterkenny Reservoir is a manmade lake that once supplied water to a nearby army depot in Pennsylvania. Now, it offers a place to fish and enjoy the water. https://t.co/Qej38Ne1uC"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095670570889208012",
+          "author": "fruendtqb28",
+          "searchJob": "pittsburgh",
+          "text": "@N3XTrecruiting @Pitt_FB Connor Fruendt c/o 2028 Quarterback 6’0 160lbs 3.4 GPA Merritt Island High School Titusville (32796) FL (309) 339-0488 cfruendtt16@gmail.com 0 offers Hudl: https://t.co/xATox0JYrN 40: 4.770 Bench: 185 Squat: 275 Pow"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095682908669214755",
+          "author": "levoylori",
+          "searchJob": "ucf",
+          "text": "They love him in Orlando just as much as we do in Daytona! 💙💛 Congratulations to our guy Melo Parks on receiving an offer from UCF Football! So proud of you!! 🏈 https://t.co/dhoz6AkLJ2"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095685873342001347",
+          "author": "jimjesus",
+          "searchJob": "utah",
+          "text": "@TruthNAbundance @rosenrevolution @Columbo609 @bren45000 It's not suspicious. It's a capital murder case and a high profile political assassination. Utah procedure has arraignment before a plea can be offered in a capital case. Why is it su"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095693881081790578",
+          "author": "big_marvis",
+          "searchJob": "rice",
+          "text": "Yoruba people, don't keep quiet again. If you like, call me a “bigot”. Name calling is the littlest of price i have to pay but i need to set some records straight. Not because we hate anybody. Not because we are competing with anybody. But "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095692572853473377",
+          "author": "dadharmika67",
+          "searchJob": "rice",
+          "text": "Ambalappuzha - Parthasarathi temple Sri Krishna sage challenged the Ambalappuzha king to chess and asked for rice, doubling on each chessboard square. When the king realized the enormous amount required, Krishna revealed himself and asked f"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095689212305498584",
+          "author": "glauciafer26",
+          "searchJob": "rice",
+          "text": "❄️ Clearing snow, snow, gone. At dinner, she sampled dolma—grape leaves packed with rice, seasonings, and aromatic herbs, paired with creamy tzatziki sauce. The leaves were soft, the stuffing rich in taste, and the tzatziki offered a smooth"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095677395785453611",
+          "author": "muthin190",
+          "searchJob": "rice",
+          "text": "Early morning breakfast sets the tone for the entire day, refueling your body after a long night’s rest. Starting the morning with a fresh, wholesome meal—whether it’s warm, savory staple dishes or light, energizing bites—sharpens focus, re"
+        }
+      ]
     },
     "search": {
-      "ok": false,
-      "reason": "class:2029: rate limited",
+      "ok": true,
+      "reason": null,
       "jobs": 162,
-      "swept": 0,
-      "failed": 1,
-      "requests": 1,
+      "swept": 31,
+      "failed": 2,
+      "requests": 33,
       "errors": [
-        "class:2029: rate limited"
+        "texas-am: SearchTimeline JSON unreadable (slice left pending)",
+        "san-diego-state: rate limited"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
-      "brandNewOffers": 0
+      "acceptedEvidence": 3,
+      "rejectedCandidates": 19,
+      "brandNewOffers": 3
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-04T02:11:17.433Z"
+    "status rebuilt locally from current store on 2026-09-04T02:28:10.860Z"
   ]
 }
