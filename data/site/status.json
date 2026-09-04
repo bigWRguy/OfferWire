@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-04T06:28:31.696Z",
+  "generatedAt": "2026-09-04T06:43:34.246Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-04T06:28:31.499Z",
+    "at": "2026-09-04T06:43:33.988Z",
     "jobsTotal": 162,
     "sweptThisRun": 36,
     "requests": 36,
@@ -29,13 +29,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7897272222222222,
-    "p95Hours": 1.2884091666666666,
-    "worstHours": 1.2884091666666666
+    "medianHours": 0.7891741666666666,
+    "p95Hours": 1.2906322222222222,
+    "worstHours": 1.5391175
   },
   "decisionCoverage": {
-    "total": 4,
-    "decided": 4,
+    "total": 36,
+    "decided": 36,
     "complete": true
   },
   "pending": {
@@ -44,7 +44,7 @@
   "profileResolution": {
     "cached": 33
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 697,
     "incompleteOffers": 0
@@ -52,67 +52,259 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-04T06:28:31.498Z",
-      "got": 11,
-      "new": 4,
-      "lag": 0.15
+      "at": "2026-09-04T06:43:33.987Z",
+      "got": 40,
+      "new": 36,
+      "lag": 0.09
     }
   },
   "audit": {
-    "at": "2026-09-04T06:26:12.904Z",
+    "at": "2026-09-04T06:41:15.549Z",
     "mode": "live",
     "collection": {
-      "returned": 11,
-      "kept": 4,
-      "duplicate": 7,
+      "returned": 40,
+      "kept": 36,
+      "duplicate": 4,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 2,
-      "rejected": 2,
+      "accepted": 29,
+      "rejected": 7,
       "reasons": {
-        "no_fbs_school": 1,
-        "no_offer_term": 1
+        "no_fbs_school": 3,
+        "no_offer_term": 1,
+        "hard_negative": 3
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2095758612022821261",
-          "author": "kentoncmatt",
-          "searchJob": "kent-state",
-          "text": "@snowyxq1 Wave while taking a bite, then offer them a piece"
+          "postId": "2095748927660163414",
+          "author": "geoshiftorg",
+          "searchJob": "air-force",
+          "text": "Superintelligent AI is already in the possession of some and being used as part of secret programs involving MK ULTRA-style processes, hybridisation with what is known as The Phenomenon and this AI system, and remote targeting/integration t"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2095753786551570884",
-          "author": "cards_wire",
-          "searchJob": "arizona",
-          "text": "It appears the Cardinals' approach to contract talks with Michael Wilson were similar to Trey McBride's. 📸 David Brytus, IMAGN IMAGES via Reuters Connect https://t.co/Ise7vRr6at https://t.co/D9KMU87jyO"
+          "postId": "2095755845430804932",
+          "author": "0xzoz",
+          "searchJob": "arkansas-state",
+          "text": "https://t.co/mKxMXZmeAI"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095743058700624171",
+          "author": "rationalsettler",
+          "searchJob": "arkansas-state",
+          "text": "Who Would Have Ever Thought? As we start 5787, let’s take stock of the incredible times we live in. In May 1948 a battered remnant of a people declared a state on a sliver of land no one else wanted. Five regular armies crossed its borders "
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095755328348696744",
+          "author": "anshulkaliahq",
+          "searchJob": "army",
+          "text": "Respected Major Pawan Kumar Sir, On the occasion of your birthday, I offer you my humble and heartfelt greetings as a defence aspirant who draws daily inspiration from officers of your stature. Your exemplary courage, unwavering dedication "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095754391206646198",
+          "author": "sochin68",
+          "searchJob": "army",
+          "text": "@HOBlTAE Yeah.. I tried SKZ for a bit but I quickly came back from it, it’s too repetitive. I loved Mamamoo but they are not together anymore, sooo.. Nobody has the diversity BTS offer. Nobody."
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2095762456094413060",
+          "author": "pti_news",
+          "searchJob": "temple",
+          "text": "VIDEO | Uttar Pradesh Chief Minister Yogi Adityanath offered prayers at the Shri Krishna Janmabhoomi Temple in Mathura and addressed devotees, stressing the government's commitment to protecting faith, ensuring public safety, and safeguardi"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2095745980180373705",
+          "author": "patrick_mooney",
+          "searchJob": "california",
+          "text": "@trueprison The great thing is that under capitalism, it's the market that decides! We'll know how much the job is worth when workers start appearing to take jobs at a certain offered rate of pay."
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 29,
       "reasons": {
-        "bare_mention_requires_llm": 2
+        "school_not_resolved_confidently": 3,
+        "bare_mention_requires_llm": 25,
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2095754057654665709",
-          "author": "blindjellyroll",
-          "searchJob": "georgia",
-          "text": "@jfellpollright I'll offer for Georgia. In Georgia, we had 450,000 ballots that magically appeared. -BJR"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095758327133184369",
+          "author": "insidelucyshead",
+          "searchJob": "notre-dame",
+          "text": "Paddy & the 10 pints... A Texan walks into a pub in Ireland, clears his throat to the crowd of drinkers and says, \"I hear you Irish are a bunch of hard drinkers. I'll give 500 American dollars to anybody in here who can drink 10 pints of Gu"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2095753231636758800",
+          "author": "robertharte11",
+          "searchJob": "notre-dame",
+          "text": "@chrisadonnelly I think your right, SFs approach to a march whereby an offer to reduce the march, while offering further mediation, has definitely let the genie out. Not only have SF demonstrated an inability to embrace the orange culture, "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2095743715172040856",
-          "author": "sweetlock_",
-          "searchJob": "illinois",
-          "text": "so mandy comes in the group chat like 2 hours ago and says she can hear a kitten mewing outside but can't find it. i offer to come look with her bc i'm not expecting us to actually find a kitten, but at least we can say we tried well, guess"
+          "postId": "2095761487919042786",
+          "author": "continuityx_1",
+          "searchJob": "arkansas-state",
+          "text": "@YOHAMI I think all of this wokeness , feminism is used to push and radicalize men then offer them a state solution like communism"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095742969341006143",
+          "author": "walters37088240",
+          "searchJob": "arkansas-state",
+          "text": "Only if the school offers it. If they don’t, then to be consistent with an ERA they should be letting boys at least get a try out on the girls team. This won’t help every trans athlete, but they will likely benefit disproportionately from i"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095749225640563088",
+          "author": "ramnik02357325",
+          "searchJob": "army",
+          "text": "This video with soothing Nepali voice and song is a real patriotic thanks to India by the daughters of Nepal . Thank You, India - Thank You, Indian Army Timely aid In the hour of disaster, is the biggest blessings one can offer. These girls"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095744146824917123",
+          "author": "damianrazgriz",
+          "searchJob": "army",
+          "text": "Lady Death stands as one of the most enduring and fiercely independent figures to emerge from the independent comic book scene of the early 1990s, a pale-skinned goddess of death whose very existence is a monument to betrayal, transformatio"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095754991239598573",
+          "author": "definancechick",
+          "searchJob": "massachusetts",
+          "text": "@its5somewheres @Phantom2Phlyer Yes she could have, so long as judge approved. It is rare but Under Massachusetts Criminal Procedure Rule 12, a defendant has the right to offer a straight guilty plea directly to the court without the prosec"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095763405735145730",
+          "author": "papdi_chat_doku",
+          "searchJob": "temple",
+          "text": "🧵(3/4) Subsidiary Iştadevatā The legend of the goddess Khila Munda and her inclusion in the royal pantheon of Ranpur is very illustrative. Once the Rājā of Ranpur was defeated by the Gajapati king. He had to vacate his palace at Ranpur and"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095763143490449905",
+          "author": "lionexpressnews",
+          "searchJob": "temple",
+          "text": "Mathura | Uttar Pradesh CM Yogi Adityanath offers prayers at Shri Krishna Janmabhoomi Temple on Krishna Janmashtami https://t.co/v99nfZ3fhH"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095761833676452208",
+          "author": "cmreportcard_",
+          "searchJob": "temple",
+          "text": "Mathura: Uttar Pradesh Chief Minister Yogi Adityanath offered prayers at the Shri Krishna Janmabhoomi Temple on the occasion of Shri Krishna Janmashtami. 🙏🕉️ #Janmashtami #YogiAdityanath #Mathura #ShriKrishnaJanmabhoomi #UttarPradesh http"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2095761689723707579",
+          "author": "papdi_chat_doku",
+          "searchJob": "temple",
+          "text": "🧵(1/4) The tutelary goddesses of Baramba The best example to illustrate this stepwise development of political power & ritual authority is known from the History of the Royal Family of Baramba (Badāmbā rājabanjara itihasa). Baramba, one of"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095760763432628389",
+          "author": "ani",
+          "searchJob": "temple",
+          "text": "#WATCH | Delhi | Union MoS and Delhi BJP chief Harsh Malhotra says, \"... Today, our National President visited the ISKCON temple to offer prayers and seek well-being for the entire world... I pray to the Lord for everyone's welfare and for "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095759695491584209",
+          "author": "ani",
+          "searchJob": "temple",
+          "text": "#WATCH | Delhi | BJP National President Nitin Nabin participates in rituals and offers prayers at the East of Kailash ISKCON Temple on the occasion of Krishna Janmashtami. https://t.co/dx0S6uaOpd"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095759774533189981",
+          "author": "newsarenaindia",
+          "searchJob": "temple",
+          "text": "Former TN CM O Panneerselvam offers prayers at Gopalakishna Temple in Periyakulam, Theni on Krishna Jayanthi. https://t.co/9Hdmh0edfv"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095755779319959942",
+          "author": "np_nationpress",
+          "searchJob": "temple",
+          "text": "Yogi Adityanath offers prayers at Krishna Janmabhoomi on Janmashtami, hails Ayodhya's rise UP CM Yogi Adityanath offered prayers at Shri Krishna Janmabhoomi Temple in Mathura on Janmashtami, and highlighted Ayodhya's infrastructure transfor"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095755660541800615",
+          "author": "newsarenaindia",
+          "searchJob": "temple",
+          "text": "Pune: Devotees crowd ISKCON temple to offer prayers on the occasion of Shri Krishna Janmashtami. https://t.co/Zu7qDtlL59"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095755616811929750",
+          "author": "ani",
+          "searchJob": "temple",
+          "text": "#WATCH | Delhi | BJP National President Nitin Nabin offers prayers at the East of Kailash ISKCON Temple on the occasion of Krishna Janmashtami. https://t.co/oqtEU1VFAE"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095755547823992975",
+          "author": "uniindianews",
+          "searchJob": "temple",
+          "text": "Watch | Mathura: Uttar Pradesh Chief Minister Yogi Adityanath offers prayers at Shri Krishna Janmabhoomi Temple. @CMOfficeUP | @myogiadityanath | #YogiAdityanath | #Mathura | #ShriKrishnaJanmabhoomi | #KrishnaJanmashtami | #Darshan | #Praye"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095754425600217310",
+          "author": "argusnews_in",
+          "searchJob": "temple",
+          "text": "#Puri: BJP MP Dharmendra Pradhan visited the Shri Lokanath Temple in Puri on the occasion of Janmashtami and offered prayers. Pradhan said he prayed to Baba Lokanath for the well-being of everyone. #DharmendraPradhan #Puri #Janmashtami http"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095754107315528117",
+          "author": "pti_news",
+          "searchJob": "temple",
+          "text": "VIDEO | Andhra Pradesh: Devotees offer prayers at ISKCON Temple in Vijayawada on the occasion of Krishna Janmashtami. (Full video available on PTI Videos - https://t.co/d8jp61yd2p) https://t.co/OCekd9bhqe"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095753509987815830",
+          "author": "nbtworldnews",
+          "searchJob": "temple",
+          "text": "The Tourism Authority of Thailand (TAT) is promoting tuk-tuk travel across Bangkok following the release of LISA’s SaWaDiKa, which takes the familiar Thai greeting and the country’s iconic three-wheeled vehicle to an international audience."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095752738835714255",
+          "author": "ians_india",
+          "searchJob": "temple",
+          "text": "Tirumala, Andhra Pradesh: Actor Sai Kumar and his son, actor Aadi, offered prayers at the sacred Tirumala Temple on Friday. https://t.co/iVlQN56jgM"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095752709471346820",
+          "author": "ians_india",
+          "searchJob": "temple",
+          "text": "Kullu, Himachal Pradesh: On the occasion of Janmashtami, devotees have been visiting the historic Murli Manohar Temple in Kullu since morning to offer prayers. Special programmes will also be organised at the temple. https://t.co/olzpGEFjig"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2095750593822212114",
+          "author": "kamnahajela",
+          "searchJob": "temple",
+          "text": "Mathura | Uttar Pradesh CM Yogi Adityanath offers prayers at Shri Krishna Janmabhoomi Temple on Krishna Janmashtami https://t.co/aULgLx3JtJ"
         }
       ]
     },
@@ -127,11 +319,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 2,
+      "rejectedCandidates": 29,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-04T06:28:31.697Z"
+    "status rebuilt locally from current store on 2026-09-04T06:43:34.247Z"
   ]
 }
