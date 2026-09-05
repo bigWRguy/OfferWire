@@ -1,10 +1,20 @@
-name: probe block
+name: probe
 
-# Run by hand when the wire reports it is being turned away by X's bot check. It answers
-# the one question the wire's own logs cannot: is X refusing this runner's address, or
-# this account? See scripts/probe-block.mjs for how to read the verdict.
+# Hand-run diagnostics that need the repository's secrets and cannot be answered from a
+# workflow log. Nothing here touches the ledger or the site.
+#
+#   block   — is X refusing this runner's address, or this account?
+#             (see scripts/probe-block.mjs for how to read the verdict)
+#   netlify — where are the account's build minutes going?
 on:
   workflow_dispatch:
+    inputs:
+      probe:
+        description: 'Which diagnostic to run'
+        required: true
+        default: block
+        type: choice
+        options: [block, netlify]
 
 jobs:
   probe:
@@ -17,10 +27,20 @@ jobs:
           node-version: '22'
           cache: npm
       - run: npm ci --no-audit --no-fund
-      - run: npx playwright install --with-deps chromium
-      - name: probe
+
+      - name: install browser
+        if: inputs.probe == 'block'
+        run: npx playwright install --with-deps chromium
+      - name: is the block the address or the account?
+        if: inputs.probe == 'block'
         env:
           X_SESSIONS: ${{ secrets.X_SESSIONS }}
           X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
           X_CT0: ${{ secrets.X_CT0 }}
         run: node scripts/probe-block.mjs
+
+      - name: where are the build minutes going?
+        if: inputs.probe == 'netlify'
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        run: node scripts/netlify-usage.mjs
