@@ -36,6 +36,11 @@ async function playwright() {
 
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36';
 
+/** X's bot-check holding page. Its own words, not ours — see passInterstitial(). */
+const INTERSTITIAL = /performing security verification|security service to protect against malicious bots|verifying you are human|just a moment|checking your browser|enable javascript and cookies to continue/;
+/** How long the holding page is allowed to clear before the job is given up on. */
+const CHALLENGE_MS = Number(process.env.OFFERWIRE_CHALLENGE_MS || 30000);
+
 /** Credentials. Several sessions can be pooled to multiply the sweep budget. */
 export function loadCredentials() {
   const creds = [];
@@ -120,6 +125,8 @@ export class SearchSession {
     this.rateLimited = false;
     this.loggedOut = false;
     this.requests = 0;
+    this.challengesSeen = 0;
+    this.challengeStuck = false;
   }
 
   async open() {
@@ -156,6 +163,22 @@ export class SearchSession {
     return this;
   }
 
+  /**
+   * Take the bot check on a page that costs nothing, so no search job pays for it.
+   *
+   * The clearance is a context cookie: pass it once here and every query afterwards
+   * navigates straight into a timeline. Failing this is not fatal — a search can still
+   * sit through a challenge of its own — so it never throws.
+   */
+  async warmUp() {
+    try {
+      await this.page.goto('https://x.com/home', { waitUntil: 'domcontentloaded', timeout: 45000 });
+      await this.page.waitForTimeout(700);
+      await this.passInterstitial();
+    } catch {}
+    return this;
+  }
+
   async close() { try { await this.browser?.close(); } catch {} }
 
   /**
@@ -186,20 +209,56 @@ export class SearchSession {
       return { rateLimited: true, label: `rate limit page: ${snippet}`, snippet };
     if (has('something went wrong'))
       return { label: `X error page: ${snippet}`, snippet };
+    if (INTERSTITIAL.test(hay))
+      return { challenge: true, label: `bot-check interstitial did not clear: ${snippet}`, snippet };
     return { label: `no timeline call; page said: ${snippet}`, snippet };
+  }
+
+  /** Is the bot-check interstitial on screen right now? */
+  async onInterstitial() {
+    try {
+      const hay = ((await this.page.title()) + ' ' + await this.page.evaluate(() => document.body?.innerText || '')).toLowerCase();
+      return INTERSTITIAL.test(hay);
+    } catch { return false; }
+  }
+
+  /**
+   * Sit through X's bot-check interstitial.
+   *
+   * X started serving "Performing security verification" ahead of x.com on this runner's
+   * IP range. It is a passive check that clears itself and then loads the real page, but
+   * it costs far more than the settle budget a normal search is given, so every query
+   * timed out on the holding page and reported an empty timeline. Waiting it out once
+   * banks the clearance cookie in this browser context and the rest of the run is normal.
+   *
+   * @returns {boolean} whether a challenge was seen (and therefore whether the caller
+   *                    should give the timeline another chance to fire)
+   */
+  async passInterstitial(budgetMs = CHALLENGE_MS) {
+    if (!await this.onInterstitial()) return false;
+    this.challengesSeen++;
+    const deadline = Date.now() + budgetMs;
+    while (Date.now() < deadline) {
+      await this.page.waitForTimeout(1000);
+      if (this.timelineResponses) return true;      // it cleared straight into the timeline
+      if (!await this.onInterstitial()) return true;
+    }
+    this.challengeStuck = true;
+    return true;
   }
 
   /**
    * Run one query. `scrolls` fetches additional pages — each scroll triggers another
    * signed SearchTimeline call, so it costs budget like any other request.
    */
-  async search(query, { scrolls = 0, settleMs = 7000 } = {}) {
+  async search(query, { scrolls = 0, settleMs = 7000, challengeMs = CHALLENGE_MS } = {}) {
     if (!this.page) throw new Error('session not opened');
     this.captured = [];
     this.timelineResponses = 0;
     this.timelineStatuses = [];
     this.rateLimited = false;
     this.timelineParseErrors = 0;
+    this.challengeStuck = false;
 
     const url = 'https://x.com/search?q=' + encodeURIComponent(query) + '&f=live&src=typed_query';
     // Arm the waiter BEFORE navigation. The old code attached it after goto(), so fast
@@ -218,6 +277,24 @@ export class SearchSession {
     await firstTimeline;
     await this.page.waitForTimeout(700);
 
+    // A bot check swallows the whole settle budget on the holding page. Wait it out and
+    // give the timeline a second, full-length chance rather than calling the query dead.
+    if (!this.timelineResponses && await this.passInterstitial(challengeMs)) {
+      const afterChallenge = this.page.waitForResponse((r) => r.url().includes('SearchTimeline'), { timeout: settleMs })
+        .catch(() => null);
+      await afterChallenge;
+      await this.page.waitForTimeout(700);
+      // Some challenges land on x.com rather than bouncing back to the query. One reload
+      // on a now-cleared context is cheap; the alternative is discarding the whole job.
+      if (!this.timelineResponses && !this.challengeStuck) {
+        const afterReload = this.page.waitForResponse((r) => r.url().includes('SearchTimeline'), { timeout: settleMs })
+          .catch(() => null);
+        try { await this.page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 }); } catch {}
+        await afterReload;
+        await this.page.waitForTimeout(700);
+      }
+    }
+
     if (this.page.url().includes('/login') || this.page.url().includes('/i/flow/login')) {
       this.loggedOut = true;
       return { ok: false, posts: [], error: 'session expired (redirected to login)' };
@@ -233,7 +310,7 @@ export class SearchSession {
         this.rateLimited = true;
         return { ok: false, posts: [], error: `rate limited — ${d.label}`, rateLimited: true };
       }
-      return { ok: false, posts: [], error: `SearchTimeline response missing — ${d.label} (slice left pending)` };
+      return { ok: false, posts: [], error: `SearchTimeline response missing — ${d.label} (slice left pending)`, challengeStuck: !!d.challenge };
     }
     if (!this.timelineStatuses.includes(200)) {
       return { ok: false, posts: [], error: `SearchTimeline HTTP ${this.timelineStatuses.join(',')} (slice left pending)` };
@@ -350,8 +427,10 @@ export async function sweep(jobs, state, {
     const session = new SearchSession(cred, { headless });
     try {
       await session.open();
-      log(`  search: session ${cred.id} open`);
+      await session.warmUp();
+      log(`  search: session ${cred.id} open${session.challengesSeen ? (session.challengeStuck ? ' (bot check did NOT clear)' : ' (cleared a bot check)') : ''}`);
       let spent = 0;
+      let stuck = 0;
 
       while (cursor < ordered.length && spent < budgetPerCred) {
         const job = ordered[cursor];
@@ -374,11 +453,18 @@ export async function sweep(jobs, state, {
           if (errors.length < 8) errors.push(`${job.key}: ${res.error}`);
           if (res.rateLimited) { log(`  search: ${cred.id} rate limited after ${swept} jobs`); break; }
           if (session.loggedOut) { log(`  search: ${cred.id} SESSION EXPIRED — refresh its cookies`); break; }
+          // A bot check this session cannot pass will not pass on the next job either,
+          // and each attempt costs the full challenge budget. Three is enough to know.
+          if (res.challengeStuck && ++stuck >= 3) {
+            log(`  search: ${cred.id} BLOCKED — X's bot check will not clear for this session`);
+            break;
+          }
           continue;
         }
 
         all.push(...res.posts.map((p) => ({ ...p, searchJob: job.key, searchKind: job.kind, searchedSchoolId: job.schoolId || (job.kind === 'school' ? job.key : null) })));
         swept++;
+        stuck = 0;
         sweptByKind[job.kind] = (sweptByKind[job.kind] || 0) + 1;
 
         const m = (marks[job.key] ||= {});

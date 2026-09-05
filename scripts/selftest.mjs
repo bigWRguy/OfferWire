@@ -732,6 +732,36 @@ t('login wall at /search is reported as an expired session, not a missing respon
   !loginWallResult.ok && loginWall.loggedOut && /session expired/i.test(loginWallResult.error),
   JSON.stringify(loginWallResult));
 
+// The failure that took the wire down on 2026-09-05: X served a bot-check holding page
+// ahead of every query. Sitting through it must recover the job, not discard it.
+const HOLDING = 'x.com Performing security verification This website uses a security service to protect against malicious bots.';
+let cleared = false;
+const challenged = new SearchSession({ authToken: 'test', ct0: 'test' });
+challenged.page = {
+  ...fakePage(),
+  evaluate: async () => (cleared ? 'Latest' : HOLDING),
+  // The check clears a beat after it is noticed, and then the timeline call lands.
+  waitForTimeout: async () => {
+    if (!challenged.challengesSeen) return;
+    cleared = true;
+    challenged.timelineResponses = 1;
+    challenged.timelineStatuses = [200];
+    challenged.captured = [{}];
+  },
+};
+const challengedResult = await challenged.search('test', { settleMs: 1 });
+t('a bot-check interstitial is waited out instead of failing the job',
+  challengedResult.ok && challenged.challengesSeen === 1 && !challenged.challengeStuck,
+  JSON.stringify(challengedResult));
+
+const stuckChallenge = new SearchSession({ authToken: 'test', ct0: 'test' });
+stuckChallenge.page = fakePage(() => {}, () => {},
+  'x.com Performing security verification This website uses a security service to protect against malicious bots.');
+const stuckResult = await stuckChallenge.search('test', { settleMs: 1, challengeMs: 2 });
+t('a bot check that never clears is flagged so the sweep can stop early',
+  !stuckResult.ok && stuckResult.challengeStuck && stuckChallenge.challengeStuck,
+  JSON.stringify(stuckResult));
+
 const limitPage = new SearchSession({ authToken: 'test', ct0: 'test' });
 limitPage.page = fakePage(() => {}, () => {}, 'Rate limit exceeded. Please wait a few moments then try again.');
 const limitPageResult = await limitPage.search('test', { settleMs: 1 });
