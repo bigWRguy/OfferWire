@@ -159,6 +159,37 @@ export class SearchSession {
   async close() { try { await this.browser?.close(); } catch {} }
 
   /**
+   * Why did the page never call SearchTimeline?
+   *
+   * "response missing" on its own is unactionable — it looks identical whether the
+   * cookies died, the account got locked, X threw an interstitial, or the runner was
+   * simply slow. X does NOT redirect a dead session away from /search any more; it
+   * renders a login wall at the same URL, so a URL check alone reports nothing. Read
+   * what the page actually says, once per session, and name the failure.
+   */
+  async diagnose() {
+    let title = '', text = '';
+    try {
+      title = await this.page.title();
+      text = (await this.page.evaluate(() => document.body?.innerText || '')).replace(/\s+/g, ' ').trim().slice(0, 300);
+    } catch (e) {
+      return { label: `page unreadable: ${e.message}` };
+    }
+    const hay = `${title} ${text}`.toLowerCase();
+    const has = (...needles) => needles.some((n) => hay.includes(n));
+    const snippet = text.slice(0, 160) || `(blank page, title "${title}")`;
+    if (has('sign in to x', 'sign up for x', 'log in to x', 'to view keyword searches', "don't miss what's happening", 'create your account'))
+      return { loggedOut: true, label: `login wall: ${snippet}`, snippet };
+    if (has('account has been locked', 'suspended', 'unusual activity', 'verify your identity', 'confirm your identity'))
+      return { loggedOut: true, label: `account challenged: ${snippet}`, snippet };
+    if (has('rate limit exceeded', 'try again later', 'too many requests'))
+      return { rateLimited: true, label: `rate limit page: ${snippet}`, snippet };
+    if (has('something went wrong'))
+      return { label: `X error page: ${snippet}`, snippet };
+    return { label: `no timeline call; page said: ${snippet}`, snippet };
+  }
+
+  /**
    * Run one query. `scrolls` fetches additional pages — each scroll triggers another
    * signed SearchTimeline call, so it costs budget like any other request.
    */
@@ -193,7 +224,16 @@ export class SearchSession {
     }
     if (this.rateLimited) return { ok: false, posts: [], error: 'rate limited', rateLimited: true };
     if (!this.timelineResponses) {
-      return { ok: false, posts: [], error: 'SearchTimeline response missing (slice left pending)' };
+      const d = await this.diagnose();
+      if (d.loggedOut) {
+        this.loggedOut = true;
+        return { ok: false, posts: [], error: `session expired — ${d.label}` };
+      }
+      if (d.rateLimited) {
+        this.rateLimited = true;
+        return { ok: false, posts: [], error: `rate limited — ${d.label}`, rateLimited: true };
+      }
+      return { ok: false, posts: [], error: `SearchTimeline response missing — ${d.label} (slice left pending)` };
     }
     if (!this.timelineStatuses.includes(200)) {
       return { ok: false, posts: [], error: `SearchTimeline HTTP ${this.timelineStatuses.join(',')} (slice left pending)` };

@@ -706,11 +706,14 @@ t('live-only ordering does not invent history',
   prioritizeJobs([{ key: 'live', priority: 1 }], {}, 0.25).every((j) => !j.fixedWindow));
 
 console.log('search response safety');
-const fakePage = (onGoto = () => {}, onWheel = () => {}) => ({
+const fakePage = (onGoto = () => {}, onWheel = () => {}, bodyText = 'Latest') => ({
   waitForResponse: async () => null,
   goto: async () => { onGoto(); },
   waitForTimeout: async () => {},
   url: () => 'https://x.com/search',
+  title: async () => 'Search / X',
+  // diagnose() runs document.body.innerText in the page; stand in for it here.
+  evaluate: async () => bodyText,
   mouse: { wheel: async () => { onWheel(); } },
 });
 const missingTimeline = new SearchSession({ authToken: 'test', ct0: 'test' });
@@ -718,6 +721,23 @@ missingTimeline.page = fakePage();
 const missingResult = await missingTimeline.search('test', { settleMs: 1 });
 t('missing SearchTimeline response leaves job pending',
   !missingResult.ok && /slice left pending/.test(missingResult.error), JSON.stringify(missingResult));
+
+// A dead cookie no longer redirects to /login — X renders a login wall at the same
+// /search URL. If that is reported as "response missing" the run burns its whole
+// budget re-navigating and the log never names the one thing that must be fixed.
+const loginWall = new SearchSession({ authToken: 'test', ct0: 'test' });
+loginWall.page = fakePage(() => {}, () => {}, "Don't miss what's happening. Sign in to X.");
+const loginWallResult = await loginWall.search('test', { settleMs: 1 });
+t('login wall at /search is reported as an expired session, not a missing response',
+  !loginWallResult.ok && loginWall.loggedOut && /session expired/i.test(loginWallResult.error),
+  JSON.stringify(loginWallResult));
+
+const limitPage = new SearchSession({ authToken: 'test', ct0: 'test' });
+limitPage.page = fakePage(() => {}, () => {}, 'Rate limit exceeded. Please wait a few moments then try again.');
+const limitPageResult = await limitPage.search('test', { settleMs: 1 });
+t('rate-limit interstitial is reported as rate limiting, not a dead session',
+  !limitPageResult.ok && limitPageResult.rateLimited && !limitPage.loggedOut,
+  JSON.stringify(limitPageResult));
 
 const emptyTimeline = new SearchSession({ authToken: 'test', ct0: 'test' });
 emptyTimeline.page = fakePage(() => {
