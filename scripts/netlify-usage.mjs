@@ -87,6 +87,22 @@ newest deploys on ${rows[0].name}:`);
   for (const d of rows[0].recent) console.log(`  ${d.at}  built-by ${d.build.padEnd(7)} ${String(d.state).padEnd(9)} ${d.secs}s  ${d.sha}  ${d.why}`);
 }
 
+// Skipping a git build leaves an "error" row behind (Netlify records the cancel that
+// way), which is harmless for billing but not harmless for the inbox if this project has
+// deploy-failure notifications wired up. Say so plainly rather than finding out by email.
+const busiest = sites.find((x) => x.name === rows[0]?.name);
+if (busiest) {
+  try {
+    const hooks = await api(`/hooks?site_id=${busiest.id}`);
+    const failure = hooks.filter((h) => /fail/i.test(h.event || '') && !h.disabled);
+    console.log(`
+notifications on ${busiest.name}: ${hooks.length} hook(s), ${failure.length} that fire on failure`);
+    for (const h of failure) console.log(`  ${h.event} -> ${h.type}${h.data?.email ? ` (${h.data.email})` : ''}`);
+    if (!failure.length) console.log('  nothing mails you when a build fails — the skipped-build rows are silent.');
+  } catch (e) { console.log(`
+notification hooks unavailable: ${e.message}`); }
+}
+
 const worst = rows[0];
 console.log('');
 if (!worst || !worst.git) console.log('VERDICT: no git-triggered builds this month — the minutes are going somewhere other than repository pushes.');
