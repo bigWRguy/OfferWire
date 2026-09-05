@@ -170,8 +170,19 @@ jobs:
               const modeLabel = bfActive ? "backfill bootstrap" : (bfJustDone ? "backfill drain grace" : "live");
               // Optional hard fire alarm: when more than 20 schools are stale beyond a
               // multi-day ceiling (or never swept at all) the run is genuinely unable to
-              // cover them. Default 48h; set OFFERWIRE_STALE_CEILING_H to tune.
-              const hardCeiling = Number(process.env.OFFERWIRE_STALE_CEILING_H || 6);
+              // cover them.
+              //
+              // It must never be STRICTER than the envelope it backstops. A flat 6h against
+              // a 24h envelope meant any real outage kept failing every run for hours after
+              // the engine was fixed, while the backlog it created drained normally — the
+              // alarm was reporting the past, and burying the run that repaired it. The
+              // ceiling is now the envelope itself, with a floor so a fast wire still has one.
+              // Set OFFERWIRE_STALE_CEILING_H to raise that floor.
+              //
+              // Nothing is lost by being patient here: a dead engine is caught within one run
+              // by the searchConfigured and zero-sweep checks above, which is what actually
+              // pages you. This one is the slow-burn backstop.
+              const hardCeiling = Math.max(Number(process.env.OFFERWIRE_STALE_CEILING_H || 12), toleranceH);
               const stuck = (s.staleSchools || []).filter((x) => x.hours === null || x.hours > hardCeiling);
               if (stuck.length > 20) fail(stuck.length + " schools stale >" + hardCeiling + "h - coverage is failing, not just slow. Run scripts/coverage.mjs.");
               else if (stale.length > 20) warn(stale.length + " schools stale >" + toleranceH.toFixed(1) + "h (" + modeLabel + ", planned live share " + (planLiveShare * 100).toFixed(0) + "%). Busy programs flood faster than one page per sweep drains - raise OFFERWIRE_SCROLLS or add sessions to cut latency; nothing is lost either way.");
