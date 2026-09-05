@@ -527,10 +527,15 @@ export async function sweep(jobs, state, {
   // failure (expired cookies) gets lost in the noise.
   const rateLimited = errors.some((e) => /rate limited/i.test(e));
   const expired = errors.some((e) => /session expired/i.test(e));
+  // A bot check is environmental, not a broken setup: it is applied per runner address
+  // and comes and goes between runs on the same credential. Report it in its own right
+  // so the caller can wait for the next run instead of declaring the engine dead.
+  const blocked = !ok && errors.some((e) => /bot-check interstitial did not clear/i.test(e));
   return {
     ok,
     // `transient` says: nothing is wrong with the setup, we simply ran out of budget.
-    transient: !ok && rateLimited && !expired,
+    transient: !ok && (rateLimited || blocked) && !expired,
+    blocked,
     rateLimited,
     expired,
     reason: ok ? null : (errors[0] || 'all search jobs failed'),

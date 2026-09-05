@@ -44,6 +44,9 @@ const BACKFILL_DAYS = Math.max(0, Math.floor(Number(process.env.OFFERWIRE_BACKFI
 // ledger gained nothing. BACKFILL_GRACE_DAYS stretches the cut so the WHOLE anchored
 // window stays eligible for the entire drain, no matter how slowly the pipe is running.
 const BACKFILL_GRACE_DAYS = Math.max(0, Number(process.env.OFFERWIRE_BACKFILL_GRACE_DAYS || 15));
+// How many runs in a row may be turned away by X's bot check before it stops counting as
+// weather. At four runs an hour this is roughly an hour and a half of silence.
+const BLOCKED_RUNS_BEFORE_FAILING = Math.max(1, Number(process.env.OFFERWIRE_BLOCKED_RUNS_BEFORE_FAILING || 6));
 const RECENCY_HOURS = Math.max(
   Number(process.env.OFFERWIRE_RECENCY_HOURS || 96),
   BACKFILL_DAYS ? (BACKFILL_DAYS + BACKFILL_GRACE_DAYS) * 24 : 0,
@@ -141,7 +144,29 @@ async function collect(state, log, audit) {
       requests: res.requests,
       errors: (res.errors || []).slice(0, 8),
     };
-    if (!res.ok && res.transient) {
+    if (!res.ok && res.blocked) {
+      // X's bot check is served per runner address and comes and goes between runs on the
+      // same credential — one run sweeps 28 schools and the next is turned away at the
+      // door. Nothing is lost: watermarks are untouched and the next run asks for a wider
+      // window. Failing the build on one of these would mail out on every occurrence and
+      // train the alarm to be ignored, which is worse than the block.
+      //
+      // A block that never lifts IS the engine being dead, so count consecutive ones and
+      // stop being patient after BLOCKED_RUNS_BEFORE_FAILING (~1.5h of runs).
+      state.blockedRuns = (state.blockedRuns || 0) + 1;
+      state.lastBlockedAt = now();
+      const fatal = state.blockedRuns >= BLOCKED_RUNS_BEFORE_FAILING;
+      log(`  search: turned away by X's bot check — nothing swept (${state.blockedRuns} run(s) in a row).`);
+      if (fatal) {
+        log('  !! SEARCH IS BLOCKED AND STAYING BLOCKED.');
+        log('  !! X has been refusing this session for long enough that it is not weather.');
+        log('  !! Check the fingerprint rules in src/collect/search.js, or move the run off');
+        log('  !! GitHub-hosted runners — their addresses are what the check scores.');
+      } else {
+        log('  search: this clears on its own between runs; waiting for the next one.');
+      }
+      state.searchConfigured = !fatal;
+    } else if (!res.ok && res.transient) {
       // Budget exhausted, not broken. Watermarks are untouched for everything we did not
       // reach, so the next run simply asks for a wider window. Nothing is lost.
       log(`  search: rate limited with no budget left this window — nothing swept.`);
@@ -156,6 +181,7 @@ async function collect(state, log, audit) {
       const n = push(res.posts, 'search');
       log(`  search: ${n} new posts kept (of ${res.posts.length} returned)`);
       state.searchConfigured = true;
+      state.blockedRuns = 0;
       const liveJobs = allJobs().length;
       const liveSwept = Object.entries(res.sweptByKind || {})
         .filter(([kind]) => kind !== 'backfill')

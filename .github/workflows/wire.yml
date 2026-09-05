@@ -94,9 +94,12 @@ jobs:
           # A second scheduled workflow would only compete for the same X session.
           OFFERWIRE_MODE: live
           OFFERWIRE_BACKFILL_DAYS: 0
-          # This session was observed rate-limiting on request 37. Stop at 36 so every
-          # attempted query can advance its watermark instead of ending on a 429.
-          OFFERWIRE_REQUESTS_PER_CRED: ${{ vars.OFFERWIRE_REQUESTS_PER_CRED || '36' }}
+          # Ending every single window on a 429 is a reputation signal, and this session
+          # started drawing X's bot check on 2026-09-05 while doing exactly that. Observed
+          # 429s land at request 28-31, not the 37 this was tuned against, so stop at 26:
+          # under the limit on purpose, and every attempted query advances its watermark.
+          # Coverage is watermarked — a smaller budget costs latency, never completeness.
+          OFFERWIRE_REQUESTS_PER_CRED: ${{ vars.OFFERWIRE_REQUESTS_PER_CRED || '26' }}
           OFFERWIRE_SCROLLS: ${{ vars.OFFERWIRE_SCROLLS || '0' }}
           OFFERWIRE_PROFILES_PER_RUN: ${{ inputs.profiles_per_run || vars.OFFERWIRE_PROFILES_PER_RUN || '0' }}
         run: node src/pipeline.js
