@@ -1,0 +1,26 @@
+name: probe block
+
+# Run by hand when the wire reports it is being turned away by X's bot check. It answers
+# the one question the wire's own logs cannot: is X refusing this runner's address, or
+# this account? See scripts/probe-block.mjs for how to read the verdict.
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - run: npx playwright install --with-deps chromium
+      - name: probe
+        env:
+          X_SESSIONS: ${{ secrets.X_SESSIONS }}
+          X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
+          X_CT0: ${{ secrets.X_CT0 }}
+        run: node scripts/probe-block.mjs
