@@ -68,6 +68,9 @@ for (const site of sites) {
     recent: month.slice(0, 6).map((d) => ({
       at: d.created_at, state: d.state, build: d.build_id ? 'netlify' : 'cli',
       secs: d.deploy_time || 0, sha: (d.commit_ref || '-').slice(0, 7),
+      // The reason matters: a build that is being SKIPPED costs nothing, one that is
+      // genuinely failing still occupied a builder and still gets billed for it.
+      why: (d.error_message || '').replace(/\s+/g, ' ').slice(0, 90),
     })),
   });
 }
@@ -81,7 +84,7 @@ for (const r of rows) {
 if (rows[0]?.recent?.length) {
   console.log(`
 newest deploys on ${rows[0].name}:`);
-  for (const d of rows[0].recent) console.log(`  ${d.at}  built-by ${d.build.padEnd(7)} ${String(d.state).padEnd(9)} ${d.secs}s  ${d.sha}`);
+  for (const d of rows[0].recent) console.log(`  ${d.at}  built-by ${d.build.padEnd(7)} ${String(d.state).padEnd(9)} ${d.secs}s  ${d.sha}  ${d.why}`);
 }
 
 const worst = rows[0];
