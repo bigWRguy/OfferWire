@@ -34,7 +34,13 @@ async function playwright() {
   return _pw;
 }
 
-const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36';
+// The user agent must agree with the browser actually running, or the bot check fails
+// before it starts. The old value claimed Windows + Chrome 125 while the runner served
+// Linux client hints from a headless build — a mismatch no real browser produces. Keep
+// the real platform and the real version; the only edit is hiding the headless build,
+// which the shipped UA string announces outright.
+const uaFor = (version) => process.env.OFFERWIRE_UA
+  || `Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/${String(version).split('.')[0] || '141'}.0.0.0 Safari/537.36`;
 
 /** X's bot-check holding page. Its own words, not ours — see passInterstitial(). */
 const INTERSTITIAL = /performing security verification|security service to protect against malicious bots|verifying you are human|just a moment|checking your browser|enable javascript and cookies to continue/;
@@ -132,23 +138,37 @@ export class SearchSession {
   async open() {
     const { chromium } = await playwright();
     this.browser = await chromium.launch({
+      // `channel: 'chromium'` is what gets the FULL browser in new headless mode.
+      // Plain `headless: true` launches Playwright's headless shell, a stripped build
+      // that fails X's bot check on fingerprint alone and never reaches a timeline.
+      channel: 'chromium',
       headless: this.headless,
       args: ['--disable-blink-features=AutomationControlled', '--no-sandbox', '--disable-dev-shm-usage'],
     });
     const ctx = await this.browser.newContext({
-      userAgent: UA,
+      userAgent: uaFor(this.browser.version()),
       viewport: { width: 1280, height: 2400 },
       locale: 'en-US',
+      timezoneId: 'America/New_York',
     });
     await ctx.addCookies([
       { name: 'auth_token', value: this.cred.authToken, domain: '.x.com', path: '/', httpOnly: true, secure: true },
       { name: 'ct0', value: this.cred.ct0, domain: '.x.com', path: '/', secure: true },
     ]);
-    // Images and media are the bulk of the bytes and none of the signal.
+    // Images and media are the bulk of the bytes and none of the signal — but only on
+    // X's own hosts. Blocking them everywhere also starved the bot check of the assets
+    // it scores, which is a very cheap way to look like something that is not a browser.
     await ctx.route('**/*', (route) => {
       const t = route.request().resourceType();
-      if (t === 'image' || t === 'media' || t === 'font') return route.abort();
+      const host = (() => { try { return new URL(route.request().url()).hostname; } catch { return ''; } })();
+      const xHost = /(^|\.)(x\.com|twitter\.com|twimg\.com)$/.test(host);
+      if (xHost && (t === 'image' || t === 'media' || t === 'font')) return route.abort();
       return route.continue();
+    });
+
+    // navigator.webdriver is the first thing every bot check reads.
+    await ctx.addInitScript(() => {
+      Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
     });
 
     this.page = await ctx.newPage();
