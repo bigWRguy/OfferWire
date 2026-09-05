@@ -32126,7 +32126,7 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-09-05T09:19:04.330Z",
+    "at": "2026-09-05T09:28:48.687Z",
     "mode": "live",
     "collection": {
       "returned": 0,
@@ -32150,20 +32150,15 @@
     },
     "search": {
       "ok": false,
-      "reason": "florida: SearchTimeline response missing — no timeline call; page said: x.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies (slice left pending)",
+      "reason": "florida: SearchTimeline response missing — bot-check interstitial did not clear: x.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies (slice left pending)",
       "jobs": 162,
       "swept": 0,
-      "failed": 36,
-      "requests": 36,
+      "failed": 3,
+      "requests": 3,
       "errors": [
-        "florida: SearchTimeline response missing — no timeline call; page said: x.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies (slice left pending)",
-        "texas: SearchTimeline response missing — no timeline call; page said: x.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies (slice left pending)",
-        "washington: SearchTimeline response missing — no timeline call; page said: x.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies (slice left pending)",
-        "texas-tech: SearchTimeline response missing — no timeline call; page said: x.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies (slice left pending)",
-        "maryland: SearchTimeline response missing — no timeline call; page said: x.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies (slice left pending)",
-        "wisconsin: SearchTimeline response missing — no timeline call; page said: x.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies (slice left pending)",
-        "byu: SearchTimeline response missing — no timeline call; page said: x.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies (slice left pending)",
-        "california: SearchTimeline response missing — no timeline call; page said: x.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies (slice left pending)"
+        "florida: SearchTimeline response missing — bot-check interstitial did not clear: x.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies (slice left pending)",
+        "texas: SearchTimeline response missing — bot-check interstitial did not clear: x.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies (slice left pending)",
+        "washington: SearchTimeline response missing — bot-check interstitial did not clear: x.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies (slice left pending)"
       ]
     },
     "outcome": {
