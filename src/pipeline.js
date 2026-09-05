@@ -47,6 +47,10 @@ const BACKFILL_GRACE_DAYS = Math.max(0, Number(process.env.OFFERWIRE_BACKFILL_GR
 // How many runs in a row may be turned away by X's bot check before it stops counting as
 // weather. At four runs an hour this is roughly an hour and a half of silence.
 const BLOCKED_RUNS_BEFORE_FAILING = Math.max(1, Number(process.env.OFFERWIRE_BLOCKED_RUNS_BEFORE_FAILING || 6));
+// Once it HAS failed, repeating that every 15 minutes adds nothing — the first alert is
+// the whole signal and the rest is noise you learn to filter. Re-raise it roughly every
+// six hours instead, so a block cannot be quietly forgotten either.
+const BLOCKED_RUNS_BETWEEN_REMINDERS = Math.max(1, Number(process.env.OFFERWIRE_BLOCKED_RUNS_BETWEEN_REMINDERS || 24));
 const RECENCY_HOURS = Math.max(
   Number(process.env.OFFERWIRE_RECENCY_HOURS || 96),
   BACKFILL_DAYS ? (BACKFILL_DAYS + BACKFILL_GRACE_DAYS) * 24 : 0,
@@ -155,7 +159,8 @@ async function collect(state, log, audit) {
       // stop being patient after BLOCKED_RUNS_BEFORE_FAILING (~1.5h of runs).
       state.blockedRuns = (state.blockedRuns || 0) + 1;
       state.lastBlockedAt = now();
-      const fatal = state.blockedRuns >= BLOCKED_RUNS_BEFORE_FAILING;
+      const past = state.blockedRuns - BLOCKED_RUNS_BEFORE_FAILING;
+      const fatal = past >= 0 && past % BLOCKED_RUNS_BETWEEN_REMINDERS === 0;
       log(`  search: turned away by X's bot check — nothing swept (${state.blockedRuns} run(s) in a row).`);
       if (fatal) {
         log('  !! SEARCH IS BLOCKED AND STAYING BLOCKED.');
@@ -165,7 +170,10 @@ async function collect(state, log, audit) {
       } else {
         log('  search: this clears on its own between runs; waiting for the next one.');
       }
+      // The run may pass, but the status must never claim search is working while it is
+      // being turned away — the site and the coverage gate both read this.
       state.searchConfigured = !fatal;
+      state.searchBlocked = true;
     } else if (!res.ok && res.transient) {
       // Budget exhausted, not broken. Watermarks are untouched for everything we did not
       // reach, so the next run simply asks for a wider window. Nothing is lost.
@@ -173,6 +181,7 @@ async function collect(state, log, audit) {
       log('  search: this is normal once the pool is saturated; add sessions to raise throughput.');
       state.searchConfigured = true;
       state.lastRateLimitAt = now();
+      state.searchBlocked = false;
     } else if (!res.ok) {
       log(`  !! SEARCH FAILED: ${res.reason}`);
       if (res.expired) log('  !! The session cookies have expired. Refresh X_AUTH_TOKEN / X_CT0.');
@@ -182,6 +191,7 @@ async function collect(state, log, audit) {
       log(`  search: ${n} new posts kept (of ${res.posts.length} returned)`);
       state.searchConfigured = true;
       state.blockedRuns = 0;
+      state.searchBlocked = false;
       const liveJobs = allJobs().length;
       const liveSwept = Object.entries(res.sweptByKind || {})
         .filter(([kind]) => kind !== 'backfill')
@@ -766,6 +776,10 @@ async function main() {
     runMs: Date.now() - t0,
     searchCredentials: loadCredentials().length,
     searchConfigured: state.searchConfigured !== false,
+    // Turned away by X's bot check rather than broken. Published even on a run that is
+    // allowed to pass, so "green" never reads as "collecting".
+    searchBlocked: !!state.searchBlocked,
+    blockedRuns: state.blockedRuns || 0,
     // False until the wire has had long enough for one full sweep cycle, so the
     // coverage gate does not fire on a ledger that is simply new.
     warmedUp: !!(state.firstRunAt && Date.now() - new Date(state.firstRunAt).getTime() > 3 * 3600e3),
