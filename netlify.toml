@@ -5,6 +5,14 @@
 [build]
   publish = "site"
   command = "node scripts/build-status.mjs && node scripts/build-site.mjs"
+  # NEVER build on Netlify. The wire commits a ledger to main every quarter hour, and the
+  # project is git-linked, so each of those pushes was starting a build on Netlify's
+  # infrastructure — ~54 of them in the first five days of September 2026, and the only
+  # thing on the account spending build minutes. They produced nothing: the workflow
+  # already builds the site on the GitHub runner and ships it prebuilt with the CLI, which
+  # costs no minutes at all. `ignore` returning 0 means "nothing to do here", so the git
+  # build is skipped before it starts. Deploys still happen — they just come from Actions.
+  ignore = "exit 0"
 
 [build.environment]
   NODE_VERSION = "22"
