@@ -155,14 +155,14 @@ export class SearchSession {
       { name: 'auth_token', value: this.cred.authToken, domain: '.x.com', path: '/', httpOnly: true, secure: true },
       { name: 'ct0', value: this.cred.ct0, domain: '.x.com', path: '/', secure: true },
     ]);
-    // Images and media are the bulk of the bytes and none of the signal — but only on
-    // X's own hosts. Blocking them everywhere also starved the bot check of the assets
-    // it scores, which is a very cheap way to look like something that is not a browser.
-    await ctx.route('**/*', (route) => {
+    // Images and media are the bulk of the bytes and none of the signal. Scope the
+    // interception to the CDN that actually serves them: a '**/*' route puts an
+    // interceptor in front of every request on the page, including the bot check's own,
+    // and both the blocked assets and the added latency are things it can score. Nothing
+    // on x.com itself is intercepted any more.
+    await ctx.route('https://*.twimg.com/**', (route) => {
       const t = route.request().resourceType();
-      const host = (() => { try { return new URL(route.request().url()).hostname; } catch { return ''; } })();
-      const xHost = /(^|\.)(x\.com|twitter\.com|twimg\.com)$/.test(host);
-      if (xHost && (t === 'image' || t === 'media' || t === 'font')) return route.abort();
+      if (t === 'image' || t === 'media' || t === 'font') return route.abort();
       return route.continue();
     });
 
@@ -194,7 +194,10 @@ export class SearchSession {
     try {
       await this.page.goto('https://x.com/home', { waitUntil: 'domcontentloaded', timeout: 45000 });
       await this.page.waitForTimeout(700);
-      await this.passInterstitial();
+      // Be generous HERE and nowhere else. This is paid once per run, while the same
+      // patience inside a search job is multiplied by the job count, and clearing it
+      // here means no job meets the check at all.
+      await this.passInterstitial(CHALLENGE_MS * 2);
     } catch {}
     return this;
   }
@@ -257,11 +260,19 @@ export class SearchSession {
   async passInterstitial(budgetMs = CHALLENGE_MS) {
     if (!await this.onInterstitial()) return false;
     this.challengesSeen++;
-    const deadline = Date.now() + budgetMs;
+    const started = Date.now();
+    const deadline = started + budgetMs;
+    let reloaded = false;
     while (Date.now() < deadline) {
       await this.page.waitForTimeout(1000);
       if (this.timelineResponses) return true;      // it cleared straight into the timeline
       if (!await this.onInterstitial()) return true;
+      // A check that has sat still for half the budget is stalled rather than working.
+      // One reload is the cheapest thing that has ever unstuck one.
+      if (!reloaded && Date.now() - started > budgetMs / 2) {
+        reloaded = true;
+        try { await this.page.reload({ waitUntil: 'domcontentloaded', timeout: 45000 }); } catch {}
+      }
     }
     this.challengeStuck = true;
     return true;
