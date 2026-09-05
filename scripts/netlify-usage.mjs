@@ -48,11 +48,14 @@ for (const site of sites) {
   const month = deploys.filter((d) => new Date(d.created_at) >= MONTH_START);
   // A deploy carrying a commit ref was started by a git push and BUILT ON NETLIFY.
   // A CLI deploy arrives prebuilt and costs no build minutes.
-  // A build Netlify skipped (netlify.toml `ignore`) still shows up here as a git deploy,
-  // so separate it out or the fix looks like it did nothing.
-  const skipped = month.filter((d) => d.commit_ref && (d.state === 'skipped' || d.skipped));
-  const fromGit = month.filter((d) => d.commit_ref && !(d.state === 'skipped' || d.skipped));
-  const fromCli = month.filter((d) => !d.commit_ref);
+  // `build_id` is the only honest discriminator. commit_ref is NOT: the CLI deploys from
+  // a git checkout on the runner and attaches the commit it is sitting on, so classifying
+  // by commit_ref counts our own free deploys as billed builds. A deploy that was built on
+  // Netlify's infrastructure — the only kind that spends minutes — carries a build_id.
+  const built = month.filter((d) => d.build_id);
+  const skipped = built.filter((d) => d.state === 'skipped' || d.skipped);
+  const fromGit = built.filter((d) => !(d.state === 'skipped' || d.skipped));
+  const fromCli = month.filter((d) => !d.build_id);
   const gitSeconds = fromGit.reduce((n, d) => n + (d.deploy_time || 0), 0);
   rows.push({
     name: site.name,
@@ -62,11 +65,23 @@ for (const site of sites) {
     cli: fromCli.length,
     gitSeconds,
     skipped: skipped.length,
+    recent: month.slice(0, 6).map((d) => ({
+      at: d.created_at, state: d.state, build: d.build_id ? 'netlify' : 'cli',
+      secs: d.deploy_time || 0, sha: (d.commit_ref || '-').slice(0, 7),
+    })),
   });
 }
 rows.sort((a, b) => b.gitSeconds - a.gitSeconds);
 for (const r of rows) {
   console.log(`  ${r.name.padEnd(34)} ${r.linked.padEnd(11)} deploys ${String(r.month).padStart(4)}  git-built ${String(r.git).padStart(4)} (${mins(r.gitSeconds)})  cli ${String(r.cli).padStart(4)}  skipped ${String(r.skipped).padStart(4)}`);
+}
+
+// Show the newest deploys on the busiest project: a fix that stops Netlify-side builds
+// must be visible as a change in the most recent rows, not inferred from a rolling total.
+if (rows[0]?.recent?.length) {
+  console.log(`
+newest deploys on ${rows[0].name}:`);
+  for (const d of rows[0].recent) console.log(`  ${d.at}  built-by ${d.build.padEnd(7)} ${String(d.state).padEnd(9)} ${d.secs}s  ${d.sha}`);
 }
 
 const worst = rows[0];
