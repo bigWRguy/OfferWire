@@ -199,7 +199,14 @@ jobs:
               // in src/pipeline.js already reports on its own (and re-raises every ~6h).
               // Two alarms for one fault is how an alarm gets ignored: while search is
               // being turned away, say it and let the block own the failure.
+              // An outage leaves EVERY school stale at once, and the backstop must not
+              // fire on that backlog either while it is being swept away - that is the
+              // same fault reported twice, once as the block and once as its own wake.
+              // One full live pass is what draining it takes; give it two, with a floor.
+              const sinceBlockH = s.lastBlockedAt ? (Date.now() - new Date(s.lastBlockedAt).getTime()) / 36e5 : Infinity;
+              const draining = sinceBlockH < Math.max(3, expectedH * 2);
               if (s.searchBlocked) say(stuck.length + " schools stale >" + hardCeiling + "h, but search is blocked by X - the block is the fault, not coverage (" + (s.blockedRuns || 0) + " run(s) in a row).");
+              else if (draining && stuck.length > 20) say(stuck.length + " schools stale >" + hardCeiling + "h, draining the backlog from a block that lifted " + sinceBlockH.toFixed(1) + "h ago - one live pass is ~" + expectedH.toFixed(1) + "h.");
               else if (stuck.length > 20) fail(stuck.length + " schools stale >" + hardCeiling + "h - coverage is failing, not just slow. Run scripts/coverage.mjs.");
               else if (stale.length > 20) warn(stale.length + " schools stale >" + toleranceH.toFixed(1) + "h (" + modeLabel + ", planned live share " + (planLiveShare * 100).toFixed(0) + "%). Busy programs flood faster than one page per sweep drains - raise OFFERWIRE_SCROLLS or add sessions to cut latency; nothing is lost either way.");
               else if (stale.length) say(stale.length + " schools stale >" + toleranceH.toFixed(1) + "h but within the " + modeLabel + " envelope.");

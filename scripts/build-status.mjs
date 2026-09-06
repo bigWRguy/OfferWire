@@ -63,6 +63,7 @@ const status = {
   // gate needs to see the cause and not shout about the symptom every 15 minutes.
   searchBlocked: state.searchBlocked === true,
   blockedRuns: state.blockedRuns || 0,
+  lastBlockedAt: state.lastBlockedAt || null,
   warmedUp: !!(state.firstRunAt && Date.now() - new Date(state.firstRunAt).getTime() > 3 * 3600e3),
   searchCoverage: state.searchCoverage || null,
   backfillCoverage: state.backfillCoverage || null,
