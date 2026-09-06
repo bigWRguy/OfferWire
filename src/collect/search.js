@@ -46,6 +46,9 @@ const uaFor = (version) => process.env.OFFERWIRE_UA
 const INTERSTITIAL = /performing security verification|security service to protect against malicious bots|verifying you are human|just a moment|checking your browser|enable javascript and cookies to continue/;
 /** How long the holding page is allowed to clear before the job is given up on. */
 const CHALLENGE_MS = Number(process.env.OFFERWIRE_CHALLENGE_MS || 30000);
+// Where the browser (and only the browser) dials out from. Empty means straight out of
+// the runner. Accepts anything Playwright does: socks5://host:port, http://host:port.
+const PROXY = (process.env.OFFERWIRE_PROXY || '').trim();
 
 /** Credentials. Several sessions can be pooled to multiply the sweep budget. */
 export function loadCredentials() {
@@ -143,6 +146,12 @@ export class SearchSession {
       // that fails X's bot check on fingerprint alone and never reaches a timeline.
       channel: 'chromium',
       headless: this.headless,
+      // X's bot check scores the address the browser comes from, and GitHub-hosted
+      // runners sit in Azure ranges it refuses outright. OFFERWIRE_PROXY moves ONLY the
+      // browser's traffic somewhere else; the runner's own networking (checkout, the
+      // Actions control channel, the ledger push) is deliberately left alone, so a dead
+      // tunnel costs a run rather than the job.
+      ...(PROXY ? { proxy: { server: PROXY } } : {}),
       args: ['--disable-blink-features=AutomationControlled', '--no-sandbox', '--disable-dev-shm-usage'],
     });
     const ctx = await this.browser.newContext({

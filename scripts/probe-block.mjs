@@ -55,6 +55,24 @@ try {
 } catch {}
 console.log(`egress address: ${egress}`);
 
+// With OFFERWIRE_PROXY set, the runner's own address above is NOT the one X judges —
+// only the browser is tunnelled. Ask the browser itself where it comes out, so the
+// verdict below is about the address that actually loaded x.com.
+if ((process.env.OFFERWIRE_PROXY || '').trim()) {
+  let via = 'unreachable — the tunnel is down, so nothing below is meaningful';
+  const s = new AnonSession(NO_CRED);
+  try {
+    await s.open();
+    await s.page.goto('https://api.ipify.org', { waitUntil: 'domcontentloaded', timeout: 30000 });
+    via = (await s.page.textContent('body'))?.trim() || via;
+  } catch (e) {
+    via = `unreachable: ${e.message}`;
+  } finally {
+    await s.close();
+  }
+  console.log(`browser egress via ${process.env.OFFERWIRE_PROXY}: ${via}`);
+}
+
 const creds = loadCredentials();
 const results = [await probe('signed out', new AnonSession(NO_CRED))];
 if (creds.length) results.push(await probe('signed in', new SearchSession(creds[0])));
