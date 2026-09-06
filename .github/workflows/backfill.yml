@@ -30,6 +30,10 @@ jobs:
       - run: npm ci --no-audit --no-fund
       - run: npx playwright install --with-deps chromium
       - run: npm test
+      # Same address block as the live wire — the browser must leave through WARP or X
+      # refuses it. See scripts/warp-up.sh.
+      - name: route the browser through WARP
+        run: bash scripts/warp-up.sh
       - name: run historical slices
         continue-on-error: true
         id: backfill

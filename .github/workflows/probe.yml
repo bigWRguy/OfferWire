@@ -36,32 +36,9 @@ jobs:
         if: inputs.probe != 'netlify'
         run: npx playwright install --with-deps chromium
 
-      # Cloudflare's own WARP client, in PROXY mode: it exposes a local SOCKS5 port and
-      # leaves the runner's routing table alone, so the Actions control channel, the
-      # checkout and the ledger push never go through the tunnel. Only the browser does.
-      # First-party binary from Cloudflare's apt repo — no third-party proxy in the path
-      # of a session cookie.
       - name: raise a WARP tunnel
         if: inputs.probe == 'warp'
-        run: |
-          set -euo pipefail
-          curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg             | sudo gpg --yes --dearmor -o /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
-          echo "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ $(lsb_release -cs) main"             | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
-          sudo apt-get update -qq
-          sudo apt-get install -y cloudflare-warp
-          sudo systemctl start warp-svc
-          for i in $(seq 1 15); do warp-cli --accept-tos status >/dev/null 2>&1 && break; sleep 2; done
-          warp-cli --accept-tos registration new
-          warp-cli --accept-tos mode proxy
-          warp-cli --accept-tos proxy port 25344
-          warp-cli --accept-tos connect
-          for i in $(seq 1 20); do
-            curl -s --socks5-hostname 127.0.0.1:25344 --max-time 5 https://api.ipify.org > warp-ip.txt && break
-            sleep 2
-          done
-          warp-cli --accept-tos status || true
-          echo "runner address: $(curl -s https://api.ipify.org)"
-          echo "tunnel address: $(cat warp-ip.txt 2>/dev/null || echo 'TUNNEL DID NOT COME UP')"
+        run: bash scripts/warp-up.sh
 
       - name: is the block the address or the account?
         if: inputs.probe != 'netlify'
@@ -69,7 +46,6 @@ jobs:
           X_SESSIONS: ${{ secrets.X_SESSIONS }}
           X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
           X_CT0: ${{ secrets.X_CT0 }}
-          OFFERWIRE_PROXY: ${{ inputs.probe == 'warp' && 'socks5://127.0.0.1:25344' || '' }}
         run: node scripts/probe-block.mjs
 
       - name: where are the build minutes going?

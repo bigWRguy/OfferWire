@@ -71,6 +71,13 @@ jobs:
       - name: install browser
         run: npx playwright install --with-deps chromium
 
+      # X refuses GitHub-hosted addresses outright (see scripts/warp-up.sh), so the
+      # browser goes out through Cloudflare WARP. Only the browser: the ledger commit and
+      # the Netlify deploy below still leave the runner directly. Exports OFFERWIRE_PROXY
+      # when — and only when — the tunnel is proven up.
+      - name: route the browser through WARP
+        run: bash scripts/warp-up.sh
+
       # Fail fast on logic regressions before they can write bad rows into the ledger.
       - name: self test
         run: |
