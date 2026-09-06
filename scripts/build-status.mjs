@@ -58,6 +58,11 @@ const status = {
   generatedAt: now(),
   searchCredentials: loadCredentials().length,
   searchConfigured: state.searchConfigured === true,
+  // X's bot check is served per runner address. While it is refusing us, every
+  // downstream latency number is a consequence of that one cause, so the coverage
+  // gate needs to see the cause and not shout about the symptom every 15 minutes.
+  searchBlocked: state.searchBlocked === true,
+  blockedRuns: state.blockedRuns || 0,
   warmedUp: !!(state.firstRunAt && Date.now() - new Date(state.firstRunAt).getTime() > 3 * 3600e3),
   searchCoverage: state.searchCoverage || null,
   backfillCoverage: state.backfillCoverage || null,

@@ -187,7 +187,13 @@ jobs:
               // pages you. This one is the slow-burn backstop.
               const hardCeiling = Math.max(Number(process.env.OFFERWIRE_STALE_CEILING_H || 12), toleranceH);
               const stuck = (s.staleSchools || []).filter((x) => x.hours === null || x.hours > hardCeiling);
-              if (stuck.length > 20) fail(stuck.length + " schools stale >" + hardCeiling + "h - coverage is failing, not just slow. Run scripts/coverage.mjs.");
+              // A block upstream makes EVERY school go stale at once, so this backstop
+              // would re-fail the run every 15 minutes for a cause the block escalation
+              // in src/pipeline.js already reports on its own (and re-raises every ~6h).
+              // Two alarms for one fault is how an alarm gets ignored: while search is
+              // being turned away, say it and let the block own the failure.
+              if (s.searchBlocked) say(stuck.length + " schools stale >" + hardCeiling + "h, but search is blocked by X - the block is the fault, not coverage (" + (s.blockedRuns || 0) + " run(s) in a row).");
+              else if (stuck.length > 20) fail(stuck.length + " schools stale >" + hardCeiling + "h - coverage is failing, not just slow. Run scripts/coverage.mjs.");
               else if (stale.length > 20) warn(stale.length + " schools stale >" + toleranceH.toFixed(1) + "h (" + modeLabel + ", planned live share " + (planLiveShare * 100).toFixed(0) + "%). Busy programs flood faster than one page per sweep drains - raise OFFERWIRE_SCROLLS or add sessions to cut latency; nothing is lost either way.");
               else if (stale.length) say(stale.length + " schools stale >" + toleranceH.toFixed(1) + "h but within the " + modeLabel + " envelope.");
               else say("all schools are within " + toleranceH.toFixed(1) + "h of their watermark");
