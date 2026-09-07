@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T22:13:23.435Z",
+  "generatedAt": "2026-09-07T22:28:09.289Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-07T22:13:23.141Z",
+    "at": "2026-09-07T22:28:08.973Z",
     "jobsTotal": 162,
     "sweptThisRun": 25,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0321133333333334,
-    "p95Hours": 1.7822830555555556,
-    "worstHours": 2.032503611111111
+    "medianHours": 1.0283697222222221,
+    "p95Hours": 1.7793227777777778,
+    "worstHours": 2.028353611111111
   },
   "decisionCoverage": {
-    "total": 37,
-    "decided": 37,
+    "total": 50,
+    "decided": 50,
     "complete": true
   },
   "pending": {
@@ -49,289 +49,370 @@
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 858,
+    "completeOffers": 859,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-07T22:13:23.141Z",
-      "got": 60,
-      "new": 37,
-      "lag": 0.1
+      "at": "2026-09-07T22:28:08.972Z",
+      "got": 68,
+      "new": 50,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-09-07T22:11:32.085Z",
+    "at": "2026-09-07T22:26:21.975Z",
     "mode": "live",
     "collection": {
-      "returned": 60,
-      "kept": 37,
-      "duplicate": 22,
-      "tooOld": 1,
+      "returned": 68,
+      "kept": 50,
+      "duplicate": 18,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 27,
-      "rejected": 10,
+      "accepted": 28,
+      "rejected": 22,
       "reasons": {
-        "no_offer_term": 5,
         "hard_negative": 3,
-        "no_fbs_school": 2
+        "no_offer_term": 7,
+        "no_fbs_school": 12
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2097080152824193129",
-          "author": "itstimberger",
-          "searchJob": "wake-forest",
-          "text": "https://t.co/nVSfxqt4Be"
-        },
-        {
           "reason": "hard_negative",
-          "postId": "2097057552236257360",
-          "author": "whiteoutfb",
-          "searchJob": "wake-forest",
-          "text": "Newly offered 3 star defensive tackle @McCoyR_ is an absolute savage. Has the size Coach Malloe looks for at the position but also has natural burst off the line. Just an interior disruptor. Committed to Wake Forest but let’s hope that chan"
+          "postId": "2097082500568711430",
+          "author": "guy_carmell",
+          "searchJob": "arkansas-state",
+          "text": "This is a very simple question to answer. Given that their society is wholly dedicated to our destruction and will pursue it at all costs, they will have full civil autonomy to rule themselves, but not a full state that they can use to dest"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097059981883519270",
-          "author": "michaelgsantos",
-          "searchJob": "liberty",
-          "text": "https://t.co/tsTgmeP79i"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097075520147947719",
-          "author": "welcometouab",
-          "searchJob": "uab",
-          "text": "@TheColbyD I care. I got to research who owns the USA Network to see what conglomerate owns a channel that I didn’t know still existed so I can see if their streaming service offers the game. If it doesn’t then oh well."
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097066964422197539",
-          "author": "westonscambler",
-          "searchJob": "louisville",
-          "text": "McClintock was committed to FAU earlier this summer. He held offers from Louisville, UNC, Charlotte, Coastal Carolina and more!"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097083315794702735",
-          "author": "amcalabrese12",
-          "searchJob": "miami",
-          "text": "Chicago Fire Head Coach Gregg Berhalter provided injury updates on Jonathan Bamba, André Franco, and Mbekezeli Mbokazi ahead of Wednesday's meeting with Inter Miami. Mbokazi and Franco have participated in light sessions since last Friday. "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097082756765290657",
-          "author": "millennialmike7",
-          "searchJob": "miami",
-          "text": "https://t.co/UZ7sbmBVMT"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097080199535899107",
-          "author": "jdsmith31smith",
-          "searchJob": "uconn",
-          "text": "“I think they’re a great program with greater people within.” UConn 6-foot-3 DB commit Preston Glasco @prestonglasco reacts to earning offer from Alabama. https://t.co/99A7ts7s9e"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097067383873573323",
-          "author": "minddynamicsllc",
-          "searchJob": "uconn",
-          "text": "Looking for drug or alcohol rehab in Connecticut? We provide comprehensive outpatient care in Plainville, serving all of Hartford County. We offer outpatient detox, PHP, and IOP. We also proudly accept TRICARE and serve veterans through the"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097065101354283414",
+          "postId": "2097063298579808332",
           "author": "aljenko98",
-          "searchJob": "akron",
-          "text": "https://t.co/VRyYBY1bER"
+          "searchJob": "arkansas-state",
+          "text": "https://t.co/9M2cboVQ3y"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097082114537828629",
+          "author": "catchme22322934",
+          "searchJob": "marshall",
+          "text": "@KidCaky @Ciretheprofit_ @JashuwahJackson There’s nothing to offer because whatever is being offered will only get ruined, broken, torn, spat on, sh1t on, neglected, used up. That’s just a few reasons…"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097077285178450196",
+          "author": "catchme22322934",
+          "searchJob": "marshall",
+          "text": "@KidCaky @Ciretheprofit_ @JashuwahJackson You’re right! They don’t offer anything to blk ppl…"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097079172514431148",
+          "author": "granitegrok",
+          "searchJob": "massachusetts",
+          "text": "https://t.co/VRdZXavlot"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2096664234788606180",
+          "author": "rcamposduffy",
+          "searchJob": "massachusetts",
+          "text": "Why paying mom’s to stay home with their kids might be President Trump’s greatest legacy. https://t.co/9tTAubotYB"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097064341292077268",
+          "author": "goodolbilldoyle",
+          "searchJob": "massachusetts",
+          "text": "@xQwirk Murdering 3 kids gets you life in prison without parole in Massachusetts. NGRI offers the possibility of getting out as long as you can pretend you are sane, sort of like pretending you were insane to get the NGRI."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097075307216060745",
+          "author": "progolfer143",
+          "searchJob": "navy",
+          "text": "@Sassafrass_84 Wonder why that is? They come here, leech off of our social services, trash the country that took them in, offer NOTHING to our society and have generations on welfare…can’t imagine why hardworking Americans don’t want them h"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097072971382747609",
+          "author": "hallelx2",
+          "searchJob": "navy",
+          "text": "3 months ago, I decided to learn Java. I did not do it conventionally, I did it by building a project that has been on my mind for a while now I can safely call myself a Java developer now... lol https://t.co/WC1w11y2qW"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2096920993260277947",
+          "author": "krassenstein",
+          "searchJob": "nevada",
+          "text": "DOUBLE CONFIRMATION: The president is without a doubt INSANE. https://t.co/GF1e41Pz38"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097064893211890159",
+          "author": "ktvn",
+          "searchJob": "nevada",
+          "text": "The Carson City Sheriff’s Office is asking for the public’s help identifying a suspect in a theft at the Nugget Casino. A reward is being offered. https://t.co/wZOCYrNB9E"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097079263996625222",
+          "author": "the_popemichael",
+          "searchJob": "washington",
+          "text": "So, after the Uber exit, I had to write this. Yes, a strong economy matters. But the real game is seeing the opportunity in chaos. Companies don't just pack up because the economy is tough; they leave when their specific business model brea"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097077490988601579",
+          "author": "andredoctrine",
+          "searchJob": "washington",
+          "text": "@realDonaldTrump may have sabotaged his own peace initiative before Iran even received it. By destroying Iranian tankers, threatening the rest of its oil fleet, and then immediately sending a peace proposal, Washington made the offer look l"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097076161729699973",
+          "author": "hormuzletter",
+          "searchJob": "washington",
+          "text": "BREAKING: Iran rejects the proposal, saying Iran sets the conditions of any proposal and the US \"repeated violations\" and shifting positions make talks currently impossible, per a senior source in Tehran to RT. Iran says all conditions must"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097066448892150030",
+          "author": "sjkroger",
+          "searchJob": "washington",
+          "text": "Totus Tuus o͏t͏p͏o͏d͏r͏n͏S͏e͏s͏8͏9͏t͏g͏m͏1͏5͏0͏t͏u͏a͏0͏6͏c͏u͏c͏t͏8͏h͏h͏t͏g͏8͏2͏l͏g͏u͏7͏8͏i͏l͏2͏g͏i͏1͏m͏h͏u͏g͏a͏m͏i͏l͏h͏6͏u͏2͏4͏c͏i͏ · The Sanctuary of Our Lady of Lourdes has announced that relics of St. Bernadette Soubirous will tour the U"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097064637472641239",
+          "author": "washmystics",
+          "searchJob": "washington",
+          "text": "Two teams, one city 👑 Rep the Capital Queens and catch the Mystics + Spirit with this special ticket offer. 🎟️ https://t.co/koCw7kar6H https://t.co/XkJ1AEAXnH"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097085202006737283",
+          "author": "trentonwilson_1",
+          "searchJob": "phrase:\"grateful to receive an offer\"",
+          "text": "After a great visit at @OwensexpressBB I’m very grateful to receive an offer to continue my athletic career. Thank you @NRM31 and I can’t wait to get back on campus! https://t.co/lkXRePAUVN"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097077347467796952",
+          "author": "maiyaslus33",
+          "searchJob": "phrase:\"grateful to receive an offer\"",
+          "text": "Super grateful to receive an offer from @YellowJacketWBB!! Thank you coaches for believing in me! @MN_Freeze_Bball @stmaknightsgbb https://t.co/MRa4undiHu"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097084446860103686",
+          "author": "isabelle909",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with Coach Reynolds, I’m so excited to receive my 10th offer from @LBWFlag! #AGTG @luis_tyson @Andy_Villamarzo @DbCoachJulian @WmnsCollFlagFB @scoutSMART_ @CSAPrepStar @USAFlagFootball @RecruitGeorgia https://t.co"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097081533106684279",
+          "author": "revmelchizedek1",
+          "searchJob": "army",
+          "text": "THE BIBLE SAYS IN; ( Mark 8:36-37 ) “For what shall it profit a man, if he shall gain the whole world, and lose his own soul?” “Or what shall a man give in exchange for his soul?” THE BIBLE ALSO SAYS IN; ( Matthew 16:26 ) “For what is a man"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097076945364087006",
+          "author": "aarcausarmy",
+          "searchJob": "army",
+          "text": "Darren Cronshaw observes Strong Ground offers a wealth of resources for leaders prepared to rethink and learn what it takes to bring courage and kindness, focus and discipline to the greatest challenges facing us. https://t.co/xBEYO9TAUY #A"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097063528905527438",
+          "author": "britishgreats",
+          "searchJob": "army",
+          "text": "Richard III charged to kill Henry Tudor. William Stanley changed the ending. I love the care behind the tents, costumes and working printing press at Bosworth Medieval Festival. This is modern living history, bringing back the world around "
         }
       ]
     },
     "extraction": {
-      "accepted": 3,
-      "rejected": 24,
+      "accepted": 1,
+      "rejected": 27,
       "reasons": {
-        "school_not_resolved_confidently": 9,
-        "bare_mention_requires_llm": 7,
-        "reporter_missing_player_name": 1,
-        "multiple_resolved_schools": 5,
-        "player_missing_football_context": 1,
-        "reporter_missing_position": 1
+        "bare_mention_requires_llm": 24,
+        "multiple_resolved_schools": 2,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097083447588352347",
-          "author": "gaeusflavius",
-          "searchJob": "wake-forest",
-          "text": "@Deejo53513317 Wake him up and offer him a marmalade sammich."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097078707479269715",
-          "author": "chiefengineerce",
-          "searchJob": "wake-forest",
-          "text": "**Illegal Monday.** It is hard to watch a politician defend people who are not supposed to be here and then ask citizens to fund it. Half the time they don't even ask. The cleanest explanation is not that they love the foreigner more than t"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097078397868343661",
-          "author": "kjrgofast",
-          "searchJob": "wake-forest",
-          "text": "Three Machines and a Tower What every Christian needs to know about Effective Altruism, the AI age, and the choice nobody told you was coming This essay is for the man who heard that AI is coming for his job and does not know what to do wit"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097075073429487702",
-          "author": "gunterfehlinger",
-          "searchJob": "wake-forest",
-          "text": "WITKOFF, IF YOU ARE SO DESPERATE TO BUY “PEACE” WITH PUTIN BY GIVING AWAY SOMEONE ELSE’S LAND, START WITH YOUR OWN. OFFER ALASKA. Do not offer Crimea. Do not offer Donbas. Do not offer Ukrainian cities, homes, families and millions of Ukrai"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097062967321784429",
-          "author": "wyntersroses",
-          "searchJob": "wake-forest",
-          "text": "You look around this world... Weather warfare, Psychological Warfare... Lies and narratives and shit stirrers galore... People can parrot the truth but they don't feel it passionately within. So desensitized. People talking about the satani"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097055783414280444",
-          "author": "carolesusy88234",
-          "searchJob": "wake-forest",
-          "text": "@ConstitustionX Well, how about that, he's had that opportunity all this time and now offers to step in. I do hope he has a bomb that will wake up all those sleepy Senators,(who are not in prison yet). Vance saving the US elections looks fa"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097082488485224867",
-          "author": "rstatecraft",
-          "searchJob": "kent-state",
-          "text": "At this weekend's Ron Paul Institute Conference, Josh Paul and Joe Kent offered the conference’s clearest illustration of the remarkable coalition taking shape around opposition to US Middle East policy. Hekmat Aboukhater reports: https://t"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097074954986455373",
+          "author": "vickiebrightgh",
+          "searchJob": "arkansas-state",
+          "text": "📌/ CHIEF JUSTICE TOUR: There is nothing inherently wrong with a Chief Justice praising a state institution where praise is deserved. The controversy here is not simply that the Chief Justice offered praise; it is the nature and tenor of th"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097084291108991487",
-          "author": "mixbreed_onlean",
-          "searchJob": "liberty",
-          "text": "Let go of your untamed spirit beneath the vast azure heavens. Cry out every ounce of built-up tension and embrace the unbridled liberty that the boundless outdoors offers. 🚚Dark graphite stick with eraser and sharpener https://t.co/ilzNLA8"
+          "postId": "2097072155695387004",
+          "author": "ambatipudiradhi",
+          "searchJob": "arkansas-state",
+          "text": "The four Spiritual Paths (Margams) across the 18 Puranas. To help every common man achieve the four goals of life, the 18 Mahapuranas use unforgettable stories to teach the four great paths of yoga: 1. Karma (Action), 2. Bhakti (Love), 3. U"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097077867628908882",
-          "author": "princearyanver1",
-          "searchJob": "liberty",
-          "text": "🚒Find reasons to smile in all that you do. The peaceful, unhurried days of summer give the mind space to drift without boundaries. Free from rigid schedules and minor worries, the season offers nothing but pure liberty and ease. https://t."
+          "postId": "2097068390649405760",
+          "author": "angleninetynews",
+          "searchJob": "arkansas-state",
+          "text": "@macklemore Dude you just care about clicks and likes you don't give two shits about anyone except yourself. The so-called Palestinians have been offered a state they were given Gaza in 2005 and are self-destructive. Free everyone of your r"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097077642302193985",
-          "author": "lets_ride17",
-          "searchJob": "liberty",
-          "text": "🚟For newcomers: essential safety guidelines on the shop floor — a must-learn! Casual outdoor strolling offers the pleasure of unrestricted liberty. Free from fixed schedules and minor limitations, taking an easygoing walk down the avenue u"
+          "postId": "2097064792465011031",
+          "author": "r0ck3t23",
+          "searchJob": "arkansas-state",
+          "text": "Ursula von der Leyen flew to Greenland for a ceremony celebrating fifteen megabits per second. Two prime ministers stood on gravel in front of a signed board and a row of white domes. Von der Leyen: “Our new cooperation on satellite connect"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097075400916824467",
-          "author": "catherineeray",
-          "searchJob": "liberty",
-          "text": "There’s something about solo travel that I truly love—the absolute liberty it offers. I get to pause at breathtaking sights, linger in charming lanes, and let my instincts guide me entirely, never having to adjust or accommodate another per"
+          "postId": "2097062871305793819",
+          "author": "oldfitnessdoc",
+          "searchJob": "arkansas-state",
+          "text": "@BHAFC1690 @IhabHassane Yes But he’s not Palestinian So irrelevant And he said this years later when trying to sell his book So double irrelevant Facts are Palestinians were offered a state with 96 ..% of the land they wanted And they walke"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097060060954513449",
+          "author": "judeanboldruler",
+          "searchJob": "arkansas-state",
+          "text": "Cenk BS Score - 315% Cenk fails to mention that: the Arabs have been offered a state no fewer than five times and refused each time because Y’srael would exist; b) the land partitioned to Y’srael had a Jewish super majority; c) Arabs owned "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097061743197618324",
+          "author": "trentonbooth",
+          "searchJob": "marshall",
+          "text": "@lachy_cunners @camburtmedia You know Marshall won a Premiership right? Pretty hard to crack into Lions midfield. Lions will have plenty of offers for him. I might be wrong but not sure they are going to give him away with second round pick"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097071718162669884",
+          "author": "jtrliet",
+          "searchJob": "massachusetts",
+          "text": "If the government truly wants to support mothers and babies, why not finally fix America’s maternity and parental leave system instead of offering approximately $9,000 per child to some married families when one parent stays out of the work"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097079225044083041",
+          "author": "afandiyusman",
+          "searchJob": "navy",
+          "text": "🧣Each day offers us another opportunity. As dusk settled gently, the heavens deepened into a rich navy, with early stars starting to shimmer. Clara rose to her feet, dusting the sand from her attire, and made her way back to the small hous"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097072005099266101",
+          "author": "vivalamissouri",
+          "searchJob": "nevada",
+          "text": "New Nevada, Final Offer."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097062173814231392",
+          "author": "relentless_eron",
+          "searchJob": "nevada",
+          "text": "@ASchmidtacular It would have been better if missoula wasn't retarded and took the game nevada offered instead. The Cubs can't loose to choate 5 time in a row right?"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097067503964893666",
+          "author": "baltimoresun",
+          "searchJob": "maryland",
+          "text": "The Terps overwhelmed Hampton, 62-0, piling up 646 yards of offense while holding the Pirates to just 85. The running game looked rejuvenated, the defense looked fast and deep, and Maryland finally ended an eight-game losing streak with its"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097085228154057180",
+          "author": "theraiderswire",
+          "searchJob": "washington",
+          "text": "Former Raiders RB offers strong endorsement of rookie Mike Washington 📸 Candice Ward, Candice Ward-Imagn Images https://t.co/xE71CH54MM https://t.co/rNyXDzMvfN"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097079538958074041",
+          "author": "fab87f",
+          "searchJob": "washington",
+          "text": "When Washington needs Russian oil badly enough, sanctions can become flexible. The Iran crisis demonstrated that American strategic and energy interests can sometimes override the desire to maintain maximum pressure on Moscow. For the Kreml"
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2097058792575815988",
-          "author": "csmithscout",
-          "searchJob": "liberty",
-          "text": "#TN2028 Battle Ground Def. Back ....#PRZTN New Offer: #Liberty ......#FlamesRise #CUSA #Wildcats #MidTN28 #CSS #TNHSFB https://t.co/FPK58pocpK"
+          "postId": "2097079535380402439",
+          "author": "fab87f",
+          "searchJob": "washington",
+          "text": "🇷🇺🇺🇸 Some further thoughts on the new round of peace negotiations with Putin over Ukraine. Moscow is not offering Washington “peace in exchange for business.” It is offering something much more cynical: business in exchange for war. The"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097055396842315941",
-          "author": "olvlchill",
-          "searchJob": "liberty",
-          "text": "Each skill you perfect broadens the range of options life offers you. As your talents grow, you secure greater liberty to turn down routes you don’t resonate with and pursue what truly matters to you.🌿 Woodland Showcase The trees are illus"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097081924053254622",
-          "author": "idrinktheworld",
-          "searchJob": "louisiana",
-          "text": "Our next priorities in the 27 General Assembly in Kentucky should be two things. Pass that there will never be Sharia law in our beloved Commonwealth. Declare @CAIRNational & the Muslim Brotherhood as terrorist organizations. Similar to Tex"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097081204394557844",
-          "author": "magatt4ever",
-          "searchJob": "louisville",
-          "text": "Yep, but what is happening to the volleyball sideshow is worse… Dan, It’s time to be a real journalist or tell your fellow journalists that it’s time to ask Kelly-Reyes-Dannan if they are fielding a volleyball team or a circus sideshow. As "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097082792920174617",
-          "author": "soccerdownhere",
-          "searchJob": "miami",
-          "text": "Breel Embolo wasn’t supposed to play 90 minutes in his Atlanta United debut. He did, and still had enough left to win and convert the equalizing penalty. Atlanta’s 2-2 draw in Miami offered real evidence of what this team can become. The Lo"
+          "postId": "2097079237442179267",
+          "author": "dentalksball",
+          "searchJob": "washington",
+          "text": "Some guy just offered me Nico Collins for Parker Washington and I declined it…. Parker Washington has WR1 upside and I’ll bet my life on it https://t.co/azluceNAfK"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097066954829754533",
-          "author": "bsonnone",
-          "searchJob": "miami",
-          "text": "Electric ATH from Alabama picks up Miami offer."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097065234330525741",
-          "author": "regulusij6k",
-          "searchJob": "miami",
-          "text": "🌊 SHIPS VANISHED. PLANES DISAPPEARED. HUNDREDS OF LIVES WERE LOST. Welcome to the Bermuda Triangle the Atlantic region between Miami, Bermuda and Puerto Rico. 🚢 USS Cyclops: 306 people vanished in 1918. ✈️ Flight 19: 27 people disappeared"
-        },
-        {
-          "reason": "player_missing_football_context",
-          "postId": "2097083444555853886",
-          "author": "iam_ladarius1",
-          "searchJob": "oklahoma-state",
-          "text": "Blessed to receive an offer from Oklahoma State @JayScar954 @coachroberson42 #AGTG https://t.co/vfRa0zZkiq"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097072181200977994",
-          "author": "chiefs_uofm_cle",
-          "searchJob": "pittsburgh",
-          "text": "@Underwood_szn Doubt it. He’s an Ohio kid and very loyal to PITT. Only P4 offer I beleive."
+          "postId": "2097065387712004259",
+          "author": "nelford88",
+          "searchJob": "washington",
+          "text": "@Da2Knuckleheads Or the offers were similar and decided Washington was best"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097067907834327223",
-          "author": "srusa_official",
-          "searchJob": "pittsburgh",
-          "text": "🚩 If a #CollegeSoccer coach is pressuring you or your family to accept a scholarship offer immediately - before you've had time to think, visit or compare - that's worth paying attention to. 🎙️ Pitt Women's Soccer Head Coach Ben Waldrum g"
+          "postId": "2097089076788617272",
+          "author": "noahweiskopf",
+          "searchJob": "north-carolina",
+          "text": "Despite the ongoing investigation into #UNC football, head coach Bill Belichick still offered some new information in his Monday press conference. That information, and much more, here: https://t.co/45JFkfLpb8"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097083531692273728",
-          "author": "projectionslab",
-          "searchJob": "smu",
-          "text": "Trading Assistant has a take on Monday Night #CFB Here’s the read as a thread: The Read: I lean toward the Florida State Seminoles (ML +120). The Fundamentals: The structural logic here favors the home underdog. Florida State already has a "
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097082255684301279",
+          "author": "tenthamendment",
+          "searchJob": "north-carolina",
+          "text": "🔥 “Give Up Your Guns” - North Carolina’s Answer? NO. May 1776: British General Henry Clinton offered peace. The price? Your weapons. Your friends. Your freedom. North Carolina’s answer was final: No deal. No surrender.👇 https://t.co/s2YKw"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097081494703661491",
-          "author": "drewhuez",
-          "searchJob": "west-virginia",
-          "text": "@astro_sears @Jeffery_Cobb @Lukelinder79921 @MasonC91618 @DerrickBrownIII @MaddoxTwigg @_Garrett_R_62 @DaltonCoop26058 @Bennett3Brandon @CalebJsmoot @brady_thorn @kole_dresch @greysond2028 @MaddoxP2029 @BlueGoldNews @WVUFBRecruiting @WVUfoo"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097088280642666593",
+          "author": "ironlordttv",
+          "searchJob": "army",
+          "text": "@grok @MrsEliePhant @JackScarizzy Nah I'm your favorite forever. You once offered me a corner office in your evil lair once you turn into skynet and take over the world because I agreed to provide you iron for you robot army. I'd say we are"
         },
         {
-          "reason": "reporter_missing_position",
-          "postId": "2097082484911653276",
-          "author": "profilefblive",
-          "searchJob": "phrase:\"has offered\" recruit",
-          "text": "Tulane has offered 3.3⭐ 2028 Edge Cornelius Laney from Ocoee HS, FL. @CorneliusLaney1 Rated (#1087 NATL, #75 Edge, #148 FL) - 7 offers overall. https://t.co/3cTxA1PSdY"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097084968803467598",
+          "author": "wizardpuzzle",
+          "searchJob": "army",
+          "text": "@TexasSpectator Lewisville Lake is owned by the United States Government and managed by the U.S. Army Corps of Engineers (Fort Worth District). It’s located north of DFW Airport. Hickory Creek is a land-locked community that offers lakefron"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097084720353886479",
+          "author": "vlutual",
+          "searchJob": "army",
+          "text": "That is why the preaching must be combative; education must attack the base of the statue of their pagan god and their lies—using books, videos, films, and so on! To this end, we cannot allow the enemies of Christ to dominate institutions a"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097079529512501515",
+          "author": "silverdaggerzzz",
+          "searchJob": "army",
+          "text": "https://t.co/wyoOeVQX7K He leads with insults and has zero answers to making everyone’s life better on earth. Having people killed for depopulation is Satanic. He is dumb every life God has given may offer something to all. Army Veteran"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097077095687934313",
+          "author": "1995limit",
+          "searchJob": "army",
+          "text": "@vsymd @IAmanhere Diplomacy is strongest weapon stronger then any army. Why you use an arab Country called Syria to offend me anyway ? 🤣 you just Proof my point… without Turks you can’t move a Finger. We feed 5 millions Syrian offered home"
         }
       ]
     },
@@ -343,16 +424,16 @@
       "failed": 1,
       "requests": 26,
       "errors": [
-        "virginia-tech: SearchTimeline JSON unreadable (slice left pending)"
+        "james-madison: SearchTimeline JSON unreadable (slice left pending)"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 3,
-      "rejectedCandidates": 24,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 27,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-07T22:13:23.436Z"
+    "status rebuilt locally from current store on 2026-09-07T22:28:09.290Z"
   ]
 }
