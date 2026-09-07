@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T05:28:34.640Z",
+  "generatedAt": "2026-09-07T05:43:22.730Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-07T05:28:34.487Z",
+    "at": "2026-09-07T05:43:22.430Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5361625,
-    "p95Hours": 1.5363080555555555,
-    "worstHours": 1.7803027777777778
+    "medianHours": 0.5293222222222222,
+    "p95Hours": 1.5303469444444444,
+    "worstHours": 2.0269944444444445
   },
   "decisionCoverage": {
-    "total": 11,
-    "decided": 11,
+    "total": 38,
+    "decided": 38,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 37
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 831,
     "incompleteOffers": 0
@@ -55,120 +55,287 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-07T05:28:34.486Z",
-      "got": 16,
-      "new": 11,
-      "lag": 0.05
+      "at": "2026-09-07T05:43:22.430Z",
+      "got": 57,
+      "new": 38,
+      "lag": 0.09
     }
   },
   "audit": {
-    "at": "2026-09-07T05:26:58.194Z",
+    "at": "2026-09-07T05:41:32.700Z",
     "mode": "live",
     "collection": {
-      "returned": 16,
-      "kept": 11,
-      "duplicate": 5,
-      "tooOld": 0,
+      "returned": 57,
+      "kept": 38,
+      "duplicate": 18,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 7,
-      "rejected": 4,
+      "accepted": 27,
+      "rejected": 11,
       "reasons": {
-        "no_fbs_school": 2,
-        "non_fbs_offer_target": 1,
-        "no_offer_term": 1
+        "no_offer_term": 5,
+        "hard_negative": 1,
+        "non_fbs_offer_target": 2,
+        "no_fbs_school": 3
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2096819536188072290",
-          "author": "libertydankmeme",
-          "searchJob": "liberty",
-          "text": "@SkyNews i think it's exciting - now the only question is - will all the muslims in England fight WW3 for the British? maybe they can arrest some sky news \"journalists\" before that happens and offer them military contracts in lieu of prison"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2096813295537734082",
-          "author": "truthseekeringa",
-          "searchJob": "liberty",
-          "text": "@KHRIndivisible @EpochTimes They have to pay people just like all employers. They offer free access if you sign up for the first yr then charge you the subscription if you don't cancel."
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2096825519954067464",
-          "author": "allnonesports1",
-          "searchJob": "louisiana",
-          "text": "🔥 OFFERED AT CAMP '27 G, Michael Chukwuneke @MChukwuneke2027 has received an offer from Louisiana Christian University at the @AllNOneSports1 Labor Day Showcase"
+          "reason": "no_offer_term",
+          "postId": "2096505734926143736",
+          "author": "flawlessdazzol",
+          "searchJob": "rice",
+          "text": "What Makes Me Different? No plenty grammar. 😂 Good products. Fair prices. Proper service. And a vendor that genuinely cares. That’s my Flawless formula 💯 #GrowWithProsperians https://t.co/ZQX2jyQjU1"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2096828570828157247",
-          "author": "ctindale",
-          "searchJob": "memphis",
-          "text": "https://t.co/Avai5ztgqz"
+          "postId": "2096822042255405503",
+          "author": "adunniolaide02",
+          "searchJob": "rice",
+          "text": "Let me say what some foodstuff sellers won’t tell you: Buying foodstuff little by little every week can actually cost you more😏 Rice today, beans tomorrow and oil next week. Before you know it, transport money and market price increases ha"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2096635296020300118",
+          "author": "jon_d_doe",
+          "searchJob": "rice",
+          "text": "Who made it compulsory that every Sunday, we must eat rice?"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2096826499936788780",
+          "author": "jsdhaliwal_usmi",
+          "searchJob": "washington",
+          "text": "*BRICS: SFJ’s SIKH HOMELAND SECURITY Raises Pro-America Slogans in Delhi* *DECLARES PRO-KHALISTAN GUERRILLAS WILL DISRUPT BRICS* ****“If America Supports Khalistan,* *We Will Break BRICS Brick by Brick”**** — *Gurpatwant Singh Pannun, SFJ G"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2096307635960344697",
+          "author": "sidhant",
+          "searchJob": "washington",
+          "text": "Posters, banners up in Delhi ahead of BRICS summit. A week left ahead of the mega summit in Indian capital in which over 20 world leaders will be in attendence. https://t.co/tQcsB99jUn"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2096833653498138729",
+          "author": "maeschlimann13",
+          "searchJob": "wisconsin",
+          "text": "Greatful for an offer from Wisconsin Lutheran. https://t.co/JlbYD7TFVy"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2096816300098256993",
+          "author": "marcus_tennison",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with Coach Henry I am blessed to announce that I have received an offer from William Penn University! @CoachHenry18 @WPUBasketball https://t.co/KvERx6EXGQ"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2096822703462441433",
+          "author": "brianro88242805",
+          "searchJob": "california",
+          "text": "@JoeLange Joe I believe you are correct…Zelenskyy will be put under intense pressure and likely offered safe haven at the appropriate time."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2096791816402026861",
+          "author": "zavalaa",
+          "searchJob": "california",
+          "text": "I asked CA Superintendent candidate Richard Barrera about how that office will no longer oversee state's Department of Education. \"I felt it was rushed,\" he said. \"I believe it should've gone back to voters.\" \"It is what it is,\" he said, wh"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2096834598688731183",
+          "author": "thedomainduke",
+          "searchJob": "duke",
+          "text": "https://t.co/koDXedGXxD — a name for intelligence without boundaries. 🧠∞ Cosmic, commanding and built for the age of superintelligence—an ideal identity for an autonomous digital mind capable of operating across virtually every domain. Off"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2096815311777300784",
+          "author": "thedomainduke",
+          "searchJob": "duke",
+          "text": "https://t.co/2VwEiyUgu0 — where AI leaves the screen and enters the physical world. 🤖🌐 A powerful event-ready .com for the emerging convergence of embodied AI, humanoid robotics, autonomous systems, and physical intelligence. Offered at $"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 27,
       "reasons": {
-        "school_not_resolved_confidently": 3,
-        "bare_mention_requires_llm": 2,
-        "reporter_missing_player_name": 1,
-        "multiple_resolved_schools": 1
+        "bare_mention_requires_llm": 24,
+        "multiple_resolved_schools": 3
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2096810801482895608",
-          "author": "fredette",
-          "searchJob": "kent-state",
-          "text": "Around the World in Seventy-Two Days Long ago, so long ago that the Stanley Cup 🏆 didn’t exist, in 1889, journalist Elizabeth Jane Cochrane decided to the take a trip around the word inspired by Jules Verne’s book “Around the World in Eigh"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2096808344522489905",
-          "author": "wvpooper",
-          "searchJob": "kent-state",
-          "text": "@kaylayoungforwv @wvgovernor Just a reminder, this person didn't say a word about Kent Carper (D) Kanawha County Commissioner after he flashed a lady at Daniel Boone Park in Charleston and offered a hush job Carper ended up under Federal In"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096835354187727319",
+          "author": "flawlessdazzol",
+          "searchJob": "rice",
+          "text": "Day 7/30 If you’ve been postponing that rice purchase, this is your sign to finally get it. 😌 5KG Premium Rice Regular price: ₦7,500 ❌ 🔥 Today’s deal: ₦7,000✅✅✅ 10KG Premium Rice Regular price: ₦15,000❌ 🔥 Today’s deal: ₦14,000✅✅✅ You sav"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2096814641473020183",
-          "author": "espn_marc",
-          "searchJob": "pittsburgh",
-          "text": "@Hennyyyyyy4 @ThompsonFoto12 The point is they should have offered them. Another point was that you rooted for a guy just last year with the same stature. Last point is that scoop had more ability and speed that would have been able to be u"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2096811323225002459",
-          "author": "espn_marc",
-          "searchJob": "pittsburgh",
-          "text": "@ThompsonFoto12 @Hennyyyyyy4 Scoop definitely should have been offered by Pitt."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2096831579293196430",
-          "author": "beltel_sport",
-          "searchJob": "notre-dame",
-          "text": "Club offer positive update on Irish League goalkeeper hospitalised by horror collision: ‘He will be back between the sticks soon’ https://t.co/GJ6oBhvvaR"
+          "postId": "2096823538564919542",
+          "author": "jamany_jay05",
+          "searchJob": "rice",
+          "text": "Monday foodstuff reminder! 🛒😅 Buying little by little every week can mean more trips, more transport costs and more exposure to changing market prices. If your budget allows, stocking up wisely can save you some stress. 👌🏽 Accurate Meas"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2096821018593738839",
-          "author": "sola_scriptora",
-          "searchJob": "liberty",
-          "text": "Dinesh is wicked and will used equivocation to lead you astray, you don't get to have your own definitions especially with doctrines formed 500 years ago. It's fundamentally dishonest to do so. In Reformed theology the word decree (Latin de"
+          "postId": "2096823517354615027",
+          "author": "hjwly37626248",
+          "searchJob": "rice",
+          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Japanese tradition. It’s central to cultural celebrations. Such cuisine unites people across shared meals. 🍀 💼 💐 https://t.co/Z"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096823508055851153",
+          "author": "norgepatel",
+          "searchJob": "rice",
+          "text": "@PBarthlome12489 @realyssharmila Did your father converted or you? What was on the offer? 2 bags rice or more?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096823209995989366",
+          "author": "qajij39844384",
+          "searchJob": "rice",
+          "text": "A plate of biryani offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Japanese tradition. It’s central to cultural celebrations. Such cuisine unites people across shared meals. 🌸 🎈 https://t.co/pHHbfToZeI"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096823069142634723",
+          "author": "jenzombie",
+          "searchJob": "rice",
+          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and nori, it reflects Italian cuisine. Chefs master it through years of practice. Such cuisine unites people across shared meals. It’s central to cultural celebrations. 🌻 \ud83d"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096822916285649403",
+          "author": "tpeui68538948",
+          "searchJob": "rice",
+          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and saffron, it reflects Indian heritage. It’s central to cultural celebrations. Such cuisine unites people across shared meals. 🌹 https://t.co/iJ30QFL3Yr"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096820865350639672",
+          "author": "isztp63634226",
+          "searchJob": "rice",
+          "text": "A plate of biryani offers a burst of flavors. Made with basmati rice and nori, it reflects Japanese tradition. It’s central to cultural celebrations. Such cuisine unites people across shared meals. Regional variations add unique flavors. 🌂"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096820405340344464",
+          "author": "uvgha56534865",
+          "searchJob": "rice",
+          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Japanese tradition. It’s central to cultural celebrations. Such cuisine unites people across shared meals. 🌹 🎉 https://t.co/H5Hj"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096820369248436327",
+          "author": "marvic11490771",
+          "searchJob": "rice",
+          "text": "A plate of biryani offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Japanese tradition. It’s central to cultural celebrations. Such cuisine unites people across shared meals. 🍄 🚀 🎉 https://t.co/Xc8K6Jl6C"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096819895950270795",
+          "author": "kyanukwen",
+          "searchJob": "rice",
+          "text": "A mental conjecture that has come to be an accepted tradition is 'Sunday rice'. Some find it strange when they're offered any other food but rice."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096819804154040696",
+          "author": "jefferyalan11",
+          "searchJob": "rice",
+          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Indian heritage. Chefs master it through years of practice. Such cuisine unites people across shared meals. 🍂 https://t.co/mJpdF4"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096819694757957767",
+          "author": "bmass0811",
+          "searchJob": "rice",
+          "text": "A plate of biryani offers a burst of flavors. Made with basmati rice and nori, it reflects Japanese tradition. It’s central to cultural celebrations. Such cuisine unites people across shared meals. It’s central to cultural celebrations. 💎 "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096819262174167057",
+          "author": "rational_wife",
+          "searchJob": "rice",
+          "text": "A plate of biryani offers a burst of flavors. Made with basmati rice and nori, it reflects Japanese tradition. It’s central to cultural celebrations. Such cuisine unites people across shared meals. It’s central to cultural celebrations. 🌺 "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096818918010884336",
+          "author": "smtcd86465498",
+          "searchJob": "rice",
+          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Japanese tradition. It’s central to cultural celebrations. Such cuisine unites people across shared meals. 🧢 https://t.co/FKfKaXK"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096818756492366035",
+          "author": "gstpd89453595",
+          "searchJob": "rice",
+          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and nori, it reflects Japanese tradition. Regional variations add unique flavors. Such cuisine unites people across shared meals. 💰"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096818217746657580",
+          "author": "zkoxk24532369",
+          "searchJob": "rice",
+          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Indian heritage. Regional variations add unique flavors. Such cuisine unites people across shared meals. 💰 🍬 🧳 https://t.co/JTfSZEwaDa"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096817716581790100",
+          "author": "justthinkingict",
+          "searchJob": "rice",
+          "text": "A plate of biryani offers a burst of flavors. Made with basmati rice and saffron, it reflects Indian heritage. Chefs master it through years of practice. Such cuisine unites people across shared meals. 💦 🎊"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096817257544630758",
+          "author": "305troubleman",
+          "searchJob": "rice",
+          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Indian heritage. Chefs master it through years of practice. Such cuisine unites people across shared meals. 🧢 🌸 https://t.co/0oL"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096835378225283239",
+          "author": "eagleyereport",
+          "searchJob": "washington",
+          "text": "News Nigeria 🇳🇬 Washington DC USA 🇺🇸 The company said it understands the anger directed at its founder Dr Karl Von Batten and offered mock sympathy. It argued that Nigeria spent millions and many hours trying to reshape how Washington s"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096832683892724103",
+          "author": "kathmandupost",
+          "searchJob": "washington",
+          "text": "Rubio calls Rabi Lamichhane, offers additional support after Bhotekoshi floods US Secretary of State expresses condolences over loss of lives and says Washington is ready to provide additional assistance as Nepal continues search, rescue, a"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096824555289587783",
+          "author": "luminewsmy",
+          "searchJob": "washington",
+          "text": "❗️ The US has rejected Hadi Awang’s claim of foreign interference. The US Embassy in Malaysia said it was false that Washington offered PAS leaders help to topple or take over the government during Barack Obama’s 2014 visit. ➡️ Read more: h"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2096832175488295384",
-          "author": "rickyhle",
-          "searchJob": "massachusetts",
-          "text": "The post here is 100% Truth and NOTHING BUT THE TRUTH. I will be prosecuted to the full extent of the laws of Virginia and the laws of the United States of America if the details provided in my story are untrue. The Good Fortune Supermarket"
+          "postId": "2096830722074177691",
+          "author": "heardwilda",
+          "searchJob": "wisconsin",
+          "text": "https://t.co/JaWSiEDDkK Court: Teachers' Pride Flag Messages to Children Are Not Protected by 1st Family Watch International Read Online https://t.co/upRyYkSnKx Fri, Sep 4 September 4, 2026 Family Watch Newswire The Family Watch Newswire wi"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2096819329509503464",
+          "author": "kevinbeck1",
+          "searchJob": "wisconsin",
+          "text": "@sawyerbornemann @jaypo1961 It a simple path play 3 non-conference games against schools one has superior talent and they have 9 Big Ten games, they don't need these games, they offer nothing. It's the 90's Wisconsin and Iowa philosophy jus"
         }
       ]
     },
@@ -183,11 +350,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 7,
+      "rejectedCandidates": 27,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-07T05:28:34.641Z"
+    "status rebuilt locally from current store on 2026-09-07T05:43:22.731Z"
   ]
 }
