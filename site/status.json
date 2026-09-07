@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T09:43:16.102Z",
+  "generatedAt": "2026-09-07T09:58:30.557Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-07T09:43:15.901Z",
+    "at": "2026-09-07T09:58:30.298Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7795213888888889,
-    "p95Hours": 1.5306777777777778,
-    "worstHours": 1.5306777777777778
+    "medianHours": 0.7842408333333334,
+    "p95Hours": 1.5284813888888888,
+    "worstHours": 1.7846927777777777
   },
   "decisionCoverage": {
-    "total": 3,
-    "decided": 3,
+    "total": 40,
+    "decided": 40,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 37
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 831,
     "incompleteOffers": 0
@@ -55,58 +55,324 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-07T09:43:15.900Z",
-      "got": 10,
-      "new": 3,
-      "lag": 0.35
+      "at": "2026-09-07T09:58:30.298Z",
+      "got": 48,
+      "new": 40,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-09-07T09:41:27.027Z",
+    "at": "2026-09-07T09:56:39.681Z",
     "mode": "live",
     "collection": {
-      "returned": 10,
-      "kept": 3,
-      "duplicate": 7,
+      "returned": 48,
+      "kept": 40,
+      "duplicate": 8,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 3,
+      "accepted": 24,
+      "rejected": 16,
       "reasons": {
-        "no_fbs_school": 3
+        "hard_negative": 10,
+        "no_offer_term": 4,
+        "no_fbs_school": 2
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2096891723595079736",
-          "author": "islandsmagazine",
-          "searchJob": "florida",
-          "text": "This destination is one of the most affordable suburbs in its state and offers retirees plenty of activities, from antiques shopping to hiking and fishing. https://t.co/hfuMIrSot8"
+          "reason": "hard_negative",
+          "postId": "2096899469832794318",
+          "author": "citymediasial",
+          "searchJob": "air-force",
+          "text": "Rawalpindi, 7 September, 2026; Pakistan Air Force observed 7th September as Martyrs’ Day at all PAF Bases across the country to honour the supreme sacrifices of its martyrs and pay homage to their courage, valour and devotion to duty. The d"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2096887020085817617",
+          "author": "pakistanfauj",
+          "searchJob": "air-force",
+          "text": "#ISPR Official Press Release Pakistan Air Force observed 7th September as Martyrs’ Day at all PAF Bases across the country to honour the supreme sacrifices of its martyrs and pay homage to their courage, valour and devotion to duty. The day"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2096883097380016354",
+          "author": "ramzanmithoo",
+          "searchJob": "air-force",
+          "text": "Pakistan Air Force observed 7th September as Martyrs’ Day at all PAF Bases across the country to honour the supreme sacrifices of its martyrs and pay homage to their courage, valour and devotion to duty. The day commenced with a special Du’"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2096881887335887003",
+          "author": "chsapmln",
+          "searchJob": "air-force",
+          "text": "*ISPR* *Rawalpindi, 7 September, 2026;* Pakistan Air Force observed 7th September as Martyrs’ Day at all PAF Bases across the country to honour the supreme sacrifices of its martyrs and pay homage to their courage, valour and devotion to du"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2096879328554553449",
+          "author": "tfpislamabad",
+          "searchJob": "air-force",
+          "text": "Pakistan Air Force observed 7th September as Martyrs’ Day at all PAF Bases across the country to honour the supreme sacrifices of its martyrs and pay homage to their courage, valour and devotion to duty. The day commenced with a special Du’"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2096878639455645859",
+          "author": "publicpurviewpk",
+          "searchJob": "air-force",
+          "text": "The Pakistan Air Force paid solemn tribute to Pilot Officer Rashid Minhas Shaheed, Nishan-e-Haider, during a wreath-laying ceremony at his grave in Karachi. Air Vice Marshal Akhtar Imran Sadozai, Air Officer Commanding Southern Air Command,"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2096875909898997958",
+          "author": "s_sajidofficial",
+          "searchJob": "air-force",
+          "text": "Pakistan Air Force observed 7th September as Martyrs’ Day at all PAF Bases across the country to honour the supreme sacrifices of its martyrs and pay homage to their courage, valour and devotion to duty. The day commenced with a special Du’"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2096895552667766925",
+          "author": "milokmatabd",
+          "searchJob": "temple",
+          "text": "भाविकांनी चौथ्या श्रावण सोमवारी शास्त्रोक्त परंपरेनुसार वैद्यनाथाला गव्हाची शिवमूठ अर्पण करून सुख, समृद्धी आणि आरोग्यासाठी प्रार्थना केली. #beed #marathwada #shrawansomvar https://t.co/ifHSLlqC2t"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2096889022199279820",
+          "author": "sumitvrks",
+          "searchJob": "temple",
+          "text": "The daily routine of an ISKCON (International Society for Krishna Consciousness) monk begins very early in the morning, typically between 3:00 AM and 4:30 AM, focusing heavily on intensive prayer, scripture study, and devotional service Ear"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2096886209540968639",
+          "author": "sonakshi_v",
+          "searchJob": "temple",
+          "text": "Late Dr. Yugal Kishore Vashistha, my tauji, comes from Nohar, a small town in Rajasthan. The way he thought, lived, or looked at the world, however, was so big and vast. Immensely curious and yet having a deeper affection for life in all it"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2096885012893196315",
-          "author": "british_airways",
-          "searchJob": "georgia",
-          "text": "@Aerofan11 I see Albert, there must be no Avios reward seats available on our direct flight. However, it does seem very unusual that the itinerary is being offered in this way. We'll feed this back to the relevant team so they can investiga"
+          "postId": "2096875468838322645",
+          "author": "iamtemple__",
+          "searchJob": "temple",
+          "text": "@GWANi_MALIYAFX The offer keeps getting better 🚀"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2096878195479810236",
-          "author": "gridunder",
-          "searchJob": "texas",
-          "text": "$AAOI Applied Optoelectronics, Inc. engages in the design, manufacture, and sale of fiber-optic networking products in the United States, Taiwan, and China. The company offers optical modules, optical filters, lasers, laser components, suba"
+          "postId": "2096874118079459680",
+          "author": "iamtemple__",
+          "searchJob": "temple",
+          "text": "@Abaridah1 Interesting offer"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2096885826651349123",
+          "author": "tmawanofficial",
+          "searchJob": "arkansas-state",
+          "text": "Debate over new provinces is often framed around geography, representation and administrative convenience. My latest article asks whether Pakistan needs new provinces—or a new governance model. First published in Pakistan Observer: https://"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2096883488557338782",
+          "author": "krajewski_piotr",
+          "searchJob": "arkansas-state",
+          "text": "🚨🧠🔎 EDUCATION AND FACTS. FIRST FEAR, THEN THE “THIRD WORLD,” AND FINALLY AfD AS THE “LAST HOPE.” THIS IS HOW PROPAGANDA IS BUILT IN JUST A FEW SENTENCES. “This is not the Kremlin introducing these transformational migration policies that"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2096890916157989116",
+          "author": "officialsnowtv",
+          "searchJob": "army",
+          "text": "https://t.co/dC0fYubL4V"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2096502952106332533",
+          "author": "singhreetam",
+          "searchJob": "army",
+          "text": "Retired Army Uncles on subsidised alcohol from Defence Canteen should be asked to stay away from TV, Politics or News in general. If these Uncles have their go: military coup in India is highly possible as it occurs in Pakistan, Bangladesh "
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "rejected": 24,
+      "reasons": {
+        "bare_mention_requires_llm": 18,
+        "school_not_resolved_confidently": 2,
+        "multiple_resolved_schools": 4
+      },
+      "samples": [
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096891240360874043",
+          "author": "debugliesnews",
+          "searchJob": "air-force",
+          "text": "Russia–Brazil: Strategic Reach Meets Structural Limits - Russia and Brazil are deepening an established strategic partnership, but the verified record does not support the conclusion that Brazil is entering a Russian geopolitical sphere. Bi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096900014194987159",
+          "author": "radionews_jammu",
+          "searchJob": "temple",
+          "text": "The traditional Bash Dua festival celebrated with religious fervour at the historic Radha Krishna Temple in Jammu. Devotees offer prayers for the well-being, peace and prosperity of their families, while stressing the importance of preservi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096899778051522875",
+          "author": "thodkyaat",
+          "searchJob": "temple",
+          "text": "बिट्टू तबाहीला थेट नेदरलँड्समधून नोकरीची ऑफर . . . सोशल मीडियावर 'बिट्टू तबाही' या नावाने प्रसिद्ध असलेल्या मध्य प्रदेशच्या २१ वर्षीय सुरेंद्र सिंह चौधरी या तरुणाने एकट्याने अजनार नदी स्वच्छ करून दाखवलेल्या अफाट धाडसाची आणि परिश्रमाची दखल आ"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096899598774333909",
+          "author": "theghytimes",
+          "searchJob": "temple",
+          "text": "Vice-President of India C.P. Radhakrishnan visited the revered Maa Kamakhya Temple in Guwahati on Monday (September 7) morning and offered prayers. Read more: https://t.co/qkdtiTe22h https://t.co/XdQAsteTGu"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096896725655150984",
+          "author": "goanewshub",
+          "searchJob": "temple",
+          "text": "Vijai Sardesai offers prayers at Shree Rudreshwar Temple, Harvalem GFP Chief Vijai Sardesai along with Former Minister Dayanand Mandrekar, GFP North Goa President Deepak Kalangutkar, GFP North Goa General Secretary Santosh Sawant, GFP GSO D"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096896561628455259",
+          "author": "erniemilleur",
+          "searchJob": "temple",
+          "text": "Write about: Follow Jesus’ emotions. Read looking only for moments when Jesus shows compassion, grief, anger, joy, tenderness, urgency, or anguish. Ask, “What moved His heart?” A powerful way to read the Gospels is to stop for a while from "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096889758949716477",
+          "author": "logiglish21",
+          "searchJob": "temple",
+          "text": "【意外と知らない 英語で読む建築と美術 ㊼ ― パラディオの《ヴィラ・ロトンダ》は、なぜ「四方向すべてが正面」なのか】 建築には普通、 front 「正面」 があります。 玄関があり、 そこから建物へ入る。 ところが、 Andrea Palladio アンドレア・パラディオの、 Villa Rotonda 《ヴィラ・ロトンダ》 を見ると、 少し戸惑います。 四方向に、 ほぼ同じような神殿風の玄関がある。 つまり、 「正面はどこ？」 という問いが生まれる。 今回は、 symme"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096885990908645573",
+          "author": "argusnews_in",
+          "searchJob": "temple",
+          "text": "#WATCH | Bhubaneswar | Odisha Governor Dr Hari Babu Kambhampati today visited the Maa Samaleswari Temple in Sambalpur and had darshan of Maa Samaleswari. He offered prayers at the temple and sought the blessings of the presiding deity. Form"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096884076644847665",
+          "author": "templetechy",
+          "searchJob": "temple",
+          "text": "@tathagata2 These pseudo twitter Bengalis will eat halal meat which cannot be offered to Maa Durga, because only Jhatka meat sacrificed with Maa's name (either in butcher house or temple) can be consumed in Shakta tradition. But, how many s"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096883746415030474",
+          "author": "mayukhrghosh",
+          "searchJob": "temple",
+          "text": "LONG READ ALERT ABOUT HINDUTVA 🚨 Bengal is a riverine land of the east. Here it is customary to offer whatever is finest to the worshipped deity, whether hilsa or shol fish from the riverbanks of Birbhum. If someone has been telling me sin"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096882392191717447",
+          "author": "suchitraella",
+          "searchJob": "temple",
+          "text": "Happiness, sanctity &amp; joy at #Goshala #Tirumala #TTD.Don’t miss almost each visit,these cows &amp; twin calves are chosen to give milk,butter offered daily to the temple, participate in all special days/events &amp; present every mornin"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2096894778440818804",
+          "author": "alastairwood4",
+          "searchJob": "toledo",
+          "text": "@cycloben2 Don't get me wrong I'm sure Rockets offered him something to stay, but he's now going to a Lotto team that now has a more spread pts network allowing him to still optimise a schedule, race larger races and probably earn triple. F"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2096880930946511246",
+          "author": "gajen_jangid",
+          "searchJob": "toledo",
+          "text": "I hear this quite often from bureacrats, politicans and opinions makes on X. Our smartest people are busy delivering Dhaniya and vada pav in ten minutes, or deciding which ad you should watch. The argument is too shallow and disappointing, "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096897763095326722",
+          "author": "melendez_20",
+          "searchJob": "pittsburgh",
+          "text": "At a charity auction hosted by Sean Penn for disaster relief, Brad Pitt offered $120,000. The prize involved watching an episode of Game of Thrones with Emilia Clarke. Another attendee challenged Pitt, and the bids quickly grew, turning the"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096896362319138877",
+          "author": "and16351",
+          "searchJob": "arkansas-state",
+          "text": "@DaddyAlfred95 @StopAntisemites @edsheeran @MetLifeStadium Fun fact: The Palestinians were offered a full peace deal 5 times. Each deal gave them 100% of Gaza and 99% of the West Bank for a state of their own. They turned down all 5 deals a"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096890744808067363",
+          "author": "pettunia14",
+          "searchJob": "arkansas-state",
+          "text": "\"The Alternative for Germany (AfD) under lead candidate Ulrich Siegmund is vying to win power for the first time in closely watched elections in the eastern state of Saxony-Anhalt on Sunday. Under Germany's federal system, state ​government"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2096889920686047496",
+          "author": "donnablagblag",
+          "searchJob": "arkansas-state",
+          "text": "🚨🚨 The last LeDeR report is out. They’re not doing another one. People with a learning disability still die 19 years younger than everyone else. More than half die before 65. Avoidable deaths are still about twice the general rate. Pneumo"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2096899163174707711",
+          "author": "chappylaffyduck",
+          "searchJob": "army",
+          "text": "today is Monday, September 7, 2026 and @Nigel_Farage remains the most corrupt uk political leader of modern times. Not “under scrutiny.” Not “a bit messy with the forms.” Corrupt. The man who looks down a camera and says “I have done nothin"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096892352438698235",
+          "author": "uzorngoladi",
+          "searchJob": "army",
+          "text": "Nigerian Army declares ‘Gentle The Yahoo’ wanted, offers N30m reward https://t.co/asmIBTWOqK"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096890709727129660",
+          "author": "adi_iimcian",
+          "searchJob": "army",
+          "text": "An average intern lawyer who every morning prays 🤲 that a top client will offer him brunch or dinner at a fine-dining restaurant! The audacity of this country a baby lawyer is giving lectures to an Army brat who served the country for 3 de"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096886203488289034",
+          "author": "bloatedcorpse",
+          "searchJob": "army",
+          "text": "He’s an assclown. Now what’s your plan. Here’s what I would propose to Normies that work their ass off: I can’t reverse generations of corruption in one or two terms, I just can’t. Let me hire an Army of hungry nerds fresh out of school at "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2096885470831464744",
+          "author": "exsoldier762",
+          "searchJob": "army",
+          "text": "How the mighty have fallen! This retired History Teacher remembers telling his students for thirty years how there was a time… a time that lasted for centuries… where the the global catchphrase was: “The sun never sets on the British Empire"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096884844223779095",
+          "author": "bellaella7",
+          "searchJob": "army",
+          "text": "Korean food chain Seoul Yummy to close final outlet at Kallang Wave Mall on Oct 22 The restaurant will offer 18 per cent off its signature Korean army stew from now till Oct 22. https://t.co/MCXaSpmpiK"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2096880876193808401",
+          "author": "karolinaml99",
+          "searchJob": "army",
+          "text": "Issue them a death penalty ✅🤝that’s the only way - there was a law in UK constitution about it , but criminals and pedoFILES in the system changed it to protect their own self , because if the law would be so open to everyone it means they"
+        }
+      ]
     },
     "search": {
       "ok": true,
@@ -119,11 +385,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
+      "rejectedCandidates": 24,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-07T09:43:16.103Z"
+    "status rebuilt locally from current store on 2026-09-07T09:58:30.557Z"
   ]
 }
