@@ -1,12 +1,48 @@
 {
-  "generatedAt": "2026-09-07T22:58:05.310Z",
+  "generatedAt": "2026-09-07T23:13:25.401Z",
   "counts": {
-    "offers": 860,
+    "offers": 861,
     "players": 601,
     "newThisRun": 1,
     "watchlist": 1722
   },
   "offers": [
+    {
+      "id": "o_5fa6b84c358aff26",
+      "playerId": "p_27914ca222f3b844",
+      "playerName": "Hunter Mosolino",
+      "schoolId": "kansas",
+      "schoolName": "Kansas",
+      "conference": "B12",
+      "offeredAt": "2026-09-07T23:03:06.000Z",
+      "firstSeenAt": "2026-09-07T23:13:25.379Z",
+      "lastSeenAt": "2026-09-07T23:13:25.379Z",
+      "confidence": 0.45,
+      "corroborations": 1,
+      "evidence": [
+        {
+          "postId": "2097098363694940304",
+          "author": "hmosolino2028",
+          "url": "https://x.com/hmosolino2028/status/2097098363694940304",
+          "postedAt": "2026-09-07T23:03:06.000Z",
+          "via": "search:(@KU_Football OR \"Kansas\" OR \"Jayhawks\")",
+          "confidence": 0.45,
+          "text": "After a great conversation with @CoachPanagos I am honored to receive an offer from @KU_Football \n@TomLoy247 @LemmingReport @EDGYTIM @AllenTrieu @SidelinePreps https://t.co/7mudOnbhn9",
+          "attribution": {
+            "targetText": "@KU_Football \n",
+            "schoolEvidenceType": "official_school_tag",
+            "affiliationSource": "fbs_handle"
+          }
+        }
+      ],
+      "status": "new",
+      "tier": "P4",
+      "playerHandle": "hmosolino2028",
+      "classYear": 2028,
+      "position": "DE",
+      "highSchool": "TE Prairie Ridge",
+      "state": "IL"
+    },
     {
       "id": "o_3fafc9d73f408721",
       "playerId": "p_855a13b6f5439dba",
@@ -124,9 +160,9 @@
       "conference": "SEC",
       "offeredAt": "2026-09-07T20:41:57.000Z",
       "firstSeenAt": "2026-09-07T20:58:09.071Z",
-      "lastSeenAt": "2026-09-07T21:43:10.601Z",
-      "confidence": 0.45,
-      "corroborations": 1,
+      "lastSeenAt": "2026-09-07T23:13:25.372Z",
+      "confidence": 0.53,
+      "corroborations": 2,
       "evidence": [
         {
           "postId": "2097062840053956816",
@@ -155,9 +191,23 @@
             "schoolEvidenceType": "official_school_tag",
             "affiliationSource": "fbs_handle"
           }
+        },
+        {
+          "postId": "2097097582665408774",
+          "author": "profilefblive",
+          "url": "https://x.com/profilefblive/status/2097097582665408774",
+          "postedAt": "2026-09-07T23:00:00.000Z",
+          "via": "search:\"2029\" (offer OR offered) (QB OR RB OR W",
+          "confidence": 0.45,
+          "text": "Texas A&amp;M has offered 4.0⭐ 2029 ATH Shamar Nichols from Somerset HS, TX. @shamarnichols1\n\nRated (#66 NATL, #8 ATH, #18 TX) - 16 offers overall.\nhttps://t.co/rFoa3DKyMs",
+          "attribution": {
+            "targetText": "Texas A&M has ",
+            "schoolEvidenceType": "full_school_name",
+            "affiliationSource": "name"
+          }
         }
       ],
-      "status": "new",
+      "status": "corroborated",
       "tier": "P4",
       "playerHandle": "shamarnichols1",
       "classYear": 2029,
