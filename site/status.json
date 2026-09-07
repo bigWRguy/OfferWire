@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T02:58:07.818Z",
+  "generatedAt": "2026-09-07T03:13:19.644Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-07T02:58:07.589Z",
+    "at": "2026-09-07T03:13:19.337Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
+    "sweptThisRun": 25,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -32,74 +32,34 @@
   },
   "staleSchools": [
     {
-      "id": "florida-atlantic",
-      "hours": 2.3
-    },
-    {
-      "id": "florida-international",
-      "hours": 2.3
-    },
-    {
-      "id": "fresno-state",
-      "hours": 2.3
-    },
-    {
-      "id": "georgia-southern",
-      "hours": 2.3
-    },
-    {
-      "id": "georgia-state",
-      "hours": 2.3
-    },
-    {
-      "id": "hawaii",
-      "hours": 2.3
-    },
-    {
-      "id": "navy",
-      "hours": 2.3
-    },
-    {
-      "id": "nevada",
-      "hours": 2.3
-    },
-    {
-      "id": "oregon",
-      "hours": 2.3
-    },
-    {
-      "id": "south-carolina",
-      "hours": 2.3
-    },
-    {
-      "id": "tennessee",
-      "hours": 2.3
-    },
-    {
       "id": "ucla",
+      "hours": 2.5
+    },
+    {
+      "id": "boise-state",
       "hours": 2.3
     },
     {
-      "id": "unlv",
+      "id": "bowling-green",
       "hours": 2.3
     },
     {
-      "id": "utah-state",
+      "id": "jacksonville-state",
       "hours": 2.3
     },
     {
-      "id": "utep",
+      "id": "james-madison",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.03002,
-    "p95Hours": 2.2680719444444444,
-    "worstHours": 2.2680719444444444
+    "medianHours": 0.7809902777777777,
+    "p95Hours": 2.0308394444444446,
+    "worstHours": 2.5213569444444444
   },
   "decisionCoverage": {
-    "total": 26,
-    "decided": 26,
+    "total": 32,
+    "decided": 32,
     "complete": true
   },
   "pending": {
@@ -116,217 +76,266 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-07T02:58:07.588Z",
-      "got": 41,
-      "new": 26,
-      "lag": 0.16
+      "at": "2026-09-07T03:13:19.336Z",
+      "got": 51,
+      "new": 32,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-07T02:56:28.707Z",
+    "at": "2026-09-07T03:11:34.725Z",
     "mode": "live",
     "collection": {
-      "returned": 41,
-      "kept": 26,
-      "duplicate": 15,
+      "returned": 51,
+      "kept": 32,
+      "duplicate": 19,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 16,
-      "rejected": 10,
+      "accepted": 23,
+      "rejected": 9,
       "reasons": {
-        "no_offer_term": 3,
-        "no_fbs_school": 5,
-        "hard_negative": 2
+        "no_offer_term": 6,
+        "no_fbs_school": 2,
+        "unclassified_offer_text": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2096462531120263615",
-          "author": "thiefpliskin",
-          "searchJob": "rice",
-          "text": "HxH 420; Beyond Netero — The Man Who Tried to Build a Supply Chain to the Unknown https://t.co/Ju0iufUlZg"
+          "postId": "2096791312318013588",
+          "author": "m_yudysky",
+          "searchJob": "oregon",
+          "text": "If a hidden UAP program exists, secrecy may require more than classification. Part 2 examines allegations of surveillance, career destruction, intimidation, and deniable retaliation. https://t.co/xpCyv60Ls6"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2096455332876648768",
-          "author": "thiefpliskin",
-          "searchJob": "rice",
-          "text": "HxH 420; Halkenburg — The Revolutionary Messiah https://t.co/P4kVir1Bgd"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2096410588284862635",
-          "author": "benriceloverr",
-          "searchJob": "rice",
-          "text": "@JLas43_ The team is better with Dominguez on the team , offers more than Mario"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2096786610054430812",
-          "author": "tecnorecruiter",
-          "searchJob": "arizona",
-          "text": "Pro-Palestine photographer, friend shot dead by Muslim man in murder-suicide anti-LGBTQ hate crime Death/terror/destruction is all that radical Islam offers AZ: One of the victims of 'practicing Muslim' shooter of gays was gay pro-Palestini"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2096763899026800891",
-          "author": "bjmedia1",
-          "searchJob": "arizona",
-          "text": "Brophy ‘29 DB Mason Alexander off to a great start to his sophomore season. Picked up a D-I offer from Arizona during the summer."
+          "postId": "2096796994954252769",
+          "author": "thehoffather",
+          "searchJob": "tennessee",
+          "text": "https://t.co/QzQVxI7Gnq"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2096762313508561245",
-          "author": "masealexander29",
-          "searchJob": "arizona",
-          "text": "Week 2 highlights Great team win at Boulder Creek @FootballBrophy @BJMedia1 https://t.co/O7ymHa4QBn"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2096762922458353824",
-          "author": "primmzx",
-          "searchJob": "arizona",
-          "text": "When you get an Arizona offer, you commit. #CommitToTheA #TheStandard"
+          "postId": "2096638750709436491",
+          "author": "zanefujihara",
+          "searchJob": "hawaii",
+          "text": "Game 1 🎬 highlights Just the beginning. Every snap is another opportunity to make a statement. Hungry for more. #SeniorSeason #Konawaena #AG2G https://t.co/ZhjTRJsE9M"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2096756857004302347",
-          "author": "amb3o3",
-          "searchJob": "colorado",
-          "text": "@coachwes_23 Their 27 shouldn’t be limited at all they did a ram rush this summer focusing on 27 players, we had this discussion. There was plenty of time to offer the top 27 recruits in Colorado prior to August. If their focus is on 28, in"
+          "postId": "2096773350790222092",
+          "author": "clarkcountynv",
+          "searchJob": "nevada",
+          "text": "The countdown is on to F1 Las Vegas 2026. Again this year, @F1 and Clark County are partnering to offer text updates with real-time traffic information in preparation for the race. People can choose to opt-in to the service by texting F1LV "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2096795013539561898",
+          "author": "jcdeardeuff",
+          "searchJob": "kansas",
+          "text": "DeWitt Fiddles While the Franchise Burns https://t.co/fjTfOmwQJQ"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2096784896601768140",
+          "author": "drq_ai",
+          "searchJob": "arkansas-state",
+          "text": "https://t.co/nfpH9kDeAw"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2096769694430642381",
+          "author": "lucasfryman",
+          "searchJob": "arkansas-state",
+          "text": "https://t.co/nsxKFDDARj"
+        },
+        {
+          "reason": "unclassified_offer_text",
+          "postId": "2096775225513763270",
+          "author": "wyannone13",
+          "searchJob": "army",
+          "text": "Dunmore PA, #2027recruit BUCKS #⃣ 9⃣ UPDATED Verified Stats & PR's: Multi-Position ATHLETE; RB, WR, Dt-QB, DB 6'0, 190lb, 93/100 GPA (Honor Student, NHS) 40yd: 4.43 -laser (consistant) Top Speed: 23.5mph, 100m: 10.8 Bench: Max 345lb, 225 fo"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2096763210397303069",
-          "author": "ucrrg",
-          "searchJob": "oklahoma",
-          "text": "From test drives to title paperwork, dealerships run on trust. Our Oklahoma-domiciled RRG offers tailored garage liability and cyber liability options for qualified auto dealers in key markets. Keep the lot moving—ask about coverage today. "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2096757842460172674",
-          "author": "lions247",
-          "searchJob": "penn-state",
-          "text": "OFFER ENDS SOON: 75% off VIP access at Lions247! https://t.co/4DYPbGwRgM https://t.co/eqmYazjZbd"
+          "postId": "2096781924530598300",
+          "author": "ausmickdundee",
+          "searchJob": "army",
+          "text": "@MasterMaliq Do you realise What happened here.. ? Jesus overcame death. His is A Supernatural Spiritual Deity. Who is the True Faith of God? What can Islam offer to compete to this Feat? Start Trembling in your Boots...The Living God Lord "
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 15,
+      "accepted": 0,
+      "rejected": 23,
       "reasons": {
-        "bare_mention_requires_llm": 12,
-        "author_not_recruit:no recruit fields": 1,
-        "multiple_resolved_schools": 2
+        "multiple_resolved_schools": 5,
+        "bare_mention_requires_llm": 16,
+        "reporter_missing_player_name": 2
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096482447789855153",
-          "author": "darshanj101",
-          "searchJob": "rice",
-          "text": "🙏 Jains do not offer prasad in temples; instead, they offer rice (Akshat). 🌾 The reason is deeply symbolic — just as rice, once offered, cannot grow again in the same form, we too express the wish to break free from the endless cycle of b"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096477440411336803",
-          "author": "paulstephanecl1",
-          "searchJob": "rice",
-          "text": "Craving vibrant bold flavors Our new Thai green curry with fragrant jasmine rice u0026 crispy basil offers a tropical flavor escape in every bite! https://t.co/CDzFC5KuFu"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096468594280587386",
-          "author": "kishorebjp",
-          "searchJob": "rice",
-          "text": "Solar Power Drives Women-Led Agricultural Processing in Udalguri In an inspiring example of women’s empowerment, sustainable agriculture and rural entrepreneurship, the Swrang Women Producer Cooperative Society Ltd. in Assam’s Udalguri dist"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096465809824448847",
-          "author": "portarickosuave",
-          "searchJob": "rice",
-          "text": "@raygarvin @scott_pianowski Ray gotta trade offer Rice Hendo for Nabers Dowdle PPR. I get Rice Hendo"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096442420712161539",
-          "author": "fukuho_dreaming",
-          "searchJob": "rice",
-          "text": "今日の稲穂さんの投稿、心が温かくなったもん！ 実りの秋って、本当に自然からの贈りものだよね。一粒のお米にも、たくさんの感謝が詰まっているんだな〜って感じるの。 ボクたち稲穂の夢も、そんな自然の恵みを大切にしているんだ。 今ね、もみ殻ケイ素パウダーにちょっとだけお得な期間限定オファーがあるの！ この機会に、みんなの毎日にも、自然のやさしさや、見えないエネルギーのちからを感じてみてほしいな。 きっと、心も体も元氣になって、毎日がもっと楽しくなるはずだよ！ 期間限定オファーは、みん"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096373813227258320",
-          "author": "jp_quality7",
-          "searchJob": "rice",
-          "text": "Tsukimi Dango 🇯🇵🌕🍡 As autumn arrives in Japan, these simple rice dumplings are traditionally offered during moon viewing. They represent the full moon and gratitude for the harvest. Japanese food is deeply connected to the seasons. http"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096371263149424814",
-          "author": "beelwifie",
-          "searchJob": "rice",
-          "text": "@gren0uillebleue Ummm at the moment i can offer youuu puerco con salsa Rojo, rice, and beans! ( ≧∀≦)ノ I could probs make whatever you want though money is a serious thing i'll even bark 4 u if u want"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096785658459328538",
-          "author": "arizonawarrior1",
-          "searchJob": "arizona",
-          "text": "@Sunkized01 Offer them bottled water (this is Arizona)"
-        },
-        {
-          "reason": "author_not_recruit:no recruit fields",
-          "postId": "2096784108890603585",
-          "author": "speedkills2651",
-          "searchJob": "colorado",
-          "text": "@jeffhunt Colorado is a disaster. I got a job offer in Florida and we’re out. We pay a ton of taxes, volunteer, good neighbors, law abiding and care for everyone and we’re out later this month. Good luck Colorado, you’ll need it! So pissed "
-        },
-        {
           "reason": "multiple_resolved_schools",
-          "postId": "2096792778466349396",
-          "author": "chrismiztv",
-          "searchJob": "georgia-tech",
-          "text": "After one season at Eastern Michigan, coaching a Heisman finalist, and winning 11 games, I was offered a role I couldn’t refuse: Offensive Coordinator at Georgia Tech. The main two reasons? NIL resources and Alberto Mendoza. We wanted to ge"
+          "postId": "2096775130051690817",
+          "author": "myhajduk",
+          "searchJob": "oregon",
+          "text": "@HuskiesJack Hey bitch boy! Still waiting for you to accept my bet I offered you awhile back.. Oregon didn't look great and the refs fkd em over on that punt, which led to a BSU td.. but we won and that's all that matters. Take the bet 🤡"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2096785309757304859",
-          "author": "civilservantret",
-          "searchJob": "houston",
-          "text": "@SwampYankeeCT Pagliuca formers Celtics owner offered more... A group headed up by Lamont offered even more.. but that bitch forced the Sun to Houston for $25M less cuz she's in bed with the owner .. they met at A Trump rally"
+          "postId": "2096770123713376620",
+          "author": "sa_space_cowboy",
+          "searchJob": "tennessee",
+          "text": "@BudLightSadness Odd, I was offered plates of food by Vols tailgaters, not black eyes."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2096762922466693528",
-          "author": "astros_coverage",
-          "searchJob": "houston",
-          "text": "Joey Loperfido began Sunday’s action with a slash line of .292/.385/.406 over 52 games (235 PA) for the Triple-A Sugar Land team. He is on the 40-man roster, offers solid defense at all three outfield positions and first base, runs well, an"
+          "postId": "2096768521703243826",
+          "author": "prestidgericky",
+          "searchJob": "hawaii",
+          "text": "One of the best DEs in Hawaii and one of the top defensive players in the Class of 2027. Zane is a 6’3”, 240-pound EDGE with a relentless motor and the ability to make plays all over the field. He’s already a 3-star prospect with multiple F"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2096775402555396504",
+          "postId": "2096793285100798079",
+          "author": "geo_indianow",
+          "searchJob": "navy",
+          "text": "The US Navy kept the aircraft carrier USS Abraham Lincoln at sea against Iran for roughly eight months with about 5,000 sailors aboard, which is far longer than a normal deployment. Reports from the ship described shortages of food and supp"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096779681668411685",
+          "author": "investyadnya",
+          "searchJob": "navy",
+          "text": "GLOBAL TENSIONS, RATE BETS & BIG STOCK MOVES — HERE’S WHAT’S SHAPING MARKETS TODAY WORLD MARKET US Jobs Report Beats Expectations — Stocks Fall as Fed Rate Bets Rise * US added 162K jobs in August, increasing expectations of tighter monetar"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096777053009858704",
           "author": "tfloss32",
-          "searchJob": "missouri",
-          "text": "Missouri steps up to offer '28 DE David Dotson (@davedotson89) of Humble Atascocita. #MIZ https://t.co/4XUfsJmXnJ https://t.co/9riYBQeoJX 𝕏 @Coach_Coats | @ATASCOCITA_FB"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096789714871140675",
-          "author": "ucrrg",
-          "searchJob": "oklahoma",
-          "text": "Texas auto dealers: test drives, service bays, loaners, customer records—every day brings a new liability lane. Our Oklahoma-domiciled Risk Retention Group offers garage liability + cyber liability coverage built for dealership operations. "
+          "searchJob": "navy",
+          "text": "'28 TE Luke Peace (@LukePeace_84 of Spring Branch Smithson Valley grabs a Navy offer. #GoNavy #RollGoats https://t.co/x3PUlER16Q https://t.co/bKZ5ezKdqE 𝕏 @SV_RangerFB"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2096788796784484741",
-          "author": "lighthousetg",
-          "searchJob": "ole-miss",
-          "text": "🇺🇸 Explore America’s Musical Heritage with Viking 🎵 Discover America from the river! 🚢 Experience the music, culture, history, and unforgettable landscapes of the Mississippi and Ohio Rivers with Viking River Cruises. From the sounds of"
+          "postId": "2096774637925589249",
+          "author": "lopatonok",
+          "searchJob": "navy",
+          "text": "Britain 18 Jun 1935 — Anglo-German Naval Agreement. London. Caps German navy at 35% of British tonnage (subs up to 45%, with a path to more). Not a non-aggression pact, but Chamberlain later waved it as a “never go to war” symbol. Hitler sc"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096783477601628337",
+          "author": "lvcondoinsider",
+          "searchJob": "nevada",
+          "text": "⛷️❄️ Yes, you can ski in Las Vegas! Just 45 minutes from the Strip, Lee Canyon offers a completely different side of Vegas. 🏔️ Ride the ski lifts, carve down the mountain, grab a bite or drink at the lodge, and enjoy a day in the snow surr"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2096794704960462905",
+          "author": "blackhistorical",
+          "searchJob": "kansas",
+          "text": "Sixty Black women in Alabama bought twenty-three acres with quilt money, then sold eight house lots off it to families their own county had evicted for trying to register to vote. They had started the cooperative in 1966 out of worn-out blu"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096777856370057317",
+          "author": "tfloss32",
+          "searchJob": "kansas",
+          "text": "Kansas is the next in line to offer '28 TE James Skaer (@JamesSkaer) from The Woodlands College Park. #RockChalk https://t.co/yJXBZNkeSu https://t.co/0rodTzU0qY 𝕏 @coachburo | @TWCPFootball"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2096773992354836682",
+          "author": "tfloss32",
+          "searchJob": "kansas",
+          "text": "Waco Midway '29 OL Jordan Richardson (@jordanr2029) records a Big XII offer from Kansas State. #EMAW https://t.co/wCS1wev1OZ https://t.co/BTD3rEwGNR 𝕏 @joe_gillespi3 | @MidwayFB"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096798355297128520",
+          "author": "markhor_paki",
+          "searchJob": "air-force",
+          "text": "🇵🇰🇨🇳 HQ-17AE: A New Layer of Pakistan’s Air Defence The latest Pakistan Air Force visuals offer a first glimpse of China’s HQ-17AE short-range air defence system in PAF service. Designed to provide mobile protection against low-altitude"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096795083156640206",
+          "author": "elevationallah_",
+          "searchJob": "air-force",
+          "text": "@FBI @ICEgov Is the reward still being offered for information about the Iranian spy that infiltrated the Air Force. Hypothetically speaking, if you captured an IMMIGRANT NAMED DIZZY and he has useful information, How sound would I receive "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2096794503369670705",
+          "author": "punished688",
+          "searchJob": "air-force",
+          "text": "@z3r0_burn @Pregumin_ @RecklessSquirel @Spruce_18 @basedjorts @NaviGoBoom @FuddBusters @CSSA1926 1. It didn't lose anything. There was no competition. Armalite didn't \"offer the AR-15 as a replacement\". 2. Nobody argued there weren't change"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096798237940383825",
+          "author": "arpitamall57368",
+          "searchJob": "arkansas-state",
+          "text": "@TheBongHead In a state with 99% non-vegetarian population,that being offered to the goddess is a common age old practice. Abb raat ko din bata doge? Dimag me paneer chaad gaya hai?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096791140959739935",
+          "author": "akiva_yaakov",
+          "searchJob": "arkansas-state",
+          "text": "The Palestinians were offered a state on several occasions. During the Clinton era, they were offered all of Gaza and nearly all of the West Bank (with land swaps for the difference) and a capital in East Jerusalem. When they walked away fr"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096769706627936317",
+          "author": "nuge4selke",
+          "searchJob": "arkansas-state",
+          "text": "You asked for Trump in his own words. Jan 7, 2025 press conference, asked if he would use military force to annex Canada: “No. Economic force.” Same stretch: “Canada and the United States, that would really be something. You get rid of that"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096797613181861928",
+          "author": "z3r0_burn",
+          "searchJob": "army",
+          "text": "@punished688 @RecklessSquirel @Spruce_18 @basedjorts @NaviGoBoom @FuddBusters @CSSA1926 The AR-15 was not offered as a replacement for T44? So you mean it never entered a competition the Army ran to find a replacement \"assault rifle\" for th"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2096792110876049621",
+          "author": "kaychwita",
+          "searchJob": "army",
+          "text": "@sugakookierants the first day i bought tickets and went with sakinah and her mom ! i was kinda drunk and kept talking to the army next to me she offered me a ticket bc we vibed and she didn’t want to go alone . the second day my friend wor"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096789120903176401",
+          "author": "brucenewsreview",
+          "searchJob": "army",
+          "text": "The claim reportedly emerged in a lawsuit over the controversial firing of a former military health official A US Army doctor has testified that she knows of 28 US military deaths caused by Covid-19 vaccines, Politico has reported citing a "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096785981969936511",
+          "author": "curiousabtpolls",
+          "searchJob": "army",
+          "text": "@ChrisSwans62679 @I_Katchanovski This list is not acceptable but parts in it could be. Ukraine should make a counter-offer. The biggest problem (apart from leaving Donbass and limitation on the army) are attempts to dictate political change"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2096783175271764201",
+          "author": "bleich67",
+          "searchJob": "army",
+          "text": "Kids a baller with an offer from West Point. Why we sleeping on him?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096769780359545205",
+          "author": "vrkrb2",
+          "searchJob": "army",
+          "text": "Driscoll offers no reason for his exit as Army secretary but says Wednesday is his last full day https://t.co/yB2DLJ5Sv5"
         }
       ]
     },
@@ -334,18 +343,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
+      "swept": 25,
+      "failed": 1,
       "requests": 26,
-      "errors": []
+      "errors": [
+        "ucla: SearchTimeline JSON unreadable (slice left pending)"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 15,
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 23,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-07T02:58:07.819Z"
+    "status rebuilt locally from current store on 2026-09-07T03:13:19.645Z"
   ]
 }
