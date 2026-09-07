@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T15:43:18.772Z",
+  "generatedAt": "2026-09-07T15:59:02.017Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-07T15:43:18.496Z",
+    "at": "2026-09-07T15:59:01.744Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,313 +32,247 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7826480555555556,
-    "p95Hours": 1.7814394444444444,
-    "worstHours": 1.7814394444444444
+    "medianHours": 0.7925841666666666,
+    "p95Hours": 1.7214697222222222,
+    "worstHours": 1.7214697222222222
   },
   "decisionCoverage": {
-    "total": 36,
-    "decided": 36,
+    "total": 29,
+    "decided": 29,
     "complete": true
   },
   "pending": {
     "total": 10
   },
   "profileResolution": {
-    "cached": 37
+    "cached": 38
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 835,
+    "completeOffers": 836,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-07T15:43:18.496Z",
-      "got": 43,
-      "new": 36,
-      "lag": 0.04
+      "at": "2026-09-07T15:59:01.743Z",
+      "got": 48,
+      "new": 29,
+      "lag": 0.19
     }
   },
   "audit": {
-    "at": "2026-09-07T15:41:27.704Z",
+    "at": "2026-09-07T15:57:08.988Z",
     "mode": "live",
     "collection": {
-      "returned": 43,
-      "kept": 36,
-      "duplicate": 7,
+      "returned": 48,
+      "kept": 29,
+      "duplicate": 19,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 25,
+      "accepted": 18,
       "rejected": 11,
       "reasons": {
-        "no_offer_term": 7,
-        "no_fbs_school": 2,
-        "hard_negative": 2
+        "no_fbs_school": 5,
+        "no_offer_term": 6
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2096975586992521451",
-          "author": "shockeddeals",
-          "searchJob": "rice",
-          "text": "🚨 65% OFF A GLASS LOW-CARB RICE COOKER! Get the 3L rice cooker and steamer for just $34.99 at Woot. While supplies last. 🔗 https://t.co/ab84kDwh3A https://t.co/pwmSEJcZ9J"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2096908903254561012",
-          "author": "flawlessdazzol",
-          "searchJob": "rice",
-          "text": "Dear Anon, How about we bless 5 people with our delicious Deluxe Jollof Rice? 🍛 A total of ₦20,000 will cover 5 packs — one pack for each person. 📍 Location: Osogbo, Osun State Just imagine putting a smile on the faces of 5 people with so"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2096959558069440791",
-          "author": "f365",
-          "searchJob": "rice",
-          "text": "Declan Rice has reportedly turned down a move to the Saudi Pro League as Arsenal work on three 'crucial' deals. Link 👇 https://t.co/ICEeeLW2ew"
+          "reason": "no_fbs_school",
+          "postId": "2096964536238522407",
+          "author": "trevonstillwel",
+          "searchJob": "class:2027",
+          "text": "I will never be outworked!!! I want this more than anyone. 2027 | 5’11.5• 185.7lbs |ATH/DB/SS/ LB/ WR | Special Teams leader. Kipp Bold City HS| 4.61 (laser) 40 | 38.5\"Vert | 62\" Box jump| 435 SQ | 3.1 GPA Most improved player 2025 | 1 offe"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2096936579839271223",
-          "author": "camrynpoole02",
-          "searchJob": "southern-miss",
-          "text": "So Incredibly Thankful to the Coaching Staff @SouthernMissSB for Inviting me for an Unofficial Visit this weekend and making me an Offer! @LABombersNob @NataliePooleMS @ElzeyMatt @ctosh01 @Coach_MGriff @PeytonElzey11 #SMTTT #bombers_fp #bom"
+          "postId": "2096972842814320798",
+          "author": "sonic_chemist",
+          "searchJob": "class:2028",
+          "text": "@theunipcs microcap US presidential candidate coins on robinhood offer best R/R rn. will trend on X until 2028 1% of a candidate coin costs $100, at $10k market cap. MAGA and BODEN both hit $700m mc at ath. official TRUMP catapulted into bi"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2096975979390640208",
-          "author": "theevuniverse",
-          "searchJob": "class:2026",
-          "text": "https://t.co/gITnB696p8"
+          "postId": "2095586617993908424",
+          "author": "sonic_chemist",
+          "searchJob": "class:2028",
+          "text": "political microcap memecoins for 2028 US presidential election are breaking all time highs today on robinhood chain. 🇺🇸🇺🇸🇺🇸 but they are all still under $20k market cap, still very early. see below for token info and links... 🧵⬇️ htt"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2096958567261905161",
-          "author": "btcbettingtips",
-          "searchJob": "class:2026",
-          "text": "PICK OF THE DAY #3 Football — September 7, 2026 Barcelona vs Feyenoord Bet: Barcelona (-2) Market: Asian Handicap Odds: 2.01 https://t.co/OqLH0G6s50 ─────────────────── PARLAY OF THE DAY #3 — 10 Legs Football — September 7, 2026 1. Napoli v"
+          "postId": "2096988706418667521",
+          "author": "wgmorrow",
+          "searchJob": "washington",
+          "text": "https://t.co/LhcpkZi3Z7"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2096777408598659110",
+          "author": "anasalhajji",
+          "searchJob": "washington",
+          "text": "🛢️🛢️🛢️🛢️🛢️🛢️🛢️🛢️🛢️🛢️🛢️🛢️🛢️🛢️🛢️🛢️🛢️🛢️ Here’s the recording of a Space where I discussed the oil market in light of recent developments at Hurmuz, Red Sea, and the Black Sea. I discussed the diesel crisis and how the current"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2096962533248602526",
-          "author": "commandersrisi1",
-          "searchJob": "pittsburgh",
-          "text": "Year-end pressure hits fast. Build your fall revenue roadmap now: map close-now offers, assign owners, and protect follow-up time. One clear plan beats a frantic Q4. Start building Learn More https://t.co/aJtT3MXXeZ #Commander Initiative #C"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2096979829165826434",
-          "author": "stellarhoops",
-          "searchJob": "arkansas-state",
-          "text": "Elite 60 National Camp Alumni Segond Sompa holds offers from Robert Morris, Boston, Arkansas State, Richmond and more. https://t.co/N3dI6lnkqA"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2096976794679464086",
-          "author": "alkabirofficial",
-          "searchJob": "arkansas-state",
-          "text": "📷 JINNAH APARTMENTS , Construction Progress Update 📷📷 Development at Jinnah Apartments, Al-Kabir Town Phase 2 is progressing at an impressive pace! 📷📷 Despite the hot and harsh weather conditions, our dedicated workforce continues to p"
+          "postId": "2096982962650624414",
+          "author": "bclaw",
+          "searchJob": "boston-college",
+          "text": "Zoe Arvanitis-Dalpe offers three key tips for taking care of yourself as you navigate law school: https://t.co/0bmLRMNpGG https://t.co/hoGLyAUGPd"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2096972107728998837",
-          "author": "zaoyang",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/4F3h1eJp2f"
+          "postId": "2096985149154185635",
+          "author": "malleshpai",
+          "searchJob": "california",
+          "text": "https://t.co/hvgLjRPA4D"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2096971266263515139",
-          "author": "tickeron",
-          "searchJob": "delaware",
-          "text": "$BE https://t.co/xtr7cbUpIb"
+          "postId": "2096976927252754560",
+          "author": "kfox14",
+          "searchJob": "california",
+          "text": "Pabst Brewing Co. is putting up to $20,000 on the line as it tries to track down a massive shipment of beer stolen from a Southern California distribution center. https://t.co/KmwTXmrP42"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2096976923582750800",
+          "author": "wsyx6",
+          "searchJob": "california",
+          "text": "Pabst offers $20,000 reward after 1,602 cases of beer stolen in California https://t.co/qJ1ZIV3LXa"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2096970980451025202",
+          "author": "news4reno",
+          "searchJob": "california",
+          "text": "Pabst Brewing Co. is putting up to $20,000 on the line as it tries to track down a massive shipment of beer stolen from a Southern California distribution center. https://t.co/3AVWwoLOn0"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2096966971204018669",
+          "author": "thedomainduke",
+          "searchJob": "duke",
+          "text": "https://t.co/G5Z3oSu8tV — a name for a new class of intelligent being. 🧠🤖 Not merely AI, but an artificial sapient entity: autonomous, intelligent, persistent—and perhaps eventually regarded as an individual rather than software. Sapiont "
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 24,
+      "accepted": 3,
+      "rejected": 15,
       "reasons": {
-        "author_not_recruit:different sport": 1,
-        "bare_mention_requires_llm": 13,
-        "author_not_recruit:no recruit fields": 1,
+        "multiple_resolved_schools": 6,
         "school_not_resolved_confidently": 1,
-        "multiple_resolved_schools": 7,
-        "reporter_missing_player_name": 1
+        "reporter_missing_position": 1,
+        "bare_mention_requires_llm": 7
       },
       "samples": [
         {
-          "reason": "author_not_recruit:different sport",
-          "postId": "2096983755093127194",
-          "author": "verbalcommits",
-          "searchJob": "old-dominion",
-          "text": "2029 Catholic (VA) G Joseph Youngblood has received an offer from Old Dominion. https://t.co/7PafEefJkS"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096980385292824643",
-          "author": "obi_media",
-          "searchJob": "rice",
-          "text": "Naira 'Gain' Cannot Hide Tinubu’s Devaluation Pain. The Insult to Suffering Nigerians should Stop. By Chukwudimma Aaron-Okonkwo September 7, 2026. Some people appointed by this current regime are celebrating a forecast that the naira may cl"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096973290023579899",
-          "author": "vendorsrepost",
-          "searchJob": "rice",
-          "text": "jollof plainain egg chicken 🍗🤤🤤🤤 All these for just 4k guys, don't miss this Deluxe jollof rice offer 😋😋"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096958940512715151",
-          "author": "thetolub",
-          "searchJob": "rice",
-          "text": "Just eating the jollof rice someone here made for me yesterday. Very tasty rice and turkey👌 Men that cook and offer to send food&gt;&gt;&gt;&gt;&gt; Abi I should block the whole world and marry this one ni🤔"
-        },
-        {
-          "reason": "author_not_recruit:no recruit fields",
-          "postId": "2096984736350539882",
-          "author": "theejlive",
-          "searchJob": "southern-miss",
-          "text": "Parklane softball's Camryn Poole (c/o 2028) has received an offer from Southern Miss."
+          "reason": "multiple_resolved_schools",
+          "postId": "2096984345588510837",
+          "author": "michaelresolute",
+          "searchJob": "san-jose-state",
+          "text": "@Datapleaz @USCFootballNews @BYUCougars @churchballpod @ASUFootball @NDFootball Notre Dame offered to schedule the USC game any time. When USC proposed week 0, the Irish responded by signing a home and home with BYU instead, without telling"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2096985241600610808",
-          "author": "cyclonesfandom",
-          "searchJob": "class:2029",
-          "text": "Hawkeyes offer 2029 in-state OL Lincoln Walsworth #iowastate #cyclones #iowastatecyclones https://t.co/vRIvK3fivh"
+          "postId": "2096987893168505013",
+          "author": "uncletfat",
+          "searchJob": "south-florida",
+          "text": "@FreeIrishman7 If John Paul or Benedict had ruled in the early centuries of the Church, they’d have invited the priests and priestesses of Athena and Zeus to offer sacrifices of bulls alongside the Holy Sacrifice of the Mass. Per them, all "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2096986744109351231",
-          "author": "mmarion8",
-          "searchJob": "smu",
-          "text": "@PntrNole Rhett literally turned down multiple SEC job offers to stay at SMU. He legit wouldn’t even return FSU’s phone call if they reached out to him 😂😂😂 You guys are utterly delusional"
+          "postId": "2096986685519151413",
+          "author": "alwayspetrie",
+          "searchJob": "south-florida",
+          "text": "@CaneLife1 I see what you’re saying, but we recruit on a national level just like Ohio State. Sure we have a lot of South Florida kids, but we have plenty of non-SF kids who had committable offers for their “home program” too."
+        },
+        {
+          "reason": "reporter_missing_position",
+          "postId": "2096984335660527814",
+          "author": "profilefblive",
+          "searchJob": "class:2028",
+          "text": "Arizona has offered 3.8⭐ 2028 Edge Nasir Walker from Crean Lutheran HS, CA. @Nasirwalker1_ Rated (#459 NATL, #32 Edge, #40 CA) - 25 offers overall. https://t.co/3ec2f9gtcH"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096965735910084913",
+          "author": "fleischman_noah",
+          "searchJob": "class:2028",
+          "text": "NC State OC Kurt Roper extended his fourth offer to a 2028 quarterback prospect during his first recruiting trip of the month. The four-star signal-caller has a unique tie to the Wolfpack. What I'm hearing about the latest target on the QB "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096987900944515567",
+          "author": "anasalhajji",
+          "searchJob": "washington",
+          "text": "🔶U.S. LNG dominance is locked in until at least 2035. That matters, because LNG is no longer just a commodity. It has become an instrument of U.S. foreign policy. 🔶The shale industry gave Washington the volume and flexibility to weaponize"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096987145714241736",
+          "author": "realtruth",
+          "searchJob": "washington",
+          "text": "Dollitics: What Washington Can Learn From Dolly Parton As Republicans head to Dallas for a historic midterm convention, Dolly Parton’s cross-partisan popularity offers a lesson for Washington on reaching Americans across the political divid"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2096965130550694123",
-          "author": "sportsbookaz",
-          "searchJob": "smu",
-          "text": "LABOR DAY SPECIAL 📲💸 Receive a 20% CASH BOOST on your deposit — on top of any bonus you might want to apply as well Offer is valid until Midnight EST Tons of afternoon MLB today + SMU/FSU tonight ⚾️🏈 https://t.co/CkBsmFjTdV"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096984337610953108",
-          "author": "flightdrama",
-          "searchJob": "air-force",
-          "text": "The US Air Force has decided that its futuristic B-21 Raider will enter service with two qualified pilots in the cockpit. Military leaders had considered using one pilot alongside a weapons systems officer as the highly automated bomber mov"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096971358999847185",
-          "author": "appcsocialmedia",
-          "searchJob": "air-force",
-          "text": "Punjab Chief Minister Maryam Nawaz Sharif on Monday paid rich tribute to the martyrs and veterans of the Pakistan Air Force (PAF) and saluted its Shaheens and valiant personnel on Air Force Day. In her special message, the chief minister of"
+          "postId": "2096985147836923952",
+          "author": "deniseball_edu",
+          "searchJob": "washington",
+          "text": "I am grateful to share a project that continues to grow through collaboration, conversation, and the wisdom of educators across the country. Dr. LaTonya Rayford White and I are developing The Middle School Culture Blueprint, a forthcoming m"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2096985340745527471",
-          "author": "zhong30958",
-          "searchJob": "arkansas-state",
-          "text": "4） dominance—mean this path is effectively blocked. If Congress were to force through legislation changing the state's name, it would hit the wall of federalism and set a dangerous precedent—what’s to stop the next president from renaming F"
+          "postId": "2096985039061872838",
+          "author": "gabbypressltv",
+          "searchJob": "washington",
+          "text": "The Fairy Tale of Corporate Globalism and American Citizen Resistance to Corporate AI Tyranny A Review of The Fairy Tales of Empire, Toby Rogers, The Brownstone Institute, Sept. 6, 2026. Gabby Press: (citing Thomas Paine, 1776) “We have it "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2096985265805885606",
-          "author": "newstalkfm",
-          "searchJob": "arkansas-state",
-          "text": "Data centres could be offered discounted gas, under new plans being considered by a State agency. https://t.co/pJZv4vYnVg"
+          "postId": "2096981298137231699",
+          "author": "jahansher",
+          "searchJob": "washington",
+          "text": "📌 BRICS IS NOT TRYING TO REPLACE THE WEST. IT IS BUILDING THE OPTION TO LIVE WITHOUT ITS VETO. ▪️Ahead of the 18th BRICS Summit in New Delhi, Sept. 12–13, the expanded 11-member grouping enters its 20th anniversary year under India’s theme"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096981250921607460",
+          "author": "jeremynewberger",
+          "searchJob": "washington",
+          "text": "🇺🇸 NEW SERIES: GOOD TALK Donald Trump meets America’s former presidents. They offer wisdom. He offers Trump. First up: George Washington. Two presidents. Two centuries. One disastrous conversation. Watch GOOD TALK: TRUMP MEETS WASHINGTON "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096978188735754555",
+          "author": "mouton2023",
+          "searchJob": "washington",
+          "text": "🔴 Daily Oil & Gas Update Oil Keeps Climbing as Hormuz Tightens Again 📈 WTI: $92.27 📈 Brent: $97.17 📈 Murban: above $100 📈 Natural Gas: firm ⛽ U.S. Gasoline: $4.1505/gallon Oil is still moving higher because the physical market keeps ge"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096981852389044434",
+          "author": "ajftbl",
+          "searchJob": "clemson",
+          "text": "@queensburner @Fate855687 @imatroll96 Idk if they are elite on defense. Baker defenses look really good against statues and breakdown against mobility. I don’t think Clemson offers enough on offense to know abt LSUs defense"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2096984460893819116",
-          "author": "zhong30958",
-          "searchJob": "arkansas-state",
-          "text": "3） not a geography assignment but a metaphor for political cleansing—the premise being that if the name is wrong, the outcome must be wrong too. This is precisely the point critics seized upon: you aren't just making a meme; you are using t"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096978567024275870",
-          "author": "jefftaylorlr",
-          "searchJob": "arkansas-state",
-          "text": "The popular account of human anthropology operates with a nature–grace polarity. “Natural man” is defined by a created substrate—reason, moral capacity, and the ordinary structures of creaturely life. “Spiritual man” is defined by grace, un"
+          "postId": "2096965757879939324",
+          "author": "umkid2",
+          "searchJob": "clemson",
+          "text": "@ExposingClay He also gave himself a half point on fsu and Clemson because the sportsbooks he shows dont offer even numbers"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2096976990972633189",
-          "author": "hdjoss45",
-          "searchJob": "arkansas-state",
-          "text": "@ErkanYalnErkan2 Firstly, the mosque is built on TOP of the 1st and 2nd temple. Israel is the Jews ancestral homeland. It’s clear Jews are not welcome in the rest of the world. So, they will be in their homeland. Arabs were offered a state "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2096965765182128600",
-          "author": "michaelsalfino",
-          "searchJob": "arkansas-state",
-          "text": "Is Germany turning hard right? I found this interesting. (Probably not): As someone who has an academic background in Germany and went to Uni there - this is super hyperbolic and overselling what happened yesterday. One state, a very poor o"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2096962980252389793",
-          "author": "friendlyhelot",
-          "searchJob": "arkansas-state",
-          "text": "Glimpses of Gibbon \"It was easier to vanquish the Goths than to eradicate the public vices; yet, even in the first of these enterprises, Decius lost his army and his life.\" Here Gibbon provides an insight into the fatal danger of empire, wh"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096987012762878275",
-          "author": "mgogel",
-          "searchJob": "army",
-          "text": "PEACE I. SIX BIS The dog heard the bottle before any of them did. Biscotte had gone almost completely white around the muzzle and had reached the age at which a dog begins to regard human affairs with the patience of a minor deity who has l"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096982411196375317",
-          "author": "hygge1b",
-          "searchJob": "army",
-          "text": "@Love_Deepspace your achievements in exporting Chinese culture are truly remarkable! Here is what I have learned about China thanks to you: • A Chinese company can delete a character at any moment, even if it had promised not to do so and c"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096970089299902768",
-          "author": "vlutual",
-          "searchJob": "army",
-          "text": "For coal to become a diamond, it must be crushed. Not praised. Not shielded from pressure. Not crowned while it is still black and brittle. Crushed. Heated. Reduced. What is common only ceases to be common when the weight comes. That is wha"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2096969273206050967",
-          "author": "bradybr2001",
-          "searchJob": "army",
-          "text": "😂 *Interesting discussion in Court* *Judge:* Did you shout \"India will be broken into pieces\"? *Accused:* Yes. *Judge:* Did you shout \"Pakistan Zindabad\"? *Accused:* Yes. *Judge:* Did you insult the National Anthem and the National Flag? *"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096967910820286766",
-          "author": "americancausey",
-          "searchJob": "army",
-          "text": "Islam is a wicked and adulterous ideology not a religion. Behold: Caesarea Maritima (May 641): After a grueling seven-year siege, Mu'awiya’s forces breached the heavily fortified Byzantine capital of Palestine via a subterranean tunnel/aque"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096964589820809511",
-          "author": "vlutual",
-          "searchJob": "army",
-          "text": "Human beings are flawed—which is why Jesus Christ came, and why Christians were not deceived as Muslims claim. What Christianity offered—and still offers—is coal to the eyes of flawed, carnal men. It burns. It humiliates the ego. It tells y"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096962632305537215",
-          "author": "mrsatias",
-          "searchJob": "army",
-          "text": "Ukraine is out of AD and it has huge manpower issues. People are being snatched from the streets and Budanov has said that Ukraine need to recruit 30k men a month just prevent the army from bleeding. 2 million men are avoiding the draft. Ze"
+          "postId": "2096980560417595729",
+          "author": "profilefblive",
+          "searchJob": "nc-state",
+          "text": "Penn State and NC State have offered 3.6⭐ 2028 OT Josiah Eney from Good Counsel HS, MD. @JosiahEney Rated (#690 NATL, #63 OT, #25 MD) - 7 offers overall. https://t.co/UYO1rfpz8d"
         }
       ]
     },
@@ -352,12 +286,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 24,
+      "acceptedEvidence": 3,
+      "rejectedCandidates": 15,
       "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-07T15:43:18.773Z"
+    "status rebuilt locally from current store on 2026-09-07T15:59:02.018Z"
   ]
 }
