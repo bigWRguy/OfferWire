@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T21:13:22.066Z",
+  "generatedAt": "2026-09-07T21:28:17.343Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-07T21:13:21.820Z",
+    "at": "2026-09-07T21:28:17.075Z",
     "jobsTotal": 162,
-    "sweptThisRun": 25,
+    "sweptThisRun": 26,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7819027777777777,
-    "p95Hours": 1.5280952777777779,
-    "worstHours": 1.7809519444444444
+    "medianHours": 0.78156,
+    "p95Hours": 1.5329633333333332,
+    "worstHours": 1.5329633333333332
   },
   "decisionCoverage": {
-    "total": 27,
-    "decided": 27,
+    "total": 37,
+    "decided": 37,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 38
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 857,
     "incompleteOffers": 0
@@ -55,224 +55,283 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-07T21:13:21.819Z",
-      "got": 34,
-      "new": 27,
+      "at": "2026-09-07T21:28:17.074Z",
+      "got": 61,
+      "new": 37,
       "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-07T21:11:27.809Z",
+    "at": "2026-09-07T21:26:27.138Z",
     "mode": "live",
     "collection": {
-      "returned": 34,
-      "kept": 27,
-      "duplicate": 7,
-      "tooOld": 0,
+      "returned": 61,
+      "kept": 37,
+      "duplicate": 23,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 20,
-      "rejected": 7,
+      "accepted": 27,
+      "rejected": 10,
       "reasons": {
-        "no_offer_term": 2,
-        "no_fbs_school": 3,
-        "hard_negative": 1,
-        "non_fbs_offer_target": 1
+        "hard_negative": 2,
+        "no_offer_term": 3,
+        "no_fbs_school": 5
       },
       "samples": [
         {
+          "reason": "hard_negative",
+          "postId": "2097057109670031688",
+          "author": "colecarmody52",
+          "searchJob": "tcu",
+          "text": "Nash Henry, the No. 14 QB in the country, visited Kansas State this weekend. Henry also holds offers from Arkansas, Baylor, TCU, and several others."
+        },
+        {
           "reason": "no_offer_term",
-          "postId": "2097063857600479694",
-          "author": "aljenko98",
-          "searchJob": "duke",
-          "text": "https://t.co/WVtvd3CQxi"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097056357354451304",
-          "author": "eldskald06",
-          "searchJob": "rice",
-          "text": "@realMaalouf The offer is acceptable. Depart now."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097050632188481876",
-          "author": "wyomingiliad",
-          "searchJob": "wyoming",
-          "text": "Claude is sooooo much better than grok--Claude notes: \"Evidence level: the New Scientist article is blocked to me (paywall), so I am assessing the argument as Grok states it, not the article's own text. Heymans has a 2026 book, How to Desig"
+          "postId": "2097055488177230250",
+          "author": "thenashhenry",
+          "searchJob": "tcu",
+          "text": "Had a great time at Kansas State! Thank you to the whole staff! @CK_KleinCollin @Coach_Ellsworth @Coach__Gleeson @agent_treyscott @PEllsworth_ @CoachSvarczkopf @spedbraet @KelsieJohnsonFB @galloway__drew @ColeCarmody52 @jongrove02 @DerekYou"
         },
         {
           "reason": "hard_negative",
-          "postId": "2097060080017387960",
-          "author": "durronjj",
-          "searchJob": "auburn",
-          "text": "@iTradewithRay @kgt837 @Syvandross @TheBHentel Drake London was a 4 star recruit, Higgins had offers from Auburn and Tennessee, evans was also a top 100 recruit…."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2096795296697033064",
-          "author": "zadenwilcox",
-          "searchJob": "auburn",
-          "text": "An ATH who stepped up to play QB to help his team @H2_Recruiting @DCCoachJ5 @ChadSimmons_ @recruittheN @RodJohnsonBlu4 @CoachBubbaNHS @Rivals https://t.co/tn11n0vzSq"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097057208294891730",
-          "author": "paitynknoke",
-          "searchJob": "nebraska",
-          "text": "I’m so excited and grateful to announce that I have received an offer from Nebraska Wesleyan University! Thank you @CoachSydneyG for the opportunity. #PWolfNation https://t.co/5wvbmLWXFv"
+          "postId": "2097072186066350321",
+          "author": "mikekalilmfg",
+          "searchJob": "oregon",
+          "text": "It looks like Figure AI founder Brett Adcock was onto something last year when he predicted that Agility Robotics would be out of business within 12 months. Though Oregon-based Agility hasn't gone under, its 2026 SEC filing shows that its m"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097066773120008531",
-          "author": "tammystanford19",
-          "searchJob": "stanford",
-          "text": "@_iamhabeeb Sometimes we confuse loyalty with endurance. Loving someone deeply doesn’t mean you have to keep volunteering for the same pain. You can love someone and still decide that what they offer is no longer something you can live with"
+          "postId": "2097071784948289761",
+          "author": "bymikewilson",
+          "searchJob": "tennessee",
+          "text": "Don’t let the fact that Hector is going to be running three Honda Civics with Spoon engines at Race Wars distract you from this deal. Get your first year of Volquest for only $30 with this offer that ends tonight! https://t.co/Qgrn9TOJxr ht"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2095656915237732432",
+          "author": "scottprocter_",
+          "searchJob": "colorado",
+          "text": "Scouts from these NFL teams are here for Colorado vs. Georgia Tech: Bills Broncos Chargers Colts Dolphins Falcons Giants Lions Panthers Patriots Rams Saints Titans Vikings 49ers"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097073152559862265",
+          "author": "dadhalfdev",
+          "searchJob": "texas-tech",
+          "text": "The Hermes Agent Bot Mode is free. Why am I paying for Grok Bot? Here are 5 @bot use cases that save me time. https://t.co/LKlCm5qiro"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097072778188869679",
+          "author": "midcenturyproud",
+          "searchJob": "texas-tech",
+          "text": "“What are you doing to make the kids want (!) to come to class? (This was in a “pre-GED” class held on a vocational college campus.) The kids were coming to my class (academics / mornings,) but weren’t going to their afternoon computer clas"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097071931128447411",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Pre-order ] Sony has launched WH-1000XM4C ( M4 2nd Gen ) Wireless Noise Cancelling Headphones in the US online - priced at $299.99. [ad] https://t.co/9IrPrVfTQA #amazonfinds #techtwitter DSEE Extreme uses Edge-AI to upscale comp"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097067203082256635",
+          "author": "klyraax",
+          "searchJob": "texas-tech",
+          "text": "Most people build AI avatars to look like influencers,One dev built a fake job candidate with Claude and she generates $27,200/mo. Instead of fighting 4K visual detectors, he went the opposite direction: 110 low-bitrate webcam renders, arti"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097065790126092736",
+          "author": "techsideline",
+          "searchJob": "texas-tech",
+          "text": "Richweb: Your IT End Zone Learn more: https://t.co/orIzkJ2hPv Sponsored: Richweb is your local provider of top-tier IT managed services. For 30 years, Richweb has offered a comprehensive suite of cutting-edge solutions tailored to empower b"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 19,
+      "accepted": 0,
+      "rejected": 27,
       "reasons": {
-        "bare_mention_requires_llm": 17,
-        "multiple_resolved_schools": 2
+        "author_not_recruit:different sport": 1,
+        "bare_mention_requires_llm": 10,
+        "school_not_resolved_confidently": 11,
+        "multiple_resolved_schools": 3,
+        "explicit_non_fbs_target": 1,
+        "player_missing_football_context": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097066272387469768",
-          "author": "recruitintelhq",
-          "searchJob": "duke",
-          "text": "@FranckAtangana0 @DukeFOOTBALL @VBentley_2 @UHALLTHEBALL @TreDevones @Coach_Stuck @RRACKLEY9 @caprewett @CoachFloyd_DHS @CoachMiller_11 @ChadSimmons_ @adamgorney @TheUCReport @247recruiting @ShannonTerry @RivalsHS @DemetricDWarren @GregBigg"
+          "reason": "author_not_recruit:different sport",
+          "postId": "2097069904742502401",
+          "author": "elijahgpaez",
+          "searchJob": "tcu",
+          "text": "Blessed to receive an offer from the TCU Horned Frogs @TCUBasketball | #GoFrogs Thank you Coach Dixon &amp; Coach Benford 🫡 #AGTG https://t.co/X8mkfxBiJm"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097065726310023242",
-          "author": "heriotzah",
-          "searchJob": "rice",
-          "text": "Practicing the butterfly stroke enhances core strength, boosts bodily balance, and sculpts a robust, well-toned midsection. 🚧Claypot Rice This dish offers hearty satiety. https://t.co/iNlfNhMTPo"
+          "postId": "2097052963269476431",
+          "author": "carredondo28",
+          "searchJob": "san-diego-state",
+          "text": "@jtlope @SportsOnTheMesa I guess you can say that when they don’t choose sdsu. Look up the top 50 and see quite a handful who had offers. Didn’t choose sdsu. When that happens. Very easy to say it wasn’t a good fit. Or maybe, the offensive "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097067930433556789",
+          "author": "brian08810111",
+          "searchJob": "south-florida",
+          "text": "@ChuckPh85 Hmm, let the cucks compete against each other just to win and offer themselves and their wives to the bulls for the honour of being selected for the cum clean up."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097062128998084740",
-          "author": "tiobanku",
-          "searchJob": "rice",
-          "text": "i’m not sure where the comparison with mega chicken came from, because where exactly is the comparison? mega chicken offers far more than rice and chicken. it has a bakery, proper dine-in facilities and separate sections for traditional mea"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097059644095037596",
-          "author": "austin_j_keeler",
-          "searchJob": "rice",
-          "text": "@DynastyDadFF You helped me a ton last year. So I was offered Nico and Jamo Williams for Rashee Rice, Josh Downs, Henderson PPR league. Take or deny?"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097059388427239576",
-          "author": "yuu0718ma",
-          "searchJob": "rice",
-          "text": "I stand in the queue, scanning the menu that offers a tempting array of international sweets—Thai mango sticky rice, Spanish churros, Greek baklava, and French macarons. I beat my girlfriend at tennis and felt quite chuffed about it. https:"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097052830918181335",
-          "author": "garimoyasi",
-          "searchJob": "rice",
-          "text": "The distinctive physiological traits of deep-sea organisms render them invaluable subjects for investigations in marine natural sciences.🌤Rice in cans offers ease of preservation. https://t.co/xrfxtGyZPa"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097050486268715332",
-          "author": "christo74325988",
-          "searchJob": "rice",
-          "text": "Braised rice paired with freshly harvested mid-summer dragon fruits offers a tender, crisp texture that is naturally low in sugar and pleasantly mild. These fruits align perfectly with today's preference for lighter eating habits, making th"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097049983027699727",
-          "author": "pijimmt",
-          "searchJob": "rice",
-          "text": "The following morning, she enjoyed dosa for her first meal—a delicate, crunchy pancake crafted from rice and lentils, accompanied by sambar and chutney. The dosa turned out golden and airy, while the sambar offered a zesty, piquant kick, an"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097045330105598063",
-          "author": "aderonkee__",
-          "searchJob": "rice",
-          "text": "@Munalozy If anyone offers me rice without salt, there’ll be problems"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097059122722025970",
-          "author": "ryanbartow",
-          "searchJob": "auburn",
-          "text": "Explosive ATH being evaluated by #Auburn as a potential offer guy"
+          "postId": "2097067391184220531",
+          "author": "worldwidennx",
+          "searchJob": "class:2027",
+          "text": "5 PM Top-of-the-Hour News The National Transportation Safety Board just wrapped up a news conference.. regarding yesterday's cargo jet crash at Miami International Airport. Five people died and five more were injured after an Amazon cargo p"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097069241765945784",
-          "author": "mlfootball",
-          "searchJob": "mississippi-state",
-          "text": "CRAZY: #Rams first-round quarterback Ty Simpson received his first POWER FIVE scholarship offer while he was still in EIGHTH GRADE. Jim Harbaugh and Michigan offered Simpson in March 2018, before Kentucky, Mississippi State, Tennessee, Vand"
+          "postId": "2097067383202472051",
+          "author": "profilefblive",
+          "searchJob": "class:2028",
+          "text": "Coastal Carolina has offered 2.8⭐ 2028 QB Delreco Eady Jr. from Irmo HS, SC. @JayEady_1 Rated (#1864 NATL, #141 QB, #24 SC) - 3 offers overall. https://t.co/SSImj7lRrm"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097048250305974540",
-          "author": "colintheshots95",
-          "searchJob": "mississippi-state",
-          "text": "\"I see that potential at Mississippi State\": @kobebutler2028 talks Starkville visit and offer https://t.co/MrXzOeivhS via @MWD_On3"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097058324676002244",
-          "author": "cune",
-          "searchJob": "nebraska",
-          "text": "Concordia University, Nebraska offers a variety of on-campus worship and ministry opportunities. Learn more: https://t.co/YagWP1CgmZ #BeKnown #ConcordiaNebraska"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097048404031311903",
-          "author": "metrohyena",
-          "searchJob": "oklahoma",
-          "text": "@john_wilddog Agree, I would also like to offer up Oklahoma"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097063273547829463",
-          "author": "mattallbert",
-          "searchJob": "ole-miss",
-          "text": "Continental has the BEST tire warranty in the business. A customer once called me from Florida after she popped one that I installed in Mississippi. She hadn’t registered her new tires yet, but when I called the Conti rep, he offered to get"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097067389456134542",
-          "author": "loopingcloud",
-          "searchJob": "arizona",
-          "text": "Pine Mountain Plaza | Williams, AZ — 11,900 SF, 5 fully leased units & a location just off Route 66 near downtown. 📍 Offered at $1.399M. Contact Darien Degher | 928-607-3749 for details. https://t.co/4VDWw59SAF #WilliamsAZ #RetailProperty "
+          "reason": "explicit_non_fbs_target",
+          "postId": "2097063607506718910",
+          "author": "profilefblive",
+          "searchJob": "class:2028",
+          "text": "Texas Tech has offered 4.5⭐ 2028 TE Tre Oiler from Arrowhead HS, WI. @Tre_Oiler Rated (#156 NATL, #8 TE, #1 WI) - 34 offers overall. https://t.co/O9XD4dR1rQ"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097061893227868506",
-          "author": "valencia_pibe",
-          "searchJob": "arizona",
-          "text": "A journey through the American Southwest is designed for constant discovery, with each destination topping the one before. Utah and Arizona offer scenic red rocks, canyon passes, and expansive highways that reach the country's most famous s"
+          "postId": "2097063053338829281",
+          "author": "realaaronboyes",
+          "searchJob": "oregon",
+          "text": "Really? do you have the highest grade uranium on planet earth 20 times more pure than any other samples? OK we'll take China's offer apparently they need it to run their reactors and to upgrade their nuclear deterrent. They mentioned someth"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097052287483158610",
-          "author": "loopingcloud",
-          "searchJob": "arizona",
-          "text": "17.80 acres in Cottonwood, AZ 86326! R-3 zoned land at 1214 N Main offers multifamily and residential development potential. 📍 Offered at $3.875M. Contact Darien Degher | 928-607-3749. https://t.co/M7y1IXGkJR #CottonwoodAZ #LandForSale #Mu"
+          "postId": "2097071154955469064",
+          "author": "pcbeaufort",
+          "searchJob": "south-carolina",
+          "text": "South Carolina made the offer to the 6-5, 290-pound lineman just based on film. Meanwhile, another 2028 prospect is drawing attention from the Gamecocks in recruiting. https://t.co/nzW5u6xVni"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097056368536498468",
-          "author": "paving_direct",
-          "searchJob": "stanford",
-          "text": "🔥BUNDLE OFFER – Stanford Marlstone White Porcelain Paving + Slurry + Mid Grey Pointfix Grout🤍 👉 Shop Now : https://t.co/lrfjnWHD9N Light, bright and timeless – our Stanford Marlstone White is now on BUNDLE OFFER."
+          "postId": "2097071116594389346",
+          "author": "pccolumbia",
+          "searchJob": "south-carolina",
+          "text": "South Carolina made the offer to the 6-5, 290-pound lineman just based on film. Meanwhile, another 2028 prospect is drawing attention from the Gamecocks in recruiting. https://t.co/8U682ELhEk"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097063585687945387",
+          "author": "pcgreenville",
+          "searchJob": "south-carolina",
+          "text": "South Carolina made the offer to the 6-5, 290-pound lineman just based on film. Meanwhile, another 2028 prospect is drawing attention from the Gamecocks in recruiting. https://t.co/x552cISWWO"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097061556173570555",
+          "author": "scsportsnow",
+          "searchJob": "south-carolina",
+          "text": "STRecruiting: Newly offered offensive lineman Calvin Landy loved his first visit to South Carolina over ... https://t.co/P7WNRJZgkJ via @SCSportsNow"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097060252638204060",
+          "author": "rogerfulch82661",
+          "searchJob": "south-carolina",
+          "text": "@kl85412270 @EchoesofWarYT Fort Sumter was given ample time to leave after South Carolina succeeded but the commander decided to wait for reinforcements. The southern commander offered safe passage for everyone at the fort but refused it."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097058590376824905",
+          "author": "pcpeedee",
+          "searchJob": "south-carolina",
+          "text": "South Carolina made the offer to the 6-5, 290-pound lineman just based on film. Meanwhile, another 2028 prospect is drawing attention from the Gamecocks in recruiting. https://t.co/2Z6mzfEpia"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097064559110492485",
+          "author": "bllackranger",
+          "searchJob": "colorado",
+          "text": "@PUSH_21 I hope this helps big dog.. also note who Tf his head coach is a HOF DB, with a lot of NFL connections.. NFL scouts literally be pulling up to PRACTICE all the time, i guarantee a kid will be more happy if they got a Colorado offer"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097071743995171235",
+          "author": "robpowellwfc",
+          "searchJob": "houston",
+          "text": "@tx77429 Nope, never played football against nor ran against Alvin in my entire career But I stayed as far away from the Houston area as I could get I was offered the LB job at Houston Lee &amp; DC at Pasadena years ago"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097064462310158704",
+          "author": "teslaownersslo",
+          "searchJob": "houston",
+          "text": "In Europe, including the newly approved market of Slovenia, Tesla currently offers only FSD (Supervised). This is an SAE Level 2+ driver-assistance system. The driver must remain attentive at all times, keep their hands ready to take over i"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097073809715007722",
+          "author": "rorshockbtc",
+          "searchJob": "texas-tech",
+          "text": "In 2 hours, I will be walking through Superstar, a private (for now) app I made for my partner. If you know her, the aesthetic is spot on! With DeepSeek/etc, cross-chat persistence is an issue. Writing good prompts is hard, non-technical us"
+        },
+        {
+          "reason": "player_missing_football_context",
+          "postId": "2097073702534033686",
+          "author": "finau_paea209",
+          "searchJob": "texas-tech",
+          "text": "After a great talk, I’m blessed and thankful to receive my Third Division 1 Offer Full Ride to Texas Tech Masked Raiders!!!! #AG2G #BLESSUPP @CoachCrocky @CoachCortez58 @monicasagapolu @TimBrownFactory https://t.co/jMpx7Pkf2N"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097072284444008854",
+          "author": "nishanacharyads",
+          "searchJob": "texas-tech",
+          "text": "Is Tier-1 tech quietly moving away from role-based salary bands? Historically, MTS/SMTS/SDE2/SDE3 offers were driven by level + interview performance, and market benchmarks. Lately, I’m seeing more offers anchored to previous base. Hiring l"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097068988148981954",
+          "author": "h_daisuke0730",
+          "searchJob": "texas-tech",
+          "text": "🖍Hint: onboarding fresh team members + tech enhancements = boosted productivity! I immediately pick up on even the most delicate variations in your emotional state, hurrying to offer comfort and reassurance the moment sorrow casts a shadow"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097066501857534428",
+          "author": "originallboogie",
+          "searchJob": "texas-tech",
+          "text": "@robertrosenfeld We want affordable PREMIUM EVs with AWD, great interiors, lighting &amp; advanced tech. @BYD and others offer variety and value globally. With Chinese EVs restricted by U.S. tariffs, Tesla should fill that gap. Cybercab is "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097066216657649807",
+          "author": "originallboogie",
+          "searchJob": "texas-tech",
+          "text": "@Tesla We want affordable PREMIUM EVs with AWD, great interiors, lighting &amp; advanced tech. @BYD and others offer variety and value globally. With Chinese EVs restricted by U.S. tariffs, Tesla should fill that gap. Cybercab is cool, but "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097064658192699612",
+          "author": "hadtech99",
+          "searchJob": "texas-tech",
+          "text": "What if Samsung adds a new square-style model to the Galaxy S28 series? 👀 A shorter, wider Galaxy could offer a different experience from today’s tall phones: 📱 More compact overall size 🎬 Wider display for multimedia 🎮 Better proportio"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097063275288527319",
+          "author": "aemills3",
+          "searchJob": "texas-tech",
+          "text": "@frugalbc I work in the tech industry and they're notorious for a marathon of interviews (5+ seems to be average). The one thing I find is the people who know their worth, don't put up with it, and by the time an offer letter is sent, they'"
         }
       ]
     },
@@ -280,20 +339,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 25,
-      "failed": 1,
+      "swept": 26,
+      "failed": 0,
       "requests": 26,
-      "errors": [
-        "sam-houston: SearchTimeline JSON unreadable (slice left pending)"
-      ]
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 19,
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 27,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-07T21:13:22.067Z"
+    "status rebuilt locally from current store on 2026-09-07T21:28:17.344Z"
   ]
 }
