@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T12:58:34.184Z",
+  "generatedAt": "2026-09-07T13:28:44.764Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-07T12:58:33.979Z",
+    "at": "2026-09-07T13:28:44.522Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7791119444444444,
-    "p95Hours": 1.2766952777777778,
-    "worstHours": 1.5347772222222222
+    "medianHours": 1.0403983333333333,
+    "p95Hours": 1.537925,
+    "worstHours": 1.7796341666666666
   },
   "decisionCoverage": {
-    "total": 10,
-    "decided": 10,
+    "total": 48,
+    "decided": 48,
     "complete": true
   },
   "pending": {
@@ -49,115 +49,317 @@
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 831,
+    "completeOffers": 832,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-07T12:58:33.978Z",
-      "got": 19,
-      "new": 10,
-      "lag": 0.1
+      "at": "2026-09-07T13:28:44.522Z",
+      "got": 75,
+      "new": 48,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-07T12:56:43.595Z",
+    "at": "2026-09-07T13:27:00.247Z",
     "mode": "live",
     "collection": {
-      "returned": 19,
-      "kept": 10,
-      "duplicate": 9,
+      "returned": 75,
+      "kept": 48,
+      "duplicate": 27,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 6,
-      "rejected": 4,
+      "accepted": 34,
+      "rejected": 14,
       "reasons": {
-        "no_offer_term": 4
+        "no_offer_term": 5,
+        "no_fbs_school": 7,
+        "unclassified_offer_text": 1,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2096937601303200157",
-          "author": "jwmediadc",
-          "searchJob": "new-mexico",
-          "text": "https://t.co/abYDMLcaNQ"
+          "postId": "2096930981689127024",
+          "author": "tickeron",
+          "searchJob": "charlotte",
+          "text": "$AAL https://t.co/c0M18xXG1B"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2096948762602004593",
+          "author": "toledocardiolog",
+          "searchJob": "ohio",
+          "text": "EECP Therapy in Toledo, Ohio: Who Is a Candidate and What Results to Expect For patients living with persistent chest pain who have exhausted standard treatment options, EECP therapy in Toledo, Ohio offers a clinically supported, non-invasi"
+        },
+        {
+          "reason": "unclassified_offer_text",
+          "postId": "2096949531128824217",
+          "author": "nahendra",
+          "searchJob": "rice",
+          "text": "What happens when food moves away from the eater and becomes an offering? Rice is more than nutrition or commodity. Across cultures, it can carry memory, obligation, ancestry and the sacred. My new article: When Rice Becomes Sacred #Rice #F"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2096952554940686802",
+          "author": "blackinblue5",
+          "searchJob": "florida",
+          "text": "@DetroitRedWings @LabattUSA Well Redwings I went back on my word. I said I wouldn’t attend a game this year. I was offered free tickets to my now new favorite team, Florida Panthers vs the Red Wings. I will be in full Panther gear. Florida "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2096948038707171528",
+          "author": "jessehmarks",
+          "searchJob": "florida",
+          "text": "The Canes for South Florida Community Tix program is underway. If you’ve registered, check your inbox, your first ticket offer is available now for Thursday night’s home opener vs. FAMU. Not registered? Join the program here: https://t.co/z"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2096924125243556198",
-          "author": "epochpremium",
-          "searchJob": "new-mexico",
-          "text": "https://t.co/OHs8Lii7Kj"
+          "postId": "2096931810357752072",
+          "author": "danwoodsweather",
+          "searchJob": "florida",
+          "text": "https://t.co/zfWgwirUvO"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2096937578054500579",
+          "author": "crazyvibes_1",
+          "searchJob": "georgia",
+          "text": "At sixteen, she walked away from home with just eleven dollars in her pocket and a dream that sounded impossible. “Mom, I’m going to be the biggest star in the world.” Her mother, Georgia, smiled and replied, “That’s nice, dear.” She loved "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2096931625405690291",
+          "author": "indianaacademy",
+          "searchJob": "indiana",
+          "text": "Did you know we offer campus tours? On select Tuesdays and Thursdays at 3 pm, we offer campus tours where you can view our residence hall, school building, and chat with our admissions counselor! Register for an upcoming campus tour here: h"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2096926199431762044",
-          "author": "gunfanatics1",
-          "searchJob": "oregon",
-          "text": "https://t.co/9bv0GsrNxd"
+          "postId": "2096944892635218116",
+          "author": "michaelfah8139",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "@Melisaeppy Don’t mar the beautiful gift that you have been blessed to receive."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2096942187615330353",
+          "author": "kendallkearne18",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Great official visit at Cedarville! Thank you to the coaching staff for the hospitality and blessed to receive an offer to continue my academic and basketball career! @Coachamiller1 @CedarvilleWBB @TA32ksu @LexCrossover @CoachShawnWest @MJH"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2096935653481103744",
+          "author": "logan_w1lkinson",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "I am blessed to receive my first offer from Atlantis university!🔱 https://t.co/8grH0UdJIJ"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2096944718407970953",
-          "author": "mikereedyff",
-          "searchJob": "kansas",
-          "text": "Untangling the Waiver Wire for fantasy football prior to Week 1 https://t.co/61mAZwDcfv"
+          "postId": "2096931910794854733",
+          "author": "aasshwani",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "A Divine Moment with Bageshwar Dham Sarkar 🙏✨ Blessed to receive the darshan and divine blessings of Pujya Shri Dhirendra Krishna Shastri @bageshwarwala Blessed beyond words. Jai Shri Ram! https://t.co/7IppmVWitq"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2096948210551922688",
+          "author": "matthewsligh",
+          "searchJob": "miami",
+          "text": "https://t.co/EnOuAsBlFy"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2096945358286766567",
+          "author": "jake_oncall",
+          "searchJob": "uconn",
+          "text": "Stop acting like Fat Joe is gangster. His gangster already been tested in Bridgeport, Connecticut, at the Puerto Rican Day Parade, Fat Joe and Terror Squad got stomped out by Frankie “The Terminator” Estrada’s crew. Cuban Link offered the k"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 6,
+      "accepted": 1,
+      "rejected": 33,
       "reasons": {
-        "bare_mention_requires_llm": 3,
-        "school_not_resolved_confidently": 3
+        "bare_mention_requires_llm": 18,
+        "school_not_resolved_confidently": 6,
+        "reporter_missing_position": 2,
+        "reporter_missing_player_name": 2,
+        "multiple_resolved_schools": 5
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2096931494581125524",
-          "author": "loopingcloud",
-          "searchJob": "tennessee",
-          "text": "Dollar General retail investment in White Pine, TN! 8,125 SF freestanding property offered at $750K with corporate guaranty, BBB credit & recent early lease extension. 📈 Contact Ned Skinner: 714-264-2454. https://t.co/CGOKLOPKGs #WhitePine"
+          "postId": "2096933778010542365",
+          "author": "theboplex",
+          "searchJob": "charlotte",
+          "text": "SPECIAL LABOR DAY OFFER: Get ready to laugh, Charlotte!😂 Now through September 11th, use code LABORDAY to get 30% off tickets to see Don Lemon & DL Hughley: DL + DL 'Anything Goes' when they come to Ovens Auditorium Saturday, September 19t"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2096932369835987404",
+          "author": "nypost",
+          "searchJob": "charlotte",
+          "text": "49ers' Brock Purdy offers edge at QB vs all but NFL's most elite passers https://t.co/lCJg40dgW0 https://t.co/eopLOT1mDz"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2096932320124997875",
+          "author": "nypostsports",
+          "searchJob": "charlotte",
+          "text": "49ers' Brock Purdy offers edge at QB vs all but NFL's most elite passers https://t.co/hhOlJo7X6w https://t.co/SmYcvAPZbA"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2096938406752157939",
-          "author": "xyz1mt",
-          "searchJob": "houston",
-          "text": "@ilyremy9 $500k and still left on read is the most Houston thing I’ve ever heard. That’s not a date offer, that’s a mid feature budget with extra steps."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2096931635061035110",
-          "author": "prep_radar",
-          "searchJob": "houston",
-          "text": "Darrell Davis is heading to Houston! The #31 ranked 2027 PG had a strong list of offers but the Cougars landed him. Big time get for Kelvin Sampson and that Houston program. https://t.co/Rc9s1gKVUw"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2096941649662497232",
-          "author": "web3_valuescan",
-          "searchJob": "buffalo",
-          "text": "📊 BTC / ETH Intraday Main Capital Trend (ValueScan) ⏰ 2026-09-07 20:35:30 BTC $79,510.00 🤖 Main capital: Intraday bears are strong; 1H bulls dominate 🤖 Comprehensive: 🟡 Consolidation Session flow is still offered. 1H bid is doing the re"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2096931497613635612",
-          "author": "officialbullsrl",
-          "searchJob": "buffalo",
-          "text": "🛍️ | Confirmation of our Team Shop Opening Hours this week - including details of a new special offer on merchandise! 📲 | Full details: https://t.co/gC1OdNmY6I #RunWithTheBulls https://t.co/RsU1ESXjhE"
+          "postId": "2096949522194731349",
+          "author": "ohnjaye4",
+          "searchJob": "ohio",
+          "text": "Armed man charged toward Democratic candidate for Ohio governor at fair, law enforcement says ... His opponent is attacked and all @VivekGRamaswamy can offer is a bullshit statement ... https://t.co/ZpDIFZpZkR"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2096928926631416157",
-          "author": "mfisher00",
-          "searchJob": "buffalo",
-          "text": "@TheScreenTeam @grantcohn Hey Chad! Long-time fan! We don’t really have ranch here, per se — it’s mostly offered with buffalo wings. With chips, we’d normally have aioli, tomato sauce/ketchup or brown gravy (think poutine). Vinegar on fish "
+          "postId": "2096946796794609750",
+          "author": "davidmaffei19",
+          "searchJob": "ohio",
+          "text": "Great way to start Labor Day. One of my Northeast Ohio listings has an accepted offer! Thinking about buying or selling in Lake, Geauga or Cuyahoga County? Let’s talk. https://t.co/VsfxbxTjQV #YourRealtorSonny #NortheastOhioRealEstate https"
+        },
+        {
+          "reason": "reporter_missing_position",
+          "postId": "2096947168691069372",
+          "author": "eminentgooner",
+          "searchJob": "rice",
+          "text": "Arsenal are planning a contract extension for Declan Rice through 2031. The midfielder recently turned down a huge offer from Saudi Arabia. His contract expires in June 2028 (with club option for 2029) [@NicoSchira] https://t.co/BISwzteDfU"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2096944255113605462",
+          "author": "highburycorner_",
+          "searchJob": "rice",
+          "text": "🚨 Arsenal are planning a new contract for Declan Rice! 🔴⚪ 🗞️ According to Nicolò Schira, the Gunners are planning to extend Rice’s contract until 2031, with Mikel Arteta pushing to secure the midfielder’s long-term future. 💰 Rice has al"
+        },
+        {
+          "reason": "reporter_missing_position",
+          "postId": "2096940960462639555",
+          "author": "trueafcnews",
+          "searchJob": "rice",
+          "text": "🚨 𝙇𝘼𝙏𝙀𝙎𝙏: Arsenal are planning to extend Declan Rice’s contract until 2031. ✍️ Rice has reportedly turned down a huge offer from Saudi Arabia, with Mikel Arteta pushing to secure his long term future. [@NicoSchira] https://t.co/csmLm"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096930669955854525",
+          "author": "rainmaker1973",
+          "searchJob": "rice",
+          "text": "Canadian researchers have unveiled a tiny, rice-sized robot that could change kidney stone treatment forever. This magnetic micro-device can travel through the body with incredible precision and gently break stones into small pieces—without"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096950870143328606",
+          "author": "caajobsite",
+          "searchJob": "florida",
+          "text": "🚨 CAA Opportunity in West Palm Beach, FL-$150K Start Date Bonus 💼 View job: https://t.co/O04ZAR9rUd 📍 West Palm Beach, Florida-West Palm Join Our Anesthesia Team at JFK Hospital&ndash; Where Excellence Meets Balance in West Palm Beach Fl"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096947611173355908",
+          "author": "dr_vermillion",
+          "searchJob": "florida",
+          "text": "Wherever you are, healing should be within reach. Paradise Institute offers virtual EMDR and trauma therapy in Maine, New Jersey, Virginia, and Florida, providing trauma-focused support with accessibility and continuity of care in mind. Lea"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096947446072959404",
+          "author": "baikalcapital",
+          "searchJob": "florida",
+          "text": "Miami’s coast has entered its buyout era. With 2026 reserve mandates in force and financing blacklists narrowing buyers to cash, aging condo buildings are increasingly worth more as land than as homes — and developers are acquiring them who"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096944994997178663",
+          "author": "natemate111",
+          "searchJob": "florida",
+          "text": "@RachelMoiselle Holy fuckety fuck fuck! AIG is standing by this monster? Ireland is so fucked. Florida should offer sanctuary to Irish Jews. We would love to have you!!!!!"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2096944647406841978",
+          "author": "av8realty",
+          "searchJob": "florida",
+          "text": "Airpark Home | 3 bds | 3 ba | 2300 sqft | Hangar 60 ft | 3600 sqft | $2,195,000 | Treasure Coast Airpark (FL37) | 4061 ft | Paved Welcome to your dream aviation estate located in the exclusive Treasure Coast Airpark, Florida. This luxurious"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096941356799201689",
+          "author": "allmyguides",
+          "searchJob": "florida",
+          "text": "Untethered Field Brief: Florida removes automated plate readers from state highways Verified development On August 31, 2026, the Florida Department of Transportation revoked every permit allowing local law-enforcement agencies to place auto"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096938086714208693",
+          "author": "qwikad_com",
+          "searchJob": "florida",
+          "text": "Drive massive traffic to your online offers with https://t.co/hVsNRHRxjR Just a 30-second signup &amp; you're set. Promote anything - fast &amp; easy! #trump #economy #holiday #laborday #florida #miami #makmoney #oil #markets #bitcoin #cryp"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096929010622067170",
+          "author": "positiveosceola",
+          "searchJob": "florida",
+          "text": "Gatorland’s Gator Night Shine Takes Guests Into the Swamp After Dark ORLANDO, Fla. — When the sun goes down, the swamp comes alive at Gatorland, where adventurous guests can encounter hundreds of glowing red eyes during the park’s after-hou"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2096945844519940331",
+          "author": "selene_mariposa",
+          "searchJob": "kentucky",
+          "text": "WHAT IS ACTUALLY GOING ON Canada and China held their first military talks in eight years on the fourth of September. Before anybody starts building a corkboard with red string, here is the part the viral version left out. It happened at a "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2096948349953781848",
+          "author": "skibolightning",
+          "searchJob": "lsu",
+          "text": "@d1_troll99 @OoltewahBammer @McShay13 UGA, UF, LSU, and Bama offered and he said no"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2096946174817112372",
+          "author": "clemson_addict",
+          "searchJob": "lsu",
+          "text": "I try not to be a pocket watcher. But I need to know where the Monk family gets their money lol. They have never missed a big Clemson game. Not one. And right after that LSU game. Where they declined a $21k flight credit offer just to watch"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096953093908787368",
+          "author": "theblondebroker",
+          "searchJob": "texas",
+          "text": "Happy Labor Day 🇺🇸 Today is about the people who get up, show up and build something. Businesses, communities, families, careers, futures. As a Texas girl, hard work is something I was raised to respect. And as someone who spends her days"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2096945144100495384",
+          "author": "philliams72",
+          "searchJob": "texas",
+          "text": "@RobWc3rd @primetimecar Considering the quality of competition he played throughout most of highschool he wouldnt have gotten an offer from Texas if his last name wasn't manning."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096944096719819164",
+          "author": "statebaroftexas",
+          "searchJob": "texas",
+          "text": "State Bar of Texas members receive members-only pricing on all purchases, exclusive monthly offers, and free enrollment in Dell Rewards. Huge selection of PCs, electronics, and accessories. https://t.co/BnHxO2Q843 #MemberBenefitMonday #Ad #"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096942064789307897",
+          "author": "allmyguides",
+          "searchJob": "texas",
+          "text": "Untethered Field Brief: Court keeps mass voter-screening system offline Verified development On September 4, 2026, the U.S. Court of Appeals for the D.C. Circuit refused to reactivate the federal government’s modified SAVE system while its "
         }
       ]
     },
@@ -171,12 +373,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 6,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 33,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-07T12:58:34.185Z"
+    "status rebuilt locally from current store on 2026-09-07T13:28:44.765Z"
   ]
 }
