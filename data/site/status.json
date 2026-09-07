@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T18:13:22.750Z",
+  "generatedAt": "2026-09-07T18:28:57.948Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-07T18:13:22.459Z",
+    "at": "2026-09-07T18:28:57.617Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
+    "sweptThisRun": 24,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7847427777777778,
-    "p95Hours": 1.6549916666666666,
-    "worstHours": 2.029861111111111
+    "medianHours": 0.7896388888888889,
+    "p95Hours": 1.5437669444444444,
+    "worstHours": 1.914768611111111
   },
   "decisionCoverage": {
-    "total": 55,
-    "decided": 55,
+    "total": 39,
+    "decided": 39,
     "complete": true
   },
   "pending": {
@@ -47,351 +47,296 @@
   "profileResolution": {
     "cached": 38
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 847,
+    "completeOffers": 848,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-07T18:13:22.458Z",
-      "got": 81,
-      "new": 55,
-      "lag": 0.1
+      "at": "2026-09-07T18:28:57.616Z",
+      "got": 70,
+      "new": 39,
+      "lag": 0.14
     }
   },
   "audit": {
-    "at": "2026-09-07T18:11:28.636Z",
+    "at": "2026-09-07T18:27:07.258Z",
     "mode": "live",
     "collection": {
-      "returned": 81,
-      "kept": 55,
-      "duplicate": 26,
-      "tooOld": 0,
+      "returned": 70,
+      "kept": 39,
+      "duplicate": 30,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 36,
-      "rejected": 19,
+      "accepted": 28,
+      "rejected": 11,
       "reasons": {
-        "no_offer_term": 8,
-        "no_fbs_school": 8,
-        "hard_negative": 3
+        "no_fbs_school": 3,
+        "no_offer_term": 7,
+        "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2097022260141822440",
-          "author": "thezvi",
+          "reason": "no_fbs_school",
+          "postId": "2096996117905018930",
+          "author": "somerandomdev5",
           "searchJob": "texas-tech",
-          "text": "https://t.co/hHC07ci3eg"
+          "text": "@SebAaltonen And the funny thing is that no individual will be able to offer you a satisfying specific response on X that makes it clear why the size is justified, because it's a long tail of small things rather than 1-2 large things."
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097022090352181445",
-          "author": "dubaiderma",
-          "searchJob": "texas-tech",
-          "text": "MEET SMART AGE TECH AT DUBAI DERMA 2026 Discover innovative technologies for the next generation of longevity, wellness and aesthetic spaces. As a special Dubai Derma offer, enjoy 20% OFF ALL EQUIPMENT. Explore our technologies, meet our te"
+          "postId": "2097023658388488602",
+          "author": "end3of6days9",
+          "searchJob": "virginia",
+          "text": "The $3.99 Goodwill Vase That Turned Out to Be Rare Murano Glass—and Sold for $107,100 Jessica Vincent paid $3.99 for a glass vase at Goodwill. Months later, it sold at auction for $107,100. In June 2023, Vincent was browsing a Goodwill outs"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2096996811273638244",
-          "author": "redraidersports",
-          "searchJob": "texas-tech",
-          "text": "NEW: Texas Tech had 40+ prospects in Lubbock for the 33-10 win over ACU — and the reactions are glowing 👀 \"Texas Tech has been a dream school of mine for a long time\" Story: https://t.co/VlWtVEMyMG https://t.co/KohMuZkIpg"
+          "postId": "2097012105371148751",
+          "author": "wharpine",
+          "searchJob": "virginia",
+          "text": "@scNme43 @MAGAShagster Trump's only goal is to grift. He's gotten it done so you can stop whining. https://t.co/qAk54VMka1"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097015810958979336",
-          "author": "el_moregreen",
-          "searchJob": "texas-tech",
-          "text": "If you have a business and I live near you and ask ChatGPT to tell me where I can get what you sell around me will your business be recommended? What if I search your name on my google maps will I get location to your business or details to"
+          "postId": "2097007126501625998",
+          "author": "aslrra",
+          "searchJob": "virginia",
+          "text": "Meet Tom F.! Tom's grandfather was a railroader, and Tom got his start in the industry thanks in part to Todd at North Shore Railroads (watch our profile -- we're talking more about that later). As an engineer and conductor at Winchester & "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2096444721115644285",
+          "author": "timthomastlp",
+          "searchJob": "virginia-tech",
+          "text": "James Franklin: \"I hope (Frank Beamer and Bud Foster) watched the game and said 'that's how Virginia Tech Football is supposed to look.\" #Hokies"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097010213073101020",
+          "author": "adamwren",
+          "searchJob": "south-carolina",
+          "text": "https://t.co/fmV1XqOo2N"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097019354168594787",
+          "author": "birdvein",
+          "searchJob": "houston",
+          "text": "https://t.co/pKSpXu9qwO"
         },
         {
           "reason": "hard_negative",
-          "postId": "2097015776683212907",
-          "author": "shannon45531518",
-          "searchJob": "texas-tech",
-          "text": "Organ Harvesting connected with official hospital organ transplant service? Symbology will be their downfall. The illusion of safety in the hospital complex deceives sheep who are unaware of the crimes against humanity being committed on \"F"
+          "postId": "2097020869868671411",
+          "author": "ojha_jkumar",
+          "searchJob": "wake-forest",
+          "text": "#ISRO & #DRDO boast of some of the finest human brains. Scientists in these entities have chosen to ignore far more lucrative options to work for the nation & its people. They are not paid handsomely & yet they produce miraculous results on"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097014866791833760",
-          "author": "pakdefteam",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/ZhONWWgYIS"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097014691591811318",
-          "author": "noortech0",
-          "searchJob": "texas-tech",
-          "text": "@budgetpixel BudgetPixel Al offers 20% off WAN 3.0 for 2 days. Make 30s 1080p video with sound, references, and edits."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097017662954185095",
-          "author": "foxnews_flash",
-          "searchJob": "utah",
-          "text": "Erika Kirk opens up about the year since her husband Charlie Kirk's assassination, revealing the advice from Second Lady Usha Vance that has carried her through the darkest moments of grief. In a New York Times guest essay, Kirk described t"
+          "postId": "2096568195272552850",
+          "author": "tradingwithdrk",
+          "searchJob": "wake-forest",
+          "text": "#ISRO Well! Finally, after 12 years- people have found the courage to resist. https://t.co/GJsYMccT2f"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097019417544540469",
-          "author": "nycjewishnurse",
-          "searchJob": "temple",
-          "text": "https://t.co/fOQeuTeQzb"
+          "postId": "2097005029794197990",
+          "author": "polymarket",
+          "searchJob": "wake-forest",
+          "text": "JUST IN: Russia &amp; North Korea unveil a “historic” new road bridge linking the countries by car for the first time, with cargo traffic beginning immediately. https://t.co/aoxlTL4AUY"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097009777301913671",
-          "author": "1raregh0st",
-          "searchJob": "temple",
-          "text": "https://t.co/3pqP8FfDnr"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097004483662512294",
-          "author": "asianetnewssn",
-          "searchJob": "temple",
-          "text": "ತಿರುಪತಿ ತಿಮ್ಮಪ್ಪನ ದರ್ಶನ ಪಡೆದ ಯುಪಿ ಸಿಎಂ ಯೋಗಿ ಆದಿತ್ಯನಾಥ್, ಭಕ್ತರಿಂದ ಜಯಕಾರ ಸುದ್ದಿ ಲಿಂಕ್: https://t.co/Xmpkw0l4R5 #YogiAdityanath #Tirupati https://t.co/toiNsv4qWN"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097001094639476798",
-          "author": "troy73704772840",
-          "searchJob": "troy",
-          "text": "@BlackDumpling Invent. Doubt it. Reuse would offer bragging rights for a propaganda win"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097012767093874949",
-          "author": "mwd_on3",
-          "searchJob": "mississippi-state",
-          "text": "LAST DAY New subscribers can sign up for just $29.99 for the first year. Offer only until midnight! https://t.co/wPUqLGQLK2 https://t.co/9phTcgkY2d"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097007559764816358",
-          "author": "u_nebraska",
-          "searchJob": "nebraska",
-          "text": "Beginning in 2027, @UnmcCop will become just the second public university in the nation to offer an extended PharmD pathway. In creating this pathway, @unmc is expanding access to pharmacy education while helping meet the state’s need for p"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097015036283584658",
-          "author": "buckeyehuddle",
-          "searchJob": "ohio-state",
-          "text": "Latest Intel From Ohio State’s Recruiting Weekend A new 2027 offer, major commits back in Columbus and several future Buckeye targets making an impression. Who left the biggest mark on the Buckeyes this weekend? The latest intel read (+): ⬇"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097014989240377695",
-          "author": "tjwarner_",
-          "searchJob": "ohio-state",
-          "text": "Latest Intel From Ohio State’s Recruiting Weekend A new 2027 offer, major commits back in Columbus and several future Buckeye targets making an impression. Who left the biggest mark on the Buckeyes this weekend? The latest intel read (+): ⬇"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2096800109564420279",
-          "author": "polymarketsport",
-          "searchJob": "ole-miss",
-          "text": "🚨TRENDING: This Ole Miss fan is going viral for looking worried during this back and forth game with Louisville. https://t.co/qtVtvxitrl"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097023904275726422",
-          "author": "voidelur",
-          "searchJob": "arizona",
-          "text": "&gt;'90 eurobeat playlist &gt;look inside &gt;2016 songs I can contain my rage no longer"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097008238411796725",
-          "author": "judymaxb",
-          "searchJob": "arizona",
-          "text": "Alberta is lagging behind other provinces even though we are supposedly the most prosperous province in Canada I hear people from across Canada complaining their wait for urgently needed orthopaedic surgery is as long as 39 weeks. I should "
+          "postId": "2097010028767023122",
+          "author": "r365x",
+          "searchJob": "wake-forest",
+          "text": "🙌 @LeviSpires - few know this better than Uber drivers, whose “freedom” the algorithm controls; economically - Jason’s “free time” flex is easy to wax poetic about went down the rabbit hole to memorialize my thoughts; had to https://t.co/x"
         }
       ]
     },
     "extraction": {
       "accepted": 1,
-      "rejected": 35,
+      "rejected": 27,
       "reasons": {
-        "school_not_resolved_confidently": 13,
-        "bare_mention_requires_llm": 20,
-        "multiple_resolved_schools": 2
+        "school_not_resolved_confidently": 11,
+        "multiple_resolved_schools": 3,
+        "bare_mention_requires_llm": 12,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097023883895578709",
-          "author": "dhanush_nehru",
+          "postId": "2096994958112940141",
+          "author": "kelvinhong52",
           "searchJob": "texas-tech",
-          "text": "you get a job offer tomorrow. you discover: - high salary but almost no work-life balance - great work-life balance but average salary - fully remote but limited career growth - amazing team but outdated tech - cutting-edge tech but constan"
+          "text": "That's exactly what most founders are struggling with right now. That angle could definitely be something. I was inspired by DesignJoy, design as subscription model, so I'm trying to apply the same idea to tech. Customers can see the price "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097018751153742319",
+          "author": "maddiet2012",
+          "searchJob": "virginia",
+          "text": "Cruelty The following scene is a dramatization — but every physical detail in it is drawn from sworn testimony you’ll read a few paragraphs down. The leather strap came across her back hard. Her screams filled the small room, echoing off th"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097014385369555346",
+          "author": "chadwillis",
+          "searchJob": "virginia-tech",
+          "text": "Schedule offered Frank the best day - in person in Williams Brice to support Shane, catch the Hokies on ACC Network in the evening."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097011103389634717",
+          "author": "kawajajoe",
+          "searchJob": "kent-state",
+          "text": "I never said “combine.” Look again. It is much worse than that. You offered nothing to counter my assertion. I never said this was unique as prewar activity. What is unique is that it is being done by agents working for a foreign power. Don"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097022095175606767",
-          "author": "worldwidennx",
-          "searchJob": "texas-tech",
-          "text": "2 PM Top-of-the-Hour News In Gaithersberg, Maryland...: “I'm preaching, man. I'm. Hey man. I. Upcountry, man. ” Hundreds lined the streets on this Labor Day.. reminding the world it's a day to remember the hard working people who make the U"
+          "postId": "2097019732817764420",
+          "author": "wesvirdelltx",
+          "searchJob": "liberty",
+          "text": "Redistribution, aka legal plunder, is one of the main tenants of socialism as the world knows it. To those of us that refer to redistribution as socialism, we offer a solution...stop taking from one taxpayer and giving it to another. To pol"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097021722738172327",
-          "author": "doneandone1",
-          "searchJob": "texas-tech",
-          "text": "@goldengembe @craigbirckheadm @rulajebreal I appreciate your offer. But since America is about freedom, liberty, and rights, I'll stay and remind people like you that building America doesn't earn anyone the privilege of taking away other p"
+          "postId": "2097018059412103640",
+          "author": "lukaszpolah",
+          "searchJob": "liberty",
+          "text": "CHAPTER 8 1861–1865 — Poles in the American Civil War An estimated 4,000–5,000 Poles fought for the Union, while roughly 1,000–1,500 fought for the Confederacy. Among the best-known Polish commanders was Włodzimierz Krzyżanowski, who organi"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097021455250633162",
-          "author": "kbholt001",
-          "searchJob": "texas-tech",
-          "text": "@ShannonJoyRadio @AnnCoulter Well she is right about locking up criminals but this is how liberty dies one party goes soft on crime creating the problem now a solution is offered at the cost of your liberty.…the answer is no if the city was"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097018608748576955",
-          "author": "tailoreddealss",
-          "searchJob": "texas-tech",
-          "text": "📣 Welcome to Tailored Deals! We find deals, vouchers and product picks across tech, fashion, home and more helping you spend a little less and get a little more. ✅ Deals from trusted brands ✅ Voucher offers ✅ Helpful shopping guides 👇 Sta"
+          "postId": "2097017508226072977",
+          "author": "boazworld",
+          "searchJob": "liberty",
+          "text": "Fellow-citizens, A man may speak his hatred of Zion, of Israel, of the Jew, from the housetop and the printing-press, and the law will not gag him. That is liberty of speech. But when he opens a house of public entertainment — a coffee-hous"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097017631228215318",
-          "author": "jarheadfrog",
-          "searchJob": "texas-tech",
-          "text": "Texas Tech and Dream School.. Two things that have never been mentioned in the same sentence 😂 Unless you're a recruit begging for an offer."
+          "postId": "2097005234963018138",
+          "author": "lou_twin",
+          "searchJob": "liberty",
+          "text": "Delta and United returning to Israel U.S. carriers, led by Delta and United, are resuming service to Israel this week, following summer suspensions caused by the war in Iran. The much-anticipated move, which comes just ahead of the Jewish H"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2097010381851853043",
+          "author": "stacyleeds",
+          "searchJob": "tulsa",
+          "text": "A warm welcome to the new students of the China University of Petroleum–Tulsa International Energy College! This is the first overseas degree offered by TU in partnership with the China University of Petroleum-Beijing. Tulsa’s future is sim"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097027196099661894",
+          "author": "mwmwmaa",
+          "searchJob": "oregon",
+          "text": "The familiar faces encircled them, beaming and shouting words of encouragement. The elderly gentleman who tossed bread to the ducks dabbed at his eyes, the busker strummed a tender tune, and those out walking their dogs paused to offer thei"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097020318787178610",
+          "author": "stepanecom",
+          "searchJob": "oregon",
+          "text": "Hot take: Funnel diversity > creative diversity. Most brands are pumping out 100s of ads and wondering why ROAS still sucks. Creative performance is kinda random. Some ads hit. Some die. But you’re probably not magically 2-3xing ROAS just b"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097016703804670221",
-          "author": "seancfoley12",
-          "searchJob": "texas-tech",
-          "text": "\"blaming Canada for the way it is being treated by our neighbour.\" Of course Canada deserves a lot of blame. That's how negotiations work! Negotiations work by leverage, what you have to offer them, compared to what they have to offer you. "
+          "postId": "2097015008148488535",
+          "author": "roscoe1679",
+          "searchJob": "oregon",
+          "text": "@ChristineDrazan We have people retiring wondering IF we can afford to live here anymore, I have 20 something son still trying to find full time work when employers only offer part-time AND he has a degree. Oregon needs a lot of help. #Vote"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097013250491584678",
+          "author": "1underpar__",
+          "searchJob": "oregon",
+          "text": "@canegang305mia @ChefMaal7 you keep saying 5M when i think the number was truthfully 2.5Ms. Cantwell and his family have both come out and said Georgia and Oregon offers were the same basically"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097014702631014702",
-          "author": "techmansion",
-          "searchJob": "texas-tech",
-          "text": "The Xiaomi 18 Fold is available in Four colors: Red, Black and Warm Gold White. The striking Red finish gives the foldable a particularly bold look, while Black, Warm Gold, and White offer more understated options. #Xiaomi18Fold #Xiaomi #Fo"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097011263133938037",
-          "author": "kyroventures",
-          "searchJob": "texas-tech",
-          "text": "The brokers' P&L is quietly becoming a balance sheet - Groww, Anand Rathi Share & Stock Brokers and Angel One are all reducing dependence on trading intensity—but “non-broking revenue” hides very different economics. Groww: MTF is adding ₹6"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097010654548803631",
-          "author": "notesbylouis",
-          "searchJob": "texas-tech",
-          "text": "yeah, i like the DesignJoy inspiration. predictable pricing + a clear offer definitely makes buying easier. i’d just be careful not to make the subscription model itself the differentiation. imo the stronger angle is still WHO you’re doing "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097010580187988276",
-          "author": "belasri_karim",
-          "searchJob": "texas-tech",
-          "text": "🧠 https://t.co/KoEPHRikh2 — Premium AI Domain FOR SALE Built for the next generation of: 🤖 AI 🎓 EdTech 💡 Innovation 🚀 AI Startups 💰 Asking: $4,997 🤝 Open to serious offers. 📩 DM for inquiries. #AI #AIStartup #Tech #DomainsForSale #S"
+          "postId": "2097008981944279141",
+          "author": "feedthespud",
+          "searchJob": "oregon",
+          "text": "@ArgyleMemes @ArgyleLife1886 While I wholeheartedly agree with that, I’d also have wished we had our ducks in a row earlier to offer them for a loan somewhere higher up the pyramid. Really hope they rack up endless minutes there, will be wa"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097009776248955352",
-          "author": "llttlemissjaded",
-          "searchJob": "ucf",
-          "text": "@girafarigi idk if i’d uber all the way from orlando to atlanta . but ! someone from ucf offered to take me. if that doesn’t work out though i’ll take a bus"
+          "postId": "2097011307757048188",
+          "author": "pcmyrtlebeach",
+          "searchJob": "south-carolina",
+          "text": "South Carolina made the offer to the 6-5, 290-pound lineman just based on film. Meanwhile, another 2028 prospect is drawing attention from the Gamecocks in recruiting. https://t.co/TxJsPU0Bng"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097017183373062565",
-          "author": "damienh80",
-          "searchJob": "notre-dame",
-          "text": "@ThomasByrneTD @COPACOGECA @IFAmedia fuck up. your a fucking laughing stock along with the government. government offer no protection to Irish agriculture. fuel crises, bord bia crises, foot and mouth handling, tb rampant in the country, fa"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097012636617408885",
-          "author": "thetdn",
-          "searchJob": "notre-dame",
-          "text": "🤔In the latest installment of TDN's Words to Live By, leading Irish trainer @ptwomeyracing reflects on the people he admires in the business, shares the words of Leonard Ravenhill that have stayed with him, and offers his advice to the nex"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097009045127246139",
-          "author": "graham_depenros",
-          "searchJob": "notre-dame",
-          "text": "GOVERNMENT HAVE STARTED DISTRIBUTION OF THE \"BE EMERGENCY READY\" BOOKLET BUT PROVIDED NO REASONS OR CONTEXTS FOR WHY WE NEED TO \"BE EMERGENCY READY\" Emergency planning has been communicated so badly it reads less like public reassurance tha"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097006736787845450",
-          "author": "irish_walker_",
-          "searchJob": "notre-dame",
-          "text": "@missmongrel25 They come with nothing to add to society and are handed everything that the Irish have to work for, I have been offered serious money to do fit out on ipas but absolutely refuse"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097004178396606815",
-          "author": "hill1610",
-          "searchJob": "notre-dame",
-          "text": "@FightersOnly @TheNotoriousMMA Not a hope in hell McRapist will ever be offered Croke Park. We the Irish People, especially GAA people own Croke Park. He will never fight on that sacred ground."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2096998671271272614",
-          "author": "makingsenseinfo",
-          "searchJob": "notre-dame",
-          "text": "🌸The recent controversy surrounding Heather Humphreys raises a much bigger question: what does Fine Gael actually mean by Irish identity and unity when set against the international frameworks it has spent years embracing at Davos? HH supp"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2096995287248040295",
-          "author": "downman23",
-          "searchJob": "notre-dame",
-          "text": "@AnnaGra65143872 @SetantaD An East Belfast secondary school also offered Irish Gaelic at GCSE level but no takers. This was 1996 &amp; the school no longer exists. Various aspects of Irish history was covered too. Repub/Nat &amp; Loy/Unioni"
+          "reason": "multiple_resolved_schools",
+          "postId": "2097018766454354075",
+          "author": "unclerogerpicks",
+          "searchJob": "florida-state",
+          "text": "🚨🚨💰Stone Lock for SMU at Florida St Uncle Roger's Picks: FREE MONTH OFFER Ending SOON! https://t.co/oGCVik9ujC SMU Mustangs @ Florida State Seminoles Pick: SMU -2.5 Odds: -115"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097020593665392680",
-          "author": "timesofindia",
-          "searchJob": "temple",
-          "text": "Uttar Pradesh CM Yogi Adityanath offered prayers to Lord Venkateswara at the Tirumala temple. https://t.co/V6eLFVYtAW"
+          "postId": "2097018753854710209",
+          "author": "coco7fg",
+          "searchJob": "houston",
+          "text": "I Have two extra tickets for Kanye West concert on Oct 31 at Reliant Stadium, Houston, TX. Letting them go for face value but open to offers. DM me if interested! 🫶 WTS WTB ISO WTT YE"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097020055657578664",
-          "author": "jptierney7",
-          "searchJob": "temple",
-          "text": "So let me get this straight… they rejected and tried to murder the son of God, saying “let His blood be upon our heads” to claim that responsibility (even though he came to offer himself to pay for our sins, woe to those who fulfilled this "
+          "postId": "2097017012585426972",
+          "author": "asu_superfan",
+          "searchJob": "houston",
+          "text": "@FightOnRusty Feel ya. I’m sure Houston and College Station will offer great reprieve from this."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097014960845136360",
-          "author": "shiningindnews",
-          "searchJob": "temple",
-          "text": "#Tirupati Balaji योगी आदित्यनाथ पहुंचे तिरुपति बालाजी के दरबार! उत्तर प्रदेश के मुख्यमंत्री योगी आदित्यनाथ आज तिरुपति बालाजी मंदिर पहुंचे और भगवान वेंकटेश्वर के दर्शन-पूजन किए। उन्होंने भगवान बालाजी से देश और प्रदेश की सुख-शांति, समृद्धि एव"
+          "postId": "2097011219110547878",
+          "author": "sunday_surefire",
+          "searchJob": "houston",
+          "text": "@Possum_J040602 @Savageboston @AlbertBreer How many teams that have singed a QB to a massive extension have not signed their 2nd best player who is under 25 years old? Cant think of a single one. But let’s talked Houston for a moment. They "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097013422810345899",
-          "author": "rileymacgregor3",
-          "searchJob": "temple",
-          "text": "Nepal Holds Day of Mourning as Families Pray Missing Still Alive A Buddhist monk offers prayersat a temple in Trishuli, in Nepal's Nuwakot district, c: Shakyamuni Buddha (Gautama Buddha); left: Avalokiteshvara (Chenrezig); right: Padmasambh"
+          "postId": "2097010583149113764",
+          "author": "gabari_aou50878",
+          "searchJob": "houston",
+          "text": "In Houston I worked for transworld systems incorporated, chase bank as accounting receivable collection specialist. I passed the training and all examinations. And in the floor. I had a call from someone he owe almost 95k to the bank and af"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097012620012437839",
-          "author": "enrphoto",
-          "searchJob": "temple",
-          "text": "UP CM Yogi Adityanath Offers Prayers at Tirumala Sri Venkateswara Temple Tirumala, September 7, 2026: Uttar Pradesh Chief Minister Yogi Adityanath visited the sacred hill shrine of Lord Sri Venkateswara Swamy at Tirumala on Monday and offer"
+          "postId": "2097020228597084352",
+          "author": "_ryderbrett",
+          "searchJob": "wake-forest",
+          "text": "@BallCoachHP Name : Ryder Brett Height : 6’3 Weight : 270 Position : OL/DL Offers : 0 Town : Franklinton State : North Carolina School : Wake Preparatory Academy 40 yard : 5.4 Jersey # : 77 https://t.co/WyGZVBqvwa"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097017621854249146",
+          "author": "medicalquack",
+          "searchJob": "wake-forest",
+          "text": "Is anyone going to wake the fuck up or are we going to keep getting Dementia Donald stupid posts on X? The posts no longer are a distraction to use, they are the daily routine of a man suffering from dementia has to offer..aka nothing but i"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097016835510292683",
+          "author": "ismawi_m",
+          "searchJob": "wake-forest",
+          "text": "🤫Being kind doesn't cost a thing, yet it holds immense value. A subtle pang of regret lingers in the wake of harsh words blurted out in a moment of fury, urging me to offer a heartfelt apology and protect the deep, cherished connection we "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097015482213957848",
+          "author": "vishvapandita",
+          "searchJob": "wake-forest",
+          "text": "My deepest sympathies and condolences are with the families who have lost their loved ones in the tragic incident in Delhi. No family should ever have to endure such unimaginable pain. But at the same time, one cannot help but ask: why does"
         }
       ]
     },
@@ -399,18 +344,21 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
+      "swept": 24,
+      "failed": 2,
       "requests": 26,
-      "errors": []
+      "errors": [
+        "kennesaw-state: SearchTimeline JSON unreadable (slice left pending)",
+        "louisiana-monroe: SearchTimeline JSON unreadable (slice left pending)"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 1,
-      "rejectedCandidates": 35,
+      "rejectedCandidates": 27,
       "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-07T18:13:22.751Z"
+    "status rebuilt locally from current store on 2026-09-07T18:28:57.949Z"
   ]
 }
