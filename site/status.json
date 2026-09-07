@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T06:13:12.809Z",
+  "generatedAt": "2026-09-07T06:28:26.788Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-07T06:13:12.584Z",
+    "at": "2026-09-07T06:28:26.597Z",
     "jobsTotal": 162,
-    "sweptThisRun": 25,
+    "sweptThisRun": 26,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7707233333333333,
-    "p95Hours": 1.5293144444444444,
-    "worstHours": 2.027591111111111
+    "medianHours": 0.7816863888888889,
+    "p95Hours": 1.533981388888889,
+    "worstHours": 1.533981388888889
   },
   "decisionCoverage": {
-    "total": 6,
-    "decided": 6,
+    "total": 22,
+    "decided": 22,
     "complete": true
   },
   "pending": {
@@ -55,25 +55,25 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-07T06:13:12.584Z",
-      "got": 12,
-      "new": 6,
-      "lag": 0.06
+      "at": "2026-09-07T06:28:26.596Z",
+      "got": 31,
+      "new": 22,
+      "lag": 0.22
     }
   },
   "audit": {
-    "at": "2026-09-07T06:11:27.247Z",
+    "at": "2026-09-07T06:26:44.048Z",
     "mode": "live",
     "collection": {
-      "returned": 12,
-      "kept": 6,
-      "duplicate": 6,
+      "returned": 31,
+      "kept": 22,
+      "duplicate": 9,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 5,
+      "accepted": 21,
       "rejected": 1,
       "reasons": {
         "no_fbs_school": 1
@@ -81,56 +81,168 @@
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2096831464151114160",
-          "author": "sunsentinel",
-          "searchJob": "south-florida",
-          "text": "An exclusive interview with Packers GM Brian Gutekunst, who offered the strongest of endorsements for new Dolphins GM Jon-Eric Sullivan ahead of the 2026 NFL season. https://t.co/NMF8qoAAci"
+          "postId": "2096831286966903290",
+          "author": "troygeaney1409",
+          "searchJob": "troy",
+          "text": "@reptracker Eddie howe going to sit it out and see what happens,he'll get offered the job of carrick gets the sack,,but ffs way 2 early to be talking like that,,he's only lost 3 games since taking over"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 5,
+      "rejected": 21,
       "reasons": {
-        "reporter_missing_position": 1,
-        "bare_mention_requires_llm": 2,
-        "multiple_resolved_schools": 2
+        "bare_mention_requires_llm": 18,
+        "multiple_resolved_schools": 2,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
-          "reason": "reporter_missing_position",
-          "postId": "2096837290316144781",
-          "author": "playbookathlete",
-          "searchJob": "south-florida",
-          "text": "BAM! Big congrats to @CRegister_2028 on his latest offer from @USFFootball! Well deserved with many more to come"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096844707653669019",
+          "author": "pragnews",
+          "searchJob": "temple",
+          "text": "@VPIndia @CPR_VP arrived at the revered Maa Kamakhya Temple today to offer prayers and seek blessings. #CPRadhakrishnan #MaaKamakhyaTemple #PragNews https://t.co/eudTeH2q87"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2096838024567087491",
-          "author": "larrybuysland12",
-          "searchJob": "arkansas",
-          "text": "Own 5+ acres in AR or OK? 🌲 Stop letting property taxes eat your wallet. Click below to get your instant cash offer now! 💸 👇https://t.co/SB9IaQ0lrM . . . #arkansas #viral #shorts #adventure #snail #2026 https://t.co/CNMHl1WNXy"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2096829895124873243",
-          "author": "stanbino7",
-          "searchJob": "auburn",
-          "text": "@eeners @Sh_Mk_2019 @BUFootball @AuburnFootball Auburn got offered north of 7 figures to move it to Atlanta. In the NIL era, I get it. As a fan, I don’t always like it"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2096842187958866104",
-          "author": "chomcho",
-          "searchJob": "ole-miss",
-          "text": "AFD WINS THE BIGGEST VICTORY IN ITS HISTORY, AND THE GERMAN ESTABLISHMENT PREPARES TO IGNORE IT The AfD victory in Saxony-Anhalt is historic: a projected 44 percent, the best result the party has ever recorded, and more than double the vote"
+          "postId": "2096844660656537803",
+          "author": "sansad_tv",
+          "searchJob": "temple",
+          "text": "Vice President Visited the revered Maa Kamakhya Temple in Guwahati today and offered prayers. @VPIndia https://t.co/I2vN1piXP3"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2096843367267127739",
-          "author": "3starmediaus",
-          "searchJob": "west-virginia",
-          "text": "💰 DO NOT COLLECT $200 — American Monopoly, Monetized Edition 🏦 📜 THE LONG COMMODIFICATION ▸ ▸ ▸ 📖 Post 2 OF 14 Before any of the three crises this series covers, a coal company in West Virginia already owned the money its own workers we"
+          "postId": "2096842857201938614",
+          "author": "theattagirls",
+          "searchJob": "temple",
+          "text": "Woman of the Day Ivy Williams, the first woman to be called to the bar, was born OTD in 1877 in Newton Abbot, Devon. She never practised as a barrister but she was the first woman awarded Doctor of Civil Laws and the first to teach law at a"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096842718211436673",
+          "author": "drharibabuk",
+          "searchJob": "temple",
+          "text": "Had darshan of Maa Samaleswari at the Maa Samaleswari Temple in Sambalpur along with Hon’ble MP Shri Dharmendra Pradhan Ji and offered prayers for the peace, prosperity and well-being of the people of Odisha. @dpradhanbjp https://t.co/tqI3N"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096842550640574619",
+          "author": "ians_india",
+          "searchJob": "temple",
+          "text": "Sambalpur, Odisha: Governor Hari Babu Kambhampati visited Sambalpur today and offered prayers at the Maa Samaleswari Temple. He will also attend the convocation ceremonies of Sambalpur University and Gangadhar Meher University. Sambalpur MP"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096841308237082662",
+          "author": "thisisnnazoba",
+          "searchJob": "temple",
+          "text": "From the beginning of the chapter, Jesus came from the mount of olives into the temple & people followed Him & He taught them: He taught them about His identity, His mission, the oneness of The Father & Himself, the freedom He offers as aga"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096837826868617296",
+          "author": "ajantaneog",
+          "searchJob": "temple",
+          "text": "Hon’ble @VPIndia , Shri Chandrapuram Ponnusamy Radhakrishnan, who is on a two-day official visit to Assam, visited the sacred Kamakhya Temple this morning and offered prayers at Maa Kamakhya. The presence of the Hon’ble Vice President at th"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096836263194292370",
+          "author": "sakshijagat",
+          "searchJob": "temple",
+          "text": "Karinattukavu Krishna Swami Temple, Tiruvalla celebrated Sri Krishna Janmashtami in a very traditional way. Hundreds of devotees offered Unniappam, palpayasam and prayers to Lord Sri Krishna and received His blessings. Devotees visited the "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096836214360088732",
+          "author": "sakshijagat",
+          "searchJob": "temple",
+          "text": "Karinattukavu Krishna Swami Temple, Tiruvalla celebrated Sri Krishna Janmashtami in a very traditional way. Hundreds of devotees offered Unniappam, palpayasam and prayers to Lord Sri Krishna and received His blessings. Devotees visited the "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096831849721151753",
+          "author": "argusnews_in",
+          "searchJob": "temple",
+          "text": "Sambalpur MP Dharmendra Pradhan Offers Prayers at Maa Samaleswari Temple, the presiding deity of Sambalpur, along with Odisha Governor Dr. Hari Babu Kambhampati. https://t.co/ToOtQuA8aw"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096831681646977090",
+          "author": "argusnews_in",
+          "searchJob": "temple",
+          "text": "#Sambalpur | Sambalpur MP Dharmendra Pradhan visited the Samaleswari Temple in Sambalpur and offered prayers to Maa Samaleswari. https://t.co/R9ocsVICY1"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096824216205344868",
+          "author": "uniindianews",
+          "searchJob": "temple",
+          "text": "Assam: Vice President CP Radhakrishnan visited the revered Maa Kamakhya Temple in Guwahati today and offered prayers. @VPIndia | @CPR_VP | #VicePresident | #KamakhyaTemple | #Guwahati | #Assam | #UNI https://t.co/EFbDOCaIlg"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096824079122923657",
+          "author": "indicaorg",
+          "searchJob": "temple",
+          "text": "Why We Need to Understand the Dharmaśāstras How we read a text matters as much as what the text says. Acharya Veeranarayana Pandurangi, one of the scholars felicitated by INDICA under #Grateful2Gurus 2026, offers a compelling example of why"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096819328603848769",
+          "author": "vpindia",
+          "searchJob": "temple",
+          "text": "Visited the revered Maa Kamakhya Temple in Guwahati today and offered prayers. Prayed to Maa Kamakhya for the continued development and progress of our nation and for the wellbeing, peace and prosperity of all. https://t.co/y2zKI1NA8m"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096837846963290487",
+          "author": "timeless360_",
+          "searchJob": "troy",
+          "text": "Most people can picture Homer’s Sirens before they can remember what the poem actually says about them. Bird bodies. Women’s faces. Sometimes wings. In later art, even mermaid tails. Yet Homer describes none of those things. In Book 12 of t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096843891802829269",
+          "author": "oregonfishingus",
+          "searchJob": "oregon",
+          "text": "Fall action is heating up on the Columbia Fall Chinook action is picking up, with saltwater coho limits rolling in. Estuaries &amp; lakes offer steady trout and warmwater fishing as seasonal patterns shift. Read this week's Oregon fishing r"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096841332509515795",
+          "author": "kick_castrol",
+          "searchJob": "tennessee",
+          "text": "J2Hundred reckons Tennessee & Danny Aarons’ Gaff is VERY QUIET after Digga D’s DISS TRACK dropped and he revealed he chose their baby’s name while he was with Tennessee 😳👀 “I wouldn’t even be chatting to the ‘YUTE’” 😭 Misfits have said O"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2096833462233653410",
+          "author": "kentrell_m11860",
+          "searchJob": "tennessee",
+          "text": "@adamgorney @Rivals Kentrell miller 2029 Running back 0 offers 5’8 150lbs #10 Memphis Tennessee https://t.co/hG9c9GJYAM"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2096838091801874868",
+          "author": "siad_a",
+          "searchJob": "usc",
+          "text": "HOW SOUTHWEST SAVED SOMALIA’S OTHER STATES The war in and around Baidoa has been brutal, but it may have spared Galmudug and Hirshabelle from a worse fate. By drawing federal pressure, troops, and political retaliation into the South West S"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2096836043181859150",
+          "author": "marsha94583",
+          "searchJob": "houston",
+          "text": "@elonmusk Well Houston we have a BIG PROBLEM now we have flock owner who owns flock camera flock nova Garrett Langley and idi company who law enforcement uses need to come to congress bc we have 3 Americans that have been able to hack and o"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2096825191556907133",
+          "author": "johnh0313",
+          "searchJob": "houston",
+          "text": "I really hope my plan works out, gonna try to go to grad school for Social work at university of Houston in fall 2027. I think that city has lots to offer me and I can build a life there."
         }
       ]
     },
@@ -138,20 +250,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 25,
-      "failed": 1,
+      "swept": 26,
+      "failed": 0,
       "requests": 26,
-      "errors": [
-        "temple: SearchTimeline JSON unreadable (slice left pending)"
-      ]
+      "errors": []
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 5,
+      "rejectedCandidates": 21,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-07T06:13:12.810Z"
+    "status rebuilt locally from current store on 2026-09-07T06:28:26.788Z"
   ]
 }
