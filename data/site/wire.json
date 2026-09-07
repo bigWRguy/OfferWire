@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-07T19:28:16.109Z",
+  "generatedAt": "2026-09-07T19:43:28.216Z",
   "counts": {
-    "offers": 851,
+    "offers": 852,
     "players": 599,
-    "newThisRun": 0,
+    "newThisRun": 1,
     "watchlist": 1715
   },
   "offers": [
@@ -40,6 +40,42 @@
       "playerHandle": "trentperkinss",
       "classYear": 2030,
       "position": "WR",
+      "highSchool": null,
+      "state": null
+    },
+    {
+      "id": "o_10aa12c2d9e7999b",
+      "playerId": "p_c0d995cb31399ddf",
+      "playerName": "Rex George-taylor",
+      "schoolId": "auburn",
+      "schoolName": "Auburn",
+      "conference": "SEC",
+      "offeredAt": "2026-09-07T19:00:01.000Z",
+      "firstSeenAt": "2026-09-07T19:43:28.194Z",
+      "lastSeenAt": "2026-09-07T19:43:28.194Z",
+      "confidence": 0.45,
+      "corroborations": 1,
+      "evidence": [
+        {
+          "postId": "2097037188802154920",
+          "author": "profilefblive",
+          "url": "https://x.com/profilefblive/status/2097037188802154920",
+          "postedAt": "2026-09-07T19:00:01.000Z",
+          "via": "search:(@AuburnFootball OR \"Auburn\") (offer OR ",
+          "confidence": 0.45,
+          "text": "Auburn has offered 3.5⭐ 2028 DT Rex George-Taylor from Darlington HS, GA. @rexgeorgetaylor\n\nRated (#755 NATL, #52 DT, #99 GA) - 6 offers overall.\nhttps://t.co/HiwKk8Vy9b",
+          "attribution": {
+            "targetText": "Auburn has ",
+            "schoolEvidenceType": "full_school_name",
+            "affiliationSource": "name"
+          }
+        }
+      ],
+      "status": "new",
+      "tier": "P4",
+      "playerHandle": "rexgeorgetaylor",
+      "classYear": 2028,
+      "position": "DT",
       "highSchool": null,
       "state": null
     },
@@ -778,9 +814,9 @@
       "conference": "ACC",
       "offeredAt": "2026-09-07T02:48:56.000Z",
       "firstSeenAt": "2026-09-07T03:43:33.634Z",
-      "lastSeenAt": "2026-09-07T03:43:33.634Z",
-      "confidence": 0.45,
-      "corroborations": 1,
+      "lastSeenAt": "2026-09-07T19:43:28.190Z",
+      "confidence": 0.53,
+      "corroborations": 2,
       "evidence": [
         {
           "postId": "2096792807599943984",
@@ -795,9 +831,23 @@
             "schoolEvidenceType": "full_school_name",
             "affiliationSource": "name"
           }
+        },
+        {
+          "postId": "2097040958139384128",
+          "author": "profilefblive",
+          "url": "https://x.com/profilefblive/status/2097040958139384128",
+          "postedAt": "2026-09-07T19:15:00.000Z",
+          "via": "search:\"2028\" (offer OR offered) (QB OR RB OR W",
+          "confidence": 0.45,
+          "text": "Pittsburgh has offered 3.4⭐ 2028 LB Hunter Yost from Richland HS, TX. @HunterYost24\n\nRated (#980 NATL, #69 LB, #134 TX) - 10 offers overall.\nhttps://t.co/DH4OphYmCi",
+          "attribution": {
+            "targetText": "Pittsburgh has ",
+            "schoolEvidenceType": "full_school_name",
+            "affiliationSource": "name"
+          }
         }
       ],
-      "status": "new",
+      "status": "corroborated",
       "tier": "P4",
       "playerHandle": "hunteryost24",
       "classYear": 2028,
