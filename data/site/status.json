@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T05:13:26.156Z",
+  "generatedAt": "2026-09-07T05:28:34.640Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-07T05:13:25.904Z",
+    "at": "2026-09-07T05:28:34.487Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0312983333333334,
-    "p95Hours": 1.7812772222222222,
-    "worstHours": 1.7812775
+    "medianHours": 0.5361625,
+    "p95Hours": 1.5363080555555555,
+    "worstHours": 1.7803027777777778
   },
   "decisionCoverage": {
-    "total": 16,
-    "decided": 16,
+    "total": 11,
+    "decided": 11,
     "complete": true
   },
   "pending": {
@@ -55,153 +55,120 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-07T05:13:25.903Z",
-      "got": 28,
-      "new": 16,
+      "at": "2026-09-07T05:28:34.486Z",
+      "got": 16,
+      "new": 11,
       "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-07T05:11:37.153Z",
+    "at": "2026-09-07T05:26:58.194Z",
     "mode": "live",
     "collection": {
-      "returned": 28,
-      "kept": 16,
-      "duplicate": 12,
+      "returned": 16,
+      "kept": 11,
+      "duplicate": 5,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 11,
-      "rejected": 5,
+      "accepted": 7,
+      "rejected": 4,
       "reasons": {
-        "no_fbs_school": 4,
+        "no_fbs_school": 2,
+        "non_fbs_offer_target": 1,
         "no_offer_term": 1
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2096826200484114609",
-          "author": "hasslevideo",
-          "searchJob": "florida",
-          "text": "@Lonesnipes i used to sell timeshares in florida. made too much money at a young age doing it. got an offer to sell trump university at his retard seminars. timeshares were the lesser of two evils, the vacations were technically real. lets "
+          "postId": "2096819536188072290",
+          "author": "libertydankmeme",
+          "searchJob": "liberty",
+          "text": "@SkyNews i think it's exciting - now the only question is - will all the muslims in England fight WW3 for the British? maybe they can arrest some sky news \"journalists\" before that happens and offer them military contracts in lieu of prison"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2096813295537734082",
+          "author": "truthseekeringa",
+          "searchJob": "liberty",
+          "text": "@KHRIndivisible @EpochTimes They have to pay people just like all employers. They offer free access if you sign up for the first yr then charge you the subscription if you don't cancel."
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2096825519954067464",
+          "author": "allnonesports1",
+          "searchJob": "louisiana",
+          "text": "🔥 OFFERED AT CAMP '27 G, Michael Chukwuneke @MChukwuneke2027 has received an offer from Louisiana Christian University at the @AllNOneSports1 Labor Day Showcase"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2096823930765836380",
-          "author": "ofertasmusical1",
-          "searchJob": "texas",
-          "text": "Mountain – Live In Texas 2005 (2024) 👉 https://t.co/QAvvmwD31e 16,50€ ⬇️ (LP Red Vinyl, Blues Rock, Hard Rock) 🇪🇸 Vendido por Amazon ES #️⃣ En Stock"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2096814451601055884",
-          "author": "v4l0r1e",
-          "searchJob": "texas",
-          "text": "@jcenters My daughter is going thru this, too. She is super talented, but just not getting any legit offers. She had about given up. Millions of invaders here in Texas. It’s sad."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2096806161517269121",
-          "author": "logical_traderr",
-          "searchJob": "texas",
-          "text": "IDM vs. Fabless vs. Foundry : Who Creates OSAT Demand? 1. IDM ( Integrated Device Manufacturer) IDMs such as Intel, Texas Instruments and STMicroelectronics design and manufacture their own chips. Historically, they have also handled much o"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2096827434146345134",
-          "author": "nwagwunor73876",
-          "searchJob": "baylor",
-          "text": "@Baylor You have been followed, peak college Do you offer courses for criminal and international law?"
+          "postId": "2096828570828157247",
+          "author": "ctindale",
+          "searchJob": "memphis",
+          "text": "https://t.co/Avai5ztgqz"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 11,
+      "rejected": 7,
       "reasons": {
-        "bare_mention_requires_llm": 9,
-        "multiple_resolved_schools": 1,
-        "reporter_missing_player_name": 1
+        "school_not_resolved_confidently": 3,
+        "bare_mention_requires_llm": 2,
+        "reporter_missing_player_name": 1,
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096820800565424443",
-          "author": "dsalert",
-          "searchJob": "navy",
-          "text": "286 DAYS AT SEA. 5,000 PERSONNEL. ONE FLOATING AIRBASE USS Abraham Lincoln has arrived at Laem Chabang, Thailand after an extraordinary 286 days at sea nearly 9.5 months of continuous deployment. The scale is striking: ⚓ ~97,000-ton Nimitz-"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2096810801482895608",
+          "author": "fredette",
+          "searchJob": "kent-state",
+          "text": "Around the World in Seventy-Two Days Long ago, so long ago that the Stanley Cup 🏆 didn’t exist, in 1889, journalist Elizabeth Jane Cochrane decided to the take a trip around the word inspired by Jules Verne’s book “Around the World in Eigh"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2096808344522489905",
+          "author": "wvpooper",
+          "searchJob": "kent-state",
+          "text": "@kaylayoungforwv @wvgovernor Just a reminder, this person didn't say a word about Kent Carper (D) Kanawha County Commissioner after he flashed a lady at Daniel Boone Park in Charleston and offered a hush job Carper ended up under Federal In"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2096815143443480797",
-          "author": "_thetathya",
-          "searchJob": "navy",
-          "text": "America’s “Mighty” Navy Exposed: Exhausted Sailors, Broken Toilets and Chaos in Pattaya ⚠️ After keeping nearly 5,000 personnel at sea for months during its Iran campaign, the US Navy finally sent the USS Abraham Lincoln crew to Pattaya... "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096812655923310953",
-          "author": "kitchtrips",
-          "searchJob": "navy",
-          "text": "@Nirgal451 @fictillius Sea Patrol was similar, wasn’t it? Could have sworn the Navy offered resources etc as a way of promoting a career in the Navy?"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096821564696072196",
-          "author": "buckeyechi5",
-          "searchJob": "florida",
-          "text": "This is from @GeminiApp @Millennialergy @independent0402 @Breeauna9 please share this with @talkette since she has me blocked. She is correct and the leftist is of course wrong Private health insurance in Canada exists, but it is legally pr"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096818086535954735",
-          "author": "carlmalkin6",
-          "searchJob": "florida",
-          "text": "@mark_slapinski Offer Russia Florida instead."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096810005421068290",
-          "author": "flipthebrand_",
-          "searchJob": "florida",
-          "text": "FloridaWhite .com - Domain Available for acquisition. Can be a memorable and punchy domain for your Dental business. Make Offer in landing page #Florida #white #dentaloffice #dentistas #brandname #teethwhitening #dentalhealth #dentists #den"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2096828352195674219",
-          "author": "blackhistorical",
-          "searchJob": "kentucky",
-          "text": "A ten year old testified against her school system, then walked home scared her teachers would be mad at her. Katherine Carper had it backwards, because those teachers treated her exactly the same and never let on. Every step that case took"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096809321380340074",
-          "author": "spotmonthenergy",
-          "searchJob": "texas",
-          "text": "@johnrich I graduated from UT-Austin in 1975. Times were tough then. Look at what the DJI was in 1975. First job out of college was offered to me by an Aggie Chem E. Best job I ever had was from a company whose CEO was an Aggie. Although I'"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096825962545737786",
-          "author": "big10bruin",
-          "searchJob": "ucla",
-          "text": "@KosherBruin Bet that Nike deal gets redone with the logos now in play. Hell if I’m Harris I offer them a patch deal to keep the jersey clean. After that gets squared away work with RB/Pasadena on a new deal that improves revenue streams fo"
+          "postId": "2096814641473020183",
+          "author": "espn_marc",
+          "searchJob": "pittsburgh",
+          "text": "@Hennyyyyyy4 @ThompsonFoto12 The point is they should have offered them. Another point was that you rooted for a guy just last year with the same stature. Last point is that scoop had more ability and speed that would have been able to be u"
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2096814333539828023",
-          "author": "csmithscout",
-          "searchJob": "vanderbilt",
-          "text": "#TN2028 Lipscomb Acad. Tight End ....#PRZTN New Offer: #Vanderbilt ......#AnchorDown #SEC #Mustangs #MidTN28 #CSS #TNHSFB https://t.co/hqM8q0out1"
+          "postId": "2096811323225002459",
+          "author": "espn_marc",
+          "searchJob": "pittsburgh",
+          "text": "@ThompsonFoto12 @Hennyyyyyy4 Scoop definitely should have been offered by Pitt."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2096831579293196430",
+          "author": "beltel_sport",
+          "searchJob": "notre-dame",
+          "text": "Club offer positive update on Irish League goalkeeper hospitalised by horror collision: ‘He will be back between the sticks soon’ https://t.co/GJ6oBhvvaR"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2096812513476108407",
-          "author": "jgriff247",
-          "searchJob": "louisville",
-          "text": "@Maren_Angus @VolleyballOnSI If Louisville fans hadn’t been in town for Football the arena would have been sadly empty. But the sport is more popular than ever. More clubs (indoor &amp; beach) all over middle TN……….did the sport council off"
+          "postId": "2096821018593738839",
+          "author": "sola_scriptora",
+          "searchJob": "liberty",
+          "text": "Dinesh is wicked and will used equivocation to lead you astray, you don't get to have your own definitions especially with doctrines formed 500 years ago. It's fundamentally dishonest to do so. In Reformed theology the word decree (Latin de"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2096832175488295384",
+          "author": "rickyhle",
+          "searchJob": "massachusetts",
+          "text": "The post here is 100% Truth and NOTHING BUT THE TRUTH. I will be prosecuted to the full extent of the laws of Virginia and the laws of the United States of America if the details provided in my story are untrue. The Good Fortune Supermarket"
         }
       ]
     },
@@ -216,11 +183,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 11,
+      "rejectedCandidates": 7,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-07T05:13:26.157Z"
+    "status rebuilt locally from current store on 2026-09-07T05:28:34.641Z"
   ]
 }
