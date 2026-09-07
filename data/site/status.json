@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T07:43:18.601Z",
+  "generatedAt": "2026-09-07T07:58:17.429Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-07T07:43:18.397Z",
+    "at": "2026-09-07T07:58:17.206Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7722463888888889,
-    "p95Hours": 1.276261111111111,
-    "worstHours": 1.5309272222222223
+    "medianHours": 0.7812680555555556,
+    "p95Hours": 1.285856111111111,
+    "worstHours": 1.5259355555555556
   },
   "decisionCoverage": {
-    "total": 8,
-    "decided": 8,
+    "total": 2,
+    "decided": 2,
     "complete": true
   },
   "pending": {
@@ -55,97 +55,52 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-07T07:43:18.396Z",
-      "got": 10,
-      "new": 8,
-      "lag": 0.29
+      "at": "2026-09-07T07:58:17.205Z",
+      "got": 4,
+      "new": 2,
+      "lag": 0.11
     }
   },
   "audit": {
-    "at": "2026-09-07T07:41:30.663Z",
+    "at": "2026-09-07T07:56:27.874Z",
     "mode": "live",
     "collection": {
-      "returned": 10,
-      "kept": 8,
+      "returned": 4,
+      "kept": 2,
       "duplicate": 2,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 5,
-      "rejected": 3,
+      "accepted": 1,
+      "rejected": 1,
       "reasons": {
-        "no_offer_term": 1,
-        "hard_negative": 1,
         "no_fbs_school": 1
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2096862561211670562",
-          "author": "akashbajwa96",
-          "searchJob": "class:2026",
-          "text": "https://t.co/DIAwDjkBG0"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2096859241873367390",
-          "author": "dudehumorreport",
-          "searchJob": "missouri",
-          "text": "STAFF SAY WOMAN REFERRED TO THE DESSERT TABLE AS \"THE FINISH LINE\" BEFORE CLEARING SIX TRAYS BRANSON, MISSOURI — Wendy Halstrom, 39, was arrested Sunday after allegedly clearing six entire dessert trays at a buffet in under thirty minutes, "
-        },
-        {
           "reason": "no_fbs_school",
-          "postId": "2096860507521331410",
-          "author": "beaches4161",
-          "searchJob": "colorado",
-          "text": "Preach on the grace and faith Jesus offered the criminal on the cross right next to Jesus where Jesus said he would see him paradise today…no Bible studies, discipleship group, etc…i saw this somewhere else but thought the acceptance of Jes"
+          "postId": "2096867294353797147",
+          "author": "slotegrator",
+          "searchJob": "houston",
+          "text": "Houston, we have an offer 🧑‍🚀 🚀 From 1 September to 1 October, get 40% off Slotegrator’s Turnkey Casino Platform Solution A stronger foundation for launching, operating, and scaling your online casino business — now on a limited-time tra"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 5,
+      "rejected": 1,
       "reasons": {
-        "school_not_resolved_confidently": 2,
-        "bare_mention_requires_llm": 3
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2096861783181218192",
-          "author": "themahaindex",
-          "searchJob": "coastal-carolina",
-          "text": "Ratnagiri A spectacular 4.40-km cable-stayed bridge is taking shape across the Jaigad Creek, connecting the coastal villages of Tawsal and Jaigad. Built under the Revas–Reddi Coastal Highway (SH Special No. 5), the two-lane bridge is being "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2096855110043537731",
-          "author": "tcf_updates",
-          "searchJob": "coastal-carolina",
-          "text": "🚨 IAF SARANG HELICOPTERS TOUCH DOWN IN EGYPT FOR EL ALAMEIN AIRSHOW. EL ALAMEIN, EGYPT - India’s Sarang Helicopter Display Team has arrived on the Mediterranean coast ahead of its three‑day appearance at the El Alamein International Airsho"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096849201007362125",
-          "author": "thepunemirror",
-          "searchJob": "coastal-carolina",
-          "text": "Somnath Temple: Devotees Turn Out in Massive Numbers on Final Monday of Gujarati Shravan Month A massive influx of devotees from across India gathered at the historic Shree Somnath Jyotirlinga Temple in Gujarat on Monday to mark the conclud"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096861287703777708",
-          "author": "cookietanukiart",
-          "searchJob": "arizona",
-          "text": "@kitankanon thats so gay its mf arizona we have to offer free water to those who need it"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2096847189851197730",
-          "author": "aeprops",
-          "searchJob": "arizona",
-          "text": "⚾ DIAMONDBACKS @ ROYALS | 2:10 PM ET Jose Cabrera (bulk) vs Noah Cameron This spot's listed as TBD but this should be a bullpen game with Cabrera pitching the bulk. We saw them do this last week and it worked pretty well, and this Arizona b"
+          "reason": "multiple_resolved_schools",
+          "postId": "2096869028375773591",
+          "author": "dunnbilly87734",
+          "searchJob": "south-florida",
+          "text": "Temple Bar was the principal ceremonial entrance to the City of London from the City of Westminster. In the Middle Ages, London expanded city jurisdiction beyond its walls to gates, called 'bars', which were erected across thoroughfares. To"
         }
       ]
     },
@@ -160,11 +115,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 5,
+      "rejectedCandidates": 1,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-07T07:43:18.602Z"
+    "status rebuilt locally from current store on 2026-09-07T07:58:17.430Z"
   ]
 }
