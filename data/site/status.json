@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T11:28:26.504Z",
+  "generatedAt": "2026-09-08T11:42:15.434Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-08T11:28:26.158Z",
+    "at": "2026-09-08T11:42:15.157Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
+    "sweptThisRun": 25,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5313575,
-    "p95Hours": 1.602621388888889,
-    "worstHours": 1.602621388888889
+    "medianHours": 0.7616158333333334,
+    "p95Hours": 1.5092025,
+    "worstHours": 1.8328797222222222
   },
   "decisionCoverage": {
-    "total": 55,
-    "decided": 55,
+    "total": 31,
+    "decided": 31,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 41
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 880,
     "incompleteOffers": 0
@@ -55,371 +55,257 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-08T11:28:26.157Z",
-      "got": 59,
-      "new": 55,
-      "lag": 0.05
+      "at": "2026-09-08T11:42:15.157Z",
+      "got": 40,
+      "new": 31,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-08T11:26:28.124Z",
+    "at": "2026-09-08T11:40:28.332Z",
     "mode": "live",
     "collection": {
-      "returned": 59,
-      "kept": 55,
-      "duplicate": 4,
+      "returned": 40,
+      "kept": 31,
+      "duplicate": 9,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 32,
-      "rejected": 23,
+      "accepted": 21,
+      "rejected": 10,
       "reasons": {
-        "no_fbs_school": 11,
-        "no_offer_term": 10,
-        "hard_negative": 2
+        "no_fbs_school": 6,
+        "no_offer_term": 4
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2097279253985550523",
-          "author": "iponewsroom_",
-          "searchJob": "hawaii",
-          "text": "AMERICAN SAVINGS BANK LAUNCHES ROADSHOW FOR 7.5M-SHARE IPO Hawaii-based American Savings Bank has launched the roadshow for its U.S. IPO, with 7.5M shares being offered entirely by existing stockholders. The bank itself will not receive pro"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097277055062700300",
-          "author": "chesed1973",
-          "searchJob": "temple",
-          "text": "Yesterday's discussions on the physical vs spiritual Temple were interesting but all over the place. Today, let's focus on one prophet..... Isaiah. A physical Temple is a big part of the gospel. https://t.co/YU7gyhjmTy"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097270056422150618",
-          "author": "argusnews_in",
-          "searchJob": "temple",
-          "text": "Sambalpur: Sambalpur MP Dharmendra Pradhan visited Sri Swapneswar Baba Temple at Bhatar and offered prayers, seeking the blessings of the deity for the welfare of all. #Sambalpur #DharmendraPradhan #Odisha https://t.co/rdU8mRidnB"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097262152608325845",
-          "author": "blackburn3buddy",
-          "searchJob": "temple",
-          "text": "“ye also, as lively stones, are built up a spiritual house, an holy priesthood, to offer up spiritual sacrifices, acceptable to God by Jesus Christ.” 1 Peter 2:5 We are each stone in the Temple of the Lord. Offer yourself each day as holy s"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097282679330775214",
-          "author": "somerscompany",
-          "searchJob": "florida",
-          "text": "✨SIGNIFICANT LIST PRICE REDUCTION ★ ±10 Acres in N Santa Rosa Beach, Florida ★ South of the Choctawhatchee Bay ~ Now Offered at $395,000✨ Don’t miss out on this incredible opportunity! Call us today at (850) 654-7777 for more details. #Emer"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2096934404035608880",
-          "author": "hofscouting",
-          "searchJob": "florida",
-          "text": "With the 2026 season underway we are on the lookout for talented prospects who may be a bit under the radar! Today we take a look at an impressive 2027 WR @Antwon_Brown2 out of SFA. Recruiters can follow up with @CoachKen17 @SFACoachMartin "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097278442647495136",
-          "author": "michaelrcaputo",
-          "searchJob": "florida",
-          "text": "This Spring Hill, Florida nutjob is a home healthcare aide who loudly defends child murderer Lindsay Clancy and offers babysitting services 😳 on Facebook. My daughters will never encounter a psychopath like her until they are wise enough t"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097071437055946809",
-          "author": "loghomemomdad",
-          "searchJob": "florida",
-          "text": "TikTok has deleted her video shared this morning but she thinks she is a big bad granny posting a clap back. Meet Heather Odum Brunton She is a ‘home healthcare caregiver’ in the free state of Florida. Brookvillle Spring Holl area. She lost"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097278272300109911",
-          "author": "flacathbps",
-          "searchJob": "florida",
-          "text": "✝Today we celebrate the feast of the Nativity of the Blessed Virgin Mary, one of the most ancient Marian feasts. The Church has celebrated Mary's birth since the 6th century. The primary event in Mary’s life always remains the Annunciation,"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097272896607445182",
-          "author": "drstaceydvm",
-          "searchJob": "florida",
-          "text": "#fiction #dogs #Florida #BookTok A wet nose at a Florida crime scene may look like the beginning of a good Doc and Daisy mystery, but canine forensics is very real. A properly trained dog can detect odors humans can't separate and communica"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097263332310778003",
-          "author": "swhammond",
-          "searchJob": "florida",
-          "text": "Evaluating a judge's performance with AI tools is a felony in France and blocked by a single letter from 1988 in the US. Courts are the cleanest example of \"watch what an institution builds will tell you what it's optimizing for – not the p"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097279701756551249",
-          "author": "iamsagzee",
-          "searchJob": "georgia",
-          "text": "George Kennan interrogates Bill Clinton on how NATO expansion brought War to Ukraine: The aged diplomat sat near the window, his posture straight despite his years. On the low table between them lay a map of Eastern Europe marked with blue "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097268331002667182",
-          "author": "kamacasino",
-          "searchJob": "texas",
-          "text": "🚨 NEW ACCA OFFER IS HERE! 🔥 ⚽️ Feeling confident about PSG, Arsenal, and Liverpool? Put your football instincts to the test and build your ACCA in-game! 🏆 Win x3 OR MORE if all your selections land! 💰 📱 Get in the game ➡️ https://t.co/"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097282429312499924",
-          "author": "hudson_homann",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my first offer from western technical college! @WestrnTBaseball @W96611Walton https://t.co/sYLAvnVfov"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097270999028728304",
-          "author": "realdanielcox",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "GOOD MORNING FROM THE CABIN. 🏡☕️ Another day I didn’t earn, but was blessed to receive. A little work, a little peace, and plenty to be thankful for. 🙏 And since it’s Tuesday… you know what that means. The Cabin Babe chairs are coming out"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097282700268699930",
-          "author": "syrfootball",
-          "searchJob": "syracuse",
-          "text": "Fran Brown offered an intriguing player update at his weekly press conference on Monday. https://t.co/XqxXSdmLsq"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097282696800276737",
-          "author": "tim_denning",
+          "postId": "2097265905700831410",
+          "author": "originlnigerian",
           "searchJob": "texas-tech",
-          "text": "https://t.co/6vM0cRgCRV"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097276995461931455",
-          "author": "ladychargerswbb",
-          "searchJob": "texas-tech",
-          "text": "⛹🏿‍♀️ Top 4️⃣0️⃣ PG. Let’s go Kacie! https://t.co/unvBrT3YlT"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097280491833405934",
-          "author": "zitaplus",
-          "searchJob": "texas-tech",
-          "text": "In this week's Financial Lens, we break down Treasury market intervention, the case for higher rates, and what investors should be watching. 📈 Read the full newsletter for technical analysis, market insights, and the week's key economic ev"
+          "text": "@TechnicalBben That's like the original playbook of scammers way back. Job offers, scholarships, and Visa lottery way back 2000s"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097278873545093257",
-          "author": "sadiqtech_",
+          "postId": "2097265329156083867",
+          "author": "dailytechonx",
           "searchJob": "texas-tech",
-          "text": "One thing I’ve started paying more attention to when checking trading platforms is liquidity, especially when moving between different markets. BingX now offers 500+ TradFi assets, including 317 stocks, 132 ETFs & indices, plus 71 forex and"
+          "text": "Think your printers are harmless office tools? Think again. Printers leak data, retain backups, and offer little auditing—yet often sit outside endpoint protection and firewall policy. It’s time to treat them like serious infosec assets wit"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097274771515863330",
-          "author": "shelpid_wi3m",
+          "postId": "2097261791483174944",
+          "author": "akosmicgoof",
           "searchJob": "texas-tech",
-          "text": "https://t.co/Okg3SysLdV"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097271617693114765",
-          "author": "matchain_io",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/8wS3v5OZi2"
+          "text": "the AI era is just getting started and we must be well positioned to do things differently in the latest technological transformation https://t.co/aYZkUbHHlf"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097271069421826358",
-          "author": "katsuo_umainja",
-          "searchJob": "texas-tech",
-          "text": "【新着記事紹介】 #note 理系就活は「探す」から「見つけてもらう」へ｜TECH OFFERで研究が強みに変わる逆求人のすすめ https://t.co/HywBLu2XqE"
+          "postId": "2097287611509293307",
+          "author": "pourbaixkent",
+          "searchJob": "kent-state",
+          "text": "@Ryan_r_Williams Good for Mexico. But Canada's situation is different and the deal offered is different."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097284840538214670",
+          "author": "bbcradiokent",
+          "searchJob": "kent-state",
+          "text": "A man from East Kent with an enduring love for all things Star Trek said the television series offered an \"optimistic view of the future\" in an increasingly \"dystopian world\". More here: https://t.co/bcj3xaWBEN https://t.co/z17wbSA59c"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097287917500608802",
+          "author": "eagameover",
+          "searchJob": "liberty",
+          "text": "Good morning my friend . ✨ Good morning, Jesus. Good morning, beautiful souls. ✨ Though the future remains unknown, my heart rests in absolute certainty. My faith is unshakeable, and my love for Jesus is total—He is truly everything my soul"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097284163476832355",
+          "author": "eagameover",
+          "searchJob": "liberty",
+          "text": "✨ Good morning, Jesus. Good morning, beautiful souls. ✨ Though the future remains unknown, my heart rests in absolute certainty. My faith is unshakeable, and my love for Jesus is total—He is truly everything my soul could ever desire. Today"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097287237759091134",
+          "author": "bonewitz_spbg",
+          "searchJob": "virginia",
+          "text": "https://t.co/3aPI129f8O"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2096800999205707849",
+          "author": "hananyanaftali",
+          "searchJob": "wake-forest",
+          "text": "Imagine taking your children to an Ed Sheeran concert and finding out the opening act turned it into an anti-Israel rally. Macklemore used his MetLife Stadium sets to chant “Free Palestine” and accuse Israel of apartheid and genocide. https"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097288818025963733",
+          "author": "farmerstrend",
+          "searchJob": "coastal-carolina",
+          "text": "🍒🌱 𝐋𝐘𝐂𝐇𝐄𝐄 𝐒𝐄𝐄𝐃𝐋𝐈𝐍𝐆𝐒 𝐎𝐍 𝐎𝐅𝐅𝐄𝐑 — 𝐆𝐑𝐎𝐖 𝐀 𝐑𝐀𝐑𝐄 & 𝐇𝐈𝐆𝐇-𝐕𝐀𝐋𝐔𝐄 𝐅𝐑𝐔𝐈𝐓 𝐈𝐍 𝐊𝐄𝐍𝐘𝐀! 🔥𝐇𝐔𝐆𝐄 𝐋𝐘𝐂𝐇𝐄𝐄 𝐒𝐄𝐄𝐃𝐋𝐈𝐍𝐆 𝐎𝐅𝐅𝐄𝐑 — 𝐊𝐒𝐇 𝟒,𝟐𝟓𝟎 𝐅𝐑𝐎𝐌 𝐊𝐒𝐇 𝟏𝟎,𝟎𝟎𝟎! (Save KSh 5,75"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 31,
+      "accepted": 0,
+      "rejected": 21,
       "reasons": {
-        "bare_mention_requires_llm": 16,
-        "multiple_resolved_schools": 2,
-        "school_not_resolved_confidently": 13
+        "school_not_resolved_confidently": 15,
+        "bare_mention_requires_llm": 6
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097268453715374145",
-          "author": "1109patricia",
-          "searchJob": "hawaii",
-          "text": "Talk to the Hand: Karen Bass Snubs Congress, Too Busy to Explain Where All the Money Went. On September 3, the House Oversight Subcommittee on Delivering on Government Efficiency asked Los Angeles Mayor Karen Bass to testify on September 15"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097259562751713555",
-          "author": "alvin1492840",
-          "searchJob": "hawaii",
-          "text": "Benefit 5: Costco Travel vacation packages, cruises, hotel stays, and rental cars at member-exclusive prices that routinely undercut Expedia, Booking .com, and the cruise lines' own websites. \"Most people don't associate Costco with travel."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097283629311508519",
-          "author": "guptanumis",
-          "searchJob": "temple",
-          "text": "Non-Bengali, Non-Odia and Non-Assamese Hindus should stay away from our Shakta traditions, bali pratha, meat/fish offerings.....The great Varahi maa of this beautiful temple at Chaurasi/Puri is offered fish bhoga always...and she holds a fi"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097279903246991853",
-          "author": "thedailyjagran",
-          "searchJob": "temple",
-          "text": "Uttar Pradesh Chief Minister Yogi Adityanath visited the world-famous Tirumala Temple in Tirupati, Andhra Pradesh, on Monday evening. He offered prayers and sought the blessings of Lord Venkateswara during his visit. #UttarPradesh #YogiAdit"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097279656026165718",
-          "author": "laughlin4880",
-          "searchJob": "temple",
-          "text": "© Restoration Training Center • All Rights ReservedThe Wisdom of God: Part 174 Through wisdom a house is built, and by understanding it is established; by knowledge the rooms are filled with all precious and pleasant riches. Proverbs 24:3-4"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097279067162878444",
-          "author": "sachidanandam_",
-          "searchJob": "temple",
-          "text": "@_CreatingWealth @FinestYew My paternal temple has a ritual where the person performing the ritual (similar to what they show in kantara) kills chicken offered to the deity by tearing it's throat with their teeth. And the deity is Bhagwaan "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097278988129271914",
-          "author": "scbthethinker",
-          "searchJob": "temple",
-          "text": "Sending the lepers to \"the priests\" (v 14) only exacerbates this problem, since Jesus does not specify to which priests they are to show themselves. Clearly. they must journey to a temple where they will undergo an inspection, then, presuma"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097269544830058816",
-          "author": "micah_sixeight",
-          "searchJob": "temple",
-          "text": "Strange Fire Revelation 8:3-5 \"Another angel came and stood at the altar, holding a golden censer; and much incense was given to him, so that he might add it to the prayers of all the saints on the golden altar which was before the throne. "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097260415902499046",
-          "author": "goanewshub",
-          "searchJob": "temple",
-          "text": "BJP Leaders Offer Prayers for Cortalim's Welfare BJP Goa Pradesh President Damu Naik, Cortalim Prabhari Deepak Naik, BJYM Cortalim President Ishwar Chelliah and party karyakartas visited Mangeshi Temple, Shantadurga Temple in Cortalim and D"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097259156692680851",
-          "author": "hootnepal",
-          "searchJob": "temple",
-          "text": "President Ram Chandra Paudel offers prayers at Pashupatinath Temple. 🙏 #Nepal #RamChandraPaudel #Pashupatinath https://t.co/cRGccLvkWf"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097282236227694956",
-          "author": "chrispe59732807",
-          "searchJob": "florida",
-          "text": "@clay_fink He should've stayed his ass at Texas. Supposedly he wanted 1 million in NIL money and Texas said no. Florida St offered 650k. We'll it is what it is"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097279665266213017",
-          "author": "sfacoachmartin",
-          "searchJob": "florida",
-          "text": "This dude is him. He’s got the film and accolades to prove it. These aren’t scrub teams that he’s been going off on, these teams are some of the best that Florida has to offer. Someone needs to scoop him up asap💯 @FAUFootball @RHiggins_USF"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097282801829871728",
-          "author": "eventivege",
-          "searchJob": "georgia",
-          "text": "Dreaming of a destination wedding that feels truly different? Georgia offers breathtaking venues, rich culture and unforgettable hospitality. Eventive Georgia brings every detail together. #DestinationWedding #WeddingInGeorgia https://t.co/"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097282552964759902",
-          "author": "jozzy33171",
-          "searchJob": "georgia",
-          "text": "Muhammad Ali would not take one step forward, so they took everything else. April 28, 1967, an induction center in Houston, his name called three times, and the most famous feet in sports never moved. By that same afternoon his license was "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097277458177573172",
-          "author": "iponewsroom_",
-          "searchJob": "texas",
-          "text": "HOLTEC NUCLEAR SETS TERMS FOR UP TO $900M IPO Holtec Nuclear plans to offer 50M shares at $15-$18, targeting up to $900M in proceeds and a valuation of as much as $10.2B. Shares are expected to list on Nasdaq and Nasdaq Texas under HNUC. Un"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097266278188617937",
-          "author": "themainmanlewiz",
-          "searchJob": "texas",
-          "text": "The bulletin you shared reads like a classic Amarillo morning dispatch — practical, grounded, and full of the small movements that keep a city humming. Here’s the essence, distilled clearly and with the weight it carries for your town: Take"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097280285305921580",
-          "author": "mohitsharma_co",
-          "searchJob": "arizona-state",
-          "text": "Arizona State: every college offers AI literacy this fall. Fluency as a campus habit."
-        },
-        {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097285178880311375",
-          "author": "mtave0128",
+          "postId": "2097268967337329107",
+          "author": "the_analyst_24",
           "searchJob": "texas-tech",
-          "text": "@Kevihaiceth @quipnetwork postquantum tech offers serious security upgrades"
+          "text": "🏢 1. Company Overview & TechCompany: Emeco Holdings (ASX: EHL) is Australia's largest provider of open-cut rental equipment and value-added mining services. Shareholders & Short Quote: Institutional ownership is roughly 65%, retail around "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097285339345719702",
+          "author": "aimimoderate",
+          "searchJob": "liberty",
+          "text": "Mike: While our societal objective standards and virtuous mean norms offer \"coexistence\" policies and protocols -- offering plenty of latitude for the free expression of ideas and opinions -- actions which harm others or make light of a vic"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097278816225779800",
+          "author": "courierjournal",
+          "searchJob": "louisville",
+          "text": "This week, Wild Louisville visited the Tom Wallace Lake and Recreation Area. See what activities it offers. https://t.co/qS2MJRaWOZ"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097284147081355654",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097283434875953403",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097283190536978825",
-          "author": "muabansimdep",
-          "searchJob": "texas-tech",
-          "text": "@andrenftart Curious about the tech behind $L$L$LAPTOP; sounds like it could offer some real benefits if done right"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097282309938348178",
+          "postId": "2097283159255613514",
           "author": "uphonestreal",
-          "searchJob": "texas-tech",
-          "text": "🌐 AI IS ABOUT TO CREATE A REALITY PROBLEM. For most of human history, reality had one enormous advantage: IT WAS HARD TO FAKE. A photograph meant something happened. A voice recording meant someone said something. A video meant a camera ca"
+          "searchJob": "miami",
+          "text": "📸 THE PHOTOGRAPHY MARKET HAS A BACKWARDS PROBLEM. Today, if you need a photographer, you usually do this: Search Google. Open Instagram. Browse portfolios. Ask friends. Contact photographers one by one. Explain the same project repeatedly."
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097281928898703513",
-          "author": "hypesouthmedia",
-          "searchJob": "texas-tech",
-          "text": "Central-Macon senior point guard Kacie Reeves has been tabbed a preseason Top40 floor leader in the Peach State’s 2027 class by @SandysSpiel. Offers: Santa Fe College, Central Ga Tech"
+          "postId": "2097281911659888975",
+          "author": "airlinehub1",
+          "searchJob": "miami",
+          "text": "American should prioritize Latin America with its A321XLR fleet. The latest analysis argues that deploying XLRs to deepen Latin American routes—especially from Miami and other US gateways—offers stronger network defensibility, year‑round de"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097278391485403208",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
+          "postId": "2097278325680992288",
+          "author": "georgematt44229",
+          "searchJob": "miami",
+          "text": "@grok I will help you out since there are better AI out there. This is what Claude AI had to say (since you don’t know difference between interest and contract offer): I found no reporting of a formal contract offer (with actual terms) from"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097274917880230295",
+          "author": "georgematt44229",
+          "searchJob": "miami",
+          "text": "@desides01 @schadjoe @grok Did Malik Willis have any other contract offers when he signed with Miami? What interest did other teams actually have in him? Did he turn any other offers down?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097268854904836455",
+          "author": "bckfirehuricane",
+          "searchJob": "pittsburgh",
+          "text": "Hey Sam, here's a little info about HJ Heinz in Pittsburgh and how the employees were treated before being unionized. It's from Grok. Heinz also employed one of the first welfare secretaries (“Mother” Aggie Dunn) and emphasized a family-lik"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097276592267411886",
+          "author": "namracka",
+          "searchJob": "virginia",
+          "text": "PRS Guitars 1976-2026 1976 - Paul Reed Smith builds his first guitar Extra-credit college project establishes the foundation of PRS design Late 1970s - early handmade guitars Smith develops carved-body, set-neck designs Early 1980s - artist"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097286054458073165",
+          "author": "nepalinbgd",
+          "searchJob": "wake-forest",
+          "text": "𝐍𝐎𝐓𝐈𝐂𝐄! 📣📣 𝐓𝐨𝐠𝐞𝐭𝐡𝐞𝐫 𝐟𝐨𝐫 𝐍𝐞𝐩𝐚𝐥: 𝐀𝐧 𝐀𝐩𝐩𝐞𝐚𝐥 𝐟𝐨𝐫 𝐕𝐨𝐥𝐮𝐧𝐭𝐚𝐫𝐲 𝐂𝐨𝐧𝐭𝐫𝐢𝐛𝐮𝐭𝐢𝐨𝐧𝐬 𝐭𝐨 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐅𝐥𝐚𝐬𝐡 𝐅𝐥𝐨𝐨𝐝 𝐕𝐢𝐜𝐭𝐢𝐦𝐬 The devastating flash floods in the Bhote Koshi and Trish"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097285405011837128",
+          "author": "darramsarran",
+          "searchJob": "wake-forest",
+          "text": "I will NEVER listen to @edsheeran again. He has fallen for terror propaganda…suicidal empathy for terrorists funded by Iran. Bill Clinton offered them a land deal with Israel…a home. Palestinians rejected the offer so they could continue to"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097284915188379923",
+          "author": "beekmanplace78",
+          "searchJob": "wake-forest",
+          "text": "Research shows: The Movers &amp; Shakers in the world had a GPA of 2.9 or less and quit college These are your people who grow up to offer supply &amp; demand While your little Valedictorian sits lost in a cubicle in Corporate America Maybe"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097283694394331274",
+          "author": "steckogp",
+          "searchJob": "wake-forest",
+          "text": "i became obsessed. when i entered this game, my goal was $100k/m for my consulting offer. the path was rocky. i made many mistakes, but one thing that outweighed everything was my obsession. i would wake up in the morning & think about noth"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097279405320015888",
+          "author": "luxuryproperty",
+          "searchJob": "wake-forest",
+          "text": "Wake up to the greens of Emirates Golf Club with Dubai’s skyline beyond. This two bedroom apartment in Golf Heights, The Views offers 1,158 sq ft of bright, well considered living space, an open kitchen, generous balcony and uninterrupted g"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097276101823213607",
+          "author": "wally_6666",
+          "searchJob": "wake-forest",
+          "text": "@Daniela_Seidel_ Die schreiben darin wörtlich: PISA also offers powerful reminders that change is possible. Germany transformed the wake-up call of the 2001 PISA shock into a far-reaching programme of reform. (Seite 7) Da stellt sich mir di"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097271405679145149",
+          "author": "sicksadart",
+          "searchJob": "wake-forest",
+          "text": "thinking about the time my psychiatrist offered me water then at the end of the session he was like \"do you find you dribble often when you drink?\" &amp; i was so embarrassed he pointed it out bc it's always been an insecurity &amp; he was "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097271093539049934",
+          "author": "aakashsultaan",
+          "searchJob": "wake-forest",
+          "text": "I will Choose Asim Munir 1 Million Times Over Shi*** Buzdaar and Bushra Bibi Wizard Love you Asim Munir! @soldierspeaks Wake Up and do not be a fool! Only Benazir Bhutto Spoke For My Democracy. Imran offered forever EXTENTION to Bajwa. I am"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097267358611968163",
+          "author": "sunsing49297115",
+          "searchJob": "wake-forest",
+          "text": "Dear Diary, I couldn't share what I felt on 1 August 2026, but at the same time, I couldn't keep it all inside me either. I still remember that it was Saturday. I was a little tired and still lying in bed. I didn't want to wake up. I wanted"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097282911179342069",
+          "author": "localunion22",
+          "searchJob": "buffalo",
+          "text": "Your career in the #SkilledTrades doesn’t need student #debt. Our state‑of‑the‑art training center offers #Apprenticeships in #Steamfitting, #Plumbing &amp; #HVACService — preparing you for high‑demand careers. Your future starts with one s"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097281821050380379",
+          "author": "offshoreinsider",
+          "searchJob": "charlotte",
+          "text": "SPORTS BETTING INTEL — NEW DEVELOPMENT NFL — SAN FRANCISCO vs. L.A. RAMS — Thursday, Sept. 10 Christian McCaffrey returned to practice Tuesday, Sept. 8, after sitting out Monday’s session. He was in full uniform, and the current expectation"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097277916195197266",
+          "author": "edp24",
+          "searchJob": "coastal-carolina",
+          "text": "Norfolk coastal attraction to offer special deal on rides this weekend https://t.co/j6WatoD9Hb"
         }
       ]
     },
@@ -427,18 +313,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
+      "swept": 25,
+      "failed": 1,
       "requests": 26,
-      "errors": []
+      "errors": [
+        "ucf: SearchTimeline JSON unreadable (slice left pending)"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 31,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 21,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-08T11:28:26.508Z"
+    "status rebuilt locally from current store on 2026-09-08T11:42:15.437Z"
   ]
 }
