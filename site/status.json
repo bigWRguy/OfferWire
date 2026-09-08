@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T02:58:16.118Z",
+  "generatedAt": "2026-09-08T03:13:13.058Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-08T02:58:15.871Z",
+    "at": "2026-09-08T03:13:12.762Z",
     "jobsTotal": 162,
-    "sweptThisRun": 25,
+    "sweptThisRun": 26,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7747372222222222,
-    "p95Hours": 1.5264825,
-    "worstHours": 2.03244
+    "medianHours": 0.7781861111111111,
+    "p95Hours": 1.5281986111111112,
+    "worstHours": 1.7756325
   },
   "decisionCoverage": {
-    "total": 12,
-    "decided": 12,
+    "total": 40,
+    "decided": 40,
     "complete": true
   },
   "pending": {
@@ -47,132 +47,325 @@
   "profileResolution": {
     "cached": 41
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 878,
+    "completeOffers": 879,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-08T02:58:15.870Z",
-      "got": 34,
-      "new": 12,
-      "lag": 0.04
+      "at": "2026-09-08T03:13:12.762Z",
+      "got": 67,
+      "new": 40,
+      "lag": 0.08
     }
   },
   "audit": {
-    "at": "2026-09-08T02:56:20.838Z",
+    "at": "2026-09-08T03:11:25.922Z",
     "mode": "live",
     "collection": {
-      "returned": 34,
-      "kept": 12,
-      "duplicate": 22,
+      "returned": 67,
+      "kept": 40,
+      "duplicate": 27,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 9,
-      "rejected": 3,
+      "accepted": 23,
+      "rejected": 17,
       "reasons": {
-        "no_fbs_school": 2,
-        "no_offer_term": 1
+        "no_fbs_school": 6,
+        "hard_negative": 3,
+        "no_offer_term": 6,
+        "non_fbs_offer_target": 2
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2097153107688120780",
-          "author": "erik_skopil",
-          "searchJob": "oregon",
-          "text": "Dan Lanning offers encouraging update on injured wide receivers Iverson Hooks and Jalen Lott https://t.co/6bp1bHFJpo"
+          "postId": "2097159847775023201",
+          "author": "jprupp",
+          "searchJob": "georgia",
+          "text": "@AVintageAviator @OnDisasters So all that being said, if the linkage is severed, it could impair the crew’s ability to shut the engines down. I’m not familiar with the 767 but wanted to offer that perspective for a possible reason why the e"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097146203444289788",
-          "author": "mrbobdobalinanz",
-          "searchJob": "houston",
-          "text": "@EvilArthurFleck @noYouApe Agreed. Interesting to read of Yeltsin’s 1989 visit to a small Randall’s supermarket in Houston, Texas and the wonderful array of foods on offer. It was then he realised the whole communist experiment was over and"
+          "postId": "2097149245019037943",
+          "author": "rowlandrivals",
+          "searchJob": "kentucky",
+          "text": "Offer ends at 11:59 p.m. CST! In my own words, this is a high floor, high ceiling opportunity at 75% off. I want you to be next. Have loved interacting with hundreds of you familiar profile pictures for years on Twitter. Come behind the cur"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097151665124364467",
+          "author": "samsontengei",
+          "searchJob": "texas",
+          "text": "Super Grateful and blessed to have earned and received my 3rd D1 offer to play football at East Texas A&amp;M #GoLions @LukeJaicks @WestwoodFBMesa @Samumafua69 https://t.co/G6PeFoLJVY"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097149936601374773",
-          "author": "turbobmr",
-          "searchJob": "ohio",
-          "text": "A priest waves at figures in the sky. A pilot prepares to fire. Children draw what they say landed near their school. Seven UFO accounts from Eyes On Cinema reveal extraordinary memories, stubborn questions and the gap between a compelling "
+          "postId": "2097150958975201399",
+          "author": "jtchamp527",
+          "searchJob": "texas",
+          "text": "Thank you @samspiegs @on3 for your time and getting my thoughts on @AggieFootball and my recent visit. @CoachCushing https://t.co/Nsnnedtwnd https://t.co/YPIQvYDB9l"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097159706808819849",
+          "author": "david_ejuwa",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my 5th Division 2 offer from the University of Nebraska-Kearney! #AGTG #DungeonFamily @SixZeroAcademy @RJHSRaiderFB @PrepRedzoneCO @CoPreps @_CoachDelk https://t.co/72i81Xyml8"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097157960371700022",
+          "author": "oneandonlydex_",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my 4th offer from @MacalesterFB !! 🐂, thank you so much coach @coachmslaughter @Phil_Nicolaides @coachrasta22 https://t.co/Ds8PPvp2AU"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097150564593263038",
+          "author": "moe_kanik",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "@harveyspistols @jerrycurld @SummRidge Holy moly what amazing things! Anyone would be blessed to receive even one of these! God bless you all and good luck!"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2097146227854913884",
+          "author": "2chrisrichey",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "God is undefeated! After an amazing conversation with @FBCoachBankins I am extremely blessed to receive a d1 offer from North Carolina Central University! @sammiecoates11 @ChadSimmons_ @247Sports @ColumbiaFBHSV @CHS_Athletics25 @DrLenoise @"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097142585777082785",
+          "author": "kate_deck",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great phone call with @Coach_JBrooks I am blessed to receive a Division 1 offer from @GoHuskiesWBB @PheeElite @WUhoops @FredGarmon10 @jacksonindians https://t.co/f5Mmx0uAfN"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2097142201864093797",
+          "author": "andrewpars67144",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer from Hamline University. After a great conversation with @CoachMHarris79. https://t.co/0SVs0LwYos"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097139522425197040",
+          "author": "aidencopeland29",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an invitation to the @NGSHoops Elite60 Camp On September 19-20. #Agtg https://t.co/6NddzDsizx"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097137024843034962",
+          "author": "jeramybuford1",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "I am blessed to receive my first offer from university of Olivet thank you @CoachGarland5 and @CoachTJ44 for the opportunity ❤️🅾️ https://t.co/0R22JxtHs2"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097159632024457648",
+          "author": "eboygarcia",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/wE9KtIhYYa"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097159525480743076",
+          "author": "upscprelim",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/0Bqu3HFwMc"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097148664884121647",
+          "author": "techbyphilstar",
+          "searchJob": "texas-tech",
+          "text": "Google AI Plus also includes access to the company’s Gemini Omni model https://t.co/QzDNTJQTMp"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097144813208682850",
+          "author": "emarkethq",
+          "searchJob": "texas-tech",
+          "text": "Premium 4-Letter .Com For Sale: Zxte .com 🌐 Short, memorable, and perfect for a Tech Startup, AI Platform, or Web3 Brand. 🚀 💼 Accepting serious offers via DM. Domainers &amp; Founders: Rate this name from 1-10 in the comments! Checkout L"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097142150026952756",
+          "author": "damianrazgriz",
+          "searchJob": "texas-tech",
+          "text": "The Covenant in the Halo games form this massive interstellar theocratic empire made up of multiple alien species all welded together by a single unifying religion that worships the ancient Forerunners as gods who achieved true divinity. Ev"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 9,
+      "accepted": 1,
+      "rejected": 22,
       "reasons": {
-        "bare_mention_requires_llm": 8,
-        "reporter_missing_player_name": 1
+        "bare_mention_requires_llm": 7,
+        "multiple_resolved_schools": 4,
+        "reporter_missing_player_name": 1,
+        "school_not_resolved_confidently": 10
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097129637054988523",
-          "author": "rkaushal66156",
-          "searchJob": "new-mexico",
-          "text": "New America is okay. Only worry: will the dollar be renamed Donald too? New Mexico was annexed from Mexico—renamed so Mexico never reclaims it? Has the US been seizing neighbors’ land like Russia in Ukraine? Even had offered Canada to assim"
+          "postId": "2097155940609118485",
+          "author": "morpheu5watcher",
+          "searchJob": "old-dominion",
+          "text": "OLD DOMINION $ODFL GETS $83 MORE PER SHIPMENT AND $53 OF IT IS DIESEL: The Deep-Value and Special-Situations Len5 is watching Old Dominion Freight Line ODFL at $185.87, +$0.12 / +0.06% on Friday. US markets were shut Monday, September 7 for"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097159252267724855",
+          "author": "susan_dupres",
+          "searchJob": "washington-state",
+          "text": "Washington State Environment Washington Department of Natural Resources (DNR) offers trainings for controlled burns The legislation, passed in 2018, aimed at reducing fire fuels in forests. Students are learning the essentials in a three-da"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097151928274972808",
+          "author": "susan_dupres",
+          "searchJob": "washington-state",
+          "text": "Washington State WA State Dept. of Natural Resources (DNR) CERTIFIED BURNER PROGRAM Sept. 7, 2026 Forest Resilience Division Prescribed Fire Program - Certified Burner Program The Washington State Legislature granted DNR the authority to es"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097156864266162309",
-          "author": "susankirk748494",
-          "searchJob": "oregon",
-          "text": "Jeff Merkley has been in the Senate since 2009, so before accepting another Labor Day message about working families, I think Oregon voters should examine what he actually supported. In 2025, Merkley voted NO on the Laken Riley Act, which e"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097156398857785837",
-          "author": "tanqboy",
-          "searchJob": "oregon",
-          "text": "@annieka77 @leroy_clary Offer free health care to Oregon and they’ll start planting maple trees."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097139691619569792",
-          "author": "whitewolfor7",
-          "searchJob": "oregon",
-          "text": "My fellow Oregonians Look at your paycheck. Look at the pump. Look at the rising bills while roads stay broken. Then look at who has run this state for nearly twenty years Tina Kotek. She entered the House in 2007, became Speaker in 2013, a"
+          "postId": "2097160112746160580",
+          "author": "dudehumorreport",
+          "searchJob": "florida",
+          "text": "FLORIDA MAN THROWS HOT DOG DIRECTLY AT POLICE OFFICER JACKSONVILLE, FL — Todd Marchetti, 43, was arrested and charged with battery on a law enforcement officer after deputies say he hurled a fully dressed hot dog, mustard included, directly"
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2097153550451106041",
-          "author": "jucoffrenzy",
-          "searchJob": "tennessee",
-          "text": "2027 (@ButlerGrizzlyFB) JUCO LB @JaquayMcfadden was offered by Middle Tennessee HL https://t.co/YAudsjUN3J https://t.co/vzaLj2iHZG"
+          "postId": "2097146863300288673",
+          "author": "recruitgeorgia",
+          "searchJob": "georgia",
+          "text": "Savannah Christian SR tackling-machine lands offer from Pikeville #RecruitGeorgia"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097148855628210428",
-          "author": "topsiswear",
-          "searchJob": "tennessee",
-          "text": "@HavynSearels @CalvinLowry @WillChapman_1 @CoachO_MTSU @MTFB_Recruiting @caprewett @ChadSimmons_ @adamgorney @TomLoy247 @247Hudson @RecruitGeorgia @CKennedy247 @DbCoachJulian Congratulations on the Middle Tennessee offer Havyn 🌟‼️‼️"
+          "postId": "2097140677326803081",
+          "author": "bjsuiw32692",
+          "searchJob": "texas",
+          "text": "@AustralianGreen @JohnnyWhiskyTX India wined and dined Gov. Abbott. Gov. Abbott offered tax breaks for every major H-1B pimp to come to Texas. They came."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097153995802362134",
-          "author": "kintsugijin",
-          "searchJob": "houston",
-          "text": "From the beginning? 🫪 Dude, one of us changed how we interact, and it wasn’t me. I’ve always been kind, even when I questioned you. I reached out during Hurricane Beryl because I genuinely wanted to see if you were okay and you were one of"
+          "postId": "2097137307157721098",
+          "author": "wcpsacramento",
+          "searchJob": "texas",
+          "text": "🚨 SACRAMENTO RECRUITING NOTEBOOK 🚨 Another great week on the trail. 🥎 Whitney infielder → Big Ten 🥎 Elk Grove Unified stars → Big 12 🏈 Edison lineman → Texas Tech offer Story: https://t.co/IBCxWYtLfY https://t.co/3BfIn5LYgx"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097153544017035590",
+          "author": "sportsdaydfw",
+          "searchJob": "baylor",
+          "text": "Baylor coach Dave Aranda offered an update on his hobbled QB DJ Lagway, who battled an ankle injury in the Bears' loss to Auburn🏈 #SicEm Read more here: https://t.co/2FQ9XARlC8"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097159178431406376",
+          "author": "maverick1tg",
+          "searchJob": "texas-tech",
+          "text": "My colleagues in my age group work extremely hard to further advance their already advanced career and passionately try to learn new tech and get better on it.Many of the newcomers get good numbers but want to move to a better offer without"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097157218160525625",
+          "author": "roblun1",
+          "searchJob": "texas-tech",
+          "text": "🏭🇬🇧 Ionic Technologies has gone public with the plans for its Belfast rare earth recycling plant. The consultation boards for the Titanic Quarter facility are out, c. £100m investment, ~80 jobs, ~400 tonnes a year of high-purity rare ear"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097154816149430318",
+          "author": "asiahardtech",
+          "searchJob": "texas-tech",
+          "text": "Zhipu fell roughly 4.96% and MiniMax 4.28% in early Hong Kong trading. For Asia tech investors, GPT-6 Astra raises a question worth watching: will closed models widen their lead over open models again? The concern is that latent reasoning a"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097152886417572209",
+          "author": "sarahwang_dev",
+          "searchJob": "texas-tech",
+          "text": "今天和一位 Ex-Google / Senior Software Engineer 做了一次 coffee chat，聊了很多关于 AI 时代如何提升技术能力、找工作和职业发展的建议。 加拿大和澳洲🌏有时差14个小时，非常感谢他抽空casual caht。 其中有一些观点让我印象很深，也分享给正在找工作、准备面试或者思考职业方向的朋友。 1️⃣ AI 时代，LeetCode 依然重要 虽然 AI 正在改变 software engineering，但现在很多公司的 cod"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097150624622407821",
+          "author": "singhlicious",
+          "searchJob": "texas-tech",
+          "text": "1. Reliance Jio Platforms, a subsidiary of Reliance Industries, is expanding into the global market with its made in India technology after 10 years of success in India. The company plans to offer its connectivity, digital products, enterpr"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097141388987220378",
+          "author": "kpltrader",
+          "searchJob": "texas-tech",
+          "text": "The Forest That Stopped Growing: Why India’s Stock Market Is Taking a Break Imagine India’s stock market as a big playground or a garden where people plant money seeds, hoping they will grow into tall trees. For about two years now, the gar"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097139074888790256",
+          "author": "belasri_karim",
+          "searchJob": "texas-tech",
+          "text": "💎 https://t.co/XfuIg9DzAu Short. Memorable. Brandable. One name. One owner. One opportunity. Perfect for a startup, tech brand, AI company, SaaS, e-commerce or a global business. 🤝 Open to serious offers. #Domains #DomainForSale #Startup "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097138259386400984",
+          "author": "stefan_demetz",
+          "searchJob": "texas-tech",
+          "text": "@thealepalombo Milan is the best Italy can offer, but very far from London in terms of jobs/opportunities in big finance, start-ups, tech and international companies(besides fashion perhaps) Climate is meh, damp, with very nasty tiger mosqu"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097137119982747922",
+          "author": "suarezrathod",
+          "searchJob": "texas-tech",
+          "text": "🚨 iQOO Z11xa 5G — Launched in India 🇮🇳 📱 6.76\" FHD+ 120Hz LCD ⚡ Dimensity 7400-Turbo 🔋 7,200mAh + 44W FlashCharge 📸 50MP Sony IMX852 + 2MP 🤳 32MP Selfie 💾 8GB + 128GB 💧 IP68 + IP69 🪖 Military-Grade Durability 🔊 Stereo Speakers + "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097136254311924017",
+          "author": "marketsday",
+          "searchJob": "texas-tech",
+          "text": "#Indian Stock Market Morning Update — September 08, 2026 🔹 #GIFTNifty: Dropped 70.20 points to an implied 23,797.50, signaling a weak opening for domestic benchmark equity indices. 🔹 Nifty 50: Closed 0.50% lower at 23,779.15 after hitting"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097134943830962232",
+          "author": "usi_research",
+          "searchJob": "texas-tech",
+          "text": "@UTradePH JKS Tech provides technology, platforms and digital infrastructure to licensed digital entertainment operators and currently offers electronic casino games, with additional gaming products yet to commence commercial operations. @U"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097150120676438150",
-          "author": "hotdirtytesla",
-          "searchJob": "kansas",
-          "text": "@Tesla, here is my offer to lease to own 50 @Robotaxis up to 150 Robotaxis for operation in Kansas City Missouri and Kansas and the surrounding metropolitan area. 100% of Robotaxi fares will go directly to Tesla at the end of each month up "
+          "postId": "2097134673046692100",
+          "author": "techstoriesin",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon India Deal ] 39984401 Puma Court Shatter Low Mens Casual Sneaker, White-White-Team Gold, 11 UK - 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟮,𝟯𝟵𝟴 | 𝗟𝗶𝘀𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟱,𝟵𝟵𝟵. [ad] Offer Link: https://t.co/jvv7PVHMeW Low top snea"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097148595854061990",
-          "author": "joshrafaeljr",
-          "searchJob": "florida-international",
-          "text": "Dear Coach, My name is Josh Rafael, a junior at IMG Academy in Bradenton, FL. I have a strong interest in continuing my football career at the collegiate level and would love to be considered for your program. Hudl link: https://t.co/Reuu6r"
+          "postId": "2097148467021840833",
+          "author": "zquad_eleanor",
+          "searchJob": "rice",
+          "text": "@imthemanager33 @raybansmalik Unless he offered to buy me a Chinese takeaway, then maybe I’d glance over my shoulder. But only for the egg fried rice."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097142692178461114",
+          "author": "mogutan_bababa",
+          "searchJob": "rice",
+          "text": "As dusk begins to fall, I make my way to the seafood spot the couple suggested, which offers open-air tables right by the river. Choosing a seat near the water, I order a grilled fish with a portion of rice, accompanied by a crisp glass of "
         }
       ]
     },
@@ -180,20 +373,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 25,
-      "failed": 1,
+      "swept": 26,
+      "failed": 0,
       "requests": 26,
-      "errors": [
-        "north-texas: SearchTimeline JSON unreadable (slice left pending)"
-      ]
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 9,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 22,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-08T02:58:16.122Z"
+    "status rebuilt locally from current store on 2026-09-08T03:13:13.062Z"
   ]
 }
