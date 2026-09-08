@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T05:43:23.510Z",
+  "generatedAt": "2026-09-08T05:58:07.830Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-08T05:43:23.247Z",
+    "at": "2026-09-08T05:58:07.582Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
+    "sweptThisRun": 25,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -30,15 +30,20 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "temple",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 1.0328686111111112,
-    "p95Hours": 2.0284655555555555,
-    "worstHours": 2.0284655555555555
+    "medianHours": 0.7778469444444445,
+    "p95Hours": 2.029240833333333,
+    "worstHours": 2.27411
   },
   "decisionCoverage": {
-    "total": 15,
-    "decided": 15,
+    "total": 21,
+    "decided": 21,
     "complete": true
   },
   "pending": {
@@ -47,7 +52,7 @@
   "profileResolution": {
     "cached": 41
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 879,
     "incompleteOffers": 0
@@ -55,148 +60,186 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-08T05:43:23.246Z",
-      "got": 34,
-      "new": 15,
-      "lag": 0.08
+      "at": "2026-09-08T05:58:07.581Z",
+      "got": 46,
+      "new": 21,
+      "lag": 0.16
     }
   },
   "audit": {
-    "at": "2026-09-08T05:41:32.060Z",
+    "at": "2026-09-08T05:56:21.324Z",
     "mode": "live",
     "collection": {
-      "returned": 34,
-      "kept": 15,
-      "duplicate": 19,
+      "returned": 46,
+      "kept": 21,
+      "duplicate": 25,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 9,
+      "accepted": 15,
       "rejected": 6,
       "reasons": {
-        "no_fbs_school": 3,
-        "no_offer_term": 1,
-        "non_fbs_offer_target": 1,
-        "hard_negative": 1
+        "no_offer_term": 5,
+        "no_fbs_school": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2097165064117670142",
-          "author": "casteras_yachts",
-          "searchJob": "class:2026",
-          "text": "Nautical luxury meets Italian tailoring excellence. Maison Casteras presents the Casteras M49 F, a motor yacht that combines cutting-edge design, impeccable performance, and a unique level of customization thanks to our Bespoke Atelier. Eve"
+          "reason": "no_offer_term",
+          "postId": "2097192690949513497",
+          "author": "jackhsimons1",
+          "searchJob": "temple",
+          "text": "https://t.co/RFytsLZhQz"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097195953203581139",
-          "author": "phagankean",
-          "searchJob": "maryland",
-          "text": "https://t.co/9ej3yfng7V"
+          "postId": "2097192277781495811",
+          "author": "pperlasgr",
+          "searchJob": "temple",
+          "text": "Mary’s Nativity: The Dawn of Hope ✝️ God prepared Mary as a living temple. Her fiat—her trusting “yes”—welcomed the Savior. Where is God inviting us to say “yes” today? #NativityOfMary #CatholicReflection https://t.co/hsnnOdVO56"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2096067041090293828",
+          "author": "xpresskeralam",
+          "searchJob": "temple",
+          "text": "TDB president K Jayakumar rejected the allegation, saying sadya was served to 3,000 devotees. 🔗https://t.co/9VOqCbYUEe @PrabhuChawla @KMuraleedharan_ @Harikrishnabee #Sadya #Sabarimala #Keralam https://t.co/aPEDzsdpLG"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097183689147064628",
+          "author": "laganinews12",
+          "searchJob": "temple",
+          "text": "राष्ट्रपतिबाट पशुपतिमा पूजाआराधना https://t.co/Awl90Qk0kE"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097180154632032326",
-          "author": "ahmed_abdlahi",
-          "searchJob": "washington",
-          "text": "An important working week begins in Washington for the Somaliland delegation, led by President Abdirahman Mohamed Abdillahi Irro. Expectations are high, and Somalilanders at home and across the world stand firmly behind the President and hi"
+          "postId": "2097190216301977822",
+          "author": "layaboutlad",
+          "searchJob": "troy",
+          "text": "@DunnEagles32553 Yeh I’d be saying no this is the offer best years first which will still be a better offer then freo can offer. And next year we can offer him way more money then freo."
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097183969204973706",
-          "author": "sawyerbingham11",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with Coach Henry I am blessed to announce I have received an offer from William Penn University! #agtg https://t.co/eYqlIsuK1s"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097174517009313971",
-          "author": "trenten2027",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @Phil_Nicolaides I am blessed to announce that I have received an offer to play football at Macalester! I am super grateful for the opportunity and exited for what is ahead! #ONEBLOOD @MacCoachHauser @Southwe"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097189424673309067",
-          "author": "irishtimesedu_",
-          "searchJob": "notre-dame",
-          "text": "A place to map out your future: Conference offers an ideal opportunity for students https://t.co/6TflxC8wkN https://t.co/EHy3Bty2DM"
+          "reason": "no_offer_term",
+          "postId": "2097199766635507781",
+          "author": "weeklyvoice",
+          "searchJob": "air-force",
+          "text": "Trump’s Bombardier threat should change the weight Canada gives to supplier reliability. It should also remind Ottawa that Canadian purchasing power has value. The F-35 deal must earn its... https://t.co/I8EDQIE4ur"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 15,
       "reasons": {
-        "bare_mention_requires_llm": 6,
-        "school_not_resolved_confidently": 1,
-        "multiple_resolved_schools": 2
+        "bare_mention_requires_llm": 15
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097193881641398399",
-          "author": "dillip38855604",
-          "searchJob": "south-florida",
-          "text": "@abhijitmajumder Bulls , cows and oxens were not eaten as far as I know. Predominantly goats and some wild game. In some mandirs male buffalo was offered as Bali."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097188222753243333",
-          "author": "thespartanswire",
-          "searchJob": "class:2026",
-          "text": "MSU football first power four program to offer 2029 Pennsylvania LB prospect 📸 Brendan Mullin, Brendan Mullin-Imagn Images https://t.co/m72efpREt5 https://t.co/NJCoEfwAGT"
+          "postId": "2097200401615581306",
+          "author": "dogra_ultra11",
+          "searchJob": "temple",
+          "text": "🔥 2027 Election Loading! UP CM Yogi Adityanath offered prayers at the sacred Tirumala Venkateswara Temple. 🙏🚩 “Jai Shri Ram” &amp; “Bharat Mata Ki Jai” echoed through the temple! 🇮🇳🚩 https://t.co/u8nxewHZSc"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097197901755933116",
-          "author": "therlowofficial",
-          "searchJob": "washington",
-          "text": "@DenTalksBall I got offered Gibbs for Parker Washington and turned it down"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097195709066047819",
-          "author": "dunnbilly87734",
-          "searchJob": "washington",
-          "text": "AI Overview The Smith & Wesson Model 6906 is a classic third-generation, compact double-action/single-action (DA/SA) 9mm pistol featuring an alloy frame and a stainless steel slide. [1] Key Specifications & Features Caliber: 9mmCapacity: 12"
+          "postId": "2097199952300843244",
+          "author": "telugunestam",
+          "searchJob": "temple",
+          "text": "Uttar Pradesh CM Shri Yogi Adityanath Offers Prayers At Tirumala Temple https://t.co/Jps4mkavD5 via @YouTube"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097182247627444381",
-          "author": "marionawfal",
-          "searchJob": "washington",
-          "text": "🇨🇦🇺🇸 Canada's 50% counter-tariffs are now live on $20 billion of American goods, with steel hit hardest Ottawa's retaliation covers hundreds of products at rates from 15% to 50%, and it reaches past steel and aluminum into cheese, appli"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097180151813664818",
-          "author": "archeohistories",
-          "searchJob": "washington",
-          "text": "Indira Gandhi turned to Moscow just as South Asia approached war. On August 9, 1971, with armed conflict looking increasingly possible, Indian foreign minister Swaran Singh and Soviet foreign minister Andrei Gromyko signed a twenty-year Tre"
+          "postId": "2097199571374047321",
+          "author": "cmreportcard_",
+          "searchJob": "temple",
+          "text": "UP CM Yogi Adityanath offers prayers to Lord Venkateswara temple at Tirumala Mandir. #YogiAdityanath https://t.co/7xLkNOolrm"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097176157091184793",
-          "author": "bennetanyajew01",
-          "searchJob": "washington",
-          "text": "@RT_com Washington was the greatest. He was offered a crown and refused it."
+          "postId": "2097198220984352981",
+          "author": "nepalnews_eng",
+          "searchJob": "temple",
+          "text": "President Ramchandra Paudel offered worship at the Pashupatinath Temple, praying for the welfare and well-being of the country and its people. #nepalnews #nepalinews #NepaliNewsToday #NNPlus https://t.co/xfXoNz7avM"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097172796224716872",
-          "author": "cmal7409",
-          "searchJob": "washington",
-          "text": "@DenTalksBall Why would he offer you Nico for Washington when he could have just drafted him instead 🤷‍♂️ because no shot you took him before Nico was drafted"
+          "postId": "2097196357182271890",
+          "author": "aciafricanews",
+          "searchJob": "temple",
+          "text": "The Catholic Church celebrates today the birth of the Blessed Virgin Mary on its traditional fixed date of September 8, nine months after the December 8 celebration of her Immaculate Conception as the child of Saints Joachim and Anne. The c"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097173342734233616",
-          "author": "notredameca",
-          "searchJob": "notre-dame",
-          "text": "🌟 Whether you're completing your bachelor's degree or pursuing graduate studies, NDNU’s School of Psychology offers programs designed to help you make a meaningful impact in the lives of others. 🗓️ Session Date: Tuesday, September 8 🕕 7:"
+          "postId": "2097196177880129603",
+          "author": "timesnownews_",
+          "searchJob": "temple",
+          "text": "Can Deepinder Goyal’s Temple actually track blood flow in the brain? A new study comparing the wearable with transcranial Doppler offers an encouraging first answer. But with just 23 healthy adults tested, researchers say much more validati"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097195772802412923",
+          "author": "nepalbolcha",
+          "searchJob": "temple",
+          "text": "President Ramchandra Paudel offered special prayers at Pashupatinath Temple today after visiting flood-affected areas. 🙏 #RamchandraPaudel #Pashupatinath #FloodAffectedAreas #NepalBolcha https://t.co/jeJMj31atb"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097193662681940365",
+          "author": "thedailyjagran",
+          "searchJob": "temple",
+          "text": "Uttar Pradesh Chief Minister Yogi Adityanath offered prayers and sought the blessings of Lord Venkateswara Swamy at the revered Tirumala Temple. ✨ #YogiAdityanath #UPCM #TirumalaTemple #LordVenkateswara #TempleVisit https://t.co/M2qCkKR4CT"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097186808723595626",
+          "author": "echoingjaihind",
+          "searchJob": "temple",
+          "text": "The traditional Onam Sadya service at Sabarimala was limited during this year’s Onam festival, which has really disappointed the devotees of Swami Ayyappa. It has been a 70-year-old tradition of serving/offering Sadya to Ayyappa devotees du"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097184823634993379",
+          "author": "tv5kannada",
+          "searchJob": "temple",
+          "text": "Mudhol Police Offer Special Pooja To Kalmeshwar Rath | ಕಲ್ಮೇಶ್ವರ ರಥಕ್ಕೆ ಪೊಲೀಸರಿಂದ ವಿಶೇಷ ಪೂಜೆ ಬಾಗಲಕೋಟೆ ಜಿಲ್ಲೆಯ ಮುಧೋಳ ನಗರದಲ್ಲಿ ನಡೆದ ಶ್ರೀ ಕಲ್ಮೇಶ್ವರ ರಥೋತ್ಸವದ (ಮಹಾಲಿಂಗೇಶ್ವರ/ಕಲ್ಮೇಶ್ವರ ಜಾತ್ರೆ) ಸಂದರ್ಭದಲ್ಲಿ ಸ್ಥಳೀಯ ಪೊಲೀಸ್ ಸಿಬ್ಬಂದಿ ಸಲ್ಲಿಸಿದ ವಿಶೇಷ ಪೂಜೆ"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097184693221523766",
+          "author": "tv5kannada",
+          "searchJob": "temple",
+          "text": "Mudhol Police Offer Special Pooja To Kalmeshwar Rath | ಕಲ್ಮೇಶ್ವರ ರಥಕ್ಕೆ ಪೊಲೀಸರಿಂದ ವಿಶೇಷ ಪೂಜೆ ಬಾಗಲಕೋಟೆ ಜಿಲ್ಲೆಯ ಮುಧೋಳ ನಗರದಲ್ಲಿ ನಡೆದ ಶ್ರೀ ಕಲ್ಮೇಶ್ವರ ರಥೋತ್ಸವದ (ಮಹಾಲಿಂಗೇಶ್ವರ/ಕಲ್ಮೇಶ್ವರ ಜಾತ್ರೆ) ಸಂದರ್ಭದಲ್ಲಿ ಸ್ಥಳೀಯ ಪೊಲೀಸ್ ಸಿಬ್ಬಂದಿ ಸಲ್ಲಿಸಿದ ವಿಶೇಷ ಪೂಜೆ"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097183650165195024",
+          "author": "sheepyrepute",
+          "searchJob": "temple",
+          "text": "@Bradcruisedo8 @MJKelleyII @grok ..break ranks &amp; he did. He offered incense( atypology of prayers) at the golden altar of incense, when it was not his job to do so. He was smitten with leprosy. That's why in Rev in the Heavenly Temple w"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097181929766519077",
+          "author": "charan_bagga",
+          "searchJob": "temple",
+          "text": "📍Lucknow & Ayodhya Uttar Pradesh CM YOGI TO LAUNCH UP TEXTILE CONCLAVE 2026 After attending various programmes in Andhra Pradesh on Monday, Uttar Pradesh Chief Minister Yogi Adityanath visited Tirupati Balaji Temple and offered prayers. To"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097180558996668758",
+          "author": "rand0mnepali",
+          "searchJob": "temple",
+          "text": "@HinduUnityBD Exactly we don't visit temple after having non veg. Even if we visit next day, we need to take bath with head shower, Pure clean clothes and visit temple. In Durga Puja, Since asthami to navami ppl offer animal sacrifice but t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097186596911284636",
+          "author": "greekcitytimes",
+          "searchJob": "air-force",
+          "text": "Albanian Defence Minister Offers Condolences Over Pilot Deaths Albania’s Defence Minister Ermal Nufi has expressed condolences to Greece after two Greek Air Force pilots died in an Athens Flying Week crash. https://t.co/ifWChq9xTy https://t"
         }
       ]
     },
@@ -204,18 +247,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
+      "swept": 25,
+      "failed": 1,
       "requests": 26,
-      "errors": []
+      "errors": [
+        "alabama: SearchTimeline JSON unreadable (slice left pending)"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 9,
+      "rejectedCandidates": 15,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-08T05:43:23.513Z"
+    "status rebuilt locally from current store on 2026-09-08T05:58:07.834Z"
   ]
 }
