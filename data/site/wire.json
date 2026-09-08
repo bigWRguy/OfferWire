@@ -1,12 +1,48 @@
 {
-  "generatedAt": "2026-09-08T21:59:03.186Z",
+  "generatedAt": "2026-09-08T22:28:30.441Z",
   "counts": {
-    "offers": 898,
-    "players": 626,
-    "newThisRun": 0,
-    "watchlist": 1781
+    "offers": 899,
+    "players": 627,
+    "newThisRun": 1,
+    "watchlist": 1782
   },
   "offers": [
+    {
+      "id": "o_4d5f2c19f360e21d",
+      "playerId": "p_205d0ab5e6f42e85",
+      "playerName": "Levi Scott III",
+      "schoolId": "memphis",
+      "schoolName": "Memphis",
+      "conference": "AAC",
+      "offeredAt": "2026-09-08T22:25:26.000Z",
+      "firstSeenAt": "2026-09-08T22:28:30.421Z",
+      "lastSeenAt": "2026-09-08T22:28:30.421Z",
+      "confidence": 0.45,
+      "corroborations": 1,
+      "evidence": [
+        {
+          "postId": "2097451272601219227",
+          "author": "sportsgod1k",
+          "url": "https://x.com/sportsgod1k/status/2097451272601219227",
+          "postedAt": "2026-09-08T22:25:26.000Z",
+          "via": "search:(@MemphisFB OR \"Memphis\" OR \"U of M\") (o",
+          "confidence": 0.45,
+          "text": "After a great visit to @MemphisFB I am blessed to receive a d1 offer from the University of Memphis\n@CoachHuff\n@aarondobson17\n@Coach_CJBailey\n@MilliAthGroup\n@cosimp4real\n@McCallieFB\n@ChadSimmons_\n@RivalsHS \n@MaxPreps \n@TomLoy247 https://t.co/qjXhCb3n0R",
+          "attribution": {
+            "targetText": "the University of Memphis\n",
+            "schoolEvidenceType": "official_school_tag",
+            "affiliationSource": "fbs_handle"
+          }
+        }
+      ],
+      "status": "new",
+      "tier": "G5",
+      "playerHandle": "sportsgod1k",
+      "classYear": 2029,
+      "position": "WR",
+      "highSchool": null,
+      "state": null
+    },
     {
       "id": "o_29ac554aebeea658",
       "playerId": "p_f7f81b48dfe32d84",
@@ -620,9 +656,9 @@
       "conference": "B12",
       "offeredAt": "2026-09-08T12:12:57.000Z",
       "firstSeenAt": "2026-09-08T12:43:36.215Z",
-      "lastSeenAt": "2026-09-08T12:43:36.215Z",
-      "confidence": 0.45,
-      "corroborations": 1,
+      "lastSeenAt": "2026-09-08T22:28:30.414Z",
+      "confidence": 0.53,
+      "corroborations": 2,
       "evidence": [
         {
           "postId": "2097297135209263421",
@@ -637,9 +673,23 @@
             "schoolEvidenceType": "official_school_tag",
             "affiliationSource": "fbs_handle"
           }
+        },
+        {
+          "postId": "2097444874941333803",
+          "author": "profilefblive",
+          "url": "https://x.com/profilefblive/status/2097444874941333803",
+          "postedAt": "2026-09-08T22:00:01.000Z",
+          "via": "search:\"has offered\" recruit -filter:retweets s",
+          "confidence": 0.45,
+          "text": "Cincinnati has offered 3.9⭐ 2028 WR Avery Thompson from Paducah Tilghman HS, KY. @Avery_Thomp2\n\nRated (#424 NATL, #66 WR, #4 KY) - 29 offers overall.\nhttps://t.co/dVzWlNdZFE",
+          "attribution": {
+            "targetText": "Cincinnati has ",
+            "schoolEvidenceType": "full_school_name",
+            "affiliationSource": "name"
+          }
         }
       ],
-      "status": "new",
+      "status": "corroborated",
       "tier": "P4",
       "playerHandle": "avery_thomp2",
       "classYear": 2028,
