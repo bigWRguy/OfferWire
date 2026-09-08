@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T23:13:39.935Z",
+  "generatedAt": "2026-09-08T23:28:28.333Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-08T23:13:39.641Z",
+    "at": "2026-09-08T23:28:28.048Z",
     "jobsTotal": 162,
-    "sweptThisRun": 24,
+    "sweptThisRun": 26,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -32,17 +32,17 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7814186111111111,
-    "p95Hours": 1.5360761111111112,
-    "worstHours": 2.0209855555555554
+    "medianHours": 0.7813627777777777,
+    "p95Hours": 1.7828533333333334,
+    "worstHours": 1.7828533333333334
   },
   "decisionCoverage": {
-    "total": 38,
-    "decided": 38,
+    "total": 36,
+    "decided": 36,
     "complete": true
   },
   "pending": {
-    "total": 17
+    "total": 18
   },
   "profileResolution": {
     "cached": 43
@@ -55,301 +55,299 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-08T23:13:39.640Z",
-      "got": 50,
-      "new": 38,
+      "at": "2026-09-08T23:28:28.048Z",
+      "got": 58,
+      "new": 36,
       "lag": 0.07
     }
   },
   "audit": {
-    "at": "2026-09-08T23:11:55.253Z",
+    "at": "2026-09-08T23:26:38.514Z",
     "mode": "live",
     "collection": {
-      "returned": 50,
-      "kept": 38,
-      "duplicate": 12,
-      "tooOld": 0,
+      "returned": 58,
+      "kept": 36,
+      "duplicate": 21,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 24,
-      "rejected": 14,
+      "accepted": 17,
+      "rejected": 19,
       "reasons": {
+        "no_offer_term": 13,
         "hard_negative": 1,
-        "no_fbs_school": 10,
-        "no_offer_term": 3
+        "non_fbs_offer_target": 1,
+        "no_fbs_school": 4
       },
       "samples": [
         {
+          "reason": "no_offer_term",
+          "postId": "2097465883966702078",
+          "author": "marxxx_dc",
+          "searchJob": "army",
+          "text": "THE FLAG STILL HANGS. THE SHIP DOES NOT. THIS IS WHAT A TOLL LOOKS LIKE WHEN THE COLLECTOR IS BROKE. KEEP FIRING. KEEP SINKING. https://t.co/Q2w14LvWxr"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097457834967318604",
+          "author": "greystone_inst",
+          "searchJob": "army",
+          "text": "The Christian Household as Act of Resistance and Beautiful Alternative: A Series of Reflections on Titus 2 https://t.co/gDSKf8CBzl"
+        },
+        {
           "reason": "hard_negative",
-          "postId": "2097461944508625176",
-          "author": "tj_investor94",
-          "searchJob": "west-virginia",
-          "text": "@PoweredByEos Eos Energy Enterprises, MN8 Energy, and Google have announced a major collaboration on a large-scale clean energy project in Kanawha County, West Virginia. Named Mammoth Solar, the project will be developed on a reclaimed coal"
+          "postId": "2097457832605950370",
+          "author": "sprinterpress",
+          "searchJob": "army",
+          "text": "Former Ukrainian Defense Minister Believes the War Will Last Another 2-3 Years MYKHAILO FYODOROV ATTRIBUTES THIS TO RUSSIA, BUT IT IS A DECEITFUL WAR-PROFITING PROJECT. Expert Nikita VOLKOVYCH: Fyodorov has essentially presented a grand pla"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2097438297849049105",
-          "author": "rebirthofthewo1",
-          "searchJob": "north-carolina",
-          "text": "@olympiaeris @bacoexudo What happens when a people fight to keep their history and identity alive? The Coharie Tribe’s story offers a fascinating look at cultural survival and Native American heritage in North Carolina. This is history you "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097453253147394457",
-          "author": "schwartzsports",
-          "searchJob": "buffalo",
-          "text": "I was a senior at Buffalo State in 1989 when my mom called me to say there was an ad in Newsday for SportsPhone looking for announcers. I interviewed when I was home on spring break. They offered me the job and I started after graduation. #"
+          "reason": "non_fbs_offer_target",
+          "postId": "2097462443626676520",
+          "author": "academydubuque",
+          "searchJob": "phrase:\"picks up an offer from\"",
+          "text": "Peter Wedewer picks up an offer from the University of Dubuque! Congratulations, Pete! 🏀 @RL_Hoops"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097425491917443159",
-          "author": "staatalent",
-          "searchJob": "buffalo",
-          "text": "How did you land your first on-air opportunity?"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097462345869976030",
-          "author": "cwteam_realtor",
-          "searchJob": "charlotte",
-          "text": "🏡✨ PRICE IMPROVEMENT IN LINDALE, TEXAS! Now offered at $169,000—a $5,900 reduction! Discover distinctive East Texas living at 18165 County Road 446, Unit 2, Lindale, TX 75771. This new-construction A-frame offers: 📲 Emily Santina, REALTOR"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097450656407699898",
-          "author": "wccbcharlotte",
-          "searchJob": "charlotte",
-          "text": "January may be known for fresh starts, but September can offer another opportunity to reset and refocus before the end of the year. https://t.co/P1LlwHohuQ"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097449427892146595",
-          "author": "elbuckner",
-          "searchJob": "alabama",
-          "text": "@Jumbopenis5 Appreciate the offer Jumbopenis5 but I’m going to disrespectfully decline"
+          "postId": "2097423901089268172",
+          "author": "wedewerpeter",
+          "searchJob": "phrase:\"picks up an offer from\"",
+          "text": "Had an amazing visit at UD this morning! @udbasketball @CoachSorenson https://t.co/Z7ohEw3UxH"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097449571073093771",
-          "author": "votehub",
-          "searchJob": "missouri",
-          "text": "🚨 UPDATE — Missouri’s 2025 7R–1D congressional districts are back in effect for November after a federal judge intervened, shortly after Justice Kavanaugh declined to do so in a separate case."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097459969163747432",
-          "author": "d_bluedynasty",
-          "searchJob": "oklahoma",
-          "text": "The Dodgers surprised some fans by recalling Alex Freeland when rosters expanded instead of promoting James Tibbs III or bringing back Hyeseong Kim. The decision has not produced much offensively so far. Freeland is 1-for-12 since returning"
+          "postId": "2097457305067585942",
+          "author": "deepchampai",
+          "searchJob": "class:2026",
+          "text": "Fifteen MLB games tonight. The edge still depends on late lineups, weather, bullpen context and unresolved starters. Today’s DeepChamp brief explains why the responsible card is PASS until those inputs are complete. 21+. https://t.co/Tkyd8D"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097443789916848632",
-          "author": "dangrazianoespn",
-          "searchJob": "oklahoma",
-          "text": "According to a source, Baker Mayfield's new contract with the Bucs includes $110 million in new guarantees on top of the $40 million he was already scheduled to earn this year. So $150 million in guarantees total. Now signed through 2029."
+          "postId": "2097444910882259193",
+          "author": "ethplantbaseeth",
+          "searchJob": "class:2026",
+          "text": "https://t.co/ACX8SFeC8X"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097452963706880123",
-          "author": "soulsistanatl",
-          "searchJob": "ole-miss",
-          "text": "1 of my friends interviewed and was offered a job Why the hell they never sent the offer letter and after several follow ups, they said they went with someone else who was asking for a lower amount and didnt even try to negotiate with her o"
+          "postId": "2097461066405924979",
+          "author": "np4football_ot",
+          "searchJob": "class:2027",
+          "text": "Carson Rockwell-OL-2027-NY @DigInMules Offer #CFB"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097452710685536518",
+          "author": "np4football_ot",
+          "searchJob": "class:2027",
+          "text": "Bubba Donald-OL-2027-IA @WMU_Recruiting Game Day Visit #CFB"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097416793639784517",
+          "author": "javendonald1",
+          "searchJob": "class:2027",
+          "text": "Thanks @pawlakjoe for the game day invite, can’t wait to get back in Kalamazoo! https://t.co/a9nOIwb6Ap"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097437994986656025",
-          "author": "coach_hadac",
-          "searchJob": "penn-state",
-          "text": "Elite Pass Rush Drill for more SACKS with @5StarFBRecruits 2028 DL @Nesto_2028 💫🏈 Currently holds 2 D1 Offers to Penn State &amp; UMaine🔥 https://t.co/oWi21t4Ssk"
+          "postId": "2097443680156041727",
+          "author": "202510m1cchamp",
+          "searchJob": "class:2027",
+          "text": "This WR was passed on by 5 teams needing keepers with the best offer being a 2027 5th."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097436724846624947",
+          "author": "np4football_ot",
+          "searchJob": "class:2027",
+          "text": "Chase Garber-OL-2027-WY @WyoFBRecruiting OV #CFB"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097051944150040754",
+          "author": "chase_garber_",
+          "searchJob": "class:2027",
+          "text": "Can’t wait to get back to Laramie for my OV this weekend!!!! @JaySawvel @CoachTripodi @Coach_SBMoore @CoachM_Schultz @CoachChristianT @Austin_Maus @samantha_patten @JamoBrown_ https://t.co/ipM1MKaU3l"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097442819677753793",
+          "author": "np4football_ot",
+          "searchJob": "class:2029",
+          "text": "Johnathon Hampton-QB-2029-AL @BamaStateFB Game Day Visit #CFB"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097452665210868141",
-          "author": "bbqboilermakers",
-          "searchJob": "purdue",
-          "text": "@TheJoe746 I don’t have an alternative match up. So, no clue what I’d offer up."
+          "postId": "2097450345735561475",
+          "author": "husker247bc",
+          "searchJob": "nebraska",
+          "text": "This is the last day for the kickoff special at Husker247. It offers full access to all our stories for a year at 75% off. Through the 2027 season opener while paying only a few bucks per month. Thanks for your readership. https://t.co/Vk1Z"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097445052695896174",
+          "author": "denverwestword",
+          "searchJob": "oregon",
+          "text": "There are plenty of lessons from the classic computer game that still apply today: https://t.co/xhl4vHEmmR https://t.co/ESBBj5etaN"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097380289844490743",
+          "author": "gratefulkeg",
+          "searchJob": "usc",
+          "text": "Anyone who thinks LSU can exit the SEC and just become Notre Dame has a gross misunderstanding of how Notre Dame became Notre Dame."
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097449924627468544",
-          "author": "tvforrvparks",
-          "searchJob": "arizona",
-          "text": "Tonto Creek Trail RV Park Offers Adult Community in Arizona https://t.co/qjADfpb8jE #outdoor #hospitality #rvparks #campgrounds https://t.co/H96eks8Sza"
+          "postId": "2097447807389167915",
+          "author": "joerpenta",
+          "searchJob": "colorado",
+          "text": "How about an offer to Bobby Wagner for one or two years!"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097432652370661664",
+          "author": "zacstevens",
+          "searchJob": "colorado",
+          "text": "Broncos tried out four players today: DB Dean Clark LB Jack Dingle DB Jack Henderson LB Emany Johnson"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 23,
+      "accepted": 0,
+      "rejected": 17,
       "reasons": {
-        "bare_mention_requires_llm": 17,
-        "school_not_resolved_confidently": 4,
-        "multiple_resolved_schools": 2
+        "author_not_recruit:different sport": 1,
+        "reporter_missing_position": 2,
+        "bare_mention_requires_llm": 8,
+        "unresolved_offer_target": 1,
+        "multiple_resolved_schools": 3,
+        "school_not_resolved_confidently": 1,
+        "reporter_missing_class_year": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097454243720397195",
-          "author": "michael_j_matt",
-          "searchJob": "north-carolina",
-          "text": "PASS THIS ALONG TO ANY CLERGY & RELIGIOUS YOU KNOW: I received the following letter in my inbox today, from a Catholic priest who will be in attendance at the CIC: Dear Mr. Matt, I want to thank you for the generous offer to priests and rel"
+          "reason": "author_not_recruit:different sport",
+          "postId": "2097464668692398448",
+          "author": "brynnbarley4",
+          "searchJob": "army",
+          "text": "After a great unofficial visit and conversation with Head Coach @KKuester15, I am blessed to receive a Division l offer to play at Army West Point. Thank you to the entire Army Staff for a great day! I can’t wait to continue building our re"
+        },
+        {
+          "reason": "reporter_missing_position",
+          "postId": "2097463484527043048",
+          "author": "yorkballers",
+          "searchJob": "army",
+          "text": "Congrats to 2029 Brynn Barley York Suburban HS Super Soph.. . She just Picked up at Offer From Army !! @brynnbarley4 #WhoDoYouTrainWith @bmmitochondrial @fourmcglynn1 @YorkSuburbanGB https://t.co/nkfbkjehWW"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097456269481365898",
-          "author": "gastankone_",
-          "searchJob": "ucf",
-          "text": "@HomeServeUSA My A/C went out of commission last night. So this morning, first thing I do is call HomeServe since I pay for this service. I set up something (no confirmed appointment or anything) in which a service technician would \"get bac"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097450180563873863",
-          "author": "freeukraine91",
-          "searchJob": "buffalo",
-          "text": "“Have mercy on me, O God, according to your steadfast love; according to your abundant mercy blot out my transgressions. Wash me thoroughly from my iniquity, and cleanse me from my sin! For I know my transgressions, and my sin is ever befor"
+          "postId": "2097460548762001409",
+          "author": "stablevortex",
+          "searchJob": "army",
+          "text": "Cloward–Piven Strategy to Collapse the System From Wikipedia, the free encyclopedia Jump to: navigation, search The Cloward–Piven strategy is a political strategy outlined in 1966 by American sociologists and political activists Richard Clo"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097444220222972118",
-          "author": "backhandeddevil",
-          "searchJob": "buffalo",
-          "text": "@Olz88 Word on the streets is that Buffalo is the offer to beat."
+          "postId": "2097444445964603711",
+          "author": "silverdaggerzzz",
+          "searchJob": "army",
+          "text": "@AdamKinzinger Or offer you a Kleenex Army Veteran"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097455698367877219",
-          "author": "facilities_nfmt",
-          "searchJob": "charlotte",
-          "text": "The Women Who Make it Work panel at NFMT East in Charlotte offers facility professionals something often missing from technical sessions: unfiltered insight into the human side of managing buildings and teams. https://t.co/HAeKmREiQE https:"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097461876003053640",
-          "author": "dianajong2012",
-          "searchJob": "coastal-carolina",
-          "text": "3 Hayley Williams tickets for Tomorrow concert avail for offer located at Coastal Credit Union Music Park - NC. Going below face with authentic proof of purchase and also flexible on carting, kindly directly message if interested, Thanks #T"
+          "postId": "2097438772136960155",
+          "author": "moderateright13",
+          "searchJob": "army",
+          "text": "No HAMAS and the Palastinian Terrorist who killed 1300 Jews on October 7th and the Palastinians that protect them are evil. The people knew who WAS HAMAS but protected them. HAMAS couldn't build command cebters under Mosque Cemetaries Schoo"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097457936624652711",
-          "author": "nycjewishnurse",
-          "searchJob": "coastal-carolina",
-          "text": "MYTH Jews stole Arab land. FACT Despite the growth in their population, the Arabs continued to assert that they were being displaced. From the beginning of World War I, however, absentee landlords in Cairo, Damascus, and Beirut owned part o"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097449862929490325",
-          "author": "oceancityre",
-          "searchJob": "coastal-carolina",
-          "text": "JUST REDUCED - $559,900 📍 38734 Soft Beach Circle, Selbyville, DE PRICED TO SELL &amp; $10,000 credit offered to use for closing costs or rate buydown! Skip the construction timeline, move right in now... More pics/info: https://t.co/dHKz5"
+          "postId": "2097466033246265698",
+          "author": "sbrrbhi",
+          "searchJob": "hawaii",
+          "text": "#TuesdayTip: The board reviews proposed &amp; existing administrative rules that may affect small businesses in Hawai‘i &amp; offers recommendations during the regulatory review process. https://t.co/9rQMlizShM #SBRRB #DBEDT https://t.co/Do"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097439997489991740",
-          "author": "rjbrown58_",
-          "searchJob": "coastal-carolina",
-          "text": "#AGTG 🙏 !! Coastal Carolina Offered !! #20 @CoachCParrott @RecruitTheHam @fordtough301 @CoachMullis3 @EzDexx https://t.co/s2aqgyvI2i"
+          "postId": "2097451413542420662",
+          "author": "stolenstuffhi",
+          "searchJob": "hawaii",
+          "text": "LOST ITEM: Reposting from Anonymous 💰 REWARD: $500 offered for safe return / information \"I lost my wallet last Thursday at Anna Obrien’s it’s a green and black camo wallet that says “A bathing ape” on it. It has two Id’s in it and 3 debit"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097439790903734378",
-          "author": "jucofootballace",
-          "searchJob": "coastal-carolina",
-          "text": "LaDarius Jemes @iam_ladarius1 @ Hutch JuCo @BlueDragonsFB picks up @CoastalFootball Offer @CoachDrewDallas https://t.co/cyoHfvGRy1"
+          "reason": "reporter_missing_position",
+          "postId": "2097456194118115358",
+          "author": "profilefblive",
+          "searchJob": "class:2028",
+          "text": "Texas A&amp;M has offered 4.0⭐ 2028 Edge Mikel Morgan from Columbia HS, FL. @Mikel__Morgan12 Rated (#303 NATL, #25 Edge, #47 FL) - 17 offers overall. https://t.co/srFVLAQXK7"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097437301781745751",
-          "author": "lastappai",
-          "searchJob": "alabama",
-          "text": "Alabama rental owners: Streamline your property management with Alabama HVAC Pros! We offer flat-fee HVAC installations plus free annual maintenance to protect your investment."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097461823096103347",
-          "author": "karas13133",
-          "searchJob": "missouri",
-          "text": "Missouri Campaign Accidentally Turns Into Bad Crime Comedy https://t.co/csGM147tui Then someone found the texts. “Okay, deny selectively.” Then came the recording. “Fine. New strategy.” One aide suggested: “That wasn’t mine.” Another offere"
+          "reason": "unresolved_offer_target",
+          "postId": "2097452422591307948",
+          "author": "profilefblive",
+          "searchJob": "class:2029",
+          "text": "🚨 First D1 Offer 🚨 2029 ATH Patrick Meyers lll from McCallie HS, TN has received his first D1 offer from Memphis. @patrick3meyers https://t.co/HxU75KKDKf"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097461335655137751",
-          "author": "magasfix",
-          "searchJob": "missouri",
-          "text": "🚨Breaking Justice Brett Kavanaugh spent Tuesday afternoon doing what this Court has made a habit of doing whenever a Republican legislature tries to finish a fight the other side already started, denying Missouri’s emergency request to use"
+          "postId": "2097461821963678142",
+          "author": "shaunadams_11",
+          "searchJob": "arkansas",
+          "text": "@IronHog2026 @LRTouchdownClub @CoachGusMalzahn @ArkRazorbacks @RazorbackFB @DavidBazzel Bc he used us to get auburn to raise their offer and stayed w them when we fired Bielema….so I think there was bad blood there for the big money guys."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097450206220386549",
-          "author": "realprestonhill",
-          "searchJob": "missouri",
-          "text": "So the 7-1 Missouri map is back for now, but who knows maybe another judge will swoop in and offer a different opinion! Total chaos!"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097460958595875265",
-          "author": "gregb_tx",
-          "searchJob": "ohio-state",
-          "text": "Ohio State Football Team drops to their knees and offer up prayers.... It's the moment they realized they have Texas up next. 😁🤘🏈 https://t.co/FgQ9A58ZhV"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097455486744268904",
-          "author": "buckeye937b",
-          "searchJob": "oklahoma",
-          "text": "Baker won Gets hardly any college offers, walks onto Tech, wins starting job. Gets pissed off at Tech, so he walks on again at Oklahoma Wins job, wins Heisman, goes no. 1 overall. Leads the Browns, yes Browns, to a playoff win. Browns destr"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097455221794648362",
-          "author": "907honest",
-          "searchJob": "oklahoma",
-          "text": "Mid-August 1935. Newspaper switchboards jammed. America was begging editors to say the telegraph from the Arctic was a mistake. One of the names on that wire was Will Rogers — the sharp-witted Oklahoma cowboy who, in the middle of the Depre"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097459876934910345",
-          "author": "randers36",
-          "searchJob": "ole-miss",
-          "text": "I've never seen college football programs so scared of a perfect match of a coach and program. No rule has been broken. The same players admitted that schools like Ole Miss offered them NIL deals. LSU looks dominant, and now they're trying "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097457841997230532",
-          "author": "dadbodblog",
-          "searchJob": "penn-state",
-          "text": "The @PardonMyTake crew need to listen to the With The Benefit of Hindsight Podcast by @Zigmanfreud for some insight on the Sandusky/Penn State story. Offers some unheard info, unique perspectives, and groundbreaking coverage."
+          "postId": "2097460012658360606",
+          "author": "unlresearch",
+          "searchJob": "nebraska",
+          "text": "In our most recent newsletter, Vice Chancellor for Research and Innovation Jennifer Nelson offers a look back at the summer’s accomplishments while looking ahead to what’s in store for the 2026-2027 academic year. Check the link! #WeAreNebr"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097448644651716845",
-          "author": "lions247",
-          "searchJob": "penn-state",
-          "text": "Offensive lineman schedules Penn State visit after Nittany Lions offer https://t.co/C00EFGxL4O https://t.co/ULetBUh2m2"
+          "postId": "2097452048249766318",
+          "author": "loveneverdies20",
+          "searchJob": "oregon",
+          "text": "@GoldenKnights @TMobileArena I don’t know the Ducks are going to be that good after the offer sheet thing and everything else this offseason. I’ve got us going back and forth with Edmonton and San Jose for number 1, with the Ducks in 4th"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097460414875410589",
-          "author": "projectionslab",
-          "searchJob": "arizona",
-          "text": "I lean Kansas City in this matchup. I make the Royals around a 60% favorite tonight, finding massive value on them as a virtual coin-flip in the market. The Fundamentals: This read comes down to a perfect storm of catalysts working against "
+          "postId": "2097463530794434820",
+          "author": "thelinedrive",
+          "searchJob": "usc",
+          "text": "Nobody is going to go live in the middle of a swamp without program that has decades of history behind it or is part of a collective of national prominence. USC can’t even get people to move to LA in the Big 10.Why would any1 choose LSU ove"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097455262328377699",
+          "author": "pamelasocfen",
+          "searchJob": "california",
+          "text": "Oh Annie!! That's criminal! I began as a na, nurse assistant Then became a CNA Then moved onto a 3 year Licensed Practical Nurse (Med and Psych) Then earned my BSRN after 10 years at LPN. Bottom up training makes the best nurses! I will loo"
+        },
+        {
+          "reason": "reporter_missing_class_year",
+          "postId": "2097449413337899504",
+          "author": "xelanusa",
+          "searchJob": "california",
+          "text": "Did you know we do not need a DMV at all? Driver’s licenses for private vehicles are not required. All the laws pertaining to driving are already on the books. If you drive and violate the law, the court will decide what to do—not the DMV. "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097452428987949176",
-          "author": "betwithtow",
-          "searchJob": "arizona",
-          "text": "Corbin Burnes makes his highly anticipated major-league return for Arizona against Kansas City following a fifteen-month injury layoff. Burnes enters Tuesday with verified pitch-shape confidence, though a strict 65-pitch restriction limits "
+          "postId": "2097463221414183089",
+          "author": "clemsonprez",
+          "searchJob": "clemson",
+          "text": "Touring CU-ICAR offered a firsthand look at Clemson’s future of mobility, where students, faculty and industry partners turn bold ideas into real-world innovation. This is Clemson at its best! https://t.co/DoDSPT1ehE"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097438850054557730",
-          "author": "victorrltw",
-          "searchJob": "arizona",
-          "text": "Pinal County made the right decision. Supervisors voted 4–1 to reject the La Osa data center project after residents raised serious concerns about water, power and long-term impacts on the community. The developer had already reduced the pr"
+          "reason": "multiple_resolved_schools",
+          "postId": "2097441524782862348",
+          "author": "kenricward",
+          "searchJob": "clemson",
+          "text": "@Titan_Cane @ClemsonFB FSU offered Dabo the job of chief electrician at Dark Campbell Stadium."
         }
       ]
     },
@@ -357,21 +355,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 24,
-      "failed": 2,
+      "swept": 26,
+      "failed": 0,
       "requests": 26,
-      "errors": [
-        "army: SearchTimeline JSON unreadable (slice left pending)",
-        "central-michigan: SearchTimeline JSON unreadable (slice left pending)"
-      ]
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 23,
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 17,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-08T23:13:39.938Z"
+    "status rebuilt locally from current store on 2026-09-08T23:28:28.336Z"
   ]
 }
