@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T16:44:26.210Z",
+  "generatedAt": "2026-09-08T17:13:24.794Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-08T16:44:25.881Z",
+    "at": "2026-09-08T17:13:24.527Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7821338888888889,
-    "p95Hours": 1.7952222222222223,
-    "worstHours": 1.7952222222222223
+    "medianHours": 0.7817011111111111,
+    "p95Hours": 1.7843344444444444,
+    "worstHours": 2.0298441666666664
   },
   "decisionCoverage": {
-    "total": 97,
-    "decided": 97,
+    "total": 61,
+    "decided": 61,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 42
   },
-  "paginationBacklog": 2,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 890,
     "incompleteOffers": 0
@@ -55,380 +55,379 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-08T16:44:25.880Z",
-      "got": 136,
-      "new": 97,
-      "lag": 0.04
+      "at": "2026-09-08T17:13:24.527Z",
+      "got": 99,
+      "new": 61,
+      "lag": 0.08
     }
   },
   "audit": {
-    "at": "2026-09-08T16:42:36.355Z",
+    "at": "2026-09-08T17:11:41.366Z",
     "mode": "live",
     "collection": {
-      "returned": 136,
-      "kept": 97,
-      "duplicate": 39,
-      "tooOld": 0,
+      "returned": 99,
+      "kept": 61,
+      "duplicate": 37,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 49,
-      "rejected": 48,
+      "accepted": 35,
+      "rejected": 26,
       "reasons": {
-        "no_fbs_school": 22,
-        "no_offer_term": 16,
-        "hard_negative": 5,
-        "non_fbs_offer_target": 5
+        "no_offer_term": 15,
+        "no_fbs_school": 10,
+        "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2097352352361574853",
-          "author": "antoniodukes13",
-          "searchJob": "james-madison",
-          "text": "Blessed to receive my division 1 offer from MercyHurst 🙏🏽 @sirtrich @CoachRivers8 @OhiosElite1 @PrepRedzoneOH @WGHFootball @DavidBaugh_02 https://t.co/uiJljT24IC"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097339425302966370",
-          "author": "upgradeamerican",
-          "searchJob": "north-texas",
-          "text": "@LucidMotors is expanding in the Dallas area. On the fence about Lucid. Go and check out what they have to offer. https://t.co/X3XpGmdJSX"
-        },
-        {
           "reason": "no_offer_term",
-          "postId": "2097083006619910602",
-          "author": "chipbrown247",
-          "searchJob": "ohio",
-          "text": "In front of ESPN's College GameDay, a prime-time TV audience of perhaps 20 million and in front of all the doubters, Texas' Arch Manning gets a chance to show the CFB world he's an elite quarterback against No. 1 Ohio State Saturday night. "
+          "postId": "2097345592850878603",
+          "author": "lilytranrealtor",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "📷 I am thankful and blessed to receive A NEW RAVE Google review, Wooooohooooo!!! 📷📷📷📷📷📷 📷 Thank you, Minh Tran, for your rave review and for sharing your experience. I'M THRILLED AND HONORED! Thank you so much for trusting and allow"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097345400210375030",
+          "author": "jj_greatness",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an official offer from DBCU!! @coachbconover @DBCU_Football @coachnate56 @CoachDixonTyme4 @RecruitGeorgia https://t.co/1W6RgwebkZ"
         },
         {
           "reason": "hard_negative",
-          "postId": "2097354281225449633",
-          "author": "ccvpolicy",
-          "searchJob": "ohio",
-          "text": "We need visionary leaders dedicated to excellence, holiness, and God's truth now more than ever. That is why we are honored to welcome Bishop Patrick L. Wooden, Sr. as a keynote speaker at the 2026 Essential Summit on October 23 in Columbus"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097352684873601441",
-          "author": "autotextme",
-          "searchJob": "ohio",
-          "text": "\"A CSR to me, and I think to everybody else, is somebody that's hired to make everybody else's job easier.\" That's Skyler Mayne, CSR at Mighty Auto Pro in Medina, Ohio, giving what might be the cleanest definition of the role you'll hear. C"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097345253304873141",
-          "author": "gerryriver55569",
-          "searchJob": "ohio",
-          "text": "@Gudjulaseamless @8BrianVogel4 @CivilLost @Bumpalump99 @KRHcalm @AdamPiersen @LibLivingIn1984 @TreatHunterDog @EvyKnight1776 @lemmabarkaloo @Bruh888888888 @jeffsmith0000 @H18694H @nobullhogg @ArtaxTheWhite @Supersonic1019 @PoliticalAnt @Vic"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097361792758329451",
-          "author": "mattrice19",
-          "searchJob": "rice",
-          "text": "@TomGradyxici @SteveSmith72851 @madras_bertha There are weed stores literally all over the place, they don't offer pills or acid either. You fucking idiot"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097340553398796569",
-          "author": "sherriricere",
-          "searchJob": "rice",
-          "text": "Great storage can change how a home feels. 🏡 A walk-in wardrobe offers space and a boutique feel, while built-ins keep things sleek and streamlined. Both add style and function, but which would you choose? 💬 Team walk-in or team built-ins"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097338875924603148",
-          "author": "lofi_chill82733",
-          "searchJob": "rice",
-          "text": "Napoli 🔵 vs Arsenal 🔴 CL, League Phase Napoli’s Attack 🔵 vs Arsenal’s Defence 🔴 Napoli’s Attack 🔵 McTominay and Buongiorno are out injured. They alternate between a 1-3-4-3 and a 1-4-1-2-3. In the attacking third, both systems become a"
+          "postId": "2097363149452452294",
+          "author": "usdmbbguy",
+          "searchJob": "san-jose-state",
+          "text": "Jaylen Smith is a 6'1\", point guard from Amador Valley (CA) Rated No. 164 nationally and No. 25 among point guards in the 247Sports Composite Smith held offers from New Mexico, UCSB, San Francisco, LMU, Pepperdine, Weber State, Montana and "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097345272854585807",
-          "author": "jordannavawr",
-          "searchJob": "utep",
-          "text": "EXCITED and BLESSED to receive a gameday invite to @UTEPFB ❗️❗️✝️ @CoachSWUTEP @CoachSampson3 @AndyTownsend72 @CoachPardee https://t.co/wY6gaHsjSq"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097115753975521698",
-          "author": "miamihurricanes",
-          "searchJob": "florida",
-          "text": "The lights are ON at our house 😉 See YOU at Hard Rock on Thursday 🙌 https://t.co/DRElnDpKWU"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097345589583208755",
-          "author": "smittyandr",
-          "searchJob": "florida",
-          "text": "&gt;start RTTS &gt;pitcher &gt;pitch ok in high school &gt;offers from Virginia, Stanford, Wake Forest, Florida &gt;nice &gt;eat shit in high school championship, give up 4 runs in the 1st, relieved in the 3rd &gt;can only commit to Virgini"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097302659510259962",
-          "author": "gatorsonline",
-          "searchJob": "florida",
-          "text": "\"Coach Sumrall and coach Chatman told me they want me and they’re going to come get me.\" 😳 Florida just made a BIG move with a major DL target. 🔥🐊 THE LATEST: https://t.co/CebSIsSlGb (On3+) Pay ONLY $1 for @GatorsOnline 👀: https://t.co/"
+          "postId": "2097009753289568362",
+          "author": "usdmbbguy",
+          "searchJob": "san-jose-state",
+          "text": "JR Blount and co get another intriguing prospect commit 🔥 Jaylen Smith (HS c/o 2027 / @JaylenSmith_09 ) These Toreros are Getting Better Daily #GBD #GoToreros https://t.co/OX7379yj5P"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097341999955235149",
-          "author": "neworpk",
-          "searchJob": "florida",
-          "text": "@Matt_Bracken48 @el_roding @FUDdaily Aren’t you the traitor? It’s like you’re saying “Oh look. Ppl in Florida are thick and this is the best my country has to offer”. Almost as bad as having a president who is its greatest intellectual emba"
+          "postId": "2097371555797889068",
+          "author": "louisvillebats",
+          "searchJob": "louisville",
+          "text": "Our first deal of the homestand! 🙌 Make sure to stop by the Team Store and grab this offer today only! https://t.co/Ak8ZJmwh6i"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097340148589679018",
-          "author": "hypesouthmedia",
-          "searchJob": "georgia",
-          "text": "@Go_Gryphons forward Ava Jenkins is one of the top overall prospects in Georgia. The junior standout comes in at 13th overall and 2nd at her position in @SandysSpiel’s class of 2028 Preseason Player Rankings. Offers: FAMU, Mercer + more."
+          "postId": "2097369967003877744",
+          "author": "miamisprings",
+          "searchJob": "miami",
+          "text": "LITTLE LEARNERS Miami Springs Montessori School offers hands-on Montessori activities for children ages 18 months through Kindergarten that encourage confidence, independence, and responsibility. Call 305.883.0012 or visit https://t.co/wjoe"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097307739152060436",
-          "author": "kylesandy355",
-          "searchJob": "georgia",
-          "text": "2028 Girls Player Rankings Top 10 Power Forwards @LorielMurray_52 @avajenkins_1 @jaziyah_foster @Brenley_rae @KamriSande77946 @Samyya_Gilbert @parishtwin @KArnett2028 @paisleyc23 @hoopz_cherry FULL RANKINGS: https://t.co/VsMM4jy7cs https://"
+          "postId": "2097368377106862253",
+          "author": "c_k_s__",
+          "searchJob": "miami",
+          "text": "https://t.co/YNIKsl98Z8"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097364162816934125",
-          "author": "np4football_ot",
-          "searchJob": "indiana",
-          "text": "Connor Blevins-OL-2028-KY @IndianaFootball Game Day Visit #CFB"
+          "postId": "2097367234901602387",
+          "author": "stakesportsbet",
+          "searchJob": "miami",
+          "text": "PICK OF THE DAY #1 Football — September 9, 2026 Chicago Fire vs Inter Miami Bet: Inter Miami Market: 1x2 Odds: 2.75 https://t.co/xJKcirmcRX ─────────────────── SAME GAME PARLAY #1 — 4 Legs Football — September 9, 2026 Real Madrid vs Rayo Va"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097041522235465942",
-          "author": "connorblevins9",
-          "searchJob": "indiana",
-          "text": "Looking forward to being back in Bloomington this weekend for some @IndianaFootball. Thanks @MattWilsonDPP for the invite! @PCHSFB @CoachRoberts_PC @coachstonePCFB @JMobleyOCL @Coach_Gross_ @coach_Meece @Coach_Brady @KYFUTURESTARS https://t"
+          "postId": "2097349926602629151",
+          "author": "idontexisttore",
+          "searchJob": "miami",
+          "text": "Ordering the murder of a judge or prosecutor in Ecuador is, statistically, among the safest crimes you can commit. Triggermen get convicted. The people who order it do not. Part V. https://t.co/rgjZoRbvUj"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097347389203849670",
+          "author": "savewithcastle",
+          "searchJob": "miami",
+          "text": "https://t.co/Hib5eZZHyK"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097357929305313720",
-          "author": "nwinews",
-          "searchJob": "indiana",
-          "text": "Support available for storm-affected neighbors offered by United Way https://t.co/5vgd2eeWi1 #NWILife"
+          "postId": "2097346406952370197",
+          "author": "darkwebinformer",
+          "searchJob": "miami",
+          "text": "🚨🇺🇸 Miami-Dade County government data allegedly breached, 1.9M records offered for sale ⠀ Miami-Dade County, Florida’s most populous county, is named in a cybercrime forum post where a threat actor claims to have compromised an official "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097355313309499583",
-          "author": "uoflhealth",
-          "searchJob": "kentucky",
-          "text": "FIRST IN KENTUCKY | UofL Health – Frazier Rehabilitation Institute is the first rehabilitation center in Kentucky to offer the Rise&amp;Walk InClinic, the world’s first three-in-one robotic rehabilitation station. 🔗 https://t.co/z8SFin707D"
+          "postId": "2097360472596955404",
+          "author": "okstate",
+          "searchJob": "oklahoma-state",
+          "text": "#okstate unveils two new, modern facilities 🐴🌱 The 275,000-square-foot veterinary teaching hospital will advance veterinary education, provide teaching and research spaces and feature modern equipment. Additionally, the Agronomy Discovery"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097353138835476778",
-          "author": "ukwildcatswire",
-          "searchJob": "kentucky",
-          "text": "Kentucky jumps into the mix for 2029 QB Lord Malik Heru 📸 Jeff Faughender/Courier Journal, USA TODAY Network via Reuters Co https://t.co/5GoFmJMoBp https://t.co/7zlDjbFOxI"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097345276767785064",
-          "author": "chumpride",
-          "searchJob": "kentucky",
-          "text": "@eurofounder Similar here. My nephew is a Rocket Scientist in Moldovia. He gets 23 grand a year. He also was offered 750 grand plus rented villa to work for Elon Musk in Kentucky. He said \"No\"."
+          "postId": "2097370252153663958",
+          "author": "reynoir_will",
+          "searchJob": "texas-tech",
+          "text": "I published this piece all about @Nominal_io on my blog a couple weeks ago, but realize I never posted about it on X. The blog goes over: - The definition of tech - Why testing is crucial for hardware - What Nominal is - Why it will win Hop"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097346080148996362",
-          "author": "rossdellenger",
-          "searchJob": "lsu",
-          "text": "The SEC has scheduled a meeting Thursday to \"decide whether to terminate Louisiana State University (“LSU”) as an SEC member institution pursuant to Section 3.1.5 of the SEC Constitution and Bylaw.\" https://t.co/mpp5aGES3H"
+          "postId": "2097363216955580530",
+          "author": "mike_scully_",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/zIziHIFBBs"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097358357430673448",
+          "author": "aletheiacapital",
+          "searchJob": "texas-tech",
+          "text": "AAN Portfolio Strategy: End August Update Our two tech portfolios continued to recover in August after a brutal July. The Tech Alpha Portfolio (AAN-TAP) has now outperformed the Nasdaq by 56% year to date (197% since inception in July 2025)"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097364780386554207",
-          "author": "moradfiki",
-          "searchJob": "texas",
-          "text": "Some people picture a backyard where kids and pets can run, and gardens can grow. Others would rather spend their weekends relaxing than mowing the lawn. A low-maintenance outdoor space offers all the enjoyment of being outside with far les"
+          "postId": "2097361057182290181",
+          "author": "comforttechhvac",
+          "searchJob": "texas-tech",
+          "text": "⎐تُيموُ⎐ ⊵TEU85⊴ ▬المطار▬ ⊵M2⊴ ⎐نون⎐ ⊵VG67⊴ ⎐نمشي⎐ ⊵JMM⊴ 〖كـُــــــــود خـصـمــ〗 Aim Great Offer nZw https://t.co/lFtGBN4pTg"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097360319932981754",
+          "author": "qz",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/YXyOHyCHVP"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097357741777973718",
+          "author": "brandon_tech79",
+          "searchJob": "texas-tech",
+          "text": "@kenpozek Live look at their face while being butt hurt about your offer.. https://t.co/udS4ao4Ro0"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097141886545019176",
+          "author": "news24tvchannel",
+          "searchJob": "texas-tech",
+          "text": "दिल्ली में मणिपुरी संगीतकार सी विक्रम सिंह की पीट-पीटकर हत्या की गई ◆ शोर और शराब पीने का विरोध करने पर 54 वर्षीय संगीतकार पर हमला हुआ था ◆ डिलीवरी बॉय और ढाबा कर्मचारियों पर मारपीट का लगा आरोप ◆ इलाज के दौरान हुई मौत, पुलिस ने शुरू की मामल"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097369579714449884",
+          "author": "platinumconsol",
+          "searchJob": "utah",
+          "text": "Modern, durable, and easy to maintain, polished concrete offers many benefits. Our concrete polishing experts create finishes that impress. Make your floors the highlight of your property! #ConcretePolishing #ConcreteMaintenance https://t.c"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097359033254490334",
+          "author": "aviationintelhq",
+          "searchJob": "utah",
+          "text": "Breeze Airways has officially retired its last Embraer E190, completing its transition to an all-Airbus A220 fleet. The Utah-based carrier now operates 59 A220s, with nearly 40 more on order. Every flight now offers premium seating options."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097368442068451549",
+          "author": "astronautsauce",
+          "searchJob": "virginia",
+          "text": "@SquidbillyCPO1 @seanmdav AQ was headquartered in Virginia, Los Angeles, and Khartoum. We never went after them. We even refused Sudan's offer to hand over the intelligence they had gathered on the network. Then the Jews who call themselves"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097371015248540151",
+          "author": "0xsero",
+          "searchJob": "wake-forest",
+          "text": "Do you want to be free? https://t.co/ftwmoS9xAo"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097354232357933141",
+          "author": "01s_optimizer",
+          "searchJob": "wake-forest",
+          "text": "https://t.co/eEV8i1DTZC"
         }
       ]
     },
     "extraction": {
-      "accepted": 4,
-      "rejected": 45,
+      "accepted": 0,
+      "rejected": 35,
       "reasons": {
-        "multiple_resolved_schools": 10,
-        "bare_mention_requires_llm": 33,
-        "school_not_resolved_confidently": 1,
-        "reporter_missing_player_name": 1
+        "multiple_resolved_schools": 3,
+        "school_not_resolved_confidently": 27,
+        "reporter_missing_player_name": 1,
+        "bare_mention_requires_llm": 4
       },
       "samples": [
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097358759391637808",
-          "author": "chipbrown247",
-          "searchJob": "ohio",
-          "text": "LAST CHANCE!!! This steal of an offer to become an annual member at @Horns247 ENDS TODAY!! So much VIP Texas-Ohio State content up right now! Just click below to grab it before it’s gone! https://t.co/NnLsmUXYpE https://t.co/nlbXbgNsN6"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097344234109993215",
-          "author": "iucohio",
-          "searchJob": "ohio",
-          "text": "What happens when students are encouraged to ask questions? @KentState offers a great example of how Ohio’s public universities help prepare students to be engaged citizens and leaders: https://t.co/Z3eCXpMbZ0 #OhioHigherEducation #CivicEng"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097358858825924851",
-          "author": "thefitnesswhisp",
-          "searchJob": "rice",
-          "text": "Biryani rice typically made with aromatic basmati rice offers several nutritional advantages over standard white rice, primarily due to its lower glycemic index and the therapeutic spices infused during cooking. #foodie #eatinghealthy #heal"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097357767078277156",
-          "author": "biasedninersfan",
-          "searchJob": "rice",
-          "text": "@BlitzBron smb offered me rice for skattebo i shouldn’t do it right ?"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097355774066315442",
-          "author": "_ahmedsh14",
-          "searchJob": "rice",
-          "text": "Last season, Havertz was injured for a large part of it, and with a striker like Gyokeres who isn't particularly mobile you needed different solutions. One of them was having the FB pin the opposition player, which would create more 1v1 sit"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097349947687608599",
-          "author": "himalaytrekker",
-          "searchJob": "rice",
-          "text": "Today's Anegudde Sri Vinayaka Alankara from Kumbhasi, Kundapura 🌹 Anegudde Sri Vinayaka is very fond of \"khotte kadabu\", an Idli delicacy cooked in leaves of Mundaka. So devotees offer Him kadabus, made from one seru to twelve mudis – abou"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097349068896809149",
-          "author": "afcdxniel_",
-          "searchJob": "rice",
-          "text": "deadass got offered rice with no form of protein https://t.co/2fR9DOjvl6"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097341897010295276",
-          "author": "marinamurphy93",
-          "searchJob": "rice",
-          "text": "Well, I’m trying to offer solutions, because I do think you’re coming at this wrong. So with your burrito example: 1. I’ve pointed out that making street food at home is a bit inconvenient and it makes more sense to simply find other staple"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097339459997966707",
-          "author": "riceunews",
-          "searchJob": "rice",
-          "text": "A new Rice study offers insight into what motivates people to vote and what may influence whether they actually cast a ballot. https://t.co/drBEtm9uq9 https://t.co/Qu3oCF9jgE"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097338497908785489",
-          "author": "tgrising2047",
-          "searchJob": "rice",
-          "text": "🌾 Telangana strengthens agri-trade ties with the Philippines! Minister @UttamINC met Philippine Agriculture Secretary Francisco P. Tu Laurel Jr. in New Delhi for talks on boosting rice exports & bilateral trade. Telangana, among India's to"
+          "postId": "2097342590043775318",
+          "author": "lawr32384",
+          "searchJob": "old-dominion",
+          "text": "CanaryMedia: \"Virginia to cut rooftop solar costs with nation-first bulk-buy program,\" by Elizabeth Ouzts. \"Last month, Virginia became the first state...to launch a bulk-purchasing campaign for rooftop solar—a move that promises to bring d"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097350750724903205",
-          "author": "utahstatebar",
-          "searchJob": "utah-state",
-          "text": "📖 The September/October issue of the Utah Bar Journal is here! Volume 39, No. 5 features timely perspectives and practical insights for Utah’s legal community. In this issue: ⚖️ The State of the Third District Court — Hon. Adam T. Mow offe"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097351311985361361",
-          "author": "theeventlady",
-          "searchJob": "florida",
-          "text": "We share one of our Featured businesses on Florida Weddings and Special Events Magazine, Florida, Leyva PhotoMax - @leyvaphotomax They offer an elegant option for your celebration. - We invite you to Flip our bilingual magazine’s full size "
+          "postId": "2097366941602079051",
+          "author": "senor_chickles",
+          "searchJob": "baylor",
+          "text": "You think playing Oklahoma State, Baylor, Arizona, and West Virginia wouldn't be boring compared to playing Alabama, A&M, Ole Miss and Auburn. We have a VERY different appreciation for what the SEC offers on a week in and week out basis. I "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097351138362147038",
-          "author": "sooweigohh",
-          "searchJob": "florida",
-          "text": "4 months ago i shut down an offer doing $400,000 a month i did it because i made myself one promise in two years i want to fit 10,000 people in a single stadium talking about personal branding and december is where that starts we're hosting"
+          "postId": "2097359081002451268",
+          "author": "rrovito",
+          "searchJob": "miami",
+          "text": "@eric_nehm @TheAthletic Congrats on the new gig and the new challenge, Eric! A well-deserved opportunity. Enjoy South Beach and Brickell and all Miami has to offer. I look forward to your coverage."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097355835483598994",
+          "author": "kaufsports",
+          "searchJob": "miami",
+          "text": "⚽️ 🗣️ Telasco Segovia said his dream is still to play in Europe, he had some loan offers in the summer window, but for now he is focusing on Inter Miami. @MiamiHerald @HeraldSports #InterMiami #MLS https://t.co/kLPRkCXpY6"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097353463235588269",
+          "author": "uphonestreal",
+          "searchJob": "miami",
+          "text": "🏷️🔥 PEOPLE DON’T WANT MORE COUPONS. They want to know: “AM I ACTUALLY GETTING THE BEST DEAL?” Today, saving money online is strangely inefficient. Search Google. Open five tabs. Join an email list. Try three coupon codes. Discover two are"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097352889043677254",
+          "author": "nolegrl96",
+          "searchJob": "miami",
+          "text": "@eric_nehm @Alf954 @TheAthletic Welcome to the 305! It's gonna be a fun year and a fun team ~ ENJOY the sun, ocean, food and everything Miami has to offer, including covering one of the top organizations in the league 🔥"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097348624132776189",
+          "author": "peter_gonz11",
+          "searchJob": "miami",
+          "text": "just accepted a job offer in miami (Miramar) 😇"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097347194193928688",
+          "author": "uphonestreal",
+          "searchJob": "miami",
+          "text": "🎨 THE ART MARKET HAS A DISCOVERY PROBLEM. A collector wants: Original art. A statement piece. Something local. Something under $2,000. Something nobody else has. An emerging artist before prices climb. A work that actually fits the wall. S"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2097360108187537686",
+          "author": "douchegossage",
+          "searchJob": "pittsburgh",
+          "text": "@DissidentMedia Or possibly it could be a contract offer from the Pittsburgh Steelers cuz that bitch looks like a linebacker"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097371360603640143",
+          "author": "paulhovley",
+          "searchJob": "texas-tech",
+          "text": "Been a while! A brief update on Ebb and QuoteThat: About a year ago I decided to pause work on Ebb and work on a new project with Chesten Kesselhon called https://t.co/iMov7As8Kx. Chesten is a hard working family man in Milwaukee that has m"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097369652548764052",
+          "author": "moneycontrolcom",
+          "searchJob": "texas-tech",
+          "text": "Qualcomm strikes AI chip deal with Amazon, offers right to buy about $4 billion in stock -Amazon to buy up to $60B in Qualcomm AI chips. -Qualcomm granted Amazon $4B in warrants. -Partnership focuses on AI inference and optical tech. Read M"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097368826014748853",
+          "author": "vthokiesonsi",
+          "searchJob": "texas-tech",
+          "text": "Staff writer @jduncanVT offers a bowl projection for the #Hokies following their 73-3 season-opening drubbing of VMI: https://t.co/kHjKusiY1Q"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097367202223562785",
+          "author": "esu_idonge10665",
+          "searchJob": "texas-tech",
+          "text": "I want to release a limited offer, something to help me build my tech stack. It's also to help new founders and creatives to build their brand. It's a merge of brand Kit, web design and social media design all for free. DM if you're interes"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097366946115391529",
+          "author": "changing_aging",
+          "searchJob": "texas-tech",
+          "text": "Anyone can become a target in job scams, fake products, romance scams and cryptocurrency investment fraud. The “tech support” scam in which you receive an unsolicited email stating that your computer has malware and needs updating is the mo"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097366551125012773",
+          "author": "arrondagreat",
+          "searchJob": "texas-tech",
+          "text": "@RayTuthill @EliotShorrParks I know they lost Dexter Lawrence. But DJ Reader is a solid 0 tech. Burns, Carter, Reese (situationally), and Thibodeaux offer the best collection of edge rushers in the div. I think Philly &amp; Dallas are bette"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097365333304909953",
+          "author": "bazenga_mkuru",
+          "searchJob": "texas-tech",
+          "text": "Through the launch of the NBO2 Data Centre, Kenya is boosting its tech capabilities significantly. This facility offers top-tier security and connectivity, positioning the nation as an attractive hub for global tech investors and AI project"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097364606448484393",
+          "author": "drewnelson13",
+          "searchJob": "texas-tech",
+          "text": "@rcb05 Tech must be afraid to play us if they don’t immediately respond to this obviously possible and valid offer."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097361520594493599",
+          "author": "alinaqvi808",
+          "searchJob": "texas-tech",
+          "text": "If you can stomach periodic major drawdowns and don’t use excessive le stage (ie don’t get wiped out), the tech sector undoubtedly offers the best opportunities for capital appreciation. The portfolio returns below are unlevered, have low t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097360432608506047",
+          "author": "keytravel",
+          "searchJob": "texas-tech",
+          "text": "UK National Air Traffic Services says it has \"implemented a fix\" to the tech issue that led to the cancellation of hundreds of flights. Pls check with your airline for the latest advice before heading to the airport. They'll be able to offe"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097356799925956914",
+          "author": "carlweische",
+          "searchJob": "texas-tech",
+          "text": "The thing most people do wrong when they try to increase AOV is only thinking about price, bundles, & upsells. That’s 50% of it. & if you only focus on those (especially price) there’s a big chance you’ll decrease CVR more than you increase"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097356416734441793",
+          "author": "dailytechonx",
+          "searchJob": "texas-tech",
+          "text": "Apple is introducing a new Health feature: Readiness—an app built off Vitals data to offer daily recovery insights. Launching alongside Apple Watch Series 12 & Ultra 4, Readiness competes with Whoop & Oura by delivering readiness scores bas"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097356398661341501",
+          "author": "_therahulyadav",
+          "searchJob": "texas-tech",
+          "text": "Who's living in Delhi, bro. That place is h#ll. I have rejected so many job offers coming from Delhi-NCR based tech companies even when they were giving me a decent hike."
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097347881472872585",
-          "author": "thenumberdesk",
-          "searchJob": "florida",
-          "text": "The lights are on at Miami's house. So is a 55.5-point spread. Miami is laying fifty-five and a half to Florida A&amp;M on Thursday, and the moneyline isn't even offered — the book won't put a price on how sure it is. https://t.co/u5IveQkjT"
+          "postId": "2097369027190386779",
+          "author": "rickyhle",
+          "searchJob": "virginia",
+          "text": "The post here is 100% Truth and NOTHING BUT THE TRUTH. I will be prosecuted to the full extent of the laws of Virginia and the laws of the United States of America if the details provided in my story are untrue. The Good Fortune Supermarket"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097347136421593376",
-          "author": "maxbernstein23",
-          "searchJob": "florida",
-          "text": "Patrick Durkin on choosing Florida: \"Entering the portal, I had every offer I could ever dream of ... But there's been so many great specialist here. I want to raise that bar to be even better.\" @alligatorSports"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097345524248490462",
-          "author": "chadsimmons_",
-          "searchJob": "florida",
-          "text": "Fast-rising 2028 EDGE in Florida adds A&amp;M offer. @JosephAHastings"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097345072308101437",
-          "author": "corey_bender",
-          "searchJob": "florida",
-          "text": "This kid is a wrecking machine. 40-plus offers and Florida is making a very strong case…"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097344624268349625",
-          "author": "vicspicks",
-          "searchJob": "florida",
-          "text": "🌴 2.73 ACRES IN NAPLES! 🌴 Dreaming of building your own Florida getaway? This Golden Gate Estates property offers space, nature, and opportunity! https://t.co/9zfytedvDl"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097358514444525771",
-          "author": "d_xelly",
-          "searchJob": "georgia",
-          "text": "@movethecharts .5 sol &amp; a mcchicken. final offer. free the dawgs https://t.co/iFleGzgoBP"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097354278226764277",
-          "author": "jf_newyork",
-          "searchJob": "georgia",
-          "text": "🎎9/19-9/20 (next weekend!): @atljapanfest brings a taste of Japan to Georgia and the Southeast. This #japaneseculture family-friendly festival offers plenty of food, workshops, activities for children, vendors selling Japanese goods and mo"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097353060624597324",
-          "author": "levimadarieta7",
-          "searchJob": "georgia",
-          "text": "@_sweetie_sitake @XRPBYU Truth!!! It’s the same situation that BSU had with Ashton Jeanty!! He was offered by LSU &amp; Georgia 3-4x what he was getting at BSU but because of @Coach_SD and their relationship, he stayed!! The same will be an"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097347866494689499",
-          "author": "lokdsnur",
-          "searchJob": "georgia",
-          "text": "@Whelmed_ Not as bad as conporium they the only internet offered in my area and they suck they go out at least twice a month and even tho I get 800 down i only get 15 up and somehow I get 40+ ping to everywhere except Georgia and there I on"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097340936057446773",
-          "author": "tgdspecialist",
-          "searchJob": "georgia",
-          "text": "🚨 BIG NEWS — ONYX ODDS IS NOW ONYX PREDICTIONS!🚨 The app is officially rebranded, and it should now be available to everyone who didn't have it before! 📲 💰 New Welcome Offer: Deposit $10 and get $50 in Bonus Picks! ⚡ LIMITED-TIME SUPERB"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097361825130324094",
-          "author": "homeiasite",
-          "searchJob": "indiana",
-          "text": "Compare the cost of living in Indiana vs. Tennessee, including housing, taxes, utilities, healthcare, transportation, and everyday expenses to see which state offers better value for your budget and lifestyle. https://t.co/tN9lNK4b5t https:"
+          "postId": "2097354976095846877",
+          "author": "coastalvalaw",
+          "searchJob": "virginia",
+          "text": "After an unfavorable divorce ruling, the correct appellate path matters. A missed step can affect review. Coastal Virginia Law offers free consultations to discuss appeal options( without promising a particular result.)"
         }
       ]
     },
@@ -442,12 +441,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 4,
-      "rejectedCandidates": 45,
-      "brandNewOffers": 3
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 35,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-08T16:44:26.213Z"
+    "status rebuilt locally from current store on 2026-09-08T17:13:24.797Z"
   ]
 }
