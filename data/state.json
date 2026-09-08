@@ -38577,17 +38577,36 @@
     "2097340277971144862",
     "2097339213977178482",
     "2097323346748706952",
-    "2097333061033803986"
+    "2097333061033803986",
+    "2097354248493093127",
+    "2097353519296631218",
+    "2097351761120157949",
+    "2097351252208488575",
+    "2097349356320125389",
+    "2097348339331473909",
+    "2097341689778106837",
+    "2097335648898174995",
+    "2097333229543895327",
+    "2097354413044019700",
+    "2097346745365574135",
+    "2097346295031619827",
+    "2097339347917832583",
+    "2097334749467451516",
+    "2097331957310824812",
+    "2097356841172783158",
+    "2097341988077027352",
+    "2097354858068066314",
+    "2097339120380940508"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-09-08T15:59:23.666Z",
-      "got": 71,
-      "new": 43,
-      "lag": 0.05
+      "at": "2026-09-08T16:12:29.623Z",
+      "got": 34,
+      "new": 19,
+      "lag": 0.04
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -38919,9 +38938,9 @@
       "truncated": false
     },
     "california": {
-      "at": "2026-09-08T14:12:59.431Z",
+      "at": "2026-09-08T16:12:03.561Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 7,
+      "lastPosts": 17,
       "truncated": false
     },
     "cincinnati": {
@@ -39123,15 +39142,15 @@
       "truncated": false
     },
     "notre-dame": {
-      "at": "2026-09-08T14:12:59.431Z",
+      "at": "2026-09-08T16:12:03.561Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 7,
+      "lastPosts": 9,
       "truncated": false
     },
     "uconn": {
-      "at": "2026-09-08T14:12:59.431Z",
+      "at": "2026-09-08T16:12:03.561Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 2,
+      "lastPosts": 5,
       "truncated": false
     },
     "phrase:\"has offered\" recruit": {
@@ -39141,9 +39160,9 @@
       "truncated": false
     },
     "air-force": {
-      "at": "2026-09-08T14:12:59.431Z",
+      "at": "2026-09-08T16:12:03.561Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 5,
+      "lastPosts": 3,
       "truncated": false
     },
     "akron": {
@@ -39673,11 +39692,11 @@
   "lastRateLimitAt": "2026-09-04T23:26:13.448Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-09-08T15:59:23.667Z",
+    "at": "2026-09-08T16:12:29.623Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 4,
+    "requests": 6,
+    "fullSweepCycles": 41
   },
   "backfill": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -39697,332 +39716,168 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-09-08T15:57:30.513Z",
+    "at": "2026-09-08T16:12:03.546Z",
     "mode": "live",
     "collection": {
-      "returned": 71,
-      "kept": 43,
-      "duplicate": 28,
+      "returned": 34,
+      "kept": 19,
+      "duplicate": 15,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 25,
-      "rejected": 18,
+      "accepted": 10,
+      "rejected": 9,
       "reasons": {
-        "no_fbs_school": 7,
-        "no_offer_term": 9,
-        "hard_negative": 2
+        "hard_negative": 1,
+        "no_offer_term": 3,
+        "no_fbs_school": 5
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2097352168240001358",
-          "author": "rhallnj",
-          "searchJob": "delaware",
-          "text": "@commons96055467 I would offer him the consolation that he will soon be dealing with fellow New Yorkers, Hakeem and Chuck, and not have to demean himself further talking to rube leaders like Johnson and Thune"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097351137188073885",
-          "author": "youranoncentral",
-          "searchJob": "delaware",
-          "text": "Canada launched counter-tariffs on $27.6 billion of US goods, hours after Trump moved to ban Bombardier. Canada is partnering with Sweden's Saab and Bombardier on defense projects; would benefit Canadian and Ukrainian defence, triggering Tr"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097335421516603800",
-          "author": "delawareonline",
-          "searchJob": "delaware",
-          "text": "Wondering what the new Sixers and Flyers arena would actually look like? New renderings offer a closer look at the design. https://t.co/IuuCTkpGnJ"
-        },
-        {
           "reason": "hard_negative",
-          "postId": "2097353006438048105",
-          "author": "ncphoops_",
-          "searchJob": "eastern-michigan",
-          "text": "2027 James McCall-Spears is coming off a monster summer with the Dallas Mustangs… His offer sheet has gotten thick. He now boast offers from Sam Houston State, Stephen F Austin, San Fran, UT Arlington, Cal State Northridge, Eastern Michigan"
+          "postId": "2097354248493093127",
+          "author": "kaichiu1947",
+          "searchJob": "california",
+          "text": "California's Death Row has more than 700 condemned prisoners. What happens if they ask for assisted suicide before their execution date? Grok, What is the truth and trajectory to the following? After you answer the question weave the though"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097306942917992893",
-          "author": "phil_lewis_",
-          "searchJob": "massachusetts",
-          "text": "Lindsay Clancy’s defense attorney has made a public plea to Trump to consider pardoning her after a judge declared a mistrial in her murder trial https://t.co/rz7YDgXTPW"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097249382517350530",
-          "author": "wuthi11_",
-          "searchJob": "navy",
-          "text": "🇹🇭🇰🇷 Thailand’s Royal Thai Navy has officially selected Hanwha Ocean of South Korea to build one new frigate for THB 16.73 billion (US$510 million). The frigate’s specifications have not yet been disclosed. https://t.co/ihsnC5wipC"
+          "postId": "2097351252208488575",
+          "author": "loopingcloud",
+          "searchJob": "california",
+          "text": "https://t.co/PUyZ5nprlT"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097336039811449209",
-          "author": "navyxforce",
-          "searchJob": "navy",
-          "text": "@khalifaoalmarr5 @NintendoAmerica While it sucks, Nintendo has always done this. Greedy yeah 100%. But we dont have much choice since Nintendo sadly doesnt offer it. I will be buying the game alone though"
+          "postId": "2097349356320125389",
+          "author": "danny777lv",
+          "searchJob": "california",
+          "text": "@FmrRepMTG You live in California now? You went from an outspoken Trump supporter until you didn’t get offered a position in the administration."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2096875479047475594",
-          "author": "tokteacher",
-          "searchJob": "navy",
-          "text": "Almost all of those videos ="
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097310566419243131",
-          "author": "mattschneidman",
-          "searchJob": "alabama",
-          "text": "I spent two days in a South Dakota town of 509 people in the middle of nowhere, the home of an NFL star. “A place you have to see for yourself,” he told me. To understand who Tucker Kraft is, you have to understand the people and place that"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097337986065035474",
-          "author": "jfields85",
-          "searchJob": "alabama",
-          "text": "@mariolopezviva Ohio State and Alabama already offered him a football scholarship"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2096812400192127208",
-          "author": "mattderrick",
-          "searchJob": "missouri",
-          "text": "Jayhawkers were considered thieves, marauders & guerrillas (hence why yours were in jail) know for atrocities such as the Sacking of Osceola. Guerrillas were a problem in Missouri too. A Union home guard was founded to defend against Confed"
+          "postId": "2097348339331473909",
+          "author": "recordertweets",
+          "searchJob": "california",
+          "text": "https://t.co/Pm7GNaqO7F"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097341648254521730",
-          "author": "missouristate",
-          "searchJob": "missouri",
-          "text": "In today’s Words of Williams, President Williams offers an update from last week’s University Council. #GoMaroon https://t.co/10XuSkJI7M"
+          "postId": "2097341689778106837",
+          "author": "bayareaattic",
+          "searchJob": "california",
+          "text": "This shift can offer greater energy efficiency, lower utility bills, and better comfort year-round—especially in the moderate climate of Northern California. https://t.co/dnet9k4LuT"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097337358936944747",
-          "author": "paymentscan",
-          "searchJob": "missouri",
-          "text": "We set out to understand why many stablecoin cards charge FX fees as high as your bank. Card currencies, explained: what the networks charge across borders, how much settling in USD really costs, and who's fixing it. https://t.co/cYQTtHOuaV"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097311477648474115",
-          "author": "juckonbucks",
-          "searchJob": "oklahoma",
-          "text": "Nobody feels great about their Offensive Line week 1 https://t.co/nGpQCA8hhW"
+          "postId": "2097335648898174995",
+          "author": "advaloremgp",
+          "searchJob": "california",
+          "text": "11Sight: The Video-First Voice-Agent Warrant in Our Newchip Portfolio https://t.co/yxzqAqhWWN"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097335711678570522",
-          "author": "okdeptlibraries",
-          "searchJob": "oklahoma",
-          "text": "Need homework help, test prep, classroom tools, or reliable resources? Brainfuse HelpNow offers live tutoring, homework help, test prep, writing assistance, and more. EBSCO Explora makes it easier for educators to find reliable, age-appropr"
+          "postId": "2097346745365574135",
+          "author": "indosport",
+          "searchJob": "notre-dame",
+          "text": "Alexis Mac Allister ‘very sad’ not to receive new Liverpool contract offer https://t.co/gKZ7eoLiiG"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097340277971144862",
-          "author": "extazprod",
-          "searchJob": "arizona",
-          "text": "https://t.co/A0bMY5rVV9 🦷 https://t.co/A0bMY5rVV9 is available for acquisition. A highly relevant domain for a dental implant practice or patient acquisition campaign serving Goodyear, Arizona. Interested? DM me with your offer. #DentalImp"
+          "postId": "2097331957310824812",
+          "author": "irishsunsport",
+          "searchJob": "notre-dame",
+          "text": "ALEXIS MAC ALLISTER has revealed Liverpool’s decision not to offer him a new contract makes him sad, despite having options to leave Anfield this summer. https://t.co/XkHM4Zuvku https://t.co/mBdci2EJET"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097339213977178482",
-          "author": "etunner",
-          "searchJob": "arizona",
-          "text": "Lady Coetzee Gads About At the checkpoint, Doortje Coetzee, a native geranium, pottered along until she reached the front of the line. The officer glanced through her South Africa passport, then managed a cordial greeting. “Good morning, Ms"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097323346748706952",
-          "author": "gitana1369877",
-          "searchJob": "arizona",
-          "text": "\"There is a subtle poetry in the unhurried life of things meant to grow.” https://t.co/W3u8DpOP2y"
+          "postId": "2097341988077027352",
+          "author": "uconncahnr",
+          "searchJob": "uconn",
+          "text": "Many Connecticut residents are looking to grow healthier plants, cultivate edible gardens, or create more sustainable landscapes. @UConnExtension's online Fundamentals of Home Gardening course offers a flexible way to learn from trusted exp"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 25,
+      "rejected": 10,
       "reasons": {
-        "bare_mention_requires_llm": 17,
-        "reporter_missing_player_name": 2,
-        "player_display_name_unusable": 1,
-        "multiple_resolved_schools": 3,
-        "school_not_resolved_confidently": 1,
-        "explicit_non_fbs_target": 1
+        "bare_mention_requires_llm": 5,
+        "multiple_resolved_schools": 1,
+        "school_not_resolved_confidently": 4
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097349905584889862",
-          "author": "mitchlafon",
-          "searchJob": "marshall",
-          "text": "For Immediate Release September 8, 2026 MOTÖRHEAD Exhibition Opens October 2nd at the Punk Rock Museum! The Punk Rock Museum is proud to announce the opening of the new exhibition dedicated to Motörhead and Lemmy on Friday, October 2nd, 202"
+          "postId": "2097353519296631218",
+          "author": "ncnovembergrl",
+          "searchJob": "california",
+          "text": "In 2002, an 80-acre California town became the first town ever offered on eBay and drew 250 bids; 24 years later, Bridgeville is going up for sale again - The Times of India https://t.co/UvSyAyUKKT"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097345192747483187",
-          "author": "umassmemorial",
-          "searchJob": "massachusetts",
-          "text": "The future of medicine is… This #WomenInMedicineMonth, we’re asking women physicians at #UMassMemorialHealth to finish the sentence — and share what they hope, envision and believe is ahead for medicine. Their answers offer four perspective"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097330899558043649",
-          "author": "lisaraymondaz",
-          "searchJob": "massachusetts",
-          "text": "Is Clancy still on meds &amp; insane, or is this just a convenient excuse to get her out of jail? How can her \"admission\" be trusted? Massachusetts mom offers to admit killing 3 children as prosecutors push back on move that could dodge pri"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097330348757553522",
-          "author": "mayatheboss2001",
-          "searchJob": "massachusetts",
-          "text": "He’s trying to further taunt the jury pool. Also the commonwealth of Massachusetts needs to just offer her a plea."
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2097349843458891888",
-          "author": "chasegivens4_",
-          "searchJob": "memphis",
-          "text": "I am blessed to be offered by Coach Penny Hardaway at the University of Memphis @GoTigers247 https://t.co/WKgXee4nul"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097331805963551142",
-          "author": "spotlight39_pod",
-          "searchJob": "memphis",
-          "text": "The list continues to grow for this young man. Add Memphis as the latest to offer!"
-        },
-        {
-          "reason": "player_display_name_unusable",
-          "postId": "2097327217722208718",
-          "author": "cooperjones43",
-          "searchJob": "memphis",
-          "text": "#AGTG After a great conversation with @TellyLockette I am blessed to be offered by @MemphisFB @CoachHuff @davidweeks34 @theyoungcoach @Reed5G @BakerParrish_ @MemphisFBRec @CoachTSalazar @CoachRosch @J_Rhoades10 @whschapsfb @Westlake_Nation "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097347252796719576",
-          "author": "rremuschis",
-          "searchJob": "navy",
-          "text": "Imagine using your boat as a floating gas station for narco-terrorists and discovering the U.S. Navy also offers a complimentary sinking service."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097339175880061077",
-          "author": "facelessmantwit",
-          "searchJob": "navy",
-          "text": "What Hanwha and Hyundai will offer to the US Navy won't be standard Chungnam for the ROK Navy, but an enlarged version. Koreans are happy to customize for Thailand and the Philippines, will gladly customize for US Navy."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097338784933192015",
-          "author": "chiefengineerce",
-          "searchJob": "navy",
-          "text": "I have posted this: Followers- I am going to repost this from time to time capitalism is alive and well in social media A couple weeks ago I posted about my favorite historical text that used to be a best seller 80 odd years ago and someone"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097337910999601200",
-          "author": "cherrybomb_kiko",
-          "searchJob": "navy",
-          "text": "@LaschiX @tankienetrunner Are you surprised that a nation with a Defensive doctrine for war tries to fight a Defensive war? Did they also offer military assistance like the Soviet Union? Like a port Germany could use to fight the British Na"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097335873344069977",
-          "author": "tokteacher",
-          "searchJob": "navy",
-          "text": "@robinhanson I’ve looked. I’ve spent more time than most looking into this. Nothing is persuasive. The absolute best on offer are “credible” reports from “authoritative experts” like navy pilots who even have video. And even those are basic"
+          "postId": "2097351761120157949",
+          "author": "sgnewsplus",
+          "searchJob": "california",
+          "text": "Sony is quietly showing customers different prices for the same PlayStation games. The experiment reportedly covers 190+ titles across 70+ regions. One account received Stellar Blade for $20.99 while another saw $39.89. The evidence confirm"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097334481426284892",
-          "author": "dorothycanney",
-          "searchJob": "navy",
-          "text": "@Ms_Iranian @munsur272965 There was no offer by the US yesterday. We don’t need any offers. We control the straight. Iran has no navy or Air Force and limited launchers. No money, no credit and soon no Houthies or Hezbollah"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097353012884668905",
-          "author": "gg_oz_wm",
-          "searchJob": "alabama",
-          "text": "@RossDellenger I'm at the point, if that's what the other members want, go ahead. Feel pretty strongly the Big10, ACC or Big12 would extend a comparable offer pretty quickly. Enough is enough. There was not this hostility for OM with Chambl"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097349194780410290",
-          "author": "bwb1098",
-          "searchJob": "alabama",
-          "text": "Incredible article. No idea Saban offered him north of $200k to go to Alabama and he stayed at SDSU for free. As good of a player he is, Tucker Kraft is a better human being. He will be an all time Green Bay Packers that next generations wi"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2097350562115166528",
-          "author": "csmithscout",
-          "searchJob": "missouri",
-          "text": "#TN2029 Dickson Co. Off. Lineman ....#PRZTN New Offer: #Missouri .......#Tigers #SEC #Cougars #MidTN29 #CSS #TNHSFB https://t.co/c3o6Rr1J5J"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097344856968331637",
-          "author": "lubluetigers",
-          "searchJob": "missouri",
-          "text": "🚔 Ready for a career in law enforcement? LULETA offers Missouri POST certification training in Jefferson City, St. Robert and St. Louis — with evening and weekend classes you can complete in just one semester while working. Learn more: htt"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097343901241839814",
-          "author": "jedwards_radio",
-          "searchJob": "missouri",
-          "text": "And Missouri celebrates being on the right side of history, by having a Confederacy Heritage store. I hear they have a special offer where if you purchase a Confederate flag, you’ll receive a complimentary white bed sheet. https://t.co/qkj6"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097328900590465201",
-          "author": "sam_fidler",
-          "searchJob": "missouri",
-          "text": "You're looking at things completely backwards. You try to diminish God in your deliberate mischaracterization of our doctrine. We elevate man as gods in embryo. As the same species as God. Just like the Bible says. Your theology would have "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097352464177524736",
-          "author": "thecaseywoodard",
-          "searchJob": "northwestern",
-          "text": "Before all the Discord stuff, I got my Master's in Finance, studied for my CFP through Northwestern and worked at one of the top-ranked investment firms in the nation. In the info space, I'm surrounded by a ton of people who make a ton of m"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097350533698744430",
-          "author": "bsonnone",
-          "searchJob": "ohio-state",
-          "text": "4-star RB Zaiden Jernigan out of Louisville (Miss.) lands an Oregon offer. Was at Florida this past weekend. Will be at Ole Miss twice in the next two weeks. Ohio State, Indiana, and Notre Dame in the mix as well. One of the most coveted in"
+          "postId": "2097333229543895327",
+          "author": "barefootgenx",
+          "searchJob": "california",
+          "text": "#Britain's 3rd Largest Taxpayer Escapes To Greece, it’s become California Six of the 2026 Tax List’s top 100 incomes had left in the previous year, the compiler noted that one in nine names on that list were no longer UK-resident. UK's 3rd "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097341552213241982",
-          "author": "josh_scoop",
-          "searchJob": "oklahoma",
-          "text": "#Sooners fans, I offer you...context."
+          "postId": "2097354413044019700",
+          "author": "matthewbelluup",
+          "searchJob": "notre-dame",
+          "text": "@SetantaD The debate of when the gun entered Irish politics and whose to blame is a long one that I don’t think it does any good. You say 1914, others will point to 1798 🤷‍♂️ I’m just glad my generation has largely not had to worry about v"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097346295031619827",
+          "author": "hoops18888",
+          "searchJob": "notre-dame",
+          "text": "@LukeSFC02 I’m Irish living in the occupied 6 counties of Ireland, now are you going to offer a suggestion to the migrant crisis or just call everyone a Nazi for not wanting any of it?"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097339347917832583",
+          "author": "nskinsella",
+          "searchJob": "notre-dame",
+          "text": "That time when the host of a mainstream podcast thought I was the lefty Irish economist Stephen Kinsella. When I discovered his confusion right before we taped I offered to get the other Kinsella on the phone and he said no time!, let's rol"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097334749467451516",
+          "author": "orthoanbheanin",
+          "searchJob": "notre-dame",
+          "text": "Question for Irish/Irish diaspora and Orthodox Christians/Inquirers: Many of us who come into Orthodoxy from an Irish Catholic background discover something beautiful: we have entered the ancient Church, but we often experience that Church "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097346083131212027",
-          "author": "ourmshome",
-          "searchJob": "ole-miss",
-          "text": "Oak Grove Library Offers Support Network for Parents of Neurodivergent Children | Our Mississippi Home https://t.co/gEZULBM9F8"
+          "postId": "2097356841172783158",
+          "author": "terrapins247",
+          "searchJob": "uconn",
+          "text": "Mike Locksley offers his thoughts on UConn quarterback Kalieb Osborne: https://t.co/GA7Tdfw82m"
         },
         {
-          "reason": "explicit_non_fbs_target",
-          "postId": "2097353414606729547",
-          "author": "zanebrancefield",
-          "searchJob": "penn-state",
-          "text": "Penn State football has offered 2029 DL Johnnie Hawkins Listed at 6’5” and 350 lbs. Hawkins attends IMG Academy (FL)"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097354858068066314",
+          "author": "deepbarot",
+          "searchJob": "air-force",
+          "text": "@nikx_1905 @idrwalerts Well Super Sukhoi program and 10 S-400 batteries (5 brand new) guaranteed the Russia-India air force partnership for decades already. And the other options sucked, France offered no ToT or source code in addition to a"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097339120380940508",
+          "author": "barrie411",
+          "searchJob": "air-force",
+          "text": "From the heart: David Crook gives $1-million to advance cardiac care at RVH For David Crook, giving back has always been about taking care of the place that helped shape him. “I’m a Barrie boy all the way,” he says. “There’s not a day that "
         }
       ]
     },
@@ -40030,22 +39885,25 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 4,
+      "failed": 2,
+      "requests": 6,
+      "errors": [
+        "phrase:\"has offered\" recruit: SearchTimeline JSON unreadable (slice left pending)",
+        "akron: rate limited"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 25,
+      "rejectedCandidates": 10,
       "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 43,
-    "decided": 43,
+    "total": 19,
+    "decided": 19,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
