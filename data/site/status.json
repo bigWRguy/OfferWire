@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T08:58:20.255Z",
+  "generatedAt": "2026-09-08T09:13:12.939Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-08T08:58:20.035Z",
+    "at": "2026-09-08T09:13:12.711Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7742633333333333,
-    "p95Hours": 1.2771808333333334,
-    "worstHours": 1.5323230555555556
+    "medianHours": 0.7755513888888889,
+    "p95Hours": 1.2802286111111112,
+    "worstHours": 1.5251486111111112
   },
   "decisionCoverage": {
-    "total": 8,
-    "decided": 8,
+    "total": 11,
+    "decided": 11,
     "complete": true
   },
   "pending": {
@@ -55,44 +55,65 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-08T08:58:20.035Z",
-      "got": 9,
-      "new": 8,
-      "lag": 0.04
+      "at": "2026-09-08T09:13:12.710Z",
+      "got": 19,
+      "new": 11,
+      "lag": 0.2
     }
   },
   "audit": {
-    "at": "2026-09-08T08:56:32.905Z",
+    "at": "2026-09-08T09:11:26.547Z",
     "mode": "live",
     "collection": {
-      "returned": 9,
-      "kept": 8,
-      "duplicate": 1,
+      "returned": 19,
+      "kept": 11,
+      "duplicate": 8,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
       "accepted": 6,
-      "rejected": 2,
+      "rejected": 5,
       "reasons": {
-        "no_fbs_school": 1,
+        "no_offer_term": 4,
         "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2097242008305738208",
-          "author": "steveschofield",
-          "searchJob": "michigan",
-          "text": "@HackingDave is there someone I could talk with About lessons learned? I am a teacher at a community college in Michigan (1st year) after 30 years in the IT/Cyber. A local high school looking to offer cyber courses. https://t.co/ZeNNNxakbg"
+          "reason": "no_offer_term",
+          "postId": "2097235329862557944",
+          "author": "hotbets365",
+          "searchJob": "class:2026",
+          "text": "https://t.co/zvBZKeQE0l"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097240060802355226",
+          "author": "metro_focuss",
+          "searchJob": "auburn",
+          "text": "https://t.co/PMjF1QLvTb"
         },
         {
           "reason": "hard_negative",
-          "postId": "2097247530673160410",
-          "author": "sprinterpress",
-          "searchJob": "air-force",
-          "text": "Top news headlines for the morning of September 8th: 🔹The Ukrainian parliament stated that Witcoff and Kushner brought to Kyiv peace terms that were worse than those previously offered. 🔹Witcoff reported on the participation of representa"
+          "postId": "2097246843747066255",
+          "author": "workinfintech",
+          "searchJob": "california",
+          "text": "https://t.co/LPSd33knco is one of the strangest founder stories in fintech. It starts in 2005, with a 24-year-old walking away from everything he'd built toward. @GuillaumePousaz was studying economics in Switzerland, headed for investment "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097224879166967856",
+          "author": "laonglaan_phil",
+          "searchJob": "arkansas-state",
+          "text": "The idiot wants to jet-set to France to follow-up a red notice when it can be more effectively executed thru diplomatic and global inter-agency correspondence. Jonvic presence in France means nothing to its French counterparts. @DFAPHL @SCP"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097230692979499402",
+          "author": "lbc",
+          "searchJob": "arkansas-state",
+          "text": "‘The drive behind this is our belief in a two state solution.’ Labour's Pat McFadden tells @NickferrariLBC why he backs the PM's proposed trade ban on Israeli settlements in the West Bank. https://t.co/ROCfFisC3d"
         }
       ]
     },
@@ -100,51 +121,52 @@
       "accepted": 0,
       "rejected": 6,
       "reasons": {
+        "school_not_resolved_confidently": 1,
         "bare_mention_requires_llm": 4,
-        "school_not_resolved_confidently": 2
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097246919755968899",
-          "author": "semper0689",
-          "searchJob": "michigan",
-          "text": "@dickieroberts67 @MichiganFB23 Lol, they offered him in 7th or 8th grade. Recruited the hell out of him, but wouldn’t pay the money because we were still in the “no pay” era, where we thought kids would just come play for us because we are "
-        },
-        {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097245731509735455",
-          "author": "temp59880graham",
-          "searchJob": "notre-dame",
-          "text": "@VirginMediaNews If our workforce needs numbers could we not offer incentives for skilled Irish to return?"
+          "postId": "2097240268651041251",
+          "author": "israelthepriest",
+          "searchJob": "south-florida",
+          "text": "FURTHER STUDY: Job 42:8-10 NKJV; “Now therefore, take for yourselves seven bulls and seven rams, go to My servant Job, and offer up for yourselves a burnt offering; and My servant Job shall pray for you. For I will accept him, lest I deal w"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097241719137820989",
-          "author": "adunlea",
-          "searchJob": "notre-dame",
-          "text": "Data centres could be offered discounted gas, under new plans being considered by a State agency."
+          "postId": "2097248807817711970",
+          "author": "tlockty",
+          "searchJob": "arkansas-state",
+          "text": "Morning calm 3) beating the shit out of a yacht The Bankroll, the Cocktail Hour, and the Thinning of American IP Author: Grok (xAI) – Authorized White Paper Format Date: September 8, 2026 Version: 1.5 – Vanity as Vector (No Formulas) Refere"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097234232175403146",
-          "author": "irishtimes",
-          "searchJob": "notre-dame",
-          "text": "Last October, an unsolicited email landed in the inbox of Dmitri Grigoriev, head of IT at the Dublin Institute for Advanced Studies, a State-funded research institute. It was from a company called Passwork. The email said Passwork was a com"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097226013872714126",
-          "author": "clarionmbe",
-          "searchJob": "notre-dame",
-          "text": "Welcome Bank of Ireland to #MBE26 London 👋 Bank of Ireland, a leading Irish bank, offers a wide range of financial products including savings, loans, mortgages and deposit accounts. Register FREE in advance at https://t.co/UHayCIrx7a https"
+          "postId": "2097246967197790298",
+          "author": "proshare",
+          "searchJob": "arkansas-state",
+          "text": ".@Uber's withdrawal from Nigeria after twelve years reflects the cumulative effect of difficult operating economics, driver relations, currency pressure, intensifying competition and regulatory uncertainty. It should be read alongside the c"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097242161678811641",
-          "author": "zamadube_",
-          "searchJob": "air-force",
-          "text": "@EchoesofWarYT The Gift: The Qatari royal family offered a luxury Boeing 747-8 jumbo jet, often called a \"flying palace,\" to be used as a temporary Air Force One The official and main state religion of Qatar is Islam. Trump can receive gift"
+          "postId": "2097233786450715107",
+          "author": "laonglaan_phil",
+          "searchJob": "arkansas-state",
+          "text": "Uunahan na ni Jonvic ng \"personal juicy offers\" negotiation si Zaldy Co kaysa aantayin pa nila na si Zaldy mismo ang lalapit kay president @indaysara after the 2028 elections to the CERTAIN detriment to Bongbong Marcos himself when Zaldy wi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097233381952004422",
+          "author": "afrotechonomist",
+          "searchJob": "arkansas-state",
+          "text": "@TPSpindel Didn't u &amp; ur Poroshenko want ur fellow Ukrainians in the Donbass to live underground??? So why does it pain u now?? Ukraine as a state is finished. Y'all got offered peace but ur greed &amp; hate defeated u"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097232789598867879",
+          "author": "jakewsimons",
+          "searchJob": "arkansas-state",
+          "text": "I understand that the UK government believes – note the religious language – in the two-state solution, but the problem is that the Palestinians do not, and have not for a long time. During the talks at Camp David mediated by Bill Clinton i"
         }
       ]
     },
@@ -164,6 +186,6 @@
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-08T08:58:20.259Z"
+    "status rebuilt locally from current store on 2026-09-08T09:13:12.942Z"
   ]
 }
