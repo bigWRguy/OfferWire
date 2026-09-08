@@ -39021,17 +39021,103 @@
     "2097379035420459240",
     "2097378754645434381",
     "2097377073840930962",
-    "2097370895459188737"
+    "2097370895459188737",
+    "2097390953308799216",
+    "2097389635399811081",
+    "2097367741686599828",
+    "2097365620316602532",
+    "2097381955042238559",
+    "2097389662578839746",
+    "2097389399092629624",
+    "2097389271158009911",
+    "2097064400515387654",
+    "2097388157708681443",
+    "2097385707517927801",
+    "2097380589133266946",
+    "2097376998020493800",
+    "2097373709841596482",
+    "2097371835201679421",
+    "2097370409037344895",
+    "2097367588070101320",
+    "2097366734936158309",
+    "2097365026654781513",
+    "2097364986393755909",
+    "2097364891074019739",
+    "2097364412382237094",
+    "2097373929547395431",
+    "2097373019505143956",
+    "2097364666393768124",
+    "2097387496627675340",
+    "2097384460907844035",
+    "2097388078566433031",
+    "2097387689842446724",
+    "2097385306110542030",
+    "2097384704257261954",
+    "2097384075812053215",
+    "2097375668073906515",
+    "2097372968170979472",
+    "2097370890287583503",
+    "2097368102484725887",
+    "2097366855405175120",
+    "2097384497574511044",
+    "2097376985827729820",
+    "2097372446101848408",
+    "2097389367308210467",
+    "2097383607040196810",
+    "2097380657257488716",
+    "2097379580692582618",
+    "2097391081394516412",
+    "2097390778628620647",
+    "2097391030593044683",
+    "2097387911645638858",
+    "2097381610999951527",
+    "2097380286724018209",
+    "2097379668777222206",
+    "2097378630959554800",
+    "2097355778826846699",
+    "2097377416968573403",
+    "2097375495067206011",
+    "2097348190773162087",
+    "2097372654822981822",
+    "2097372595574226975",
+    "2097371912959639930",
+    "2097386482575265847",
+    "2097379977536704897",
+    "2097172143289016410",
+    "2097379377302605990",
+    "2097377278514835825",
+    "2097374389520019721",
+    "2097373442014162984",
+    "2097372095025959423",
+    "2097371663880904840",
+    "2097369781481746905",
+    "2097369374655131706",
+    "2097366928847262158",
+    "2097376624064786934",
+    "2097390454090207272",
+    "2097388389540434273",
+    "2097387408123715601",
+    "2097384410370703480",
+    "2097383986255614232",
+    "2097383364772888816",
+    "2097382185464463427",
+    "2097381587943846045",
+    "2097380490852343865",
+    "2097379776444989902",
+    "2097379435028562217",
+    "2097378001319088632",
+    "2097374460730872040",
+    "2097370995245912492"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-09-08T18:13:40.111Z",
-      "got": 118,
-      "new": 74,
-      "lag": 0.05
+      "at": "2026-09-08T18:28:20.476Z",
+      "got": 135,
+      "new": 86,
+      "lag": 0.03
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -39055,15 +39141,15 @@
       "truncated": false
     },
     "florida": {
-      "at": "2026-09-08T16:42:36.374Z",
+      "at": "2026-09-08T18:26:27.400Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 17,
+      "lastPosts": 16,
       "truncated": false
     },
     "georgia": {
-      "at": "2026-09-08T16:42:36.374Z",
+      "at": "2026-09-08T18:26:27.400Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 7,
+      "lastPosts": 4,
       "truncated": false
     },
     "illinois": {
@@ -39073,9 +39159,9 @@
       "truncated": false
     },
     "indiana": {
-      "at": "2026-09-08T16:42:36.374Z",
+      "at": "2026-09-08T18:26:27.400Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 10,
+      "lastPosts": 3,
       "truncated": false
     },
     "iowa": {
@@ -39085,7 +39171,7 @@
       "truncated": false
     },
     "kentucky": {
-      "at": "2026-09-08T16:42:36.374Z",
+      "at": "2026-09-08T18:26:27.400Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 5,
       "truncated": false
@@ -39093,8 +39179,14 @@
     "lsu": {
       "at": "2026-09-08T16:42:36.374Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 12,
-      "truncated": false
+      "lastPosts": 19,
+      "truncated": true,
+      "window": {
+        "lower": "2026-09-08T16:37:36.374Z",
+        "upper": "2026-09-08T18:26:27.400Z",
+        "until_time": "2026-09-08T16:37:36.374Z",
+        "completed": false
+      }
     },
     "maryland": {
       "at": "2026-09-08T17:26:22.882Z",
@@ -39201,8 +39293,14 @@
     "texas": {
       "at": "2026-09-08T16:42:36.374Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 0,
-      "truncated": false
+      "lastPosts": 22,
+      "truncated": true,
+      "window": {
+        "lower": "2026-09-08T16:37:36.374Z",
+        "upper": "2026-09-08T18:26:27.400Z",
+        "until_time": "2026-09-08T16:37:36.374Z",
+        "completed": false
+      }
     },
     "texas-am": {
       "at": "2026-09-08T17:26:22.882Z",
@@ -39211,9 +39309,9 @@
       "truncated": false
     },
     "ucla": {
-      "at": "2026-09-08T16:42:36.374Z",
+      "at": "2026-09-08T18:26:27.400Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 0,
+      "lastPosts": 3,
       "truncated": false
     },
     "usc": {
@@ -39223,9 +39321,9 @@
       "truncated": false
     },
     "vanderbilt": {
-      "at": "2026-09-08T16:42:36.374Z",
+      "at": "2026-09-08T18:26:27.400Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 0,
+      "lastPosts": 1,
       "truncated": false
     },
     "washington": {
@@ -39303,7 +39401,7 @@
       "truncated": false
     },
     "phrase:\"my first D1 offer\"": {
-      "at": "2026-09-08T16:42:36.374Z",
+      "at": "2026-09-08T18:26:27.400Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 0,
       "truncated": false
@@ -39339,9 +39437,9 @@
       "truncated": false
     },
     "arizona-state": {
-      "at": "2026-09-08T16:42:36.374Z",
+      "at": "2026-09-08T18:26:27.400Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 1,
+      "lastPosts": 0,
       "truncated": false
     },
     "baylor": {
@@ -39399,15 +39497,15 @@
       "truncated": false
     },
     "georgia-tech": {
-      "at": "2026-09-08T16:26:30.670Z",
+      "at": "2026-09-08T18:26:27.400Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
     },
     "houston": {
-      "at": "2026-09-08T16:26:30.670Z",
+      "at": "2026-09-08T18:26:27.400Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 10,
+      "lastPosts": 5,
       "truncated": false
     },
     "iowa-state": {
@@ -39579,9 +39677,9 @@
       "truncated": false
     },
     "phrase:\"has offered\" recruit": {
-      "at": "2026-09-08T16:26:30.670Z",
+      "at": "2026-09-08T18:26:27.400Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 7,
+      "lastPosts": 5,
       "truncated": false
     },
     "air-force": {
@@ -39591,22 +39689,28 @@
       "truncated": false
     },
     "akron": {
-      "at": "2026-09-08T16:26:30.670Z",
+      "at": "2026-09-08T18:26:27.400Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 1,
+      "lastPosts": 0,
       "truncated": false
     },
     "appalachian-state": {
-      "at": "2026-09-08T16:26:30.670Z",
+      "at": "2026-09-08T18:26:27.400Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 1,
+      "lastPosts": 0,
       "truncated": false
     },
     "arkansas-state": {
       "at": "2026-09-08T16:26:30.670Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 0,
-      "truncated": false
+      "lastPosts": 22,
+      "truncated": true,
+      "window": {
+        "lower": "2026-09-08T16:21:30.670Z",
+        "upper": "2026-09-08T18:26:27.400Z",
+        "until_time": "2026-09-08T16:21:30.670Z",
+        "completed": false
+      }
     },
     "army": {
       "at": "2026-09-08T17:26:22.882Z",
@@ -39693,13 +39797,13 @@
       "truncated": false
     },
     "fresno-state": {
-      "at": "2026-09-08T16:26:30.670Z",
+      "at": "2026-09-08T18:26:27.400Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 2,
+      "lastPosts": 0,
       "truncated": false
     },
     "georgia-southern": {
-      "at": "2026-09-08T16:26:30.670Z",
+      "at": "2026-09-08T18:26:27.400Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
@@ -39789,15 +39893,15 @@
       "truncated": false
     },
     "middle-tennessee": {
-      "at": "2026-09-08T16:26:30.670Z",
+      "at": "2026-09-08T18:26:27.400Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 0,
+      "lastPosts": 1,
       "truncated": false
     },
     "missouri-state": {
-      "at": "2026-09-08T16:26:30.670Z",
+      "at": "2026-09-08T18:26:27.400Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 1,
+      "lastPosts": 0,
       "truncated": false
     },
     "navy": {
@@ -39807,19 +39911,19 @@
       "truncated": false
     },
     "nevada": {
-      "at": "2026-09-08T16:26:30.670Z",
+      "at": "2026-09-08T18:26:27.400Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 6,
+      "lastPosts": 4,
       "truncated": false
     },
     "new-mexico": {
-      "at": "2026-09-08T16:26:30.670Z",
+      "at": "2026-09-08T18:26:27.400Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 3,
+      "lastPosts": 7,
       "truncated": false
     },
     "new-mexico-state": {
-      "at": "2026-09-08T16:26:30.670Z",
+      "at": "2026-09-08T18:26:27.400Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
@@ -39939,7 +40043,7 @@
       "truncated": false
     },
     "unlv": {
-      "at": "2026-09-08T16:26:30.670Z",
+      "at": "2026-09-08T18:26:27.400Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 1,
       "truncated": false
@@ -40017,13 +40121,13 @@
       "truncated": false
     },
     "phrase:\"blessed to receive\"": {
-      "at": "2026-09-08T16:42:36.374Z",
+      "at": "2026-09-08T18:26:27.400Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 6,
+      "lastPosts": 17,
       "truncated": false
     },
     "phrase:\"blessed to have received\"": {
-      "at": "2026-09-08T16:42:36.374Z",
+      "at": "2026-09-08T18:26:27.400Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 0,
       "truncated": false
@@ -40117,7 +40221,7 @@
   "lastRateLimitAt": "2026-09-04T23:26:13.448Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-09-08T18:13:40.111Z",
+    "at": "2026-09-08T18:28:20.476Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -40141,373 +40245,375 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-09-08T18:11:49.605Z",
+    "at": "2026-09-08T18:26:27.382Z",
     "mode": "live",
     "collection": {
-      "returned": 118,
-      "kept": 74,
-      "duplicate": 44,
-      "tooOld": 0,
+      "returned": 135,
+      "kept": 86,
+      "duplicate": 46,
+      "tooOld": 3,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 41,
-      "rejected": 33,
+      "accepted": 58,
+      "rejected": 28,
       "reasons": {
-        "no_fbs_school": 18,
-        "no_offer_term": 8,
-        "hard_negative": 7
+        "no_fbs_school": 14,
+        "no_offer_term": 9,
+        "hard_negative": 3,
+        "non_fbs_offer_target": 2
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2097378668079206476",
-          "author": "obawells",
-          "searchJob": "marshall",
-          "text": "@gospel_harmony Join the network and offer your expertise"
+          "postId": "2097390953308799216",
+          "author": "ftketch",
+          "searchJob": "houston",
+          "text": "❤️‍🩹 AN AED CAN MAKE THE DIFFERENCE WHEN EVERY SECOND COUNTS. We equip our buildings with fire extinguishers, hoping we will never have to use them. 🧯🔥 Why not apply the same logic to cardiac emergencies? FTK BUSINESS AND TECHNOLOGIES LL"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097389635399811081",
+          "author": "ftketch",
+          "searchJob": "houston",
+          "text": "❤️‍🩹 AN AED CAN MAKE THE DIFFERENCE WHEN EVERY SECOND COUNTS. We equip our buildings with fire extinguishers, hoping we will never have to use them. 🧯🔥 Why not apply the same logic to cardiac emergencies? FTK BUSINESS AND TECHNOLOGIES LL"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097365620316602532",
+          "author": "houstonchron",
+          "searchJob": "houston",
+          "text": "A multi-day outage reported at the Falls of Point West Apartments in Sharpstown forced some residents into the September heat on Tuesday as American Red Cross workers offered emergency relief. https://t.co/nVhvfAjfhU https://t.co/xw7BnaYlL6"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097360260050649325",
-          "author": "cryptohydrate",
-          "searchJob": "marshall",
-          "text": "A glance at Polygon's NFT history, their #1 heavy hitting fine artist, and predictions for the future of non-fungibles on the most seasoned L2 on Ethereum. https://t.co/B8gmja7tp5"
+          "postId": "2097064400515387654",
+          "author": "waynemillar804",
+          "searchJob": "arkansas-state",
+          "text": "https://t.co/A2oYgppAbn 1. You're a racist. 2. You're a racist who trusts someone who's associated with nonces, rapists and murderers. 3. EDL co-founder 4. Richard Price, former EDL leader: four counts of making indecent images of children."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097373929547395431",
+          "author": "mitchsherman",
+          "searchJob": "nevada",
+          "text": "What’s the assignment for Anthony Jones and Jahsear Whittington when they enter the game on offense? “They told us to go blow stuff up,” Jones said. He was quick to point out that he received more offers out of high school in Nevada as a ti"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097373019505143956",
+          "author": "blossomgoldinc",
+          "searchJob": "nevada",
+          "text": "Reintroducing Rosebud. For those new to the story, here's a quick look at what makes our Rosebud Project one to watch. ▪️ Located in Nevada, ranked the top jurisdiction in the world for investment attractiveness in Fraser Institute's 2025 A"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097385306110542030",
+          "author": "flasprtscardhvn",
+          "searchJob": "florida",
+          "text": "@GenXpatriot_78 I will send and usually accept offers 10 to 15 % off list price. I agree with above, if newly listed card, will wait or counter."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097384497574511044",
+          "author": "newsweek",
+          "searchJob": "georgia",
+          "text": "Loyalty tests. Public feuds. Receipts. Dramatic exiles and improbable comebacks. Trump’s Washington may have more in common with Bravo than you think. https://t.co/KIwranp53j"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097376985827729820",
+          "author": "adam76steel",
+          "searchJob": "georgia",
+          "text": "Zac Brown bought 400 acres of farmland in Georgia and turned it into something far bigger than a private retreat. He built Camp Southern Ground. During the summer, the camp welcomes children, including kids with autism and other development"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097372446101848408",
+          "author": "theleoreport",
+          "searchJob": "georgia",
+          "text": "This overlooked position might be the most accessible path to playing college football “I’m not saying you can be No. 1 in Georgia, but you might could find a way to play in college,\" one HS coach said.⬇️ https://t.co/CRntLjXWEM"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097390778628620647",
+          "author": "danwetzel",
+          "searchJob": "lsu",
+          "text": "The SEC is unlikely to kick LSU out of the league ... BUT if it did, who should take the Tigers spot?"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097355778826846699",
+          "author": "fos",
+          "searchJob": "lsu",
+          "text": "Breaking: SEC presidents will meet Thursday and vote on whether to expel LSU over its push to sign former NFL players. The filing signals not just a willingness for the SEC to continue its legal battle against LSU and Lane Kiffin, but an es"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097348190773162087",
+          "author": "williams_justin",
+          "searchJob": "lsu",
+          "text": "The SEC filed an amended complaint to its federal lawsuit against LSU &amp; Lane Kiffin that says conference CEOs will meet Thurs, Sept. 10 to “decide whether to terminate LSU as an SEC member institution…” Free via @TheAthletic. This story"
         },
         {
           "reason": "hard_negative",
-          "postId": "2097383147948441607",
-          "author": "librarian_lady5",
-          "searchJob": "massachusetts",
-          "text": "\"Facts are stubborn things; and whatever may be our wishes, our inclinations, or the dictates of our passion, they cannot alter the state of facts and evidence,\" -John Adams She’s always pleaded not guilty. Facts and Massachusetts law below"
+          "postId": "2097386482575265847",
+          "author": "arghyadip99",
+          "searchJob": "texas",
+          "text": "FCL has technically broken out—but is the business ready for the same blast? 🔥 Fineotex Chemical closed at ₹58.4 on 8th September, up 3.14%, with volume uptick. It is at its 52-week high and well above the 50-day and 200-day averages of ro"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097172143289016410",
+          "author": "lbk_enjoyer",
+          "searchJob": "texas",
+          "text": "I’ll die on this hill but hbcu bands are only good at being loud and lack fundamental skill and technique."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097372095025959423",
+          "author": "robsofficialx",
+          "searchJob": "texas",
+          "text": "@Elizabeth71729 They probably offered weed."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097371663880904840",
+          "author": "sixflagsovertx",
+          "searchJob": "texas",
+          "text": "¡Olé! Offer extended until Sept 13! Get the lowest price this year &amp; next on a 2027 Season Pass. Includes unlimited visits, free parking, Hurricane Harbor, fall + winter events, &amp; more! 🔗 https://t.co/11QLNbXURr https://t.co/bK8Nih"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097366928847262158",
+          "author": "sf_fiestatexas",
+          "searchJob": "texas",
+          "text": "SALE EXTENDED! Time's running out to buy a 2027 Season Pass at the lowest price of this year &amp; next! Hurry, offer ends 9/13. https://t.co/DiVoSrtekr https://t.co/QU8RtF4XoW"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097390454090207272",
+          "author": "jakeobclark",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great visit with @CoachDettwiller and @RSCCAthletics I am blessed to receive another offer!! Thank you to all the coaches for believing in me!! https://t.co/6UE6i5Jzid"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097388389540434273",
+          "author": "collins_ke15399",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive honor roll defense last week the grind doesn’t stop @CoachRice74 @CoachCParrott @_ZackBerry @247recruiting @MaxPreps @USFFootball @DbCoachJulian @TroyTrojansFB @jalyn_phillips https://t.co/wyZGCnu1aD"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097387408123715601",
+          "author": "logan_hart_qb1",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my second invitation to The Next Five Star camp in Miami! Thank you @NxgnCamps for another opportunity to compete, learn, and get better alongside some of the best. Ready to get back to work! #AGTG #QB2029 #TheNextFiveSta"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2097384410370703480",
+          "author": "kaydenbryant0",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "EXTREMELY BLESSED TO RECEIVE AN OFFER FROM EUREKA COLLEGE!!! Via Coach Ramces #AGTG https://t.co/JYeGzu5iL1"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097383364772888816",
+          "author": "jordan1roa",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with @coachapatterson I’m blessed to receive an offer to @WNMUFootball @adamgorney @GregBiggins @ChadSimmons_ @BrandonHuffman @SanMarcosFBall @LeftCoastAthl @CoachDanny10 @Daygofootball https://t.co/Mu3NKdDkrJ"
         },
         {
           "reason": "hard_negative",
-          "postId": "2097383087134982428",
-          "author": "librarian_lady5",
-          "searchJob": "massachusetts",
-          "text": "\"Facts are stubborn things; and whatever may be our wishes, our inclinations, or the dictates of our passion, they cannot alter the state of facts and evidence,\" -John Adams She’s always pleaded not guilty. Facts and Massachusetts law below"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097382927487414553",
-          "author": "librarian_lady5",
-          "searchJob": "massachusetts",
-          "text": "\"Facts are stubborn things; and whatever may be our wishes, our inclinations, or the dictates of our passion, they cannot alter the state of facts and evidence,\" -John Adams She’s always pleaded not guilty. Facts and Massachusetts law below"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097382369120714909",
-          "author": "librarian_lady5",
-          "searchJob": "massachusetts",
-          "text": "\"Facts are stubborn things; and whatever may be our wishes, our inclinations, or the dictates of our passion, they cannot alter the state of facts and evidence,\" -John Adams She’s always pleaded not guilty. Facts and Massachusetts law below"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097376466052768081",
-          "author": "librarian_lady5",
-          "searchJob": "massachusetts",
-          "text": "She’s always pleaded not guilty. Facts and Massachusetts law below: -The DA charged first-degree murder and stayed there. -A grand jury later indicted three first-degree murders. That proceeding is secret and one-sided: only the prosecution"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097376081955242456",
-          "author": "librarian_lady5",
-          "searchJob": "massachusetts",
-          "text": "She’s always pleaded not guilty. Facts and Massachusetts law below: -The DA charged first-degree murder and stayed there. -A grand jury later indicted three first-degree murders. That proceeding is secret and one-sided: only the prosecution"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097361866158649376",
-          "author": "massrmv",
-          "searchJob": "massachusetts",
-          "text": "The Chicopee RMV location is permanently closed. Business to Business (B2B) customers can visit the Springfield RMV or other Service Center locations that offers B2B for Drop Off and Pick Up service. https://t.co/1CyxA0vevw"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097366012270194742",
-          "author": "thecbspod",
-          "searchJob": "memphis",
-          "text": "Canada basketball head coach Gordie Herbert joins the show! We talk about his vision and plan ahead of next year’s World Cup and what commitment and continuity has looked like. Apple: https://t.co/zXSo9F0nv2 Spotify: https://t.co/CAaJUacnGD"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097377729780031914",
-          "author": "justadd2cart",
-          "searchJob": "navy",
-          "text": "𝐏𝐢𝐥𝐥𝐚𝐫 𝐒𝐭𝐨𝐫𝐚𝐠𝐞 𝐎𝐟𝐟𝐞𝐫. 𝐁𝐮𝐲 𝟐 𝐨𝐫 𝐌𝐨𝐫𝐞 & 𝐆𝐞𝐭 𝟐𝟓% 𝐎𝐟𝐟 (Huw Evans) For TCS For a limited time only, save 25% on the Pillar Storage collection when you buy 2 or more.* The Pillar Collection, designed by Huw Eva"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097373209154724300",
-          "author": "shoppersoffer",
-          "searchJob": "navy",
-          "text": "MEN’S SWIMWEAR SHOWDOWN 🔥 You can only choose ONE. 💙 Navy 🖤 Black 🩶 Gray Which swim shorts win? #MensFashion #USFashion #Swimwear #MensStyle #SummerFashion https://t.co/EMxzGORblO"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097355028227150285",
-          "author": "hot_pepper76",
-          "searchJob": "navy",
-          "text": "Bands usually change their names to get noticed. Jethro Tull kept changing theirs so no one would remember how bad they were. I laughed out loud when I read that. They struggled so badly on the late 1960s London club circuit that getting bo"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097380633320579177",
-          "author": "rosabonita12345",
-          "searchJob": "california",
-          "text": "@jbj5613 What city or state are you in? If you’re close by, I interested to look at your collection and make an offer for the whole lot. I’m in California."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097235736734958058",
-          "author": "insidergeo",
-          "searchJob": "california",
-          "text": "BREAKING: 🇮🇸 Iceland has summoned the US ambassador after Donald Trump posted an unexplained map showing Iceland covered by the American flag. Iceland’s Foreign Minister called the post entirely inappropriate and formally raised the issue"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097374793133662349",
-          "author": "ldgr6151",
-          "searchJob": "california",
-          "text": "Pabst offers $20,000 reward after 1,602 cases of beer stolen in California MUST SEE THIS 2dys ago🔴🔴🔴 https://t.co/LsLhAA1vIv"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097371333680103663",
-          "author": "jamieshaw5",
-          "searchJob": "california",
-          "text": "The 2027 Rivals150 has been updated. And some prospects made BIG moves 👀 Two jumped into the Top 10, while the 10 biggest risers solidified themselves as 4⭐️ prospects. Who jumped? And which names made the biggest statements? [READ] 👉 htt"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097370819337003454",
-          "author": "goldtracy68504",
-          "searchJob": "california",
-          "text": "@squatterbusters Do you offer your services in California for squatters removal?"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097369979750363238",
-          "author": "classiccars_com",
-          "searchJob": "california",
-          "text": "Alfa Romeo has a knack for building some of the most beautiful Italian cars ever designed and yet many are still available for quite affordable prices. In addition to the affordability, many of the most beautiful Alfa Romeos ever built also"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097378289526456737",
-          "author": "toofadedpicks",
-          "searchJob": "uconn",
-          "text": "💰 CFB Value Alert bet365 pays +2800 on a 3.5% shot. 🔷 Weber State at Colorado, +2.8% EV 🔷 Spread 34.5 at -110, Hard Rock The payout exceeds the fair 3.5%. One free graded pick posts every day. Site's in the bio."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097376968979231046",
-          "author": "uconn",
-          "searchJob": "uconn",
-          "text": "A student-led instructional laboratory build course offers hands-on experience for @UConnEngineer students looking to leave a legacy behind for future classmates. https://t.co/j5e3YdpwAN"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097375412087316593",
-          "author": "hartleybotanic",
-          "searchJob": "uconn",
-          "text": "Home of the Bespoke - Request a brochure to discover more and see our Private View Offers https://t.co/YPDfAkbrmm Beautiful Glasshouses As Unique As You Victorian Bespoke, Connecticut, USA. https://t.co/0ksvicvfFj"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097375411973792182",
-          "author": "hartleyusa",
-          "searchJob": "uconn",
-          "text": "Home of the Bespoke - Request a brochure to discover more and see our Private View Offers https://t.co/KElAhCVq6G Beautiful Glasshouses As Unique As You Victorian Bespoke, Connecticut, USA. https://t.co/7xtFiTrlNr"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097386897404469448",
-          "author": "kjnbnews",
-          "searchJob": "arkansas",
-          "text": "Mississippi County will host its Fall County-Wide Cleanup Friday and Saturday at the Mississippi County Landfill in Luxora. Residents can dispose of trash, waste and tires for free from 7 a.m. to 3 p.m. both days. https://t.co/BBLSdA4APC"
+          "postId": "2097380490852343865",
+          "author": "jaxsonwilliamsx",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great visit and conversation with @TL_35 and @VenzantDaniel , I am blessed to receive my first official basketball offer from Loyola University of New Orleans. #AGTG #WolfPack https://t.co/d303C5yyXh"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 40,
+      "accepted": 3,
+      "rejected": 55,
       "reasons": {
-        "bare_mention_requires_llm": 24,
-        "multiple_resolved_schools": 7,
-        "reporter_missing_position": 1,
-        "school_not_resolved_confidently": 7,
-        "reporter_missing_player_name": 1
+        "bare_mention_requires_llm": 44,
+        "multiple_resolved_schools": 6,
+        "reporter_missing_class_year": 2,
+        "reporter_missing_player_name": 1,
+        "player_display_name_unusable": 1,
+        "player_missing_class_year": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097384577136202153",
-          "author": "marshallsummers",
-          "searchJob": "marshall",
-          "text": "Are people being conditioned to want what aliens claim they offer? Is there a motive behind it that we don't yet understand? Marshall addresses this and so much more in this episode of Emerging Worlds. https://t.co/FviZD5R3Dw"
+          "postId": "2097367741686599828",
+          "author": "andrewcorls",
+          "searchJob": "houston",
+          "text": "Astros-Phillies Betting Value Play We have a fascinating cross-platform pricing discrepancy for today's matchup between Houston and Philadelphia. By leveraging the best available numbers, we can maximize our potential return on this Tuesday"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097373726035558408",
-          "author": "rickyhle",
-          "searchJob": "massachusetts",
-          "text": "The post here is 100% Truth and NOTHING BUT THE TRUTH. I will be prosecuted to the full extent of the laws of Virginia and the laws of the United States of America if the details provided in my story are untrue. The Good Fortune Supermarket"
+          "postId": "2097389662578839746",
+          "author": "mattmorgan29a",
+          "searchJob": "arkansas-state",
+          "text": "St. Mary's is a great place to live. But what good is that if no one can afford to stay here? Maryland had everything going for it after COVID. A state government ran efficiently and had a $5.5 billion surplus. We were positioned to thrive."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097373498867859695",
-          "author": "noah_ap03",
-          "searchJob": "massachusetts",
-          "text": "#AGTG Umass offered‼️@coachmattjohn @CoachHill1 @JUCOFFrenzy @JUCOInsiderRep @JucoHiddenGems @AllenTrieu https://t.co/sDKMSQoS7F"
+          "postId": "2097389399092629624",
+          "author": "heavenly_otter",
+          "searchJob": "arkansas-state",
+          "text": "@999vamit @JacobL1994_ The Palestinians have never really been offered a state, just extensive autonomy called \"a state\". The conditions places on the offers (such as Israeli forces having a right to invade at any point on their own whim, o"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097371240512065768",
-          "author": "lamps_apple",
-          "searchJob": "massachusetts",
-          "text": "Mikie Sherrill spent four days hiding behind “cannot confirm or deny.” Today she posted a sermon about honor, oaths, and “highest standards” and still would not say the name. Her lieutenant governor, Dale Caldwell, is under investigation fo"
+          "postId": "2097389271158009911",
+          "author": "waynemillar804",
+          "searchJob": "arkansas-state",
+          "text": "https://t.co/QBW3lvFVvE I DONT HEAR NONE OF YOU SLAGGING @SaudiVision2030 @DubaiPoliceHQ @UAE WHILE I AM TALKING FROM PERSONAL EXPERIANCE? TAKING NOTES CAN WE SEE YOR #NOTES conscripted lie? Based on the screenshots provided, the most consi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097388157708681443",
+          "author": "vapour_45",
+          "searchJob": "arkansas-state",
+          "text": "If Nigeria had a future, even hired assassins won't conform to an offer of thuggery in a state as poor as Benue. As you see alot of our people from here, the wrinkles on their faces tell all you need to know, that they've given up on life, "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097385707517927801",
+          "author": "m_b_levin",
+          "searchJob": "arkansas-state",
+          "text": "@KanSamuel @BestieSmith So you don’t think Palestinians deserve a state? Got it. They were offered a state 6+ times. They rejected it and chose violence."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097380589133266946",
+          "author": "edwardsons30290",
+          "searchJob": "arkansas-state",
+          "text": "@GlobalInsightEn @AnitaAnandMP Where was the push for a two state solution when Jordan and Egypt ruled West Bank and Gaza? And since 1967 Arabs have been offered a state numerous time. And rejected it every time. Or haven’t you noticed all "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097376998020493800",
+          "author": "okeke_raph66686",
+          "searchJob": "arkansas-state",
+          "text": "@sochii_ma Palestine have been offered close to 10 times to have a state of their own which they rejected, US was even involved, yet no fruitful outcome. We have Scotland, when they asked for a referendum, Britain didn't proscribed Scott as"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097373709841596482",
+          "author": "julietbarenti",
+          "searchJob": "arkansas-state",
+          "text": "@aziz0nomics The West Bank is not a country with defined borders, it is disputed land. If the Palestinian leadership had accepted any of the offers of a state in most of that land, there would be a country with defined borders for the Pales"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097371835201679421",
+          "author": "giantsfan74",
+          "searchJob": "arkansas-state",
+          "text": "@macklemore I think most people would agree but why do you only discuss the Palestinian/Israeli conflict? Why no mention of the thousands of Iranians who were brutally murdered for seeking freedom and others around the world who were not of"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097370409037344895",
+          "author": "rosettearbvriy",
+          "searchJob": "arkansas-state",
+          "text": "They don’t see their freedom as a threat. They see the terrorist elements that have prevented their self determination as a threat. Learn history. Israel offered a state 5 times. That’s an overture for cooperation not conflict. Hamas is a t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097367588070101320",
+          "author": "trueone88",
+          "searchJob": "arkansas-state",
+          "text": "Is Swaminaran really God Bhagavan ! Lets look at the miracles, prophecies and knowledge from the scriptures; Childhood Miracles (as Ghanshyam Maharaj) On the day of his birth, Ghanshyam sensed his mother's hunger and summoned divine beings "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097366734936158309",
+          "author": "dark7eleme40971",
+          "searchJob": "arkansas-state",
+          "text": "@komb0_ @Bob_Tanner_SF @HLC_actual Israel was willing to let them have a state in 2001. An even more generous offer was made in 2008. Every single time, the Palestinian leadership walked away without ever making a counter offer, because the"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097365026654781513",
+          "author": "jamestcork_v2",
+          "searchJob": "arkansas-state",
+          "text": "Wrong Oct 7 ruled out the 2 State solution They had their chance in Gaza but turned it into a jihadist hellhole Only option now is a one State solution. Citizenship will be offered to all those who are loyal to Israel. Others will be grante"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097364986393755909",
+          "author": "garybkatz",
+          "searchJob": "arkansas-state",
+          "text": "Palestinians: After you have a state in the 1967 borders, will you keep ... https://t.co/7Ayn2qBxe7 via @YouTube Pal leaders prepared their constituents for war, not peace. They've never made a counteroffer to numerous Israeli peace offers."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097364891074019739",
+          "author": "shazzermac3",
+          "searchJob": "arkansas-state",
+          "text": "@Partisan_12 Not anytime soon. They don’t want it. They’ve rejected every offer made. I say fuck Gaza and the West Bank. They want a state? Go to Jordan."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097364412382237094",
+          "author": "m_b_levin",
+          "searchJob": "arkansas-state",
+          "text": "@fortzon @IhabHassane Zionists offered Palestinians a state almost a dozen times. The refused. They wanted dead Jews and ethnic cleansing of Jews or nothing. At some point they have to take some responsibility for the consequences of their "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097364666393768124",
+          "author": "cbgrassrootsre",
+          "searchJob": "nevada",
+          "text": "Just sold! 🌲 42+ acres at 12998 Tyler Foote Rd in Nevada City is officially off the market. This secluded foothill retreat offers ridge community living, a seasonal creek, and quick access to Yuba River recreation. See more: https://t.co/e"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097387496627675340",
+          "author": "mammzabelle",
+          "searchJob": "new-mexico",
+          "text": "@0laratrumpRv2 100% But stop worrying about Jelly Roll and New Mexico get gas and fuel prices DOwn and offer some type of stimulus amount asap in time for midterms so we can win this. !! Pronto"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097387190917509477",
-          "author": "grahamdoeren",
-          "searchJob": "memphis",
-          "text": "LSU will back down and they won't get kicked out of the SEC. But if I'm Memphis, Tulane, UConn, Oregon State, etc., I'm putting together my final offer of what I could give to tag along with LSU to the ACC or Big 12. Even if it's a .001% ch"
-        },
-        {
-          "reason": "reporter_missing_position",
-          "postId": "2097386746669375943",
-          "author": "munzly",
-          "searchJob": "memphis",
-          "text": "Tennessee Collegiate Academy 2027 point guard Chase Givens (Curtis’ younger brother) picks up an offer from Memphis"
+          "postId": "2097384460907844035",
+          "author": "dwf57",
+          "searchJob": "unlv",
+          "text": "@ESPN_BillC Brett Yormark should be camped out in Baton Rouge...ready to offer LSU immediate admittance to Big XII. Bring in UNLV and secure Vegas when adding LSU"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097383078855409712",
-          "author": "np4football_ot",
-          "searchJob": "memphis",
-          "text": "Malik Hudson-DB-2030-TX @MemphisFB Offer #CFB"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097366937726525572",
-          "author": "grizzliesfilm",
-          "searchJob": "memphis",
-          "text": "Interesting, though not necessarily surprising, note from Coach Herbert here is that the Memphis Grizzlies / Coach Tuomas Iisalo offered Coach Herbert an AC spot last summer Coach Herbert is the HC of the Canadian NT and NZ Breakers"
+          "postId": "2097388078566433031",
+          "author": "mountainman1977",
+          "searchJob": "florida",
+          "text": "@AnnaOdessa13 @RepFine should offer these companies to flee their antisemite government and relocate to Florida if they ignore the ban on Israel."
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097363451597480144",
-          "author": "jozzy33171",
-          "searchJob": "memphis",
-          "text": "Arthur Mitchell was not allowed to touch his dance partner on national television because she was white and he was Black. On a New York stage, the two of them were performing one of the most celebrated duets in American ballet. Same man, sa"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097374971010138533",
-          "author": "rohanarun",
-          "searchJob": "navy",
-          "text": "@Super_Powers_AI Hey Super, build a fully interactive diplomatic crisis explorer and policy impact simulator based on the @BBCBreaking report regarding Israel's shutdown of the UK consulate in East Jerusalem following UK sanctions on West B"
+          "postId": "2097387689842446724",
+          "author": "twoydsandacloud",
+          "searchJob": "florida",
+          "text": "If going independent offered such a clear path to the CFP annually and the possibility for comparable if not better TV contracts, why haven’t Ohio State, Georgia, Florida, Michigan, USC, or Oregon toyed with it? Because it’s a fucking stupi"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097373133489549425",
-          "author": "luckio12",
-          "searchJob": "navy",
-          "text": "@gjquartermaine @sworrall The disenguous is you cunt .. they do not offer a trafficking service ... If you replace them with the navy they do the exact same thing you stupid fucking cunt"
+          "postId": "2097384704257261954",
+          "author": "thepianoguysfl",
+          "searchJob": "florida",
+          "text": "Best Digital Piano buy in Florida, new Celviano AP-750 with wood keys, massive speakers, nice bench and look, and killer piano tone. Only in Sept, the Piano Guys offers this $4K piano for $2559.99. We've moved from Venice, so come it check "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097372121177465071",
-          "author": "sergeantdixie",
-          "searchJob": "navy",
-          "text": "@Arron_banks The latest boats were followed by French navy boats who repeatedly offered assistance which was always refused. It wasn’t safe to do it by force. Once in British waters British authorities offered the same assistance &amp; it w"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097364545920475512",
-          "author": "sebastienroblin",
-          "searchJob": "navy",
-          "text": "Read my (as always free) article for @InsideUnmanned Systems closely detailing the RFI's requirements and analyzing which companies may offer semi-off-the-shelf solutions, and why the Navy wants drone bombers more than loyal wingman 'fighte"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097354066145988981",
-          "author": "rickithebear77",
-          "searchJob": "navy",
-          "text": "@BDrainvilleQc 8/ Took paternity in Saint John, NB 04/05. Wife old Navy staff train. Editing resume at Tim hortons Irving Corp guy asked to look at, “ I can offer you a dept head position.” But next day took 12 hrs to get our kid into hospi"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097386998885458341",
-          "author": "stevestantonsot",
-          "searchJob": "california",
-          "text": "The serious answer... Is I want to discuss why politics can't be discussed. As a consultant, professional and (let's be honest) job seeker... Expressing ANY opinion is a great way to get a veto and lose a client / engagement / job offer. Am"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097385346359087215",
-          "author": "surfrider",
-          "searchJob": "california",
-          "text": "This past weekend’s powerful surf, coastal flooding, and dangerous conditions in Southern California offered a stark reminder of how quickly the resilience of our coasts can be tested. In a new San Francisco Chronicle op-ed, Dr. Chad Nelsen"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097383364923998510",
-          "author": "dieworkwear",
-          "searchJob": "california",
-          "text": "Someone recently asked why people like Ivy Style, a colloquial name for a style of men's dress popular during the mid-20th century on Ivy League campuses, such as Harvard and Yale. For me, the answer is simple: in the canon of classic men's"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097376636169826563",
-          "author": "cswampthing",
-          "searchJob": "california",
-          "text": "If Donald really wants to enlarge America he should offer voluntary statehood to Dominican Republic, Costa Rica, Panama, Baja California, Chile, Colombia, Venezuela, all of the Canadian provinces individually, Taiwan (suck it PRC) and South"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097373795694911671",
-          "author": "golopesradio",
-          "searchJob": "california",
-          "text": "GCU has some 2027 offers out, and lots of movement in the rankings. Gene Roebuck is at 44 and King Rachal at 48. Both really highly touted prospects out of southern California who are getting offers/looks from everyone."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097372815288590752",
-          "author": "daily_express",
-          "searchJob": "california",
-          "text": "Meghan Markle and Prince Harry have made their return to the UK six years after dramatically abandoning their roles as senior working royals and relocating to Montecito in California. In his book, William and Catherine: The Intimate Inside "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097370067470090724",
-          "author": "tradedla",
-          "searchJob": "california",
-          "text": "SALE IMAGE: Glen Scher, Filip Niculete, Morgan Wetmore, Josh Yaris, Ryan Rothstein-Serling & Martin Agnew DATE: 08/28/2026 ADDRESS: 13915 Sherman Way MARKET: Van Nuys ASSET TYPE: Multifamily BUYER: Fred Bibayan SELLER: Clyde Berkus BROKERS:"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097363426469453905",
-          "author": "andremayo77",
-          "searchJob": "california",
-          "text": "@BallCoachHP Name: Andre Mayo Height: 6’3 Weight: 305 lbs Position: DT / OG Offers: Sacramento State Film: https://t.co/C2MuW7AE26 Town: Compton State: California School: Compton High School 40 yard: 5.58 Jersey #: 66"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097381351703953570",
-          "author": "dutybellend",
-          "searchJob": "notre-dame",
-          "text": "@Shunyaa00 No politician see the problem here? He has zero skills to offer so will need some form of social welfare for life as will his wife and kids. The Irish taxpayer will pick up the tab, taxes will have to rise, it causes disaffection"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097375815499468994",
-          "author": "243_cal",
-          "searchJob": "notre-dame",
-          "text": "In Ireland at the launch of a housing charities annual report, who does State broadcaster @rtenews interview about her experience of being homeless here? A foreigner. Does Vietnam offer state-funded housing to homeless Irish people there? I"
+          "postId": "2097384075812053215",
+          "author": "insideuniversal",
+          "searchJob": "florida",
+          "text": "Universal Orlando has launched a new Florida resident ticket offer that includes three days of admission to Universal Studios Florida, Islands of Adventure, and Epic Universe for $85 per day. @UniversalORL https://t.co/z6rq9wSCQh"
         }
       ]
     },
@@ -40521,16 +40627,16 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 40,
-      "brandNewOffers": 0
+      "acceptedEvidence": 3,
+      "rejectedCandidates": 55,
+      "brandNewOffers": 2
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 74,
-    "decided": 74,
+    "total": 86,
+    "decided": 86,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
