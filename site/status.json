@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T03:43:29.717Z",
+  "generatedAt": "2026-09-08T03:58:12.372Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-08T03:43:29.398Z",
+    "at": "2026-09-08T03:58:12.071Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7857944444444445,
-    "p95Hours": 1.5285147222222222,
-    "worstHours": 1.7808972222222221
+    "medianHours": 0.7795641666666666,
+    "p95Hours": 1.5279952777777779,
+    "worstHours": 1.7736963888888888
   },
   "decisionCoverage": {
-    "total": 31,
-    "decided": 31,
+    "total": 46,
+    "decided": 46,
     "complete": true
   },
   "pending": {
@@ -55,260 +55,330 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-08T03:43:29.397Z",
-      "got": 58,
-      "new": 31,
-      "lag": 0.1
+      "at": "2026-09-08T03:58:12.070Z",
+      "got": 67,
+      "new": 46,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-09-08T03:41:41.016Z",
+    "at": "2026-09-08T03:56:22.545Z",
     "mode": "live",
     "collection": {
-      "returned": 58,
-      "kept": 31,
-      "duplicate": 26,
+      "returned": 67,
+      "kept": 46,
+      "duplicate": 20,
       "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 19,
-      "rejected": 12,
+      "accepted": 29,
+      "rejected": 17,
       "reasons": {
-        "no_offer_term": 4,
-        "no_fbs_school": 1,
-        "non_fbs_offer_target": 4,
-        "hard_negative": 3
+        "no_fbs_school": 7,
+        "no_offer_term": 9,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2097154251243893206",
-          "author": "dogs_are_first",
-          "searchJob": "maryland",
-          "text": "Userhat kept Theban temple accounts under Amenhotep III. Azariah son of Hilkiah served as priest in the final years of Judah.Aulus Vettius Conviva managed a Pompeii fullonica after the quake.Ohthere of Hålogaland reported northern coasts to"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097125035047624809",
-          "author": "govnuclear",
-          "searchJob": "washington",
-          "text": "HAPPY LABOR DAY 🇺🇸: Nuclear energy jobs include some of the highest-paying jobs in the entire energy industry, and many don’t require an advanced degree. Check out our breakdown of the top trends in U.S. nuclear energy jobs in 2025: https"
+          "reason": "no_fbs_school",
+          "postId": "2097161825561227382",
+          "author": "wiregrassdaily",
+          "searchJob": "alabama",
+          "text": "$5,000 Reward Offered in Search for Missing Wetumpka Man https://t.co/fLqPmPOwWc"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097144375570468936",
-          "author": "hardianwar0",
-          "searchJob": "washington",
-          "text": "For more than a century, the Kurdish people have struggled for independence, freedom, self-determination—or, at the very least, the simple right to live with dignity and without the constant threat of elimination. For more than 100 years, K"
+          "postId": "2097161502578839689",
+          "author": "csayf23",
+          "searchJob": "michigan",
+          "text": "🚨OFFER ENDS AT 1 A.M. ET!🚨 The Wolverine + On3 + Rivals for less than 30 bucks for an entire year! Don't miss out: https://t.co/AzQKnG9ieT https://t.co/GLGXnF8i5T"
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097165392925925585",
-          "author": "loutmaddox",
-          "searchJob": "phrase:\"grateful to receive an offer\"",
-          "text": "Blessed and grateful to receive an offer from East Texas Baptist University! Thank you to @kinchen_donald and the entire ETBU staff for believing in me and giving me this opportunity. #GoTigers #ETBU #AGTG @CoachKerryT @CoachHlavaty @Therwh"
+          "reason": "no_fbs_school",
+          "postId": "2097158066726674597",
+          "author": "thewolverineon3",
+          "searchJob": "michigan",
+          "text": "🚨OFFER ENDS IN TWO HOURS🚨 Get full access to The Wolverine, On3 and Rivals for just $2.49 a month for an entire year! Sign up before it's too late: https://t.co/VmO6IVAusE https://t.co/QYv5yZXowh"
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097160897315938645",
-          "author": "corbinbrown__",
-          "searchJob": "phrase:\"grateful to receive an offer\"",
-          "text": "After a great conversation with coach Henry I am grateful to receive an offer from William Penn University #agtg https://t.co/c4skYdFyfX"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097167490648609030",
-          "author": "luke_lucatello",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @CoachGrigs619 I am blessed to receive a PWO offer from Colorado School of Mines, one of the top engineering schools in the nation. @CoachBobStitt @CoachYonBoone @COACHMCLAU @MinesFootball https://t.co/LYTJOI"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097166955308568592",
-          "author": "jake_lucatello",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @CoachGrigs619, I am beyond grateful to have received an offer from Colorado School of Mines. Thanks to all the amazing Coaches for believing in me! @CoachBobStitt @CoachYonBoone @COACHMCLAU @MinesFootball ht"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097164733975597515",
-          "author": "jashuadaniels58",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @CoachNP21, I’m blessed to announce that I have received an OFFICIAL OFFER from Wabash College to continue my academic and athletic career as a Little Giant! 🏈🔴⚪️ Thank you, Wabash College, for believing in"
+          "reason": "no_fbs_school",
+          "postId": "2097158956703781160",
+          "author": "spartytoon",
+          "searchJob": "michigan-state",
+          "text": "@AngelAlchemist1 Its rough watching people go through it too because a lot of the time there's nothing you can do. I always hate the \"reach out\" rhetoric when a lot of the time people will refuse any help, or balk at any offers for help tha"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097147484891971972",
-          "author": "ajtarheel247",
-          "searchJob": "north-carolina",
-          "text": "@ScottSwinney2 @MattHaley13 https://t.co/ddpP06vCn6"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097142880821494210",
-          "author": "thecurrentpulse",
-          "searchJob": "notre-dame",
-          "text": "THE MAFIA ARCHIVE PHASE I — BEFORE THE FIVE FAMILIES PART 5 THE WAR FOR AMERICA Masseria. Maranzano. Luciano. The war that shattered the old order. CHAPTER 4 — CASTELLAMMARE The conflict became known as the Castellammarese War because many "
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097166963537543298",
-          "author": "patrickokelley6",
-          "searchJob": "hawaii",
-          "text": "OK... theory time. Say, the war never happens because Lincoln gets killed off by an angry mob in Baltimore, or whatever reason. The South had an offer from Mexico to take the land down to Baja, because they didn't really like the US. If the"
+          "postId": "2097171653629555183",
+          "author": "ainsliecrypto",
+          "searchJob": "arkansas-state",
+          "text": "https://t.co/8MNjtt4foR"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2096799405345292606",
-          "author": "sadhavi",
-          "searchJob": "temple",
-          "text": "I have never understood this. People read the Bhagavad Gita every day, quote Krishna, worship Krishna…and are still consumed by jealousy, comparison, ego. What is the point of reading the Gita if the Gita never enters your life?"
+          "postId": "2097171156532973733",
+          "author": "darius_johnson2",
+          "searchJob": "arkansas-state",
+          "text": "Blessed to receive a game day invite from @AStateFB @MMrob75 @KoltonPrice1 @CoachLTeasley @CopiahFootball https://t.co/ODO3R8VJ9l"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097165557208436888",
+          "author": "ghalebkrame",
+          "searchJob": "arkansas-state",
+          "text": "A fluorescent poster, 24 hours, and a threat against the state. What does the narcomanta found in Acapulco really reveal? An analysis of territory, criminal power, intimidation, and the struggle over who gets to decide where authorities can"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097165288978420177",
+          "author": "nordexium",
+          "searchJob": "arkansas-state",
+          "text": "https://t.co/n2MrIcRalT"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097158615132242222",
+          "author": "islamic_values",
+          "searchJob": "arkansas-state",
+          "text": "Hell named as a destination, Mercy named in the same sitting. No tour. https://t.co/G2Wwy7BszS"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097148743758094565",
+          "author": "shynkookv",
+          "searchJob": "army",
+          "text": "Discussing the ins and outs of my illness because I feel like it sends me into a spiral and it makes people look up stuff online and then offer me a whole lot of unsolicited advice on how to handle something Ive been dealing for three years"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097161938325086636",
+          "author": "secondtimefarce",
+          "searchJob": "liberty",
+          "text": "https://t.co/w9rEGCTAEQ"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097147488142528839",
+          "author": "gardgoldsmith",
+          "searchJob": "liberty",
+          "text": "As it was after the expansion of FDIC \"insurance\" in the George HW Bush Admin spurred reckless home loans that soon collapsed, and as it was when Bush W pushed the fed to offer foolishly low rates beginning in Feb 2002, the avenue by which "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097123250811687160",
+          "author": "kobeissiletter",
+          "searchJob": "liberty",
+          "text": "US homebuyers are walking away from deals at the highest rate in years: 14.0% of home-purchase agreements that went under contract fell through in July, the highest rate since November 2023. The national cancellation rate has held between 1"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097170831382069667",
+          "author": "propgrades",
+          "searchJob": "louisiana",
+          "text": "some words on the company we just launched ahead of the 2026 NFL season https://t.co/8bSKcDjiQp"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2097165621494522011",
+          "author": "allnonesports1",
+          "searchJob": "louisiana",
+          "text": "🔥OFFERED AT CAMP '27 G, Daniel Green @thedanielgreen_ has received an offer from Louisiana Christian University @NXTLevelSN @4YFilms @EHoopsSpotlight @AdrianMaloneyJr @bench424nmore @Uorangemen2 @CountdownCreate @PSGSportsMedia @HankampSco"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097153101174018256",
+          "author": "cajuncharm24",
+          "searchJob": "louisiana",
+          "text": "Someone offered them the Kool-Aid."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097150301295849501",
+          "author": "patrickbetdavid",
+          "searchJob": "louisiana",
+          "text": "This Gallup poll is inane: The poll shows how proud Republicans and Democrats are from 2001 to today. 2001: Republicans: 90% Democrats : 85% 2026: Republicans: 92% (+2) ⬆️ Democrats: 36% (-49) 👀 What happened to democrats the last 25 years"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 19,
+      "rejected": 29,
       "reasons": {
-        "bare_mention_requires_llm": 15,
-        "multiple_resolved_schools": 3,
-        "school_not_resolved_confidently": 1
+        "school_not_resolved_confidently": 1,
+        "bare_mention_requires_llm": 25,
+        "multiple_resolved_schools": 2,
+        "reporter_missing_class_year": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097164485303701937",
-          "author": "mikejfc1",
-          "searchJob": "washington",
-          "text": "I have 2 extra tickets for Angine de Poitrine’s concert on September 15 at The Atlantis, Washington, DC! 🫶 Letting them go for face value, but open to reasonable offers. DM me if interested! 🎟️ #AngineDePoitrine #AngineDePoitrineTickets #"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097163550313554119",
-          "author": "mikejfc1",
-          "searchJob": "washington",
-          "text": "I have 2 extra tickets for Robyn’s concert on September 8 at The Anthem, Washington, DC! 🫶 Letting them go for face value, but open to reasonable offers. DM me if interested! 🎟️ #Robyn #RobynTickets #TheAnthem #WashingtonDC #TicketSale"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097162045766640123",
-          "author": "ac7dc_jay",
-          "searchJob": "washington",
-          "text": "For those of you in Eastern Washington, WSU does offer nuclear reactor operator certification classes."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097159657957765306",
-          "author": "earthtotami",
-          "searchJob": "washington",
-          "text": "“It is absolutely beyond dispute now that this pandemic is a pandemic of the unvaccinated.” Jenny Anne Durkan holds a B.A. from Notre Dame (1980) and a J.D. from the University of Washington (1985). Criminal-defense lawyer, Obama-era U.S. A"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097152203572097066",
-          "author": "1mikebrown",
-          "searchJob": "washington",
-          "text": "Moscow is offering the United States not \"peace in exchange for business,\" but rather \"business in exchange for war.\" The Kremlin is offering Washington major Russian-American deals, access to energy resources, the Arctic, critical minerals"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097147173355806830",
-          "author": "26thandguad",
-          "searchJob": "washington",
-          "text": "@adr1xn9 @AccentsSouthern Sherman is a deeply fascinating man that gets undue hate for his march to the sea. He followed the war by immediately providing relief to the surrendering confederates, offered more generous terms than Washington l"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097153687210659881",
-          "author": "jackcomputers1",
-          "searchJob": "north-carolina",
-          "text": "@SawyerMerritt @Starlink Does starlink offer stationary Maritime plans. I own a platform out in the middle of the ocean called The Frying Pan Sholes Light Station that is 32 Miles off the cost of North Carolina. We used to have a point to p"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097167053761184188",
-          "author": "ehansennd",
-          "searchJob": "notre-dame",
-          "text": "OFFER ENDS AT 12:01 am CT Thanks to everyone who joined our team to get an inside look at your team, #NotreDame Football, in 2026 at 75% off. Hundreds, in fact, have become new members in the past month @BGInews. Join now to get your 1st ye"
-        },
-        {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097155630574272969",
-          "author": "paysferemart",
-          "searchJob": "notre-dame",
-          "text": "The Pirate Queen: A Novel from the New York Times Bestselling Author of the Frozen River by Ariel Lawhon A sweeping historical adventure inspired by the life of Grace O’Malley, the legendary Irish folk heroine who risked everything to defen"
+          "postId": "2097168084331114620",
+          "author": "inglis_sales",
+          "searchJob": "alabama",
+          "text": "Well Written took her unbeaten record to seven wins in the G1 Proisir Plate at Ellerslie, defeating fellow Inglis graduates Alabama Lass and Media World. Racing in the silks of @YulongInvest, she was bought by Benji King's Foxhill Thoroughb"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097162102142026222",
+          "author": "bamaburner02",
+          "searchJob": "alabama",
+          "text": "@louholtz69 I mean you can’t sleep with students and boosters wife’s and be drunk a 90% of the time and expect a job offer during the most pivotal point of Alabama football history"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097164628145115259",
-          "author": "dunnbilly87734",
-          "searchJob": "temple",
-          "text": "Targeted Advertising and Tracking: Websites use \"cookies\" and tracking pixels to monitor your browsing habits, search history, and location. If you recently searched for a specific topic, an interactive site or stream might dynamically chan"
+          "postId": "2097157650110906448",
+          "author": "norcal_trojan",
+          "searchJob": "alabama",
+          "text": "@EAC700136531 @Adam_Bradford14 Stanford and the Pac-12 offered USC zero support in the fight against unjust NCAA football sanctions. Think the SEC would have allowed that to happen to Alabama."
+        },
+        {
+          "reason": "reporter_missing_class_year",
+          "postId": "2097167710564008052",
+          "author": "exit99sports",
+          "searchJob": "illinois",
+          "text": "@jacksonindians star guard pick up an offer from Northern Illinois out of the MAC⤵️"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097164019375157494",
-          "author": "ashoksharda7",
-          "searchJob": "temple",
-          "text": "Is a weak Mars draining your drive and confidence? Time to fix that energy! Try these 7 powerful astrological hacks to balance a tricky Mars: - Feed monkeys to easily pacify restless, aggressive energy. - Plant a pomegranate tree just outsi"
+          "postId": "2097168425625825504",
+          "author": "sundesmos",
+          "searchJob": "michigan",
+          "text": "Michigan Attorney General Dana Nessel suggested in a private speech to Jewish Democrats on Aug. 30, 2026, that they should sacrifice their own safety and comfort in exchange for what she described as \"the opportunity to save the rest of hum"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097159727771955475",
-          "author": "thedailyjagran",
-          "searchJob": "temple",
-          "text": "#InPics | Uttar Pradesh Chief Minister Yogi Adityanath offered prayers to Lord Venkateswara at the revered Tirumala temple. #YogiAdityanath #UPCM #Tirumala #LordVenkateswara #TirupatiBalaji #TempleVisit https://t.co/5m2R9AxJvD"
+          "postId": "2097150812614959398",
+          "author": "costreporthero",
+          "searchJob": "michigan",
+          "text": "I’m a rural hospital CFO. I’ll take the other side of this starting with the premise. Michigan taxpayers didn’t finance a hospital system. The state appropriation to U-M’s Ann Arbor campus is about $365M against a $3.1B academic general fun"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097156290455945407",
-          "author": "indiatoday",
-          "searchJob": "temple",
-          "text": "Union Minister Chirag Paswan visited Vrindavan with his family and offered prayers at the Shri Banke Bihari Temple. He prayed for the happiness, peace and well-being of everyone and expressed his devotion with “Jai Shri Radhe”. #ChiragPaswa"
+          "postId": "2097150622009118872",
+          "author": "zhuber89",
+          "searchJob": "minnesota",
+          "text": "@HockeyGuruOfX Anything for you guys to cope with the idea of him “coming home” to Jersey eh. Keep dreaming Minnesota has way more to offer than Jersey. NYC is probably the most overrated area in the entire country."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097171293195882831",
+          "author": "byumbbrecruit",
+          "searchJob": "byu",
+          "text": "🚨BYU has reached out to and OFFERED class of 2029, Utah native Kiir Nang (PF). #BYUHOOPS https://t.co/MG4s1MTao2"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097158519342670131",
+          "author": "newcarlton",
+          "searchJob": "air-force",
+          "text": "As you will see, if you read this entire thread, it took me some doing to finally get Grok to analyze a video that was difficult for me to hear. Here are the main points. By Grok: \"The lecture, delivered in Arabic by the man in the white sh"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097166129613435268",
+          "author": "thereporters01",
+          "searchJob": "arkansas-state",
+          "text": "Iran's renewed use of the Strait of Hormuz as a tool for international pressure and a means of blackmailing its neighbors and the wider world will ultimately work against it. What Tehran regards as leverage could, over time, become a strate"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097165513914982862",
+          "author": "daniell25831566",
+          "searchJob": "arkansas-state",
+          "text": "@MayorBillWells Property taxes are far worse than the insurance bill unless they live in a state that offers relief to low income seniors."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097162693153333573",
+          "author": "mkusagr8agin",
+          "searchJob": "arkansas-state",
+          "text": "@EugenieGrander @VividProwess They were squatters and probably should go back to Jordan. They spent years turning down a state when offered."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097151228941615576",
+          "author": "geraldroe6",
+          "searchJob": "arkansas-state",
+          "text": "The \"wholly\" FBI pipe bomb version is phony. Like Epstein's final moments, surveillance cameras work on cue, or not. Steve Baker @SteveBakerUSA · 9h EXCLUSIVE: The untold story of the FBI’s J6 pipe bomber “Person of Interest #2” If what the"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097166954562048287",
+          "author": "zahidsarfrazp",
+          "searchJob": "army",
+          "text": "We live in our homes in front of the eyes of our parents and siblings all the time, but this of the Pak Army This young man left his precious relationship, parents, siblings, wife and children to his homeland Pakistan They offer their lives"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097161642127880423",
+          "author": "vipultripathi87",
+          "searchJob": "army",
+          "text": "@buddhawi10 @awasthi_pr38271 Pakistanis take immense pride in being able to think with their penises instead of their brains, so they fuck their cousins and their economy with the same passion, and offer their mother, sisters and wives to t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097158763383824454",
+          "author": "sohailmkhattak",
+          "searchJob": "army",
+          "text": "Adil Raja sharing exclusive information about the latest deal offered to Imran Khan that Imran Khan has rejected. I think the Army institution must arrest all its officers starting with Asim Munir who violated oath/constitution to get its c"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097151030609731932",
+          "author": "quiseyyp",
+          "searchJob": "army",
+          "text": "Watch this like I said idk what it’ll be but wtv it is im surpassing whatever the army can offer im not competing with some sick nigga I wanna surpass a bitch husband"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097150744164274228",
+          "author": "surfer_bradlee",
+          "searchJob": "army",
+          "text": "@bofrench The islamic god is actually the devil, he came and offered the pedophile rapist false prophet Muhammad sinful earthly desires in order to get him to wipe out Christianity and jewish faith. He was tasked to raise an army, he was a "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097164203585163499",
+          "author": "jamesamitc4656",
+          "searchJob": "liberty",
+          "text": "@lsferguson I voted for him twice and still what if I went back in time better than what the Democrats offered Even though disappointing . It’s better than losing your gun rights, having your money stolen and losing our liberty, that’s all "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097155326868869345",
-          "author": "garypr7",
-          "searchJob": "temple",
-          "text": "Alex Jones Show 9/06/26 Full Show #TEST_ALL; HOLD ONTO the GOOD. 1 Thess 5; Matt 5-7; John; Isa 8,40-48; Deut 18; 1 John - Massive DNA C-19 Poisoning? - Coming Economic Crash/Big Winners - 3rd Worlders/Islamic Fast-Breeders Forced/Aided to "
+          "postId": "2097160091149402371",
+          "author": "filmaker02",
+          "searchJob": "liberty",
+          "text": "I so deeply agree that I am sharing the ENTIRE article here. READ AND SHARE by: KrisAnne Hall, JD There is a faulty premise at the center of the debate over eliminating homestead property taxes: “If we eliminate property taxes on people’s h"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097155059989835806",
-          "author": "debiacharya1969",
-          "searchJob": "temple",
-          "text": "People offer five time Namaz, or go to the Church every Sunday to pray or going to the temple everyday. They all have jealousy, ego and conparison. Some of them are murderous also. Why do you single out Gita? Gita is knowledge, what you do "
+          "postId": "2097154446384144857",
+          "author": "sweetcaligurl07",
+          "searchJob": "liberty",
+          "text": "Coldplay Viva La Vida (Live Life) on their fourth album Viva la Vida or Death and All His Friends done in 2008. Did you know its a common phrase to salute royalty? The song Viva La Vida was a mirror to the final speech and thoughts of King "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097154983510647085",
-          "author": "matt_murphy_23",
-          "searchJob": "temple",
-          "text": "The Bible says the devil runs this world. Jesus was tempted by the devil in the desert as he fasted for 40 days and the devil offered Jesus 3 things: 1️⃣Bread from stones: to satisfy Jesus’s physical hunger after fasting for 40 days. 2️⃣Spe"
+          "postId": "2097153700263563461",
+          "author": "hnzi_malik1",
+          "searchJob": "liberty",
+          "text": "🦣Tranquility emerges in soft, unhurried instances. Cruising down the highway offers the liberty of endless forward motion. As the ever-changing landscape slips past on either side, it evokes a profound sense of unbridled liberation and car"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097152448075071702",
-          "author": "westsidephilos1",
-          "searchJob": "temple",
-          "text": "it’s next to money changing during the second temple period, think about it. They said the music would be conducive to the environment, like that changes anything. It’s the reliance on authority and tradition alone that is the problem for t"
+          "postId": "2097152377459773912",
+          "author": "pressburgerpowe",
+          "searchJob": "liberty",
+          "text": "@William_Kofi @UsaReport07 No, the biggest problem is John Locke’s “life, liberty, and property” tweaked a bit to “happiness” to fool the herd. There was never and is still now no intention to offer democracy; just a trick. Simply divide an"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097144998244581615",
-          "author": "cnnnews18",
-          "searchJob": "temple",
-          "text": "Tirupati, Andhra Pradesh | Uttar Pradesh Chief Minister Yogi Adityanath visited the Tirumala Venkateswara Temple and offered prayers during his visit to Andhra Pradesh. #Tirupati #YogiAdityanath #Tirumala #VenkateswaraTemple #AndhraPradesh "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097143761595928829",
-          "author": "paulcuthbert",
-          "searchJob": "temple",
-          "text": "\"So, what's our next move?\" he inquired. \"Here we are in Egypt, yet the whereabouts of Osiris's Temple remain a mystery. My grandfather's diary offers a few hints, though they're far from straightforward.\" An adult adventure novel. https://"
+          "postId": "2097151511998738783",
+          "author": "rajshekharmeht2",
+          "searchJob": "liberty",
+          "text": "His sinister confidence, glib arrogance and penchant for propagating abhorrent, obnoxious ideas get under the skin. His hidden agenda is to destroy New York, force capital to flee, make the city broke and dysfunctional, defund the police, p"
         }
       ]
     },
@@ -323,11 +393,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 19,
+      "rejectedCandidates": 29,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-08T03:43:29.720Z"
+    "status rebuilt locally from current store on 2026-09-08T03:58:12.375Z"
   ]
 }
