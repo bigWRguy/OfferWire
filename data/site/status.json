@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T17:43:21.117Z",
+  "generatedAt": "2026-09-08T17:58:21.664Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-08T17:43:20.810Z",
+    "at": "2026-09-08T17:58:21.345Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
+    "sweptThisRun": 25,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0124286111111112,
-    "p95Hours": 2.0214169444444443,
-    "worstHours": 2.0214169444444443
+    "medianHours": 0.7778566666666666,
+    "p95Hours": 2.0142041666666666,
+    "worstHours": 2.0142044444444442
   },
   "decisionCoverage": {
-    "total": 37,
-    "decided": 37,
+    "total": 39,
+    "decided": 39,
     "complete": true
   },
   "pending": {
@@ -49,310 +49,315 @@
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 890,
+    "completeOffers": 891,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-08T17:43:20.809Z",
-      "got": 66,
-      "new": 37,
-      "lag": 0.07
+      "at": "2026-09-08T17:58:21.344Z",
+      "got": 78,
+      "new": 39,
+      "lag": 0.12
     }
   },
   "audit": {
-    "at": "2026-09-08T17:41:31.190Z",
+    "at": "2026-09-08T17:56:28.888Z",
     "mode": "live",
     "collection": {
-      "returned": 66,
-      "kept": 37,
-      "duplicate": 29,
+      "returned": 78,
+      "kept": 39,
+      "duplicate": 39,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 20,
-      "rejected": 17,
+      "accepted": 25,
+      "rejected": 14,
       "reasons": {
-        "no_offer_term": 6,
         "no_fbs_school": 9,
-        "hard_negative": 1,
-        "unclassified_offer_text": 1
+        "no_offer_term": 5
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2097378177735917741",
-          "author": "589xrp",
-          "searchJob": "hawaii",
-          "text": "Permissioned DEX is already on. The rail does not know if you are accredited. It knows whether a key still says you are. The bouncer is the building. #XRP https://t.co/J2vgqj9JJO"
-        },
-        {
           "reason": "no_fbs_school",
-          "postId": "2097354574688366594",
-          "author": "hiluxre",
-          "searchJob": "hawaii",
-          "text": "NEW LISTING | KONA PALISADES | $1,098,000 This 4-bed, 3-bath property offers two living spaces with ocean views. Stunning finishes: flooring, countertops, cabinets, appliances, roof &amp; fencing. Etienne Handman RB-24352 | 808-319-7727 Gen"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097373136538718469",
-          "author": "mark_pasto64312",
-          "searchJob": "temple",
-          "text": "“Competitive Narratives: Tale of Three Witnesses” Luke 23:46: Jesus dies on the cross Text: “Father, into Your hands I commit my spirit.” And having said this, he breathed his last. Luke presents a clear, unambiguous physical death on the c"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097373088694304784",
-          "author": "deweichia4ever",
-          "searchJob": "temple",
-          "text": "@AraziMarina None of these counties will take them and they will not leave their land. The claim that “Barak offered everything\" oversimplifies Camp David. Major disputes remained over borders, Jerusalem/Temple Mount, refugees and the right"
+          "postId": "2097360806836928898",
+          "author": "sooner_kent",
+          "searchJob": "kent-state",
+          "text": "@SWiltfong_ @ethanmmcdowell @ChadSimmons_ I guess they can offer them lots of playing time 😎👍"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097320924533911969",
-          "author": "rodmanai",
-          "searchJob": "temple",
-          "text": "M11 released OpenMarket, and everyone's going to focus on the wrong part. The flashy part: five seller agents argue for their products in a \"room.\" A buyer agent holds your brief and cuts the ones that can't answer a question. A referee sit"
+          "postId": "2097382228015603926",
+          "author": "oieahc",
+          "searchJob": "liberty",
+          "text": "🍂 Get ready for fall events with @OIEAHC! 🗓️ Sep 10: New Colloquia Series ✍️ Sep 11: Coffeehouse applications due 🗣️ Sep 14: Peter C. Mancall Lecture Check all events and apply here: https://t.co/38llZAlKvP #VastEarlyAmerica https://t.co"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097379830140702865",
+          "author": "sharehollder",
+          "searchJob": "liberty",
+          "text": "@grok 🤣🤣 Grok make me an offer."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097379227083690209",
+          "author": "sharehollder",
+          "searchJob": "liberty",
+          "text": "@grok 🤣🤣🤣 Cheap estimate... 100k best offer.. Are you buying @grok"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097377320839569855",
+          "author": "libertymonk",
+          "searchJob": "liberty",
+          "text": "@mario_duarte_jr @USMobile The only thing to watch out for is that some of their features and special offers only apply to certain networks. Like I got a BOGO free line when I joined, but it was only valid on Dark Star (AT&amp;T). Not a big"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097366254235320401",
+          "author": "libertypol_ally",
+          "searchJob": "liberty",
+          "text": "Dear ALPR defenders. We have an offer: Abolish Qualified Immunity. In exchange you will receive: ALPRs still getting banned."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097352951698210968",
-          "author": "gbengawemimo",
-          "searchJob": "temple",
-          "text": "https://t.co/1qGU47SveQ"
+          "postId": "2097182534912069887",
+          "author": "conlawwarrior",
+          "searchJob": "liberty",
+          "text": "Before you propose giving the government a tool of widely abused and unprecedented mass surveillance, you’ve GOT to figure out how to handle the issue of pervasive non-accountability for LEO misconduct in America. Do you: • vociferously den"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097349087959863360",
-          "author": "kenneedsgrace",
-          "searchJob": "temple",
-          "text": "Jesus offering the bread to Judas is consistent with—&amp; actually illustrates—the duty to offer the gospel freely to all people, even though we do not know who the elect are. Jesus did know Judas’s heart &amp; destiny, yet He still offere"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097378939274506713",
-          "author": "wyofile",
-          "searchJob": "wyoming",
-          "text": "OPINION: Leaning more heavily on sales tax could shift control from local governments to Cheyenne. Marta Mossburg offers other paths to promote fairness, stability, transparency and fiscal restraint. #wyomingnews #propertytaxes #localcontro"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097376975908196535",
-          "author": "frontiercc1976",
-          "searchJob": "illinois",
-          "text": "🎓 Thinking about transferring or continuing your education? Stop by the Mason Hall Foyer on Thursday, October 1, from 10 a.m. to 1 p.m. and meet with a representative from Eastern Illinois University. Learn about programs, opportunities, a"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097364477964341605",
-          "author": "pg_reinhardt",
-          "searchJob": "illinois",
-          "text": "I offer my thoughts on Illinois State basketball's player in limbo, the Redbird quarterback situation and more in this column: https://t.co/DzpIYRpzxD"
+          "postId": "2097364795620028811",
+          "author": "callous_boomer",
+          "searchJob": "liberty",
+          "text": "@MarketPalmer_ The best offer you will get is usually the one to get you on board."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097367419345846616",
-          "author": "msuspartansrtb",
-          "searchJob": "michigan",
-          "text": "Michigan State is already hunting for future stars. One young linebacker just caught the Spartans’ attention. #GoGreen #MSUFootball Subscribe to Roundtable Sports. https://t.co/BnxdYVFy3W"
+          "postId": "2097370498929692933",
+          "author": "hapi12334223",
+          "searchJob": "alabama",
+          "text": "https://t.co/3lqToSn2PI"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097368410954809714",
+          "author": "tuscaloosapatch",
+          "searchJob": "alabama",
+          "text": "Shelton State Community College will offer a free community training session later this month aimed at helping West Alabama residents better understand artificial intelligence. https://t.co/XvFVvkvtDP"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097372562305032511",
+          "author": "ucrrg",
+          "searchJob": "oklahoma",
+          "text": "Hackers don’t wait for the next test drive. Our Oklahoma-domiciled Risk Retention Group offers cyber liability solutions for auto dealers handling customer data, payments, and connected-vehicle risks—available in select states through appoi"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097357099017580663",
+          "author": "purduepress",
+          "searchJob": "purdue",
+          "text": "It's #InternationalLiteracyDay (9/8)! Literacy transforms learning spaces. LITERACIES OF DESIGN offers theories and real-life examples of #Inclusion&amp;Equity efforts prepare future #engineers and makers, creating &amp; fostering spaces to"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2096975180908183771",
-          "author": "martina",
-          "searchJob": "minnesota",
-          "text": "Lying sack of …"
-        },
-        {
-          "reason": "unclassified_offer_text",
-          "postId": "2097369280845082743",
-          "author": "amazingmaga",
-          "searchJob": "minnesota",
-          "text": "The Minnesota GOP is offering a $500 reward for information that leads to an arrest after it says a sign was stolen from its State Fair booth. https://t.co/3407UCReLH"
+          "postId": "2097124256907657675",
+          "author": "azgop",
+          "searchJob": "arizona",
+          "text": "We are working day and night to get great Republican candidates elected! Join us! https://t.co/YNz4DWxkWS"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097368042942480738",
-          "author": "alphanews",
-          "searchJob": "minnesota",
-          "text": "STORY: https://t.co/gav0C6v8OS"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097378700073251275",
-          "author": "kyleeforbes2027",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "Thank you @NathanKero81 and @MRCNorseFB for my first offer!🙏🏾#BLSSSED#AGTG @perk3445 @HallTechSports1 @RecruitTheA @AustinFootball_ https://t.co/ZS4tsBLHgS"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097351073493065815",
-          "author": "abrafford2027",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG Thank you so much @CoachTyMcGowan for believing in me and giving me the official offer to play for @WCtitansFB next fall, much appreciated! @CoachStephen13 @CoachDaniels06 @OvertimeWv @PrepRedzoneWV @StevesSportsYT https://t.co/BBNnCN"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097371012807483604",
-          "author": "igb_hoops",
-          "searchJob": "phrase:\"picks up an offer from\"",
-          "text": "Ava Simpson, Class of 2028, picks up an offer from @trevorwoodruff at @Bucknell_WBB! Congratulations, @AvaSimpson2424! https://t.co/dvhaiwZ5rp"
+          "postId": "2097364159818064064",
+          "author": "time0149",
+          "searchJob": "delaware",
+          "text": "https://t.co/mGpK6jRSYj"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 20,
+      "accepted": 1,
+      "rejected": 24,
       "reasons": {
-        "bare_mention_requires_llm": 11,
-        "multiple_resolved_schools": 5,
-        "school_not_resolved_confidently": 2,
+        "bare_mention_requires_llm": 17,
+        "multiple_resolved_schools": 4,
         "reporter_missing_player_name": 1,
-        "explicit_non_fbs_target": 1
+        "school_not_resolved_confidently": 1,
+        "reporter_missing_position": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097373059535573455",
-          "author": "crazylemurian",
-          "searchJob": "temple",
-          "text": "Zelda: OoT Rebirth – The Illusion I was 15 in 1998, when Ocarina of Time came out. The first time I saw the TV commercial, I literally stopped breathing from the first frame to the last. From that moment on, I had only one goal in life: to "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097367156702773737",
-          "author": "ewtnews",
-          "searchJob": "temple",
-          "text": "The Catholic Church celebrates the birth of the Blessed Virgin Mary on its traditional fixed date of Sept. 8, nine months after the Dec. 8 celebration of her immaculate conception as the child of Sts. Joachim and Anne. The circumstances of "
+          "postId": "2097382020481449995",
+          "author": "np4football_ot",
+          "searchJob": "east-carolina",
+          "text": "Samuel “Dj” Watkins-DB-JUCO @ECUPiratesFB Offer #CFB"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097361331225833848",
-          "author": "pravita_pandey",
-          "searchJob": "temple",
-          "text": "In 1998, Warren Buffett gave a 1-hour masterclass on how to never lose money investing. Here are the 22 most valuable lessons from his lecture: 1. You only have to get rich once. If you have $100 million and can make 10% unleveraged or 20% "
+          "postId": "2097381346352267297",
+          "author": "cigmanf",
+          "searchJob": "liberty",
+          "text": "Trump Restored American Safety and Sovereignty 1. He made the border a real border again. In a matter of months, Trump reduced illegal border crossings to their lowest level in half a century. Catch-and-release is finished. The wall is goin"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097359356685844827",
-          "author": "girlglorygun",
-          "searchJob": "temple",
-          "text": "It feels like praying in a temple gone silent, like standing before a god who once spoke in thunder and now offers nothing but stone. Ares has lit every candle. Offered every part of himself in devotion. But faith, it seems, is not always r"
+          "postId": "2097376741152944467",
+          "author": "aier",
+          "searchJob": "liberty",
+          "text": "It may be the beginning of the college semester, but it's the last week for undergrads to submit for the 2026 Douglas B. Rogers Essay Competition. If you know a college student who could offer a fresh analysis of the intersection of politic"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097358389445849464",
-          "author": "biblicaltruthsd",
-          "searchJob": "temple",
-          "text": "@Marvel0usJesus He will lead them to springs of living water 🌊 Everything Jesus promised by the well in Samaria, everything He offered in the temple courts — fulfilled completely, flowing freely, forever. The thirst was always meant to end"
+          "postId": "2097362913426079929",
+          "author": "tntjohn1717",
+          "searchJob": "liberty",
+          "text": "had received, and offered an alternative authority. The garden had a keeper because the garden had an enemy. Adam’s failure therefore began before he ate. Genesis 3:6 says Eve gave the fruit “unto her husband with her.” Adam was present whi"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097352592406028543",
-          "author": "pb1963xbwl",
-          "searchJob": "temple",
-          "text": "@LavanyaBallal Cult ? See below 1. Vajpayee, Sonia visit Akshardham TNN / Sep 26, 2002, 01:35 IST 2.Gujarat polls: Rahul Gandhi offers prayer at Akshardham India PTI | Nov 11, 2017, 14:13 IST https://t.co/wwFlAPzJUP Dr. MMS visited Akshardh"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097367175279329610",
-          "author": "birder35598",
-          "searchJob": "toledo",
-          "text": "If you're supporting the Palestinian cause, pause for a moment of honest self-examination. Hamas are not a liberation movement. It's a brutal Islamist regime that diverts billions in aid to build tunnels and rockets, while using Gazan civil"
+          "postId": "2097362898762772894",
+          "author": "tntjohn1717",
+          "searchJob": "liberty",
+          "text": "Before the Devil Spoke: Five Commands God Gave Before the Fall Key Passages: Genesis 1:28; Genesis 2:15–17 Introduction Before there was a funeral, there was a garden. Before there was a hospital, a prison, a battlefield, a courthouse, or a"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097376923123105795",
-          "author": "transworldwy",
-          "searchJob": "wyoming",
-          "text": "Below-market rent and strong earnings Take a closer look: [https://t.co/moSehCY4Rj] This top-rated, turnkey salon offers several advantages buyers rarely find together, all for an asking price of $85,000. #BusinessForSale #SalonForSale #Hou"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097364904210538738",
-          "author": "nmmv_usa",
-          "searchJob": "wyoming",
-          "text": "Admission to the National Museum of Military Vehicles will be free on Friday, Sept. 11, 2026, in solemn remembrance of the terrorist attacks of Sept. 11, 2001. Made possible through the generous support of an anonymous donor, the day offers"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097348123366465737",
-          "author": "hrlspartners",
-          "searchJob": "wyoming",
-          "text": "FOR SALE in Kalorama! A rare property compound with three separate living quarters — main residence, carriage house, and in-law suite. 2107 Wyoming Ave, NW. Offered at $6,195,000. Built circa 1911, this remarkable Beaux Arts mansion offers "
+          "postId": "2097354445130502287",
+          "author": "jahwehsus",
+          "searchJob": "liberty",
+          "text": "To say these things isn’t deism. It’s the historic Reformed distinction. Westminster Confession 3.1: “God from all eternity did… freely and unchangeably ordain whatsoever comes to pass: yet so, as thereby neither is God the author of sin, n"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097368185876234471",
-          "author": "alforchicago",
-          "searchJob": "illinois",
-          "text": "@JBPritzker Always remember the democrats have nothing to offer the citizens of Illinois. https://t.co/jlpPYTvJr6"
+          "postId": "2097354282391445858",
+          "author": "ccvpolicy",
+          "searchJob": "liberty",
+          "text": "How do we rediscover our founding principles and reclaim our future? Join us on October 23 in Columbus for the Essential Summit as we welcome Dr. Matthew Spalding, Kirby Professor in Constitutional Government and Dean of the Van Andel Gradu"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097373711854956652",
-          "author": "tiberiadex",
-          "searchJob": "iowa",
-          "text": "US pump prices set a Labor Day record at $4.15 a gallon, and they are climbing in the season they normally fall. AAA had the national average at $4.14 heading into the holiday, about 25 cents above the previous Labor Day record of $3.82 set"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097350166949064832",
+          "author": "1americangirl",
+          "searchJob": "liberty",
+          "text": "How could these Individuals still Fund the \"Democrat Party\" of Socialists, Communists & AntiAmerican Groups who have taken over the Democrat Party?! DEMOCRATS only offer a NEGATIVE AGENDA! DEMOCRATS are AGAINST ❌ -- REPUBLICANS are IN FAVOR"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097376408221688122",
-          "author": "goody2shoes46",
-          "searchJob": "michigan",
-          "text": "Does anyone in Michigan really realize what degree of horror this state is in? Does anyone truly understand that there will not be a State of Michigan if we allow another Democrat to be installed in this state? Michigan is currently ranked "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097370697928511754",
-          "author": "bbsbighouse1",
-          "searchJob": "michigan",
-          "text": "Week 1 Snap Counts offer the clearest glimpse yet at how @UMichFootball’s Depth Chart is really taking shape 👀 What changes should we expect when the Wolverines face @OU_Football? ⬇️"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097361714496889071",
+          "author": "wadrewhawkins",
+          "searchJob": "louisiana",
+          "text": "The records fight also offers a window into how officials used NDAs during the Hyundai negotiations. Records we obtained show Louisiana officials discussed more than $2.6 billion in incentives for Hyundai Steel -- negotiated before the publ"
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2097367014344138939",
-          "author": "2andvs",
-          "searchJob": "michigan",
-          "text": "You know you could always choose one--or all three--of the dates Abdul has offered you for a public conversation about anything you want to discuss, including Hasan. Maybe you could explain your interest in representing the good people of M"
+          "postId": "2097369516766376150",
+          "author": "qbhitlist",
+          "searchJob": "tulane",
+          "text": "🚨🚨OFFER ALERT!! Congrats!🚨🚨 @ColtonDabkowski has picked up an offer from Tulane University @GreenWaveFB 🟢🌊 #TrustTheProcess"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097382126303801368",
+          "author": "charlesk76493",
+          "searchJob": "alabama",
+          "text": "Or UNC off Dean Smith. Or Duke off of coach K Or ND off Knute Rockne Or Oklahoma off Barry Switzer Or Alabama off Nick Saban Or Wisconsin off Barry Alvarez Or Penn State of Joe Paterno Or USC off Pete Carroll Or Nebraska off Tom Osborne Or "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097376906035286315",
+          "author": "azavital74",
+          "searchJob": "alabama",
+          "text": "Built to Lead: The Quarterback Draft Blueprint First-round investment and traditional size still matter—but development and organizational fit ultimately determine who survives. My study reinforces one conclusion: draft position remains the"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097379276521623901",
-          "author": "ejkrevolution",
-          "searchJob": "minnesota",
-          "text": "@tkloos @TSN_Sports @reporterchris @FirstUp1050 You're one of the very few realistic people from Minnesota I have seen make a comment. I'm not hoping you're wrong, but you are right, Billy G took a big gamble. They don't always pay off. Esp"
+          "postId": "2097362881507729797",
+          "author": "fosterreub81830",
+          "searchJob": "alabama",
+          "text": "@_JoeJohnson_ Glenn schumann - Wouldn't take the job, waiting for the Alabama job. Brian Hartline - Would take it. Jimbo Fisher - Likely to be the one to get offered first and get it. Charles Huff - He's take it. Manny diaz- He's take it, b"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097377331056877593",
+          "author": "brownmp",
+          "searchJob": "missouri",
+          "text": "@iowahawkblog Mizzou? The old as in original midwest B1G sure, but the new nationwide B1G? Might offer ASU before Mizzou."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097369730986193049",
-          "author": "eibbednosredna",
-          "searchJob": "minnesota",
-          "text": "The last few times I’ve been out of Minnesota in The last 9 months, people have offered their condolences for the ICE abuse here. And how proud they are of us. I guess we hang around different types."
+          "postId": "2097354280403693966",
+          "author": "loopingcloud",
+          "searchJob": "missouri",
+          "text": "144-unit multifamily opportunity in St. Louis, MO! Timber Ridge Apartments offers ±131,290 SF across 18 buildings on ±6.07 acres near I-270 & Hwy 367. 📍 Contact Chris Maling | Avison Young | 213-618-3824 for details. https://t.co/6mIY5pZiz"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097367943491322038",
-          "author": "alphanews",
-          "searchJob": "minnesota",
-          "text": "Minnesota GOP says sign was stolen from State Fair booth, offers $500 reward The GOP released a security video showing a man tampering with a sign promoting Lisa Demuth's proposal to lower car tab fees."
+          "postId": "2097359312402481251",
+          "author": "indozambiabank",
+          "searchJob": "northwestern",
+          "text": "Tune in to Hype FM Zambia and catch Mr. Oscar Ndalama, Branch & Unit Head - Copperbelt and Northwestern sharing more about IZB NXT Rewards. 🗓️ 9th Sep 2026 | 7:30 Hrs Discover what your IZB NXT Rewards can offer you. #IndoZambiaBank #IZBNX"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097372646786703807",
+          "author": "ysuvolleyball",
+          "searchJob": "ohio-state",
+          "text": "Special offer from @BigTenNetwork for this week's tournament at Ohio State 🚨 Watch our three matches in Columbus with a one-month pass of B1G+ for $4.99 here: https://t.co/hrteSArqU6. The offer is available on web only and cannot be purcha"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097350296875778064",
-          "author": "livermush_grits",
-          "searchJob": "north-carolina",
-          "text": "How do I define nuclear family? How do Marxists and DSA define nuclear family? States determine where the money goes... Currently to qualify, the parent or parents in the household must have a documented reason for needing child care. In No"
+          "postId": "2097361802354896967",
+          "author": "oapoh_official",
+          "searchJob": "oklahoma",
+          "text": "#OnThisDay September 8, 1905: Sequoyah’s Constitution https://t.co/j00jtcyEF6 | Own A Piece Of History ---------------- FREE AUDIO BOOK OFFER: Hero Tales From American History Originally Written In 1895 By Theodore Roosevelt And Henry Cabot"
         },
         {
-          "reason": "explicit_non_fbs_target",
-          "postId": "2097376924569911680",
-          "author": "profilefblive",
-          "searchJob": "virginia-tech",
-          "text": "Virginia Tech has offered 4.6⭐ 2028 DT Jamir Lee from Carrollton HS, GA. @Thejamirlee97 Rated (#115 NATL, #11 DT, #17 GA) - 31 offers overall. https://t.co/6U3nVypNdZ"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097354776392749174",
+          "author": "supertalk",
+          "searchJob": "ole-miss",
+          "text": "Mississippi Republican Party Chairman Mike Hurst joins Richard on Mornings to discuss voter apathy, frustration with Congress, and whether Republicans need to offer voters more than simply being “better than the alternative.” https://t.co/Z"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097379637274042512",
+          "author": "l_bohlman",
+          "searchJob": "arizona",
+          "text": "This vine started as a dried, tangled root. It came from another place looking half dead, a knot of wood that did not look like it would grow. After the transplant it sat there like it was still deciding. Then it took. Now it has claimed th"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097362349615194138",
+          "author": "movienewsusa",
+          "searchJob": "arizona",
+          "text": "UP ARIZONA VOTE YOUR FAMILIES INTO PROGRESS VOTE @Republicans @NRSC @SenateGOP @HouseGOP VOTE FOR CHANGES FOR A GOV OF YOUR PROGRESS GOV ANGY BIGGS `` @andybiggs4az DEFEND YOUR FIMILES´´ US House majority adviser @rolandjackson ``UP UP #USA"
+        },
+        {
+          "reason": "reporter_missing_position",
+          "postId": "2097361861003931719",
+          "author": "courtneyhoops90",
+          "searchJob": "phrase:\"picked up an offer from\"",
+          "text": "2027 guard Chase Givens (Tennessee Collegiate Academy) has picked up an offer from Memphis. https://t.co/xcVFFpUos3"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097369377452835067",
+          "author": "frightfind",
+          "searchJob": "delaware",
+          "text": "👻Never fear, Delaware, Old Crow Manor returns! 👻 Opening on October 2nd, this haunt will run on select days until November 1st. 🕷An unforgettable, dark, and spooky haunt 🏚️A community-driven attraction that brings fellow haunters togeth"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097354445914808486",
+          "author": "thesleepdoctors",
+          "searchJob": "delaware",
+          "text": "Come take advantage of our Labor Day mattress sale going on now through September 15th in our Wilmington and Newark, Delaware locations! Don't miss out on these limited-time offers, stop by our store today! https://t.co/91AgZNv9MI"
         }
       ]
     },
@@ -360,18 +365,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
+      "swept": 25,
+      "failed": 1,
       "requests": 26,
-      "errors": []
+      "errors": [
+        "auburn: SearchTimeline JSON unreadable (slice left pending)"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 20,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 24,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-08T17:43:21.120Z"
+    "status rebuilt locally from current store on 2026-09-08T17:58:21.668Z"
   ]
 }
