@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T04:43:04.067Z",
+  "generatedAt": "2026-09-08T05:13:19.264Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-08T04:43:03.898Z",
+    "at": "2026-09-08T05:13:18.989Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7781955555555555,
-    "p95Hours": 1.7786694444444444,
-    "worstHours": 1.7786694444444444
+    "medianHours": 1.0240172222222221,
+    "p95Hours": 2.031478888888889,
+    "worstHours": 2.031478888888889
   },
   "decisionCoverage": {
-    "total": 15,
-    "decided": 15,
+    "total": 54,
+    "decided": 54,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 41
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 879,
     "incompleteOffers": 0
@@ -55,147 +55,379 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-08T04:43:03.897Z",
-      "got": 36,
-      "new": 15,
-      "lag": 0.1
+      "at": "2026-09-08T05:13:18.988Z",
+      "got": 74,
+      "new": 54,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-09-08T04:41:25.171Z",
+    "at": "2026-09-08T05:11:27.561Z",
     "mode": "live",
     "collection": {
-      "returned": 36,
-      "kept": 15,
-      "duplicate": 21,
-      "tooOld": 0,
+      "returned": 74,
+      "kept": 54,
+      "duplicate": 19,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 11,
-      "rejected": 4,
+      "accepted": 28,
+      "rejected": 26,
       "reasons": {
-        "no_fbs_school": 2,
-        "hard_negative": 1,
-        "no_offer_term": 1
+        "no_fbs_school": 12,
+        "hard_negative": 2,
+        "no_offer_term": 12
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2097156686243090735",
-          "author": "duke_garry",
-          "searchJob": "duke",
-          "text": "@mhmck I’m buying quality and Canada doesn’t offer it! Not buying #MadeInChina"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097176016925925631",
-          "author": "sprayberryjay",
-          "searchJob": "charlotte",
-          "text": "Tucker Saporita @TLS2008Ga - c/o 2027 - TE/WR/LS - Colquitt County High School @CCPackersFball (He Has Offers From The Army Black Knights, Arkansas State Red Wolves, Charlotte 49ers, &amp; More) https://t.co/sbhF61Cqj9"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097180305480458650",
-          "author": "is_owenlewis",
-          "searchJob": "south-carolina",
-          "text": "Your nuclear energy news from around the world. https://t.co/I0oCdqgxdX"
+          "postId": "2097186342484763089",
+          "author": "xrpbrainst0rm",
+          "searchJob": "new-mexico",
+          "text": "Santa Fe <> Xmas <> Iron <> Steel <> Yeti <> Monster Fe <> Covfefe <> Rust 👇 https://t.co/nNHfE0ZVz3 Map 🪞 Pam BONDi Map <> 88 <> 128 <> gates <> Arrests Yellow Square <> Q <> Terrible Towel <> Steelers <> yeti THE <> ETH <> RosWELL Stake"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097163209165967843",
-          "author": "lilybuzios",
-          "searchJob": "colorado",
-          "text": "Durango, Colorado( La Plata County) has more restaurants per capita than San Francisco, and it offers a vibrant local shopping scene with a wide variety of unique boutiques, specialty shops, and art-focused stores. https://t.co/4wE9sxzgps"
+          "postId": "2097161754228973906",
+          "author": "rainmaker1973",
+          "searchJob": "new-mexico",
+          "text": "In a groundbreaking social initiative, Albuquerque, New Mexico launched a program that pays homeless individuals to clean streets, parks, and public areas. The idea was simple — offers work, dignity, and purpose instead of punishment or pit"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097184726809190775",
+          "author": "mizzoutoday",
+          "searchJob": "ohio",
+          "text": "Lancaster (Ohio) Jackson Reynolds has offers from Eastern Michigan, Liberty and Toledo. https://t.co/LWWBDmYcui"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2096635620793733365",
+          "author": "jw_reynolds44",
+          "searchJob": "ohio",
+          "text": "Thank you @MizzouFootball & @LevornH for the Game Day invitation. Excited for the opportunity to get to Columbia and experience Mizzou! 🐯 @coreybatoon @MizzouCoachJP @coachalpogue @CoachDNic @blackwelldb @coachbrianearly @NastyWideOuts @Co"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097169737486676207",
+          "author": "joaquinsilva_00",
+          "searchJob": "utep",
+          "text": "I am blessed to receive a game day invite from UTEP! 🔸🔵⛏️ Really appreciate the opportunity and can’t wait to experience game day!! @CoachZug @UTEPFB @EHSCoachLopez #PicksUp #Miners https://t.co/nuzRZ7HEKm"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097179114402718097",
+          "author": "sonsofflorida",
+          "searchJob": "florida",
+          "text": "@KlausIezzi It was an offer by the United States Congress to the southern states to protect slavery forever if the southern states would rejoin the union peacefully. They refused and more seceded. You’re obviously too dimwitted to understan"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097132783348928900",
+          "author": "assc_47",
+          "searchJob": "florida",
+          "text": "🚨 Here is the video of @ByronDonalds on campus today with the next generation of young voters at a Florida State Frat https://t.co/PDVi0Y6vm8"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097173391430099069",
+          "author": "savvytamz_57",
+          "searchJob": "georgia",
+          "text": "I’m sorry but I don’t know one single woman that would stand there pregnant, trying to cook with a baby in her arms and two other kids vying for her attention that would tell her husband no if he offered to take the kids while she cooked. T"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097133660910530834",
+          "author": "bet_105",
+          "searchJob": "georgia",
+          "text": "🚨BREAKING: Someone drove into the transforming outside the Florida State stadium and caused the power outage https://t.co/KVIdttQh07"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097186670420398159",
+          "author": "ofertasmusical1",
+          "searchJob": "kentucky",
+          "text": "Brit Taylor – Kentucky Blue (2023) 👉 https://t.co/OjjUTkMJ04 15,08€ ⬇️ (LP, Folk, Country) 🇪🇸 Vendido por Amazon ES #️⃣ 1 ⚠️"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097033521634460105",
+          "author": "theconnectsport",
+          "searchJob": "lsu",
+          "text": "Message to high school football players! You’re not a street 🥷🏿 you’re a football player! 💯 (IG/Ulgndwillevans) https://t.co/k3bF9Mpt2K"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097176087725760524",
+          "author": "anirudhbv_ce",
+          "searchJob": "lsu",
+          "text": "Day 8/30 of Inference ⚙ 🧱 CUDA Tiles, Execution Spaces &amp; Hardware Tuning Took a small break from my notes as I had to pack and take care of visa stuff- I'm moving to Cali this week :) https://t.co/BpHe5ONPez"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097185183040520312",
+          "author": "duncancecil",
+          "searchJob": "texas",
+          "text": "According to Trump “You might not love his look, you might not love his television interviews or how he dresses, but Ken Paxton was the best AG ever The Best Little Résumé in Texas Trump and Ken Paxton want Texans to send him to the U.S. Se"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097176901894767095",
+          "author": "yourpremiertra1",
+          "searchJob": "texas",
+          "text": "#yourpremiertravels #travelphotography #wanderlust #exploremore #instatravel #traveladdict #vacationmode #adventuretime #traveldiaries #travelgoals #adventureawaits #exploretheworld #exploreeverything #travelinspiration #roamtheplanet Certi"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097170202920198205",
+          "author": "robinspringtx",
+          "searchJob": "texas",
+          "text": "@SassyblondeTX We are building one. In Texas. Under the Biden administration, major incentives were give refineries to convert to biofuels. Several took up the offer and are in process now… that has accounted for a 600k barrel per day reduc"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097179425183793473",
+          "author": "cashtonmathis1",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with @TheCoachCoty I am BLESSED to receive an offer to @MoStateFootball @CoachCaseyWoods @CoachJackCurtis @brettkulka @c_elerick @Seth_Ellis_ @JacksonShirkey @EnidPlainsmenFB @littlehead72 @c2_performance @_NickFr"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097172122884063258",
+          "author": "funkychicken",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "@Abulinixish @TherouxPeter @RobertMSterling Oh 🐎💩 she’s a Salvadoran citizen who has been blessed to receive an American education. Instead of gratitude she is just another bitter leftist foreigner. Adios."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097171377803415933",
+          "author": "mohoopz2",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my first d1 scholarship from WSSU https://t.co/fzC7tYqrfD"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097170097907663025",
+          "author": "healerjace28",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "First sack of the season! I am blessed to receive this opportunity. Many more to come💪🏿 https://t.co/LJnVF10nWH"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097169556271661082",
+          "author": "ryanweber_3",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great visit with Walters State I am blessed to receive an offer from @WSCCbaseball . Thank you @_SeanRobinson_ and @LoganHullette2 for having me out! More work to be done! https://t.co/Ep7vOYsZbp"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097165516603556295",
+          "author": "_blesssix",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "God is great! Blessed to receive an offer from @MSUBeaversFB‼️ @Coach_D_Mac @coachshields https://t.co/n33xyFAwL2"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097189854933102813",
+          "author": "0003_dev",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/sOUhAEk9CI"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097189435779719559",
+          "author": "techstoriesin",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon India ] GHS2OLDC36TW Lian Li HydroShift II OLED 360 Liquid CPU Cooler - 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟯𝟲,𝟭𝟯𝟵 | 𝗟𝗶𝘀𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟰𝟭,𝟵𝟵𝟵. [ad] https://t.co/vBA3sxPwos Features a 6.67-inch 2K 60Hz curved OLED disp"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097188544871616922",
+          "author": "techdropsdeals",
+          "searchJob": "texas-tech",
+          "text": "Woot Deal of the Day [$16.99-$135.99]: Amazon Echo and Alexa Devices 🛍 https://t.co/nh2F4cnZvU ⏰ 00:01:11 #ad"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 11,
+      "rejected": 28,
       "reasons": {
-        "bare_mention_requires_llm": 5,
-        "school_not_resolved_confidently": 4,
-        "multiple_resolved_schools": 2
+        "bare_mention_requires_llm": 15,
+        "multiple_resolved_schools": 1,
+        "reporter_missing_player_name": 1,
+        "school_not_resolved_confidently": 11
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097175613752979655",
-          "author": "luckyrevin",
-          "searchJob": "duke",
-          "text": "@sussex_watch Yes, what they offered to return was the Duke &amp; Duchess titles. And HRH is a style, not a title. All their titles remain active and in use. Harry and Meghan don’t need titles to be who they are, but that doesn’t make this "
+          "postId": "2097175260793868775",
+          "author": "cardboard_diet",
+          "searchJob": "new-mexico",
+          "text": "New Mexico has a chance to actually LEAD into the New American Century. We are \"New Mexico,\" the people who live here. We were just given a chance to choose our own Identity. Trump offered \"New America\". We should counter with something we "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097176885356863633",
-          "author": "indiahouse_x",
-          "searchJob": "buffalo",
-          "text": "@Rupachandra4143 @sanjeevsanyal Yes she definitely does. Many Konkani celebrates Gauri Puja and they offer fish to Gauri. In Nepal buffalo, eggs and fish is offered to Ganesha as well. And there's absolutely no sin at all in eating meat. ht"
+          "postId": "2097168608753336700",
+          "author": "alizyousuf",
+          "searchJob": "ohio",
+          "text": "alright. This discourse has annoyed me enough that I am going to engage. Men marrying a woman of another tribe to assimilate that tribe is a tale as old as time, quite literally biblical. He married a woman that has agreed to subsume her id"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097158898167730235",
-          "author": "_shock_and_awe",
-          "searchJob": "buffalo",
-          "text": "@keeptrolling7 Hear me clearly. We will NEVER trade josh allen. You could offer anyone who has ever existed and the answer would be a resounding no. The rams have nothing we'd want and besides him being the greatest talent at the position, "
+          "postId": "2097187006895771957",
+          "author": "jonjenkins26",
+          "searchJob": "florida",
+          "text": "@Uncatfishable Mike Norvell had to make a low offer because of the budget. Ashton Daniels is really bad. Florida State is going to be awful this season."
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097181467231015243",
-          "author": "tagtravel_za",
-          "searchJob": "coastal-carolina",
-          "text": "Hurtigruten,a leader in iconic Norwegian coastal voyages, announced a new wave offer of up to 15% off 2027 fly cruises. Available across select Signature &amp; Original Voyages booked btw 8 Sept &amp; 9 Nov '26, this discount enables guests"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097184520512397579",
+          "author": "jj_4389",
+          "searchJob": "florida",
+          "text": "@CoachQuez_1 Hello Coach Quez my name is Jackob (JJ) Benitez Sanquiche I am interested in central Georgia Tech and I’d love to learn more about this program and earn a offer also if I’m a good fit into your program. I am the CO 27’ 6’1/2 24"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097176192415903996",
-          "author": "coastaldcare",
-          "searchJob": "coastal-carolina",
-          "text": "#ClearCorrect® offers a discreet, convenient way to improve the alignment of your teeth. Call: 831 442-2600 Book: https://t.co/IIPs8kr28m @ClearCorrect #CoastalDentalCare #ClearCorrect #DentalBraces #DreamSmile #DentalCare #Salinas #Salinas"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097164883938725979",
+          "author": "nolietees",
+          "searchJob": "florida",
+          "text": "Here are 8 ERRONEOUS MAGA Points addressed about Jeffrey Epstein. *Trump turned Epstein in to the authorities. Trump Did NOT Turn Epstein in in 2006 or any other year. That LIE has been DEBUNKED. Donald Trump called the Palm Beach Chief of "
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097153915548762381",
-          "author": "prakashakmedia",
-          "searchJob": "coastal-carolina",
-          "text": "@sanjeevsanyal #Meat is also the core of *Daivaradhana* of #tulunad ((#Tulu speaking coastal Karnataka region) We worship Panjurli, Guliga, chavandi, lekkesiri, jumadi and thounds of ther gods in our region... We offer chicken, fish and oth"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097161361641869587",
+          "author": "frandango69",
+          "searchJob": "florida",
+          "text": "PROTECTING OUR YOUTH Saving our children. Mine and yours. The SEX OFFENDER Registry has ruined many of our youths lives. They made an immature decision. A teenager that had consensual sex. No rape, no force, but yet you offer NO WAY OUT…FLO"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097182460660388247",
-          "author": "tennesseefandom",
-          "searchJob": "tennessee",
-          "text": "2028 OT Nassah Williams Adds Tennessee Football Offer During Gameday Visit #volunteers #vols #tennesseesports #tennesseevols https://t.co/N8digJsOpd"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097186199672590432",
+          "author": "menziedarrick",
+          "searchJob": "georgia",
+          "text": "🚨 COACHES — ATTENTION REQUIRED 3 GAMES. 3️⃣ STRAIGHT 100+ YARD RUSHING GAMES. 🏈🔥 Georgia 7A Football Region 1 🦾 ⭐ 8 D1 OFFERS (No OVs) #34 isn’t waiting on an invitation — HE’S EARNING IT! 💪🏾 ⛓️ DA CHAIN MOVER 💨 4.6 | 5’10” | 190 🏋\ud83c"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097169848644329822",
-          "author": "usctrojansftfo",
-          "searchJob": "usc",
-          "text": "@Irish_fan_81 ND declined three offers, then came crawling back to accept the September offer. ND could have played USC next week instead of Rice, but they took the easy way out."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097172544356860190",
-          "author": "timothygaffney2",
-          "searchJob": "colorado",
-          "text": "Want Dion to stay at Colorado? Hope he goes 6-6 this year. A big year, say 9-3, Florida State will be under great pressure to offer him the job. 3-9, new AD needs to tell him Thanks. But we can't afford you."
+          "postId": "2097173344332214485",
+          "author": "caeylinmenzie",
+          "searchJob": "georgia",
+          "text": "🎥 SENIOR SEASON 3 GAME HIGHLIGHTS ⬇️ 🔥 3 GAMES. 3 STRAIGHT 100+ YARD RUSHING GAMES. 🏈💨 GA 7A Region 1 #34 is coming for the top! 💪🏾 ⭐️8 D1 Offers I’m a productive 2027 RB with 8 D-I offers who has continued producing despite being ove"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097169304475111908",
-          "author": "thecuriousindex",
-          "searchJob": "houston",
-          "text": "To comprehend why numerous home purchases are falling through today, it’s essential to reflect on the tumultuous buying frenzy from 2020 to 2022. Throughout the pandemic, historically low mortgage rates sparked an unprecedented rush to buy "
+          "postId": "2097174573901082838",
+          "author": "jayquintana_jr",
+          "searchJob": "georgia",
+          "text": "@TonyRya06495020 @sistercelluloid He offered the song to Gladys Knight. She told him she's from Georgia. And black people don't take planes back home."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097163693788127544",
+          "postId": "2097167622353691080",
+          "author": "artguy313578051",
+          "searchJob": "georgia",
+          "text": "@MetzUAC1530 I moved to an area where WELS was my only option. Rural Georgia Now I commune at WELS Synod Leadership has allready extended the offer of fellowship as the WELS are so I see no reason not to just join WELS fully given the Synod"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2097162883469656296",
+          "author": "bennyyinzer",
+          "searchJob": "georgia",
+          "text": "Sources say the driver just got a 2 million dollar NIL offer from Georgia"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097186951849824586",
+          "author": "d_mase32",
+          "searchJob": "lsu",
+          "text": "Bro so many dudes from my city lost opportunities , years of they life in jail or flat out dead to trynna be one foot in and one foot out it’s crazy I know a dude who lost his life hanging with some bums and had a LSU offer smh"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097181712732352941",
+          "author": "pgpm_spjimr",
+          "searchJob": "texas",
+          "text": "Take your classroom global. 🌍 SPJIMR PGPM offers international immersion with INSEAD, Cornell, Michigan State, UT Austin &amp; ESADE. ⏳ 8 days to go 📅 Apply by Sept 15, 2026 You can submit your GMAT score by Sept 30 @SPJIMR Apply Now: htt"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097175905386811834",
+          "author": "owengregorian",
+          "searchJob": "texas",
+          "text": "Small business owners built the American Dream. Democrats want to take it from you | Fox News Imagine living the American Dream, taking a risk to build a business from nothing, only to watch your tax dollars subsidize the government-backed "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097163155554099534",
           "author": "mikejfc1",
-          "searchJob": "houston",
-          "text": "I have 2 extra tickets for Tame Impala’s concert on September 19 at Toyota Center, Houston, TX! 🫶 Letting them go for face value, but open to reasonable offers. DM me if interested! 🎟️ #TameImpala #TameImpalaTickets #Houston #ToyotaCenter"
+          "searchJob": "texas",
+          "text": "I have 2 extra tickets for Hayley Williams’ concert on October 9 at The Cynthia Woods Mitchell Pavilion, The Woodlands, TX! 🫶 Letting them go for face value, but open to reasonable offers. DM me if interested! 🎟️ #HayleyWilliams #HayleyWi"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097182649454309877",
+          "author": "no_fish_bish",
+          "searchJob": "ucla",
+          "text": "@coreycapoccia @MattMcCarthy985 @Tim_McKone It was a great offer way back but Gonzo Agent did not allow him to sign cause he was working on another player getting huge deal … reminds me of Scott Boris doing dirty to bruins… Agent is reason "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097191056370741713",
+          "author": "concallt",
+          "searchJob": "texas-tech",
+          "text": "Sterlite Technologies Ltd (STL) - Investor Meet 03 Sep 2026 | Insights Lakshya Ambition •Q1 FY27 called the highest-ever quarterly revenue and EBITDA; quality of earnings and balance sheet said to have turned •FY26 base: revenue INR 4,750 c"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097190318198186423",
+          "author": "mobulaanti",
+          "searchJob": "texas-tech",
+          "text": "@SawyerMerritt Netflix and .. what was the name of the store renting videos? Tesla and Uber. Yeah. Tesla has heavy lifting to do to get to proper scale, but Uver won't help with that at all. Scaling is bounded by tech and not by something t"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097189706832220498",
+          "author": "olorunwababs",
+          "searchJob": "texas-tech",
+          "text": "One of the most profound things about AI is that it is a force multiplier for people who already have agency, depth and judgment. At the same time, it offers extraordinary new capabilities to people who have historically been at the margins"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097187474221007100",
+          "author": "callmeuchman",
+          "searchJob": "texas-tech",
+          "text": "@Onyinyechi38075 @Henderson_E7 I totally disagree with you my dear why are people that act blve films more richer some tech guys that offer value?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097183176149868971",
+          "author": "mssophiste",
+          "searchJob": "texas-tech",
+          "text": "In 2022, LIV Golf burst onto the professional golf scene like an activist investor storming into a sleepy company: an effectively unlimited checkbook, stars acquired at eye-watering prices, a disruptive format, team play, 54 holes, no cut. "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097182953357165043",
+          "author": "cryptojezuz",
+          "searchJob": "texas-tech",
+          "text": "Anthropic walked away from a $6B Decart acquisition after Decart turned down Nvidia. https://t.co/WAuw1uO7ue is reporting the deal collapsed when the startup chose Anthropic over Nvidia's competing offer. That's not a normal M&A failure. Th"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097180598741914034",
+          "author": "binitsutra",
+          "searchJob": "texas-tech",
+          "text": "The narrative that AI is changing sports is a massive marketing exaggeration hiding a major financial bubble. In my observation, the massive costs of running these systems far outweigh the minor data insights they offer to players and fans."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097180595508166920",
+          "author": "amanaryan23",
+          "searchJob": "texas-tech",
+          "text": "The biggest lie in interview prep: \"If I just solve more LeetCode problems, I'll get a FAANG offer.\" I've seen engineers solve 500+ problems and still get rejected. I've seen others solve half as many and land life-changing offers. One engi"
         }
       ]
     },
@@ -210,11 +442,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 11,
+      "rejectedCandidates": 28,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-08T04:43:04.069Z"
+    "status rebuilt locally from current store on 2026-09-08T05:13:19.267Z"
   ]
 }
