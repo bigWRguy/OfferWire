@@ -37207,17 +37207,31 @@
     "2097135301302927362",
     "2097148010744389752",
     "2097142884059275341",
-    "2097127784053178636"
+    "2097127784053178636",
+    "2097136422935265597",
+    "2097147739360337953",
+    "2097147260840648809",
+    "2097144583331172555",
+    "2097148135235551434",
+    "2097144658115674154",
+    "2097152131945976260",
+    "2097144887623733594",
+    "2097136463762604262",
+    "2097126900653007111",
+    "2097152877009478114",
+    "2097146055850877252",
+    "2097140159649292701",
+    "2097138578191204401"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-09-08T02:28:14.418Z",
-      "got": 61,
-      "new": 31,
-      "lag": 0.06
+      "at": "2026-09-08T02:41:28.804Z",
+      "got": 19,
+      "new": 14,
+      "lag": 0.03
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -37561,7 +37575,7 @@
       "truncated": false
     },
     "clemson": {
-      "at": "2026-09-08T00:56:19.334Z",
+      "at": "2026-09-08T02:40:51.232Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 1,
       "truncated": false
@@ -37573,7 +37587,7 @@
       "truncated": false
     },
     "duke": {
-      "at": "2026-09-08T00:56:19.334Z",
+      "at": "2026-09-08T02:40:51.232Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 4,
       "truncated": false
@@ -37627,9 +37641,9 @@
       "truncated": false
     },
     "nc-state": {
-      "at": "2026-09-08T00:56:19.334Z",
+      "at": "2026-09-08T02:40:51.232Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 1,
+      "lastPosts": 0,
       "truncated": false
     },
     "north-carolina": {
@@ -37819,31 +37833,31 @@
       "truncated": false
     },
     "buffalo": {
-      "at": "2026-09-08T00:56:19.334Z",
+      "at": "2026-09-08T02:40:51.232Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 3,
+      "lastPosts": 2,
       "truncated": false
     },
     "central-michigan": {
-      "at": "2026-09-08T00:56:19.334Z",
+      "at": "2026-09-08T02:40:51.232Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
     },
     "charlotte": {
-      "at": "2026-09-08T00:56:19.334Z",
+      "at": "2026-09-08T02:40:51.232Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 3,
+      "lastPosts": 5,
       "truncated": false
     },
     "coastal-carolina": {
-      "at": "2026-09-08T00:56:19.334Z",
+      "at": "2026-09-08T02:40:51.232Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 4,
+      "lastPosts": 7,
       "truncated": false
     },
     "colorado-state": {
-      "at": "2026-09-08T00:56:19.334Z",
+      "at": "2026-09-08T02:40:51.232Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
@@ -38303,11 +38317,11 @@
   "lastRateLimitAt": "2026-09-04T23:26:13.448Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-09-08T02:28:14.419Z",
+    "at": "2026-09-08T02:41:28.805Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 8,
+    "requests": 9,
+    "fullSweepCycles": 21
   },
   "backfill": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -38327,247 +38341,129 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-09-08T02:26:31.574Z",
+    "at": "2026-09-08T02:40:51.216Z",
     "mode": "live",
     "collection": {
-      "returned": 61,
-      "kept": 31,
-      "duplicate": 30,
-      "tooOld": 0,
+      "returned": 19,
+      "kept": 14,
+      "duplicate": 4,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 22,
-      "rejected": 9,
-      "reasons": {
-        "no_offer_term": 5,
-        "no_fbs_school": 1,
-        "hard_negative": 3
-      },
-      "samples": [
-        {
-          "reason": "no_offer_term",
-          "postId": "2097146558903136596",
-          "author": "ryandyrudlafb",
-          "searchJob": "california",
-          "text": "@realfbllliason I’m not sure this makes the point your trying to make. Nelson was injured his freshman year, and then decided to transfer (mostly due to NIL). Pretty clear that wasn’t a good decision as he needed true development."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2096744343545446716",
-          "author": "bennyjohnson",
-          "searchJob": "california",
-          "text": "Rap music is dead. Scroll through the Top 100 and it’s nearly impossible to find a rap song. A massive stadium rap concert next month has only sold 160 tickets. That’s not a typo. Ludacris, T.I., Rick Ross, and BigXthePlug booked a Louisvil"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097143514819928511",
-          "author": "outlandishlion",
-          "searchJob": "california",
-          "text": "https://t.co/tlxaEHvHZ2"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097133997356962135",
-          "author": "6thjenerationca",
-          "searchJob": "california",
-          "text": "@GavinNewsom I will offer to trade living in my home in beautiful Northern California, for one year with any South Carolinian and I promise you will change your mind. Once you see the gas prices, electricity rates, insurance premiums, groce"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097138924296495594",
-          "author": "braniffintl",
-          "searchJob": "massachusetts",
-          "text": "BRANIFF HISTORY TODAY - On this day, Thursday, September 7, 1978, Braniff International petitioned the Civil Aeronautics Board for authority to operate service between Chicago O'Hare International Airport and Guatemala City La Aurora Intern"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097137382038315370",
-          "author": "librarian_lady5",
-          "searchJob": "massachusetts",
-          "text": "Follower of Jesus Christ, 3x Trump voter and registered republican(feeling politically homeless at this point since using critical thinking makes republican men and some women hate me and spew vile remarks), mother, pro-life, pro-legal immi"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097146689211486620",
-          "author": "shoppersoffer",
-          "searchJob": "navy",
-          "text": "THE RUNWAY SHOWDOWN 👀🔥 Who wore it best? 💙 Navy 🖤 Black 🩶 Silver ❤️ Red You can only choose ONE. 👗 #Fashion #USFashion #RunwayFashion #Style https://t.co/ehxz408msF"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097082439596486793",
-          "author": "serobinsonjr",
-          "searchJob": "nevada",
-          "text": "Big news for me! I have been invited to the Tesla Semi Rollout Event on September 24th in Sparks Nevada at the new Semi Factory! This event is mainly for potenial Logistics / Fleet customers and employees. So not sure how many creators will"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097148010744389752",
-          "author": "kaleb_longhurst",
-          "searchJob": "ohio-state",
-          "text": "Ohio State offers South Carolina commit"
-        }
-      ]
+      "accepted": 14,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 21,
+      "accepted": 0,
+      "rejected": 14,
       "reasons": {
-        "bare_mention_requires_llm": 14,
-        "multiple_resolved_schools": 4,
-        "player_missing_football_context": 1,
-        "reporter_missing_player_name": 1,
-        "explicit_non_fbs_target": 1
+        "bare_mention_requires_llm": 5,
+        "multiple_resolved_schools": 3,
+        "school_not_resolved_confidently": 5,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097149041067127010",
-          "author": "realfbllliason",
-          "searchJob": "california",
-          "text": "Malachi Nelson played on a loaded Los Alamitos roster with five-star receivers against Edison and Huntington Beach. Darian Mensah was an overlooked California QB in the same 2023 class, yet USC never offered him. Once the talent gap disappe"
+          "postId": "2097136422935265597",
+          "author": "dsandman1801",
+          "searchJob": "clemson",
+          "text": "@Ayo_TTime9 Clemson needs to call Mike Norvelle ASAP. Make him an offer he can’t resist"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097144407904440400",
-          "author": "ashlanddog",
-          "searchJob": "california",
-          "text": "...Unleashed 9.7.26... ...No Jesus, No peace...Know Jesus, Know Peace... Your words were found, and I ate them, and Your word was to me the joy and rejoicing of my heart …. —Jeremiah 15:16 ...Thru the Bible with Dr. J. Vernon McGee Exodus 7"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097124145599254816",
-          "author": "gr126929",
-          "searchJob": "california",
-          "text": "WATCH: California ‘Spider-Man’ Rescues In-N-Out Crew from Violent Suspect with Large Stick https://t.co/2gzjnQJEV6. Soon the fast food industry will offer drive thru orders just to keep the employees safe."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097120577274118571",
-          "author": "raymiramontes_",
-          "searchJob": "california",
-          "text": "🏢 Looking for a duplex investment property in Long Beach? Here’s what $1,019,000 gets you. 🚨 Interested? Call or text Ray directly at 562-600-9793 for the address, photos & full details. This Long Beach duplex offers 4 bedrooms, 4 bathroo"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097126701889466847",
-          "author": "n_burk",
-          "searchJob": "boise-state",
-          "text": "@LoganKelsc42492 @JeramiahDickey @BroncoSportsFB @BroncoSports We’ve been very open that we plan to offer standing room only tickets in the near future. Plan is to evaluate the first 2 games to see how many we can add. And debit SRO for Oct"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097143707665338787",
-          "author": "spartacusx86",
-          "searchJob": "massachusetts",
-          "text": "@ohsnapholdup We literally had very few FBS players on the team last year. Pop Watson is changing the narrative. If we have a big year it will show future recruits that you can win at UMass. And the best thing we can offer players is actual"
-        },
-        {
-          "reason": "player_missing_football_context",
-          "postId": "2097142192682750056",
-          "author": "malikpicksix",
-          "searchJob": "memphis",
-          "text": "After a great conversation with @CoachTimDuffie I'm blessed to receive 6th offer from The University of Memphis. @CoachTimDuffie @DBowman901 @CoachHuff @kerryjoseph4 @Duncanville_FB @Th3DWilliamsJr @_Roderickharris @dctf @coachwvde @malikbo"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097149055969448269",
-          "author": "billottiscards",
-          "searchJob": "navy",
-          "text": "Navy blue Nintendo DS light just missing the charger. Works perfectly fine no broken hinges. Looking for reasonable offers https://t.co/MD43s5pTK5"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097142077301616809",
-          "author": "rremuschis",
-          "searchJob": "navy",
-          "text": "@FoxNews Imagine using your boat as a floating gas station for narco-terrorists and discovering the U.S. Navy also offers a complimentary sinking service."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097141023969587628",
-          "author": "pureguava10300",
-          "searchJob": "navy",
-          "text": "SITREP: PATTAYA GRATUITY CRISIS DTG: 080849 SEP 26 AREA: PATTAYA / LAEM CHABANG STATUS: TACTICAL SUCCESS CLAIMED SITUATION A Grab driver has reportedly received a ฿1,000 tip from a US Navy sailor for a ฿120 fare. The Thai wife has reviewed "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097134509355622610",
-          "author": "phadd19",
-          "searchJob": "navy",
-          "text": "@Bombers_Boss What’s more hilarious is not trading for Merrett last year and him walking out again for half the offer. Lucky you kept him 👍 also enjoy watching CW in the navy blue"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097124284082868684",
-          "author": "war_radar2",
-          "searchJob": "navy",
-          "text": "JUST IN: 🇯🇵🇨🇱 Japan Could Transfer Destroyers To Chile, 3 Powerful Classes On The Table Japan has reportedly offered Chile the potential transfer of Maritime Self Defense Force destroyers. The ships being considered come from Japan’s Mu"
+          "postId": "2097147739360337953",
+          "author": "lionessinus",
+          "searchJob": "duke",
+          "text": "U.K. Royal communications update — September 7, 2026 Yesterday I wrote about a notable change in Prince Harry and Meghan’s media strategy: after years of publicly criticizing the traditional Royal Rota system, reporting now indicates that t"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097132160654491715",
-          "author": "mediamanoz",
-          "searchJob": "nevada",
-          "text": "Media And Marketing Biz Past, Present And Future Wrestling With Pop Culture And The Creative And Showbiz World; Pop Culture Mania! Media Man Watercooler Buzz \"Media can be one of the best and worst businessess in the world\" Greg Tingle News"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097131034911629670",
-          "author": "mediamangroup",
-          "searchJob": "nevada",
-          "text": "Media And Marketing Biz Past, Present And Future Wrestling With Pop Culture And The Creative And Showbiz World; Pop Culture Mania! Media Man Watercooler Buzz \"Media can be one of the best and worst businessess in the world\" Greg Tingle News"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097129814948016462",
-          "author": "mediamanint",
-          "searchJob": "nevada",
-          "text": "Media And Marketing Biz Past, Present And Future Wrestling With Pop Culture And The Creative And Showbiz World; Pop Culture Mania! Media Man Watercooler Buzz \"Media can be one of the best and worst businessess in the world\" Greg Tingle News"
+          "postId": "2097147260840648809",
+          "author": "4cobey",
+          "searchJob": "duke",
+          "text": "@zenosplaytime Ion think that's why he at his 3rd school. We can be honest and say Miami just offered a bigger bag than Duke and that's why he there. If this same guy was at Tulane for 3yrs he'd prolly still get drafted high( a guy from NDS"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097127453642661989",
-          "author": "agtpinsights",
-          "searchJob": "nevada",
-          "text": "Tesla just confirmed its Semi Rollout Event for September 24 today. Here's what you need to know. Creator S.E. Robinson Jr. shared he's been invited to the event, held at Tesla's new Semi factory in Sparks, Nevada. The event is aimed mainly"
+          "postId": "2097144583331172555",
+          "author": "jakparguide",
+          "searchJob": "duke",
+          "text": "Karsh International Scholars Program : Financial Aid for International Students Explore the Karsh International Scholars Program at Duke University, which offers financial support for international students demonstrating financial need. htt"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097148135235551434",
+          "author": "ethicalanti",
+          "searchJob": "buffalo",
+          "text": "@Nbafanatic2391 There’s a reason no one offered him a contract and the bulls waited until almost when the season started"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097144658115674154",
+          "author": "doughboysfn",
+          "searchJob": "buffalo",
+          "text": "$SKHY 🧴 Well well well, guess we are sticking to the Asia theme. Much like the adjacent names, SKHY is currently on the run. Spot price will update in the morning on the GEX map, but as you can see it has broken and is not attempting to ba"
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2097137631767515277",
-          "author": "kyle_seager1",
-          "searchJob": "unlv",
-          "text": "@Brenomster @ADavidHaleJoint Also I promise you, Jimbo has been offered a job by smaller schools. Dan Mullen is the coach at UNLV. I promise you Jimbo has got an offer from a similar level school. just because it’s not public information do"
-        },
-        {
-          "reason": "explicit_non_fbs_target",
-          "postId": "2097146310449086720",
-          "author": "tha_kidii",
-          "searchJob": "mississippi-state",
-          "text": "After a Great Conversation with @CoachDLindsey I am Blessed to Receive A offer From Mississippi State University 🙏🏾🙏🏾 https://t.co/v0wDngiVI5"
+          "postId": "2097152131945976260",
+          "author": "jucoffrenzy",
+          "searchJob": "charlotte",
+          "text": "2027 (@LetsGoICC) JUCO DL @Sethmadekidd was offered by Charlotte @Charlotte49ers HL https://t.co/Yb6sC1k4RR https://t.co/VHaWqawgRF"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097135301302927362",
-          "author": "chhaseeb1256",
-          "searchJob": "northwestern",
-          "text": "Glacier National Park, USA 🇺🇸 Glacier National Park is located in northwestern Montana, near the Canadian border. It was officially established as a national park in 1910. The park is known for towering mountains, deep valleys, clear lake"
+          "postId": "2097144887623733594",
+          "author": "jucofootballace",
+          "searchJob": "charlotte",
+          "text": "Seth Kidd @Sethmadekidd @ Itawamba JuCo @LetsGoICC_FB picks up @CharlotteFTBL Offer @LetsGoICC @jucoweekly @MSJUCOREPORT https://t.co/6V4I2UCXQO"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097142884059275341",
-          "author": "loopingcloud",
-          "searchJob": "arizona",
-          "text": "Fully leased retail investment in Williams, AZ! Pine Mountain Plaza offers 11,900 SF, 5 units, ample parking and a location just off Route 66. 📍 Darien Degher | 928-607-3749. Contact today for details! https://t.co/4VDWw59SAF #WilliamsAZ #"
+          "postId": "2097136463762604262",
+          "author": "sethmadekidd",
+          "searchJob": "charlotte",
+          "text": "#AGTG I’m Blessed To Receive A Offered From Charlotte University @Coach_TMacon @CoachHentzICC @CoachReynolds81 @CoachClay_CLT https://t.co/2cRmGnlq62"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097127784053178636",
-          "author": "loopingcloud",
-          "searchJob": "arizona",
-          "text": "17.80 acres in Cottonwood, AZ! R-3 zoned land at 1214 N Main offers multifamily/residential development potential, can be split & includes a new roadway easement. 📍 Contact Darien Degher | 928-607-3749. https://t.co/H9W5eSlMTf #CottonwoodA"
+          "postId": "2097126900653007111",
+          "author": "ncsujen",
+          "searchJob": "charlotte",
+          "text": "@lindsaytothemax If you have access to a car at all while you're in town, it's a super short side quest lol I'd offer to help but I'll be traveling to Charlotte this weekend"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097152877009478114",
+          "author": "smo_vz",
+          "searchJob": "coastal-carolina",
+          "text": "🇷🇺 BLACKER THAN A BLACK HOLE 🇷🇺 Russia is not waiting for permission to shape the underwater map of Europe. On 27 August 2026, Admiralty Shipyards in St. Petersburg laid the keel of Maloyaroslavets, the newest Project 677 Lada-class die"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097146055850877252",
+          "author": "hiro09003802",
+          "searchJob": "coastal-carolina",
+          "text": "Coastal retreats offer unhurried moments by the shore. Settling into the gentle embrace of warm sand, soaking up the sun's rays, and tuning into the rhythmic whispers of the waves melt away every ounce of tension, leaving pure, tranquil eas"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097140159649292701",
+          "author": "azimaziz08",
+          "searchJob": "coastal-carolina",
+          "text": "The coastal breeze carries the ocean's gentle murmur, weaving a tale of nature's soft yet enduring strength through the ceaseless wind and rolling waves. 📩 Gathering grapes, plump and deliciously sweet, offers a burst of succulent flavor. "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097138578191204401",
+          "author": "shb132",
+          "searchJob": "coastal-carolina",
+          "text": "A journey along the coastal cliffs offers panoramic views of the boundless ocean. As you stand atop the precipice, gazing out at the limitless waters, your mind immediately feels expansive and free. 🌊 Practical advice: Combining effective "
         }
       ]
     },
@@ -38575,22 +38471,24 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 8,
+      "failed": 1,
+      "requests": 9,
+      "errors": [
+        "james-madison: rate limited"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 21,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 14,
+      "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 31,
-    "decided": 31,
+    "total": 14,
+    "decided": 14,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
