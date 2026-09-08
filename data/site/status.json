@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T13:43:48.974Z",
+  "generatedAt": "2026-09-08T13:59:00.622Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-08T13:43:48.639Z",
+    "at": "2026-09-08T13:59:00.407Z",
     "jobsTotal": 162,
-    "sweptThisRun": 25,
+    "sweptThisRun": 26,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -30,20 +30,15 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [
-    {
-      "id": "delaware",
-      "hours": 2.1
-    }
-  ],
+  "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7887205555555555,
-    "p95Hours": 1.7904097222222222,
-    "worstHours": 2.055728333333333
+    "medianHours": 0.7878041666666666,
+    "p95Hours": 1.7838013888888888,
+    "worstHours": 1.7838013888888888
   },
   "decisionCoverage": {
-    "total": 39,
-    "decided": 39,
+    "total": 23,
+    "decided": 23,
     "complete": true
   },
   "pending": {
@@ -52,7 +47,7 @@
   "profileResolution": {
     "cached": 41
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 883,
     "incompleteOffers": 0
@@ -60,315 +55,203 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-08T13:43:48.639Z",
-      "got": 57,
-      "new": 39,
-      "lag": 0.04
+      "at": "2026-09-08T13:59:00.406Z",
+      "got": 42,
+      "new": 23,
+      "lag": 0.19
     }
   },
   "audit": {
-    "at": "2026-09-08T13:41:52.378Z",
+    "at": "2026-09-08T13:57:17.760Z",
     "mode": "live",
     "collection": {
-      "returned": 57,
-      "kept": 39,
-      "duplicate": 17,
+      "returned": 42,
+      "kept": 23,
+      "duplicate": 18,
       "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 21,
-      "rejected": 18,
+      "accepted": 12,
+      "rejected": 11,
       "reasons": {
-        "no_fbs_school": 8,
-        "no_offer_term": 10
+        "no_fbs_school": 7,
+        "no_offer_term": 3,
+        "hard_negative": 1
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2097289369077887361",
-          "author": "deballsac",
-          "searchJob": "temple",
-          "text": "@hilary4016 Except it isn't. The land area for these offers were not contiguous, and full sovereignty over land, air, sea was not offered. East Jerusalem was *not* offered as the capital; it offered Palestinian control over Arab neigh. and "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097318100911718578",
-          "author": "fashion_nfl",
-          "searchJob": "liberty",
-          "text": "https://t.co/29vk8JDhuO"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097306209904709815",
-          "author": "noahrevoy",
-          "searchJob": "liberty",
-          "text": "https://t.co/t0SOf6AjnF"
+          "postId": "2097309571744219466",
+          "author": "wendelltalks",
+          "searchJob": "massachusetts",
+          "text": "In 1651 Baptist preacher Obadiah Holmes was tied to the whipping post in Boston and given 30 lashes. His crime was preaching and worshiping outside the established Puritan church. Holmes had been arrested while visiting fellow Baptists in M"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097316528177713489",
-          "author": "mdmotortruck",
-          "searchJob": "maryland",
-          "text": "When a tire issue puts a truck on the side of the road, every minute matters. 🛞 That's why the MMTA @Michelin buying program offers more than access to tire savings. Learn more: https://t.co/cm51qlCPTl #MMTA #Michelin #FleetTires https://t"
+          "postId": "2097306358672412695",
+          "author": "cakested",
+          "searchJob": "massachusetts",
+          "text": "However if I was prosecuting this case and had to supply a believable motive , I would be compelled to pursue the idea that Patrick was having an affair with another woman and was going to potentially leave her so Lindsay freaked out killed"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097301422509535361",
-          "author": "lonecactus1370",
-          "searchJob": "maryland",
-          "text": "https://t.co/yu59dgkxBM"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097318552520794223",
-          "author": "objectivo_x",
-          "searchJob": "washington",
-          "text": "https://t.co/7BoEML9kMJ"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097314414571458730",
-          "author": "keefacom",
-          "searchJob": "washington",
-          "text": "Government talks of $1.5–2.5 billion a year at plateau, a sovereign fund, railways and “money for grandchildren.” Museveni has long spoken of the resource in possessive terms—“my oil”—and treated staying in office until production as unfini"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097313928250339410",
-          "author": "arcstrategic_gl",
-          "searchJob": "washington",
-          "text": "The world map taught in schools was designed for navigation, not neutral representation. As the UN moves towards true-area maps, an old question returns: how much geopolitical power was reinforced by the way the world was drawn? https://t.c"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097313797992235093",
-          "author": "michaelarothman",
-          "searchJob": "washington",
-          "text": "𝐈𝐒𝐑𝐀𝐄𝐋'𝐒 𝐁𝐄𝐍-𝐆𝐕𝐈𝐑 𝐓𝐎 𝐍𝐄𝐓𝐀𝐍𝐘𝐀𝐇𝐔: 𝐇𝐀𝐍𝐃 𝐁𝐑𝐈𝐓𝐀𝐈𝐍'𝐒 𝐅𝐀𝐋𝐊𝐋𝐀𝐍𝐃𝐒 𝐓𝐎 𝐀𝐑𝐆𝐄𝐍𝐓𝐈𝐍𝐀 𝐎𝐕𝐄𝐑 𝐁𝐔𝐑𝐍𝐇𝐀𝐌'𝐒 𝐒𝐀𝐍𝐂𝐓𝐈𝐎𝐍𝐒 Andy Burnham told Donald Trump last night that Britain is banning i"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097309372934426810",
-          "author": "michaelarothman",
-          "searchJob": "washington",
-          "text": "𝐓𝐑𝐔𝐌𝐏 𝐓𝐎 𝐁𝐎𝐌𝐁𝐀𝐑𝐃𝐈𝐄𝐑: 𝐁𝐔𝐈𝐋𝐃 𝐈𝐍 𝐀𝐌𝐄𝐑𝐈𝐂𝐀 𝐎𝐑 𝐒𝐓𝐎𝐏 𝐓𝐑𝐄𝐀𝐓𝐈𝐍𝐆 𝐔𝐒 𝐋𝐈𝐊𝐄 𝐀 𝐏𝐈𝐆𝐆𝐘 𝐁𝐀𝐍𝐊 Mark Carney’s retaliatory tariffs on American goods hit overnight. Trump answered before they even land"
+          "postId": "2097296790295023819",
+          "author": "hotbets365",
+          "searchJob": "navy",
+          "text": "https://t.co/uroLxfFSVu"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097308982314688785",
-          "author": "tamtrib",
-          "searchJob": "washington",
-          "text": "Lmfao, this one is actually pretty hilarious. The Channel 5 or All Gas No Brakes guy has been trying to rehabilitate the image of Hunter Biden for like a year now. This is obviously some astroturfed project by someone to make Hunter into so"
+          "postId": "2097295231783776614",
+          "author": "thebellosox",
+          "searchJob": "navy",
+          "text": "@tonygig @JackLautaret .309/.380/.498 in the 60 games before then I wouldn’t worry about a short stretch where multiple guys have been gassed. Durbin played incredibly hard through the summer, and offers elite 3B defense to boot. That’s not"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097311462376996885",
+          "author": "chicagosports",
+          "searchJob": "illinois",
+          "text": "King’s Herman Yancey steps in for injured star Jamar Lewis, who has offers from Illinois and Northwestern https://t.co/SuLnNPKkCs"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097068561688940609",
-          "author": "channel5ivenews",
-          "searchJob": "washington",
-          "text": "https://t.co/Pva2aI1Gen"
+          "postId": "2097320144988971087",
+          "author": "amacforamerica",
+          "searchJob": "iowa",
+          "text": "https://t.co/2v9t65P87H"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097307997995245855",
+          "author": "ames_eye",
+          "searchJob": "iowa",
+          "text": "Daily contacts offer a clean, sterile lens every day, reducing the risk of irritation and infection. Your eyes deserve the best! Call 515-232-3451 or request an appointment online at https://t.co/RObz97maAM 📍 We're easy to find at 201 10th"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097301700956639656",
-          "author": "sahbymehalla",
-          "searchJob": "washington",
-          "text": "Iran says its forces are fully deployed around the Strait of Hormuz, while Washington insists the strategic waterway is fully open to commercial shipping amid rising military tensions and diplomatic uncertainty. https://t.co/zjyNylR2jx"
+          "postId": "2097309632586743946",
+          "author": "daucher_h83355",
+          "searchJob": "michigan",
+          "text": "@rustypeter @FinalBattle24 Why am I subsidize immigrant housing? The Michigan Newcomer Rental Subsidy Program was budgeted with $4 million from the Michigan State Housing Development Authority for two years to subsidize housing for eligible"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097315111803220184",
-          "author": "jaythebutcher27",
-          "searchJob": "phrase:\"thankful to receive an offer\"",
-          "text": "After a great visit I am thankful to receive an offer to play football @GCC_FB . Thank you @CoachDiDonato and @ZackWindsor1 ! @mfarrellsports @GWHSFootball1 @PrepRedzoneWV @sixstarfootball @CoalfieldsCo @StevesSportsYT @itsDaveMadeIt https:"
+          "postId": "2097306791352656088",
+          "author": "thepines_apts",
+          "searchJob": "michigan",
+          "text": "When dinner means seafood, steak, and the 1886 Michigan Central Depot, Gandy Dancer fits the mood. The Ann Arbor landmark also offers romantic dinners and private dining. https://t.co/BDARJHP10P https://t.co/l7CdDXl6pu"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097318532547580365",
-          "author": "bouttel54989",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "OTTAWA SPIRIT OFFERED ‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️ After a great conversation with Coach Smithson @dsmithson87, I have been blessed to receive an offer to continue my academic and athletic career with Ottawa University!!! @CoachMurphyQB @OUAZFoot"
+          "postId": "2097300144656162911",
+          "author": "owengregorian",
+          "searchJob": "michigan",
+          "text": "Harvard Law offers students fidget toys, ‘low sensory rooms’ | Matt Lamb, The College Fix OPINION: Safe spaces and coloring rooms are still with us As that nation’s future Supreme Court justices, solicitors general, and elite law firm attor"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097317430389284944",
-          "author": "ahmoniee_",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @Coach_Twenty3 i’m blessed to receive a offer from @auyellowjackets #AGTG https://t.co/Gyi1fItm89"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097299446685925711",
-          "author": "jj_greatness",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @NathanKero81 I'm excited to announce I have received my 2ed official offer from @MRCNorseFB!!! @coachnate56 @RecruitGeorgia @edwards_torrey https://t.co/EmpmQzjtoo"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097311899515785506",
-          "author": "iamgabbyyt",
-          "searchJob": "north-carolina",
-          "text": "After a great visit at The University of North Carolina at Greensboro. I'm so grateful to have received an offer from @coachtpatt50. Thank you so much for this opportunity and I look forward to building this relationship! https://t.co/VagkI"
+          "postId": "2097306089771421881",
+          "author": "deplorablerhody",
+          "searchJob": "minnesota",
+          "text": "@KimmidiFarms They also offer steal as much as you want in Minnesota. Why else would someone from a warm African climate want to live there?"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 21,
+      "rejected": 12,
       "reasons": {
-        "bare_mention_requires_llm": 12,
-        "school_not_resolved_confidently": 4,
-        "multiple_resolved_schools": 4,
-        "reporter_missing_player_name": 1
+        "bare_mention_requires_llm": 8,
+        "multiple_resolved_schools": 3,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097292048386888076",
-          "author": "timesnow",
-          "searchJob": "temple",
-          "text": "WATCH | Uttar Pradesh CM Yogi Adityanath offers prayers at Shri Ram Janmabhoomi Temple in Ayodhya. Air Marshal Jeetendra Mishra (Retd), the first CEO of Shri Ram Janmabhoomi Teerth Kshetra Trust, is also present. https://t.co/FauMr6BzGy"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097291804202996066",
-          "author": "ani",
-          "searchJob": "temple",
-          "text": "#WATCH | Uttar Pradesh CM Yogi Adityanath offers prayers at Shri Ram Janmabhoomi Temple in Ayodhya. Air Marshal Jeetendra Mishra (Retd), the first CEO of Shri Ram Janmabhoomi Teerth Kshetra Trust, is also present. https://t.co/Mz0CM4IpwP"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097293623809220631",
-          "author": "bobknakal",
-          "searchJob": "kent-state",
-          "text": "Build Over It! What do you do when you have 261,000 buildable square feet of development potential, but the buildings underneath it aren’t going anywhere? That was the challenge we faced at 201 West 92nd Street and 200 West 93rd Street on t"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097310062771658918",
-          "author": "thelastdegree",
-          "searchJob": "liberty",
-          "text": "TBK transitioned from target generation to discovery drilling: Atsutla: Assays pending from 2 targets Coho: Drilling in an active Cu-Au porphyry district Liberty: Fully permitted With 53M shares out, TBK offers substantial leverage to disco"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097294380771971325",
-          "author": "thecurrentpulse",
-          "searchJob": "liberty",
-          "text": "4. The Theoretical Flaws of Command Economies The Communist Manifesto by Karl Marx & Friedrich Engels To understand why central planning fails in practice, it is necessary to examine its foundational theory. Marx and Engels view economic hi"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097309097133494669",
-          "author": "ogblouisiana",
-          "searchJob": "louisiana",
-          "text": "View claims, benefits and deductibles—all in one place! 📱 The MyLA Blue app offers personalized care estimates, secure messaging and updates on your requests. Learn more: https://t.co/86BL337QcK https://t.co/bqEN6Y9TgU"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097310021340021152",
-          "author": "beaustack",
-          "searchJob": "tulane",
-          "text": "@BigToona2 @HighSchoolBlitz @Colton_Leggett @CoachJonWheeler @OLBeastCoach03 @CoachRobWash4 @LouatTheState @ChadSimmons_ @RivalsHS @On3 @GreenWaveFB @SWiltfong_ Where is the University of Tulane? I know of Tulane University but not the one "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097314460889178123",
-          "author": "deborah94830038",
-          "searchJob": "maryland",
-          "text": "😡 For 15 years I managed to care for my daughter who was diagnosed at birth with a progessive Neuromuscular Disease. In 1973, NO in home support services,No welfare eligibilty,No family to assist. Maryland did offer an in home well baby ch"
+          "postId": "2097307285978542479",
+          "author": "lmtcre",
+          "searchJob": "delaware",
+          "text": "📍 𝗥𝗲𝘁𝗮𝗶𝗹 𝗢𝗽𝗽𝗼𝗿𝘁𝘂𝗻𝗶𝘁𝘆 𝗶𝗻 𝘁𝗵𝗲 𝗛𝗲𝗮𝗿𝘁 𝗼𝗳 𝗧𝗿𝗼𝗹𝗹𝗲𝘆 𝗦𝗾𝘂𝗮𝗿𝗲! 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗡𝗼𝘄 𝗨𝗻𝗶𝘁 𝟮𝟯𝗔 📍 This 1,000 +/- SF first-floor retail space offers an opportunity to establish a business in Wilming"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097304740304404708",
-          "author": "isdupdate",
-          "searchJob": "maryland",
-          "text": "2028 Maryland safety @RyanDrakeford explains why his recent Notre Dame offer stood out and looks ahead to his return to South Bend. “It was an honor to know that a national-level program like ND appreciates my game.” https://t.co/iu2emgRCfn"
+          "postId": "2097320908016734552",
+          "author": "indyscotnews",
+          "searchJob": "marshall",
+          "text": "When Private Ryan is shamed by quiet heroes in the Syrian Arab Army https://t.co/R2zeERqYcv Om Al Fouz outside her home in Taldara with ISIS fighters less than 1km away. © Vanessa Beeley I wanted to republish this article that I wrote in 20"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097298929452818525",
-          "author": "btgraham5",
-          "searchJob": "maryland",
-          "text": "National inventory just hit 1.15 million actives — highest since November 2019 (https://t.co/x89QwetA02, week ending Aug 29). July: statewide actives still −12.9% YoY. New listings −18.5%. Sales essentially flat (−0.1%). Median sold $455k ("
+          "postId": "2097313387076092200",
+          "author": "whilewerwaiting",
+          "searchJob": "memphis",
+          "text": "** WHILE WE'RE WAITING WEEKEND FOR BEREAVED PARENTS IN THE MEMPHIS AREA - SPOTS AVAILABLE ** We have a few spots available for single parents or married couples at our While We're Waiting Weekend for Bereaved Parents scheduled for October 2"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097317936880918902",
+          "author": "navalhistorian",
+          "searchJob": "navy",
+          "text": "Interesting little summary of @BabcockPLC's current vision for the @RoyalNavy's \"hybrid navy\" concept (&amp; offered to Denmark, New Zealand &amp; Chile), centred around the Type 31 frigate as the CCV, &amp; an enlarged @WeAreHII Romulus 15"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097314725788885171",
+          "author": "pagantek",
+          "searchJob": "navy",
+          "text": "I got honorably discharged from the Navy because of mine. Wartime Navy in the Persian Gulf. I thrived! Always on watch, fixing something, going into battle. But once out of wartime, I lost my shit because I got gigged over an orange peel on"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097312880320254308",
+          "author": "defpostmedia",
+          "searchJob": "navy",
+          "text": "🇪🇸 MBDA has signed a framework agreement for the supply of three SIMBAD RC anti-missile systems to the Spanish Navy. @MBDAGroup @Armada_esp The systems will be integrated into active naval units as part of the Ministry of Defense and Navy"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097319370569535814",
-          "author": "smo_vz",
-          "searchJob": "washington",
-          "text": "🇷🇺 THE WEST BLOCKED PEACE — NOW STAY OUT OF NEW PROPOSALS 🇷🇺 Sergey Lavrov’s latest remarks cut through the fog that Western capitals have spent years manufacturing. Moscow offered paths to a political settlement more than once. Those p"
+          "postId": "2097301677636215005",
+          "author": "mikehoffmann",
+          "searchJob": "navy",
+          "text": "People aren't responding to you bc there is too much friction. You need to learn how to engineer the easy yes. Let me explain 👇 15 years ago, I was selling performance software to the hardest buyers on earth — NFL teams, Navy SEAL units, g"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097306419091382505",
+          "author": "hirescorejobs",
+          "searchJob": "michigan",
+          "text": "NOW HIRING | The Upper Peninsula Power Company seeks a Vice President of Information Technology. This position is based at UPPCO’s corporate office in Marquette, Michigan, and offers a hybrid work option for those within a reasonable drivin"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097313890476679658",
-          "author": "abortionfreenm",
-          "searchJob": "washington",
-          "text": "🚨 BREAKING: AFNM CONFIRMS NEW PLANNED PARENTHOOD ABORTION CENTER ALONGSIDE TEEN’MPOWER YOUTH PROGRAM Planned Parenthood isn’t just opening another abortion center in Albuquerque. Look at who they’re targeting. At the same Washington Street"
+          "postId": "2097299044099932267",
+          "author": "mackinaccenter",
+          "searchJob": "michigan",
+          "text": "Michigan lawmakers should take note: Maryland’s first-in-the-nation digital advertising tax was struck down in court. Michigan has considered a similar tax. Maryland’s experience offers a warning about the costly legal battle that could fol"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097308986689167460",
-          "author": "bluelivesmtr",
-          "searchJob": "washington",
-          "text": "HOW IS THIS LEGAL?!?!?!?! A Democrat consultant loses her temporary legal status Sept. 9, and her boss offered remote work from El Salvador so she can keep running U.S. campaigns. ⠀ Daysi González is a partner at Solidarity Strategies. The "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097308525458239765",
-          "author": "jecyz1987",
-          "searchJob": "washington",
-          "text": "@DenTalksBall No one offered you Nico for Parker Washington."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097306316960059873",
-          "author": "wizardofthenthc",
-          "searchJob": "washington",
-          "text": "Russia “tried at all costs to concede and appease”That is not the 2010–2014 record. After Yanukovych won in 2010, Moscow extracted the Kharkiv Pact: a gas-price discount in exchange for extending the Black Sea Fleet lease in Sevastopol to 2"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2097304112966636004",
-          "author": "courtsidebuzzx",
-          "searchJob": "washington",
-          "text": "REPORT: Sacramento Kings declined a Trae Young for Zach LaVine trade offer from the Atlanta Hawks in 2025-26 because they were not fully prepared to be in the long-term Trae Young business, according to James Ham of ESPN Sacramento. Young w"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097303529543159855",
-          "author": "bpartisans",
-          "searchJob": "washington",
-          "text": "UKRAINE: WHEN THE EMPIRE DECIDES IT HAS BETTER THINGS TO DO By @BPartisans The UnHerd article is brilliant. Trump supposedly no longer has a plan for Ukraine. What a delightful turn of phrase. As if Washington had misplaced the file between"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097303072729112990",
-          "author": "nana00018487212",
-          "searchJob": "washington",
-          "text": "This is the job. Not Banff. Not another slogan. Defend where it actually pressures Washington. Then admit the rest: we pay too. Counter-tariffs are not a victory lap. They are a tax on our own shops and our own customers. Publish the offer."
+          "postId": "2097319362373845188",
+          "author": "nicowizzyikenna",
+          "searchJob": "minnesota",
+          "text": "JUST IN: #Avellino offered James Rodriguez a one-year contract which includes an option to extend for another 12 months if the club secure promotion to the Serie A. The Colombian attacking midfielder will make a decision soon. James is a fr"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097301347313803554",
-          "author": "phopey",
-          "searchJob": "washington",
-          "text": "The U.S. didn't offer Canada the deal that had been negotiated. In the final days, Washington introduced new/changed terms that Canada rejected. The major issues included autos, French-language and cultural protections, Canada's ability to "
+          "postId": "2097312386243821835",
+          "author": "liberta_massimo",
+          "searchJob": "minnesota",
+          "text": "OK Trump sucks. But he becomes effectively a lame duck after Nov. What are the Democrats offering for 2028? It’s just catering to (or outright ignoring) the DSA base and hating Trump. When Trump leaves, what’s left? What will the bringing C"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097311721614365144",
-          "author": "iamgabbyyt",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @tamaugu05 and @moore_5, I'm grateful to have received a Divison One offer to Hampton University! Thank you so much for believing in me and I look forward to building our relationship moving forward! Go pirat"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097316525246124042",
-          "author": "profilefblive",
-          "searchJob": "boston-college",
-          "text": "Boston College, Appalachian State, and Coastal Carolina have offered 3.0⭐ 2028 SAF Kareem Dupree Jr. from Dutch Fork HS, SC. @KareemDupr19308 Rated (#1426 NATL, #101 SAF, #17 SC) - 5 offers overall. https://t.co/aXQQ1c6VxM"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097305561901539705",
+          "author": "givingreview",
+          "searchJob": "minnesota",
+          "text": "https://t.co/kKKlHca0Jj In 1st part of 2-part conversation, @NotreDame’s @PatrickDeneen talks to @GivingReview’s @mhartmannmke about his new book American Odyssey, the innate American tension between rootedness and restlessness, perfectibil"
         }
       ]
     },
@@ -376,20 +259,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 25,
-      "failed": 1,
+      "swept": 26,
+      "failed": 0,
       "requests": 26,
-      "errors": [
-        "delaware: SearchTimeline JSON unreadable (slice left pending)"
-      ]
+      "errors": []
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 21,
+      "rejectedCandidates": 12,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-08T13:43:48.978Z"
+    "status rebuilt locally from current store on 2026-09-08T13:59:00.625Z"
   ]
 }
