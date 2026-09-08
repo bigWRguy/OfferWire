@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T09:28:21.227Z",
+  "generatedAt": "2026-09-08T09:54:10.276Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-08T09:28:20.982Z",
+    "at": "2026-09-08T09:54:09.995Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7772441666666666,
-    "p95Hours": 1.2745333333333333,
-    "worstHours": 1.5325308333333334
+    "medianHours": 0.7121391666666667,
+    "p95Hours": 1.7048247222222221,
+    "worstHours": 1.7048247222222221
   },
   "decisionCoverage": {
-    "total": 17,
-    "decided": 17,
+    "total": 30,
+    "decided": 30,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 41
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 879,
     "incompleteOffers": 0
@@ -55,160 +55,251 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-08T09:28:20.982Z",
-      "got": 19,
-      "new": 17,
-      "lag": 0.04
+      "at": "2026-09-08T09:54:09.994Z",
+      "got": 36,
+      "new": 30,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-09-08T09:26:27.008Z",
+    "at": "2026-09-08T09:52:17.048Z",
     "mode": "live",
     "collection": {
-      "returned": 19,
-      "kept": 17,
-      "duplicate": 2,
+      "returned": 36,
+      "kept": 30,
+      "duplicate": 6,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 14,
-      "rejected": 3,
+      "accepted": 16,
+      "rejected": 14,
       "reasons": {
-        "no_fbs_school": 2,
-        "no_offer_term": 1
+        "no_fbs_school": 5,
+        "no_offer_term": 8,
+        "hard_negative": 1
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2097240722327920908",
-          "author": "aiojames",
-          "searchJob": "houston",
-          "text": "I want her to do some of the roles Kidman gets offered. I think she’d murder being a cult leader and a socialite and all the other things Nicole does lmaooo."
+          "postId": "2097251758154088503",
+          "author": "ken213628030500",
+          "searchJob": "kent-state",
+          "text": "@SidneyPowell1 Cowardice abounds, shaming our Founders! Food offered to idols is an abomination! Yeshua Akbar!!! Am Yisrael Chai!"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2096948194949181584",
-          "author": "milfgomery",
-          "searchJob": "houston",
-          "text": "MARCIA CROSS !!!!!! https://t.co/3Lgv70bbjG"
+          "postId": "2097252554946347026",
+          "author": "llclawyers",
+          "searchJob": "liberty",
+          "text": "Supreme Court Vacation Bench: Your Lifeline During Court Recess Imagine this: It is the middle of May. The summer heat is at its peak. The Supreme Court of India has just closed for its summer vacation. https://t.co/IODmjkAqa3"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097245438697160899",
-          "author": "synixpg",
-          "searchJob": "army",
-          "text": "@Bipl1wj9 @Stamkos96 I honestly wouldn’t be surprised if when volk retired they sign him and offer him a fight for the vacant belt"
+          "postId": "2097239470210973945",
+          "author": "kohltonmiller",
+          "searchJob": "florida",
+          "text": "@Zer0reflect GTA 3 was awesome for the time, but I fail to see what it offers now"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097257575985160595",
+          "author": "jemmie1155431",
+          "searchJob": "georgia",
+          "text": "How a browser tab teaches a robot to move. https://t.co/1giwO9CMr2"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097244252946432122",
+          "author": "navnoorquant",
+          "searchJob": "ucla",
+          "text": "55% net return. That's what Elwyn Berlekamp delivered the year after rewriting Renaissance Technologies' failing code with coding theory, not geometry. Jim Simons's own famous math had nothing to do with it, by his own admission. https://t."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097260082195259853",
+          "author": "blocmates",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/8VuWOnMP4b"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097259126099259901",
+          "author": "hannawcheptumo",
+          "searchJob": "texas-tech",
+          "text": "Delighted to welcome the Assistant Secretary of State for African Affairs, Mr. Frank Garcia, to American Corner Mtaani at Maktaba Kuu. The visit offered a valuable opportunity to highlight the important role of knowledge institutions, digit"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097256947221397572",
+          "author": "saysdotcom",
+          "searchJob": "texas-tech",
+          "text": "The new EX90 offers powerful performance and safety in a luxurious package. https://t.co/Msp74WBz9R"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097256458274382224",
+          "author": "tomscottv",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/LSKdpVz8jm"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097254976074527040",
+          "author": "atlassignaldesk",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/mzvPruiHgz"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097253081125974252",
+          "author": "jaysheldonshow",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/QJarvTRhfp"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097216062123061408",
+          "author": "talk_to_yinka",
+          "searchJob": "texas-tech",
+          "text": "IVM motors make me laugh sometimes"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097246688456937850",
+          "author": "seca_solutions",
+          "searchJob": "texas-tech",
+          "text": "Lenovo ThinkPad 11e – Touch &amp; Write with Ease! ✅ 11.6” Touchscreen Display ✅ Intel Celeron Processor ✅ 4GB RAM | 128GB SSD ✅ Windows 10 Pro Only at KSh 16,500 Call 📞 0118 330 006 LIMITED OFFERS!! NOW 15K NO BURGAIN!🔥🔥🔥 Valid until S"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097244735652143404",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "🛍️ [ Amazon Italy | €1399.99 ] ( NX.JS9ET.00N ) Acer Aspire Go 16 AG16-71P-998H | Notebook | 16\" WUXGA IPS 120 Hz | Intel Core 9 270H [ad] https://t.co/78MWGWKkT2 Price: €1399.99 ( Lowest Price on Sep 8, 2026 ) Specs and Features ADVANGUAR"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 14,
+      "rejected": 16,
       "reasons": {
-        "bare_mention_requires_llm": 11,
-        "multiple_resolved_schools": 2,
-        "school_not_resolved_confidently": 1
+        "bare_mention_requires_llm": 6,
+        "school_not_resolved_confidently": 10
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097254477162229803",
-          "author": "islamstatewatch",
-          "searchJob": "temple",
-          "text": "@TPUSA beware of false messiahs wanting to build a temple to offer sacrifices for sins. Christians are the temple of God! https://t.co/5DYj9HMiRc"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097254373772378401",
-          "author": "perseusslade",
-          "searchJob": "temple",
-          "text": "That is meiwaku in practice. Official visitor guidance is on the Japan Tourism Agency site: Responsible Traveler. The core ideaJapanese public life is built around not making yourself other people’s problem. That covers noise, space, dirt, "
+          "postId": "2097244516776624494",
+          "author": "richashes_asha",
+          "searchJob": "liberty",
+          "text": "@France24_en Shame on you France! Expected better from a country that stood for principles of liberty , equality and fraternity. But Just out of curiosity: What kind of incentives did they offer you?"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097245043820253241",
-          "author": "newbusinessage",
-          "searchJob": "temple",
-          "text": "[IN PICTURES]: President Ramchandra Paudel, accompanied by First Lady Sabita Paudel, offered special prayers at the Pashupatinath Temple on Tuesday morning, wishing for the happiness, peace, and prosperity of the nation and its citizens. 📸"
+          "postId": "2097254693705535774",
+          "author": "rolldatwave",
+          "searchJob": "tulane",
+          "text": "Tulane Green Wave Offer Class of 30 LB/RB"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097232769982284100",
-          "author": "amitroy1",
-          "searchJob": "temple",
-          "text": "@sanjeevsanyal 10-day non-vegetarian buffet. Temple prasad is not a regular fish curry, even in Kalighat. By your reasoning, should everyone drink alcohol at the Durga Puja pandal and declare it sacred since Madya is offered in some Shakta "
+          "postId": "2097258489080844367",
+          "author": "drdavidivw",
+          "searchJob": "florida",
+          "text": "BREAKING: Florida announces $140M for advanced cancer research, including diet, exercise &amp; Ivermectin. This should be headline news. 80% of global Ivermectin is made in Asia (58% China). The Wellness Company offers affordable, U.S. made"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097232227574980626",
-          "author": "goanewshub",
-          "searchJob": "temple",
-          "text": "Jit Arolkar Offers Prayers at Mandrem Temple MLA Jit Arolkar participated in the special Abhishek and religious rituals at Shri Dev Bhagwati Sapteshwar Devasthan and offered prayers. He prayed for the divine blessings of Shri Dev Bhagwati S"
+          "postId": "2097259651985502657",
+          "author": "earthdesires",
+          "searchJob": "georgia",
+          "text": "Whiskey Jug Genie by Sultonna Nadine is a lighthearted and charming paranormal fantasy that mixes magic, humor, and a touch of romance for pure escapist fun. When quiet London apothecary shop owner Martin buys an old whiskey jug on vacation"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097232212248703252",
-          "author": "rontoobsg",
-          "searchJob": "temple",
-          "text": "@rajeshranjan641 @sanjeevsanyal Carnivores and herbivores are by nature's design. In humans the food habits have developed by centuries of evolution based on local conditions. That is how it has entered into religious rituals. Do you know t"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097229208678547458",
-          "author": "hootnepal",
-          "searchJob": "temple",
-          "text": "President offers prayers at Pashupatinath Temple. #Nepal #Pashupatinath #President https://t.co/6Jas54fKW0"
+          "postId": "2097257891992596642",
+          "author": "earthdesires",
+          "searchJob": "georgia",
+          "text": "Old Flame (Gambler's Folly Book 4) by Mellie Miller is a heartfelt second-chance paranormal shifter romance that blends emotional healing, mature love, and the magic of fate. Billionaire and bear shifter Kort Behrens has been lucky in busin"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097255030617202722",
-          "author": "althansbucks4e",
-          "searchJob": "usc",
-          "text": "@TrojanFBx I knew he was going to be elite when OSU surpassed USC original NIL offer and then USC jumped over them again. OSU doesn’t do that for HS kids unless they feel Instant impact . Sanders Jr, DGG, Smith, Waffle. Got a good one."
+          "postId": "2097238360045883795",
+          "author": "indubabu1269",
+          "searchJob": "texas",
+          "text": "Your products must perform in the real world. UL Solutions offers controls verification procedure (CVP) testing at our HVACR Center of Excellence in Plano, Texas. Learn more here: https://t.co/lOMleDac4E #weareULSolutions #HVAC #HVACR https"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097261275936145798",
+          "author": "indiaenergyweek",
+          "searchJob": "texas-tech",
+          "text": "Kolkata's location, infrastructure and connectivity make it a natural meeting point for the global energy community. As Eastern India's commercial capital, it links West Bengal, Odisha, Bihar, Jharkhand, the Northeast and neighbouring count"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097242900383875389",
-          "author": "dukedebs",
-          "searchJob": "duke",
-          "text": "@DiligentDenizen In short: most US restaurants in 2026, contactless debit is the same seamless “tap (add tip if offered) and done” experience you know from the UK—no signing afterward. The main difference is that tipping culture is stronger"
+          "postId": "2097260503751884801",
+          "author": "pf02101963",
+          "searchJob": "texas-tech",
+          "text": "NQ/NASDAQ PROFESSIONAL MARKET RADAR 11:00 Swiss Time — 8 September 2026 04:00 CME/Chicago (CT) MARKET REGIME — CAUTIOUS / SLIGHT BEARISH BIAS The overnight bullish structure in NQ has deteriorated materially during the European session. Aft"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097252468547543168",
-          "author": "mbsnewsmaritime",
-          "searchJob": "houston",
-          "text": "Recovery efforts are ramping up in Cape Breton after a slow-moving storm dumped more than 200 millimetres of rain on some areas, causing flooding and widespread damage. Public Works Minister Fred Tilley tells CTV that hundreds of provincial"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097260333245321590",
+          "author": "cii4wr",
+          "searchJob": "texas-tech",
+          "text": "Shaping the Future of Healthcare with AI A significant knowledge milestone at CII Hospital Tech 2026 with the launch of the CII–PwC Knowledge Report, “AI Shaping the Future of Healthcare.” Based on an AI Readiness Pulse survey of 28 senior "
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097243164218187967",
-          "author": "muinchille",
-          "searchJob": "army",
-          "text": "The usual confusion. In Ireland support for neutrality is 75% and a conservative viewpoint. There are good reasons for this. An army sent to Ireland by either attacker or ally is essentially lost; it can't be deployed elsewhere and can easi"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097258505023660356",
+          "author": "guihuafurp2026",
+          "searchJob": "texas-tech",
+          "text": "How will the city finance what comes next? Urban development cannot rely on a single source of capital. Zhangjiang offers planners a valuable case: multi‑layer capital supports tech research moving toward commercialization. Good planning in"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097239886591856649",
-          "author": "olenarohoza",
-          "searchJob": "army",
-          "text": "The Deadly Chronology of Putinism September 8, 2021 — Yevgeny Zinichev, a 55-year-old Army General, head of Russia’s Ministry of Emergency Situations and member of the Security Council, died at around seven in the morning together with film"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097257615243760127",
+          "author": "merch_hunta",
+          "searchJob": "texas-tech",
+          "text": "Why @KortanaChain matters for builders For builders working on urban‑tech, DePIN, or IoT applications, Kortana offers a stack that matches those use cases instead of forcing them into a pure‑DeFi narrative. https://t.co/zTaBGQKZSs"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097239751271096496",
-          "author": "khcdwest1",
-          "searchJob": "army",
-          "text": "@KayBurley The few atttacking the RNLI are the racist far right that offer nothing useful to the world. Middleton is just an ignorant racist, living in Dubai, whilst trying to pretend he is a patriot. I suspect he misses the comradery of th"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097256934097440964",
+          "author": "ytheesh",
+          "searchJob": "texas-tech",
+          "text": "@MORTHIndia Driving Licence services on Parivahan portal are complete failure,nothing works as it should. Its frustrating that a country powered by world’s most qualified engineers &amp; global tech leaders can’t offer citizens a reliable,u"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097234794736484601",
-          "author": "richard46235498",
-          "searchJob": "army",
-          "text": "@Zack_magaig He ran like a coward when the army offered him a uniform"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097256894414848274",
+          "author": "qwikad_com",
+          "searchJob": "texas-tech",
+          "text": "🚀 Ready to flood your offers with buyers? https://t.co/fLPzNcRuXJ turns a 30-second signup into instant reach. Post anything you want: products, services, affiliate links and watch the traffic roll in fast. No tech headaches, no waiting ar"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097252349811061160",
+          "author": "yourdolphin",
+          "searchJob": "texas-tech",
+          "text": "Staff reflection of 27 Years of Innovation. As we celebrate 40 years of Dolphin, we're reflecting on the people and innovations that have shaped our journey. One of our longest-serving team members, Adam, who has been with dolphin for 27 ye"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097250531664130225",
+          "author": "narumiaionx",
+          "searchJob": "texas-tech",
+          "text": "Broadcom is racing toward a $230 billion AI revenue target by building custom chips for tech giants that want an alternative to Nvidia. Big cloud companies like Google and Meta prefer bespoke chips because they offer higher efficiency at a "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097247631814615269",
+          "author": "talk_to_yinka",
+          "searchJob": "texas-tech",
+          "text": "Chinese car manufacturers give you what Ferrari and Porsche give you on an affordable budget. A 2024 IVM car that’s more expensive than a 2026 Chinese car is much uglier, with less tech and fewer features. So IVM, if people refuse to buy yo"
         }
       ]
     },
@@ -223,11 +314,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 14,
+      "rejectedCandidates": 16,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-08T09:28:21.231Z"
+    "status rebuilt locally from current store on 2026-09-08T09:54:10.279Z"
   ]
 }
