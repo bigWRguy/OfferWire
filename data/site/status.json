@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T20:28:22.902Z",
+  "generatedAt": "2026-09-08T20:43:35.543Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-08T20:28:22.573Z",
+    "at": "2026-09-08T20:43:35.314Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
+    "sweptThisRun": 25,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7787427777777778,
-    "p95Hours": 1.7692041666666667,
-    "worstHours": 2.032083888888889
+    "medianHours": 0.5335358333333333,
+    "p95Hours": 1.5174983333333334,
+    "worstHours": 2.0227155555555556
   },
   "decisionCoverage": {
-    "total": 85,
-    "decided": 85,
+    "total": 23,
+    "decided": 23,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 42
   },
-  "paginationBacklog": 2,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 895,
     "incompleteOffers": 0
@@ -55,381 +55,203 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-08T20:28:22.573Z",
-      "got": 137,
-      "new": 85,
-      "lag": 0.03
+      "at": "2026-09-08T20:43:35.314Z",
+      "got": 32,
+      "new": 23,
+      "lag": 0.07
     }
   },
   "audit": {
-    "at": "2026-09-08T20:26:24.340Z",
+    "at": "2026-09-08T20:41:46.797Z",
     "mode": "live",
     "collection": {
-      "returned": 137,
-      "kept": 85,
-      "duplicate": 49,
-      "tooOld": 3,
+      "returned": 32,
+      "kept": 23,
+      "duplicate": 9,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 50,
-      "rejected": 35,
+      "accepted": 17,
+      "rejected": 6,
       "reasons": {
-        "no_offer_term": 15,
-        "hard_negative": 2,
-        "no_fbs_school": 10,
-        "non_fbs_offer_target": 8
+        "no_fbs_school": 5,
+        "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2097324577949184013",
-          "author": "mollysoshea",
-          "searchJob": "navy",
-          "text": "NEW: @Saronic CEO Dino Mavrookas (@MavrookasD) on Rebuilding American Shipbuilding 🇺🇸 \"What has typically just determined naval power is who can build the most ships. It's not who can build the most exquisite, the most expensive.\" China o"
+          "reason": "no_fbs_school",
+          "postId": "2097399460380950778",
+          "author": "cathypiecat",
+          "searchJob": "kansas",
+          "text": "Poor choice and decision by Pres. Donald Trump. Bombardier has a large operation in the United States that includes manufacturing, defense work, and a wide supply chain. The company employs 3,500 workers across more than 20 U.S. states. It "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097408570379600258",
+          "author": "jaymoorcock",
+          "searchJob": "miami",
+          "text": "@ScarletPeachXO That is a crazy thing to offer."
         },
         {
           "reason": "hard_negative",
-          "postId": "2097394667142742045",
-          "author": "pobscout",
-          "searchJob": "navy",
-          "text": "2027 Rowan Hoffman @RowanHoffman2 has announced his commitment to Holy Cross. A 6'8 small forward held offers from Cornell and Navy as well. https://t.co/hcKZaYW6an"
+          "postId": "2097423222580920423",
+          "author": "kolby_crawford",
+          "searchJob": "smu",
+          "text": "Doak Campbell Stadium went dark Monday night, and Florida State's visitor list mostly stuck around anyway. Offers, flip targets, commits being courted elsewhere and every wild power outage story in between. Details: https://t.co/WwHELPfPDX "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097419721335337201",
-          "author": "winknews",
-          "searchJob": "florida",
-          "text": "More families across Southwest Florida are using state scholarships to pay for private school, and local Catholic schools say the growth is changing what they are able to offer students. https://t.co/9YBmwddVis"
+          "postId": "2097417443681484953",
+          "author": "ohiorealtors",
+          "searchJob": "ohio",
+          "text": "It's time for your weekly listen! 🎧 Keith breaks down why systems and automation are essential for building a more efficient business and offers practical tips REALTORS® can start using right away to save time and boost productivity! https"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097418474767147112",
-          "author": "pcmag",
-          "searchJob": "florida",
-          "text": "Cape Canaveral offers front row seats to the greatest show on Earth just about every week; I was just there for the Falcon Heavy launch of NASA’s Nancy Grace Roman Space Telescope. But there are a few things to know before heading to the Su"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097415682061205753",
-          "author": "badcredit_news",
-          "searchJob": "florida",
-          "text": "A little homework could put a $200 credit on your electric bill. Here’s who qualifies 👉 https://t.co/3ujBsukEUR https://t.co/OS9oRNJB3I"
+          "postId": "2097414672475717652",
+          "author": "ffl_nwo",
+          "searchJob": "ohio",
+          "text": "Every Christian community should be a place that protects the right to life. That's why Catholic Charities Respect Life Ministry hosted its first Respect Life Group Conference. We offer a similar program for other churches, Abundant Family "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097417759705764221",
-          "author": "2georgieobrien",
-          "searchJob": "georgia",
-          "text": "@13blakeshrader This IPTV subscription offers affordable prices."
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097408889914265842",
-          "author": "landon_meschi",
-          "searchJob": "georgia",
-          "text": "After a great talk with @JWesley_Jr , I am blessed to recieve an offer from Georgia Christian College! @ClyntonElwood @declan_deyoung @BakerLBrian @CoachQuintana @FBswarmfootball https://t.co/SxSehLQKUi"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097414764116807932",
-          "author": "ukwildcatswire",
-          "searchJob": "kentucky",
-          "text": "Kentucky jumps into the mix for 2029 QB Lord Malik Heru 📸 Jeff Faughender/Courier Journal, USA TODAY Network via Reuters Co https://t.co/WyZat3UFMR https://t.co/pIMIU9h0jU"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097361541662216351",
-          "author": "shoughmuse",
-          "searchJob": "lsu",
-          "text": "SEC go ahead and boot LSU out. They’ll sign a 9 figure media deal with NBC and have a schedule as easy as Notre Dame 😭😭😭"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097420481754169424",
-          "author": "txjailproject",
-          "searchJob": "texas",
-          "text": "Important national story today on the 'mental-health-crisis-to-prison-pipeline' in Texas https://t.co/s2xTg6O6KV"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097412692483137843",
-          "author": "djbumpstock",
-          "searchJob": "texas",
-          "text": "https://t.co/qPBEiKNRPL"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097409676388319422",
-          "author": "b_doong2daddy",
-          "searchJob": "texas",
-          "text": "If you ordered your Cybertruck, I recommend getting windshield protection Tesla now offers the windshield insurance only for $25 a month (starting from October)"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097407396574351814",
-          "author": "txind1836",
-          "searchJob": "texas",
-          "text": "@WallStreetApes If you thought Airbnb’s and Ubers were a good idea … WHAT THE HELL WERE YOU THINKING? Never offer up your personal property to unknown strangers!"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097406203424809128",
-          "author": "rmacdon627",
-          "searchJob": "texas",
-          "text": "🚨 Failed Leadership. Predictable Bloodshed. Chicago just watched another holiday weekend end with 38 people shot and 8 dead. That is not a “surge.” That is the predictable result of years of failed local leadership. Governor Pritzker and M"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097325500494405664",
-          "author": "tonyxtwo",
-          "searchJob": "texas",
-          "text": "38 people shot in Chicago over Labor Day weekend. Eight of them are dead. Al Sharpton: silent. Ben Crump: silent. NAACP: silent. BLM: silent. President Trump has offered help more than once: “The city will die if the Federal Government is n"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097405471564923384",
-          "author": "oneminers",
-          "searchJob": "texas",
-          "text": "IREN's 2GW Sweetwater hub was conditionally classified Base Load in ERCOT Batch Zero. Bitcoin mining is roughly 52% of ERCOT's emergency response portfolio. Base load is the opposite promise, and it is being made inside a queue that is froz"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097420908067438979",
-          "author": "abbimader",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with Coach Dunn @CoachBobDunn I am blessed to receive an offer from @CSU_WBasketball !! @TippGBK @JDabbs86 #TheLastMader #WEareTIPP #GoVikes https://t.co/VNpRG6wdGl"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097413318361190742",
-          "author": "reddachosenone",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great workout and talk with Coach E and Coach Nassir I am blessed to receive an offer from Cumberland university 🙏🏽 @coach_ee3 @CoachEDE3 Thank you for the opportunity! @KY_PrepReport @PrepHoopsKY @FHSBasketball11 https://t.co/9L4"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097413276149682437",
-          "author": "brandon_te40694",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with coach @CoachTTonsil I am extremely blessed to receive an offer from Dominican university! https://t.co/RQJDLz8i9a"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097412725634908563",
-          "author": "pineapplebrehh",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "@IHateItMost I’ve been blessed to receive many strays. There is something special about the universe’s cat dispenser system. Thank you for your kindness 🫶"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097409133926326352",
-          "author": "pointgod001",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After A Great workout and visit i’m blessed to receive an offer from Cumberland University Thank you @CoachNassCU and Coach E for this opportunity!! https://t.co/qb7iUdXVde"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097408257996337296",
-          "author": "anden_mickley",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Beyond grateful and blessed to receive an offer from Westminster University. Thank you @CoachTyMcGowan and @WCtitansFB for the opportunity. @CoachBL_AFL @CoachCregger @RussellStoner24 @AFL_YorkPA https://t.co/disMojx1CI"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097405893121802650",
-          "author": "kylerwooda48956",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great visit with Coach Houston I am blessed to receive a scholarship offer from The University of Saint Mary! Go Spires! @CoachHouston_ @TysenBrennan @kshoopdreams @coachmcdaniel11 #GoSpires #SpiresBasketball #Recruiting #ClassOf202"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097403530571055429",
-          "author": "mwbarz51",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Extremely blessed to receive an offer from Kalamazoo College https://t.co/BmMFE0OCRt"
+          "postId": "2097403095802069407",
+          "author": "ohpatriot2",
+          "searchJob": "ohio",
+          "text": "@LibOrNormal He should have followed the rules initially, but had a second chance to self deport and didnt take advantage of that offer."
         }
       ]
     },
     "extraction": {
-      "accepted": 2,
-      "rejected": 48,
+      "accepted": 0,
+      "rejected": 17,
       "reasons": {
-        "multiple_resolved_schools": 10,
-        "bare_mention_requires_llm": 34,
-        "school_not_resolved_confidently": 2,
-        "reporter_missing_position": 1,
-        "author_not_recruit:no recruit fields": 1
+        "bare_mention_requires_llm": 8,
+        "school_not_resolved_confidently": 7,
+        "player_missing_football_context": 1,
+        "explicit_non_fbs_target": 1
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097409428760707072",
-          "author": "marioskaratzias",
-          "searchJob": "navy",
-          "text": "Dino Mavrookas: The Man With a Vision to Rebuild American Shipbuilding @MavrookasD What does ancient Greek history have to do with the name of his company, Saronic? His company went from promising startup to a household name in defense circ"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097421996237701576",
+          "author": "seantufford",
+          "searchJob": "nevada",
+          "text": "@icgsilvergold Ltd. [CSE: ICG | FRA: JI0 | OTC Pink: ICGSF] A 10,000‑Acre Nevada District With Only 43M Shares Outstanding A @Brien_Lundin - New Orleans Investment Conference — “Must See” At a Glance Shares Issued 43,180,120 Market Cap 15,1"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097393486462910945",
-          "author": "ymcaghana",
-          "searchJob": "navy",
-          "text": "On the third day of the 23rd National Youth Conference, participants visited the Sekondi Naval Base. The visit offered participants valuable insight into the operations and responsibilities of the Ghana Navy. They toured the base, viewed so"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097393212982009915",
-          "author": "thestratinsight",
-          "searchJob": "navy",
-          "text": "The IRGC Navy claims it has detected, intercepted and captured a highly advanced U.S. unmanned underwater vehicle (UUV) operating in the Strait of Hormuz, and has released footage purportedly showing the captured system. The vehicle has bee"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097418626571866489",
-          "author": "rolldatwave",
-          "searchJob": "uab",
-          "text": "Tulane Green Wave The Return of Kam Hamilton Kam Hamilton is an immediate veteran upgrade for a Tulane D-line that lost its entire 2025 CFP starting front. The 6-4, 292-pound Zachary product just returned as a fifth-year player after going "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097416900036989421",
-          "author": "b2idigital",
-          "searchJob": "florida",
-          "text": "ZenaTech, Inc. (@ZenatechInc) (@Nasdaq: $ZENA) announced that it is developing a franchise business strategy and plan to bring branded, drone-based power washing services to market under its Drone as a Service platform. The planned strategy"
+          "postId": "2097399669819093179",
+          "author": "lighttheway22",
+          "searchJob": "nevada",
+          "text": "Eduardo Clemente is wanted in connection with the murder of Tiffany Booth. Authorities last saw him on October 10, 2020, in Henderson, Nevada, where he may be using aliases including “Daniel Trent” along with variations of his name. He has "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097413915328012546",
-          "author": "flasprtscardhvn",
-          "searchJob": "florida",
-          "text": "@tm1515152005 Afternoon everyone. I focus on affordable lower end cards for sets and collectors. Top Rated Seller eBay. Open to offers. Come check me out https://t.co/BLjZMRtZSn. Have a great rest of your Tuesday everyone"
+          "postId": "2097424167209705544",
+          "author": "equityresearchr",
+          "searchJob": "iowa-state",
+          "text": "India gets an unblinking eye in the sky. 🛰️🇮🇳 With the launch of EOS-05 aboard GSLV-F17, @isro enters a new era of continuous Earth observation. Here’s why it’s a game-changer: * Fixed Over India: Stationed in Geosynchronous Orbit (GEO),"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097408757235884129",
-          "author": "airflawdajordan",
-          "searchJob": "florida",
-          "text": "At Georgia Tech Buster is a good up and comer that hard cores know of At Florida Buster is on a national stage where he’s going to gain a lot of media &amp; social media attention on all platforms. He’s going to be offered head coaching job"
+          "postId": "2097421107825385784",
+          "author": "scoutpcong",
+          "searchJob": "iowa-state",
+          "text": "One of the better 2029 point guards in the country, Jace Opoku-Agyeman, on his unofficial visit to Iowa State, where he left with an offer to play for coach Otzelberger He’s as bright, respectful, and humble as they come, and it’s been awes"
+        },
+        {
+          "reason": "player_missing_football_context",
+          "postId": "2097418216637108512",
+          "author": "opoku_jace",
+          "searchJob": "iowa-state",
+          "text": "I am very grateful to receive an offer from Iowa State University. Thank you to Coach Otzelberger, Coach Schmidt and the coaching staff for this opportunity. https://t.co/qXFGMg4oEf"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097408694015406489",
-          "author": "fluffy01_tales",
-          "searchJob": "florida",
-          "text": "Retired police dogs deserve a care plan, not a cost shock. Florida now offers eligible K-9s up to $5,000 a year for veterinary expenses, including routine and emergency care. See who qualifies. https://t.co/ORRshlpq7O"
+          "postId": "2097414530959818965",
+          "author": "jaysontafari",
+          "searchJob": "kansas",
+          "text": "@therealwildcur Unfortunately, don’t think Jackson will be in the class. Sucks because tbey moved back from Kansas for the offer."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097404434737438828",
-          "author": "shephardsresort",
-          "searchJob": "florida",
-          "text": "DID YOU KNOW? You schedule a walkthrough to see our wedding spaces. 😃 Let Teah and her team show you all Shephard’s has to offer, from getting married right on the white sands of Tiki Beach to accommodating wedding parties of all sizes. Em"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097392092246868352",
-          "author": "flpublicpower",
-          "searchJob": "florida",
-          "text": "The 2026 Energy Connections Conference & Trade Show is coming to the Grand Hyatt Tampa Bay, November 3 to 4. Make plans to attend & connect with the people, ideas & solutions shaping Florida’s #PublicPower industry. This year’s conference w"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097405111127638127",
-          "author": "earthdesires",
-          "searchJob": "georgia",
-          "text": "Whiskey Jug Genie by Sultonna Nadine is a lighthearted and charming paranormal fantasy that mixes magic, humor, and a touch of romance for pure escapist fun. When quiet London apothecary shop owner Martin buys an old whiskey jug on vacation"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097404103865544891",
-          "author": "earthdesires",
-          "searchJob": "georgia",
-          "text": "Old Flame (Gambler's Folly Book 4) by Mellie Miller is a heartfelt second-chance paranormal shifter romance that blends emotional healing, mature love, and the magic of fate. Billionaire and bear shifter Kort Behrens has been lucky in busin"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097392027415744843",
-          "author": "alyssarose198",
-          "searchJob": "georgia",
-          "text": "He didn’t expect anyone to give him a PS5. He was willing to work for it. ❤️ A Georgia teen offered yard work around his neighborhood, and when police learned the reason, they rewarded his determination with a PS5 and gift cards. https://t."
+          "postId": "2097409942168736123",
+          "author": "kansasoec",
+          "searchJob": "kansas",
+          "text": "Many of the existing early childhood programs and services transitioned to the Kansas Office of Early Childhood (KOEC). Below is an overview of the programs and services now housed within KOEC. We offer resources for all these programs and "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097394694363709813",
-          "author": "indianapreps",
-          "searchJob": "indiana",
-          "text": "Bearcats offer Hammond Morton standout receiver."
+          "postId": "2097424522919960670",
+          "author": "nirenmichael",
+          "searchJob": "miami",
+          "text": "@Delta is refusing to reimburse me for a missed Paris hotel stay due to THEIR Miami flight cancellation --gave me only 4 hours notice! Their \"excuse\" ? --\"you pre-booked the hotel so we don't offer reimbursements'. Have you ever?? This stin"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097418856742732184",
-          "author": "xmackaveli",
-          "searchJob": "lsu",
-          "text": "LSU rostering 2 5th year players… Sankey got his feelings hurt by Kiffin/LSU but notice he won’t say shit about the players on TX or Oklahomas roster who participated in NFL camps, the NCAA won’t say shit about all the teams rostering 6-7th"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097404482766156184",
+          "author": "paul_belcastro",
+          "searchJob": "miami",
+          "text": "@KDPomp I heard rumors that Miami was interested in a trade for Porter. If they offered there #1 draft pick, I would do that ASAP! Then the Steelers could get the QB they are looking for."
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097416759418499114",
-          "author": "4thandbearded",
-          "searchJob": "lsu",
-          "text": "I don't think this is nearly as open and shut of a case as you think it is. Notre Dame's deal was garnered through a lot of which I'm not sure LSU has or can offer. I wouldn't be shocked if the B1G said \"fuck it we will take ya\". lol"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097404266646249512",
+          "author": "ravious101",
+          "searchJob": "miami",
+          "text": "💔 DEVASTATING: A Mom Fighting Cancer Just Wanted Help. Now Her Sitter Won’t Return the Family Puppy. Hanna Bustos, a Miami mom of five undergoing chemotherapy, is living a nightmare. In 2025, a local dog boarder offered to temporarily watc"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097415405828526366",
-          "author": "khalid30h",
-          "searchJob": "lsu",
-          "text": "( يو إس إيه توداي - آمريكا- الثلاثاء 8 سبتمبر 2026 ) الأبواب الفنية: 1. \"Run it back: CBS' Race' legacy is amazing\" - أعد التشغيل: إرث برنامج 'ذا أميزينغ ريس' على سي بي إس مذهل · برنامج المسابقات \"The Amazing Race\" يحتفل بمرور 25 عاماً على "
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097399576861053051",
+          "author": "raquelbalice",
+          "searchJob": "miami",
+          "text": "September's Miami art scene offers a James Turrell Ganzfield, Wifredo Lam's legacy, and a cement-bead sculpture show before winter's major fairs #MiamiArt #Superblue #ArtSeason https://t.co/DkoELJQ3nW https://t.co/Jrl7fPomMq"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097412462194925713",
-          "author": "40acresfight",
-          "searchJob": "lsu",
-          "text": "@furrshurr1 @WMBHOGS @nate_oatsb You're the dude sitting here saying LSU would jump at an offer to join the ACC the minute they get booted from the SEC 😂 Your solution is the TEMU Big XII."
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097398901946868068",
+          "author": "uphonestreal",
+          "searchJob": "miami",
+          "text": "🎵🔥 EVERY GREAT SONG STARTS BEFORE THE FINAL SONG. Before the studio. Before the mix. Before the master. Before Spotify. Before radio. Before the label. Before the audience. There is usually something much more fragile: THE DEMO. A voice m"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097410236537786589",
-          "author": "kelleyqh",
-          "searchJob": "lsu",
-          "text": "@YahooSports @trigonis30 @RossDellenger Big12 commish is salivating waiting to offer LSU whatever they want. SEC loses way more from this than LSU. They have too many options they can choose while the SEC just loses a cash cow with no equit"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097397806063337830",
+          "author": "lthinklater",
+          "searchJob": "miami",
+          "text": "@mousescores @ferretscores tbh I just said that as a realization, we don’t live in Miami we just frequent but ty for the offer &amp; you’re right! You are 16 with a weird age gap relationship! let’s keep this conversation adults only from n"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097402278881714253",
-          "author": "thehayride",
-          "searchJob": "lsu",
-          "text": "I wonder what Apple, Amazon and Netflix would offer for the streaming rights to LSU sports. Those platforms are directly subscription-based, not like the TV networks are. They can directly trace an increase to the rights for LSU (or anybody"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097400992287396095",
-          "author": "smokin_tiger",
-          "searchJob": "lsu",
-          "text": "@wgcTrey @kadenkeith0023 @Tiger__Vibes Baseball is a huge draw..I totally get your point. So another conference would have a offer for LSU?"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097398443119632825",
-          "author": "mcowartlaw",
-          "searchJob": "lsu",
-          "text": "Texas didn’t do what LSU is doing. Cole Hutson never signed an NFL contract. The Cowboys offered him a deal after the draft; he declined it and stayed in school to finish his degree. Both Harris and Wright signed NFL contracts - in fact, Ha"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097421302181294531",
-          "author": "contextc56659",
-          "searchJob": "texas",
-          "text": "9/11 Events You May Not Know About As the 25th anniversary of September 11 approaches, communities across Texas are coming together to remember the nearly 3,000 people killed and honor the first responders and others whose lives were foreve"
-        },
-        {
-          "reason": "reporter_missing_position",
-          "postId": "2097418445445005339",
+          "reason": "explicit_non_fbs_target",
+          "postId": "2097422221937447275",
           "author": "profilefblive",
-          "searchJob": "texas",
-          "text": "🚨 First D1 Offer 🚨 2029 Edge Brody James from Norman North HS, OK has received his first D1 offer from Texas Tech. @brody_james26 https://t.co/GQadyP16vO"
+          "searchJob": "nc-state",
+          "text": "North Carolina State has offered 3.3⭐ 2028 DE Fred Ntumba from Antioch HS, TN. @fredntumba25 Rated (#1112 NATL, #64 DE, #44 TN) - 6 offers overall. https://t.co/el5xsf8Tyi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097419244967182413",
+          "author": "currencyhigh1",
+          "searchJob": "pittsburgh",
+          "text": "@boiardino @PickensBurgh Went into opposing arenas as a 21+ underdog &amp; somehow mustard wins out. DK Metcalf said he came cause of Tomlin. Joe Haden had offers of more money, but the first reason out of his mouth he signed to Pittsburgh "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097408992922190129",
+          "author": "lpmag",
+          "searchJob": "ohio",
+          "text": "The Ohio Council of Retail Merchants and the Ohio Regional Organized Crime Coalition (OROCC) recently hosted its inaugural Ohio Retail Crime Summit, which offered valuable networking and professional development opportunities. Click the lin"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097402087785062443",
+          "author": "remax_rising",
+          "searchJob": "ohio",
+          "text": "Charm Meets Craftsmanship in This Stunning Century Home! 📍11679 Bell Rd, Newbury, OH Offered at $949,900 See more photos and full details here: https://t.co/qkXb6EQjTk Contact Ann Blair for a private showing (440) 668-1771 #OhioRealEstate "
         }
       ]
     },
@@ -437,18 +259,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
+      "swept": 25,
+      "failed": 1,
       "requests": 26,
-      "errors": []
+      "errors": [
+        "tcu: SearchTimeline HTTP 404 (slice left pending)"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 2,
-      "rejectedCandidates": 48,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 17,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-08T20:28:22.905Z"
+    "status rebuilt locally from current store on 2026-09-08T20:43:35.546Z"
   ]
 }
