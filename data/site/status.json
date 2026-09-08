@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T03:58:12.372Z",
+  "generatedAt": "2026-09-08T04:13:40.440Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-08T03:58:12.071Z",
+    "at": "2026-09-08T04:13:40.189Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
+    "sweptThisRun": 25,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7795641666666666,
-    "p95Hours": 1.5279952777777779,
-    "worstHours": 1.7736963888888888
+    "medianHours": 0.7772394444444445,
+    "p95Hours": 1.5470022222222222,
+    "worstHours": 1.7857922222222222
   },
   "decisionCoverage": {
-    "total": 46,
-    "decided": 46,
+    "total": 14,
+    "decided": 14,
     "complete": true
   },
   "pending": {
@@ -55,330 +55,140 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-08T03:58:12.070Z",
-      "got": 67,
-      "new": 46,
-      "lag": 0.06
+      "at": "2026-09-08T04:13:40.188Z",
+      "got": 36,
+      "new": 14,
+      "lag": 0.13
     }
   },
   "audit": {
-    "at": "2026-09-08T03:56:22.545Z",
+    "at": "2026-09-08T04:11:52.783Z",
     "mode": "live",
     "collection": {
-      "returned": 67,
-      "kept": 46,
-      "duplicate": 20,
+      "returned": 36,
+      "kept": 14,
+      "duplicate": 21,
       "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 29,
-      "rejected": 17,
+      "accepted": 8,
+      "rejected": 6,
       "reasons": {
-        "no_fbs_school": 7,
-        "no_offer_term": 9,
-        "non_fbs_offer_target": 1
+        "no_fbs_school": 3,
+        "hard_negative": 2,
+        "no_offer_term": 1
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2097161825561227382",
-          "author": "wiregrassdaily",
-          "searchJob": "alabama",
-          "text": "$5,000 Reward Offered in Search for Missing Wetumpka Man https://t.co/fLqPmPOwWc"
+          "postId": "2097174559539524067",
+          "author": "soonerscoop",
+          "searchJob": "oklahoma",
+          "text": "It’s the final hour of our 75% offer. We’re very close to passing The Wolverine to become the 4th largest site in the On3 network. I’m not saying they were involved in @Eddie_Rado’s video credential being denied. But they probably were. Let"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097163842061230404",
+          "author": "ryandyrudlafb",
+          "searchJob": "oklahoma",
+          "text": "What factual evidence? First off LR was the coach at Oklahoma when he recruited Nelson, so California wasn’t exactly his backyard. When he took the USC job, Nelson decommitted and followed him. Also, I’m super happy for Mensah and his story"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097161502578839689",
-          "author": "csayf23",
-          "searchJob": "michigan",
-          "text": "🚨OFFER ENDS AT 1 A.M. ET!🚨 The Wolverine + On3 + Rivals for less than 30 bucks for an entire year! Don't miss out: https://t.co/AzQKnG9ieT https://t.co/GLGXnF8i5T"
+          "postId": "2097153541228134472",
+          "author": "sir_arizona18",
+          "searchJob": "arizona",
+          "text": "@MattPinner_ People who offer little to nothing makes the loudest noise."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097149866241868127",
+          "author": "tuffpicks",
+          "searchJob": "arizona",
+          "text": "NFL WEEK 1 IS HERE. 🏈 I found 5 season-long player props I believe are still mispriced heading into the season. Full data-driven breakdown below 👇 https://t.co/4nXhX4bi2s"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097168306461683893",
+          "author": "chandrarsrikant",
+          "searchJob": "california",
+          "text": "🚨India's data centre boom gathers steam as US expansion faces resistance Across the US, more than 15 states have proposed curbs on data centre development over concerns about power demand, water use, and impacts on communities. New York ha"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097158066726674597",
-          "author": "thewolverineon3",
-          "searchJob": "michigan",
-          "text": "🚨OFFER ENDS IN TWO HOURS🚨 Get full access to The Wolverine, On3 and Rivals for just $2.49 a month for an entire year! Sign up before it's too late: https://t.co/VmO6IVAusE https://t.co/QYv5yZXowh"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097158956703781160",
-          "author": "spartytoon",
-          "searchJob": "michigan-state",
-          "text": "@AngelAlchemist1 Its rough watching people go through it too because a lot of the time there's nothing you can do. I always hate the \"reach out\" rhetoric when a lot of the time people will refuse any help, or balk at any offers for help tha"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097171653629555183",
-          "author": "ainsliecrypto",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/8MNjtt4foR"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097171156532973733",
-          "author": "darius_johnson2",
-          "searchJob": "arkansas-state",
-          "text": "Blessed to receive a game day invite from @AStateFB @MMrob75 @KoltonPrice1 @CoachLTeasley @CopiahFootball https://t.co/ODO3R8VJ9l"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097165557208436888",
-          "author": "ghalebkrame",
-          "searchJob": "arkansas-state",
-          "text": "A fluorescent poster, 24 hours, and a threat against the state. What does the narcomanta found in Acapulco really reveal? An analysis of territory, criminal power, intimidation, and the struggle over who gets to decide where authorities can"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097165288978420177",
-          "author": "nordexium",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/n2MrIcRalT"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097158615132242222",
-          "author": "islamic_values",
-          "searchJob": "arkansas-state",
-          "text": "Hell named as a destination, Mercy named in the same sitting. No tour. https://t.co/G2Wwy7BszS"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097148743758094565",
-          "author": "shynkookv",
-          "searchJob": "army",
-          "text": "Discussing the ins and outs of my illness because I feel like it sends me into a spiral and it makes people look up stuff online and then offer me a whole lot of unsolicited advice on how to handle something Ive been dealing for three years"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097161938325086636",
-          "author": "secondtimefarce",
-          "searchJob": "liberty",
-          "text": "https://t.co/w9rEGCTAEQ"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097147488142528839",
-          "author": "gardgoldsmith",
-          "searchJob": "liberty",
-          "text": "As it was after the expansion of FDIC \"insurance\" in the George HW Bush Admin spurred reckless home loans that soon collapsed, and as it was when Bush W pushed the fed to offer foolishly low rates beginning in Feb 2002, the avenue by which "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097123250811687160",
-          "author": "kobeissiletter",
-          "searchJob": "liberty",
-          "text": "US homebuyers are walking away from deals at the highest rate in years: 14.0% of home-purchase agreements that went under contract fell through in July, the highest rate since November 2023. The national cancellation rate has held between 1"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097170831382069667",
-          "author": "propgrades",
-          "searchJob": "louisiana",
-          "text": "some words on the company we just launched ahead of the 2026 NFL season https://t.co/8bSKcDjiQp"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097165621494522011",
-          "author": "allnonesports1",
-          "searchJob": "louisiana",
-          "text": "🔥OFFERED AT CAMP '27 G, Daniel Green @thedanielgreen_ has received an offer from Louisiana Christian University @NXTLevelSN @4YFilms @EHoopsSpotlight @AdrianMaloneyJr @bench424nmore @Uorangemen2 @CountdownCreate @PSGSportsMedia @HankampSco"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097153101174018256",
-          "author": "cajuncharm24",
-          "searchJob": "louisiana",
-          "text": "Someone offered them the Kool-Aid."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097150301295849501",
-          "author": "patrickbetdavid",
-          "searchJob": "louisiana",
-          "text": "This Gallup poll is inane: The poll shows how proud Republicans and Democrats are from 2001 to today. 2001: Republicans: 90% Democrats : 85% 2026: Republicans: 92% (+2) ⬆️ Democrats: 36% (-49) 👀 What happened to democrats the last 25 years"
+          "postId": "2097158523943899447",
+          "author": "footballbros23",
+          "searchJob": "california",
+          "text": "@ThebigScorp1 @alan3920 NO, YOU IDIOT. THE STATE OF CALIFORNIA ALLOWS IT. YOU DON’T NEED A DRIVERS LICENSE TO BUY A CAR. YOU CAN BE AN ILLEGAL IMMIGRANT WITH A PASSPORT TO BUY A VEHICLE. THEY EVEN OFFER INSURANCE SO YOU COULD DRIVE OFF THE "
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 29,
+      "rejected": 8,
       "reasons": {
-        "school_not_resolved_confidently": 1,
-        "bare_mention_requires_llm": 25,
-        "multiple_resolved_schools": 2,
-        "reporter_missing_class_year": 1
+        "school_not_resolved_confidently": 2,
+        "bare_mention_requires_llm": 4,
+        "multiple_resolved_schools": 2
       },
       "samples": [
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097168084331114620",
-          "author": "inglis_sales",
-          "searchJob": "alabama",
-          "text": "Well Written took her unbeaten record to seven wins in the G1 Proisir Plate at Ellerslie, defeating fellow Inglis graduates Alabama Lass and Media World. Racing in the silks of @YulongInvest, she was bought by Benji King's Foxhill Thoroughb"
+          "postId": "2097159367443271911",
+          "author": "alexgleitman",
+          "searchJob": "ohio-state",
+          "text": "LAST CALL…#Buckeyes fans have until midnight to get our 75% OFF offer for inside access to @LettermenRow https://t.co/WUq5GP7SyU https://t.co/JVWATgqBI9"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097162102142026222",
-          "author": "bamaburner02",
-          "searchJob": "alabama",
-          "text": "@louholtz69 I mean you can’t sleep with students and boosters wife’s and be drunk a 90% of the time and expect a job offer during the most pivotal point of Alabama football history"
+          "postId": "2097169663826292968",
+          "author": "pokesfandom",
+          "searchJob": "oklahoma",
+          "text": "Oklahoma State extends offers to pair of juniorcollege defensive linemen #okstate #oklahomastate #gopokes https://t.co/xJLJg9gnZk"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097160697742499944",
+          "author": "realfbllliason",
+          "searchJob": "oklahoma",
+          "text": "My point is, your original tweet was about evaluating talent. If Lincoln Riley was really that great at it, he would’ve offered Darian Mensah, who was right in USC’s backyard. I’m going by factual evidence"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097174620629545341",
+          "author": "htownpitttxst2",
+          "searchJob": "penn-state",
+          "text": "@Lionsburgh @pantherrants Penn State didnt offer him either 😭"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097157650110906448",
-          "author": "norcal_trojan",
-          "searchJob": "alabama",
-          "text": "@EAC700136531 @Adam_Bradford14 Stanford and the Pac-12 offered USC zero support in the fight against unjust NCAA football sanctions. Think the SEC would have allowed that to happen to Alabama."
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2097167710564008052",
-          "author": "exit99sports",
-          "searchJob": "illinois",
-          "text": "@jacksonindians star guard pick up an offer from Northern Illinois out of the MAC⤵️"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097168425625825504",
-          "author": "sundesmos",
-          "searchJob": "michigan",
-          "text": "Michigan Attorney General Dana Nessel suggested in a private speech to Jewish Democrats on Aug. 30, 2026, that they should sacrifice their own safety and comfort in exchange for what she described as \"the opportunity to save the rest of hum"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097150812614959398",
-          "author": "costreporthero",
-          "searchJob": "michigan",
-          "text": "I’m a rural hospital CFO. I’ll take the other side of this starting with the premise. Michigan taxpayers didn’t finance a hospital system. The state appropriation to U-M’s Ann Arbor campus is about $365M against a $3.1B academic general fun"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097150622009118872",
-          "author": "zhuber89",
-          "searchJob": "minnesota",
-          "text": "@HockeyGuruOfX Anything for you guys to cope with the idea of him “coming home” to Jersey eh. Keep dreaming Minnesota has way more to offer than Jersey. NYC is probably the most overrated area in the entire country."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097171293195882831",
-          "author": "byumbbrecruit",
-          "searchJob": "byu",
-          "text": "🚨BYU has reached out to and OFFERED class of 2029, Utah native Kiir Nang (PF). #BYUHOOPS https://t.co/MG4s1MTao2"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097158519342670131",
-          "author": "newcarlton",
-          "searchJob": "air-force",
-          "text": "As you will see, if you read this entire thread, it took me some doing to finally get Grok to analyze a video that was difficult for me to hear. Here are the main points. By Grok: \"The lecture, delivered in Arabic by the man in the white sh"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097166129613435268",
-          "author": "thereporters01",
-          "searchJob": "arkansas-state",
-          "text": "Iran's renewed use of the Strait of Hormuz as a tool for international pressure and a means of blackmailing its neighbors and the wider world will ultimately work against it. What Tehran regards as leverage could, over time, become a strate"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097165513914982862",
-          "author": "daniell25831566",
-          "searchJob": "arkansas-state",
-          "text": "@MayorBillWells Property taxes are far worse than the insurance bill unless they live in a state that offers relief to low income seniors."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097162693153333573",
-          "author": "mkusagr8agin",
-          "searchJob": "arkansas-state",
-          "text": "@EugenieGrander @VividProwess They were squatters and probably should go back to Jordan. They spent years turning down a state when offered."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097151228941615576",
-          "author": "geraldroe6",
-          "searchJob": "arkansas-state",
-          "text": "The \"wholly\" FBI pipe bomb version is phony. Like Epstein's final moments, surveillance cameras work on cue, or not. Steve Baker @SteveBakerUSA · 9h EXCLUSIVE: The untold story of the FBI’s J6 pipe bomber “Person of Interest #2” If what the"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097166954562048287",
-          "author": "zahidsarfrazp",
-          "searchJob": "army",
-          "text": "We live in our homes in front of the eyes of our parents and siblings all the time, but this of the Pak Army This young man left his precious relationship, parents, siblings, wife and children to his homeland Pakistan They offer their lives"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097161642127880423",
-          "author": "vipultripathi87",
-          "searchJob": "army",
-          "text": "@buddhawi10 @awasthi_pr38271 Pakistanis take immense pride in being able to think with their penises instead of their brains, so they fuck their cousins and their economy with the same passion, and offer their mother, sisters and wives to t"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097158763383824454",
-          "author": "sohailmkhattak",
-          "searchJob": "army",
-          "text": "Adil Raja sharing exclusive information about the latest deal offered to Imran Khan that Imran Khan has rejected. I think the Army institution must arrest all its officers starting with Asim Munir who violated oath/constitution to get its c"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097151030609731932",
-          "author": "quiseyyp",
-          "searchJob": "army",
-          "text": "Watch this like I said idk what it’ll be but wtv it is im surpassing whatever the army can offer im not competing with some sick nigga I wanna surpass a bitch husband"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097150744164274228",
-          "author": "surfer_bradlee",
-          "searchJob": "army",
-          "text": "@bofrench The islamic god is actually the devil, he came and offered the pedophile rapist false prophet Muhammad sinful earthly desires in order to get him to wipe out Christianity and jewish faith. He was tasked to raise an army, he was a "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097164203585163499",
-          "author": "jamesamitc4656",
-          "searchJob": "liberty",
-          "text": "@lsferguson I voted for him twice and still what if I went back in time better than what the Democrats offered Even though disappointing . It’s better than losing your gun rights, having your money stolen and losing our liberty, that’s all "
+          "postId": "2097174623565586685",
+          "author": "ontop1046759976",
+          "searchJob": "california",
+          "text": "AMERICA HAS THE OIL. SO WHY IS GASOLINE STILL SO EXPENSIVE? BY DARRELL PITTS SIMPLE ANSWER: DEMOCRATS. Americans looking at four-dollar gasoline are being handed an easy explanation BY DEMOCRATS: Donald Trump is president, therefore these a"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097160091149402371",
-          "author": "filmaker02",
-          "searchJob": "liberty",
-          "text": "I so deeply agree that I am sharing the ENTIRE article here. READ AND SHARE by: KrisAnne Hall, JD There is a faulty premise at the center of the debate over eliminating homestead property taxes: “If we eliminate property taxes on people’s h"
+          "postId": "2097170703443206450",
+          "author": "oghoreishi",
+          "searchJob": "navy",
+          "text": "Canada and China have reopened military talks after a seven-year freeze that began when relations collapsed over the Meng Wanzhou case and Beijing’s detention of Michael Kovrig and Michael Spavor. China’s defence ministry said the fifth Chi"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097154446384144857",
-          "author": "sweetcaligurl07",
-          "searchJob": "liberty",
-          "text": "Coldplay Viva La Vida (Live Life) on their fourth album Viva la Vida or Death and All His Friends done in 2008. Did you know its a common phrase to salute royalty? The song Viva La Vida was a mirror to the final speech and thoughts of King "
+          "postId": "2097155378136142270",
+          "author": "sportspsd",
+          "searchJob": "nevada",
+          "text": "@Biglebeauskii @khansen406 My honest guess is it is neither. Nevada offered, Montana said their price was too high and their schedule too crowded. Nevada thinks you were ducking a game. Montana has plausible deniability. My argument is that"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097153700263563461",
-          "author": "hnzi_malik1",
-          "searchJob": "liberty",
-          "text": "🦣Tranquility emerges in soft, unhurried instances. Cruising down the highway offers the liberty of endless forward motion. As the ever-changing landscape slips past on either side, it evokes a profound sense of unbridled liberation and car"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097152377459773912",
-          "author": "pressburgerpowe",
-          "searchJob": "liberty",
-          "text": "@William_Kofi @UsaReport07 No, the biggest problem is John Locke’s “life, liberty, and property” tweaked a bit to “happiness” to fool the herd. There was never and is still now no intention to offer democracy; just a trick. Simply divide an"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097151511998738783",
-          "author": "rajshekharmeht2",
-          "searchJob": "liberty",
-          "text": "His sinister confidence, glib arrogance and penchant for propagating abhorrent, obnoxious ideas get under the skin. His hidden agenda is to destroy New York, force capital to flee, make the city broke and dysfunctional, defund the police, p"
+          "postId": "2097154501799194635",
+          "author": "kooleconomics",
+          "searchJob": "nevada",
+          "text": "@KentHaslam So you said 27 wouldn't work (which was the season he inquired about) and then stuck your hand out for $650K. I am shocked shocked, that Nevada didn't instantly take your offer."
         }
       ]
     },
@@ -386,18 +196,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
+      "swept": 25,
+      "failed": 1,
       "requests": 26,
-      "errors": []
+      "errors": [
+        "nebraska: SearchTimeline JSON unreadable (slice left pending)"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 29,
+      "rejectedCandidates": 8,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-08T03:58:12.375Z"
+    "status rebuilt locally from current store on 2026-09-08T04:13:40.444Z"
   ]
 }
