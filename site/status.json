@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T08:28:30.345Z",
+  "generatedAt": "2026-09-08T08:43:29.592Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-08T08:28:30.023Z",
+    "at": "2026-09-08T08:43:29.383Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5350636111111111,
-    "p95Hours": 1.2829327777777777,
-    "worstHours": 1.5164411111111111
+    "medianHours": 0.7848544444444444,
+    "p95Hours": 1.2849166666666667,
+    "worstHours": 1.532723611111111
   },
   "decisionCoverage": {
-    "total": 18,
-    "decided": 18,
+    "total": 11,
+    "decided": 11,
     "complete": true
   },
   "pending": {
@@ -55,166 +55,117 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-08T08:28:30.023Z",
-      "got": 22,
-      "new": 18,
-      "lag": 0.05
+      "at": "2026-09-08T08:43:29.382Z",
+      "got": 12,
+      "new": 11,
+      "lag": 0.13
     }
   },
   "audit": {
-    "at": "2026-09-08T08:26:40.936Z",
+    "at": "2026-09-08T08:41:43.130Z",
     "mode": "live",
     "collection": {
-      "returned": 22,
-      "kept": 18,
-      "duplicate": 4,
+      "returned": 12,
+      "kept": 11,
+      "duplicate": 1,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 14,
-      "rejected": 4,
+      "accepted": 8,
+      "rejected": 3,
       "reasons": {
-        "no_offer_term": 4
+        "no_offer_term": 2,
+        "no_fbs_school": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2097227773022556617",
-          "author": "scaling_shields",
-          "searchJob": "wake-forest",
-          "text": "https://t.co/mb1iVUA7vG"
+          "postId": "2097232708887785593",
+          "author": "rospigge60559",
+          "searchJob": "washington",
+          "text": "https://t.co/R4KHF5Dk1o"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097220604881481888",
-          "author": "chasesterly1c5",
-          "searchJob": "wake-forest",
-          "text": "Tired of high transfer fees and blocked payments? 💸❌ Discover how the Rizon Visa Card gives you true financial freedom. 🎁 Use promo code NZWGU to get your Virtual Visa Card for ONLY $2.50 USD! Read the full article below 👇 https://t.co/r"
+          "postId": "2097226763583541721",
+          "author": "sahbymehalla",
+          "searchJob": "washington",
+          "text": "The US is seeking to revive trilateral Russia-Ukraine peace talks after meetings in Moscow and Kyiv, as Washington pushes for a diplomatic breakthrough before winter. https://t.co/J2gTHD1IB9"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2097219325153169732",
-          "author": "mahdii365_",
-          "searchJob": "wake-forest",
-          "text": "https://t.co/j6LrX7bxDw"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097143384905314515",
-          "author": "sleekey",
-          "searchJob": "wake-forest",
-          "text": "Wizkid no suppose stress for his upcoming tour with this buzz tbh. Do like 10 intimate shows in and 4 stadiums in America,Do stadium in London and 5 arenas in Europe and round it up with 5 arenas across Asia and Australia. Then round it up "
+          "reason": "no_fbs_school",
+          "postId": "2097230303278293294",
+          "author": "joseph79icon",
+          "searchJob": "oregon-state",
+          "text": "Honda vezel (rs) Price: 2.7M Deposit: 1.3M We offer: ☄️hire purchase ☄️bank finance ☄️trade in ☄️cash deal ☄️sacco finance Whatsap/call: 0114510442 Mombasa kenya https://t.co/y0Xv2MVrny"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 14,
+      "rejected": 8,
       "reasons": {
-        "school_not_resolved_confidently": 11,
-        "bare_mention_requires_llm": 2,
-        "multiple_resolved_schools": 1
+        "multiple_resolved_schools": 1,
+        "bare_mention_requires_llm": 7
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097239875774791969",
-          "author": "mrdimasta420",
-          "searchJob": "buffalo",
-          "text": "She's sitting on a wooden bench in a community garden, hands pressed against her mouth, eyes locked on something walking toward her across the gravel. She is, by every visible sign in this frame, afraid. And the thing she's afraid of is a d"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097228002220179763",
-          "author": "srskip8",
-          "searchJob": "buffalo",
-          "text": "The American Bison: Facts About North America's Living Monument The American bison (Bison bison) is the largest land mammal in North America and one of the continent's most consequential wildlife species, both ecologically and historically."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097215234687598968",
-          "author": "hope_indecay",
-          "searchJob": "buffalo",
-          "text": "husband unironically told me to take my Dior x Hajime Sorayama 2019 B23s to Buffalo Exchange and see what they’d offer me for them https://t.co/67iSm0IIKj"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097224997680873676",
-          "author": "dr_statesman",
-          "searchJob": "coastal-carolina",
-          "text": "Innovation Versus Opposition: When Criticism Replaces Ideas The logic of the opposition is skewed. They lack ideas and innovations. Instead of campaigning with alternative policies, they attack every major initiative of the president @offic"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097224222602912106",
-          "author": "michaelabiodun_",
-          "searchJob": "coastal-carolina",
-          "text": "I will argue sir @FinPlanKaluAja1, because numbers don't lie. SpaceX as of December 2024 did a tender offer at $350 billion valuation. In 2025 it crossed $400 billion. It did $13 billion revenue last year from Falcon launches, NASA contract"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097233648751616240",
-          "author": "leomessifanzone",
-          "searchJob": "miami",
-          "text": "🚨LEO MESSI REALLY REJECTED $1.4 BILLION OFFER FROM SAUDI, FOR HIS FAMILY! 💰😳 Former Al-Ittihad president Anmar Al Haili once revealed his attempt to sign Lionel Messi in 2023, before Messi joined MLS club Inter Miami! 🇸🇦🗣️Anmar said: "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097229759826538832",
-          "author": "soccer_laduma",
-          "searchJob": "miami",
-          "text": "➡️ Berhalter Gives Mbokazi Update Ahead Of Inter Miami Clash Chicago Fire boss Gregg Berhalter has offered an update on South African defender Mbekezeli Mbokazi — currently sidelined with injury — ahead of the side's clash against Lionel Me"
-        },
-        {
           "reason": "multiple_resolved_schools",
-          "postId": "2097239442834509987",
-          "author": "mikeysurf",
-          "searchJob": "smu",
-          "text": "@YahooSports FSU/Clemson offered a no vote for SMU. Clemson is a founding member. I give them some leeway. But not FSU."
+          "postId": "2097240001121812634",
+          "author": "whenithappenedx",
+          "searchJob": "maryland",
+          "text": "Harriet Tubman could fall asleep without warning. Not because she was tired. A head injury she suffered as an enslaved teenager left her with severe headaches and sudden, uncontrollable sleep attacks for the rest of her life. She could be s"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097236173588398293",
-          "author": "liberaddiction",
-          "searchJob": "wake-forest",
-          "text": "Dear Liberactor, Every morning when you wake and every night before you go to bed, pray this prayer earnestly: Dear God, I confess that I acknowledge my helplessness and I accept the help that you will offer me. Please, take my hand and lea"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097241913216614565",
+          "author": "fl360aero",
+          "searchJob": "washington",
+          "text": "U.S. President Donald Trump has threatened to block from selling aircraft in the United States unless the Montreal-based manufacturer starts producing in the U.S. In a Truth Social post, Trump said: “NO MORE SELLING BOMBARDIER IN THE UNITED"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097231788355535074",
-          "author": "dormantjuno",
-          "searchJob": "wake-forest",
-          "text": "I wake up, see no COMISSIONS request in my vgen, I offer myself up to whichever god can make my death the most artistic so I can repay this moral flaw/j On a serious note, I'm desperate and on the ground begging, wriggling like a worm"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097242480026521925",
+          "author": "ebeeekinteh7",
+          "searchJob": "rice",
+          "text": "You will think Gambians are pain enough and change is imminent until few days to election with a stable electricity and night before election when Barrow and his cabal get to them and offers D1500 which can't even get them a bag of rice, th"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097228719500742944",
-          "author": "toyinomotoso",
-          "searchJob": "wake-forest",
-          "text": "In 2023, I wrote 30 letters based on practical lessons I would have loved to teach my younger self about making money, keeping it, and investing it. These are not 30 motivational essays filled with: “Believe in yourself.” “Never give up.” “"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097241026511446446",
+          "author": "cgtnofficial",
+          "searchJob": "rice",
+          "text": "Deyao Township sits west of Gulin County, southwest China's Sichuan Province, a key junction on the Sichuan-Guizhou-Chongqing tourism \"Golden Triangle\" route. The terraced fields here are the living art carved into the mountainsides. They r"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097227284856119637",
-          "author": "runningbear818",
-          "searchJob": "wake-forest",
-          "text": "Bruv have you not worked out everything mainstream media is bullshit to convince the humans to hate each other so we kill each other. Country's, flags, religion matters not to these reptilian parasitic pedos. Its all about trafficking kids "
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097236297848861167",
+          "author": "cioaracrow77493",
+          "searchJob": "rice",
+          "text": "@tikshoodzaria1 @mog_russEN What food does Africa offer, boss, that stands in line at the UN-sponsored rice trucks 😂😂😂"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097223439941763272",
-          "author": "philstarnews",
-          "searchJob": "wake-forest",
-          "text": "POPE LEO XIV’S LETTER TO CARDINAL TAGLE SEEN AT FATHER’S WAKE A letter from Pope Leo XIV expressing condolences to Cardinal Luis Antonio Tagle over the death of his father, Manuel Tagle Sr., was seen at the wake in Imus City. In the letter,"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097236207000342865",
+          "author": "jpaulomax",
+          "searchJob": "rice",
+          "text": "Chelsea fans cried that Enzo Fernández was defensively weak, couldn't cover enough ground and was a liability to the team. But against Arsenal, we saw Lavia and Reece James trotting back without enough urgency to track Declan Rice on severa"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097217889992368201",
-          "author": "planetemmydisco",
-          "searchJob": "wake-forest",
-          "text": "Is good to dream but when the dream begins to offer you obnoxious realities please wake up fast, because if you don't is likely you no dey among we humans again 😭😂🤣"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097233126321799565",
+          "author": "_beaufowler",
+          "searchJob": "rice",
+          "text": "The horchata offered a delightful sweetness that cooled the palate, crafted from rice, cinnamon, and a hint of vanilla—an ideal balance to the heat of the meal. https://t.co/KTX0Zyrg41"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097221479368704394",
+          "author": "msimangomvelo",
+          "searchJob": "rice",
+          "text": "@SportsUncensrd @piersmorgan @Sjopinion10 As a fan of Rice Souness is right he’s limited as a player n he’s more as a Centre Defender than CM watch the game against Chelsea…I feel he can offer more if he won’t playing for Gunners…"
         }
       ]
     },
@@ -229,11 +180,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 14,
+      "rejectedCandidates": 8,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-08T08:28:30.349Z"
+    "status rebuilt locally from current store on 2026-09-08T08:43:29.596Z"
   ]
 }
