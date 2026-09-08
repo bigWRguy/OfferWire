@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T13:59:00.622Z",
+  "generatedAt": "2026-09-08T14:14:46.411Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-08T13:59:00.407Z",
+    "at": "2026-09-08T14:14:46.161Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7878041666666666,
-    "p95Hours": 1.7838013888888888,
-    "worstHours": 1.7838013888888888
+    "medianHours": 0.8053730555555556,
+    "p95Hours": 1.5527480555555555,
+    "worstHours": 1.5527480555555555
   },
   "decisionCoverage": {
-    "total": 23,
-    "decided": 23,
+    "total": 28,
+    "decided": 28,
     "complete": true
   },
   "pending": {
@@ -49,209 +49,230 @@
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 883,
+    "completeOffers": 885,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-08T13:59:00.406Z",
-      "got": 42,
-      "new": 23,
-      "lag": 0.19
+      "at": "2026-09-08T14:14:46.161Z",
+      "got": 43,
+      "new": 28,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-08T13:57:17.760Z",
+    "at": "2026-09-08T14:12:59.417Z",
     "mode": "live",
     "collection": {
-      "returned": 42,
-      "kept": 23,
-      "duplicate": 18,
-      "tooOld": 1,
+      "returned": 43,
+      "kept": 28,
+      "duplicate": 15,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 12,
-      "rejected": 11,
+      "accepted": 20,
+      "rejected": 8,
       "reasons": {
-        "no_fbs_school": 7,
-        "no_offer_term": 3,
-        "hard_negative": 1
+        "no_fbs_school": 4,
+        "hard_negative": 3,
+        "no_offer_term": 1
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2097309571744219466",
-          "author": "wendelltalks",
-          "searchJob": "massachusetts",
-          "text": "In 1651 Baptist preacher Obadiah Holmes was tied to the whipping post in Boston and given 30 lashes. His crime was preaching and worshiping outside the established Puritan church. Holmes had been arrested while visiting fellow Baptists in M"
+          "postId": "2097317415147147397",
+          "author": "examinersport",
+          "searchJob": "notre-dame",
+          "text": "Alexis Mac Allister ‘very sad’ not to be offered new Liverpool deal https://t.co/4bGCrI2vb6"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097306358672412695",
-          "author": "cakested",
-          "searchJob": "massachusetts",
-          "text": "However if I was prosecuting this case and had to supply a believable motive , I would be compelled to pursue the idea that Patrick was having an affair with another woman and was going to potentially leave her so Lindsay freaked out killed"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097296790295023819",
-          "author": "hotbets365",
-          "searchJob": "navy",
-          "text": "https://t.co/uroLxfFSVu"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097295231783776614",
-          "author": "thebellosox",
-          "searchJob": "navy",
-          "text": "@tonygig @JackLautaret .309/.380/.498 in the 60 games before then I wouldn’t worry about a short stretch where multiple guys have been gassed. Durbin played incredibly hard through the summer, and offers elite 3B defense to boot. That’s not"
+          "postId": "2097315051875025189",
+          "author": "legiontrends",
+          "searchJob": "uconn",
+          "text": "CARLINA WHITE — THE WOMAN WHO DISCOVERED SHE HAD BEEN ABDUCTED Carlina Renae White was born on 15 July 1987. Nineteen days later, on 4 August 1987, her parents, Joy White and Carl Tyson, took her to Harlem Hospital in New York because she h"
         },
         {
           "reason": "hard_negative",
-          "postId": "2097311462376996885",
-          "author": "chicagosports",
-          "searchJob": "illinois",
-          "text": "King’s Herman Yancey steps in for injured star Jamar Lewis, who has offers from Illinois and Northwestern https://t.co/SuLnNPKkCs"
+          "postId": "2097322669238882322",
+          "author": "co2inhaling",
+          "searchJob": "new-mexico",
+          "text": "@dowfornm Trump doesn't help. He commits so many unforced errors. I guess 7D chess is the best he offers. New Mexico has a ton of potential. Let's hope GOP candidates can stay above the chase and offer a winning message."
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097326728955785255",
+          "author": "brendenmilstead",
+          "searchJob": "alabama",
+          "text": "Clemson doesn’t lack talent, they lack development. Over half this roster had offers from the biggest programs in the country. These were Alabama, Georgia, Ohio State, LSU, Texas etc. recruits. You can’t keep blaming the talent when the tal"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097315771915419779",
+          "author": "alreporter",
+          "searchJob": "alabama",
+          "text": "More than 140 personnel are working at Redstone as officials offer relocation incentives and plan a permanent command facility. #alpolitics https://t.co/hrltwWH6ni"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097278840502407417",
+          "author": "azhirwaddell",
+          "searchJob": "penn-state",
+          "text": "The Pennsylvania State University Re-Offered 🤍💙! https://t.co/gYABTkdES4"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097318564222877805",
+          "author": "b1obey0nd",
+          "searchJob": "penn-state",
+          "text": "Good to Great man. They had a stranglehold on money in the sport, and didn't plan ahead. Their arrogance doomed them, like so many others. Perfect example: Penn State now had offers from Adidas. Nike refused to budge. \"We're Nike. What we o"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097320144988971087",
-          "author": "amacforamerica",
-          "searchJob": "iowa",
-          "text": "https://t.co/2v9t65P87H"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097307997995245855",
-          "author": "ames_eye",
-          "searchJob": "iowa",
-          "text": "Daily contacts offer a clean, sterile lens every day, reducing the risk of irritation and infection. Your eyes deserve the best! Call 515-232-3451 or request an appointment online at https://t.co/RObz97maAM 📍 We're easy to find at 201 10th"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097309632586743946",
-          "author": "daucher_h83355",
-          "searchJob": "michigan",
-          "text": "@rustypeter @FinalBattle24 Why am I subsidize immigrant housing? The Michigan Newcomer Rental Subsidy Program was budgeted with $4 million from the Michigan State Housing Development Authority for two years to subsidize housing for eligible"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097306791352656088",
-          "author": "thepines_apts",
-          "searchJob": "michigan",
-          "text": "When dinner means seafood, steak, and the 1886 Michigan Central Depot, Gandy Dancer fits the mood. The Ann Arbor landmark also offers romantic dinners and private dining. https://t.co/BDARJHP10P https://t.co/l7CdDXl6pu"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097300144656162911",
-          "author": "owengregorian",
-          "searchJob": "michigan",
-          "text": "Harvard Law offers students fidget toys, ‘low sensory rooms’ | Matt Lamb, The College Fix OPINION: Safe spaces and coloring rooms are still with us As that nation’s future Supreme Court justices, solicitors general, and elite law firm attor"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097306089771421881",
-          "author": "deplorablerhody",
-          "searchJob": "minnesota",
-          "text": "@KimmidiFarms They also offer steal as much as you want in Minnesota. Why else would someone from a warm African climate want to live there?"
+          "postId": "2097319553214681543",
+          "author": "believejournal_",
+          "searchJob": "california",
+          "text": "https://t.co/XOJ17UYTmv"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 12,
+      "accepted": 2,
+      "rejected": 18,
       "reasons": {
-        "bare_mention_requires_llm": 8,
-        "multiple_resolved_schools": 3,
-        "school_not_resolved_confidently": 1
+        "bare_mention_requires_llm": 10,
+        "school_not_resolved_confidently": 5,
+        "multiple_resolved_schools": 3
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097307285978542479",
-          "author": "lmtcre",
-          "searchJob": "delaware",
-          "text": "📍 𝗥𝗲𝘁𝗮𝗶𝗹 𝗢𝗽𝗽𝗼𝗿𝘁𝘂𝗻𝗶𝘁𝘆 𝗶𝗻 𝘁𝗵𝗲 𝗛𝗲𝗮𝗿𝘁 𝗼𝗳 𝗧𝗿𝗼𝗹𝗹𝗲𝘆 𝗦𝗾𝘂𝗮𝗿𝗲! 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗡𝗼𝘄 𝗨𝗻𝗶𝘁 𝟮𝟯𝗔 📍 This 1,000 +/- SF first-floor retail space offers an opportunity to establish a business in Wilming"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097320908016734552",
-          "author": "indyscotnews",
-          "searchJob": "marshall",
-          "text": "When Private Ryan is shamed by quiet heroes in the Syrian Arab Army https://t.co/R2zeERqYcv Om Al Fouz outside her home in Taldara with ISIS fighters less than 1km away. © Vanessa Beeley I wanted to republish this article that I wrote in 20"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097313387076092200",
-          "author": "whilewerwaiting",
-          "searchJob": "memphis",
-          "text": "** WHILE WE'RE WAITING WEEKEND FOR BEREAVED PARENTS IN THE MEMPHIS AREA - SPOTS AVAILABLE ** We have a few spots available for single parents or married couples at our While We're Waiting Weekend for Bereaved Parents scheduled for October 2"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097317936880918902",
-          "author": "navalhistorian",
-          "searchJob": "navy",
-          "text": "Interesting little summary of @BabcockPLC's current vision for the @RoyalNavy's \"hybrid navy\" concept (&amp; offered to Denmark, New Zealand &amp; Chile), centred around the Type 31 frigate as the CCV, &amp; an enlarged @WeAreHII Romulus 15"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097314725788885171",
-          "author": "pagantek",
-          "searchJob": "navy",
-          "text": "I got honorably discharged from the Navy because of mine. Wartime Navy in the Persian Gulf. I thrived! Always on watch, fixing something, going into battle. But once out of wartime, I lost my shit because I got gigged over an orange peel on"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097312880320254308",
-          "author": "defpostmedia",
-          "searchJob": "navy",
-          "text": "🇪🇸 MBDA has signed a framework agreement for the supply of three SIMBAD RC anti-missile systems to the Spanish Navy. @MBDAGroup @Armada_esp The systems will be integrated into active naval units as part of the Ministry of Defense and Navy"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097301677636215005",
-          "author": "mikehoffmann",
-          "searchJob": "navy",
-          "text": "People aren't responding to you bc there is too much friction. You need to learn how to engineer the easy yes. Let me explain 👇 15 years ago, I was selling performance software to the hardest buyers on earth — NFL teams, Navy SEAL units, g"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097306419091382505",
-          "author": "hirescorejobs",
-          "searchJob": "michigan",
-          "text": "NOW HIRING | The Upper Peninsula Power Company seeks a Vice President of Information Technology. This position is based at UPPCO’s corporate office in Marquette, Michigan, and offers a hybrid work option for those within a reasonable drivin"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097299044099932267",
-          "author": "mackinaccenter",
-          "searchJob": "michigan",
-          "text": "Michigan lawmakers should take note: Maryland’s first-in-the-nation digital advertising tax was struck down in court. Michigan has considered a similar tax. Maryland’s experience offers a warning about the costly legal battle that could fol"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097319362373845188",
-          "author": "nicowizzyikenna",
-          "searchJob": "minnesota",
-          "text": "JUST IN: #Avellino offered James Rodriguez a one-year contract which includes an option to extend for another 12 months if the club secure promotion to the Serie A. The Colombian attacking midfielder will make a decision soon. James is a fr"
+          "postId": "2097325746389659729",
+          "author": "canalesexiliao",
+          "searchJob": "notre-dame",
+          "text": "@aidand472 Irish folks, tell Ryanair to offer cheaper flights to Seville, watching Troy score while I'm on tour is costing me a fortune, hahaha."
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097312386243821835",
-          "author": "liberta_massimo",
-          "searchJob": "minnesota",
-          "text": "OK Trump sucks. But he becomes effectively a lame duck after Nov. What are the Democrats offering for 2028? It’s just catering to (or outright ignoring) the DSA base and hating Trump. When Trump leaves, what’s left? What will the bringing C"
+          "postId": "2097318586888949956",
+          "author": "halfbased11",
+          "searchJob": "notre-dame",
+          "text": "Nice that's bad ass. I have some Anglo and German in me as well. I'm a European mutt lbs. My English side goes back to the Mayflower and my paternal grandpa was Irish and German yet he married a full blood Italian lol - the stories I've hea"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097308741158760748",
+          "author": "westbrom7777",
+          "searchJob": "notre-dame",
+          "text": "Been asked for some horse racing offers! Heres the first decent one! Bet £10 Get £40 in free bets + MONEY BACK AS A FREE BET IF 2ND TO SP FAVOURITE (IRISH CHAMPIONS FESTIVAL) https://t.co/C2Zmj9rj8R #Ad |18+ |New Customer Offer| T&C’s Apply"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097306940170756587",
+          "author": "adrianoriagain",
+          "searchJob": "notre-dame",
+          "text": "@SophieMcDLaw The UAE does not offer true permanent residency. It hasn’t stopped thousands of Irish going there. It’s a very difficult process to get PR in Australia and it hasn’t stopped hundreds of thousands over the years going there."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097305372042158431",
+          "author": "coreywriting",
+          "searchJob": "notre-dame",
+          "text": "I've become more and more blackpilled on immigration as a concept in general. Contrary to popular belief, immigrants do not seamlessly integrate into the US. They import their cultural attitudes and behaviors into the country and transform "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097305561901539705",
-          "author": "givingreview",
-          "searchJob": "minnesota",
-          "text": "https://t.co/kKKlHca0Jj In 1st part of 2-part conversation, @NotreDame’s @PatrickDeneen talks to @GivingReview’s @mhartmannmke about his new book American Odyssey, the innate American tension between rootedness and restlessness, perfectibil"
+          "postId": "2097326489146462471",
+          "author": "silenceronkick",
+          "searchJob": "uconn",
+          "text": "I just watched a yt video saying UConn got offered a full football only invite to the pac 12 ?? #UConn But declined (I agree with)"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097317193788653757",
+          "author": "legiontrends",
+          "searchJob": "air-force",
+          "text": "EL MENCHO — THE CARTEL LEADER WHOSE DEATH TRIGGERED MASS RETALIATION Nemesio Oseguera Cervantes, known as El Mencho, led the Jalisco New Generation Cartel, a criminal organization that became one of Mexico’s most violent and a major traffic"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097310592734232651",
+          "author": "nigeriawillbok",
+          "searchJob": "air-force",
+          "text": "🚨 BREAKING: Peter Obi’s Convoy Blocked in Benue NDC presidential candidate, Peter Obi, has reportedly been prevented from gaining access into parts of Makurdi, Benue State, during a condolence visit. According to reports, suspected thugs b"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097309774740066336",
+          "author": "trumpet1941",
+          "searchJob": "air-force",
+          "text": "Tall Whites, Eisenhower, and Area 51 The story that “Tall Whites” lived at Area 51 and that President Dwight D. Eisenhower secretly met Nordic aliens in 1954 is UFO legend rather than documented history. Area 51, associated with Groom Lake,"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097317844467790144",
+          "author": "countypolk",
+          "searchJob": "alabama",
+          "text": "@JCherry50149 @crob45 @AlabamaFTBL @CoachAlexMathis @Coachsmothers16 @TheHardeeHuddle @HardeeMade @On3 @ChadSimmons_ @Andy_Villamarzo Great offer my man"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097314183318536252",
+          "author": "mayorloriblong",
+          "searchJob": "missouri",
+          "text": "Midland - Three (or more!) things to know - TAI CHI GUNG 1. \"In a world that moves too fast, rediscover the rhythm between motion and breath. Our transformative tai chi gung experience offers a sanctuary where ancient wisdom meets modern we"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097316755010109517",
+          "author": "yodadeesfav",
+          "searchJob": "oklahoma",
+          "text": "@atrupar Wow this was the best Oklahoma could offer? Amazing"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097319726091256073",
+          "author": "tyler_calvaruso",
+          "searchJob": "penn-state",
+          "text": "Penn State offered 2028 Olney (Md.) Good Counsel offensive lineman Josiah Eney on Sunday and he has already locked in a visit with the Nittany Lions. When will Eney be on campus? More on his visit plans and why Penn State is standing out (V"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097316810710286364",
+          "author": "coachnatemcpeek",
+          "searchJob": "purdue",
+          "text": "2029 EDGE with offers from Louisville and Purdue already and getting better daily. Keep working @kadinwill8 @FDouglassFB @CoachJohnHauser @Butler_Benton @CoachCJohnson43 @CoachGrant_12 @LoganM_CFB @KoryAllen @MasonBehiel @RussKieselhorst @T"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097323561933300059",
+          "author": "thexrefugee",
+          "searchJob": "arizona",
+          "text": "@JoeTipton @Rivals @W_howrd @SunDevilHoops @DevilsDigest @PRO16League @NxtProHoops @Euro_E_Row @CoachDPatrick Coach Bennett is quickly turning Arizona State into the dominant basketball team in the state. Pretty soon the only thing Tucson w"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097327113414004757",
+          "author": "destcoupons",
+          "searchJob": "california",
+          "text": "All aboard the #RiverFox #Train #Sacramento for an unforgettable ride through the stunning #California countryside! Whether you're sipping wine or enjoying a family adventure, every mile offers scenic views, laughter, and charm. Get discoun"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097316206604648704",
+          "author": "eagleeyes202024",
+          "searchJob": "california",
+          "text": "🌍 The Chakras of the Earth Living Vortexes of Planetary Energy, Sacred Mirrors of the Soul Just as your body has chakras—centers of energy that govern aspects of your spirit, mind, and physical health—so too does Mother Earth. These Earth "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097310912424153193",
+          "author": "norcalifpatriot",
+          "searchJob": "california",
+          "text": "It is simple they want to discourage gun ownership by otherwise lay abiding individuals. For example, IIRC CADOJ has given no opinion and there is no court precedent on whether or not California compliant grips are actually compliant. Some "
         }
       ]
     },
@@ -265,12 +286,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 12,
-      "brandNewOffers": 0
+      "acceptedEvidence": 2,
+      "rejectedCandidates": 18,
+      "brandNewOffers": 2
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-08T13:59:00.625Z"
+    "status rebuilt locally from current store on 2026-09-08T14:14:46.414Z"
   ]
 }
