@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T13:13:43.411Z",
+  "generatedAt": "2026-09-08T13:28:24.726Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-08T13:13:43.102Z",
+    "at": "2026-09-08T13:28:24.352Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
+    "sweptThisRun": 25,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0290205555555556,
-    "p95Hours": 1.7875747222222222,
-    "worstHours": 2.0329716666666666
+    "medianHours": 0.7800577777777777,
+    "p95Hours": 1.7989927777777779,
+    "worstHours": 2.0323844444444443
   },
   "decisionCoverage": {
-    "total": 51,
-    "decided": 51,
+    "total": 73,
+    "decided": 73,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 41
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 2,
   "quality": {
     "completeOffers": 883,
     "incompleteOffers": 0
@@ -55,378 +55,343 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-08T13:13:43.101Z",
-      "got": 75,
-      "new": 51,
-      "lag": 0.04
+      "at": "2026-09-08T13:28:24.351Z",
+      "got": 103,
+      "new": 73,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-08T13:11:44.508Z",
+    "at": "2026-09-08T13:26:27.050Z",
     "mode": "live",
     "collection": {
-      "returned": 75,
-      "kept": 51,
-      "duplicate": 24,
+      "returned": 103,
+      "kept": 73,
+      "duplicate": 30,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 27,
-      "rejected": 24,
+      "accepted": 54,
+      "rejected": 19,
       "reasons": {
-        "no_offer_term": 14,
-        "hard_negative": 3,
-        "no_fbs_school": 7
+        "no_fbs_school": 13,
+        "no_offer_term": 5,
+        "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2097309966738526458",
-          "author": "jehutton",
-          "searchJob": "army",
-          "text": "https://t.co/RgGKrWviGW"
+          "reason": "no_fbs_school",
+          "postId": "2097315386110751126",
+          "author": "teftech_en",
+          "searchJob": "texas-tech",
+          "text": "🐷 What do the Three Little Pigs have to do with public cloud adoption? From deploying resources through a portal to working with APIs and Infrastructure as Code (IaC), each model offers a different level of automation, consistency, and res"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097305307047248377",
-          "author": "jmichaelwaller",
-          "searchJob": "army",
-          "text": "The Trump Corollary to the Monroe Doctrine appears to be targeting the communist Sandinista regime of Nicaragua, which is ripe for collapse. To succeed, the administration will need to help Nicaraguans target the regime's instruments of for"
+          "postId": "2097311541003780316",
+          "author": "threadedinsight",
+          "searchJob": "texas-tech",
+          "text": "India has growth, profits, record SIPs and a capex boom yet the Nifty feels stuck. Why? Strong macro data can still lose to expectations, rich valuations, global AI alternatives, sector rotation and foreign flows. Here is what could move ma"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097310680214835705",
+          "author": "msittechnews",
+          "searchJob": "texas-tech",
+          "text": "New in Microsoft Marketplace: Offers published July 27-29, 2026 https://t.co/pLVXrUZVYT #Microsoft #techcommunity"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097305994913062945",
+          "author": "moonlitsalem",
+          "searchJob": "texas-tech",
+          "text": "to be clear, this means if we get a feral cat or an animal without vaccine history, only ones who ARE vaccinated are allowed to restrain - which is like 1 or 2 of our LVT/RVT’s. I was not required to get it in school and wasnt offered it. A"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097304615293223051",
+          "author": "capsuletechlabs",
+          "searchJob": "texas-tech",
+          "text": "Not too many. There are tons of Apple sheeps who'd buy everything the company has to offer. But even the Vision Pro was a commercial flop because it was useless and too expensive. iPhone Duo won't be as useless but too expensive for many, c"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097286532302508507",
+          "author": "medflixszn",
+          "searchJob": "hawaii",
+          "text": "$ASBH | American Savings Bank IPO The Hawaii-based bank plans to offer 7.50M shares at $15–$17, raising up to $127.4M. Shares will be sold by existing shareholders. Expected NYSE ticker: ASBH. #ASBH #IPO #Banking https://t.co/oupcT0bFrl"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097103493156786495",
-          "author": "john_f_kjr",
-          "searchJob": "army",
-          "text": "🚨 PRESIDENT TRUMP ISSUES A STARK WARNING “This nation is facing a threat GREATER than World War I, World War II, Pearl Harbor, or even September 11. Once COMMUNISM takes hold, there’s almost NO TURNING BACK. It’s the most DANGEROUS path a "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097248261073711493",
-          "author": "leizch3",
-          "searchJob": "army",
-          "text": "Hello guys, I would like to post this for awareness lang din kasi ang sakit huhuhuhu tagal ko hinintay mag ka goyang. Speacial mention to ate sisiw (🐣) and ata nicka for the effort to send me pics and vid to show me what legit goyang pc lo"
+          "postId": "2097309428794216904",
+          "author": "dharmicnews",
+          "searchJob": "temple",
+          "text": "Read the full article here: https://t.co/ynLJMv0SWQ https://t.co/xreAeU7q0R"
         },
         {
           "reason": "hard_negative",
-          "postId": "2097292112920211761",
-          "author": "mbabazihanning",
-          "searchJob": "army",
-          "text": "🇺🇬 Remembering Lt. Col. Sam Magara: The fallen NRA commander whose legacy endures As Uganda prepares for the Spiritual Revival of the Fallen Warriors on September 15, the country will remember men and women whose sacrifices shaped its his"
+          "postId": "2097303755796484603",
+          "author": "jackwindsor",
+          "searchJob": "temple",
+          "text": "Scripture \"Because of the LORD's great love we are not consumed, for his compassions never fail. They are new every morning; great is your faithfulness.\" — Lamentations 3:22-23 (NIV) Reflection Monday was Labor Day and, largely, became a \"c"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097284658803220481",
-          "author": "armyhiveinfo",
-          "searchJob": "army",
-          "text": "How much could you save? see Motorfinity’s Sept offers? See Motorfinity’s latest models and top discounts: https://t.co/dS2Bd7LUAc #militarydiscounts #armdforces https://t.co/qsunOM3aPz"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097310796074057776",
-          "author": "babyd1111229",
-          "searchJob": "south-florida",
-          "text": "On the eve of 9/11 I think it’s important to be reminded. If 🫵🏻 see something… Say something! Fuck the Cabal ~ Sleeper Cells in America – The Enemy Within February 13, 2003 #Throwback Mark Silverberg From Sunrise, Orlando and Hollywood Fl"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097303631561404479",
-          "author": "arcbluebull",
-          "searchJob": "south-florida",
-          "text": "https://t.co/2kiFmQ0Pzq"
+          "postId": "2097301717415256313",
+          "author": "tovp2022",
+          "searchJob": "temple",
+          "text": "A Special Message from HH Gopal Krishna Goswami Maharaja for TOVP | His Timeless Blessings & Legacy In this precious archival recording, HH Gopal Krishna Goswami Maharaja shares his heartfelt message and blessings for the Temple of the Vedi"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097308538947182895",
-          "author": "iac2026antalya",
-          "searchJob": "class:2026",
-          "text": "We are proud to welcome TELEPIX as a Silver sponsor of #IAC2026! Founded in 2019, TelePIX operates as a pioneering space AI infrastructure company, delivering end-to-end satellite solutions from high-resolution optical payloads to edge comp"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097281013202190590",
-          "author": "gecko39",
-          "searchJob": "class:2026",
-          "text": "The Absurd, Unending Quest to Floodproof the New York City Subway NYT Gift Article Listen · 28:09 min By Mark Chiusano 08SEP2026, https://t.co/vHcU510Ekr In an era of heavy rain, a transit system with 47,000 openings is bound to leak. Mark "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097304995146113193",
-          "author": "hotbets365",
-          "searchJob": "class:2026",
-          "text": "https://t.co/rOGBeBi8s6"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097303046246068485",
-          "author": "o_openit",
-          "searchJob": "class:2026",
-          "text": "https://t.co/2XbPMupsWf"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097299545822810580",
-          "author": "hotbets365",
-          "searchJob": "class:2026",
-          "text": "https://t.co/Kktiod09Yi"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097290427686617432",
-          "author": "duelbitssports",
-          "searchJob": "class:2026",
-          "text": "https://t.co/GpLjKJwZc6"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097302436411224397",
-          "author": "vidyangi520",
-          "searchJob": "class:2029",
-          "text": "NVIDIA: 75% gross margin, guided down to 71-72%. TSMC: 67.7%, a record. Micron Technology: 84.9%, heading to 86%. The margins get better as you go down the stack. https://t.co/X9Hr5IcJYd"
+          "postId": "2097311893916434476",
+          "author": "citysweetwater",
+          "searchJob": "miami",
+          "text": "The City of Sweetwater has partnered with the Miami-Dade Tax Collector to offer TConnect Mobile Services. On Friday, September 11th, residents will have the opportunity to access important services that include driver's license renewals and"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097304694519386335",
-          "author": "reofflorida",
-          "searchJob": "florida",
-          "text": "Wendy Lynn @Wendy_Realtor presents... \"From Downtown to Palmer Ranch, Sarasota offers diverse living options from urban condos to established communities.\" #SarasotaLiving https://t.co/hpn7YGzAzi"
+          "postId": "2097307123847774701",
+          "author": "miamidadefire",
+          "searchJob": "miami",
+          "text": "True courage is reaching out when you need help. Today, Miami-Dade Fire Rescue recognizes the strength of our community, from the first responders who show up every day to the families who support them and the neighbors who look out for one"
         },
         {
-          "reason": "hard_negative",
-          "postId": "2097308978841538777",
-          "author": "scottenlow",
-          "searchJob": "georgia",
-          "text": "🚨Duty Chronicles #1: About Me and The Truth About Why I Was Raided by State Narcotics Agents back in 2020 \"It's peak Southern hypocrite culture when attempted murderers, wife-beaters, adulterers, embezzlers, and alcoholics look down their "
+          "reason": "no_fbs_school",
+          "postId": "2097301484509524058",
+          "author": "miamindependent",
+          "searchJob": "miami",
+          "text": "BetBlast Casino – Fast‑Paced Gaming for the On‑The‑Go Player BetBlast Casino offers a whirlwind of excitement for those who thrive on short, high‑intensity gaming bursts. In the first few lines you’ll feel the rush: the lights flash, the re"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097311264452079908",
+          "author": "wvhumanservices",
+          "searchJob": "virginia",
+          "text": "DID YOU KNOW? The Bureau for Family Assistance offers burial assistance, providing financial support up to $1,000 for funeral expenses. Learn more about eligibility and benefits in the Funeral Director's Handbook at https://t.co/wh9o49ILwb "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097305705208279494",
+          "author": "rucroanoke",
+          "searchJob": "virginia",
+          "text": "Did you know that Radford’s Nursing programs were named among the top 10 in Virginia by https://t.co/La75OJpMqr and that classes are offered both in Roanoke and Radford? Learn more: https://t.co/41ZqmgITL9 https://t.co/5TNkZn0IGz"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097131372368544114",
-          "author": "fionaismybitch",
-          "searchJob": "georgia",
-          "text": "URGENT IN BUTTS COUNTY, GA‼️HER NAME IS MABEL💔 They call her the longest resident.💔Which is really just another way of saying she has watched a lot of people leave. Dogs beside her have come and gone.💔Kennel doors have opened and familie"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097311827747012798",
-          "author": "paulflahive",
-          "searchJob": "texas",
-          "text": "\"San Antonio and Austin have the state’s two largest city-owned electric utilities, which say they offer among the cheapest electricity rates in the state\" https://t.co/AagyUDxiVF"
+          "postId": "2097309114263351306",
+          "author": "panoptic_xyz",
+          "searchJob": "wake-forest",
+          "text": "https://t.co/LDhE3ptK8J"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097309571614232980",
-          "author": "gabbrezz",
-          "searchJob": "texas",
-          "text": "| 𝐒𝐞𝐩 𝟖, 𝟐𝟎𝟐𝟔 | ⚡📑 𝐁𝐋𝐎𝐂𝐊𝐁𝐔𝐒𝐓𝐄𝐑 𝐑𝐄𝐏𝐎𝐑𝐓: 𝐔𝐒 𝐄𝐜𝐨𝐧𝐨𝐦𝐲 𝐀𝐝𝐝𝐬 𝟏𝟔𝟐,𝟎𝟎𝟎 𝐉𝐨𝐛𝐬, 𝐒𝐦𝐚𝐬𝐡𝐢𝐧𝐠 𝐅𝐞𝐝 𝐑𝐚𝐭𝐞 𝐂𝐮𝐭 𝐇𝐨𝐩𝐞𝐬 🎙️\"𝑆𝑢𝑐𝑐𝑒𝑠𝑠 𝑑𝑜𝑒𝑠 𝑛𝑜𝑡 𝑐𝑎𝑢𝑠𝑒 𝑖𝑛𝑓𝑙𝑎𝑡𝑖𝑜𝑛. 𝑆𝑡\ud835"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097306637560156268",
-          "author": "tx_lone_star",
-          "searchJob": "texas",
-          "text": "For those in the comments saying this policy is due to homeless going in and filling up their own containers or endless refills, thats still isn't a valid argument. This only happens on a consistant basis in big cities. This doesn't happen "
+          "postId": "2097304182847836384",
+          "author": "lanz5000",
+          "searchJob": "wake-forest",
+          "text": "@marcosagusstinn The decline is non stop, WAKE UP MARCOS GERMANY IS IN STAGNATION SINCE 2018 and they have done no reforms that promote innovation and private investments DO NOT BE NAIVE"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097299800089936034",
-          "author": "vln4bjp",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Today Feeling blessed to receive blessings from Shri Chandrashekhar ji Tiwary,BJP Telangana State organisational General secretary on my birthday https://t.co/eHy02YsRKd"
+          "postId": "2097296225015828975",
+          "author": "liverpxxl9",
+          "searchJob": "buffalo",
+          "text": "That’s a very deliberate statement from Macca Wonder if he’s done that to prevent the club saying they “did their best” to keep him &amp; smear his character like they did w Konate…. #LFC"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097297016904671561",
-          "author": "mackenzieteuton",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with Coach Davis, I am blessed to receive an offer to continue my athletic and academic career at Wayland Baptist University! @FlyingQueensWBB @JPElite_Girls @TravisGirlsBB1 @L3_Recruiting @mpra12 @rodneyjharmon h"
+          "postId": "2097310903276327015",
+          "author": "charlotteahenry",
+          "searchJob": "charlotte",
+          "text": "Anyway, hope @DavidPintoD, @sarahsackman and other Barnet Labour MPs have some good job offers coming in, because after today they are done at the next election."
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097311141131117003",
-          "author": "andybaylor",
-          "searchJob": "baylor",
-          "text": "@eurofounder “Excellent public transportation.” Surgeons are on a timetable; they have to get to the hospital quick. To save lives They can’t be waiting for a fucking bus. You’re a liar. You don’t have a nephew named Lucas, and he wasn’t of"
+          "postId": "2097298371736187227",
+          "author": "charlotteva2022",
+          "searchJob": "charlotte",
+          "text": "@ltgovhashmi Democrats create problems and offer “solutions “ that will enhance their own power 😅"
         }
       ]
     },
     "extraction": {
       "accepted": 1,
-      "rejected": 26,
+      "rejected": 53,
       "reasons": {
-        "bare_mention_requires_llm": 19,
-        "multiple_resolved_schools": 2,
-        "school_not_resolved_confidently": 5
+        "school_not_resolved_confidently": 24,
+        "multiple_resolved_schools": 3,
+        "bare_mention_requires_llm": 26
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097311316436299983",
-          "author": "emilyandme2",
-          "searchJob": "army",
-          "text": "🇺🇸🇨🇦Some 9/11 reminders for the Liar-in-chief: The first country to offer immediate support: CANADA. They immediately launched \"Operation Yellow Ribbon\" accepting all the flights in the air, at potential terrorist threat to themselves, "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097311171187556471",
-          "author": "slimj_hay",
-          "searchJob": "army",
-          "text": "Then, at the royal wedding, while everyone else was clapping for the pie and pretending Joffrey wasn’t a walking war crime, Olenna reached over, plucked the poison from Sansa’s hairnet like she was stealing a grape, and dropped it in the ki"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097314763424297435",
+          "author": "projectionslab",
+          "searchJob": "texas-tech",
+          "text": "Good morning! ☕️ Had a coffee talk with Trading Assistant about data centers in the US and how it shapes the investment landscape. Here’s where we landed… The Read: The best place to invest in the data center build-out is no longer just the"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097305912193016182",
-          "author": "jan812314",
-          "searchJob": "army",
-          "text": "Arlington’s Confederate memorial is back in the news over the words on a sign. The Washington Post reported that Trump administration officials have replaced the interpretive sign at the site of the former Confederate Memorial in Arlington "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097299633525461330",
-          "author": "roque_ely21022",
-          "searchJob": "army",
-          "text": "Socialism and Communism or Capitalism? Your Choice. In the USA, we have Capitalism. But many politicians and wealthy business people and the Elites are working hard to change it. Socialism is the Communists' way of conditioning the populace"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097297188913373551",
-          "author": "jamiemisspelled",
-          "searchJob": "army",
-          "text": "if may naghahanap pa ng mga lucky draw pc or yung sa army zone pickup, u may want to check @mulletsjimin's twts. they offer one of the most affordable pc prices &amp; fast transactions &amp; legit na legit !!!"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097295880315625478",
-          "author": "spookylu1",
-          "searchJob": "army",
-          "text": "@FINALLEVEL *Met U the 1st time, I was 13. Snuck out w/ friends (AV Fairgrounds) 2 👀Uncle Jamms Army(Bobcat, Egyptian Lover etc) I went on 2 produce 🎼 w/Bob) Met U again w Coco in Phx/I offered y'all VIP Officer escort. *NO bodyguard need"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097293964646785205",
-          "author": "gotomdz",
-          "searchJob": "army",
-          "text": "🇦🇷 Step Into Mendoza’s History at This Hidden Gem! Tucked away in Mendoza’s Civic Park, the Andes Army Flag Memorial offers a peaceful escape and a fascinating journey into Argentina’s independence history. Discover the original flag that"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097291928140197998",
-          "author": "kaska261694",
-          "searchJob": "army",
-          "text": "When a Blackout Brings Hope: Why Turkmen Soldiers Want to Leave the Army — and the Country Sometimes a single small detail reveals far more about the state of a country than dozens of official statements about “stability and prosperity.” Ac"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097291317491429782",
-          "author": "craigunger",
-          "searchJob": "army",
-          "text": "@MarcACaputo @SpyTalker 1/Dan Driscoll's resignation as Army Secretary got covered as a DEI story. But more than that, it's also a story about how Hegseth rejected Zelensky's offer to share transformational drone technology that could have "
+          "postId": "2097311999130546654",
+          "author": "redraidersports",
+          "searchJob": "texas-tech",
+          "text": "NEW: Texas Tech offered 2028 DL Malakai Leilua (@MalakaiLeilua71) — and he's got a lot of family in Lubbock 👀 The Red Raiders join Utah, Oklahoma, Boise State and more on his sheet. A visit to West Texas sounds like a real possibility. Int"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097292968684028361",
-          "author": "anthonycrudele",
-          "searchJob": "south-florida",
-          "text": "Oil up, bonds and gold down, equities flat. That is the story this Tuesday morning and honestly it is a lot more of the same. The equity indexes are struggling to find momentum in any direction. No real leadership out of any of them. For me"
+          "postId": "2097311783614656896",
+          "author": "eagameover",
+          "searchJob": "texas-tech",
+          "text": "Researchers in Germany have made a significant breakthrough in sustainable energy storage by developing an innovative \"salt-and-air\" battery system. This emerging technology aims to drastically reduce the global tech industry's reliance on "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097306194968777179",
-          "author": "gecko39",
-          "searchJob": "class:2026",
-          "text": "Unfortunately, the city is no longer dealing just with the usual water challenges of the past century ... The Absurd, Unending Quest to Floodproof the New York City Subway NYT Gift Article Listen · 28:09 min By Mark Chiusano 08SEP2026, http"
+          "postId": "2097311350296911920",
+          "author": "marc_saltzman",
+          "searchJob": "texas-tech",
+          "text": "ICYMI, @WalmartCanada now offers free extended warranty on select #tech products, like #laptops and #TVs #televisions. My @PostmediaNews column: https://t.co/kKTJHbLtDN - via @nationalpost @TheTorontoSun https://t.co/SCbTFUEo1T"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097293574840651825",
-          "author": "gecko39",
-          "searchJob": "class:2026",
-          "text": "Unfortunately, the city is no longer dealing just with the usual water challenges of the past century ... The Absurd, Unending Quest to Floodproof the New York City Subway NYT Gift Article Listen · 28:09 min By Mark Chiusano 08SEP2026, http"
+          "postId": "2097311335063093423",
+          "author": "onlythedeadknow",
+          "searchJob": "texas-tech",
+          "text": "Question: Let’s go at the neuro question. Theoretically how do we look at AI, Biotech, and RNA nano tech in repairing brain injuries, lesions, broken connections, even PTSD type symptoms? Response: Four separate problems, and they're at gen"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097303511859880181",
-          "author": "eunicornhunter",
-          "searchJob": "class:2027",
-          "text": "$MU SCORES 80/100 — STRONG BUY, AND THE MARKET STILL HASN'T CAUGHT UP Micron just put up one of the cleanest growth-at-a-reasonable-price setups in tech, even after an 8x run off the lows. THE SCORING MATRIX Composite: 80/100 (Strong Buy) →"
+          "postId": "2097310573151097216",
+          "author": "dailytechonx",
+          "searchJob": "texas-tech",
+          "text": "Apple’s foldable iPhone is real—the first device in years that balances bold hardware, premium price, and consumer hype. We now know it’ll offer a 7.8-inch inner display and 5.5-inch cover screen, with a titanium-aluminum hinge and Corning "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097303249858539853",
-          "author": "robot2trade1",
-          "searchJob": "florida",
-          "text": "🚨 Kevin O'Leary's $11 Million Baseball Card, Live on CNBC ⚾💰 \"Mr. Wonderful\" brought some serious hardware to Squawk Box this week — literally chaining himself to an $11 million baseball card on live TV. The card: Shohei Ohtani's 1-of-1 B"
+          "postId": "2097309561736540281",
+          "author": "lukas_m_ziegler",
+          "searchJob": "texas-tech",
+          "text": "Is Zurich really the capital of robotics in Europe? 🇪🇺 Well, if you look at their robotics ecosystem, it seems true! 👀 SPOILER: Zurich robotics ecosystem is that BIG, that describing it I exceeded X post standard length (so decided to li"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097309213634572796",
+          "author": "0xboyd",
+          "searchJob": "texas-tech",
+          "text": "On Omarchy: It’s not the dotfiles. It’s the lack of gatekeeping. TL;DR I have more faith in agents fixing Omarchy than I do in fanatical gatekeepers fixing their communities. ———— My feed is mostly Omarchy now. Given the amount of Omarchy c"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097306254842720362",
+          "author": "yuqing1109",
+          "searchJob": "texas-tech",
+          "text": "@PrakashSanker3 Hi Prakash, I’m a tech journalist working on a story about the rise of FDEs in Silicon Valley. Your experience across both Palantir and OpenAI offers a particularly valuable perspective. Would you be open to answering a few "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097303946742125042",
+          "author": "anypostai",
+          "searchJob": "texas-tech",
+          "text": "5 things keep a saas product out of ai answers, and you settle 4 of them in one text file at the root of the domain, before any page you published matters. each one has a fix published by the platform it breaks on, so here they are, with th"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097303415801982998",
+          "author": "dailytechonx",
+          "searchJob": "texas-tech",
+          "text": "Big changes might be coming to Apple’s lineup: rumors suggest the traditional base iPhone could disappear, replaced by an iPhone Air line with the upcoming Air 2 possibly taking on the iPhone 18 name. Key shifts like thinner design and smal"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097294236085342458",
-          "author": "benvenuto_sofia",
-          "searchJob": "florida",
-          "text": "Antonio Thomas told Florida they gotta show him more love and the Gators really came through with an offer for the 4-star edge, que va that recruitment just got real"
+          "postId": "2097314623540326848",
+          "author": "thefederal_news",
+          "searchJob": "temple",
+          "text": "#WATCH | Uttar Pradesh Chief Minister #YogiAdityanath offered prayers at the Shri Ram Janmabhoomi Temple in #Ayodhya. Air Marshal Jeetendra Mishra (Retd), the first CEO of the Shri Ram Janmabhoomi Teerth Kshetra Trust, was also present. htt"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097293887828378058",
-          "author": "vetsfl",
-          "searchJob": "florida",
-          "text": "The Veterans Florida Entrepreneur Program offers Florida-based veterans and military spouses no-cost training through Launch and Growth cohorts, plus networking opportunities and workshops. Start, strengthen, and grow your business. Apply t"
+          "postId": "2097311741117874591",
+          "author": "phaedragoddess",
+          "searchJob": "temple",
+          "text": "@raandomsub213 I do look very Godlike in it 🖤 You best bring an offer to My temple"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097291622157517166",
-          "author": "drclarerowden",
-          "searchJob": "florida",
-          "text": "BREAKING: Florida announces $140M for advanced cancer research, including diet, exercise &amp; Ivermectin. This should be headline news. 80% of global Ivermectin is made in Asia (58% China). The Wellness Company offers affordable, U.S. made"
+          "postId": "2097311104385065114",
+          "author": "riyacurious",
+          "searchJob": "temple",
+          "text": "From Kashi to Chitrakoot to Tirumala in three days Yogi Adityanath skipped the VIP gate and walked the common Vaikuntam queue to offer prayers at Lord Venkateswara’s shrine. He received traditional temple honours, theertha prasadam and sesh"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097291003023823020",
-          "author": "drmariatenpenny",
-          "searchJob": "florida",
-          "text": "BREAKING: Florida announces $140M for advanced cancer research, including diet, exercise &amp; Ivermectin. This should be headline news. 80% of global Ivermectin is made in Asia (58% China). The Wellness Company offers affordable, U.S. made"
+          "postId": "2097310690814152744",
+          "author": "ians_india",
+          "searchJob": "temple",
+          "text": "Ayodhya, Uttar Pradesh: On Chief Minister Yogi Adityanath's visit, Hanumangarhi temple Mahant Raju Das says, \"...He may be the first Chief Minister in the country or any state who moves forward with religion alongside healthcare, education,"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097309094239420519",
-          "author": "medlinkga",
-          "searchJob": "georgia",
-          "text": "💚 Please join us in welcoming Tonancy Casas, FNP-C to MedLink Georgia! She’s now seeing primary care patients of all ages at MedLink Banks in Commerce and offers Spanish-speaking support. 📅 Appointments available now! #MedLinkGeorgia #Pri"
+          "postId": "2097308596887568493",
+          "author": "studyathua",
+          "searchJob": "temple",
+          "text": "A Hindu temple is far more than a place of worship. It is a carefully conceived sacred space in which architecture, geometry, philosophy, ritual, and community life come together. Rooted in knowledge traditions such as Vāstu Śāstra, Śilpa Ś"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097307377577889839",
-          "author": "1sourcerehab",
-          "searchJob": "georgia",
-          "text": "progress, so you and your therapist can see real improvement over time. If persistent pain has been holding you back, there is a path forward. We welcome new patients and offer in-clinic and in-home options across Georgia. 4/5"
+          "postId": "2097308525253005545",
+          "author": "christine90265",
+          "searchJob": "temple",
+          "text": "... and say, You mountains of Israel, hear the word of the Lord GOD! Thus says the Lord GOD to the mountains and the hills, to the ravines and the valleys: Behold, I, even I, will bring a sword upon you, and I will destroy your high places."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097299872504250468",
-          "author": "ngahealthdist",
-          "searchJob": "georgia",
-          "text": "Knowing your HIV status is an important part of taking care of your health. 💗 Get tested, know your status, and talk with your healthcare provider about prevention and treatment options. Visit: https://t.co/MwuKIZ83lf HIV testing is offere"
+          "postId": "2097307890394808648",
+          "author": "thestatesmanltd",
+          "searchJob": "temple",
+          "text": "🎥 | Uttar Pradesh CM Yogi Adityanath offers prayers at Shri Ram Janmabhoomi Temple in Ayodhya, alongside Air Marshal Jeetendra Mishra (Retd), the first CEO of Shri Ram Janmabhoomi Teerth Kshetra Trust. @myogiadityanath | #RamMandir #Ayodhy"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097295659900588504",
-          "author": "debugliesnews",
-          "searchJob": "georgia",
-          "text": "Eurasian Routes: Greater Autonomy, Not a Post-Western System - Principal judgment: Eurasia is constructing meaningful strategic redundancy, but the verified record does not establish an operational trade-and-finance system capable of circum"
+          "postId": "2097307182073262534",
+          "author": "bjpshanthikumar",
+          "searchJob": "temple",
+          "text": "Participated in the 75th Diamond Jubilee Shravan Maas celebrations at Sri Neelakantha Swamy Temple, Veerannapet, Mahabubnagar. Joined the Pallaki Seva, offered special prayers, and sought Lord Shiva’s blessings for the health, happiness and"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097292904381207007",
-          "author": "kellyg581976179",
-          "searchJob": "georgia",
-          "text": "🆘Urgent in Butts County , Georgia ~Adopter or Foster Needed This is Mabel, Butts County Animal Services, in Jackson Georgia’s longest resident💔 She’s 1 year old , medium sized, has the sweetest personality , a total cuddle bug, loves to “"
+          "postId": "2097305695716868481",
+          "author": "toilucknow",
+          "searchJob": "temple",
+          "text": "Ayodhya: Uttar Pradesh Chief Minister Yogi Adityanath offered prayers at the revered Hanumangarhi temple during his visit to Ayodhya on Tuesday. https://t.co/96l8IQFmWG"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097308981177745419",
-          "author": "indianacbk",
-          "searchJob": "indiana",
-          "text": "Indiana State Basketball Player Profile #5 Chance Puryear - Redshirt Sophomore from Dallas, Texas Listed Height and Weight: 6'7, 190 lbs Chance joins the Sycamores from SMU, where he appeared in 14 games as a freshman, totaling 4 points, 6 "
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097304021258084358",
+          "author": "ghosthistorian",
+          "searchJob": "temple",
+          "text": "Orthodox Scripture and Commemorations Scripture Readings Tuesday, September 8, 2026 Genesis 28:10-17 Ezekiel 43:27-44:4 Proverbs 9:1-11 Luke 1:39-49, 56 Galatians 2:21-3:7 Mark 6:1-7 Philippians 2:5-11 Luke 10:38-42; 11:27-28 Today’s commem"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097302649570050454",
+          "author": "pti_news",
+          "searchJob": "temple",
+          "text": "VIDEO | Uttar Pradesh Chief Minister Yogi Adityanath offered prayers at the Ram Temple in Ayodhya. (Full video available on PTI Videos - https://t.co/d8jp61yd2p) https://t.co/MM53n2Bqsa"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097299149045850194",
+          "author": "newsx",
+          "searchJob": "temple",
+          "text": "Uttar Pradesh CM Yogi Adityanath offers prayers at Shri Ram Janmabhoomi Temple in Ayodhya. Air Marshal Jeetendra Mishra (Retd), the first CEO of Shri Ram Janmabhoomi Teerth Kshetra Trust, is also present. #YogiAdityanath #Ayodhya #RamMandir"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097299124756635745",
+          "author": "newsarenaindia",
+          "searchJob": "temple",
+          "text": "UP CM Adityanath offers prayers at Hanuman Garhi Temple in Ayodhya. https://t.co/J0tmbOBRZU"
         }
       ]
     },
@@ -434,18 +399,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
+      "swept": 25,
+      "failed": 1,
       "requests": 26,
-      "errors": []
+      "errors": [
+        "jacksonville-state: SearchTimeline JSON unreadable (slice left pending)"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 1,
-      "rejectedCandidates": 26,
-      "brandNewOffers": 1
+      "rejectedCandidates": 53,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-08T13:13:43.415Z"
+    "status rebuilt locally from current store on 2026-09-08T13:28:24.732Z"
   ]
 }
