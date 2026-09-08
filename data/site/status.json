@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T10:28:14.151Z",
+  "generatedAt": "2026-09-08T10:43:39.730Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-08T10:28:13.935Z",
+    "at": "2026-09-08T10:43:39.485Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.029756111111111,
-    "p95Hours": 1.7752786111111112,
-    "worstHours": 1.7752786111111112
+    "medianHours": 0.856295,
+    "p95Hours": 1.785223611111111,
+    "worstHours": 1.785223611111111
   },
   "decisionCoverage": {
-    "total": 5,
-    "decided": 5,
+    "total": 18,
+    "decided": 18,
     "complete": true
   },
   "pending": {
@@ -55,74 +55,167 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-08T10:28:13.935Z",
-      "got": 6,
-      "new": 5,
-      "lag": 0.36
+      "at": "2026-09-08T10:43:39.485Z",
+      "got": 22,
+      "new": 18,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-08T10:26:22.741Z",
+    "at": "2026-09-08T10:41:51.702Z",
     "mode": "live",
     "collection": {
-      "returned": 6,
-      "kept": 5,
-      "duplicate": 1,
+      "returned": 22,
+      "kept": 18,
+      "duplicate": 4,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 4,
-      "rejected": 1,
+      "accepted": 9,
+      "rejected": 9,
       "reasons": {
-        "no_offer_term": 1
+        "no_offer_term": 7,
+        "no_fbs_school": 1,
+        "hard_negative": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2096894342350963073",
-          "author": "loong_of",
-          "searchJob": "washington",
-          "text": "After a six-year hiatus, Huawei has once again released a high-performance chip; what has the company gone through during this time? This afternoon in Guangzhou, Huawei held a launch event to officially unveil the Mate XT 2 Ultimate Edition"
+          "postId": "2096841306962038880",
+          "author": "the_jefferymead",
+          "searchJob": "ohio",
+          "text": "What I’m trying to figure out is if Amy Acton is drunk or not? She’s the democrat nominee for governor in Ohio. Is she normally like this??.. https://t.co/bN0bvGiLws"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097249873548521843",
+          "author": "izakayajuraku",
+          "searchJob": "ohio",
+          "text": "Shochu does not have a quality problem. It has a nobody-knows-what-to-do-with-the-bottle problem. https://t.co/LCECM2IEH5"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097274122099388640",
+          "author": "nithinpalal",
+          "searchJob": "rice",
+          "text": "What if the most dangerous act in an algorithmic state isn’t rebellion—but refusal? In Act 6 of #2084, citizens discover that saying “no” can cost everything, while the system quietly turns obedience into survival. #AI #DystopianFiction #Sc"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097271895645131190",
+          "author": "dumbsillymfer",
+          "searchJob": "rice",
+          "text": "@joni_askola @MalcolmNance Well that’s because @elonmusk is nothing but a dolt and a conman. He offers no value to anything."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097257261508812875",
+          "author": "oluwatomeewah",
+          "searchJob": "rice",
+          "text": "@Obedopf_ I no sabi ebonyi buh like the song 👌"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097069731505131926",
+          "author": "piersmorgan",
+          "searchJob": "rice",
+          "text": "Because I’m right… and he’s wrong… @_DeclanRice is the best central midfielder in the world."
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097250409362424209",
+          "author": "srskip8",
+          "searchJob": "rice",
+          "text": "The Spider That Looks You Dead in the Eye — And Somehow Makes You Smile Instead of Scream There is a very specific kind of video that breaks the internet's most reliable rule. The rule is simple: show people a spider, any spider, and they r"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097267589806215253",
+          "author": "golfouest",
+          "searchJob": "notre-dame",
+          "text": "https://t.co/yy4HHfLFaJ"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097263421456584758",
+          "author": "oreil_m",
+          "searchJob": "notre-dame",
+          "text": "The arguments against Ozempic do not justify keeping it scarce https://t.co/p2mArtdOZv"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 4,
+      "rejected": 9,
       "reasons": {
-        "bare_mention_requires_llm": 3,
-        "multiple_resolved_schools": 1
+        "bare_mention_requires_llm": 7,
+        "multiple_resolved_schools": 2
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097265324252975242",
-          "author": "emmypromise71",
-          "searchJob": "washington",
-          "text": "Do you mean to tell me that Atiku Abubakar did not know that the idiot he hired to lobby and launder his image in America is a convicted woman-beater? Atiku is paying $1.2 million for reputation management and political access, yet the man "
+          "postId": "2097273259704168508",
+          "author": "beasubteacher",
+          "searchJob": "ohio",
+          "text": "🖍️ Turn your passion for education into a rewarding career! Ohio Substitute Teacher Services offers exciting opportunities for substitute teachers! Start your journey at https://t.co/QB9jk3qmjk! #BeASub @RLSD_Beavers https://t.co/JItSLsbOV"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097263445393768958",
-          "author": "loong_of",
-          "searchJob": "washington",
-          "text": "Defying warnings and threats from Washington, Malaysia may become the first country to utilize Huawei AI chips instead of U.S.-made alternatives. Despite the Trump administration's strong opposition to the use of Huawei AI chips by other na"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097248586673385671",
-          "author": "marionawfal",
-          "searchJob": "washington",
-          "text": "🇷🇺🇺🇦 Zelensky warned Americans during his White House clash with Trump: “You will feel it in the future.” Trump immediately responded: “Don’t tell us what we’re going to feel.” That exchange gets to one of the fundamental problems with "
+          "postId": "2097263632606167526",
+          "author": "grenndell",
+          "searchJob": "ohio",
+          "text": "It’s a look of complete desperation, it is learned behavior that the louder you are and the more noise you make the more attention that you get, her words have no value, she offers nothing for Ohio, and yet she is the Democrats choice for g"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097260660036100299",
-          "author": "earthdesires",
-          "searchJob": "north-carolina",
-          "text": "To the man caught between two worlds, who must choose between duty and heritage before darkness consumes them all — this is for you. Righteous Allegiance by George Yuhasz A divided nation. A deadly plot. A man caught between two worlds. Wil"
+          "postId": "2097270136763826635",
+          "author": "obedopf_",
+          "searchJob": "rice",
+          "text": "For real, I’m proud that I’m making people discover Ebonyi the Salt of the Nation.🦎💚 The house you’re building today? There’s a good chance Ebonyi played a part in it. Majority of the cement products coming out of Nigeria? Ebonyi. Dangote"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097268429044498859",
+          "author": "rotimiibitoye",
+          "searchJob": "rice",
+          "text": "@Clifford7d0 @grimshub He is angry that Rice is not playing for his favourite club. It is the coaches of the mentioned clubs who should be asked if they are willing to take Rice if offered to them and not a frustrated pundit."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097258027632013473",
+          "author": "n5tactico",
+          "searchJob": "rice",
+          "text": "People love to talk about Rice like he’s some Gallagher or Henderson He offers more in both boxes and all round play He offers more to the team than your favorite DM He offers more to the team than your favorite CM He offers more to the tea"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097257836417851783",
+          "author": "thebiglade",
+          "searchJob": "rice",
+          "text": "If you were offered $500 to not each rice for 6 months, would you take it??"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097271209922584765",
+          "author": "jbmaga03",
+          "searchJob": "illinois",
+          "text": "Public schools exist to teach kids, not to run religious catering operations. Muslim families and groups like CAIR are successfully pressuring districts from Portland to Dearborn to Illinois to add certified halal meals to taxpayer-funded c"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097272991277023248",
+          "author": "tcf_updates",
+          "searchJob": "air-force",
+          "text": "🚨 PAKISTAN AIR FORCE MOCKED AFTER RELEASING AI-GENERATED ‘VICTORY’ VIDEO. ISLAMABAD, PAKISTAN - Pakistan’s Air Force is facing widespread ridicule after releasing an AI-generated video that claimed sweeping victories over India during the "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097255170753376586",
+          "author": "dna",
+          "searchJob": "air-force",
+          "text": "Pakistan’s Air Force has released an AI-heavy video claiming major successes during Operation Sindoor, but the presentation offers no photographic or satellite evidence for its biggest claims. Read Here: https://t.co/4yvLz73QVe #India #Paki"
         }
       ]
     },
@@ -137,11 +230,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 4,
+      "rejectedCandidates": 9,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-08T10:28:14.154Z"
+    "status rebuilt locally from current store on 2026-09-08T10:43:39.733Z"
   ]
 }
