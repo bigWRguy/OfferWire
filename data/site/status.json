@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T15:13:26.828Z",
+  "generatedAt": "2026-09-08T15:28:12.924Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-08T15:13:26.507Z",
+    "at": "2026-09-08T15:28:12.592Z",
     "jobsTotal": 162,
-    "sweptThisRun": 25,
+    "sweptThisRun": 26,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -30,15 +30,20 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "army",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 1.00761,
-    "p95Hours": 1.7832666666666668,
-    "worstHours": 2.0284166666666668
+    "medianHours": 0.7756486111111112,
+    "p95Hours": 1.7723677777777778,
+    "worstHours": 2.274554722222222
   },
   "decisionCoverage": {
-    "total": 78,
-    "decided": 78,
+    "total": 63,
+    "decided": 63,
     "complete": true
   },
   "pending": {
@@ -47,383 +52,367 @@
   "profileResolution": {
     "cached": 41
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 2,
   "quality": {
-    "completeOffers": 886,
+    "completeOffers": 887,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-08T15:13:26.506Z",
-      "got": 114,
-      "new": 78,
-      "lag": 0.05
+      "at": "2026-09-08T15:28:12.592Z",
+      "got": 98,
+      "new": 63,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-08T15:11:37.336Z",
+    "at": "2026-09-08T15:26:21.173Z",
     "mode": "live",
     "collection": {
-      "returned": 114,
-      "kept": 78,
-      "duplicate": 35,
-      "tooOld": 1,
+      "returned": 98,
+      "kept": 63,
+      "duplicate": 33,
+      "tooOld": 2,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 55,
-      "rejected": 23,
+      "accepted": 42,
+      "rejected": 21,
       "reasons": {
-        "hard_negative": 3,
-        "no_offer_term": 15,
-        "no_fbs_school": 5
+        "no_offer_term": 13,
+        "hard_negative": 2,
+        "no_fbs_school": 5,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
-          "reason": "hard_negative",
-          "postId": "2097341471594582199",
-          "author": "beastmodebox",
-          "searchJob": "stanford",
-          "text": "@DPJHodges Yes she is, just like when she claimed she had an offer from Stanford."
+          "reason": "no_offer_term",
+          "postId": "2097345021091500279",
+          "author": "saltedthad",
+          "searchJob": "army",
+          "text": "https://t.co/lHhaAYNycX"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097322404334670248",
-          "author": "kemibadenoch",
-          "searchJob": "stanford",
-          "text": "Yusuf's performative outrage is fooling no one. Nigel Farage himself called these protesters ‘disgusting’. The truth is he’s arguing with his own leader, using me as cover as he tries to outflank Farage. This is a Reform power struggle, not"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097335767119110645",
-          "author": "ravagelaserbeak",
-          "searchJob": "class:2026",
-          "text": "$GSL $SBLK 🌐 THE LAYMAN'S GUIDE TO $SBLK'S GREEK OFFERING: Why It’s NOT a Cash Grab & How the Arbitrage Works If you woke up to news that Star Bulk ($SBLK) priced 4.4M shares in Greece between €23.00–€25.50 ($26.75–$29.66)—well below yeste"
+          "postId": "2097324952156581992",
+          "author": "rdxthinksthat",
+          "searchJob": "army",
+          "text": "Dear Nationalist Leaders and Anti-India Cabal (As Applicable) @INCIndia @AamAadmiParty @AITCofficial @samajwadiparty @JanaSenaParty @BJP4India @arivalayam @LJP4India and all others Koi Shak? JAI HIND 🇮🇳 Cc @CNNnews18 @ndtv @IndiaToday @Ti"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2096362035256885323",
-          "author": "ravagelaserbeak",
-          "searchJob": "class:2026",
-          "text": "$GSL and $SBLK = will keep climbing into next year May 2027. The Atlantic is at all-time lows for hurricanes since 1941, while the Pacific surges with 922 mbar storms Lowell, Marie, and Karina. Media calls it a mystery, but sophisticated in"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097324586194850270",
-          "author": "tavitag203",
-          "searchJob": "class:2026",
-          "text": "https://t.co/CNT6t2yhZT"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097312315649806592",
-          "author": "richardbrowntwn",
-          "searchJob": "class:2026",
-          "text": "TSMC’s COUPE platform brings electronic and photonic chips together, helping move optical connections closer to the heart of AI systems. My latest article explains how it works and why it could be critical to scaling silicon photonics. http"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097341512044405110",
-          "author": "np4football_ot",
-          "searchJob": "class:2027",
-          "text": "Gage Dodson-LB-2027-AL @TroyTrojansFB Game Day Visit #CFB"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097184763450696016",
-          "author": "gage_dodsonfb",
-          "searchJob": "class:2027",
-          "text": "Excited to be @TroyTrojansFB this weekend. Thank you @BooneBoonec &amp; @joe_discher for this opportunity! @AL5AFootball1 @AL_Recruiting @PrepRedzoneAL @Coach_Firestone @coachbuckett @TroyRecruiting https://t.co/lWHvSPhczz"
+          "postId": "2097335389568823367",
+          "author": "precedentdaily",
+          "searchJob": "army",
+          "text": "A 1939 textbook counts soldiers the way a doctor reads a thermometer: Switzerland keeps twelve times Bolivia's army on not much more population. The same chapter asks why across the globe only the United States still looks geopolitically se"
         },
         {
           "reason": "hard_negative",
-          "postId": "2097339918053765209",
-          "author": "on3richie",
-          "searchJob": "class:2027",
-          "text": "2027 Rutgers DB commit Zion Vilma has added an offer from Tulsa, also posted graphics from Miami and Oklahoma recently. 👤 || https://t.co/VCihsggQqZ"
+          "postId": "2097325113402114404",
+          "author": "keefacom",
+          "searchJob": "army",
+          "text": "Uganda's oil projects, including Tilenga by @TotalEnergiesUG and Kingfisher by @CNOOCUgandaLtd plus the @EACOP_ pipeline, are advancing toward first exports with the recent unveiling of the \"Pearl Sweet\" crude blend, amid drilling in ecolog"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097321752359530657",
+          "author": "keefacom",
+          "searchJob": "army",
+          "text": "Compensation disputes, livelihood loss, and allegations of intimidation of critics have been documented by Climate Rights International, AFIEGO, Just Finance International, and UN special rapporteurs. https://t.co/txkAOAMlf8"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097332142451708030",
-          "author": "michfbfrenzy",
-          "searchJob": "class:2027",
-          "text": "Byron Center 2027 QB Brady Hartson was offered by Kalamazoo @bradyhartson13 https://t.co/3xSk5GE8Sm"
+          "postId": "2097316029315649636",
+          "author": "knightsbaseball",
+          "searchJob": "charlotte",
+          "text": "Your QB, your price just in time for football season! $9 TICKETS FOR OUR LAST WEEK OF GAMES (which start today!) Offer runs NOW through 11pm tonight. Get your tickets here: https://t.co/OKFF2kf89L https://t.co/jxFqxqudOH"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097341779376746889",
-          "author": "np4football_ot",
-          "searchJob": "class:2028",
-          "text": "Ethan Joy-Edge-2028-MI @MSU_Football Game Day Visit #CFB"
+          "postId": "2097326716783923702",
+          "author": "dreambodyclinic",
+          "searchJob": "coastal-carolina",
+          "text": "Discover how stem cell therapy for type 2 diabetes may reduce insulin resistance, support beta cell health, and improve blood sugar control at Dream Body Clinic. https://t.co/qit0zO8LED"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097109145468256708",
-          "author": "ethan_joyy",
-          "searchJob": "class:2028",
-          "text": "Extremely excited to announce I will be at @MSU_Football on November 14th for the game against Washington, looking forward to connecting with the coach’s and staff. @Coachvon05 @DOFRecruiting @MalikGill5 @Coach_DeBo46 @Coach_Bindel @JakeCha"
+          "postId": "2097343986197217746",
+          "author": "mo_newsletter",
+          "searchJob": "hawaii",
+          "text": "https://t.co/GXaijBsW8K"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097323863201755409",
+          "author": "getrecruitfit",
+          "searchJob": "temple",
+          "text": "We just added Temple to your profile 🤝 Thanks for letting us know. https://t.co/hNafv0a8C7"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097323121678180469",
+          "author": "antnels0n",
+          "searchJob": "temple",
+          "text": "+Temple"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097343645066395733",
+          "author": "mystablecorp",
+          "searchJob": "wyoming",
+          "text": "https://t.co/8Mv0pIrjZQ"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097316859779707306",
+          "author": "stockverseai",
+          "searchJob": "wyoming",
+          "text": "https://t.co/DDsmLExeOI"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097339285900861474",
-          "author": "commandersrisi1",
-          "searchJob": "pittsburgh",
-          "text": "Time-sensitive vendor offer? Check the fine print first. Look for: - what's included - when it expires - exclusions - real support - fit for your process Urgency helps. Clarity keeps you from missing the wrong window. Learn More https://t.c"
+          "postId": "2097345633652720054",
+          "author": "coco7fg",
+          "searchJob": "washington",
+          "text": "I Have two extra tickets for Tyla concert on Dec 02 at The Anthem, Washington, DC. Letting them go for face value but open to offers. DM me if interested! 🫶 WTS WTB ISO WTT"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097339263922679985",
-          "author": "bestoffersndeal",
-          "searchJob": "texas-tech",
-          "text": "Deal Price : ₹15,499.00 ✅ Regular Price : ₹16,899 ❌ https://t.co/8SDHTqsOvD SleepyCat Latex Mattress | 10 Years Warranty | Firm, Orthopedic 8-inch Hybrid Mattress with Pinhole Tech Latex &amp; Memory Foam Layers | 5-Zone Support and Bamboo "
+          "postId": "2097341569628008884",
+          "author": "khaledsalih2026",
+          "searchJob": "washington",
+          "text": "https://t.co/4wzbezOTum"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097339211523219935",
-          "author": "usatodaytech",
-          "searchJob": "texas-tech",
-          "text": "NASA's newest Mars images offer striking clues to Earth's neighbor https://t.co/2fIa0XG4Ip"
+          "postId": "2097340492560179349",
+          "author": "weidnerapthomes",
+          "searchJob": "washington",
+          "text": "With its rich history, beautiful lake, outdoor recreation, growing economy, and welcoming community, Moses Lake offers plenty to explore. Our blog highlights what makes this Central Washington community an interesting place to live. https:/"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2097337451471585558",
-          "author": "jacqmelinek",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/pK1veP9ChV"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097335471424541072",
-          "author": "beaumilelli",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/cN66nb3pS1"
+          "reason": "non_fbs_offer_target",
+          "postId": "2097338256153104878",
+          "author": "farrellpromo",
+          "searchJob": "washington",
+          "text": "Offer update! DE/TE Jay Butcher from George Washington HS (WV) received an offer from Grove City College! @JayTheButcher27 @GCC_FB @CoachDiDonato @ZackWindsor1 @GWHSFootball1 @mfarrellsports https://t.co/PW8yp9pZOU"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097332446538994134",
-          "author": "creativebloq",
-          "searchJob": "texas-tech",
-          "text": "The Status Pro X TWS offer an engaging tuning without sacrificing the midrange, and are only $169. https://t.co/PVztTRGvEC"
+          "postId": "2097334080744620137",
+          "author": "hawksnationcp",
+          "searchJob": "washington",
+          "text": "Before Trae Young eventually landed in Washington, the Hawks reportedly offered him to Sacramento in a deal centered around Zach LaVine. 👀 The Kings declined. Atlanta was already exploring an exit from the Trae era. A pretty big Hawks what"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097332024507875746",
+          "author": "debugliesnews",
+          "searchJob": "washington",
+          "text": "Russia–Saudi Arabia: Expanding Cooperation, Uneven Delivery and Strategic Limits - Russia and Saudi Arabia are building a selective, interest-based strategic partnership, not a formal alliance. The most mature component remains petroleum-ma"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097331671246700600",
+          "author": "elenapetrova_10",
+          "searchJob": "washington",
+          "text": "https://t.co/v0XtSrK3KV"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097324609519358106",
+          "author": "bluerockid",
+          "searchJob": "washington",
+          "text": "https://t.co/19M1jBQkJW"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097324955520090483",
-          "author": "apcradiology",
-          "searchJob": "utah",
-          "text": "Hey APCR Members! We are excited to offer APCR members the opportunity to apply for a scholarship to attend the 75th AAR Annual Meeting in Salt Lake City, Utah, in April 2027! https://t.co/PGqMJXuQMo"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097340492757307839",
-          "author": "sungrownkit",
-          "searchJob": "virginia",
-          "text": "\"State data shows that incremental law reforms to marijuana possession will not bring Virginia closer to the nation’s promises of equality and justice.\" https://t.co/zGfZzBgWxM"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097337670053642455",
-          "author": "kickoffrep",
-          "searchJob": "wake-forest",
-          "text": "Prepare yourself for the upcoming Champions League season with the article below. https://t.co/0KcajblvFv"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097318701506679126",
-          "author": "4black_panther",
-          "searchJob": "wake-forest",
-          "text": "@guzu_p I don't know why he is even explaining himself. Like why are you begging a hungry girl to see your struggles and understand, when she ain't feeding or clothing you ? Why are you men so daft? Do poor , broke women explain themselves?"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097205106315854298",
-          "author": "imtemzy",
-          "searchJob": "wake-forest",
-          "text": "Ok, I initially decided to silently take a two-week break, but the rest of Rush team is now at risk, so I have to briefly return. Miia, I can’t accept your support. You have a history of being extremely racist and transphobic. Please delete"
+          "postId": "2097323312288280904",
+          "author": "mikesutherezd",
+          "searchJob": "wisconsin",
+          "text": "@April_Carter_US April Happy birthday wishes I was closer I'd offer yo take you out for lunch or dinner offer is open you you I'm in Wisconsin"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 55,
+      "accepted": 1,
+      "rejected": 41,
       "reasons": {
-        "multiple_resolved_schools": 3,
-        "reporter_missing_position": 2,
-        "reporter_missing_player_name": 4,
-        "reporter_missing_class_year": 1,
-        "bare_mention_requires_llm": 13,
-        "school_not_resolved_confidently": 31,
-        "author_not_recruit:no recruit fields": 1
+        "bare_mention_requires_llm": 30,
+        "reporter_missing_player_name": 1,
+        "school_not_resolved_confidently": 7,
+        "multiple_resolved_schools": 3
       },
       "samples": [
         {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097345111675867350",
+          "author": "drone_wars_",
+          "searchJob": "army",
+          "text": "U.S. firm AeroVironment has its first foreign order for the LOCUST laser weapon, worth more than $50 million, the company said on 8 September. The buyer, unit count and delivery date were not disclosed. The sale follows a $464.8 million U.S"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097344814048030746",
+          "author": "silverdaggerzzz",
+          "searchJob": "army",
+          "text": "The Radical left are wannabes When the real Communists takeover- these weak pathetic effeminate weirdos will go. Mr. President I ask that you offer to the 16 million Veterans Service as US Marshals we have work to do. Army Veteran"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097343868664729848",
+          "author": "pjfromtj",
+          "searchJob": "army",
+          "text": "@cavofficer6 @sevensixfive Hey Donald you had over 3 decades to join the army corps of engineers and submit your proposal to build infrastructure to support these efforts. Please go and tell the best engineers the United States has to offer"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097342126845509678",
+          "author": "smallwars",
+          "searchJob": "army",
+          "text": "The U.S. defense industrial base currently relies on Chinese materials for 78% of its weapons systems. #China dominates 90% of global rare earth processing and 99% of gallium and germanium production. 🇨🇳 Recent conflicts in the Middle Eas"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097338946384806027",
+          "author": "vasilyfaeyre",
+          "searchJob": "army",
+          "text": "@caughtinalie_5 Have gotten in a car with ARMY I just met because they offered to drive me to see a Jin ramen billboard 😂😅 Also most of your list as well, &amp; let others use the bathroom/nap/shower in my hotel room while camping out"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097338783226384782",
+          "author": "ghazalthakur",
+          "searchJob": "army",
+          "text": "Very well said Sir. There is definitely something wrong with @SinghReetam and the ecosystem that is supporting and letting this mentality thrive. You have to have a really rotten childhood and bringing up to grow up into an individual with "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097335670607900849",
+          "author": "olenarohoza",
+          "searchJob": "army",
+          "text": "The most successful pirate in history was a Chinese woman named Ching Shih. At the beginning of the 19th century, Ching Shih worked as a prostitute aboard a floating brothel known as a “Flower Boat” — a vessel filled with women. Sailing thr"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097328178213630312",
+          "author": "childofeternity",
+          "searchJob": "army",
+          "text": "'The time has come for global isolation.' 'There is no need to say much more. We have heard it all by now and from all parties. We all know what is going on—it can’t be “occupied territory” if the land is your own. As a result, everyone els"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097326918454411370",
+          "author": "alexaaronson80",
+          "searchJob": "army",
+          "text": "@AmericanPraeto2 A good book needs a good antagonist. The Soviets definitely qualified. My Soviet Endgame series definitely offers an over-optimistic view of the Red Army. But hey, it's a good time!"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097324326240534535",
+          "author": "shootgtr",
+          "searchJob": "army",
+          "text": "🚑 M.A.R.C.H. First Aid Training at Shoot GTR Be prepared for emergencies with this cutting-edge 2-hour training designed to give you the skills and confidence to save lives when it matters most. The M.A.R.C.H. protocol – a key principle of"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2097323720624963672",
+          "author": "rshivshankar",
+          "searchJob": "army",
+          "text": "According to remand copy, Rohan Parekh had been posing as an official from the Prime Minister's Office (PMO). A fake digital ID card of PMO was recovered from his possession. The police have registered a case under sections 204, 205, 3(5), "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097323275172954193",
+          "author": "ransomebrett",
+          "searchJob": "army",
+          "text": "Then get off of American Social Media bitch. Elbows up. Liberals are all the same the world over. We completely rejected you for Trump. Now you want a deal? We offered you the best deal and told us to Kiss your Ass. We are done, and you are"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097322711429140984",
+          "author": "americancausey",
+          "searchJob": "army",
+          "text": "Tragic Philosophical Dialogue South of Antioch, Syria, Eastern Roman Empire October 28th, 637 A.D. -------------------------------------------------------- The sea beats a heavy, measured rhythm against the cliffs below, a restless percussi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097323906042400926",
+          "author": "iat1017",
+          "searchJob": "buffalo",
+          "text": "@69damon420 @eitherohgren Winnipeg botched that one though. They got greedy. Should have traded him earlier in the summer when they had multiple decent offers. They pushed Buffalo too far."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097343759818137830",
+          "author": "dianajong2012",
+          "searchJob": "coastal-carolina",
+          "text": "3 Hayley Williams tickets for Tomorrow concert avail for offer located at Coastal Credit Union Music Park - NC. Going below face with authentic proof of purchase and also flexible on carting, kindly directly message if interested, Thanks #T"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097342444820210080",
+          "author": "hainantoday",
+          "searchJob": "coastal-carolina",
+          "text": "In Quanzhou, Fujian, young people from all over China have been immersing themselves in Minnan tradition—adorning their hair with the iconic Zanhua Wei. This cherished custom, officially inscribed on China's National Intangible Cultural Her"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097341227649970584",
+          "author": "sajjad57678616",
+          "searchJob": "coastal-carolina",
+          "text": "My dear, Vernazza is a stunning Italian fishing village famous for its colorful pastel houses, lively harbor, and historic castle. Located in the Cinque Terre region, it offers scenic coastal views and great hiking trails. Visitors can easi"
+        },
+        {
           "reason": "multiple_resolved_schools",
-          "postId": "2097338566221119738",
-          "author": "steponaduck",
-          "searchJob": "baylor",
-          "text": "There are some incredible adjustments to the win-totals that are being offered compared to pre-season. Utah State is now o/u 2.5 (we have 5.5 under, 11games) WKU is now 6.5 juiced to the under Hawaii is now 6.5 juiced to the under UMASS 6.5"
+          "postId": "2097340544422748203",
+          "author": "guntreasure",
+          "searchJob": "coastal-carolina",
+          "text": "You can ignore facts and nature all you want, and wish that the world would see your kindness, but a snake is still a snake, a wild animial is still a wild animal. Timothy Treadwell spent 13 summers living unprotected among wild coastal bro"
         },
         {
-          "reason": "reporter_missing_position",
-          "postId": "2097327849392718087",
-          "author": "profilefblive",
-          "searchJob": "nc-state",
-          "text": "North Carolina State has offered 3.8⭐ 2028 Edge Qwayvon Cleveland from Green Run HS, VA. @QwayvonC1 Rated (#505 NATL, #36 Edge, #9 VA) - 16 offers overall. https://t.co/k5iu8ePlpR"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097335467909795848",
+          "author": "defenseinnovr",
+          "searchJob": "coastal-carolina",
+          "text": "🇦🇿 Azerbaijan tests two new naval drones Azerbaijan has tested the SALVO armed USV and the KAYRA kamikaze USV, developed with Türkiye’s DEARSAN. SALVO offers a reusable armed platform, while KAYRA can exceed 60 knots to strike ships, port"
         },
         {
-          "reason": "reporter_missing_player_name",
-          "postId": "2097339918687089033",
-          "author": "beastmodebox",
-          "searchJob": "stanford",
-          "text": "\"It makes you delusional about your own abilities. But then that’s always been you. Please do publish your internship offer from Stanford that you claim they sent you, despite you not applying?\" Kemi is our very own halfwitted Candace Owens"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097322265079681170",
+          "author": "lasplendour",
+          "searchJob": "coastal-carolina",
+          "text": "@snrmanOA For the umpteenth time, the so-called \"Coastal Road\" has nothing to do with a genuine intent to construct any sort of road. It simply was the best way to \"justifiably\" steal N16 trillion of tax-payers' money in one swoop; a prospe"
         },
         {
-          "reason": "reporter_missing_player_name",
-          "postId": "2097334307912114550",
-          "author": "ziayusufuk",
-          "searchJob": "stanford",
-          "text": "Badenoch, I appreciate you’re utterly humiliated after being ratiod on here and seeing your party is polling 6 points lower than it was when you took over. That’s what happens when you have all the ‘right wing’ newspapers telling you you’re"
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2097336158954868962",
-          "author": "ziayusufuk",
-          "searchJob": "stanford",
-          "text": "Badenoch, I appreciate you’re utterly humiliated after being ratiod on here and seeing your party is polling 6 points lower than it was when you took over. That’s what happens when you have all the ‘right wing’ newspapers telling you you’re"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097320107202564296",
+          "author": "vipingoplc",
+          "searchJob": "coastal-carolina",
+          "text": "Inside Awali Estate villas, every detail is thoughtfully crafted for comfort and an elevated lifestyle with expansive spaces and a seamless flow between indoor and outdoor living. Whether you’re searching for a secure coastal retreat, a fam"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097323624986448364",
-          "author": "thejuiceonline",
-          "searchJob": "syracuse",
-          "text": "“Everyone made me feel welcome, and I definitely enjoyed my time at #Syracuse.” 2028 EDGE Quaseem Powers (@ykqua0) holds an SU offer and watched the Orange top New Hampshire 66-3 on Saturday. He recaps his visit with our Charles Kang (@SICu"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097323714513695190",
-          "author": "stockfarmmag",
-          "searchJob": "south-florida",
-          "text": "Hugenoot cattle are bred to be functionally efficient in harsh conditions, making them ideal for South African producers. The Bosveld Hugenoot Group auction takes place on 3 October 2026 at Warmbaths Stock Market, with 20 bulls and 70 femal"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097338255670726983",
-          "author": "rightofright76",
-          "searchJob": "western-michigan",
-          "text": "@GuntherEagleman @SignalSquid Michigan didn’t “survive” Western Michigan…they lost, and then blatantly cheated, and then offered excuses as to why they should’ve won the whole time. Kinda sounds like the shitlibs circa 2020"
+          "postId": "2097343384583385212",
+          "author": "neahnoahs",
+          "searchJob": "temple",
+          "text": "NIV Bible. 1 Corinthians 9:13 [13]Don’t you know that those who serve in the temple get their food from the temple, and that those who serve at the altar share in what is offered on the altar?"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097337753914736782",
-          "author": "mcreekfutures",
-          "searchJob": "class:2026",
-          "text": "USDA Nebraska Weekly Livestock Auction Summary for the week ending September 5, 2026 For The Week The Nebraska livestock market faced continued downward pressure and a noticeably slower pace through the week ending September 5 as market par"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097328525745246597",
-          "author": "marcedelheit",
-          "searchJob": "class:2026",
-          "text": "Dragon Con 2026 was an incredible—and exhausting—experience! One of the absolute highlights was seeing so many members of the Legion. I loved having a few minutes to talk, catch up, and hear what you thought about the books—particularly Com"
+          "postId": "2097341502787649555",
+          "author": "jeffamunga",
+          "searchJob": "temple",
+          "text": "@AttorneyF_ I see it this way, after she changed her prayers by meeting God's need in his the temple by saying she'll offer him to serve God. By that time Eli was old"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097337397444829630",
-          "author": "miketsinger",
-          "searchJob": "class:2028",
-          "text": "Notre Dame’s DJ Bryant and Brian Jean-Mary delivered a scholarship offer to fast-rising 2028 LB Cyrus Zuah last week. He’s one to watch ‼️☘️ “This might be my favorite one. This offer is huge.” @cyrus_zuah https://t.co/YCQ6dsroFZ"
-        },
-        {
-          "reason": "reporter_missing_position",
-          "postId": "2097335398376857809",
-          "author": "profilefblive",
-          "searchJob": "class:2028",
-          "text": "Virginia Tech has offered 3.7⭐ 2028 Edge Jaylen Johnson from Bishop Miege HS, KS. @JayJohnson_23 Rated (#627 NATL, #46 Edge, #5 KS) - 13 offers overall. https://t.co/xnpaEFFvlW"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2097330430848459041",
-          "author": "zanebrancefield",
-          "searchJob": "class:2028",
-          "text": "Penn State football has offered 2028 DL Azhir Waddell The Greensboro, NC native is listed at 6’5” and 290 lbs. Attending IMG Academy (FL), Waddell is a consensus 4 ⭐️ prospect"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097332147166073053",
-          "author": "freightwaves",
-          "searchJob": "miami",
-          "text": "A fatal runway excursion shut down half of Miami International Airport after a Boeing 767-300 freighter operated by 21 Air for Amazon Air overran the runway, struck vehicles on a nearby road, and caught fire—leaving five dead and five serio"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097329868266414269",
-          "author": "blakescards42",
-          "searchJob": "miami",
-          "text": "@84baseballcards @1Cash28 @ILOVECOLLECTING @CardRetweet @DailySportcards @Nolacardtweets ⚾ Marlins Team Lot – $12 Shipped ⚾ 57 card Miami Marlins team lot featuring no duplicates. Every card shown is included. 📦 $12 SHIPPED 💵 PayPal G&amp"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097328635426328989",
-          "author": "miamilighthouse",
-          "searchJob": "miami",
-          "text": "At the Vision Solutions Center in Miami Lighthouse for the Blind, we offer the latest in assistive technology and mobility devices. 🕶️⌚ Labor Day Sale!: Get 10% off purchases over $5 until September 13th! Use coupon code USA250 online or i"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097328431448850727",
-          "author": "halsnarr",
-          "searchJob": "miami",
-          "text": "@eurofounder $680K lets him live near a top NYC or Miami hospital, in an equally diverse society, &amp; travel the world. One NYU physician posting offers ample paid time off (24 vacation days, 12 holidays, 5 CME days). NYC has great transi"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097327547734471029",
-          "author": "bucksnationcp",
-          "searchJob": "miami",
-          "text": "Tyler Herro has a lot to prove in Milwaukee. Per Ethan Skolnick, Miami would've considered extending him, but likely would've waited and offered less than the max. Now Herro has a fresh opportunity. Put together a career year… And that max "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097326607862018508",
-          "author": "ryangormanshow",
-          "searchJob": "miami",
-          "text": "Miami Amazon plane crash: What went wrong? Aviation Analyst Jay Ratliff offers his take on what may have led to the disaster. https://t.co/ye1NGub2fu"
-        },
-        {
-          "reason": "author_not_recruit:no recruit fields",
-          "postId": "2097334992397275369",
-          "author": "farrellpromo",
-          "searchJob": "pittsburgh",
-          "text": "Offer update! Marysville HS (OH) OL/DL Collin Burris received an offer from Pitt! @c_burris2028 @CoachDarveau @Pitt_FB @myoungoc77 @MonarchFootbal1 @mfarrellsports https://t.co/CmUx0OSuFP"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097332235938476322",
-          "author": "steelersdepot",
-          "searchJob": "pittsburgh",
-          "text": "‘Temper Your Expectations:’ Aaron Rodgers Offers Reality Check About Rookie Germie Bernard #Steelers #NFL #Pittsburgh https://t.co/K2mjwouoAF"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097321941942067333",
-          "author": "bhoward_11",
-          "searchJob": "pittsburgh",
-          "text": "2028 prospect earns a Pitt offer"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097318176014881044",
-          "author": "jamjam6991",
-          "searchJob": "pittsburgh",
-          "text": "@billpeduto Says the worst and corrupt loser ex-mayor of Pittsburgh. You offer no value."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097316302851391534",
-          "author": "pghsportsnow",
-          "searchJob": "pittsburgh",
-          "text": "Since Saturday, Pitt has extended a number of offers to 2028 recruits, including a number of lineman and two 4-star recruits. https://t.co/kbHXm3tHws via @on3 @johnodwyer2063 @c_burris2028 https://t.co/0vfQicOnhf"
+          "postId": "2097331171772551529",
+          "author": "toilucknow",
+          "searchJob": "temple",
+          "text": "Ayodhya: CM Yogi Adityanath offered prayers at Ram Lalla temple, seeking prosperity for the country. He also reviewed ongoing works, security and pilgrim facilities at the Ram temple complex and issued directions. https://t.co/eXR2Yb1BXT"
         }
       ]
     },
@@ -431,20 +420,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 25,
-      "failed": 1,
+      "swept": 26,
+      "failed": 0,
       "requests": 26,
-      "errors": [
-        "army: SearchTimeline JSON unreadable (slice left pending)"
-      ]
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 55,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 41,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-08T15:13:26.831Z"
+    "status rebuilt locally from current store on 2026-09-08T15:28:12.927Z"
   ]
 }
