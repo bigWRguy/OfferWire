@@ -1,4 +1,3 @@
-// Offer tiering and evidence-backed per-player totals.
 import { byId, SCHOOLS } from './schools.js';
 
 const P4_CONFERENCES = new Set(['SEC', 'B1G', 'B12', 'ACC']);
@@ -10,8 +9,6 @@ export function tierOf(school) {
 }
 for (const s of SCHOOLS) s.tier = tierOf(s);
 
-// The archive is not a complete recruiting history. Never infer a player's first
-// overall/P4/G5 offer from its earliest locally observed evidence.
 export function decorateOffers(offers) {
   const byPlayer = new Map();
   for (const o of offers) {

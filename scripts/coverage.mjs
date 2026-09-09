@@ -1,14 +1,3 @@
-// Coverage planner.
-//
-// The one number that decides whether this wire is useful: how long between an offer
-// being posted and the sweep reaching the school it belongs to. That is set entirely by
-// how many search requests the credential pool can spend per 15-minute window.
-//
-// This prints the honest arithmetic for your current pool, and what you'd need for a
-// target latency. Run it before you trust the wire's freshness.
-//
-//   node scripts/coverage.mjs             # plan against configured credentials
-//   node scripts/coverage.mjs 3           # plan as if you had 3 credentials
 import { allJobs, schoolJobs, phraseJobs, classJobs } from '../src/collect/queries.js';
 import { loadCredentials } from '../src/collect/search.js';
 import { readJson } from '../src/lib/store.js';
@@ -17,8 +6,6 @@ const jobs = allJobs();
 const creds = loadCredentials();
 const nCreds = Number(process.argv[2]) || creds.length || 0;
 
-// Measured in production: this web session rate-limited on request 37. Plan at 36 so
-// the final query succeeds and advances its watermark instead of spending a call on 429.
 const PER_WINDOW = Number(process.env.OFFERWIRE_PER_WINDOW || 36);
 const WINDOW_MIN = 15;
 const CRON_MIN = Number(process.env.OFFERWIRE_CRON_MIN || 15);
@@ -50,7 +37,6 @@ console.log(`  cron cadence     : every ${CRON_MIN} min`);
 console.log(`  spend per cycle  : ~${perCycle} requests`);
 
 if (perCycle > 0) {
-  // Assume ~1.25 requests per job on average (most jobs are one page; a few page twice).
   const jobsPerCycle = Math.floor(perCycle / 1.25);
   const cycles = Math.ceil(jobs.length / Math.max(1, jobsPerCycle));
   const latency = cycles * CRON_MIN;

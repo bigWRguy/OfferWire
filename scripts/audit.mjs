@@ -1,24 +1,7 @@
-// Reads the committed per-run audit trail (data/audit/*.ndjson) and prints the big
-// picture: the funnel over time, the rejection-reason census, and the recruit-shaped
-// near-misses that are most likely REAL PLAYERS being thrown away.
-//
-//   node scripts/audit.mjs                     # everything, all runs
-//   node scripts/audit.mjs --since 2026-08-28  # only runs from that day on
-//
-// This is the "what have we done" half. The second half — full post text of every
-// rejected candidate, grouped by reason, straight off the archive — is
-//   node scripts/replay.mjs --rejected     # (npm run audit runs both)
-//
-// The improvement loop: skim the near-miss reasons here, read the offending posts in
-// replay, fix the rule, re-measure with replay, commit. data/audit/ is committed with
-// every run, so the trend is permanently diffable in git.
 import fs from 'node:fs';
 import path from 'node:path';
 import { DATA } from '../src/lib/store.js';
 
-// Reasons that mean a post LOOKED like a real recruit offer but got dropped anyway.
-// These are the false-negative candidates — read the samples, decide if a rule fix is
-// warranted, then re-measure with `node scripts/replay.mjs --rejected`.
 const RECRUIT_SHAPED = [
   'player_missing_class_year',
   'player_missing_football_context',

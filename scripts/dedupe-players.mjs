@@ -1,12 +1,3 @@
-// One-time cleanup for a real bug: before src/pipeline.js indexed a newly-created player
-// immediately (see the comment on that fix), two posts about the same brand-new recruit
-// arriving in the SAME run could create two player records instead of merging into one.
-// This finds any such pair still sitting in data/players.json, using the exact same
-// canMerge() the live pipeline uses (so this can never be looser than production
-// judgement), merges them, and repoints every offer that referenced the loser.
-//
-//   node scripts/dedupe-players.mjs            # dry run, prints what it would do
-//   node scripts/dedupe-players.mjs --write    # applies it and rewrites data/*.json
 import { readJson, writeJson } from '../src/lib/store.js';
 import { indexPlayers, canMerge, mergeInto } from '../src/resolve/players.js';
 
@@ -17,7 +8,7 @@ const offers = readJson('offers.json', []);
 
 const index = indexPlayers(players);
 const toDrop = new Set();
-const remap = new Map(); // loser id -> winner id
+const remap = new Map();
 const merges = [];
 
 for (const bucket of index.values()) {
@@ -30,7 +21,6 @@ for (const bucket of index.values()) {
       if (toDrop.has(b.id)) continue;
       const v = canMerge(a, b);
       if (!v.merge) continue;
-      // Keep whichever record has a handle (a harder fact), otherwise the older one.
       const [winner, loser] = a.handle || !b.handle ? [a, b] : [b, a];
       mergeInto(winner, loser);
       toDrop.add(loser.id);
@@ -50,9 +40,6 @@ if (!merges.length) {
 
 const survivingPlayers = players.filter((p) => !toDrop.has(p.id));
 
-// Repoint offers, then re-collapse any that now collide on (player, school) once the
-// repoint is applied — the same duplicate recruit may have offer rows filed against the
-// same school from each of his two now-merged identities.
 const bySchoolPlayer = new Map();
 const survivingOffers = [];
 for (const o of offers) {

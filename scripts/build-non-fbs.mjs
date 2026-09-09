@@ -1,16 +1,3 @@
-// Rebuild config/non-fbs.txt — the roster of US colleges that are NOT FBS football
-// programs. This is what stops "The Colorado School of Mines" resolving to Colorado,
-// "Wisconsin Lutheran College" to Wisconsin, or "Alabama State University" to Alabama:
-// the wire recognises the OTHER school by name instead of inferring around it.
-//
-//   node scripts/build-non-fbs.mjs            # refresh from the public source
-//   node scripts/build-non-fbs.mjs --offline  # rebuild from a cached download
-//
-// Source: universities.hipolabs.com (free, no key) — every US degree-granting
-// institution, four-year and two-year. Entries that ARE the FBS school (Miami
-// University, Ohio University, University of Colorado) are removed by running each
-// candidate through the same boundary analyser the resolver uses, so the roster can
-// never shadow a real FBS program.
 import fs from 'node:fs';
 import path from 'node:path';
 import { CONFIG } from '../src/lib/store.js';
@@ -29,8 +16,6 @@ const raw = process.argv.includes('--offline') && fs.existsSync(CACHE)
     return j;
   })();
 
-// Extra programs the public list misses, all of them schools that share a name with an
-// FBS school and have shown up in real offer posts.
 const EXTRA = [
   'Oklahoma Panhandle State University',
   'Arkansas State University Mid-South',
@@ -62,11 +47,7 @@ const seen = new Set();
 const out = [];
 for (const name of [...raw.map((r) => r.name), ...EXTRA]) {
   const n = norm(name);
-  // Single-token names are never safe to strip on (a lone common word), and the
-  // resolver only matches roster entries of two tokens or more anyway.
   if (n.split(' ').length < 2 || seen.has(n)) continue;
-  // If our own boundary rule reads this name as an FBS school, it is one — keep it off
-  // the roster so it can never blank out a genuine mention.
   if (isFbsInstitutionName(name)) continue;
   seen.add(n);
   out.push(name);

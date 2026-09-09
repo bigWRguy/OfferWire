@@ -1,4 +1,3 @@
-// Resilient fetch: timeouts, retries with jitter, UA rotation, per-host politeness.
 const UAS = [
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36',
   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15',
@@ -39,17 +38,12 @@ export async function get(url, opts = {}) {
       const h = res.headers;
       const meta = {
         status: res.status,
-        // X returns these on every GraphQL call. They are the difference between a
-        // scheduler that plans its budget and one that blindly burns it and gets 429'd
-        // halfway through a sweep.
         rateLimit: h.get('x-rate-limit-limit') ? {
           limit: +h.get('x-rate-limit-limit'),
           remaining: +h.get('x-rate-limit-remaining'),
           resetAt: +h.get('x-rate-limit-reset') * 1000,
         } : null,
       };
-      // 429 is NOT retryable here — retrying burns the next window too. Hand it back so
-      // the caller can park this credential until reset and switch to another.
       if (res.status === 429) return { ok: false, ...meta, rateLimited: true, text: '' };
       if (res.status >= 500) throw new Error(`HTTP ${res.status}`);
       if (!res.ok) return { ok: false, ...meta, text: '' };

@@ -1,23 +1,7 @@
-// Who is X refusing — this runner, or this account?
-//
-// When the bot check will not clear, the fix depends entirely on which of those it is
-// and the wire's own logs cannot tell them apart: every search job carries the account's
-// cookies, so a blocked job is consistent with both. This probe separates them by
-// loading the same page twice with the same browser from the same address, once signed
-// out and once signed in.
-//
-//   signed out passes, signed in blocked  -> the ACCOUNT is flagged. New X credentials.
-//   both blocked                          -> the ADDRESS is scored. GitHub-hosted runners
-//                                            are the problem; move the run or proxy it.
-//   both pass                             -> whatever it was has lifted; rerun the wire.
-//
-//   node scripts/probe-block.mjs
 import { SearchSession, loadCredentials } from '../src/collect/search.js';
 
 const NO_CRED = { authToken: '', ct0: '', id: 'signed-out' };
 
-// The session applies cookies at open(); an empty pair must not be sent at all, or X
-// sees a malformed auth cookie rather than an anonymous visitor.
 class AnonSession extends SearchSession {
   async open() {
     const saved = this.cred;
@@ -55,9 +39,6 @@ try {
 } catch {}
 console.log(`egress address: ${egress}`);
 
-// With OFFERWIRE_PROXY set, the runner's own address above is NOT the one X judges —
-// only the browser is tunnelled. Ask the browser itself where it comes out, so the
-// verdict below is about the address that actually loaded x.com.
 if ((process.env.OFFERWIRE_PROXY || '').trim()) {
   let via = 'unreachable — the tunnel is down, so nothing below is meaningful';
   const s = new AnonSession(NO_CRED);

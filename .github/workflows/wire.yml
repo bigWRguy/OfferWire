@@ -1,11 +1,5 @@
 name: scheduled
 
-# The wire runs itself. GitHub Actions is the scheduler and the compute; the repo is the
-# database (every run commits the ledger, so `git log data/offers.json` is a free,
-# permanent audit trail of when each offer was first seen and by which post).
-#
-# Cadence note: cron on GitHub Actions is best-effort and can drift several minutes
-# under load, which is fine here because every reader deliberately overlaps its window.
 on:
   schedule:
     - cron: '7 * * * *'
@@ -19,7 +13,6 @@ on:
         required: false
         default: '0'
 
-# Never let two runs write the ledger at once.
 concurrency:
   group: scheduled
   cancel-in-progress: false
@@ -33,9 +26,6 @@ jobs:
     outputs:
       should_run: ${{ steps.check.outputs.should_run }}
     steps:
-      # Always inspect the newest ledger, even when this dispatch was created from an
-      # older SHA. A delayed GitHub cron and the Netlify fallback may both arrive; only
-      # the first one should spend the X quota window.
       - uses: actions/checkout@v4
         with:
           ref: main
@@ -71,41 +61,23 @@ jobs:
       - name: install browser
         run: npx playwright install --with-deps chromium
 
-      # X refuses GitHub-hosted addresses outright (see scripts/warp-up.sh), so the
-      # browser goes out through Cloudflare WARP. Only the browser: the ledger commit and
-      # the Netlify deploy below still leave the runner directly. Exports OFFERWIRE_PROXY
-      # when — and only when — the tunnel is proven up.
       - name: route the browser through WARP
         run: bash scripts/warp-up.sh
 
-      # Fail fast on logic regressions before they can write bad rows into the ledger.
       - name: self test
         run: |
           node scripts/selftest.mjs
           node scripts/fixture-run.mjs
 
       - name: run wire
-        # continue-on-error is deliberate: the pipeline exits non-zero when search is
-        # broken, but the ledger it already wrote must still be committed.
         continue-on-error: true
         id: wire
         env:
-          # Search credentials — REQUIRED. Per-school search is the engine; the run
-          # fails without one. X_SESSIONS pools several ("tok1:ct01,tok2:ct02") and the
-          # sweep budget scales linearly with pool size — see scripts/coverage.mjs.
           X_SESSIONS: ${{ secrets.X_SESSIONS }}
           X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
           X_CT0: ${{ secrets.X_CT0 }}
-          # Spend each quota window once. During the one-time baseline most requests
-          # drain resumable history; after that the full budget returns to live work.
-          # A second scheduled workflow would only compete for the same X session.
           OFFERWIRE_MODE: live
           OFFERWIRE_BACKFILL_DAYS: 0
-          # Ending every single window on a 429 is a reputation signal, and this session
-          # started drawing X's bot check on 2026-09-05 while doing exactly that. Observed
-          # 429s land at request 28-31, not the 37 this was tuned against, so stop at 26:
-          # under the limit on purpose, and every attempted query advances its watermark.
-          # Coverage is watermarked — a smaller budget costs latency, never completeness.
           OFFERWIRE_REQUESTS_PER_CRED: ${{ vars.OFFERWIRE_REQUESTS_PER_CRED || '26' }}
           OFFERWIRE_SCROLLS: ${{ vars.OFFERWIRE_SCROLLS || '0' }}
           OFFERWIRE_PROFILES_PER_RUN: ${{ inputs.profiles_per_run || vars.OFFERWIRE_PROFILES_PER_RUN || '0' }}
@@ -122,7 +94,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "no changes"
           else
-            # Rebase rather than force: a manual dispatch and a cron run can overlap.
             git commit -m "wire: $(date -u +'%Y-%m-%dT%H:%MZ')"
             git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
             git push
@@ -139,8 +110,6 @@ jobs:
           fi
           npx --yes netlify-cli deploy --prod --dir site --site "$NETLIFY_SITE_ID" --auth "$NETLIFY_AUTH_TOKEN"
 
-      # Fail the workflow AFTER the ledger is safely committed, so a broken engine is
-      # loud in the Actions UI instead of showing green while coverage quietly dies.
       - name: verify coverage
         run: |
           node -e '
@@ -149,25 +118,16 @@ jobs:
             const fail = (m) => { console.error("FAIL: " + m); bad = 1; };
             const warn = (m) => console.warn("coverage: " + m);
             const say = (m) => console.log("coverage: " + m);
-            // HARD failures only for a wire that is actually BROKEN, never for slow.
             if (!s.searchConfigured) fail("search is not working - this wire is blind to anyone you do not already follow.");
             const warm = s.warmedUp !== false;
             const sc = s.searchCoverage || {};
             const bc = s.backfillCoverage || {};
             const reqs = (sc.requests || 0) + (bc.requests || 0);
             const swept = (sc.sweptThisRun || 0) + (bc.sweptThisRun || 0);
-            // A configured wire that burned requests yet returned zero sweeps is dead, not budgeted.
             if (s.searchConfigured && warm && reqs > 0 && swept === 0) fail("search returned 0 sweeps this run - session is dead or fully rate-limited.");
-            // Data integrity: nothing incomplete may be published.
             if ((s.quality?.incompleteOffers || 0) > 0) fail(s.quality.incompleteOffers + " incomplete offers reached publication.");
             if (!warm) { say("warming up: latency not yet meaningful on a cold ledger"); }
             else {
-              // Everything below is a LATENCY envelope, not a correctness failure. This wire
-              // is incremental and watermarked, so a school that floods more posts per sweep
-              // than one page can hold keeps its watermark a page behind wall-clock (the
-              // documented busy-program case), and the backfill bootstrap deliberately shrinks
-              // the live share of the quota. Both are expected, lose nothing, and recover on
-              // their own - they warn, they do not fail the run.
               const bf = s.backfill && s.backfill.totalWindows > 0 ? s.backfill : null;
               const bfActive = !!(bf && (bf.remainingWindows || 0) > 0);
               const bfJustDone = !!(bf && !bfActive && bf.at && (Date.now() - new Date(bf.at).getTime()) < 6 * 3600e3);
@@ -178,31 +138,8 @@ jobs:
               toleranceH = Math.min(toleranceH, 24);
               const stale = (s.staleSchools || []).filter((x) => x.hours === null || x.hours > 2);
               const modeLabel = bfActive ? "backfill bootstrap" : (bfJustDone ? "backfill drain grace" : "live");
-              // Optional hard fire alarm: when more than 20 schools are stale beyond a
-              // multi-day ceiling (or never swept at all) the run is genuinely unable to
-              // cover them.
-              //
-              // It must never be STRICTER than the envelope it backstops. A flat 6h against
-              // a 24h envelope meant any real outage kept failing every run for hours after
-              // the engine was fixed, while the backlog it created drained normally — the
-              // alarm was reporting the past, and burying the run that repaired it. The
-              // ceiling is now the envelope itself, with a floor so a fast wire still has one.
-              // Set OFFERWIRE_STALE_CEILING_H to raise that floor.
-              //
-              // Nothing is lost by being patient here: a dead engine is caught within one run
-              // by the searchConfigured and zero-sweep checks above, which is what actually
-              // pages you. This one is the slow-burn backstop.
               const hardCeiling = Math.max(Number(process.env.OFFERWIRE_STALE_CEILING_H || 12), toleranceH);
               const stuck = (s.staleSchools || []).filter((x) => x.hours === null || x.hours > hardCeiling);
-              // A block upstream makes EVERY school go stale at once, so this backstop
-              // would re-fail the run every 15 minutes for a cause the block escalation
-              // in src/pipeline.js already reports on its own (and re-raises every ~6h).
-              // Two alarms for one fault is how an alarm gets ignored: while search is
-              // being turned away, say it and let the block own the failure.
-              // An outage leaves EVERY school stale at once, and the backstop must not
-              // fire on that backlog either while it is being swept away - that is the
-              // same fault reported twice, once as the block and once as its own wake.
-              // One full live pass is what draining it takes; give it two, with a floor.
               const sinceBlockH = s.lastBlockedAt ? (Date.now() - new Date(s.lastBlockedAt).getTime()) / 36e5 : Infinity;
               const draining = sinceBlockH < Math.max(3, expectedH * 2);
               if (s.searchBlocked) say(stuck.length + " schools stale >" + hardCeiling + "h, but search is blocked by X - the block is the fault, not coverage (" + (s.blockedRuns || 0) + " run(s) in a row).");

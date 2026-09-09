@@ -1,22 +1,3 @@
-// Rebuilds data/players.json, data/offers.json, and data/watchlist.json FROM SCRATCH by
-// replaying data/raw/*.ndjson through the current (fixed) pipeline.
-//
-// Why this exists: the ledger currently committed was written by the wire's very first
-// run, before the precision fixes in src/pipeline.js, src/extract/rules.js, and
-// src/resolve/schools.js existed. That run's rules-only extraction had the bugs
-// documented in HANDOFF.md Blocker 1, and the ledger still carries their output —
-// real non-recruit accounts (a US Representative, a WikiLeaks account, "Emergency
-// Broadcast System") sitting in data/players.json and, worse, in the PROMOTED
-// watchlist, which scripts/plan-lists.mjs would otherwise tell you to paste into a
-// permanent X List. Patching individual bad rows by hand cannot be trusted to find
-// everything a bug like that produced; replaying the whole archive through the fixed
-// code can.
-//
-// This does NOT touch data/raw/*.ndjson (the archive is the append-only source of
-// truth) or data/state.json (search watermarks are unrelated to ledger content).
-//
-//   node scripts/rebuild-ledger.mjs            # dry run, prints before/after counts
-//   node scripts/rebuild-ledger.mjs --write    # applies it and rewrites data/*.json
 import fs from 'node:fs';
 import path from 'node:path';
 import { prefilter, rulesOnlyOffers, upsert } from '../src/pipeline.js';
@@ -40,8 +21,6 @@ const posts = fs.readdirSync(rawDir).sort().flatMap((f) =>
   fs.readFileSync(path.join(rawDir, f), 'utf8').split('\n').filter(Boolean).map((l) => JSON.parse(l)));
 console.log(`replaying ${posts.length} archived posts through the current pipeline...`);
 
-// Replays must be byte-for-byte reproducible. Use the newest evidence timestamp as
-// the observation clock instead of wall time, which otherwise churns every ledger row.
 const replayMs = Math.max(...posts.map((p) => new Date(p.createdAt).getTime()).filter(Number.isFinite));
 const replayAt = Number.isFinite(replayMs) ? new Date(replayMs).toISOString() : '1970-01-01T00:00:00.000Z';
 
@@ -74,8 +53,6 @@ for (const p of candidates) {
 }
 watch.promote(wl, { observedAt: replayAt });
 
-// Same tier + per-player offer stats as the live pipeline, so a rebuilt ledger is
-// byte-identical to what the wire would have written.
 const playerStats = decorateOffers(db.offers);
 for (const p of db.players) {
   const st = playerStats.get(p.id);

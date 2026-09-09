@@ -1,15 +1,5 @@
 name: probe
 
-# Hand-run diagnostics that need the repository's secrets and cannot be answered from a
-# workflow log. Nothing here touches the ledger or the site.
-#
-#   block   — is X refusing this runner's address, or this account?
-#             (see scripts/probe-block.mjs for how to read the verdict)
-#   netlify — where are the account's build minutes going?
-#   warp    — same block question, but with the browser tunnelled out through
-#             Cloudflare WARP instead of the runner's Azure address. This is the free,
-#             nothing-local answer to "the ADDRESS is scored" IF Cloudflare's ranges
-#             are not scored too — which is exactly what this measures.
 on:
   workflow_dispatch:
     inputs:

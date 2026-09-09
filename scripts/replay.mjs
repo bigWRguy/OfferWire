@@ -1,13 +1,3 @@
-// Replay archived posts through the ACTUAL extraction chain — no network, no search
-// budget, and no drift from src/pipeline.js.
-//
-// This used to carry its own copy of the extraction logic, which silently fell out of
-// sync with src/pipeline.js and made every precision measurement taken against it
-// measure the wrong code. It now imports prefilter() and rulesOnlyOffers() directly, so
-// a change to pipeline.js is reflected here with zero duplication.
-//
-//   node scripts/replay.mjs            # funnel summary + offers
-//   node scripts/replay.mjs --rejected # also show what the rules prefilter threw away
 import fs from 'node:fs';
 import path from 'node:path';
 import { prefilter, rulesOnlyOffers, rulesOnlyRejectionReason } from '../src/pipeline.js';
@@ -24,7 +14,6 @@ if (!fs.existsSync(dir)) {
 const posts = fs.readdirSync(dir).flatMap((f) =>
   fs.readFileSync(path.join(dir, f), 'utf8').split('\n').filter(Boolean).map((l) => JSON.parse(l)));
 
-// prefilter() logs its own funnel line; capture it instead of printing twice.
 let prefilterLine = '';
 const audit = { prefilter: { accepted: 0, rejected: 0, reasons: {}, samples: [] } };
 const candidates = prefilter(posts, (s) => { prefilterLine = s; }, audit);
@@ -77,10 +66,6 @@ for (const o of offers) {
 }
 
 if (showRejected) {
-  // Recruit-shaped misses first: these reasons mean a post READ like a real offer but a
-  // field the rules insist on was missing. Read them, fix a rule, re-measure — that is
-  // the whole improvement loop. Pure noise (bare mentions, unresolvable schools) comes
-  // after, with fewer samples.
   const near = ['player_missing_class_year', 'player_missing_football_context', 'player_missing_position',
     'reporter_missing_class_year', 'reporter_missing_position', 'reporter_missing_player_name',
     'player_display_name_unusable', 'author_not_recruit:no recruit fields', 'author_not_recruit:not high-school recruit'];

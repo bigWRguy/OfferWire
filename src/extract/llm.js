@@ -1,17 +1,3 @@
-// LLM extraction pass.
-//
-// rules.js is recall-oriented and deliberately noisy. This is where a post becomes a
-// structured offer event — or gets thrown out. Three things make it affordable at wire
-// volume:
-//
-//   1. Only posts that survive the rules prefilter are sent.
-//   2. Posts are batched, so one request covers many.
-//   3. The system prompt (instructions + the full 136-school roster) is byte-stable and
-//      cached. The roster is what makes school disambiguation accurate; prompt caching
-//      is what makes carrying it on every request affordable.
-//
-// If no Anthropic credential is present the pass is skipped and the pipeline runs
-// rules-only at reduced confidence. The wire still works; it is just blunter.
 import Anthropic from '@anthropic-ai/sdk';
 import { z } from 'zod';
 import { betaZodOutputFormat } from '@anthropic-ai/sdk/helpers/beta/zod';
@@ -24,8 +10,6 @@ export const enabled = () => !!(process.env.ANTHROPIC_API_KEY || process.env.ANT
 const ResultSchema = z.object({
   post_index: z.number().int(),
   is_new_offer: z.boolean(),
-  // One entry per (player, school) pair: a single post routinely announces one player
-  // collecting several offers, or one school offering several players.
   offers: z.array(z.object({
     player_name: z.string(),
     player_handle: z.string().nullable(),
@@ -111,10 +95,6 @@ function renderPost(p, i) {
   return `<post index="${i}">\n${meta}\n---\n${p.text}\n</post>`;
 }
 
-/**
- * @param {Array} posts candidates that survived the rules prefilter
- * @returns {Promise<Map<string, object>>} post id -> verdict
- */
 export async function extractBatch(posts, { batchSize = 12, cache } = {}) {
   const out = new Map();
   if (!posts.length || !enabled()) return out;
@@ -138,8 +118,6 @@ export async function extractBatch(posts, { batchSize = 12, cache } = {}) {
         system: [{
           type: 'text',
           text: SYSTEM,
-          // Stable prefix: instructions + roster never change, so every call after the
-          // first is a cache hit on ~6k tokens.
           cache_control: { type: 'ephemeral' },
         }],
         thinking: { type: 'adaptive' },
@@ -158,8 +136,6 @@ export async function extractBatch(posts, { batchSize = 12, cache } = {}) {
         c.set(entry.key, r);
       }
     } catch (e) {
-      // A failed batch must never take the run down. Those posts fall back to their
-      // rules-only verdict and are retried next run (they are deliberately not cached).
       console.error(`  [llm] batch of ${chunk.length} failed: ${e.message}`);
     }
   }

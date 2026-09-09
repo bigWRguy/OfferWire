@@ -1,12 +1,3 @@
-// Rebuilds site/status.json (and data/site/status.json) from the CURRENT on-disk store,
-// without running the wire. This exists so a manually-rebuilt ledger can ship with an
-// accurate, non-stale status block instead of whatever the last live run wrote.
-//
-// It mirrors the status shape that src/pipeline.js main() writes, so the site's health()
-// renderer behaves identically. It never fabricates data: every field is derived from
-// data/state.json (watermarks, coverage) and the ledger on disk.
-//
-//   node scripts/build-status.mjs
 import path from 'node:path';
 import { readJson, writeJson, ROOT } from '../src/lib/store.js';
 import { schoolJobs, backfillJobs, backfillProgress } from '../src/collect/queries.js';
@@ -14,7 +5,6 @@ import { loadCredentials } from '../src/collect/search.js';
 
 const now = () => new Date().toISOString();
 
-/** Identical to pipeline.staleSchools: schools whose watermark is missing or behind. */
 function staleSchools(state, thresholdHours = 2) {
   const marks = state.watermarks || {};
   return schoolJobs()
@@ -36,11 +26,6 @@ const recent = offers.map((offer) => {
   return { ...offer, playerName: player.name || offer.playerName, classYear: player.classYear ?? null, position: player.position ?? null };
 });
 
-// An offer is "complete" when the player is named and their class is known. Position is
-// deliberately NOT part of the bar anymore: the extractor publishes real self-announced
-// offers whose verified bio states measurables but no position (the first reporter post
-// or the LLM fills the blank). Those rows are correct as published, so counting them as
-// "incomplete" just makes the coverage gate fail on nothing.
 const complete = recent.filter((o) => o.playerName && o.classYear).length;
 
 const backfillDays = Number(state.backfill?.days || 0);
@@ -58,9 +43,6 @@ const status = {
   generatedAt: now(),
   searchCredentials: loadCredentials().length,
   searchConfigured: state.searchConfigured === true,
-  // X's bot check is served per runner address. While it is refusing us, every
-  // downstream latency number is a consequence of that one cause, so the coverage
-  // gate needs to see the cause and not shout about the symptom every 15 minutes.
   searchBlocked: state.searchBlocked === true,
   blockedRuns: state.blockedRuns || 0,
   lastBlockedAt: state.lastBlockedAt || null,

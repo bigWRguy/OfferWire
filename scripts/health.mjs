@@ -1,8 +1,3 @@
-// Reader health. Run this whenever the wire looks quiet — it distinguishes "nothing is
-// happening" from "a reader died silently", which is the failure mode that would cost
-// you a recruiting cycle before you noticed.
-//
-//   node scripts/health.mjs
 import fs from 'node:fs';
 import path from 'node:path';
 import { fetchList, fetchProfile, lagHours } from '../src/collect/x.js';
@@ -14,7 +9,6 @@ const cfg = (f) => JSON.parse(fs.readFileSync(path.join(CONFIG, f), 'utf8'));
 const fmt = (h) => (h === Infinity ? 'never' : h < 1 ? `${Math.round(h * 60)}m` : h < 48 ? `${h.toFixed(1)}h` : `${Math.round(h / 24)}d`);
 let problems = 0;
 
-// ---------------------------------------------------------------------------
 console.log('== SEARCH (the engine) ==');
 const creds = loadCredentials();
 if (!creds.length) {
@@ -25,8 +19,6 @@ if (!creds.length) {
   console.log('  services already have. Set X_AUTH_TOKEN + X_CT0 or X_SESSIONS.');
 } else {
   console.log(`  ${creds.length} credential(s): ${creds.map((c) => `${c.id} (${c.kind})`).join(', ')}`);
-  // A live one-query probe is the only honest health check: it proves the cookies are
-  // still valid AND that X is still serving search to this session.
   const { SearchSession } = await import('../src/collect/search.js');
   const s = new SearchSession(creds[0]);
   try {
@@ -38,7 +30,6 @@ if (!creds.length) {
   finally { await s.close(); }
 }
 
-// ---------------------------------------------------------------------------
 console.log('\n== PER-SCHOOL COVERAGE ==');
 const state = readJson('state.json', {});
 const marks = state.watermarks || {};
@@ -96,7 +87,6 @@ if (state.rateBudget) {
   }
 }
 
-// ---------------------------------------------------------------------------
 console.log('\n== LISTS (corroboration) ==');
 const lists = cfg('lists.json');
 const active = (lists.lists || []).filter((l) => l.id && !l.disabled);
@@ -113,7 +103,6 @@ for (const l of active) {
   if (r.posts.length >= 65) console.log('     at the ~68-post ceiling — split this List or it is dropping posts between runs.');
 }
 
-// ---------------------------------------------------------------------------
 console.log('\n== PROFILE WIDGETS (backfill only) ==');
 const sample = process.argv.slice(2).length ? process.argv.slice(2) : ['TexasFootball', 'OhioStateFB', 'Hayesfawcett3', 'GeorgiaFootball'];
 for (const h of sample) {
@@ -123,7 +112,6 @@ for (const h of sample) {
   console.log(`  @${h}: ${r.posts.length} posts / newest ${fmt(lag)} ago${lag > 24 * 14 ? '   <-- FROZEN widget (expected; this is why search is the engine)' : ''}`);
 }
 
-// ---------------------------------------------------------------------------
 console.log('\n== LEDGER ==');
 const offers = readJson('offers.json', []);
 const players = readJson('players.json', []);

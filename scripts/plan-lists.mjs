@@ -1,8 +1,3 @@
-// Prints the exact handle rosters to paste into each X List, sharded so that no single
-// List outruns the ~68-post window the syndication reader returns.
-//
-//   node scripts/plan-lists.mjs            # print all shards
-//   node scripts/plan-lists.mjs --new      # only handles promoted since the last run
 import fs from 'node:fs';
 import path from 'node:path';
 import { SCHOOLS } from '../src/resolve/schools.js';

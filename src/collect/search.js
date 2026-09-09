@@ -1,31 +1,3 @@
-// ============================================================================
-// X SEARCH — the engine.
-//
-// Per-school targeted search, driven through a real browser.
-//
-// WHY A BROWSER. X gates SearchTimeline behind a per-request signed header
-// (`x-client-transaction-id`, computed in their JS from the page's
-// twitter-site-verification key plus the loading-x-anim SVG frames). Measured
-// 2026-08-27 on one session, same cookies, same minute:
-//
-//     UserTweets      -> 200, 218KB of posts
-//     SearchTimeline  -> 404, empty      (unsigned)
-//     SearchTimeline  -> 404, empty      (dummy signatures, several lengths)
-//
-// Rather than forge that signature, we run X's own client and let it sign its own
-// requests, then read the JSON off the wire. Same data, full fidelity, no
-// reimplementation of anything X protects — and nothing to repair when they rotate the
-// algorithm, because we never depended on it.
-//
-// Verified working: query "(@AlabamaFTBL OR \"Alabama\") (offer OR offered)
-// -filter:retweets" returned 20 posts including a 2028 RB's own announcement
-// ("#AGTG ... blessed to receive an offer from Unive[rsity of Alabama]") plus two
-// independent reporter posts on the same offer.
-//
-// COST. One browser process, reused across every query in a run. Navigation per query,
-// scroll for extra pages. Rate limits are X's usual ~50 SearchTimeline calls per
-// 15-minute window per account, which is what scripts/coverage.mjs plans against.
-// ============================================================================
 import { sleep } from '../lib/http.js';
 
 let _pw = null;
@@ -34,23 +6,13 @@ async function playwright() {
   return _pw;
 }
 
-// The user agent must agree with the browser actually running, or the bot check fails
-// before it starts. The old value claimed Windows + Chrome 125 while the runner served
-// Linux client hints from a headless build — a mismatch no real browser produces. Keep
-// the real platform and the real version; the only edit is hiding the headless build,
-// which the shipped UA string announces outright.
 const uaFor = (version) => process.env.OFFERWIRE_UA
   || `Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/${String(version).split('.')[0] || '141'}.0.0.0 Safari/537.36`;
 
-/** X's bot-check holding page. Its own words, not ours — see passInterstitial(). */
 const INTERSTITIAL = /performing security verification|security service to protect against malicious bots|verifying you are human|just a moment|checking your browser|enable javascript and cookies to continue/;
-/** How long the holding page is allowed to clear before the job is given up on. */
 const CHALLENGE_MS = Number(process.env.OFFERWIRE_CHALLENGE_MS || 30000);
-// Where the browser (and only the browser) dials out from. Empty means straight out of
-// the runner. Accepts anything Playwright does: socks5://host:port, http://host:port.
 const PROXY = (process.env.OFFERWIRE_PROXY || '').trim();
 
-/** Credentials. Several sessions can be pooled to multiply the sweep budget. */
 export function loadCredentials() {
   const creds = [];
   if (process.env.X_SESSIONS) {
@@ -70,7 +32,6 @@ export function loadCredentials() {
 
 export const configured = () => loadCredentials().length > 0;
 
-/** Structure-agnostic harvest; survives X reshaping the payload. */
 function harvest(node, out = [], seen = new Set()) {
   if (!node || typeof node !== 'object') return out;
   if (Array.isArray(node)) { for (const n of node) harvest(n, out, seen); return out; }
@@ -90,19 +51,12 @@ function harvest(node, out = [], seen = new Set()) {
           text: node.note_tweet?.note_tweet_results?.result?.text || legacy.full_text,
           author: String(uc.screen_name || ul.screen_name || '').toLowerCase(),
           authorName: uc.name || ul.name || '',
-          // The author's bio is gold for recruit identification — it routinely carries
-          // "C/O 2028 | WR | 6'2 185 | Some HS", which is class, position, size and
-          // school for free, straight off the offer post.
           authorBio: (bio.description || ul.description || '').replace(/\s+/g, ' ').trim() || null,
           authorLocation: (u.location?.location || ul.location || '') || null,
           authorFollowers: ul.followers_count ?? null,
           authorVerified: !!(u.is_blue_verified || ul.verified),
           createdAt: t.toISOString(),
           mentions: (legacy.entities?.user_mentions || []).map((m) => String(m.screen_name).toLowerCase()),
-          // X gives the DISPLAY NAME of every tagged account, not just the handle. When a
-          // reporter writes "2028 RB Jayshawn Mitchell (@JAYMITCH_1) picks up an offer",
-          // the recruit's real name is already in the payload — no name-guessing from
-          // prose required. This is what lets the wire work without an LLM.
           mentioned: (legacy.entities?.user_mentions || []).map((m) => ({
             handle: String(m.screen_name || '').toLowerCase(),
             name: m.name || null,
@@ -120,7 +74,6 @@ function harvest(node, out = [], seen = new Set()) {
   return out;
 }
 
-/** A live browser session bound to one credential. */
 export class SearchSession {
   constructor(cred, opts = {}) {
     this.cred = cred;
@@ -141,16 +94,8 @@ export class SearchSession {
   async open() {
     const { chromium } = await playwright();
     this.browser = await chromium.launch({
-      // `channel: 'chromium'` is what gets the FULL browser in new headless mode.
-      // Plain `headless: true` launches Playwright's headless shell, a stripped build
-      // that fails X's bot check on fingerprint alone and never reaches a timeline.
       channel: 'chromium',
       headless: this.headless,
-      // X's bot check scores the address the browser comes from, and GitHub-hosted
-      // runners sit in Azure ranges it refuses outright. OFFERWIRE_PROXY moves ONLY the
-      // browser's traffic somewhere else; the runner's own networking (checkout, the
-      // Actions control channel, the ledger push) is deliberately left alone, so a dead
-      // tunnel costs a run rather than the job.
       ...(PROXY ? { proxy: { server: PROXY } } : {}),
       args: ['--disable-blink-features=AutomationControlled', '--no-sandbox', '--disable-dev-shm-usage'],
     });
@@ -164,18 +109,12 @@ export class SearchSession {
       { name: 'auth_token', value: this.cred.authToken, domain: '.x.com', path: '/', httpOnly: true, secure: true },
       { name: 'ct0', value: this.cred.ct0, domain: '.x.com', path: '/', secure: true },
     ]);
-    // Images and media are the bulk of the bytes and none of the signal. Scope the
-    // interception to the CDN that actually serves them: a '**/*' route puts an
-    // interceptor in front of every request on the page, including the bot check's own,
-    // and both the blocked assets and the added latency are things it can score. Nothing
-    // on x.com itself is intercepted any more.
     await ctx.route('https://*.twimg.com/**', (route) => {
       const t = route.request().resourceType();
       if (t === 'image' || t === 'media' || t === 'font') return route.abort();
       return route.continue();
     });
 
-    // navigator.webdriver is the first thing every bot check reads.
     await ctx.addInitScript(() => {
       Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
     });
@@ -192,20 +131,10 @@ export class SearchSession {
     return this;
   }
 
-  /**
-   * Take the bot check on a page that costs nothing, so no search job pays for it.
-   *
-   * The clearance is a context cookie: pass it once here and every query afterwards
-   * navigates straight into a timeline. Failing this is not fatal — a search can still
-   * sit through a challenge of its own — so it never throws.
-   */
   async warmUp() {
     try {
       await this.page.goto('https://x.com/home', { waitUntil: 'domcontentloaded', timeout: 45000 });
       await this.page.waitForTimeout(700);
-      // Be generous HERE and nowhere else. This is paid once per run, while the same
-      // patience inside a search job is multiplied by the job count, and clearing it
-      // here means no job meets the check at all.
       await this.passInterstitial(CHALLENGE_MS * 2);
     } catch {}
     return this;
@@ -213,15 +142,6 @@ export class SearchSession {
 
   async close() { try { await this.browser?.close(); } catch {} }
 
-  /**
-   * Why did the page never call SearchTimeline?
-   *
-   * "response missing" on its own is unactionable — it looks identical whether the
-   * cookies died, the account got locked, X threw an interstitial, or the runner was
-   * simply slow. X does NOT redirect a dead session away from /search any more; it
-   * renders a login wall at the same URL, so a URL check alone reports nothing. Read
-   * what the page actually says, once per session, and name the failure.
-   */
   async diagnose() {
     let title = '', text = '';
     try {
@@ -246,7 +166,6 @@ export class SearchSession {
     return { label: `no timeline call; page said: ${snippet}`, snippet };
   }
 
-  /** Is the bot-check interstitial on screen right now? */
   async onInterstitial() {
     try {
       const hay = ((await this.page.title()) + ' ' + await this.page.evaluate(() => document.body?.innerText || '')).toLowerCase();
@@ -254,18 +173,6 @@ export class SearchSession {
     } catch { return false; }
   }
 
-  /**
-   * Sit through X's bot-check interstitial.
-   *
-   * X started serving "Performing security verification" ahead of x.com on this runner's
-   * IP range. It is a passive check that clears itself and then loads the real page, but
-   * it costs far more than the settle budget a normal search is given, so every query
-   * timed out on the holding page and reported an empty timeline. Waiting it out once
-   * banks the clearance cookie in this browser context and the rest of the run is normal.
-   *
-   * @returns {boolean} whether a challenge was seen (and therefore whether the caller
-   *                    should give the timeline another chance to fire)
-   */
   async passInterstitial(budgetMs = CHALLENGE_MS) {
     if (!await this.onInterstitial()) return false;
     this.challengesSeen++;
@@ -274,10 +181,8 @@ export class SearchSession {
     let reloaded = false;
     while (Date.now() < deadline) {
       await this.page.waitForTimeout(1000);
-      if (this.timelineResponses) return true;      // it cleared straight into the timeline
+      if (this.timelineResponses) return true;
       if (!await this.onInterstitial()) return true;
-      // A check that has sat still for half the budget is stalled rather than working.
-      // One reload is the cheapest thing that has ever unstuck one.
       if (!reloaded && Date.now() - started > budgetMs / 2) {
         reloaded = true;
         try { await this.page.reload({ waitUntil: 'domcontentloaded', timeout: 45000 }); } catch {}
@@ -287,10 +192,6 @@ export class SearchSession {
     return true;
   }
 
-  /**
-   * Run one query. `scrolls` fetches additional pages — each scroll triggers another
-   * signed SearchTimeline call, so it costs budget like any other request.
-   */
   async search(query, { scrolls = 0, settleMs = 7000, challengeMs = CHALLENGE_MS } = {}) {
     if (!this.page) throw new Error('session not opened');
     this.captured = [];
@@ -301,10 +202,6 @@ export class SearchSession {
     this.challengeStuck = false;
 
     const url = 'https://x.com/search?q=' + encodeURIComponent(query) + '&f=live&src=typed_query';
-    // Arm the waiter BEFORE navigation. The old code attached it after goto(), so fast
-    // responses were routinely missed and every query paid the full timeout. Worse, a
-    // page that never called SearchTimeline looked like a legitimate empty result and
-    // caused a historical slice to be marked complete forever.
     const firstTimeline = this.page.waitForResponse((r) => r.url().includes('SearchTimeline'), { timeout: settleMs })
       .catch(() => null);
     try {
@@ -317,15 +214,11 @@ export class SearchSession {
     await firstTimeline;
     await this.page.waitForTimeout(700);
 
-    // A bot check swallows the whole settle budget on the holding page. Wait it out and
-    // give the timeline a second, full-length chance rather than calling the query dead.
     if (!this.timelineResponses && await this.passInterstitial(challengeMs)) {
       const afterChallenge = this.page.waitForResponse((r) => r.url().includes('SearchTimeline'), { timeout: settleMs })
         .catch(() => null);
       await afterChallenge;
       await this.page.waitForTimeout(700);
-      // Some challenges land on x.com rather than bouncing back to the query. One reload
-      // on a now-cleared context is cheap; the alternative is discarding the whole job.
       if (!this.timelineResponses && !this.challengeStuck) {
         const afterReload = this.page.waitForResponse((r) => r.url().includes('SearchTimeline'), { timeout: settleMs })
           .catch(() => null);
@@ -368,7 +261,7 @@ export class SearchSession {
       if (!await nextTimeline) break;
       await this.page.waitForTimeout(700);
       if (this.rateLimited) break;
-      if (this.captured.length === before) break; // no more pages
+      if (this.captured.length === before) break;
     }
 
     if (this.rateLimited) {
@@ -381,11 +274,8 @@ export class SearchSession {
   }
 }
 
-/** X search understands epoch-second bounds; this is what makes sweeps incremental. */
 const withSince = (query, sinceMs) => `${query} since_time:${Math.floor(sinceMs / 1000)}`;
 
-/** Freeze a live interval before paging it.  A busy query must page backward
- * through the same upper bound instead of rereading its newest page forever. */
 export function liveWindowQuery(job, mark, nowMs, overlapMs = 5 * 60e3) {
   const active = mark.window && !mark.window.completed ? mark.window : null;
   const lowerMs = active ? new Date(active.lower).getTime() : Math.max(0, (mark.at ? new Date(mark.at).getTime() : nowMs - 2 * 3600e3) - overlapMs);
@@ -402,10 +292,6 @@ export function advanceLiveWindow(mark, window, posts, truncated) {
   mark.at = window.upper; mark.truncated = false; delete mark.window; return true;
 }
 
-/**
- * Oldest live work stays first, but historical work receives a predictable fraction
- * of the window instead of racing a second workflow for the same credential quota.
- */
 export function prioritizeJobs(jobs, marks = {}, backfillShare = 0.25) {
   const byAge = (a, b) => {
     const am = marks[a.key]?.at ? new Date(marks[a.key].at).getTime() : 0;
@@ -431,17 +317,6 @@ export function prioritizeJobs(jobs, marks = {}, backfillShare = 0.25) {
   return ordered;
 }
 
-/**
- * Sweep jobs oldest-watermark-first, spending until the request budget runs out.
- *
- * Jobs not reached this cycle keep their older watermark and go first next cycle with a
- * correspondingly wider window, so COVERAGE IS COMPLETE at any budget — pool size and
- * cadence buy latency, never completeness. A truncated job advances its watermark only
- * as far as it actually read, never to "now".
- *
- * @param {Array}  jobs  [{ key, query, priority }]
- * @param {object} state persisted state (watermarks live here)
- */
 export async function sweep(jobs, state, {
   budgetPerCred = Number(process.env.OFFERWIRE_REQUESTS_PER_CRED || 30),
   scrolls = Number(process.env.OFFERWIRE_SCROLLS || 1),
@@ -475,7 +350,7 @@ export async function sweep(jobs, state, {
       while (cursor < ordered.length && spent < budgetPerCred) {
         const job = ordered[cursor];
         const since = marks[job.key]?.at;
-        const sinceMs = since ? new Date(since).getTime() : now - 12 * 3600e3; // cold start: 12h
+        const sinceMs = since ? new Date(since).getTime() : now - 12 * 3600e3;
         const fixedCursor = job.fixedWindow && marks[job.key]?.cursorUntil;
         const live = !job.fixedWindow ? liveWindowQuery(job, marks[job.key] || {}, now) : null;
         const query = job.fixedWindow
@@ -493,8 +368,6 @@ export async function sweep(jobs, state, {
           if (errors.length < 8) errors.push(`${job.key}: ${res.error}`);
           if (res.rateLimited) { log(`  search: ${cred.id} rate limited after ${swept} jobs`); break; }
           if (session.loggedOut) { log(`  search: ${cred.id} SESSION EXPIRED — refresh its cookies`); break; }
-          // A bot check this session cannot pass will not pass on the next job either,
-          // and each attempt costs the full challenge budget. Three is enough to know.
           if (res.challengeStuck && ++stuck >= 3) {
             log(`  search: ${cred.id} BLOCKED — X's bot check will not clear for this session`);
             break;
@@ -523,11 +396,10 @@ export async function sweep(jobs, state, {
           await sleep(900 + Math.random() * 900);
           continue;
         }
-        // A full page leaves this frozen window pending; its watermark advances only after every page is covered.
         const truncated = res.posts.length >= 18 * (1 + scrolls);
         advanceLiveWindow(m, live.window, res.posts, truncated);
 
-        await sleep(900 + Math.random() * 900); // human-ish pacing
+        await sleep(900 + Math.random() * 900);
       }
     } catch (e) {
       errors.push(`session ${cred.id}: ${e.message}`);
@@ -541,19 +413,11 @@ export async function sweep(jobs, state, {
   for (const e of errors) log(`    ! ${e}`);
 
   const ok = swept > 0 || jobs.length === 0;
-  // Being rate limited is NORMAL — it is what a fully-spent budget looks like, and it
-  // happens on every run once the pool is saturated. It must not be reported the same
-  // way as a broken engine, or the scheduler cries wolf on healthy runs and the real
-  // failure (expired cookies) gets lost in the noise.
   const rateLimited = errors.some((e) => /rate limited/i.test(e));
   const expired = errors.some((e) => /session expired/i.test(e));
-  // A bot check is environmental, not a broken setup: it is applied per runner address
-  // and comes and goes between runs on the same credential. Report it in its own right
-  // so the caller can wait for the next run instead of declaring the engine dead.
   const blocked = !ok && errors.some((e) => /bot-check interstitial did not clear/i.test(e));
   return {
     ok,
-    // `transient` says: nothing is wrong with the setup, we simply ran out of budget.
     transient: !ok && (rateLimited || blocked) && !expired,
     blocked,
     rateLimited,

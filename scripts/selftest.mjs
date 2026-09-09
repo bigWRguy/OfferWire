@@ -1,10 +1,3 @@
-// Offline correctness check for the deterministic layers: school resolution, the
-// offer/not-offer classifier, and player identity. No network, no LLM, no API key.
-//
-// These cases are written from the phrasings that actually dominate offer posts,
-// including the ones that historically produce FALSE positives — commitment posts,
-// offer-list recaps, hypotheticals and walk-on offers. A rules layer that passes only
-// the happy path is worthless, so most of the value here is in the negatives.
 import { findSchools, explicitNonFbsOfferTarget, foreignInstitution, nonFbsRosterSize, SCHOOLS as SCHOOLS_LIST } from '../src/resolve/schools.js';
 import { classify, findClassYear, findPosition, findNameCandidates, findTaggedRecruit, findReportedName, handleClassYear, maskAwardYears } from '../src/extract/rules.js';
 import { nameKey, fuzzyKey, canMerge, parseBio, looksLikeRecruit, cleanPersonName } from '../src/resolve/players.js';
@@ -42,10 +35,6 @@ t('bare nickname Tigers not guessed', !ids('Tigers have offered him').length);
 t('no false school in plain text', !ids('He had a great game on Friday night').length,
   JSON.stringify(ids('He had a great game on Friday night')));
 
-// A post naming a NON-FBS institution as the offer source must not be filed against an
-// FBS school that appears only as a trailing cheer. Live failure: "Blessed to receive
-// an offer from Community Christian College! ... Go cyclones!" filed a fabricated Iowa
-// State (P4) offer.
 console.log('non-FBS offer target veto');
 t('community college offer with a cheer is vetoed',
   veto('Blessed to receive an offer from Community Christian College! Go cyclones!'));
@@ -129,14 +118,10 @@ t('at-style camel display name is cleaned', cleanPersonName('@GrahamCentimole') 
 t('ordinary Mc surname is not camel-split', cleanPersonName('Sean McDonald') === 'Sean McDonald');
 
 console.log('bio parsing');
-// Every case below is a real bio that produced a WRONG field before the fix named in
-// the comment. They exist to stop those specific regressions.
 const B = (bio) => parseBio(bio, 2026);
-// "FB" here means FOOTBALL, not fullback -> position must be WR
 t('FB is not a position', B('Garces memorial high school | W189 | FB (WR and FS)|4.19 weighted gpa|').position === 'WR',
   JSON.stringify(B('Garces memorial high school | W189 | FB (WR and FS)|4.19 weighted gpa|')));
 t('qualified GPA parses', B('| 4.19 weighted gpa |').gpa === 4.19);
-// "NCAA ID #2507673260" was being read as the state of Idaho
 t('NCAA ID is not Idaho', B('Lipscomb Academy |C/O 28| |3.41GPA|OT|6-5 275| NCAA ID #2507673260').state == null,
   String(B('Lipscomb Academy |C/O 28| |3.41GPA|OT|6-5 275| NCAA ID #2507673260').state));
 t('explicit Pos: label wins', B("6'2 255|Pos:DL/LB/H|3 Sport Athlete|NCAA ID:2602827047|").position === 'DL');
@@ -156,9 +141,6 @@ t('specific bio position beats generic ATH', B('3 sport ath | db | C/O 2028').po
 t('position and class can come from structured display name', looksLikeRecruit("6'7 265 | 4.0 GPA", "Kajus Muralis 4-star '28 OT").info.position === 'OT');
 t('forty time', B("6'2 180 | 4.35 40").forty === 4.35);
 
-// Class-year precision, from live data. "Soph All State '25" is the SEASON the award
-// was earned, not the recruit's class: @coltonfitz2028, whose bio read "San Ramon
-// Valley 2028 | Canes National 2028 | Soph All State '25", was filed as class of 2025.
 t('award shorthand never outranks the real class in the same bio',
   B("3⭐WR🏈 | San Ramon Valley 2028 | ⚾OF LHP | Canes National 2028 | 🏈Soph All State '25 | 6.26 60yrd/37.3 Vert").classYear === 2028,
   JSON.stringify(B("3⭐WR🏈 | San Ramon Valley 2028 | ⚾OF LHP | Canes National 2028 | 🏈Soph All State '25 | 6.26 60yrd/37.3 Vert")));
@@ -173,7 +155,6 @@ t('school-suffix with star separator is a class', B("Murrieta Valley HS *28 | 6'
 t('jersey number after a school is not a class', B("Garland HS #28 | 6-2 195 WR").classYear == null);
 t('line position codes parse from a bio ("RT/G" is not a fullback)',
   B("C/28 6-3 280 RT/G Cardinal Newman HS").position === 'RT');
-// An all-state year in a REPORTER post must not hide the class that is also there.
 t('award year in post text does not hide the real class',
   findClassYear("All-State '25 2028 ATH Marcus Lee has been offered by Georgia", 2026) === 2028);
 t('award year alone in post text is not a class',
@@ -188,30 +169,18 @@ t('handle stale year is not a class', HCY('coach2005') == null);
 
 console.log('recruit vs non-recruit');
 const R = (bio) => looksLikeRecruit(bio).ok;
-// A recruit crediting his coach must NOT be filtered out as a coach.
 t('recruit crediting his coach is a recruit',
   R("San Antonio Brennan C/O 28| 4 star | 4.0 GPA | RB/WR/ATH | 5'11 200lbs | 40 4.4 | Head Coach @basorecoach"));
 t('stat-block bio is a recruit', R("C/O 28 Cache HS ||#7|| 6'2 180|| 4.35 40"));
 t('recruit who also runs track is a recruit', R('WR | 6-1 175 | Track & Field | C/O 2029'));
 t('agency is not a recruit', !R('We connect high school & transfer athletes with college programs Info@x.org'));
 t('other sport is not a recruit', !R('c/o 2032 basketball player @exodusnyc scholar'));
-// A real girls'-basketball recruit ("5'11 • 3-Guard • 3.8 GPA • ...AAU") never says the
-// word "basketball", so the keyword-only sport check missed it and let an Alabama-
-// Huntsville women's-hoops offer through as an Alabama football offer.
 t('basketball jargon without the word "basketball" is still the wrong sport',
   !R("2028 • 5'11 • 3-Guard • 3.8 GPA • Victory Christian Academy • Duval Elite AAU"));
 t('coach is not a recruit', !R('Head Coach at Central High | Building men'));
 t('plain basketball guard bio rejected', !R('Class of 2027 | 6-3 guard | 3.1 GPA'));
-// The Air Force search surfaced a girls' flag-football/basketball recruit ("ComboG",
-// "Flag Football") whose bare title-less offer read exactly like a recruit bio. Flag
-// football is a different game; a tackle recruit always names a position or a 40.
 t('flag football without tackle evidence is rejected', !R("Park Hill || 3SSB Della KC || 5'9\" ComboG || CO '28 || 4.0 GPA || Basketball || Flag Football"));
 t('flag football WITH tackle evidence (position) is a recruit', R("6-2 180 WR | Flag Football | C/O 2028"));
-// Bare "Guard" is ambiguous — an OL position as much as a basketball one. A football
-// offer post from @MaverickOwens ("5'11|175lbs|Cl-2030|ATH|Guard|To whom much is
-// given") was DROPPED as "different sport" because "guard" tripped the basketball
-// check and no "football" word was in the bio. Presence of any unambiguous football
-// position code (ATH) settles the sport.
 t('guard alongside a football position code is not basketball',
   R("5'11|175lbs|Cl-2030|ATH|Guard|To whom much is given, much is required!"),
   JSON.stringify(looksLikeRecruit("5'11|175lbs|Cl-2030|ATH|Guard|To whom much is given, much is required!")));
@@ -232,8 +201,6 @@ console.log('reporter-voice extraction (no LLM)');
 const SCH = new Set(['alabamaftbl', 'georgiafootball', 'texasfootball']);
 const KNOWN = new Set(['hayesfawcett3', 'brettgreenberg_']);
 const tag = (mentioned) => findTaggedRecruit({ mentioned }, SCH, KNOWN);
-// X supplies the display name of tagged accounts — this is what removes the need to
-// guess a recruit's name out of prose.
 t('tagged recruit yields handle AND name',
   tag([{ handle: 'jaymitch_1', name: 'Jayshawn Mitchell' }, { handle: 'alabamaftbl', name: 'Alabama Football' }])?.name === 'Jayshawn Mitchell');
 t('school tags are not the recruit',
@@ -242,10 +209,6 @@ t('reporter tags are not the recruit',
   tag([{ handle: 'hayesfawcett3', name: 'Hayes Fawcett' }]) === null);
 t('two unknown tags is ambiguous -> no guess',
   tag([{ handle: 'kid_a', name: 'Aa Bb' }, { handle: 'kid_b', name: 'Cc Dd' }]) === null);
-// A HIGHLIGHTS-style post tags the recruit AND the team account. The team rides an
-// obscure handle that the handle-based filter cannot see, making the post ambiguous
-// and forcing a prose fallback that picked the HIGH SCHOOL as the player. The display
-// name carries the signal: a team account is never the recruit.
 t('team account with obscure handle is not the recruit',
   (() => {
     const r = tag([
@@ -278,18 +241,12 @@ t('decorated display name is rejected as a name but handle kept', (() => {
   const r = tag([{ handle: 'jaymitch_1', name: 'Jayshawn Mitchell / NCAA ID 2512788693' }]);
   return r && r.handle === 'jaymitch_1' && r.name === null;
 })());
-// X returns some display names all-lowercase ("landon cheatum" for a profile that reads
-// "Landon Cheatum"). Before the fix this failed the human-name check and the caller fell
-// back to a worse name scraped out of prose ("Mount Pleasant", a place, not a person).
 t('lowercase display name is re-cased and still accepted', (() => {
   const r = tag([{ handle: 'cheatumlandon', name: 'landon cheatum' }]);
   return r && r.name === 'Landon Cheatum';
 })(), JSON.stringify(tag([{ handle: 'cheatumlandon', name: 'landon cheatum' }])));
 
 console.log('rules-only player gate');
-// A self-announcement with a football-context bio (Football/Track, FBU, or a 40 time)
-// publishes even without a position code; a bare stat-block bio that could be
-// basketball ("5'11 G/F", "6'3 CG", "6'8 F/C") must NOT.
 {
   const [p] = prefilter([{
     id: 't1', author: 'karontaecm', authorName: 'Karontae Cunningham',
@@ -326,7 +283,6 @@ console.log('rules-only player gate');
     recs.length === 0,
     JSON.stringify(recs));
 }
-// …and the class-year fallback rescues the "Marysville HS 28" / handle-2028 shape.
 {
   const [p] = prefilter([{
     id: 't4', author: 'c_burris2028', authorName: 'Collin Burris 3⭐',
@@ -339,8 +295,6 @@ console.log('rules-only player gate');
     recs.length === 1 && recs[0].class_year === 2028,
     JSON.stringify(recs));
 }
-// Live case: @MaverickOwens self-announced an SMU offer; his bio ("ATH | Guard") was
-// rejected as basketball before the football-code fix, so no SMU row ever appeared.
 {
   const [p] = prefilter([{
     id: 't5', author: 'maverickowens', authorName: 'Maverick owens',
@@ -353,7 +307,6 @@ console.log('rules-only player gate');
     recs.length === 1 && recs[0].school_id === 'smu' && recs[0].class_year === 2030 && recs[0].position === 'ATH' && recs[0].player_handle === 'maverickowens',
     JSON.stringify(recs));
 }
-// @SMUFB is a handle surface for smu; the abbreviation and hashtag resolve too.
 t('SMU resolves from handle, abbrev, name and hashtag',
   ids('blessed to receive a offer from @SMUFB').includes('smu')
     && ids('after a great conversation Im blessed to receive from SMU').includes('smu')
@@ -368,8 +321,6 @@ t('no name present -> null', rn('Ole Miss has extended an offer') === null, Stri
 t('school name is never read as a person', rn('Alabama extends offer to 2028 No. 7 RB out of San Antonio') === null, String(rn('Alabama extends offer to 2028 No. 7 RB out of San Antonio')));
 
 console.log('hometown vs program');
-// Half the FBS is named after a state, so a recruit's hometown reads as a program and
-// would file a fabricated offer row under the wrong school.
 t('trailing state is a hometown, not a program',
   JSON.stringify(ids('Florida has offered 4-star 2028 WR Malachi Lee out of Loudoun Sports Academy in Leesburg, Virginia.')) === JSON.stringify(['florida']),
   JSON.stringify(ids('Florida has offered 4-star 2028 WR Malachi Lee out of Loudoun Sports Academy in Leesburg, Virginia.')));
@@ -379,9 +330,6 @@ t('school-named city before a state is a hometown',
 t('that city is still a school on its own', ids('Houston has offered him').includes('houston'));
 t('state school still resolves as the offerer', ids('Virginia has offered him').includes('virginia'));
 t('A&M survives the guard', ids('Texas A&M has offered him').includes('texas-am'));
-// "Central Arkansas" (FCS), "Alabama State University" (SWAC), and "University of
-// Alabama - Huntsville" (D2) all share a name with an FBS program but are not it. Each
-// of these filed a real garbage row against an FBS school before the fix.
 t('regional-prefix non-FBS school is not the FBS program',
   !ids('out of Mount Pleasant has been offered by Nathan Brown and Central Arkansas').includes('arkansas'),
   JSON.stringify(ids('out of Mount Pleasant has been offered by Nathan Brown and Central Arkansas')));
@@ -397,12 +345,6 @@ t('Arkansas Tech is not Arkansas', !ids('offer from Arkansas Tech University').i
 t('South Carolina State is not South Carolina', !ids('offer from South Carolina State').includes('south-carolina'));
 t('Arkansas State Mid-South is not Arkansas State', !ids('offer from Arkansas State University Mid-South').includes('arkansas-state'));
 
-// --- institution boundaries --------------------------------------------------------
-// There are ~2,400 US colleges and 136 of them play FBS football. Every case here is a
-// post where an FBS name sits INSIDE the name of one of the other 2,264, which used to
-// file a fabricated offer against the FBS school. They are fixed by one rule, not by a
-// regex each: a school surface only counts when the whole institution name in the post
-// is that school's name (config/non-fbs.txt + the shape rule in schools.js).
 console.log('institution boundaries');
 const notSchool = (id, text) => t(`${id} is not named by: ${text.slice(0, 54)}`,
   !ids(text).includes(id), JSON.stringify(ids(text)));
@@ -425,9 +367,6 @@ notSchool('iowa', 'Zavian Chones @ Iowa Central JuCo picks up @ODUFootball Offer
 notSchool('new-mexico', 'Congratulations on your offer to New Mexico Highlands University');
 notSchool('louisiana', 'thankful to receive an offer to continue my career at Centenary College of Louisiana!');
 
-// The same rule, run the other way: these ARE the programs and must still resolve. The
-// old per-pattern regexes stripped them, so seven real FBS schools - every "<direction>
-// <state>" and every "<state> Tech" - could never be resolved by name at all.
 const isSchool = (id, text) => t(`${id} still resolves: ${text.slice(0, 54)}`,
   ids(text).includes(id), JSON.stringify(ids(text)));
 
@@ -448,19 +387,16 @@ isSchool('sam-houston', 'Offer from Sam Houston State');
 isSchool('louisiana-monroe', 'Blessed to receive an offer from Louisiana-Monroe');
 isSchool('uab', 'Blessed to receive an offer from Alabama-Birmingham');
 
-// A two-letter postal code is a hometown, never a program.
 t('postal code after a school is a state, not a program',
   JSON.stringify(ids('2029 DE Emavian Gibson - Dorman HS, SC. Offer - Texas Tech')) === JSON.stringify(['texas-tech']),
   JSON.stringify(ids('2029 DE Emavian Gibson - Dorman HS, SC. Offer - Texas Tech')));
 t('parenthesised postal code is a state',
   !ids('2030 ABC Prep (NM) G Jamal Washington has received an offer').includes('new-mexico'));
 
-// Region talk is not a program.
 t('"North Texas universities" is a region', !ids('See which North Texas universities offer free tuition').includes('north-texas'));
 t('"in south Florida" is a region', !ids('In south Florida we offer food and coffee').includes('south-florida'));
 t('but the program still resolves', ids('Blessed to receive an offer from South Florida!').includes('south-florida'));
 
-// The non-FBS roster must never be able to blank out a real program.
 t('no FBS school is shadowed by the non-FBS roster', (() => {
   for (const s of SCHOOLS_LIST) {
     for (const v of [s.name, `${s.name} University`, `University of ${s.name}`, `${s.name} ${s.nickname}`, ...s.aliases]) {
@@ -476,16 +412,10 @@ t('plural "offers" is a reporter voice', classify('Bama offers 2028 WR Jaylen Ca
 t('counted offers is a reporter voice', classify('Georgia offers three 2029 prospects today').kind === 'reporter_voice');
 t('ranking Top 5 is not a shortlist', classify("2027 Nat'l Top 5 / 5-star Cayden Daughtry received his Hog offer").prior > 0.3);
 t('my top 5 IS a shortlist', classify('Blessed to announce my top 5 schools').prior <= 0.3);
-// "Illinois alone offers DL tests in over 130 languages" is a reply about driver's
-// licences, not football, but "offers DL" matched the acronym-after-offers pattern and
-// filed a WikiLeaks reply as an Illinois recruiting offer.
 t('acronym after "offers" needs a following name, not just any word',
   classify('Illinois alone offers DL tests in over 130 languages.').kind !== 'reporter_voice',
   JSON.stringify(classify('Illinois alone offers DL tests in over 130 languages.')));
 t('acronym after "offers" WITH a name still classifies', classify('Bama offers OL Marcus Lee').kind === 'reporter_voice');
-// "has already picked up offers from Alabama, Michigan, LSU, Florida, Georgia, Miami,
-// Oregon, and many more" is a running tally, not the report of one new offer, and there
-// is no single school it can honestly be attributed to.
 t('multi-school offer recap is a hard negative',
   classify('has already picked up offers from Alabama, Michigan, LSU, Florida, Georgia, Miami, Oregon, and many more').hardNegative);
 t('previous offer is not a new event', classify('Alabama previously offered 2029 ATH Janzen Currie').hardNegative);
@@ -495,11 +425,6 @@ t('historical had-offers recap is not a new event',
   classify('2027 WR Jayden St. Fort had offers from Florida, FSU and Miami, among others.').hardNegative);
 t('aspirational offer is not an offer', classify('A Western Michigan offer would be amazing').hardNegative);
 t('recent-offer recap is not a new event', classify('He added a recent offer from Washington').hardNegative);
-// A HIGHLIGHTS account's recap filed "Evans High School" as the recruit offered by Sam
-// Houston (the only one of three named schools that resolved confidently). "has offers
-// from X, Y, Z, & More" is existing inventory with no new-offer verb — it must be fatal
-// even when just one school resolves, and even when the list starts with "The" (which
-// evades the comma-list rule).
 t('"has offers from X, Y, Z" recap is a hard negative',
   classify("Damir Williams @damir_williams0 - c/o 2027 - WR - Evans High School @EHSTrojanFTBL - Full Season Highlights Jr Szn (He Has Offers From The UNC Pembroke Braves, Florida Atlantic Owls, Sam Houston Bearkats, & More)").hardNegative);
 t('"has offers from" without a new-offer verb is a hard negative',
@@ -531,17 +456,10 @@ t('offer attributed to an earlier season is stale',
 t('unrelated seasonal phrase does not suppress a current offer',
   !classify('After training during the summer, Marcus Lee has received an offer from Georgia today.').hardNegative);
 
-// --- attribution: WHO is doing the offering -----------------------------------------
-// Every case below was a fabricated row published on the live wire. They are not
-// school-name bugs: the school was read out of text that never claimed to be offering
-// anybody - a hashtag, a media handle, a game preview, the recruit's own surname, or
-// somebody else's offer list.
 console.log('offer attribution');
 const target = (text) => { const r = resolveOfferTarget({ text }); return r.status === 'accepted' ? r.schoolId : `${r.status}:${r.reason}`; };
 const tt = (label, text, want) => t(label, target(text) === want, `${target(text)} != ${want}`);
 
-// HTML entities: X serves post text escaped, and "&" never arrived, so the name split
-// in half and "Alabama A &amp; M university" was published as an Alabama P4 offer.
 tt('Alabama A&M is not Alabama',
   'Blessed to say I’ve received an D1 offer from Alabama A &amp; M university @Tylan_G',
   'rejected:explicit_non_fbs_target');
@@ -551,8 +469,6 @@ t('& does not glue two schools together',
   ['alabama', 'auburn'].every((id) => findSchools('offers from Alabama & Auburn').some((s) => s.id === id)));
 t('Texas A&M still resolves', findSchools('offer from Texas A&M').some((s) => s.id === 'texas-am'));
 
-// The offer verb has a plural. Missing it meant the target span fell back to the WHOLE
-// post, so any school mentioned anywhere became the offerer.
 tt('another school’s offer list is not an offer',
   'Spain Park 2028 RB CJ Davis is a strong runner. Offers from Oregon, Tennessee, Vanderbilt and others.',
   'pending:ambiguous_target');
@@ -565,8 +481,6 @@ t('a comma-separated school list is not a hometown',
 t('a real hometown is still a hometown',
   !findSchools('Florida has offered WR Malachi Lee out of an academy in Leesburg, Virginia').some((s) => s.id === 'virginia'));
 
-// A media or scout handle is not a program. The handle pass reads handles exactly;
-// letting them fall through into the name pass published "@Alabama_Varsity" as Alabama.
 t('a media handle is not a program',
   !findSchools('offer from talladega prep u @Alabama_Varsity @DexPreps').length,
   JSON.stringify(findSchools('offer from talladega prep u @Alabama_Varsity').map((s) => s.id)));
@@ -578,8 +492,6 @@ tt('a non-FBS program handle as the target is rejected',
 tt('an FBS program handle after "to play" is accepted',
   'Blessed to receive an offer to play @AuburnFootball', 'auburn');
 
-// Span shape: the school is the subject or the object of the offer verb, never the
-// recruit's high school and never a word that merely sits nearby.
 tt('reporter voice reads the subject', 'Wake Forest has offered 2028 OT Roman Maurizio from Central Catholic HS, PA.', 'wake-forest');
 tt('the recruit’s high school is not the offerer', 'Penn State offers 2028 DL Kiren Green from Ohio.', 'penn-state');
 tt('"scholarship" does not outrank "offer"',
@@ -590,10 +502,6 @@ tt('the offer target is read, not a trailing cheer',
 t('"committing" is a commitment, not a new offer',
   classify('Trey Wright wasted little time committing to USC days after receiving a scholarship offer').hardNegative);
 
-// --- a familiar place name wearing somebody else's colours -------------------------
-// All of these were live rows. They share a shape the earlier rules missed: the post
-// writes a real FBS place name and then says, in the very next word, that it means a
-// different team - a mascot that is not that school's, a campus, a branch.
 console.log('place name, different team');
 const notSchool2 = (id, text) => t(`${id} is not named by: ${text.slice(0, 46)}`,
   !ids(text).includes(id), JSON.stringify(ids(text)));
@@ -605,7 +513,6 @@ notSchool2('smu', 'I am super appreciative to receive a U-Sports offer from the 
 notSchool2('arizona', 'I am blessed to have received an offer from Ottawa University Arizona');
 notSchool2('alabama', '#AGTG blessed to receive an offer from the University of Alabama Birmingham!');
 
-// The same rule must leave a school's OWN mascot alone.
 t('a school’s own mascot is not a different team', [
   ['michigan-state', 'Michigan State Spartans Football has offered him'],
   ['boston-college', 'Boston College Eagles offered him'],
@@ -615,7 +522,6 @@ t('a school’s own mascot is not a different team', [
   ['ohio-state', 'offer from Ohio State University Thank You Coach'],
 ].every(([id, text]) => ids(text).includes(id)));
 
-// A tagged account's display name is the most literal statement of who it belongs to.
 t('a tagged non-FBS program overrules the prose', resolveOfferTarget({
   text: 'After a great call with Coach Orris @IndWesleyan_FB and i’m grateful to receive another offer from Indiana Westland',
   mentioned: [{ handle: 'indwesleyan_fb', name: 'Indiana Wesleyan FB' }],
@@ -625,7 +531,6 @@ t('a tagged high school does not block a real offer', resolveOfferTarget({
   mentioned: [{ handle: 'hooverfb', name: 'Hoover High School Football' }],
 }).schoolId === 'alabama');
 
-// Women's flag football is a different sport.
 t('women’s flag football is not this wire', resolveOfferTarget({
   text: 'Beyond grateful to announce that I’ve received an offer from Eastern Michigan University Women’s Flag Football!',
 }).status === 'rejected');
@@ -638,7 +543,6 @@ t('Big Ten is P4', tierOf({ id: 'michigan', conference: 'B1G' }) === 'P4');
 t('Notre Dame (IND) is P4', tierOf({ id: 'notre-dame', conference: 'IND' }) === 'P4');
 t('Mountain West is G5', tierOf({ id: 'boise-state', conference: 'MW' }) === 'G5');
 t('UConn (IND) is G5', tierOf({ id: 'uconn', conference: 'IND' }) === 'G5');
-// Archive ordering is not evidence of a player's actual first offer.
 {
   const offers = [
     { playerId: 'p1', schoolId: 'boise-state', offeredAt: '2026-07-01T00:00:00Z' },
@@ -652,8 +556,6 @@ t('UConn (IND) is G5', tierOf({ id: 'uconn', conference: 'IND' }) === 'G5');
   t('player stats total/p4/g5', s.total === 3 && s.p4 === 1 && s.g5 === 2, JSON.stringify(s));
   t('player totals contain only evidence-backed counts', !('firstOfferAt' in s) && s.total === 3, JSON.stringify(s));
 }
-// Idempotent: decorating the same ledger twice must not double-count flags (a rebuild
-// runs decorate on freshly-built rows, but guard against re-decoration anyway).
 {
   const offers = [{ playerId: 'p2', schoolId: 'alabama', offeredAt: '2026-08-01T00:00:00Z' }];
   decorateOffers(offers);
@@ -712,7 +614,6 @@ const fakePage = (onGoto = () => {}, onWheel = () => {}, bodyText = 'Latest') =>
   waitForTimeout: async () => {},
   url: () => 'https://x.com/search',
   title: async () => 'Search / X',
-  // diagnose() runs document.body.innerText in the page; stand in for it here.
   evaluate: async () => bodyText,
   mouse: { wheel: async () => { onWheel(); } },
 });
@@ -722,9 +623,6 @@ const missingResult = await missingTimeline.search('test', { settleMs: 1 });
 t('missing SearchTimeline response leaves job pending',
   !missingResult.ok && /slice left pending/.test(missingResult.error), JSON.stringify(missingResult));
 
-// A dead cookie no longer redirects to /login — X renders a login wall at the same
-// /search URL. If that is reported as "response missing" the run burns its whole
-// budget re-navigating and the log never names the one thing that must be fixed.
 const loginWall = new SearchSession({ authToken: 'test', ct0: 'test' });
 loginWall.page = fakePage(() => {}, () => {}, "Don't miss what's happening. Sign in to X.");
 const loginWallResult = await loginWall.search('test', { settleMs: 1 });
@@ -732,15 +630,12 @@ t('login wall at /search is reported as an expired session, not a missing respon
   !loginWallResult.ok && loginWall.loggedOut && /session expired/i.test(loginWallResult.error),
   JSON.stringify(loginWallResult));
 
-// The failure that took the wire down on 2026-09-05: X served a bot-check holding page
-// ahead of every query. Sitting through it must recover the job, not discard it.
 const HOLDING = 'x.com Performing security verification This website uses a security service to protect against malicious bots.';
 let cleared = false;
 const challenged = new SearchSession({ authToken: 'test', ct0: 'test' });
 challenged.page = {
   ...fakePage(),
   evaluate: async () => (cleared ? 'Latest' : HOLDING),
-  // The check clears a beat after it is noticed, and then the timeline call lands.
   waitForTimeout: async () => {
     if (!challenged.challengesSeen) return;
     cleared = true;
