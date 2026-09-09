@@ -41244,17 +41244,122 @@
     "2097626699953582559",
     "2097606914058096684",
     "2097556968718155831",
-    "2097509229439672382"
+    "2097509229439672382",
+    "2097589859468603610",
+    "2097695218602815893",
+    "2097694851512799509",
+    "2097690228689383833",
+    "2097689733925314946",
+    "2097689506279264285",
+    "2097689403636253036",
+    "2097689121112424674",
+    "2097686726713970844",
+    "2097686719713759343",
+    "2097685080860668202",
+    "2097684635090121013",
+    "2097684338502435210",
+    "2097683644345184463",
+    "2097681295790792808",
+    "2097680170731659581",
+    "2097716669741457414",
+    "2097716743703539866",
+    "2097709108547772476",
+    "2097675579222794607",
+    "2097671264055804137",
+    "2097638841515675897",
+    "2097621156786303088",
+    "2097562544961716732",
+    "2097520952829759996",
+    "2097722879534071982",
+    "2097707067616395625",
+    "2097705930032922691",
+    "2097657049630872053",
+    "2097616072455139459",
+    "2097609622446125225",
+    "2097579731830943972",
+    "2097575289304072459",
+    "2097526942413025674",
+    "2097512244615463391",
+    "2097712267873636742",
+    "2097711356015505517",
+    "2097709748413980712",
+    "2097696771304477147",
+    "2097691010390479347",
+    "2097686587781927273",
+    "2097680293247295686",
+    "2097674027477168264",
+    "2097667331132395739",
+    "2097659498362016191",
+    "2097656267506331942",
+    "2097644760726925807",
+    "2097644626320531482",
+    "2097611011800945059",
+    "2097556645366886447",
+    "2097553301109662110",
+    "2097523511665299741",
+    "2097524118031872349",
+    "2097519374634778948",
+    "2097679087594561847",
+    "2097702109667787143",
+    "2097671522219327749",
+    "2097716332091347314",
+    "2097713979917304034",
+    "2097705040253190343",
+    "2097701993183576575",
+    "2097682280902787097",
+    "2097671485355610263",
+    "2097660267421188537",
+    "2097644995687993833",
+    "2097585370745466918",
+    "2097567418021257655",
+    "2097530422087348680",
+    "2097722073040965906",
+    "2097717121765564556",
+    "2097716721901527279",
+    "2097716215183482993",
+    "2097715428697030852",
+    "2097688102563176912",
+    "2097682436029317609",
+    "2097674668245221705",
+    "2097671526417879328",
+    "2097667639447375888",
+    "2097710143458717744",
+    "2097705147732287913",
+    "2097704899282923607",
+    "2097696209934668172",
+    "2097689497139888158",
+    "2097684228548800706",
+    "2097684117445894224",
+    "2097683947769548804",
+    "2097683683364733039",
+    "2097682929753215172",
+    "2097675138586014019",
+    "2097673009720909928",
+    "2097721348567003610",
+    "2097716222376939539",
+    "2097713470690996723",
+    "2097708222962422043",
+    "2097686463450407077",
+    "2097685221164437988",
+    "2097683069956166056",
+    "2097671313368227869",
+    "2097512118312440041",
+    "2097712506722734351",
+    "2097645106983473226",
+    "2097686741289164887",
+    "2097521333881979224",
+    "2097516785964568898",
+    "2097697990555406473"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-09-09T16:12:56.982Z",
-      "got": 186,
-      "new": 128,
-      "lag": 0.1
+      "at": "2026-09-09T16:27:52.417Z",
+      "got": 173,
+      "new": 105,
+      "lag": 0.05
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -41290,9 +41395,9 @@
       "truncated": false
     },
     "illinois": {
-      "at": "2026-09-09T02:26:19.350Z",
+      "at": "2026-09-09T16:26:19.849Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 1,
+      "lastPosts": 17,
       "truncated": false
     },
     "indiana": {
@@ -41304,8 +41409,14 @@
     "iowa": {
       "at": "2026-09-09T02:26:19.350Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 3,
-      "truncated": false
+      "lastPosts": 19,
+      "truncated": true,
+      "window": {
+        "lower": "2026-09-09T02:21:19.350Z",
+        "upper": "2026-09-09T16:26:19.849Z",
+        "until_time": "2026-09-09T02:21:19.350Z",
+        "completed": false
+      }
     },
     "kentucky": {
       "at": "2026-09-09T15:21:20.074Z",
@@ -41328,19 +41439,25 @@
     "michigan": {
       "at": "2026-09-09T02:26:19.350Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 7,
-      "truncated": false
+      "lastPosts": 20,
+      "truncated": true,
+      "window": {
+        "lower": "2026-09-09T02:21:19.350Z",
+        "upper": "2026-09-09T16:26:19.849Z",
+        "until_time": "2026-09-09T13:06:32.000Z",
+        "completed": false
+      }
     },
     "michigan-state": {
-      "at": "2026-09-09T02:26:19.350Z",
+      "at": "2026-09-09T16:26:19.849Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 0,
+      "lastPosts": 1,
       "truncated": false
     },
     "minnesota": {
-      "at": "2026-09-09T02:26:19.350Z",
+      "at": "2026-09-09T16:26:19.849Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 0,
+      "lastPosts": 13,
       "truncated": false
     },
     "mississippi-state": {
@@ -41454,12 +41571,12 @@
     "washington": {
       "at": "2026-09-09T02:11:27.658Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 21,
+      "lastPosts": 20,
       "truncated": true,
       "window": {
         "lower": "2026-09-09T02:06:27.658Z",
         "upper": "2026-09-09T16:11:21.954Z",
-        "until_time": "2026-09-09T14:43:01.000Z",
+        "until_time": "2026-09-09T13:34:59.000Z",
         "completed": false
       }
     },
@@ -41520,15 +41637,15 @@
       "truncated": false
     },
     "phrase:\"all glory to god\" offer": {
-      "at": "2026-09-09T02:26:19.350Z",
+      "at": "2026-09-09T16:26:19.849Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 0,
+      "lastPosts": 3,
       "truncated": false
     },
     "phrase:\"AGTG\" offer": {
-      "at": "2026-09-09T02:26:19.350Z",
+      "at": "2026-09-09T16:26:19.849Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 0,
+      "lastPosts": 12,
       "truncated": false
     },
     "phrase:\"my first D1 offer\"": {
@@ -41544,19 +41661,19 @@
       "truncated": false
     },
     "phrase:\"1st D1 offer\"": {
-      "at": "2026-09-09T02:26:19.350Z",
+      "at": "2026-09-09T16:26:19.849Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 0,
       "truncated": false
     },
     "phrase:\"received my first offer\"": {
-      "at": "2026-09-09T02:26:19.350Z",
+      "at": "2026-09-09T16:26:19.849Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 2,
+      "lastPosts": 1,
       "truncated": false
     },
     "phrase:\"earned my first offer\"": {
-      "at": "2026-09-09T02:26:19.350Z",
+      "at": "2026-09-09T16:26:19.849Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 0,
       "truncated": false
@@ -41664,16 +41781,10 @@
       "truncated": false
     },
     "miami": {
-      "at": "2026-09-09T01:56:24.912Z",
+      "at": "2026-09-09T16:11:21.954Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 22,
-      "truncated": true,
-      "window": {
-        "lower": "2026-09-09T01:51:24.912Z",
-        "upper": "2026-09-09T16:11:21.954Z",
-        "until_time": "2026-09-09T01:51:24.912Z",
-        "completed": false
-      }
+      "lastPosts": 0,
+      "truncated": false
     },
     "nc-state": {
       "at": "2026-09-09T16:11:21.954Z",
@@ -41802,16 +41913,10 @@
       "truncated": false
     },
     "notre-dame": {
-      "at": "2026-09-09T01:56:24.912Z",
+      "at": "2026-09-09T16:11:21.954Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 22,
-      "truncated": true,
-      "window": {
-        "lower": "2026-09-09T01:51:24.912Z",
-        "upper": "2026-09-09T16:11:21.954Z",
-        "until_time": "2026-09-09T08:59:53.000Z",
-        "completed": false
-      }
+      "lastPosts": 2,
+      "truncated": false
     },
     "uconn": {
       "at": "2026-09-09T16:11:21.954Z",
@@ -41820,15 +41925,15 @@
       "truncated": false
     },
     "phrase:\"has offered\" recruit": {
-      "at": "2026-09-09T02:11:27.658Z",
+      "at": "2026-09-09T16:26:19.849Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 3,
+      "lastPosts": 7,
       "truncated": false
     },
     "air-force": {
-      "at": "2026-09-09T02:11:27.658Z",
+      "at": "2026-09-09T16:26:19.849Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 0,
+      "lastPosts": 12,
       "truncated": false
     },
     "akron": {
@@ -41916,21 +42021,21 @@
       "truncated": false
     },
     "eastern-michigan": {
-      "at": "2026-09-09T02:11:27.658Z",
+      "at": "2026-09-09T16:26:19.849Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
     },
     "florida-atlantic": {
-      "at": "2026-09-09T02:11:27.658Z",
+      "at": "2026-09-09T16:26:19.849Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
     },
     "florida-international": {
-      "at": "2026-09-09T02:11:27.658Z",
+      "at": "2026-09-09T16:26:19.849Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 0,
+      "lastPosts": 2,
       "truncated": false
     },
     "fresno-state": {
@@ -41994,28 +42099,34 @@
       "truncated": false
     },
     "louisiana-monroe": {
-      "at": "2026-09-09T02:11:27.658Z",
+      "at": "2026-09-09T16:26:19.849Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 1,
+      "lastPosts": 2,
       "truncated": false
     },
     "louisiana-tech": {
-      "at": "2026-09-09T02:11:27.658Z",
+      "at": "2026-09-09T16:26:19.849Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
     },
     "marshall": {
-      "at": "2026-09-09T02:11:27.658Z",
+      "at": "2026-09-09T16:26:19.849Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 3,
+      "lastPosts": 12,
       "truncated": false
     },
     "massachusetts": {
       "at": "2026-09-09T02:11:27.658Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 5,
-      "truncated": false
+      "lastPosts": 22,
+      "truncated": true,
+      "window": {
+        "lower": "2026-09-09T02:06:27.658Z",
+        "upper": "2026-09-09T16:26:19.849Z",
+        "until_time": "2026-09-09T02:56:02.000Z",
+        "completed": false
+      }
     },
     "memphis": {
       "at": "2026-09-09T02:26:19.350Z",
@@ -42138,16 +42249,10 @@
       "truncated": false
     },
     "temple": {
-      "at": "2026-09-09T01:43:17.411Z",
+      "at": "2026-09-09T15:52:26.375Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 22,
-      "truncated": true,
-      "window": {
-        "lower": "2026-09-09T01:38:17.411Z",
-        "upper": "2026-09-09T15:52:26.375Z",
-        "until_time": "2026-09-09T01:38:17.411Z",
-        "completed": false
-      }
+      "lastPosts": 0,
+      "truncated": false
     },
     "texas-state": {
       "at": "2026-09-09T15:52:26.375Z",
@@ -42168,15 +42273,15 @@
       "truncated": false
     },
     "tulane": {
-      "at": "2026-09-09T02:11:27.658Z",
+      "at": "2026-09-09T16:26:19.849Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 0,
+      "lastPosts": 5,
       "truncated": false
     },
     "tulsa": {
-      "at": "2026-09-09T02:11:27.658Z",
+      "at": "2026-09-09T16:26:19.849Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 2,
+      "lastPosts": 3,
       "truncated": false
     },
     "uab": {
@@ -42264,16 +42369,10 @@
       "truncated": false
     },
     "phrase:\"blessed to receive\"": {
-      "at": "2026-09-09T01:43:17.411Z",
+      "at": "2026-09-09T15:38:27.743Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 21,
-      "truncated": true,
-      "window": {
-        "lower": "2026-09-09T01:38:17.411Z",
-        "upper": "2026-09-09T15:38:27.743Z",
-        "until_time": "2026-09-09T01:38:17.411Z",
-        "completed": false
-      }
+      "lastPosts": 0,
+      "truncated": false
     },
     "phrase:\"blessed to have received\"": {
       "at": "2026-09-09T15:38:27.743Z",
@@ -42370,7 +42469,7 @@
   "lastRateLimitAt": "2026-09-04T23:26:13.448Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-09-09T16:12:56.982Z",
+    "at": "2026-09-09T16:27:52.418Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -42394,376 +42493,376 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-09-09T16:11:21.935Z",
+    "at": "2026-09-09T16:26:19.830Z",
     "mode": "live",
     "collection": {
-      "returned": 186,
-      "kept": 128,
-      "duplicate": 57,
-      "tooOld": 1,
+      "returned": 173,
+      "kept": 105,
+      "duplicate": 68,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 79,
-      "rejected": 49,
+      "accepted": 62,
+      "rejected": 43,
       "reasons": {
-        "no_fbs_school": 21,
-        "no_offer_term": 22,
-        "non_fbs_offer_target": 2,
-        "hard_negative": 3,
-        "unclassified_offer_text": 1
+        "no_fbs_school": 28,
+        "no_offer_term": 6,
+        "unclassified_offer_text": 2,
+        "hard_negative": 5,
+        "non_fbs_offer_target": 2
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2097518051172188301",
-          "author": "avaframe0",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @CoachPRichards4 and @CoachKBailey5, I am extremely blessed to receive an offer from @DULadyPanthers!! #OneDrury https://t.co/R0Dbzf60ul"
+          "postId": "2097695218602815893",
+          "author": "jacquelnvanacek",
+          "searchJob": "washington",
+          "text": "China has to offer Free Flights &amp; Hotels to Line Up Crowds to Welcome Xi in Washington https://t.co/A1dvKcOHHB via @epochtimes"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097689403636253036",
+          "author": "mexicotimes",
+          "searchJob": "washington",
+          "text": "#Now #Canada is test case—&amp; #Mexico could be next. Mexico may gain exports and investment from Trump’s trade war, but no temporary advantage can offset danger of replacing #USMCA rules with presidential threats. Today Canada; tomorrow M"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097514117145727188",
-          "author": "aubryndavis",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my first official offer from @TLU_Football. I’m incredibly grateful to Coach @CoachBeauGrech and the TLU staff for believing in me and giving me this opportunity. This is a dream I’ve worked hard for, and I’m just getting"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097513948895674504",
-          "author": "d_ray25fb",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I am blessed to receive a camp invite from @Boxer_Football !! https://t.co/di23VbJFvN"
+          "postId": "2097686719713759343",
+          "author": "georgewtrumpwon",
+          "searchJob": "washington",
+          "text": "•The X post from @vrexec, an American investor living in Europe, describes their broken Lenovo laptop and contemplates buying a MacBook Pro, while expressing concern over compatibility with Excel and Microsoft apps based on hearsay. •In 202"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097513297117339786",
-          "author": "bboeckman7",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "#AGTG After a great call with @CoachTycenGray I am blessed to receive an offer to play football for @kwufootball https://t.co/tDiEC7Rsam"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097510619201101852",
-          "author": "carterdgloyd",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive Defense of back of the week! #4mb #Agtg"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097376629878055187",
-          "author": "kctigerfootball",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "TIGERS OF THE WEEK 📷 Recognizing the standout performances from our Offense, Defense &amp; Specialists in Week 2! 📷 Congratulations to all of the Tigers of the Week! 📷 #TigerPride #4MB #recruitkc #TheKCway https://t.co/sUtUgqt5VY"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097510606467219840",
-          "author": "tntxsxpreme",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive another game day visit to @WheelingU_FB thank you @CoachRobWU for another opportunity ‼️ #GoCardinals🔥 #SOH @CoachTy_1 #MoreBlessingsWillCome https://t.co/Z16Z2Hw75J"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097510063548338414",
-          "author": "sintu94",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "A teacher’s greatest joy lies in the love and respect of their students. Blessed to receive these thoughtful tokens of appreciation this Teachers' Day. 💙 #TeachersDay #5thSeptember #StudentLove #TeacherLife #GratefulHeart #BestGiftEver #bl"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097509705601974714",
-          "author": "gavintobey89565",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my first offer from Minot State university!! Thank you @CoachFam and @MSUBeaversFB for giving me an opportunity to play at the next level!! https://t.co/rhjFdge7VP"
+          "postId": "2097685080860668202",
+          "author": "coco7fg",
+          "searchJob": "washington",
+          "text": "I Have two extra tickets for Angine de Poitrine concert on Sep 15 at The Atlantis, Washington, DC. Letting them go for face value but open to offers. DM me if interested! 🫶 WTS WTB ISO WTT"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097508491212492825",
-          "author": "troyvezxavier",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from sterling college ⚔️ https://t.co/ulWLaxsQRt"
+          "postId": "2097684338502435210",
+          "author": "coco7fg",
+          "searchJob": "washington",
+          "text": "I Have two extra tickets for Charlie XCX concert on Sep 28 at Capital One Arena, Washington, DC. Letting them go for face value but open to offers. DM me if interested! 🫶 WTS WTB ISO WTT"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097505014793027961",
-          "author": "asherabrams8",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great visit with @DAVarsityBlueFB @coachmorganuoft @LockDownInc31 , I am blessed to receive my first Usports offer from UofT! https://t.co/yiMlVk6WLC"
+          "postId": "2097683644345184463",
+          "author": "coco7fg",
+          "searchJob": "washington",
+          "text": "I Have two extra tickets for Tyla concert on Dec 02 at The Anthem, Washington, DC. Letting them go for face value but open to offers. DM me if interested! 🫶 WTS WTB ISO WTT"
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097501448045019280",
-          "author": "williamumsted21",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive another offer from Berry college! Thank you for @BCCoachK for taking the time out of your day to call me and relay the great news! Grateful for this opportunity. @DrewBrookes51 @ThomasMcDaniel4 @CoachCrawfordFB @CBHS_Foot"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097501243853717899",
-          "author": "ramtheticket",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive the opportunity to attend ECU’s game this saturday as a prospect @Coach_Griffin_ @Coach_B_Harrell @LHSAthleticsFCS https://t.co/Y2N8A6Rxaj"
+          "reason": "no_fbs_school",
+          "postId": "2097716743703539866",
+          "author": "username519632",
+          "searchJob": "air-force",
+          "text": "@qureshik74 If you love them so much why not you offer those afganis your daughters or sisters or might as well your wife 🤷‍♂️"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2096325339509092524",
-          "author": "emeraldshow301",
-          "searchJob": "temple",
-          "text": "Arya Stark: The Making of the Faceless Man https://t.co/SGE8CSWFVO"
+          "postId": "2097722879534071982",
+          "author": "freestate_j",
+          "searchJob": "marshall",
+          "text": "https://t.co/bOoHvlLouv"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2096694428475805766",
-          "author": "stellacreasy",
-          "searchJob": "temple",
-          "text": "If you wondered what was happening outside the william morris gallery today it was the chariot festival - when our local Hindu Tamil community bless us all #loveWalthamstow https://t.co/9OaO4AYlTc"
+          "reason": "no_fbs_school",
+          "postId": "2097705930032922691",
+          "author": "bagaspannerz65",
+          "searchJob": "marshall",
+          "text": "Got sacked today at 10am today ……… 11am offered a new job not too shabby for a 60 year old fella UTT"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097657049630872053",
+          "author": "marshallscore",
+          "searchJob": "marshall",
+          "text": "@tag4UK Bollocks! Why would any sane person want to join a cesspit of antisemitic racist fuckwits who offer nothing…..not one single thing…….."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097616072455139459",
+          "author": "marshallchikum",
+          "searchJob": "marshall",
+          "text": "Redefine your space with Muchi Aluminum, Glass & Welding! 🪟✨ ​We offer modern partitions for homes, offices, and shops: ☑️ Office Cubicles & Cabins ☑️ Shop Fronts & Showcases ☑️ Home Room Dividers ☑️ Aluminum Doors & Windows ​⚡ Fast Turnar"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097609622446125225",
+          "author": "marshallmotorgp",
+          "searchJob": "marshall",
+          "text": "Today is #WorldEVDay. The global movement driving change together. Join Us. #GoEV #DriveChange Take a look at our latest offers here (and arrange a test drive) &gt; https://t.co/725ycY9oRC https://t.co/yyRfPeKF7X"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097512244615463391",
+          "author": "michael53021960",
+          "searchJob": "marshall",
+          "text": "@LBC @TomSwarbrick1 Incredible that the media continues to offer these wingnuts a platform."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097711356015505517",
+          "author": "neveragain2023",
+          "searchJob": "massachusetts",
+          "text": "@SteveDeaceShow In AZ we send the mass killers to the mental hospital first…then they serve their prison sentence. In this case they didn’t offer that option. Slippery slope in Massachusetts since one could argue many murderers are crazy at"
+        },
+        {
+          "reason": "unclassified_offer_text",
+          "postId": "2097680293247295686",
+          "author": "griftersmatter",
+          "searchJob": "massachusetts",
+          "text": "@SueOC_NBCBoston Sue, did the juror's assertion that nurses on the panel interpreted toxicology reports for other jurors give you pause? Using personal professional experience in deliberations in the room is distinct from offering unsworn, "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097674027477168264",
+          "author": "mrkovalenko",
+          "searchJob": "massachusetts",
+          "text": "Today is the birthday of Olexandr Smakula (1900-1983), the only Ukrainian who was a full professor in Massachusetts Institute of Technology (MIT). He was born to a peasant family in Dobrovody village, Austria-Hungary (today's Western Ukrain"
         },
         {
           "reason": "hard_negative",
-          "postId": "2097626458734911700",
-          "author": "ou_zhen599",
-          "searchJob": "temple",
-          "text": "Made with Seedance 2.5 ⚔️😲“My Friend from the Ming Dynasty”—when you realize the person standing right in front of you is someone from the Ming Dynasty, 500 years ago! The atmosphere suddenly feels a little different. Seedance 2.5 prompt👇"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097610713951088952",
-          "author": "iamrjknight",
-          "searchJob": "temple",
-          "text": "https://t.co/K4BjrGe4qV"
+          "postId": "2097667331132395739",
+          "author": "cjm1018",
+          "searchJob": "massachusetts",
+          "text": "Reasonable doubt does not “go both ways” as a legal rule. In Massachusetts the Commonwealth must prove every element of murder beyond a reasonable doubt, and must disprove lack of criminal responsibility beyond a reasonable doubt. The defen"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097605128421351663",
-          "author": "iamtemple__",
-          "searchJob": "temple",
-          "text": "@Mealseey @MPropanium A good offer here ✅🔥"
+          "postId": "2097656267506331942",
+          "author": "assist_u_",
+          "searchJob": "massachusetts",
+          "text": "Official Offer. Congratulations to 27 CG Nemo Sidhu (@nemosidhu) on earning a scholarship offer to the University of Massachusetts Boston (@beaconswbb)! https://t.co/RhfRMj2H8b"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097644760726925807",
+          "author": "cjm1018",
+          "searchJob": "massachusetts",
+          "text": "Reasonable doubt does not “go both ways” as a legal rule. In Massachusetts the Commonwealth must prove every element of murder beyond a reasonable doubt, and must disprove lack of criminal responsibility beyond a reasonable doubt. The defen"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097644626320531482",
+          "author": "cjm1018",
+          "searchJob": "massachusetts",
+          "text": "Reasonable doubt does not “go both ways” as a legal rule. In Massachusetts the Commonwealth must prove every element of murder beyond a reasonable doubt, and must disprove lack of criminal responsibility beyond a reasonable doubt. The defen"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097597950083924440",
-          "author": "iamtemple__",
-          "searchJob": "temple",
-          "text": "@DANHAJIYAFX1 Underrated offer"
+          "postId": "2097556645366886447",
+          "author": "wholikesrocks",
+          "searchJob": "massachusetts",
+          "text": "@PlatoonPod I know of nine in Massachusetts that have nothing to offer the world."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097593396378345555",
-          "author": "dennis_rbrn",
-          "searchJob": "temple",
-          "text": "A reflection on the definition of love. Do men and women experience love in the same way? Can we give a universal definition of love? Or is it more than that? https://t.co/DyDjYKTBnG"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097399180264136824",
-          "author": "usao_dc",
-          "searchJob": "miami",
-          "text": "Malone Lam, 22, a citizen of Singapore and recent resident of Miami, pleaded guilty today in connection with his role as ringleader of an international cybercrime conspiracy that used social engineering to steal and launder cryptocurrency v"
+          "postId": "2097523511665299741",
+          "author": "tomfitton",
+          "searchJob": "massachusetts",
+          "text": "It would have been improper if it turns out nurses on the Lindsay Clancy jury went beyond the trial evidence in explaining the toxicology reports to other jurors."
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097689985486913702",
-          "author": "jamcoroofingfl",
-          "searchJob": "miami",
-          "text": "BNI Presentation — Video #3! Scott talks about where Jamco serves — Broward, Miami-Dade &amp; Palm Beach Counties — and the roofing options we offer, including beautiful, high-end Worthouse Metal Roofing from Germany. 📞 954-998-7663 🌐 htt"
+          "postId": "2097671522219327749",
+          "author": "dioceseoftulsa",
+          "searchJob": "tulsa",
+          "text": "🔔 TODAY THE CHURCH CELEBRATES St. Peter Claver September 9 🕊️ WHAT WE REMEMBER Today the Church celebrates St. Peter Claver, a Jesuit priest who dedicated his ministry to caring for enslaved Africans arriving in Cartagena, offering food, "
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2097686617758556266",
-          "author": "amacforamerica",
-          "searchJob": "miami",
-          "text": "https://t.co/8qLh0cv2fu"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097504780734120345",
-          "author": "flightradar24",
-          "searchJob": "miami",
-          "text": "Updates from the NTSB on the runway overrun of the 21 Air 767 in Miami. All times = number of seconds before end of the Flight data recorder. -0:30: Nose gear + Right main landing gear touchdown at 158 kt ground speed -0:23: brakes applied,"
+          "reason": "hard_negative",
+          "postId": "2097701993183576575",
+          "author": "allentrieu",
+          "searchJob": "illinois",
+          "text": "Illinois hosting several visitors this weekend, including a QB target and several Midwest defensive prospects who have offers from the Illini. https://t.co/7JYPBvmfjO https://t.co/mzjMFeC1YI"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 79,
+      "accepted": 1,
+      "rejected": 61,
       "reasons": {
-        "multiple_resolved_schools": 8,
-        "bare_mention_requires_llm": 41,
-        "reporter_missing_player_name": 2,
-        "school_not_resolved_confidently": 26,
-        "explicit_non_fbs_target": 1,
-        "player_display_name_unusable": 1
+        "school_not_resolved_confidently": 1,
+        "reporter_missing_class_year": 1,
+        "bare_mention_requires_llm": 45,
+        "author_not_recruit:no recruit fields": 1,
+        "multiple_resolved_schools": 10,
+        "reporter_missing_player_name": 3
       },
       "samples": [
         {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097589859468603610",
+          "author": "erniemac10",
+          "searchJob": "notre-dame",
+          "text": "SOTD Gentle Fluidity Silver is genuinely an impressive use of ingredients that would usually be used in a heavier formulation but happens to touch on the airy and effervescent side of said notes. Vanilla, Nutmeg, Musk and Woods, done in a v"
+        },
+        {
+          "reason": "reporter_missing_class_year",
+          "postId": "2097694851512799509",
+          "author": "sammyso69199056",
+          "searchJob": "washington",
+          "text": "@CecileShaw \"Canada was offered what Washington called the BEST treatment of any major exporter\" that's what Lunatic said, no one knows the offer from either side. Maybe skipping NAFTA until next US admin is the safest for Canada."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097690228689383833",
+          "author": "mykhailorohoza",
+          "searchJob": "washington",
+          "text": "The myth of an all-powerful Uncle Sam is bursting like a soap bubble. Iran’s response has exposed vulnerabilities that Washington would rather not discuss. According to China’s Sohu, U.S. air defenses once advertised as nearly impenetrable "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097689733925314946",
+          "author": "insuranceinohio",
+          "searchJob": "washington",
+          "text": "Are you a business owner looking for reliable and affordable insurance solutions? 🌟 Washington &amp; Co Insurance Agency, we offer Commercial Insurance starting at just $25/month! Commercial Auto Insurance options available near you. 🚗💼 "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097689506279264285",
+          "author": "realwhitehats",
+          "searchJob": "washington",
+          "text": "WATCH THE MONEY CODE: 401K // TRILLIONS // DOOR OPEN Something much bigger than another market headline is developing inside America’s retirement system. Washington has opened the door for 401(k) plans to potentially gain broader access to "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097689121112424674",
+          "author": "phillip_buch",
+          "searchJob": "washington",
+          "text": "WATCH THE MONEY CODE: 401K // TRILLIONS // DOOR OPEN Something much bigger than another market headline is developing inside America’s retirement system. Washington has opened the door for 401(k) plans to potentially gain broader access to "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097686726713970844",
+          "author": "haplibertarian",
+          "searchJob": "washington",
+          "text": "Libertarians have long argued that overextended empires eventually trip over their own ambitions. The Pew numbers offer a real-time illustration. Washington set out to contain China and, through a combination of arrogance, protectionism, an"
+        },
+        {
+          "reason": "author_not_recruit:no recruit fields",
+          "postId": "2097684635090121013",
+          "author": "christoff_cruz",
+          "searchJob": "washington",
+          "text": "@AFantasyFormula Trade advice: received an offer to receive Nabers and Brian Rob for my waddle and Washington. I’m on the fence. I love Parker this year but Nabers is a beast. Maybe I can get the guy to swap in DK instead of Brian Rob but i"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097681295790792808",
+          "author": "sulluyagiz",
+          "searchJob": "washington",
+          "text": "My latest in the @dcexaminer: Gabon’s critical minerals are becoming increasingly important in U.S.-China competition. Beijing has a major head start, but Washington still has an opportunity to offer an alternative built around investment, "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097680170731659581",
+          "author": "ushairaindia",
+          "searchJob": "washington",
+          "text": "As the world marks the anniversary of the 9/11 attacks, rare footages from that fateful day is resurfacing online. The video offer a chilling glimpse into the chaos, confusion and disbelief that unfolded in New York and Washington, forever "
+        },
+        {
           "reason": "multiple_resolved_schools",
-          "postId": "2097516483509469313",
-          "author": "loyaltylobby",
-          "searchJob": "houston",
-          "text": "World of Hyatt members can earn double points at Thompson hotels from September 8 to November 10, 2026. You must register for this offer, and only stays booked using the Hyatt app are eligible. Thompson Hotels: United States - Thompson Palm"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097510373679153165",
-          "author": "grooganfox26",
-          "searchJob": "houston",
-          "text": "The Woodlands Chairman @BradBaileyTX labels the township’s $50 million deal with City of Houston an opportunity to reap substantially more income in the future by reclaiming sliver of sales tax from larger neighbor. The “What’s Your Point?”"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097664921467293885",
-          "author": "therealcandyr57",
-          "searchJob": "temple",
-          "text": "Harʾel combines the Hebrew words for “mountain” and “God,” evoking the idea of a raised, sacred elevation—an altar that functions as a miniature “mountain of the LORD.” In Ezekiel’s temple vision it designates the upper platform, or hearth,"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097659487587054050",
-          "author": "ani",
-          "searchJob": "temple",
-          "text": "#WATCH | Sri Lanka: Defence Minister Rajnath Singh visits Gangaramaya Temple in Colombo and offers prayers. https://t.co/aWwI1CQ6sb"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2097657782845472990",
-          "author": "emeraldshow301",
-          "searchJob": "temple",
-          "text": "SYRIO FOREL DID NOT DIE IN THAT ROOM. HE CHANGED HIS FACE AND KEPT TEACHING HER. They showed you a dancing master with a wooden sword against Meryn Trant and called it a noble death. Watch it again. You never see the body. You hear steel. Y"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097656234950214138",
-          "author": "uriblago_v2",
-          "searchJob": "temple",
-          "text": "This is a beautiful reminder. The four-day inspection of the Corbin before it was offered in the Beit HaMikdash turns teshuvah into something concrete - examine oneself to present something whole. Zechariah was sent to a generation that had"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097656035322306763",
-          "author": "the_sikhvoice",
-          "searchJob": "temple",
-          "text": "🚨Sikh authorities at Harimandir Sahib (Golden Temple) regularly insult, hit or expel Hindu pilgrims for minor acts like taking photos or doing yoga/meditation. Yet Muslim tourists freely click pictures and offer namaz. Isn't this a clear d"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097648712730509661",
-          "author": "xerox_349",
-          "searchJob": "temple",
-          "text": "Commemoration. Righteous Joachim and Anna St Joachim was of the tribe of Judah and a descendant of King David. St Anna was of the tribe of Levi, the daughter of a priest named Matthan. Matthan’s three daughters were Mary, Zoia and Anna. Mar"
+          "postId": "2097709108547772476",
+          "author": "debugliesnews",
+          "searchJob": "air-force",
+          "text": "FPV Drone Defence: Cheap Shotguns, Costly Kill Chains - The premise is only partly correct: companies are already developing automated kinetic counter-drone weapons, including an Italian remote turret integrating eight Benelli Drone Guardia"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097645584995741923",
-          "author": "pergament_f",
-          "searchJob": "temple",
-          "text": "The Roman Goat If the Greek goat has a mythological career worthy of Olympus,the Roman one apparently decided that fame is all very well,but a contract with the state is more secure: it provides milk,cheese, meat,hide and manure,clears scru"
+          "postId": "2097675579222794607",
+          "author": "jezzaica",
+          "searchJob": "air-force",
+          "text": "When U.S. Navy Flight Officer Edward C. Lin faced high-profile espionage and military misconduct charges, he retained civilian legal counsel through Tulley Rinkey. @TullyLegal An attorney from the firm, Greg Youngner—a retired U.S. Air Forc"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097645042714177774",
-          "author": "pjrd1989",
-          "searchJob": "temple",
-          "text": "\"Come Back to Me\" My wife, Jennifer, and I booked a trip to Israel as part of a tour group led by Johnny and Elizabeth Enlow of Restore Seven Ministries. Fulfillment of this bucket list trip to the Holy Land has been a long time in the maki"
+          "postId": "2097671264055804137",
+          "author": "will_set99802",
+          "searchJob": "air-force",
+          "text": "GlobalEye gamble: Ottawa chose surveillance plane without knowing it met military needs Carney chooses SAAB RCAF commsnder has no input. Carney's announcement on the GlobalEye forced the Royal Canadian Air Force to scramble to try and match"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097643633637728415",
-          "author": "towards_balance",
-          "searchJob": "temple",
-          "text": "#Multiculturalism #CivicIdentity #TamilHinduChariotFestival #StellaCreasy's post highlighting the local Tamil Hindu Chariot Festival (#TherThiruvizha) outside the William Morris Gallery in Walthamstow captures the integration of diaspora cu"
+          "postId": "2097638841515675897",
+          "author": "indiandefencet",
+          "searchJob": "air-force",
+          "text": "Boeing’s T-7 Red Hawk may enter the Indian Air Force competition for 150 advanced jet trainers. The aircraft, developed by Boeing and Saab, is designed to train pilots for modern fighter jets. Its F404 engine could offer logistical advantag"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097621156786303088",
+          "author": "drone_wars_",
+          "searchJob": "air-force",
+          "text": "U.S. soldiers trained on a counter-drone system at the Combined Arms Training Center in Grafenwoehr, Germany, the U.S. Mission to NATO said. CATC, run by the 7th Army Training Command, offers nearly 60 courses. The post did not name the cou"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097641177562427504",
-          "author": "thattradgal",
-          "searchJob": "temple",
-          "text": "Prayer in honor of the Third Sorrow of Mary, the Finding of Jesus in the Temple: Most sorrowful Mother, grief, sorrow and anxiety filled your Immaculate Heart when you found you were separated from your Son on leaving Jerusalem. For three d"
+          "postId": "2097562544961716732",
+          "author": "indiandefencet",
+          "searchJob": "air-force",
+          "text": "Boeing’s T-7 Red Hawk may enter the Indian Air Force competition for 150 advanced jet trainers. The aircraft, developed by Boeing and Saab, is designed to train pilots for modern fighter jets. Its F404 engine could offer logistical advantag"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097520952829759996",
+          "author": "stockstudy8",
+          "searchJob": "air-force",
+          "text": "Stocks Updates TCS: won a Rs 122 crore Odisha government contract to build an AI-enabled digital-governance platform. Bajaj Finance: raised Rs 2,050 crore by issuing secured NCDs at an 8.07% coupon rate. HCLTech: opened a 40,000 sq ft semic"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097632992583614485",
-          "author": "nyfcbjr",
-          "searchJob": "temple",
-          "text": "Today’s (Sept 9, 2026) promise of God to believers is from the Book of Acts. Acts 3:26 To you first, God, having raised up His Servant Jesus, sent Him to bless you, in turning away every one of you from your iniquities. Commentary Peter is "
+          "postId": "2097707067616395625",
+          "author": "mrkellywright",
+          "searchJob": "marshall",
+          "text": "Canada's approach to negotiating with Trump is all wrong. You need to lean into Trump's imperialism and The Monroe Doctrine. The reality is that Canada is too integrated with the United States to truly be independent. That's what Trudeau to"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097579731830943972",
+          "author": "bankresan",
+          "searchJob": "marshall",
+          "text": "Ursula von der Leyen, Christine Lagarde, Tidaholm, Trollhättan, Skövde, Karlskoga, Alfred Nobel Karlskoga, Örebro, Täby, Stockholm, Tomelilla, Ystad, Sweden, Nordea Russia, Finansinspektionen, 1986-2026 -40 years Time for Sweden's Pride Bof"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097622990381027738",
-          "author": "kalamtelugu",
-          "searchJob": "temple",
-          "text": "- భద్రాద్రి రామయ్య సన్నిధిలో బండి సంజయ్.. కుటుంబంతో కలిసి ప్రత్యేక పూజలు - Bandi Sanjay Kumar Offers Prayers at Bhadrachalam Sri Sitarama Temple https://t.co/Tjyc8rgS31 #BandiSanjay #Bhadrachalam #SitaramaTemple #Kalam #KalamDaily #KalamNew"
+          "postId": "2097575289304072459",
+          "author": "stk__itk",
+          "searchJob": "marshall",
+          "text": "@H_the_Strange I actually thought Port are preferred to want 2027 picks, IF it were to happen it wouldn't be cheap for us, you'd probably end up with Marshall &amp; 2027 first. Then you could offer Port your 2026 first, and 2 2027 firsts, a"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097618244475535818",
-          "author": "anglicanworld",
-          "searchJob": "temple",
-          "text": "The Season of Creation runs from 1 September to 4 October and is an opportunity for Christians around the world to come together in prayer, reflection and action to care for creation. This year’s theme is ‘Living Water’ 💧 ‘Where the river "
+          "postId": "2097526942413025674",
+          "author": "dmzhukova",
+          "searchJob": "marshall",
+          "text": "Great reporting! Marshall had to sue 700 patients for payment? Gosh, what bad luck to CHOOSE so many deadbeat patients. It’s almost as if he took on patients he knew couldn’t pay him. Weird. What did Marshall charge for his care? Why didn’t"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097600182556717079",
-          "author": "lensoftruthke",
-          "searchJob": "temple",
-          "text": "“He is not here, but has risen.” — Luke 24:6 📍This song walks through the heart of the Gospel story: the cross, the burial, and the resurrection of Jesus Christ. https://t.co/Ux0KWcjlkF 💠On Friday, Jesus was led to Golgotha. The Lamb of G"
+          "postId": "2097712267873636742",
+          "author": "mksoroka",
+          "searchJob": "massachusetts",
+          "text": "Just about everyone has a story connected to 9/11. Most are heartbreaking. A few seem almost impossible to explain. I didn’t learn this story until a few months after the attacks. I was talking with a relative at a banquet when he mentioned"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097599358745423910",
-          "author": "bharatobservers",
-          "searchJob": "temple",
-          "text": "Telangana: Union Minister Bandi Sanjay Kumar offers special prayers at the revered Sri Sita Ramachandra Swamy Temple in Bhadrachalam along with his family. He sought the blessings of Lord Rama during the visit to the sacred shrine. 🇮🇳✨ #B"
+          "postId": "2097709748413980712",
+          "author": "ifny2775",
+          "searchJob": "massachusetts",
+          "text": "X Money Promises 6% APY. New York Residents Get None. X now offers a cash account inside its app that pays up to 6.00 percent APY. Premium+ subscribers get that rate automatically. Premium subscribers start at 4.00 percent and can reach 6.0"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097548624645292046",
-          "author": "unikornaio",
-          "searchJob": "wyoming",
-          "text": "DOGE-80 — Project Aurora, Humanitarian Transition Areas, Private Security Contractors, Biometric Aid Controls, and the Alleged Conversion of Humanitarian Relief into Displacement Infrastructure I. Investigative proposition This section exam"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097711876524081444",
-          "author": "oneandonlyhusam",
-          "searchJob": "miami",
-          "text": "Honestly they should make an example out of this guy and just give him decades in federal prison. I don't even know why he was offered anything. There's so many of them in Miami and all over the place posting on social media with the lifest"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097710238367363459",
-          "author": "tateprotest",
-          "searchJob": "miami",
-          "text": "🚨🇮🇱 🇺🇸 Israeli Tech Team has forwarded footage of Pro Jihadist content creator @sneako DOUBLES DOWN and offers to pay someone ONE THOUSAND DOLLARS just to play HEIL HITLER song at the Tate Protest event in Miami, August 13th. Sneako wh"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097709961354600932",
-          "author": "andrew_cottrell",
-          "searchJob": "miami",
-          "text": "@jacksonhaweslvr @UnderdogNFL Yes. Miami wanted something that at the time no other team offered. They said no to Buffalo to not trade in division, held Waddle, and got another team to offer the 26 1st later. It was also said Miami never co"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097702769381535932",
-          "author": "andrew_cottrell",
-          "searchJob": "miami",
-          "text": "@jacksonhaweslvr @UnderdogNFL Yes and thats why I said hes far from \"perfect'. Hes not off the hook for not having some of the pieces to put it over the top. But thats not EVERY trade or call he makes. There was also a \"report\" that the Bil"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097686467594404112",
-          "author": "flightdrama",
-          "searchJob": "miami",
-          "text": "The livestreamer who faced fierce backlash for posing beside the wreckage of the Amazon Prime Air 767 in Miami says he won’t delete the posts and doesn’t believe he did anything wrong. ChickenAndy was among a group of streamers who arrived "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097685610479682044",
-          "author": "nealdriscoll",
-          "searchJob": "miami",
-          "text": "@peteyitaly Miami offered four 1's to move up for Burrow...."
+          "postId": "2097696771304477147",
+          "author": "jimgeraghty",
+          "searchJob": "massachusetts",
+          "text": "We are where we are, because eleven of the jurors in this case either bought Reddington’s arguments, or believed Massachusetts law, which requires the prosecution to prove the sanity of the defendant when an insanity plea is made, required "
         }
       ]
     },
@@ -42777,16 +42876,16 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 79,
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 61,
       "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 128,
-    "decided": 128,
+    "total": 105,
+    "decided": 105,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
