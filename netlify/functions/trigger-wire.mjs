@@ -1,6 +1,6 @@
 // Netlify is the reliable clock; GitHub Actions remains the browser-capable worker.
 // This function only dispatches the private-repo workflow and finishes in milliseconds.
-const API = 'https://api.github.com/repos/bigWRguy/OfferWire';
+const API = 'https://api.github.com/repos/bigWRguy/sandbox';
 const RECENT_MS = 10 * 60 * 1000;
 
 export async function dispatchWire({
