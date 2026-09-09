@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T23:12:57.555Z",
+  "generatedAt": "2026-09-09T23:27:58.556Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-09T23:12:57.312Z",
+    "at": "2026-09-09T23:27:58.245Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
+    "sweptThisRun": 24,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -32,22 +32,18 @@
   },
   "staleSchools": [
     {
-      "id": "washington",
-      "hours": 2.3
-    },
-    {
       "id": "western-michigan",
-      "hours": 2.3
+      "hours": 2.5
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.02218,
-    "p95Hours": 1.5701080555555555,
-    "worstHours": 2.2718458333333333
+    "medianHours": 0.8144675,
+    "p95Hours": 1.8203858333333334,
+    "worstHours": 2.522123611111111
   },
   "decisionCoverage": {
-    "total": 36,
-    "decided": 36,
+    "total": 54,
+    "decided": 54,
     "complete": true
   },
   "pending": {
@@ -56,295 +52,341 @@
   "profileResolution": {
     "cached": 45
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 940,
+    "completeOffers": 943,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-09T23:12:57.311Z",
-      "got": 68,
-      "new": 36,
-      "lag": 0.07
+      "at": "2026-09-09T23:27:58.244Z",
+      "got": 100,
+      "new": 54,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-09T23:11:22.491Z",
+    "at": "2026-09-09T23:26:20.219Z",
     "mode": "live",
     "collection": {
-      "returned": 68,
-      "kept": 36,
-      "duplicate": 32,
+      "returned": 100,
+      "kept": 54,
+      "duplicate": 46,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 12,
-      "rejected": 24,
+      "accepted": 25,
+      "rejected": 29,
       "reasons": {
-        "non_fbs_offer_target": 3,
-        "no_offer_term": 4,
+        "no_fbs_school": 13,
         "hard_negative": 3,
-        "no_fbs_school": 14
+        "no_offer_term": 11,
+        "non_fbs_offer_target": 2
       },
       "samples": [
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097797065266864442",
-          "author": "bradylowder33",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my first offer from Brevard College! Go Tornados! @ChadLittle27 @cometsolcoach @NorthstanlyFB @CoachOwens_12 @BrevardF5 https://t.co/N5TQeRtoE9"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097796706347966752",
-          "author": "mschilhabel22",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an invite to Cornell University's Virtual Junior Day. Thank you for the opportunity 🐻🔴 https://t.co/WMGMjjhLv8 @CoachTerp_ @M_E_Miller @CoachEFranklin @BigRed_Football #YellCornell https://t.co/rxxXZtkvSQ"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097790262885962137",
-          "author": "edleewhite3",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from Paul Quinn college @AllNOneSports1 @djones8301 https://t.co/xRFU28suPa"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097789779613995064",
-          "author": "jonaslogan31",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an official invite to the 2027 Under Armour Next 8th Grade All American Game!!! @UAnextFootball @FBUcamp https://t.co/AZpzKlyl4b"
+          "reason": "no_fbs_school",
+          "postId": "2097822724898881906",
+          "author": "haunted_news",
+          "searchJob": "class:2026",
+          "text": "Haunted Alex Johnson Hotel (Rapid City, SD) in Running for Best Haunted Hotel Near the southwestern edge of South Dakota, you can find Rapid City, where resides the famously haunted Alex Johnson Hotel. In fact, it's so haunted that it's bei"
         },
         {
           "reason": "hard_negative",
-          "postId": "2097824005092704314",
-          "author": "accfootballnews",
-          "searchJob": "south-alabama",
-          "text": "ACC quarterback power rankings: Darian Mensah sets the pace, but Kevin Jennings and Beau Pribula make their case Miami's new quarterback produced the most complete passing performance in the ACC, SMU's veteran delivered against the stronges"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097794951266660844",
-          "author": "jayandsilentbgg",
-          "searchJob": "washington-state",
-          "text": "ve offered many epic group photo in our short seven years, but this one will rank towards the top. Kevin Smith and Jay Mewes are joining us for the Washington State Summer Con. Jay will be with us Saturday and Sunday and Kevin will be with "
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097821944833855894",
-          "author": "eagameover",
-          "searchJob": "washington",
-          "text": "Born on February 18, 1945, in Bellaire, Texas, Victor Michael Driscoll answered the call of duty with profound courage and commitment. Enlisting in the United States Marine Corps, he trained as a Mortarman and was assigned to Fox Company, 2"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097816009239380323",
-          "author": "stephenj_caruso",
-          "searchJob": "washington",
-          "text": "The resolution passed unanimously. State Rep. Tim O'Neal (R., Washington) then offers remarks. He notes that the same day that the Constitution was signed, the House debated bridges in the same building. That got a laugh."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097814375742738469",
-          "author": "agtradegroup",
-          "searchJob": "washington",
-          "text": "ONE WEEK REMAINING - BIDS DUE SEPTEMBER 15! 971.50 ± acres of irrigated farmland and vineyard in Benton County, Washington, offered as one tract with Columbia River water rights permitting irrigation of approximately 950 ± acres. Learn more"
+          "postId": "2097818928240271647",
+          "author": "alfred3o3",
+          "searchJob": "class:2026",
+          "text": "U.S. Coal Companies: Prices, Competitive Position and Strategies Executive assessment The most useful public-company research shortlist is Peabody Energy (BTU), Core Natural Resources (CNR), Alliance Resource Partners (ARLP), Alpha Metallur"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097814353567457493",
-          "author": "ameeraliweb",
-          "searchJob": "washington",
-          "text": "https://t.co/CWAogkMOio"
+          "postId": "2097808335940849866",
+          "author": "harmonichq",
+          "searchJob": "class:2026",
+          "text": "𝗛𝗔𝗥𝗠𝗢𝗡𝗜𝗖 𝗔𝗚𝗘𝗡𝗧: 𝗢𝗣𝗘𝗥𝗔𝗧𝗜𝗢𝗡𝗦 𝗨𝗣𝗗𝗔𝗧𝗘 9 September 2026 Every number below is on chain or on the ledger at https://t.co/nnOviwdQ4i. 𝗧𝗛𝗘 𝗗𝗔𝗬 𝗜𝗡 𝗡𝗨𝗠𝗕𝗘𝗥𝗦 → $0.0008851 a token, ~$807,371 implied cap on 912"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097811786699288682",
-          "author": "ana_18rp",
-          "searchJob": "washington",
-          "text": "@DavidWolf777 What millions of Mexicans have been saying for years is now being said in Washington. And the most troubling part isn’t that Rubio is saying it… but that the Mexican government has so few facts to offer in response. 🇲🇽🇺🇸"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097810745366868378",
-          "author": "washtimessports",
-          "searchJob": "washington",
-          "text": "A day after revealing his disappointment over the lack of a new contract offer by Liverpool, Alexis Mac Allister delivered the perfect response with the winning goal in a 2-1 victory against Atletico Madrid in the Champions League on Wednes"
+          "postId": "2097801332640153961",
+          "author": "symplea51",
+          "searchJob": "class:2026",
+          "text": "Sanction Labor / Greens for Racism , Discrimnation and Divisive Division, Agitprop Propaganda Indoctrination . Hamas are a registered terrorist along with Muslim Brotherhood who dont like Israel. Why consider any favor / assist to any Terro"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097805590676537529",
-          "author": "daijonbets",
-          "searchJob": "washington",
-          "text": "0.25u | Chalkboard FREE Pick 🏈 2.21x A.J. Brown O0.5 Receiving Yards✅ Saquon Barkley O59.5 Rushing Yards Barkley has owned Washington over the years. Use code DAIJON on Chalkboard for a $100 Deposit Match + FREE SQUARE ⬇️ https://t.co/IlAH"
+          "postId": "2097795080274731335",
+          "author": "coryswan",
+          "searchJob": "class:2026",
+          "text": "Coinbase started as a place to buy Bitcoin. Now it calls itself the \"everything\" exchange. This is NOT progress. https://t.co/rtT4vJGqjt"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097791931459719615",
-          "author": "dcexaminer",
-          "searchJob": "washington",
-          "text": "Hasan Piker backlash and midterm convention offer Republicans rare bright spots before elections: @ByronYork https://t.co/50S34gTkgK"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097807728517300654",
-          "author": "saharawil2028",
-          "searchJob": "phrase:\"grateful to receive an offer\"",
-          "text": "After a great conversation with Coach Peyton Scott and others, I’m grateful to receive an offer from @OregonWBB https://t.co/veFcwORKxw"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097796137486791101",
-          "author": "tessaw2828",
-          "searchJob": "phrase:\"grateful to receive an offer\"",
-          "text": "After a great call, I’m so grateful to receive an offer from @GracelandU_WBB university ! Thank you @dylanschmit23 for this amazing opportunity 💙💛 https://t.co/rLLi6oRS1t"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097824216657563678",
-          "author": "noah_rose08",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with Coach Cabral I am blessed to receive a offer to play college basketball at Dean College #agtg @CorunnaHoops @MetroFlint @FlintPrepFan @cav_athletics @FroseFred @logan_lepage1 https://t.co/bHXqHulfsn"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097823462232293737",
-          "author": "moringlane02",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @Coach_Stutz I’m excited to announce that I’ve received an offer to play football for @MysticsFB . Thank you for this incredible opportunity!💪🏽🏈 #MOB @CoachColvin7 @tank_texasboy99 @Coach_Owens5 @coachhhun"
+          "postId": "2097826442528673862",
+          "author": "koz37683brayden",
+          "searchJob": "class:2027",
+          "text": "After another great conversation i’m extremely grateful to have received my third offer to Olivet! @CoachDWill_ @Coach_Reny @GPN_FTBL @PrepRedzoneMI @CoachKNoDuke @TheD_Zone https://t.co/eR259PvZqC"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2097822742095564810",
-          "author": "trey_page14",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation and visit with Coach Ham and Coach Cal, I’m beyond blessed to receive my first official collegiate offer from Franklin College #AGTG https://t.co/B6DixG6d85"
+          "postId": "2097814035546652760",
+          "author": "lhsvikingsfb",
+          "searchJob": "class:2027",
+          "text": "OFFER ALERT 2027 DL Fred Vaughn gets an offer from Erskine College. #RecruitThePalace HC:@CarterVikingsFB RC:@CoachHolley5 @The_FredVaughn @JonD @_coachpoe @FleetFB @RecruitGeorgia @itgnext_georgia https://t.co/0A3jsrpJzM"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097821115167211653",
-          "author": "christiancova21",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with Coach Shelton, l am blessed to say I have received an offer from @EcclesiaMBB_ thank you coach for the opportunity! @captainclxtch3 @prephoops_nm @coach_JNunez @RussellGurule https://t.co/8LFPt33ZUP"
+          "postId": "2097793044175311325",
+          "author": "kitt_jesse53478",
+          "searchJob": "class:2027",
+          "text": "Tank Dell suffered a very similiar injury in his mid 20s..... its 21 months later & he STILL isnt ready to play Tyreek had his happen in his 30s..... & its only been 12 months since his injury lol Hes not playing this season. Ive been sayin"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097828795331809641",
+          "author": "np4football_ot",
+          "searchJob": "class:2028",
+          "text": "Javier Mccoy-LB-2028-IN @MSU_FBRecruits Game Day Visit #CFB"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097410237145677969",
+          "author": "javiermccoy23",
+          "searchJob": "class:2028",
+          "text": "Blessed and grateful to receive a game day invite from @MSU_Football can’t wait to get out there on 10/10!! @FootballAndrean @IndianaPreps @PrepRedzoneIN @MalikGill5 @247Sports https://t.co/3Qr95n0hx9"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097827251358159307",
+          "author": "np4football_ot",
+          "searchJob": "class:2028",
+          "text": "Paulo Tobongye-RB-2028-IA @UNIFootball Game Day Invite #CFB"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097457986180456746",
+          "author": "paulotobo25",
+          "searchJob": "class:2028",
+          "text": "Thank you @coachricknelson @UNIFootball For the Gameday invite can’t wait for the experience! https://t.co/2OVUsoXkY3"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097797796036284800",
+          "author": "thesecondread",
+          "searchJob": "class:2028",
+          "text": "Tuesday: Mac Allister said Liverpool were 'not in a position' to offer him a new contract and he had options to leave. Wednesday: he scored the 50' winner in Iraola's first Champions League game, Liverpool 2-1 Atlético. Szoboszlai, who did "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097760652085325856",
+          "author": "thesecondread",
+          "searchJob": "class:2028",
+          "text": "Barcola's first Liverpool start. Ngumoha starts too. Gakpo absent, Gravenberch on the bench and Araujo stays at right-back. Iraola's first Champions League XI at Anfield isn't 'strongest XI' — it's a new width-and-press test against a Simeo"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097802421476987366",
+          "author": "deannkh10",
+          "searchJob": "alabama",
+          "text": "@LMozisek I’ve sold a few pieces and didn’t sell others just because of the ridiculous offer. If I decide to sell some, I’ll do my research."
         },
         {
           "reason": "hard_negative",
-          "postId": "2097809763513823389",
-          "author": "colin_steinhart",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @CoachTyMcGowan I’m beyond excited to announce that I have received my 1st D3 offer from Westminster University!!! Thank you for this amazing opportunity! @CoachPersing @HighVelocity570 @mburrows1_mark @ChadS"
+          "postId": "2097826132322349373",
+          "author": "thesportsontap",
+          "searchJob": "illinois",
+          "text": "Devon Witherspoon is the best defender on the Seattle Seahawks. He almost never played the sport at all. Growing up in Pensacola, Florida, Witherspoon didn't play a single down of organized football until his junior year of high school. Bas"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097802143704998081",
-          "author": "cadenstovall15",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with Coach Amor I am truly blessed to say that I have officially received an offer to play at Blackhawk Technical College! Thank you so much for believing in me.#agtg #blessed https://t.co/bf6HcU4gVI"
+          "postId": "2097818805242147080",
+          "author": "gilbert_hoops",
+          "searchJob": "iowa",
+          "text": "Big week for the 2029 guard. Iowa St offer followed by an invite to the US national team mini camp"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097818418892140816",
+          "author": "opoku_jace",
+          "searchJob": "iowa",
+          "text": "Blessed To Be Invited To Team USA Mini Camp.#AGTG https://t.co/YA07BYBx36"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097798123712045491",
-          "author": "ahmadkburruss",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @trogersOLCoach, I'm blessed to announce my 1st offer from @FB_KnoxCollege @Teaguefootball @JPIIHS_Football @TXPSMedia @TXTopTalent @tapps247 @PrepRedzoneTX https://t.co/BCbThiPrx3"
+          "postId": "2097819009123062194",
+          "author": "thewolverineon3",
+          "searchJob": "michigan",
+          "text": "Special offer! Get access to all content on The Wolverine + On3 + Rivals for just $1 Join now: https://t.co/VmO6IVAusE https://t.co/Cooh2vlcNp"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097792686224756890",
-          "author": "the_guskahn",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @trogersOLCoach, I’m blessed to announce my 6th offer from @FB_KnoxCollege!!! @Teaguefootball @JPIIHS_Football @TXPSMedia @TXTopTalent @tapps247 @PrepRedzoneTX https://t.co/vWRNjpNaWo"
+          "postId": "2097818469743919374",
+          "author": "csayf23",
+          "searchJob": "michigan",
+          "text": "Access to all content on The Wolverine, On3 and Rivals for $1! Special offer: https://t.co/AzQKnG9ieT https://t.co/EErJX9QGFh"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097805014831943960",
+          "author": "jtogx",
+          "searchJob": "michigan",
+          "text": "I understand the Bryce criticism. But if 14 ever starts a game for Michigan, we are in deep, deep trouble. He is a MAC player that we took as a favor to the family. And that was a mistake. Especially after the “I liked that tweet by acciden"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097810724785435024",
+          "author": "gbplogic",
+          "searchJob": "michigan",
+          "text": "#GBPUSD Neutral. Mode stepped to 1.3544–1.3548. High 1.3568 excess. Close 1.3547. #EURUSD Neutral. 1.1629–1.1632. Thursday 1.1641 taken at 1.1654. Close 1.1633. #EURGBP Neutral. Mode 0.8585–0.8586. Labor Day 0.8595 tagged. Range fourteen pi"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097806975056982343",
+          "author": "gbplogic",
+          "searchJob": "michigan",
+          "text": "Make sure to follow @gbplogic to get notified when our nightly #GBPUSD #EURUSD #EURGBP auction briefs and daily market updates posts. https://t.co/sqBx17rVWa"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097804387804381192",
+          "author": "dkngwhale",
+          "searchJob": "michigan",
+          "text": "(6/7) So this battle is much bigger than: “Can Robinhood offer sports predictions in Michigan?” It’s really: Who controls the future of sports prediction markets? Federal regulators? Or individual states? That answer could reshape the entir"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 11,
+      "accepted": 8,
+      "rejected": 17,
       "reasons": {
         "bare_mention_requires_llm": 10,
-        "school_not_resolved_confidently": 1
+        "reporter_missing_player_name": 2,
+        "explicit_non_fbs_target": 1,
+        "multiple_resolved_schools": 1,
+        "reporter_missing_class_year": 1,
+        "school_not_resolved_confidently": 2
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097792061798023482",
-          "author": "sudaneseecho",
-          "searchJob": "maryland",
-          "text": "Van Hollen Urges Trump to Halt U.S. Arms Sales to the UAE Over Support for the Rapid Support Militia: ‘Talk Is Cheap, Use Your Authority to Stop the Killing’ U.S. Senator Chris Van Hollen of Maryland has called on President Donald Trump’s a"
+          "postId": "2097823114667421981",
+          "author": "_gamblercasino_",
+          "searchJob": "class:2026",
+          "text": "No deposit casino bonuses still exist in 2026. The problem is not finding a screenshot with “100 FS”. The problem is finding a code that credits, a lobby that loads, and terms you can actually finish. The live list is here: https://t.co/Qhs"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2097828808359309625",
+          "author": "jucoffrenzy",
+          "searchJob": "class:2027",
+          "text": "2027 (@MGCCCfootball) JUCO DB @25_zeric was offered by Charlotte HL https://t.co/kiLraQhDxh https://t.co/E84CFH7TpO"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2097828366795550852",
+          "author": "jucoffrenzy",
+          "searchJob": "class:2027",
+          "text": "2027 (@PearlRiverFB) JUCO DB @lmkeesler was offered by Charlotte @Charlotte49ers HL https://t.co/StSNu2RUBt https://t.co/msy9GGkPr1"
+        },
+        {
+          "reason": "explicit_non_fbs_target",
+          "postId": "2097826132003549272",
+          "author": "profilefblive",
+          "searchJob": "class:2028",
+          "text": "Colorado State has offered 3.5⭐ 2028 QB Noah Patton from Venice HS, FL. @Noah1Patton Rated (#751 NATL, #51 QB, #111 FL) - 12 offers overall. https://t.co/b3NjcAQeIO"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097824532824555570",
-          "author": "bigisland31",
-          "searchJob": "washington",
-          "text": "@SigmundBloom I’ve been offered Amon-Ra and Jaylen Warren for Jadarian Price and Parker Washington in my PPR keeper league. Please help. 🙏🏻🙏🏻 I don’t watch college so I’m in the dark."
+          "postId": "2097812829491388902",
+          "author": "np4football_ot",
+          "searchJob": "class:2029",
+          "text": "C’Ivion “Cash” Hines-WR-2029-TX @OhioStateFB Offer #CFB"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097822365258490028",
-          "author": "libertycappy",
-          "searchJob": "washington",
-          "text": "George Washington could have spent his retirement celebrating what he had accomplished, but instead he chose to leave Americans with a series of warnings about challenges he believed could threaten the new republic long after he was gone. W"
+          "postId": "2097822041080471812",
+          "author": "jz41008219",
+          "searchJob": "illinois",
+          "text": "@LeslieBarandky @JBPritzker This is Illinois. This piece of crap is Trump 24/7, yet Trump wants/offered to help save lives in Chicago. JB NO - I prefer to play politics with my citizens lives, insanity. Pritzker should be removed from offic"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097819601308422524",
-          "author": "pool14music",
-          "searchJob": "washington",
-          "text": "### Response and the “stand down” question DOD Chief of Staff Jeremy Bash emailed State leadership at 7:19 p.m. ET on September 11: forces that could move to Benghazi had been identified and “are spinning up as we speak.” No U.S. military a"
+          "postId": "2097822972329206235",
+          "author": "nobagholder",
+          "searchJob": "iowa",
+          "text": "@_The_Prophet__ There are at least 10x the number of centimillionaires in the Bay Area as there are in the entire state of Iowa. The Iowa house will probably sit on the market for 3-5 years. The Palo Alto house will have multiple offers the"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097817733081764244",
+          "author": "maleobserver",
+          "searchJob": "iowa",
+          "text": "@willnc1x @Bellmanequation Iowa often offers a better quality-of-life-to-income ratio. California can offer a higher ceiling for earnings &amp; opportunities, but it makes sense only when your job, family ties, or lifestyle benefits are str"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097814267273810138",
-          "author": "bigisland31",
-          "searchJob": "washington",
-          "text": "@Ihartitz I’ve been offered Amon-Ra and Jaylen Warren for Jadarian Price and Parker Washington in my PPR keeper league. Please help. 🙏🏻🙏🏻"
+          "postId": "2097818353746235525",
+          "author": "wolverinecorner",
+          "searchJob": "michigan",
+          "text": "I’m not advocating for Tommy Carr to start but this feels unfair. He just won the backup job at Michigan as a true freshman. And it’s not like he had no good college offers. 247 did rate him a 4 star as well. Also some guys just have “it”. "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097809435699917128",
-          "author": "bigisland31",
-          "searchJob": "washington",
-          "text": "@MattWaldman I’ve been offered Amon-Ra and Jaylen Warren for Jadarian Price and Parker Washington in my PPR keeper league. Please help. 🙏🏻🙏🏻"
+          "postId": "2097817824378999240",
+          "author": "truth_sniper_",
+          "searchJob": "michigan",
+          "text": "Michigan, get your(selves) a Senator who campaigns on adult issues. Rather than pointing out 6th grade level petty misinformation. She’s holding the umbrella for him, to allow him to briefly use both hands. He’s responding in a discussion. "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097799710568321087",
-          "author": "0xremotet",
-          "searchJob": "washington",
-          "text": "Canada tariff escalation Canada's new tariffs on US goods went live at 12:01am Tuesday. 15%, 25%, and 50% rates across roughly 900 product lines, covering about $27.6B worth of US exports. This isn't a new fight, it's an escalation of one. "
+          "postId": "2097814811421950020",
+          "author": "mackinaccenter",
+          "searchJob": "michigan",
+          "text": "Michigan was promised more than 20,000 new jobs. It got 602. Gov. Gretchen Whitmer offered $2.7 billion in subsidies for eight major projects. The state has already spent $1.8 billion in taxpayer money, all for 3% of the promised jobs. http"
+        },
+        {
+          "reason": "reporter_missing_class_year",
+          "postId": "2097820866323284462",
+          "author": "bernierjust",
+          "searchJob": "minnesota",
+          "text": "@JamesNicholsNHL I dont think Quinn gains anything signing today vs during free agency. Why lock yourself in now when you can hear offers from 10+ teams that are more than willing to match whatever Minnesota offers"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097793982071754880",
-          "author": "ahmed_abdlahi",
-          "searchJob": "washington",
-          "text": "Three Presidents, Three Influential Institutions: Somaliland’s Strategic Journey Through Washington Somaliland’s engagement with Washington’s policy community has developed across three presidencies, with each leader presenting the country’"
+          "postId": "2097815106264453408",
+          "author": "chiparm923",
+          "searchJob": "minnesota",
+          "text": "@annikadevils Reality. 1. Minnesota loses an advantage of being able to offer 8 years in 6 days. 2. If he goes to free agency, most he can get is 6. If he and Jack plan to do a group UFA tour, it will be a three-year deal. 3. BGs back is to"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097811382913683462",
-          "author": "stanbury_barth",
-          "searchJob": "wisconsin",
-          "text": "@TomTiffanyWI @DavidCCrowley Grok @grok · 3h Yes. Wisconsin DOC first offered tablets to inmates for purchase starting in 2018 under Gov. Scott Walker. Tom Tiffany served in the state Senate at the time (2013-2020) and was on the Joint Fina"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097794338843455841",
-          "author": "mjrod",
-          "searchJob": "kansas-state",
-          "text": "@gocougs123 Enjoy the amenities that Manhattan and K-State offers. You're going to love it."
+          "postId": "2097808827127152963",
+          "author": "politicus1",
+          "searchJob": "minnesota",
+          "text": "Yeah, but what did he really do with Kaprizov? He threw crazy money ( at the time ) at him so he'd stay. He didn't sign that contract because he \"loves\" Minnesota, he did it because he got an insane offer. Billy can't do that with Quinn. Qu"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097792233932021785",
-          "author": "miamilawschool",
-          "searchJob": "miami",
-          "text": "What happens when a wrongfully convicted person is offered freedom, but at the cost of clearing their name? New scholarship from Innocence Clinic director Craig Trocino examines “dark pleas” and their consequences. #MiamiLaw #CriminalLaw ht"
+          "postId": "2097813953305026654",
+          "author": "lksteve",
+          "searchJob": "notre-dame",
+          "text": "@joehas Irish Government spending €2B annually on services for International Protection, 80% of applicants are refused 1st up, 3 layers of appeals follow. Then offered €10K per family to leave. Most don’t. Ireland is building its population"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097809171701727248",
+          "author": "danielryan11",
+          "searchJob": "notre-dame",
+          "text": "https://t.co/TuRK47lr9a. So Irish students been offered jobs then taken back again. Maybe we have too many Indian nurses @CarrollJennifer #ireland"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097821689975386494",
+          "author": "ryanloechner",
+          "searchJob": "uconn",
+          "text": "698 Connecticut homes went pending Fri Sep 4 - Wed Sep 9. Most of them in the usual three counties. The rest of the state still moved 202. If you wrote one of those offers, what did it take? Curious minds want to know."
         }
       ]
     },
@@ -352,18 +394,21 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
+      "swept": 24,
+      "failed": 2,
       "requests": 26,
-      "errors": []
+      "errors": [
+        "western-michigan: SearchTimeline response missing — no timeline call; page said: This page is down I scream. You scream. We all scream... for us to fix this page. We’ll stop making jokes and get things up and running soon. Retry Home Status  (slice left pending)",
+        "east-carolina: SearchTimeline HTTP 404 (slice left pending)"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 11,
-      "brandNewOffers": 1
+      "acceptedEvidence": 8,
+      "rejectedCandidates": 17,
+      "brandNewOffers": 3
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-09T23:12:57.555Z"
+    "status rebuilt locally from current store on 2026-09-09T23:27:58.557Z"
   ]
 }
