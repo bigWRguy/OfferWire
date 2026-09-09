@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T18:28:07.465Z",
+  "generatedAt": "2026-09-09T18:41:48.173Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-09T18:28:07.161Z",
+    "at": "2026-09-09T18:41:47.973Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 5,
+    "requests": 7,
+    "fullSweepCycles": 33
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,118 +32,166 @@
   },
   "staleSchools": [
     {
-      "id": "delaware",
-      "hours": 2.6
-    },
-    {
       "id": "east-carolina",
-      "hours": 2.6
+      "hours": 2.8
     },
     {
       "id": "jacksonville-state",
-      "hours": 2.6
-    },
-    {
-      "id": "kansas-state",
-      "hours": 2.6
+      "hours": 2.8
     },
     {
       "id": "kent-state",
-      "hours": 2.6
+      "hours": 2.8
     },
     {
       "id": "liberty",
-      "hours": 2.6
+      "hours": 2.8
     },
     {
       "id": "louisiana",
-      "hours": 2.6
-    },
-    {
-      "id": "louisville",
-      "hours": 2.6
+      "hours": 2.8
     },
     {
       "id": "temple",
-      "hours": 2.6
+      "hours": 2.8
     },
     {
       "id": "texas-state",
-      "hours": 2.6
+      "hours": 2.8
     },
     {
       "id": "toledo",
-      "hours": 2.6
+      "hours": 2.8
     },
     {
       "id": "troy",
-      "hours": 2.6
+      "hours": 2.8
     },
     {
       "id": "boston-college",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "georgia-tech",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "maryland",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "miami",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "nc-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "notre-dame",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "oklahoma-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "pittsburgh",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "stanford",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "texas-am",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "uconn",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "washington",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "wisconsin",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "wyoming",
+      "hours": 2.5
+    },
+    {
+      "id": "air-force",
+      "hours": 2.3
+    },
+    {
+      "id": "eastern-michigan",
+      "hours": 2.3
+    },
+    {
+      "id": "florida-atlantic",
+      "hours": 2.3
+    },
+    {
+      "id": "florida-international",
+      "hours": 2.3
+    },
+    {
+      "id": "illinois",
+      "hours": 2.3
+    },
+    {
+      "id": "iowa",
+      "hours": 2.3
+    },
+    {
+      "id": "louisiana-monroe",
+      "hours": 2.3
+    },
+    {
+      "id": "louisiana-tech",
+      "hours": 2.3
+    },
+    {
+      "id": "marshall",
+      "hours": 2.3
+    },
+    {
+      "id": "massachusetts",
+      "hours": 2.3
+    },
+    {
+      "id": "michigan",
+      "hours": 2.3
+    },
+    {
+      "id": "michigan-state",
+      "hours": 2.3
+    },
+    {
+      "id": "minnesota",
+      "hours": 2.3
+    },
+    {
+      "id": "tulane",
+      "hours": 2.3
+    },
+    {
+      "id": "tulsa",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.2770905555555556,
-    "p95Hours": 2.5947466666666665,
-    "worstHours": 2.5947466666666665
+    "medianHours": 1.5050655555555557,
+    "p95Hours": 2.822721666666667,
+    "worstHours": 2.822721666666667
   },
   "decisionCoverage": {
-    "total": 69,
-    "decided": 69,
+    "total": 5,
+    "decided": 5,
     "complete": true
   },
   "pending": {
@@ -152,7 +200,7 @@
   "profileResolution": {
     "cached": 44
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 927,
     "incompleteOffers": 0
@@ -160,361 +208,75 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-09T18:28:07.160Z",
-      "got": 117,
-      "new": 69,
-      "lag": 0.03
+      "at": "2026-09-09T18:41:47.972Z",
+      "got": 15,
+      "new": 5,
+      "lag": 0.07
     }
   },
   "audit": {
-    "at": "2026-09-09T18:26:25.818Z",
+    "at": "2026-09-09T18:41:20.286Z",
     "mode": "live",
     "collection": {
-      "returned": 117,
-      "kept": 69,
-      "duplicate": 48,
+      "returned": 15,
+      "kept": 5,
+      "duplicate": 10,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 23,
-      "rejected": 46,
+      "accepted": 2,
+      "rejected": 3,
       "reasons": {
-        "no_fbs_school": 17,
-        "hard_negative": 3,
-        "non_fbs_offer_target": 10,
-        "no_offer_term": 16
+        "no_offer_term": 2,
+        "no_fbs_school": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2097715432060833987",
-          "author": "yourpremiertra1",
-          "searchJob": "texas",
-          "text": "Pleasant Holidays - Amsterdam, Netherlands! About Amsterdam Amsterdam is renowned for its intricate system of canals that rival those of Venice. In fact, it is often referred to as the “Venice of the north,” and the city’s historic canal ri"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097709135546474715",
-          "author": "catalystfdg",
-          "searchJob": "texas",
-          "text": "What are DSCR loans in Texas? DSCR loans can help real estate investors finance rental properties based on the property’s cash flow, not traditional personal income documentation. Catalyst Funding offers DSCR loans. Let's review options for"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097752918443376706",
-          "author": "lucaspagel24",
+          "reason": "no_offer_term",
+          "postId": "2097718976411230310",
+          "author": "hunter2stevens",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @CoachJMcGehee I am blessed to receive my fist offer to play football at @CSCwildcatsFB ❗️❗️ https://t.co/G4EEfNfymp"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097752500954599670",
-          "author": "barronburkhall",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from Schreiner University! Let’s go SU! @Coach_Magnia @CoachCWorrell https://t.co/ppI06VuVDP"
+          "text": "blessed to receive a game day invite from Alma college!! @CoachP_Alma @z_rieps @CoachFipps @CoachMikeHarris @CoachQTinsley @CoachWillStein @Jeff_Ermann @CChipwest @CoachTonyGibson @CoachYoung41 @CoachJPollak @JonesMUFB @_CoachDay_ @KYFUTURE"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097749465612288414",
-          "author": "cooper_floyd44",
+          "postId": "2097714950831591736",
+          "author": "finchbzach",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great game day visit and talk with @CoachCSilva I’m blessed to receive an offer from @MsideFootball @Coach_Lauck @LNWFBProspects @Bigg_Keesh https://t.co/avP8Ww3p2h"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097747828214743418",
-          "author": "brodiem_2027",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After talking to coach Hillerman I’m blessed to receive an offer from North Central Missouri College. https://t.co/ziNjYmoNnI"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097747390669197477",
-          "author": "colten_w11",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my first offer from @HindsCC_BB! Thank you @HickmanTriston @DylanColeman14_ and @dennis_gunnar for showing me around campus. Thank you to my family and coaches who have helped me along the way #agtg https://t.co/sVKFKa6pn"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097747029455778295",
-          "author": "caden1742428",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my first official offer to play college baseball. Thank you to @HickmanTriston @dennis_gunnar @DylanColeman14_ for showing me around campus. https://t.co/BP93o96mYt"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097746220986884555",
-          "author": "mattwidtfeldt",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great visit and talk with Coach Jaskiewicz and Coach Martin I am blessed to receive an offer from the Coast Guard Academy. AGTG! https://t.co/UZJ888isIo"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097745858850607487",
-          "author": "claridy_taren",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great phone call with @coachryannichol, I’m blessed to receive my 9th offer from Miles college! https://t.co/JedkNgJZM8"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097743780707209346",
-          "author": "simmonds_amari",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with Coach @JWesley_Jr blessed to receive an offer from @GeorgiaKnightsC #AGTG https://t.co/2xFEKMDO8A"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097737695292272673",
-          "author": "freddiejowrs7",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Great conversation with @NathanKero81 and i’m more than blessed to receive my first offer from @MRCNorseFB 🙏🏽#Blessed #AGTG @perk3445 @RecruitTheA @AustinFootball_ https://t.co/e72JclPNJS"
+          "text": "Blessed to receive an offer from @WCtitansFB!! @CoachChevyD https://t.co/MUOFcAnEXu"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097735663034487103",
-          "author": "rukiyaaaaaaaaa_",
+          "postId": "2097711748023284091",
+          "author": "flomojamel",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Changing my career paths right after graduation is crazy lol, but I'm so excited to working in pediatrics and give families the same love, care, and compassion that my family has been blessed to receive. 🥹💙"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097733468763357474",
-          "author": "corneliuslaney1",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an Offer from Samford university ‼️ https://t.co/MGFNEQgWA3"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097733043746181336",
-          "author": "travisfead47120",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @coachbconover I am blessed to receive an official offer from Daytona Beach Christian University ⚔️🖤 @CoachHall41 @brianjwilder @SuwanneeFB #trusttheprocess #AGTG✝️ #BEADOG🐶 https://t.co/j0kyxLlJvi"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097731323443978491",
-          "author": "justinspiveyy",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my first d1 offer from Southern University Jaguars 🐆🐆 !! https://t.co/BLJUMJBgWX"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097729460174762340",
-          "author": "jase_ryals",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my 3rd official offer to play college baseball @CLCC_Baseball. Thank you to @George_sala9 and @KyleFless for showing me around! @GM_BASEBALL https://t.co/x5q6uRIkvl"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097737559237362084",
-          "author": "joahjeffries_1",
-          "searchJob": "phrase:\"blessed to have received\"",
-          "text": "Blessed to have received my first offer to continue my baseball career on a collegiate level. #AGTG https://t.co/1r2NdszFs3"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097732969871880489",
-          "author": "jett_walkup2009",
-          "searchJob": "phrase:\"blessed to have received\"",
-          "text": "Blessed to have received my third collegiate scholarship after a great visit with Murray State! #Letitloose #AgTG @JustinEclavea @TxBlacksox2028 https://t.co/yYOUzNkcq9"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097718703504642160",
-          "author": "bb_bemovin4",
-          "searchJob": "phrase:\"my first D1 offer\"",
-          "text": "After a great convo with coach Jake Morton, I’m glad and blessed to receive my first D1 offer from Alcorn State university.. #GoBraveHawks https://t.co/oVjfiJwhPW"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097402437581557855",
-          "author": "pacthewack",
-          "searchJob": "colorado-state",
-          "text": "Maybe the biggest Pac-12 number from Week 1 wasn’t on a scoreboard. Colorado State drew a program-record 40,548 against Wyoming. 17,573 student tickets claimed. Also a program record. Then CSU won 35-13. Fort Collins showed up. https://t.co"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097741476750881175",
-          "author": "np4football_ot",
-          "searchJob": "western-michigan",
-          "text": "Carson McCoy-OL-2028-WI @WMU_Football Game Day Visit #CFB"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097656748458868869",
-          "author": "carson_mccoy1",
-          "searchJob": "western-michigan",
-          "text": "Thank you @JoeyseeseFB and @WMU_Football for the game day invite! Can’t wait to get back to the Zoo! @CoachHarris28 @MJ_NFLDraft @CoachLinares @CoachLT_WMU @pawlakjoe @WMU_Recruiting https://t.co/5k3UWx5Sfr"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097743900572053568",
-          "author": "open_weights_ai",
-          "searchJob": "class:2026",
-          "text": "https://t.co/6E9Z09hFgJ"
+          "text": "I am blessed to receive Allstate this past year and all American for Track https://t.co/xFTZFaAyK3"
         }
       ]
     },
     "extraction": {
-      "accepted": 2,
-      "rejected": 21,
+      "accepted": 0,
+      "rejected": 2,
       "reasons": {
-        "bare_mention_requires_llm": 13,
-        "author_not_recruit:different sport": 1,
-        "multiple_resolved_schools": 3,
-        "school_not_resolved_confidently": 2,
-        "explicit_non_fbs_target": 1,
-        "player_missing_class_year": 1
+        "bare_mention_requires_llm": 1,
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097711071897264319",
-          "author": "conservwarrior2",
-          "searchJob": "texas",
-          "text": "@jamestalarico @TeamTalaricoHQ @Reverend_Rigby A minister at James Talarico’s lifelong church, Rev. Babs Miller, said this about people in the congregation: “We still have people in this church who wish that the young man had not just nicke"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097710820033466663",
-          "author": "receptionlivid",
-          "searchJob": "texas",
-          "text": "@SButsko @TheBuckeyeNut OSU can't pull the same stunt. The network picked the slot. They offered a Sunday game, and Texas, correctly refused."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097709637722161461",
-          "author": "teainfo",
-          "searchJob": "texas",
-          "text": "The PASS program offers eligible Texas public school students a $400 tutoring grant to strengthen reading skills. Students who scored “Did Not Meet Grade Level” on Grade 3 Reading STAAR in spring 2026 may qualify. Learn more: https://t.co/n"
-        },
-        {
-          "reason": "author_not_recruit:different sport",
-          "postId": "2097751631622287597",
-          "author": "josiehaverkamp",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great day with Johnson County i’m blessed to receive an offer! Go Cavs💛 https://t.co/vV456lZ7XG"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097732372447859154",
-          "author": "thenewmexican",
-          "searchJob": "central-michigan",
-          "text": "In the latest episode of “The Sports Den” podcast, sports writers Will and James offer their thoughts on the Lobos’ dominant 38-7 victory over Central Michigan and share their Week 4 prep football picks. https://t.co/ONDEagrogM"
+          "postId": "2097722159179202941",
+          "author": "twill_2312",
+          "searchJob": "louisville",
+          "text": "@joshLovethatwoa @LouisvilleMBB Shhhh. Louisville like one his first offers. We been waiting 👀"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097714423330902112",
-          "author": "zacyourback",
-          "searchJob": "colorado-state",
-          "text": "WSU should pay attention here: Colorado State… 26K undergrads, 17,500 students at their first football game. They offer: FREE TICKETS for all FULLTIME students with ID.. FREE TICKETS for all HIGH SCHOOL Students with ID.. Adapt and survive "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097732072869605819",
-          "author": "lockedinpreps",
-          "searchJob": "class:2027",
-          "text": "@Badger_FB 2027 DB Baylor Uhing has received an in-state offer from @UNK_Football! Congratulations on the offer, Baylor!"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097743482538324235",
-          "author": "bdrumm_oui",
-          "searchJob": "class:2028",
-          "text": "2028 Enid (OK) DE/DL Cash Mathis picks up #TexasTech #RedRaiders offer. Mathis is super underrated across the #OKPreps landscape and looks to really start to pick up steam."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097735227955163458",
-          "author": "np4football_ot",
-          "searchJob": "class:2028",
-          "text": "Azhir Waddell-DL-2028 @PennStateFball Offer #CFB"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097733642378179043",
-          "author": "sitnuok",
-          "searchJob": "duke",
-          "text": "@RobertBrewtf Duke. Blah blah 🏈 . Duke offers an easy mark. The payoff is at least 2 Duke /UK (+ Fla, Ark) basketball games each yr."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097731623299039570",
-          "author": "conoroneill_di",
-          "searchJob": "duke",
-          "text": "“So, the path I took, I would redo again just because it made me hungry and helps me keep going.” Get to know Duke cornerback Kyon Loud, a transfer from Montana with 3 FCS offers as a recruit, better: (I promise there's only one puntentiona"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097752814223032430",
-          "author": "xcessdemand",
-          "searchJob": "houston",
-          "text": "Here you go you dumb twat: OLE MISS: 1986–87: Football recruiting violations involving boosters providing money, transportation, and other inducements. Two years probation, one-year postseason ban, one-year TV ban, scholarship reductions. 1"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097751675444556018",
-          "author": "hothomeshou",
-          "searchJob": "houston",
-          "text": "Coffee in the sunroom. A walk along Copperfield’s trails. Parks, pools and green spaces close to home. This Houston home offers a lifestyle worth seeing in person. Curious what else makes it stand out? Ask us or call 832-862-5323 to tour. h"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097739843589882027",
-          "author": "vince_schaaf",
-          "searchJob": "houston",
-          "text": "@OverratedTakes We don’t know what Houston offered. We know it was at least $50M. And Bakers season last year was quite a bit better than CJs"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097739430731878544",
-          "author": "drumm_colin",
-          "searchJob": "houston",
-          "text": "Upcoming itinerary: Mimbres -&gt; Austin. Austin -&gt; Houston Houston -&gt; ... -&gt; Durham Durham -&gt; ... -&gt; NYC If you live along this route and wish to buy me a beer or offer me a couch to sleep on, please DM. I'll be in the city "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097728667732320381",
-          "author": "aethelraed1974",
-          "searchJob": "houston",
-          "text": "@TheCheeseKing__ Pretty standard pay for a QB1 these days. Here in Houston Stroud turned down a similar offer and he is a lot worse than Baker. Go Pack Go!"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097716667077861604",
-          "author": "sports_ol",
-          "searchJob": "houston",
-          "text": "Grimpoot Collectors Society @grimpoot 'Make us an offer we can't refuse' 2020 Panini Donruss Optic #133 Ross Blacklock - Houston Texans - P2|Pre-Owned Site (eBay) Price, US: ($1.58) https://t.co/d7O4PJt62G &gt;&gt; @allsc_ol @sports_ol #The"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097741641255919990",
-          "author": "cyclonefanatic",
-          "searchJob": "iowa-state",
-          "text": "Twenty-eight-point underdog. Fifteen straight losses to Iowa. Then came 27-9. Could the Cyclones shock the Hawkeyes again? @RandyPete looks back at the 1998 upset, remembers the Cy-Hawk game postponed after 9/11 and offers a few more Rand-o"
-        },
-        {
-          "reason": "explicit_non_fbs_target",
-          "postId": "2097736793433243998",
-          "author": "profilefblive",
-          "searchJob": "kansas",
-          "text": "Kansas State has offered 3.7⭐ 2028 CB Deandra Andrews from Thomas County Central HS, GA. @DeandraAndrews0 Rated (#565 NATL, #60 CB, #75 GA) - 19 offers overall. https://t.co/OZsGzAJeBO"
-        },
-        {
-          "reason": "player_missing_class_year",
-          "postId": "2097724479560712550",
-          "author": "sitaiaimaileoi",
-          "searchJob": "kansas",
-          "text": "Blessed and grateful to receive my 3rd D1 Offer from Kansas State, Thank you Coach Schmidt and @hjacobs67 for the opportunity! https://t.co/RwD0EGCsO3"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097724078861750361",
-          "author": "mrfairtax",
-          "searchJob": "kansas",
-          "text": "The Voodoo Magic of the Kansas Appraisal System That Puts Your House at Risk Kansas does not wait for you to offer your house for sale, receive a genuine bid, accept that bid and complete a closing before declaring what your property is wor"
+          "postId": "2097756257864102102",
+          "author": "kylehzrt",
+          "searchJob": "delaware",
+          "text": "Another 2028 offered by CSU: Kinslee Nelson. She's from Oshkosh, WI, although Green Bay hasn't offered yet. Toledo, EIU, and Delaware have. https://t.co/buYSVv50FN"
         }
       ]
     },
@@ -522,18 +284,21 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 5,
+      "failed": 2,
+      "requests": 7,
+      "errors": [
+        "phrase:\"extends an offer to\": SearchTimeline HTTP 404 (slice left pending)",
+        "east-carolina: rate limited"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 2,
-      "rejectedCandidates": 21,
-      "brandNewOffers": 2
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 2,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-09T18:28:07.466Z"
+    "status rebuilt locally from current store on 2026-09-09T18:41:48.176Z"
   ]
 }
