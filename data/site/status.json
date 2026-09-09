@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T21:11:39.258Z",
+  "generatedAt": "2026-09-09T21:40:19.697Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-09T21:11:39.040Z",
+    "at": "2026-09-09T21:40:19.396Z",
     "jobsTotal": 162,
-    "sweptThisRun": 3,
-    "requests": 4,
-    "fullSweepCycles": 54
+    "sweptThisRun": 25,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,149 +32,422 @@
   },
   "staleSchools": [
     {
-      "id": "east-carolina",
-      "hours": 2.3
+      "id": "eastern-michigan",
+      "hours": 2.4
     },
     {
-      "id": "jacksonville-state",
-      "hours": 2.3
+      "id": "florida-atlantic",
+      "hours": 2.4
     },
     {
-      "id": "kent-state",
-      "hours": 2.3
+      "id": "florida-international",
+      "hours": 2.4
     },
     {
-      "id": "liberty",
-      "hours": 2.3
+      "id": "louisiana-monroe",
+      "hours": 2.4
     },
     {
-      "id": "louisiana",
-      "hours": 2.3
+      "id": "louisiana-tech",
+      "hours": 2.4
     },
     {
-      "id": "temple",
-      "hours": 2.3
+      "id": "marshall",
+      "hours": 2.4
     },
     {
-      "id": "texas-state",
-      "hours": 2.3
+      "id": "massachusetts",
+      "hours": 2.4
     },
     {
-      "id": "toledo",
-      "hours": 2.3
+      "id": "tulane",
+      "hours": 2.4
     },
     {
-      "id": "troy",
-      "hours": 2.3
+      "id": "tulsa",
+      "hours": 2.4
+    },
+    {
+      "id": "wyoming",
+      "hours": 2.4
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.1988658333333333,
-    "p95Hours": 2.2505752777777777,
-    "worstHours": 2.2505752777777777
+    "medianHours": 1.2342572222222221,
+    "p95Hours": 2.432999166666667,
+    "worstHours": 2.432999166666667
   },
   "decisionCoverage": {
-    "total": 7,
-    "decided": 7,
+    "total": 59,
+    "decided": 59,
     "complete": true
   },
   "pending": {
     "total": 20
   },
   "profileResolution": {
-    "cached": 44
+    "cached": 45
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 931,
+    "completeOffers": 933,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-09T21:11:39.039Z",
-      "got": 7,
-      "new": 7,
-      "lag": 0.18
+      "at": "2026-09-09T21:40:19.395Z",
+      "got": 106,
+      "new": 59,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-09T21:11:21.489Z",
+    "at": "2026-09-09T21:38:45.147Z",
     "mode": "live",
     "collection": {
-      "returned": 7,
-      "kept": 7,
-      "duplicate": 0,
-      "tooOld": 0,
+      "returned": 106,
+      "kept": 59,
+      "duplicate": 46,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 3,
-      "rejected": 4,
+      "accepted": 38,
+      "rejected": 21,
       "reasons": {
-        "no_fbs_school": 2,
-        "no_offer_term": 2
+        "no_fbs_school": 12,
+        "hard_negative": 3,
+        "no_offer_term": 6
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2097760957930115359",
-          "author": "nana00018487212",
-          "searchJob": "washington",
-          "text": "They told you the problem was Donald Trump. That was the product. Easy to hate. Easy to air. Easy to put on a podium so you never look at the grocery bill. I do not buy it. I never did. Trump is a businessman running America First. That wil"
+          "postId": "2097780655367295274",
+          "author": "galtrand13",
+          "searchJob": "liberty",
+          "text": "Showering with his daughter Ashley. Sexually assaulting Tara Reade in his Senate offices. Accepting bribes in return for policies before he was senile. And ever since then, filling his diapers for Jill to dispose of. Ashley Biden, daughter "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097792390991876587",
-          "author": "high_beems",
-          "searchJob": "pittsburgh",
-          "text": "Lamenting the loss of my reply game...I used to be underneath everyone's horny tweets with the finest my pervert brain could offer. now all I can muster is a \"woah\". pathetic. must do better. https://t.co/OESJjuOtvH"
+          "postId": "2097776501567668627",
+          "author": "galtrand13",
+          "searchJob": "liberty",
+          "text": "Explaining economic laws and capitalism to my business students in the past I would ask them to look around the classroom and realize that every single thing they saw (besides the humans) were made by somebody working that they then offered"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097765757262393679",
+          "author": "agentofthefree_",
+          "searchJob": "liberty",
+          "text": "@elonmusk @TMZ The amount alone makes it ludicrous. Why would she ever reject so much and why would anyone ever offer so much for so little?"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097772065550188573",
+          "author": "troycaylak",
+          "searchJob": "troy",
+          "text": "@FlyRyde thanks big dawg, yo I meet need you soon as a shooter for some upcoming brand offers. heyyyyyooooo"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097769038105792886",
+          "author": "automationace_",
+          "searchJob": "troy",
+          "text": "Zapier should offer a plan that is only for pro-code devs. + Zapier MCP (AI Agents) + Zapier SDK (Code) + Zapier CLI (Terminal) It's the connectivity layer for apps, agents, and AI. Let's call it: Zapier Core https://t.co/jgLKhbsvo1"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097799709016379903",
+          "author": "profilefblive",
+          "searchJob": "alabama",
+          "text": "📈 Trending Recruit 📈 2028 WR Joseph Gibbs from Southeast Alamance HS, NC is currently Profile's Top Trending 2028 recruit after recent offers from Tennessee, Alabama, Ohio State, Notre Dame, and Auburn. @GibbsJosep59631 Rated 4.4 ⭐ (#202 "
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097776976295514357",
+          "author": "timwatts_bol",
+          "searchJob": "alabama",
+          "text": "🚨Bama commitment alert🚨 Nate Oats and Preston Murphy get Alabama's 2027 class off to a hot start by landing combo guard Chase Lumpkin who had offers from across the country. UA's 2026 class was No. 3 in the nation. Commimtent profile: htt"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097776164978778438",
+          "author": "jacksoncollier",
+          "searchJob": "alabama",
+          "text": "Recently picked up an Arkansas offer. Committed to Alabama."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097791496367771765",
-          "author": "millennialmike7",
-          "searchJob": "stanford",
-          "text": "https://t.co/b02ulQ806Z"
+          "postId": "2097776036096159919",
+          "author": "joetipton",
+          "searchJob": "alabama",
+          "text": "NEWS: 2027 Top-25 overall recruit Chase Lumpkin, one of the top combo guards nationally, has committed to Alabama, he told @Rivals. https://t.co/qMhQn4Sigh https://t.co/tGoxNnXNj1"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097773311576981616",
-          "author": "himwitdacam",
-          "searchJob": "stanford",
-          "text": "I was ranked 20th week 11 won my game had a bye now I’m ranked 9th heading into the governors cup vs Louisville #cfb27"
+          "postId": "2097772844986040436",
+          "author": "docdrwho",
+          "searchJob": "alabama",
+          "text": "https://t.co/pR6PPUczEj"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097779874031174111",
+          "author": "phantommonster",
+          "searchJob": "illinois",
+          "text": "LARGE BLACK PTEROSAUR-LIKE CREATURE Nearly Hits Windshield Near Maple Park, Illinois - Years later, the witness offered an unusual comparison: a pterodactyl. Read the account and investigative notes at Phantoms &amp; Monsters. https://t.co/"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097791492861358220",
+          "author": "okstaterivals",
+          "searchJob": "iowa",
+          "text": "Offer out to 6-4 cornerback (!) at Iowa Western CC Profile: https://t.co/uRmQxH2ynj"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097799816801620441",
+          "author": "trendyvest",
+          "searchJob": "michigan",
+          "text": "$AAPL · $META · $GOOGL · $AMZN · $MRVL · $MU · $INTC · $ORCL · $SPCX · $ADI · $DELL · $TTAN · $BRZE · $AVAV · $EXP · $VMC · $MLM · $DOW · $BKNG https://t.co/0FvavArSIE"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097782531126862283",
+          "author": "puremichigan",
+          "searchJob": "michigan",
+          "text": "As if you needed more proof that beneath the surface of our Great Lakes lie endless stories, the shipwrecks of Thunder Bay offer all sorts of ways to make your own discoveries. 📸 @ThunderBayNMS https://t.co/6Ekk0iTT4S"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097793108008161434",
+          "author": "bringmethenews",
+          "searchJob": "minnesota",
+          "text": "CoreCivic offers to pay $1.7M annually to cover tax losses from Appleton ICE facility More: https://t.co/iCGejoPfHq https://t.co/nwZqkZVaiw"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097770252108968344",
+          "author": "vincempls",
+          "searchJob": "minnesota",
+          "text": "#OnThisDay Sept 9, 1863: Established by the first state legislature, the Minnesota School for the Deaf opens in Faribault, MN. Eight students enroll. Between 1902-12 fine Georgian and Neoclassical buildings are added to the 40-acre campus, "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097790940584771777",
+          "author": "stlouisbiz",
+          "searchJob": "missouri",
+          "text": "The University of Missouri-St. Louis is partnering with online education provider Preppy to offer training for several healthcare careers in less than six months. https://t.co/eUvvMLUlQ5"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097787283147788520",
+          "author": "thesalesbull1",
+          "searchJob": "missouri",
+          "text": "https://t.co/OKR4fVtfe7"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097784816422826063",
+          "author": "nijaunharris",
+          "searchJob": "missouri",
+          "text": "Big thank you to University of Missouri Coach @coachzknows for coming out to my open gym today. #miz 🦁🏀 @coachdgates @MizzouToday https://t.co/faF7Q0lmEV"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097793773543776510",
+          "author": "ty_urban99",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Thank you @MaryvilleFootball for an awesome Game Day invite! Grateful for the opportunity to experience the program firsthand, meet the players, and see the culture up close. Excited to continue building relationships @ConnorPylkas_FB and @"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097442520976572511",
+          "author": "thenebpreps",
+          "searchJob": "uconn",
+          "text": "Omaha Westside’s Tay Tay Jenkins has put up back-to-back four touchdown performances to open the 2026 season. 👀 https://t.co/b7PNneUVw4"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 3,
+      "accepted": 2,
+      "rejected": 36,
       "reasons": {
-        "bare_mention_requires_llm": 2,
-        "multiple_resolved_schools": 1
+        "bare_mention_requires_llm": 21,
+        "school_not_resolved_confidently": 9,
+        "multiple_resolved_schools": 5,
+        "player_missing_football_context": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097791346375295196",
-          "author": "wythe_cap",
-          "searchJob": "stanford",
-          "text": "What the fuck did you just fucking say about me, you little shit? I’ll have you know I dropped out of Stanford to found the lab that just published a Lean-checked blowup for Navier–Stokes under the official Clay statements C and D, and I’ve"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097791325651325407",
-          "author": "himwitdacam",
-          "searchJob": "stanford",
-          "text": "Took Kentucky to the playoff in year 1 now I’m conflicted cuz Wisconsin and Stanford offered me a job…….or do i stick it out here one more year 🤔🤔🤔🤔 https://t.co/DtTjYKD6q9"
+          "postId": "2097792888692469803",
+          "author": "c1ntelevision",
+          "searchJob": "liberty",
+          "text": "TRUMP WORLD! Iran Signals Readiness to Escalate War... Fires new electro-optical missiles... Surge in construction at nuke site... WE'VE GOT YOUR SUB! IMPEACHMENT WATCH: Trump energy investments gain millions as accounts keep trading... MAG"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097787276487221400",
-          "author": "grace_livingstn",
-          "searchJob": "stanford",
-          "text": "The intellectual sparring during my time at Stanford offered a pure, exhilarating kind of joy. But my days at Draper University and building ventures within the Draper network and the VC ecosystem were something else entirely—uniquely wild,"
+          "postId": "2097777256676385266",
+          "author": "hebrewsdnt",
+          "searchJob": "liberty",
+          "text": "“‘The Christian is called upon to act beside other men and no assurance is given him that he will sense God’s purpose better than they. He can no more aim to be a Christian statesman than a Christian engineer. He stands on par with the non-"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097797084007293029",
+          "author": "spacemafia",
+          "searchJob": "louisiana",
+          "text": "Louisiana Offered SpaceX $27.5B Incentives Package https://t.co/jooSl897Cv https://t.co/8laizwYsNO"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097799744831492382",
+          "author": "mycropol",
+          "searchJob": "temple",
+          "text": "People love this VATIKA, and there is no such goddess, but I can offer this MASON theory! No, it is OK, It is about MASONRY of this TEMPLE! NO need in conspiracy! It is simpler."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097795210516332934",
+          "author": "noelrepairman",
+          "searchJob": "temple",
+          "text": "FROM SPECTATOR TO OFFERING: At Mass, Your Body Prays Too We enter Mass thinking that prayer is merely a matter of thought or feeling. We are mistaken. God did not redeem only your soul; He redeemed your body on the Cross to make it an instr"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097793194075521303",
+          "author": "mark_pasto64312",
+          "searchJob": "temple",
+          "text": "Welcome to the new online home of Forgiven Temple Ministries. Forgiven Temple Ministries is a virtual faith community led by Pastor Mark Rubinoff. It exists for people who want a living, personal relationship with God rather than a building"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097790466947485766",
+          "author": "nacinomyrna",
+          "searchJob": "temple",
+          "text": "✨️💖🌿 In The Book of Mysteries, the Tetragrammaton (the four-letter name of God, YHWH), and its connection to human existence and divine love. The \"I Am\" Connection is inherently woven into the fabric of human speech. Whenever a person spe"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097778478485496107",
+          "author": "clrk_o",
+          "searchJob": "temple",
+          "text": "The temple encodes a symbolic key that offers 'cover', scripture then builds up the imaginative body bridging one to the story and liturgy then brings it to life and one into it."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097769922038493654",
+          "author": "finethisisfine",
+          "searchJob": "temple",
+          "text": "\"Reportedly\"? From Gemini: The viral post is mostly false and severely distorts the findings of the Haaretz investigation. While parts of the dialogue reflect reporting from a book published in Haaretz, the post strips away critical context"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097792373044498640",
+          "author": "capnscalawag",
+          "searchJob": "toledo",
+          "text": "@DuerksenKen @ImtiazMadmood They gave Gaza back, and Palestinians immediately started shooting rockets from Gaza into Israel Offered 98% of EVERYTHING back, including Jerusalem. They refused. \"Not until every Jew is thrown into the sea.\" (K"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097791163449172367",
+          "author": "katemickeytake",
+          "searchJob": "toledo",
+          "text": "Too much effort to find out why Isreal the tiniest country surrounded by 5 others states & have had to fight to stay alive since England & France carved up the land & decided Europe was no place for the Jews after all so sent them back to t"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097780819112628288",
+          "author": "starkiller_29",
+          "searchJob": "toledo",
+          "text": "@dbdusnnwmdmc @AndrewParsonson In today’s world, being inferior to 2 tons is insignificant. Now heavy rockets too have the multiple launch services and offer small/cube sats transportation for a fraction of the price. Also this space port i"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097772519289917601",
+          "author": "bottomofit",
+          "searchJob": "toledo",
+          "text": "@mehdirhasan May I axe a question: If Hamas offered to \"unconditionally release\" the hostages What previous actions by Hamas would lead Israel to take these offers seriously? 1&gt; the taking of the hostages in the 1st place 2&gt; thousands"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097763073872273597",
+          "author": "alvinmanogarcia",
+          "searchJob": "toledo",
+          "text": "One of the most important pieces in the Tarik Skubal return may be closer to Detroit than expected. River Ryan made his Tigers organizational debut for Triple-A Toledo: 2 IP 0 R 2 K 17 strikes on 23 pitches 97 mph average fastball 91.7 mph "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097792813786079295",
+          "author": "blakebyler45",
+          "searchJob": "alabama",
+          "text": "Alabama became the first D-I offer for 2028 DL Nosiah Davis last Monday. He then made it to campus on Saturday for his first-ever college visit. \"They’re hard workers. They take it seriously, no playing around, no missed reps. Straight dogs"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097780886238359720",
+          "author": "uofalabama",
+          "searchJob": "alabama",
+          "text": "#Bama is dedicating the entire month to sophomore-focused activities, giving these students a chance to enjoy all UA offers 🫶 This is just a kickoff to a year’s worth of events &amp; opportunities! See 5 things to know about Sophomore Sept"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097792896464310280",
+          "author": "emilaldaddah",
+          "searchJob": "illinois",
+          "text": "The consensus spent all year debating entry points while ignoring the only decision that mattered: asset class selection. Look at the tape across 12 asset classes through September 8: • Commodities: +38.9% • Emerging Markets: +26.5% • U.S. "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097801550760652860",
+          "author": "aaronbergerrkt",
+          "searchJob": "michigan",
+          "text": "New spots: Elephant & Co. (voted top 5 Detroit style pizza its first year in existence), Unc’s (owner of Mootz just opened this a month ago so they could offer their own Detroit-style pizza as opposed to New York style, they co-own it with "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097800544907575385",
+          "author": "psustats",
+          "searchJob": "michigan",
+          "text": "@REALDonThomas And yes, you are a fat, pathetic loser that offers nothing on here other than speaking of Michigan like MAGA speaks of Donald Trump: that UM is the best thing since sliced bread and can never do wrong. Hence, you don't think "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097796423177617596",
+          "author": "scoobydoobsteve",
+          "searchJob": "michigan",
+          "text": "@Underwood_szn I don't think Whittingham will last 3 seasons at Michigan He was set to retire but got the offer of a lifetime. Great coach, but genuinely don't think he has the fire and drive y'all need right now"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097795965541347490",
+          "author": "_weezywrld",
+          "searchJob": "michigan",
+          "text": "@CarlMcJenkins Don’t make it personal. He’s never been a Michigan man. Portnoy and co offered him a zillion dollars and he took the money. He was never a culture or personality fit at Michigan"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097793212530258057",
+          "author": "westernmichu",
+          "searchJob": "michigan",
+          "text": "The best way to support our Broncos is to cheer them on at Waldo Stadium this Saturday! Secure your CommUniverCity ticket offer at https://t.co/iiSdImATYx @WMU_Football @WMUBroncos https://t.co/5vhqpCgI97"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097791624617119962",
+          "author": "bricemarich",
+          "searchJob": "michigan",
+          "text": "#Michigan Football offered four new prospects following the Western Michigan game (FREE) - One of 2028's best in four-star OT @WyattVanBoening - A rising defender in 2028 LB @cyrus_zuah - Two of @Detroit_CTFB young shining stars in @7PRobin"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097788129977520493",
+          "author": "inbodenhq",
+          "searchJob": "michigan",
+          "text": "@MorosKostas Sounds like some 2A orgs should offer to take his case, challenging the Michigan laws."
         }
       ]
     },
@@ -182,20 +455,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 3,
+      "swept": 25,
       "failed": 1,
-      "requests": 4,
+      "requests": 26,
       "errors": [
-        "phrase:\"extends an offer to\": rate limited"
+        "phrase:\"received my first offer\": SearchTimeline HTTP 404 (slice left pending)"
       ]
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 3,
-      "brandNewOffers": 0
+      "acceptedEvidence": 2,
+      "rejectedCandidates": 36,
+      "brandNewOffers": 2
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-09T21:11:39.261Z"
+    "status rebuilt locally from current store on 2026-09-09T21:40:19.700Z"
   ]
 }
