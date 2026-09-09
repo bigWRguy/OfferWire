@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T21:58:06.743Z",
+  "generatedAt": "2026-09-09T22:13:14.485Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-09T21:58:06.487Z",
+    "at": "2026-09-09T22:13:14.196Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,58 +32,62 @@
   },
   "staleSchools": [
     {
-      "id": "akron",
-      "hours": 2.3
-    },
-    {
-      "id": "appalachian-state",
-      "hours": 2.3
-    },
-    {
       "id": "arkansas-state",
-      "hours": 2.3
-    },
-    {
-      "id": "ball-state",
-      "hours": 2.3
-    },
-    {
-      "id": "georgia-southern",
-      "hours": 2.3
-    },
-    {
-      "id": "memphis",
-      "hours": 2.3
-    },
-    {
-      "id": "miami-oh",
-      "hours": 2.3
-    },
-    {
-      "id": "middle-tennessee",
-      "hours": 2.3
-    },
-    {
-      "id": "navy",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "texas-tech",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
-      "id": "uab",
-      "hours": 2.3
+      "id": "florida",
+      "hours": 2.2
+    },
+    {
+      "id": "fresno-state",
+      "hours": 2.2
+    },
+    {
+      "id": "james-madison",
+      "hours": 2.2
+    },
+    {
+      "id": "missouri-state",
+      "hours": 2.2
+    },
+    {
+      "id": "nevada",
+      "hours": 2.2
+    },
+    {
+      "id": "new-mexico",
+      "hours": 2.2
+    },
+    {
+      "id": "new-mexico-state",
+      "hours": 2.2
+    },
+    {
+      "id": "northern-illinois",
+      "hours": 2.2
+    },
+    {
+      "id": "ohio",
+      "hours": 2.2
+    },
+    {
+      "id": "unlv",
+      "hours": 2.2
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.270865,
-    "p95Hours": 2.27803,
-    "worstHours": 2.27803
+    "medianHours": 1.276548888888889,
+    "p95Hours": 2.2253177777777777,
+    "worstHours": 2.5301805555555554
   },
   "decisionCoverage": {
-    "total": 48,
-    "decided": 48,
+    "total": 85,
+    "decided": 85,
     "complete": true
   },
   "pending": {
@@ -92,7 +96,7 @@
   "profileResolution": {
     "cached": 45
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 3,
   "quality": {
     "completeOffers": 933,
     "incompleteOffers": 0
@@ -100,316 +104,380 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-09T21:58:06.487Z",
-      "got": 84,
-      "new": 48,
-      "lag": 0.05
+      "at": "2026-09-09T22:13:14.196Z",
+      "got": 129,
+      "new": 85,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-09-09T21:56:29.078Z",
+    "at": "2026-09-09T22:11:37.690Z",
     "mode": "live",
     "collection": {
-      "returned": 84,
-      "kept": 48,
-      "duplicate": 36,
+      "returned": 129,
+      "kept": 85,
+      "duplicate": 44,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 33,
-      "rejected": 15,
+      "accepted": 50,
+      "rejected": 35,
       "reasons": {
-        "no_fbs_school": 4,
-        "no_offer_term": 9,
-        "hard_negative": 2
+        "no_fbs_school": 20,
+        "no_offer_term": 10,
+        "hard_negative": 5
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2097794094961406454",
-          "author": "xtrskcapital",
-          "searchJob": "massachusetts",
-          "text": "JUST IN: Prestigious Massachusetts college Wellesley will offer free tuition to domestic students from families earning $200,000 or less annually, starting next year. (Polymarket) #trading"
+          "postId": "2097807844821143816",
+          "author": "ttuhsc",
+          "searchJob": "texas-tech",
+          "text": "“getting older with a white coat!! 🥼🩺” Michelle, a #PhysicianAssistant student, was excited about receiving her short white coat at the start of the semester! @TTUHSC_SHP offers the Nadine and Tom Craddick Physician Assistant Studies Prog"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097792913241731485",
-          "author": "polymarket",
-          "searchJob": "massachusetts",
-          "text": "JUST IN: Prestigious Massachusetts college Wellesley will offer free tuition to domestic students from families earning $200,000 or less annually, starting next year."
+          "postId": "2097805942335127662",
+          "author": "wsjtech",
+          "searchJob": "texas-tech",
+          "text": "Andrew Tulloch, the star AI researcher who was offered a pay package worth more than $1 billion to join Meta last year, is leaving the company https://t.co/ex0GfrakvW"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097803254524416425",
-          "author": "dwitefartshrute",
-          "searchJob": "tulsa",
-          "text": "@DissidentMedia Or an offer from the Raiders"
+          "postId": "2097798985289511330",
+          "author": "techguideau",
+          "searchJob": "texas-tech",
+          "text": "Apple has boldly entered the foldable market with the new iPhone Duo which will offer a stunning expanded experience - but it's not cheap. Take a closer look and find out pricing here: https://t.co/8M0aYFkHPx #Apple #AppleEvent #iPhoneDuo"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097796570267697181",
+          "author": "comforttechhvac",
+          "searchJob": "texas-tech",
+          "text": "⎐تُيموُ⎐ ⊵TEU85⊴ ▬المطار▬ ⊵M2⊴ ⎐نون⎐ ⊵VG67⊴ ⎐نمشي⎐ ⊵JMM⊴ 〖كـُــــــــود خـصـمــ〗 Aim Great Offer nHt https://t.co/rvvirphNaL"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097793932310503477",
-          "author": "the_ballmanac",
-          "searchJob": "arkansas",
-          "text": "Week 1 Film is up in The Library!!! - Tennessee Defense - Texas Defense - Ohio State Defense - Indiana Defense - Oregon Defense - Arkansas Defense the Video Library for FREE today using code: TRIAL Link: https://t.co/mDFnYC7XIk https://t.co"
+          "postId": "2097759296574427601",
+          "author": "housegop",
+          "searchJob": "texas-tech",
+          "text": "WE WILL DESTROY COMMUNISM."
         },
         {
           "reason": "hard_negative",
-          "postId": "2097789868222959632",
-          "author": "brysonakinsnba",
-          "searchJob": "arkansas",
-          "text": "Arkansas needs to do some work on the basketball front, as recruits start committing and visiting. Here is every player offered and visiting Fayetteville so far: https://t.co/j3SMXUTJuu"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097804976437281094",
-          "author": "newesleyan",
-          "searchJob": "nebraska",
-          "text": "A little rain didn't slow down today's Involvement Fair! Students got a look at unique clubs, grabbed plenty of freebies, and saw everything else NWU has to offer. Want to learn more about all of NWU's organizations? Go here: https://t.co/A"
+          "postId": "2097793014202544439",
+          "author": "thecrawlhub",
+          "searchJob": "texas-tech",
+          "text": "🚀 CrawlHub · Tech Pulse · 12h Brief Sep 09 Apple unveiled its new iPhone 18 Pro lineup, featuring camera upgrades and a new burgundy colorway, marking the debut keynote for CEO John Temus. The event also highlighted updates to AirPods and "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097686037023596758",
-          "author": "constancefran",
-          "searchJob": "nebraska",
-          "text": "@TonyBuzbee2 Being corrupt seems to be a GOP qualification 😩 Time for change in Texas! #TalaricoForTexas https://t.co/gTpZooZZKF"
+          "postId": "2097799964365672579",
+          "author": "karlowalpha",
+          "searchJob": "arkansas-state",
+          "text": "https://t.co/mggFJGkVJI"
         },
         {
           "reason": "hard_negative",
-          "postId": "2097788311624355849",
-          "author": "gmk504",
-          "searchJob": "ole-miss",
-          "text": "Ole Miss 1986 — NCAA major-infractions case. Ole Miss football is placed on two years’ probation following numerous NCAA violations. This becomes important later because the NCAA eventually views subsequent cases as evidence of a recurring "
+          "postId": "2097797957630488883",
+          "author": "hours3rh",
+          "searchJob": "arkansas-state",
+          "text": "I built this with AI. That matters for what follows, so I'm saying it up front. The AI wrote the maths, and then it wrote a table for my site that said a 90% collapse in market cap would cost a holder 8%. A 97% collapse, 9%. I couldn't make"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097793785732202793",
+          "author": "philheur",
+          "searchJob": "arkansas-state",
+          "text": "The Sovereign Illusion: Why Late-Stage Capitalist Systems Are Stranded at the Threshold of Reality There is a moment in macroeconomic history when a civilization’s primary output ceases to be goods, services, or innovation, and becomes some"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097749648236597693",
-          "author": "friedgehnic",
-          "searchJob": "oregon",
-          "text": "Kreider is indeed on unconditional waivers for the purposes of contract termination"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097784138375815593",
-          "author": "iamdomprompt",
-          "searchJob": "oregon",
-          "text": "https://t.co/n5zFtJi9yz"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097775940340453415",
-          "author": "kodland15",
-          "searchJob": "oregon",
-          "text": "@MarkLazerus Players should be thanking Briere. https://t.co/wn2f0DhWpn"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097775585451966479",
-          "author": "kodland15",
-          "searchJob": "oregon",
-          "text": "@BR_OpenIce @MarkLazerus Players should be thanking Briere. https://t.co/wn2f0DhWpn"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097775075743449182",
-          "author": "kodland15",
-          "searchJob": "oregon",
-          "text": "@GinoHard_ @MarkLazerus Players should be thanking Briere really. https://t.co/wn2f0DhWpn"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097791868180255005",
+          "postId": "2097806021255155974",
           "author": "np4football_ot",
-          "searchJob": "purdue",
-          "text": "Ethan Reyna-RB/LB-2027-IN @BoilerFootball Game Day Visit #CFB"
+          "searchJob": "uab",
+          "text": "Xavier teague-ATH-2027-AL @UAB_FB Game Day Visit #CFB"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097464050858750400",
-          "author": "ethanreyna44",
-          "searchJob": "purdue",
-          "text": "Boiler Up!🚂🆙 https://t.co/tFRXxkdWmq"
+          "postId": "2097736863897276543",
+          "author": "xavierteague27",
+          "searchJob": "uab",
+          "text": "Thank you @UAB_FB and @BrendanDonovanX for the game invite I will be attending this Saturday https://t.co/yB7qZEkSQK"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097803815311355935",
+          "author": "np4football_ot",
+          "searchJob": "uab",
+          "text": "Tyrek Mosley-DB-2028-AL @UAB_FB Game Day Visit #CFB"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097466670147076286",
+          "author": "tyrekmos",
+          "searchJob": "uab",
+          "text": "Thank you @UAB_FB for the gameday invite! Excited to come out and watch. @HWD_Football @Coachflawrence @AL5AFootball1 @UnLockYourGame_ @HallTechSports1 https://t.co/1JFqExTMu5"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097800676348952948",
+          "author": "bambooshooti",
+          "searchJob": "florida",
+          "text": "When Pia Dandiya won the Democratic primary, the race for #FL22 shifted from Likely to Lean Repub. The incumbent has the edge, but this is a competitive race. Let's show them what a Florida Blue Wave looks like. Visit Dandiya's website, whi"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097784939789811789",
+          "author": "tnvotenoon1",
+          "searchJob": "florida",
+          "text": "@WhiteHouse \"The Trump family owns the golf courses, but the land is leased from Palm Beach County under the terms of a settlement involving the nearby airport.\" Trump offers to 'gift' West Palm Beach golf course to future presidents https:"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097784751457272053",
+          "author": "johnpaulsomers",
+          "searchJob": "florida",
+          "text": "✨SIGNIFICANT LIST PRICE REDUCTION ★ ±10 Acres in North Santa Rosa Beach, Florida ★ South of the Choctawhatchee Bay ~ Now Offered at $395,000✨ Don’t miss out on this incredible opportunity! Call us today at (850) 654-7777 for more details. #"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097784743404114409",
+          "author": "tnvotenoon1",
+          "searchJob": "florida",
+          "text": "@SpeakerJohnson \"The Trump family owns the golf courses, but the land is leased from Palm Beach County under the terms of a settlement involving the nearby airport.\" Trump offers to 'gift' West Palm Beach golf course to future presidents ht"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097784737221804129",
+          "author": "trazeetravel",
+          "searchJob": "florida",
+          "text": "@DiscoverCR_FL now offers visitors and locals a new way to sip across Citrus County: 🔗 https://t.co/8DniB04KzF https://t.co/kzmWyrR7M6"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097784451925237840",
+          "author": "tnvotenoon1",
+          "searchJob": "florida",
+          "text": "@SpeakerJohnson \"The Trump family owns the golf courses, but the land is leased from Palm Beach County under the terms of a settlement involving the nearby airport.\" Trump offers to 'gift' West Palm Beach golf course to future presidents ht"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097784086118957354",
+          "author": "tnvotenoon1",
+          "searchJob": "florida",
+          "text": "@TheTNHoller \"The Trump family owns the golf courses, but the land is leased from Palm Beach County under the terms of a settlement involving the nearby airport.\" Trump offers to 'gift' West Palm Beach golf course to future presidents https"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097783193378181179",
+          "author": "tnvotenoon1",
+          "searchJob": "florida",
+          "text": "@MeidasTouch \"The Trump family owns the golf courses, but the land is leased from Palm Beach County under the terms of a settlement involving the nearby airport.\" Trump offers to 'gift' West Palm Beach golf course to future presidents https"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097808912326009242",
+          "author": "alex_jones45",
+          "searchJob": "south-carolina",
+          "text": "South Carolina's Week 1 offensive performance caught the attention of 2028 wide receiver Mason Freeman, who holds an offer from the Gamecocks. He shares his thoughts on his most recent visit to Williams-Brice Stadium (VIP) https://t.co/UjUg"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097373301785895113",
+          "author": "malachidebnam",
+          "searchJob": "south-carolina",
+          "text": "First 3 Games and 2 Scrimmages Film @_cfrank_ @amanirichburg88 @CoachWatson_48 @Coachkenzie12 @_TheVilleFB @ToddShanesySHJ @T_Hop7 https://t.co/96ZdenI7zZ https://t.co/mRGbU5VZvy"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097792863618666727",
+          "author": "sasbeach",
+          "searchJob": "arizona",
+          "text": "@GuntherEagleman Yeah I got some swamp land in Arizona I would like to offer you give you a great deal on it."
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 33,
+      "rejected": 50,
       "reasons": {
-        "bare_mention_requires_llm": 19,
-        "multiple_resolved_schools": 7,
-        "school_not_resolved_confidently": 5,
-        "reporter_missing_player_name": 2
+        "school_not_resolved_confidently": 12,
+        "bare_mention_requires_llm": 34,
+        "multiple_resolved_schools": 2,
+        "reporter_missing_player_name": 1,
+        "player_missing_class_year": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097804853326028965",
-          "author": "psufootball",
-          "searchJob": "marshall",
-          "text": "Matt Campbell and Carson Hansen offered their assessments of Penn State's running back play against Marshall. https://t.co/EVJQhRRd9d https://t.co/CPyH3CpHx3"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097799468988957081",
-          "author": "slimsssdy",
-          "searchJob": "marshall",
-          "text": "Friend (or not) and RP request — Marshall Matthers a.K.a slim shady — Spanish rol — 26 yO — Libra — Cocky and Flirtatious — Long/medium rol — Friends, sex, drugs. 🩷 — DM 🔁 — Share (🙏🏼) offers: #sexrol #friendrol #roleplay #funanddrugs #"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097799237866328371",
-          "author": "sjspotlight",
-          "searchJob": "marshall",
-          "text": "The Campbell Union School district offers before school childcare for its students at some of its schools — specifically, Campbell school of Innovation, Castlemont, Marshall Lane and Rosemary elementary schools. https://t.co/eTGvuCCH0Q"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097796808839762198",
-          "author": "rossiadam",
-          "searchJob": "marshall",
-          "text": "Robert E. Lee was a great American and a great Virginian. History classes are not teaching him that way today. Rabid crowds are pulling his statues down. I saw that shift happen slowly then all at once living so many decades here in Virgini"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097773592565956967",
-          "author": "jacobviweekly",
-          "searchJob": "marshall",
-          "text": "Jack White needed amps for The White Stripes' Elephant album in 2002 and opted for Selmer Zodiacs over his usual Silvertones for his UK sessions. Selmer, known for clarinets, offered a budget-friendly Marshall alternative in England back th"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097766018777239918",
-          "author": "tonphiloshippos",
-          "searchJob": "marshall",
-          "text": "Reforms Unforced Errors Catalogue (Updated) AKA Reform Rakes When was your last straw? Sept 2024 - Farage with Steve Edginton Mass deportations are impossible Not concerned with White British replacement We can't alienate Islam Oct 2024 - T"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097799546818445389",
-          "author": "cajunmental",
-          "searchJob": "massachusetts",
-          "text": "@MegynKellyShow These jurors are not a good look representing what Massachusetts has to offer."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097789578060980225",
-          "author": "bhoward_11",
-          "searchJob": "massachusetts",
-          "text": "UMass jumps in to offer ‘27 prospect Travaris Schley Schley runs a 10.75 (100 Meter)"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097778639806898619",
-          "author": "apxmindset",
-          "searchJob": "massachusetts",
-          "text": "Mark, you (and you aren’t alone here so I don’t think you are stupid or anything) are making the mistake that a lot of people are making, which is confusing “Can I imagine some other possible explanation” as being “reasonable doubt”. It isn"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097778244317499550",
-          "author": "lepkapxd9",
-          "searchJob": "massachusetts",
-          "text": "@PatsyDiabetes This is the best Massachusetts has to offer. More end products of their blue state educational system . You get what you pay for."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097774210072408447",
-          "author": "lepkapxd9",
-          "searchJob": "massachusetts",
-          "text": "@usanewshq Is this the best Massachusetts has to offer. Why does he have to agree with the rest of the sheep. These morons were going to tell this guy WHAT to think. REMEMBER.. \"IT'S HIS BODY HIS MIND,\""
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097773873232248978",
-          "author": "nyckid1975",
-          "searchJob": "massachusetts",
-          "text": "@EricLDaugh Massachusetts liberal women. The worst our country has to offer. These are the same women who have Planned Parenthood pom-poms in their closets."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097784362695598290",
-          "author": "okredux",
-          "searchJob": "tulsa",
-          "text": "Huntington's Disease Society of America Education Day Tulsa, Oklahoma Sat | Oct 3, 2026 Tulsa Conference Center 700 N Greenwood Avenue The Oklahoma Chapter of the Huntington’s Disease Society of America (HDSA) brings together HD families, c"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097808055870120131",
+          "author": "dianaallenqumj",
+          "searchJob": "texas-tech",
+          "text": "@coldemailchris Talking about Software plainly like this is a sign of a business run by the numbers. I'm a freelance web developer with a small special offer for you; follow me back and I'll DM it with a quote, connected to your go . pipeli"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097806081514692661",
-          "author": "jamie2177675732",
-          "searchJob": "arkansas",
-          "text": "@17PamBondiRV No not a chance in fact i would ask the kitchen for a roasted hogs head and enjoy that, of course I would offer them some would be greedy not to,"
+          "postId": "2097797565555052570",
+          "author": "ambxiefeng",
+          "searchJob": "texas-tech",
+          "text": "Ever had trouble with your electric car refusing to recharge on cold days? BYD’s latest flash charging tech offers hope! Even at −22°F, its battery goes from 20% to 97% in 12 minutes, and the service is available at 10,000+ flash-charging s"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097801872409071788",
-          "author": "hydromerchant",
-          "searchJob": "arkansas",
-          "text": "Here is the core reason this doesn't work. An imbalance in value vs pay will always blow up in your face. There will be someone who takes the job. For a few months, if he's good. Then someone poaches him for what you should have been paying"
+          "postId": "2097796711338922105",
+          "author": "alemacleo",
+          "searchJob": "texas-tech",
+          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097796081090240894",
+          "author": "alemacleo",
+          "searchJob": "texas-tech",
+          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097795741636812948",
+          "author": "piran_peyman",
+          "searchJob": "texas-tech",
+          "text": "Look, it isn't rocket science. If you have monopoly of food, of energy, of land, of tech, ...etc then you have despots in your country. A despot to whom people are subjected but through policies of supply and demand and of price control_ a "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097795386324742392",
+          "author": "pabloar53778984",
+          "searchJob": "texas-tech",
+          "text": "@ilyamiskov I think it's stupid and nobody cares about it. Vintage tech. Nothing revolutionary. If this is the new thing they have to offer, we are the stupid."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097794617467080960",
+          "author": "fn21995",
+          "searchJob": "texas-tech",
+          "text": "A few of the risk numbers conflict across sources. I’ll pull the official BLS outlook so the advice isn’t built on marketing sites.The short version: your job is not disappearing the way office jobs are. A line cook in a real restaurant is "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097794329011957871",
+          "author": "mansfieldrv6",
+          "searchJob": "texas-tech",
+          "text": "That's not the right question. Because we're not talking about big orgs right? Companies with different departments procured to solve different problems. We're talking about solo / small team founders. And everyone's got a different persona"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097793518932799741",
+          "author": "lazysternguard",
+          "searchJob": "texas-tech",
+          "text": "Advance apology for a wall of text. I believe you are on to something, but I would offer a more base explanation for them. They are evil, they don't care for the philosophy at the top level, they simply utilize it. They need the people on t"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097792161911582956",
+          "author": "healthintech",
+          "searchJob": "texas-tech",
+          "text": "Why Choose Health in Tech? Because We Disrupt the Traditional Process We offer health benefit plans in 50 states. Learn more: https://t.co/hHfhWh4JyJ #HealthInTech #eDIYBS #HIT #Healthcare #HealthInsurance https://t.co/eWKlW8CRbv"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097790560937664610",
+          "author": "candace_be35702",
+          "searchJob": "texas-tech",
+          "text": "@elonmusk I finally created something you and I—and AI would all agree on. It’s an awesome alternative to under-the-desk work/life balance. Will you invest in it for me? I just remembered you when I decided to offer it as a work place ameni"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097803582234054990",
+          "author": "lilyroslynwest",
+          "searchJob": "arkansas-state",
+          "text": "@Partisan_12 Sure Bud. What is it, like 7 or 8 times the Gazan's have been offered a State and the idiots said, NO."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097802735294845397",
+          "author": "lyonsnicholas1",
+          "searchJob": "arkansas-state",
+          "text": "The creation of the Jewish State was legal in every iteration. Only legal illiterates and Kangaroo courts disagree. What are the legal claims of the Arabs? And why did they reject Peace and offers of Arab sovereignty more than 5 times. Is i"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097799035977384179",
+          "author": "raashah",
+          "searchJob": "arkansas-state",
+          "text": "@jonsac Camp David in 2000 didn't offer a real state, it offered disconnected cantons with no control over borders, airspace, or water. Arafat said no to a fragmented \"Bantustan\", not, no to peace. And That's not rejection of statehood. Tha"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097797342699077731",
+          "author": "populidei",
+          "searchJob": "arkansas-state",
+          "text": "@JenGLambie @Pink There is no Palestine, there never was Palestine as a state, Palestinians are Arabs immigrated from other Arab counties and after WW2 they were offered a state of their own called Jordan and they refused because they wante"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097791835104297229",
+          "author": "king_zerubbabel",
+          "searchJob": "arkansas-state",
+          "text": "And then some countries will be standing in solidarity with \"Free Palestinians\" inscription on their placards. Meanwhile they were offered a state and they refused it . Now they're playing the victim's card ♦️."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097785929754898443",
+          "author": "banisheddime",
+          "searchJob": "arkansas-state",
+          "text": "@AGOWA Spoken like a guy who isn't AG of a state that offers $10,000 to first time black homeowners. I'm not black, I'm looking to be a first time homeowner, and I look forward to being a plaintiff in a racial bias lawsuit against you somed"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097781487131324591",
-          "author": "ironhog2026",
-          "searchJob": "arkansas",
-          "text": "@BobMannoa47 @NWAHutch Technically his job at Auburn was never in jeopardy when Arkansas offered him the job. At that time he had no reason to leave Auburn for Arkansas"
+          "postId": "2097785319194280286",
+          "author": "accusation7777",
+          "searchJob": "arkansas-state",
+          "text": "[Critique of the Use of Power for Personal Interests Amid National Tragedy, and Condemnation of the French Government’s Complacency] On July 12, 2026, a tragic incident occurred when a sailor from the Republic of Korea Navy went missing whi"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097772912094687470",
-          "author": "realfakesamdunn",
-          "searchJob": "auburn",
-          "text": "@clifftayloriv Call his bluff. Offer to build him a statue with the stipulation that he has to explain to @CoachDBaker81 the details of the first TD in the 06 Auburn game"
+          "postId": "2097784448586567899",
+          "author": "mandy97315268",
+          "searchJob": "arkansas-state",
+          "text": "@BoyGeorge @JenGLambie @Pink Also point out that Clinton offered them a state and they refused it."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097789585916883390",
-          "author": "arealamericano",
-          "searchJob": "nebraska",
-          "text": "The case is real. The meme isn’t. Adam Hoffman (Waco lawyer) was charged with continuous sexual abuse of a child (life-eligible felony). Hung jury 7-5. Victim wouldn’t testify again. Paxton’s office (which inherited the case after local DA "
+          "postId": "2097780263518691815",
+          "author": "nj_t2h",
+          "searchJob": "arkansas-state",
+          "text": "Nope, those borders were refused by the Arab parties. You not bound by a declined offer. Judea and Samaria/West Bank were the sovereign land of TransJordan-Jordan. Gaza was the sovereign land of Egypt. They lost both in war with Israel. Whe"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097805462183743781",
-          "author": "metabolic_mind",
-          "searchJob": "ohio-state",
-          "text": "Can college students realistically follow ketogenic therapy? As the school year ramps up, we’ve been highlighting the KIND trial published last year out of The Ohio State University, which looked at ketogenic therapy for students living wit"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097795768836837778",
-          "author": "livermush_grits",
-          "searchJob": "ohio-state",
-          "text": "Republicans and \"Socialism\" since 1854: The early GOP heavily used federal power, land grants, and protectionist policies to rapidly build the American industrial economy. The Transcontinental Railroad (Pacific Railroad Acts of 1862 & 1864)"
+          "postId": "2097779356420739442",
+          "author": "spacegirl009",
+          "searchJob": "arkansas-state",
+          "text": "@RepJasonCrow How are you getting rich by being a seditious traitor and failure? Crow the loser has to lie because he has nothing to offer the people of CO. We see what CO has become. A state that is corrupted by imbeciles like you and your"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097782621686153410",
-          "author": "lichtsinnrv",
-          "searchJob": "oklahoma",
-          "text": "See America with Lichtsinn RV! This week we travel through Oklahoma, where Route 66 history, wide-open plains, and destinations like Robbers Cave State Park offer memorable stops. Add Oklahoma to your next RV adventure! RVs for Sale: https:"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097801558062698642",
-          "author": "implicitbiasrad",
-          "searchJob": "ole-miss",
-          "text": "Funny because when you know the whole story, not everyone looks ignorant like this take. How about we establish an accurate narrative? 1. Players ask NCAA if they’ll be eligible before NFL draft. 2. Multiple leagues tell the NCAA that if th"
+          "postId": "2097777661967745275",
+          "author": "brand_nanc66489",
+          "searchJob": "arkansas-state",
+          "text": "@VividProwess Yes. He is telling us the absolute truth as to what occurred when the Palestinians were offered a state. He admits that killing Jews was what they wanted, so they refused."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097798827138765215",
-          "author": "metaleaguecs2",
-          "searchJob": "ole-miss",
-          "text": "@T1gerBait @DeKayZecharius If he didn’t walk Ole Miss would’ve offered him the Head coaching job, they would’ve been fools not to"
+          "postId": "2097776904518393878",
+          "author": "marintepa",
+          "searchJob": "arkansas-state",
+          "text": "Bill Clinton: “The Palestinians were offered a state. They refused. A state wasn't their goal. Killing Jews was.\" This must be shared every single day. Bill Clinton: ”Palestiinalaisille tarjottiin valtiota. He kieltäytyivät. Valtio ei ollut"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097797325322178572",
-          "author": "zach_berry",
-          "searchJob": "ole-miss",
-          "text": "NEW: He was once a Miami signee with 15+ Power 4 offers. Now he's at junior college — and Ole Miss is recruiting him again 🦈 Inside Jontavius Wyman's path back to the SEC ⬇️ READ: https://t.co/1SOlJ9QJ6h https://t.co/wqrCQqpkVa"
+          "postId": "2097784742921880023",
+          "author": "michael43333781",
+          "searchJob": "memphis",
+          "text": "@BrennonChapman Btw Memphis offered to buy a spot and got turned down by all the big conferences"
         }
       ]
     },
@@ -424,11 +492,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 33,
+      "rejectedCandidates": 50,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-09T21:58:06.747Z"
+    "status rebuilt locally from current store on 2026-09-09T22:13:14.488Z"
   ]
 }
