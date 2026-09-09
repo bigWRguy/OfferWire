@@ -1,12 +1,48 @@
 {
-  "generatedAt": "2026-09-09T17:28:10.231Z",
+  "generatedAt": "2026-09-09T18:13:19.627Z",
   "counts": {
-    "offers": 924,
-    "players": 644,
-    "newThisRun": 0,
-    "watchlist": 1821
+    "offers": 925,
+    "players": 645,
+    "newThisRun": 1,
+    "watchlist": 1822
   },
   "offers": [
+    {
+      "id": "o_0157d2223b4f59ae",
+      "playerId": "p_9ce184d1e06d0036",
+      "playerName": "Robert Brown",
+      "schoolId": "coastal-carolina",
+      "schoolName": "Coastal Carolina",
+      "conference": "SBC",
+      "offeredAt": "2026-09-09T17:30:00.000Z",
+      "firstSeenAt": "2026-09-09T18:13:19.608Z",
+      "lastSeenAt": "2026-09-09T18:13:19.608Z",
+      "confidence": 0.45,
+      "corroborations": 1,
+      "evidence": [
+        {
+          "postId": "2097739309713658283",
+          "author": "profilefblive",
+          "url": "https://x.com/profilefblive/status/2097739309713658283",
+          "postedAt": "2026-09-09T17:30:00.000Z",
+          "via": "search:(@CoastalFootball OR \"Coastal Carolina\" ",
+          "confidence": 0.45,
+          "text": "Coastal Carolina has offered 3.7⭐ 2028 DT Robert Brown from Effingham County HS, GA. @RJBROWN58_\n\nRated (#571 NATL, #40 DT, #76 GA) - 19 offers overall.\nhttps://t.co/X3uThTFP2n",
+          "attribution": {
+            "targetText": "Coastal Carolina has ",
+            "schoolEvidenceType": "full_school_name",
+            "affiliationSource": "name"
+          }
+        }
+      ],
+      "status": "new",
+      "tier": "G5",
+      "playerHandle": "rjbrown58_",
+      "classYear": 2028,
+      "position": "DT",
+      "highSchool": null,
+      "state": null
+    },
     {
       "id": "o_3e24415bb511dd66",
       "playerId": "p_237ba6be3b9fb626",
@@ -534,9 +570,9 @@
       "conference": "SEC",
       "offeredAt": "2026-09-09T01:41:17.000Z",
       "firstSeenAt": "2026-09-09T01:45:10.829Z",
-      "lastSeenAt": "2026-09-09T01:45:10.829Z",
-      "confidence": 0.45,
-      "corroborations": 1,
+      "lastSeenAt": "2026-09-09T18:13:19.600Z",
+      "confidence": 0.53,
+      "corroborations": 2,
       "evidence": [
         {
           "postId": "2097500557871136913",
@@ -551,9 +587,23 @@
             "schoolEvidenceType": "full_school_name",
             "affiliationSource": "name"
           }
+        },
+        {
+          "postId": "2097741826363150789",
+          "author": "profilefblive",
+          "url": "https://x.com/profilefblive/status/2097741826363150789",
+          "postedAt": "2026-09-09T17:40:00.000Z",
+          "via": "search:(@TexasFootball OR \"Texas\" OR \"Longhorns",
+          "confidence": 0.45,
+          "text": "Texas A&amp;M has offered 4.5⭐ 2028 OT Declan Heying from Des Moines Christian HS, IA. @DeclanH2028\n\nRated (#165 NATL, #21 OT, #2 IA) - 21 offers overall.\nhttps://t.co/o8eDUYXrNZ",
+          "attribution": {
+            "targetText": "Texas A&M has ",
+            "schoolEvidenceType": "full_school_name",
+            "affiliationSource": "name"
+          }
         }
       ],
-      "status": "new",
+      "status": "corroborated",
       "tier": "P4",
       "playerHandle": "declanh2028",
       "classYear": 2028,
