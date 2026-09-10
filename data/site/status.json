@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T05:57:48.846Z",
+  "generatedAt": "2026-09-10T06:28:04.069Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T05:57:48.594Z",
+    "at": "2026-09-10T06:28:03.876Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.775315,
-    "p95Hours": 1.5262180555555556,
-    "worstHours": 1.5262180555555556
+    "medianHours": 1.0305530555555555,
+    "p95Hours": 1.7764655555555555,
+    "worstHours": 1.7764655555555555
   },
   "decisionCoverage": {
-    "total": 27,
-    "decided": 27,
+    "total": 15,
+    "decided": 15,
     "complete": true
   },
   "pending": {
@@ -55,230 +55,146 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T05:57:48.593Z",
-      "got": 40,
-      "new": 27,
-      "lag": 0.06
+      "at": "2026-09-10T06:28:03.876Z",
+      "got": 24,
+      "new": 15,
+      "lag": 0.45
     }
   },
   "audit": {
-    "at": "2026-09-10T05:56:14.517Z",
+    "at": "2026-09-10T06:26:32.404Z",
     "mode": "live",
     "collection": {
-      "returned": 40,
-      "kept": 27,
-      "duplicate": 13,
+      "returned": 24,
+      "kept": 15,
+      "duplicate": 9,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 16,
-      "rejected": 11,
+      "accepted": 7,
+      "rejected": 8,
       "reasons": {
-        "no_fbs_school": 6,
-        "no_offer_term": 5
+        "hard_negative": 2,
+        "no_fbs_school": 3,
+        "no_offer_term": 3
       },
       "samples": [
         {
+          "reason": "hard_negative",
+          "postId": "2097922774014836775",
+          "author": "konstantin15637",
+          "searchJob": "washington",
+          "text": "And if we are talking specifically about why the NHL introduced contract-term limits in the 2013 CBA, Yashin was far from the only example — and probably not even the most important one. By then, the league had seen a whole series of 10–15+"
+        },
+        {
           "reason": "no_fbs_school",
-          "postId": "2097901732164755726",
-          "author": "statementdog",
-          "searchJob": "texas-tech",
-          "text": "Some NAND suppliers want their SSDs in Phison’s AI servers, CEO K.S. Pua told us. They’ve offered to supply NAND and asked Phison to use their SSDs as a second source. Phison can now show suppliers which systems use their NAND and who the c"
+          "postId": "2097916020505882982",
+          "author": "indiawestnews",
+          "searchJob": "washington",
+          "text": "FBI offers up to $150,000 for information on Manjit Singh Bedi, wanted over an alleged $600,000 SNAP fraud scheme after fleeing to India. Read More: https://t.co/NATVs06xsT #FBI #ManjitSinghBedi https://t.co/Xskuozd8sx"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097915969972912495",
+          "author": "seatownkev",
+          "searchJob": "washington",
+          "text": "Washington coaches Brian Odom and Marcus Griffin were at Federal Way's 42-0 win over Kentlake last Friday. Lots of talent to evaluate from Federal Way: 2028 3⭐️LB Kaicen Carter, 2029 4⭐️ OT Xavier Berry, 2029 WR Justin Suega all hold offers"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097239408957128967",
-          "author": "moneyquotesx",
-          "searchJob": "marshall",
-          "text": "You're not rich until you can fly on a private jet without posting a picture."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097918383786271084",
-          "author": "southwardctr",
-          "searchJob": "marshall",
-          "text": "Red Bull New York head coach Michael Bradley did not offer any injury updates on Adri Mehmeti, Justin Che and Jahkeele Marshall-Rutty."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097912651351244804",
-          "author": "maddog_dyson",
-          "searchJob": "marshall",
-          "text": "@Melgibsonact If he offers"
+          "postId": "2097710328197022050",
+          "author": "coachizfw",
+          "searchJob": "washington",
+          "text": "Appreciate coach @CoachBOdom @UW_Football @RealMG96 for coming by our game on Friday to check out our guys @FederalWayFB We always love having college coaches at our games. #FWFB💪🏽 https://t.co/131ecu3qiO"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097905905144942823",
-          "author": "rateriaprachi22",
-          "searchJob": "marshall",
-          "text": "https://t.co/PfKUauVP3q"
+          "postId": "2097915658591691125",
+          "author": "coldbrief",
+          "searchJob": "washington",
+          "text": "We lost the war on terror. Not in Kabul or Kandahar. We lost it in the paperwork - in who we designated, who we hosted, and who we invited to dinner. Tomorrow is 9/11. Twenty-five years of getting this wrong. https://t.co/6VERpvwI0P"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097923757692084344",
-          "author": "cdreoulas",
-          "searchJob": "massachusetts",
-          "text": "https://t.co/agPaOoqtN2"
+          "postId": "2097901412650811510",
+          "author": "jerusalem_post",
+          "searchJob": "washington",
+          "text": "Somaliland says it is ready to send up to 2,000 troops to the planned Gaza International Stabilization Force if asked by the US or Israel. ✍️: @HerbKeinon https://t.co/vQNZrLz2XY"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097922913236082956",
-          "author": "anchorofgold",
-          "searchJob": "vanderbilt",
-          "text": "@K_DeLong_24 @MattBrownEP But in many cases the “event contracts” are, well, actually bets on sporting events. Or bets on things that licensed sportsbooks explicitly aren’t allowed to offer odds on, like elections."
+          "postId": "2097928322361565302",
+          "author": "wisconsin_now",
+          "searchJob": "wisconsin",
+          "text": "To be honest, I want the $5,000 #Trump dividend. Who doesn't? But.... if, say, Tony Evers offered voters $5,000 if David Crowley wins... or if Democrats get the trifecta... I'd be really angry about that and...so would most of you. I though"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097925962453119283",
-          "author": "jrtwinamatsiko",
-          "searchJob": "duke",
-          "text": "This is like saying that this offers “rich lessons” to the Baganda of Igaanga and Nwoya, should they ever contemplate restoring the Buganda Kingdom. Since when did they appoint themselves to speak for the political will or aspirations of Bu"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097732554656727312",
-          "author": "amanyamugisha",
-          "searchJob": "duke",
-          "text": "The Tooro succession chaos gives the Banyankole of Mbarara, Ntungamo and Bushenyi rich lessons to draw from if they ever get tempted to restore the Obugabe of Ankole."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097906035545567294",
-          "author": "sirdukedevin",
-          "searchJob": "duke",
-          "text": "There's something deeply dark and desperate about a $5000 offer in return for an election win, from the POTUS too."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097924618774319464",
-          "author": "jp__hooper",
-          "searchJob": "arkansas-state",
-          "text": "The first duty is the regiment, not the hotel or the foreign winter. 3rd Division paused for £30m while £100m was found for Kyiv and £2.1bn went on asylum hotels. Sequence is the argument. The soldier is not a lobby. https://t.co/XuWd4e5snp"
+          "postId": "2097913682663817496",
+          "author": "kaffsports",
+          "searchJob": "kansas",
+          "text": "Coconino’s Easton Quiroz has received an offer to Kansas Wesleyan, an NAIA program in Salina, Kansas."
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 16,
+      "rejected": 7,
       "reasons": {
-        "bare_mention_requires_llm": 8,
-        "school_not_resolved_confidently": 7,
-        "author_not_recruit:no recruit fields": 1
+        "bare_mention_requires_llm": 5,
+        "reporter_missing_player_name": 2
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097901479839363090",
-          "author": "jucofootballace",
-          "searchJob": "louisiana-tech",
-          "text": "Alfred Wilkerson @AlfredDeshon52 @ Navarro JuCo @NCDAWGPOUND picks up @LATechFB Offer https://t.co/yC5e52qoJU"
+          "postId": "2097927955863441449",
+          "author": "tamerica_94",
+          "searchJob": "washington",
+          "text": "on (car) insurance: one thing that's overlooked quite often as you get wealthier is asset protection. the low-hanging fruit, and also one of the most essential pieces, is auto insurance. the reason is threefold: a) you probably drive all th"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097924771295965685",
-          "author": "jony2_old",
-          "searchJob": "marshall",
-          "text": "The MIT economist Barack Obama called into the White House to model the Affordable Care Act accidentally destroyed the pricing consulting industry in a free 76-minute lecture on the math behind every price on earth. He filmed the lecture as"
+          "postId": "2097926812215173347",
+          "author": "jaswind83175034",
+          "searchJob": "washington",
+          "text": "🚨🇾🇪 A barren Yemeni island 12 miles from Africa is now the LAST thing standing between the Houthis and the Red Sea... -Perim Island sits at the narrowest point of Bab al-Mandeb, held by a small government garrison and reachable only by a"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097917703789199451",
-          "author": "2a_ca_bro",
-          "searchJob": "toledo",
-          "text": "@RBatardia @noor_supernova7 Nobody is preventing them other than themselves. Israel gave you Gaza in 05 and you retards still decided to elect a terrorist group and start lobbing rockets into Israel. The 1947 Peel Commission offered the Ara"
+          "reason": "reporter_missing_player_name",
+          "postId": "2097921941189386434",
+          "author": "koecheruiyot",
+          "searchJob": "washington",
+          "text": "The US has offered to help Kenya build mineral-processing factories and related industries under a proposed deal covering the estimated KES 8 trillion rare earth and niobium deposits at Mrima Hill in Kwale. Washington says US firms would pr"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097917987642614219",
-          "author": "konstructivizm",
-          "searchJob": "wake-forest",
-          "text": "Astronomers caught a wandering black hole red-handed — eating on the move and leaving a trail behind it. For a long time it seemed that mid-sized black holes drifting far from galactic centers had almost no way to grow. They lack the usual "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097915624592916795",
-          "author": "minduniverse25",
-          "searchJob": "wake-forest",
-          "text": "The Stories We Don't Know We're Living - 2 I Started Receiving Voicemails From Myself. He Was Twenty Years Older. The first voicemail arrived on a Tuesday morning. Unknown voicemail — 2:43 AM. I played it while making coffee. After several "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097915394983948773",
-          "author": "catathyst",
-          "searchJob": "wake-forest",
-          "text": "Okay if I wake up and it happens I'll draw whatever yall want because that's alli can offer :)"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097914597877723581",
-          "author": "news2wonder",
-          "searchJob": "wake-forest",
-          "text": "We should all be aware that we’re living with controllers that are engaging in blackmail, bribery, and extortion of humanity. Why are we still allowing this? quit participating! They have nothing to offer but more control -wake the F up."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097911444323115347",
-          "author": "konstructivizm",
-          "searchJob": "wake-forest",
-          "text": "Astronomers caught a wandering black hole red-handed — eating on the move and leaving a trail behind it. For a long time it seemed that mid-sized black holes drifting far from galactic centers had almost no way to grow. They lack the usual "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097910832361529622",
-          "author": "fongbiu69",
-          "searchJob": "wake-forest",
-          "text": "They are conditioning people to hate Western world. Hate Western people, Western culture, Western way of life, yet they still want what it offers. They want to take over and make Western world their own. Current EU leader are totally corrup"
-        },
-        {
-          "reason": "author_not_recruit:no recruit fields",
-          "postId": "2097926649610215500",
-          "author": "westonscambler",
-          "searchJob": "appalachian-state",
-          "text": "2028 ATH Blair “Bel Air” Morris out of Varina High School (VA) has received an offer from App State!"
+          "reason": "reporter_missing_player_name",
+          "postId": "2097916593770508389",
+          "author": "onjolo_kenya",
+          "searchJob": "washington",
+          "text": "US offers to help Kenya build rare earth processing factories in proposed Sh8 trillion Mrima Hill deal The United States has offered to help Kenya set up factories to process rare earth minerals and niobium from Mrima Hill in Kwale County, "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097926004312281589",
-          "author": "glastogirl",
-          "searchJob": "arkansas-state",
-          "text": "@PauletteHamilto Clearly clueless. The Palestinians have been offered a state several times. Always refused, they want all of Israel. After Oct 7th Israel would not consider a two state solution. How can you have peace with people that want"
+          "postId": "2097915493008974322",
+          "author": "me_observer_",
+          "searchJob": "washington",
+          "text": "⚡️⭕️ Trump says prices will fall when \"we win the war with Iran\" but does not offer a convincing explanation of how to achieve this victory, according to the Washington Post. (Al Mayadeen Breaking)"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097921018199433551",
-          "author": "westmonstie",
-          "searchJob": "arkansas-state",
-          "text": "@shipwreckedcrew But, voting by mail is an option, not a constitutional right. If a state can't offer mail in voting because they suck, they can go with traditional voting."
+          "postId": "2097910395625435609",
+          "author": "sinardailymy",
+          "searchJob": "washington",
+          "text": "Pas president Tan Sri Abdul Hadi Awang claims the United States (US) once offered assistance to bring down the Malaysian government, while Washington maintains that no such incident ever took place. https://t.co/BHHbmy3AUk"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097915460733833326",
-          "author": "eddiegutmon",
-          "searchJob": "arkansas-state",
-          "text": "@andyburnham @Ed_Miliband 2-&gt; UN offered peace plan, 1947. REJECTED, Fedayeen Uprising and invasion by Arab War 30:1 to exterminate Jews. They LOST. Bandar Bin Sultan Al-Saud spoke _3 hours_ about many times Arafat REJECTED a state next "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097915122467430622",
-          "author": "eddiegutmon",
-          "searchJob": "arkansas-state",
-          "text": "@andyburnham @Ed_Miliband YOUR COUNTRY offered Arabs a state 1937. REJECTED, violent \"Arab Revolt\". (Leaders DESPISED Palestine/Palestinian, called \"Zionist propaganda\".) Again, 1939, 100% Arab, with no state for Jewish residents. REJECTED,"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097912057672655012",
-          "author": "apetradingclub",
-          "searchJob": "arkansas-state",
-          "text": "@PeterSchiff It's over Peter, and the writing has been on the wall for years. Politicians won't cut spending ever, they always offer more and more for votes. No way out anymore, welcome to Zimbabwe II. As Mugabe said, a state can never go b"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097911543820435676",
-          "author": "mollyteachesfcs",
-          "searchJob": "arkansas-state",
-          "text": "@TJ2711833133688 @Deep_Leaks2 DC isn't a state. Since there is no GOVERNOR to request the DC National Guard, Thomas Jefferson made the POTUS the Commander in Chief. Trump didn't have to offer or get permission to deploy troops. The only rea"
+          "postId": "2097909351985844405",
+          "author": "profgeesinimo",
+          "searchJob": "washington",
+          "text": "BREAKING 🚨 — SOMALILAND OFFERS UP TO 2,000 TROOPS FOR GAZA Somaliland President Abdirahman Mohamed Abdullahi has told The Jerusalem Post that Somaliland is prepared to provide up to 2,000 troops for the proposed US-led International Stabil"
         }
       ]
     },
@@ -293,11 +209,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 16,
+      "rejectedCandidates": 7,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T05:57:48.847Z"
+    "status rebuilt locally from current store on 2026-09-10T06:28:04.070Z"
   ]
 }
