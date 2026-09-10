@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T09:28:20.244Z",
+  "generatedAt": "2026-09-10T09:58:08.700Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T09:28:20.031Z",
+    "at": "2026-09-10T09:58:08.398Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7798108333333333,
-    "p95Hours": 1.5193516666666667,
-    "worstHours": 1.5193516666666667
+    "medianHours": 1.0283163888888889,
+    "p95Hours": 1.7673252777777777,
+    "worstHours": 1.7673252777777777
   },
   "decisionCoverage": {
-    "total": 23,
-    "decided": 23,
+    "total": 19,
+    "decided": 19,
     "complete": true
   },
   "pending": {
@@ -55,202 +55,176 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T09:28:20.031Z",
-      "got": 41,
-      "new": 23,
+      "at": "2026-09-10T09:58:08.398Z",
+      "got": 28,
+      "new": 19,
       "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-10T09:26:48.962Z",
+    "at": "2026-09-10T09:56:32.348Z",
     "mode": "live",
     "collection": {
-      "returned": 41,
-      "kept": 23,
-      "duplicate": 17,
+      "returned": 28,
+      "kept": 19,
+      "duplicate": 8,
       "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 16,
-      "rejected": 7,
+      "accepted": 14,
+      "rejected": 5,
       "reasons": {
-        "no_offer_term": 2,
-        "hard_negative": 2,
-        "no_fbs_school": 3
+        "no_fbs_school": 3,
+        "hard_negative": 1,
+        "no_offer_term": 1
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2097954399423287453",
-          "author": "andrasdobos81",
-          "searchJob": "temple",
-          "text": "When Nietzsche wrote that God was dead, the deepest loss wasn’t metaphysical dogma. It was an outward orientation, a mechanism through which a person could negotiate a livable compromise with death, helplessness, and ordinariness. https://t"
+          "reason": "no_fbs_school",
+          "postId": "2097958876909809753",
+          "author": "viarifnote",
+          "searchJob": "massachusetts",
+          "text": "1937 painting sparks ‘time travel’ theories over mysterious handheld object A 1937 mural has resurfaced online, igniting fresh claims that it offers proof of time travel, according to a report by the Daily Mail. The artwork, titled Mr Pynch"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097958417969332506",
+          "author": "tr1plecharizard",
+          "searchJob": "troy",
+          "text": "this hotel bar is cool but they single shot tall glasses with no option to double shot, even if you offer to pay or tip heavily. WACK"
         },
         {
           "reason": "hard_negative",
-          "postId": "2097976483067076742",
-          "author": "andrewmccalip",
-          "searchJob": "class:2026",
-          "text": "--- description: Condense scattered plans, progress, and research into one durable, sequentially-numbered task folder under docs/tasks/. Create a new task folder (handoff README + living plan checklist + research/), update an existing one, "
+          "postId": "2097980103984664759",
+          "author": "sir_yehoshua",
+          "searchJob": "alabama",
+          "text": "@HuskerTok @BlackshirtMedia @lukelindenmeyer He was nearly a 5-star &amp; had offers from Georgia, Alabama, Ohio State &amp; others."
         },
         {
-          "reason": "hard_negative",
-          "postId": "2097972211776704810",
-          "author": "mrlowryscottop",
-          "searchJob": "class:2026",
-          "text": "St. Paul Street Evangelization – Labor Day 2026 City of Syracuse Homeless Outreach It was Labor Day weekend 7 September 2026 in the beautiful North Country of Upstate New York, a time of year when many people off from work would frequent pl"
+          "reason": "no_fbs_school",
+          "postId": "2097973546685231288",
+          "author": "cwebbeauty",
+          "searchJob": "charlotte",
+          "text": "“This is a campaign promise…It’s not a payment to individuals to try to get them to vote in a particular way” - attorney The democrats should just promise to offer the exact same then - or even a bit more…it’s all performative. #Democrats #"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097871768413471155",
-          "author": "acyn",
-          "searchJob": "washington",
-          "text": "Trump: So if the Republicans win, you get $5000. https://t.co/4ZC0DPFztp"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097961671163789340",
-          "author": "darrelwashing13",
-          "searchJob": "washington",
-          "text": "@EricLDaugh That’s all he has to offer struggling Americans is the YMCA song and redecorating our national monuments."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097959605682757945",
-          "author": "ransom_db",
-          "searchJob": "wisconsin",
-          "text": "🚨 Ransom group \"CL0P\" publishes \"https://t.co/Ze0JkrxteH\" - United States 🇺🇸 📍 Location: Milwaukee, Wisconsin, USA 🏢 Industry: Motorcycle Manufacturing 🔗 Website: https://t.co/RaKCBW86oX Harley-Davidson, founded in 1903, is a leading "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097969905022759060",
-          "author": "houstojunior",
-          "searchJob": "houston",
-          "text": "@chidimma0507 So what do women have to offer?"
+          "postId": "2097941850850038016",
+          "author": "gweedore_waway",
+          "searchJob": "coastal-carolina",
+          "text": "Good morning from #gweedore #gaothdobhairhair https://t.co/jJcwEi2LF4"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 16,
+      "rejected": 14,
       "reasons": {
-        "bare_mention_requires_llm": 14,
-        "multiple_resolved_schools": 2
+        "multiple_resolved_schools": 2,
+        "school_not_resolved_confidently": 6,
+        "bare_mention_requires_llm": 5,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097979895229870144",
-          "author": "keidojapan",
-          "searchJob": "temple",
-          "text": "Just outside Tokyo, Kamakura offers a completely different pace. From iconic landmarks to quiet temple gardens, Kamakura is the perfect escape for a day surrounded by history, nature and the sea. https://t.co/gSmaIeowRe"
+          "reason": "multiple_resolved_schools",
+          "postId": "2097987112159064206",
+          "author": "p_f_lherisson_",
+          "searchJob": "massachusetts",
+          "text": "Thursday 10 September 2026.🔺⚙️🛠️🔺🌐 The World Clock — Worldwide https://t.co/GgjvZlg7Zf Source: newsweek.*com RNC Plans for MAGA’s Future as Some Trump Voters Turn Against Him Sep 10, 2026 at 05:00 AM EDT By Alex J. Rouhandeh National Po"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097977059653878153",
+          "author": "alfamito155",
+          "searchJob": "toledo",
+          "text": "@JeevunSandher Muslim terrorists want to eradicate Israel and Jews. They don't want two states. As the Palestinians have fuck all to offer other than rapes and rockets, better to go all in with Israel."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097977516724199922",
-          "author": "aniruddhasadm",
-          "searchJob": "temple",
-          "text": "On Monday, 7th September 2026, the DMVs of @AniruddhasADM offered Shravani Monday Seva at Shri Kshetra Nageshwar Temple Seva Sansthan, Shirpur, Dhule. #AADM #Seva #ShravaniMonday https://t.co/gQVQdHwAer"
+          "postId": "2097987318430810277",
+          "author": "costlybe",
+          "searchJob": "army",
+          "text": "Black Bull Army is an NFT project on Solana, with each NFT representing a unique, verifiably owned digital collectible. However, the NFT offers more than collectible value: holding one provides utility within the Black Bull Army ecosystem. "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097975875941650458",
-          "author": "newlifechurchke",
-          "searchJob": "temple",
-          "text": "When God’s people came together to give towards the building of the temple, they gave willingly and with joy. “Then the people rejoiced, for that they offered willingly...” — 1 Chronicles 29:9 As we begin this journey of building our church"
+          "postId": "2097983982713356355",
+          "author": "devonholidaysgb",
+          "searchJob": "army",
+          "text": "⚽ @ftfc FANS — BRING THE COD ARMY, AND YOUR FAMILY! 🔴⚪ Heading to Exeter on Saturday 24th October? Before you announce “I’m away at football all weekend”, give your game plan a little upgrade… “I’ve found us a lovely holiday lodge in Devon"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097974289781997744",
-          "author": "sringerimath",
-          "searchJob": "temple",
-          "text": "On Bhadrapada Shuddha Chaturthi, Jagadguru Shankaracharya Sri Sri Bharati Tirtha Mahasannidhanam and Jagadguru Sri Sri Vidhushekhara Bharati Sannidhanam shall offer special pujas to Lord Siddhivinayaka for the welfare of Humanity. Aastikas "
+          "postId": "2097981408593825874",
+          "author": "nyranstanton",
+          "searchJob": "army",
+          "text": "@TrumpWarRoom So the muslim army officer wanted to set up a FAR RIGHT demonstration and the muslim MP or government official mates with David Cameron, offered Tommy money if he could come and stop it, to get Islamic political reputation lol"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2097976006631903316",
+          "author": "amandarivkin",
+          "searchJob": "army",
+          "text": "You do not say: Swiss army chief warns ‘Switzerland is in Russia’s sights’ But there is always the vast protection offered by feelings about neutrality https://t.co/pxxR2whkxK"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097973605745172893",
-          "author": "yahuah_saves12",
-          "searchJob": "temple",
-          "text": "@Noorvp74 Sending Prayers: Greeks believed that the smoke from these candles carried their wishes and prayers up to the gods and goddesses in the celestial realm. The Ritual: These cakes were often offered at the temple of Artemis on the si"
+          "postId": "2097968783755235789",
+          "author": "albertz_55",
+          "searchJob": "army",
+          "text": "Forgotten Youth – Where Are the Real Opportunities? Anyone trying to get young people into proper job placements while they study for apprenticeships knows how hard it has become. It was not always like this. Older generations still remembe"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097973085844668921",
-          "author": "newsbookmedia",
-          "searchJob": "temple",
-          "text": "Why is alcohol offered to God? The Mystery of Kashi's Kaal Bhairav | Kaal Bhairav Temple Mystery ... #Varanasi #KashiVishwanath #BhairavTemple #BhairavNath https://t.co/Z6WkQnDMVd"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097965495899312422",
-          "author": "impuni",
-          "searchJob": "temple",
-          "text": "Families are coming to temple and giving offerings . Still they come in burqa . Nothing changes . Fear of punishment makes them give the offering . My ex driver was a Muslim and he got Herpes . Even he went to the temple to offer coconut . "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097964834923123101",
-          "author": "astrologybyisha",
-          "searchJob": "temple",
-          "text": "A client was struggling to find a suitable marriage proposal. Jupiter was under pressure in her chart. I asked her to offer yellow sweets at a Vishnu temple every Thursday for 11 weeks. She eventually met someone through a family connection"
+          "postId": "2097961537948262430",
+          "author": "ghostsal21",
+          "searchJob": "army",
+          "text": "Today in history 👇 Let’s not forget about the $2,300,000,000,000 (that’s 2.3 trillion) that couldn’t be accounted for at the Pentagon (that was announced by Defense Secretary Donald Rumsfeld on 9-10, the day before the infamous attack that"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097954906334245126",
-          "author": "alexandrmenashe",
-          "searchJob": "temple",
-          "text": "Andrerw Marr is a typically pompous extablishment Brit regurgitating popular nonsense that masquerades as wisdom. Andrew Marr has no expertise in any subject about which he now claims to speak. He knows little about the religions of the peo"
+          "postId": "2097981428558414279",
+          "author": "mrdimasta420",
+          "searchJob": "coastal-carolina",
+          "text": "Everyone's calling this a koala. It isn't one. Look again. Round body, dark wet fur, no pouch, swimming like it was born to — because it was. Koalas don't swim. Koalas can't swim like this. What's actually struggling in that water is someth"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097954036217532678",
-          "author": "ians_india",
-          "searchJob": "temple",
-          "text": "Ujjain, Madhya Pradesh: Sadhvi Harsha Nand Giri, accompanied by members of the saint community and hundreds of devotees, visited the 170-year-old Khade Hanuman Temple, a site of deep faith for millions of Hindus. She offered prayers at the "
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097981237436551576",
+          "author": "mylastsatoshi",
+          "searchJob": "coastal-carolina",
+          "text": "Gaoth Dobhair offers turquoise Atlantic waters, pink granite shores and green hills laced with stone walls and cottages. Artists find shifting light and texture here while travellers discover wild beaches and living Irish culture in the lar"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097979780863770865",
-          "author": "bigpapi_abe",
-          "searchJob": "washington",
-          "text": "@chrispy167 @MostlyEagles Ben Johnson stayed after 2023 because the options were Washington or Chargers. Chargers gave him a low ball offer at the time and Ben Johnson didn’t like Washington’s ownership. That was the major reason he didn’t "
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097978566185201910",
+          "author": "furioustrusted",
+          "searchJob": "coastal-carolina",
+          "text": "🚨 BREAKING NEWS 🇮🇳📚 SANJU SAMSON OFFERS UPSC SCHOLARSHIPS TO 1,000 STUDENTS Indian cricketer Sanju Samson’s foundation, in collaboration with Lead IAS Academy, will provide UPSC Civil Services coaching scholarships to 1,000 students, wi"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097967351190749331",
-          "author": "rbg4lif",
-          "searchJob": "washington",
-          "text": "The US-South Korea-Japan wargames offer a glimpse of Washington’s real plan for Asia The trilateral wargames proceed as planned despite Trump’s earlier snub. How is Washington keeping Seoul hooked? Published 9 Sep, 2026 https://t.co/pm7Zqul"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097978377613303921",
+          "author": "mrdimasta420",
+          "searchJob": "coastal-carolina",
+          "text": "Everyone thinks they know what \"wild animal\" means. They don't. A 6-ton predator with 40 conical teeth stayed beside a stranded calf on the rocks for hours while strangers poured water over its skin to keep it alive. That's not even the par"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097966419585425906",
-          "author": "movienewsusa",
-          "searchJob": "washington",
-          "text": "Good life for NY families and firms - @SenatorTimScott ``UP NEW YORK´´ UP NEW YORK @NewYorkGOP @NYYRC @GavinWax @ChairmanEdCox @SpeakerJohnson @LeaderJohnThune @nrc @NRCC VOTE BLAKEMAN `HOCHUL PUTS NY INTO HARDSHIP´ https://t.co/TcItKVwPKH "
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097966192778416470",
+          "author": "frencio_schiavi",
+          "searchJob": "coastal-carolina",
+          "text": "Yet holding Mocha seems difficult, as the surrounding flat terrain is not ideal for a staunch defence. Even if joint Yemeni forces retreat south while maintaining some cohesion, the areas around Dhubab might offer a better position to \"hold"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097964208562286693",
-          "author": "mohammd_mohsn",
-          "searchJob": "washington",
-          "text": "@ryanl_hass asks why Beijing isn’t taking the bait? The more interesting question is: what Beijing thinks the bait is worth? Trump has given Beijing several things it has wanted for years: less ideological pressure, public deference to Xi, "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097963834845917661",
-          "author": "mikewilsonmelb",
-          "searchJob": "washington",
-          "text": "This is getting beyond pathetic. Donald Trump, facing a brutal midterm environment, has now floated the idea that every American adult will receive a $5,000 “Trump dividend” if Republicans retain control of Congress. “If the Republicans win"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097960589712630182",
-          "author": "mohammd_mohsn",
-          "searchJob": "washington",
-          "text": "@ryanl_hass asks why Beijing isn’t taking the bait. The more interesting question is what Beijing thinks the bait is worth. Trump has given Beijing several things it has wanted for years: less ideological pressure, public deference to Xi, l"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097965598152048887",
+          "author": "dispatch_dd",
+          "searchJob": "coastal-carolina",
+          "text": "Cintsa Dunes Resort offers a peaceful retreat immersed in natural beauty, where abundant birdlife and the unique ecology of coastal forest create a vibrant soundscape. https://t.co/XOpVgn0lnp"
         }
       ]
     },
@@ -265,11 +239,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 16,
+      "rejectedCandidates": 14,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T09:28:20.245Z"
+    "status rebuilt locally from current store on 2026-09-10T09:58:08.701Z"
   ]
 }
