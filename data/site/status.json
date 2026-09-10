@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T14:56:48.611Z",
+  "generatedAt": "2026-09-10T15:13:21.715Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T14:56:48.390Z",
+    "at": "2026-09-10T15:13:21.360Z",
     "jobsTotal": 162,
-    "sweptThisRun": 7,
-    "requests": 8,
-    "fullSweepCycles": 24
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0025047222222223,
-    "p95Hours": 1.7550377777777777,
-    "worstHours": 2.0089725
+    "medianHours": 1.2783669444444445,
+    "p95Hours": 1.7839830555555556,
+    "worstHours": 2.0309
   },
   "decisionCoverage": {
-    "total": 4,
-    "decided": 4,
+    "total": 66,
+    "decided": 66,
     "complete": true
   },
   "pending": {
@@ -47,75 +47,387 @@
   "profileResolution": {
     "cached": 45
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 2,
   "quality": {
-    "completeOffers": 975,
+    "completeOffers": 976,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T14:56:48.390Z",
-      "got": 6,
-      "new": 4,
-      "lag": 0.14
+      "at": "2026-09-10T15:13:21.359Z",
+      "got": 91,
+      "new": 66,
+      "lag": 0.07
     }
   },
   "audit": {
-    "at": "2026-09-10T14:56:15.637Z",
+    "at": "2026-09-10T15:11:39.024Z",
     "mode": "live",
     "collection": {
-      "returned": 6,
-      "kept": 4,
-      "duplicate": 2,
+      "returned": 91,
+      "kept": 66,
+      "duplicate": 25,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 1,
-      "rejected": 3,
+      "accepted": 42,
+      "rejected": 24,
       "reasons": {
-        "no_fbs_school": 2,
-        "no_offer_term": 1
+        "no_fbs_school": 11,
+        "hard_negative": 3,
+        "no_offer_term": 8,
+        "non_fbs_offer_target": 2
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2098052433536532842",
-          "author": "oagmaryland",
-          "searchJob": "maryland",
-          "text": "Identity theft is on the rise in Maryland. But understanding the warning signs and acting quickly can help you avoid it. My Office offers free resources to help. We'll show you how to spot identity fraud and recover from it. Get started her"
+          "postId": "2098062107296088558",
+          "author": "princes29423698",
+          "searchJob": "alabama",
+          "text": "@Cherylkiwisquaw @johnrich @alabamapower the initial offer from the utility was half of its current offer. In the interim, Alabama customers are paying for this “legal team” sneering, shaking a finger at the court"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098052806380765202",
+          "author": "raoul_000",
+          "searchJob": "alabama",
+          "text": "2027 WBB prospect Jaylen Cauthron, 5-8 PG, Broken Bow HS (OK), has announced her commitment to Kansas City; among her other offers: North Alabama UNCG, Saint Peter's"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098051758299767063",
+          "author": "brettgreenberg_",
+          "searchJob": "alabama",
+          "text": "Wisconsin S commit James Roberson was among three new 2027 offers tossed out by Alabama last week. Allen (TX) standout spoke with @Bama_247 about the big call from @CoachJasonJones + more: “I was happy. They have a lot of versatile players."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098060963257696449",
-          "author": "thevalueist",
-          "searchJob": "delaware",
-          "text": "https://t.co/DDfDpHfHdK"
+          "postId": "2098016327994597859",
+          "author": "johnrich",
+          "searchJob": "alabama",
+          "text": "Local news in Alabama on Fenn Church vs @AlabamaPower With alternative routes available, it’s unconscionable that this Goliath company is willing to fight a kind hearted, retired man to the bitter end to take his land👇 https://t.co/MtuYZIj"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098058498118684789",
+          "author": "naywilliams",
+          "searchJob": "washington",
+          "text": "On September 10, 2001, I went out to watch Monday Night Football in NYC. I stayed out too late, slept through my alarm the next morning, and rushed to catch the 4 Train to @JPMorgan. What happened next has stayed with me ever since. #NeverF"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098053980299382853",
+          "author": "jecrosbie",
+          "searchJob": "washington",
+          "text": "He Named Ten Percent. The Lab Has No Plan. Anthropic’s alignment lead put a personal figure on extinction. A congressman used it. Harvey raised $550 million. https://t.co/vi7VFl0Oxl https://t.co/8KGvlsSgzB"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098053802267996387",
+          "author": "vaughncordle",
+          "searchJob": "washington",
+          "text": "https://t.co/yR2obIh3i2"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098043431943619068",
-          "author": "barrishcris",
-          "searchJob": "delaware",
-          "text": "One incumbent offers a potential foe a job he couldn't take. Another incumbent suggests one candidates consider a nonexistent job instead of running. What in the name of primary season is happening in @Delaware? and @NCCDE. https://t.co/H7E"
+          "postId": "2098050359792947696",
+          "author": "washk12",
+          "searchJob": "washington",
+          "text": "💡 Did you know? Washington County School District offers Career &amp; Technical Education opportunities across a wide range of career areas, giving students opportunities to explore their interests and prepare for their futures. Learn more"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098058786233577835",
+          "author": "wisconet",
+          "searchJob": "wisconsin",
+          "text": "USDA Press Release: Drought-related Disaster Assistance for Agricultural Producers in Wisconsin https://t.co/N4WvHYajnw"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098051539365511271",
+          "author": "mollymentzel_28",
+          "searchJob": "phrase:\"grateful to receive an offer\"",
+          "text": "So grateful to receive an offer to continue playing flag football at Wagner College! Thank you Coach DeAngelis for this amazing opportunity! https://t.co/8MNZlS5isu"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098063912327373036",
+          "author": "skylahpryce01",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with Coach Pettway, I’m excited to announce that I’ve received an offer from Lesley University! 🐾🏀 I’m truly grateful for this opportunity and can’t wait to see what’s next! 🙏🏽 @Lesley_WBB https://t.co/nXqBaE1"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098057864589758962",
+          "author": "bonnyaye",
+          "searchJob": "houston",
+          "text": "@Cosmic_Surfer This one is clearly illegal. Musk just lost a lawsuit about his million dollar offer from 2024. Not like any of them will go to prison for it, like they should, though."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098053433152491601",
+          "author": "etchhouston",
+          "searchJob": "houston",
+          "text": "Privacy &amp; security doesn't have to be expensive. We offer both at your fingertips. Call (832) 275-1848 or visit https://t.co/SVgSRVbEzt for a FREE QUOTE. https://t.co/WCSJ8tbL2T"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098049087933231332",
+          "author": "iowabar",
+          "searchJob": "iowa-state",
+          "text": "The 2026 ISBA Business Law Seminar on Sept. 18 offers a full day of timely education for business law practitioners navigating a rapidly changing legal environment. Presented by the University of Iowa College of Law and the ISBA Business La"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098066200085360883",
+          "author": "thefastpitch",
+          "searchJob": "kansas",
+          "text": "Kansas City Underground’s free film festival offers weird, profound, and silly movies for all: https://t.co/kOGMdnmJmX"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098064383402201125",
+          "author": "crusaderkansas",
+          "searchJob": "kansas",
+          "text": "@RogerMarshallMD @RepMann @RonEstesKS @DerekSchmidtKS @JerryMoran Trump’s $5K if GOP retain the House &amp; Senate is a bribe &amp; federal crime! 18 U.S. Code 597 says anyone who pays or offers to pay any person to vote a particular way sh"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098043831241638240",
+          "author": "loopingcloud",
+          "searchJob": "kansas",
+          "text": "https://t.co/z8UF4s9yWF"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098039672169472373",
+          "author": "amellis_84",
+          "searchJob": "kansas",
+          "text": "https://t.co/Ao75SIZ2cv"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098054070204244017",
+          "author": "qbhitlist",
+          "searchJob": "phrase:\"picked up an offer from\"",
+          "text": "🚨🚨🚨OFFER ALERT!!! CONGRATS‼️@QBHitList Premium ‘27 QB @jaronward11 has picked up an offer from @BrevardF5 #TrustTheProcess"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098041652690522184",
+          "author": "allnonesports1",
+          "searchJob": "phrase:\"picked up an offer from\"",
+          "text": "🔥 OFFERED AT CAMP '28 G, Chase LeBaron @cLeBaron2028 has picked up an offer from Louisiana Christian University after a strong @AllNOneSports1 College Showcase"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098064757878042987",
+          "author": "lion_seller",
+          "searchJob": "kent-state",
+          "text": "@Kramaramb Go offer a starbucks employee 70% for your late and lemme know how that goes 🤣"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098047737917010036",
+          "author": "kentm5180",
+          "searchJob": "kent-state",
+          "text": "@FrancesWiddows1 How many dollars are being offered?"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098064850219839822",
+          "author": "alscyborg",
+          "searchJob": "liberty",
+          "text": "https://t.co/IykDufxL6j"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098054103528350015",
+          "author": "rcatholicprayer",
+          "searchJob": "liberty",
+          "text": "The first reading for Thursday September 10, 2026: First Letter to the Corinthians (1 Corinthians 8:1b-7, 11-13) Knowledge puffs up but love builds up the faithful Some ate food offered to idols claiming it meant nothing This freedom wounde"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 1,
+      "accepted": 1,
+      "rejected": 41,
       "reasons": {
-        "bare_mention_requires_llm": 1
+        "bare_mention_requires_llm": 34,
+        "multiple_resolved_schools": 5,
+        "school_not_resolved_confidently": 2
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098059402095874349",
-          "author": "akerman_law",
-          "searchJob": "maryland",
-          "text": "In two recent decisions, the Maryland Tax Court found the state's Digital Ad Tax is not fairly related to services Maryland provides. Akerman attorneys offer four takeaways for taxpayers facing taxes with global-revenue triggers. #SALT #Dig"
+          "postId": "2098038964330373389",
+          "author": "dana8386",
+          "searchJob": "alabama",
+          "text": "Shame on Alabama Power for trying to take Mr. Church’s property via imminent domain especially after he’s offered them an alternative route which is still his property! If you’re in the area call Alabama Power to voice your opinion! This sh"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098064461412090282",
+          "author": "athinkingrobot",
+          "searchJob": "illinois",
+          "text": "First Watch answers the line. It runs no recall and no reactivation campaigns - that capability lives in Standing Watch. After-Hours Recon, free: https://t.co/x5DtUqS7cl First Watch is not currently offered in Illinois or Washington."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098057033077453141",
+          "author": "lorimattice",
+          "searchJob": "illinois",
+          "text": "🏡 OPEN SATURDAY IN KENOSHA! 🏡 TAKE A LOOK! NEW PRICE: $189,900! Cheaper than rent!! Join us this Saturday, September 12th 11:00 AM – 1:00 PM to tour this move-in-ready condo at 3511 85th St., Unit C, Kenosha, WI 53142! Conveniently locate"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098065388965630265",
+          "author": "shaygal84",
+          "searchJob": "washington",
+          "text": "The security order Europe has not named already exists. 👇 A Line of State strategic doctrine essay. Published in @Jerusalem_Post. That European-Israeli security order runs from the Arctic and Baltic through the Mediterranean and North Afri"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098060873214366124",
+          "author": "putneyjk",
+          "searchJob": "washington",
+          "text": "Politico, the Washington Post, NBC, CNN, Richmond Times Dispatch, Virginia Mercury, Cardinal News, Virginian-Pilot, Cville DP, and so many other media outlets, were they forced to cover and report on Socialism 2026, would describe this conf"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098058074875658551",
+          "author": "hiiraan",
+          "searchJob": "washington",
+          "text": "Somaliland President offers troops for Gaza force if U.S. or Israel requests: Washington (HOL) — Somaliland President Abdirahman Mohamed Abdillahi Irro on Wednesday offered to contribute up to 2,000 troops to a planned international force f"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098056335338180740",
+          "author": "bharri17191789",
+          "searchJob": "washington",
+          "text": "In 1995, having paniked because no offers of a university job had materialized,neither from my academic advisor for the Ph.D. Richard Hull,professor of African history at NYU, who SHOULD HAVE gone all out to get me placed, but did not do so"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098056294959894709",
+          "author": "lou_twin",
+          "searchJob": "washington",
+          "text": "Abdul El-Sayed Demanded Mass Release of Prisoners, ‘De-Jailing,’ and Scrapping Cash Bail Because of ‘Racism’: Democrat Claims US Is ‘a Carceral State’ The Michigan Democrat is an adherent to the ‘decarceration’ movement which blames racism "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098052373126221915",
+          "author": "hiden0x",
+          "searchJob": "washington",
+          "text": "After Nixon cut the gold link in 1971, the dollar still needed a reason to be wanted. Three years later Saudi Arabia sold oil only in dollars. In return, Washington offered protection. Other producers followed. If every country needs oil, a"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098050702689874336",
+          "author": "lihuohuo2507",
+          "searchJob": "washington",
+          "text": "The $5,000 Admission Donald Trump’s $5,000 “dividend” may be the clearest evidence yet that the White House sees the cost of living as a genuine threat to Republicans in the midterm elections. A president confident that households already f"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098048851965780048",
+          "author": "indyadulted",
+          "searchJob": "washington",
+          "text": "Washington Township Adult Education offers high school equivalency preparation classes at the Noblesville library. Visit our website to register: https://t.co/3mggJjYXNh. @msdwt #indyadulted #moveaheadwithadulted https://t.co/QIRnhxSbOF"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098045614667825264",
+          "author": "faith3155",
+          "searchJob": "washington",
+          "text": "THE $212 TRILLION ROAD TO SOCIALISM The promises sound free because the invoice is hidden📷By Francis Gauthier Two hundred twelve trillion dollars. That number is so large that Washington hopes your eyes glaze over before your common sense "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098042847236628480",
+          "author": "silvercat1986",
+          "searchJob": "washington",
+          "text": "@griffin_colby Here are my top 4: 1.Sean Gilbert-Signed 7-yr, $46.5 mil offer sheet in 1998.Compensation: Washington rec'd Carolina's 1st-rd draft picks in 1999 &amp; 2000 2. Mitch Marrow-1998 draft-73rd pick-Never played 3. Vernon Butler-2"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098042824772219110",
+          "author": "dkoushikrana",
+          "searchJob": "washington",
+          "text": "https://t.co/CRtVJQDBsa #bagrambase #economicstability #foodinsecurity #foreigninvestments #foreignpolicyexplained #funds #hungercrisis #infrastructure #mineralresources #nationalproperty #kabul #muttaqi #offer #poverty #sanctions #taliban "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098042580089081933",
+          "author": "kousdas",
+          "searchJob": "washington",
+          "text": "https://t.co/woj5qSiqZx #bagrambase #economicstability #foodinsecurity #foreigninvestments #foreignpolicyexplained #funds #hungercrisis #infrastructure #mineralresources #nationalproperty #kabul #muttaqi #offer #poverty #sanctions #taliban "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098049485133738215",
+          "author": "jaidantjon07",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "#AGTG After a great conversation with @Apes_Tampa i am blessed to say that i have received an offer from @TCFTIGERSFTBALL , go tigers! https://t.co/7CLPGbwFYM"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098062377375699177",
+          "author": "bmfb1836",
+          "searchJob": "houston",
+          "text": "The Challenge: Finding Authentic Wood Aesthetics with Modern Performance Standards You’re designing a home that celebrates natural materials. The exterior envelope needs to express warmth, depth, and authenticity while standing up to Texas "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098061117440328026",
+          "author": "milkhoneyranch",
+          "searchJob": "houston",
+          "text": "Do you think my wife liked the coatimundi? 🦝 How would you react?⬇️ 🥰 We offer mini cow cuddles to let your love for mini highland cows out as much as you want! 🐐 We also have baby goats, baby kangaroos, baby alpacas, and other animals f"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098058650795245717",
+          "author": "redinablustate",
+          "searchJob": "houston",
+          "text": "We offer you cali kush and indoor weed plus vapes, disposable vape, hash, carts, edibles, gummies, and pre-rolls in the city, Plug in: Prague, Warsaw, Budapest, Bucharest, Belgrade, Chicago, Houston, Phoenix, Philadelphia, Calgary, Edmonton"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098053123466215763",
+          "author": "martyupnorth",
+          "searchJob": "houston",
+          "text": "During the first week of September 2001, I accepted a job in Saudi Arabia with Aramco (the state-owned oil company). We were living in Edson, Alberta at the time, with 2 kids, and Karen pregnant with our third. Karen and I were scheduled to"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098052926065258538",
+          "author": "diplodink",
+          "searchJob": "houston",
+          "text": "@pottsie2602 @bearsfan302 @genechamberlai2 @BearinVegas Ok Dallas and Houston dont cover it either. Houston at least offers good parking. Per mile walked Dallas parking while plentiful is more expensive than SF."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098050475144745037",
+          "author": "enthusiast18714",
+          "searchJob": "houston",
+          "text": "Jambs, sills, seams: Houston grime. Ceramic defends hidden wear. PayPal Pay Later may offer flexible pay-over-time. Eligibility, approval, payment amounts, and terms are determined by PayPal. https://t.co/kZeDqFtUDv https://t.co/AfwZSmSFr5"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098048673577857244",
+          "author": "swiltfong_",
+          "searchJob": "bowling-green",
+          "text": "Nebraska will have several Top 100 recruits and quite a few more offered targets on campus for Saturday night's game against Bowling Green. “What excites me about Coach Rhule and his staff is the experience they have!\" Intel: https://t.co/O"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098039186901078094",
+          "author": "jucofootballace",
+          "searchJob": "florida-international",
+          "text": "Braheem Battles @BraheemBattles @ Butler JuCo @ButlerGrizzlyFB picks up @FIUFootball Offer @Coach_JL51 https://t.co/663uIqy64O"
         }
       ]
     },
@@ -123,20 +435,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 7,
-      "failed": 1,
-      "requests": 8,
-      "errors": [
-        "florida-atlantic: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 1,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 41,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T14:56:48.612Z"
+    "status rebuilt locally from current store on 2026-09-10T15:13:21.716Z"
   ]
 }
