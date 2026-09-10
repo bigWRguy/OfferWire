@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T23:12:54.408Z",
+  "generatedAt": "2026-09-10T23:27:58.199Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T23:12:54.131Z",
+    "at": "2026-09-10T23:27:57.895Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,17 +32,17 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7769427777777778,
-    "p95Hours": 1.775451111111111,
-    "worstHours": 1.775451111111111
+    "medianHours": 0.7787525,
+    "p95Hours": 1.5246944444444444,
+    "worstHours": 1.5246944444444444
   },
   "decisionCoverage": {
-    "total": 33,
-    "decided": 33,
+    "total": 46,
+    "decided": 46,
     "complete": true
   },
   "pending": {
-    "total": 27
+    "total": 28
   },
   "profileResolution": {
     "cached": 47
@@ -55,262 +55,354 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T23:12:54.131Z",
-      "got": 56,
-      "new": 33,
-      "lag": 0.05
+      "at": "2026-09-10T23:27:57.894Z",
+      "got": 70,
+      "new": 46,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-10T23:11:18.536Z",
+    "at": "2026-09-10T23:26:19.753Z",
     "mode": "live",
     "collection": {
-      "returned": 56,
-      "kept": 33,
-      "duplicate": 22,
-      "tooOld": 1,
+      "returned": 70,
+      "kept": 46,
+      "duplicate": 24,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 19,
-      "rejected": 14,
+      "accepted": 26,
+      "rejected": 20,
       "reasons": {
-        "no_fbs_school": 7,
-        "no_offer_term": 5,
-        "hard_negative": 2
+        "no_offer_term": 6,
+        "no_fbs_school": 10,
+        "non_fbs_offer_target": 3,
+        "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2098162243422527833",
-          "author": "taxpayers",
-          "searchJob": "wyoming",
-          "text": "Today, 114,389 acres out of the 151,756 acres offered in WY's oil &amp; gas lease sale were leased. Every acre sold was leased at the reduced 12.5% royalty rate, shortchanging taxpayers for decades to come. Learn more about today's sale: ht"
+          "reason": "no_offer_term",
+          "postId": "2098180710917878199",
+          "author": "lassinialpha",
+          "searchJob": "arkansas-state",
+          "text": "https://t.co/xXez0flBBx"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098165545313214593",
-          "author": "chainpeak",
-          "searchJob": "iowa",
-          "text": "https://t.co/1tMBES78Du"
+          "postId": "2098066469703819504",
+          "author": "yisraelofficial",
+          "searchJob": "arkansas-state",
+          "text": "Spot on! Sooooo correct and true‼️ https://t.co/KUy3h9nQED"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098172935710380092",
+          "author": "_aj",
+          "searchJob": "arkansas-state",
+          "text": "We’ve spent the past three years building agents for real production work. Our architecture changed a lot along the way. Some of those changes worked. Others produced expensive and occasionally painful lessons. Read this to learn from our m"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098162257549017419",
+          "author": "khaledsalih2026",
+          "searchJob": "arkansas-state",
+          "text": "The Opposite of Islamisation Is Not Assimilation How a liberal argument can be based on bad philosophy https://t.co/E8xOw8K9Oc"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098183652106452996",
-          "author": "bidensballsac",
-          "searchJob": "michigan",
-          "text": "@brucebolton @GKCJosh @Rylieparis05 @UofUGOP @UUtah She free to say what she wants and business owners are free to never offer her employment. Good luck to the mindless retards."
+          "postId": "2098175784850440360",
+          "author": "foxybrownbengal",
+          "searchJob": "navy",
+          "text": "@SnarkyTank @mmpadellan You clowns can never defend trump without bringing up Biden, Obama, Clinton or Democrats in general. This is trumps presidency. These are his policies. No Democrat president has ever offered money for votes. trump is"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098182362475421737",
+          "author": "nevadasportsnet",
+          "searchJob": "nevada",
+          "text": "After unveiling its name and crest last night, Reno City FC CEO Wendy Damonte offers a timeline for when construction on a stadium could begin. https://t.co/QJDQ0wU5Oa"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098170661889818849",
+          "author": "caswatershed",
+          "searchJob": "nevada",
+          "text": "Looking for a quieter Sierra adventure? An SNC staff recommendation, Burnside Lake near Markleeville offers #camping, #paddleboarding, and #hiking! For those who enjoy a little off-road adventure, the route to the lake makes for a bit of ad"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098180729738002627",
+          "author": "prepredzonenm",
+          "searchJob": "new-mexico",
+          "text": "2027 Lovington DE offered by Eastern New Mexico."
         },
         {
           "reason": "hard_negative",
-          "postId": "2098179728242823269",
-          "author": "thevannzee",
-          "searchJob": "michigan",
-          "text": "Eastern Michigan also adds a commitment from Brodrick Wyatt, a 2027 guard out of Texas who had offers from Georgia State, Nevada, UTEP and others."
+          "postId": "2098174590841135503",
+          "author": "thevalueist",
+          "searchJob": "new-mexico",
+          "text": "$ORCL KEY READ-THROUGHS FROM ORACLE’S Q1 FY2027 EARNINGS CALL Oracle’s results provide stronger evidence of AI infrastructure demand converting into operational capacity and revenue than of an indiscriminate improvement across technology sp"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098100550839525606",
-          "author": "tobias_bass",
-          "searchJob": "michigan",
-          "text": "NEWS: 3⭐️ Brodrick Wyatt has committed to Eastern Michigan, he tells @TheAthleticCBB @CoozElite3 https://t.co/rLYUb49G4P"
+          "postId": "2098148935567368650",
+          "author": "thevalueist",
+          "searchJob": "new-mexico",
+          "text": "$ORCL (Bloomberg) -- Oracle reported adjusted revenue for the first quarter that beat the average analyst estimate. FIRST QUARTER RESULTS •Adjusted revenue $19.35 billion, +30% y/y, estimate $19.13 billion (Bloomberg Consensus) •Adjusted EP"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098173099447550146",
-          "author": "vantableu616",
-          "searchJob": "michigan",
-          "text": "Just received an offer for a live-in caregiver job from Friday to Sundays every weekend. I can take as many hours as I want and when I'm staying overnight there I have a room at the owner's home. This is incredible and will save me on Hotel"
+          "postId": "2098178970051019082",
+          "author": "99qq111971",
+          "searchJob": "ohio",
+          "text": "@SelfMadeMastery Democrats been buying votes for years. I was offered a 500 gift card at my election poll to Vote democrat in 2024. My County in Ohio is all Conservative. I told them no thank you. At least Trump tells is straight. The Democ"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098172980505309337",
+          "author": "gafgrm",
+          "searchJob": "ohio",
+          "text": "@deaflibertarian The pet stores here offer FREE microchipping clinics. There is NO excuse not to microchip. I'm even for it being law in each state for all pets, not just exotics."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098172652850413607",
+          "author": "gafgrm",
+          "searchJob": "ohio",
+          "text": "@Rob_Shenanigans Has happened every place I worked. It is always the woman that is moved to another department, even when people talk about how she was pursued. Only one case where the man was demoted, only because the woman offered to go t"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098172077182533720",
+          "author": "nickvlasidis",
+          "searchJob": "ohio",
+          "text": "🏠Open house, multiple offers, and sold in just 3 weeks‼️ 📍820 W Main St in Westerville, Ohio sold for $428,000💰. Listed by Nick Vlasidis | Vlasidis &amp; Co. Real Estate Team | Howard Hanna. Thinking about selling? Let's talk.😎👍📱🏠 ht"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098170424630624304",
+          "author": "jleeausports",
+          "searchJob": "auburn",
+          "text": "Miss the AuburnSports season kickoff sale? Don't fret. We still have a big dog offer. Get AuburnSports for $1 for one week. Guarantee you'll want to stick around. JOIN: https://t.co/MVkAZQtDmQ https://t.co/yTYcUAAJd0"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098187964207497341",
+          "author": "husker247bc",
+          "searchJob": "nebraska",
+          "text": "Owen Chambliss trending towards his #Husker debut Saturday. Encouraging outlook offered for Caleb Benning, too. “They're doing a nice job, so we're hopeful to have them on Saturday,\" Rhule told Jessica Coody. https://t.co/WY9iNr8tS9"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098181177983279571",
+          "author": "unpeustitious",
+          "searchJob": "oregon",
+          "text": "@kanarek13 @huffzqmy He had a spare coat with him. She wasn't ready for the Oregon weather at the time, their flight was the next day, so he offered his spare to her."
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098185463571870119",
+          "author": "unofficialq_",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "I am blessed to say l've received my first offer from Brevard College! #AGTG @coachnate56 @CoachDixonTyme4 @AlcovyFootball @Coach_DavisQBs @BrevardF5 https://t.co/JiPRAiGCkK"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098180541912629443",
+          "author": "gavin_grossman8",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After a great visit and conversation with coach Webster, and coach Duvall, I would like to say I am beyond blessed to receive my first offer from Adrian College #AGTG @coachgrubaums https://t.co/5qq42s3MYI"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098167319944122875",
-          "author": "gbplogic",
-          "searchJob": "michigan",
-          "text": "Thursday ran last night’s failed-auction paths on #GBPUSD and #EURUSD with mode leftover at the highs. #EURGBP still rejects 0.8571; 0.8595 tagged, time/volume split. No forced side. Path printed is not accepted location. https://t.co/WnpQu"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098182707775742099",
-          "author": "np4football_ot",
-          "searchJob": "michigan-state",
-          "text": "Karson Jordan-DB-2028-OH @MSU_Football Game Day Visit #CFB"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097874988380373504",
-          "author": "karson_jordan3",
-          "searchJob": "michigan-state",
-          "text": "Extremely excited to announce I will be in East Lansing Michigan on November 20th to see Michigan state take on Oregon can’t wait! @AndrewwFranklin @MSU_Football @PoteatCoach @LakotaWestFB @CoachTomBolden @Coach_Huls https://t.co/hmNI9Lnhhu"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098178619579212285",
-          "author": "dglobe",
-          "searchJob": "minnesota",
-          "text": "Retreat, Rebuilding Together program offered https://t.co/ZkZW9SxhRC"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098173024725836114",
-          "author": "rhavisham",
-          "searchJob": "minnesota",
-          "text": "@Nat45672 @TheTNHoller I know you love whataboutism, but I don’t live in Minnesota. I live in America where the holder of the Oval Office just made an illegal offer to buy votes. But many MAGAts are waking up, and don’t believe the lies any"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098182418331038150",
-          "author": "kellybackinblak",
-          "searchJob": "missouri",
-          "text": "I'm on vacation at Lake of the Ozarks in Missouri. This is what they offer here for shopping: https://t.co/vUOGSKG9iK"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098162123956167141",
-          "author": "landhub",
-          "searchJob": "missouri",
-          "text": "401± ACRES OF PRODUCTIVE FARMLAND | ST. CLAIR COUNTY, MISSOURI Located just south of Osceola along Highway WW, this 401± acre farm offers productive agricultural land and convenient highway frontage. CONTACT AGENT 👉 https://t.co/DqQJzkThiw"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098164009392308512",
-          "author": "sportswithtay",
-          "searchJob": "boston-college",
-          "text": "🚨FILM REVIEW🚨 2028 6’3” S @coopervahle has great length for the safety position and does a really good job reading the QB’s eyes. He’s a strong open-field tackler and does a good job making plays on the ball. One area I’d like to see him "
+          "postId": "2098173707110023467",
+          "author": "arkadalo",
+          "searchJob": "army",
+          "text": "@NetSenseOnline It is still raining here."
         }
       ]
     },
     "extraction": {
-      "accepted": 2,
-      "rejected": 17,
+      "accepted": 0,
+      "rejected": 26,
       "reasons": {
-        "bare_mention_requires_llm": 11,
-        "explicit_non_fbs_target": 1,
-        "multiple_resolved_schools": 2,
-        "reporter_missing_player_name": 1,
+        "bare_mention_requires_llm": 19,
+        "multiple_resolved_schools": 3,
         "unresolved_offer_target": 1,
-        "player_missing_class_year": 1
+        "school_not_resolved_confidently": 1,
+        "player_display_name_unusable": 1,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098185962756915241",
-          "author": "jimkim93251481",
-          "searchJob": "houston",
-          "text": "Terrific lunch reception with top business leaders at Houston Country Club, Memorial Area. The ultra-luxurious private club offers all of the traditional amenities: top-drawer golf, tennis, swimming, and superb dining with sweeping views of"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098170091196096607",
-          "author": "trenelz_",
-          "searchJob": "houston",
-          "text": "@bardisplanet Well no. This was the narrative they were trying to spin to fuck up the case. That’s why Kelsey met with Tory after the shooting and why Tory offered to pay her medical bills. Why Tory was hanging with her husband, Carl from 1"
-        },
-        {
-          "reason": "explicit_non_fbs_target",
-          "postId": "2098187261787672864",
-          "author": "profilefblive",
-          "searchJob": "phrase:\"has offered\" recruit",
-          "text": "Penn State has offered 3.7⭐ 2028 TE Israel Johnigan from Center HS, MO. @IsraelJohnigan Rated (#636 NATL, #34 TE, #6 MO) - 12 offers overall. https://t.co/vquADp3hGR"
+          "postId": "2098189442339209604",
+          "author": "thelastofthe252",
+          "searchJob": "arkansas-state",
+          "text": "I bless thee Western in the Name of the Father and of the Son and of the Holy Spirit! Amen! Heavenly Father, I lift this beloved child into Your loving hands, asking that Your healing touch restore his body completely. Remove all heart prob"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098174320468255023",
-          "author": "1samstein",
-          "searchJob": "air-force",
-          "text": "And I had a chance to go to Monterey. Linguist school for I believe it was 12 months. They wanted me to learn Arabic . I said I'd be the first person they'd shoot at 6'3 and look/nose🙄😲😂 LOL G-dForBid. They offered me linguist at ASVAB. "
+          "postId": "2098188522058621434",
+          "author": "blackhistorical",
+          "searchJob": "arkansas-state",
+          "text": "Robert Smalls tried to buy his wife and children out of slavery and was told the price was eight hundred dollars. Slavery paid him one dollar a month to keep and pocketed the other fourteen, so the math meant he would die before he ever sav"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098180505195761873",
-          "author": "jekkuperuna",
-          "searchJob": "tulsa",
-          "text": "@ManletSupremacy @WheyPeat Zero shot, after the ditch is done your newly unemployed ass is stuck in Tulsa with 3 days to move out of the cargo container they offered as \"accommodations\""
+          "postId": "2098187070661664968",
+          "author": "thelastofthe252",
+          "searchJob": "arkansas-state",
+          "text": "I bless this Daughter in the Name of the Father and of the Son and of the Holy Spirit! Amen! Heavenly Father, I lift this beloved child into Your loving hands, asking that Your healing touch restore his body completely. Remove all heart pro"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098166358819356966",
-          "author": "magmojave",
-          "searchJob": "arkansas",
-          "text": "24 hour update: She is refusing to respond, only makes more insults. My offer stands. BTW, the ban evasion comment is an example of a statement of fact that I have made that I can, in fact, back up. That makes it true, and not defamatory. A"
+          "postId": "2098184955469889626",
+          "author": "craigabrill",
+          "searchJob": "arkansas-state",
+          "text": "@IhabHassane There is nothing illegal about Jews moving back to Judea and Sameria after being ethnically cleansed by Jordan in 48 and reclaiming the land after 67! Y’all were offered the land for a state several times and said no b/c you’d "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098185248248860975",
-          "author": "zoolandercz",
-          "searchJob": "michigan",
-          "text": "@bluebyninety I too refuse to believe that's the best Michigan has to offer. I think they can absolutely have the ability to win Saturday, but it will be tough."
+          "postId": "2098180146544951428",
+          "author": "ew_1954",
+          "searchJob": "arkansas-state",
+          "text": "“The Palestinians were offered a state. They refused. A state wasn't their goal. Killing Jews was.\" ~ Bill Clinton"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098177950659363140",
-          "author": "robertwarshaw",
-          "searchJob": "michigan",
-          "text": "@JamesYoder No one was “wildly wrong.” The Big10 offered its explanation two hours after everyone saw the result w/ their own eyes &amp; we also know the protocols weren’t followed. I think the people who have had their true nature revealed"
+          "postId": "2098178832142606411",
+          "author": "luethihans",
+          "searchJob": "arkansas-state",
+          "text": "A state was offered and refused. Another offer should never be on the table again."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098174696806047797",
-          "author": "detnews_sports",
-          "searchJob": "michigan",
-          "text": "Michigan hockey incident in 1980 offers glimpse into the sport's hazing culture https://t.co/g9iOL54H4X"
+          "postId": "2098175491291123999",
+          "author": "superrhofan",
+          "searchJob": "arkansas-state",
+          "text": "@montanatucker can you please help spread basic facts like who was in israel first, how many times Palestinians have been offered a state but rejected peace, the # of civilians dead made up by hamas, etc...people need context!"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098176440994832817",
-          "author": "itsnotsoccerhq",
-          "searchJob": "minnesota",
-          "text": "🚨 James Rodríguez Chooses Homecoming as Nacional Deal Nears James Rodríguez is on the verge of a return to Colombian football after reaching a verbal agreement to join Atlético Nacional. Fabrizio Romano reports that the 35-year-old free ag"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098186775252377812",
-          "author": "taylorchar83070",
-          "searchJob": "missouri",
-          "text": "Current Headlines | Thursday, September 10, 2026, 07:05 PM EDT 🛰️ September 10, 2026 briefing Sources: Fox News, New York Post, Newsmax, The Epoch Times, Washington Examiner, Washington Times, Townhall, Daily Wire, Breitbart, National Revi"
+          "postId": "2098171388938912250",
+          "author": "dddd82560622",
+          "searchJob": "arkansas-state",
+          "text": "That's not what they say. They say that they accepted the terms several times but every time that they did the Israelis would introduce new terms and the US would slavishly back them until what they were offered was a dysfunctional rump sta"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098182117599691140",
-          "author": "573realty",
-          "searchJob": "missouri",
-          "text": "SOLD in Legacy Farms #2701MistyFlowerDrive | Offered at $589,900 573 Realty Collection Legacy Farms ▪573 ʀᴇᴀʟᴛʏ▪ 𝐂𝐎𝐌𝐎’𝐒 𝐁𝐨𝐮𝐭𝐢𝐪𝐮𝐞 𝐑𝐞𝐚𝐥 𝐄𝐬𝐭𝐚𝐭𝐞 𝐁𝐫𝐨𝐤𝐞𝐫𝐚𝐠𝐞 ǫᴜɪᴇᴛ ʟᴜxᴜʀʏ ʀᴇᴀʟ ᴇsᴛᴀᴛᴇ ʟᴜxᴜʀʏ ɪs ɴᴏᴛ ᴀ ᴘʀɪᴄᴇ ᴘᴏɪɴᴛ ɪᴛ ɪ"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2098181869338525913",
-          "author": "legionbhoops",
-          "searchJob": "missouri",
-          "text": "Congratulations to Lanton Walker on receiving an offer from the University of Missouri! 🐯💛🖤 The work continues. Stay humble. Stay hungry. Keep building. #MIZ #MizzouBasketball #LantonWalker #LegionPrep #LegionBHoops #Bulldawgs #Blessed #"
+          "postId": "2098161231467049126",
+          "author": "bearspacegoat",
+          "searchJob": "arkansas-state",
+          "text": "@ThenItCame @Horseradishfish @Mr_Andrew_Fox @MarkZlochin the problem with working backwards from that is that palestinians dont want a state, they want israelis and jews to be dead, gone, destroyed, genocided, etc etc. How do you make \"peac"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098173833047875770",
-          "author": "drewking0222_",
-          "searchJob": "missouri",
-          "text": "#Mizzou offers Benjamin Berrouet, the No. 21-ranked recruit in the Class of 2028 https://t.co/UJVAmbtDoS"
+          "postId": "2098169374502744548",
+          "author": "kelly_hanah",
+          "searchJob": "delaware",
+          "text": "@grokisacunt @ChrisInWaIes @AdamKinzinger Biden offered $200 if people would vote for Ossoff. I trust Trump over the dementia patient who spent more time in Delaware than in the White House"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098168752395137218",
-          "author": "573realty",
-          "searchJob": "missouri",
-          "text": "IMMACULATE in The Highlands Beautifully maintained Highlands home offering timeless charm, inviting spaces, and a setting that is truly special. Overlooking the neighborhood lake and surrounded by scenic walking trails and nearby green spac"
+          "postId": "2098175746971681072",
+          "author": "barong369",
+          "searchJob": "navy",
+          "text": "🇬🇧❗️🇷🇺 SAS Veterans Allegedly Trained Russian Soldiers A leaked intelligence memorandum for the Five Eyes network claims that Western special forces veterans, including former members of the British SAS, are said to have trained Russian"
         },
         {
           "reason": "unresolved_offer_target",
-          "postId": "2098169656414806405",
+          "postId": "2098184753229009331",
           "author": "profilefblive",
-          "searchJob": "boston-college",
-          "text": "🚨 First P4 Offer 🚨 2028 DE Brynnen Thompson from Laurel HS, DE has received his first P4 offer from Boston College. @Brynnenthomp50 https://t.co/6URZ9tDXNm"
+          "searchJob": "north-texas",
+          "text": "🚨 First D1 Offer 🚨 2028 ATH Jamarcus Williams from Willis HS, TX has received his first D1 offer from North Texas. @JamarcusLW3 https://t.co/yi49aJtLHs"
         },
         {
-          "reason": "player_missing_class_year",
-          "postId": "2098166025267167593",
-          "author": "lahree504_",
-          "searchJob": "kansas",
-          "text": "After a talk with @CoachAD__12 I am extremely blessed to say that I have received an offer from Kansas State University @samspiegs @adamgorney @Sheadixon @coachfleming17 https://t.co/Ak2BKW5CBb"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098175133215228256",
+          "author": "nickvlasidis",
+          "searchJob": "ohio",
+          "text": "🏠Open house Saturday, multiple offers Sunday, and now 7848 Milford Avenue in Westerville, Ohio is officially in contract❗️Listed by Nick Vlasidis, Vlasidis &amp; Co. Real Estate Team at Howard Hanna. Thinking about selling? Let's talk. 👉\ud83d"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098174940545462611",
+          "author": "nextuprecruits",
+          "searchJob": "auburn",
+          "text": "NEWS: Auburn AC Brian Kloman was at St. Xavier (KY) today checking out some of Kentucky’s best talent: 4⭐️ 2028 - 6’2 G Josh Lindsay (Offered) 4⭐️ 2028 - 6’7 F Jordan Jackson 2030 - 6’6 Wing Prince Thomas IV https://t.co/a9lmAQhmfI"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098179635226046653",
+          "author": "wideawakeinne",
+          "searchJob": "nebraska",
+          "text": "Who’s really setting Nebraska’s gas prices? A California lawsuit offers a glimpse into pricing algorithms, oil politics, and the hidden math that may be costing drivers at the pump. #Nebraska #GasPrices https://t.co/vaRDJqtw83"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098187315269030268",
+          "author": "gp8957",
+          "searchJob": "ole-miss",
+          "text": "@TulsaRazorback I imagine Ole Miss encouraged Chambliss to sue for an extra year of eligibility, and even promised him a contract with a very high NIL reward if he was successful. And I imagine they weren’t the only school making offers. Be"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098191248112943262",
+          "author": "1martybeck",
+          "searchJob": "oregon",
+          "text": "Grok when asked to find anomolies: Sept 10–12, 2025 (day of and manhunt) 1. Wound does not look like a typical .30-06 neck hit: no exit, cavitation under the shirt, entry looks like an exit, claimed vertebra hit does not match the hole. 2. "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098190890636656672",
+          "author": "1martybeck",
+          "searchJob": "oregon",
+          "text": "In honor of Grok at this point. It came up with this: Sept 10–12, 2025 (day of and manhunt) 1. Wound does not look like a typical .30-06 neck hit: no exit, cavitation under the shirt, entry looks like an exit, claimed vertebra hit does not "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098189587189236146",
+          "author": "skinshoops86",
+          "searchJob": "oregon",
+          "text": "\"In the portal, Lin never received the opportunities he was hoping for.\" guy alluding to wanting to leave Oregon but not getting the offers he wanted. Delusional or just not appreciative of the opportunity? But maybe Oregon couldn't get som"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098183129844392312",
+          "author": "trump_nhl",
+          "searchJob": "oregon",
+          "text": "Sad listening to puny Pat Verbeek making excuses for his very BAD work as General Manager of the Anaheim Ducks, of the Once Great State of California. Thanks to puny Pat, GREAT AMERICAN Chris Kreider has become an unrestricted free agent, a"
+        },
+        {
+          "reason": "player_display_name_unusable",
+          "postId": "2098189917478129904",
+          "author": "maxfugate26",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After a great call with @CoachTimDuffie , I am blessed to receive my first d1 offer from The University of Memphis! @MemphisFB @davidweeks34 @CoachMathies @RecruitBixbyFB @BixbySpartanFB @PrepRedzoneOK #AGTG #GoTigersGo https://t.co/8s4SLN8"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098184565659414987",
+          "author": "angleeyze",
+          "searchJob": "army",
+          "text": "I bought 23 tickets (then reimbursed for 5 from my son) on this tour but… I took baby Army to 6 shows I took hubs to 3 shows I took 4 Army to see BTS for the first time I took my sister to 1 show I bought 4 tickets from Army I know from X ("
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098179671561023714",
+          "author": "clintonthought",
+          "searchJob": "army",
+          "text": "Offer good advice on army reforms, they ignore you. The war starts, you’re ordered to do nothing. They send you to Norway, you successfully take Narvik, they order you back so you can return just in time for the country to surrender, and th"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098175511717372416",
+          "author": "netsenseonline",
+          "searchJob": "army",
+          "text": "@Arkadalo nothin' here .....not one drop ....just the clouds ....here's something....meanwhile ....between now and maybe early october, our community anxiously and happily awaits the army corps of engineers and their assessment of our \"situ"
         }
       ]
     },
@@ -324,12 +416,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 2,
-      "rejectedCandidates": 17,
-      "brandNewOffers": 2
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 26,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T23:12:54.409Z"
+    "status rebuilt locally from current store on 2026-09-10T23:27:58.200Z"
   ]
 }
