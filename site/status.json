@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T06:28:04.069Z",
+  "generatedAt": "2026-09-10T06:43:52.154Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T06:28:03.876Z",
+    "at": "2026-09-10T06:43:51.919Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0305530555555555,
-    "p95Hours": 1.7764655555555555,
-    "worstHours": 1.7764655555555555
+    "medianHours": 1.0417822222222222,
+    "p95Hours": 1.5429005555555555,
+    "worstHours": 1.7868019444444445
   },
   "decisionCoverage": {
-    "total": 15,
-    "decided": 15,
+    "total": 16,
+    "decided": 16,
     "complete": true
   },
   "pending": {
@@ -55,146 +55,154 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T06:28:03.876Z",
-      "got": 24,
-      "new": 15,
-      "lag": 0.45
+      "at": "2026-09-10T06:43:51.918Z",
+      "got": 25,
+      "new": 16,
+      "lag": 0.41
     }
   },
   "audit": {
-    "at": "2026-09-10T06:26:32.404Z",
+    "at": "2026-09-10T06:42:17.510Z",
     "mode": "live",
     "collection": {
-      "returned": 24,
-      "kept": 15,
+      "returned": 25,
+      "kept": 16,
       "duplicate": 9,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 7,
-      "rejected": 8,
+      "accepted": 12,
+      "rejected": 4,
       "reasons": {
-        "hard_negative": 2,
-        "no_fbs_school": 3,
-        "no_offer_term": 3
+        "no_offer_term": 3,
+        "hard_negative": 1
       },
       "samples": [
         {
+          "reason": "no_offer_term",
+          "postId": "2097932438894944633",
+          "author": "hotbets365",
+          "searchJob": "alabama",
+          "text": "https://t.co/J7xwWGasvI"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097922112237248944",
+          "author": "patcheshq",
+          "searchJob": "illinois",
+          "text": "Full walkthrough of our Tesla Solar + Powerwall install in 2026. A huge thank you to the Tesla Energy team. https://t.co/pUuB0yXCdz"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097920016830320866",
+          "author": "hotbets365",
+          "searchJob": "buffalo",
+          "text": "https://t.co/gyFFW7kZFG"
+        },
+        {
           "reason": "hard_negative",
-          "postId": "2097922774014836775",
-          "author": "konstantin15637",
-          "searchJob": "washington",
-          "text": "And if we are talking specifically about why the NHL introduced contract-term limits in the 2013 CBA, Yashin was far from the only example — and probably not even the most important one. By then, the league had seen a whole series of 10–15+"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097916020505882982",
-          "author": "indiawestnews",
-          "searchJob": "washington",
-          "text": "FBI offers up to $150,000 for information on Manjit Singh Bedi, wanted over an alleged $600,000 SNAP fraud scheme after fleeing to India. Read More: https://t.co/NATVs06xsT #FBI #ManjitSinghBedi https://t.co/Xskuozd8sx"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097915969972912495",
-          "author": "seatownkev",
-          "searchJob": "washington",
-          "text": "Washington coaches Brian Odom and Marcus Griffin were at Federal Way's 42-0 win over Kentlake last Friday. Lots of talent to evaluate from Federal Way: 2028 3⭐️LB Kaicen Carter, 2029 4⭐️ OT Xavier Berry, 2029 WR Justin Suega all hold offers"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097710328197022050",
-          "author": "coachizfw",
-          "searchJob": "washington",
-          "text": "Appreciate coach @CoachBOdom @UW_Football @RealMG96 for coming by our game on Friday to check out our guys @FederalWayFB We always love having college coaches at our games. #FWFB💪🏽 https://t.co/131ecu3qiO"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097915658591691125",
-          "author": "coldbrief",
-          "searchJob": "washington",
-          "text": "We lost the war on terror. Not in Kabul or Kandahar. We lost it in the paperwork - in who we designated, who we hosted, and who we invited to dinner. Tomorrow is 9/11. Twenty-five years of getting this wrong. https://t.co/6VERpvwI0P"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097901412650811510",
-          "author": "jerusalem_post",
-          "searchJob": "washington",
-          "text": "Somaliland says it is ready to send up to 2,000 troops to the planned Gaza International Stabilization Force if asked by the US or Israel. ✍️: @HerbKeinon https://t.co/vQNZrLz2XY"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097928322361565302",
-          "author": "wisconsin_now",
-          "searchJob": "wisconsin",
-          "text": "To be honest, I want the $5,000 #Trump dividend. Who doesn't? But.... if, say, Tony Evers offered voters $5,000 if David Crowley wins... or if Democrats get the trifecta... I'd be really angry about that and...so would most of you. I though"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097913682663817496",
-          "author": "kaffsports",
-          "searchJob": "kansas",
-          "text": "Coconino’s Easton Quiroz has received an offer to Kansas Wesleyan, an NAIA program in Salina, Kansas."
+          "postId": "2097927693270692104",
+          "author": "gaze_observer",
+          "searchJob": "coastal-carolina",
+          "text": "Kalyan Jewellers Goes Regional to Widen Buyer Base; Launches ATM Brand in Tamil Nadu to Target Traditional Jewellery Consumers The Regional Push Kalyan Jewellers, one of India's leading organised jewellery retailers, turning to regional bra"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 12,
       "reasons": {
-        "bare_mention_requires_llm": 5,
-        "reporter_missing_player_name": 2
+        "multiple_resolved_schools": 1,
+        "bare_mention_requires_llm": 6,
+        "school_not_resolved_confidently": 4,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097927955863441449",
-          "author": "tamerica_94",
-          "searchJob": "washington",
-          "text": "on (car) insurance: one thing that's overlooked quite often as you get wealthier is asset protection. the low-hanging fruit, and also one of the most essential pieces, is auto insurance. the reason is threefold: a) you probably drive all th"
+          "reason": "multiple_resolved_schools",
+          "postId": "2097931828346687493",
+          "author": "vintagelagoon",
+          "searchJob": "navy",
+          "text": "👗 Vintage Blue Lagoon – Vintage &amp; Preloved Fashion 🧥 New Preloved &amp; Vintage Autumn Fashion! 🛍 New pieces added regularly. 📷 Vintage 1960s Swyzerli of Switzerland Navy Check Skirt Suit | UK 14–16 - £50 Offers still welcome on Vin"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097926812215173347",
+          "postId": "2097924700206768434",
+          "author": "elshad1975",
+          "searchJob": "navy",
+          "text": "https://t.co/KDw4v4BSyB Bombshell : Veterans of the British SAS special forces unit could train Russian citizens to participate in the war against Ukraine. According to https://t.co/d1PGgcTPQy, Telegraph writes about this with reference to "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097910719576735923",
           "author": "jaswind83175034",
-          "searchJob": "washington",
-          "text": "🚨🇾🇪 A barren Yemeni island 12 miles from Africa is now the LAST thing standing between the Houthis and the Red Sea... -Perim Island sits at the narrowest point of Bab al-Mandeb, held by a small government garrison and reachable only by a"
+          "searchJob": "navy",
+          "text": "🚨🇮🇷🇺🇸 Iran has fired on American warships three times in a week, and the misses are getting closer... CENTCOM says the ships evaded, but people familiar with the attacks describe medium-range ballistic missiles with warheads that maneu"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097916274361688186",
+          "author": "shellymarven",
+          "searchJob": "alabama",
+          "text": "The experiment is the Tuskegee Syphilis Study (officially the U.S. Public Health Service Untreated Syphilis Study at Tuskegee), conducted from 1932 to 1972.cdc.govThe U.S. Public Health Service, working with the Tuskegee Institute, enrolled"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097932866927894834",
+          "author": "abs2425",
+          "searchJob": "michigan",
+          "text": "Veer Ji... 95% of Janta on X is comparing base rate without sales tax in US to an all inclusive price in India... Factor that in plus Credit card base offer and then come up with final price... with a basic 6% Sales Tax for Michigan the cos"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097921636183724072",
+          "author": "gamemasteryado",
+          "searchJob": "minnesota",
+          "text": "It’s EXTREMELY illegal to bribe people or offer them ANY kind of compensation in exchange for a vote. There was even some drama around our recent Minnesota Senate primary elections where the one Republican candidate was trying to give out f"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097932767719780513",
+          "author": "dogoodmavericko",
+          "searchJob": "army",
+          "text": "Imagine having an \"army\" consisting of thousands of AI influencers promoting your offers, building your brand and generating leads and sales for your business 24/7 It is probably still early enough for something like that to work."
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2097921941189386434",
-          "author": "koecheruiyot",
-          "searchJob": "washington",
-          "text": "The US has offered to help Kenya build mineral-processing factories and related industries under a proposed deal covering the estimated KES 8 trillion rare earth and niobium deposits at Mrima Hill in Kwale. Washington says US firms would pr"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2097916593770508389",
-          "author": "onjolo_kenya",
-          "searchJob": "washington",
-          "text": "US offers to help Kenya build rare earth processing factories in proposed Sh8 trillion Mrima Hill deal The United States has offered to help Kenya set up factories to process rare earth minerals and niobium from Mrima Hill in Kwale County, "
+          "postId": "2097931124903198754",
+          "author": "kmww15",
+          "searchJob": "army",
+          "text": "@JillSilluzio @RNN_RoyalNews The son of the brutal dictator of Uganda is head of the army. He tweeted that Uganda is leaving the IG. He also tweeted that JayZ must turn over Beyoncé to him for marriage &amp; has offered 100 cows to Giorgia "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097915493008974322",
-          "author": "me_observer_",
-          "searchJob": "washington",
-          "text": "⚡️⭕️ Trump says prices will fall when \"we win the war with Iran\" but does not offer a convincing explanation of how to achieve this victory, according to the Washington Post. (Al Mayadeen Breaking)"
+          "postId": "2097927636886434299",
+          "author": "onlyzeno",
+          "searchJob": "army",
+          "text": "Dear @SilverKayondo I offer you the Luo army of folk to come install a prince of your choice. In exchange, @BridgetBagonza will handover what I seek. Yours truly. Me."
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097910395625435609",
-          "author": "sinardailymy",
-          "searchJob": "washington",
-          "text": "Pas president Tan Sri Abdul Hadi Awang claims the United States (US) once offered assistance to bring down the Malaysian government, while Washington maintains that no such incident ever took place. https://t.co/BHHbmy3AUk"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097928371028000946",
+          "author": "genoinsightske",
+          "searchJob": "coastal-carolina",
+          "text": "Yesterday in Nairobi, a US official told an AmCham room that America wants Kenya’s critical minerals and that it wants factories here, not ships of raw rock. The prize is Mrima Hill in Kwale. Rare earths and niobium sit under a coastal fore"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097909351985844405",
-          "author": "profgeesinimo",
-          "searchJob": "washington",
-          "text": "BREAKING 🚨 — SOMALILAND OFFERS UP TO 2,000 TROOPS FOR GAZA Somaliland President Abdirahman Mohamed Abdullahi has told The Jerusalem Post that Somaliland is prepared to provide up to 2,000 troops for the proposed US-led International Stabil"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097924035644375511",
+          "author": "lionofjudahx",
+          "searchJob": "coastal-carolina",
+          "text": "Houthis: Same-Day Coastal Collection 🇾🇪🔥🚢 An impressive achievement — they captured a strategic west-coast strip in a single day. Shiite and Iranian channels are celebrating like it’s Black Friday. 🍾 Hays, Al-Khawkhah, and Yakhtul: col"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097915453352071629",
+          "author": "sconnection135",
+          "searchJob": "coastal-carolina",
+          "text": "Have you seen the famous “Shakotan Blue”? The Shakotan Peninsula offers dramatic cliffs, brilliant blue water, fresh seafood and some of Hokkaido’s most unforgettable coastal scenery. Discover a place many travelers never get to see. Privat"
         }
       ]
     },
@@ -209,11 +217,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 7,
+      "rejectedCandidates": 12,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T06:28:04.070Z"
+    "status rebuilt locally from current store on 2026-09-10T06:43:52.155Z"
   ]
 }
