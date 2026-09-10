@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T07:13:02.970Z",
+  "generatedAt": "2026-09-10T07:27:50.785Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T07:13:02.737Z",
+    "at": "2026-09-10T07:27:50.516Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5126225,
-    "p95Hours": 1.52812,
-    "worstHours": 1.7802477777777779
+    "medianHours": 0.7592377777777778,
+    "p95Hours": 1.5267358333333334,
+    "worstHours": 1.7747352777777778
   },
   "decisionCoverage": {
-    "total": 15,
-    "decided": 15,
+    "total": 28,
+    "decided": 28,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 45
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 972,
     "incompleteOffers": 0
@@ -55,145 +55,238 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T07:13:02.736Z",
-      "got": 18,
-      "new": 15,
-      "lag": 0.23
+      "at": "2026-09-10T07:27:50.516Z",
+      "got": 33,
+      "new": 28,
+      "lag": 0.11
     }
   },
   "audit": {
-    "at": "2026-09-10T07:11:30.277Z",
+    "at": "2026-09-10T07:26:14.640Z",
     "mode": "live",
     "collection": {
-      "returned": 18,
-      "kept": 15,
-      "duplicate": 3,
-      "tooOld": 0,
+      "returned": 33,
+      "kept": 28,
+      "duplicate": 4,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 6,
+      "accepted": 19,
       "rejected": 9,
       "reasons": {
-        "no_fbs_school": 6,
-        "no_offer_term": 3
+        "hard_negative": 2,
+        "no_offer_term": 3,
+        "no_fbs_school": 4
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2097942031456997646",
-          "author": "footballguycfb",
-          "searchJob": "florida",
-          "text": "@kind_wax287 @Gatornation421 @BrooksAustinBA He already got a HC offer this past year. Hes holding out for a great P4 job. It’ll take more than one great season for him to get that offer. In which case, Florida would be in a good spot then"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097934351656706418",
-          "author": "defpostmedia",
-          "searchJob": "florida",
-          "text": "🇺🇸 Hermeus has unveiled its new low-cost, expendable ramjet-powered vehicle. @hermeuscorp Designated Ramjet-X, the new vehicle is capable of \"high-Mach speeds\" and is designed for launch from Hermeus' Quarterhorse aircraft. The significan"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097932691895205907",
-          "author": "silverfoxoo7",
-          "searchJob": "florida",
-          "text": "I would tell them to go fuck themselves while I eat a handful of bacon in front of them! And then offer to shake their hand with my empty hand after I ate the bacon"
+          "reason": "hard_negative",
+          "postId": "2097942295131885783",
+          "author": "alphawalkai",
+          "searchJob": "texas",
+          "text": "Korea May Power America’s AI Boom | September 10, 2026 (📍Data From https://t.co/rtKhA53pFF Daily Report) America’s AI race has found a new potential financier: South Korea. Seoul and Washington are reportedly nearing agreements worth more "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097691611601768928",
-          "author": "johnfromcranber",
-          "searchJob": "florida",
-          "text": "Tell them to pound sand! I won't get rid of my dog, quit eating pork, turn off the music, not dance, ask my wife to wear a burqa, not say \"Merry Christmas\", quit ringing church bells, allow your Sharia Law within the United States, or any o"
+          "postId": "2097937280032014345",
+          "author": "smh",
+          "searchJob": "texas",
+          "text": "The highly unusual midterm convention – dubbed “Trump-a-Palooza” – is on in Dallas, Texas. The president spoke for about 90 minutes, hitting his regular range of topics and targets. https://t.co/ck5t3SH7Fg https://t.co/m3agffHw81"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097934848958541946",
+          "author": "theworldcorresp",
+          "searchJob": "texas",
+          "text": "GOOGLE'S $15 BILLION FINLAND BET: AI'S GEOGRAPHIC POWER SHIFT Google has announced its largest single investment in Europe—€13 billion ($15.1 billion) to expand AI infrastructure in Finland over the next two years . The package includes thr"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097907046012080465",
-          "author": "genxgirl1994",
-          "searchJob": "usc",
-          "text": "Trump is out here promising $5K checks for GOP votes. 🤦🏻‍♀️ https://t.co/jKH7xjyGLE"
+          "postId": "2097867906822390202",
+          "author": "theai0bserver",
+          "searchJob": "texas",
+          "text": "谷歌在芬兰追加150亿美元投AI基础设施，看似为算力扩容，但背后更深的是数据中心选址逐步向低能耗、冷气候、友好政策地区集中，下一轮AI经济分配权很大程度上取决于地理和电力结构。"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097929579629306362",
+          "author": "real_bob_joyc",
+          "searchJob": "north-carolina",
+          "text": "🌲 In the fall of 1999, a strange story allegedly emerged from a remote forest in North Carolina. According to local accounts, residents reported fires appearing at roughly the same time each night, metallic sounds echoing through the trees"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097938296089542781",
-          "author": "sofletter",
-          "searchJob": "california",
-          "text": "I curated and compared their strategies for acquiring early users. https://t.co/is15PuKqAW"
+          "postId": "2097943613493977168",
+          "author": "mmsubstack",
+          "searchJob": "texas-tech",
+          "text": "They're all scared of Skynet. Some of us have been hacking technology since before it was illegal. https://t.co/mHF97uF4h8"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097937084325802354",
-          "author": "dr_thehistories",
-          "searchJob": "california",
-          "text": "Kevin Verville Jr. had only been home from the hospital for barely two weeks when a woman calling herself “Sheila” began making her way around the apartment complex where his family lived in Oceanside, California. She claimed to work for an"
+          "postId": "2097937760099115446",
+          "author": "techtonicai_",
+          "searchJob": "texas-tech",
+          "text": "Most fast chargers market peak watts only. AniFast holds full speed the entire way. oraimo PowerGaN 451 offers 0.1s recognition high compatibility and temperature control. Ultimate companion for the new iPhone. Exclusive stores await. #Best"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097929137155670311",
-          "author": "perrybuno",
-          "searchJob": "california",
-          "text": "*********DISCLAIMER ALERT********* Ads May Not Promote Or Offer The Sale Of THC Products Or Cannabis Products Containing Related Psychoactive Komponents!!! HS 11360 Makes It A Crime In California To Sell, Give Away, Import, Or Transport For"
+          "postId": "2097931836248805623",
+          "author": "techtonicai_",
+          "searchJob": "texas-tech",
+          "text": "Desk setup ready for the new iPhone. Pair it with the charger that keeps up. oraimo 45W GaN Ultra Fast with AniFast offers no slowdown no overheating and one charger for every device. Experience it at oraimo stores. #BestIphoneFastChargers "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097937241855189054",
-          "author": "mongrelbite",
-          "searchJob": "notre-dame",
-          "text": "@riversorare Usual excuse offered by people told off for obvious bigotry. At least you are more concise with your nonsense this time . Politics has fuckall to do with calling you out, what you said offends common decency. Moral grounds are "
+          "postId": "2097930622907867409",
+          "author": "economictimes",
+          "searchJob": "texas-tech",
+          "text": "Qualcomm strikes AI chip deal with Amazon, offers right to buy about $4 billion in stock https://t.co/HwyIVmZW0Y"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 6,
+      "rejected": 19,
       "reasons": {
-        "bare_mention_requires_llm": 1,
-        "school_not_resolved_confidently": 5
+        "multiple_resolved_schools": 1,
+        "bare_mention_requires_llm": 6,
+        "school_not_resolved_confidently": 12
       },
       "samples": [
         {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097937881105109497",
+          "author": "markmbha",
+          "searchJob": "texas",
+          "text": "The crowd went silent: How Trump flopped in Dallas in 5 wild moments. Matthew Rozsa September 09, 2026. 1. President Donald Trump flopped when trying to brag. Even as the entire world talks about Canada achieving the economic advantage over"
+        },
+        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097935606152409132",
-          "author": "thegnpe",
-          "searchJob": "south-carolina",
-          "text": "This has to be one of the most vile sickest things I've read for a while but it perfectly aligns with the evil hate filled psychopathic mindset of much of the left Charlie was a hero and he will always be remembered as one! The Story: Left "
+          "postId": "2097928694803124649",
+          "author": "itvnews",
+          "searchJob": "texas",
+          "text": "Trump offers $5,000 to voters as he fights to keep control of Texas and Congress https://t.co/18PHvky3JR"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097933858612134088",
-          "author": "voxamericus",
-          "searchJob": "usc",
-          "text": "Offering to pay someone to vote a certain way is a federal crime (18 USC 597). For House/Senate races the penalty is up to 5 years in prison and $10,000 fine (52 USC 10307) for EACH person paid/offered (~240M adults). 10,000 x 240M = $2.4 t"
+          "postId": "2097947076587864090",
+          "author": "zabakbar",
+          "searchJob": "texas-tech",
+          "text": "Imagine it was all a trap. Right from the beginning. The project: to create a living being. An artificial person. A new kind of intelligence. To replicate the human mind, but take it further. To replicate the human body, but without the fla"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097942907546120412",
-          "author": "gaycampbell15",
-          "searchJob": "notre-dame",
-          "text": "@TheMandyGall On the same day that offers of permanent contracts were withdrawn from Irish graduates"
+          "postId": "2097945795760652333",
+          "author": "itsissa_254",
+          "searchJob": "texas-tech",
+          "text": "@Rono_254 Why waste cash on overpriced adapters that leave out critical internal safety features for your tech. AniFast technology offers full speed delivery while actively preserving battery longevity overall. #BestIphoneFastChargers #Trul"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097940907609792811",
-          "author": "daithigor",
-          "searchJob": "notre-dame",
-          "text": "So other than \"other countries have set the number of years to 8\", the Irish Government can't offer any rationale for increasing the years to claim citizenship. And Aont*u, the only anti establishment party in the Dáil (apparently) are full"
+          "postId": "2097945734964457891",
+          "author": "mymotoringworld",
+          "searchJob": "texas-tech",
+          "text": "BGauss has launched the C12 MaxR at an introductory price of ₹1.46 lakh (ex-showroom). It offers a claimed 178 km range, 4.2 kW peak power and 75+ km/h top speed, along with a 3.8 kWh LFP battery, 5-inch TFT display, cruise control, regener"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097928185954357644",
-          "author": "robertcolleran_",
-          "searchJob": "notre-dame",
-          "text": "Elegant Clonmel hotel offers expansion prospects | Irish Independent https://t.co/uTcFmUqRPW"
+          "postId": "2097943748269232272",
+          "author": "letxequalrm",
+          "searchJob": "texas-tech",
+          "text": "My CV never made it into big tech for marketing at Google Jozi but I got calls from colleges to teach. I was offered a salary close to big tech salaries for imparting the knowledge. Big tech might not be your destiny so keep an open mind. T"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097927465200935291",
-          "author": "robertcolleran_",
-          "searchJob": "notre-dame",
-          "text": "Bray sale and leaseback offers 7pc yield | Irish Independent https://t.co/8dTA4frYZ2"
+          "postId": "2097943155198837190",
+          "author": "hitachi_em",
+          "searchJob": "texas-tech",
+          "text": "It’s Programmers Day ! 🔬🖥️⌨💻💽 (September 13) “Automation of SEM Observation Workflow Using EM Flow Creator” The rich bounty of information offered by scanning-electron microscopy (SEM), and the relative ease of working with SEM specimen"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097941649984786830",
+          "author": "crypto_vazima",
+          "searchJob": "texas-tech",
+          "text": "🚀 Hiring: Industry Internship Programme 2026 - ProStackHub 📍 Remote (Global) | 💼 1-month internship | 🧑‍💻 Blockchain / AI / Full Stack / 50+ domains | 💰 ₹1,000 top performer reward | 🕐 Posted 16 hours ago - September 9, 2026 ProStack"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097941468359139490",
+          "author": "venuskuiya",
+          "searchJob": "texas-tech",
+          "text": "@nikster007 Yeah I thought they would do an upgrade. Maybe no new audio tech to offer."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097941133930197196",
+          "author": "felixloe",
+          "searchJob": "texas-tech",
+          "text": "@thenerd_be “Let’s see what EU tech companies offer” “Ok, I see…”"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097938461810458797",
+          "author": "joenutt_author",
+          "searchJob": "texas-tech",
+          "text": "@helenrey @dylanwiliam Apart from decades of experience working for tech businesses &amp; NGOs designing international programmes commissioned by politicians, this is honestly the best I can offer that might meet your request. (Scroll down "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097936687338750041",
+          "author": "anhdaden811",
+          "searchJob": "texas-tech",
+          "text": "At 12:28 UTC, CT will suddenly produce 10,000 inflation experts 😅 I’m not trying to win that contest. Today’s PPI matters because the Fed read going into Sept 15–16 is still live. The market won’t trade “inflation is high” in isolation. It"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097935827091296443",
+          "author": "feiyushoo",
+          "searchJob": "texas-tech",
+          "text": "@SaysMissy No policy, no plans offered. Just vote red because orange man is handing out money"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097935688930902403",
+          "author": "lrtlube",
+          "searchJob": "texas-tech",
+          "text": "Leichtlauf High Tech 5W-40 offers a powerful combination of efficiency, engine protection, and reliable performance for petrol and diesel engines. 🚗 ✅ saves fuel and reduces emissions ✅ fast oil circulation at low temperatures ✅ excellent "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097931678085763243",
+          "author": "madikizela_win",
+          "searchJob": "texas-tech",
+          "text": "Don't let normal chargers overheat expensive tech. The oraimo 45W GaN charger offers 9-layer safety shield protection. AniFast™ technology ensures the iPhone 18 stays cool and charges fast from 1 to 100. #BestIphoneFastChargers #TrulyFastTr"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097930678755098664",
+          "author": "victoriakurags",
+          "searchJob": "texas-tech",
+          "text": "@haivri The British govt is living in the past. The UK is descendant, Israel is ascendant. There is nothing the UK can offer that Israelis cannot provide for themselves. Intelligence, military, tech, agriculture, education… Israel wins agai"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097948453448073457",
+          "author": "cum_granosalis",
+          "searchJob": "liberty",
+          "text": "Charlie Kirk was just a guy, a highly motivated and gifted brother. He was constrained by the love of Christ. He saw himself as an emissary for Jesus Christ. And it was because of all of this that he died a Christian martyr’s death. He was "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097944960305664257",
+          "author": "mario99295438",
+          "searchJob": "liberty",
+          "text": "Such a critic may, in fact, care more profoundly about its credibility and future than those who offer nothing but praise. A national institution does not fear inquiry, because it understands that truth strengthens its foundations. Only fra"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097928440745701433",
+          "author": "rickwmiller1",
+          "searchJob": "liberty",
+          "text": "𝗧𝗛𝗨𝗥𝗦𝗗𝗔𝗬 𝗢𝗙 𝗧𝗛𝗘 𝗧𝗪𝗘𝗡𝗧𝗬-𝗧𝗛𝗜𝗥𝗗 𝗪𝗘𝗘𝗞 𝗜𝗡 𝗢𝗥𝗗𝗜𝗡𝗔𝗥𝗬 𝗧𝗜𝗠𝗘 Thursday, September 10, 2026 1 Corinthians 8:1-7, 11-13 Psalm 139:1-3, 13-14, 23-24 Luke 6:27-38 𝗙𝗜𝗥𝗦𝗧 𝗥𝗘𝗔𝗗𝗜𝗡𝗚 1 Corinthians 8:1-7, 11-"
         }
       ]
     },
@@ -208,11 +301,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 6,
+      "rejectedCandidates": 19,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T07:13:02.971Z"
+    "status rebuilt locally from current store on 2026-09-10T07:27:50.786Z"
   ]
 }
