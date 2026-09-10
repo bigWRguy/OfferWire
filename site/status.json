@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T17:28:24.573Z",
+  "generatedAt": "2026-09-10T17:43:05.810Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T17:28:24.273Z",
+    "at": "2026-09-10T17:43:05.478Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.030278888888889,
-    "p95Hours": 1.7826027777777778,
-    "worstHours": 1.7826027777777778
+    "medianHours": 0.98565,
+    "p95Hours": 1.7796327777777778,
+    "worstHours": 1.7796327777777778
   },
   "decisionCoverage": {
-    "total": 41,
-    "decided": 41,
+    "total": 73,
+    "decided": 73,
     "complete": true
   },
   "pending": {
@@ -47,303 +47,387 @@
   "profileResolution": {
     "cached": 46
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 2,
   "quality": {
-    "completeOffers": 985,
+    "completeOffers": 988,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T17:28:24.272Z",
-      "got": 68,
-      "new": 41,
-      "lag": 0.06
+      "at": "2026-09-10T17:43:05.477Z",
+      "got": 103,
+      "new": 73,
+      "lag": 0.12
     }
   },
   "audit": {
-    "at": "2026-09-10T17:26:50.491Z",
+    "at": "2026-09-10T17:41:25.069Z",
     "mode": "live",
     "collection": {
-      "returned": 68,
-      "kept": 41,
-      "duplicate": 24,
-      "tooOld": 3,
+      "returned": 103,
+      "kept": 73,
+      "duplicate": 29,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 29,
-      "rejected": 12,
+      "accepted": 47,
+      "rejected": 26,
       "reasons": {
-        "no_fbs_school": 8,
+        "no_offer_term": 12,
         "hard_negative": 2,
-        "no_offer_term": 1,
-        "non_fbs_offer_target": 1
+        "no_fbs_school": 12
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2098093189466935671",
-          "author": "lovegds1lady",
-          "searchJob": "charlotte",
-          "text": "@GaryTarbell @whateverbruhbrb @VividProwess Abbas did not accept or formally counter the offer, stating later that the map details were never finalized for signature. [1] (https://t.co/U79QIEMoFV), [2] (https://t.co/zhI6R9C9DA)2019–2020 (Th"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098093067450319108",
-          "author": "lovegds1lady",
-          "searchJob": "charlotte",
-          "text": "@GaryTarbell @whateverbruhbrb @VividProwess 2008 (Ehud Olmert's Proposal): Israeli Prime Minister Ehud Olmert presented a sweeping offer to Palestinian President Mahmoud Abbas, proposing a Palestinian state on roughly 93–97% of the West Ban"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098090634078794014",
-          "author": "lovegds1lady",
-          "searchJob": "charlotte",
-          "text": "@GaryTarbell @whateverbruhbrb @VividProwess Palestinian leaders have been offered statehood or sovereignty multiple times through international proposals and peace negotiations since the 1930s, though historians and political analysts debat"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098079049188860212",
-          "author": "aarplouisiana",
-          "searchJob": "louisiana",
-          "text": "Think you've been targeted by a scam? You're not alone. The AARP Fraud Watch Network Helpline offers free support and guidance from trained fraud specialists. Learn more or get help: https://t.co/uFKwz0QVUY #AARPMS #FraudWatchNetwork"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098092497087938759",
-          "author": "chadsimmons_",
-          "searchJob": "auburn",
-          "text": "Auburn is making moves! 🐅 Former SEC commit is high on AU 🔄 4-star flip target to watch 📈 Potential new offer 🔥 Tigers trending for in-state targets Latest Auburn intel: https://t.co/fqLjqCk95E https://t.co/asDmzH9tbZ"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098098774677573792",
-          "author": "baronbillings23",
-          "searchJob": "ohio-state",
-          "text": "@sgmclean You for Ohio State ML. @Bill_Booker1 turner down an offer to come watch the game. Still a lock"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098095352364568864",
-          "author": "loganjallen11",
-          "searchJob": "oklahoma",
-          "text": "After speaking with @Coach_KPrice I’m so grateful to be offered by Oklahoma Baptist. First division 2 offer, work is paying off. Praise Jesus. @emiller_ram93 @FredScott28 @CDavidson8457 @Amari_2lit @garronnash2015 @CoachAJWill https://t.co/"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098089302810837214",
-          "author": "perpsgaloreblog",
-          "searchJob": "oklahoma",
-          "text": "Oklahoma City 2024 A beautiful capitalist tried to sell some red and white Balenciaga shoes worth $500 on the Offer Up App™️ She was contacted by a shifty someone with the clunky username \"Turbo\". They agreed to meet at the 7/11 Convenience"
+          "reason": "no_offer_term",
+          "postId": "2098044110288695799",
+          "author": "polymarketmoney",
+          "searchJob": "miami",
+          "text": "BREAKING: AI researcher Andrew Tulloch is leaving Meta for Anthropic after previously turning down a pay package worth as much as $1,500,000,000.00."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098053128276869321",
-          "author": "secsupremacycfb",
-          "searchJob": "ole-miss",
-          "text": "Each SEC team’s chance to make the CFP after Week 1 (according to FPI) https://t.co/7P1cOpceM2"
+          "postId": "2098082871265128479",
+          "author": "toofadedpicks",
+          "searchJob": "nc-state",
+          "text": "📊 CFB Sharp Money 🏈 Penn State @ Temple 🔷 #16 Penn State ML: -4000 ➡️ -3500 🔷 97% of the money vs 0% of tickets Every pick graded live on the site: 35-55, +33.16u all time. https://t.co/OhPRJoAQX3"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098093632968421726",
+          "author": "fiufbupdates",
+          "searchJob": "georgia-state",
+          "text": "FIU has offered 3 ⭐️ JUCO DL Braheem Battles 🔥🐾 Raheem currently holds offers from Marshall, Georgia State, Temple, and more. He is ranked top 30 nationally and top 5 in his position via @247Sports"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098095945334276431",
-          "author": "oregoncharter",
-          "searchJob": "oregon",
-          "text": "Wondering what online school at Oregon Charter Academy can offer your student? Join us at a virtual information session: https://t.co/prMBco4Zmy #oregoncharteracademy #ORCA #onlineschool #virtualschool https://t.co/7St1osZ1wL"
+          "postId": "2098101522471010358",
+          "author": "jah_fooley",
+          "searchJob": "marshall",
+          "text": "@dartingupdates I wouldn't think too much about it - they're essentially token odds, offered for posterity. 600/1 or 750/1, either way, they're woefully poor value as none of those 3 are going to win it."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097883887598715055",
+          "author": "rogermarshallmd",
+          "searchJob": "marshall",
+          "text": "Our Credit Card Competition Bill will cut gas and groceries by 2 to 3%. Canada and the EU pay less than 1% in swipe fees; Americans pay closer to 5%. Americans shouldn’t pay more than the rest of the world. Pass the bill that will save Amer"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098081070592008210",
-          "author": "rightnoworegon",
-          "searchJob": "oregon",
-          "text": "Medford Offers Eight-Week Youth Volleyball Program This Fall https://t.co/XybojDKBUN"
+          "postId": "2098077999354798579",
+          "author": "jamrshll",
+          "searchJob": "marshall",
+          "text": "18 U.S. Code § 597 - Whoever makes or offers to make an expenditure to any person, either to vote or withhold his vote, or to vote for or against any candidate &amp; solicits, accepts, or receives any such expenditure in consideration of hi"
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2098093903362572579",
-          "author": "babythird13",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "Blessed to receive an offer from Bryant &amp; Stratton college #AGTG #LLG https://t.co/7eYwgyvKeC"
+          "reason": "no_offer_term",
+          "postId": "2097871479815667867",
+          "author": "atrupar",
+          "searchJob": "marshall",
+          "text": "Trump: \"Only I can make this promise to you: If the Republicans win the House and Senate, I will issue a dividend to every adult citizen in the United States of America for $5,000\" https://t.co/OOYAwaQ6HO"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098097574326509628",
+          "author": "uzondutemple",
+          "searchJob": "temple",
+          "text": "🤷Here's a hint: reviewing errors from the previous month and fixing them promptly leads to fewer losses! The countryside in summer offers a plain yet lovely view, with verdant fields, gently moving crops, and meandering rural lanes. This n"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098089348344205499",
+          "author": "fitnessgamer_",
+          "searchJob": "temple",
+          "text": "What if.. 2CP got the reworks that Busan got for instance. Open up parts of Temple of Anubis 2nd point in more ways and it's a completely different map in a better way. That being said, I wouldn't be against more flashpoint. My final offer."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097845586523193744",
+          "author": "samitofps",
+          "searchJob": "temple",
+          "text": "Hanamura and Volskaya Industries are two of the most iconic Overwatch maps ever and they both should come back not as Clash but as Flashpoint Those maps have such rich histories from the cinematic trailers to big moments in game it'd be awe"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098102907308777783",
+          "author": "michlieben",
+          "searchJob": "class:2026",
+          "text": "https://t.co/zQUZxwHGBC"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098101058212098210",
+          "author": "rockmillretreat",
+          "searchJob": "class:2026",
+          "text": "True wellness begins with deep, nourishing sleep, and we're therefore delighted to now offer our guests something truly special: the SAMINA Sleep System – a holistic, 100% handcrafted masterpiece from Austrian mountains that beautifully uni"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098099789229645902",
+          "author": "cg_guoshaochun",
+          "searchJob": "class:2026",
+          "text": "The 2026 China International Fair for Trade in Services (CIFTIS) officially opened in Beijing under the theme “Global Services, Shared Prosperity.” Attracting participants from 90 countries, regions, and international organizations, alongsi"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098093366969860510",
+          "author": "oncoalert",
+          "searchJob": "class:2026",
+          "text": "🚨 GUARD SYMPOSIUM 2026 — FREE REGISTRATION FOR COLLEAGUES IN LATAM! 🌎 📅 September 16–18, 2026 (NEXT WEEK) 📍 Madrid, Spain | Hybrid Meeting 🔗 REGISTER HERE👉 https://t.co/GSSPQ4OjkM The GUARD International Symposium 2026 will bring toge"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098088575703171370",
+          "author": "toddlemieux",
+          "searchJob": "class:2026",
+          "text": "I found myself hesitating to actually write down where I think AI Agents are heading. I would love to get your thoughts on this. Fair warning... it's longer than I intended it to be at the beginning but I didn't feel like hedging. https://t"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098085880128762138",
+          "author": "np4football_ot",
+          "searchJob": "class:2028",
+          "text": "Gavin “Lightning” Sealscott-WR/FS-2028-OH @MiamiOHFootball Game Day Visit #CFB"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097827439011352903",
+          "author": "gsealscott10",
+          "searchJob": "class:2028",
+          "text": "Blessed I’ll be in Oxford Sep 26th @MiamiOHFootball vs UConn 🙏 @Martin_Miami_HC @ACruse15 @Coach_Hud4 @CoachZaneRies @Coachjpatton @ColtArthur @CoadyKeller1 @drew15martin @LeoOtt123 @Kenton_Football https://t.co/ZYLa0O34a9"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098092690394980690",
+          "author": "cibercuba",
+          "searchJob": "florida",
+          "text": "FBI offers reward to capture a Cuban wanted for stealing over $1 million in Florida Read more in the first reply 👇 https://t.co/4Sw9vFFeYt"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098090329853308931",
+          "author": "infinite___flow",
+          "searchJob": "florida",
+          "text": "Every time I go to sleep, I go deeper into the discovery of what is real and what truly matters. I am able to access the field while my nervous system is shut down. I am focused on making \"no longer trading energy for money\" real. Reclaimin"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098087501139517854",
+          "author": "presidentscup",
+          "searchJob": "florida",
+          "text": "Junior Presidents Cup teams finalized for 2026 competition. #PresidentsCup | @AJGAGolf https://t.co/A1ooz2ujzK"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098079602799505443",
+          "author": "kinisky_ti52351",
+          "searchJob": "florida",
+          "text": "@divitto_kelly @AndrewYang It's not even the first time he offered a $5000 dividend to the voters ... He's offered 3 other \"dividends\" that he hasn't paid out. Lol ... if people believe he's paying this one, I got some swamp land in florida"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098100498192646590",
+          "author": "ncsbn",
+          "searchJob": "south-carolina",
+          "text": "During the 'Reimagining Clinical Judgment Through Innovation' session from today's 2026 NCLEX Virtual Conference, presenters highlighted how innovation can deepen critical thinking, reduce variability and better prepare new nurses for compl"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098101804776980779",
+          "author": "jayne_siro76307",
+          "searchJob": "california",
+          "text": "@ZevNadel This woman is clearly smart and belongs in California, where she has the wealth, connections, and advantages the West offers. Try walking in a Palestinian's shoes for a day without them, then report back... Prince and Pauper it wi"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098082344171385026",
+          "author": "404notfoundmedi",
+          "searchJob": "california",
+          "text": "https://t.co/NLVcU40aBk"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 28,
+      "accepted": 6,
+      "rejected": 41,
       "reasons": {
-        "bare_mention_requires_llm": 12,
-        "school_not_resolved_confidently": 10,
-        "multiple_resolved_schools": 6
+        "school_not_resolved_confidently": 4,
+        "bare_mention_requires_llm": 31,
+        "multiple_resolved_schools": 5,
+        "reporter_missing_class_year": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098085243223781780",
-          "author": "nhltraderumours",
-          "searchJob": "buffalo",
-          "text": "Connor Hellebuyck trade talks have life again. Buffalo has reportedly re-engaged Winnipeg. My Sabres offer: Jack Quinn Noah Östlund 2027 1st Too much for Hellebuyck or exactly what Buffalo needs? https://t.co/nEfx6Y5NFp"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098099935711314273",
+          "author": "rayansadri",
+          "searchJob": "miami",
+          "text": "Messi of AI got offered by Saudi but decided to go to Miami"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098086850636505413",
-          "author": "vsininsights",
-          "searchJob": "charlotte",
-          "text": "49ers +3.5 on Thursday offers value: Week 1 divisional dogs with inflated points (+1 or more) go 62% ATS with 18% ROI since 2016. Shanahan dogs under 4 points are 65% ATS with 28% ROI. Public leans Rams, but sharp money backs 49ers at +3.5."
+          "postId": "2098080998777065898",
+          "author": "grumpynews_",
+          "searchJob": "miami",
+          "text": "**D-2. [update] Pilot warned Amazon cargo jet was coming in too fast before Miami overrun** **Frame — what people think:** A tragic Miami runway overrun by an Amazon cargo jet killed five ground workers; new data shows one pilot repeatedly "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098080900559073356",
+          "author": "grumpynews_",
+          "searchJob": "miami",
+          "text": "[Take 7/15 · D-2] ### D-2. Pilot warned Amazon cargo jet was coming in too fast before Miami overrun *(as of 2026-09-10)* **1. The Frame** **What people think this is about:** A tragic runway overrun at Miami International Airport where an "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098085498946236739",
+          "author": "toofadedpicks",
+          "searchJob": "nc-state",
+          "text": "💰 CFB Value Alert Hard Rock is paying +2250 on a 4.6% shot. 🔷 Richmond moneyline, +8.1% EV 🔷 Spread is NC State -30.5, total 48.5 4.6% fair vs +2250 offered. One free graded pick posts every day. Site's in the bio."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098094773349274084",
+          "author": "ric4100",
+          "searchJob": "marshall",
+          "text": "WOW! Can SOMEONE TELL President @realDonaldTrump @JDVance the TRUTH ABOUT SWIPE FEES! The FRAUD WILL EXPLODE! MARCHALL & DURBIN ARE BOUGHT AND PAID FOR! First, both Senator Dick Durbin (D-IL) and Senator Roger Marshall (R-KS)—the primary sp"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098100670884913336",
+          "author": "cryptostorm3",
+          "searchJob": "temple",
+          "text": "Nate, If you go and visit a Hindu temple in NYC, record every corner of the premises and the prayer proceedings; you will be welcomed with smiles and sweets. They will offer you food as well. They will not try to convert you. You can come a"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098079789898707256",
-          "author": "thepianoguysfl",
-          "searchJob": "charlotte",
-          "text": "Quality American-made Used Piano by Baldwin, offered by The Piano Guys in our new Super-Store in Pt Charlotte, near Toledo Blade on Tamiami. This 43\" upright is made in dark cherry, with elegant lines and a warm, pleasing tone. Includes ben"
+          "postId": "2098100019580514747",
+          "author": "kylethewright",
+          "searchJob": "temple",
+          "text": "When one approaches the Book of Mormon with genuine intellectual curiosity, its internal architecture quietly dismantles the casual assumptions of the skeptic. Considered not through the prism of sectarian devotion, but with the steady eye "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098099700620754959",
+          "author": "meghupdates",
+          "searchJob": "temple",
+          "text": "Bangladesh: Sri Chinmay Krishna Das Prabhu offered his respects at the feet of Radha-Krishna at Pundarik Dham Temple in Chattragram before being taken back to jail. He was granted just a few hours of parole to see his deceased mother one la"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098098241506361687",
+          "author": "defiantprofesso",
+          "searchJob": "temple",
+          "text": "@iamdebangshudas Bali Pratha is offered to Deities that is not done to justify eating meat in front of temple after cooking with spices and throw bones on Murti. Bengali culture is not like installing Abdul mutton Biryani stall near Durga P"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098091782940836332",
+          "author": "shobhabjp",
+          "searchJob": "temple",
+          "text": "Blessed to offer prayers at the revered Shree Mahalakshmi Temple in Mumbai and seek the divine blessings of Maa Mahalakshmi, Maa Mahakali and Maa Mahasaraswati. May their grace inspire strength, wisdom, prosperity and happiness in the lives"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098085266191774141",
+          "author": "genzinitiative",
+          "searchJob": "temple",
+          "text": "🇰🇪✝️GOD HATES BRIBES‼️👇 “‘Cursed is anyone who accepts a bribe to kill an innocent person.’ Then all the people shall say, ‘Amen!’” Deuteronomy 27:25 “For I know how many are your offences and how great your sins. There are those who opp"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098075106627252704",
+          "author": "abirghoshal",
+          "searchJob": "temple",
+          "text": "Chief Minister Suvendu Adhikari offered prayers at the Kalighat Temple and had bhog prasad. https://t.co/1juGFMOuo3"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098074502202617861",
+          "author": "bellcountypubh",
+          "searchJob": "temple",
+          "text": "The ServSafe Certified Food Manager Class and Exam will be held at 4236 Lowes Drive, Temple, TX, on Tuesday, Sep. 29, 9:00 am-5:00 pm, w/ a 30-minute lunch break. Pre-registration is required. The cost is $110 and only offered in English. C"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098079059079016539",
-          "author": "_investorsummit",
-          "searchJob": "charlotte",
-          "text": "Income and growth usually mean different markets. Japan increasingly offers both, and Theo Wyld of CC Japan Income &amp; Growth Trust explains why. 16:20, Fri 18 Sept, The Queen Charlotte. https://t.co/HtC4mFYMPH #BackTheUK https://t.co/qum"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098070818743804316",
-          "author": "49erssportstalk",
-          "searchJob": "charlotte",
-          "text": "🚨 WILD NFL OFFSEASON NEWS CONTINUES… The NFL is reportedly investigating #Eagles head of security Dom DiSandro (“Big Dom”) following comments made by former NFL LB Emmanuel Acho, per @GunnOnOne. Acho alleged on his podcast that while playi"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098092310370165017",
-          "author": "coastalfrontbc",
-          "searchJob": "coastal-carolina",
-          "text": "What does an all-girls education offer that co-ed schools may not? In this conversation on Coastal Front, Ms. Lavell of @YorkHouseSchool and Ms. Harrop of Crofton House School @CHS_Vancouver discuss research showing how single-gender educat"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098091285319995872",
-          "author": "mikhail_plaksin",
-          "searchJob": "coastal-carolina",
-          "text": "🧙Embrace life exactly as it unfolds. I head to the beach and leave my car by the shop. Inside, the store is decorated with a coastal motif—blue-painted walls, shell ornaments, and expansive windows facing the sea. The drink selection offer"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098090014399971569",
-          "author": "sarukolge",
-          "searchJob": "coastal-carolina",
-          "text": "🚀 Prepare nut-based biscuits. I head to the seaside, leaving my vehicle close to the store. Inside, the shop embraces a coastal vibe, featuring azure-painted walls, shell ornaments, and expansive glass panes facing the sea. The menu offers"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098086896438263954",
-          "author": "5t_yui",
-          "searchJob": "coastal-carolina",
-          "text": "🧣Fruit delivery Apples, succulentI head to the shore, leaving my vehicle by the store. Inside, the shop embraces a coastal vibe, featuring azure walls, shell ornaments, and expansive windows facing the sea. The menu offers an assortment of"
+          "postId": "2098080745856061724",
+          "author": "thejuiceonline",
+          "searchJob": "class:2028",
+          "text": "\"#Syracuse is a great program, and getting an offer from an ACC school is a blessing.\" 2028 Florida WR Da’Ron Caster (@Daronnewton13) reacts to his recent Syracuse offer with our Charles Kang (@SICuseCK) ⬇️ https://t.co/XNLSc7QDDy"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098085244641656842",
-          "author": "warrenwhite123",
-          "searchJob": "coastal-carolina",
-          "text": "———————————————— NBC — Combined 46 A 47 / B 45 Tom Llamas. Lead: slide deployed by mistake. Then Trump: the war ends after the election. New Miami crash video. Lowell. AI apocalypse post. Apple. Hero waiter. The tarmac, then the calendar Tr"
+          "postId": "2098102035727978916",
+          "author": "goellnerri43298",
+          "searchJob": "florida",
+          "text": "🏡 STILL AVAILABLE — 7 PHOENIX LANE | $335,000 ✨ Looking for a move-in-ready Palm Coast home with major updates already completed? Take another look at 7 Phoenix Lane, Palm Coast, FL — offered at $335,000. 👉https://t.co/o909P7ZfPP This wel"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098083306705203364",
-          "author": "coastalbliss",
-          "searchJob": "coastal-carolina",
-          "text": "The Pacific coast of Vancouver Island offers extraordinary hiking adventures. Explore the West Coast Trail, Cape Scott Trail, or the remote Nootka Island Trail. 🌊 #BackpackingBC https://t.co/2ajLbN4QUE https://t.co/wAGNEuR82R"
+          "postId": "2098090928258867411",
+          "author": "blake_alderman",
+          "searchJob": "florida",
+          "text": "Kanye Clark’s Florida Gators debut offers encouraging signs at the STAR position. Read: https://t.co/7CmdyDg2yJ https://t.co/18oaVDC4Ri"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098090678408626346",
+          "author": "nolietees",
+          "searchJob": "florida",
+          "text": "Honor Charlie Kirk's wishes, 👇 Here are 8 ERRONEOUS MAGA Points addressed about Jeffrey Epstein. *Trump turned Epstein in to the authorities. Trump Did NOT Turn Epstein in in 2006 or any other year. That LIE has been DEBUNKED. Donald Trump"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098089471115747330",
+          "author": "financebuzz",
+          "searchJob": "florida",
+          "text": "Sunny small towns like New Smyrna Beach and Viera in Florida offer retirees not just scenic beaches but also thriving senior communities and tax-friendly policies for residents. 🏠🩺 Curious about which towns experts say are rising in popul"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098081626362134950",
-          "author": "attorneyfresno",
-          "searchJob": "fresno-state",
-          "text": "Arrested for a DUI? Our attorneys offer aggressive drunk driving defense for Fresno residents and those charged with DUI/DWI; call us at (559) 222-2424 for a free consultation! https://t.co/tNdZWT1rGM #DUI #DWI #Fresno #CriminalLawyer #Crim"
+          "postId": "2098088612835303521",
+          "author": "pghsportsnow",
+          "searchJob": "florida",
+          "text": "More offers from @Pitt_FB to players in the Class of 2028 with the latest going to a 3-star defensive back from Florida. https://t.co/n2WSjNlHab https://t.co/G9WXNScL3y"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098094194032021867",
-          "author": "lainsurancedept",
-          "searchJob": "louisiana",
-          "text": "𝗢𝗻 𝗧𝗵𝗲 𝗥𝗼𝗮𝗱 𝗪𝗶𝘁𝗵 𝗧𝗶𝗺 🛣️ @CommTemple was in Baton Rouge today for the 𝗟𝗼𝘂𝗶𝘀𝗶𝗮𝗻𝗮 𝗖𝗵𝗮𝗺𝗯𝗲𝗿 𝗼𝗳 𝗖𝗼𝗺𝗺𝗲𝗿𝗰𝗲 𝗥𝗲𝗴𝗶𝗼𝗻𝗮𝗹 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲 𝗧𝗼𝘂𝗿 talking about the impact insurance has on local busines"
+          "postId": "2098085200395657595",
+          "author": "nolietees",
+          "searchJob": "florida",
+          "text": "Nice Try at Deflection, Hope. It would be Todd Blanche, Trump's DOJ releasing the Files not Dems. 🙄 Stop sounding dumb. Here are 8 ERRONEOUS MAGA Points addressed about Jeffrey Epstein. *Trump turned Epstein in to the authorities. Trump Di"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098090501954257376",
-          "author": "alfred3o3",
-          "searchJob": "louisiana",
-          "text": "Natural Gas Companies: Prices, Competitive Position and Strategies Executive assessment The most useful U.S.-listed research shortlist spans three distinct businesses: EQT and Expand Energy for large-scale gas production; Antero Resources a"
+          "postId": "2098083992012554655",
+          "author": "orangexoxox",
+          "searchJob": "florida",
+          "text": "Syracuse lands an ACC offer, and Caster says it means a lot, as if my own inbox matters. Florida pipeline? Sure, more air time for orange glow. 🏈 #GoOrange"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098089687537566056",
-          "author": "braydenlarson",
-          "searchJob": "utsa",
-          "text": "@MaroonanGoldEnj @UTSAFTBL @American_Conf @UTSAAthletics Wait are you the guy that offered his girlfriend up to the entire team?"
+          "postId": "2098080308016890206",
+          "author": "niebuhron3",
+          "searchJob": "florida",
+          "text": "Kanye Clark’s Florida Gators debut offers encouraging signs at the STAR position. Read: https://t.co/Cg9deEKWO5 https://t.co/tP8k69jpcn"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098091237806915943",
-          "author": "scoutstever",
-          "searchJob": "mississippi-state",
-          "text": "2029 running back De'Quarrion Trammell talks Mississippi State offer (VIP) https://t.co/OqjxV9zXhY"
+          "postId": "2098079894882120151",
+          "author": "manateegov",
+          "searchJob": "florida",
+          "text": "Have you visited Perico Preserve? This beautiful Manatee County preserve offers a little bit of everything, from stunning water views along the boardwalks and peaceful swinging benches to bird blinds for avid birders and beautiful Florida l"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098091168781275546",
-          "author": "bulldawgs247",
-          "searchJob": "mississippi-state",
-          "text": "2029 running back De'Quarrion Trammell talks Mississippi State offer (VIP) https://t.co/fn6OK0yhsp"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098089902252368326",
-          "author": "tbhorka",
-          "searchJob": "ohio-state",
-          "text": "Steve Sarkisian says Texas will roll four tight ends against Ohio State like it did vs. Texas State. He says Spencer Shannon in particular, when asked about him, \"offers a lot.\""
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098088076031500431",
-          "author": "binder2019",
-          "searchJob": "ole-miss",
-          "text": "#OleMiss is looking at an 8-4 season. Pete will get two years and Ole Miss will offer the job to CWJ. Which is who they should have given the job to in the first place"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098082479416443051",
-          "author": "jdubyah67",
-          "searchJob": "ole-miss",
-          "text": "@getKralled Isn’t there a football game this weekend? At this little little place called Ole Miss that offers the best venue for college football in the entire world? Y’all need to look at your yourselves in the mirror and find out what kin"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098100397147820408",
-          "author": "jeffstory289783",
-          "searchJob": "oregon",
-          "text": "@JB__Hockey I bet Ducks to win division before the offer sheet crap happened. Not feeling great about it now. Good news is I bet Caps win division and cup before free agency and I got them 10-1 and 45-1. Betting early works both ways."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098099911615295531",
-          "author": "saorin_aaa_7",
-          "searchJob": "oregon",
-          "text": "🖤Freezing Ice Cream The ice cream is sweet. The usual crowd encircled them, grinning and applauding—the elderly gentleman who tossed bread to the ducks dabbing at his eye, the busker performing a love song, and those walking their dogs pau"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098098103077495118",
-          "author": "rebelrewindnews",
-          "searchJob": "oregon",
-          "text": "Yes—some states use their own tax dollars to cover some undocumented immigrants. This is separate from federal Medicaid. Federal Medicaid matching funds generally cannot pay for full coverage of people without lawful status; states that do "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098090292893368450",
-          "author": "azrnisa",
-          "searchJob": "oregon",
-          "text": "The usual crowd encircled them, grinning and applauding—the elderly gentleman who tossed bread to the ducks dabbed at his eye, the busker strummed a love song, and those walking their dogs paused to offer their best wishes.🏣Evening Stroll "
+          "reason": "reporter_missing_class_year",
+          "postId": "2098079586630111472",
+          "author": "jonlewi67123516",
+          "searchJob": "florida",
+          "text": "@JETTyoutube Sir! As someone with a Florida education... there are people who would be offered by what u says."
         }
       ]
     },
@@ -357,12 +441,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 28,
-      "brandNewOffers": 1
+      "acceptedEvidence": 6,
+      "rejectedCandidates": 41,
+      "brandNewOffers": 3
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T17:28:24.574Z"
+    "status rebuilt locally from current store on 2026-09-10T17:43:05.811Z"
   ]
 }
