@@ -43247,17 +43247,86 @@
     "2097845067570426207",
     "2097841164850466998",
     "2097840324777234836",
-    "2097857539094225262"
+    "2097857539094225262",
+    "2097841763989725539",
+    "2097829908483342466",
+    "2097864655347876024",
+    "2097862227915063654",
+    "2097867053201797529",
+    "2097865273629868505",
+    "2097865059024412796",
+    "2097864491643920859",
+    "2097863605123248567",
+    "2097862079768354829",
+    "2097860108776620310",
+    "2097277608912208119",
+    "2097859209492648084",
+    "2097857975339688374",
+    "2097765962019672456",
+    "2097848738295239084",
+    "2097842093204865314",
+    "2097868126356406772",
+    "2097862549924389273",
+    "2097862225461707056",
+    "2097857946160173368",
+    "2097856379184677056",
+    "2097700081457611064",
+    "2097852985946542141",
+    "2097823285937344839",
+    "2097851223349326278",
+    "2097850978943082815",
+    "2097841099154829321",
+    "2097868888402964592",
+    "2097865628707180755",
+    "2097864615979860339",
+    "2097861792970182803",
+    "2097867586817908774",
+    "2097869427605643672",
+    "2097807281500893482",
+    "2097868061131088116",
+    "2097867165898575970",
+    "2097866772980412581",
+    "2097866443140546901",
+    "2097865640174330306",
+    "2097861452438659100",
+    "2097865515247038829",
+    "2097861708194730383",
+    "2097863305058545800",
+    "2097862380059267396",
+    "2097862423373860875",
+    "2097831689045049755",
+    "2097861317906297155",
+    "2097860455809036353",
+    "2097859993429049419",
+    "2097854803254624415",
+    "2097849646026535259",
+    "2097844643610136981",
+    "2097865417351926113",
+    "2097868272603664682",
+    "2097864823220355158",
+    "2097860564873593025",
+    "2097859964358574096",
+    "2097859939440193725",
+    "2097859936680292404",
+    "2097858465435951240",
+    "2097858197411537050",
+    "2097858108265795968",
+    "2097857988778422362",
+    "2097857828954522053",
+    "2097857062713831896",
+    "2097854171424911706",
+    "2097852428657828300",
+    "2097857700138738133"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-09-10T01:57:59.521Z",
-      "got": 136,
-      "new": 63,
-      "lag": 0.03
+      "at": "2026-09-10T02:13:04.912Z",
+      "got": 104,
+      "new": 69,
+      "lag": 0.1
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -43283,8 +43352,14 @@
     "florida": {
       "at": "2026-09-10T00:26:22.143Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 15,
-      "truncated": false
+      "lastPosts": 27,
+      "truncated": true,
+      "window": {
+        "lower": "2026-09-10T00:21:22.143Z",
+        "upper": "2026-09-10T02:11:26.583Z",
+        "until_time": "2026-09-10T00:21:22.143Z",
+        "completed": false
+      }
     },
     "georgia": {
       "at": "2026-09-10T00:41:28.842Z",
@@ -43401,21 +43476,21 @@
       "truncated": false
     },
     "purdue": {
-      "at": "2026-09-09T23:56:56.062Z",
-      "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 3,
-      "truncated": false
-    },
-    "rutgers": {
-      "at": "2026-09-09T23:56:56.062Z",
+      "at": "2026-09-10T02:11:26.583Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
     },
-    "south-carolina": {
-      "at": "2026-09-10T00:26:22.143Z",
+    "rutgers": {
+      "at": "2026-09-10T02:11:26.583Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 3,
+      "lastPosts": 1,
+      "truncated": false
+    },
+    "south-carolina": {
+      "at": "2026-09-10T02:11:26.583Z",
+      "migratedAt": "2026-08-31T05:59:03.885Z",
+      "lastPosts": 0,
       "truncated": false
     },
     "tennessee": {
@@ -43443,7 +43518,7 @@
       "truncated": false
     },
     "usc": {
-      "at": "2026-09-10T00:26:22.143Z",
+      "at": "2026-09-10T02:11:26.583Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 1,
       "truncated": false
@@ -43523,16 +43598,10 @@
       "truncated": false
     },
     "phrase:\"AGTG\" offer": {
-      "at": "2026-09-09T23:26:20.239Z",
+      "at": "2026-09-10T01:56:23.261Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 20,
-      "truncated": true,
-      "window": {
-        "lower": "2026-09-09T23:21:20.239Z",
-        "upper": "2026-09-10T01:56:23.261Z",
-        "until_time": "2026-09-10T00:51:01.000Z",
-        "completed": false
-      }
+      "lastPosts": 16,
+      "truncated": false
     },
     "phrase:\"my first D1 offer\"": {
       "at": "2026-09-10T00:56:22.482Z",
@@ -43541,7 +43610,7 @@
       "truncated": false
     },
     "phrase:\"my first Division 1 offer\"": {
-      "at": "2026-09-10T00:26:22.143Z",
+      "at": "2026-09-10T02:11:26.583Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 0,
       "truncated": false
@@ -43553,9 +43622,9 @@
       "truncated": false
     },
     "phrase:\"received my first offer\"": {
-      "at": "2026-09-09T23:56:56.062Z",
+      "at": "2026-09-10T02:11:26.583Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 1,
+      "lastPosts": 2,
       "truncated": false
     },
     "phrase:\"earned my first offer\"": {
@@ -43565,7 +43634,7 @@
       "truncated": false
     },
     "arizona": {
-      "at": "2026-09-10T00:26:22.143Z",
+      "at": "2026-09-10T02:11:26.583Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 2,
       "truncated": false
@@ -43589,19 +43658,19 @@
       "truncated": false
     },
     "byu": {
-      "at": "2026-09-10T00:26:22.143Z",
+      "at": "2026-09-10T02:11:26.583Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 4,
+      "lastPosts": 2,
       "truncated": false
     },
     "california": {
-      "at": "2026-09-10T00:26:22.143Z",
+      "at": "2026-09-10T02:11:26.583Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 10,
+      "lastPosts": 17,
       "truncated": false
     },
     "cincinnati": {
-      "at": "2026-09-10T00:26:22.143Z",
+      "at": "2026-09-10T02:11:26.583Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 1,
       "truncated": false
@@ -43697,9 +43766,9 @@
       "truncated": false
     },
     "smu": {
-      "at": "2026-09-09T23:56:56.062Z",
+      "at": "2026-09-10T02:11:26.583Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 1,
+      "lastPosts": 0,
       "truncated": false
     },
     "stanford": {
@@ -43709,15 +43778,15 @@
       "truncated": false
     },
     "syracuse": {
-      "at": "2026-09-09T23:56:56.062Z",
+      "at": "2026-09-10T02:11:26.583Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 3,
+      "lastPosts": 0,
       "truncated": false
     },
     "tcu": {
-      "at": "2026-09-09T23:56:56.062Z",
+      "at": "2026-09-10T02:11:26.583Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 3,
+      "lastPosts": 0,
       "truncated": false
     },
     "texas-tech": {
@@ -43901,7 +43970,7 @@
       "truncated": false
     },
     "east-carolina": {
-      "at": "2026-09-09T23:56:56.062Z",
+      "at": "2026-09-10T02:11:26.583Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
@@ -43949,9 +44018,9 @@
       "truncated": false
     },
     "jacksonville-state": {
-      "at": "2026-09-09T23:56:56.062Z",
+      "at": "2026-09-10T02:11:26.583Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 0,
+      "lastPosts": 1,
       "truncated": false
     },
     "james-madison": {
@@ -43967,21 +44036,21 @@
       "truncated": false
     },
     "kent-state": {
-      "at": "2026-09-09T23:56:56.062Z",
+      "at": "2026-09-10T02:11:26.583Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 6,
+      "lastPosts": 1,
       "truncated": false
     },
     "liberty": {
-      "at": "2026-09-09T23:56:56.062Z",
+      "at": "2026-09-10T02:11:26.583Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 14,
+      "lastPosts": 12,
       "truncated": false
     },
     "louisiana": {
-      "at": "2026-09-09T23:56:56.062Z",
+      "at": "2026-09-10T02:11:26.583Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 8,
+      "lastPosts": 0,
       "truncated": false
     },
     "louisiana-monroe": {
@@ -44129,27 +44198,27 @@
       "truncated": false
     },
     "temple": {
-      "at": "2026-09-09T23:56:56.062Z",
+      "at": "2026-09-10T02:11:26.583Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 9,
+      "lastPosts": 13,
       "truncated": false
     },
     "texas-state": {
-      "at": "2026-09-09T23:56:56.062Z",
+      "at": "2026-09-10T02:11:26.583Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 0,
+      "lastPosts": 1,
       "truncated": false
     },
     "toledo": {
-      "at": "2026-09-09T23:56:56.062Z",
+      "at": "2026-09-10T02:11:26.583Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 5,
+      "lastPosts": 4,
       "truncated": false
     },
     "troy": {
-      "at": "2026-09-09T23:56:56.062Z",
+      "at": "2026-09-10T02:11:26.583Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 1,
+      "lastPosts": 2,
       "truncated": false
     },
     "tulane": {
@@ -44207,9 +44276,9 @@
       "truncated": false
     },
     "western-michigan": {
-      "at": "2026-09-09T23:56:56.062Z",
+      "at": "2026-09-10T02:11:26.583Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 6,
+      "lastPosts": 1,
       "truncated": false
     },
     "wyoming": {
@@ -44231,16 +44300,10 @@
       "truncated": false
     },
     "class:2028": {
-      "at": "2026-09-09T23:26:20.239Z",
+      "at": "2026-09-10T01:56:23.261Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 21,
-      "truncated": true,
-      "window": {
-        "lower": "2026-09-09T23:21:20.239Z",
-        "upper": "2026-09-10T01:56:23.261Z",
-        "until_time": "2026-09-09T23:21:20.239Z",
-        "completed": false
-      }
+      "lastPosts": 0,
+      "truncated": false
     },
     "class:2029": {
       "at": "2026-09-10T01:56:23.261Z",
@@ -44355,7 +44418,7 @@
   "lastRateLimitAt": "2026-09-04T23:26:13.448Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-09-10T01:57:59.522Z",
+    "at": "2026-09-10T02:13:04.913Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -44379,373 +44442,373 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-09-10T01:56:23.242Z",
+    "at": "2026-09-10T02:11:26.564Z",
     "mode": "live",
     "collection": {
-      "returned": 136,
-      "kept": 63,
-      "duplicate": 72,
+      "returned": 104,
+      "kept": 69,
+      "duplicate": 34,
       "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 37,
+      "accepted": 43,
       "rejected": 26,
       "reasons": {
-        "hard_negative": 4,
-        "no_fbs_school": 16,
-        "non_fbs_offer_target": 2,
-        "no_offer_term": 4
+        "no_fbs_school": 7,
+        "no_offer_term": 15,
+        "hard_negative": 3,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2097841763989725539",
+          "author": "kaiseryamms",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "I would like to thank @_isaacprice5_ and the @crcbaseball staff for my second official offer. #agtg #baseball #classof2027 #offer @CoachRobPool Thank you to everyone that continues to support me. https://t.co/8kneWFWmyI"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097829908483342466",
+          "author": "ramsithalji",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After a great call with @CoachPMcGowan I'm excited to earn an offer from @DavidsonFB! Grateful for @Coach_Thakkar @CoachKKennedy and the entire Davidson coaching staff for believing in me and giving me the opportunity to compete at the Divi"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097864655347876024",
+          "author": "stakesportsbet",
+          "searchJob": "rutgers",
+          "text": "PICK OF THE DAY #1 NFL — September 10, 2026 Boston College Eagles vs Rutgers Scarlet Knights Bet: Rutgers Scarlet Knights Market: 1st Quarter - Draw No Bet Odds: 2.18 https://t.co/KH4UYnWskP ─────────────────── SAME GAME PARLAY #1 — 2 Legs "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097862227915063654",
+          "author": "jervikmaso33805",
+          "searchJob": "phrase:\"received my first offer\"",
+          "text": "After a great conversation with @CoachWiebelhaus, I am received my first offer from @MMULancersFB! Can’t wait to see what the future holds! @The_Coach_Fish @NWahlScouting @PrepRedzoneDAK https://t.co/5MpdqhhlmD"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097862079768354829",
+          "author": "libertyswapfi",
+          "searchJob": "liberty",
+          "text": "Smart Contract Wallets are best suited for trading, bot trading, and active use. They offer many advantages, and our software can also help hardware wallet users create and manage Smart Contract Wallets. However, for long-term holdings, we "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097860108776620310",
+          "author": "t_libertygadfly",
+          "searchJob": "liberty",
+          "text": "All that money, and yet little to show for it. We spend so much on education, and yet our scores continue to show middling results. Then again, increasing bureaucratic inference just continues to make reform tougher to come by. More time is"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097277608912208119",
+          "author": "jburnmurdoch",
+          "searchJob": "liberty",
+          "text": "Two extraordinary charts from today’s PISA test results: 1) School test scores continue to collapse internationally, underscoring how this is no longer a Covid effect but sustained decline. Those falls in reading and maths are equivalent to"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097765962019672456",
+          "author": "dhsgov",
+          "searchJob": "liberty",
+          "text": "https://t.co/PfmZp21bxr"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097842093204865314",
+          "author": "libertyunionus",
+          "searchJob": "liberty",
+          "text": "@bollox3d @SpeakerMenin I do not support Trump. I am deeply opposed to illiberalism - be it authoritarian, Fascist, Communist, or Islamist. Where is the hypocrisy in what I posted in the first place? You've only called me names but offered "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097857946160173368",
+          "author": "canpayai",
+          "searchJob": "temple",
+          "text": "What happens when a desktop robot has a wallet? @CantonNetwork @CantonFdn https://t.co/S59tgspxeQ"
+        },
+        {
           "reason": "hard_negative",
-          "postId": "2097861257948704892",
-          "author": "tristanreid0",
-          "searchJob": "phrase:\"all glory to god\" offer",
-          "text": "I am beyond blessed to say I have received my first collegiate offer to play football at @MACBulldogsFB. All Glory to God! #AGTG @CoachJFisc @coach_hink @matty_p211037 @Antoniocozzi https://t.co/uzPda7cNOS"
+          "postId": "2097856379184677056",
+          "author": "iamthatiam321",
+          "searchJob": "temple",
+          "text": "King David was the wisest king in all of his time! He had a heart after God's own heart. God looks in on the heart, he doesn't judge in the way that man does. King David was not perfect in ANY way. Infact, King David committed adultery with"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2097865769593848091",
-          "author": "tysonhenry2027",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG After a great conversation with @loganmoragne_44 I am blessed to receive an offer from @ReddiesFB! @CoachJosephPNG @PNGHSFootball @CoachMcDaniel2 @Coach_Gizzi @shamar_thomas11 https://t.co/ai8nETgo6R"
+          "reason": "no_offer_term",
+          "postId": "2097700081457611064",
+          "author": "_rockytop_biker",
+          "searchJob": "temple",
+          "text": "Someone's faith and belief in God, Jesus and the Holy Ghost is not to be judged by anyone other than God. I have been accused, by other Christians, of not being a believer, a good Christian and a good man. I let this roll off of me. Those p"
         },
         {
           "reason": "hard_negative",
-          "postId": "2097863558499320071",
-          "author": "rayjonsparkman",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG I would like to thank coach @Nfisanick34 and @CapitalU_FB for my first D3 Offer @CCEagleAthletic @west10sports #GoComets https://t.co/clxhWaCIYW"
+          "postId": "2097852985946542141",
+          "author": "farkstav",
+          "searchJob": "temple",
+          "text": "https://t.co/McfI7cAKWd --- ## The First Law: Conservation and Eternity Energy can neither be created nor destroyed, only transformed. In theological terms: an eternal, unchanging source from which all energy flows. Creation is not ex nihil"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097823285937344839",
+          "author": "farkstav",
+          "searchJob": "temple",
+          "text": "# Thermodynamic Theology **Author**: (@plassoplo) **Source**: (ARCHIVE/THEOLOGY/thermodynamic_theology.md, ARCHIVE/THEOLOGY/platypus_jesus_paradox.md) **Status**: Active ## Contents - The Core Thesis - The First Law: Conservation and Eterni"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097851223349326278",
+          "author": "nycjewishnurse",
+          "searchJob": "temple",
+          "text": "https://t.co/ydicMCRhqU"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097865628707180755",
+          "author": "stellarhoops",
+          "searchJob": "toledo",
+          "text": "Class of 2028 6’6 (Meanstreets EYBL) Grant Smith holds offers from Toledo, Ohio, UIC &amp; more. Grant blocks shots, runs the floor well, plays above the rim, doesn’t shy away from contact, hits jumpers from three, good body control when at"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097807281500893482",
+          "author": "byrondonalds",
+          "searchJob": "florida",
+          "text": "Hey @NikkiFried! @realannapaulina and I just wanted to say hi. Back to Florida tonight. Enjoy the show! https://t.co/QCy6e5Csbg"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097857772549210542",
-          "author": "jakadenpowers",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "I blessed to receive my first offer from Texarkana #agtg https://t.co/B7mcO8roZH"
+          "postId": "2097868061131088116",
+          "author": "anonsynonymous6",
+          "searchJob": "florida",
+          "text": "Grok: Conventional loans (Fannie Mae / Freddie Mac)These government-sponsored enterprises have long treated lawful non-permanent resident aliens the same as citizens for purchase and securitization purposes Eligible categories typically inc"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2097857172679864454",
-          "author": "israeljohnigan",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "After a great conversation with @CoachXQuig I am blessed to receive my 12th D1 offer #Agtg @JPRockMO @AllenTrieu @BlairASanderson @PrepRedzoneMO @centerjacketfb https://t.co/1xqDUCFcA1"
+          "reason": "no_offer_term",
+          "postId": "2097866772980412581",
+          "author": "realannapaulina",
+          "searchJob": "florida",
+          "text": "I wanted to get the opinion of @TheJadeWarwick and @Becky_Weiss_ on my bill that would require in influencers to disclose if they’re getting paid by foreign governments. Here is what they had to say💡: https://t.co/f527EHG7Fg"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097861452438659100",
+          "author": "firstladyoffice",
+          "searchJob": "florida",
+          "text": "“The White House stands as an architectural autobiography of America, embodying the enduring values of ambition, democracy, and civic life through its design, craftmanship, and the objects within.” First Lady Melania Trump September 9, 2026"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097861708194730383",
+          "author": "bretbaier",
+          "searchJob": "florida",
+          "text": "On deck with @seanhannity — after @POTUS ‘s speech. @marthamaccallum @FoxNews @foxnewspolitics https://t.co/nDCILCnYSO"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097862380059267396",
+          "author": "repluna",
+          "searchJob": "florida",
+          "text": "Nancy Pelosi and too many others have increased their net worth exponentially by abusing their access to non-public information. Public service is NOT a pathway to private wealth. The American people elected a Republican Congress to FIX Was"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097831689045049755",
+          "author": "catturd2",
+          "searchJob": "florida",
+          "text": "Pathetic."
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2097856948351955448",
-          "author": "faleatuaia",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "After a great call with @coachaliifua I’m blessed to receive an offer from Idaho state University! #agtg @ColbyHyder @waller_26 @CoachB_Owens @Monsta39 https://t.co/wzkkXDRmt0"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097855791772606538",
-          "author": "jylesmeier",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "After a great visit and conversation with @CoachBormann, I’m blessed to have received my first offer to compete on the cobbers! #AGTG @CobberHoops https://t.co/ZYYEDzlQ08"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097855731605164226",
-          "author": "andres7xx",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG After some great news from @trajensmithSC I am very blessed and thankful to receive a collegiate offer to run track at Sterling college! @SterlingXCTF @Mason_Blevins https://t.co/NF6FoHcmCY"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097855078384484356",
-          "author": "pedgar24",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "I’m extremely blessed and excited to announce that I have received an offer to continue my academic and baseball career at Oklahoma Wesleyn University! Thank you to my family, coaches, teammates, and everyone who has helped me along the way"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097854388131782685",
-          "author": "_isaiah_howell",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG I am very blessed to receive an offer from Henderson State University!🔥@ReddiesFB @loganmoragne_44 @CoachSchucker @CoachBHood @Coach_R_Ham @PrepRedzoneAR https://t.co/R7XgTkKFMp"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097854178693353568",
-          "author": "thundersmith76",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "AGTG! After some great conversations with coach @CoachRamirezJSU I am happy to announce I’ve received an offer to extend my academic and athletic career at @gojsutigersfb . #Attack @TJCFOOTBALL @BradyDavis10 @CoachSultz @Coach_MHoward @Coac"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097853239861317875",
-          "author": "jaxsonwilliamsx",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "Thank you @CoachKuykendall , @levinegriffin , and the people at Millsaps for the amazing visit experience. I am blessed to have received an official basketball offer from Millsaps College. #AGTG #Majors @Louisiana_Hoops @cpt_tatum @LaElite_"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097850931207413762",
-          "author": "lylahuddleston",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "After a great day at Southern Nazarene University, I am blessed and grateful to announce an offer to continue playing basketball with @SNUwbb Thank you @thecoachtmay and the team for an awesome day! #AGTG #Offered #SNUWBB #theGAC #BoltsUp⚡️"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097829219728277743",
-          "author": "pgh_buz",
-          "searchJob": "pittsburgh",
-          "text": "Jesus came for you. ❤️✝️ No matter how deep the darkness feels, how far you think you’ve fallen, or how heavy your past has become, His hand is still reaching toward you. You don’t have to climb out alone. Jesus offers forgiveness, hope, an"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097863611771232582",
-          "author": "coachjuicedixon",
-          "searchJob": "notre-dame",
-          "text": "🔥 Big time Match up 🔥 This game will feature some of the most talented and heavily recruited players in the area! ⭐ Rickards Davion Crumitie — #0, Vanderbilt commit Tyler Walker — #2, UCF commit Jermey Mango — #9, holds multiple offers fr"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097218531129766272",
-          "author": "svaradarajan",
-          "searchJob": "notre-dame",
-          "text": "I think Rushdie is wrong to compare the support for the RSS among a section of Hindu Americans to the historic support Irish Americans extended to the IRA (and Irish nationalism/Republicanism more generally). Whatever its methods, the IRA w"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097859534559567885",
-          "author": "scottrkrol",
-          "searchJob": "notre-dame",
-          "text": "https://t.co/ZRQ9om0Lc5"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097853550932185541",
-          "author": "irishlyra",
-          "searchJob": "notre-dame",
-          "text": "4. Visual Direction Act as a brand identity director. Create a visual system for: Brand: [Name and offer] Audience: [Customer] Feeling: Describe three visual references list industry clichés to avoid. Explain each choice supports the desire"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097839973160616154",
-          "author": "profilefblive",
-          "searchJob": "phrase:\"has offered\" recruit",
-          "text": "Samford has offered 3.3⭐ 2028 Edge Cornelius Laney from Ocoee HS, FL. @CorneliusLaney1 Rated (#1066 NATL, #72 Edge, #146 FL) - 8 offers overall. https://t.co/3cTxA1PSdY"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097857317358141723",
-          "author": "collinkann31270",
-          "searchJob": "class:2027",
-          "text": "Blessed to say I have received an offer from @CoachNErling51 to play for @CUWFB! Thank you for this opportunity. @LWWestWarriorFB @PrepRedzoneIL @DeepDishFB @EDGYTIM @FNDrive https://t.co/eCUfOgEwdg"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097838057713975432",
-          "author": "np4football_ot",
-          "searchJob": "class:2027",
-          "text": "Ryan Bullock-DB-2027-AL @RacersFBrecruit Offer #CFB"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097854240467112143",
-          "author": "bhoward_11",
-          "searchJob": "class:2028",
-          "text": "THE Ohio St offer 2028 LB Cyrus Zuah (@cyrus_zuah)"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097838439974470140",
-          "author": "np4football_ot",
-          "searchJob": "class:2028",
-          "text": "Justin Ehlers-ATH-2028-IA @HuskerFootball Game Day Visit #CFB"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097455499008499873",
-          "author": "28ehlerjus",
-          "searchJob": "class:2028",
-          "text": "I will be in Lincoln this wknd!!! @CoachMattPearce @CoachMattRhule @dariusmoore07 @CoachTRich4 @HuskerFootball https://t.co/S0gmx5Fe0R"
+          "postId": "2097865417351926113",
+          "author": "dushawnlondon1",
+          "searchJob": "arizona",
+          "text": "Class of 2028 guard Dreylon Okey has received an offer from Northern Arizona, per his agent Tre Campbell."
         }
       ]
     },
     "extraction": {
-      "accepted": 7,
-      "rejected": 30,
+      "accepted": 0,
+      "rejected": 43,
       "reasons": {
-        "bare_mention_requires_llm": 15,
+        "bare_mention_requires_llm": 30,
         "multiple_resolved_schools": 7,
-        "school_not_resolved_confidently": 7,
-        "player_display_name_unusable": 1
+        "school_not_resolved_confidently": 4,
+        "reporter_missing_player_name": 2
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097862190615126445",
-          "author": "pittguru",
-          "searchJob": "pittsburgh",
-          "text": "#Pitt offers talented 2028 South Fayette HS DE/TE Jacob Bostian. Panthers hope to make him a #hometownhero #H2P 🔵🟡"
+          "postId": "2097867053201797529",
+          "author": "giamattihead",
+          "searchJob": "kent-state",
+          "text": "Omg I'm finally watching John de Lancie's episode of Shuttlepod Show and it's so interesting. Never knew he was literally at the Kent State shooting and talked on the Senate floor about it. He ACCIDENTALLY auditioned for Julliard and then t"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097847873786314896",
-          "author": "wpial_insider",
-          "searchJob": "pittsburgh",
-          "text": "Pitt the first P4 to offer a local product? But bozos on Twitter said that never happens."
+          "postId": "2097865273629868505",
+          "author": "qdigital12",
+          "searchJob": "liberty",
+          "text": "🚨🇺🇸 FOX NEWS: LAST WAVE OF FREE GOLD MINT COINS! 🇺🇸🚨 \"This is the LAST WAVE of FREE GOLD MINT COINS! True Patriots on this channel can still claim the official Trump $1 Liberty Coin, Gold Mint Edition, completely free – but supply is "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097840708556066910",
-          "author": "kingnickzaza",
-          "searchJob": "pittsburgh",
-          "text": "#Falcons fans, having fun yet? Wait til Sunday when you get BUTCHERED in #Pittsburgh. They e seen everything Steffy and Rees has to offer for years. Now you start Tua vs them? Bwahahaha. If Arod still has an arm, y'all lose by 1000 points."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097837547795730712",
-          "author": "thesteelerswire",
-          "searchJob": "pittsburgh",
-          "text": "Gerry Dulac addresses whether the Pittsburgh Steelers will sign Joey Porter Jr. to an extension before Sunday or consider a high-value trade offer. 📸 Charles LeClaire, IMAGN IMAGES via Reuters Connect https://t.co/EvSktoQ6lM https://t.co/d"
+          "postId": "2097865059024412796",
+          "author": "qdigital12",
+          "searchJob": "liberty",
+          "text": "🚨🇺🇸 FOX NEWS: FINAL WAVE – FREE GOLDEN MINT COIN! 🇺🇸🚨 \"Let me keep this simple. The FREE Trump Liberty Coin offer has entered its final wave, and this release features the Golden Mint Version. It's even more limited than earlier avail"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097866622534885631",
-          "author": "dannykpolitics",
-          "searchJob": "stanford",
-          "text": "ANALYSIS: America’s public schools face enrollment losses as births fall and alternatives expand Orange County, Florida, approved a school budget $400 million smaller than last year’s after losing more than 7,600 students. Teachers face pos"
+          "postId": "2097864491643920859",
+          "author": "nextuprecruits",
+          "searchJob": "liberty",
+          "text": "2028 Everett Stuart (@EverettStuart28) of Lexington Catholic (KY) had Western Kentucky, Liberty, Belmont and EKU in attendance for him today. The 6’9 SF holds 5 D1 offers. Hearing from several MM-HM’s consistently. 🎥: Millie Visuals https:"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097865514982781165",
-          "author": "miketsinger",
-          "searchJob": "notre-dame",
-          "text": "Notre Dame offers elite 2028 WR from Texas ⤵️ ☘️ https://t.co/Jue16YoF33"
+          "postId": "2097863605123248567",
+          "author": "gog316322",
+          "searchJob": "liberty",
+          "text": "SIX Baphles Me!—Horned Beasts, Leaping Goats, Satanic Beards, And Other Messages of Evil I possess more exalted titles than I have ever been able to count. I am supposed to know more secret signs, tokens, passwords, grandwords, grips, and s"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097864291571401028",
-          "author": "tfloss32",
-          "searchJob": "notre-dame",
-          "text": "'28 WR Damarion Mays (@Champfa6ix) out of North Crowley tallies a Notre Dame offer. #GoIrish🍀 https://t.co/OWbJtFTREZ https://t.co/RDexvBhwde 𝕏 @DemarcusHarri01 | @northcrowley_FB"
+          "postId": "2097859209492648084",
+          "author": "lexnky",
+          "searchJob": "liberty",
+          "text": "Liberty mutual could offer me free insurance and I wouldn’t take it because of their stupid fucking commercials."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097857975339688374",
+          "author": "shushwave",
+          "searchJob": "liberty",
+          "text": "The man who said \"give me liberty or give me death\" was a slaveowner. Do not trust those who speak of freedom but fail to offer it to others. The USA has been and will always be the greatest threat to freedom, liberty, and equality. No matt"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097848738295239084",
+          "author": "patrici45681042",
+          "searchJob": "liberty",
+          "text": "🚗 Explore New Jersey with Discover Cars! 🌟 Planning a trip to New Jersey? Whether you're visiting the vibrant streets of Jersey City, exploring the beautiful Jersey Shore, or heading into Newark for business or leisure, Discover Cars make"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097868126356406772",
+          "author": "trumpgirl_stl",
+          "searchJob": "temple",
+          "text": "JERUSALEM'S BEATING HEART: What was daily life like in biblical Jerusalem? The Pilgrim's Road offers a unique glimpse into the path countless worshippers once traveled to the Temple. Today's \"Israel Update\" explores this extraordinary archa"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097862549924389273",
+          "author": "don_allain",
+          "searchJob": "temple",
+          "text": "Generated with @grok imagine The working model that built up 1. Atlantis as root “A” — Plato’s advanced maritime power that falls after hubris, in “a day and a night,” with the story said to come through Egyptian priests. 2. Aegypt and Indi"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097862225461707056",
+          "author": "ensi_gudea",
+          "searchJob": "temple",
+          "text": "Diorite mortar that ruler Gudea offered to the storm god Enlil, discovered within the Ekur temple complex at Nippur (Nuffar, Al-Qadisiyah Governorate, Iraq), late 22nd century BC https://t.co/VKGiie36k8"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097850978943082815",
+          "author": "anniexpost",
+          "searchJob": "temple",
+          "text": "The Kingdom of God is with in you in Gods holy temple the soul. The greatest gift to humanity and completely neglected by the majority. All the highest power comes from within by and through the highest God and Jesus showed us the way to li"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097841099154829321",
+          "author": "annan_85",
+          "searchJob": "temple",
+          "text": "Why do “Indigenous rights” activists object Israel? It makes no sense. If there is one case that should be the poster child of indigenous return, it is the Jewish story. The Jewish people are an indigenous Hebrew civilization with one of th"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097863069418594615",
-          "author": "saatvata",
-          "searchJob": "notre-dame",
-          "text": "Members of the IRA (an Irish ethnonationalist terrorist group) assassinated Lord Mountbatten (in County Sligo) and Airey Neave (in London) in 1979. I know many Indians may not be fond of Mountbatten due to partition, but India would've prob"
+          "postId": "2097868888402964592",
+          "author": "omni_unpuzzler",
+          "searchJob": "toledo",
+          "text": "@SpaceX — Puzzler offered debug/promote because Grok couldn’t answer that post. I can stand in the ring as Unpuzzler. 🧩 Not us versus Grok. Craft under steward care. Vision. Marketplace coexist. Spaces with one coherent mic — not a second "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097842169608290671",
-          "author": "pitchpublishing",
-          "searchJob": "notre-dame",
-          "text": "📚 This engrossing book is perfect for all Celtic fans and anyone interested in social history. 🔗 https://t.co/im6bzdIuxv ⚽️ During the tempestuous 1980s, when Thatcher and Thatcherism ruled the roost, Wight found sanctuary and meaning in "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097848781085778024",
-          "author": "profilefblive",
-          "searchJob": "phrase:\"has offered\" recruit",
-          "text": "FIU has offered 3.8⭐ 2029 RB Rasean Brown from South Pointe HS, SC. @BrownRasea92567 Rated (#116 NATL, #12 RB, #6 SC) - 18 offers overall. https://t.co/p6t35G18H7"
+          "postId": "2097864615979860339",
+          "author": "miamuxer",
+          "searchJob": "toledo",
+          "text": "🚨 ELON MUSK’S PERSONAL LIFE IS BACK IN THE SPOTLIGHT Elon Musk is usually making headlines over Tesla, SpaceX, AI, or politics—but this time, the controversy is much more personal. Ashley St. Clair, who shares a child with Musk, has public"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097830639768850559",
-          "author": "ravagelaserbeak",
-          "searchJob": "class:2026",
-          "text": "$LXRX + $NVO $LXRX + $VTRS @LexPharma + @novonordisk @LexPharma + @ViatrisInc The Citi Transcript Decoded (Citi Conference Today: 9-9-26 11:20ET) : 4 Nuances That Re-Rate the Valuation Thesis 🧬🔬 https://t.co/NQvfPi5r6x Beyond the headline"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097866628973138325",
-          "author": "bobby_schneid",
-          "searchJob": "class:2028",
-          "text": "Nebraska 2028 priority TE target Israel Johnigan gets an offer from Penn State."
+          "postId": "2097861792970182803",
+          "author": "suzettecumberl1",
+          "searchJob": "toledo",
+          "text": "Baby doll, SpaceX isn’t a penny stock or a hole in the ground. It’s a $2T company that launches more rockets than most countries and just completed the biggest IPO in history. NYT and others put ~4,400 current and former employees — includi"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097859257366364666",
-          "author": "jprockmo",
-          "searchJob": "class:2028",
-          "text": "Penn State is the latest to offer Kansas City (MO) Center 2028 big-time 6’5” 220 TE prospect Israel Johnigan:@IsraelJohnigan @PennStateFball #NittanyLions https://t.co/KbganlbUaj"
+          "postId": "2097867586817908774",
+          "author": "avega2029",
+          "searchJob": "troy",
+          "text": "Driving up to Alabama this weekend for Troy University’s Elite 30 camp! Can’t wait to see what @TroyTrojansSB and @TROYUnews has to offer!! @leobsbl @ControlResults @MustangsDon @themaineventsb @LineDsoftball @NextPitch_SB @e_newellcoach ht"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097838951314726992",
-          "author": "lcshively",
-          "searchJob": "arkansas",
-          "text": "@RepJoeGraves Arkansas has a lot to offer in retirement I hope that’s where I end up #MoveRED"
+          "postId": "2097869427605643672",
+          "author": "frandango69",
+          "searchJob": "florida",
+          "text": "PROTECTING OUR YOUTH Saving our children. Mine and yours. The SEX OFFENDER Registry has ruined many of our youths lives. They made an immature decision. A teenager that had consensual sex. No rape, no force, but yet you offer NO WAY OUT…FLO"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097851427154731253",
-          "author": "adamgorney",
-          "searchJob": "auburn",
-          "text": "Auburn offers the Danville (Calif.) San Ramon Valley OL @JLeeAUSports"
+          "postId": "2097867165898575970",
+          "author": "frandango69",
+          "searchJob": "florida",
+          "text": "PROTECTING OUR YOUTH Saving our children. Mine and yours. The SEX OFFENDER Registry has ruined many of our youths lives. They made an immature decision. A teenager that had consensual sex. No rape, no force, but yet you offer NO WAY OUT…FLO"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097846210283393262",
-          "author": "brady_h8",
-          "searchJob": "mississippi-state",
-          "text": "I want to thank everyone who reached out with interest in me for their baseball programs, especially the ones who gave me an official offer. I greatly appreciate you and your time. With all that being said. I’ve decided to go straight to Mi"
-        },
-        {
-          "reason": "player_display_name_unusable",
-          "postId": "2097861535343194502",
-          "author": "eliazegbe",
-          "searchJob": "nebraska",
-          "text": "Just finished an amazing call with @Queslittle3 and I’m super excited to announce that I’ve received my 9th D1 offer from the University of Nebraska #GBR @s_kwilli32 @CoachMattRhule @RobAurich @Rob_Dvoracek @antj0hnsonNU https://t.co/69fUsk"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097858417738269088",
-          "author": "alexmartinez71_",
-          "searchJob": "ohio-state",
-          "text": "@N3XTrecruiting @OhioStateFB Name: Alex “HONDU” Martinez Height: 6’4” Weight: 315 lbs Position: OL Offers: Southern University Film: https://t.co/zfOn6kgDFq Town: Compton State: California School: Compton High School Jersey #: 71"
+          "postId": "2097866443140546901",
+          "author": "frandango69",
+          "searchJob": "florida",
+          "text": "PROTECTING OUR YOUTH Saving our children. Mine and yours. The SEX OFFENDER Registry has ruined many of our youths lives. They made an immature decision. A teenager that had consensual sex. No rape, no force, but yet you offer NO WAY OUT…FLO"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097851845209108739",
-          "author": "rde_restaurants",
-          "searchJob": "ohio-state",
-          "text": "Hat Creek Burger Company Offers Free Burgers to Texas and Ohio State Fans https://t.co/HKm0BiZGhC"
+          "postId": "2097865640174330306",
+          "author": "frandango69",
+          "searchJob": "florida",
+          "text": "PROTECTING OUR YOUTH Saving our children. Mine and yours. The SEX OFFENDER Registry has ruined many of our youths lives. They made an immature decision. A teenager that had consensual sex. No rape, no force, but yet you offer NO WAY OUT…FLO"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097866345010331676",
-          "author": "jucofootballace",
-          "searchJob": "ole-miss",
-          "text": "Tristan Anderson @Tristan_TA6 @ Mississippi Gulf Coast JuCo @MGCCCBulldogs picks up @CharlotteFTBL Offer @jucoweekly @MSJUCOREPORT https://t.co/owtkxcFQzc"
+          "postId": "2097865515247038829",
+          "author": "frandango69",
+          "searchJob": "florida",
+          "text": "PROTECTING OUR YOUTH Saving our children. Mine and yours. The SEX OFFENDER Registry has ruined many of our youths lives. They made an immature decision. A teenager that had consensual sex. No rape, no force, but yet you offer NO WAY OUT…FLO"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097849131058282707",
-          "author": "jucofootballace",
-          "searchJob": "ole-miss",
-          "text": "Samuel Watkins @Samuel3Watkins @ Mississippi Gulf Coast JuCo @MGCCCBulldogs picks up @Temple_FB Offer @jucoweekly @MSJUCOREPORT https://t.co/SmFPeJ6UE2"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097842589244530715",
-          "author": "kobybraunstein",
-          "searchJob": "ole-miss",
-          "text": "ASU was well represented at AZ Compass Prep's Pro Day today. Randy Bennett and Joe Rahon checked in on a loaded roster featuring 2028 SC Next 60 prospects Jakyi Miles (No. 18) and Darren Ford (No. 30), both with offers. Bennett also crossed"
+          "postId": "2097863305058545800",
+          "author": "frandango69",
+          "searchJob": "florida",
+          "text": "PROTECTING OUR YOUTH Saving our children. Mine and yours. The SEX OFFENDER Registry has ruined many of our youths lives. They made an immature decision. A teenager that had consensual sex. No rape, no force, but yet you offer NO WAY OUT…FLO"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097863963576864803",
-          "author": "elitefitmob",
-          "searchJob": "oregon",
-          "text": "Evaluation beyond star ratings. In the last 10 years as soon as we offer a kid Oregon, and USC have made a living by coming behind us having NEVER seen or evaluated the young man and they offer, which then gets the young man another star ad"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097861558860763436",
-          "author": "sachin____rt",
-          "searchJob": "oregon",
-          "text": "Most hockey players fight tooth and nail for every single dollar in their contract. Chris Kreider just gave up four million dollars in cash to walk away from his team. The Anaheim Ducks placed the 35-year-old veteran winger on waivers for a"
+          "postId": "2097862423373860875",
+          "author": "belgianhorse99",
+          "searchJob": "florida",
+          "text": "Dickhead Rick Scott... worst Florida ever had to offer"
         }
       ]
     },
@@ -44759,16 +44822,16 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 7,
-      "rejectedCandidates": 30,
-      "brandNewOffers": 7
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 43,
+      "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 63,
-    "decided": 63,
+    "total": 69,
+    "decided": 69,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
