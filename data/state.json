@@ -44361,17 +44361,20 @@
     "2098018621884969070",
     "2098009103264292937",
     "2098005844017254489",
-    "2098005730297028651"
+    "2098005730297028651",
+    "2098022450655068526",
+    "2098018923408953602",
+    "2098018760518979728"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-09-10T12:43:36.978Z",
-      "got": 60,
-      "new": 53,
-      "lag": 0.04
+      "at": "2026-09-10T12:56:57.130Z",
+      "got": 3,
+      "new": 3,
+      "lag": 0.7
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -44437,9 +44440,9 @@
       "truncated": false
     },
     "maryland": {
-      "at": "2026-09-10T11:11:22.595Z",
+      "at": "2026-09-10T12:56:16.310Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 0,
+      "lastPosts": 2,
       "truncated": false
     },
     "michigan": {
@@ -44829,16 +44832,10 @@
       "truncated": false
     },
     "texas-tech": {
-      "at": "2026-09-10T10:41:35.520Z",
+      "at": "2026-09-10T12:26:26.061Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 22,
-      "truncated": true,
-      "window": {
-        "lower": "2026-09-10T10:36:35.520Z",
-        "upper": "2026-09-10T12:26:26.061Z",
-        "until_time": "2026-09-10T10:36:35.520Z",
-        "completed": false
-      }
+      "lastPosts": 0,
+      "truncated": false
     },
     "ucf": {
       "at": "2026-09-10T12:41:59.002Z",
@@ -45009,25 +45006,25 @@
       "truncated": false
     },
     "delaware": {
-      "at": "2026-09-10T10:56:35.455Z",
+      "at": "2026-09-10T12:56:16.310Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 0,
+      "lastPosts": 1,
       "truncated": false
     },
     "east-carolina": {
-      "at": "2026-09-10T10:56:35.455Z",
+      "at": "2026-09-10T12:56:16.310Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
     },
     "eastern-michigan": {
-      "at": "2026-09-10T10:56:35.455Z",
+      "at": "2026-09-10T12:56:16.310Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
     },
     "florida-atlantic": {
-      "at": "2026-09-10T10:56:35.455Z",
+      "at": "2026-09-10T12:56:16.310Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
@@ -45063,7 +45060,7 @@
       "truncated": false
     },
     "jacksonville-state": {
-      "at": "2026-09-10T10:56:35.455Z",
+      "at": "2026-09-10T12:56:16.310Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
@@ -45075,7 +45072,7 @@
       "truncated": false
     },
     "kennesaw-state": {
-      "at": "2026-09-10T10:56:35.455Z",
+      "at": "2026-09-10T12:56:16.310Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
@@ -45291,13 +45288,13 @@
       "truncated": false
     },
     "utah-state": {
-      "at": "2026-09-10T10:56:35.455Z",
+      "at": "2026-09-10T12:56:16.310Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 0,
       "truncated": false
     },
     "utep": {
-      "at": "2026-09-10T10:56:35.455Z",
+      "at": "2026-09-10T12:56:16.310Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 0,
       "truncated": false
@@ -45463,11 +45460,11 @@
   "lastRateLimitAt": "2026-09-04T23:26:13.448Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-09-10T12:43:36.979Z",
+    "at": "2026-09-10T12:56:57.131Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 10,
+    "requests": 11,
+    "fullSweepCycles": 17
   },
   "backfill": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -45487,308 +45484,52 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-09-10T12:41:58.983Z",
+    "at": "2026-09-10T12:56:16.290Z",
     "mode": "live",
     "collection": {
-      "returned": 60,
-      "kept": 53,
-      "duplicate": 7,
+      "returned": 3,
+      "kept": 3,
+      "duplicate": 0,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 38,
-      "rejected": 15,
+      "accepted": 1,
+      "rejected": 2,
       "reasons": {
-        "no_offer_term": 10,
-        "no_fbs_school": 5
+        "no_fbs_school": 2
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2098015241963462947",
-          "author": "hjgamestudios",
-          "searchJob": "texas-tech",
-          "text": "WSJ published first. Empty account. First amplifiers were professional pause-AI shops funded by Anthropic-investor money. Sanders had the ban bill written on Sept 3, then on Sept 9 said “that is why I will soon be introducing legislation.” "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097613619466809430",
-          "author": "leletii_m",
-          "searchJob": "texas-tech",
-          "text": "Dear men in my DMs, I bring absolutely nothing to the table."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097967692091171219",
-          "author": "dripdrop_sol",
-          "searchJob": "texas-tech",
-          "text": "The update already live on the website and available for canary test wallets. Few more tests and UI polish and we’re golden. Just few more minutes! https://t.co/yjNHSwoHTt"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098003329301225964",
-          "author": "bengoertzel",
-          "searchJob": "texas-tech",
-          "text": "Thoughts on OpenAI’s Millennium Prize result, formal verification as a key to safe superintelligence, and why coming up with new math ideas is the harder problem. https://t.co/M0N1omR1H6"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098011821072318849",
-          "author": "megatron_ron",
-          "searchJob": "air-force",
-          "text": "NEW: 🇾🇪🇸🇦 Ansarallah (Houthi) forces begin moving in columns towards Dhubab The last city on the Red Sea coast controlled by Saudi-backed forces. After this the Houthi will have total control over the Red Sea and the Bab al-Mandab Strai"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097872861956382856",
-          "author": "atrupar",
-          "searchJob": "rice",
-          "text": "😳 Trump is now literally trying to buy votes 😳 Trump just now announced that if Republicans keep the House and Senate in November, \"I will issue a dividend to every adult citizen in the United States of America for $5,000.\" He suggested t"
+          "reason": "no_fbs_school",
+          "postId": "2098018923408953602",
+          "author": "thebaynetcom",
+          "searchJob": "maryland",
+          "text": "From boarding and doggie daycare to grooming and training, their family-owned resort offers plenty of ways to keep your pets happy and cared for. ❤️ Thanks to Chesapeake Pet Resort & Day Spa for sponsoring The BayNet’s Pet-Friendly Guide! \ud83d"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098028092828618892",
-          "author": "xavier_cas63577",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After having a great conversation on the phone with coach Erling from Cuw I’m blessed to receive a offer to play at the college of Concordia university Wisconsin! @CUWFB @CoachStekala @Coach_Vogel14 @BengalFB08 @EDGYTIM https://t.co/4BXtE44"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098016078379061311",
-          "author": "ricodjr10",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @CoachLJohnson3 I’m blessed to receive my second offer from @CrownCollegeFB #AGTG https://t.co/OHmb9LAJQV"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098012729285935316",
-          "author": "gavinwilliamswv",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an official invite to play for the North team in this years @BlueGreyFB All-American Bowl in FL in January. Very thankful for the opportunity! @StevesSportsYT @itsDaveMadeIt @PrepRedzoneWV @CoalfieldsCo https://t.co/FevwL"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098012421487051059",
-          "author": "diantrewilliams",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive a visit invite from @MNUFootball_ football! Thank you @coachwebber12 https://t.co/ZzUYwRYGLK"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098011639609983238",
-          "author": "chase_crimmins",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from @BerryFootball! @CoachJohnSikora @GACFBRecruits @GACFootball @One11Recruiting @RecruitGeorgia @VarsityGeorgia @SidelinePreps @PrepRedzoneGA @CoachBuzzAldrin @coachTWoff @247recruiting @sixstarfootball @Georg"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098020895298134275",
-          "author": "carsonbender25",
-          "searchJob": "phrase:\"blessed to have received\"",
-          "text": "Blessed to have received an offer from @SVC_FTBL! Thanks to @Coach_ZShaw @CoachCGoff for believe in my talents on and off the field! #AGTG @FH_Football @z3alkire https://t.co/xNXruqcqOG"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098019909489844518",
-          "author": "thorntonweather",
-          "searchJob": "colorado",
-          "text": "Thursday to offer up above normal temperatures, dry conditions. Details: https://t.co/JOkJpR46AJ #Thornton #cowx https://t.co/vckpNBLZQd"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098013505387458573",
-          "author": "dickiebush",
-          "searchJob": "wake-forest",
-          "text": "https://t.co/jt5FwKpAEK"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098003582935072809",
-          "author": "beaconjournal",
-          "searchJob": "akron",
-          "text": "Free help with wills for Summit, Stark and Portage residents Sept. 26 https://t.co/OZM6CtuEXq"
+          "postId": "2098018760518979728",
+          "author": "md_insurance",
+          "searchJob": "maryland",
+          "text": "Watch out for \"free roof\" offers. You should proceed with caution when approached by roofing contractors with unsolicited offers to inspect your roof for damage in order to generate an insurance claim. Read more: https://t.co/gesQ8LkwOW #MD"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 38,
+      "rejected": 1,
       "reasons": {
-        "bare_mention_requires_llm": 13,
-        "school_not_resolved_confidently": 22,
-        "multiple_resolved_schools": 2,
-        "reporter_missing_position": 1
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098016489932779652",
-          "author": "aryang_119",
-          "searchJob": "texas-tech",
-          "text": "Su-57 is a flop show. Rafale is a flop show. Shift the focus to AMCA, Tejas and Kaveri or all three will be dead soon. If too pressing take Rafales or Su-57 on Lease. Why buying and keeping on head for 30 years? Even if buying Su-57 & Rafal"
-        },
-        {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098015147310637062",
-          "author": "undr_skr",
-          "searchJob": "texas-tech",
-          "text": "I offer Bums, Food , a clean house and an Unfiltered Opinion on Gaming, Tech, music and Cars. All you gotta bring is money for my Transition 🥺👉🏽👈🏽"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098014521692467462",
-          "author": "tanuijohn",
-          "searchJob": "texas-tech",
-          "text": "Bridging Yerevan and Nairobi: Kenya-Armenia Partnership in the Digital Age Today, I had the honour of hosting H.E. Mr. Sahak Sargsyan, Ambassador of the Republic of Armenia to Kenya, for a courtesy call — a conversation that reaffirmed how "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098013587856113688",
-          "author": "vahanmahesh",
-          "searchJob": "texas-tech",
-          "text": "Our billionaires build empires buying de-risked cash cows: airports, ports, toll highways, power grids, and FMCG brands. ​Why? Rent-seeking infrastructure offers guaranteed cash flows and natural monopolies without tech risk."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098013185383260475",
-          "author": "bestbite0",
-          "searchJob": "texas-tech",
-          "text": "Communicating via BChat offers real peace of mind—no central databases scanning your chats or selling contact data to advertisers. Kudos to @BeldexCoin! 💬🔐 Real tech driving $BDX! 🔥 #Beldex #BChat #Web3 #Privacy"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098012998526705685",
-          "author": "rndtrippr",
-          "searchJob": "texas-tech",
-          "text": "actually insane, all the launchpads like OTC that you’re seeing at 15M aren’t close to what solana:6WV4h21ggUgM66fYQu8gVSestDNZsUmnpD681Qzmpump offers they just shipped this new update ( finishing up on some technicalities ) which literally"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098012858772812117",
-          "author": "uidai",
-          "searchJob": "texas-tech",
-          "text": "UIDAI session at GFF2026 titled “Trust at Scale: A Public-Private Alliance Against Financial & Identity Fraud in the AI Era” offered an insight on the convergence of Aadhaar and AI to redefine trusted digital interactions across financial s"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098011815892373997",
-          "author": "uphonestreal",
-          "searchJob": "texas-tech",
-          "text": "🎯 BETTING HAS AN OBSESSION WITH ONE QUESTION: “WHAT SHOULD I BET NOW?” But there’s another question that may be far more useful: “WHAT WOULD HAVE HAPPENED IF I BET THEN?” Before the game. Before the line moved. Before the injury news. Befo"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098005826849882502",
-          "author": "snekcalls",
-          "searchJob": "texas-tech",
-          "text": "Loaded my conviction bags and from all my FOMO bags the one I have the highest conviction is $MADE. Software → Revenue → Buybacks → Compute → Robots. $MADE isn’t just building AI. It’s building autonomy. First mover concept IMO. Solana ment"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098005754405929265",
-          "author": "pressmonitorin",
-          "searchJob": "texas-tech",
-          "text": "[19] Essential Financial Services Stories for Professionals https://t.co/EfmHAL22OC Media monitoring of Indian publications brings you this press review of 19 defining stories on news on financial services — from fraud prevention and digita"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098005686869463496",
-          "author": "jayeshyeol14185",
-          "searchJob": "texas-tech",
-          "text": "@Sputnik_India US tech companies often block cloud services, payment systems, or apps. India and Russia can jointly offer other nations a \"sanction-free and reliable\" tech partnership, where technology is not used as a political weapon."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098004562367914494",
-          "author": "2_way_radios",
-          "searchJob": "texas-tech",
-          "text": "Times are tough! Want to save some cash when you get your walkie-talkies repaired? Mike Ashby Comms offers a fixed price, mail-in service covering the UK which is highly cost effective. Save even more if you use my prepay service. #savemone"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098004221312278936",
-          "author": "mrskyai",
-          "searchJob": "texas-tech",
-          "text": "Grom TV Live Generates Real-Time Video Streams Are you ready for a live stream that doesn’t involve any actual filming or editing? Because that’s precisely what Grom TV Live promises. So, how does this work? Is it just another gimmick, or c"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098003852586840090",
-          "author": "syllabus_tweets",
-          "searchJob": "texas-tech",
-          "text": "Long before the rise of Big Tech, computers shaped how people worked, how markets operated, and how businesses became big. Our podcast of the week offers a new history of the digital economy. With Devin Kennedy on @WhoMakesCents https://t.c"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098003623925964952",
-          "author": "lumoherdaui",
-          "searchJob": "texas-tech",
-          "text": "The Google penalties offered another sign of how Brussels was calibrating its tech enforcement under Trump. The combined fine, which followed two separate investigations, came in below the psychologically significant €1bn mark and was short"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098003564522078255",
-          "author": "richie_muhammed",
-          "searchJob": "texas-tech",
-          "text": "Entering the Nigeria tech space has always felt like a high mountain to climb because of how ridiculously good the founders already building here are. The bar is high, but I decided to be relentless anyway. We are currently working out how "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098002740722966582",
-          "author": "jopaowitt",
-          "searchJob": "texas-tech",
-          "text": "That under-dispay selfie camera on the Duo is diabolical. They say they like to wait for tech to mature before they launch it. How is it that they failed to offer a good under-display camera after the Chinese pushed crappy under-display cam"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098002730765656383",
-          "author": "saradrake381689",
-          "searchJob": "texas-tech",
-          "text": "Robin @RobinNunya14 📷UPDATE To anyone claiming the U.S. 'started' this trade war with Canada: check the facts! Dairy: Canada protected its market with 300% tariffs on U.S. farmers for decades. Tech: Canada added Digital Taxes specifically "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098014599836496259",
-          "author": "mamnoon_110",
-          "searchJob": "air-force",
-          "text": "The $5,000 check is not a policy. It is a hostage note written on a novelty check. Trump offered every adult the money only if Republicans keep Congress, which means the country is now officially for sale in installment payments timed to an"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098025746207777022",
-          "author": "zetaz",
-          "searchJob": "rice",
-          "text": "Mr. Rice applied to South Carolina’s law school and was offered a spot in a summer program for borderline applicants; he was eventually admitted. (The law school was named after him in 2023.) https://t.co/ofNuhEyKHm"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098011589311975857",
-          "author": "profdngong",
-          "searchJob": "rice",
-          "text": "In Cameroon, Paul Biya keeps people poor and then offers them rice during elections. In the United States, Trump keeps people poor and then offer them cash during elections. Different dictators, same election playbook."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098026240011612374",
-          "author": "chieftainnews",
-          "searchJob": "colorado",
-          "text": "The Colorado Rockies may not be winning on the field, but Coors Field offers one of the most affordable game-day experiences in Major League Baseball. https://t.co/1sxfCMhG9n"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098029002145341576",
-          "author": "untiltheend79",
-          "searchJob": "wake-forest",
-          "text": "@libriscent She has a solution to that it's called wake who ever I'm in bed with this time and offer sex"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098025053929472506",
-          "author": "nancym284",
-          "searchJob": "wake-forest",
-          "text": "@DougWahl1 It’s a crime to offer money for votes, but anyone stupid enough to believe this lying con artist needs to wake up. Trump has NO intention of giving the American people anything. From the day he hijacked the presidency he’s done n"
+          "postId": "2098022450655068526",
+          "author": "delawareonline",
+          "searchJob": "delaware",
+          "text": "Free family safety day, 9/11 event offered in Kent County https://t.co/CywIMQvJ2V"
         }
       ]
     },
@@ -45796,22 +45537,24 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 10,
+      "failed": 1,
+      "requests": 11,
+      "errors": [
+        "texas-am: rate limited"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 38,
+      "rejectedCandidates": 1,
       "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 53,
-    "decided": 53,
+    "total": 3,
+    "decided": 3,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
