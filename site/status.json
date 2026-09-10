@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T09:13:13.768Z",
+  "generatedAt": "2026-09-10T09:28:20.244Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T09:13:13.488Z",
+    "at": "2026-09-10T09:28:20.031Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7757425,
-    "p95Hours": 1.2675527777777778,
-    "worstHours": 1.5254630555555555
+    "medianHours": 0.7798108333333333,
+    "p95Hours": 1.5193516666666667,
+    "worstHours": 1.5193516666666667
   },
   "decisionCoverage": {
-    "total": 27,
-    "decided": 27,
+    "total": 23,
+    "decided": 23,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 45
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 972,
     "incompleteOffers": 0
@@ -55,231 +55,202 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T09:13:13.488Z",
-      "got": 37,
-      "new": 27,
-      "lag": 0.12
+      "at": "2026-09-10T09:28:20.031Z",
+      "got": 41,
+      "new": 23,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-10T09:11:36.372Z",
+    "at": "2026-09-10T09:26:48.962Z",
     "mode": "live",
     "collection": {
-      "returned": 37,
-      "kept": 27,
-      "duplicate": 8,
-      "tooOld": 2,
+      "returned": 41,
+      "kept": 23,
+      "duplicate": 17,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 15,
-      "rejected": 12,
+      "accepted": 16,
+      "rejected": 7,
       "reasons": {
-        "no_fbs_school": 6,
-        "no_offer_term": 4,
-        "hard_negative": 2
+        "no_offer_term": 2,
+        "hard_negative": 2,
+        "no_fbs_school": 3
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2097973437981421788",
-          "author": "psbj",
-          "searchJob": "kent-state",
-          "text": "The 149-unit property offers independent living, assisted living and memory care across three buildings on a 4.3-acre site. https://t.co/BXGQEcgkRE"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097974897675010161",
-          "author": "trailtalesx0",
-          "searchJob": "liberty",
-          "text": "💍 Elon Musk offers you this ring. Do you accept it? A) Yes ✅ B) No ❌ https://t.co/8Vlk9D8W60"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097963443491905807",
-          "author": "terrelljones7_",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @TheRedZoneCoach beyond blessed to receive my 6th offer !! @VeniceRecruit10 https://t.co/YtqPiy1MNV"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097965602832810246",
-          "author": "dukebiz",
-          "searchJob": "duke",
-          "text": "@dilimanac The useful split is between efficiency as a local win and growth as a new customer problem solved. The second needs a tighter feedback loop: test the offer before scaling the automation around it."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097963817082732965",
-          "author": "duke_robin",
-          "searchJob": "duke",
-          "text": "I have seen enough: Send an offer to Deco to sign him permanently."
-        },
-        {
           "reason": "no_offer_term",
-          "postId": "2097808725033603081",
-          "author": "lfc",
-          "searchJob": "duke",
-          "text": "That assist 😮‍💨 An all-round strong performance secures Araújo our @carlsberg Player of the Match award tonight 🏆 https://t.co/GNKmTque1X"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097963667526398154",
-          "author": "thesevernduke",
-          "searchJob": "duke",
-          "text": "@SilverlingArt *slowly offers her some bacon* would you like some?"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097970984284254503",
-          "author": "bwqbowequ",
-          "searchJob": "wake-forest",
-          "text": "https://t.co/fTHLweSn4q"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097972640770052512",
-          "author": "beamersoftware",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/PjoDFWpQ6W"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097967427527082292",
-          "author": "snakeappletree1",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/XLGN3qRMMC"
+          "postId": "2097954399423287453",
+          "author": "andrasdobos81",
+          "searchJob": "temple",
+          "text": "When Nietzsche wrote that God was dead, the deepest loss wasn’t metaphysical dogma. It was an outward orientation, a mechanism through which a person could negotiate a livable compromise with death, helplessness, and ordinariness. https://t"
         },
         {
           "reason": "hard_negative",
-          "postId": "2097959253944185181",
-          "author": "croyman99",
-          "searchJob": "arkansas-state",
-          "text": "@Trickstersworld Any prospect of a Palestinian state died on Oct 7th. Palestinians don't want a state, they've been offered a state, many times. They want to destroy a state and commit genocide, herein lies the problem 🙄"
+          "postId": "2097976483067076742",
+          "author": "andrewmccalip",
+          "searchJob": "class:2026",
+          "text": "--- description: Condense scattered plans, progress, and research into one durable, sequentially-numbered task folder under docs/tasks/. Create a new task folder (handoff README + living plan checklist + research/), update an existing one, "
         },
         {
           "reason": "hard_negative",
-          "postId": "2097953723461104118",
-          "author": "n0_politics",
-          "searchJob": "arkansas-state",
-          "text": "I dont have to cope harder because i have the truth and facts on my side. What you have done is dump a list of verses about warfare, treaties, criminals, historical events and a pre-modern institution of slavery, strip away the verses immed"
+          "postId": "2097972211776704810",
+          "author": "mrlowryscottop",
+          "searchJob": "class:2026",
+          "text": "St. Paul Street Evangelization – Labor Day 2026 City of Syracuse Homeless Outreach It was Labor Day weekend 7 September 2026 in the beautiful North Country of Upstate New York, a time of year when many people off from work would frequent pl"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097871768413471155",
+          "author": "acyn",
+          "searchJob": "washington",
+          "text": "Trump: So if the Republicans win, you get $5000. https://t.co/4ZC0DPFztp"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097961671163789340",
+          "author": "darrelwashing13",
+          "searchJob": "washington",
+          "text": "@EricLDaugh That’s all he has to offer struggling Americans is the YMCA song and redecorating our national monuments."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097959605682757945",
+          "author": "ransom_db",
+          "searchJob": "wisconsin",
+          "text": "🚨 Ransom group \"CL0P\" publishes \"https://t.co/Ze0JkrxteH\" - United States 🇺🇸 📍 Location: Milwaukee, Wisconsin, USA 🏢 Industry: Motorcycle Manufacturing 🔗 Website: https://t.co/RaKCBW86oX Harley-Davidson, founded in 1903, is a leading "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097969905022759060",
+          "author": "houstojunior",
+          "searchJob": "houston",
+          "text": "@chidimma0507 So what do women have to offer?"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 15,
+      "rejected": 16,
       "reasons": {
-        "multiple_resolved_schools": 2,
-        "bare_mention_requires_llm": 9,
-        "school_not_resolved_confidently": 4
+        "bare_mention_requires_llm": 14,
+        "multiple_resolved_schools": 2
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097960171746009561",
-          "author": "rickwmiller1",
-          "searchJob": "liberty",
-          "text": "𝗧𝗵𝘂𝗿𝘀𝗱𝗮𝘆 𝗼𝗳 𝘁𝗵𝗲 𝗧𝘄𝗲𝗻𝘁𝘆-𝘁𝗵𝗶𝗿𝗱 𝗪𝗲𝗲𝗸 𝗶𝗻 𝗢𝗿𝗱𝗶𝗻𝗮𝗿𝘆 𝗧𝗶𝗺𝗲 — 𝗦𝗲𝗽𝘁𝗲𝗺𝗯𝗲𝗿 𝟭𝟬, 𝟮𝟬𝟮𝟲 1 Corinthians 8:1b-7, 11-13 Psalm 139:1b-3, 13-14ab, 23-24 Luke 6:27-38 𝗖𝗼𝗻𝘁𝗶𝗻𝘂𝗶𝘁𝘆 𝗳𝗿𝗼𝗺 𝗬𝗲𝘀𝘁\ud835"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097979895229870144",
+          "author": "keidojapan",
+          "searchJob": "temple",
+          "text": "Just outside Tokyo, Kamakura offers a completely different pace. From iconic landmarks to quiet temple gardens, Kamakura is the perfect escape for a day surrounded by history, nature and the sea. https://t.co/gSmaIeowRe"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097957048826970481",
-          "author": "tequieremos",
-          "searchJob": "liberty",
-          "text": "Manoj Sinha, the Delhi-installed Lieutenant Governor who took charge of occupied Kashmir on 7 August 2020 is now walking the streets of Chicago. This is the same man who, as the visible face of Indian occupation in a land the United Nations"
+          "postId": "2097977516724199922",
+          "author": "aniruddhasadm",
+          "searchJob": "temple",
+          "text": "On Monday, 7th September 2026, the DMVs of @AniruddhasADM offered Shravani Monday Seva at Shri Kshetra Nageshwar Temple Seva Sansthan, Shirpur, Dhule. #AADM #Seva #ShravaniMonday https://t.co/gQVQdHwAer"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097974375438004639",
-          "author": "urxesus",
-          "searchJob": "south-florida",
-          "text": "@gianlucadiddio What do you think of the sacrifices of bulls and goats that the prince offers for his own sins and the sins of his people in Ezekiel's temple?"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097974781333197205",
-          "author": "omido0oo",
-          "searchJob": "wake-forest",
-          "text": "They were attacked by the entire Muslim community. Iran were defending themselves and Arabs are starting to wake up and slowly distancing themselves from the Jews and USA. The first step were by sanctioning Israel with the west. Iran has of"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097973843843297426",
-          "author": "srskip8",
-          "searchJob": "wake-forest",
-          "text": "THE DOG-EYED VISITOR OF THE DOCK: THE STORY OF A HARBOR SEAL The clip lasts only a few seconds. A weathered wooden plank cuts across the bottom of the frame, and beyond it, dark water ripples under grey light. Then, quietly, without any spl"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097959781025653045",
-          "author": "gabrielamzallag",
-          "searchJob": "wake-forest",
-          "text": "Launching today on Product Hunt 🥳 I stayed up until 2am to get the launch just right, videos, bug fixing, and a special offer for the launch. And I wake up realizing that I'm competing with the Apple Duo and the AirPods 35 🥲 The first hou"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097954149887541306",
-          "author": "adisep007",
-          "searchJob": "wake-forest",
-          "text": "@marinonchain @world_xyz Did you just wake up and read an offer from @world_xyz?"
+          "postId": "2097975875941650458",
+          "author": "newlifechurchke",
+          "searchJob": "temple",
+          "text": "When God’s people came together to give towards the building of the temple, they gave willingly and with joy. “Then the people rejoiced, for that they offered willingly...” — 1 Chronicles 29:9 As we begin this journey of building our church"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097970213828309093",
-          "author": "1uprising27091",
-          "searchJob": "arkansas-state",
-          "text": "You say: Jews are from Judah. Arabs are from Arabia. It's not that complicated. But it is complicated. And you know it. You are oversimplifying history to hide the truth. Let us set the record straight. First: You are confusing religion wit"
+          "postId": "2097974289781997744",
+          "author": "sringerimath",
+          "searchJob": "temple",
+          "text": "On Bhadrapada Shuddha Chaturthi, Jagadguru Shankaracharya Sri Sri Bharati Tirtha Mahasannidhanam and Jagadguru Sri Sri Vidhushekhara Bharati Sannidhanam shall offer special pujas to Lord Siddhivinayaka for the welfare of Humanity. Aastikas "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097965805657006258",
-          "author": "awakenthyself33",
-          "searchJob": "arkansas-state",
-          "text": "THE SACRED REALIGNMENT Modern life often clutters the inner landscape with constant noise, overwhelming stress, and old patterns that drain the spirit. Stepping back from this daily chaos allows consciousness to pause, breathe, and remember"
+          "postId": "2097973605745172893",
+          "author": "yahuah_saves12",
+          "searchJob": "temple",
+          "text": "@Noorvp74 Sending Prayers: Greeks believed that the smoke from these candles carried their wishes and prayers up to the gods and goddesses in the celestial realm. The Ritual: These cakes were often offered at the temple of Artemis on the si"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097973085844668921",
+          "author": "newsbookmedia",
+          "searchJob": "temple",
+          "text": "Why is alcohol offered to God? The Mystery of Kashi's Kaal Bhairav | Kaal Bhairav Temple Mystery ... #Varanasi #KashiVishwanath #BhairavTemple #BhairavNath https://t.co/Z6WkQnDMVd"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097965495899312422",
+          "author": "impuni",
+          "searchJob": "temple",
+          "text": "Families are coming to temple and giving offerings . Still they come in burqa . Nothing changes . Fear of punishment makes them give the offering . My ex driver was a Muslim and he got Herpes . Even he went to the temple to offer coconut . "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097964834923123101",
+          "author": "astrologybyisha",
+          "searchJob": "temple",
+          "text": "A client was struggling to find a suitable marriage proposal. Jupiter was under pressure in her chart. I asked her to offer yellow sweets at a Vishnu temple every Thursday for 11 weeks. She eventually met someone through a family connection"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097965585829396729",
-          "author": "gpoliticalarena",
-          "searchJob": "arkansas-state",
-          "text": "A US State Department grant program for MAGA-aligned groups in Europe will exclude French applicants over fears of appearing to interfere in France’s 2027 presidential election, two sources told Reuters. The Bureau of Democracy, Human Right"
+          "postId": "2097954906334245126",
+          "author": "alexandrmenashe",
+          "searchJob": "temple",
+          "text": "Andrerw Marr is a typically pompous extablishment Brit regurgitating popular nonsense that masquerades as wisdom. Andrew Marr has no expertise in any subject about which he now claims to speak. He knows little about the religions of the peo"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097964119257465137",
-          "author": "mandarsawant184",
-          "searchJob": "arkansas-state",
-          "text": "@parmaanu_dhruv Isnt a state CM liable for oor performance of own party ? Even if it was Modi's face, the whole party and CM is expected to put in a lot of efforts Fadnavis offered to resign after 2024 LS debacle but it was not accepted"
+          "postId": "2097954036217532678",
+          "author": "ians_india",
+          "searchJob": "temple",
+          "text": "Ujjain, Madhya Pradesh: Sadhvi Harsha Nand Giri, accompanied by members of the saint community and hundreds of devotees, visited the 170-year-old Khade Hanuman Temple, a site of deep faith for millions of Hindus. She offered prayers at the "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097961867398291599",
-          "author": "frankleebrian",
-          "searchJob": "arkansas-state",
-          "text": "@Glinner The Palestinians were offered a state 7 times. 7 times they rejected it, even though they didn't deserve it. https://t.co/PqBApP6X2e https://t.co/bHj3FwTHCQ https://t.co/vMWoAJmdpT"
+          "postId": "2097979780863770865",
+          "author": "bigpapi_abe",
+          "searchJob": "washington",
+          "text": "@chrispy167 @MostlyEagles Ben Johnson stayed after 2023 because the options were Washington or Chargers. Chargers gave him a low ball offer at the time and Ben Johnson didn’t like Washington’s ownership. That was the major reason he didn’t "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097960563213013405",
-          "author": "arkadiusz192030",
-          "searchJob": "arkansas-state",
-          "text": "@VividProwess The Palestinians were offered a state—what a fucking joke. They already had a state, but Israel stole it from them. The USA and Israel are the two biggest thieving nations in the world. Fuck them both."
+          "postId": "2097967351190749331",
+          "author": "rbg4lif",
+          "searchJob": "washington",
+          "text": "The US-South Korea-Japan wargames offer a glimpse of Washington’s real plan for Asia The trilateral wargames proceed as planned despite Trump’s earlier snub. How is Washington keeping Seoul hooked? Published 9 Sep, 2026 https://t.co/pm7Zqul"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097966419585425906",
+          "author": "movienewsusa",
+          "searchJob": "washington",
+          "text": "Good life for NY families and firms - @SenatorTimScott ``UP NEW YORK´´ UP NEW YORK @NewYorkGOP @NYYRC @GavinWax @ChairmanEdCox @SpeakerJohnson @LeaderJohnThune @nrc @NRCC VOTE BLAKEMAN `HOCHUL PUTS NY INTO HARDSHIP´ https://t.co/TcItKVwPKH "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097960246022955402",
-          "author": "aasgaard",
-          "searchJob": "arkansas-state",
-          "text": "@Kenan752699 @VividVocalVixen @AmichaiChikli Does it? 1948? So not 1937 when the Arabs rejected a state. Not 1947 when the Arabs rejected a state or the many times since then they’ve been offered and rejected a state. Meanwhile they are the"
+          "postId": "2097964208562286693",
+          "author": "mohammd_mohsn",
+          "searchJob": "washington",
+          "text": "@ryanl_hass asks why Beijing isn’t taking the bait? The more interesting question is: what Beijing thinks the bait is worth? Trump has given Beijing several things it has wanted for years: less ideological pressure, public deference to Xi, "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097958261643485346",
-          "author": "wallstreet2web3",
-          "searchJob": "arkansas-state",
-          "text": "You don't have to vote for the freebie. You still pay for it. Indian elections are no longer a contest over what the state will build. They are a bidding war over what it will give. And the invoice lands on people who never asked for the gi"
+          "postId": "2097963834845917661",
+          "author": "mikewilsonmelb",
+          "searchJob": "washington",
+          "text": "This is getting beyond pathetic. Donald Trump, facing a brutal midterm environment, has now floated the idea that every American adult will receive a $5,000 “Trump dividend” if Republicans retain control of Congress. “If the Republicans win"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097960589712630182",
+          "author": "mohammd_mohsn",
+          "searchJob": "washington",
+          "text": "@ryanl_hass asks why Beijing isn’t taking the bait. The more interesting question is what Beijing thinks the bait is worth. Trump has given Beijing several things it has wanted for years: less ideological pressure, public deference to Xi, l"
         }
       ]
     },
@@ -294,11 +265,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 15,
+      "rejectedCandidates": 16,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T09:13:13.769Z"
+    "status rebuilt locally from current store on 2026-09-10T09:28:20.245Z"
   ]
 }
