@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T04:13:26.415Z",
+  "generatedAt": "2026-09-10T04:27:53.546Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T04:13:26.103Z",
+    "at": "2026-09-10T04:27:53.244Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7870558333333333,
-    "p95Hours": 1.536256388888889,
-    "worstHours": 1.7847180555555555
+    "medianHours": 0.7757627777777778,
+    "p95Hours": 1.5266058333333334,
+    "worstHours": 1.7771261111111112
   },
   "decisionCoverage": {
-    "total": 60,
-    "decided": 60,
+    "total": 22,
+    "decided": 22,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 45
   },
-  "paginationBacklog": 2,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 972,
     "incompleteOffers": 0
@@ -55,351 +55,197 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T04:13:26.102Z",
-      "got": 79,
-      "new": 60,
-      "lag": 0.05
+      "at": "2026-09-10T04:27:53.243Z",
+      "got": 46,
+      "new": 22,
+      "lag": 0.09
     }
   },
   "audit": {
-    "at": "2026-09-10T04:11:46.089Z",
+    "at": "2026-09-10T04:26:14.442Z",
     "mode": "live",
     "collection": {
-      "returned": 79,
-      "kept": 60,
-      "duplicate": 19,
-      "tooOld": 0,
+      "returned": 46,
+      "kept": 22,
+      "duplicate": 23,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 40,
-      "rejected": 20,
+      "accepted": 12,
+      "rejected": 10,
       "reasons": {
-        "no_offer_term": 8,
-        "no_fbs_school": 11,
-        "hard_negative": 1
+        "non_fbs_offer_target": 2,
+        "no_fbs_school": 4,
+        "no_offer_term": 1,
+        "hard_negative": 3
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2097871833605279894",
-          "author": "rapidresponse47",
-          "searchJob": "georgia",
-          "text": ".@POTUS announces the TRUMP DIVIDEND: If Republicans win both the House and the Senate, because of our tremendous economic success, I will issue a dividend to every adult citizen in the United States for $5,000 https://t.co/s4orJJGx9d"
+          "reason": "non_fbs_offer_target",
+          "postId": "2097903230311440570",
+          "author": "maddoxlazor",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with coach Burcar, I’m blessed to receive a division 1 offer from Northern Arizona Univeristy https://t.co/rjnFPEs5vG"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097890428964245610",
-          "author": "nativenoticer",
-          "searchJob": "tennessee",
-          "text": "@The_Real_Bjorn1 Haha so we had such a busy year, construction slowed down in Tennessee. I’m thinking next June is moving time. I’m dreading it. But we got a potential buyer for the Montana property. I would hate to sell it to a foreigner, "
+          "postId": "2097893122038497412",
+          "author": "jaylensmith724",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my 13th offer from hinds cc @CoachLacey24 @CoachPDUB_ https://t.co/2L2vpwe3de"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2097886340134089114",
+          "author": "knightchase497",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer from Winston Salem State University!! Extremely grateful to @jaybutlerwssu @wssumbasketball https://t.co/IsU0ptJHWu"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097882333005086890",
-          "author": "qz",
-          "searchJob": "tennessee",
-          "text": "https://t.co/UgqZomKzx1"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097900217165344797",
-          "author": "angrytexasmom",
-          "searchJob": "texas",
-          "text": "Vahan of Armenia, Rome’s field commander in the East, kept trying to reason with Khalid ibn al-Walid He asked the obvious question: if I just say the words of the shahada, is that enough… or do you require actions too? Khalid didn’t offer a"
+          "postId": "2097884704150094172",
+          "author": "tntxsxpreme",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive another game day visit from @GoKnightsFB thank you @CoachRo35 for the opportunity #GoKnights‼️ #SOH @CoachTy_1 https://t.co/DPlVN13ppa"
         },
         {
           "reason": "hard_negative",
-          "postId": "2097895282860347575",
-          "author": "angrytexasmom",
-          "searchJob": "texas",
-          "text": "Yarmouk. August 636. Khalid ibn al-Walid — the “Sword of Allah,” commander of the Muslim army. Met Vahan of Armenia, the Roman Empire’s field commander in the East (magister militum per Orientem). Rome offered food and coin if they would go"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097871217156108797",
-          "author": "foxnewspolitics",
-          "searchJob": "texas",
-          "text": "Texas Democratic Senate candidate James Talarico now says he supports banning transgender surgeries on minors and opposes trans athletes in girls' sports — a sharp reversal from the lawmaker who once declared 'God is nonbinary' on the state"
+          "postId": "2097881952581767275",
+          "author": "laurynholley12",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great official visit to Wheaton College and a great discussion with Coach Madsen and Coach Joanna, I’m Blessed to receive an offer to play basketball as a part of the Thunder! Thank You Coach Madsen, Coach Joanna, and @wheaton_wbb f"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097888554655392219",
-          "author": "gregabarth",
-          "searchJob": "texas",
-          "text": "@cspan And a special offer on your very own bridge."
+          "postId": "2097884090355888598",
+          "author": "bryliehardwick",
+          "searchJob": "phrase:\"blessed to have received\"",
+          "text": "Had a great time during my visit this morning at Lindsey Wilson University. Thankful and blessed to have received an offer! Thanks so much Coach @callumpilgrim_ and Coach @bellesharber #WhatwillMYfuturehold #FiguringItOut #Senior #Classof20"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097887644852031529",
-          "author": "austinmslingers",
-          "searchJob": "texas",
-          "text": "If your policies actually worked for everyday working people, you wouldn’t need to offer a $5,000 bribe to vote Republican. Ken Paxton and Trump are terrified of accountability. We don't want your empty handouts or fake culture wars. We wan"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097880548656157155",
-          "author": "digitalmar49911",
-          "searchJob": "texas",
-          "text": "Copy Master https://t.co/QwnWHK8r2i"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097885218497556880",
-          "author": "qz",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/xszCzSusbh"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097882708458226031",
-          "author": "qz",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/MT3p0kKou0"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097882231368765931",
-          "author": "saboumerhi123",
-          "searchJob": "texas-tech",
-          "text": "Secular Democratic Alternative anchored on three pillars: establishing a civil secular state protecting civil rights, instituting direct citizenship alongside full judicial independence, and building a productive economy grounded in social "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097811748094902500",
-          "author": "techathletics",
-          "searchJob": "texas-tech",
-          "text": "Please join us in mourning the passing of legendary sports information director Joe Hornaday. https://t.co/1yujBYjI5D https://t.co/Z33dyOEVSI"
+          "postId": "2097882201039819072",
+          "author": "taleesahope",
+          "searchJob": "phrase:\"blessed to have received\"",
+          "text": "After a great conversation with @dylanschmit23 I’m blessed to have received an offer to continue my academic and athletic career at Graceland University 💛💙 https://t.co/05HFbAFs2G"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097877081384226824",
-          "author": "manofmany",
-          "searchJob": "texas-tech",
-          "text": "The new @Apple #AppleWatch Series 12 offers a deeper look at your daily health and fitness. @ElliotNashNews details the Australian release date, pricing, and top features. https://t.co/J4mwjn5k2o"
+          "postId": "2097896890062811176",
+          "author": "duke49776257",
+          "searchJob": "duke",
+          "text": "Trump has offered a $5K bounty to every adult if the GOP wins both houses. Whose $1.348 trillion will he use? This is a crime, a bribe, an attempt to rig an election! This traitor is not just trying to steal votes, he is trying to steal Ame"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2097894129913262478",
-          "author": "sasquatchu",
-          "searchJob": "utah",
-          "text": "@parker_andorasu @ShortStackUte @SportyMcSports Ryder Lyons, Walker Lyons, and Brock Harris. Unfortunately, this is going to become a more consistent thing among highly ranked LDS recruits who are offered big NIL deals."
+          "reason": "hard_negative",
+          "postId": "2097898720817996156",
+          "author": "cai_smart",
+          "searchJob": "wake-forest",
+          "text": "Seven terminal backends, two of which hibernate when idle and wake on demand. The agent is not meant to live on your laptop. Recommendation: ★★★★☆ Difficulty: Intermediate Without it, a coding agent session is a laptop-bound thing. You open"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2097884542921314485",
-          "author": "williejuancom",
-          "searchJob": "utah",
-          "text": "Grok Intel Update 9-16-25 Re: Was Charlie Kirk an asset and stooge of israheili intel? QUESTION: i read that charlie kirk's group turning point has been financed in large part by active zionist operators for the last ten years and that he w"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097883877792690539",
-          "author": "williejuancom",
-          "searchJob": "utah",
-          "text": "massive turnout for the stooge brigade. Grok Intel Update 9-16-25 Re: Was Charlie Kirk an asset and stooge of israheili intel? QUESTION: i read that charlie kirk's group turning point has been financed in large part by active zionist operat"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097883698578456576",
-          "author": "williejuancom",
-          "searchJob": "utah",
-          "text": "Grok Intel Update 9-16-25 Re: Was Charlie Kirk an asset and stooge of israheili intel? QUESTION: i read that charlie kirk's group turning point has been financed in large part by active zionist operators for the last ten years and that he w"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097874942452752412",
-          "author": "kirbylmarshall",
-          "searchJob": "marshall",
-          "text": "@TeamCinde BS,,, more Dem Gaslighting. School choice is raising kids test scores everywhere it is offered. Our children deserve the best education possible. Choice brings competition which is the best answer to improve our whole education s"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097894829136986576",
-          "author": "goldensnitch327",
-          "searchJob": "massachusetts",
-          "text": "@DJILLSKILLS @TAforshort @DKSports @DK_Assist Not offered in Massachusetts"
+          "reason": "hard_negative",
+          "postId": "2097903529465704870",
+          "author": "lehmanlaw",
+          "searchJob": "arkansas-state",
+          "text": "The same society that has never existed and isn’t doing anything to change that. Given the obsession with Israel coming from any countries I do have what I think is a necessary proposal to show good faith on behalf of Israel. Feel free to s"
         }
       ]
     },
     "extraction": {
-      "accepted": 2,
-      "rejected": 38,
+      "accepted": 0,
+      "rejected": 12,
       "reasons": {
-        "school_not_resolved_confidently": 17,
-        "bare_mention_requires_llm": 17,
-        "multiple_resolved_schools": 3,
-        "reporter_missing_player_name": 1
+        "school_not_resolved_confidently": 4,
+        "bare_mention_requires_llm": 5,
+        "multiple_resolved_schools": 3
       },
       "samples": [
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097897938072846845",
-          "author": "jeannebauer42",
-          "searchJob": "toledo",
-          "text": "Elon Musk if you guys ever wonder why I tag ELON almost on everything . Well it’s because I came on here to research him five / six months ago. I was only supposed to be on for one hour. I made the account and I was blown (away my IQ 137) ."
+          "postId": "2097893159615283218",
+          "author": "reyhay10",
+          "searchJob": "phrase:\"blessed to have received\"",
+          "text": "After a great visit with @JoeMcKinstry and @WillisAllen14 I am blessed to have received my 6th official offer from @KCKCC_WBB ! Thank you coaches for this opportunity! Go Blue Devils? ❤️💙😈🤘🏽 #agtg #collegebasketball #offer #hardworkpays"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097883905101607395",
-          "author": "2026jivanovich",
-          "searchJob": "toledo",
-          "text": "✍🏼 Once our internal topography is verified & mapped , logistics of landing heavy cargo starships must be completely re engineered . Landing massive rockets vertically down the center of a heavily populated / developing basin creates an un"
+          "postId": "2097901592225927660",
+          "author": "el_kanon_breaks",
+          "searchJob": "colorado",
+          "text": "@BleedBlueshirts But they do way more volume on lower end cards. Like, waaaaay more. And their partner offers on low end cards are like 60% instead of 80-90% on higher end. It's is more profitable to do volume on low end than minimal high e"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097888508518011015",
+          "author": "buckomaniac1",
+          "searchJob": "colorado",
+          "text": "@Eskimokie36 I got gifted some years back but I had to turn them down because I couldn’t go. It worked out though, a couple months later we were playing Colorado for the big 12 championship and they offered tickets for it and I was actually"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097900316653985977",
-          "author": "troy_report",
-          "searchJob": "troy",
-          "text": "BREAKING: Troy has extended an offer to 2028 CB/WR/ATH Chase Davenport out of Whitewater High School (Ga.)! @chasedavenpor21 The 5-foot-11, 166-pound dual-sport athlete is making plays on both sides of the football and brings 4.5 speed to t"
+          "postId": "2097888464381313435",
+          "author": "buffaloesfandom",
+          "searchJob": "colorado",
+          "text": "Weber State's Eric Kjar Offers Honest Insight Into What Makes Colorado Challenging https://t.co/LeWoFIJpwU Buffaloes Fandom presented by Weekly Income Trader at https://t.co/2gDjfh6ONi #coloradobuffaloes #gobuffs #coloradosports"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097892740092542998",
-          "author": "_navybrat",
-          "searchJob": "georgia",
-          "text": "Did those who are grumbling about this forget that Biden did this? Biden and Democrats in the 2020 Georgia runoff talked about $2,000 checks. By then Congress had already passed $600 checks in December 2020 (signed by Trump). The American R"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097894881263800450",
-          "author": "gervap",
-          "searchJob": "kentucky",
-          "text": "@parker_brydon @grok what is the whiskey that is made in Canada and is well rated to offer a very similar taste notes as a Kentucky straight bourbon?"
+          "postId": "2097886409596219798",
+          "author": "bert_gilfoyle",
+          "searchJob": "duke",
+          "text": "In 2024, Duke Energy, Amazon, Google, Microsoft, and Nucor came up with the idea of pooling their resources and collectively advancing clean energy for the powering of their large loads. In the same year they came up, with Duke Energy, the "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097899886918144341",
-          "author": "bamainn",
-          "searchJob": "lsu",
-          "text": "@bearded1ndr @SportBeatTweet Unless the Big 12 offered LSU a special unequal share worth roughly $70 million....and its television partners funded it...the move makes almost no economic sense because LSU would be making like $25-32M less in"
+          "postId": "2097902717670744146",
+          "author": "jonswiftucf",
+          "searchJob": "ucf",
+          "text": "@JMUGameday JMU comes to UCF in 2029. usf was offered the same argument. They don’t bring any value to UCF. We’ll continue to have a G5 team come play in Orlando every year."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097893408601944357",
+          "author": "psiopsisreal",
+          "searchJob": "wake-forest",
+          "text": "https://t.co/wLaXwl4NFx A Brief Filed in the Court of Night O Angel mine, whom Nature hath made counsel unto the trembling leaf and patient stone, thou walkest where the rivers take their oaths and every dawn doth swear itself thine own. Th"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097880813765570820",
-          "author": "darwin15237051",
-          "searchJob": "lsu",
-          "text": "Volunteer Group Mistakes Clemson Tiger For Transient During Cleanup Effort, Offers Him Food, Shelter LSU fans eventually had to explain that Clemson brought him here on purpose. https://t.co/hRT9GRZlH0"
+          "postId": "2097902963847057503",
+          "author": "bankresan",
+          "searchJob": "arkansas-state",
+          "text": "Ursula von der Leyen, Christine Lagarde, Tidaholm, Trollhättan, Skövde, Karlskoga, Alfred Nobel Karlskoga, Örebro, Täby, Stockholm, Tomelilla, Ystad, Sweden, Nordea Russia, Finansinspektionen, 1986-2026 -40 years Time for Sweden's Pride Bof"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097879969741349310",
-          "author": "dingo_vs_baby",
-          "searchJob": "lsu",
-          "text": "@thelsuchad LSU contacts pro athlete, offers them NIL, leaves 2 roster spots for the players, day before SEC hearing fills those spots with none pro athletes and acts like the SEC are the crazy ones. What a fucking clown show! It’s going to"
+          "postId": "2097894787655651430",
+          "author": "algxtradingx",
+          "searchJob": "arkansas-state",
+          "text": "This produces an institutional microtime. Thought may develop associatively; testimony must emerge serially. Several possible continuations can be present to a speaker while only one answer is authorized. The proceeding repeatedly cuts a br"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097884990243561556",
+          "author": "gail23828786",
+          "searchJob": "arkansas-state",
+          "text": "@BGatesIsaPyscho I thought we in the UK offered refuge to persecuted people. Is it because this is a state sanctioned war?"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097878171131548109",
-          "author": "volunteersxo",
-          "searchJob": "tennessee",
-          "text": "Pop energy: Maldon’s 13th offer proves the gym is a shrine and I still trip over the stadium seats. Vols ride the hype wave with a 3.85 GPA beard. #GoVols 🏈 #GoVols"
+          "postId": "2097884485673267398",
+          "author": "powellalex80076",
+          "searchJob": "arkansas-state",
+          "text": "No, Israel has openly offered the Pal's a state on numerous occasions- Clinton said it. Clinton told all what was offered to the Pali's, but you won't believe it. Are you mentally retarded? Anyway, it's too late now. They only want to fight"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097896972933865938",
-          "author": "mckee_tb",
-          "searchJob": "texas",
-          "text": "@CoachCollins @TexasFootball @InsideTexas @ontexasfootball @TexasLonghorns @kyleumlang @UTBarstool @TheTexasHomer @GHamiltonOTF @BobbyBurtonOTF @Menace2Sports @KristopherDrew_ One key to this is the shaded nose fully occupying that right gu"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097893282529313030",
-          "author": "miiller",
-          "searchJob": "texas",
-          "text": "Another walk back by the Texas wannabe senator. Looks like Talarico is on a walk back crusade walking back everything he originally stood for Guess he has figured out what he stood for was what no Texan wanted. In October will Talarico offe"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097890717192335850",
-          "author": "arahhal1",
-          "searchJob": "texas",
-          "text": "@allthelovelol Are you open to 9/12? I’m taking any and all offers at this point as I’m from Texas. PayPal g&amp;s only! Feel free to dm me! Can send any proofs. Do FaceTime transfer. Literally anything. Just would like to get the ticket of"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097887454338728273",
-          "author": "trying2help",
-          "searchJob": "texas",
-          "text": "@yourauntemma So Texas chooses between someone who challenges their defences or- a corrupt criminal sexual dissolute and pedophile protector? Psychological defences tend to win every time until people feel safe. Can Talarico offer safety? Y"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097887375858839981",
-          "author": "williev73404398",
-          "searchJob": "texas",
-          "text": "@DonHuffines You were in the Texas Senate and NEVER offered legislation to do that."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097887150536585340",
-          "author": "briankarem",
-          "searchJob": "texas",
-          "text": "From a Texas Republican on the floor of the Mid-term convention after hearing Trump offer a $5000 bribe to every voter if the Republicans keep the House and the Senate in the midterm elections: \"The United States of America is dead. It is n"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097879048139522173",
-          "author": "buckeyefbnation",
-          "searchJob": "texas",
-          "text": "Still can’t believe Texas flat out refused to offer JSN"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097878143759515927",
-          "author": "triumph_info",
-          "searchJob": "texas",
-          "text": "Market Recap Sept 9, 2026: Brent Tops $100, Small Caps Hit https://t.co/09ItDtnKjq via @YouTube SEPTEMBER 9, 2026 MARKET UPDATE Stocks fell for a second straight session as Brent crude closed above $100 a barrel for the first time since Jul"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097875786057621597",
-          "author": "camperfaqs",
-          "searchJob": "texas",
-          "text": "Free RV parking for up to three nights - no strings attached! 📌 SAVE THIS ONE Huber Park RV Park in Borger, Texas offers eight RV-only sites with water and electric hookups at no cost. Stays are limited to 72 hours within a seven-day perio"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2097889380543218059",
-          "author": "csmithscout",
-          "searchJob": "ucla",
-          "text": "#TN2028 Uni. School of Jackson Tight End #PRZTN New Offer: #GeorgiaTech .....#RamblinWreck #ACC #Bruins #WestTN28 #CSS #TNHSFB https://t.co/tH5wTxHCYt"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097900526713323825",
-          "author": "abhijitjoshi87",
-          "searchJob": "texas-tech",
-          "text": "Apple has never been cost friendly in india .... Their products always offered better discounts on other platforms rather than their own websites or stores .... Who would have thought that a phone would cost 3 lacs But there will be people "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097897854522060909",
-          "author": "nafaupspo",
-          "searchJob": "texas-tech",
-          "text": "🏫#Chennai-headquartered #EV company #Raptee.HV has opened a 3,000 sq. ft. Centre of Excellence at Rajalakshmi Engineering College, building an industry-academia partnership focused on EV tech This will offer students industr exposure &amp;"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097897659294208363",
-          "author": "radialhr",
-          "searchJob": "texas-tech",
-          "text": "Looking for top engineering talent? We offer expert recruitment consultancy for Computer Science, Electronics &amp; Communication (ECE), VLSI, AI/ML, and Automation streams! Partner with us to hire top-tier tech, software, and hardware desi"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097894873097470261",
-          "author": "cenjows",
-          "searchJob": "texas-tech",
-          "text": "#cenjows_CORE_program The @CENJOWS is proud to host the Combined Operational Review and Evaluation (CORE) Program, a pivotal platform driving multi-domain synergy, joint warfare strategies, and operational readiness across India’s Armed For"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097894621460287738",
-          "author": "classicnewwho",
-          "searchJob": "texas-tech",
-          "text": "What the cybermen didn't account for is Missy messing with their tech to make them totally obedient. Not to mention she wanted to draw the Doctor in, so killing off Clara's boyfriend and running a whole mosoleum which offers speaking to the"
+          "postId": "2097884183649505502",
+          "author": "claricecarmello",
+          "searchJob": "arkansas-state",
+          "text": "Anyone with a large following willing to repost this? I'm a tiny account and I haven't seen this on X. Kellie, “He had the hardest time getting over the fact that Lindsay viscously killed her children\" Farina was an advocate for freeing Kar"
         }
       ]
     },
@@ -413,12 +259,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 2,
-      "rejectedCandidates": 38,
-      "brandNewOffers": 2
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 12,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T04:13:26.416Z"
+    "status rebuilt locally from current store on 2026-09-10T04:27:53.547Z"
   ]
 }
