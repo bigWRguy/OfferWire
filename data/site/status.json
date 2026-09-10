@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T18:56:41.680Z",
+  "generatedAt": "2026-09-10T19:13:19.403Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T18:56:41.467Z",
+    "at": "2026-09-10T19:13:19.098Z",
     "jobsTotal": 162,
-    "sweptThisRun": 4,
-    "requests": 5,
-    "fullSweepCycles": 41
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30,48 +30,15 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [
-    {
-      "id": "old-dominion",
-      "hours": 2.2
-    },
-    {
-      "id": "oregon-state",
-      "hours": 2.2
-    },
-    {
-      "id": "rice",
-      "hours": 2.2
-    },
-    {
-      "id": "sam-houston",
-      "hours": 2.2
-    },
-    {
-      "id": "san-diego-state",
-      "hours": 2.2
-    },
-    {
-      "id": "san-jose-state",
-      "hours": 2.2
-    },
-    {
-      "id": "uab",
-      "hours": 2.2
-    },
-    {
-      "id": "unlv",
-      "hours": 2.2
-    }
-  ],
+  "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.2546086111111112,
-    "p95Hours": 2.2122805555555556,
-    "worstHours": 2.2122805555555556
+    "medianHours": 1.275803888888889,
+    "p95Hours": 1.7746925,
+    "worstHours": 2.030551111111111
   },
   "decisionCoverage": {
-    "total": 2,
-    "decided": 2,
+    "total": 46,
+    "decided": 46,
     "complete": true
   },
   "pending": {
@@ -88,49 +55,288 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T18:56:41.466Z",
-      "got": 2,
-      "new": 2,
-      "lag": 0.68
+      "at": "2026-09-10T19:13:19.097Z",
+      "got": 59,
+      "new": 46,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-09-10T18:56:20.204Z",
+    "at": "2026-09-10T19:11:34.861Z",
     "mode": "live",
     "collection": {
-      "returned": 2,
-      "kept": 2,
-      "duplicate": 0,
+      "returned": 59,
+      "kept": 46,
+      "duplicate": 13,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 2,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 35,
+      "rejected": 11,
+      "reasons": {
+        "no_fbs_school": 8,
+        "no_offer_term": 2,
+        "non_fbs_offer_target": 1
+      },
+      "samples": [
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098114827545927872",
+          "author": "lourice97",
+          "searchJob": "rice",
+          "text": "There is really no need to be this nasty at all. You disagree with me (youve offered zero evidence or even your thought process for why you think what you think) and I disagree with you. Great. The reality is that neither one of us will be "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098099933400449504",
+          "author": "sherriricere",
+          "searchJob": "rice",
+          "text": "The great debate in home design! Open layouts create a connected, social atmosphere perfect for entertaining, while separate rooms offer privacy, quiet, and a sense of comfort. Which style fits your lifestyle? #sherriricerealtor, #mcleanrea"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098101266907906143",
+          "author": "cridings1",
+          "searchJob": "arkansas",
+          "text": "@thinkngpolitics @bar9cattle and the defense didnt offer any evidence that Patrick did anything to the kids did he"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098126807950107110",
+          "author": "michfbfrenzy",
+          "searchJob": "michigan",
+          "text": "Sanford Meridian 2027 WR/RB Bridger Ouderkirk was offered by Kalamazoo @Ouderkirk09 https://t.co/7eNqqa5vba"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098120067833618594",
+          "author": "michigannews",
+          "searchJob": "michigan",
+          "text": "Sleeping Bear Dunes offers a rare escape from light pollution with lantern-lit trails, telescope viewings, and sweeping views of Lake Michigan after dark. https://t.co/dRBFc9c89n https://t.co/HBV8U7k4H2"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098108852596076849",
+          "author": "rescue_michigan",
+          "searchJob": "michigan",
+          "text": "Vance is lying. What Trump said was: \"I will issue a dividend to every adult citizen in the United States of America for $5,000.\" Trump EXPRESSLY made Americans a cash offer for their votes."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097895511642566760",
+          "author": "amconmag",
+          "searchJob": "michigan",
+          "text": "Vice President JD Vance explains how Trump's proposed $5000 dividend if Republicans win the House and Senate will work: \"The president is saying, if you keep us in power, then you will share in some of the benefit of this incredible wealth "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098124910446915951",
+          "author": "mngensoc",
+          "searchJob": "minnesota",
+          "text": "North Star 2026 offers sessions on digital archives, genealogy software, AI, and research strategies to help you organize and preserve family history. Meet the speakers and register: https://t.co/7vNV5eYpad #NorthStar2026 https://t.co/rpfk8"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098103528350781583",
+          "author": "mnselect",
+          "searchJob": "minnesota",
+          "text": "Come coach with us at MN Select! MN Select offers professional growth through coaching resources, evaluations, training programs, Art of Coaching Volleyball and AVCA memberships, and group training for 15U teams. Coaches benefit from a supp"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098113022283972967",
+          "author": "newstribune",
+          "searchJob": "missouri",
+          "text": "Missouri state education agencies have partnered with Google to provide free artificial intelligence and job-skills training to educators, students and job seekers across the state. #JCMO #MidMo https://t.co/V0gOUhzLeF"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098099698108178544",
+          "author": "southeastrpdc",
+          "searchJob": "missouri",
+          "text": "This opportunity offered by the Gateway Down Syndrome Association - Southeast Missouri Chapter is coming up soon! Down Syndrome Education Specialist Program: September 16 Register at: https://t.co/RiXz9nSZJe https://t.co/Dp6TPC9PDM"
+        }
+      ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 2,
+      "accepted": 1,
+      "rejected": 34,
       "reasons": {
-        "bare_mention_requires_llm": 2
+        "bare_mention_requires_llm": 26,
+        "multiple_resolved_schools": 5,
+        "school_not_resolved_confidently": 1,
+        "reporter_missing_player_name": 2
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098113313624182979",
-          "author": "porschedelaware",
-          "searchJob": "delaware",
-          "text": "For drivers who still prefer to choose their own gears, the 911 Carrera S can once again be ordered with three pedals. Offered exclusively in North America, the MT Package pairs a six speed manual with the 473 hp 3.0 liter twin turbo flat s"
+          "postId": "2098119694591111637",
+          "author": "thaaaaaaat",
+          "searchJob": "rice",
+          "text": "Running at dawn offers the best opportunity to bond with nature before the world stirs. Inhale the crisp air cleansed by nighttime moisture, hear the birds singing in the forest, and allow each step of your run to blend into the soft mornin"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098109779394671081",
-          "author": "cprocareagency",
-          "searchJob": "delaware",
-          "text": "Care gaps disrupt routines. Compassionate Provider Care Agency, LLC offers non-medical support. Ask a trusted person to cover your break. Bucks, Chester, Delaware, Montgomery &amp; Philadelphia. 888-902-CPCA https://t.co/tJR38cVmdx"
+          "postId": "2098114598473785748",
+          "author": "realk_tweets",
+          "searchJob": "rice",
+          "text": "@GMU12PHY @DuncanSimmonds @talkSPORT Rice is missing from his game? First of all he’s wrong on what rice offers. Not other midfielder in the league has had more driving runs and ball carries into the oppositions half than rice has in the la"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098112196047732836",
+          "author": "gazwil58",
+          "searchJob": "rice",
+          "text": "@Chelsearory I’m old enough to have seen Souness play for many years . I would take Rice over Souness simply because Rice has more to offer all round . Souness was the better killer passer but don’t think he beats Rice in . Pace, heading , "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098111510728024437",
+          "author": "rottenpokari",
+          "searchJob": "rice",
+          "text": "I'm at the market, enjoying my mango sticky rice while observing the vendors peddling their wares. The market buzzes with energy and vivid hues, as sellers shout their offers and customers haggle, crafting a dynamic scene.😍Playing darts wi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098104395216896335",
+          "author": "crimsonli",
+          "searchJob": "rice",
+          "text": "@Aarka1017686 @mikeymusto I offer captain banana and rice https://t.co/95yPMc4Pg1"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098104326392782885",
+          "author": "abukassim21",
+          "searchJob": "rice",
+          "text": "🤗Continue supporting others with sincere intentions. For breakfast the following day, she enjoyed dosa—a delicate, crunchy pancake prepared from rice and lentils, accompanied by sambar and chutney. The dosa had a crisp, airy texture, while"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098103899634962573",
+          "author": "zyangul1",
+          "searchJob": "rice",
+          "text": "🧀Stewed rice with rice, stewing. It's never too late to let go of harmful, outdated ways of thinking. Regardless of how long you've stuck to unproductive habits, today offers a new beginning to cultivate routines that nurture your dreams. "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098101810372444620",
+          "author": "taiwooye123",
+          "searchJob": "rice",
+          "text": "If you are offered $50k not to eat for a week, but you're only allowed to eat now. Which food are you eating. Jollof Rice OR Eba https://t.co/x9FW66SL3x"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098099249720557819",
+          "author": "iwashow1220",
+          "searchJob": "rice",
+          "text": "She ate dosa for breakfast the following morning—a slender, crunchy pancake crafted from rice and lentils, accompanied by sambar and chutney. The dosa had a crisp, airy texture, while the sambar brought heat and zest, and the chutney offere"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098098163500351923",
+          "author": "goodycjg20chris",
+          "searchJob": "rice",
+          "text": "Should @Arsenal 🤝 @CPFC go for big swap smart move in January for both clubs to gain …. All players already settled in London @m8arteta Berta Sign Mateta & Wharton include Gyokeres & Madueke in the deal Protects Declan Rice Longterm whilst"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098096425498218689",
+          "author": "lucianacarvente",
+          "searchJob": "rice",
+          "text": "Take your time enjoying milk tea to savor the small joys hidden in everyday moments. Little culinary treats offer the truest comfort in daily life. 🗳Braised Rice — the rice satisfies your hunger https://t.co/p6DcMLBJT5"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098095919833247990",
+          "author": "z05180505",
+          "searchJob": "rice",
+          "text": "🥍Visiting the children's museum with my daughter. She has a passion for artworks. I find myself in the marketplace, savoring my mango sticky rice while observing the sellers peddling their wares. The bazaar buzzes with energy and hues, as "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098095780342940034",
+          "author": "rosylibrary_1",
+          "searchJob": "rice",
+          "text": "A very interesting short story: My landlord tried to make me feed him, but I’m sticking to the terms he set and now he’s mad. #pettyrevenge Basically, I 31f moved into a renovated basement unit on the 1st. My unit has its own bedroom, bathr"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098095747228938491",
+          "author": "rosylibrary_1",
+          "searchJob": "rice",
+          "text": "A very interesting short story: My landlord tried to make me feed him, but I’m sticking to the terms he set and now he’s mad. #pettyrevenge Basically, I 31f moved into a renovated basement unit on the 1st. My unit has its own bedroom, bathr"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098095726563565683",
+          "author": "rosylibrary_1",
+          "searchJob": "rice",
+          "text": "A very interesting short story: My landlord tried to make me feed him, but I’m sticking to the terms he set and now he’s mad. #pettyrevenge Basically, I 31f moved into a renovated basement unit on the 1st. My unit has its own bedroom, bathr"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098125440279777538",
+          "author": "gog316322",
+          "searchJob": "sam-houston",
+          "text": "TWENTY-SIX \"Every Man and Woman is a Star\" But ye have borne the tabernacle of your Moloch and Chiun your images, the star of your God, which ye made to yourselves. — Amos 5:26 Every man and woman is a star. — Aleister Crowley The Book of t"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098095695102136595",
+          "author": "sdsualumni",
+          "searchJob": "san-diego-state",
+          "text": "Calling all #SDSUAlumni! Want to help shape the next generation of Aztecs? The new Aztec Mentor Program (AMP) is looking for mentors! Share your experience, offer real career guidance, and connect one-on-one with a current SDSU student. Lea"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098125048523485434",
+          "author": "reporttscam",
+          "searchJob": "michigan",
+          "text": "🚨🚨 HAVE YOU FALLEN VICTIM TO A SCAM? SPEAK UP AND REPORT IT! 🚨🚨 ⚠️ If you have experienced an online scam, fraud, or financial deception, TAKE ACTION AND REPORT IT TODAY! Don’t allow fraudsters to walk away with your hard-earned money. "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098123613237051519",
+          "author": "thegreatyarrow",
+          "searchJob": "minnesota",
+          "text": "@RyLo73835641 Minnesota can offer him an extra year which gives him more money that anyone else can offer. You’ve embarrassed and tarnished your fake account"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098120623729864800",
+          "author": "pearlosnhlpow",
+          "searchJob": "minnesota",
+          "text": "You do not watxh my videos obviously. I said he made the decision with very weak leverage and now has the leverage assuming Detroit has no palate to have him back. Which I figured he would do to get the leverage. Who I said had all the leve"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098114671840497771",
+          "author": "eziermeier39858",
+          "searchJob": "minnesota",
+          "text": "When you go to Walmart in Hastings Minnesota they only offer what they want you to buy. 🤪✔️."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098114207388422584",
+          "author": "bbmind",
+          "searchJob": "minnesota",
+          "text": "@elyisum13 You dumbasses forget when Biden said the $2000 checks would go out if Dems won Georgia. You forget Walz offered $1000 for single/$2000 for couple, if Dems won Minnesota. You forget the politicians that promised student loan forgi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098105023922397482",
+          "author": "ta_polychrobis",
+          "searchJob": "minnesota",
+          "text": "Natalie Winters: Minnesota taxpayers are subsidizing homebuyers using Islamic-finance companies. The program exploded 2,317% in just six months. It has already issued $7.25 MILLION, all approved providers offer Islamic finance, and eligibil"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098098323978645548",
+          "author": "boxofduststudio",
+          "searchJob": "minnesota",
+          "text": "@Tonyrudh @GovTimWalz Ah. Ok. Learning time. Minnesota program is OVS, except where federal guidelines must be followed. Extra snacks are outside the program, and very likely not free. Now if lunch offers apples, or fruit cups, I assume kid"
         }
       ]
     },
@@ -138,20 +344,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 4,
-      "failed": 1,
-      "requests": 5,
-      "errors": [
-        "old-dominion: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 2,
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 34,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T18:56:41.681Z"
+    "status rebuilt locally from current store on 2026-09-10T19:13:19.404Z"
   ]
 }
