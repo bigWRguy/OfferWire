@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T16:45:29.521Z",
+  "generatedAt": "2026-09-10T17:13:00.948Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T16:45:29.288Z",
+    "at": "2026-09-10T17:13:00.686Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -30,381 +30,405 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [
-    {
-      "id": "rice",
-      "hours": 2.1
-    }
-  ],
+  "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.8195525,
-    "p95Hours": 1.564021388888889,
-    "worstHours": 2.0610666666666666
+    "medianHours": 1.0252680555555556,
+    "p95Hours": 1.7775633333333334,
+    "worstHours": 1.7775633333333334
   },
   "decisionCoverage": {
-    "total": 44,
-    "decided": 44,
+    "total": 71,
+    "decided": 71,
     "complete": true
   },
   "pending": {
     "total": 25
   },
   "profileResolution": {
-    "cached": 45
+    "cached": 46
   },
-  "paginationBacklog": 2,
+  "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 983,
+    "completeOffers": 984,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T16:45:29.288Z",
-      "got": 77,
-      "new": 44,
+      "at": "2026-09-10T17:13:00.686Z",
+      "got": 97,
+      "new": 71,
       "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-09-10T16:43:57.454Z",
+    "at": "2026-09-10T17:11:29.403Z",
     "mode": "live",
     "collection": {
-      "returned": 77,
-      "kept": 44,
-      "duplicate": 31,
-      "tooOld": 2,
+      "returned": 97,
+      "kept": 71,
+      "duplicate": 26,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 23,
-      "rejected": 21,
+      "accepted": 46,
+      "rejected": 25,
       "reasons": {
+        "no_offer_term": 9,
+        "no_fbs_school": 13,
         "hard_negative": 2,
-        "no_fbs_school": 10,
-        "no_offer_term": 6,
-        "unclassified_offer_text": 1,
-        "non_fbs_offer_target": 2
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
-          "reason": "hard_negative",
-          "postId": "2098087076180688911",
-          "author": "bravesscoutteam",
-          "searchJob": "rice",
-          "text": "Congrats to Harrison Williams on committing to Rice-One of the best hitters in the country and in Texas shined last fall for Coach Douglas in the PBR Fall World Series Championship at Lakepoint-Harrison earned his offer by hard work and det"
+          "reason": "no_offer_term",
+          "postId": "2098094806161404197",
+          "author": "nyhetsbubbla",
+          "searchJob": "kansas",
+          "text": "Högsta domstolen stoppar byte av valkretskartor i Missouri Kavanaugh låter delstatens krav på folkomröstning gälla och river upp federal domares beslut, primärval hölls redan i kretsar som kan vara ogiltiga när mellanårsvalet avgörs https:/"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098080630831460823",
-          "author": "rice_gene3333",
-          "searchJob": "rice",
-          "text": "@ImBreckWorsham Don't the socialist democrats offer free stuff if folks vote blue no matter who. Is that also a \"crime\" in your mind, or is there a double standard? Hmmm. Is it a crime to allow non-citizens to vote in our elections?"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097966335795843216",
-          "author": "funksbabyy",
-          "searchJob": "rice",
-          "text": "No be every gig you go collect. https://t.co/m9yPvCtr44"
-        },
-        {
-          "reason": "unclassified_offer_text",
-          "postId": "2098069590601560120",
-          "author": "buzztowns",
-          "searchJob": "rice",
-          "text": "Did you know Tulsi leaves, broken rice (khandit akshata), and Ketaki flowers are traditionally forbidden on Bappa’s altar? ​Here’s why these 7 offerings are avoided: 👇 [https://t.co/aCzi0Gps9l] #ganeshchaturthi https://t.co/eDUPIFKPeM"
+          "postId": "2098094214928105642",
+          "author": "38thespot",
+          "searchJob": "kansas",
+          "text": "Sponsored: Moving forward after the loss of a child is challenging. Alison's Angels GPS provides peer-to-peer mentorship, from those who have walked the path. This KSHB Cares is powered by Best Offer KC Homebuyer. @webuykansascity @Belinda_"
         },
         {
           "reason": "hard_negative",
-          "postId": "2098064440717398265",
-          "author": "nonewthing",
-          "searchJob": "rice",
-          "text": "When we have games with a lot of transitions and space, I prefer Eze at 10. When we have games with low-mobility against a lowblock, I prefer Odegaard at 10. Odegaard is however one of the very best pressers in the world, so if we always pr"
+          "postId": "2098070682814775409",
+          "author": "ohnjaye4",
+          "searchJob": "kansas",
+          "text": "Dementia Donald @realDonaldTrump @POTUS @Trump should be charged with bribery ... From the Kansas City Star: Trump commits election crime on national TV with scheme to buy votes | Opinion His offer to pay voters $5,000 each if Republicans w"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098079482439454894",
-          "author": "jasonmiller15",
-          "searchJob": "maryland",
-          "text": "A former Red Lobster site in Maryland may become a c-store and car wash The ~6,000 sf Red Lobster building is expected to be demolished In its place Dash-In Food Stores is planning a 4,800 sf c-store, 6 fueling dispensers, 2 EV charging sta"
+          "postId": "2098070275279462696",
+          "author": "adsohn",
+          "searchJob": "kansas",
+          "text": "Tbh open for business for my vote on any office aside from Ag Secretary and Attorney General. Make me an offer, Kansas man."
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098083974748742112",
-          "author": "alpoliticsx",
-          "searchJob": "alabama",
-          "text": "Trump-a-Palooza Kicks Off in Dallas -Trump offers a $5,000 “dividend,” defends the Iran war and puts himself squarely at the center of the GOP’s midterm fight #alpolitics #Dallas @realDonaldTrump @ALGOP @Republicans Link in comments ⬇️ http"
+          "postId": "2098084251098923014",
+          "author": "kentsinclaed0q",
+          "searchJob": "kent-state",
+          "text": "@US_judejeanine No, no one is forcing them to eat it if it is offered."
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098079805321130167",
-          "author": "colbertcodems",
-          "searchJob": "alabama",
-          "text": "Donald Trump offers you money for your vote, but he won't offer this money for your HEALTHCARE, for HUNGRY KIDS, for advances in live-saving medical RESEARCH, for saving rural hospitals in Alabama, for schools begging for funds. EVERYTHING "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098079710513148088",
-          "author": "foxillinois",
-          "searchJob": "illinois",
-          "text": "Welcoming Week Offers Support Amid Uncertainty https://t.co/KLCIY3cZK9 https://t.co/4JjmG1npnJ"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098066899334570173",
-          "author": "trdeveaux",
-          "searchJob": "illinois",
-          "text": "@miles_commodore Truly. 🙄 In Illinois, my brother in law offered his DL for ID and they REFUSED it!"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098086763071766671",
-          "author": "washfineprop",
-          "searchJob": "washington",
-          "text": "Unit 109 at Logan Station offers bright, open Logan Circle living with 2 beds, 2 baths, and a flexible den. Highlights include high ceilings, custom kitchen, en-suite baths, private balcony, and parking in a pet-friendly building near top d"
+          "postId": "2098070800125317518",
+          "author": "kentclizbe",
+          "searchJob": "kent-state",
+          "text": "Bribing American citizens to vote for a specific party? It's criminal: 18 U.S. Code § 597 - Expenditures to influence voting \"Whoever makes or offers to make an expenditure to any person, either to vote or withhold his vote, or to vote for "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098086230407979409",
-          "author": "mexicotimes",
-          "searchJob": "washington",
-          "text": "#Now From one invader’s podium, another threatens #Mexico: #US @SecRubio used #Ecuador—country that stormed Mexico’s embassy—to question Mexican sovereignty. Sheinbaum is right: Mexico is neither Washington’s electoral piñata nor its territ"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097985957504880717",
-          "author": "miamiherald",
-          "searchJob": "washington",
-          "text": "Exclusive: How politics in Miami and Cuba killed secret negotiations, U.S. energy deal https://t.co/Vda8STAk2g"
+          "postId": "2098068585780330876",
+          "author": "thebabylonbibi",
+          "searchJob": "kent-state",
+          "text": "https://t.co/VtXZ7W6nWh"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098082155947831757",
-          "author": "wbng32035",
-          "searchJob": "washington",
-          "text": "But this year, after first scheduling the conference for Sept. 10, Sightline Media Group has quietly canceled it. No explanation was offered, but it’s all too clear what happened: This company unlawfully fired or purposely drove off all the"
+          "postId": "2098073101418246322",
+          "author": "stupendousman01",
+          "searchJob": "liberty",
+          "text": "@MrFeduppp @PoliceThePolic1 Perhaps you'd be willing to spend your time filling in these factual, these informational, gaps for us. I know I'd be willing to offer thanks for your efforts."
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098074808885850227",
-          "author": "the_realkatina",
-          "searchJob": "washington",
-          "text": "Notice how the delicate shifts in light and shadow reveal Disney's multifaceted charm. The crisp morning sunshine feels revitalizing, the amber glow of dusk offers comfort, and the evening illumination creates a fairy-tale allure.🐌We're un"
+          "postId": "2098094440661336251",
+          "author": "thadeus365",
+          "searchJob": "arkansas",
+          "text": "@HankDesmondPhD Hey everyone, trust Dr. Hank Desmond he is a professor of Logic at \"University of Arkansas College\" which is not a real place and he offers nothing logical and is not a PhD. But sure, trust this guy."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098079719560298643",
+          "author": "trade_handle",
+          "searchJob": "iowa",
+          "text": "Markets remain just 2% below record highs, but analysts warn a 5% to 10% pullback is likely on the horizon. While routine for annual cycles, cyclical and volatile sectors face disproportionate pressure as investors weigh strong corporate ea"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098079088338489377",
+          "author": "iowafaith",
+          "searchJob": "iowa",
+          "text": "We offer up our prayers for the entire Kirk family today. Charlie is with his Savior now, but the movement he lived and died for continues. It is time for every American of faith to join in the fight for the soul of the nation Charlie loved"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098090218716860548",
+          "author": "gary_brode",
+          "searchJob": "michigan",
+          "text": "Volatility Doesn’t Matter and Private Investments Aren’t Low Vol Introduction: Decades ago, I took a finance class at the University of Michigan and vividly remember when the professor told us that the proper measure of risk is volatility. "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098081722902421639",
+          "author": "luccisantino",
+          "searchJob": "michigan",
+          "text": "Santino Lucci 6”0 175lbs WR Class of 2027 Dakota Highschool Macomb, Michigan 4 Offers 3.4 GPA Phone number: 586-307-2236 2025 Highlights https://t.co/9JADXLRdIe @DakotaFootball @CoachJasonBaur @S_Koski9 @marktocco_ https://t.co/geIi7abanm"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098073183001981388",
-          "author": "dominicskinner",
-          "searchJob": "washington",
-          "text": "Banks warn $6.6 trillion in deposits could be at risk from stablecoin competition. Protect consumers? Absolutely. Protect bank profits from better competition? No. If Blockbuster could’ve stopped Netflix, we’d still be rewinding tapes. #CLA"
+          "postId": "2098077335622742344",
+          "author": "producercities",
+          "searchJob": "michigan",
+          "text": "The Midwest City Keeping the American Dream Alive for First-Time Homebuyers: Young people are flocking to Grand Rapids, a rare pocket of relatively affordable homes &amp; plentiful job opportunities https://t.co/rH2bU6uaRI"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098072178604302544",
-          "author": "weeklyvoice",
-          "searchJob": "washington",
-          "text": "When Xi and Putin join Modi in New Delhi, the diplomatic image will carry weight. The lasting question will be what India can secure from the encounter while retaining the freedom to make its own choices. The summit’s most consequential... "
+          "postId": "2098074020902015444",
+          "author": "jacob__titus",
+          "searchJob": "michigan",
+          "text": "Buy land in this basin. https://t.co/WOI3ixDMDJ"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098074600366088691",
+          "author": "michfbfrenzy",
+          "searchJob": "michigan",
+          "text": "Saline 2027 OL Uly Cardoso was offered by Olivet @cardoso_ul21488 https://t.co/d1pooL5EYP"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098071498053263577",
-          "author": "weeklyvoice",
-          "searchJob": "washington",
-          "text": "Trump’s claim that Canada wants a deal addresses the immediate negotiation. The activity in Poland, Alberta and Toronto points to a longer question: how much freedom will Canada have when the next negotiation arrives? https://t.co/jwGFWceoj"
+          "postId": "2098076567066771951",
+          "author": "np4football_ot",
+          "searchJob": "michigan-state",
+          "text": "Tyler Browne-DT-2029-MI @MSU_Football Game Day Visit #CFB"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097836459893936554",
+          "author": "tylerbrowne99",
+          "searchJob": "michigan-state",
+          "text": "Big thank you to @MalikGill5 &amp; @MSU_Football for the personal invite to come up to East Lansing on 10/10 to watch them battle Illinois! I can’t wait to get down there! @SEHS_FOOTBALL @Bryan_Ault @AllenTrieu https://t.co/8PEyM0xcS5"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2098081327522165156",
-          "author": "brodyburkett62",
-          "searchJob": "phrase:\"grateful to receive an offer\"",
-          "text": "Beyond grateful to receive an offer from Daytona Beach Christian University! AGTG! Thank you @coachsiravo #GOSERAPHIM https://t.co/gwTzyStL5p"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2098080895034933331",
-          "author": "brodyburkett62",
-          "searchJob": "phrase:\"grateful to receive an offer\"",
-          "text": "Beyond grateful to receive an offer from Mesabi Range College! AGTG! Thank you @NathanKero8 #GONORSE @FPCFootball https://t.co/Kbe6fsmvji"
+          "postId": "2098080085605576985",
+          "author": "skylahpryce01",
+          "searchJob": "minnesota",
+          "text": "Blessed to announce that I have received an offer from Minnesota North College! 🏀💙 Thank you to Coach and the Minnesota North Women’s Basketball staff for believing in me and giving me this opportunity. I’m truly grateful and excited for "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098089823047225798",
-          "author": "brodybeasley31",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @CoachHossOL, I am blessed to receive my fourth offer from @SMWCFB!! @AverySr12 @PioneersFB26 @caseygillin @IndyWeOutHere @mdwestathletics @IndianaPreps https://t.co/S8QRe0jSOu"
+          "postId": "2098073907995541636",
+          "author": "labornotes",
+          "searchJob": "minnesota",
+          "text": "The Anne Feeney Hellraiser Memorial Fund offered five grants this year up to $1,000 for new artists creating art for social movements. The winners include a Mexican-American visual artist, a folk singer in Minnesota indicted over ICE protes"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098096852402950591",
+          "author": "mizzoutoday",
+          "searchJob": "missouri",
+          "text": "#Mizzou assistant coach for player development Zach Reynolds visited with Rivals Industry five-star center Bamba Touray. https://t.co/LmtZJ9KYEr https://t.co/AI6MtS7ZWw"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098094528481861721",
+          "author": "brettwilkinssf",
+          "searchJob": "missouri",
+          "text": "Even Clarence Thomas offered no dissent. That's how badly Trump and his GOP lackeys shat upon democracy this time. https://t.co/hNm1mALf7V"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098086644813578637",
+          "author": "aaturcodes",
+          "searchJob": "army",
+          "text": "The elephant looks terrifying. The cavalry is already at your gate. Who gets your next shot? Meet the six enemies of Citadel of the Sun. Play: https://t.co/Z1SP88OtJK https://t.co/6zOGUPndtM"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098082727735992776",
+          "author": "suenoahsa8f",
+          "searchJob": "army",
+          "text": "@ABlinken You are lying. It was well known that Hamas offered return of hostages for Palestinian hostages."
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 23,
+      "accepted": 1,
+      "rejected": 45,
       "reasons": {
-        "bare_mention_requires_llm": 20,
-        "multiple_resolved_schools": 3
+        "bare_mention_requires_llm": 38,
+        "school_not_resolved_confidently": 5,
+        "multiple_resolved_schools": 1,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098088367674327395",
-          "author": "decsrice41",
-          "searchJob": "rice",
-          "text": "@Nicoyle @blaznca Hey! I need tons and tons of friends! Can i offer some... Um... Myself? Its 𝖣𝖾𝖼𝗅𝖺𝗇 𝖱𝗂𝖼𝖾 here."
+          "postId": "2098076029575114767",
+          "author": "derekyoungkso",
+          "searchJob": "kansas",
+          "text": "NEW: K-State made two JUCO offers and has the lead on a St. Louis EDGE prospect 👀 Intel: https://t.co/uEzWvMky74 https://t.co/l3J1rW6tzP"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098085889603740147",
-          "author": "ajjahmed689660",
-          "searchJob": "rice",
-          "text": "@Lukewearechange African politics has reached the USA. Next y'all will be offered bags of rice to vote correctly."
+          "postId": "2098073951716942153",
+          "author": "cardinals2023",
+          "searchJob": "kansas",
+          "text": "Trying to figure out one good thing about the state of Kansas or quite frankly anything it has to offer… I got nothing #MIZ @KUAthletics @BarstoolKU"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098080153842659762",
-          "author": "esaslaw",
-          "searchJob": "rice",
-          "text": "The following morning, she enjoyed dosa for her morning meal—a slender, crunchy pancake prepared from rice and lentils, accompanied by sambar and chutney. The dosa had a crisp, airy texture, while the sambar delivered a spicy, tangy kick, a"
+          "postId": "2098079640711786889",
+          "author": "constwarrior",
+          "searchJob": "boise-state",
+          "text": "@KingstonParks13 Good luck finding a better offer than Boise State. Hopefully you don't regret that decision."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098073784137765182",
-          "author": "saintdav3",
-          "searchJob": "rice",
-          "text": "How dem go dey offer a grown adult this kind of money though?? Mak I face abuses because of 5k?? More like one takeaway of rice and chicken. 😭😂"
+          "postId": "2098081201844007406",
+          "author": "np4football_ot",
+          "searchJob": "florida-atlantic",
+          "text": "MARKEL LONG JR-DB-2028-MD @FAUFootball Offer #CFB"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098079325484360032",
+          "author": "ivory1957",
+          "searchJob": "kent-state",
+          "text": "PRINCE GEORGE WALKED INTO ETON THIS WEEK. FIFTY-SIX YEARS AGO, SO DID I. *Letters from Stockholm* *By Kio Amachree* It was raining in Windsor on Tuesday morning. The photographs show the Princess of Wales holding an umbrella over her son as"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098078047068966919",
+          "author": "evisionevs",
+          "searchJob": "kent-state",
+          "text": "When you need to hire an electric car that offers great value for money as well as a fantastic range, of course the MG5 ticks the box! Hire the MG5 estate car today: https://t.co/X8cBhGymss #mg5 #carhire #electricvehicles #kent https://t.co"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098073321569169416",
-          "author": "te1wz4d4cjbwlkb",
-          "searchJob": "rice",
-          "text": "During the summer, the mountain landscape offers a refreshing and enjoyable atmosphere, where thick forests shield against the intense sunlight. The crisp mountain breeze and clean air make it a perfect getaway for the hot season. 🛩 Braise"
+          "postId": "2098094524086022489",
+          "author": "chris_harris111",
+          "searchJob": "liberty",
+          "text": "@Soteriology101 You keep calling my view of God’s decree idiosyncratic. It isn’t. It’s the Confession. God, from all eternity, by the most wise and holy counsel of His own will, freely and unchangeably ordained whatsoever comes to pass. I a"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098071503736807547",
-          "author": "footballregion5",
-          "searchJob": "rice",
-          "text": "Even if you offer Saka, Rice, Saliba. Still we reject this !"
+          "postId": "2098091785201287631",
+          "author": "algar2356",
+          "searchJob": "liberty",
+          "text": "The Digital Shackles are tightening. Most will just accept it. But as someone once pointed out \"Those who would give up essential Liberty, to purchase a little temporary Safety, deserve neither Liberty nor Safety.\" Benjamin Franklin-------T"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098070374139490446",
-          "author": "kad0723",
-          "searchJob": "rice",
-          "text": "🧪Preserved rice Easy to keepOn sluggish, overcast, drizzly weekends, bake uncomplicated mixed berry scones; a cozy, sugary aroma wafts through each room. Homemade treats offer reliable solace, far removed from crowded retail centers. https"
+          "postId": "2098089516015779877",
+          "author": "krispykriskring",
+          "searchJob": "liberty",
+          "text": "I BET YOU DIDN'Y KNOW ABOUT THIS: AFTER FLIGHT 77 HIT THE PENTAGON ON 9/11, THE FOLLOWING HAPPENED. A daycare facility inside the Pentagon had many children, including infants who were in heavy cribs. The daycare supervisor, looking at all "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098070323363008737",
-          "author": "_victoriatobias",
-          "searchJob": "rice",
-          "text": "🏌️Sculpture showcase Top piecesBraised rice DoneI offer him a snack, which he consumes and then runs his tongue over his lips. I'm seated at the kitchen table, sipping my tea, while Buddy rests next to me, his head resting on my foot. It's"
+          "postId": "2098087590520054133",
+          "author": "renanana0728",
+          "searchJob": "liberty",
+          "text": "The tranquil, unhurried days of summer give the mind room to drift wherever it pleases. Without a set pace or pestering obligations, there is nothing but the liberty and ease that only summer can offer🤞Diligence is the root of endurance, w"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098062862027800883",
-          "author": "pananp",
-          "searchJob": "rice",
-          "text": "That evening, she ate at a neighborhood eatery, enjoying mango sticky rice—luscious ripe mango paired with glutinous rice and a drizzle of coconut sauce. The mango was full of juice and sweetness, the rice offered a chewy, creamy texture, a"
+          "postId": "2098085709265682548",
+          "author": "okiku_1130",
+          "searchJob": "liberty",
+          "text": "Marcus let out a sigh and brushed his fingers through his black hair. \"That could be it. In the wild, Grevy's zebras are accustomed to traveling enormous stretches—hundreds of miles annually. No matter how big this enclosure is, it simply c"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098059532865871984",
-          "author": "c0wb0y_crypt0",
-          "searchJob": "rice",
-          "text": "Breakfast: Croissant Sauage Egg and Cheese Breakfast Sammiches - $10.99 at Kroger (Comes with 8 in a pack) $22 Lunch: Tuna - $0.99 per can (2 Cans per person per day) $40 Ritz Fresh Stack Wheat Crackers - $5.79 (2 Boxes) - $12 Honey Roasted"
+          "postId": "2098085409729265853",
+          "author": "0manisi5",
+          "searchJob": "liberty",
+          "text": "#JiangLi #JiangHeng #LiPeiEn #OceanJiang #SeekyLi #Desire4 #ABODesire Okay, I’m just going to take the liberty of sharing my very personal opinion on the four ABO Desire characters and the actors who play them. Please don’t take this too se"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098083015079399613",
+          "author": "schmit3rachelle",
+          "searchJob": "liberty",
+          "text": "During the summer, ample free time lets the body and mind roam without restriction. Casting off everyday limitations to savor the relaxation and liberty that only summer offers☔The cat sips chilled milk https://t.co/5vzY9lp7Nd"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098081520103653769",
+          "author": "dianaccm",
+          "searchJob": "liberty",
+          "text": "🦌Gather strawberries Today's treatOpt for lasting progress instead of immediate ease each and every day. Those small trade-offs build up into liberty and opportunities that idle comfort could never offer you. https://t.co/SgbZUcHH8E"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098081170604822620",
+          "author": "catlikeaardvark",
+          "searchJob": "liberty",
+          "text": "From a lofty height, paragliding voyages offer a view over the globe. Drifting unrestrained through the air while gazing down at peaks, waterways, and settlements, one can experience nature's supreme liberty and magnificence.🌵The cat drink"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098074726413262976",
+          "author": "weatherlyjill",
+          "searchJob": "liberty",
+          "text": "@EarlLandix Black- to this day we never had the privilege of being an American. The whitehouse still refuses to offer protections for black folks and there is still no Liberty and Justice for us!"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098072307323511281",
+          "author": "bo12197633",
+          "searchJob": "liberty",
+          "text": "🍀Strolling through the city with my son—streets shining bright. Each new skill you acquire gradually widens the range of choices life offers you. The more your personal capabilities grow, the greater your liberty to turn down routes you do"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098072130491416646",
+          "author": "josecastaneda84",
+          "searchJob": "liberty",
+          "text": "Strolling through the woods offers the liberty of spontaneous exploration. Without set paths or schedules, you simply roam at will and stumble upon surprises of nature's charm.🧹Every day, I perform planks. https://t.co/6MkZRbNggm"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098071705642258460",
+          "author": "dondonchen86",
+          "searchJob": "liberty",
+          "text": "Self-discipline is allegiance to the person you will become, not cruel self-punishment. Remove pointless everyday diversions, remain dedicated to modest commitments, and self-mastery offers the uncommon liberty that few can only dream of.🧩"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098069334539272228",
+          "author": "rebeccalib",
+          "searchJob": "liberty",
+          "text": "@tylerbowyer I’m voting Republican, but we don’t need more inflation and it just seems morally wrong to offer money for votes, and it’s a promise gs probably can’t keep (nor would we want him to because we already have runaway inflation)."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098089971949125682",
+          "author": "arhoopscoop",
+          "searchJob": "arkansas",
+          "text": "Source: Arkansas HC John Calipari &amp; assoc HC Chin Coleman were in Utah on Wed night to see 2028 Hog offer &amp; Nat'l Top 5 / 5⭐️ Evan Willis @The_Evan_Willis ... https://t.co/MsCIFsj5Tg"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098091772031193477",
+          "author": "lsubanditz",
+          "searchJob": "michigan",
+          "text": "@west_jeffe17824 No we didn’t that’s why he went to Michigan. We offered him 1.5 million a year and about 6 million for 4 years roughly. You dumbasses can’t look anything up to save your life 😂🫵🏾"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098090619360919783",
+          "author": "davecuff",
+          "searchJob": "michigan",
+          "text": "@Jtogx I’m not saying Carr should start but this is a ridiculous take. 1. Plenty of “MAC players” including numerous quarterbacks have gone on to have NFL careers 2. Carr had three other power 5 offers in addition to Michigan 3. He beat out"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098082499742036108",
-          "author": "scoutfball",
-          "searchJob": "uab",
-          "text": "UMS-Wright 2028 DL Trevor Johnson (@trevor_j08) •6-foot-4 245 pounds Offers: Troy, South AL, Southern Miss, UAB, Samford, etc. Fast-rising prospect out of South Alabama. https://t.co/QHlBnIYuI8"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098086599330259441",
-          "author": "homeiasite",
-          "searchJob": "maryland",
-          "text": "Compare the cost of living in Maryland vs. North Carolina, including housing, taxes, utilities, healthcare, transportation, and everyday expenses to see which state offers better value for your budget and lifestyle. https://t.co/enTYcERevk"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098087983417073918",
-          "author": "bigbluedylan",
-          "searchJob": "alabama",
-          "text": "NEWS: 2028 5⭐️ CG Josh Lindsay (St. X/KY) will take a 2nd unofficial visit to Kentucky this weekend for the Alabama game, I’ve been told. Auburn, Indiana, Oklahoma State, Virginia Tech are among his offers. Read here. 👇🏻 https://t.co/yWh4"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098079247336186024",
-          "author": "illinilegends",
-          "searchJob": "illinois",
-          "text": "Happy 19th Birthday on Friday (Sept. 11) to @IlliniFootball freshman linebacker Jacob Alexander. @JAlexander_88 's scholarship offers included Michigan, Michigan State, Minnesota, Missouri, Nebraska, Purdue, Rutgers &amp; Wisconsin. @LWEGri"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098088424901099554",
-          "author": "eastmedmonitor",
-          "searchJob": "washington",
-          "text": "🔹How “Made in Israel” is powering European security As Europe rearms, governments still buy American platforms at scale, but they increasingly turn to Israel for the systems that decide modern war: sensors, interceptors, C4I, EW, drones an"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098082243797483944",
-          "author": "assemblymediav",
-          "searchJob": "washington",
-          "text": "Of course Washington would offer an \"oil deal\" to Cuba in exchange for privatizing the state oil company and overthrowing Díaz-Canel. And of course, Miami gusanos killed it. The Miami Herald is also perpetuating the lie that Venezuela gave "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098081289790251017",
-          "author": "safcfol",
-          "searchJob": "washington",
-          "text": "𝐒𝐮𝐩𝐩𝐨𝐫𝐭𝐢𝐧𝐠 𝐭𝐡𝐞 𝐒𝐮𝐩𝐩𝐨𝐫𝐭𝐞𝐫𝐬 ❤️💬 As part of the #TogetherAgainstSuicide campaign, our mental health support volunteers, alongside Washington Mind, will be at #SAFC matches to offer a friendly face and a listening ear 🤝"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098074899390640346",
-          "author": "tapgsp",
-          "searchJob": "washington",
-          "text": "But he came close to defeating HTS and ISIS in Syria until Washington ordered a ceasefire allowing HTS and ISIS to rearm and rebuild their forces and the CIA and its puppets to buy off senior Syrian officers. Russia learnt its lesson and wo"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098070028700791236",
-          "author": "sentryanderson",
-          "searchJob": "washington",
-          "text": "Dear Manong Teddy, You are correct in thinking that we should not industrialize just to please Washington. The Philippines should industrialize because Filipinos need higher-productivity work, a thicker manufacturing base, and less dependen"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098089996846501952",
-          "author": "jasoncalvi",
-          "searchJob": "wisconsin",
-          "text": "New: Planned Parenthood of Wisconsin sues to stop two Wisconsin abortion restrictions. The case goes much deeper than that: it asks the Wisconsin courts to rule that the state constitution offers a constitutional right to abortion. https://"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098089069699899568",
-          "author": "wisdoj",
-          "searchJob": "wisconsin",
-          "text": "As Wisconsin students return to school, Speak Up, Speak Out (SUSO) is here to help keep schools safe. SUSO offers a safe, confidential way to share information and receive help quickly. Learn more or report a concern at: https://t.co/EZMl8Z"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098075526111920166",
-          "author": "claudiogut",
-          "searchJob": "houston",
-          "text": "Another great evening with the @PMIHouston Chapter! Last night, we heard from Jim Benvie and Ruqaiya Akbari on two topics that are becoming increasingly important for project leaders: disruption in project management and finding the right b"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098066913385460016",
-          "author": "houmuza",
-          "searchJob": "houston",
-          "text": "@PapaZimZim @muvengwa_t So if they didn’t care for the Uk, why did they even apply for said visas? They did because it offered them some opportunity."
+          "postId": "2098088663049515105",
+          "author": "billionaireweb",
+          "searchJob": "michigan",
+          "text": "Robinhood Derivatives LLC stopped new sports event contracts for Michigan customers on September 9, 2026, and must close leftover sports positions by October 9. I read the MGCB notice as a pause, not a final call on whether CFTC prediction "
         }
       ]
     },
@@ -418,12 +442,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 23,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 45,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T16:45:29.522Z"
+    "status rebuilt locally from current store on 2026-09-10T17:13:00.949Z"
   ]
 }
