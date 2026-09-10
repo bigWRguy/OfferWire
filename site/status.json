@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T17:58:22.815Z",
+  "generatedAt": "2026-09-10T18:13:04.748Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T17:58:22.489Z",
+    "at": "2026-09-10T18:13:04.418Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7814986111111111,
-    "p95Hours": 1.7813422222222222,
-    "worstHours": 1.7813422222222222
+    "medianHours": 0.7706216666666666,
+    "p95Hours": 1.7747719444444445,
+    "worstHours": 1.7747719444444445
   },
   "decisionCoverage": {
-    "total": 88,
-    "decided": 88,
+    "total": 46,
+    "decided": 46,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 46
   },
-  "paginationBacklog": 2,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 988,
     "incompleteOffers": 0
@@ -55,378 +55,339 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T17:58:22.488Z",
-      "got": 126,
-      "new": 88,
-      "lag": 0.04
+      "at": "2026-09-10T18:13:04.418Z",
+      "got": 74,
+      "new": 46,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-10T17:56:46.493Z",
+    "at": "2026-09-10T18:11:27.101Z",
     "mode": "live",
     "collection": {
-      "returned": 126,
-      "kept": 88,
-      "duplicate": 36,
+      "returned": 74,
+      "kept": 46,
+      "duplicate": 26,
       "tooOld": 2,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 56,
-      "rejected": 32,
+      "accepted": 28,
+      "rejected": 18,
       "reasons": {
-        "no_offer_term": 12,
-        "no_fbs_school": 20
+        "no_fbs_school": 13,
+        "no_offer_term": 5
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2098099752625754262",
-          "author": "danieloyefusi",
-          "searchJob": "pittsburgh",
-          "text": "The Browns' defense enters Week 1 as a bit of an unknown -- without Myles Garrett and DC Jim Schwartz. What to expect: 🏈 Same attacking front 🏈 Changes in the secondary 🏈 A rookie with a big role https://t.co/bcqAOOOGmU"
-        },
-        {
           "reason": "no_fbs_school",
-          "postId": "2098081752439005474",
-          "author": "tyroist",
-          "searchJob": "stanford",
-          "text": "As a certified HAZMAT trainer I know that: Hazardous materials (HAZMAT) response uses four distinct levels of personal protective equipment (PPE)—Levels A, B, C, and D—defined by OSHA to match specific respiratory and skin hazards. Level A "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098080144610996622",
-          "author": "keena19832",
-          "searchJob": "stanford",
-          "text": "Dumb ass uneducated clown, he offered money for votes… can a politician offer money for votes Offering money for votes is illegal in the United States. While politicians can make public promises of cash payments to a large group of voters, "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098107943098998887",
-          "author": "theripsnorter",
-          "searchJob": "massachusetts",
-          "text": "Warren and her daughter teamed up on another book 23 years ago. While it undersold personal choice in how much house or school quality a family decides to chase, Massachusetts starkly depicts what Warren was describing. —> Highest median ho"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098080521196798181",
-          "author": "mnuri39",
-          "searchJob": "massachusetts",
-          "text": "@crystaljpropes Other states have “Guilty but Mentally Ill” I believe if this was offered in Massachusetts she would have been convicted."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097836691436478596",
-          "author": "deepleakshq",
-          "searchJob": "memphis",
-          "text": "🚨 JUST IN - STEPHEN MILLER IN MEMPHIS FOR THE FEDERAL SURGE: \"This is MEMPHIS. This is the United States of America — and all that bullsh*t is DONE! It's over. It's FINISHED.\" \"The idea that there is a square INCH of block in this city whe"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098007084889493886",
-          "author": "outoftweet123",
-          "searchJob": "toledo",
-          "text": "@CamillaTominey List of every missile attack on Israel from Palestine and others……even before Gaza it was a daily/weekly occurrence unreported! https://t.co/B1dFy0Rxao"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098067114917552318",
-          "author": "afalkhatib",
-          "searchJob": "toledo",
-          "text": "Hamas’s leader Sinwar warned Netanyahu about October 7? A new investigative piece by Haaretz has turned the world upside down overnight, but its claims are shaky, contradictory, and in several places simply implausible. It opens with the dr"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098079345440899386",
-          "author": "troyharris__",
-          "searchJob": "troy",
-          "text": "@letsgetonchain Well, Lighter partnered with robinhood and Kalshi has a license from the CFTC to offer perps. The path for what’s to come really isn’t to hard to see here."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098105724937371736",
-          "author": "ronaldreich5",
-          "searchJob": "georgia",
-          "text": "@CtrlAltDel121 @JTLonsdale True, Biden only offered $2000 for two Senate seats in Georgia"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098105472557719579",
-          "author": "afterschoolga",
-          "searchJob": "georgia",
-          "text": "The Robert Lehman Foundation offers grants to support organizations advancing the visual arts in American and global culture—especially those focused on arts education for underserved communities. Deadline: September 15, 2026 https://t.co/A"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098095580232778232",
-          "author": "statxtraordinar",
-          "searchJob": "georgia",
-          "text": "@washingtonpost @grok what was the tone position of the WAPO when Biden made a similar offer of $2000 to elect democrats in Georgia"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098089308737441817",
-          "author": "idsnews",
-          "searchJob": "indiana",
-          "text": "OPINION: Instagram Plus offers perks that no one asked for https://t.co/r560fYSXvn,"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098087699961769999",
-          "author": "lakes24hrfitnes",
-          "searchJob": "indiana",
-          "text": "🔥 Limited-Time Offer: 3-Month Gym Membership for Just $99!🔥Ready to crush your fitness goals? Now’s the perfect time! For a limited time only, grab a 3-month gym membership for just $99!!🏋️‍♂️Offer ends 7/31/26! Sign up today! 20 S 5th S"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098098808240349407",
-          "author": "toothyella",
-          "searchJob": "kentucky",
-          "text": "Biden offers $2000 for your vote"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098059266196218022",
-          "author": "mjtruthultra",
-          "searchJob": "kentucky",
-          "text": "Show this to democrats… lol Joe Biden promised Americans a $2,000 check if they elect Ossoff and Warnock https://t.co/ykczUp9MeD https://t.co/mdrje6VpTt"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098107841672266158",
-          "author": "stxhealthsystem",
+          "postId": "2098083201444950448",
+          "author": "theview",
           "searchJob": "texas",
-          "text": "Hundreds of job seekers joined #STHS &amp; @WFSolutions at the 4th Annual #AimfortheStar #CareerFair! More than a dozen attendees received on-the-spot job offers, with dozens more advancing to second interviews. Ready to join the #RGV's hea"
+          "text": "TRUMP OFFERS $5K PAYOUTS IF GOP WINS MIDTERMS: ‘The View’ co-hosts share their takeaways from night one of the first-ever GOP Midterm Convention in Texas, where President Trump made a hard pitch for voters to back Republicans in the midterm"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098104044069777670",
-          "author": "armanjava",
+          "postId": "2098082545438994749",
+          "author": "texasvaliant",
           "searchJob": "texas",
-          "text": "One of our buyers received $12,000 back on a $624,900 home in Round Rock, Texas. That outcome gets at a question I think more consumer companies building with AI should answer: Who benefits when your business becomes more efficient? Buying "
+          "text": "@SarahHuckabee Your cult leader just offered a $5000 bribe to vote for him, so I’d be quiet on that one if I was you."
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098094645851066505",
-          "author": "datnox_sfj",
-          "searchJob": "texas",
-          "text": "@InflammaSean And legit AF! I knew a nephew of Devin the Dude in Texas but didn't have the heart to ask for a collab haha. Was going to offer like $420 and see where that got me 😄"
+          "postId": "2098108793225613493",
+          "author": "intelligentcm",
+          "searchJob": "virginia",
+          "text": "Good for $RNGE \"In Loudoun County, Virginia, a data center developer reportedly offered $4.4 million per acre for land.\" Disc: Long and wrong a lot https://t.co/xzaehTMyQS"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098093705869603046",
+          "author": "sqrlvr",
+          "searchJob": "virginia",
+          "text": "I find these days that dealing with the medical world is complicated & mostly unsatisfactory. While I have the same problems as you with blood draws, rarely do they even offer the use of butter fly needles whatever size. Afterward, I have t"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098091650413178961",
-          "author": "business",
-          "searchJob": "texas",
-          "text": "Trump’s promise to pay American adults $5,000 if Republicans keep control of Congress underscores his midterm fears, said Texas Democrat Beto O’Rourke https://t.co/PYmOTgN5Lu"
+          "postId": "2098111128769323478",
+          "author": "camsherman_",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive a game day invitation from @MercerFootball looking forward to build a relationship with the coaches go bears 🐻 🧡🤍!! @RecruitGeorgia @_CoachPatterson @CoachGreeneOL https://t.co/OnnlaEvFbQ"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098088151562825880",
-          "author": "tx_lone_star",
-          "searchJob": "texas",
-          "text": "@WorkaholicDavid I really couldn't give two craps about an irrelevant screen animation. That's not enough to make me want to drop $2,000 for a smartphone. That's nothing more than eye candy. What can it do that's actually going to make my l"
+          "postId": "2098109830024122682",
+          "author": "ouderkirk09",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great talk on the phone with @CoachRiceKZoo I am blessed to receive an offer from @KzooFootball! Thank you very much for the opportunity! https://t.co/6xzqDzmut2"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098086778821308736",
-          "author": "carrolltontx",
-          "searchJob": "texas",
-          "text": "Ever wondered what really goes on behind the scenes at the @carrolltontxpd? Sign up for the Carrollton Texas Police Department Citizen Police Academy (CPA). This FREE program offers Carrollton residents a hands-on experience in law enforcem"
+          "postId": "2098105248711618886",
+          "author": "berggrentiara",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great visit at @ClarkeWBB, I am blessed to receive an offer. Thank you Coach Hocking, and Coach Sam for the opportunity! 🦁 @iahoopdreams @bondurantgbb @PGHBrooks @PGHIowa @FiveStateHoops @360AthleteIA https://t.co/GGyXkzWYaB"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098105219137630626",
+          "author": "travionnash58",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "AGTG I’m blessed to receive an offer from HCC @coach_imoore @CoachT_Pope @CoachWRhodes @the_coach_cates @orr_coachorr9 https://t.co/kOsgHFkTVO"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098100216494793048",
+          "author": "ronn4k_",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive a offer from @CornellRamsFB @CoachFrankHaege @FBCOACHRITCHIE https://t.co/usReq7xFPv"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098056178315960395",
-          "author": "dillonloomis",
-          "searchJob": "texas-tech",
-          "text": "This story is fascinating and is easily one of the most important things happening at the intersection of AI and politics right now. It's critical everyone understands the situation because this is just the beginning of the AI infowars and "
+          "postId": "2098092684128977013",
+          "author": "jesusfl2413222",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an invite to the Perfect Game High School All-State Select Championship. Excited for the opportunity! ⚾️ #PGHSASSC #AGTG https://t.co/ldXlZR8RMY"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098104548514758738",
-          "author": "ecom_amin",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/CziHpc3nUO"
+          "postId": "2098091895549202612",
+          "author": "matthews2027",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive Wilco HS player of the week! After a dominant win against Overton. Looking forward to more opportunities and wins this season! @JamesWilhoit25 @wcsNHSFootball @ScottStidham @BielBryce @_CoachBTaylor @cspulliam https://t.c"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098085809781961080",
+          "author": "d1_brice",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "I am truly blessed to receive an offer from Olivet! Thank you @CoachDWill_ @coachquan23 @CWheeler__ @RisingStars6 @RisingStars_NIL @Sportsinthed_ https://t.co/G5ernZ2qNe"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098109338380329054",
+          "author": "vaechcs",
+          "searchJob": "colorado",
+          "text": "Getting ready for a VA appointment? VA may send you a health questionnaire, via BHL-Screener, to help determine your eligibility for certain national health initiatives and to ensure that you get the right services. The BHL-Screener, formal"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098106670455066886",
+          "author": "todd14350250",
+          "searchJob": "colorado",
+          "text": "@RepJasonCrow So besides I hate TRUMP what policies do you actually have to offer? After ten years of complete democrat control living in Colorado has become very very expensive. Trump has nothing to do with it"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098101536660275556",
+          "author": "hunt_veritasity",
+          "searchJob": "duke",
+          "text": "@IKEMERCY8 Pregnant women are assessed regarding mental health by their pregnancy carers . They are given information. How about surrogacy? Would the Mother-in+waiting be offered mental health care? As all are saying,where was Harry? Better"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098110785864057210",
+          "author": "raydientrural",
+          "searchJob": "ucf",
+          "text": "Find your retreat in North Central Florida. Suwannee Retreats offers the peace, privacy and space to enjoy rural living your way. With just two +/-20-acre lots available, your next chapter could start here. Explore Suwannee Retreats: https:"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098100979686072612",
+          "author": "popstarlabs",
+          "searchJob": "wake-forest",
+          "text": "https://t.co/zUuAu84jOT"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098098824560468326",
+          "author": "scavland_",
+          "searchJob": "wake-forest",
+          "text": "https://t.co/Yi4HU0bjgP"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 56,
+      "accepted": 3,
+      "rejected": 25,
       "reasons": {
-        "bare_mention_requires_llm": 26,
-        "multiple_resolved_schools": 9,
-        "reporter_missing_player_name": 3,
-        "school_not_resolved_confidently": 18
+        "bare_mention_requires_llm": 12,
+        "multiple_resolved_schools": 1,
+        "reporter_missing_class_year": 1,
+        "school_not_resolved_confidently": 7,
+        "player_missing_class_year": 1,
+        "player_missing_football_context": 1,
+        "author_not_recruit:different sport": 2
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098104041968414810",
-          "author": "danieloyefusi",
-          "searchJob": "pittsburgh",
-          "text": "The Browns have been coy about rookie safety Emmanuel McNeil Warren's role -- he didn't play a single snap in the preseason with Grant Delpit and Ronnie Hickman -- but last season could offer a template. Cleveland played 239 snaps with Delp"
+          "postId": "2098085447926776209",
+          "author": "steve3535",
+          "searchJob": "texas",
+          "text": "LOAN PROGRAMS OFFERED Increased 2026 Conventional Loan Limits – Now Available! $832,750 Please Call 972-867-0056 x234 Steven Miller Texas Mortgage Company Thank You Custom Loans to Your Needs NMLS 273767 – 323220 https://t.co/qcA5nlwyos"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098085430558183590",
+          "author": "manxdiogenese",
+          "searchJob": "texas",
+          "text": "Pls pt out the flaws: David Maxwell was offered to the senators as a saint in a Ranger hat. He spent 24 years in the Texas Rangers and later ran law enforcement at the Attorney General’s office. Treat the halo as a costume. Maxwell came int"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098090722821902377",
-          "author": "pghsportsnow",
-          "searchJob": "pittsburgh",
-          "text": "Just into the @frankwalkerlaw Daily Notebook, @Pitt_FB offers a big-time DB from Georgia. https://t.co/n2WSjNlHab @zayreeves__ https://t.co/Fo65hsoXGr"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2098088433633874081",
-          "author": "im2muneeb",
-          "searchJob": "stanford",
-          "text": "Top FREE Online Courses Offered by MIT, Harvard and Stanford University. Any other free course you want to recommend? #freecourses #harvard #stanford #mit https://t.co/EjC44XYCJ6"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098094021402857575",
-          "author": "jakeweingarten",
-          "searchJob": "syracuse",
-          "text": "Syracuse just offered a scholarship to five-star junior Michai White, source told @Stockrisers. The Orange had an assistant at Prolific Prep this week and extended an offer to White."
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2098082518561927513",
-          "author": "bryan_ault",
-          "searchJob": "phrase:\"lands an offer from\"",
-          "text": "North Central QB lands an offer from North Carolina."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098100054087073800",
-          "author": "theperrons5",
-          "searchJob": "massachusetts",
-          "text": "@mikeminoguema All three of my adult children are still here and appreciative of all Massachusetts has to offer. We don’t need MAGA MIKE!"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098088918390587596",
-          "author": "akbluegrass3",
-          "searchJob": "massachusetts",
-          "text": "Alaska ranks as the single most expensive or second most expensive state in the nation for healthcare, competing only with New York and Massachusetts across federal spending data and private cost indices. | Cost Metric | Alaska's National R"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098107809447506226",
+          "postId": "2098111389994799449",
           "author": "gog316322",
-          "searchJob": "memphis",
-          "text": "TWENTY-TWO Scorched by the Sun —Solar Signs, Circles, and Serpents It is He (God) that sitteth upon the circle of the earth... - Isaiah 40:22 (written about 1,000 years before Columbus proved the earth was not flat) It would not be impossib"
+          "searchJob": "virginia",
+          "text": "TWENTY-THREE \"I Fell In To A Burning Ring of Fire\" — Arnold Schwarzenegger's Masonic Ring, Newt Gingrich's T-Rex Dinosaur, and Other Mysterious Messages on Rings and Neckties of the Elite One Ring to rule them all...One Ring to find them..."
+        },
+        {
+          "reason": "reporter_missing_class_year",
+          "postId": "2098111007402893674",
+          "author": "roswell_fb",
+          "searchJob": "virginia",
+          "text": "🚨🚨OFFER ALERT🚨🚨 LB Jake Smith earns an offer from Virginia Tech! #ELITE https://t.co/MUHaTe3JXV"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098097828199358760",
-          "author": "stompsmud",
-          "searchJob": "memphis",
-          "text": "I'm a BBQ eating, Blues loving, Beale Street Memphis girl. Live there my entire life. I had to flee because my friends and love ones who are just hard working Memphians and professionals were being slaughtered. Black, white it didnt matter,"
+          "postId": "2098110694528815481",
+          "author": "drsusanjenkins",
+          "searchJob": "virginia",
+          "text": "🏡 OPEN HOUSE WEEKEND in Virginia Beach, VA! Come tour 5722 Earnhardt Street and see this Virginia Beach home in person. 📍 5722 Earnhardt Street, Virginia Beach, VA 23464 ✨ 3 Beds | 1 Bath | 1,179 Sq Ft 💰 Offered at $280,000 Stop by durin"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098109902426083529",
+          "author": "gregnotsure",
+          "searchJob": "virginia",
+          "text": "Not at all. This is why Trump is offering 5k to them, because he knows that the trans-kids-and-arab-judges far-left will offer the same. The low-income crowd is the most affected by far-left politics. They're being replaced by foreigners wh"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098091117493559682",
+          "author": "devandops",
+          "searchJob": "virginia",
+          "text": "@moseskagan @RichLucido @rossiadam And Lee was a Virginian. Do you know he was offered command of both armies and thought/prayed feverishly before making the decision to secede with Virginia?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098088658158882969",
+          "author": "drsusanjenkins",
+          "searchJob": "virginia",
+          "text": "🏡 OPEN HOUSE in Virginia Beach, VA! Come tour 4025 Bakerfield Road and see this Virginia Beach home in person. 📍 4025 Bakerfield Road, Virginia Beach, VA 23453 ✨ 3 Beds | 2.5 Baths | 1,951 Sq Ft 💰 Offered at $392,000 Join us for two open"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098104270700610015",
-          "author": "outoftweet123",
-          "searchJob": "toledo",
-          "text": "@adamparsons This is a list of all the rocket attacks from the “disputed territories” since 2001! If people who have 5x been offered a two state solution &amp; said no because they hate Jews were firing a few hundred rockets a year into the"
+          "postId": "2098108422751219746",
+          "author": "popeseneca",
+          "searchJob": "notre-dame",
+          "text": "@IJustReadNews22 @Alpha_2020_No1 @TonightVMTV We stop letting businesses import low wage workers to keep salaries down which in turn means the business will have to offer Irish people better salaries. 🤣"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098104337155166527",
+          "author": "tombyr",
+          "searchJob": "notre-dame",
+          "text": "Just spotted a €1.15 special offer for this Kindle book on Amazon's UK site - and then found out the author is Irish! Cracking read so far! 😃👏 📖 https://t.co/QK2NNP81TX"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098087789191459043",
+          "author": "selene_mariposa",
+          "searchJob": "notre-dame",
+          "text": "🚨BREAKING NEWS IN BROMLEY UK⚔️ Four men stabbed on Bromley High Street this afternoon. One critical. Seven arrested. Air ambulance, fire brigade, an advanced paramedic, the road shut from Ringers Road to Ethelbert Road. Eyewitnesses descri"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098111687744258368",
+          "author": "alphavestcap",
+          "searchJob": "vanderbilt",
+          "text": "MarauderWarlock33 thursday, September 10, 2026 1:49:07 PM $nwbo @alphavestcap Let the game begin: Hon. Gary Stein September 9, 2026 United States District Court, Southern District of New York Re: Northwest Biotherapeutics, Inc. v. Citadel S"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098094339683447147",
+          "author": "vanderbiltlaw",
+          "searchJob": "vanderbilt",
+          "text": "Vanderbilt Law is the first law school in the country to offer AI-powered deposition simulation to students — and it's starting this semester. Read more: https://t.co/VwOIsDWcYH"
+        },
+        {
+          "reason": "player_missing_class_year",
+          "postId": "2098105308472017134",
+          "author": "seanoliver33",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "#AGTG After a great conversation with @coachbowdown1 im blessed to receive an offer from @BG_Football @RylandWidener99 @CoachYancy_ @coach_dobler @247recruiting @JUCOFFrenzy #god #JucoProduct #D1bounceback #COMPETE #AyZiggy https://t.co/Ahn"
+        },
+        {
+          "reason": "player_missing_football_context",
+          "postId": "2098103258707366041",
+          "author": "jwhite88882",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "I’m only in 8th grade. Extremely Blessed to receive my 1st offer of my career from The University Of Mississippi #HottyToddy 🔵🔴 @drm_12 @tlofton15 @shayhodge3 @MacCorleone74 @ChadSimmons_ @SWiltfong_ @adamgorney @TomLoy247 @samspiegs @Zac"
+        },
+        {
+          "reason": "author_not_recruit:different sport",
+          "postId": "2098102183002574975",
+          "author": "davidbradley35",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer from IU Colombus to continue my athletic and academic career. I’m extremely grateful for @CoachIITimothyE and @CoachToddHoward for coming to visit yesterday at practice and giving me this opportunity! #agtg https"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098102159417954626",
-          "author": "thenitcame",
-          "searchJob": "toledo",
-          "text": "Here is the thing. If Israel dismantled the West Bank settlements and pulled back to the 1967 lines, would that bring lasting peace with the Palestinians? If the honest answer is no, settlements are not the primary obstacle. I think that te"
+          "postId": "2098090975394431332",
+          "author": "dee_sauce1",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with @FBCoachRitchie I’m blessed to receive my first offer! Go Rams! @CoachFrankHaege @CornellRamsFB @JaymeRozeboom https://t.co/q4IZaJasJd"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098102818867442058",
+          "author": "johnkiowa",
+          "searchJob": "colorado",
+          "text": "Maybe the Colorado AG needs to offer to lead and have his d*ck cut off. Be a real leader and show how it’s done. https://t.co/dPR1R0L4Kg"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098105980907102276",
+          "author": "fegelfly",
+          "searchJob": "duke",
+          "text": "@C95451116 @MyQueenAsuka @Cadiusfl If you weren't this retаrded, you'd know that Washington offered plenty of assistance to the Ukies back in 2014. You'd have to be a special kind of stupid to think Russia wouldn't reciprocate in kind."
+        },
+        {
+          "reason": "author_not_recruit:different sport",
+          "postId": "2098110801970094558",
+          "author": "verbalcommits",
+          "searchJob": "ucf",
+          "text": "2028 IMG Academy (FL) F Bentley Lusakueno has received an offer from UCF. https://t.co/kN8DWOEn6K"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098100592673526142",
-          "author": "shannondennis1",
-          "searchJob": "toledo",
-          "text": "I never said that they should go away. I've stated more than once that they should have accepted the offers for sovereign statehood multiple times. I still think that's the solution. The facts disprove your accusation that Israel wants all "
+          "postId": "2098110399040102754",
+          "author": "asaundercock",
+          "searchJob": "wake-forest",
+          "text": "@AnimeAmerica Yeah, saw the posts from Chuck Huber and Todd Haberkorn, this morning. My heart suck, sad thing to wake up to!😢💔 I offered my condolences to them both. I loved Mike as Jean Kirstein, Ranka Fujioka, and Jean Havoc."
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098087637881848208",
-          "author": "eyalo365",
-          "searchJob": "toledo",
-          "text": "Summary of excellent tweet by @afalkhatib : Haaretz claims MBZ warned Netanyahu in Sept 2023; Sinwar sent an “earthquake” threat via Dahlan; a small swap could lift the blockade; Hamas offered “unconditional” civilian releases after Oct 7. "
+          "postId": "2098100090984366092",
+          "author": "ourvoices18",
+          "searchJob": "wake-forest",
+          "text": "When are you going to get tired of asking I said pull out your weapons it's time to get rid of these people once and parole Trump should have been cut off their f****** welfare I'm really getting sick of this s*** I mean literally we are in"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098092184029302829",
-          "author": "gtr971799691317",
-          "searchJob": "troy",
-          "text": "@reeceecup @WrestlingCovers @SteveMaclin Yes absolutely. Especially with Jasper Troy (⛓️⛓️) Tyra Mae Steele (🇺🇸) ****Zena Sterling**** Especially them! Absolutely! They have a lot to offer &amp; they should be affordable! A lot to offer!"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098099866203296060",
+          "author": "kfj_fp",
+          "searchJob": "wake-forest",
+          "text": "Watching President Trump offer either $5,000, or perhaps $500 for votes in the midterms brings to mind a book I re-read this morning. (I wake up slowly and with great reluctance.) https://t.co/fcbYjhDskl"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098108097919098928",
-          "author": "dubcjunior",
-          "searchJob": "georgia",
-          "text": "I am an Ole Miss die hard and a proud Mississippi native. That being said, Kemario will NOT be at Miss State next season. Don't care what he SAID, or pledged to State fans. He is too good and a team needing a QB next season (Georgia, Texas,"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098106481690489068",
-          "author": "earthdesires",
-          "searchJob": "georgia",
-          "text": "Old Flame (Gambler's Folly Book 4) by Mellie Miller is a heartfelt second-chance paranormal shifter romance that blends emotional healing, mature love, and the magic of fate. Billionaire and bear shifter Kort Behrens has been lucky in busin"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098106325519724575",
-          "author": "futureaza",
-          "searchJob": "georgia",
-          "text": "Your premise is dishonest. Subsidize? They're not giving them anything but a discount on money they never would have otherwise had. Why did Georgia literally subsidize Hollywood with real, actual dollars? To become the Hollywood of the East"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098101445539324133",
-          "author": "pulverjuck",
-          "searchJob": "georgia",
-          "text": "@Cartel_Cal Democrats did explicitly offer $2,000 checks to winning the 2021 Georgia Senate runoffs. The current criticism of Trump’s $5,000 pitch is happening at the same time that parallel is being noted in coverage."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098100945750307162",
-          "author": "ronaldreich5",
-          "searchJob": "georgia",
-          "text": "@Jason @POTUS I guess you forgot about the time Joe Biden offered $2,000 to everyone if they won both races for Georgia Senate? Trump is just outbidding sleepy Joe..."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098097524712050723",
-          "author": "coletteflan47",
-          "searchJob": "georgia",
-          "text": "@atrupar You mean because it's against the law. Pretty sure Ms Duffy is one of those clutching pearls when Georgia voters standing in line were offered a drink of water."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098089643480698964",
-          "author": "redbottravels",
-          "searchJob": "georgia",
-          "text": "@brandenflasch @TeslaSlaa ??? @grok have democrats offered payment for seeing a political result they wanted to see? (Hint: Georgia senate runoff in 2021)"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098087613181604104",
-          "author": "nymikemetcalf",
-          "searchJob": "georgia",
-          "text": "@MrGeorgeWallace What was your reaction when Biden offered 2K to voters in the Georgia senate run offs ? https://t.co/Iaghq6dgdW"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098101822795702287",
-          "author": "south_ov_france",
-          "searchJob": "kentucky",
-          "text": "Facts. I'm tired of high-rated players going lost. I need the portal to be more aggressive in offers. A user can clean up in the portal because your the only one offering. I also need some of the 5 stars, 15% of the 32 to pick random school"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098093156524847346",
-          "author": "stickyfats",
-          "searchJob": "lsu",
-          "text": "A big tell of a persons IQ is whether or not they truly believed the SEC was kicking LSU out of the conference. Way too much money involved. All the T.V contracts would have had to be renegotiated, it would have been a gigantic unmitigated "
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098093054238273786",
+          "author": "savgrandmother",
+          "searchJob": "wake-forest",
+          "text": "@dumpy_groyp @RepThomasMassie Wake up how much were the democrats paying illegal aliens inhealthcare housing and food stamps while Americans citizens went without! Billions and Billions and you have a problem w this offer? If it passes grea"
         }
       ]
     },
@@ -440,12 +401,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 56,
+      "acceptedEvidence": 3,
+      "rejectedCandidates": 25,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T17:58:22.815Z"
+    "status rebuilt locally from current store on 2026-09-10T18:13:04.749Z"
   ]
 }
