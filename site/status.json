@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T08:43:12.031Z",
+  "generatedAt": "2026-09-10T08:58:08.479Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T08:43:11.785Z",
+    "at": "2026-09-10T08:58:08.164Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5182505555555555,
-    "p95Hours": 1.5282597222222223,
-    "worstHours": 1.52826
+    "medianHours": 0.7672638888888889,
+    "p95Hours": 1.531616388888889,
+    "worstHours": 1.531616388888889
   },
   "decisionCoverage": {
-    "total": 15,
-    "decided": 15,
+    "total": 32,
+    "decided": 32,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 45
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 972,
     "incompleteOffers": 0
@@ -55,147 +55,251 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T08:43:11.785Z",
-      "got": 17,
-      "new": 15,
-      "lag": 0.11
+      "at": "2026-09-10T08:58:08.163Z",
+      "got": 43,
+      "new": 32,
+      "lag": 0.13
     }
   },
   "audit": {
-    "at": "2026-09-10T08:41:32.905Z",
+    "at": "2026-09-10T08:56:26.741Z",
     "mode": "live",
     "collection": {
-      "returned": 17,
-      "kept": 15,
-      "duplicate": 2,
-      "tooOld": 0,
+      "returned": 43,
+      "kept": 32,
+      "duplicate": 10,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 10,
-      "rejected": 5,
+      "accepted": 26,
+      "rejected": 6,
       "reasons": {
-        "unclassified_offer_text": 1,
-        "no_offer_term": 2,
-        "hard_negative": 1,
-        "no_fbs_school": 1
+        "no_fbs_school": 5,
+        "no_offer_term": 1
       },
       "samples": [
         {
-          "reason": "unclassified_offer_text",
-          "postId": "2097887998603907119",
-          "author": "kobeissiletter",
-          "searchJob": "rice",
-          "text": "We now have: 1. President Trump offering $5,000 “dividend” checks to all American adults 2. Oil prices officially back above $100 per barrel 3. Total US debt above a record $40 trillion 4. Inflation above 2% for 60 consecutive months 5. One"
+          "reason": "no_fbs_school",
+          "postId": "2097966936852177006",
+          "author": "montoyalouis1",
+          "searchJob": "texas",
+          "text": "They’re not protecting “editorial decisions.” They’re protecting a one-sided booking of James Talarico on ABC affiliates in Texas. Equal time exists so Hollywood doesn’t pick the Senate race. YouTube exists so they can still do the rally an"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097953737201602855",
-          "author": "chatchat",
-          "searchJob": "rice",
-          "text": "Three people, three completely different problems. Same wall behind all of them: what they knew already had nowhere to live. Read how they each fixed that 👇 #Lifemaxxing #ChatChat #Notion https://t.co/ZX78Ez0FqN"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097947717150400946",
-          "author": "salibasexual02",
-          "searchJob": "rice",
-          "text": "Some thoughts on last night. Konsa - What a signing, complete brick wall, hard to beat, wasn’t keen on him coming to play as a RB but I can see how he’d fit in there as & when it happens, he’s going to be huge this season in keeping Timber "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097952511004901571",
-          "author": "chefslink",
-          "searchJob": "florida",
-          "text": "🇺🇸 𝐑𝐞𝐚𝐝𝐲 𝐟𝐨𝐫 𝐲𝐨𝐮𝐫 𝐧𝐞𝐱𝐭 𝐛𝐢𝐠 𝐦𝐨𝐯𝐞 𝐢𝐧 𝐅𝐥𝐨𝐫𝐢𝐝𝐚? Omasava is looking for a talented Sous Chef to join its exceptional culinary team in Naples, Florida. https://t.co/y68wHoQ4bl"
+          "postId": "2097778767347278261",
+          "author": "canteverdie",
+          "searchJob": "texas",
+          "text": "well it turns out give democrats a choice of \"capitulate to fascism\" or \"support minority groups\" they'll always end up capitulating to fascism. a shame they don't stand with the trans community, can't blame trans people that can't bring th"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097967137356976249",
-          "author": "phxroadrunners",
-          "searchJob": "arizona",
-          "text": "@ywomendeservles If he offered to help without her asking, she would have called it sexual harassment."
+          "postId": "2097954795784908950",
+          "author": "torysmasher",
+          "searchJob": "texas",
+          "text": "Trump faces accusations of bribery after promising to pay Americans $5,000 each if Republicans win midterms The president offered few details of the plan but said the money would have to be spent in America https://t.co/lZ3yUMzhG5"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097966070673866930",
+          "author": "kabelsalat_info",
+          "searchJob": "texas-tech",
+          "text": "OpenAI claims Navier-Stokes is solved. Hours later, an NYU mathematician says he was offered two bad deals and heard a career threat. We read the dispute, not the victory slide."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097960515527942383",
+          "author": "comforttechhvac",
+          "searchJob": "texas-tech",
+          "text": "⎐تُيموُ⎐ ⊵TEU85⊴ ▬المطار▬ ⊵M2⊴ ⎐نون⎐ ⊵VG67⊴ ⎐نمشي⎐ ⊵JMM⊴ 〖كـُــــــــود خـصـمــ〗 Aim Great Offer Gib https://t.co/NVojIhY91W"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097958476257669513",
+          "author": "hotelchimp",
+          "searchJob": "texas-tech",
+          "text": "Turning Constraints Into Character: Why Adaptive Reuse Can Give Hotels an Edge For hotel owners and operators, adaptive reuse can offer an opportunity to expand a property’s footprint, unlock the potential of underutilized buildings, and cr"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 26,
       "reasons": {
-        "bare_mention_requires_llm": 7,
-        "multiple_resolved_schools": 3
+        "school_not_resolved_confidently": 15,
+        "multiple_resolved_schools": 3,
+        "bare_mention_requires_llm": 8
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097966870934483044",
-          "author": "joemomoh2",
-          "searchJob": "rice",
-          "text": "@_Octonauts If this is true, please someone should tell Real Madrid to take that transfer offer and shove it where the sun shines. Declan Rice is Arsenal through and through."
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097965806806065514",
+          "author": "racingtv",
+          "searchJob": "notre-dame",
+          "text": "\"On a lovely rating for the Irish Champions Festival.\" @SThorneracing gives us the inside track on some of his string in the final edition of #OnTheWire On The Road: https://t.co/kYnsTO0Cc8 Our sponsors @BoyleSports also have an offer for v"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097966577215754414",
-          "author": "profjobs1",
-          "searchJob": "rice",
-          "text": "Trump is offering $5000 but Nigerian politicians offers couple derica of rice"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097959414204399789",
+          "author": "charliecurrie12",
+          "searchJob": "notre-dame",
+          "text": "@think__32 @FeileBelfast The DUP offers fear of the other. This seems very effective in working-class Loyalist areas. Without effective counter leadership, this is set to continue in albeit a diminishing form. Irish culture is contagious - "
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097960492144943476",
-          "author": "ians_india",
-          "searchJob": "rice",
-          "text": "Sambalpur, Odisha: Freshly harvested paddy has reached Maa Samaleswari Temple in Sambalpur for preparing Nabanna, the traditional first offering of the new harvest during Nuakhai. The rice, brought by farmer Subash Behera, will be prepared "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097960047603061137",
-          "author": "daplentyszn",
-          "searchJob": "rice",
-          "text": "I visited someone recently and they offered me fried rice. Being the good boy that I am, I politely declined. Now I’m broke and hungry, and I’m seriously regretting that decision 😭"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097944072539259026",
-          "author": "jhaigantic",
-          "searchJob": "rice",
-          "text": "It really b the nerve &amp;&amp; audacity of sum hoes, then these bitches jus b thinkin they gon flirt or offer u sum pussy they way back in2 a relationship wit u…bitch I wldnt even let u back in my life, I wouldn’t take a rice krispy treat"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097964211309613136",
-          "author": "minkmike26",
-          "searchJob": "florida",
-          "text": "@tuuu28283 Florida has a bunch of cool license plates, the most vanity plates of any other state, but it all depends on what each state offers https://t.co/1Cl5QcWEjY"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097964105436991908",
-          "author": "jl_uitvlugt",
-          "searchJob": "florida",
-          "text": "Because the soviets were in a cold war with the United States and Cuba offered a vantage point 90 miles off of Florida putting America in direct range of Russian Nuclear MRBMs and IRBMs which would have been a dangerous escalation in the Co"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097947970532487307",
+          "author": "evisitorguide",
+          "searchJob": "notre-dame",
+          "text": "🍻😄 Downtown Chicago adventures deserve a proper happy hour! 🍷🍺 Emerald Loop offers drink specials, pub favorites, and the perfect place to unwind after a day of sightseeing or shopping. ✅ Great food, drinks, and a true Irish welcome.👉 "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097950514541477972",
-          "author": "crygma",
-          "searchJob": "florida",
-          "text": "Quinn Emanuel Hit by Breach Exposing Muddy Waters Files Amid Bitter Disqualification Battle https://t.co/iMkkUXVgyE Litigation powerhouse Quinn Emanuel suffered a social engineering breach exposing confidential Muddy Waters files—exploding "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097967465217032486",
-          "author": "jacobooccidente",
-          "searchJob": "california",
-          "text": "Nope. The big question everyone should be asking is how much will opening the border cost vis a vis Federal and State Payments to illegals? How much will rent costs increase? How much lower will wages be presssured? What about wear and tear"
+          "postId": "2097962336166261016",
+          "author": "1uprising27091",
+          "searchJob": "air-force",
+          "text": "I read your article carefully. And I have to say: it is a masterclass in historical manipulation. You take a few facts, strip them of context, and build a narrative that erases an entire people. Let me show you what you left out. You repeat"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097953030972874926",
-          "author": "rohanarun",
-          "searchJob": "california",
-          "text": "@Super_Powers_AI Hey Super, build a fully interactive U.S. Census Apportionment & Funding Simulator. https://t.co/CUcAvowsJz This simulator will allow users to visualize the impact of different census rules on congressional apportionment an"
+          "postId": "2097962074110406685",
+          "author": "1uprising27091",
+          "searchJob": "air-force",
+          "text": "I read your article carefully. And I have to say: it is a masterclass in historical manipulation. You take a few facts, strip them of context, and build a narrative that erases an entire people. Let me show you what you left out. You repeat"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097947219840086443",
+          "author": "defensenigeria",
+          "searchJob": "air-force",
+          "text": "This flight line at the El Alamein Airshow 2026 offers an incredible concentration of Egyptian air power. From Ka-52 attack helicopters and F-16s to MiG-29s, Mirages and a wide range of special-mission aircraft, the sheer depth on display i"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097946972950806797",
+          "author": "movienewsusa",
+          "searchJob": "delaware",
+          "text": "UP NEW YORK @NewYorkGOP @NYYRC @GavinWax @ChairmanEdCox @SpeakerJohnson @LeaderJohnThune @nrc @NRCC VOTE BLAKEMAN `HOCHUL PUTS NY INTO HARDSHIP´ https://t.co/TcItKVwPKH House majority adviser Roland @rolandjackson ``Democrats fail and falls"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097951883532841422",
+          "author": "zzjaurigue",
+          "searchJob": "georgia",
+          "text": "@RickJacksonGA This woman can’t win Georgia. She has nothing to offer. She can’t run from her record."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097951350705291756",
+          "author": "jamnewscaucasus",
+          "searchJob": "georgia",
+          "text": "Thursday morning headlines from #Georgia, 10 September ● According to a study by Transparency International Georgia, the privatisation of state-owned property in the Adjara region is often carried out without competition and in favour of pe"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097960840091607522",
+          "author": "grahamscambler",
+          "searchJob": "texas",
+          "text": "Trump offers $5,000 to voters as he fights to keep control of Texas and Congress https://t.co/kDb76Y1u8v Really?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097958583472144691",
+          "author": "stvnews",
+          "searchJob": "texas",
+          "text": "Trump offers $5,000 to voters as he fights to keep control of Texas and Congress. https://t.co/fzzRojHemQ"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097957699170537650",
+          "author": "clusterbitch_",
+          "searchJob": "texas",
+          "text": "the entitlement of the trans community is js sickening. the dems spend years being battered for defending us, and they respond by dogpiling them bc a dem in TEXAS offers a position that affects like 4 people. they are the most ungrateful pe"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097970959789810154",
+          "author": "keintpuash",
+          "searchJob": "texas-tech",
+          "text": "GTA: San Andreas? Dang, you’re a baby! We’re the original, baby! We played Atari 2600. Read to the end to find out which games! It was 1983 when we got that. At the same time we had some games on one of the first home computers ever offered"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097970808219918722",
+          "author": "pctechmagazine",
+          "searchJob": "texas-tech",
+          "text": "#Africa | For African tech startups looking toward Southeast Asia, Singapore is an obvious jurisdiction to evaluate. It sits at the centre of a large regional commercial network and offers a corporate framework widely used for international"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097970400009630075",
+          "author": "dlimeng192048",
+          "searchJob": "texas-tech",
+          "text": "The Justice Department is investigating whether Nvidia tried to evade antitrust review in its deal with AI chip maker Groq. Groq called it a non exclusive licensing agreement letting Nvidia use its AI chips, with Groq's CEO and COO joining "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097970332804002242",
+          "author": "trading_cat_us",
+          "searchJob": "texas-tech",
+          "text": "📈 THE 10-YEAR TREASURY: THE “SECOND HAND” SQUEEZING U.S. STOCK VALUATIONS Right now, everyone is watching: 🛢️ Oil > $100 But there’s another force quietly putting pressure on U.S. stocks: 10Y Treasury Yield ≈ 4.84% That puts it near its h"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097968573465735433",
+          "author": "iam_shimmah",
+          "searchJob": "texas-tech",
+          "text": "@SlimPaparazzi @Al_McPAUL @NigeriaStories You're a fool. This isn't snow fall. Start a hardware tech company and see if any Nigerian billionaire will choose to invest in it over buying a private jet. There's no wisdom in condemning when you"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097968342086615085",
+          "author": "dhruvapandey",
+          "searchJob": "texas-tech",
+          "text": "look like markets trying to price in bull case scenario today. I was never excited by Apollo Finvest’s old “AWS of lending” story. It provided back-end tech and capital to digital-lending partners who owned the actual customer relationship."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097965135276937339",
+          "author": "wryq266634",
+          "searchJob": "texas-tech",
+          "text": "I cant wait for an era, where the next generation of hardware will meet this expectations, maybe even 5000/t/s. What we seen with astra has to get more efficent, as much as current infrastucture works. my predictions is - that with those ma"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097964945174364501",
+          "author": "distributionat",
+          "searchJob": "texas-tech",
+          "text": "NAIVE STROKES: ON THE COMMERCIALIZATION OF MATHEMATICS— [summary] AI changed knowledge work by introducing winner-take-all effects, increased competition against humans by AIs and the substitution of capital for labor. This is causing the \""
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097963805603193030",
+          "author": "themilobserverr",
+          "searchJob": "texas-tech",
+          "text": "🇮🇳 Russia is pushing hard for a Su-57 deal ahead of Putin's visit, and India still isn't buying it. Moscow's latest offer is generous. Full tech transfer, local manufacturing at HAL, even the newer twin-seat Su-57D, which completed its fi"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097955047133044869",
+          "author": "davidkwilliams",
+          "searchJob": "texas-tech",
+          "text": "Everyone is watching how much Big Tech is spending on AI. I’m starting to watch something else: How they are paying for it. Amazon just raised £4.25 billion — about $5.76 billion — in its first-ever sterling bond sale. Investor demand toppe"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097955015117943028",
+          "author": "matthewkeyslive",
+          "searchJob": "texas-tech",
+          "text": "NEW: Comcast's global news outlet Sky News is launching a new paid app called Defence Insider that offers a deep dive into defense, security and tech stories for $20 per month. https://t.co/Z7nASZaZ3A"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097953190641603057",
+          "author": "hollyyy",
+          "searchJob": "texas-tech",
+          "text": "- @MEXC has been expanding beyond crypto, and I think Stock Futures is where that starts to get interesting for active traders. Some of the biggest market moves don't start with BTC or ETH. Nvidia earnings, Tesla volatility, an S&P 500 move"
         }
       ]
     },
@@ -210,11 +314,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 10,
+      "rejectedCandidates": 26,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T08:43:12.032Z"
+    "status rebuilt locally from current store on 2026-09-10T08:58:08.480Z"
   ]
 }
