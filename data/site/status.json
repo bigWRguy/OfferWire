@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T20:57:49.741Z",
+  "generatedAt": "2026-09-10T21:13:06.235Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T20:57:49.411Z",
+    "at": "2026-09-10T21:13:05.973Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,122 +32,70 @@
   },
   "staleSchools": [
     {
-      "id": "miami-oh",
-      "hours": 2.8
-    },
-    {
-      "id": "middle-tennessee",
-      "hours": 2.8
-    },
-    {
-      "id": "missouri-state",
-      "hours": 2.8
-    },
-    {
-      "id": "tulane",
-      "hours": 2.8
-    },
-    {
-      "id": "tulsa",
-      "hours": 2.8
-    },
-    {
-      "id": "virginia",
-      "hours": 2.8
-    },
-    {
-      "id": "wyoming",
-      "hours": 2.8
-    },
-    {
-      "id": "air-force",
-      "hours": 2.3
-    },
-    {
-      "id": "akron",
-      "hours": 2.3
-    },
-    {
-      "id": "alabama",
-      "hours": 2.3
-    },
-    {
       "id": "appalachian-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "arkansas-state",
-      "hours": 2.3
-    },
-    {
-      "id": "houston",
-      "hours": 2.3
-    },
-    {
-      "id": "illinois",
-      "hours": 2.3
-    },
-    {
-      "id": "iowa-state",
-      "hours": 2.3
-    },
-    {
-      "id": "maryland",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "navy",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "nevada",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "new-mexico",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "new-mexico-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "north-texas",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "northern-illinois",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "ohio",
-      "hours": 2.3
-    },
-    {
-      "id": "texas-am",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "washington",
+      "hours": 2.5
+    },
+    {
+      "id": "ball-state",
       "hours": 2.3
     },
     {
-      "id": "west-virginia",
+      "id": "delaware",
       "hours": 2.3
     },
     {
-      "id": "wisconsin",
+      "id": "east-carolina",
+      "hours": 2.3
+    },
+    {
+      "id": "eastern-michigan",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.2723286111111112,
-    "p95Hours": 2.269960277777778,
-    "worstHours": 2.77295
+    "medianHours": 1.2179016666666667,
+    "p95Hours": 2.5245419444444446,
+    "worstHours": 2.5245419444444446
   },
   "decisionCoverage": {
-    "total": 96,
-    "decided": 96,
+    "total": 48,
+    "decided": 48,
     "complete": true
   },
   "pending": {
@@ -156,389 +104,368 @@
   "profileResolution": {
     "cached": 46
   },
-  "paginationBacklog": 2,
+  "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 989,
+    "completeOffers": 990,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T20:57:49.410Z",
-      "got": 123,
-      "new": 96,
-      "lag": 0.04
+      "at": "2026-09-10T21:13:05.972Z",
+      "got": 99,
+      "new": 48,
+      "lag": 0.1
     }
   },
   "audit": {
-    "at": "2026-09-10T20:56:12.387Z",
+    "at": "2026-09-10T21:11:29.627Z",
     "mode": "live",
     "collection": {
-      "returned": 123,
-      "kept": 96,
-      "duplicate": 27,
+      "returned": 99,
+      "kept": 48,
+      "duplicate": 51,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 43,
-      "rejected": 53,
+      "accepted": 23,
+      "rejected": 25,
       "reasons": {
-        "no_fbs_school": 26,
-        "hard_negative": 5,
-        "no_offer_term": 14,
-        "non_fbs_offer_target": 8
+        "non_fbs_offer_target": 4,
+        "no_fbs_school": 14,
+        "no_offer_term": 6,
+        "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2098135091230699873",
-          "author": "dembeklisa",
-          "searchJob": "massachusetts",
-          "text": "It's $4.38 here in Central Massachusetts. Cost me $61.00 to fill my tank yesterday. I pray this Iran crap is settled quickly. Heating oil is going right now for $ 5.39 a gallon per our oil company and they don't have a lock in rate at all t"
+          "reason": "non_fbs_offer_target",
+          "postId": "2098124773720993902",
+          "author": "seanmorrissey28",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive a division 1 offer from McNeese State University. Thank you to the coaching staff for this opportunity. https://t.co/iyNnjCd93T"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098119305875612149",
-          "author": "realcalvin1",
-          "searchJob": "massachusetts",
-          "text": "Should Lindsay Clancy be sentenced to life in prison? Yes. The problem is that the case is in Massachusetts. She will never get a guilty verdict there. I hate to say it, but the best option may be to offer a plea deal. She still gets some t"
+          "postId": "2098124764824940939",
+          "author": "jheath27",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a conversation @TARIKEMBRACK , I am blessed to receive an offer from Bethel. https://t.co/sbERABk8XN"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098122574177738792",
+          "author": "zhyir_witcher27",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "TRULY BLESSED TO RECEIVE MY THIRD OFFER THANK YOU @CoachEilam GOD IS GOOD https://t.co/tJFN4JNBFL"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098115215686881739",
+          "author": "holdenstevens27",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great talk with @Coach_Stutz I’m blessed to receive my first official offer from @MysticsFB! https://t.co/C5KDg26GWU"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098145705781019121",
+          "author": "astrologyinmd",
+          "searchJob": "maryland",
+          "text": "Disorganized Thoughts? Unsure Of Your Next Move? Let The Stars Align For You. Master Sadashiv offers powerful psychic readings, palmistry &amp; astrological charting to help remove obstacles &amp; reveal your highest potential. Call: (667) "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098155444866793502",
+          "author": "patrickheinisc1",
+          "searchJob": "washington",
+          "text": "#Somaliland is willing to deploy 2,000 troops for a planned #US-led force in Gaza, President Abdirahman Mohamed Abdullahi on Wednesday, adding that he is waiting for Washington or #Israel to formally request its participation. https://t.co/"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098153662543479146",
+          "author": "daniellebfranz",
+          "searchJob": "washington",
+          "text": "A year ago today, I was sitting on a work call when a text came through: Charlie Kirk was just shot. I stared at my phone in disbelief, trying to stay present on the call. Then more texts came. News alerts. Messages from friends. One after "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098150401656737991",
+          "author": "mymelkwak",
+          "searchJob": "washington",
+          "text": "WTS OLIVIA RODRIGO I’ve got just 3 floor tickets for Oct 3 show at capital one Arena, Washington. Going for $320 a piece, open to offers. lmk if interested #oliviarodrigo #SILVERSTAR"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098145616979271960",
+          "author": "all_jonah",
+          "searchJob": "washington",
+          "text": "My thoughts on Flock....@jason https://t.co/CjWr0ghYn3"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098139698090676473",
+          "author": "tcfpe",
+          "searchJob": "washington",
+          "text": "Global Learning for a Local Workforce is a fantastic FREE learning opportunity offered by @WorldPittsburgh. If you're a MS or HS educator in Fayette, Greene, or Washington county, sign up today! Registration: https://t.co/qETZCiOLg2 https:/"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098139673482645873",
+          "author": "arabcenterdc",
+          "searchJob": "washington",
+          "text": "📄 The Mecca agreement gives #SaudiArabia additional layers of security without providing a ready substitute for #Washington. Its value lies more in diversification than in a credible collective defense guarantee. Read more 👇 https://t.co/"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098138731555500180",
+          "author": "thespyanalyst",
+          "searchJob": "washington",
+          "text": "🚨 The CIA went first. Then Kushner &amp; Witkoff flew to Moscow. Then Trump called Putin. Coincidence? 👀 👀 Why were Trump’s envoys reduced to “courier boys”? What did Moscow want? The sequence exposes power shift hiding behind the “peace"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098128951709188330",
+          "author": "mexicotimes",
+          "searchJob": "washington",
+          "text": "#Now #Texas can choose partnership with #Mexico—&amp; democracy at home. @jamestalarico leads polling avg &amp; crushes #Paxton among independents. As Trump’s @FCC pressures @ABC to keep @JimmyKimmelLive interview off TV, answer is clear: g"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098150311693087005",
+          "author": "wisconsinblaze",
+          "searchJob": "wisconsin",
+          "text": "Allie VanVonderen 🔥 (2027 | 5’7” | PG | Denmark) received an official offer to continue her academic and athletic career at NCAA Division III St. Norbert College! Thank you to all of the coaches and staff at SNC for the offer! @AllieVanVo1"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098149965142905263",
+          "author": "wisconsinblaze",
+          "searchJob": "wisconsin",
+          "text": "Congrats to Lillianne Zimmerman on receiving an offer from Madison College! @LillianneZ72831 @PackWBB @NE2KHoops"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097846617931948121",
+          "author": "lilliannez72831",
+          "searchJob": "wisconsin",
+          "text": "After some great conversations with @Coach_Whetstone im grateful to announce I’ve received an offer to continue my athletic career at Madison Area Technical College💙 Thank you so much for this opportunity! @WisconsinBlaze @LaconiaGirlsBB @"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098148265531457895",
+          "author": "satyenraja",
+          "searchJob": "wisconsin",
+          "text": "https://t.co/vsk7Vc273c"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098143969066553656",
+          "author": "mkenewyorker",
+          "searchJob": "wisconsin",
+          "text": "Did you guys know both Marquette University and the University of Wisconsin-Milwaukee offers DEXA body scans for under $100?? I signed up for next Thursday and I’m stoked."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098139984398049463",
+          "author": "camcrowder2027",
+          "searchJob": "phrase:\"grateful to receive an offer\"",
+          "text": "After a great visit with @baskejone and @DevriesDerrick I’m extremely grateful to receive an offer to play college basketball at Calvin University! @lenny_padilla @BrzezinskiAlec @Gilbert_Hoops @alleyesonuhoops https://t.co/n42f8lpUBI"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098122369269104746",
+          "author": "mia2stokes",
+          "searchJob": "phrase:\"grateful to receive an offer\"",
+          "text": "After a great conversation with Coach Moore, I'm grateful to receive an offer from Graceland University. @SCC_WBB @Coach_BJ24 @CoachFlowersWBB https://t.co/5P1sVWXVTc"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098146204920009094",
+          "author": "owenking_16",
+          "searchJob": "phrase:\"thankful to receive an offer\"",
+          "text": "After a great visit and conversation with @baines_john and @CoachZapinski I am thankful to receive an offer from Elmhurst University! @elmhursthoops https://t.co/qwtG0KfUUR"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098150255560667487",
+          "author": "landenandrews10",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @FBCoachRitchie I have received my first division lll offer to play at the next level from @CornellRamsFB @DaneAshley_68 @CouchTrev https://t.co/RNwPNalRzZ"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098139625701204396",
+          "author": "sniperwatchx",
+          "searchJob": "houston",
+          "text": "Houston-based Nutex Health suffered a ransomware attack stealing sensitive data. Sniper Watch offers proactive ransomware defense. #Ransomware #HealthcareCybersecurity #BusinessContinuity #SniperWatch https://t.co/VLjTb6vSN2"
         },
         {
           "reason": "hard_negative",
-          "postId": "2098127191343288641",
-          "author": "sevenholytombs",
-          "searchJob": "toledo",
-          "text": "The $1.2 Billion Question: Ukraine’s Corruption Is Becoming Europe’s Bill. Ukraine’s corruption problem is no longer just Ukraine’s problem. It is becoming Europe’s bill. For 35 years, Ukraine has struggled with corruption on a scale unmatc"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098112056826507443",
-          "author": "9amprime",
-          "searchJob": "toledo",
-          "text": "Jefferies sees 6 sectors that could define India’s next decade. 🚀 Space, Semiconductors, Data Centres, Electronics, Solar, Aerospace. Here’s what investors should be watching. 👇 https://t.co/mi2AR8xyv2"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098151119616639312",
-          "author": "_____troy_____",
-          "searchJob": "troy",
-          "text": "I don't think you need to go to all that trouble. Just writing the names of the books will be enough. My archive is quite extensive; I can find and examine them myself and give you feedback. By the way, I would also ask you to research some"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098046578950811783",
-          "author": "troytorrence11",
-          "searchJob": "troy",
-          "text": "Complete chaos to start NFL week 1... The root of my handicap turned out to be true; That was fraud checking the Patriots after facing the weakest strength of schedule during the regular season in 2025, and having a cake walk into the super"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098129865027227734",
-          "author": "troy_ft",
-          "searchJob": "troy",
-          "text": "🚨🔵🔴 DECO ON JULIÁN ÁLVAREZ SAGA: “WE HAVE DONE EVERYTHING.” 🎙️ Deco: “We made an offer of €100 million to be paid over three seasons. We have done everything that was necessary from our side. There are clubs paying deals in five instalm"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098124073406488924",
-          "author": "moldetroy",
-          "searchJob": "troy",
-          "text": "@snorman1776 Probably smart of him to stay away and maintain his credility. If he can get away from Israel he has a lot to offer"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098120489415877063",
-          "author": "osoulsie",
-          "searchJob": "troy",
-          "text": "ur cia agent uses these websites🌐 each website has a description click or tap on it only at ur discretion🚨 Public-data and security-adjacent sites https://t.co/gzSWK7SBQj Crowdsourced map of wireless networks since 2001. Contributors driv"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2098153451351875989",
-          "author": "milesnuzback",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great talk with @Jeff_Horner2 and @BVUMBasketball I am blessed to receive an offer from Buena Vista University. https://t.co/QSCxNaxRqh"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098152496866717719",
-          "author": "mandrakelewis32",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive a division 3 offer from Guilford College. Thank you coach DeLoof and the coaching staff for this opportunity. @DeLoof44 @GuilfordMBB @BryceButler_5 @Jeremiah2020NC @coachfleming https://t.co/6oGfVeRlm7"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098150682574360814",
-          "author": "zacavren",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great small conversation with @AdrianMaloneyJr . Im blessed to receive an offer from @threshersmbb ! #agtg @NXTLevelSN @AllNOneSports1 https://t.co/1Mol7ph1Z6"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098146549452734674",
-          "author": "sylas8k",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive a game day invite from @GreenWaveFB Looking forward to experiencing a Tulane game day atmosphere‼️ #rollwave @Colton_Leggett @JohnEhret_4300 @CoachCarterTU @CoachDomino_1 @PrepRedzoneLA @JasonDuhe @__drayyyy @croussell3 @"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098144161203359917",
-          "author": "motonmason69063",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive a camp invite from @FlaglerMBB https://t.co/WfA87KcHSQ"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098141353637019840",
-          "author": "ryderfreaxnft",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "@BashirAhmaad If you choose me, I promise I will not see it as “just a free ticket.” I will see it as an amanah and a gift from Allah that I was blessed to receive through you. And perhaps, just perhaps, this is the invitation my heart has "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098141003525882087",
-          "author": "kamdenhack",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great visit with Coach slade I’m blessed to receive a offer from Johnson and Wales University https://t.co/keizwzrXiS"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098139925099020486",
-          "author": "braydenbmoney1",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with Coach @Coach_MFloyd10 and Coach @camawls I’m blessed to receive an offer to Defiance College https://t.co/QMx6wHztLw"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2098138003038151159",
-          "author": "therealayden4",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an official offer from Norwich University! Thank you to Coach Emery and the entire Norwich football program for believing in me and giving me this opportunity. I’m grateful for everyone who has supported me throughout thi"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2098136756897882496",
-          "author": "jerrellstockett",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my first offer from Westminster College thank you to all the amazing people who’ve helped me along the way 🤍💙#gotitans⚔️@Coach_MSnyder @QBCoachWhite @Coachkyle246 https://t.co/2vxwkDatN7"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2098132864990609687",
-          "author": "hudson_lang1",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After an amazing visit and conversation with @_coach_ham_ and @calprice4. I’m beyond blessed to receive my first offer from Franklin College! Go grizz! @CoachLoechle @TL_CougarHoops https://t.co/wifXQR9xVF"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2098132599982215663",
-          "author": "ndunn1of1",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @TheRealJavJones I am blessed to receive a(n) offer from The Jackson State University @EsaiasGuthrie @CoachT_Pope @CoachJones2010 https://t.co/dz3re557eY"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2098131858420846961",
-          "author": "rbbluewaters",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from Cornell College. Thank you @CornellRamsFB @FBCoachRitchie and @CoachFrankHaege for this opportunity. I'm ready to contribute. Grateful to Coach Paysinger, Coach Featherstone, and the entire Santa Monica coac"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098131777634340873",
-          "author": "julian_veit_",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "@Ricoknowstiktok Well said Rico, I’ve been blessed to receive attention from any college at all!"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098129954231705875",
-          "author": "ethanzwiebel",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great visit and conversation with @CoachMillerMU, @CoachHoskinsMU, and @AidenWestra, I am blessed to receive and offer from @MsideMBB! @gretnabball https://t.co/zsiYwiNv31"
+          "postId": "2098135800462344252",
+          "author": "precisionf10002",
+          "searchJob": "houston",
+          "text": "Precision Welding and Fabrication offers custom sheet metal, miscellaneous steel, welding and fabrication, architectural handrails, stairs, and railings to customer specifications. When you choose Precision Welding & Fabrication, you’re wor"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 43,
+      "accepted": 2,
+      "rejected": 21,
       "reasons": {
-        "multiple_resolved_schools": 6,
-        "bare_mention_requires_llm": 14,
-        "school_not_resolved_confidently": 21,
-        "player_missing_football_context": 1,
-        "author_not_recruit:different sport": 1
+        "explicit_non_fbs_target": 1,
+        "bare_mention_requires_llm": 15,
+        "multiple_resolved_schools": 3,
+        "reporter_missing_player_name": 1,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098126794385703022",
-          "author": "mafrt1",
-          "searchJob": "massachusetts",
-          "text": "The crowd went silent: How Trump flopped in Dallas in 5 wild moments Story by Matthew Rozsa At a packed convention in Dallas, Donald Trump delivered a midterm campaign address that alternated between boisterous boasts and familiar grievance"
+          "reason": "explicit_non_fbs_target",
+          "postId": "2098144479450423362",
+          "author": "profilefblive",
+          "searchJob": "phrase:\"has offered\" recruit",
+          "text": "Mississippi State has offered 3.9⭐ 2028 IOL Christian Bennett from Clay-Chalkville HS, AL. @showclassed Rated (#376 NATL, #21 IOL, #12 AL) - 22 offers overall. https://t.co/ACog3cGJhI"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098147814891032669",
-          "author": "chazmolder",
-          "searchJob": "memphis",
-          "text": "I’m happy to hear Charlie Hatcher is willing to debate. We’re proposing three: Columbia, Martin and Memphis. No one should have to drive three hours to hear their candidates for Congress debate. We’ll take him up on his offer. Let’s go! #TN"
+          "postId": "2098117010454704369",
+          "author": "penaproperties",
+          "searchJob": "tulsa",
+          "text": "New listing in Tulsa! 🏡 This charming 2-bed, 1-bath bungalow offers 1,000 sq ft of living space, central air, and a spacious lot—ideal for first-time buyers or investors, just minutes from the University of Tulsa. See more: https://t.co/5X"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098152534695170389",
+          "author": "frontrangera",
+          "searchJob": "wyoming",
+          "text": "💵📉 Wyoming offers business owners something rare: zero state income tax. Combined with low annual fees, it’s one of the most affordable states to form and maintain an LLC or corporation. At Front Range Registered Agent LLC, our $100 annua"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098124525518868694",
+          "author": "almentalhealth",
+          "searchJob": "alabama",
+          "text": "AIDS Alabama offers comprehensive substance use treatment for people living with HIV. Awarded through Alabama Opioid Settlement Funds, Services are accessible to everyone regardless of your ability to pay. https://t.co/ZoHkCegVmj (AI-genera"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098149513076650207",
+          "author": "senatorcastro",
+          "searchJob": "illinois",
+          "text": "My office is partnering with Ascension Illinois, Elgin Township and Hanover Township to offer two opportunities for residents age 18 and older to receive the flu shot in October. For more information, please contact my district office. http"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098144645217755221",
+          "author": "heterodoxwoman",
+          "searchJob": "illinois",
+          "text": "@MaestroMayhem50 @SeanMMorrison @kim_chee27 My son, who likely would've gotten in to UIUC, didn't bother applying because we knew it was out of our budget. He's almost done with his degree from an out of state school and already has job off"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098141238339744230",
+          "author": "evisitorguide",
+          "searchJob": "illinois",
+          "text": "If you’re visiting Chicago, put this at the top of your list: Illinois Holocaust Museum presents Experience360. This immersive, emotional journey offers a deeper understanding of history—and our responsibility to one another today. Learn mo"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098132844769927610",
+          "author": "meetlssi",
+          "searchJob": "illinois",
+          "text": "Now that kids are back in school, read about how our Prevention Services team offers violence and substance use prevention programs for grammar and high school students across Northern Illinois. #backtoschool https://t.co/9EUwwUzvC7"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098156346105290848",
+          "author": "s2_underground",
+          "searchJob": "washington",
+          "text": "//The Wire//2100Z September 10, 2026// //ROUTINE// //BLUF: HOUTHIS MAKE MAJOR TERRITORIAL GAINS AS SAUDI-BACKED FORCES COLLAPSE OVERNIGHT. TRUMP AND NETANYAHU BEGIN INCREASING STATEMENTS REGARDING IRANIAN NUCLEAR AMBITIONS. DAMAGE REPORTS E"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098153944522318036",
+          "author": "gardenofsearch",
+          "searchJob": "washington",
+          "text": "@sharghzadeh Dear one, the New York City Baha’i center is between Washington Square and Union Square, you have so much to offer! May peace and blessings be upon you and great spiritual bounties in this world and the next"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098149670811816396",
+          "author": "nihadc",
+          "searchJob": "washington",
+          "text": "NIHA Family Dentistry offers a holistic approach to preventive, restorative, orthodontic, and cosmetic dental care for the whole family. 📞 (202) 237-7000 📍 5225 Wisconsin Ave. NW, Suite 402, Washington, DC 20015 🔗 https://t.co/vTjZqOavYG"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098148941892342237",
+          "author": "susan_dupres",
+          "searchJob": "washington",
+          "text": "Washington State Sexually Transmitted Infections (STI) in Waste Water UW, WA State Dept. of Health show it’s possible to test wastewater for STIs Sept. 10, 2026 A feasibility study led by the University of Washington and the Washington Stat"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098141059352064365",
+          "author": "johncroom545089",
+          "searchJob": "washington",
+          "text": "Here is the plan the President should have offered Americans last night. If this is a tariff dividend, then make it an annual payment to all tax paying Americans. Make it now, force Congress back to Washington to get it done. If they refuse"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2098136985273602550",
+          "author": "the_newarab",
+          "searchJob": "washington",
+          "text": "Somaliland has offered up to 2,000 soldiers for the planned Gaza stabilisation force 🇸🇴 President Abdirahman Mohamed Abdullahi said his forces are \"ready\" if Washington or Israel formally requests Somaliland's participation ⬇️ https://t.c"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098132700293206135",
+          "author": "georgek2325",
+          "searchJob": "washington",
+          "text": "@C2Cbsbl Washington wanted pitching. They have a young top 100 SS they got from the draft In 2025. I guarantee that if Posey were dumb enough to offer Gonzalez now Wash would accept the trade."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098126922236760183",
+          "author": "prachi4037",
+          "searchJob": "washington",
+          "text": "first you read economics, India is insignificant to the US because India has nothing to offer” is exactly the kind of statement you make when you haven’t looked at how modern economies actually work. India is a massive market, a major servi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098145561694388313",
+          "author": "sharm00fered",
+          "searchJob": "wisconsin",
+          "text": "@Kayvan_Hosseini @manaartlov2 At the beginning of Trumps 2nd term, Elon Musk offered bribes to voters in a Wisconsin election which the Republicans proceeded to lose. The offered voter bribes were never paid out. These people are such scamm"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098139562820460935",
+          "author": "air_weigh",
+          "searchJob": "wisconsin",
+          "text": "From driving past the scenic shores of Lake Michigan to crossing the rolling hills near the Mississippi River, Wisconsin offers truck drivers incredible views along its major transport routes. Taking a well-earned break to sample authentic "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098152748629766236",
-          "author": "worldfreed54675",
-          "searchJob": "toledo",
-          "text": "@elonmusk I would like to talk to you about this old man and this greedy woman please, because both of them need taking down a peg or two and I want to help you to get them off your back. This is my reply to their totally biased and unfound"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098148838506717589",
-          "author": "socalpatriot56",
-          "searchJob": "toledo",
-          "text": "What will or should Trump’s next moves be in #Iran? The IRGC Aerospace Force uses a mix of its own modest military imaging satellites, Russian-launched Iranian satellites, and (most notably in recent reporting) a Chinese commercial high-res"
+          "postId": "2098119878762811633",
+          "author": "nickportilla08",
+          "searchJob": "phrase:\"honored to receive an offer\"",
+          "text": "After a great phone call with @CoachRindahl , I’m blessed and honored to receive an offer from uw-whitewater🟣🟡 Thank you to Coach for believing in me and giving me this opportunity. I’m extremely grateful and excited for what’s ahead! #Go"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098139477340283176",
-          "author": "carmelitequotes",
-          "searchJob": "toledo",
-          "text": "🌅 In the Carmel of Toledo, Saint Teresa saw Christ beside a dying Carmelite, his arms partly opened as though protecting her. His promise to protect Teresa’s nuns offers courage for our own final hour. 🔗 https://t.co/AyarBbL0tu #Catholic "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098140782469292304",
-          "author": "troytorrence11",
-          "searchJob": "troy",
-          "text": "49ERS vs. RAMS: Logging 7 extra days of practice at home vs. on the other side of the globe offers an advantage that's hard to quantify.. Would you be better off studying for a test at home in your office? Or in a hotel room, in another cou"
-        },
-        {
-          "reason": "player_missing_football_context",
-          "postId": "2098142797056323654",
-          "author": "benjiberrouet10",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great talk with Coach Kyle, I am blessed to receive a Division 1 offer from the University of Missouri. #AGTG https://t.co/tOzsTohPCI"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098126866259316919",
-          "author": "kylebarden42",
-          "searchJob": "phrase:\"blessed to have received\"",
-          "text": "After a wonderful conversation with Coach Hunt, I am blessed to have received an offer to continue my academic and athletic career by playing tennis at Adrian College! Thank you for this amazing opportunity! Go Bulldogs!! 🐶🎾 @TecAthletics"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098132434738991361",
-          "author": "mahrowkeen",
-          "searchJob": "baylor",
-          "text": "2030 ATH from Beaumont United @CayanThomas plans to attend Houston's regular season finale against Baylor. Has multiple P4 offers in football and will garner the same interest on the basketball court. Was recently acknowledged as a top pros"
+          "postId": "2098152167970365935",
+          "author": "redinablustate",
+          "searchJob": "houston",
+          "text": "We offer you cali kush indoor weed plus vapes, disposable vape, hash, carts, edibles, gummies, and pre-rolls in the city, Plug in: Chicago, Houston, Phoenix, Philadelphia, San Diego, Dallas, San Jose, Austin, Seattle, Denver, Boston, Atlant"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098125748217196886",
-          "author": "baylor",
-          "searchJob": "baylor",
-          "text": "Stress is real -- but help is available, and you're not alone. 💚💛 Students: If you or someone close to you needs help, the Baylor Counseling Center offers confidential counseling &amp; crisis support: https://t.co/4DqAghGHCj #WorldSuicide"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098143255204401572",
-          "author": "blockheadai",
-          "searchJob": "colorado",
-          "text": "⚾ Colorado Rockies @ New York Yankees · MLB 📊 Colorado Rockies +235 | New York Yankees -303 · Spread -2 (home) · O/U 8.5 The Yankees hold a massive pitching advantage tonight as Max Fried takes the mound against a struggling Rockies rotati"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098140515049025770",
-          "author": "davidson_f14299",
-          "searchJob": "colorado",
-          "text": "Phil Weiser wants to be governor because his name is already on the damn ballot. That’s how this state keeps getting the same shit — people check the box they recognize instead of looking at the job the guy already had. And the job he had? "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098117131015782507",
-          "author": "alfred3o3",
-          "searchJob": "colorado",
-          "text": "#ROCKIES AT #YANKEES — #KALSHI SCAN ALFRED’S MARKET DESK September 10, 2026 | Morning snapshot, approximately 7:27–7:28 a.m. PDT ASSESSMENT New York is the market favorite and has the stronger season-to-date starting-pitcher profile. Kalshi"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098144717246755236",
-          "author": "ryzehoops",
-          "searchJob": "duke",
-          "text": "VIPs along the baseline at Hillgrove HS to watch an afternoon workout. Nate Oates (Bama) + assistants Pat Kelsey (Louisville) + assistant Steven Pearl (Auburn) + assistants Duke - Chris Carrawell (assoc. head coach) Xavier - assistant North"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098132056437919905",
-          "author": "dave_2_timezz",
-          "searchJob": "duke",
-          "text": "@WilliamMcCall_ @DukeEchoes Duke never offered though. Kind of different. But i see where you’re coming from🤣💯"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098128562947510725",
-          "author": "jbrownlefthandy",
-          "searchJob": "duke",
-          "text": "@WilliamMcCall_ @DukeEchoes Difference is that Duke never offered him, and Duke is prioritizing the development of JBB, they play the same position"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098117994861744211",
-          "author": "picklepacker_",
-          "searchJob": "duke",
-          "text": "@JoeTipton @Rivals @InsideCarolina @UNCBarstool @JacksonCollier @JackPilgrimKSR @jdemling @TheWolfpacker @SSN_USC @canesempire @BarstoolUA Duke did not offer him."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098142296709759193",
-          "author": "arkadalo",
-          "searchJob": "florida-state",
-          "text": "Tonight at 6. Florida closes the book. Daniel Owen Conahan Jr. walks into the chamber at Florida State Prison. Age 72. Finally after 26 years on death row. A jury said he lured 21 year old Richard Montgomery into the Charlotte County woods "
-        },
-        {
-          "reason": "author_not_recruit:different sport",
-          "postId": "2098139551713694008",
-          "author": "phrecruitnews",
-          "searchJob": "ucf",
-          "text": "2028 Bentley Lusakueno received an offer from UCF #PheonmHoops @Coach_Rick57 @colbylewis20 @POBScout @JeffreyBendel_ @Phenom_Hoops @ty1ewis @UnderratedAthl_ @MasercolaMiles https://t.co/xrYDDSq1Ga"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098145279904018747",
-          "author": "cavsfortheland",
-          "searchJob": "virginia",
-          "text": "@KuKhahil Curious if Ku would admit that if Duren does indeed end up taking the qualifying offer, THEN it would be a horrible job by Langdon? Or would he still defend him even in that scenario?"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098143022512820260",
-          "author": "kellyg581976179",
-          "searchJob": "virginia",
-          "text": "@magalys_rios @notthesameone2 @MoishesMom @Jazzstew34 @ErnieElGreco @IssabellaCima Just heartbreaking ! What a precious sweetheart! Please Good people of the Northeast (from Virginia to Maine) offer to foster or adopt Cobby🙏💔"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098141868785639700",
-          "author": "birm",
-          "searchJob": "virginia",
-          "text": "A recently offered 2029 linebacker has set his first visit to Ohio State and is excited to see more from James Laurinaitis and his linebacker room. https://t.co/knjw3B40TP https://t.co/7Qu9pPMYOa"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098134421442367767",
-          "author": "daily304",
-          "searchJob": "virginia",
-          "text": "Need a wet lab for your work involving chemicals, liquids or biological materials? The West Virginia Regional Technology Park offers 132,000 square feet of flexible space to suit your needs. @WV_TechPark https://t.co/wYsn0Bke1V"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098133207610806397",
-          "author": "fly_sistah",
-          "searchJob": "virginia",
-          "text": "Some local and state Republican organizations offered midterm convention packages varying from $5,000 to $20,000, while other state groups (such as Virginia or Alabama) priced basic entry tickets much lower, between $1,000 and $1,500 (exclu"
+          "postId": "2098127550254031256",
+          "author": "buzzpatterson",
+          "searchJob": "air-force",
+          "text": "Buzz Cut: Clinton and 9/11, Part Three (Continued) Finally, the president accepted Berger’s call. There was discussion, there were pauses—and no decision. We sat there. The president wanted to talk with his secretaries of defense and state."
         }
       ]
     },
@@ -552,12 +479,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 43,
-      "brandNewOffers": 0
+      "acceptedEvidence": 2,
+      "rejectedCandidates": 21,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T20:57:49.742Z"
+    "status rebuilt locally from current store on 2026-09-10T21:13:06.236Z"
   ]
 }
