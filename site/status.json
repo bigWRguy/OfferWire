@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T08:28:15.684Z",
+  "generatedAt": "2026-09-10T08:43:12.031Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T08:28:15.454Z",
+    "at": "2026-09-10T08:43:11.785Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7759952777777778,
-    "p95Hours": 1.5325741666666666,
-    "worstHours": 1.5325741666666666
+    "medianHours": 0.5182505555555555,
+    "p95Hours": 1.5282597222222223,
+    "worstHours": 1.52826
   },
   "decisionCoverage": {
-    "total": 7,
-    "decided": 7,
+    "total": 15,
+    "decided": 15,
     "complete": true
   },
   "pending": {
@@ -55,87 +55,147 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T08:28:15.453Z",
-      "got": 10,
-      "new": 7,
-      "lag": 0.15
+      "at": "2026-09-10T08:43:11.785Z",
+      "got": 17,
+      "new": 15,
+      "lag": 0.11
     }
   },
   "audit": {
-    "at": "2026-09-10T08:26:41.076Z",
+    "at": "2026-09-10T08:41:32.905Z",
     "mode": "live",
     "collection": {
-      "returned": 10,
-      "kept": 7,
-      "duplicate": 3,
+      "returned": 17,
+      "kept": 15,
+      "duplicate": 2,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 5,
-      "rejected": 2,
+      "accepted": 10,
+      "rejected": 5,
       "reasons": {
-        "no_fbs_school": 2
+        "unclassified_offer_text": 1,
+        "no_offer_term": 2,
+        "hard_negative": 1,
+        "no_fbs_school": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2097946055153176648",
-          "author": "ucrrg",
-          "searchJob": "oklahoma",
-          "text": "When your DMS, payment portals and customer data are part of every sale, cyber risk rides along. Our Oklahoma-domiciled Risk Retention Group offers cyber liability coverage built for auto dealers—alongside garage liability options in major "
+          "reason": "unclassified_offer_text",
+          "postId": "2097887998603907119",
+          "author": "kobeissiletter",
+          "searchJob": "rice",
+          "text": "We now have: 1. President Trump offering $5,000 “dividend” checks to all American adults 2. Oil prices officially back above $100 per barrel 3. Total US debt above a record $40 trillion 4. Inflation above 2% for 60 consecutive months 5. One"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097953737201602855",
+          "author": "chatchat",
+          "searchJob": "rice",
+          "text": "Three people, three completely different problems. Same wall behind all of them: what they knew already had nowhere to live. Read how they each fixed that 👇 #Lifemaxxing #ChatChat #Notion https://t.co/ZX78Ez0FqN"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097947717150400946",
+          "author": "salibasexual02",
+          "searchJob": "rice",
+          "text": "Some thoughts on last night. Konsa - What a signing, complete brick wall, hard to beat, wasn’t keen on him coming to play as a RB but I can see how he’d fit in there as & when it happens, he’s going to be huge this season in keeping Timber "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097952511004901571",
+          "author": "chefslink",
+          "searchJob": "florida",
+          "text": "🇺🇸 𝐑𝐞𝐚𝐝𝐲 𝐟𝐨𝐫 𝐲𝐨𝐮𝐫 𝐧𝐞𝐱𝐭 𝐛𝐢𝐠 𝐦𝐨𝐯𝐞 𝐢𝐧 𝐅𝐥𝐨𝐫𝐢𝐝𝐚? Omasava is looking for a talented Sous Chef to join its exceptional culinary team in Naples, Florida. https://t.co/y68wHoQ4bl"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097963046098309563",
-          "author": "adeyusuff17895",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "grateful to receive an offer to Blackhawk technical college after a conversation with Coach Santana. #offered #agtg #grateful @KevinOneEye @mosesk225 @GASOLyndon @mtimminshoops @HankampScott @Uorangemen2 @CTP_Scouts @TexasHoopsGASO @LL7NV h"
+          "postId": "2097967137356976249",
+          "author": "phxroadrunners",
+          "searchJob": "arizona",
+          "text": "@ywomendeservles If he offered to help without her asking, she would have called it sexual harassment."
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 5,
+      "rejected": 10,
       "reasons": {
-        "bare_mention_requires_llm": 5
+        "bare_mention_requires_llm": 7,
+        "multiple_resolved_schools": 3
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097959837854241154",
-          "author": "nastyabeshkova",
-          "searchJob": "navy",
-          "text": "@BlackSea_Tech @foxandfriends The way you describe Navy makes it click, that is a skill. Your consistency in education is something to admire. Would love to send you a special offer with my work and a quote; X opens DMs after a follow back,"
+          "postId": "2097966870934483044",
+          "author": "joemomoh2",
+          "searchJob": "rice",
+          "text": "@_Octonauts If this is true, please someone should tell Real Madrid to take that transfer offer and shove it where the sun shines. Declan Rice is Arsenal through and through."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097949580662808763",
-          "author": "biral_r",
-          "searchJob": "navy",
-          "text": "Them being in GOO and area is well known - they have been seen on satellite operating the US blockade. For them to get to the PG the US Navy have to transit the SoH. This is a surprise to me as would expect Iran to fire much more at them. I"
+          "postId": "2097966577215754414",
+          "author": "profjobs1",
+          "searchJob": "rice",
+          "text": "Trump is offering $5000 but Nigerian politicians offers couple derica of rice"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097960492144943476",
+          "author": "ians_india",
+          "searchJob": "rice",
+          "text": "Sambalpur, Odisha: Freshly harvested paddy has reached Maa Samaleswari Temple in Sambalpur for preparing Nabanna, the traditional first offering of the new harvest during Nuakhai. The rice, brought by farmer Subash Behera, will be prepared "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097941459865387154",
-          "author": "dailyclutchh",
-          "searchJob": "navy",
-          "text": "🚨For almost 10 years, the most wanted terrorist in the world vanished. Governments searched. Intelligence agencies followed countless leads. A $25 million reward was offered for information leading to his capture. Yet Osama bin Laden remai"
+          "postId": "2097960047603061137",
+          "author": "daplentyszn",
+          "searchJob": "rice",
+          "text": "I visited someone recently and they offered me fried rice. Being the good boy that I am, I politely declined. Now I’m broke and hungry, and I’m seriously regretting that decision 😭"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097942986143223929",
-          "author": "instablog9ja",
-          "searchJob": "nevada",
-          "text": "I learned the term gaslighting through my relationship with Elon — Billionaire Elon Musk’s First Wife, Justine Wilson, Calls Their Marriage Super T%xic Elon Musk’s first wife, Justine Wilson, has described their marriage as super t%xic, cla"
+          "postId": "2097944072539259026",
+          "author": "jhaigantic",
+          "searchJob": "rice",
+          "text": "It really b the nerve &amp;&amp; audacity of sum hoes, then these bitches jus b thinkin they gon flirt or offer u sum pussy they way back in2 a relationship wit u…bitch I wldnt even let u back in my life, I wouldn’t take a rice krispy treat"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097950112454476031",
-          "author": "topsiswear",
-          "searchJob": "northwestern",
-          "text": "@DJ_upnxt @NUFBFamily @CoachDrewGray @LaMarcusHicks @DC_CoachLux @BrianDohn247 @adamgorney @ChadSimmons_ @Hayesfawcett3 @SWiltfong_ @SMAC_Football @DemetricDWarren @FTRreport Go Cats!!!! Congratulations on the Northwestern offer DeNairo ⭐️‼"
+          "postId": "2097964211309613136",
+          "author": "minkmike26",
+          "searchJob": "florida",
+          "text": "@tuuu28283 Florida has a bunch of cool license plates, the most vanity plates of any other state, but it all depends on what each state offers https://t.co/1Cl5QcWEjY"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097964105436991908",
+          "author": "jl_uitvlugt",
+          "searchJob": "florida",
+          "text": "Because the soviets were in a cold war with the United States and Cuba offered a vantage point 90 miles off of Florida putting America in direct range of Russian Nuclear MRBMs and IRBMs which would have been a dangerous escalation in the Co"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097950514541477972",
+          "author": "crygma",
+          "searchJob": "florida",
+          "text": "Quinn Emanuel Hit by Breach Exposing Muddy Waters Files Amid Bitter Disqualification Battle https://t.co/iMkkUXVgyE Litigation powerhouse Quinn Emanuel suffered a social engineering breach exposing confidential Muddy Waters files—exploding "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097967465217032486",
+          "author": "jacobooccidente",
+          "searchJob": "california",
+          "text": "Nope. The big question everyone should be asking is how much will opening the border cost vis a vis Federal and State Payments to illegals? How much will rent costs increase? How much lower will wages be presssured? What about wear and tear"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097953030972874926",
+          "author": "rohanarun",
+          "searchJob": "california",
+          "text": "@Super_Powers_AI Hey Super, build a fully interactive U.S. Census Apportionment & Funding Simulator. https://t.co/CUcAvowsJz This simulator will allow users to visualize the impact of different census rules on congressional apportionment an"
         }
       ]
     },
@@ -150,11 +210,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 5,
+      "rejectedCandidates": 10,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T08:28:15.685Z"
+    "status rebuilt locally from current store on 2026-09-10T08:43:12.032Z"
   ]
 }
