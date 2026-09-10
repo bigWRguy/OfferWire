@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T13:27:59.442Z",
+  "generatedAt": "2026-09-10T13:43:58.101Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T13:27:59.028Z",
+    "at": "2026-09-10T13:43:57.882Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,352 +32,303 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7667888888888889,
-    "p95Hours": 1.7232208333333334,
-    "worstHours": 2.025892222222222
+    "medianHours": 0.7949419444444444,
+    "p95Hours": 1.5418302777777777,
+    "worstHours": 1.5418302777777777
   },
   "decisionCoverage": {
-    "total": 60,
-    "decided": 60,
+    "total": 35,
+    "decided": 35,
     "complete": true
   },
   "pending": {
-    "total": 22
+    "total": 23
   },
   "profileResolution": {
     "cached": 45
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 973,
+    "completeOffers": 974,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T13:27:59.027Z",
-      "got": 91,
-      "new": 60,
-      "lag": 0.04
+      "at": "2026-09-10T13:43:57.882Z",
+      "got": 44,
+      "new": 35,
+      "lag": 0.15
     }
   },
   "audit": {
-    "at": "2026-09-10T13:26:19.357Z",
+    "at": "2026-09-10T13:42:26.069Z",
     "mode": "live",
     "collection": {
-      "returned": 91,
-      "kept": 60,
-      "duplicate": 31,
+      "returned": 44,
+      "kept": 35,
+      "duplicate": 9,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 43,
-      "rejected": 17,
+      "accepted": 19,
+      "rejected": 16,
       "reasons": {
-        "no_fbs_school": 12,
-        "no_offer_term": 5
+        "no_fbs_school": 10,
+        "no_offer_term": 6
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2098039957524758734",
-          "author": "calkinsregroup",
-          "searchJob": "michigan",
-          "text": "The listing price is an invitation. If you over price the property you will get less offers. If you price it under market value you will get more offers"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098035089900806652",
-          "author": "lisalenderink",
-          "searchJob": "michigan",
-          "text": "@Logically_JC So many choices. Gee. That 5k is a sweet offer too 😂😂"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098014661157265812",
-          "author": "mattreynolds615",
-          "searchJob": "michigan",
-          "text": "You have a character problem and it’s you, @elonmusk. So I asked ChatGPT the opposite: Yes. But once I apply your word — character — strictly, I actually cannot give you five glaring, unambiguous examples without bullshitting you. I can giv"
+          "postId": "2098033922886013381",
+          "author": "1timothyone12",
+          "searchJob": "nebraska",
+          "text": "@proamericapol @RhuleAid It’s still appalling that a Republican president would offer a $1.2 trillion government incentive in direct payments to vote for his party. It is fiscally irresponsible and reeks of desperation. Sad!"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098014529439342916",
-          "author": "scoopercooper",
-          "searchJob": "army",
-          "text": "Defence Official Fired After Warning About Beijing Says Ottawa’s Renewed PLA Engagement Bolsters Washington’s Claim That Canada Is China’s Back Door https://t.co/3qRGk7lbZp"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098036657735774553",
-          "author": "zoharatkins",
-          "searchJob": "army",
-          "text": "https://t.co/hHm6lGFZgF"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098031680179077446",
-          "author": "mypalfootfoot7",
-          "searchJob": "army",
-          "text": "They were offered bantustans"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097981533256655247",
-          "author": "camillatominey",
-          "searchJob": "army",
-          "text": "BINGO"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098025582525034718",
-          "author": "tickeron",
-          "searchJob": "army",
-          "text": "$ONDS https://t.co/lPmDVcMsX1"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098024078506344453",
-          "author": "armypiper",
-          "searchJob": "army",
-          "text": "Trump’s newest offer is a $5,000 “Trump Dividend” for every adult U.S. citizen—if Republicans retain both the House and Senate in November. Here’s the current-term payment scorecard: what was proposed, what was actually paid, and what still"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098018393622302856",
-          "author": "redandwhite2017",
-          "searchJob": "army",
-          "text": "@carl_macar @SunderlandAFC Pls email them and let us know the outcome. This should be something you can get some help with, same for others in your position. It's great that fans have offered to help but we need to know the club can help to"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098036607194448355",
-          "author": "dearuniverse_cs",
-          "searchJob": "charlotte",
-          "text": "@facepaint_paula Otters are I’ll be £795 (I now have the finance option things on my website to hopefully make the larger pieces more accessible 💙). DM me if you are interested. Hehe what a lovely offer re:Spain nothing at the moment n’ ha"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098022428651770096",
-          "author": "dfcov",
-          "searchJob": "charlotte",
-          "text": "🏡 BROKER HOME TOUR | QUEENS TOWERS Charlotte-area brokers, come take a tour of Queens Towers! 📍 1300 Queens Road #209 💰 Offered at $425,000 🛏️ 3 Bedrooms | 🛁 2 Baths | 1,337 SF https://t.co/tGpkyPdrdr"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098038590613962872",
+          "postId": "2098039916320207216",
           "author": "loopingcloud",
-          "searchJob": "louisiana",
-          "text": "https://t.co/zNXONnOFir"
+          "searchJob": "northwestern",
+          "text": "https://t.co/NUnvduJuNc"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098033082217730137",
-          "author": "bitswattsdesk",
-          "searchJob": "class:2026",
-          "text": "NTT (TSE: 9432) wrote the dates down before it had the products. In November 2022 it published a timetable for IOWN 1.0 through 4.0, with years and performance multiples attached to each step. Three years later, one of those numbers held up"
+          "postId": "2098025304602148942",
+          "author": "ucrrg",
+          "searchJob": "oklahoma",
+          "text": "Keys move fast. So can claims. Our Oklahoma-domiciled Risk Retention Group offers garage liability and cyber liability coverage for eligible auto dealer members—built for test drives, service lanes, loaners, and customer data."
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098027094932357423",
-          "author": "_gamblercasino_",
-          "searchJob": "class:2026",
-          "text": "No deposit bonuses casino are not free money. They are a contract with wagering, max bet and a cashout cap. 3000+ free spins, promo code. How to read the offer before you claim it. https://t.co/9nLxcDYVLG"
+          "postId": "2098041306165457144",
+          "author": "mrexcuseme9",
+          "searchJob": "ole-miss",
+          "text": "Important announcement 📣 I will be signing to a junior college in Mississippi as a DEFENSIVE LINE COACH achieving another goal alot happen this summer and this offer was here all summer I told myself no work hard this year but the devil th"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098025848464937015",
-          "author": "pressmonitorin",
-          "searchJob": "class:2026",
-          "text": "17 Essential Children & Youth Stories for Parents & Educators https://t.co/lcC5Ewacw6 media monitoring reveals 17 critical developments shaping child safety, welfare, and policy across the nation. This press review on news on children, mino"
+          "postId": "2098027710144737447",
+          "author": "randomvideos107",
+          "searchJob": "ole-miss",
+          "text": "==&gt;&gt; See Full part 1,2,3 Here : https://t.co/GOebfMH1QF The $50,000 offer? Let's ignore that….??? #usa #viral https://t.co/k8NAdyCeAu"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098023722938425621",
-          "author": "usatoday",
-          "searchJob": "class:2026",
-          "text": "Patriots QB Drake Maye threw three INTs in a 13-10 loss to the Seahawks to begin the 2026 NFL season. He offered a brutal but fair assessment afterward. https://t.co/iTqQ53Q4al"
+          "postId": "2098026202581840305",
+          "author": "louisvillebats",
+          "searchJob": "louisville",
+          "text": "Thursday's deal is here! 👇 Grab our Bats Fan Bundle— includes a t-shirt, koozie, and flag, all for just $40! ⚾️ (In-store only. Cannot be combined with other discounts or offers.) https://t.co/XJclIYjA6E"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098041931813011770",
+          "author": "pocaijan",
+          "searchJob": "miami",
+          "text": "https://t.co/cmuNHvHEDS"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098020397971132499",
+          "author": "don_twardowski",
+          "searchJob": "nc-state",
+          "text": "@Acyn If someone offers you money for your vote, you can report it to your local Board of Elections, the NC State Board of Elections (919-814-0700)"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098020161773097326",
+          "author": "don_twardowski",
+          "searchJob": "nc-state",
+          "text": "@FoxNews @BillMelugin_ If someone offers you money for your vote, you can report it to your local Board of Elections, the NC State Board of Elections (919-814-0700)"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098023305793982591",
+          "author": "krysia830073",
+          "searchJob": "hawaii",
+          "text": "https://t.co/dBDOjcKnol"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098033430722122162",
+          "author": "kirbylmarshall",
+          "searchJob": "marshall",
+          "text": "@ChrisPappasNH Chris you have all your Dem billionaires supporting you and your Socialist agenda. Forget the money and offer something outside of higher taxes and more big government."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098018224885379584",
+          "author": "mauerback",
+          "searchJob": "marshall",
+          "text": "@ebipere @StephanieKelton @MacroEdge1 Bessent should have taken the job of Chairman of the Fed, which Trump apparently offered to him at one stage."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098020333840109926",
+          "author": "tickeron",
+          "searchJob": "massachusetts",
+          "text": "$TJX https://t.co/4XtzrP8zZs"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098020947596877854",
+          "author": "tickeron",
+          "searchJob": "toledo",
+          "text": "$RKLB https://t.co/JAjJrMUfxd"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098028472442442205",
+          "author": "cassandrasfate",
+          "searchJob": "troy",
+          "text": "@WiretapMediaCa Getting paid handsomely to offer no real opposition."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097895670514364561",
+          "author": "sharpfootball",
+          "searchJob": "troy",
+          "text": "Drake Maye's last 5 games: 7 TD : 11 turnovers 7 INTs, 4 fumbles lost 24 sacks taken 143 yards lost on sacks 6.6 yds/att 5.6 net yards/att https://t.co/NdxI32L4Rb"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 43,
+      "accepted": 1,
+      "rejected": 18,
       "reasons": {
-        "bare_mention_requires_llm": 31,
-        "multiple_resolved_schools": 3,
-        "reporter_missing_player_name": 3,
-        "school_not_resolved_confidently": 6
+        "bare_mention_requires_llm": 7,
+        "reporter_missing_football_context": 1,
+        "school_not_resolved_confidently": 9,
+        "unresolved_offer_target": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098026470807396721",
-          "author": "hawkeyeswire",
-          "searchJob": "iowa",
-          "text": "Iowa football offers 4-star, legacy OL following opener 📸 Julia Hansen/Iowa City Press-Cit, USA TODAY Network via Reuters Connect https://t.co/ckpXQh1B2k https://t.co/ukAZcu8Zbc"
+          "postId": "2098026291379519805",
+          "author": "pernateamre",
+          "searchJob": "auburn",
+          "text": "💥 Price Improved 💥 🏠224 W Auburn Trail, Brighton Twp 48114 🛏️ 4 bedrooms 🛀 3 baths 🚗 3 car garage This stunning Hillsborough Estates Colonial offers over 5,300 square feet of finished living space on a private 0.81-acre lot & beautifu"
+        },
+        {
+          "reason": "reporter_missing_football_context",
+          "postId": "2098016828219920815",
+          "author": "nathanpurvis",
+          "searchJob": "mississippi-state",
+          "text": "| OFFERED | Christian Bennett (@showclassed), the class of 2028 @247Sports 3⭐️ offensive lineman from Clay-Chalkville High School (Pinson, AL), picks up the offer from Mississippi State. https://t.co/8uDQ9q1kNg"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098032319139295436",
-          "author": "fairladylong",
-          "searchJob": "michigan",
-          "text": "President Trump offers $5000 to all adults. The satire has started. Forget the Uniparty vote Libertarian. #Politics #news #Trump #Libertarian #Michigan"
+          "postId": "2098021129382478240",
+          "author": "iamannabe11e",
+          "searchJob": "nebraska",
+          "text": "1. Biden made his college tuition offer knowing kids don't understand the law. Biden v. Nebraska on June 30, 2023, SCOTUS ruled he did not have authority under the Heros ACT 2. Trump is working with Bessent on the plan but doesn't trigger w"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098030933517451422",
-          "author": "realqturnbull",
-          "searchJob": "michigan",
-          "text": "@DschlopesIsBack I believe @UMichFootball have made her an offer to support them in the Small House"
+          "postId": "2098018684987961462",
+          "author": "ktivnews",
+          "searchJob": "nebraska",
+          "text": "Winnebago Tribe of Nebraska offers information on proposed data center project https://t.co/XGtPELYoNM"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098030111111217464",
-          "author": "cdadams72",
-          "searchJob": "michigan",
-          "text": "&amp; ou football,win saturday &amp; offer ever recuruit in a michigan OV at the game , they are poribly on the fence anyways after t thr near defeat last weekend"
+          "postId": "2098023858473521604",
+          "author": "indozambiabank",
+          "searchJob": "northwestern",
+          "text": "Tune in to Radio Chengelo and catch Mr. Oscar Ndalama, Branch & Unit Head - Copperbelt and Northwestern sharing more about IZB NXT Rewards. 🗓️11th Sep 2026 | 8:10 Hrs Discover what your IZB NXT Rewards can offer you. #IndoZambiaBank #IZBNX"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098029461119942920",
-          "author": "cdadams72",
-          "searchJob": "michigan",
-          "text": "@MaizenBrew if i’m BV &amp; OU if we win saturday i offer every recruit Michigan has on a OV after last weekend they are on the fence already"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098023766794141941",
-          "author": "hankampscott",
-          "searchJob": "michigan",
-          "text": "BIG NEWS!!!! I've been a contributor for Prep Network for about a decade. After exploring what ownership of my own business felt like with Kamp's Korner LLC (staff and I covering MI HS girls bball, OH HS girls bball, & MI HS football), it's"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098038474213372099",
-          "author": "webulite",
-          "searchJob": "minnesota",
-          "text": "WSJ Headlines for 9/10 U.S. government bond yields climbed to fresh multiyear highs, with the 10-year note settling at 4.836%. Among stock indexes, the S&P 500, Dow and Nasdaq shed 0.5%, 0.8% and 0.6%, respectively. European natural-gas pri"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098031684885057991",
-          "author": "try2ban",
-          "searchJob": "minnesota",
-          "text": "Minnesota AG Keith Ellison MET with Somalis and fraudsters and got offered CAMPAIGN contributions, \"that he later accepted\" What is it you peoples first day reading the news? This is a NORMAL 30 year old PROBLEM if not a 100 YEAR OLD Proble"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098031107258376587",
-          "author": "deepleakshq",
-          "searchJob": "minnesota",
-          "text": "MN Doctor: I learned that Renee Good still had a pulse 8 minutes after she was shot by an ICE agent. And yet the offer to administer aid from a physician on the scene was denied. I can't say how much that stirs the blood of everyone behind "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098016581611671654",
-          "author": "owengregorian",
-          "searchJob": "minnesota",
-          "text": "‘You’re Fired’: Nearly 40 pro-life groups urge Trump admin to cut off Planned Parenthood funds | Fox News Nearly 40 pro-life and faith groups are calling on the Trump administration to cut off Planned Parenthood from all federal funding by "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098040128476258735",
-          "author": "francoboca",
-          "searchJob": "army",
-          "text": "The top latest USA news (Thursday 10 Sep, 09:25) 1) Trump makes highly unusual promise of 5,000 for all if Republicans win midterms First Thing .... Guardian Speaking in Dallas, the president raised ethical concerns with an apparent 1tn off"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098039511909642440",
-          "author": "dsqportervsccp",
-          "searchJob": "army",
-          "text": "“Raquel Garbers was the principal architect of the small team that drafted Canada’s 2024 defence policy, Our North, Strong and Free. On Oct. 15, 2025, she published an opinion piece warning that Ottawa’s increasingly anti-American rhetoric "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098033068275565018",
-          "author": "thelemniscat",
-          "searchJob": "army",
-          "text": "S. Shilov: \"An Alternative Germany: From Pensions to Trenches The success of \"Alternative for Germany\" (AfD) is not primarily the product of cunning political maneuvering, but rather the triumph of a protest party. Chancellor Merz may grima"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098032805267566873",
-          "author": "ibookwins",
-          "searchJob": "army",
-          "text": "You all have imoenetrable rosey glasses on when thinking about lpth. Let me offer another view on the RFI that has nothing to do with delays or other sources which is negative for all companies involved: The army thinks they are being charg"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098028929680281672",
-          "author": "laserindexmgmt",
-          "searchJob": "army",
-          "text": "LASER Index Management Charter The main purpose of this document is to give you an understanding of how you can get the most value out of spending time with me via reading my posts, my research, and occasionally listening to my thoughts thr"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2098028270969074131",
-          "author": "imfiredup2",
-          "searchJob": "army",
-          "text": "Ok the only person that can determine loyalty to the President is the President. 1. The President unclassified these documents. 2. His Transparency czar worked to have this released. 3. When it was released The President Shared it on his pe"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098026368407589215",
-          "author": "tamilguardian",
-          "searchJob": "army",
-          "text": "🕯 Sathurukkondan families demand ICC referral 36 years on Relatives of the 186 Tamil civilians killed at Sathurukkondan have called for a forensic excavation of the former Sri Lankan Army camp where they died, and for the case to be referr"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098025088004030525",
-          "author": "owengregorian",
-          "searchJob": "army",
-          "text": "Gamified DDoS attacks target NATO nations with psychological warfare, study shows | Hailey Crawford, ScienMag In an era where cyberattacks are often measured solely by downtime, bandwidth and remediation costs, a groundbreaking study from F"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098021018438603010",
-          "author": "celebpatrolug",
-          "searchJob": "army",
-          "text": "🚨 Beti Kamya Set to Launch Late Father’s Autobiography as Museveni Takes Centre Stage Former Inspector General of Government Beti Olive Namisango Kamya is set to launch the autobiography of her late father, Lt. Col. (Rtd) George Wilson Kam"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098014793453957485",
-          "author": "atlantiskalki",
-          "searchJob": "army",
-          "text": "Robert Monroe: The Hemi-Sync Tapes In the 1950s, New York broadcasting executive Robert Monroe began exploring the effects of sound on human consciousness. Fascinated by the idea that audio frequencies could enhance learning and alter menta"
+          "postId": "2098023633067319377",
+          "author": "scottmcbryde1",
+          "searchJob": "oklahoma",
+          "text": "@Scline3105 @KirkWilson @unfairsports Yup. I understand scarcity. But UofM tickets typically go for $150-$300 a seat. Oklahoma averages around $100 a seat. These offers are 2 seats for $60 dollars ($30 a seat) The tickets I bought in ‘95 wo"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098012834126864574",
-          "author": "michaelrafael84",
-          "searchJob": "buffalo",
-          "text": "Psalm 51:1-19 \"Have mercy on me, O God, according to your steadfast love; according to your abundant mercy blot out my transgressions. Wash me thoroughly from my iniquity, and cleanse me from my sin. For I know my transgressions, and my sin"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098009647915335714",
-          "author": "srskip8",
-          "searchJob": "buffalo",
-          "text": "BORN RUNNING: THE STORY OF A WILDEBEEST CALF ARRIVING IN THE HERD The footage is not dramatic in the way a chase or a violent kill scene is dramatic. There is no lunging predator, no cloud of dust kicked up by galloping hooves, no screaming"
+          "postId": "2098034423577165985",
+          "author": "sagawa69",
+          "searchJob": "oregon",
+          "text": "The usual crowd surrounded the pair, beaming and applauding—the elderly gentleman who tossed bread to the ducks dabbing at his eye, the busker delivering a love song, and those walking their dogs pausing to offer their best wishes.🥰Sandy v"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098038355149664689",
-          "author": "oddsmokersteve",
-          "searchJob": "charlotte",
-          "text": "If you're looking for something to run on Rams/49ers tonight, Kalshi has a solid price up for Mike Evans to find a touchdown New users get a \"Trade 25, Get 25\" offer when you sign-up, so check it out and have some fun tonight during the gam"
+          "postId": "2098026088257499559",
+          "author": "lennykey7",
+          "searchJob": "oregon",
+          "text": "@fishin220 @Felix_Sicard Random hockey twitter: “they overplayed their hands!” Leo’s agents: “Ducks tried hard to get us to sign, but we weren’t signing until September unless there was an offer sheet”"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098023244443816445",
+          "author": "paulbarham2",
+          "searchJob": "oregon",
+          "text": "@NHLRumourReport I cant believe there's no team that would have flipped a token pick or prospect to the Ducks for Kreider?! If the Leafs had the Cap Space I would've offered a least a third rd pick for the one year he has left on his contra"
+        },
+        {
+          "reason": "unresolved_offer_target",
+          "postId": "2098037525453664642",
+          "author": "profilefblive",
+          "searchJob": "louisville",
+          "text": "🚨 First P4 Offer 🚨 2028 SAF Charles Newton Jr. from Princeton HS, OH has received his first P4 offer from Louisville. @CharlesLNewton Rated 3.2⭐ (#1167 NATL, #87 SAF, #43 OH). https://t.co/5QZDMQDRuY"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098029560633708939",
+          "author": "ngameztorres",
+          "searchJob": "miami",
+          "text": "#Exclusive: The Trump admin offered #Cuba oil and US investment in its energy sector but negotiations with a Castro sparked controversy in Miami and Cuban leaders decided “to resist.” In the middle, the suffering Cuban people https://t.co/3"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098026709744333055",
+          "author": "sinceninety_5",
+          "searchJob": "miami",
+          "text": "@NaijaPrinc3 Jaime didn't not get us Giannis. Herro and Kelel I agree with that. Jaime was good fit but more importantly, salary match. Miami tried to keep Kas out, even offered Davion and Bucks wanted Kas"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098024920139633148",
+          "author": "musicsportsolar",
+          "searchJob": "miami",
+          "text": "@DougKyed If Miami offered him more money, he would take it, and say the same"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098021855424848324",
+          "author": "bogeyburner15",
+          "searchJob": "miami",
+          "text": "@RyanLucas_LA I heard from a Miami podcaster on YouTube that they interviewed the guy way before mark Walter sold the lakers. he said usually Miami heat employees don't leave but the offer was enticing and the guy wanted to move up"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098034403456712809",
-          "author": "esrjournals",
-          "searchJob": "charlotte",
-          "text": "Umbilical endometriosis: can cryoablation offer a minimally invasive alternative? 🧊 🎀 Umbilical endometriosis is rare, but it can cause significant cyclical pain, bleeding, cosmetic concerns, and reduced quality of life. De Rycke et al. e"
+          "postId": "2098042603719606352",
+          "author": "leonkelem",
+          "searchJob": "hawaii",
+          "text": "@DPrello I've never heard of a supplement company offer doctors free trips to their \"convention\" in Hawaii.🤣"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098032636996252099",
+          "author": "dmsevoac",
+          "searchJob": "toledo",
+          "text": "@GautamXB @jane_ethan12 All Gaza has done since Israel voluntarily gave Gaza over to them is to send rockets into Israel. They have rejected every single peace deal that people have offered. Israel said yes to every single one. Gazans don't"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098026495864098992",
+          "author": "metro_sport",
+          "searchJob": "troy",
+          "text": "Troy Deeney names two Arsenal starters who can still ‘offer more’ https://t.co/AaFNdOJIhe"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098020045620388234",
+          "author": "troyrenck",
+          "searchJob": "troy",
+          "text": "So many #NFL analysts would rather give up their firstborn than admit they were wrong about #DenverBroncos QB Bo Nix in the draft. Many now couch praise by saying he has only succeeded because of Sean Payton. It is exhausting. Nix can impro"
         }
       ]
     },
@@ -391,12 +342,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 43,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 18,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T13:27:59.443Z"
+    "status rebuilt locally from current store on 2026-09-10T13:43:58.102Z"
   ]
 }
