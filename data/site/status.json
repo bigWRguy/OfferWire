@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T21:28:00.304Z",
+  "generatedAt": "2026-09-10T21:58:12.313Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T21:28:00.017Z",
+    "at": "2026-09-10T21:58:11.976Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,74 +32,74 @@
   },
   "staleSchools": [
     {
-      "id": "arkansas-state",
+      "id": "army",
       "hours": 2.8
     },
     {
-      "id": "army",
+      "id": "buffalo",
       "hours": 2.3
     },
     {
-      "id": "boise-state",
+      "id": "central-michigan",
       "hours": 2.3
     },
     {
-      "id": "bowling-green",
+      "id": "charlotte",
       "hours": 2.3
     },
     {
-      "id": "florida-atlantic",
+      "id": "coastal-carolina",
       "hours": 2.3
     },
     {
-      "id": "florida-international",
+      "id": "colorado-state",
       "hours": 2.3
     },
     {
-      "id": "jacksonville-state",
+      "id": "fresno-state",
       "hours": 2.3
     },
     {
-      "id": "old-dominion",
+      "id": "georgia-southern",
       "hours": 2.3
     },
     {
-      "id": "oregon-state",
+      "id": "kennesaw-state",
       "hours": 2.3
     },
     {
-      "id": "rice",
+      "id": "kent-state",
       "hours": 2.3
     },
     {
-      "id": "sam-houston",
+      "id": "liberty",
       "hours": 2.3
     },
     {
-      "id": "san-diego-state",
+      "id": "louisiana",
       "hours": 2.3
     },
     {
-      "id": "san-jose-state",
+      "id": "south-alabama",
       "hours": 2.3
     },
     {
-      "id": "uab",
+      "id": "utah-state",
       "hours": 2.3
     },
     {
-      "id": "unlv",
+      "id": "utep",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.0173911111111111,
-    "p95Hours": 2.2737294444444442,
-    "worstHours": 2.7728944444444443
+    "medianHours": 1.0333075,
+    "p95Hours": 2.278598611111111,
+    "worstHours": 2.7770652777777776
   },
   "decisionCoverage": {
-    "total": 47,
-    "decided": 47,
+    "total": 56,
+    "decided": 56,
     "complete": true
   },
   "pending": {
@@ -110,294 +110,367 @@
   },
   "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 991,
+    "completeOffers": 992,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T21:28:00.016Z",
-      "got": 84,
-      "new": 47,
-      "lag": 0.06
+      "at": "2026-09-10T21:58:11.975Z",
+      "got": 92,
+      "new": 56,
+      "lag": 0.07
     }
   },
   "audit": {
-    "at": "2026-09-10T21:26:22.764Z",
+    "at": "2026-09-10T21:56:29.279Z",
     "mode": "live",
     "collection": {
-      "returned": 84,
-      "kept": 47,
-      "duplicate": 37,
+      "returned": 92,
+      "kept": 56,
+      "duplicate": 36,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 36,
-      "rejected": 11,
+      "accepted": 35,
+      "rejected": 21,
       "reasons": {
-        "no_offer_term": 5,
-        "no_fbs_school": 5,
-        "hard_negative": 1
+        "no_offer_term": 8,
+        "no_fbs_school": 8,
+        "unclassified_offer_text": 1,
+        "hard_negative": 2,
+        "non_fbs_offer_target": 2
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2098122515289637048",
-          "author": "thesomalidigest",
-          "searchJob": "washington",
-          "text": "Somaliland says it will send up to 2,000 soldiers to Gaza if Washington or Israel asks. Mogadishu spent the same week asking the world to keep funding the force that holds its own capital, and ordering troops toward Baidoa. https://t.co/Y6E"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098149837812199625",
-          "author": "ilirmehmetaj",
-          "searchJob": "arkansas-state",
-          "text": "How a coastal refinery that makes water, power, salt and magnesia from the sea could redraw the water map of India — and why the first decision is the simplest one: to measure it. https://t.co/Pa5y25mHVl"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098149460312310015",
-          "author": "lionessinus",
-          "searchJob": "arkansas-state",
-          "text": "The question is whether two versions of Harry's return can occupy the same country at the same time: the son coming home with his children, and the private operator still moving through rooms that look, to outside institutions, like an alte"
+          "postId": "2098167863807008841",
+          "author": "queenashbridge",
+          "searchJob": "army",
+          "text": "A queen can survive battle, conspiracy, even history itself. What she cannot survive unchanged is discovering that one missed line in a ledger helped kill the woman she loved. https://t.co/6LxgLONtXu"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098143533831999693",
-          "author": "0hhigh0h",
-          "searchJob": "ohio",
-          "text": "@Enquirer Amy can’t kick the bottle for a night.. offer her a late morning debate and she might be more willing."
+          "postId": "2098146758975246618",
+          "author": "thomas_garrard",
+          "searchJob": "army",
+          "text": "@ShepherdOvWatch If someone offers you a drink on the deck of the Titanic, it doesn’t matter if you accept it or not, the ship is still going to sink."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098145320567759182",
+          "author": "ee_ibrahim23",
+          "searchJob": "army",
+          "text": "#Somaliland is willing to deploy 2,000 troops in #Gaza, President Irro said on Wednesday. Abdullahi's comments come after #Uganda approved the deployment of army troops to the ISF last month, becoming the first African state to do so. https"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098139625822851218",
+          "author": "the_ballmanac",
+          "searchJob": "boise-state",
+          "text": "Oregon Defense vs Boise State week 1 Breakdown now in the Coaches Circle!!! Link for subscribers: https://t.co/ugdH4mru1g Coaches Circle Sign-up: https://t.co/HTPgTtOZk4 https://t.co/nzbdXx7aHB"
+        },
+        {
+          "reason": "unclassified_offer_text",
+          "postId": "2097813057208758442",
+          "author": "ace_amina",
+          "searchJob": "boise-state",
+          "text": "Blessed to be reoffered by @BroncoSportsFB @Coach_SD #AG2G #Platform @raisingchamps_ #GoOrange #GoBigBlue https://t.co/ohGbZ11VRw"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098142999737729436",
-          "author": "ohiobwc",
-          "searchJob": "ohio",
-          "text": "Need to meet your continuing education requirements? MHS26 offers over 20 types of continuing education for health-care and legal professionals. And, it's completely free! MHS26 kicks of next Wednesday, Sept. 16, so don't wait. Register tod"
+          "postId": "2098168184188575940",
+          "author": "jamesrice21",
+          "searchJob": "rice",
+          "text": "@LMSChairman @DinosaurSpotter @muzunguafrica On that I agree Dr. Shaw - but is it right in your opinion for RCs to accept such offers?"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098138008427823401",
+          "author": "jamesrice21",
+          "searchJob": "rice",
+          "text": "@DinosaurSpotter @muzunguafrica @LMSChairman The C of E have paid for its upkeep for the last ~500 years, so what is your point? As i say, a building that is legally owned by the C of E (and formally recognised as such by the RCC). Should t"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098132334457270345",
+          "author": "jamesrice21",
+          "searchJob": "rice",
+          "text": "@muzunguafrica @LMSChairman Doesn't really address the point. The Church is now in the hands of the C of E - should they not have offered RCs the use of it? Or, should RCs have rejected the offer?"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098127425490366513",
+          "author": "abbasmarafa10",
+          "searchJob": "rice",
+          "text": "@__Om33R Haba! A lot mana. Don't ungrateful."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097720634927186252",
+          "author": "sidin",
+          "searchJob": "rice",
+          "text": "What is your personal eating record? I once ate 18 idlis in one 40 minute sitting. I was 13 years old."
         },
         {
           "reason": "hard_negative",
-          "postId": "2098159193437901067",
-          "author": "raoul_000",
-          "searchJob": "iowa",
-          "text": "Ashna Ramlall, 5-9 SG, Rosemount HS (MN), has announced her commitment to Stanford WBB, their first 2028 commit; among her other offers: Arizona State, Iowa State, Minnesota, Utah, Wisconsin"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098153425653620882",
-          "author": "vogelhausvintag",
-          "searchJob": "michigan",
-          "text": "https://t.co/dm2laHt5Sz Northern Michigan home ready for your updates, enjoy all that Lake Michigan has to offer"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098135863771218250",
-          "author": "mlive",
-          "searchJob": "michigan",
-          "text": "Sleeping Bear Dunes offers a rare escape from light pollution with lantern-lit trails, telescope viewings, and sweeping views of Lake Michigan after dark. https://t.co/ebiC0gdA9I"
+          "postId": "2098153883524821355",
+          "author": "bsonnone",
+          "searchJob": "uab",
+          "text": "It's worth putting some attention on a regional G6 program putting together a really solid list of visitors for its home opener. UAB expecting: 3⭐️ S Hudson Fuqua (Mississippi State commit) '27 3⭐️ S Jaquille Island '28 3⭐️ S Xykais Thomas "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098158320779469151",
-          "author": "newstribune",
-          "searchJob": "missouri",
-          "text": "The Missouri Department of Conservation is inviting landowners to a prescribed burn workshop Oct. 3 in Versailles. #MidMo https://t.co/cwc17X1qiv"
+          "postId": "2098161768585478158",
+          "author": "lando_law5",
+          "searchJob": "auburn",
+          "text": "I will be in Auburn this weekend for a Gameday visit!!! @tjkelly17 @GoSaraland @G_miller11 @CoachParkerBall @AuburnFootball @ScoutFball @HallTechSports1 @dtagovailoa @raisingchamps_ @ChadSimmons_ @On3 @Rivals @AL5AFootball1 https://t.co/owL"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098149614880805265",
-          "author": "francoboca",
-          "searchJob": "missouri",
-          "text": "Missouri election officials order restoration of old congressional maps after... What's off: Missouri secretary of state writes to authorities after court... What it means: Why it matters past the Guardian headline. https://t.co/vGGGqZ557B "
+          "postId": "2098154615745474561",
+          "author": "og_com",
+          "searchJob": "auburn",
+          "text": "HEISMAN SHOWDOWN IN AUSTIN ON SATURDAY 💥 OSU QB Julian Sayin vs. Texas QB Arch Manning. Top-5 matchup. Everything on the line. Full #1 Ohio State at #4 Texas preview, lines, and predictions ⤵️ https://t.co/heVtsqWCvC"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098139317201699038",
+          "author": "bsonnone",
+          "searchJob": "mississippi-state",
+          "text": "Germantown's pair of 6-foot-6 pass rushers are rapidly racking up offers Get familiar with 2029 prospect Darrius Gross and 2028's AJ Stokes, I'm not sure there are many DE duo's with more upside than these two. Mississippi State already off"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098158918178574370",
+          "author": "zaneccampbell",
+          "searchJob": "ole-miss",
+          "text": "I run IronGate from Florida. The houses sit in Mississippi. I never drive there. I never meet the tenant face to face. https://t.co/7jKpa3gAhU"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098137669272301667",
-          "author": "originalbondman",
-          "searchJob": "kansas",
-          "text": "@8thTxCav @TracesofTexas Lamar then looked for a new location and the Mayor Bartle of Kansas City offered them an attractive package to move. By the way, that Mayor’s nickname was The Chief - why they carry that nickname to this day! 2/2"
+          "postId": "2098156169290449298",
+          "author": "recordertweets",
+          "searchJob": "oregon",
+          "text": "While District Judge Michael Simon's ruling is likely to be appealed, attorneys not involved in the case said it offers a hint of how courts might approach some of the legal arguments that plaintiffs can muster against such extended produce"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098154147011031542",
+          "author": "corpcounsel",
+          "searchJob": "oregon",
+          "text": "While District Judge Michael Simon's ruling is likely to be appealed, attorneys not involved in the case said it offers a hint of how courts might approach some of the legal arguments that plaintiffs can muster against such extended produce"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098161811291807757",
+          "author": "ryderimel",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After a great visit, I’m blessed and grateful to have received my first offer and a full scholarship from the University of Saint Francis! Thank you to @CoachNateConley @Coachzaneburke for an amazing visit! #AGTG #Blessed @Homestead_BBB @us"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098158290446217244",
+          "author": "sambrigyy",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Blessed to receive a division 1 offer from mercyhurst university. Super thankful ! #agtg #mercyhurst #basketball https://t.co/YeGZzy7NmL"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098157981619700037",
+          "author": "bannercarlson",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After a great conversation with @coachgravitt, I'm blessed to receive an official offer from Emory and Henry University! Thank you so much for this opportunity! #AGTG https://t.co/JBlpFiC6Ut"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098154995707244937",
+          "author": "julianeliscard",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Blessed to receive my 3rd offer from Messabi Range Norse college💚💛#agtg @DraftDiamonds @CoachAlexHaynes @NathanKero81 @Coach_Guice @CoachJohnsonVHS @CoachJohnsonVHS @tulane63 https://t.co/EwMJQBJdYD"
         }
       ]
     },
     "extraction": {
       "accepted": 1,
-      "rejected": 35,
+      "rejected": 34,
       "reasons": {
-        "bare_mention_requires_llm": 31,
-        "multiple_resolved_schools": 1,
-        "reporter_missing_player_name": 2,
-        "school_not_resolved_confidently": 1
+        "bare_mention_requires_llm": 27,
+        "multiple_resolved_schools": 3,
+        "player_missing_class_year": 1,
+        "reporter_missing_player_name": 1,
+        "school_not_resolved_confidently": 2
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098160737839407173",
-          "author": "eddieleeds1",
-          "searchJob": "arkansas-state",
-          "text": "@VividProwess @HGWhites Why was they offered a state … when they originally had a country ? That’s the only question that should be asked."
+          "postId": "2098164085045317878",
+          "author": "realaaronboyes",
+          "searchJob": "army",
+          "text": "Houthis are shutting down Red Sea, Hormuz still closed oil over 100 Iran hits 9 planes including wasting a Thunderbolt Warthog. Meanwhile Trump is trying to figure out if he wants to change the name of the Atlantic Ocean. Wake up and smell "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098160054834774417",
-          "author": "thebtrader",
-          "searchJob": "arkansas-state",
-          "text": "@PierrePoilievre Trump offered you unification. Without that, you are not a state."
+          "postId": "2098164078266949906",
+          "author": "bgulsby",
+          "searchJob": "army",
+          "text": "Wonder if trump's deporting people to russia? 'Report reveals foreign nationals were misled with job offers, then forced into Russia’s army upon arrival.' Amnesty accuses Russia of trafficking foreigners to fight in Ukraine https://t.co/ZFk"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098158717393088952",
-          "author": "pantamin_ikara",
-          "searchJob": "arkansas-state",
-          "text": "When you look at @ProfIsaPantami's capacity, vision and experience, it is difficult to ignore the qualities required to lead a state as Governor 🤔 From digital transformation and human capital development to policy-making, innovation and p"
+          "postId": "2098160829896237239",
+          "author": "personxpersony",
+          "searchJob": "army",
+          "text": "As for Antioch, it was the beginning of end, but God gave the East considerable time to reverse their hubris. Directly after the Great Schism the East lost all Italian Territory, shocked at Manzikert by Seljuks, begged Rome for aid in retur"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098151002213953677",
-          "author": "muddlaw",
-          "searchJob": "arkansas-state",
-          "text": "18 USC SEC. 666(a)(2) \"corruptly gives, offers, or agrees to give anything of value to any person, with intent to influence or reward an agent of an organization or of a State, local or Indian tribal government, or any agency thereof, in co"
+          "postId": "2098159217345487159",
+          "author": "yuiposting",
+          "searchJob": "army",
+          "text": "So, as the war ends, Muichiro offers for Yuichiro to permanently stay in the army and come back to his own residence to live! Living at the general's residence sounds... okay... but then Yuichiro would lose the connection with the third pri"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098149355622395936",
-          "author": "_sabriinaax",
-          "searchJob": "arkansas-state",
-          "text": "@jalexgoatley @DK_Assist They’ll say you don’t live in a state that offers early exit lmao I got that answer today"
+          "postId": "2098159034755133940",
+          "author": "elerrantenomad",
+          "searchJob": "army",
+          "text": "@Mr_Usmanovic @MenchOsint Not my army and no this is not 6D chess move, it’s a necessity. Houthis are well fortified in mountain areas it’s better to offer them urban combat and invite them they can’t control FPV drone hidden pre planted ho"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098148777479864752",
-          "author": "thelastofthe252",
-          "searchJob": "arkansas-state",
-          "text": "My intentions for these prayers are for Super Bubba and his mother, Kristen Schmidt. I bless thee Super Bubba and his mother Kristen Schmidt in the Name of the Father and of the Son and of the Holy Spirit! Amen! Pray to the Blessed Mother M"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098148725814165862",
-          "author": "donaldsaxe",
-          "searchJob": "arkansas-state",
-          "text": "Five times they have been offered a state. 5X"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098141010681286866",
-          "author": "andreat42115247",
-          "searchJob": "arkansas-state",
-          "text": "But in that case we would be talking about pantheism, which is yet another heresy and has nothing to do with personal polytheism. The first and only person to create a synthesis encompassing all the pagan and polytheistic religions of Ancie"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098135423268565048",
-          "author": "hatzlakah1",
-          "searchJob": "arkansas-state",
-          "text": "@JamesMilne_ @rob_marchant Palestinians have turned down a state every single time it has been offered to them. If this conflict was Palestinians versus another Arab state eveyone would be yelling at the Palestinians to stop being insuffera"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098133905295442345",
-          "author": "weelizzie6",
-          "searchJob": "arkansas-state",
-          "text": "@MrWinMarshall @WilliamClouston “If a state doesn’t offer protection to its citizens then the loyalty these citizens have to the state erodes”"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098133815684165684",
-          "author": "stevedoc22",
-          "searchJob": "arkansas-state",
-          "text": "@GBC_Press Bill Clinton: “The Palestinians were offered a state. They refused. A state wasn't their goal. Killing Jews was.\""
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098130454931177793",
-          "author": "sco90011642",
-          "searchJob": "arkansas-state",
-          "text": "@adekunlehy @timmosion DYK, that in 200O, Ehud Barak offered Yasser Arafat all of Jerusalem as the capital of Palestine, as part of the 2 State Solution? He rejected it. Cos their fight is not about a state. What they want? The annihilation"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098129056457752901",
-          "author": "pressliberland",
-          "searchJob": "arkansas-state",
-          "text": "After state election: BSW in Saxony-Anhalt accepts the AfD's offer of talks+++ GERMANY/MAGDEBURG: After the state election in Saxony-Anhalt, the BSW wants to hold talks with the AfD about possible cooperation. The state board unanimously de"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098127772447023614",
-          "author": "theriptorn",
-          "searchJob": "arkansas-state",
-          "text": "@kelvmackenzie They weren’t “offered a state”… not that it was anyone’s to offer."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098125634526736822",
-          "author": "kylereesemunny",
-          "searchJob": "arkansas-state",
-          "text": "@VividProwess israel hasnt made even the tiniest effort toward peace during the past 50 years. palestinians werent offered anything. they werent offered a state. israelis offered a checker board of random non-connected blocks with israeli m"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098125059218944136",
-          "author": "silence_zhi",
-          "searchJob": "arkansas-state",
-          "text": "Bill Clinton: “The Palestinians were offered a state. They refused. A state wasn't their goal. Killing Jews was.\" What is the lifelong goal of the Muslim? Just kill or enslave infidels! https://t.co/z28Q4V8c8F"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098131358883180848",
-          "author": "larrysc08491849",
-          "searchJob": "navy",
-          "text": "@WhiteHouse “Stocks have cooled this week as oil prices topped $105 per barrel after Iran targeted US Navy warships in the latest escalation.” Not good! Perhaps the US should surrender unconditionally and offer a full &amp; sincere apology "
+          "postId": "2098158141250666611",
+          "author": "backwoodsherpa",
+          "searchJob": "army",
+          "text": "@finding30s @EYakoby And hitler said he was offered peace to Britain as his army was slaughtering poles"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098124399605846455",
-          "author": "afp_press",
-          "searchJob": "navy",
-          "text": "Navy Destroyer Packs New ‘Piggy-Backed’ Point Defense System That Combines 30mm And .50 Cal Guns Recently released pictures have highlighted a particularly interesting feature on the U.S. Navy’s Arleigh Burke class destroyer USS Mustin : a "
+          "postId": "2098134784027365735",
+          "author": "ancienthistorry",
+          "searchJob": "army",
+          "text": "The richest man in Roman history made his first fortune off dead men's houses and his second off burning ones. Marcus Licinius Crassus was born into a good family that got destroyed. His father and brother died in the Marian purges of 87 BC"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098121892641296852",
-          "author": "susan_dupres",
-          "searchJob": "navy",
-          "text": "THE FALLING MAN Sept. 2003 Part 9 Catherine Hernandez never saw the photo the reporter carried under his arm at her father's funeral. Neither did her moth, Eulogia. Her sister Jacqueline did, and her outrage assured that the reporter left -"
+          "postId": "2098132397669728584",
+          "author": "14wombat1",
+          "searchJob": "army",
+          "text": "10.09.26 GARLAND NIXON ANALYSIS with MARK SLEBODA discuss \"TRUMP OFFERS 5 GRAND FOR VOTES AS SAUDI ARABIA FALLS TO A MIGHTY LAND ARMY\" https://t.co/SmGfvhdcbB"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098157093165404351",
-          "author": "sen34townsend",
-          "searchJob": "new-mexico",
-          "text": "In the last ten years 12,000,000 have moved into Texas. All the while, New Mexico while led by failing democrat leadership is stagnant at 2,000,000. For the last ten years we have not grown. Why because we have failed to offer a future. Sad"
+          "postId": "2098132314353963160",
+          "author": "blondguitar25",
+          "searchJob": "army",
+          "text": "@Tempobservgqs8 @APHClarkson @danieltavana A. Thanks for confirming what’ll happen in 2028 with this B. Iran actually offered to have Hezbollah dissolve into the Lebanese army"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098154507012391289",
-          "author": "nonemoreblk",
-          "searchJob": "new-mexico",
-          "text": "@KarthikForTexas Gay marriage is legal and has been fully recognized in TX for more than 10 years. Paid Leave exists in TX, it's just not mandated by the state. Online Voter Registration exists in TX, just not for new applicants. New Mexico"
+          "postId": "2098129293561991204",
+          "author": "thayiljohn",
+          "searchJob": "army",
+          "text": "As in 1 Samuel 13, Saul had an obedience problem. When faced with an enemy army, Saul could have turned to God for help and guidance. He could have also turned to God’s messenger, Samuel. Instead, Saul took matters into his own hands and of"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098147273255399595",
-          "author": "unionrural",
-          "searchJob": "ohio",
-          "text": "With cooler temps right around the corner, fall is a great time to plan new adventures. From corn mazes, colorful foliage, haunted houses and the Underground Railroad, discover all Ohio has to offer this season. https://t.co/ttsnFkd4vG via "
+          "postId": "2098128693675917532",
+          "author": "habilaishaq",
+          "searchJob": "army",
+          "text": "Ilorin at that time had not been walled, and there was no time to do so before the arrival of the invaders. Makeshift fortifications made of logs of locust and shea butter trees (igi igba ati igi emi) were hurriedly felled across the road a"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098142408814768152",
-          "author": "banancial",
-          "searchJob": "delaware",
-          "text": "$BHF — The $4.1B acquisition of Brighthouse Financial by Aquarian has been pushed back to December 6. Delaware regulators questioned Aquarian founder Rudy Sahay on capital sources, causing the September 6 deadline to lapse. This isn't minor"
+          "postId": "2098127591081439294",
+          "author": "chrisv208",
+          "searchJob": "boise-state",
+          "text": "Boise State offers Class of 2028 QB Ace Amina. Amina plays for Bishop Gorman HS(NV)"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098147066828460366",
-          "author": "sports_igiveup",
-          "searchJob": "arkansas",
-          "text": "One of UNCs offered PGs is off the board Think he’s the best 2 way PG in the class &amp; I think it’s a good fit for him tbh Leaves us with PG offers to: -Black (heavy Arkansas lean) -Anderson (unsure, not a lot of smoke around his recruitm"
+          "postId": "2098152044481610080",
+          "author": "bgkyworks",
+          "searchJob": "bowling-green",
+          "text": "From local businesses and restaurants to the people and places that make our community special, Best of Bowling Green is a great reminder of everything our growing community has to offer. 💚 https://t.co/hilTPm0qfZ"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098161492075897067",
+          "author": "gavinpowell54",
+          "searchJob": "florida-atlantic",
+          "text": "Excited to be back at FAU this Saturday! Looking forward to a great game and another opportunity to experience everything FAU Football has to offer. Go Owls! 🦉 @FAUFootball @CoachHamby @koz_kodonas @CoachDrafts @NeaseFTBL @bhernyscoutguy h"
+        },
+        {
+          "reason": "player_missing_class_year",
+          "postId": "2098166720158486879",
+          "author": "djcrowe0",
+          "searchJob": "florida-international",
+          "text": "Blessed to receive a D1 offer from Florida International University @coach_Gomez36 @Coachtylercurts @Coach_JL51 @chrisjammar @A1Rsports https://t.co/cH8IA066r4"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098156627912192221",
+          "author": "np4football_ot",
+          "searchJob": "old-dominion",
+          "text": "Demetrius “Meechie” Dunlap-DB-JUCO @ODUFootball Offer #CFB"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098166838601691537",
+          "author": "shinseisyakotan",
+          "searchJob": "rice",
+          "text": "Shakotan Blue is beautiful in autumn, too. Discover the sweeping ocean views of Cape Kamui, a place known for its spiritual energy. Enjoy a refreshing autumn getaway in Shakotan, Hokkaido. Just a five-minute drive from Cape Kamui, Oyado Shi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098160668616556740",
+          "author": "jimmy_rohrbaugh",
+          "searchJob": "rice",
+          "text": "Some will never willingly end their rebellion against God. They may regret their eternal plight, but not their rebellion. Why won’t they? I don’t know, but I suspect it has something to do with the mystery of sin and iniquity. I shared a ho"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098155553927090667",
+          "author": "chairboy84",
+          "searchJob": "rice",
+          "text": "@EpilepticFB @JWilkinsFLW But either Blooms jumped ship because he had a better offer. Which is fair enough. Or he left because of a disagreement in approach with Dan Rice. Either way, I don’t think we should/would take him back."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098139655270990129",
+          "author": "tellamahn",
+          "searchJob": "rice",
+          "text": "@__ConciliaFO_ The same MP is always waiting for burials and the national exams so as to offer rice and beans meals."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098131242952650983",
+          "author": "nicksimsy",
+          "searchJob": "rice",
+          "text": "@talkSPORT Rice is so overrated. Overhyped. Basically plays sideways and backwards and takes a few corners. Offers absolutely nothing yet the delulu Assna fans think he’s the best thing since sliced bread. Crazy."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098129341888581985",
+          "author": "__om33r",
+          "searchJob": "rice",
+          "text": "Hahahahah it is not about being ungrateful, my guess is RICE was the only thing thing they could offer to the poor."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098128368487272844",
+          "author": "krishnakrm",
+          "searchJob": "rice",
+          "text": "12th stand, when school offered free lunch 5 servings of Sambar Rice &amp; 3 Servings of Curd Rice"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098163415051108857",
+          "author": "scoutfball",
+          "searchJob": "auburn",
+          "text": "UPDATE: Auburn will host Saraland (Ala.) 2029 OL Landon Law. @lando_law5 He’s a fast-rising 2029 OL with offers from Georgia Tech, Southern Miss &amp; Troy already. https://t.co/qYc2JnrgbC"
         }
       ]
     },
@@ -412,11 +485,11 @@
     },
     "outcome": {
       "acceptedEvidence": 1,
-      "rejectedCandidates": 35,
+      "rejectedCandidates": 34,
       "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T21:28:00.305Z"
+    "status rebuilt locally from current store on 2026-09-10T21:58:12.314Z"
   ]
 }
