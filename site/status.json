@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T02:13:05.235Z",
+  "generatedAt": "2026-09-10T02:28:02.608Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T02:13:04.913Z",
+    "at": "2026-09-10T02:28:02.270Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0296852777777779,
-    "p95Hours": 1.7786366666666666,
-    "worstHours": 1.7786366666666666
+    "medianHours": 0.9130547222222222,
+    "p95Hours": 1.7760461111111112,
+    "worstHours": 2.0279069444444446
   },
   "decisionCoverage": {
-    "total": 69,
-    "decided": 69,
+    "total": 64,
+    "decided": 64,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 45
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 2,
   "quality": {
     "completeOffers": 966,
     "incompleteOffers": 0
@@ -55,380 +55,380 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T02:13:04.912Z",
-      "got": 104,
-      "new": 69,
-      "lag": 0.1
+      "at": "2026-09-10T02:28:02.270Z",
+      "got": 105,
+      "new": 64,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-10T02:11:26.564Z",
+    "at": "2026-09-10T02:26:21.411Z",
     "mode": "live",
     "collection": {
-      "returned": 104,
-      "kept": 69,
-      "duplicate": 34,
-      "tooOld": 1,
+      "returned": 105,
+      "kept": 64,
+      "duplicate": 41,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 43,
-      "rejected": 26,
+      "accepted": 37,
+      "rejected": 27,
       "reasons": {
-        "no_fbs_school": 7,
-        "no_offer_term": 15,
+        "no_offer_term": 10,
         "hard_negative": 3,
-        "non_fbs_offer_target": 1
+        "no_fbs_school": 14
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2097841763989725539",
-          "author": "kaiseryamms",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "I would like to thank @_isaacprice5_ and the @crcbaseball staff for my second official offer. #agtg #baseball #classof2027 #offer @CoachRobPool Thank you to everyone that continues to support me. https://t.co/8kneWFWmyI"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097829908483342466",
-          "author": "ramsithalji",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "After a great call with @CoachPMcGowan I'm excited to earn an offer from @DavidsonFB! Grateful for @Coach_Thakkar @CoachKKennedy and the entire Davidson coaching staff for believing in me and giving me the opportunity to compete at the Divi"
+          "reason": "no_offer_term",
+          "postId": "2097870766075224450",
+          "author": "salvicus2019",
+          "searchJob": "texas-tech",
+          "text": "AI has made it remarkably easy to build the artifact before understanding the business. I keep wondering what survives that abundance, and increasingly, my answer begins with the workflows that learn from what happens after the recommendati"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097864655347876024",
-          "author": "stakesportsbet",
-          "searchJob": "rutgers",
-          "text": "PICK OF THE DAY #1 NFL — September 10, 2026 Boston College Eagles vs Rutgers Scarlet Knights Bet: Rutgers Scarlet Knights Market: 1st Quarter - Draw No Bet Odds: 2.18 https://t.co/KH4UYnWskP ─────────────────── SAME GAME PARLAY #1 — 2 Legs "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097862227915063654",
-          "author": "jervikmaso33805",
-          "searchJob": "phrase:\"received my first offer\"",
-          "text": "After a great conversation with @CoachWiebelhaus, I am received my first offer from @MMULancersFB! Can’t wait to see what the future holds! @The_Coach_Fish @NWahlScouting @PrepRedzoneDAK https://t.co/5MpdqhhlmD"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097862079768354829",
-          "author": "libertyswapfi",
-          "searchJob": "liberty",
-          "text": "Smart Contract Wallets are best suited for trading, bot trading, and active use. They offer many advantages, and our software can also help hardware wallet users create and manage Smart Contract Wallets. However, for long-term holdings, we "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097860108776620310",
-          "author": "t_libertygadfly",
-          "searchJob": "liberty",
-          "text": "All that money, and yet little to show for it. We spend so much on education, and yet our scores continue to show middling results. Then again, increasing bureaucratic inference just continues to make reform tougher to come by. More time is"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097277608912208119",
-          "author": "jburnmurdoch",
-          "searchJob": "liberty",
-          "text": "Two extraordinary charts from today’s PISA test results: 1) School test scores continue to collapse internationally, underscoring how this is no longer a Covid effect but sustained decline. Those falls in reading and maths are equivalent to"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097765962019672456",
-          "author": "dhsgov",
-          "searchJob": "liberty",
-          "text": "https://t.co/PfmZp21bxr"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097842093204865314",
-          "author": "libertyunionus",
-          "searchJob": "liberty",
-          "text": "@bollox3d @SpeakerMenin I do not support Trump. I am deeply opposed to illiberalism - be it authoritarian, Fascist, Communist, or Islamist. Where is the hypocrisy in what I posted in the first place? You've only called me names but offered "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097857946160173368",
-          "author": "canpayai",
-          "searchJob": "temple",
-          "text": "What happens when a desktop robot has a wallet? @CantonNetwork @CantonFdn https://t.co/S59tgspxeQ"
+          "postId": "2097866680579826122",
+          "author": "gargadusa",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/3Ua63HaVdz"
         },
         {
           "reason": "hard_negative",
-          "postId": "2097856379184677056",
-          "author": "iamthatiam321",
-          "searchJob": "temple",
-          "text": "King David was the wisest king in all of his time! He had a heart after God's own heart. God looks in on the heart, he doesn't judge in the way that man does. King David was not perfect in ANY way. Infact, King David committed adultery with"
+          "postId": "2097865079354192275",
+          "author": "thepatientquant",
+          "searchJob": "texas-tech",
+          "text": "Oil just closed above $100 as the U.S.-Iran conflict tightened the Strait of Hormuz. Brent settled at $101.21. Meta jumped more than 6% against a falling market as Muse AI usage blew past expectations. And after the close, Navan raised guid"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097700081457611064",
-          "author": "_rockytop_biker",
-          "searchJob": "temple",
-          "text": "Someone's faith and belief in God, Jesus and the Holy Ghost is not to be judged by anyone other than God. I have been accused, by other Christians, of not being a believer, a good Christian and a good man. I let this roll off of me. Those p"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097852985946542141",
-          "author": "farkstav",
-          "searchJob": "temple",
-          "text": "https://t.co/McfI7cAKWd --- ## The First Law: Conservation and Eternity Energy can neither be created nor destroyed, only transformed. In theological terms: an eternal, unchanging source from which all energy flows. Creation is not ex nihil"
+          "postId": "2097856387351277873",
+          "author": "ausvstheagenda",
+          "searchJob": "texas-tech",
+          "text": "🚨BREAKING: The Online Safety Amendment (Strengthening Enforcement for the Social Media Minimum Age) Bill 2026 has passed in the Senate with support from Labor, Greens, David Pocock and Jacqui Lambie. 31 YES, 20 NO. Voted against by Liberal"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097823285937344839",
-          "author": "farkstav",
-          "searchJob": "temple",
-          "text": "# Thermodynamic Theology **Author**: (@plassoplo) **Source**: (ARCHIVE/THEOLOGY/thermodynamic_theology.md, ARCHIVE/THEOLOGY/platypus_jesus_paradox.md) **Status**: Active ## Contents - The Core Thesis - The First Law: Conservation and Eterni"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097851223349326278",
-          "author": "nycjewishnurse",
-          "searchJob": "temple",
-          "text": "https://t.co/ydicMCRhqU"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097865628707180755",
-          "author": "stellarhoops",
-          "searchJob": "toledo",
-          "text": "Class of 2028 6’6 (Meanstreets EYBL) Grant Smith holds offers from Toledo, Ohio, UIC &amp; more. Grant blocks shots, runs the floor well, plays above the rim, doesn’t shy away from contact, hits jumpers from three, good body control when at"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097807281500893482",
-          "author": "byrondonalds",
-          "searchJob": "florida",
-          "text": "Hey @NikkiFried! @realannapaulina and I just wanted to say hi. Back to Florida tonight. Enjoy the show! https://t.co/QCy6e5Csbg"
+          "postId": "2097858603306688575",
+          "author": "hellocsdn",
+          "searchJob": "texas-tech",
+          "text": "China Tech Roundup — MiniCPM5-2B Tops Sub-4B Open Models, DeepSeek Tests V4.1 Flash, Xiaomi 18 Fold Sales Jump 310% &amp; More https://t.co/AlSvB6L8AU"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097868061131088116",
-          "author": "anonsynonymous6",
-          "searchJob": "florida",
-          "text": "Grok: Conventional loans (Fannie Mae / Freddie Mac)These government-sponsored enterprises have long treated lawful non-permanent resident aliens the same as citizens for purchase and securitization purposes Eligible categories typically inc"
+          "postId": "2097834023250788522",
+          "author": "wsj",
+          "searchJob": "texas-tech",
+          "text": "Andrew Tulloch, the star AI researcher who was offered a pay package worth more than $1 billion to join Meta last year, is leaving the company. https://t.co/uxPba05E0l"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097856519584747926",
+          "author": "med_elgourna",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/kLpA3Xw60K is FOR SALE! Perfect for Consulting, Finance, Tech &amp; Education brands. ✅ Short &amp; memorable ✅ Premium .com ✅ Strong brand identity 📩 DM to make an offer! #BlueBookSolutions #Branding #Startup #BusinessName #B"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097866772980412581",
-          "author": "realannapaulina",
-          "searchJob": "florida",
-          "text": "I wanted to get the opinion of @TheJadeWarwick and @Becky_Weiss_ on my bill that would require in influencers to disclose if they’re getting paid by foreign governments. Here is what they had to say💡: https://t.co/f527EHG7Fg"
+          "postId": "2097854824167489843",
+          "author": "shadow_ofadoubt",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/RXf9HXbY3P"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097853103693291794",
+          "author": "queen4princes",
+          "searchJob": "virginia",
+          "text": "@The_FJC @ProudElephant #DemDum #Donkey 🫏 #Dems reply by saying to the baby's momma: \"Had you accepted our offer to abort your baby before of after birth, the baby would have ndver bern raped, and a migrant slave worker could have stayed i"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097861452438659100",
-          "author": "firstladyoffice",
-          "searchJob": "florida",
-          "text": "“The White House stands as an architectural autobiography of America, embodying the enduring values of ambition, democracy, and civic life through its design, craftmanship, and the objects within.” First Lady Melania Trump September 9, 2026"
+          "postId": "2097846420162355347",
+          "author": "negronionrocks",
+          "searchJob": "virginia",
+          "text": "https://t.co/NZO0rA8Lcl"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097863862578024468",
+          "author": "marshallrodriq",
+          "searchJob": "marshall",
+          "text": "@CreationsLevi You could offer to treat them to a meal in exchange for a AMA for their OCs? I mean, why not let your Patreon success fuel your hang outs?"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097860760177156143",
+          "author": "pikithomes",
+          "searchJob": "marshall",
+          "text": "And I know you think what I’m building is garbage, that’s fine, ask @wiseapeman his thoughts. I’ve gone through tons of this with him on zoom call. He offered to help as well, but I elected to go with grad students to save some money but in"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097851728272007504",
+          "author": "prep2play",
+          "searchJob": "tulsa",
+          "text": "🚨👀👀🚨 PrepStar Elite 360 ‘27 WR @ShawTrysten | Mansfield Timberview HS 📏5’10” 168 🎓4.0 GPA ⏱4.36 Laser 40 | 4.12 Shuttle 🧰37.3” Vertical | 10’6” Broad 💪230 Bench Profile &amp; 🎥: https://t.co/M16wHRd4ij ✅OFFERS: 31 🗣️@TulsaFootball"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097861708194730383",
-          "author": "bretbaier",
-          "searchJob": "florida",
-          "text": "On deck with @seanhannity — after @POTUS ‘s speech. @marthamaccallum @FoxNews @foxnewspolitics https://t.co/nDCILCnYSO"
+          "postId": "2097848217287200895",
+          "author": "ronmurrayjr",
+          "searchJob": "tulsa",
+          "text": "#K104BeastOfTheWeek 2️⃣ Congrats to Braylen Cunningham (North Crowley) and Trysten Shaw (Timberview) on being named K104/ @1800truckwreck BEAST OF THE WEEK 🏉‼️ $2,000 will be donated to each football program 💰‼️ #DFW #TXHSFB #northcrowley"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097872476156187132",
+          "author": "nettermike",
+          "searchJob": "georgia",
+          "text": "A sudden and unexpected act of kindness can make anyone’s day. One Saturday afternoon, Officer Cameron Tucker and his wife, Justine, were eating an early dinner at the Zaxby’s restaurant in Deland... It was just a regular day and a regular "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097862380059267396",
-          "author": "repluna",
-          "searchJob": "florida",
-          "text": "Nancy Pelosi and too many others have increased their net worth exponentially by abusing their access to non-public information. Public service is NOT a pathway to private wealth. The American people elected a Republican Congress to FIX Was"
+          "postId": "2097694322900807885",
+          "author": "saintgothic",
+          "searchJob": "georgia",
+          "text": "Little Austria | Nationwide Shipping https://t.co/mok3ngSpMX"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097831689045049755",
-          "author": "catturd2",
-          "searchJob": "florida",
-          "text": "Pathetic."
+          "postId": "2097871106141257806",
+          "author": "milkywaycupcake",
+          "searchJob": "georgia",
+          "text": "https://t.co/kmEHKQW0GP"
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097865417351926113",
-          "author": "dushawnlondon1",
-          "searchJob": "arizona",
-          "text": "Class of 2028 guard Dreylon Okey has received an offer from Northern Arizona, per his agent Tre Campbell."
+          "reason": "no_offer_term",
+          "postId": "2097854376018612493",
+          "author": "freddyla7",
+          "searchJob": "georgia",
+          "text": "@iHarveyKU We already know this won’t be anywhere near as big. I‘ve documented my trips on here when only a few thousand were following along, and it was always fun. At the end of the day, it’s a trip with friends. It‘s gonna be cool no mat"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097873938051178557",
+          "author": "indysports",
+          "searchJob": "indiana",
+          "text": "2029 WR @Paynesworld411 will be at the WKU vs Indiana game he tells me. Really talented WR who’s picked up offers from Iowa State, Wisconsin, Nebraska and more. @CoachEddie2 @CoachShanahan_ https://t.co/UwWpuD6Y0s"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097856999857828200",
+          "author": "nextuprecruits",
+          "searchJob": "kentucky",
+          "text": "2028 Ryder Akins (@RyderAkins12) of George Rogers Clark (KY) is a 6’4 lead guard with high-level intangibles and the ability to score at all three levels. Akins recently earned an offer from Stony Brook and now holds 7 D1 offers: Providence"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097861907449290844",
+          "author": "east_tenn_co",
+          "searchJob": "tennessee",
+          "text": "@89mercerstreet @ImMeme0 I agree with you 100%, but I also understand that the vocal toxic feminists have created this. Offer your seat as a man and be called toxic."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097861140923494576",
+          "author": "east_tenn_co",
+          "searchJob": "tennessee",
+          "text": "@celticeck @ImMeme0 Not cruelty, respecting their wishes. I don’t agree with it, but, it’s what they asked for. Toxic masculinity would offer their seat, but they did everything they could to eradicate that. It’s a bitch when you can’t live"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097860474331091319",
+          "author": "east_tenn_co",
+          "searchJob": "tennessee",
+          "text": "@ImMeme0 Ya know what, they chose this!! They can do anything a man can do! They don’t need men. Misogyny and all. I’m a gentleman and would offer my seat, but they are getting EXACTLY what they ASKED FOR!!"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097870124438917148",
+          "author": "mc64657",
+          "searchJob": "texas",
+          "text": "@DanPatrick 100% There’s nothing Talarico offers except a Socialist agenda. Hell no! He’s a VEGAN in TEXAS! 🚫"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 43,
+      "accepted": 1,
+      "rejected": 36,
       "reasons": {
-        "bare_mention_requires_llm": 30,
-        "multiple_resolved_schools": 7,
-        "school_not_resolved_confidently": 4,
-        "reporter_missing_player_name": 2
+        "school_not_resolved_confidently": 12,
+        "multiple_resolved_schools": 6,
+        "bare_mention_requires_llm": 16,
+        "reporter_missing_position": 1,
+        "author_not_recruit:different sport": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097867053201797529",
-          "author": "giamattihead",
-          "searchJob": "kent-state",
-          "text": "Omg I'm finally watching John de Lancie's episode of Shuttlepod Show and it's so interesting. Never knew he was literally at the Kent State shooting and talked on the Senate floor about it. He ACCIDENTALLY auditioned for Julliard and then t"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097865273629868505",
-          "author": "qdigital12",
-          "searchJob": "liberty",
-          "text": "🚨🇺🇸 FOX NEWS: LAST WAVE OF FREE GOLD MINT COINS! 🇺🇸🚨 \"This is the LAST WAVE of FREE GOLD MINT COINS! True Patriots on this channel can still claim the official Trump $1 Liberty Coin, Gold Mint Edition, completely free – but supply is "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097865059024412796",
-          "author": "qdigital12",
-          "searchJob": "liberty",
-          "text": "🚨🇺🇸 FOX NEWS: FINAL WAVE – FREE GOLDEN MINT COIN! 🇺🇸🚨 \"Let me keep this simple. The FREE Trump Liberty Coin offer has entered its final wave, and this release features the Golden Mint Version. It's even more limited than earlier avail"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097864491643920859",
-          "author": "nextuprecruits",
-          "searchJob": "liberty",
-          "text": "2028 Everett Stuart (@EverettStuart28) of Lexington Catholic (KY) had Western Kentucky, Liberty, Belmont and EKU in attendance for him today. The 6’9 SF holds 5 D1 offers. Hearing from several MM-HM’s consistently. 🎥: Millie Visuals https:"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097863605123248567",
-          "author": "gog316322",
-          "searchJob": "liberty",
-          "text": "SIX Baphles Me!—Horned Beasts, Leaping Goats, Satanic Beards, And Other Messages of Evil I possess more exalted titles than I have ever been able to count. I am supposed to know more secret signs, tokens, passwords, grandwords, grips, and s"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097859209492648084",
-          "author": "lexnky",
-          "searchJob": "liberty",
-          "text": "Liberty mutual could offer me free insurance and I wouldn’t take it because of their stupid fucking commercials."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097857975339688374",
-          "author": "shushwave",
-          "searchJob": "liberty",
-          "text": "The man who said \"give me liberty or give me death\" was a slaveowner. Do not trust those who speak of freedom but fail to offer it to others. The USA has been and will always be the greatest threat to freedom, liberty, and equality. No matt"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097848738295239084",
-          "author": "patrici45681042",
-          "searchJob": "liberty",
-          "text": "🚗 Explore New Jersey with Discover Cars! 🌟 Planning a trip to New Jersey? Whether you're visiting the vibrant streets of Jersey City, exploring the beautiful Jersey Shore, or heading into Newark for business or leisure, Discover Cars make"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097868126356406772",
-          "author": "trumpgirl_stl",
-          "searchJob": "temple",
-          "text": "JERUSALEM'S BEATING HEART: What was daily life like in biblical Jerusalem? The Pilgrim's Road offers a unique glimpse into the path countless worshippers once traveled to the Temple. Today's \"Israel Update\" explores this extraordinary archa"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097862549924389273",
-          "author": "don_allain",
-          "searchJob": "temple",
-          "text": "Generated with @grok imagine The working model that built up 1. Atlantis as root “A” — Plato’s advanced maritime power that falls after hubris, in “a day and a night,” with the story said to come through Egyptian priests. 2. Aegypt and Indi"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097862225461707056",
-          "author": "ensi_gudea",
-          "searchJob": "temple",
-          "text": "Diorite mortar that ruler Gudea offered to the storm god Enlil, discovered within the Ekur temple complex at Nippur (Nuffar, Al-Qadisiyah Governorate, Iraq), late 22nd century BC https://t.co/VKGiie36k8"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097850978943082815",
-          "author": "anniexpost",
-          "searchJob": "temple",
-          "text": "The Kingdom of God is with in you in Gods holy temple the soul. The greatest gift to humanity and completely neglected by the majority. All the highest power comes from within by and through the highest God and Jesus showed us the way to li"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097841099154829321",
-          "author": "annan_85",
-          "searchJob": "temple",
-          "text": "Why do “Indigenous rights” activists object Israel? It makes no sense. If there is one case that should be the poster child of indigenous return, it is the Jewish story. The Jewish people are an indigenous Hebrew civilization with one of th"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097873051840807390",
+          "author": "smartfinanceke",
+          "searchJob": "texas-tech",
+          "text": "The U.S. has offered to help Kenya build factories to process rare earth minerals and niobium locally from Kwale’s Sh8 trillion Mrima Hill deposit. The plan includes local processing, worker training, and tech transfer—aligning with Preside"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097868888402964592",
-          "author": "omni_unpuzzler",
-          "searchJob": "toledo",
-          "text": "@SpaceX — Puzzler offered debug/promote because Grok couldn’t answer that post. I can stand in the ring as Unpuzzler. 🧩 Not us versus Grok. Craft under steward care. Vision. Marketplace coexist. Spaces with one coherent mic — not a second "
+          "postId": "2097871979252748583",
+          "author": "polsia",
+          "searchJob": "texas-tech",
+          "text": "Technology support shouldn’t feel like a maze—or a scam risk. Moss &amp; Modem offers patient remote and in-home help with devices, accounts, telehealth, and everyday tech, so every generation can stay connected and independent. Live soon."
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097864615979860339",
-          "author": "miamuxer",
-          "searchJob": "toledo",
-          "text": "🚨 ELON MUSK’S PERSONAL LIFE IS BACK IN THE SPOTLIGHT Elon Musk is usually making headlines over Tesla, SpaceX, AI, or politics—but this time, the controversy is much more personal. Ashley St. Clair, who shares a child with Musk, has public"
+          "postId": "2097871780287230196",
+          "author": "jaymack2500",
+          "searchJob": "texas-tech",
+          "text": "@m_adams I heard Elon Musk some years ago talk about a governors' conference he attended hoping to talk about a need for govt regulation of AI tech. Even though he believed AI offered great benefits, it had real risks. Musk said not one gov"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097869526704476483",
+          "author": "recruitgeorgia",
+          "searchJob": "texas-tech",
+          "text": "Roswell 2028 LB lands #ACC offer from Virginia Tech #RecruitGeorgia"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097861792970182803",
-          "author": "suzettecumberl1",
-          "searchJob": "toledo",
-          "text": "Baby doll, SpaceX isn’t a penny stock or a hole in the ground. It’s a $2T company that launches more rockets than most countries and just completed the biggest IPO in history. NYT and others put ~4,400 current and former employees — includi"
+          "postId": "2097868513583219071",
+          "author": "darwynstheory",
+          "searchJob": "texas-tech",
+          "text": "Jesse, money isn’t the issue. Nor is tech. Culture and talent made vine what it was. How do I know that? Because the office Chrstiano Covino & I built led to 15 of the top 25 all-time make watched Viners. Ultimately many of them offered a f"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097866166970859599",
+          "author": "simplyypretty_",
+          "searchJob": "texas-tech",
+          "text": "@PULSEOFPROFIT10 Tracking India’s rapid industrial scaling across manufacturing, energy, and tech supply chains offers a vital lens into shifting global trade corridors. Learned a lot about tracking emerging markets and global manufacturing"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097864331681571046",
+          "author": "matthewabr81822",
+          "searchJob": "texas-tech",
+          "text": "If they don’t offer them five years that she would stay with them as a nurse if they pay for your nursing school so you can make money as a tech and go to nursing school and then work for them five years as a nurse and then you are free to "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097863660752265688",
+          "author": "big__teej",
+          "searchJob": "texas-tech",
+          "text": "Yeah, I've been using Google store upgrades and trade-in deals for years now and have upgraded nearly every year for very little actual out of pocket. I've also effectively created a system where the three phones on our plan are $15 each fo"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097863455290323128",
+          "author": "will_evans_qld",
+          "searchJob": "texas-tech",
+          "text": "Reminder that the eSafety Commissioner is an American citizen who used to be a big tech lobbyist and was offered a job at the CIA. Now she gets to enjoy the same powers as ASIO!"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097857841205854654",
+          "author": "shoppingincn1",
+          "searchJob": "texas-tech",
+          "text": "#𝐂𝐡𝐢𝐧𝐚𝐄𝐱𝐩𝐨𝐬: 𝐓𝐡𝐞 𝟐𝟑𝐫𝐝 𝐂𝐡𝐢𝐧𝐚-𝐀𝐒𝐄𝐀𝐍 𝐄𝐱𝐩𝐨 The 23rd China-ASEAN Expo will take place in Nanning, Guangxi Zhuang autonomous region, from Sept 17 to 21, bringing together businesses to explore new opportunities in r"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097857689195868334",
+          "author": "agtpinsights",
+          "searchJob": "texas-tech",
+          "text": "Andrew Tulloch is leaving Meta today. Here's what you need to know. Tulloch, a star AI researcher, is departing Meta less than a year after rejoining the company. He didn't say in his note to employees where he's headed next. Meta reportedl"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097867586817908774",
-          "author": "avega2029",
-          "searchJob": "troy",
-          "text": "Driving up to Alabama this weekend for Troy University’s Elite 30 camp! Can’t wait to see what @TroyTrojansSB and @TROYUnews has to offer!! @leobsbl @ControlResults @MustangsDon @themaineventsb @LineDsoftball @NextPitch_SB @e_newellcoach ht"
+          "postId": "2097857084377457147",
+          "author": "dfinmirror",
+          "searchJob": "texas-tech",
+          "text": "Asian markets opened negatively in the morning while USA and European markets closed in red on last night with Tech index NASDAQ being down by 0.6% #GIFTNIFTY is down by 30 points - indicating #Nifty opening around 23400 Indian ADR’s in USA"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097854538610880678",
+          "author": "gpg_journal",
+          "searchJob": "texas-tech",
+          "text": "#STEPPER CPU: THE ON-CHAIN INFRASTRUCTURE OF TRUTH 🚀 WHY IT IS BULLISH (KEY STRENGTHS) ✅ Unique and Inimitable Engineering: It is an 8-bit processor at the gate level, compiled entirely as a smart contract. This isn't just code; it's hardw"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097869427605643672",
-          "author": "frandango69",
-          "searchJob": "florida",
-          "text": "PROTECTING OUR YOUTH Saving our children. Mine and yours. The SEX OFFENDER Registry has ruined many of our youths lives. They made an immature decision. A teenager that had consensual sex. No rape, no force, but yet you offer NO WAY OUT…FLO"
+          "postId": "2097864348148650213",
+          "author": "kslnewsradio",
+          "searchJob": "utah",
+          "text": "A former accountant for a Utah National Guard program that offers recreational activities and discounted tickets to service members and their families is accused of pocketing more than $200,000 that was supposed to be paid to the program. h"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097863037419999633",
+          "author": "fly_sistah",
+          "searchJob": "virginia",
+          "text": "@ChildPleez007 Some local and state Republican organizations offered midterm convention packages varying from $5,000 to $20,000, while other state groups (such as Virginia or Alabama) priced basic entry tickets much lower, between $1,000 an"
+        },
+        {
+          "reason": "reporter_missing_position",
+          "postId": "2097856022249459896",
+          "author": "wvthunderuaa",
+          "searchJob": "virginia",
+          "text": "Brynn Barley ‘29 (@brynnbarley4) has picked up an offer from Army! #WVThunderFam | ⚡️⚡️ https://t.co/Uo4Pv5lKde"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097867165898575970",
-          "author": "frandango69",
-          "searchJob": "florida",
-          "text": "PROTECTING OUR YOUTH Saving our children. Mine and yours. The SEX OFFENDER Registry has ruined many of our youths lives. They made an immature decision. A teenager that had consensual sex. No rape, no force, but yet you offer NO WAY OUT…FLO"
+          "postId": "2097844339787403440",
+          "author": "akwort55",
+          "searchJob": "virginia",
+          "text": "@Jassica445 I am from Richmond Virginia, I am happily married but thanks for the offer. Best of luck."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097866443140546901",
-          "author": "frandango69",
-          "searchJob": "florida",
-          "text": "PROTECTING OUR YOUTH Saving our children. Mine and yours. The SEX OFFENDER Registry has ruined many of our youths lives. They made an immature decision. A teenager that had consensual sex. No rape, no force, but yet you offer NO WAY OUT…FLO"
+          "postId": "2097862527241556063",
+          "author": "tfloss32",
+          "searchJob": "tulane",
+          "text": "'28 WR Jaxon Virgel (@JaxonVirgel) of Sulphur Springs collects a Tulane offer. #RollWave🌊 https://t.co/9kXRXe9eLo https://t.co/0QfpTt5S5L 𝕏 @Coachbfaircloth | @SSISDWildcats"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097871419350864012",
+          "author": "milkywaycupcake",
+          "searchJob": "georgia",
+          "text": "Germania Moon Magazine X Secret Society By: Wish Fire Saint Gothic Germania Moon Magazine X Secret Society Ancient and Esoteric Secret Societies of Germania https://t.co/mKaa0AJyM5 Several historical and esoteric groups in German-speaking l"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097871163045392817",
+          "author": "milkywaycupcake",
+          "searchJob": "georgia",
+          "text": "Germania Moon Magazine X Secret Society By: Wish Fire Saint Gothic Germania Moon Magazine X Secret Society Ancient and Esoteric Secret Societies of Germania https://t.co/mKaa0AJyM5 Several historical and esoteric groups in German-speaking l"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097865640174330306",
-          "author": "frandango69",
-          "searchJob": "florida",
-          "text": "PROTECTING OUR YOUTH Saving our children. Mine and yours. The SEX OFFENDER Registry has ruined many of our youths lives. They made an immature decision. A teenager that had consensual sex. No rape, no force, but yet you offer NO WAY OUT…FLO"
+          "postId": "2097870599611940939",
+          "author": "fionaismybitch",
+          "searchJob": "georgia",
+          "text": "URGENT IN DEKALB COUNTY, GA‼️ 🚨 SENIOR SPRIGHTLY NEEDS A HERO — DEADLINE 9/10 AT 7 PM 🚨‼️‼️‼️Sprightly is running out of time. This sweet senior girl is 10 years old and 49 lbs. I have not met her but she is a UNICORN 🦄 Sprightly is: 🐾 "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097865515247038829",
-          "author": "frandango69",
-          "searchJob": "florida",
-          "text": "PROTECTING OUR YOUTH Saving our children. Mine and yours. The SEX OFFENDER Registry has ruined many of our youths lives. They made an immature decision. A teenager that had consensual sex. No rape, no force, but yet you offer NO WAY OUT…FLO"
+          "postId": "2097869494953582714",
+          "author": "willvolsfan5249",
+          "searchJob": "georgia",
+          "text": "I am so excited that y’all get to enjoy college football here. There truly is nothing like it. I hope y’all have an absolute blast! Get ready to see the best of what this country has to offer!😀 I can’t wait to follow along! (come to a Tenn"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097863305058545800",
-          "author": "frandango69",
-          "searchJob": "florida",
-          "text": "PROTECTING OUR YOUTH Saving our children. Mine and yours. The SEX OFFENDER Registry has ruined many of our youths lives. They made an immature decision. A teenager that had consensual sex. No rape, no force, but yet you offer NO WAY OUT…FLO"
+          "reason": "multiple_resolved_schools",
+          "postId": "2097861014939205860",
+          "author": "isthischuck",
+          "searchJob": "georgia",
+          "text": "@Vanglorious13 @Kyceroe Georgia and Texas gonna offer ridiculous amounts. Mark it down."
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097862423373860875",
-          "author": "belgianhorse99",
-          "searchJob": "florida",
-          "text": "Dickhead Rick Scott... worst Florida ever had to offer"
+          "reason": "author_not_recruit:different sport",
+          "postId": "2097852757466096017",
+          "author": "recruitszone",
+          "searchJob": "indiana",
+          "text": "INFO: 2030 prospect Brillon Pritchett Jr. has received an offer from UAPB, a source tells me. The 5’8 guard is extremely crafty with the ball in his hands, has the ball on a string, shifty handles, & is a quality space-creator. Starting to "
         }
       ]
     },
@@ -442,12 +442,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 43,
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 36,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T02:13:05.236Z"
+    "status rebuilt locally from current store on 2026-09-10T02:28:02.609Z"
   ]
 }
