@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T04:58:08.003Z",
+  "generatedAt": "2026-09-10T05:12:56.045Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T04:58:07.812Z",
+    "at": "2026-09-10T05:12:55.819Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7727480555555556,
-    "p95Hours": 1.5319411111111112,
-    "worstHours": 1.7694708333333333
+    "medianHours": 0.7782177777777778,
+    "p95Hours": 1.5264569444444445,
+    "worstHours": 1.5264569444444445
   },
   "decisionCoverage": {
-    "total": 14,
-    "decided": 14,
+    "total": 9,
+    "decided": 9,
     "complete": true
   },
   "pending": {
@@ -55,138 +55,105 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T04:58:07.811Z",
-      "got": 31,
-      "new": 14,
-      "lag": 0.29
+      "at": "2026-09-10T05:12:55.818Z",
+      "got": 13,
+      "new": 9,
+      "lag": 0.42
     }
   },
   "audit": {
-    "at": "2026-09-10T04:56:39.652Z",
+    "at": "2026-09-10T05:11:17.694Z",
     "mode": "live",
     "collection": {
-      "returned": 31,
-      "kept": 14,
-      "duplicate": 17,
+      "returned": 13,
+      "kept": 9,
+      "duplicate": 4,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 9,
-      "rejected": 5,
+      "accepted": 5,
+      "rejected": 4,
       "reasons": {
-        "no_fbs_school": 3,
-        "no_offer_term": 2
+        "no_offer_term": 1,
+        "no_fbs_school": 2,
+        "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2097901235097485361",
-          "author": "iowacentralfb",
-          "searchJob": "iowa",
-          "text": "🚨🔱🚨🔱🚨🔱🚨🔱🚨🔱🚨🔱🚨🔱🚨 OFFER ALERT Big Mike continues to rack up the D1 offers! #developedindodge"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097896087763800445",
-          "author": "wontquitever",
-          "searchJob": "army",
-          "text": "@JuJuFLAK I really appreciate everything you’ve offered tonight!! That means a lot 💯"
-        },
-        {
           "reason": "no_offer_term",
-          "postId": "2097887222884180286",
-          "author": "markdeucefilms",
-          "searchJob": "army",
-          "text": "In the fog-shrouded streets of Victorian London, Sherlock Holmes discovers his greatest secret weapon—the Baker Street Irregulars, fearless street boys who see everything, hear everything, and uncover mysteries no detective can solve alone."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097907274131894779",
-          "author": "ofertasmusical1",
-          "searchJob": "buffalo",
-          "text": "Together Pangea – Bulls And Roosters (2017) 👉 https://t.co/DxBygnF73Q 15,93€ (LP Clear Vinyl, Indie Rock, Garage Rock 🇪🇸 Vendido por Amazon ES #️⃣ En Stock"
+          "postId": "2097905376863867106",
+          "author": "sports_mint",
+          "searchJob": "miami",
+          "text": "https://t.co/L8PkY22qB6"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097894755976040815",
-          "author": "buffalocompact",
-          "searchJob": "buffalo",
-          "text": "@CMDRSpiff @TheSalonDon Most carriers offer bill credits for the payment making them free."
+          "postId": "2097909870997430397",
+          "author": "mrollo112",
+          "searchJob": "delaware",
+          "text": "@mmpadellan Why don't you go investigate like Nick? Take initiative, be a man, go find Mitch and show the world what a truth fighter you are! Nah, you are just a pathetic loser troll that offers nothing to society except divisive rage bait,"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097906441013125276",
+          "author": "genechizikkk",
+          "searchJob": "auburn",
+          "text": "@EricLDaugh Didn’t he already offer me quid once? Could’ve used that for my AUBURN SEX CHAMPIONS ticket"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097898663267926066",
+          "author": "lporegon",
+          "searchJob": "oregon",
+          "text": "Sorry Trump, we already have a much better offer than $5000 from President Camacho... https://t.co/tM9eFb4RZu"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 5,
       "reasons": {
-        "bare_mention_requires_llm": 8,
-        "school_not_resolved_confidently": 1
+        "reporter_missing_player_name": 2,
+        "multiple_resolved_schools": 1,
+        "bare_mention_requires_llm": 2
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097901354328945035",
-          "author": "itskrayzgaming",
-          "searchJob": "iowa",
-          "text": "@HeathElliott79 Topps - Signature Class - Roses (Gold) #7/10 -Tracy McGrady #HoustonRockets Panini - Court Kings - *Sig* Heir Apparent (Ruby) #22/49 - VJ Edgecombe #Philadelphia76ers Panini - Court Kings - *Sig* Brush Strokes #7/49 - McKenn"
+          "reason": "reporter_missing_player_name",
+          "postId": "2097902999221768433",
+          "author": "csmithscout",
+          "searchJob": "arkansas",
+          "text": "#TN2027 Antioch Edge Rusher .....#PRZTN New Offer: #Arkansas ......#Razorbacks #SEC #Bears #MidTN27 #CSS #TNHSFB https://t.co/5u6QP3ZUS4"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097902075552129275",
+          "author": "au_trout",
+          "searchJob": "auburn",
+          "text": "@barnsalot I have never been fed better food or had more free booze offered my way than at LSU. Been 3 times. Every time wearing my Auburn colors for an AU vs LSU game. Best road trip in the country. You just gotta be able to take a joke an"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2097893775951396969",
+          "author": "timverghese",
+          "searchJob": "nebraska",
+          "text": "Nebraska offers 2028 Palatine (Ill.) four-star EDGE Eliaz Egbe Ridiculously explosive LB/EDGE prospect, recorded an eye-popping 173’8” PR is discus and 50’6.25” shot in the spring"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097886912887521509",
-          "author": "riggs_sp37588",
-          "searchJob": "michigan",
-          "text": "@Ron_WatkinsQ YES! Get these fvcking PIGS the fvck out of America. I would focus every ICE agent in Michigan and Minnesota. Offer citizens $3000 if the give a tip that leads to a deportation. If they do that in my state, my maids and lawn m"
+          "postId": "2097903313408704740",
+          "author": "lawlortoni",
+          "searchJob": "oklahoma",
+          "text": "Interesting finds. I believe that there’s a website, unfortunately I don’t remember the name, but if offers a search to find out if someone died in your house. I tried it years ago, but the house was already over 80-100 years old when I liv"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097907574842724565",
-          "author": "rylo73835641",
-          "searchJob": "minnesota",
-          "text": "@Stan140551 @ZGalo35 @RivardKevin Bro Minnesota fans have twisted everything Jack &amp; Quinn said today. Jack saying Quinn has a big contract coming up doesn't mean it's Minnesota's. Every team will offer him a big contract. Jack gave a ve"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097903503771341077",
-          "author": "pearlosnhlpow",
-          "searchJob": "minnesota",
-          "text": "@fcexeter1 @PhilzeeThrill @trenchwargod @TSavage421 They only have Minnesota to trade with. Enjoy Larkin on the team or take the offer ."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097901571698753563",
-          "author": "emilio_guarda",
-          "searchJob": "charlotte",
-          "text": "@ArroyoAnge25932 @JNK1_CHI2 You’re missing a key point. The CEO had been pressuring her to renew her contract for over a year, and even offered her more money. Charlotte simply confirmed something that was already known."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097902379702075395",
-          "author": "ibrahimobileye",
-          "searchJob": "coastal-carolina",
-          "text": "What Value Will A Lifetime Access To The Beach Add To You & Your Family❓ 📍15 Minutes Drive From Victoria Island. Own Your Luxury Duplex With Studio Apartment With An Initial Deposit Of 30% Today 💰 Up To 9 Months Payment Plan Available 🥂 "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097908047834222938",
-          "author": "precisionhitter",
-          "searchJob": "rice",
-          "text": "@dakshinapata @ndtv I have heard that in Karnataka, congress used to offer even liquor for a vote. It was before 2-3 decades. In Tamil Nadu Jayalalitha offered TV and Saree. In Kerala, CPM offered Rice Kit during election. In Vihar, it was "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097899636849836526",
-          "author": "vishunuchittan",
-          "searchJob": "rice",
-          "text": "@Victoryvox @advanitom @anishgawande @FrancoisF24 @France24_en So you do what colonials do go there grab the land and screw the natives and offer them bible in place of their land. Same story everywhere, Except t you rice ags are the neo co"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097885851367690466",
-          "author": "callumgowar03",
-          "searchJob": "rice",
-          "text": "@KobeissiLetter Taken a playbook straight out of the ANC in South Africa except they offer some rice, chicken and a t-shirt!! 🤣🤣"
+          "postId": "2097905412846850404",
+          "author": "bbopokertables",
+          "searchJob": "penn-state",
+          "text": "No Assembly Line. Just Pure Penn State. 🃏 Mass-produced tables simply can’t hold a candle to true custom work. Upholstering a Penn State playing surface takes precision honed over two decades—15 years refining our craft in California and 5"
         }
       ]
     },
@@ -201,11 +168,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 9,
+      "rejectedCandidates": 5,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T04:58:08.003Z"
+    "status rebuilt locally from current store on 2026-09-10T05:12:56.046Z"
   ]
 }
