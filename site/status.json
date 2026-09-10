@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T00:57:58.156Z",
+  "generatedAt": "2026-09-10T01:12:54.494Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T00:57:57.886Z",
+    "at": "2026-09-10T01:12:54.174Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -30,15 +30,20 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "rice",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 1.0172480555555556,
-    "p95Hours": 2.0131880555555557,
-    "worstHours": 2.0131880555555557
+    "medianHours": 0.7756527777777777,
+    "p95Hours": 2.0255513888888887,
+    "worstHours": 2.262171111111111
   },
   "decisionCoverage": {
-    "total": 43,
-    "decided": 43,
+    "total": 75,
+    "decided": 75,
     "complete": true
   },
   "pending": {
@@ -47,311 +52,390 @@
   "profileResolution": {
     "cached": 45
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 3,
   "quality": {
-    "completeOffers": 955,
+    "completeOffers": 958,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T00:57:57.885Z",
-      "got": 71,
-      "new": 43,
-      "lag": 0.05
+      "at": "2026-09-10T01:12:54.173Z",
+      "got": 118,
+      "new": 75,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-09-10T00:56:22.463Z",
+    "at": "2026-09-10T01:11:18.349Z",
     "mode": "live",
     "collection": {
-      "returned": 71,
-      "kept": 43,
-      "duplicate": 28,
+      "returned": 118,
+      "kept": 75,
+      "duplicate": 43,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 21,
-      "rejected": 22,
+      "accepted": 49,
+      "rejected": 26,
       "reasons": {
-        "no_fbs_school": 8,
-        "hard_negative": 3,
-        "no_offer_term": 5,
-        "non_fbs_offer_target": 6
+        "no_fbs_school": 13,
+        "hard_negative": 4,
+        "no_offer_term": 7,
+        "non_fbs_offer_target": 2
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2097834374913778098",
-          "author": "crossedhearts_x",
-          "searchJob": "james-madison",
-          "text": "@eun1229784 This offer applies to Barnes &amp; Noble! You can check it out at https://t.co/zyhsg78Thj"
+          "postId": "2097840320511639947",
+          "author": "jacob_webster_",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my 10th offer from @WCtitansFB https://t.co/1wY86ImwyX"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097838631347986934",
+          "author": "brooksroznovsky",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer from @SMWCFB after a great phone call with @CoachHossOL !!!Extremely grateful and blessed for the opportunity and excited for what’s ahead. 🙏🏼#blessed https://t.co/aNABTKLSf9"
         },
         {
           "reason": "hard_negative",
-          "postId": "2097844736111579516",
-          "author": "electbarnhill",
-          "searchJob": "nevada",
-          "text": "Nevada doesn’t need to ship its voter file to Washington. DHS already flagged 185 confirmed non-citizens plus thousands more for review. The question isn’t whether we protect the rolls—it’s whether we use the data they already offered witho"
+          "postId": "2097836201428345322",
+          "author": "eliwiebers",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great visit and talk with @Jeff_Horner2 I’m blessed to receive an offer to play basketball at BVU! https://t.co/RI9npRAga0"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097722436632674455",
-          "author": "chuckmuth",
-          "searchJob": "nevada",
-          "text": "EDITORIAL: Nevada’s secretary of state hinders effort to identify noncitizens on voter rolls https://t.co/7rbNvpAygr 185 non-citizens CONFIRMED to have been on NV voter rolls. SOS @CiscoAguilar: \"Nothing to see here. Move along.\" What else "
+          "postId": "2097836059375645012",
+          "author": "dspjr2421",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an invite to USA basketball mini camp. Thank you for the opportunity. Excited to continue the work!! @usabasketball https://t.co/GnWmwZFiNk"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2097834175403380894",
+          "author": "masonjkurtz",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After having a great conversation with Coach Dawson, I am blessed to receive an offer from Westminster College! @CoachChevyD https://t.co/L7BLRb3sZ7"
         },
         {
           "reason": "hard_negative",
-          "postId": "2097844546986233975",
-          "author": "electbarnhill",
-          "searchJob": "nevada",
-          "text": "Nevada doesn’t need to ship its voter file to Washington. DHS already flagged 185 confirmed non-citizens plus thousands more for review. The question isn’t whether we protect the rolls—it’s whether we use the data they already offered witho"
+          "postId": "2097832684814811635",
+          "author": "tanner0273",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great phone call with @CoachPPerkins I am blessed to receive an offer to play football at Mount Marty University!! @Tim_Hughes02 @GarretsonFB https://t.co/eF2wcCeQ8a"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097831747832492527",
+          "author": "bigbratton77",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with @CoachMHarris79, I am honored and blessed to receive an offer from @HamlineFootball ! #AGTG https://t.co/P7skrP5eDO"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097830596907036807",
+          "author": "aaronstauff24",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great visit with @LFcoachGriggs and @CoachSMuro, I am blessed to receive an offer to play at Lake Forest College! #Foresters @CoachYak @CoachGHill @LWEBBasketball https://t.co/kvf5VCprxh"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097830231394402330",
-          "author": "9lizmchugh",
-          "searchJob": "nevada",
-          "text": "https://t.co/PvIMTshHD6"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097850161334747492",
-          "author": "prepredzonenm",
-          "searchJob": "new-mexico",
-          "text": "2027 Los Lunas WR offered by Willamette University in Oregon."
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097849947156889657",
-          "author": "prepredzonenm",
-          "searchJob": "new-mexico",
-          "text": "2028 Alamogordo OL offered by Eastern New Mexico."
+          "postId": "2097830583523004689",
+          "author": "cash05winters",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with Coach Otis Yelverton I’m blessed to receive my 4th D1 🅾️! @RealCoachCarter @SacHornetsFB @CoachO60 @CoachKeyz @CoachConley66 @AydenMeyer1 #Greenline #ZoTime #Big🐝⬆️☝️ https://t.co/uKCEpG0XS2"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097843440633675979",
-          "author": "carter_galb2028",
-          "searchJob": "new-mexico",
-          "text": "After a Great phone call with @AndonMata I’m blessed to receive my first offer from @ENMUFootball #Agtg @CoachCiscoAHS @AaronCisco4 @CoachDrefs @PrepRedzoneNM https://t.co/GaVHRq4AjV"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097829454303338813",
-          "author": "prephoops_nm",
-          "searchJob": "new-mexico",
-          "text": "2027 Mayfield G offered by Ecclesia College in Springdale, AR."
+          "postId": "2097829744234377306",
+          "author": "tate_goerg1",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer from @NDSUTrackField Thank you Coach Keller and the rest of the coaching staff for this amazing opportunity! #GoBison #offered #greatful #notcommited https://t.co/5pK7PvQKVk"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097842633393463772",
-          "author": "ohiobuckets",
-          "searchJob": "ohio",
-          "text": "🐶 BULLDOG OFFER ALERT! 🚨 Congratulations to 2027 Ethan James (@EthanJames_4) on receiving his sixth offer, this from the Ferris State Bulldogs (@FerrisMBBALL)! Thanks to @CoachBMiller44 and staff for E’s incredible opportunity! @SpyReport"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097850299344118154",
-          "author": "tay_mlg",
+          "postId": "2097828625156296988",
+          "author": "duncanobst",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from Texas Southern University! #agtg https://t.co/EYUYgi3hah"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097849734618861824",
-          "author": "cole_x_mckelvey",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I'm blessed to receive my first game day invite from @Thompson22Mason. Can't wait to be back in the Dakota Dome! @Fo5Mel @Amber_rae_mck @teven_lee @CX_Mckelvey @sharp_spelite @kedtheetrainer @thepackusd https://t.co/BPcBBqqy5q"
+          "text": "Blessed to receive my first ever offer from Brevard! Huge thanks to @CoachOwens_12 for it!! https://t.co/ZurMJWCTq6"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097848367745540483",
-          "author": "hassett_brady",
+          "postId": "2097828536836862120",
+          "author": "henryfries126",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with coach @BrantMcAdams I am blessed to receive an offer from @PLUFootball. #GoLutes @CoachSeanCurtis @DanSelwayQB @capofootball @JamesBenedix_ https://t.co/gGHDd7T1sI"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097847965041787092",
-          "author": "coleswafford3",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive another Game Day Visit Invite from @WheelingU_FB following a great performance Friday night! 🏈 8/9 Passing 187 Yards 1 TD 9 Carries 76 Yards 4 TDs Thank you to @CoachRobWU and the entire Wheeling coaching staff for the I"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097847395992105009",
-          "author": "jayden_call29",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive virtual junior day excited about meeting the staff @BigRed_Football @DanSwanstrom @TerryUrsin https://t.co/f3YZlxUXBQ"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097845333564834091",
-          "author": "urbanjohnson7",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @CoachKeithEmery , I am blessed to receive my first offer from @NorwichFB. Thank you to the Lord above, my family, coaches, teammates and friends that have supported me in my football journey. #urban #urbanjo"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097842251367854334",
-          "author": "ethanmqb1",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive a offer from Norwich University. @CoachKeithEmery @CoachJT_Hiscoe @THEcoachRussell @jlmn12_ @CoachJayWiley @AFPatriotFB @playfastspeed https://t.co/vTwiwhMPTq"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097841992877154513",
-          "author": "aleahhankins_",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from @MACU_WBB! Thank you Coach Morris for this opportunity! @carsonbmathews https://t.co/zYez62o8XW"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097841106343829918",
-          "author": "levinsonconnor",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great visit with @CoachSvagera and @CoachShoe10 I am blessed to receive an offer from Briar Cliff men’s basketball! @CooperAnthony09 @gretnaeastbbb https://t.co/NqLessW6Rp"
+          "text": "After a talk with @CoachBuckallew blessed to receive my 7th offer from @cmueaglesFB!!! @ralstonramfb @TheCoachMotter @PrepRedzoneNE @LockedInPreps https://t.co/la6H244qRV"
         },
         {
           "reason": "hard_negative",
-          "postId": "2097849426303983810",
-          "author": "ludiofelix",
-          "searchJob": "duke",
-          "text": "THE DAILY REVELATOR 10 September 2026 · GST By Eleanor Voss Phoenix Best Of All Possible Worlds Sorting Begins As Volunteers Line Up For Karmic Portal Cybercabs To Hunt qNFT and aqNFT Snipes Across Time Candide was told this was the best of"
+          "postId": "2097853794742591910",
+          "author": "owengregorian",
+          "searchJob": "army",
+          "text": "The spy who betrayed his country for 'Viagra' | The Independent Ben Macintyre’s extraordinary new book tells the real story of a KGB officer who offered to betray the Soviet Union in the hope that Western medicine could save his marriage. T"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097851918869512494",
+          "author": "thevalueist",
+          "searchJob": "coastal-carolina",
+          "text": "https://t.co/KdxutqzJsJ"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097849597917880557",
+          "author": "dinomak1959",
+          "searchJob": "coastal-carolina",
+          "text": "https://t.co/pRhi4MnF3q"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097837278500667884",
+          "author": "couchpsports",
+          "searchJob": "utep",
+          "text": "NEWS: Sandia PG Kaiyah Benally received an offer to play basketball at UTEP. It’s her 11th D1 offer! Congratulations, Kaiyah!!! Photo by Gavin Gallegos/G2 Studios #newmexico #albuquerque #sandia #highschoolbasketball #basketball https://t.c"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097837730222776327",
-          "author": "janiemk",
-          "searchJob": "duke",
-          "text": "EXPLORA II will sail the Mediterranean this winter, offering you the opportunity to visit Europe’s most iconic ports in the serenity of the season. This itinerary offers a more refined and exclusive way to travel. #ExploraJourneys #OceanSta"
+          "postId": "2097849539013030066",
+          "author": "pajobsite",
+          "searchJob": "maryland",
+          "text": "🚨 Part Time Opportunity in Centerville, MD for a Physician Assistant 💼 View job: https://t.co/ybuOni1dyS 📍 Centerville, Maryland Sumo Medical Staffing is recruiting experienced Family Medicine Physician Assistant or MD/DO Locum needed in"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097593823388135838",
+          "author": "eatdrink75",
+          "searchJob": "washington",
+          "text": "Hands down, the Metropolitan Grill is the best steakhouse in Seattle! From perfectly dry-aged USDA Prime steaks seared over mesquite charcoal to their legendary service, \"The Met\" always delivers. 🥩🍷#BestSteakinTown #SeattleEats #steakhou"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097847233269940308",
+          "author": "mexicotimes",
+          "searchJob": "washington",
+          "text": "#Now Trump called 1st Republican Midterm Convention “totally sold out,” it opened in #Dallas with large empty sections. Even more telling: numerous vulnerable @GOP candidates stayed home, apparently deciding proximity to Trump could cost th"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097826568139600268",
-          "author": "rosalindadiest1",
-          "searchJob": "duke",
-          "text": "@GROK @ELON DISCERNMENT 101 The Rule of the Tape Measure Absent a paper trail, it isn't a fact. It's a claim. A claim with a receipt is evidence. A claim without one is a story. Stories grow in exactly the direction the teller needs. When t"
+          "postId": "2097833861019271587",
+          "author": "darrenw97322068",
+          "searchJob": "washington",
+          "text": "@KylePrometheus The writer of SpiderWoman;he offered nothing but 80s and 90s action for this title, Dude!!!!! If I was him I would given her blue venom blast to boost up her spiderpowers and unarmed combat mastery too! pressing 14tn-28tn. 6"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097832189899710644",
+          "author": "wil_johnson1",
+          "searchJob": "washington",
+          "text": "FBI offers $20,000 reward for fugitive wanted in Atlanta ICE building attack who may be in WA https://t.co/nLQ6hsw4g9"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097825749239554184",
+          "author": "newguardpress",
+          "searchJob": "washington",
+          "text": "https://t.co/3wjBV9AVl6"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097854362143842656",
+          "author": "tylatham12",
+          "searchJob": "phrase:\"humbled to receive an offer\"",
+          "text": "Thanks @ECCCBaseball for a great visit. Very humbled to receive an offer by a program that has made the trip #720 miles from Decatur to Enid, Ok the last 4 years in a row! Thanks again coaches for the hospitality! @EC_NealHolliman @GriffinG"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2097846188045152321",
+          "author": "miracalwilson",
+          "searchJob": "phrase:\"thankful to receive an offer\"",
+          "text": "Blessed beyond measure. Thankful to receive an offer from Penn State Hazleton! 🦁🏀❤️#AGTG #Blessed https://t.co/Hy02t11AF2"
         }
       ]
     },
     "extraction": {
-      "accepted": 6,
-      "rejected": 15,
+      "accepted": 3,
+      "rejected": 46,
       "reasons": {
-        "bare_mention_requires_llm": 11,
-        "explicit_non_fbs_target": 1,
-        "player_missing_class_year": 2,
-        "school_not_resolved_confidently": 1
+        "bare_mention_requires_llm": 37,
+        "multiple_resolved_schools": 3,
+        "school_not_resolved_confidently": 2,
+        "reporter_missing_player_name": 2,
+        "player_missing_class_year": 1,
+        "explicit_non_fbs_target": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097819762457751924",
-          "author": "ashton_amos1",
-          "searchJob": "texas",
-          "text": "Texas A&amp;M Offered!! #AGTG @CoachJdubSFA @CoachCammm @Coachmessay https://t.co/SBTxo02bDy"
+          "postId": "2097852023886545345",
+          "author": "fascinate_hist",
+          "searchJob": "army",
+          "text": "The final blow: She laid siege to their remaining city. Olga offered peace on one bizarre condition: three pigeons and three sparrows from every household. The citizens agreed. That night, Olga’s army tied pieces of burning sulfur to the bi"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097852012125622385",
+          "author": "greenday_pissed",
+          "searchJob": "army",
+          "text": "777 In praise of Zionism, the most successful national liberation movement of the modern age. PIERRE REHOV WRITES: \"That is the story worth telling, and it has been buried under seventy years of accumulated slander so thick that most educat"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097818663298687043",
-          "author": "charlie149489",
-          "searchJob": "texas",
-          "text": "@TheAKGuy jesus christ, grow up. are you SERIOUSLY the best that texas has to offer? what a shit hole it is then."
-        },
-        {
-          "reason": "explicit_non_fbs_target",
-          "postId": "2097851295595991309",
-          "author": "bacon_dailen",
-          "searchJob": "north-texas",
-          "text": "After a great call with @CoachMcClain_ I’m blessed to receive my 5th d1 offer from the University of north Texas #BetterlookNorth 🟢⚪️ @coachmerch @APWALK1 @thedeepball @JEBuchta07 @MeanGreenFB @iwp4short @RivalsHS @MikeRoach247 @SWiltfong."
+          "postId": "2097847147282542601",
+          "author": "yearrooster",
+          "searchJob": "army",
+          "text": "Not many know this. Bin Laden had left Saudi Arabia but returned shortly after learning Iraq might intend to invade Kuwait. He was able to convince the monarchy through his family contacts to allow him to return to Arabia. He was in fear th"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097835450547278129",
-          "author": "cdonnyleon",
-          "searchJob": "ohio",
-          "text": "@libsoftiktok Amy offers help to the illegal alien Acton Wrong For Ohio"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097820075617091722",
-          "author": "darcy73020543",
-          "searchJob": "ohio",
-          "text": "@amyactonoh You offer us nothing ! You will destroy ohio!"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097847704780939443",
-          "author": "jucofootballace",
-          "searchJob": "old-dominion",
-          "text": "Demetrius Dunlap @MeechieDunlap @ Iowa Western JuCo @ReiverFootball picks up @ODUFootball Offer @CoachStrohmeier https://t.co/ByjbmarwRU"
-        },
-        {
-          "reason": "player_missing_class_year",
-          "postId": "2097847170254725249",
-          "author": "meechiedunlap",
-          "searchJob": "old-dominion",
-          "text": "Blessed to receive an offer from Old Dominion University! Grateful for the opportunity and everyone who continues to believe in me. The work continues! 🦁💙 #AGTG #ODUFootball #ReignOn https://t.co/ufHRLui9sm"
-        },
-        {
-          "reason": "player_missing_class_year",
-          "postId": "2097841149503271219",
-          "author": "cjdavis_2",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with Coach Hicks I am blessed to receive an offer from Northwestern University @McDCoachSule @McDonoghFB @CoachMWilson11 @PrepRedzoneMD @EdOBrienCFB https://t.co/iTb7xdZyIL"
+          "postId": "2097832905657680372",
+          "author": "johnathankimbr4",
+          "searchJob": "army",
+          "text": "Hello X Family 🩷🔆, Thank you so much for getting in touch through my website. I truly appreciate your interest and the opportunity to connect. I wanted to take a moment to mention a few resources that might be of interest to you. I have a"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097835170032132481",
-          "author": "mal_waldron2027",
-          "searchJob": "phrase:\"blessed to have received\"",
-          "text": "Extremely blessed to have received an offer from @rcwomenshoop. Thank you, coach Polly for the opportunity and for believing in my potential! #agtg @mikemillswbb Go Wildcats! https://t.co/e6E05a9RLR"
+          "postId": "2097845347280134602",
+          "author": "ukgreaseball",
+          "searchJob": "buffalo",
+          "text": "@DeboresFirstcfp @BTRich40 @big12sucks9 @JoeTipton @Rivals @ChaseLumpkin1 @AlabamaMBB @blakebyler45 @TimWatts_BOL @SSN_Alabama @BarstoolAlabama @BamaRoundball @DiehardsAlabama @BOL_On3 @BamaCentral Donovan was also offered, but he would not"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097832853136408966",
-          "author": "artforbrunch",
-          "searchJob": "duke",
-          "text": "Raphael portrayed Guidobaldo da Montefeltro and Elisabetta Gonzaga ( Duke and Duchess of Urbino ), around 1502-1504. Conceived as companion portraits, the two works date from the artist’s early career and offer a glimpse into the refined co"
+          "postId": "2097831542269571127",
+          "author": "gos3169",
+          "searchJob": "buffalo",
+          "text": "@DaveMyersBIB Which rookie contract player could Buffalo offer that would match Jared Verse?"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097840509901287442",
-          "author": "isabella_rose03",
-          "searchJob": "florida-state",
-          "text": "Had a great visit to Seminole State College! Spending a day on campus, meeting players & visiting with longtime Head Coach Flores made it easy to see why her program is currently ranked 4th in the country for Tier 1 JUCOs! So grateful for h"
+          "postId": "2097829988179300809",
+          "author": "jbpvfm",
+          "searchJob": "buffalo",
+          "text": "@OgiOgilthorp @schadjoe When I am elected GTA Mayor - I will celebrate the win in Buffalo, and offer to sell them Hamilton."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097836494941475291",
-          "author": "joubaierj",
-          "searchJob": "houston",
-          "text": "@simonssaint1488 @captive_dreamer HOUSTON IS NOT HORRIBLE THIS CITY HAS A SHIT TON TO OFFER YOU JUST HAVE TO KNOW SOMEONE THAT KNOWS THE BEST PLACES TO GO!"
+          "postId": "2097825133834764519",
+          "author": "lourdespen89920",
+          "searchJob": "buffalo",
+          "text": "Looking for premium supplements to power your workouts? 🏋️‍♂️✨ Iherb offers top-tier proteins, vitamins, and fitness essentials to support your athletic goals. Fuel your performance for less—use code🌹 THQ211 🌹at checkout for an exclusive"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2097829055596728520",
+          "author": "jucoffrenzy",
+          "searchJob": "charlotte",
+          "text": "2027 (@PearlRiverFB) JUCO OL @Brandonwhite_66 was offered by Charlotte HL https://t.co/VZ20pNNryJ https://t.co/NfPe988ohk"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097835673893933165",
-          "author": "joubaierj",
-          "searchJob": "houston",
-          "text": "@christiani21324 @porkybucek @captive_dreamer HOUSTON HAS SOME OF THE BEST RESTAURANTS YES WE HAVE A TON OF FAST FOOD JOINTS BUT WE ALSO HAVE A TON OF FINE DINING RESTURANTS AND LIKE I PREVIOUSLY SAID YOU JUST DIDNT KNOW SOMEONE WHO CAN SHO"
+          "postId": "2097841719215546517",
+          "author": "jucofootballace",
+          "searchJob": "coastal-carolina",
+          "text": "Bobby Shaw @bobby2haw @ Hutch JuCo @BlueDragonsFB picks up @CoastalFootball Offer @CoachDrewDallas https://t.co/2tYODzzWpU"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097834579138691288",
-          "author": "joubaierj",
-          "searchJob": "houston",
-          "text": "@christiani21324 @porkybucek @captive_dreamer HOUSTON IS NOT A DUMP YOU OBVIOUSLY DONT KNOW ANYONE WHO CAN TRULY SHOW YOU THE BEST OUR CITY HAS TO OFFER‼️"
+          "postId": "2097841034566816188",
+          "author": "np4football_ot",
+          "searchJob": "coastal-carolina",
+          "text": "Kyle “K3” Estimond-WR-2028-FL @CoastalFootball Offer #CFB"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2097831912492732520",
+          "author": "bobby2haw",
+          "searchJob": "coastal-carolina",
+          "text": "Blessed to pick up another D1 offer from Coastal Carolina!! Thank you @CoachCParrott!! @CoachDrewDallas @CoachCross1 @Coach__CA @coachroberson42 https://t.co/Fa6n552ZCY"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097831390444478521",
+          "author": "coastalfrontbc",
+          "searchJob": "coastal-carolina",
+          "text": "In this episode of Coastal Front, we sit down with Ms. Lavell, head of @YorkHouseSchool, and Ms. Harrop, head of Crofton House School @CHS_Vancouver, to discuss what it means to educate and raise girls in 2026. From social media and emergin"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097827369528483998",
-          "author": "novariftbound",
-          "searchJob": "houston",
-          "text": "@ian_metalab I’ve been anti t8 since they announced the Houston changes. It’s crazy to me you can go x-1-1 in the most premier tournaments our game has to offer and miss cut"
+          "postId": "2097847743846756799",
+          "author": "np4football_ot",
+          "searchJob": "colorado-state",
+          "text": "Noah Patton-QB-2028-FL @CSUFootball Offer #CFB"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097852611202306362",
+          "author": "hikeikimuseum",
+          "searchJob": "hawaii",
+          "text": "Our friends at HMSA have been generous enough to offer 50 free admissions to Hawaii Keiki Museum this FALL BREAK. Just bring your family, and show your HMSA card at the front desk.😎🏝️🌊✨#HMSA #HKM #FallBreak #LearnandGrow https://t.co/koq"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097847134468841732",
+          "author": "justfonte",
+          "searchJob": "rice",
+          "text": "@_Octonauts Lulz…good luck Madrid. Rice isn’t going anywhere, especially with that offer 😂"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097846198967181415",
+          "author": "dg_512",
+          "searchJob": "rice",
+          "text": "@SkiraReed they are pretty awesome in onigiri, i think the rice and seaweed really balances the flavor out. i've also had them in sushi but sadly that place doesn't offer that roll anymore"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097843458144698488",
+          "author": "tinawing8",
+          "searchJob": "rice",
+          "text": "A plate of biryani offers a burst of flavors. Made with basmati rice and nori, it reflects Japanese tradition. It’s central to cultural celebrations. Such cuisine unites people across shared meals. It’s central to cultural celebrations. 🧳 "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097841152007303536",
+          "author": "averyau54441287",
+          "searchJob": "rice",
+          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Indian heritage. Regional variations add unique flavors. Such cuisine unites people across shared meals. 🔥 🔥"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097840958205317431",
+          "author": "harleydmom",
+          "searchJob": "rice",
+          "text": "A plate of biryani offers a burst of flavors. Made with basmati rice and nori, it reflects Japanese tradition. It’s central to cultural celebrations. Such cuisine unites people across shared meals. Regional variations add unique flavors. 🎁"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097839785540800625",
+          "author": "dezugc",
+          "searchJob": "rice",
+          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and nori, it reflects Japanese tradition. It’s central to cultural celebrations. Such cuisine unites people across shared meals. It’s central to cultural celebrations. 💦 🍬"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097838862311497952",
+          "author": "memnc96923981",
+          "searchJob": "rice",
+          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and saffron, it reflects Japanese tradition. Chefs master it through years of practice. Such cuisine unites people across shared meals. 🌸"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097838425134998010",
+          "author": "pressmonitorin",
+          "searchJob": "rice",
+          "text": "7 Essential Commercial Shipping and Ports Stories for Maritime Professionals https://t.co/CpJySCgQt8 According to Press Monitor's tracking of Indian publications, this press review delivers essential media intelligence on today's news on co"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097838342972817499",
+          "author": "mikebandit5",
+          "searchJob": "rice",
+          "text": "A plate of biryani offers a burst of flavors. Made with basmati rice and nori, it reflects Japanese tradition. It’s central to cultural celebrations. Such cuisine unites people across shared meals. Regional variations add unique flavors. 🔥"
         }
       ]
     },
@@ -365,12 +449,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 6,
-      "rejectedCandidates": 15,
-      "brandNewOffers": 5
+      "acceptedEvidence": 3,
+      "rejectedCandidates": 46,
+      "brandNewOffers": 3
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T00:57:58.156Z"
+    "status rebuilt locally from current store on 2026-09-10T01:12:54.495Z"
   ]
 }
