@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T03:26:45.335Z",
+  "generatedAt": "2026-09-10T03:42:56.867Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T03:26:45.141Z",
+    "at": "2026-09-10T03:42:56.573Z",
     "jobsTotal": 162,
-    "sweptThisRun": 7,
-    "requests": 8,
-    "fullSweepCycles": 24
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,73 +32,265 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7581783333333333,
-    "p95Hours": 1.506131388888889,
-    "worstHours": 1.8915897222222222
+    "medianHours": 0.7775283333333334,
+    "p95Hours": 1.5250788888888889,
+    "worstHours": 1.7760016666666667
   },
   "decisionCoverage": {
-    "total": 2,
-    "decided": 2,
+    "total": 32,
+    "decided": 32,
     "complete": true
   },
   "pending": {
-    "total": 20
+    "total": 22
   },
   "profileResolution": {
     "cached": 45
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 967,
+    "completeOffers": 970,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T03:26:45.141Z",
-      "got": 5,
-      "new": 2,
-      "lag": 0.65
+      "at": "2026-09-10T03:42:56.573Z",
+      "got": 67,
+      "new": 32,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-09-10T03:26:12.995Z",
+    "at": "2026-09-10T03:41:20.781Z",
     "mode": "live",
     "collection": {
-      "returned": 5,
-      "kept": 2,
-      "duplicate": 3,
+      "returned": 67,
+      "kept": 32,
+      "duplicate": 35,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 2,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
-    },
-    "extraction": {
-      "accepted": 0,
-      "rejected": 2,
+      "accepted": 20,
+      "rejected": 12,
       "reasons": {
-        "bare_mention_requires_llm": 1,
-        "school_not_resolved_confidently": 1
+        "no_fbs_school": 4,
+        "non_fbs_offer_target": 5,
+        "hard_negative": 2,
+        "no_offer_term": 1
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2097885705795977641",
+          "author": "qbtofast",
+          "searchJob": "south-florida",
+          "text": "Glad to receive an offer from south Florida technical college thanks to my head coach @FCoston41738 @South_Fl_Tech https://t.co/HDV3rjWtom"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2097868323174146515",
+          "author": "lenix_addkison",
+          "searchJob": "ole-miss",
+          "text": "So blessed and grateful to receive my first offer from East Mississippi Community College! 🦁🥎 Thank you to EMCC and Coach Aleman for believing in me and giving me this opportunity. I’m so excited for what the future holds and can’t wait t"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2097880928391422257",
+          "author": "rileyjohns2028",
+          "searchJob": "phrase:\"all glory to god\" offer",
+          "text": "Extremely blessed and grateful to receive my FIRST COLLEGE OFFER from Hendrix College! 🧡🖤 Thank you Coach Sullivan, Coach Gibson, and the entire Hendrix Women’s Basketball staff for believing in me and giving me this opportunity. I’m than"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2097890958096343518",
+          "author": "leonard_akhigbe",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "#AGTG Blessed to earn my 1st offer from Shawnee State University @SSUBEARSFB @jimmy_peyton1 @coachmarksnyder @wadegreen12 @GridironImports https://t.co/YQFsx4IVVw"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2097885295530176722",
+          "author": "marcus2morris",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "TRULY BLESSED! To receive my Third D1 offer from North Dakota State University! #agtg🙏🏾 @Coach_Morris66 @LakeHowellFB @Coach_Will26 @DanLaForestFB @247Sports @TomLoy247 @MisterLilly @CoachCrutchley @NP4Football_OT @CenFLAPreps https://t.c"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2097879533865116077",
+          "author": "raymeirkirby",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After great conversation with @coach_G63 i am blessed to receive my first offer from Westminster University!!! #Gotitans #AGTG @VASJFootball @WCtitansFB https://t.co/k2xMfZKTpL"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097878223652851758",
+          "author": "ajslape",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After Received Great News From Coach Desmond Gist I am Blessed to Receive my 13🅾️ffer and 2nd D2 Offer from @TUDragonFB #AGTG @CoachNeilson_FB @CoachNobleWGHS @FB_RedWolves @CoachDNCSA @ncsa @NCSA_Football @gridironarizona @PrepRedzoneAZ @"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097866966568513676",
+          "author": "thepittstopblog",
+          "searchJob": "pittsburgh",
+          "text": "Youre telling me that these 2 teams were the best we had to offer last season?"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2097886204800737596",
+          "author": "stellarhoops",
+          "searchJob": "stanford",
+          "text": "Class of 2028 6’5 (Dream Vision Basketball 3SSB) Joshua Agbo holds offers from UNLV, Arizona State, Stanford and more. Joshua knocks down jumpers on every level, explosive first step, physical on ball defender, rebounds, makes the game easi"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097871405761048762",
+          "author": "ricktheeone",
+          "searchJob": "stanford",
+          "text": "https://t.co/MZkxhrjSK5"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097870519790096790",
+          "author": "stanfordchild",
+          "searchJob": "stanford",
+          "text": "As a Bay Area heat wave intensifies today and the heat advisory remains in effect through 10 p.m. Thursday, Dr. Stephanie Chao, a pediatric surgeon at @StanfordChild, offers essential guidance for keeping children and pregnant women safe. h"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097893094570197307",
+          "author": "red1r1sh",
+          "searchJob": "notre-dame",
+          "text": "@NewsWire_US Under 18 U.S.C. § 597, it is a crime to offer, give, solicit, or accept compensation in exchange for voting, withholding a vote, or voting for or against a particular candidate. He’s using the AIPAC method https://t.co/ksEXOFAc"
+        }
+      ]
+    },
+    "extraction": {
+      "accepted": 4,
+      "rejected": 16,
+      "reasons": {
+        "multiple_resolved_schools": 2,
+        "bare_mention_requires_llm": 2,
+        "reporter_missing_player_name": 3,
+        "school_not_resolved_confidently": 6,
+        "author_not_recruit:not high-school recruit": 1,
+        "unresolved_offer_target": 2
+      },
+      "samples": [
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097888541690741121",
+          "author": "donpaul850",
+          "searchJob": "southern-miss",
+          "text": "Name: Gabriel Oquendo-Ervin (@GabrielErvin55) School: Gulf Shores (AL) Position: DL Class: 2028 HT/WT: 6-1265 Offers: Tennessee, Texas Tech, Troy, App State, Southern Miss, https://t.co/IUul9Flm4r"
+        },
+        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097866650661859406",
-          "author": "reformedcaio",
-          "searchJob": "louisville",
-          "text": "@Jeff_Palouse, what Calvin is doing is rebutting the idea of a bare/mere permission, as if God is just standing by and observing things occur. He did not disagree with the overall concept of permission. He qualifies himself fairly clearly. "
+          "postId": "2097891822748012740",
+          "author": "centralarwx",
+          "searchJob": "arkansas",
+          "text": "🌙 TONIGHT’S OUTLOOK — ONE MORE WARM NIGHT BEFORE CHANGES BEGIN We’re wrapping up another brutally hot day across Central Arkansas, and unfortunately the overnight hours won’t offer a whole lot of relief just yet. 😅 Expect a warm and mostl"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2097885288718606387",
+          "author": "bobby_schneid",
+          "searchJob": "nebraska",
+          "text": "Nebraska offers 2028 EDGE/LB Palatine (Ill.) Eliaz Egbe. https://t.co/EuXQDzOpO8"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2097874183254352055",
+          "author": "bobby_schneid",
+          "searchJob": "nebraska",
+          "text": "Nebraska offers 2028 Olney (Md.) OL Josiah Eney. https://t.co/INqD0Aa11v"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2097866784367927444",
+          "author": "timverghese",
+          "searchJob": "nebraska",
+          "text": "Nebraska offers 2028 Olney (Md.) Good Counsel OL Josiah Eney, a fast-rising prospect standing 6-foot-5, 300lbs"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097887467731071284",
+          "author": "milkywaycupcake",
+          "searchJob": "northwestern",
+          "text": "Germania Moon Magazine X Secret Society By: Wish Fire Saint Gothic Germania Moon Magazine X Secret Society Ancient and Esoteric Secret Societies of Germania https://t.co/mKaa0AJyM5 Several historical and esoteric groups in German-speaking l"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097879607764496428",
-          "author": "florida_grand",
-          "searchJob": "miami",
-          "text": "Captain Steeeve, who has decades of flying experience, offered interesting insight into what it’s like landing a plane in Miami and why it’s important for all air traffic controllers to deliver wind speeds and gusts to pilots during descent"
+          "postId": "2097884371235520591",
+          "author": "markwooster",
+          "searchJob": "oregon",
+          "text": "@Dan_Powers_ If PVB had offered Leo $15 million a year and he agreed, which is what it would’ve taken to sign him, you would’ve said they overpaid and Ducks still would’ve had to dump assets. No one foresaw an $18 million offer. And Kreider"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097877355779801554",
+          "author": "m_mancuso11",
+          "searchJob": "oregon",
+          "text": "Hear me out. The flyers offer sheet Carlson which makes the ducks waive Krieder to afford Cutter. Imagine if Krieder signs with Philly. #nhl @JLazzy23"
+        },
+        {
+          "reason": "author_not_recruit:not high-school recruit",
+          "postId": "2097888652386824663",
+          "author": "alfreddeshon52",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "AGTG After a conversation with @CoachPRandolph I’m blessed to receive my Eighth offer from @LATechFB @Coach_J_Morgan @CoachGuillot @NCDAWGPOUND @JUCOFFrenzy @JuCoFootballACE https://t.co/lPXuNWjRsX"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097879804452200843",
+          "author": "hamilton_w90150",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After a phone call with @CoachNErling51 I am blessed to receive my second offer from @CUWisconsin! It’s an honor to receive an offer from such a great school and program, im looking forward to seeing more of it! #agtg #CUWfootball #classof2"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097882187198853352",
+          "author": "cyrusshares",
+          "searchJob": "notre-dame",
+          "text": "If the English and French exterminated entire empires and looted every gram of gold and silver there was, I'm sure the English colonies would've been much wealthier than the Spanish, because the English were actually great nation builders a"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097879489682256073",
+          "author": "notredameca",
+          "searchJob": "notre-dame",
+          "text": "📚 ASC Fall 2026 Open House Discover all the ways NDNU’s Academic Success Center (ASC) can support you throughout your academic and career journey! Join the ASC team for a casual virtual Open House to learn more about the resources, guidanc"
+        },
+        {
+          "reason": "unresolved_offer_target",
+          "postId": "2097879093022806071",
+          "author": "irishcruitwire",
+          "searchJob": "notre-dame",
+          "text": "OFFERED: 2028 4-Star WR Damarion Mays Picks Up An Offer From Notre Dame @Champfa6ix ⬇️🔗 https://t.co/ciW3mH21Qz"
+        },
+        {
+          "reason": "unresolved_offer_target",
+          "postId": "2097879060932157716",
+          "author": "bruce_straughan",
+          "searchJob": "notre-dame",
+          "text": "OFFERED: 2028 4-Star WR Damarion Mays Picks Up An Offer From Notre Dame @Champfa6ix ⬇️🔗 https://t.co/rRusbnhVwj"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097870544364572725",
+          "author": "iracesg",
+          "searchJob": "notre-dame",
+          "text": "🇮🇪 Seven Group Ones. Two iconic racecourses. One blockbuster weekend. The Irish Champions Festival takes centre stage at Leopardstown and the Curragh, with more than €5 million in prize money on offer. 🏆 Item, Almaqam and Constitution Ri"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097869941978374387",
+          "author": "lonestarmedics",
+          "searchJob": "notre-dame",
+          "text": "@ProsectorPath Great question, I offer in-person (open enrollment &amp; private groups), monthly virtual classes, rare occasions a free Lunch-N-learn at a local Irish pub, and the Patreon page has years of videos/articles published."
         }
       ]
     },
@@ -106,20 +298,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 7,
-      "failed": 1,
-      "requests": 8,
-      "errors": [
-        "south-alabama: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 2,
-      "brandNewOffers": 0
+      "acceptedEvidence": 4,
+      "rejectedCandidates": 16,
+      "brandNewOffers": 3
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T03:26:45.336Z"
+    "status rebuilt locally from current store on 2026-09-10T03:42:56.869Z"
   ]
 }
