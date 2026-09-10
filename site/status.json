@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T03:13:34.328Z",
+  "generatedAt": "2026-09-10T03:26:45.335Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T03:13:34.041Z",
+    "at": "2026-09-10T03:26:45.141Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 7,
+    "requests": 8,
+    "fullSweepCycles": 24
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7869161111111111,
-    "p95Hours": 1.6718658333333334,
-    "worstHours": 1.6718658333333334
+    "medianHours": 0.7581783333333333,
+    "p95Hours": 1.506131388888889,
+    "worstHours": 1.8915897222222222
   },
   "decisionCoverage": {
-    "total": 35,
-    "decided": 35,
+    "total": 2,
+    "decided": 2,
     "complete": true
   },
   "pending": {
@@ -55,275 +55,50 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T03:13:34.041Z",
-      "got": 62,
-      "new": 35,
-      "lag": 0.07
+      "at": "2026-09-10T03:26:45.141Z",
+      "got": 5,
+      "new": 2,
+      "lag": 0.65
     }
   },
   "audit": {
-    "at": "2026-09-10T03:11:57.889Z",
+    "at": "2026-09-10T03:26:12.995Z",
     "mode": "live",
     "collection": {
-      "returned": 62,
-      "kept": 35,
-      "duplicate": 26,
-      "tooOld": 1,
+      "returned": 5,
+      "kept": 2,
+      "duplicate": 3,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 26,
-      "rejected": 9,
-      "reasons": {
-        "no_offer_term": 6,
-        "no_fbs_school": 1,
-        "hard_negative": 1,
-        "non_fbs_offer_target": 1
-      },
-      "samples": [
-        {
-          "reason": "no_offer_term",
-          "postId": "2097870424013259081",
-          "author": "hotbets365",
-          "searchJob": "army",
-          "text": "https://t.co/qIvNTxexQX"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097866202198741259",
-          "author": "abuchanlife",
-          "searchJob": "army",
-          "text": "https://t.co/qXtJhWdbJA"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097855640043504105",
-          "author": "charflag3",
-          "searchJob": "charlotte",
-          "text": "After a great call with @CoachPete19 I’m very grateful to announce that I was offered an opportunity to continue my flag journey at @HendrixWFF Thank you to my coaches, teammates and family for always supporting me and making me a better pl"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097873993189802246",
-          "author": "theastronexus",
-          "searchJob": "rice",
-          "text": "Aaj ka Rashi fal — Thursday, 10 September 2026 @TheAstroNexus #Rashifal #VedicAstrology 1 मेष (Aries) – Career New ideas flow easily today. Share one clear plan with seniors. Avoid rushing decisions. Offer water to Surya. ✅ 2 वृषभ (Taurus) "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097873253759169010",
-          "author": "regaliaroots",
-          "searchJob": "rice",
-          "text": "Hexa-Orbital Steel ⬡◉ Hexa-Orbital Steel is a hexagonal van der Waals coat on stainless steel: MoS₂/WS₂ against the metal, graphene/h-BN as the barrier, a g-C₃N₄ mosaic cap, and six D₆ₕ/D₃ₕ molecules to grow, dock, and seal the stack. https"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097673759989940689",
-          "author": "endhi_peekedhi",
-          "searchJob": "rice",
-          "text": "Finally a movie that's trying to show the atrocities committed by British Christians. Well done @TheDeverakonda 🤩🙏 https://t.co/eMfl617uDM"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097862876161552617",
-          "author": "zacharymor31314",
-          "searchJob": "rice",
-          "text": "https://t.co/0lOHR8RSvB"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097880041686258076",
-          "author": "kellanokeefe12",
-          "searchJob": "illinois",
-          "text": "After an amazing conversation with Coach Dudley and Coach Meyer I am blessed to receive an offer from Illinois college! @goblueboys @DylanDudley @ArsenalHoops @MichaelAsleson @JaredNor1h @coachsmithstl @evan_asleson https://t.co/VaqcPZRFFi"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097871940337700975",
-          "author": "gorakkh",
-          "searchJob": "iowa",
-          "text": "Are women really “invisible” in BAPS? Look beyond the headlines. From spirituality and education to health, seva, music, culture and community leadership - the history tells a very different story. #BAPS #Women #SanatanDharma #BAPSPARIS #PA"
-        }
-      ]
+      "accepted": 2,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 26,
+      "rejected": 2,
       "reasons": {
-        "multiple_resolved_schools": 4,
-        "bare_mention_requires_llm": 15,
-        "school_not_resolved_confidently": 6,
-        "reporter_missing_player_name": 1
+        "bare_mention_requires_llm": 1,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097885137002283426",
-          "author": "abrahamunity17q",
-          "searchJob": "army",
-          "text": "HAVING FUN AND SPEAKING BETWEEN THE LINES $5K RETURN OF INHERITANCE There was a country that used to treat its people like owners. That was not a slogan. It was how the place was built. Families claimed land and expected their children to k"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097884669375119431",
-          "author": "gqdwins17",
-          "searchJob": "army",
-          "text": "👍 $5k RETURN OF INHERITANCE There was a country that used to treat its people like owners. That was not a slogan. It was how the place was built. Families claimed land and expected their children to keep it. Hamilton wanted shops and mills"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097884314801201492",
-          "author": "zepplarouche",
-          "searchJob": "army",
-          "text": "https://t.co/0YK8rSNoEK The U.S.-Iran war erupted in a big way, Tuesday night, after U.S. Central Command announced that U.S. forces had destroyed five Iranian oil tankers in retaliation for an earlier Iranian attack on U.S. naval ships ope"
-        },
-        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097879248153547168",
-          "author": "astrocounselkk",
-          "searchJob": "army",
-          "text": "Sharing as Received. This one is a must read 📚. What JAPAN and Japanese think about India and Indians .. India: Not an Inspiration... But a Warning Japan, a nation decimated by two nuclear bombs, didn't beg for sympathy or aid. It rebuilt "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097865774530736599",
-          "author": "brian_t_muldoon",
-          "searchJob": "army",
-          "text": "@ciaranupton The real reason these people joined the Mexican army is they were offered land grants for joining. https://t.co/42Lv4sLkua"
+          "postId": "2097866650661859406",
+          "author": "reformedcaio",
+          "searchJob": "louisville",
+          "text": "@Jeff_Palouse, what Calvin is doing is rebutting the idea of a bare/mere permission, as if God is just standing by and observing things occur. He did not disagree with the overall concept of permission. He qualifies himself fairly clearly. "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097882356388450739",
-          "author": "agaupb99",
-          "searchJob": "buffalo",
-          "text": "I am not trying to preach here. As a sinful human being I know overcoming denial is truly the first step to acceptance of the reality of human nature. David made this statement after he was confronted about his relationship with Bathsheba. "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097871497482121347",
-          "author": "swordmasterpub",
-          "searchJob": "buffalo",
-          "text": "No. No one was saved from their sins until the cross. That's why righteousness before the cross had to be imputed. The blood of bulls and goats cannot take away sin. Only God can do that. Abraham had living faith. He was obedient to God and"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097863318736363614",
-          "author": "__judyruliani",
-          "searchJob": "buffalo",
-          "text": "@gluestick_14 while i appreciate the offer, im not to be trusted around buffalo wings 😣🫣 https://t.co/rqxQukQHbK"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097871038898163728",
-          "author": "wineaboutsport",
-          "searchJob": "charlotte",
-          "text": "@theStevenRuiz I can’t see it happening, but would my 49ers dare to trade Mac Jones in division with the Seahawks if they offered a 1st rd pick if Darnold is out FTY? Shanny might think they know his weaknesses well enough to do it. But Mac"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097882638753087635",
-          "author": "invisiblearmy77",
-          "searchJob": "coastal-carolina",
-          "text": "So I asked grok about what would happen to the regular people, the occupants of Mocha for example, that live there that have houses and shops there, like what’s gonna happen to them and this is what it says (Note; AA has offered a general a"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097874041516204462",
-          "author": "hamptonsrisk",
-          "searchJob": "coastal-carolina",
-          "text": "Michael Amoia, HRM Coastal homes Insurance options cover more than what just a standard homeowners insurance policy offers. These are specialized policies provided by select insurance companies that include robust coverage to protect beach "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097870362587599097",
-          "author": "stephens_t8238",
-          "searchJob": "coastal-carolina",
-          "text": "@heterodoxan The point of Iran and Venezuela is pressure on China and Russia. And the pressure is still building on both. Building a \"Donbas Sandbox\" along coastal Iran, including local recruitment, might be a next logical step. Could offer"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097882894676947270",
-          "author": "tylercoonsmaui",
-          "searchJob": "hawaii",
-          "text": "508 Kauna Lipo Dr - Your Future View Is Already Here (Price Reduced!) View listing here: https://t.co/bHRdH1INV2 🔑 Offered at $639,000 👉 Tyler Coons tyler@tylercoonsmaui.com 808.280.2480 REALTOR®S RS-55098 Welcome Hawaii Properties #Tyler"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097881699346530441",
-          "author": "rukarindie",
-          "searchJob": "rice",
-          "text": "Fuuka has had quite enough of this. Note: The original had her offer \"bubuzuke\" which is tea over rice. It's a Kyoto euphemism meaning \"maybe it's time for you to leave\". Those outside Kyoto may not get it. Fuuka is being feisty either way."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097870268077416828",
-          "author": "tamiladvent",
-          "searchJob": "rice",
-          "text": "Wait, then who offered rice bags?"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097863907268337851",
-          "author": "noahfran2028",
-          "searchJob": "rice",
-          "text": "Thank you to @mchoehner and the entire Rice coaching staff for having me on an official visit! I’m extremely grateful for the opportunity to learn more about what Rice has to offer. Thank you for the hospitality and for making it a special "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097860241333301295",
-          "author": "dynastyrich",
-          "searchJob": "rice",
-          "text": "@_FF_Fanatic @DynastyNerds @DynastyGarret Fair offer. I’m 50/50 on it. Rice higher upside but huge risk."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097872331750133970",
-          "author": "tfloss32",
-          "searchJob": "utep",
-          "text": "UTEP issues an offer to '28 QB Ben Odom (@benodom2028) of Trophy Club Byron Nelson. #PicksUp⛏️ #WinTheWest #ChaseTheLion https://t.co/LhUeBwfhYL https://t.co/PEFkJ2vW7V 𝕏 @coachwoodward | @ByronNelsonFB"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2097869670422364187",
-          "author": "benodom2028",
-          "searchJob": "utep",
-          "text": "Thankful to have earned an offer from @UTEPFB! @CoachPappalardo @utepfbrecruit @ChadSimmons_ @adamgorney @GregBiggins @alldayqb @ByronNelsonFB @coachwoodward @CoachHughes87 @Bdrumm_OUI @Josh_Scoop @SWiltfong_ @CKennedy247 @TFordFSP @Elite_2"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097866802860642490",
-          "author": "jucofootballace",
-          "searchJob": "utep",
-          "text": "Michael Smith @MichaelSmith25W @ Iowa Central JuCo @IowaCentralFB picks up @UTEPFB Offer @Coach_Kratch @ICTritons https://t.co/ZqB9UAUs6n"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097857735412818156",
-          "author": "jucofootballace",
-          "searchJob": "utep",
-          "text": "Ruben Smith @ThunderSmith76 @ Tyler JuCo @TJCFOOTBALL picks up @UTEPFB Offer @MAlfaroPhoto https://t.co/FCcn08IcGP"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097872611095068739",
-          "author": "pt939913",
-          "searchJob": "alabama",
-          "text": "@MiamiCanes1971 Norvell would have offered the oline job at bama to meathead Mario 😭😭😭😂😂"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097867661342597518",
-          "author": "incidentscope",
-          "searchJob": "illinois",
-          "text": "🚨 MAN OFFERS GIRL $50, CHAOS ENSUES AT ILLINOIS TRANSIT TERMINAL Officers and deputies in Champaign County responded to a crowded transit terminal following reports of a male offering a juvenile girl $50. The situation escalated quickly wh"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097868475666776470",
-          "author": "a_luffa",
-          "searchJob": "michigan",
-          "text": "@dogtoysoldier @time_waster2 @Rippie856717 @conro ok well the former wasn't in the cards with kamala and she could have still avoided the latter losing michigan but didn't wanna offer a compelling domestic vision."
+          "postId": "2097879607764496428",
+          "author": "florida_grand",
+          "searchJob": "miami",
+          "text": "Captain Steeeve, who has decades of flying experience, offered interesting insight into what it’s like landing a plane in Miami and why it’s important for all air traffic controllers to deliver wind speeds and gusts to pilots during descent"
         }
       ]
     },
@@ -331,18 +106,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 7,
+      "failed": 1,
+      "requests": 8,
+      "errors": [
+        "south-alabama: rate limited"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 26,
+      "rejectedCandidates": 2,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T03:13:34.329Z"
+    "status rebuilt locally from current store on 2026-09-10T03:26:45.336Z"
   ]
 }
