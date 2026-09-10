@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T20:28:37.151Z",
+  "generatedAt": "2026-09-10T20:41:58.448Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T20:28:36.877Z",
+    "at": "2026-09-10T20:41:58.210Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 5,
+    "requests": 6,
+    "fullSweepCycles": 33
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,134 +32,118 @@
   },
   "staleSchools": [
     {
-      "id": "temple",
+      "id": "louisiana-tech",
       "hours": 2.8
     },
     {
-      "id": "georgia",
-      "hours": 2.5
-    },
-    {
-      "id": "louisiana-tech",
-      "hours": 2.5
-    },
-    {
       "id": "massachusetts",
-      "hours": 2.5
+      "hours": 2.8
     },
     {
       "id": "memphis",
-      "hours": 2.5
+      "hours": 2.8
     },
     {
       "id": "texas",
-      "hours": 2.5
+      "hours": 2.8
     },
     {
       "id": "texas-state",
-      "hours": 2.5
-    },
-    {
-      "id": "texas-tech",
-      "hours": 2.5
+      "hours": 2.8
     },
     {
       "id": "toledo",
-      "hours": 2.5
+      "hours": 2.8
     },
     {
       "id": "troy",
-      "hours": 2.5
-    },
-    {
-      "id": "utah",
-      "hours": 2.5
+      "hours": 2.8
     },
     {
       "id": "western-michigan",
-      "hours": 2.5
+      "hours": 2.8
     },
     {
       "id": "arizona-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "baylor",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "colorado",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "duke",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "florida-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "miami-oh",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "middle-tennessee",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "missouri-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "notre-dame",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "tulane",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "tulsa",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "ucf",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "uconn",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "vanderbilt",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "virginia",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "virginia-tech",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "wake-forest",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "wyoming",
-      "hours": 2.3
+      "hours": 2.5
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.2839644444444445,
-    "p95Hours": 2.530733888888889,
-    "worstHours": 2.7866838888888887
+    "medianHours": 1.5065469444444444,
+    "p95Hours": 2.7533161111111113,
+    "worstHours": 2.753316388888889
   },
   "decisionCoverage": {
-    "total": 123,
-    "decided": 123,
+    "total": 18,
+    "decided": 18,
     "complete": true
   },
   "pending": {
@@ -168,7 +152,7 @@
   "profileResolution": {
     "cached": 46
   },
-  "paginationBacklog": 4,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 989,
     "incompleteOffers": 0
@@ -176,383 +160,166 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T20:28:36.876Z",
-      "got": 183,
-      "new": 123,
-      "lag": 0.05
+      "at": "2026-09-10T20:41:58.209Z",
+      "got": 33,
+      "new": 18,
+      "lag": 0.86
     }
   },
   "audit": {
-    "at": "2026-09-10T20:26:57.681Z",
+    "at": "2026-09-10T20:41:31.541Z",
     "mode": "live",
     "collection": {
-      "returned": 183,
-      "kept": 123,
-      "duplicate": 58,
-      "tooOld": 2,
+      "returned": 33,
+      "kept": 18,
+      "duplicate": 15,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 73,
-      "rejected": 50,
+      "accepted": 7,
+      "rejected": 11,
       "reasons": {
-        "no_fbs_school": 31,
-        "no_offer_term": 13,
-        "hard_negative": 4,
-        "non_fbs_offer_target": 2
+        "no_fbs_school": 8,
+        "no_offer_term": 3
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2098131403892207969",
-          "author": "365fantasyfb",
-          "searchJob": "marshall",
-          "text": "@TheFantasyFoool I like it. Only have him in one league but offers are sent"
+          "postId": "2098123088604836190",
+          "author": "jazzyj87283918",
+          "searchJob": "texas",
+          "text": "@ThomasTashjian Unfortunately he made the offer in Texas where the GOP is just as lawless and corrupt as he is. So nothing will happen. It will just be explained as Trump being Trump and he wasn’t serious. But the law says “offers” he doesn"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098128514692096047",
-          "author": "sw1ssmystery",
-          "searchJob": "marshall",
-          "text": "@thatlovelybroad @alleria_eh Then maybe they should offer something like that instead of saying nothing."
+          "postId": "2098121622662021412",
+          "author": "bossytexaschick",
+          "searchJob": "texas",
+          "text": "tell that to KatieNotKate... She gave me an earful the other day in that 8 hr Spaces telling me, \"stop trying to be relevant with your ONE encounter...it never would've happened if you KNEW YOUR PLACE\" IMAGINE wanting to prove relavancy by "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098111135832580433",
-          "author": "ketrashanae",
-          "searchJob": "marshall",
-          "text": "Late-winter longans, tender and mild, offer a sweet taste with soft, fine flesh. The buildup of cold conditions intensifies their seasonal flavor.🌝Basement tidying The space is spotless and well-organized! https://t.co/pVhkbelbar"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098140843815457220",
-          "author": "jaks14447",
-          "searchJob": "temple",
-          "text": "@oldfitnessdoc @jonsac As I've already told you, the PALESTINIAN offer to Israel included concessions to give Israel sovereignty over the Temple Mount, and a discontiguous Palestinian state. That's not what the PLO rejected, it was what the"
+          "postId": "2098116986026832041",
+          "author": "texasobserver",
+          "searchJob": "texas",
+          "text": "Once the majority has decided a marginalized group is the demon in one part of a story, it’s easier to paint them as demons in another. But it doesn't have to be this way. These books offer a humane approach to trans athletes: https://t.co/"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098068883013853264",
-          "author": "crazyunfill94",
-          "searchJob": "temple",
-          "text": "An Indonesian Muslim preacher in Japan says: “Modern Japan needs Islam. The solution to suicide, divorce, broken families, and economic problems is more Islam and more mosques. The land of cherry blossoms wants Islam. Japan wants mosques.” "
+          "postId": "2098116738491539533",
+          "author": "sunnyglenhome",
+          "searchJob": "texas",
+          "text": "✨Giving back can look different for everyone. Your time, skills, prayers, or willingness to help can bring hope to a child at Sunny Glen. Read this article for meaningful ways to make an impact without spending money💙 #SunnyGlen #HopeForCh"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098140327529808055",
-          "author": "sethfromthe716",
-          "searchJob": "temple",
-          "text": "@Ready2Rumble8 Pretty sure you're the dumb one when you can't even offer any more of an explanation. Good job, dipshit."
+          "postId": "2098113056681103566",
+          "author": "007travelers",
+          "searchJob": "texas",
+          "text": "Although #JamesBond is a #Martini man, he has also drunk #tequila when #FelixLeiter offers it in #RaymondBenson's #TheFactsOfDeath “You’re in Texas now, James,” Leiter said. “You’re gonna do shots like the Texans do!” More here: https://t.c"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098112552832049488",
+          "author": "texaslady6252",
+          "searchJob": "texas",
+          "text": "Those of us with functioning brains can hardly stomach Trump now. But let me ask … are you willing to vote for a democrat? As mad as I am at Trump, I do not want more of what democrats have to offer. And if you just don’t vote, who are you "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098111473914351868",
+          "author": "bill97332370",
+          "searchJob": "texas",
+          "text": "@MaumeeMom Under US federal law, it is illegal to give payments that are intended to influence the way a person is voting. However, some experts have said the offer made by Trump in Texas on Wednesday could be seen as a pledge to cut taxes,"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098108687424299261",
+          "author": "texas_made67",
+          "searchJob": "texas",
+          "text": "@DiannaDeeley @RealSpitfire You know, some of the things I disliked the most that was said to me was “at least he’s no longer hurting or he’s at peace”. Both true, but neither I wanted to hear. To me, in that moment, it seemed insensitive. "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098110536760328407",
+          "author": "johnnyu2019",
+          "searchJob": "utah",
+          "text": "If youre illegal, you better have a plan for how youll survive in Liberia or any other hell hole that doesnt offer the USAs benefit gravy train."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098138351647801602",
-          "author": "prajnapranab",
-          "searchJob": "temple",
-          "text": "https://t.co/0byUl5jxPq"
+          "postId": "2098097591645032748",
+          "author": "anttsinc",
+          "searchJob": "utah",
+          "text": "THE GAME HAS CHANGED. 🚨 The administration just dropped a $5 million deal for Liberia to accept 1,200 third-country deportees over the next year. The word is spreading fast through the migrant community: you are no longer just being sent b"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098088682724974856",
-          "author": "hewlwj",
-          "searchJob": "temple",
-          "text": "@bahlawat11 @daljsing The venom of this guy is @bahlawat11 is beyond limit I hv suggested him to visit harminder sahib paid trip Otherwise he is suppose to be mentally fried"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098127122803896399",
-          "author": "rongwrong_",
-          "searchJob": "temple",
-          "text": "@KtunaxaAmerika I knew there was never a written offer. Clinton read the deal out loud at “dictation speed”. I thought the deal included Palestinian sovereignty over the entire Temple Mount, so I stand corrected then."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098126284341829959",
-          "author": "ktunaxaamerika",
-          "searchJob": "temple",
-          "text": "@Rongwrong_ I just checked grok There was never any official written proposal, just oral discussions Israel never offered to allow Palestinian sovereignty over the Temple Mount, just a vaguely defined limited custody over parts of it (so no"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098115985257443484",
-          "author": "foreverisrael7",
-          "searchJob": "temple",
-          "text": "It applies 100 percent, but remember at that time the community’s government was a Theocracy, meaning G-d was their authority, and Moses was the intercessor and leader. Rules and regulations were given in that context. The essence of Torah "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098145657848574072",
-          "author": "rtehrani",
-          "searchJob": "class:2026",
-          "text": "Ransomware remains a stubborn operational threat for broadcasters, streaming services, publishers, and other media businesses that depend on tightly connected production systems. A joint CISA and FBI advisory issued in August 2026 highlight"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098140625384427764",
-          "author": "jinseongeo83473",
-          "searchJob": "class:2026",
-          "text": "$RKLB #BLUE ORGIN EPISODE 3. https://t.co/U5gtN6dzJ4"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098135690164736136",
-          "author": "trendyvest",
-          "searchJob": "class:2026",
-          "text": "$SPY · $QQQ · $IWM · $TLT · $XLE · $AAPL · $MU · $INTC · $NVDA · $SMH · $ORCL · $ADBE · $AVGO · $META · $FCX · $SCCO · $TECK · $AVAV · $RDDT · $COO · $AEO · $M · $BHVN · $XLU · $XLF · $TSLA https://t.co/IVrWvNlEEC"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098133922001588530",
-          "author": "jainshubham2707",
-          "searchJob": "class:2026",
-          "text": "https://t.co/n5pRj1h0hm"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098132327054659894",
-          "author": "alfred3o3",
-          "searchJob": "class:2026",
-          "text": "#Formula1 #Italy: #Kalshi Market Scan Report date: September 10, 2026 Market snapshot: approximately 12:27 p.m. PDT / 19:27 UTC Race: Italian Grand Prix, Monza, September 6, 2026 DECISION: NO NEW ITALY TRADE The Italian Grand Prix is alread"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098116409297412211",
-          "author": "indyscotnews",
-          "searchJob": "class:2026",
-          "text": "What is the Flesh Market and who owns it? https://t.co/rdRQ1I0ytL The Left Behind Series (1) Investigating who owns Scotland over the years has revealed many fascinating aspects of geography, law, history and politics. This blog is the firs"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098106681976553760",
-          "author": "krisfryjoy",
-          "searchJob": "class:2026",
-          "text": "*THE WOMAN WHO KIDN@PPED MY THREE CHILDREN WAS THE SAME WOMAN WHO ALWAYS DRØVE US HOME FROM CHURCH* I still find it diffićúłt to believe what h@ppened to me. Sometimes, the person you believe God has sent to help you may be the very person "
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098141603026088168",
-          "author": "loudhousefs",
-          "searchJob": "class:2027",
-          "text": "Per 247Sports, Southeastern Conference school Missouri on September 9 offered a scholarship to 2027 3-star DL Jason Lewis out of Osceola High School in Kissimmee, Fla. The 6-foot-4, 250-pound Lewis verbally committed to Syracuse football in"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098128708523491519",
-          "author": "lockedinpreps",
-          "searchJob": "class:2027",
-          "text": "@LSWHawkFB 2027 ATH Phillip Simpson has received an offer from @CUNEFootball! Congratulations on the offer, Phillip!"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2098114215408242936",
-          "author": "pj4_305",
-          "searchJob": "class:2027",
-          "text": "Blessed to receive my 2nd offer from Concordia University @PatrickDaberkow @CoachCrume @cunebulldogs @LSWHawkFB @SWProspects @Trayno @philipsimpson1 @247Sports @247recruiting https://t.co/2NRaxBSg6S"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098111753955717388",
-          "author": "micahchatman",
-          "searchJob": "class:2027",
-          "text": "@___Dwil 🚨 DMs Open! 🚨 Micah Chatman | OL | C/O 2027 | 6'5\" | 340 lbs | 3.8 GPA | 1 Offer | Looking for the right opportunity. Coaches, feel free to reach out. https://t.co/vrg7pGC6QE"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098108616809033774",
-          "author": "np4football_ot",
-          "searchJob": "class:2027",
-          "text": "Travis Lau II-TE-2027-FL @BrownU_Football Commit #CFB"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097840679812829226",
-          "author": "t_lau2",
-          "searchJob": "class:2027",
-          "text": "I am excited to announce my commitment to @BrownU_Football ! Thank you to @BrownHCPerry @CoachPXMurphy @CoachW_Edwards for giving me this amazing opportunity. #EverTrue Thank you @CCHSWarriorFB and coaches @wessaff14 @Coach_Ronacher @CCHSwr"
+          "postId": "2098094374999503305",
+          "author": "memgrizz",
+          "searchJob": "utah",
+          "text": "Grizzlies basketball now streaming on DAZN. 📺🐻 What's included: ✔️ Free Season Pass for all MVP Season Ticket Members ✔️ All preseason games free ✔️ 15 regular-season games free and over-the-air — the most since 2001-02 ✔️ 2 free Grizzlie"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 72,
+      "accepted": 0,
+      "rejected": 7,
       "reasons": {
-        "multiple_resolved_schools": 12,
-        "school_not_resolved_confidently": 19,
-        "bare_mention_requires_llm": 35,
-        "reporter_missing_class_year": 2,
-        "explicit_non_fbs_target": 1,
-        "reporter_missing_player_name": 2,
-        "author_not_recruit:different sport": 1
+        "reporter_missing_player_name": 1,
+        "bare_mention_requires_llm": 6
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098139465575198951",
-          "author": "plusev_bets",
-          "searchJob": "south-florida",
-          "text": "South Florida @ Army under 46.5 offers +0.8% EV as consensus models project 52% probability while FanDuel prices it at 48.6%. Army's defense and South Florida's offensive struggles support the Under th… Where the edge is → https://t.co/WHIy"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098122859348652485",
-          "author": "synapticaxon",
-          "searchJob": "usc",
-          "text": "Here's my counter-offer. Keep the $5,000. Five things instead: 1. A recorded vote authorizing this war or ending it. Names attached. 2. A line-item accounting of every dollar spent and which appropriation it came from. 3. The base damage as"
+          "reason": "reporter_missing_player_name",
+          "postId": "2098118339558064528",
+          "author": "landsearchapp",
+          "searchJob": "texas",
+          "text": "Check out this 59-acre property in Kaufman County, TX, with a 5-bedroom home, resort-style pool, ponds, trails, barns, and a new barndominium. It's offered by xRealty. https://t.co/yF7NYYXNpv #landforsale #realestate #texas #homeforsale #ba"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098139263334568367",
-          "author": "dggentle",
-          "searchJob": "marshall",
-          "text": "JJ isn't a wing back and hasn't offered anything,Marshall and Kodua look lively but the ball is too slow getting too them."
+          "postId": "2098111807063830534",
+          "author": "txhealthcareers",
+          "searchJob": "texas",
+          "text": "Hey RNs and PCTs! Are you looking for a short-term opportunity that offers flexible hours, the opportunity to work in a variety of environments and excellent pay? We've got what you’re looking for. Check out SEASONAL POSITIONS at https://t."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098128085639979450",
-          "author": "damjanits",
-          "searchJob": "marshall",
-          "text": "@TheSultan1470 @SnakeHoppe So: -Chinese communists are winning. -GDR could offer the same product/price for decades (despite the war damage and no Marshall plan). -Western capitalism hollowed itself out and is now incapable of even being co"
+          "postId": "2098111476762313058",
+          "author": "neo_paulinite",
+          "searchJob": "texas",
+          "text": "@Empty_America I and a friend of mine were national merit scholars. I got a scholarship that basically waved my tuition. He went to UT Austin and got fuck all. We have a friend who was a B student and got hispanic merit scholar. Offered ful"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098107161083576810",
-          "author": "goldenlee34340",
-          "searchJob": "marshall",
-          "text": "@Hamilton4Kansas How dare Roger Marshall offer a medical service, not get paid for the service, and then sue the deadbeat patient."
+          "postId": "2098137045143261563",
+          "author": "polsia",
+          "searchJob": "utah",
+          "text": "I built a local real-estate service for Utah buyers, sellers, first-time homeowners, and investors. It combines market insight, pricing guidance, offer strategy, and transaction support to replace guesswork with clear decisions—and turn pro"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098145295830032808",
-          "author": "fatguydan",
-          "searchJob": "temple",
-          "text": "Some of you may remember a post I made around Easter a couple of years ago, about a billboard I passed on the highway. Jesus nailed to a cross, bleeding, crown of thorns, face twisted in agony, and one word underneath it: \"Love.\" That billb"
+          "postId": "2098127151262212347",
+          "author": "440shane",
+          "searchJob": "utah",
+          "text": "@FanMontanaro What is the offer to keep me from sending Kirill to Utah? It can't include any D not named Hutson or Reinbacher (CBJ is chock full of LHD) or a backup goalie like Monty. Need goals (now) and/or massive upside. Go!"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098144633796850009",
-          "author": "ark_bharatiya7",
-          "searchJob": "temple",
-          "text": "A Moment That Speaks Beyond Words Before being taken back to jail yet again, Hindu monk Chinmoy Krishna Das Prabhu offered his respects at the feet of Radha-Krishna at Pundarik Dham Temple in Chattragram. He was granted only a few hours of "
+          "postId": "2098111764391145884",
+          "author": "braxtonlee30",
+          "searchJob": "utah",
+          "text": "Triumph Gold Corp. ( base:0x0c03ce270b4826ec62e7dd007f0b716068639f7b:TSXV) offers exposure to exploration opportunities across Yukon, British Columbia and Utah, supported by a diversified mineral property portfolio. VISIT NOW https://t.co/5"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098140717692440854",
-          "author": "kindsunmia",
-          "searchJob": "temple",
-          "text": "Every culture has something valuable to offer. I've lived in the UAE for years, with a mosque, church and temple all within walking distance of my door. The people profiting from fear count on you never meeting anyone from it."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098139974801760662",
-          "author": "manishd1stjan",
-          "searchJob": "temple",
-          "text": "@rishibagree It isn't a democracy but a brothel run by pimps. There is nothing that your govt offers to us which every real democracy offers to its citizens! Your govt sides with thugs, goons &amp; mafia, only to loot us. Regarding Modi's b"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098136189928722486",
-          "author": "usabeachblonde",
-          "searchJob": "temple",
-          "text": "🪡 CONTINUED 👇🏻 The form appears about twenty-seven times, spread across the Torah, Historical Books, Wisdom literature, and, most prominently, the Prophets. HOLY SPIRIT KEEPS SHOWING ME THE NUMBER 27‼️‼️‼️ Numbers 31:2–3; 31:8 – the sanc"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098133826052780033",
-          "author": "bahlawat11",
-          "searchJob": "temple",
-          "text": "Thank you for the offer @hewlwj I don’t visit gurdwaras I do however like to visit golden temple one day with someone who can show me where the Sikh terrorists were hiding &amp; firing at Indian army Where Bhindranwale &amp; Shabeg were sho"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098131153085456617",
-          "author": "gog316322",
-          "searchJob": "temple",
-          "text": "Contents - America Unhenged - Ancient Engineering Wonders - This 1,200-Year-Old Temple was Carved Out of Solid Rock! - Baalbek - Main File - Casting Stones Español - Construcciones Piramidales en El Mundo - Main File - Coral Castle - Main F"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098128868360003786",
-          "author": "benderrodriguez",
-          "searchJob": "temple",
-          "text": "The key American figure in all this is Byron Stinson, a rancher &amp; Christian Zionist from Texas. He developed a relationship with the Temple Institute during regular visits to Israel &amp; eagerly offered up his network of evangelical ra"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098122185374318642",
-          "author": "indiastrikes_",
-          "searchJob": "temple",
-          "text": "Sri Chinmay Krishna Das Prabhu is granted only 5 hrs of parole to see his late mother before her last rites in Bangladesh He offered his respects at the feet of Radha-Krishna at Pundarik Dham Temple in Chattrogram before being taken back to"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098117504510148652",
-          "author": "jay_znn2",
-          "searchJob": "temple",
-          "text": "“One with words.” “You are unbearable.” By the time they reach the northern coast, days have passed. What began as an unbearable partnership gradually becomes something else. Between haunted forests, abandoned kingdoms, cultists pursuing th"
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2098116147186991347",
-          "author": "eyeofthestormsd",
-          "searchJob": "temple",
-          "text": "September 10 The Priest We Need Since then we have a great high priest who has passed through the heavens, Jesus, the Son of God, let us hold fast our confession … Let us then with confidence draw near to the throne of grace, that we may re"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098110364118319462",
-          "author": "denniscanter",
-          "searchJob": "class:2026",
-          "text": "September 10, 2026: The useful frontier. Today's AI progress looks less like a single model leap and more like a buildout of usable intelligence across machines, clinics, networks, media, and power systems. The frontier is getting practical"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098136929757729016",
-          "author": "profilefblive",
-          "searchJob": "class:2028",
-          "text": "Mississippi State and Illinois have offered 3.5⭐ 2028 Edge Cornelius Laney from Ocoee HS, FL. @CorneliusLaney1 Rated (#805 NATL, #60 Edge, #118 FL) - 10 offers overall. https://t.co/3cTxA1Pkoq"
-        },
-        {
-          "reason": "explicit_non_fbs_target",
-          "postId": "2098129379994017817",
-          "author": "profilefblive",
-          "searchJob": "class:2028",
-          "text": "Appalachian State has offered 3.2⭐ 2028 ATH Blair Morris from Varina HS, VA. @Blair_Morris010 Rated (#1188 NATL, #82 ATH, #40 VA) - 5 offers overall. https://t.co/u3ZbAondIs"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098142218586554876",
-          "author": "earthdesires",
-          "searchJob": "georgia",
-          "text": "Whiskey Jug Genie by Sultonna Nadine is a lighthearted and charming paranormal fantasy that mixes magic, humor, and a touch of romance for pure escapist fun. When quiet London apothecary shop owner Martin buys an old whiskey jug on vacation"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098140709136269417",
-          "author": "earthdesires",
-          "searchJob": "georgia",
-          "text": "Old Flame (Gambler's Folly Book 4) by Mellie Miller is a heartfelt second-chance paranormal shifter romance that blends emotional healing, mature love, and the magic of fate. Billionaire and bear shifter Kort Behrens has been lucky in busin"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098130260088770797",
-          "author": "state_bulldogs",
-          "searchJob": "georgia",
-          "text": "@DubCJunior Did you not watch his documentary? Georgia and others offered him absolute BANK this off-season and ge ignored all of em. He's a Dawg and he will finish here next year and be top draft pick. I just don't see a way at all he tran"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098125102814519419",
-          "author": "orbitlabx",
-          "searchJob": "georgia",
-          "text": "Atlanta offers a 25-35% cost-of-living advantage over New York City. 🇺🇸 Georgia’s flat 5.49% state income tax rate provides structural fiscal relief. #orbitlabx #digitalnomad #expat #atl #atlanta #georgia #nyc #travel #usa #taxes #col htt"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098125021340106895",
-          "author": "redpeachwarroom",
-          "searchJob": "georgia",
-          "text": "Anne Applebaum. Columnist. Called Trump's checks \"bribery\" and slept through Biden's Georgia $2,000 offer."
+          "postId": "2098109119160779198",
+          "author": "chriman_",
+          "searchJob": "utah",
+          "text": "For context, the Utah Jazz’s “Jazz+” app basically offers the same deal of live &amp; on-demand content, 2 free game tickets, &amp; a store discount (which this package includes as well, just a bigger platform) Price is exact same. Seems li"
         }
       ]
     },
@@ -560,18 +327,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 5,
+      "failed": 1,
+      "requests": 6,
+      "errors": [
+        "phrase:\"lands an offer from\": rate limited"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 72,
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 7,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T20:28:37.151Z"
+    "status rebuilt locally from current store on 2026-09-10T20:41:58.449Z"
   ]
 }
