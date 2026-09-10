@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T22:42:56.721Z",
+  "generatedAt": "2026-09-10T22:58:08.703Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T22:42:56.415Z",
+    "at": "2026-09-10T22:58:08.440Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -30,20 +30,15 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [
-    {
-      "id": "texas-tech",
-      "hours": 2.3
-    }
-  ],
+  "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7742836111111111,
-    "p95Hours": 1.778976388888889,
-    "worstHours": 2.266395833333333
+    "medianHours": 0.775575,
+    "p95Hours": 1.7775152777777778,
+    "worstHours": 1.7775152777777778
   },
   "decisionCoverage": {
-    "total": 59,
-    "decided": 59,
+    "total": 36,
+    "decided": 36,
     "complete": true
   },
   "pending": {
@@ -52,7 +47,7 @@
   "profileResolution": {
     "cached": 47
   },
-  "paginationBacklog": 2,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 994,
     "incompleteOffers": 0
@@ -60,381 +55,295 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T22:42:56.415Z",
-      "got": 107,
-      "new": 59,
-      "lag": 0.04
+      "at": "2026-09-10T22:58:08.439Z",
+      "got": 57,
+      "new": 36,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-09-10T22:41:14.670Z",
+    "at": "2026-09-10T22:56:27.172Z",
     "mode": "live",
     "collection": {
-      "returned": 107,
-      "kept": 59,
-      "duplicate": 48,
+      "returned": 57,
+      "kept": 36,
+      "duplicate": 21,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 33,
-      "rejected": 26,
+      "accepted": 23,
+      "rejected": 13,
       "reasons": {
-        "no_fbs_school": 14,
-        "hard_negative": 2,
-        "no_offer_term": 8,
+        "no_offer_term": 5,
         "non_fbs_offer_target": 1,
-        "unclassified_offer_text": 1
+        "hard_negative": 3,
+        "no_fbs_school": 4
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2098142711425671220",
-          "author": "truthsayer",
-          "searchJob": "california",
-          "text": "@Cartel_Cal Ah yes, California the great leftist utopia. This is what @GavinNewsom offers the rest of the nation."
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098177870845927660",
-          "author": "dianadimit31323",
-          "searchJob": "texas-tech",
-          "text": "The Western Military-Industrial Complex Plans the Militarization of European Civilian Industry Rising geopolitical tension between Russia and European nations is entering a new phase, where diplomatic language is giving way to direct warnin"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098177447057359234",
-          "author": "stanleyrage",
-          "searchJob": "texas-tech",
-          "text": "@Cara_01_Cara @Northerngold01 DRONE TECH AND OTHER BLEEDING EDGE MILITARY TECH. When they win &amp; rebuild Ukraine has a lot to offer."
+          "reason": "no_offer_term",
+          "postId": "2098182812008337647",
+          "author": "kingsolomon_jnr",
+          "searchJob": "wake-forest",
+          "text": "STAKE MIDNIGHT TICKETS 🌌🕛 💥 Wake up to Big BoooM. 💵 🏆2 odds ➡️ https://t.co/GLaIt3cW3K 🏆2 odds ➡️ https://t.co/U6DUoEtLmQ 💻 Register here 🔽🔽🔽 🔗 https://t.co/1lUMt39tNo Use Promocode: KINGJNR to get up to $500 bonus https://t.co/u"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098145651309584814",
-          "author": "swizztalks",
-          "searchJob": "texas-tech",
-          "text": "@AngelofYHVH How much they paying you to hype this token ?"
+          "postId": "2098057155106529786",
+          "author": "amuse",
+          "searchJob": "wake-forest",
+          "text": "TEXAS SENATE RACE: Remember, James Talarico (CIS) openly and wholeheartedly proclaimed his support for transing kids for years. Now that he's running for Senate, he's decided to gaslight voters into thinking he now opposes trans surgeries f"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097810755701903717",
-          "author": "kingmakeriq",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/Vk9BQMr3y9"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098167838460551642",
-          "author": "christitustech",
-          "searchJob": "texas-tech",
-          "text": "@DonovanNagel @MaldonisTo21775 I get it, but Linux has so much more to offer. As a dev, the one critique I'd give Omarchy is I don't want to be on the bleeding edge of packages via Arch Linux. This is why I settled on Fedora, which is new e"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098100185633268012",
-          "author": "joshearle",
-          "searchJob": "texas-tech",
-          "text": "don't bother trying to sell to EU companies https://t.co/jtNQs5ywJ7"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098162349148360918",
-          "author": "alexeikhru53336",
-          "searchJob": "marshall",
-          "text": "@Mappy6984 @Comptonx187 Thankfully I had a stepdad that experienced becoming a father at a young age. Thanks to him I was able to become a great father at a younger age. He offered his support but still allowed me to make the mistakes in li"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098158779502403967",
-          "author": "rapak5736",
-          "searchJob": "temple",
-          "text": "Sanhedrin Suspending Shofar for Shabbos https://t.co/fzMTwI0f05"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098179570394632523",
-          "author": "mtthwwsn",
-          "searchJob": "class:2026",
-          "text": "https://t.co/AkRsQND4n1"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098159670523560298",
-          "author": "davedeek",
-          "searchJob": "class:2026",
-          "text": "Murata and Chemi-Con reveal what the boom can finance—and where public support could make a difference. https://t.co/02bQMGP633"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098168307832770959",
-          "author": "micahchatman",
-          "searchJob": "class:2027",
-          "text": "@TrustMyEyesO 🚨 DMs Open! 🚨 Micah Chatman | OL | C/O 2027 | 6'5\" | 340 lbs | 3.8 GPA | 2 Offer | Looking for the right opportunity. Coaches, feel free to reach out. https://t.co/vrg7pGC6QE"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098177366145044936",
-          "author": "camauriberry_",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "#AGTG After a great conversation with @Kere_Thomas i’m blessed to receive an 🅾️ffer from @PointFootball @CoachLawrenceJR @nickcoachd42 @RodneyJ_4 @CoachTHoffmann @RecruitGeorgia @247recruiting @On3 @PrepRedzoneGA https://t.co/ItDAafxn1x"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098175667615777165",
-          "author": "amrynw1532",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @AndonMata . Im blessed to receive my 2nd offer to continue my education and football career @ENMUFootball @PrepRedzoneNM @CouchPSports https://t.co/GZ62Q2Qia7"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098175492532895855",
-          "author": "coop__bomb4",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive player of the week from @IAfootball_ thank you to everyone who voted for me! @Connerhanafan82 @Clarindafball @dfreund7 @CoachParling @will_lawrence6 @andy_lucas98 @Coach_Lueds @KobeClayborne @DuckettOfficial @Coach_Boes h"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098173311943422067",
-          "author": "whitneyben11",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great visit I’m blessed to receive an offer from NC Wesleyan! Thank you to the coaching staff! @SW15H_Elite @m_brooker11 @mbball_cghsnc @CooperOnPaper @ScottWood15 @Ro_Turn @MasercolaMiles https://t.co/e7kJH38N9y"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098165511846604890",
-          "author": "alexwall2027",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great visit and conversation with @Coach_Brum @coachsizemore1 and @Max_Greenamoyer I am blessed to receive my second offer from Wabash! @Guerinhoops @d1Indianabb @IndyRob8 @thesamgardner @BRamseyKSR https://t.co/pCqYdYat4n"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098160973186052213",
-          "author": "4_connor_a",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great visit and conversation with Coach Richter and Coach Logsdon, I am blessed to receive an offer to play at Berry College! @BerryMBB_ @StarsNash_MBB @TheCampBball https://t.co/dePVXlvSCN"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098160265179087034",
-          "author": "annabugbee34",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @_BMorrison, I am blessed to receive an offer to play Division 1 Women’s Basketball @SanJoseStateWBB! Thank you for believing in me! 💙💛 @jlocinco @jonaschatterton @BravesGBB @NorthTartan #uncommitted https:"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098158954404782550",
-          "author": "brocks37874",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great call with @coachjlandry Im blessed to receive a offer to play at @_CR_Football https://t.co/EfYtnVXIBX"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098158425842635047",
-          "author": "addison_yates3",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from @LWUwbasketball https://t.co/8lERNifm3K"
+          "postId": "2098135058968142105",
+          "author": "discussingfilm",
+          "searchJob": "troy",
+          "text": "New look at Troy Baker as Nathanial Essex/Mr. Sinister in Insomniac's ‘WOLVERINE’. https://t.co/a0TZTErvL1"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2098157475874701606",
-          "author": "nijaunharris",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from Saint Louis University, Thank you to the coaching staff and God most Importantly. @SaintLouisMBB https://t.co/KMlcC1XQEV"
+          "postId": "2098182734807957737",
+          "author": "_emoryjohnson",
+          "searchJob": "alabama",
+          "text": "Blessed to announce I have received my 6th official offer from the Alabama Rays!! @LilphamMatt_QB @coachnate56 @SchwartzAthSpot https://t.co/YoiCvsQlQm"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098160976658936152",
+          "author": "zarembalaw",
+          "searchJob": "illinois",
+          "text": "🚨 Reckless conduct in Illinois (720 ILCS 5/12-5) is the charge that turns a \"nobody meant any harm\" moment — a dangerous prank, a warning shot into the air, dropping something off an overpass, or a horseplay injury — into a criminal record"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098170339951817002",
-          "author": "erik_post3",
-          "searchJob": "phrase:\"blessed to have received\"",
-          "text": "After an amazing visit and talk with @JeremyBecker_22 and @Tyler3Engel14 I am blessed to have received an offer from @NCU_MBKB Thank you coaches! @wibijammin @tjschaff39 @PriorLakeHoops1 @cornell_p33 #AGTG https://t.co/jmKQzwmKa8"
+          "postId": "2098183611711103247",
+          "author": "crapgameramirez",
+          "searchJob": "washington",
+          "text": "@LauraLoomer @SpeakerJohnson Just like in England, Washington corrupt politicians are gonna give in to Islam because Islam is gonna offer them something people in Washington want real bad.....REVENGE ON THEIR ENEMIES"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098165455097655724",
+          "author": "zelenskyyua",
+          "searchJob": "washington",
+          "text": "I don’t think we will have negotiations before parliamentary “elections” in Russia end. But at the end of September, we will have an opportunity to meet with an American team in New York. Meanwhile, our teams are in touch. And I hope we can"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098155898203959773",
-          "author": "baylor",
-          "searchJob": "baylor",
-          "text": "This week, we remember those whose lives were changed forever on September 11, 2001. #NeverForget 🇺🇸 At 9:30 a.m. Friday, the campus community will gather at the Pat Neff flagpole to reflect &amp; pray. At 12:15 p.m., the McLane Carillon "
+          "postId": "2098179339921842625",
+          "author": "jaleelappleseed",
+          "searchJob": "washington",
+          "text": "The Israelis ,. Were are secret weapon against communism,. Kinda similar to what they did with terrorism The kgb or what ever you want to call them did the same after 911 Putin called bush to offer support,. Cuz he just wrote a nice article"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098170128118464596",
+          "author": "smo_vz",
+          "searchJob": "washington",
+          "text": "🇷🇺 THE MARKET HAS VOTED: RUSSIAN OIL IS THE CARGO ASIA CANNOT REPLACE 🇷🇺🛢️ The latest Bloomberg flash is not a footnote. It is a verdict. A November cargo of ESPO crude from Russia’s Pacific coast has been offered at a premium of more "
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098162653231477052",
+          "author": "kdg1h",
+          "searchJob": "washington",
+          "text": "Seeing multiple post referencing \"Charlie Kirk considered a bad person\". How? Because he debated with statistics/facts/numbers rather than slurs? I want proof he was considered a \"bad person\". Saying blacks commit 50% of the crime, while be"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098143329183543326",
+          "author": "tiffanywarroom",
+          "searchJob": "wisconsin",
+          "text": "🚨 WATCH: David Crowley says that Wisconsin needs to fight to protect illegal alien criminals from being deported \"with the same type of spirit\" as we fought against the Fugitive Slave Act. Illegals will be swarming your neighborhoods with "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098157827936133344",
+          "author": "auroraskies_7",
+          "searchJob": "wisconsin",
+          "text": "@zephyr7755_ It was illegal when Elon offered to do it too (he wanted to give $1 million iirc to voters in wisconsin (?)) but ofc nothing ever happened"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098157940674789687",
+          "author": "emmitwillhite",
+          "searchJob": "phrase:\"grateful to receive an offer\"",
+          "text": "After a great visit with @coachmitch44 and @CoachRWade @harrishawkins15 I’m extremely grateful to receive an offer to play college basketball at Hope College. @grstormbb @HopeCollegeMBB @lenny_padilla @alleyesonuhoops @PrepHoopsMI @Brzezins"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 32,
+      "accepted": 0,
+      "rejected": 23,
       "reasons": {
-        "bare_mention_requires_llm": 17,
-        "school_not_resolved_confidently": 12,
-        "multiple_resolved_schools": 1,
-        "player_display_name_unusable": 2
+        "school_not_resolved_confidently": 8,
+        "bare_mention_requires_llm": 12,
+        "multiple_resolved_schools": 3
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098141722874355850",
-          "author": "songbird9",
-          "searchJob": "california",
-          "text": "@Illegalsofca @kdeleon California law, a person violates Penal Code § 529.5PC when : Manufacture (make or create) a fake government ID Sell or offer to sell a fake ID Transfer or distribute a fake ID to another person Possess a fake ID Know"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098182081385812298",
+          "author": "poorrxbin",
+          "searchJob": "wake-forest",
+          "text": "Where the sun would wake him up to start a day. Now it was the moon. “…I..was feelin’ peckish ‘fore I leave, I’m willing to share if yer’ are.” He offered, a bridge, one Armand can cross if he wanted to. He doesn’t need to be lonely tonight"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098166689791672670",
-          "author": "lorenzovonrj",
-          "searchJob": "syracuse",
-          "text": "Michai White Cuse offer?!?!? Need that."
+          "postId": "2098179777203228854",
+          "author": "vivianc50",
+          "searchJob": "wake-forest",
+          "text": "James Talarico putting children in a position where they will be adversely effected for the rest of their lives because the Democratic Platform says they must! Sellout! James Talarico what a sham of a human being! Totally supportive of the "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098178927889907858",
-          "author": "thelastraza",
-          "searchJob": "texas-tech",
-          "text": "@Nick_from_Texas tech hiring is broken right now. layoffs, then ghost postings, then lowball offers. consider trades, healthcare IT, or freelance/contract until the market corrects. the whole industry overhired and now workers pay the price"
+          "postId": "2098177438995919060",
+          "author": "mrp4ra",
+          "searchJob": "wake-forest",
+          "text": "@Wlapperrrrr Hahaha roc nation are really spreading their money to make bitchnicius jr look like he's loved by many fans. He's hated in Madrid, he's hated in Spain, no team wanted him even though roc nation offered him to all clubs in the w"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098177829380759829",
-          "author": "ckcardano",
-          "searchJob": "texas-tech",
-          "text": "@TroyCaylak Ha! Credit where due, shout out @ElonMusk and 'Starlink' from @SpaceX. Modern Aerospace Tech offers potential to assist and support during major world events and 'nature disasters' in addition to Local Outage Events like in LA S"
+          "postId": "2098165707259474044",
+          "author": "u_wildsafaris",
+          "searchJob": "wake-forest",
+          "text": "GORILLA FOREST LODGE — LUXURY IN THE HEART OF BWINDI 🇺🇬 Wake up in the ancient Bwindi rainforest, surrounded by mist, birdsong and the untamed beauty of Uganda. For discerning travellers, Gorilla Forest Lodge offers an intimate luxury ret"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098176595454525639",
-          "author": "nadelparis",
-          "searchJob": "texas-tech",
-          "text": "That movie could hurt Elon. He should focus on explaining why superintelligence will likely be achieved despite regulation—and whether China will get there before the United States. He should also highlight what SpaceX and Tesla are buildin"
+          "postId": "2098172039685132635",
+          "author": "avantgardai",
+          "searchJob": "notre-dame",
+          "text": "@hkhanirl @eoinmauricedaly You're not essential at all chief. There's not a goddamn thing you can offer that Irish people couldn't do themselves. Your USP is you're cheaper. You're a weapon to depress native wages, you have no other purpose"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098176259104591929",
-          "author": "angelofyhvh",
-          "searchJob": "texas-tech",
-          "text": "@SwizzTalks Nothing 😏 LG $ZBCN 🙌 I believed in $ZBCN as the first to offer Web3 tech that delivers real-time payroll. @Zebec_HQ https://t.co/lXlZHz0kRJ"
+          "postId": "2098169608658203093",
+          "author": "eddiepunch",
+          "searchJob": "notre-dame",
+          "text": "@john_tippe70046 @LindadeCourcy It's absolutely farcical to claim Citizenship is integral to working in another country. Meanwhile HSE pulling job offers to Irish nursing graduates, when we've been told for years that healthcare can't get I"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098176147586425094",
-          "author": "angelofyhvh",
-          "searchJob": "texas-tech",
-          "text": "Nothing 😏 LG solana:ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU 🙌 I believed in solana:ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU as the first to offer Web3 tech that delivers real-time payroll. @Zebec_HQ https://t.co/SCDxY66CIu"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098174478266282293",
-          "author": "bennonmaina",
-          "searchJob": "texas-tech",
-          "text": "I wouldn’t be surprised & frankly, I doff of my hat to Mark’s leadership. He built his reputation as the governor of the Bank of England, transforming it into a transparent, tech-forward Central Bank, as detailed in a few reports & those wh"
+          "postId": "2098169126451843275",
+          "author": "juniper687",
+          "searchJob": "notre-dame",
+          "text": "What the hell is going on?? Is our government determined to employ ONLY 3rd world foreigners or WTF is going on?? Utterly unacceptable!! We are Ireland. We MUST offer any jobs in Ireland to Irish people. End of."
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098170323237826878",
-          "author": "bullmarketboss",
-          "searchJob": "texas-tech",
-          "text": "Concentrating on high conviction mega caps like $NVDA $AMZN $MSFT $GOOGL $AAPL turns conviction into real compounding. You don't need 50 assets when asymmetric home runs drive wealth. Pairing a solid core $VOO $QQQ $SCHD with targeted high "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098170229301907885",
-          "author": "jose66542",
-          "searchJob": "texas-tech",
-          "text": "After the 2019 elections, when so few women who ran actually won, she co-founded @ElectHER_NG ElectHER — a non-partisan, pan-African organisation with a simple, stubborn creed: Decide. Run. Win. Encourage women to step forward. Equip them. "
+          "postId": "2098160071230263565",
+          "author": "ifbmedia",
+          "searchJob": "notre-dame",
+          "text": "Tommy Lonergan deserves more attention….. The 22 year old Dunboyne native has always been a big prospect up-top and has shown tremendous bottle and perseverance already in his early career! After coming through at Cherry Orchard and then St"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098164425559863775",
-          "author": "jose66542",
-          "searchJob": "texas-tech",
-          "text": "When a Queen Walks In Quietly: For Ibijoke Faborode — and for every girl child watching There is a Yoruba wisdom that says the child of the house does not have to shout before the courtyard knows her name. Some names arrive already carrying"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098169646562353230",
-          "author": "scvts",
-          "searchJob": "texas-tech",
-          "text": "The Salem Tech Fall Spirit Wear Store is officially open! This sale includes some fresh new Chargers gear plus the 2026 Special Edition Homecoming Tees only offered in our fall store. The store is only open through 9/16, so don't miss out! "
+          "postId": "2098154661945507871",
+          "author": "catholicreview",
+          "searchJob": "notre-dame",
+          "text": "George Matysek goes behind the scenes of Notre Dame football with Holy Cross Father Nate Wills, the team’s chaplain and author of “Pray Like a Champion Today: Sacred Stories from the Sidelines of Notre Dame Football.” Ordained in 2006, Fath"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098168960462069952",
-          "author": "jose66542",
-          "searchJob": "texas-tech",
-          "text": "The Uncommon Path: Ibijoke Faborode @ibijokefaborode After History and International Relations at OAU, Project Management in France, and further study at Imperial and the London School of Economics, she could have stayed on the polished roa"
+          "postId": "2098181609954439658",
+          "author": "gregluca",
+          "searchJob": "texas-state",
+          "text": "How does UTSA's offense match up with Texas State? Can the Roadrunners slow the Bobcats' attack? Which side needs this game more? Ahead of a pivotal I-35 rivalry showdown, @YumCaleb and I offer a breakdown and predictions: https://t.co/2XZr"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098168702696862092",
-          "author": "jose66542",
-          "searchJob": "texas-tech",
-          "text": "The Uncommon Path After History and International Relations at OAU, Project Management in France, and further study at Imperial and the London School of Economics, she could have stayed on the polished road: UK Foreign & Commonwealth Office"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098167139517813067",
-          "author": "eudaimoniang",
-          "searchJob": "texas-tech",
-          "text": "You have to be extremely dumb to think you have a “right to not be emailed” This is another example why tech booms in the US and Europeans don’t have anything to offer to the world Most tech startups grow their business by sending cold emai"
+          "postId": "2098161636943270071",
+          "author": "blitzisspiffy",
+          "searchJob": "troy",
+          "text": "Troy baker stop accepting all of insomniacs offers bro I can't stop hearing your voice anymore"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098166820121534665",
-          "author": "jose66542",
-          "searchJob": "texas-tech",
-          "text": "There is a Yoruba wisdom that says the child of the house does not have to shout before the courtyard knows her name. Some names arrive already carrying honour. Some lives simply confirm it. Ibijoke Faborode is one of those lives. Daughter "
+          "postId": "2098168806476509208",
+          "author": "np4football_ot",
+          "searchJob": "western-michigan",
+          "text": "Jamarcus\"Jr”Smith-WR-JUCO @WMU_Football Offer #CFB"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098165936226480626",
-          "author": "jose66542",
-          "searchJob": "texas-tech",
-          "text": "For Ibijoke Faborode — and for every girl child watching There is a Yoruba wisdom that says the child of the house does not have to shout before the courtyard knows her name. Some names arrive already carrying honour. Some lives simply conf"
+          "postId": "2098181430513647834",
+          "author": "bkelcey",
+          "searchJob": "alabama",
+          "text": "@nickshirleyy @PlanetOfMemes ALABAMA, THEY ARE COVERING IT UP AND YET IT IS OBVIOUS.. VERY….. SADLY, RACIALLY CONNECTED TOO. LOOK INTO VETERAN HOUSING PROGRAMS, THEY ARE OPERATED BY RACISTS &amp; ONLY OFFER DANGEROUS, WHITE/ASIAN HATING NEI"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098170071390597213",
+          "author": "athinkingrobot",
+          "searchJob": "illinois",
+          "text": "First Watch adds to your calendar. It never writes to your patient record - and we never own either one. After-Hours Recon, free: https://t.co/x5DtUqS7cl First Watch is not currently offered in Illinois or Washington."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098160765463412977",
+          "author": "hcjbabcjdkpcmd",
+          "searchJob": "maryland",
+          "text": "@brndxix @GentlemenLindy @RichPianian 103 Aberdeen Road Rockville Maryland if anyone wants to take him up on that offer."
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098174322628067418",
-          "author": "midtownmadpod",
-          "searchJob": "louisiana-monroe",
-          "text": "Other offers: Ohio, Louisiana-Monroe, Florida Gulf Coast, Jacksonville, North Florida, High Point, UTRGV. Lots of programs are circling, as well. Fun player, intriguing prospect."
+          "postId": "2098183103202087020",
+          "author": "thetect0nic",
+          "searchJob": "washington",
+          "text": "🇺🇦 🇷🇺 Zelensky just put a specific date on the diplomatic calendar, September 20, when Russia's Duma elections conclude, and a specific fear attached to it: he believes Moscow will draft an additional 300,000 troops once those elections"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098171157510058276",
-          "author": "jackson_bruce1",
-          "searchJob": "marshall",
-          "text": "After a great visit and conversation with @CoachNickJones_ and Coach Marshall, I am excited to recieve an offer from @FriendsMBB!! #AGTG https://t.co/CtsNrKmucl"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098174615973425297",
-          "author": "follis_",
-          "searchJob": "south-florida",
-          "text": "- CPI comes in soft - Rate hike chances drop - Small relief rally on $BTC - Bulls get cocky (again) - bulltrap.exe - FOMC, 25bps rate hike - Back to channel lows This is the best hopium I can offer at this time Please enjoy responsibly http"
+          "reason": "multiple_resolved_schools",
+          "postId": "2098180736914518449",
+          "author": "susan_dupres",
+          "searchJob": "washington",
+          "text": "Washington State WA State Office of Minority and Women’s Business Enterprises (OMWBE) WA State Office of Regulatory Innovation and Assistance (ORIA) New Economic and Business Resilience Newsletter https://t.co/xuMDd1cH6f ☆ Western WA Region"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098175946889252950",
-          "author": "kawagoeportal",
-          "searchJob": "temple",
-          "text": "Looking for the perfect place for a traditional photo shoot❓📸 Kawagoe offers a stunning, authentic backdrop for renting and wearing a kimono👘 Immerse yourself in history as you stroll through the old streets and visit beautiful temples❣️ "
+          "postId": "2098176278222315777",
+          "author": "hamidrezaaz",
+          "searchJob": "washington",
+          "text": "How Tehran Reads Escalating U.S. Pressure 🔹An interesting debate is emerging within #Iran’s strategic community over the latest U.S. attacks on Iranian oil tankers. Some see them not simply as retaliation for Iranian strikes on U.S. naval "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098174982115205269",
+          "author": "sircensorlot",
+          "searchJob": "washington",
+          "text": "🚨 BREAKING: THE PROSECUTOR LEADING THE FLORIDA GRAND-JURY INVESTIGATION INTO THE ORIGINS OF “RUSSIAGATE” HAS RESIGNED. Joe diGenova personally confirmed his resignation less than 48 hours after reports revealed that new grand-jury subpoena"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098155704360276230",
-          "author": "adam_faithfulm",
-          "searchJob": "temple",
-          "text": "You can't see His face. Velázquez let the hair fall over half of it. Head dropped onto the chest, one lock hanging straight down the right side, and the blood from the wound tracing the same line the hair takes. That's the most famous relig"
+          "postId": "2098163894053138581",
+          "author": "levantonaganyan",
+          "searchJob": "washington",
+          "text": "\"Nakhikheban (Nakhichevan), Armenia, is the oldest town in existence.\" Chapter VI: MOUNT ARARAT AND THE OLDEST TOWN IN THE WORLD Around the Black Sea by William Eleroy Curtis, 1910 YOU can go to the foot of Mount Ararat by railway nowadays,"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098178393334251871",
-          "author": "np4football_ot",
-          "searchJob": "class:2028",
-          "text": "Jerry Richmond-OL-2028-IL @ZipsFB Offer #CFB"
+          "postId": "2098162906068136330",
+          "author": "stephenwil10918",
+          "searchJob": "washington",
+          "text": "@washingtonpost Why is the Washington Post reporting this bullshit like it's a serious offer? Why aren't you reporting it like the bat shit crazy bullshit it is?"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098177618835079217",
-          "author": "np4football_ot",
-          "searchJob": "class:2028",
-          "text": "Tristan Thomas-ATH-2028-MD @BadgerFootball Offer #CFB"
+          "postId": "2098183840086868108",
+          "author": "3927threesix5",
+          "searchJob": "wisconsin",
+          "text": "I'm sorry... what @DavidCCrowley does the Fugitive Slave Act have to do with allowing illegal immigrants to take over WISCONSIN⁉️Let's be TRUTHFUL about what you're really saying here. They are not slaves. They are not legal citizens. They "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098178493406224552",
+          "author": "shellymarven",
+          "searchJob": "wisconsin",
+          "text": "Progressive Turnout Project mailed Pennsylvania voters a contest offering $50,000 in prizes tied to participation. Relentless and Turnout the Vote paid people $160–$200 to contact friends and family about voting. In Philadelphia, one group "
         }
       ]
     },
@@ -448,12 +357,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 32,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 23,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T22:42:56.722Z"
+    "status rebuilt locally from current store on 2026-09-10T22:58:08.704Z"
   ]
 }
