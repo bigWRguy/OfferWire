@@ -45552,17 +45552,19 @@
     "2098116371598954720",
     "2098115430284132641",
     "2098101771629465962",
-    "2098109250275066204"
+    "2098109250275066204",
+    "2098113313624182979",
+    "2098109779394671081"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-09-10T18:43:24.043Z",
-      "got": 103,
-      "new": 71,
-      "lag": 0.06
+      "at": "2026-09-10T18:56:41.466Z",
+      "got": 2,
+      "new": 2,
+      "lag": 0.68
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -46146,9 +46148,9 @@
       "truncated": false
     },
     "ball-state": {
-      "at": "2026-09-10T16:43:57.470Z",
+      "at": "2026-09-10T18:56:20.225Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 2,
+      "lastPosts": 0,
       "truncated": false
     },
     "boise-state": {
@@ -46194,19 +46196,19 @@
       "truncated": false
     },
     "delaware": {
-      "at": "2026-09-10T16:43:57.470Z",
+      "at": "2026-09-10T18:56:20.225Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 0,
+      "lastPosts": 2,
       "truncated": false
     },
     "east-carolina": {
-      "at": "2026-09-10T16:43:57.470Z",
+      "at": "2026-09-10T18:56:20.225Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
     },
     "eastern-michigan": {
-      "at": "2026-09-10T16:43:57.470Z",
+      "at": "2026-09-10T18:56:20.225Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
@@ -46648,11 +46650,11 @@
   "lastRateLimitAt": "2026-09-04T23:26:13.448Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-09-10T18:43:24.043Z",
+    "at": "2026-09-10T18:56:41.467Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 4,
+    "requests": 5,
+    "fullSweepCycles": 41
   },
   "backfill": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -46672,376 +46674,42 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-09-10T18:41:37.863Z",
+    "at": "2026-09-10T18:56:20.204Z",
     "mode": "live",
     "collection": {
-      "returned": 103,
-      "kept": 71,
-      "duplicate": 31,
-      "tooOld": 1,
+      "returned": 2,
+      "kept": 2,
+      "duplicate": 0,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 44,
-      "rejected": 27,
-      "reasons": {
-        "no_offer_term": 10,
-        "no_fbs_school": 9,
-        "hard_negative": 2,
-        "non_fbs_offer_target": 6
-      },
-      "samples": [
-        {
-          "reason": "no_offer_term",
-          "postId": "2097943348736835957",
-          "author": "tedlieu",
-          "searchJob": "air-force",
-          "text": "Dear @OpenAI: Actually, the most important commitment you can make RIGHT NOW is to certify that every AI model/agent you create can be turned off. I support independent auditors. But creating the system, finding qualified folks and granting"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098100222035431540",
-          "author": "mexicotimes",
-          "searchJob": "air-force",
-          "text": "#Now #Mexico’s 1st woman president, Claudia Sheinbaum, led #MarchaDeLaLealtad as #SupremeCommander of the #ArmedForces—honoring cadets who defended President Madero &amp; constitutional government in 1913. Loyalty to Mexico, its people &amp"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098114929521791346",
-          "author": "annvandersteel",
-          "searchJob": "arkansas-state",
-          "text": "Dr. Sanjeev Kumar got 20 years. Multiple convictions arose from few items, raising fears of trumped-up charges. Key evidence never reached jurors, FDA testimony clashed with manufacturer instructions, and the jury room is under scrutiny. Wa"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098097287532806295",
-          "author": "shieldaitech",
-          "searchJob": "navy",
-          "text": "Stolen mules. Shaving-cream tripwires. Freezing march-ons. The Army-Navy rivalry doesn't end at graduation. Just ask Shawna Moore and Andrew Cornelius, who traded sides for the same team at Shield AI. Read their story below. https://t.co/Dy"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098094192228516306",
-          "author": "rgj",
-          "searchJob": "nevada",
-          "text": "Two new Einstein Bros. Bagels open in Northern Nevada, one offers freebies https://t.co/Pk0Trhuuoq"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098088718401728874",
-          "author": "jdgoldboys",
-          "searchJob": "nevada",
-          "text": "🚨 NEW POLYMARKET US OFFER 🚨 Deposit $10+ and get a $50 bonus with code JD50 Sign up: https://t.co/VsDzuaw1Kc Available in 49 states + D.C. Not available in Nevada. I’ll share a trade I am doing later tonight. ⏳ PolyMarketPartner https://t"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098116803775836618",
-          "author": "limaynn",
-          "searchJob": "ohio",
-          "text": "INTERVIEW: Putnam County HomeCare &amp; Hospice is in with news on a new caregiver support group! https://t.co/KEXQDSeasU"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098108596907037127",
-          "author": "wesley__branch",
-          "searchJob": "ohio",
-          "text": "Rabun Gap adds 2028 3-star tight end Faraji Tucker from Douglas County. Big addition for the Eagles. Tucker has offers from Indiana, Ohio State, Oregon, Ole Miss, LSU and several others."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098083403757203851",
-          "author": "farajitucker2",
-          "searchJob": "ohio",
-          "text": "I have transferred to Rabun Gap for the remainder of my high school career!! @coachdtwhite @DeshawnBrownInc @AlphaSportzG @TEAMTOARECRUITS https://t.co/W51J9qCJ7a"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098084580024627637",
-          "author": "titcus",
-          "searchJob": "ohio",
-          "text": "Thank you, coach Jamall Walker of The Ohio State men’s basketball program, for taking time to come visit with Brady at The Brook. https://t.co/gvrKDB8iIU"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098094376857833759",
-          "author": "neohionews",
-          "searchJob": "ohio",
-          "text": "Green Resident Asks for No Outlet Sign and Better Outreach to Seniors A Meadow Wood resident asks Green City Council to install a no outlet sign at the dead end of her street, saying speeding drivers pose a danger to the roughly ten young c"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098091058974405112",
-          "author": "colbertcodems",
-          "searchJob": "alabama",
-          "text": "Donald Trump offers you money for your vote, but he won't offer this money for your HEALTHCARE, for HUNGRY KIDS, for advances in life-saving medical RESEARCH, for saving rural hospitals in Alabama, for schools begging for funds. EVERYTHING "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098093281556996330",
-          "author": "ilschoolnet",
-          "searchJob": "illinois",
-          "text": "District 157-C Schools Offer Mental Health Resources After Student Death | Frankfort, IL Patch https://t.co/OE4eOzi32c"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098104649454702682",
-          "author": "landofpuntites",
-          "searchJob": "washington",
-          "text": "https://t.co/nSNV0uhqmY"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098097244339597565",
-          "author": "lionessinus",
-          "searchJob": "washington",
-          "text": "Washington is squeezing Canada and Mexico to lock the continent. The intended effect is compliance. The unintended effect is leverage for Beijing—and for Ottawa and Mexico City. Integration is not ending. Coercion is getting more expensive."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098096783192699367",
-          "author": "mymelkwak",
-          "searchJob": "washington",
-          "text": "WTS OLIVIA RODRIGO I’ve got 3 Floor tickets for Oct 3 show at capital one Arena, Washington. Going for $320 a piece, open to offers. lmk if interested #oliviarodrigo #SILVERSTAR"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098091603122442472",
-          "author": "the_newarab",
-          "searchJob": "washington",
-          "text": "Somaliland says it is ready to provide up to 2,000 troops for a planned US-led stabilisation force in Gaza. President Abdirahman Mohamed Abdullahi said Somaliland would participate if formally asked by Washington or Israel ⬇️ https://t.co/1"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098090592513224725",
-          "author": "carlwoo56035045",
-          "searchJob": "washington",
-          "text": "@TiffMoodNukes Way back when I learned that even George Washington spent his entire campaign budget on rum. As GROK puts it, many politicians have offered “…concentrated, visible benefits for a voting block.”"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098119221012283874",
-          "author": "rockeye56",
-          "searchJob": "wisconsin",
-          "text": "@ItsTheEnforcer Trump already owes us what 7K ? And even Musk is in trouble in Wisconsin for his money offer."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098101259236491450",
-          "author": "wisconsinsbdc",
-          "searchJob": "wisconsin",
-          "text": "https://t.co/UJGHJqkNFB Small Business Clinics offer resources, networking, and more! Learn why your small business should attend. Upcoming dates: September 21, October 16, and December 10. @UWisconsinBiz @WEDCNews @WisconsinSBDC https://t."
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2098104329747960058",
-          "author": "bostonwebb2027",
-          "searchJob": "phrase:\"humbled to receive an offer\"",
-          "text": "Beyond blessed and humbled to receive an offer from Grove City College! Thank you to @ZackWindsor1 and the entire staff for the opportunity. All glory to God! @CoachTomlison @Tomlison_67 @EasternPike @YourCoachFerg https://t.co/q8dWvsyRnM"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2098118723970200032",
-          "author": "cartercrum27",
-          "searchJob": "phrase:\"grateful to receive an offer\"",
-          "text": "After a great conversation with @Coach_Brum @coachsizemore1 and @Max_Greenamoyer I am grateful to receive an offer from Wabash College! @PHWolvesAD @WabashBBall https://t.co/xYtPOsWvkA"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098113076595991004",
-          "author": "wheatonslade",
-          "searchJob": "phrase:\"grateful to receive an offer\"",
-          "text": "Grateful to receive an offer from @Coach_Stutz at Bismarck State, super excited about the opportunity! @CoachBlueford @Coach_Reese55 @ala_iw_football @CodyTCameron @gridironarizona https://t.co/p9BZKkSvui"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2098118175468527674",
-          "author": "bannercarlson",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @_CoachFord I’m blessed to receive a scholarship offer from St. Xavier University! #AGTG https://t.co/l6arEDnLL2"
-        }
-      ]
+      "accepted": 2,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 43,
+      "accepted": 0,
+      "rejected": 2,
       "reasons": {
-        "reporter_missing_position": 1,
-        "bare_mention_requires_llm": 30,
-        "multiple_resolved_schools": 6,
-        "school_not_resolved_confidently": 2,
-        "explicit_non_fbs_target": 1,
-        "reporter_missing_player_name": 2,
-        "author_not_recruit:different sport": 1
+        "bare_mention_requires_llm": 2
       },
       "samples": [
         {
-          "reason": "reporter_missing_position",
-          "postId": "2098103810732249491",
-          "author": "kyinhoopsaau",
-          "searchJob": "phrase:\"picks up an offer from\"",
-          "text": "David Bradley picks up an offer from IU Columbus! The 6’9 2027 F had a big summer with us and continues to impress heading into his senior season with @nohs_basketball @davidbradley35 @KYINhoops @Scotty_Sprigg1 @JackRiley323 @PRO16League @N"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098113313624182979",
+          "author": "porschedelaware",
+          "searchJob": "delaware",
+          "text": "For drivers who still prefer to choose their own gears, the 911 Carrera S can once again be ordered with three pedals. Offered exclusively in North America, the MT Package pairs a six speed manual with the 473 hp 3.0 liter twin turbo flat s"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098117227270561920",
-          "author": "karthiksriram",
-          "searchJob": "air-force",
-          "text": "@WSJopinion on Trump’s $5,000 offer. “Mr Trump’s blatant bribe is unAmerican. This is as unAmerican as when Biden fell down the stairs from Air Force One”"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098112944261284236",
-          "author": "trtre62",
-          "searchJob": "air-force",
-          "text": "What strikes me about this is that @TedLieu is not only a lawyer, but a former Air Force JAG who advised commanders. Yet the “most important” answer he offers is a kill switch. I am watching people across identity, cybersecurity, infrastruc"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098111732539654472",
-          "author": "karawan_ken",
-          "searchJob": "air-force",
-          "text": "@gunny_retired I originally wanted to enlist in the Army to be a helicopter mechanic on the AH-63 Apache. 2 years they said, offered me truck driver MOS. PASS, Marine Corps recruiter was big fat ass looked like he shined his shoes with a he"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098108479466778861",
-          "author": "iaf_affwa",
-          "searchJob": "air-force",
-          "text": "On 09 Sep 2026, AFFWA (L) Highgrounds, Chandigarh, under the aegis of AFFWA (Regional), Western Air Command, organised an insightful talk by Mr Ankur Warikoo, entrepreneur, financial advisor, influencer, and life coach. During an engaging o"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098096680708997400",
-          "author": "mechanical_dodo",
-          "searchJob": "air-force",
-          "text": "@allTheYud Can you ask e.g. Coefficient Giving to simply offer to pay for this, or at least provide the first billion dollars of funding? As shown by the Air Force One plane from Qatar, the stakes in various companies, and the Venezuelan oi"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098102697136198089",
-          "author": "akronzips",
-          "searchJob": "akron",
-          "text": "4 TICKETS. $60. ZIPS FOOTBALL IS BACK‼️ The Zips take on Robert Morris this Saturday, Sept. 12 at 3:30 PM! 🎟️ 4 GA Tickets 💰 $60 — 25% savings 🚗 Parking INCLUDED That’s just $15 per person! Offer valid ONLY for Saturday’s home opener. 🎟"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098116763200495972",
-          "author": "liketothink22",
-          "searchJob": "arkansas-state",
-          "text": "@cmadsq Palestinians have rejected five offers of a state and continued to attack Israelis. Does reality matter in your world?"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098112082713419790",
-          "author": "freetheants",
-          "searchJob": "arkansas-state",
-          "text": "Will always have sympathy for the Palestinian people, but this has been a sad reality since the beginning, even BEFORE Israel became a state. The 2 state solution was the original offer. They said no, they'll be taking the whole thing."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098109212471460054",
-          "author": "vernalkeith66",
-          "searchJob": "arkansas-state",
-          "text": "@CamillaTominey \"Bingo\". I'd say \"Bimbo\". If you were offered a state in your own country what would you do? As for killing Jews don't make me laugh. Have you read the Torah?"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098106301498753183",
-          "author": "tendaim65",
-          "searchJob": "arkansas-state",
-          "text": "@zimsquil @DavidColtart @andyburnham At lancaster house black factions were offered a state drawn enetirely by the british(they even played around with the borders in the 50s, merging it with zambia/malawi, then deciding to break it, with z"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098106276056305726",
-          "author": "pagmeter",
-          "searchJob": "arkansas-state",
-          "text": "🚨 SHAME ON THE SACRAMENTO DRAGONS ADMINISTRATION 🚨 The Sacramento Dragons at Bakersfield Christian Eagles game has been CANCELLED. Bakersfield Christian was notified late yesterday that Sacramento was cancelling because they supposedly di"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098102499336999044",
-          "author": "x_da_vinci",
-          "searchJob": "arkansas-state",
-          "text": "Belisario, general bizantino cegado por el emperador según la leyenda, mendiga en la calle mientras una mujer le da limosna. David expuso la obra en el Salón de 1781 y fue admitido por unanimidad en la Academia. El tema, tomado de la novela"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098102220592124277",
-          "author": "lisaliel",
-          "searchJob": "arkansas-state",
-          "text": "You really don't understand your relatives. You think they want a state becaue you want that for them. They don't. They are completely devoted to ending Israel. Full stop. Israel's insanely generous offer in 2000 told them that Israel was w"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098100516135817625",
-          "author": "b1gnulty",
-          "searchJob": "arkansas-state",
-          "text": "@TiffanyWarRoom Wisconsin DOC first offered tablets for purchase by state prison inmates in 2018 under Gov. Scott Walker. Tom Tiffany was a state senator then and served on the Joint Finance Committee, which oversees DOC budgets."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098093646796968214",
-          "author": "theworldcorresp",
-          "searchJob": "arkansas-state",
-          "text": "TURKISH CYPRIOT AND TURKISH REACTIONS: \"YOU WILL REGRET IT\" The reaction from the Turkish Cypriot north and Ankara has been sharp. TRNC Foreign Minister Tahsin Ertuğruloğlu accused the Greek Cypriot administration of deepening cooperation w"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098091042411368918",
-          "author": "gemmanoir_",
-          "searchJob": "arkansas-state",
-          "text": "Life doesn't always have to be lived in a state of high tension; taking a moment to zone out—much like a capybara—offers a rare and welcome sense of ease. https://t.co/R0WZuy4A5D"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098090823082496275",
-          "author": "tomangell",
-          "searchJob": "arkansas-state",
-          "text": "That is not in fact a state government site. My best guess would be that the company that operates it is seeking to collect the information of potential patients in the event the state does legalize medical cannabis so that it can then offe"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098110287010267628",
-          "author": "josiahjdp",
-          "searchJob": "navy",
-          "text": "“Thank you, Margaret,” Luca said quietly, his voice thick with genuine gratitude. “For defending Claire. I was paralyzed… I couldn’t believe they were actually saying those things. Thank you for waking me up.” I looked at the young man who "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098109454298517791",
-          "author": "josiahjdp",
-          "searchJob": "navy",
-          "text": "The Adirondack lake house was supposed to be a neutral ground. A sanctuary where two vastly different worlds could meet, blend, and perhaps find a fragile harmony before my daughter’s wedding. Instead, it felt like a beautifully staged, suf"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098107158650892403",
-          "author": "succybankz",
-          "searchJob": "navy",
-          "text": "Every Saturday, James went to this particular grocery store to shop to buy some groceries. One Saturday, he noticed an old man named Walter taking things out of his cart. Walter was in his late seventies and always wore the same navy blue b"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098096886049812852",
-          "author": "jeffvandenengel",
-          "searchJob": "navy",
-          "text": "A lot of news about the survivability of military bases in both the Middle East and the Pacific, with @tshugart3 leading the analysis. I'd offer this paragraph from my March @NavalInstitute article on the Panoceanic Navy: https://t.co/EyZrI"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098095987411624076",
-          "author": "sierranevcorp",
-          "searchJob": "nevada",
-          "text": "Our Vindlér Satellite Constellation pushes the boundaries of RF data collection and allows direct downlink to customer-specified ground sites, offers low-latency delivery for time sensitive operations, and collects frequencies UHF, VHF, L, "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098112628312961312",
-          "author": "davidjdaddabbo",
-          "searchJob": "new-mexico",
-          "text": "Find Richard Halliday · CONFIRMED: 2011 JEFFREY EPSTEIN WAS IN DIRECT EMAIL CONTACT WITH NEW MEXICO LAW ENFORCEMENT WHILE LIVING AT ZORRO RANCH — AND THEY WERE STILL DISCUSSING WHETHER HE EVEN HAD TO REGISTER AS A SEX OFFENDER This July 201"
+          "postId": "2098109779394671081",
+          "author": "cprocareagency",
+          "searchJob": "delaware",
+          "text": "Care gaps disrupt routines. Compassionate Provider Care Agency, LLC offers non-medical support. Ask a trusted person to cover your break. Bucks, Chester, Delaware, Montgomery &amp; Philadelphia. 888-902-CPCA https://t.co/tJR38cVmdx"
         }
       ]
     },
@@ -47049,22 +46717,24 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 4,
+      "failed": 1,
+      "requests": 5,
+      "errors": [
+        "old-dominion: rate limited"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 43,
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 2,
       "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 71,
-    "decided": 71,
+    "total": 2,
+    "decided": 2,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
