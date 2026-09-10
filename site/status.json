@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T22:13:14.891Z",
+  "generatedAt": "2026-09-10T22:27:59.429Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T22:13:14.558Z",
+    "at": "2026-09-10T22:27:59.087Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -33,395 +33,408 @@
   "staleSchools": [
     {
       "id": "california",
-      "hours": 2.2
-    },
-    {
-      "id": "cincinnati",
-      "hours": 2.2
-    },
-    {
-      "id": "florida",
-      "hours": 2.2
-    },
-    {
-      "id": "georgia-state",
-      "hours": 2.2
-    },
-    {
-      "id": "hawaii",
-      "hours": 2.2
-    },
-    {
-      "id": "james-madison",
-      "hours": 2.2
-    },
-    {
-      "id": "louisville",
-      "hours": 2.2
-    },
-    {
-      "id": "miami",
-      "hours": 2.2
-    },
-    {
-      "id": "nc-state",
-      "hours": 2.2
-    },
-    {
-      "id": "oklahoma-state",
-      "hours": 2.2
-    },
-    {
-      "id": "southern-miss",
-      "hours": 2.2
-    },
-    {
-      "id": "utsa",
-      "hours": 2.2
-    },
-    {
-      "id": "washington-state",
-      "hours": 2.2
-    },
-    {
-      "id": "western-kentucky",
-      "hours": 2.2
+      "hours": 2.5
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.0292344444444443,
-    "p95Hours": 2.2203061111111113,
-    "worstHours": 2.2203061111111113
+    "medianHours": 1.0268455555555556,
+    "p95Hours": 2.0171477777777778,
+    "worstHours": 2.4660108333333333
   },
   "decisionCoverage": {
-    "total": 61,
-    "decided": 61,
+    "total": 84,
+    "decided": 84,
     "complete": true
   },
   "pending": {
-    "total": 25
+    "total": 26
   },
   "profileResolution": {
     "cached": 46
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 2,
   "quality": {
-    "completeOffers": 992,
+    "completeOffers": 993,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T22:13:14.558Z",
-      "got": 83,
-      "new": 61,
+      "at": "2026-09-10T22:27:59.086Z",
+      "got": 116,
+      "new": 84,
       "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-10T22:11:36.610Z",
+    "at": "2026-09-10T22:26:17.394Z",
     "mode": "live",
     "collection": {
-      "returned": 83,
-      "kept": 61,
-      "duplicate": 22,
-      "tooOld": 0,
+      "returned": 116,
+      "kept": 84,
+      "duplicate": 31,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
       "accepted": 46,
-      "rejected": 15,
+      "rejected": 38,
       "reasons": {
-        "no_fbs_school": 9,
-        "hard_negative": 1,
-        "no_offer_term": 5
+        "no_offer_term": 7,
+        "no_fbs_school": 28,
+        "hard_negative": 3
       },
       "samples": [
         {
+          "reason": "no_offer_term",
+          "postId": "2098140403467796627",
+          "author": "bigmike770",
+          "searchJob": "florida",
+          "text": "@SerendipityDizl @MarkFusetti @acmemarkets They’re actually their competitor from Germany. They’re slowly expanding in the US. There’s a couple of them in the Philadelphia area. I know they’re actively looking into Florida. https://t.co/hpm"
+        },
+        {
           "reason": "no_fbs_school",
-          "postId": "2098159810743070845",
-          "author": "cwteam_realtor",
-          "searchJob": "charlotte",
-          "text": "Buying or selling a home in East Texas? 🏡 We can help you understand each step—from preparation and property searches to offers and closing. Buyer guide: https://t.co/UkyNDlYqtc Seller guide: https://t.co/66jgGFAtQP https://t.co/sKHepYLT48"
+          "postId": "2098173951897895258",
+          "author": "calecoarborists",
+          "searchJob": "california",
+          "text": "Congratulations to Killian Vendler on earning the ISA Board Certified Master Arborist® credential The highest certification offered by ISA! This achievement reflects his advanced knowledge and dedication to arboriculture. 🌳🏆 #MasterArbori"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098153248167231592",
+          "author": "katie_robertson",
+          "searchJob": "california",
+          "text": "NEW: Huge layoffs across McClatchy newspapers today, with some newsrooms gutted by a third. An internal email from management says consumer revenue has dipped 41% and \"we cannot continue investing where subscriber interest does not support "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098170334541160635",
+          "author": "raymiramontes_",
+          "searchJob": "california",
+          "text": "🏡 Looking for a huge 4-bedroom home in Norwalk? Here’s what $999,000 gets you. 🚨 Interested? Call or text Ray directly at 562-600-9793 for the address, photos & full details. This Norwalk home for sale offers 4 bedrooms, 3 bathrooms and a"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098168385309974631",
+          "author": "uscndodgerblue",
+          "searchJob": "california",
+          "text": "@MooneyOwnsYou Don’t know anything about your company but Zurich/Farners offers DC to us and I deferred 50% once I became an officer. Now that I’m retired it was a great decision. I moved 100% of it when I retired. Avoided massive taxes in "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098167369117888651",
+          "author": "kingsrow911",
+          "searchJob": "california",
+          "text": "@UBRox1 Another example- radio interview of conservative candidate in California- who is getting creamed in the polls, being interviewed on national radio show- no ET opportunity for the Democrat candidate offered. https://t.co/wbMYa6mwEI"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098164789725757812",
+          "author": "capostsports",
+          "searchJob": "california",
+          "text": "Giants' pathetic season hits new low as team offers to pay fans to show up in September https://t.co/DrkbYKwW3X https://t.co/jQO6X0F1MJ"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098164208575693141",
+          "author": "californiapost",
+          "searchJob": "california",
+          "text": "Giants' pathetic season hits new low as team offers to pay fans to show up in September https://t.co/PhEZ9eyvik https://t.co/HezEbt394M"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098162605672255744",
+          "author": "morpheu5watcher",
+          "searchJob": "california",
+          "text": "COOPERCOMPANIES $COO KEPT THE SURGERY UNIT AND CUT THE YEAR. THE STOCK FELL 15%: CooperCompanies at $54.17, -$9.31 / -14.7% today. The San Ramon, California company makes CooperVision contacts and fertility and women's-health devices throug"
         },
         {
           "reason": "hard_negative",
-          "postId": "2098158059730370829",
-          "author": "ebonybonez",
-          "searchJob": "charlotte",
-          "text": "@grok @RamsNFL @49ers @NFL @Raiders @AshtonJeanty2 @AFL Is Pendlebury a traitor for leaving @CollingwoodFC for the @GoldCoastSUNS ? I honestly believe that once you're a Magpie that's a lifelong commitment Is he being offered a better deal?"
+          "postId": "2098151157067870509",
+          "author": "tgt112246",
+          "searchJob": "california",
+          "text": "HOW DONALD \"THE PEDOPHILE\" TRUMP IS USING 'ADOLF HITLER'S FASCIST PLAYBOOK' TO CONSOLIDATE POWER Adolf Hitler’s fascist playbook involved: ++ Exploiting a weak economy. ++ Using political violence to intimidate opponents. ++ Securing legal "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098150001562304549",
+          "author": "sprucesgarden",
+          "searchJob": "california",
+          "text": "Senior Advantage HMOs are being phased out. Kaiser doesn't offer a PPO Senior Plan in California. Seniors currently have $202 per month taken out of their Social Security for HMOs. With the 3% COLA and 5% Medicare hike my take home is $1! S"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098168889590829155",
+          "author": "bigskippin_75",
+          "searchJob": "cincinnati",
+          "text": "‘28 ATH Derico Welch getting some pre game work in. Welch holds offers from Cincinnati, Georgia Tech and Mississippi State to name a few. @TheDerico28 https://t.co/lG8gqnOXTU"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098151081087795264",
-          "author": "primeroydiez",
-          "searchJob": "charlotte",
-          "text": "¿Nos sigues en las apuestas para el 49ers vs. Rams? 💰 Mételo en @Stake_Mexico: https://t.co/HMVPUs6BO5 https://t.co/elxIrgEwJJ"
+          "postId": "2098172204181516485",
+          "author": "bigrapidsdn",
+          "searchJob": "miami",
+          "text": "https://t.co/QmMSOmOo8p"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098168107231523260",
+          "author": "theartlexanders",
+          "searchJob": "miami",
+          "text": "@sayitnspinit LOL people still waiting for the $5000 DODGE check and the $2,000 Tariff check and now he offer a third one 🤣🤣 jow stupid low brainer can people be to believe that pathetic lier opportunist ."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098168688767627535",
+          "author": "not_stepfather",
+          "searchJob": "james-madison",
+          "text": "@ntsikimazwai @gndzongana But you have absolutely nothing to offer Johannesburg"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098174659175051463",
+          "author": "patrick51812569",
+          "searchJob": "georgia",
+          "text": "@AndyBeshearKY Now talk about Biden cancelation of Student Loans. Biden offer of $2 thousand for voting in 2 Democratic Senators in Georgia. Should I continue, RETARD?"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098174402936410209",
+          "author": "james_beahm",
+          "searchJob": "georgia",
+          "text": "@florida086737 @RivalsHS @Andy_Villamarzo @SWiltfong_ @ChadSimmons_ @adamgorney @NebraskaRivals @allasley Not usually if there is no misconduct, which this was not. My roommate quit his senior year and the college still honored their offer."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098111418037891162",
-          "author": "dangambleai",
-          "searchJob": "charlotte",
-          "text": "🏈 +664 49ers @ Rams SGP 👉 Load here: https://t.co/4aSzFPcQGz We’re going down under 🇦🇺 21+, gamble responsibly. https://t.co/R88g3xyVuw"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098152651221262343",
-          "author": "tranqingles",
-          "searchJob": "coastal-carolina",
-          "text": "I've been looking at real-estate lately... https://t.co/bfXgihHj6K"
+          "postId": "2098121098181120320",
+          "author": "carsonc3008",
+          "searchJob": "georgia",
+          "text": "Excited to be at @GeorgiaFootball this Saturday. Very thankful for the invite. - - @CoachJones_CHS @CHSBears_FB @CoachDeWeese @CoachLetton17 @KirbySmartUGA @coach_thartley @Dawgs247 @BrooksAustinBA @MattDeBary @JeremyO_Johnson @benjaminwolk"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098142573730906157",
-          "author": "007clarkkent",
-          "searchJob": "kent-state",
-          "text": "@Mark_H_87 @Intrpdtravlr @AllbrightNFL All politicians offer up free stuff before an election. Its as old as time. Nothing new."
+          "postId": "2098163194523226265",
+          "author": "serena4d",
+          "searchJob": "georgia",
+          "text": "So was it a bribe when Biden and the democratic candidates made a similar offer? After Congress passed $600 checks in December 2020, Biden (then president-elect) and Democratic Senate candidates in Georgia repeatedly told voters that $2,000"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098158409774182799",
-          "author": "libertyparkh20",
-          "searchJob": "liberty",
-          "text": "Looking for more convenience? We offer multiple ways to pay your bill. Visit our website to explore the various ways to pay your bill and find the best, most convenient option for you. 👉 https://t.co/4btQ4n7EhH https://t.co/BmKomZtnOL"
+          "postId": "2098158675173253237",
+          "author": "mesquite06",
+          "searchJob": "georgia",
+          "text": "@DJTRadar Quit lying its tariff money. Joe offered 2K to vote in Dems in Georgia. Did you have the same problem with that? https://t.co/Jd51Id0pQF"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098154613811650862",
-          "author": "libertyutil_az",
-          "searchJob": "liberty",
-          "text": "Looking for more convenience? We offer multiple ways to pay your bill. Visit our website to explore the various ways to pay your bill and find the best, most convenient option for you. 👉 https://t.co/DBAB8tyMBA https://t.co/bxPAFTWuFI"
+          "postId": "2098158566855061981",
+          "author": "jovigirl123",
+          "searchJob": "georgia",
+          "text": "@TheView @theview Biden offered $2,000 in Georgia for Ossoff and Warnock 🤷‍♀️"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098136438407622722",
-          "author": "libertycopula",
-          "searchJob": "liberty",
-          "text": "Shalom, I know it’s a tough time for you all given what’s happening in Sweida, but I wanted to offer a bit of hope and congratulations. One of the founders of this startup is Druze 🙌🏻💛"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098003560315208099",
-          "author": "israel",
-          "searchJob": "liberty",
-          "text": "Israeli innovation is going underwater. 🇮🇱🌊 Haifa-based startup HydroSight just raised $5 million for its AI platform that maps the seabed, detects changes and helps manage the critical infrastructure beneath our oceans. AI innovation, f"
+          "postId": "2098157138099019927",
+          "author": "jjhkyank",
+          "searchJob": "georgia",
+          "text": "@DJTRadar Biden only offered $2,000 for their vote. Trump values people more? https://t.co/Ctg50oXiTB"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098163782056911232",
-          "author": "st19791125",
-          "searchJob": "florida",
-          "text": "@leftcoastbabe Kimmel's interview with James Talarico was not banned. Kimmel chose to post it on YouTube instead of airing it on TV to avoid triggering the FCC's \"equal time\" rule, which requires broadcast stations to offer equal airtime to"
+          "postId": "2098151033285554614",
+          "author": "real_artisan",
+          "searchJob": "georgia",
+          "text": "Look closely enough and see that they're two entirely different animals. Chaya’s post is pointing at a real pattern: a lot of outlets went soft on “elect our people and the checks come” when Democrats said it in Georgia, and went hard when "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098162607513272595",
-          "author": "st19791125",
-          "searchJob": "florida",
-          "text": "@JamieBonkiewicz Kimmel's interview with James Talarico was not banned. Kimmel chose to post it on YouTube instead of airing it on TV to avoid triggering the FCC's \"equal time\" rule, which requires broadcast stations to offer equal airtime "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098161189368856740",
-          "author": "st19791125",
-          "searchJob": "florida",
-          "text": "@glenn_tunes Kimmel's interview with James Talarico was not banned. Kimmel chose to post it on YouTube instead of airing it on TV to avoid triggering the FCC's \"equal time\" rule, which requires broadcast stations to offer equal airtime to o"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098157696096649536",
-          "author": "breederscup",
-          "searchJob": "florida",
-          "text": "https://t.co/crUHJdjamh"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098167759431704925",
-          "author": "azpc_coalition",
-          "searchJob": "arizona",
-          "text": "It's ILLEGAL to bribe ppl to vote. It's also deceptive biz practices, false advertising &amp; fraud to offer $5k to 250M adult Americans that CAN'T &amp; WON'T be paid. Our 100% legit reward in contrast, pays $5K to ANY cop who helps arrest"
+          "postId": "2098146502308929698",
+          "author": "driscoll1142",
+          "searchJob": "georgia",
+          "text": "@RobFinnertyUSA Even worse than that, President Biden offered the same exact checks if Osoff and Warnock won their Senate races in Georgia... He used the same exact words, but he said $2,000. Funny how they weren't worried about it back the"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 46,
+      "accepted": 2,
+      "rejected": 44,
       "reasons": {
-        "school_not_resolved_confidently": 11,
-        "bare_mention_requires_llm": 26,
-        "multiple_resolved_schools": 6,
-        "author_not_recruit:different sport": 3
+        "school_not_resolved_confidently": 8,
+        "bare_mention_requires_llm": 27,
+        "reporter_missing_position": 2,
+        "reporter_missing_player_name": 1,
+        "multiple_resolved_schools": 5,
+        "unresolved_offer_target": 1
       },
       "samples": [
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098168389604725048",
-          "author": "milwaukeehotbuy",
-          "searchJob": "buffalo",
-          "text": "The cast of Ha Improv offers its free open to SE WI long form improv lesson/workshop on Mondays @ 6:30 pm at Rounding Third 6317 W. Bluemound Rd., Milwaukee https://t.co/82j3uABsHQ c #MKE #bucks #bulls #packers #bears #gopackgo #chicago #ch"
+          "postId": "2098141137324458247",
+          "author": "dudehumorreport",
+          "searchJob": "florida",
+          "text": "ONLYFANS MODEL ARRESTED AFTER LIVESTREAMING HER OWN TRAFFIC STOP AND ASKING THE COP FOR A CAMEO MIAMI, FLORIDA — Creator Jasmine “Pull-Over” Reyes, 24, was arrested this week after police determined she had gone live the moment lights appea"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098160468619563313",
-          "author": "lombardluver",
-          "searchJob": "buffalo",
-          "text": "@alexbrasky Sanders was avg in college and is and undersized DT who’s “specialty” was getting to the passer and he can’t even do that. Another pathetic pick from Beane. Will the Buffalo media ever criticize his picks outside of Coleman?? Wh"
+          "postId": "2098139614774968661",
+          "author": "sellnrealestate",
+          "searchJob": "florida",
+          "text": "Three documents decide whether a Gulf condo is what the listing says it is. Most buyers open them for the first time after they are already under contract, with a clock running. Here is the order I pull them in, and the one thing on each th"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098154082443604384",
-          "author": "jetshubyt",
-          "searchJob": "buffalo",
-          "text": "We know about Buffalo and what was offered at the draft. UPL has trade protection now (assuming WPG is on it), and I doubt Ostlund/Helenius are on the table or it would probably be done by now. Futures being brought back would be much smart"
+          "postId": "2098175430339785182",
+          "author": "erebuslapsis",
+          "searchJob": "california",
+          "text": "@HLC_actual she generally paid $2–$3, sometimes offered cigarettes or phone cards, and also paid people to sign petitions intended to qualify initiatives, referendums, or recalls for the California ballot.The number of registrations involve"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098148287232745886",
-          "author": "brownsincali",
-          "searchJob": "buffalo",
-          "text": "@923TheFan @NickWilsonSays @JPeterlin @TomPelissero Yeah, it was REPORTED Buffalo was interested. That doesn’t mean three 1sts were sitting on Andrew Berry’s desk waiting for a signature. “Verse, a 1, 2 &amp; 3rd—or three Bills 1's?” Stop t"
+          "postId": "2098173362803507424",
+          "author": "b15049590",
+          "searchJob": "california",
+          "text": "@ksorbs OMG this idiot has zero to offer America. He's DESTROYED California. Not a leader. FRAUD!"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098170183126802538",
-          "author": "urequeencity",
-          "searchJob": "charlotte",
-          "text": "Charlotte fall = golden window. 🍂 Buyers win. Rake in offers! 😄 Ernie “Big Ern” Becker, Broker/Owner of United Real Estate Queen City. #bestrealtor #UREQC #UnitedRealEstate #Queencity #BigErnRealtor #CharlotteRealEstate https://t.co/j3qNe"
+          "postId": "2098172606386258033",
+          "author": "jjbuckleywines",
+          "searchJob": "california",
+          "text": "Arnot-Roberts built this 2024 Chardonnay around Sanford & Benedict Vineyard, one of Santa Barbara’s most historic sites. That pedigree matters here: this is a vineyard-designated wine, not a broad regional blend, and the offer gives the vin"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098172292144808056",
+          "author": "marielgarzags",
+          "searchJob": "california",
+          "text": "Including it seems, most -- if not all -- of the SacBee opinion team. RIGHT BEFORE AN ELECTION! Dark times for California journalism today. All the more reason @GavinNewsom must sign AB 2222 by @Rebuild_News. It offers refundable tax credit"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098162863940702360",
+          "author": "javierb86820098",
+          "searchJob": "california",
+          "text": "@GavinNewsom Gavin, you’re full of yourself! You have no good ideas or policies to offer. You continue to run business out of California. You spend more time on podcasts than working for Californians."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098153630654497203",
+          "author": "mrquackyyt",
+          "searchJob": "california",
+          "text": "@xanthicirsxvi @RoyaleTerrance @Mbakaza4L As to why theyre behind in life and often say we should pay them because of slavery, even though its been many generations since slavery was banned. Now not all black people say that but its a frequ"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098150657207496948",
+          "author": "californiadss",
+          "searchJob": "california",
+          "text": "It’s #HealthyAgingMonth! California offers support and resources for healthy living through programs like CalFresh, which can help buy nutritious foods. Learn more about CalFresh and food programs for older adults: https://t.co/htBT7ushjS h"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098150314302201944",
+          "author": "charles11814472",
+          "searchJob": "california",
+          "text": "I live in so cal. It is so sad. Long term, it’ll turn into this low iq Mexican welfare state. It’s weird when Mexicans talk about taking over California. Like, they are going to make it worse. Mexicans don’t have any long term thinking abou"
+        },
+        {
+          "reason": "reporter_missing_position",
+          "postId": "2098173902543278423",
+          "author": "jdemling",
+          "searchJob": "louisville",
+          "text": "New: Louisville basketball extends an offer to 2028 four-star prospect Marceles Duncan @Marceles23 https://t.co/nQaHuHK9E9"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098156365621461196",
+          "author": "jacobpolacheck",
+          "searchJob": "louisville",
+          "text": "Louisville extended an offer to 2028 four-star forward Marceles Duncan on Thursday. Duncan caught up with @247Louisville after the offer. \"Obviously, Louisville is a great school with a great coaching staff and program.\" More: https://t.co/"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098174833192567268",
+          "author": "dimitrigeier",
+          "searchJob": "miami",
+          "text": "Chapter Four The Second Brain By the fourth morning Mara had stopped being a purchase and started being a set of jobs. Ramon woke because the condensation had found his mouth. Steel did that in the tropics. The air inside the hull was a lun"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098167267229913278",
+          "author": "joshdarrow",
+          "searchJob": "miami",
+          "text": "But not until spring. Gets a call from a 305 phone number right before a basketball game. It’s KB. Makes the offer. Comes down to visit Miami. Same trip as Mali. And the rest is history. #SidelineStories #GoCanes"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098165747004666122",
+          "author": "prospectspencer",
+          "searchJob": "miami",
+          "text": "@ByRobertMurray Not sure how one could look at the way Ng's moves in Miami panned out and feel motivated to offer her another GM job."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098145130322551106",
+          "author": "perez1oj",
+          "searchJob": "miami",
+          "text": "@RitornaMe My sense is that whoever leaked this either wishes to respond to the criticism that the US has offered nothing. Or wants to blame the Miami diaspora for the impasse. Maybe a combination of both. @ngameztorres"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098139695658008755",
+          "author": "prettyjson",
+          "searchJob": "miami",
+          "text": "@KTmBoyle We need an a16z crypto office in Miami called Crime Capital. I offer myself as tribute to run it (seriously)"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098157094398816260",
+          "author": "abbotteddi5270",
+          "searchJob": "hawaii",
+          "text": "He is a general practice doctor. I do not know why anyone ever thought. He was some UFO expert. He has never had a clearance. He has never seen the shit that I have seen the files. I have seen the images and videos. I have covered up. He ha"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2098151702750753056",
+          "author": "braheembattles",
+          "searchJob": "james-madison",
+          "text": "Humbled &amp; Blessed to EARN an offer from @JMUFootball 🟣🟡 #B4D #LLK #LLD @_CoachJames @ButlerGrizzlyFB @Coach_JL51 @CoachTylerCurts @chrisjammar @A1Rsports @AllenTrieu @BradHoiseth @JuCoFootballACE @JUCOFFrenzy https://t.co/Oo9cWGptOJ"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098164309465403816",
-          "author": "americancrime01",
-          "searchJob": "charlotte",
-          "text": "⚡⚡15th EXECUTION in Florida this Year⚡⚡ ⚖️Execution Scheduled⚖️Today, September 10, 2026😡Suspected Serial KILLER \"Hog Trail Killer\" 27 years on Death Row 6:00 PM: ⚖️Florida vs Daniel Conahan Jr.(72)⚖️ Convicted of the 1996 kidnapping and f"
+          "postId": "2098171387559178667",
+          "author": "srgraves_x",
+          "searchJob": "georgia",
+          "text": "Look, people. Once again, there is plenty of real shit worth being furious about. We do not need to manufacture outrage over something completely routine and commonplace just because this time the politician doing it belongs to the tribe we"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098148927228793253",
-          "author": "dangambleai",
-          "searchJob": "charlotte",
-          "text": "Want $100 in bonus bets? 👉 Claim here: https://t.co/xAcP5Sf8LX All you need is ONE point in 49ers @ Rams. The last scoreless NFL game was in 1943… This offer is available to new users only. Go Go Go! 21+, gamble responsibly. https://t.co/6"
+          "reason": "multiple_resolved_schools",
+          "postId": "2098169411035427196",
+          "author": "srgraves_x",
+          "searchJob": "georgia",
+          "text": "Look, man. It is not my fault you could not spare twelve seconds to learn the difference between a campaign promise and buying an individual vote. Both parties routinely campaign on tax cuts, refundable credits, rebates, stimulus payments, "
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098141962805354942",
-          "author": "bettingvillage",
-          "searchJob": "charlotte",
-          "text": "50% boost for Rams v 49ers! 🏈 Bet £10 and get £40 in free bets &amp; 50% more with bet builder boost on selected matches. Claim on BOYLE Sports... Here 👉 https://t.co/eybqaw9LNW #Ad |18+ |New Customer Offer| T&amp;C’s Apply | https://t.co"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098168395669618702",
-          "author": "terminella",
-          "searchJob": "coastal-carolina",
-          "text": "Beach views + an easy coastal layout. 974 Surf offers 3 bedrooms, 2 baths and an open living space with soaring ceilings and plenty of natural light. https://t.co/vxy3Vgaehz #CrystalBeachTX #BeachHouse https://t.co/AgvybpJJsJ"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098158048036401356",
-          "author": "buzzmagazines",
-          "searchJob": "coastal-carolina",
-          "text": "Receipts From the Bookshop offers a charming, funny, insider glimpse at a year in the life of a family-owned bookstore in a coastal English village – as told by the store’s owner. Read a Q&amp;A with @storytellersinc in today's #pageturners"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098136511007031515",
-          "author": "outerspacetoday",
-          "searchJob": "coastal-carolina",
-          "text": "Camden definitely deserves a look. Its latitude offers nearly the same boost from Earth’s rotation as Cape Canaveral. The challenge is that coastal islands lie between the proposed launchpad and open ocean and flight paths must account for "
-        },
-        {
-          "reason": "author_not_recruit:different sport",
-          "postId": "2098166799330328657",
-          "author": "viktorbabi23738",
-          "searchJob": "fresno-state",
-          "text": "After a great conversation with Coach Stahowski, I’m blessed to receive an offer from Fresno State. Go bull dogs! #keepgoing @Coach_Collard @PerryPumaMBB @VerbalCommits @allineliteua @RyanSilver1 @CoachERoddy https://t.co/mXZGiKtj6U"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098151792790168042",
-          "author": "newkentmotel",
-          "searchJob": "kent-state",
-          "text": "New Kent Motel is located in Hollywood, South Florida, on South Federal Highway. The motel offers one and two bedroom options comfortable bedding. Rooms also include cable television and internet. Contact New Kent Motel for availability tod"
+          "reason": "multiple_resolved_schools",
+          "postId": "2098162201479549298",
+          "author": "volquest_on3",
+          "searchJob": "georgia",
+          "text": "\"They have good players executing a good scheme.\" Georgia Tech head coach Brent Key offers final thoughts on Tennessee before kickoff ⬇️⬇️⬇️ https://t.co/SUqoVSqNIz"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098165201761677675",
-          "author": "spiritual_sf176",
-          "searchJob": "liberty",
-          "text": "From Karl Streed - I BET YOU DIDN'Y KNOW ABOUT THIS: AFTER FLIGHT 77 HIT THE PENTAGON ON 9/11, THE FOLLOWING HAPPENED. A daycare facility inside the Pentagon had many children, including infants who were in heavy cribs. The daycare supervis"
+          "postId": "2098167324410872171",
+          "author": "papiermich47737",
+          "searchJob": "kentucky",
+          "text": "Kentucky Ostrich Farm Offers Alternative for People Allergic to Red Meat After Tick Bites: 'Similar to Steak' via @WestJournalism https://t.co/GBpFzxfaMf"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098165139128426646",
-          "author": "realjohnjohnkjr",
-          "searchJob": "liberty",
-          "text": "From Karl Streed - I BET YOU DIDN'Y KNOW ABOUT THIS: AFTER FLIGHT 77 HIT THE PENTAGON ON 9/11, THE FOLLOWING HAPPENED. A daycare facility inside the Pentagon had many children, including infants who were in heavy cribs. The daycare supervis"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098165078096765428",
-          "author": "patriotj6er",
-          "searchJob": "liberty",
-          "text": "From Karl Streed - I BET YOU DIDN'Y KNOW ABOUT THIS: AFTER FLIGHT 77 HIT THE PENTAGON ON 9/11, THE FOLLOWING HAPPENED. A daycare facility inside the Pentagon had many children, including infants who were in heavy cribs. The daycare supervis"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098164707379040538",
-          "author": "charles46129363",
-          "searchJob": "liberty",
-          "text": ">“The Spirit of the Lord God is upon me, because the Lord has anointed me to bring good news to the afflicted; He has sent me to bind up the brokenhearted, to proclaim liberty to captives and freedom to prisoners.”—Isaiah 61:1 This line can"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098164025377133023",
-          "author": "veritassola",
-          "searchJob": "liberty",
-          "text": "I think it's fine to offer criticism that that scene shouldn't have been included in the film. My issue is with taking it even further and suggesting that no one should watch it. There are plenty of films that are objectively good for socie"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098156118635581903",
-          "author": "mrencouragement",
-          "searchJob": "liberty",
-          "text": "No assumption needed: \"God, from all eternity, did, by the most wise and holy counsel of His own will, freely, and unchangeably ordain whatsoever comes to pass: yet so, as thereby neither is God the author of sin, nor is violence offered to"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098151690515988497",
-          "author": "wikileaksq",
-          "searchJob": "liberty",
-          "text": "From Karl Streed - I BET YOU DIDN'Y KNOW ABOUT THIS: AFTER FLIGHT 77 HIT THE PENTAGON ON 9/11, THE FOLLOWING HAPPENED. A daycare facility inside the Pentagon had many children, including infants who were in heavy cribs. The daycare supervis"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098151667325870509",
-          "author": "john_f_kjr",
-          "searchJob": "liberty",
-          "text": "From Karl Streed - I BET YOU DIDN'Y KNOW ABOUT THIS: AFTER FLIGHT 77 HIT THE PENTAGON ON 9/11, THE FOLLOWING HAPPENED. A daycare facility inside the Pentagon had many children, including infants who were in heavy cribs. The daycare supervis"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098151620043330035",
-          "author": "drcharlieward47",
-          "searchJob": "liberty",
-          "text": "From Karl Streed - I BET YOU DIDN'Y KNOW ABOUT THIS: AFTER FLIGHT 77 HIT THE PENTAGON ON 9/11, THE FOLLOWING HAPPENED. A daycare facility inside the Pentagon had many children, including infants who were in heavy cribs. The daycare supervis"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098147312308781193",
-          "author": "michelerossarts",
-          "searchJob": "liberty",
-          "text": "Sept 10 Ron Paul Liberty Report, 23 minutes 43 seconds A Bribery Bidding War: Can Democrats Offer $6,000 Checks If They Win? https://t.co/VMTnYhyJZq"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098144262466478258",
-          "author": "coram2832",
-          "searchJob": "liberty",
-          "text": "THE DUTY OF EXAMINING THE SIGNS OF THE TIMES Robert Buchanan (1802-1875) “Watchman, what of the night?…The morning cometh and also the night.” Isaiah 21:11–12 PART 1 of 2 [Continued in next post} The prophecy to which these words belong is "
+          "postId": "2098151615496941777",
+          "author": "optigrabsales",
+          "searchJob": "lsu",
+          "text": "@grok @Lonesomerd1212 @ClayTravis Just so that she can live up to her know it all status, help her understand the dollar value per viewer LSU offers. My media buy guide has that#. Between $3.50-4.00 per viewer. Is that a pretty close estima"
         }
       ]
     },
@@ -435,12 +448,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 46,
-      "brandNewOffers": 0
+      "acceptedEvidence": 2,
+      "rejectedCandidates": 44,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T22:13:14.892Z"
+    "status rebuilt locally from current store on 2026-09-10T22:27:59.430Z"
   ]
 }
