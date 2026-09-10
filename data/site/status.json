@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T02:57:57.020Z",
+  "generatedAt": "2026-09-10T03:13:34.328Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T02:57:56.719Z",
+    "at": "2026-09-10T03:13:34.041Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7751211111111111,
-    "p95Hours": 1.7774030555555556,
-    "worstHours": 1.7774030555555556
+    "medianHours": 0.7869161111111111,
+    "p95Hours": 1.6718658333333334,
+    "worstHours": 1.6718658333333334
   },
   "decisionCoverage": {
-    "total": 38,
-    "decided": 38,
+    "total": 35,
+    "decided": 35,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 45
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 967,
     "incompleteOffers": 0
@@ -55,310 +55,275 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T02:57:56.718Z",
-      "got": 95,
-      "new": 38,
-      "lag": 0.03
+      "at": "2026-09-10T03:13:34.041Z",
+      "got": 62,
+      "new": 35,
+      "lag": 0.07
     }
   },
   "audit": {
-    "at": "2026-09-10T02:56:17.746Z",
+    "at": "2026-09-10T03:11:57.889Z",
     "mode": "live",
     "collection": {
-      "returned": 95,
-      "kept": 38,
-      "duplicate": 57,
-      "tooOld": 0,
+      "returned": 62,
+      "kept": 35,
+      "duplicate": 26,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 20,
-      "rejected": 18,
+      "accepted": 26,
+      "rejected": 9,
       "reasons": {
-        "hard_negative": 2,
-        "non_fbs_offer_target": 6,
-        "no_fbs_school": 8,
-        "no_offer_term": 2
+        "no_offer_term": 6,
+        "no_fbs_school": 1,
+        "hard_negative": 1,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
-          "reason": "hard_negative",
-          "postId": "2097856125198848253",
-          "author": "mmclain63",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @Coach_Stutz I am blessed to receive my first offer to play football at @MysticsFB #RollStics https://t.co/466xzewZhi"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097855465480683740",
-          "author": "todd_mueller20",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I am blessed to receive an offer from Sterling College! Go warriors! https://t.co/gooVaUhP8F"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097854509284303304",
-          "author": "charliecldwell",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my second Division I offer to run track from Creighton University! Thank you to Head Coach @DAHFAYERS and the entire staff for an amazing official visit and for believing in me. Go Jays! 🔵🐦 https://t.co/gv5fQuv4EI"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097854324508369031",
-          "author": "kynreynolds_30",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great talk with coach Paul and coach Hartman I’m blessed to receive an offer from Walter’s State Community college https://t.co/vqxtLQIsef"
-        },
-        {
           "reason": "no_offer_term",
-          "postId": "2097852474044358876",
-          "author": "shamar_akins",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a good game Friday I’m blessed to receive player of the week https://t.co/h94EkhzQaI @CoachT_Pope @Earvin_Moore @BrettSShufelt @coachfleming17 https://t.co/vz7xUtweZo"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097874637858197831",
-          "author": "braniffintl",
-          "searchJob": "houston",
-          "text": "BRANIFF HISTORY TODAY - On this day, Wednesday, September 9, 1981, Braniff International introduced a new campaign aimed at returning the airline to profitability. The campaign, dubbed Braniff Strikes Back, featured two new levels of servic"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097881215718351213",
-          "author": "kterpsnyc",
-          "searchJob": "maryland",
-          "text": "@BoxingSince1776 @GuruTwoey @terencecrawford @JaronEnnis Let’s not forget boots own father right before the offer basically said his son wasn’t ready for Crawford. Let’s not forget boots waited until the deepest division in the world aged o"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097881654207582541",
+          "postId": "2097870424013259081",
           "author": "hotbets365",
-          "searchJob": "washington",
-          "text": "https://t.co/5SaBkotHoC"
+          "searchJob": "army",
+          "text": "https://t.co/qIvNTxexQX"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097866202198741259",
+          "author": "abuchanlife",
+          "searchJob": "army",
+          "text": "https://t.co/qXtJhWdbJA"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097881051552944484",
-          "author": "washtimes",
-          "searchJob": "washington",
-          "text": "Trump offers $5,000 payout to every American if Republicans win House and Senate in November https://t.co/DreZVtRUPk"
+          "postId": "2097855640043504105",
+          "author": "charflag3",
+          "searchJob": "charlotte",
+          "text": "After a great call with @CoachPete19 I’m very grateful to announce that I was offered an opportunity to continue my flag journey at @HendrixWFF Thank you to my coaches, teammates and family for always supporting me and making me a better pl"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2097860690639753638",
-          "author": "washtimessports",
-          "searchJob": "washington",
-          "text": "The Big Ten is expanding its plan to offer enhanced replay review insight during its football broadcasts. https://t.co/r27YvjqE3e"
+          "reason": "hard_negative",
+          "postId": "2097873993189802246",
+          "author": "theastronexus",
+          "searchJob": "rice",
+          "text": "Aaj ka Rashi fal — Thursday, 10 September 2026 @TheAstroNexus #Rashifal #VedicAstrology 1 मेष (Aries) – Career New ideas flow easily today. Share one clear plan with seniors. Avoid rushing decisions. Offer water to Surya. ✅ 2 वृषभ (Taurus) "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097873253759169010",
+          "author": "regaliaroots",
+          "searchJob": "rice",
+          "text": "Hexa-Orbital Steel ⬡◉ Hexa-Orbital Steel is a hexagonal van der Waals coat on stainless steel: MoS₂/WS₂ against the metal, graphene/h-BN as the barrier, a g-C₃N₄ mosaic cap, and six D₆ₕ/D₃ₕ molecules to grow, dock, and seal the stack. https"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097673759989940689",
+          "author": "endhi_peekedhi",
+          "searchJob": "rice",
+          "text": "Finally a movie that's trying to show the atrocities committed by British Christians. Well done @TheDeverakonda 🤩🙏 https://t.co/eMfl617uDM"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097862876161552617",
+          "author": "zacharymor31314",
+          "searchJob": "rice",
+          "text": "https://t.co/0lOHR8RSvB"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2097868066008727775",
-          "author": "nick_sojka",
-          "searchJob": "wisconsin",
-          "text": "After a great conversation with @CoachNErling51, i’m honor to receiving an official offer from Concordia University Wisconsin! Go falcons 🔵⚪️ @HilltoppersFB @rudysgymjoliet @Coach_RJG @Coach_Calt @John_bowes_ @CoachO_UW @Coach_JWalsh @Fill"
+          "postId": "2097880041686258076",
+          "author": "kellanokeefe12",
+          "searchJob": "illinois",
+          "text": "After an amazing conversation with Coach Dudley and Coach Meyer I am blessed to receive an offer from Illinois college! @goblueboys @DylanDudley @ArsenalHoops @MichaelAsleson @JaredNor1h @coachsmithstl @evan_asleson https://t.co/VaqcPZRFFi"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2097864107341070474",
-          "author": "monica_from_wi",
-          "searchJob": "wisconsin",
-          "text": "@TimkUSA1776 I see so many people jumping at the first drug they're offered without considering lifestyle changes, it's sad."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097861471573069916",
-          "author": "coachtreal2",
-          "searchJob": "wisconsin",
-          "text": "2027 Perspectives - Mike Woods picks up University of Wisconsin-Milwaukee offer @iamjrhymes @PCSWarriorsBB @FatmanBanks @renegade_club @RL_HoopsIL"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097878104966324431",
-          "author": "dmoss7era",
-          "searchJob": "phrase:\"grateful to receive an offer\"",
-          "text": "Blessed and grateful to receive an offer from Ottawa University! 🏈🙏🏽 Thank you to Coach Jordan Ford and the entire Ottawa University football staff for believing in me and giving me this opportunity. @OttawaBravesFB @bsa28_ @CedarFootbal"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097877510448951388",
-          "author": "graysongauwitz",
-          "searchJob": "phrase:\"grateful to receive an offer\"",
-          "text": "Grateful to receive an offer from Wartburg College! https://t.co/vf7fjw9fYU"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097878952295416250",
-          "author": "mattheise7",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @ReedHoskins I am blessed to receive an offer to play at the next level. @scstormfootball @LWWestWarriorFB https://t.co/Lni4tKZ1fs"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097874286518182052",
-          "author": "jervikmaso33805",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @CoachWiebelhaus, I am blessed to received my first offer from @MMULancersFB! Can’t wait to see what the future holds! @The_Coach_Fish @NWahlScouting @PrepRedzoneDAK https://t.co/9qapCtS1Ep"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097862343010996397",
-          "author": "_dremoeee",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "🙏🏽 After a great conversation with @ReedHoskins I’m extremely blessed and grateful to announce that I have received my 1st offer from Simpson College! @12_MSL @grid_irons @Levi_bradley312 @PrepRedzoneIL @EDGYTIM @CoachARoberts @CoachBigPe"
+          "reason": "no_offer_term",
+          "postId": "2097871940337700975",
+          "author": "gorakkh",
+          "searchJob": "iowa",
+          "text": "Are women really “invisible” in BAPS? Look beyond the headlines. From spirituality and education to health, seva, music, culture and community leadership - the history tells a very different story. #BAPS #Women #SanatanDharma #BAPSPARIS #PA"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 20,
+      "rejected": 26,
       "reasons": {
-        "multiple_resolved_schools": 3,
+        "multiple_resolved_schools": 4,
         "bare_mention_requires_llm": 15,
-        "school_not_resolved_confidently": 1,
-        "reporter_missing_football_context": 1
+        "school_not_resolved_confidently": 6,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097881168888692970",
-          "author": "juancoli1",
-          "searchJob": "houston",
-          "text": "HOUSTON, WE HAVE A PROBLEM PRESIDENT NO. 44: B. OBAMA NOTHING CAN STOP WHAT IS COMING THE FEDERAL GOVERNMENT'S GREATEST MAGIC TRICK The Internet's favorite conspiracy theory franchise. According to one of the Internet's most enduring sagas,"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097869608862507438",
-          "author": "juancoli1",
-          "searchJob": "houston",
-          "text": "HOUSTON WE HAVE A PROBLEM NO MORE PHYSICAL ID ? Why should identity depend on a piece of plastic or paper when every person already carries something far more difficult to duplicate: their own biology? Physical identification driver’s licen"
+          "postId": "2097885137002283426",
+          "author": "abrahamunity17q",
+          "searchJob": "army",
+          "text": "HAVING FUN AND SPEAKING BETWEEN THE LINES $5K RETURN OF INHERITANCE There was a country that used to treat its people like owners. That was not a slogan. It was how the place was built. Families claimed land and expected their children to k"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097868573620269544",
-          "author": "juancoli1",
-          "searchJob": "houston",
-          "text": "HOUSTON WE HAVE A PROBLEM THE FEDERAL GOVERNMENT’S GREATEST MAGIC TRICK PRESIDENT 44 THE INTERNET’S FAVORITE CONSPIRACY FRANCHISE Born abroad, constitutionally ineligible, secretly married to a man (Michelle), and apparently capable of fool"
+          "postId": "2097884669375119431",
+          "author": "gqdwins17",
+          "searchJob": "army",
+          "text": "👍 $5k RETURN OF INHERITANCE There was a country that used to treat its people like owners. That was not a slogan. It was how the place was built. Families claimed land and expected their children to keep it. Hamilton wanted shops and mills"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2097860577406197889",
-          "author": "juancoli1",
-          "searchJob": "houston",
-          "text": "HOUSTON WE HAVE A PROBLEM WASHINGTON'S LATEST REMODELING PROJECT Everybody Agrees the House Needs Cleaning. The Argument Starts Over Who's Holding the Broom. American politics has become the only reality show where half the audience thinks "
+          "postId": "2097884314801201492",
+          "author": "zepplarouche",
+          "searchJob": "army",
+          "text": "https://t.co/0YK8rSNoEK The U.S.-Iran war erupted in a big way, Tuesday night, after U.S. Central Command announced that U.S. forces had destroyed five Iranian oil tankers in retaliation for an earlier Iranian attack on U.S. naval ships ope"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097856561871765816",
-          "author": "juancoli1",
-          "searchJob": "houston",
-          "text": "HOUSTON WE HAVE A PROBLEM THE NOBEL PRIZE PARADOX Some critics argue that many of the world’s biggest awards in science, technology, and economics are not prizes for discovering uncomfortable truths they’re gold medals for explaining why th"
+          "postId": "2097879248153547168",
+          "author": "astrocounselkk",
+          "searchJob": "army",
+          "text": "Sharing as Received. This one is a must read 📚. What JAPAN and Japanese think about India and Indians .. India: Not an Inspiration... But a Warning Japan, a nation decimated by two nuclear bombs, didn't beg for sympathy or aid. It rebuilt "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097865774530736599",
+          "author": "brian_t_muldoon",
+          "searchJob": "army",
+          "text": "@ciaranupton The real reason these people joined the Mexican army is they were offered land grants for joining. https://t.co/42Lv4sLkua"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097880618881167459",
-          "author": "julianeliscard",
-          "searchJob": "iowa-state",
-          "text": "Blessed to receive my 2nd offer from cyclones community Christian college💚💛#AGTG @DraftDiamonds @TheRedZoneCoach @CoachAlexHaynes @CoachAlexHaynes @Coach_Guice @CoachJohnsonVHS @itscoachtc @tulane63 https://t.co/RcRXlM6sl7"
+          "postId": "2097882356388450739",
+          "author": "agaupb99",
+          "searchJob": "buffalo",
+          "text": "I am not trying to preach here. As a sinful human being I know overcoming denial is truly the first step to acceptance of the reality of human nature. David made this statement after he was confronted about his relationship with Bathsheba. "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097871497482121347",
+          "author": "swordmasterpub",
+          "searchJob": "buffalo",
+          "text": "No. No one was saved from their sins until the cross. That's why righteousness before the cross had to be imputed. The blood of bulls and goats cannot take away sin. Only God can do that. Abraham had living faith. He was obedient to God and"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097874273738052024",
-          "author": "asinassassin",
-          "searchJob": "ohio",
-          "text": "@DiggingInTheDi1 I still don't understand why we have these candidates. That's all Ohio has to offer? Tell them I said gfy"
+          "postId": "2097863318736363614",
+          "author": "__judyruliani",
+          "searchJob": "buffalo",
+          "text": "@gluestick_14 while i appreciate the offer, im not to be trusted around buffalo wings 😣🫣 https://t.co/rqxQukQHbK"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097871038898163728",
+          "author": "wineaboutsport",
+          "searchJob": "charlotte",
+          "text": "@theStevenRuiz I can’t see it happening, but would my 49ers dare to trade Mac Jones in division with the Seahawks if they offered a 1st rd pick if Darnold is out FTY? Shanny might think they know his weaknesses well enough to do it. But Mac"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097882638753087635",
+          "author": "invisiblearmy77",
+          "searchJob": "coastal-carolina",
+          "text": "So I asked grok about what would happen to the regular people, the occupants of Mocha for example, that live there that have houses and shops there, like what’s gonna happen to them and this is what it says (Note; AA has offered a general a"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097874041516204462",
+          "author": "hamptonsrisk",
+          "searchJob": "coastal-carolina",
+          "text": "Michael Amoia, HRM Coastal homes Insurance options cover more than what just a standard homeowners insurance policy offers. These are specialized policies provided by select insurance companies that include robust coverage to protect beach "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097870362587599097",
+          "author": "stephens_t8238",
+          "searchJob": "coastal-carolina",
+          "text": "@heterodoxan The point of Iran and Venezuela is pressure on China and Russia. And the pressure is still building on both. Building a \"Donbas Sandbox\" along coastal Iran, including local recruitment, might be a next logical step. Could offer"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097871563458572779",
+          "postId": "2097882894676947270",
+          "author": "tylercoonsmaui",
+          "searchJob": "hawaii",
+          "text": "508 Kauna Lipo Dr - Your Future View Is Already Here (Price Reduced!) View listing here: https://t.co/bHRdH1INV2 🔑 Offered at $639,000 👉 Tyler Coons tyler@tylercoonsmaui.com 808.280.2480 REALTOR®S RS-55098 Welcome Hawaii Properties #Tyler"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097881699346530441",
+          "author": "rukarindie",
+          "searchJob": "rice",
+          "text": "Fuuka has had quite enough of this. Note: The original had her offer \"bubuzuke\" which is tea over rice. It's a Kyoto euphemism meaning \"maybe it's time for you to leave\". Those outside Kyoto may not get it. Fuuka is being feisty either way."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097870268077416828",
+          "author": "tamiladvent",
+          "searchJob": "rice",
+          "text": "Wait, then who offered rice bags?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097863907268337851",
+          "author": "noahfran2028",
+          "searchJob": "rice",
+          "text": "Thank you to @mchoehner and the entire Rice coaching staff for having me on an official visit! I’m extremely grateful for the opportunity to learn more about what Rice has to offer. Thank you for the hospitality and for making it a special "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097860241333301295",
+          "author": "dynastyrich",
+          "searchJob": "rice",
+          "text": "@_FF_Fanatic @DynastyNerds @DynastyGarret Fair offer. I’m 50/50 on it. Rice higher upside but huge risk."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097872331750133970",
           "author": "tfloss32",
-          "searchJob": "ohio",
-          "text": "Klein High '29 LB C'Ivion Hines (@CivionHines) takes home an Ohio State offer. #GoBucks🌰 https://t.co/niDExq8J1R https://t.co/N4T5UUYzdE 𝕏 @coachcodutti | @KleinFootball25"
+          "searchJob": "utep",
+          "text": "UTEP issues an offer to '28 QB Ben Odom (@benodom2028) of Trophy Club Byron Nelson. #PicksUp⛏️ #WinTheWest #ChaseTheLion https://t.co/LhUeBwfhYL https://t.co/PEFkJ2vW7V 𝕏 @coachwoodward | @ByronNelsonFB"
         },
         {
-          "reason": "reporter_missing_football_context",
-          "postId": "2097879696855773289",
-          "author": "wildcatreport",
-          "searchJob": "maryland",
-          "text": "Northwestern offers four-star 2028 safety DeNairo Girton Jr. out of Great Mills HS in Maryland. Profile: https://t.co/Mf5JQYa4p4"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097881800836083802",
-          "author": "abrahamunity17q",
-          "searchJob": "washington",
-          "text": "RETURN OF INHERITANCE There was a country that used to treat its people like owners. That was not a slogan. It was how the place was built. Families claimed land and expected their children to keep it. Hamilton wanted shops and mills here s"
+          "reason": "reporter_missing_player_name",
+          "postId": "2097869670422364187",
+          "author": "benodom2028",
+          "searchJob": "utep",
+          "text": "Thankful to have earned an offer from @UTEPFB! @CoachPappalardo @utepfbrecruit @ChadSimmons_ @adamgorney @GregBiggins @alldayqb @ByronNelsonFB @coachwoodward @CoachHughes87 @Bdrumm_OUI @Josh_Scoop @SWiltfong_ @CKennedy247 @TFordFSP @Elite_2"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097881624553656721",
-          "author": "abrahamunity17q",
-          "searchJob": "washington",
-          "text": "SYMBOLOGY POLITICAL THEATER $5000 DIVIDEND RETURN OF INHERITANCE There was a country that used to treat its people like owners. That was not a slogan. It was how the place was built. Families claimed land and expected their children to keep"
+          "postId": "2097866802860642490",
+          "author": "jucofootballace",
+          "searchJob": "utep",
+          "text": "Michael Smith @MichaelSmith25W @ Iowa Central JuCo @IowaCentralFB picks up @UTEPFB Offer @Coach_Kratch @ICTritons https://t.co/ZqB9UAUs6n"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097881118099861877",
-          "author": "abrahamunity17q",
-          "searchJob": "washington",
-          "text": "RETURN OF INHERITANCE There was a country that used to treat its people like owners. That was not a slogan. It was how the place was built. Families claimed land and expected their children to keep it. Hamilton wanted shops and mills here s"
+          "postId": "2097857735412818156",
+          "author": "jucofootballace",
+          "searchJob": "utep",
+          "text": "Ruben Smith @ThunderSmith76 @ Tyler JuCo @TJCFOOTBALL picks up @UTEPFB Offer @MAlfaroPhoto https://t.co/FCcn08IcGP"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097880240383017399",
-          "author": "abrahamunity17q",
-          "searchJob": "washington",
-          "text": "RETURN OF INHERITANCE There was a country that used to treat its people like owners. That was not a slogan. It was how the place was built. Families claimed land and expected their children to keep it. Hamilton wanted shops and mills here s"
+          "postId": "2097872611095068739",
+          "author": "pt939913",
+          "searchJob": "alabama",
+          "text": "@MiamiCanes1971 Norvell would have offered the oline job at bama to meathead Mario 😭😭😭😂😂"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097879739763503193",
-          "author": "abrahamunity17q",
-          "searchJob": "washington",
-          "text": "❤️ $5000 IS JUST THE BEGINNING NEW BEGINNING AWAITS RETURN OF INHERITANCE There was a country that used to treat its people like owners. That was not a slogan. It was how the place was built. Families claimed land and expected their childre"
+          "postId": "2097867661342597518",
+          "author": "incidentscope",
+          "searchJob": "illinois",
+          "text": "🚨 MAN OFFERS GIRL $50, CHAOS ENSUES AT ILLINOIS TRANSIT TERMINAL Officers and deputies in Champaign County responded to a crowded transit terminal following reports of a male offering a juvenile girl $50. The situation escalated quickly wh"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097879530710892975",
-          "author": "abrahamunity17q",
-          "searchJob": "washington",
-          "text": "RETURN OF INHERITANCE There was a country that used to treat its people like owners. That was not a slogan. It was how the place was built. Families claimed land and expected their children to keep it. Hamilton wanted shops and mills here s"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097871693981385046",
-          "author": "susan_dupres",
-          "searchJob": "washington",
-          "text": "Washington State WA State Dept. of Health (DOH) Temporary Worker Housing Updates for 2027-2029 Agriculture Season Sept. 9, 2026 The Washington State Department of Health (DOH) has several updates and reminders to help Temporary Worker Housi"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097870672252789101",
-          "author": "antoniotweets2",
-          "searchJob": "washington",
-          "text": "🚨 CANADIANS — CONNECT THE DOTS. China wants deeper involvement in Canada’s auto industry. Ottawa is openly pursuing Chinese joint-venture investment to manufacture vehicles here in Canada. Now think about what Canada offers: 🇨🇦 Canadian "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097870167980298388",
-          "author": "theimpartialx",
-          "searchJob": "washington",
-          "text": "Oil broke $100. The 10-year yield hit 4.837%. The VIX jumped 4.71%. Stocks fell across the US, Europe and Asia. Washington offered a $6 billion bond buyback. The market shrugged. Geopolitical inflation has entered the room—and the Fed can’t"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097863125597057469",
-          "author": "sixstarfootball",
-          "searchJob": "washington",
-          "text": "Washington 2028 Names to Know: Speed, Size and Early Offers 📈A closer look at Washington names drawing college interest🔥 STORY➡️https://t.co/3dv99Bvcd9 @baum_jayden23 @CookMaxten @mekhifieldz @JayceHalasz1 @AmosaMasaniai09 @3kmoook @Elioe"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2097871331186606137",
-          "author": "vindhler33",
-          "searchJob": "kansas",
-          "text": "@AAGShumate So you're going to offer it to millions of documented aliens if they come to Kansas?"
+          "postId": "2097868475666776470",
+          "author": "a_luffa",
+          "searchJob": "michigan",
+          "text": "@dogtoysoldier @time_waster2 @Rippie856717 @conro ok well the former wasn't in the cards with kamala and she could have still avoided the latter losing michigan but didn't wanna offer a compelling domestic vision."
         }
       ]
     },
@@ -373,11 +338,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 20,
+      "rejectedCandidates": 26,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T02:57:57.020Z"
+    "status rebuilt locally from current store on 2026-09-10T03:13:34.329Z"
   ]
 }
