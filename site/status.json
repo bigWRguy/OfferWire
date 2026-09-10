@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T10:13:06.711Z",
+  "generatedAt": "2026-09-10T10:28:13.470Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T10:13:06.434Z",
+    "at": "2026-09-10T10:28:13.151Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0250883333333334,
-    "p95Hours": 1.7737822222222221,
-    "worstHours": 1.7737822222222221
+    "medianHours": 0.5280838888888889,
+    "p95Hours": 1.529641388888889,
+    "worstHours": 1.7779291666666666
   },
   "decisionCoverage": {
-    "total": 3,
-    "decided": 3,
+    "total": 16,
+    "decided": 16,
     "complete": true
   },
   "pending": {
@@ -55,59 +55,153 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T10:13:06.434Z",
-      "got": 5,
-      "new": 3,
-      "lag": 0.28
+      "at": "2026-09-10T10:28:13.150Z",
+      "got": 22,
+      "new": 16,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-10T10:11:27.002Z",
+    "at": "2026-09-10T10:26:36.018Z",
     "mode": "live",
     "collection": {
-      "returned": 5,
-      "kept": 3,
-      "duplicate": 2,
+      "returned": 22,
+      "kept": 16,
+      "duplicate": 6,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 1,
-      "rejected": 2,
+      "accepted": 11,
+      "rejected": 5,
       "reasons": {
-        "no_fbs_school": 2
+        "no_fbs_school": 3,
+        "no_offer_term": 2
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2097987459279737016",
-          "author": "africaishome2",
-          "searchJob": "oklahoma",
-          "text": "Fintech Chime is buying its way into becoming a bank. On Tuesday it announced an all-cash 590 million dollar deal to acquire nationally chartered Stride Bank, a partner it has worked with for more than seven years. Stride, founded in 1913 i"
+          "postId": "2097983017725661533",
+          "author": "sf_jefe",
+          "searchJob": "navy",
+          "text": "Fajr offered"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097965125101568100",
-          "author": "speakeasy_news",
-          "searchJob": "oregon",
-          "text": "Set in Oregon during the Great Depression, The Weight stars Ethan Hawke as a father who takes on a dangerous gold-smuggling mission to save his daughter. A survival thriller that also offers a glimpse into 1930s America. See more on: https:"
+          "postId": "2097992518612779224",
+          "author": "onlyinflorida2",
+          "searchJob": "florida",
+          "text": "If you’re under 30 and your employer offers a 401K do yourself a favor and take advantage of it. This is the fund I would choose. https://t.co/FCSPy1ZRgG"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097979671241531477",
+          "author": "islandsmagazine",
+          "searchJob": "florida",
+          "text": "Whether you're looking for a peaceful hideaway or a nature retreat with modern amenities, Seven Sisters Campground offers it all. https://t.co/IPop7rmIX1"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097517677740769536",
+          "author": "catholic_dan7",
+          "searchJob": "california",
+          "text": "Opportunity for young guys on our side: I’ve got a buddy building semi conductor fabs out West &amp; they’re looking for workers. Starts @ $23/hour, can be $34/hour within a couple months. $50+ per hour within a year. Gotta be willing to mo"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097886546653298924",
+          "author": "whatleync",
+          "searchJob": "pittsburgh",
+          "text": "An amazing night at the Midterm Convention! As your next Senator I will always fight for families across NC. https://t.co/DQGs153Dt1"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 11,
       "reasons": {
-        "school_not_resolved_confidently": 1
+        "bare_mention_requires_llm": 4,
+        "school_not_resolved_confidently": 3,
+        "multiple_resolved_schools": 4
       },
       "samples": [
         {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097990106116149310",
+          "author": "ivermectin_hub",
+          "searchJob": "florida",
+          "text": "IVERMECTIN & FENBENDAZOLE used for Parasite Cleanse also cures CANCER 💯. A must-have Drug at Home 🏡 Comment \"INTERESTED AND PROTOCOL\" if you want to order from our Store today. We offer Home Shipping and Deliver to your door Step 🚚📦💯 I"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097979565918376388",
+          "author": "prayerfulinswfl",
+          "searchJob": "florida",
+          "text": "My fellow prayer warriors, I have two prayer requests following something that happened yesterday. I’d like to provide context so please bear with me if you have time. I have a twin brother. We both left the faith after college. He moved to"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097972079324770501",
+          "author": "pettunia14",
+          "searchJob": "south-carolina",
+          "text": "\"Plan could require congressional approval Vance's convention speech seen as 2028 test run President Donald Trump capped the first day of his Republican Party's first-ever midterm convention by proposing to pay every U.S. adult a $5,000 \"Tr"
+        },
+        {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097965825000911215",
-          "author": "likkle_blocks22",
-          "searchJob": "arkansas",
-          "text": "I needed a whole post for this. Nuke Paul Smyth, he’s cost us 4 points minimum in the last 2 games. Why drag the ball towards your left foot when you are right footed in on goal. Offers nothing in buildup. Hogs the touchline. Comes inside a"
+          "postId": "2097973559092257264",
+          "author": "guidoincogneato",
+          "searchJob": "usc",
+          "text": "@Acyn Felon said what? 18 USC 597 sets a year in jail for anybody who offers money to get you to vote in any way https://t.co/RBU9OzfLnV"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097973316875362321",
+          "author": "guidoincogneato",
+          "searchJob": "usc",
+          "text": "@Reuters Felon said what? 18 USC 597 sets a year in jail for anybody who offers money to get you to vote in any way https://t.co/U8JLR8grFS"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097990565388255725",
+          "author": "theaviatorny",
+          "searchJob": "california",
+          "text": "Chapter 4 — Operation Encore and the Saudi Network (1/2) 9/11: A Detailed Overview Chapter 4 — Operation Encore and the Saudi Network Project 911DETAIL — FINAL WW DRAFT (verified additions incorporated) Part Four of the Joint Inquiry ended "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097971995073818822",
+          "author": "elvish_harper",
+          "searchJob": "california",
+          "text": "The \"move to California\" part is a massive dealbreaker for the majority of people but it seems silly to treat this offer like a slap in the face. I think people are on too much of a hair trigger on this issue. Perhaps understandably but sti"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2097992478469021907",
+          "author": "jimfrombaseball",
+          "searchJob": "pittsburgh",
+          "text": "\"The Latin American player doesn’t get the recognition he deserves. Neither does the Negro player, unless he does something spectacular, like Willie Mays. We have self-satisfaction, yes. But after the season is over, nobody cares about us. "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097982317264359460",
+          "author": "movienewsusa",
+          "searchJob": "pittsburgh",
+          "text": "UP #NORTHCAROLINA House majority adviser Roland @rolandjackson ``Democrats fail and falls in economy. @WhatleyNC offers a progressive life to every North Carolina families´´ From US 47 THE 47 @POTUS US MAJORIY @SpeakerJohnson @LeaderJohnThu"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097994784996549072",
+          "author": "miskschools",
+          "searchJob": "stanford",
+          "text": "Our Class of 2026 received more than 150 university offers, proof of their ambition and ability to compete at the highest level. Places secured at MIT, Stanford University, Imperial College London, UC Berkeley and Columbia University. #Misk"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097989130986909876",
+          "author": "utihakou",
+          "searchJob": "tcu",
+          "text": "🔔🔔Flex HW/SW Package/Subscription-Auto 10% off, No Need Coupon Code😍 https://t.co/hdK8H9j2rf ✅WIDE VEHICLE COVERAGE ✅ECU/TCU READ &amp; WRITE ✅POWERFUL TUNING FUNCTIONS ✅STABLE SOFTWARE SUPPORT ✅PROFESSIONAL TECH SUPPORT ⏰Limited Offer h"
         }
       ]
     },
@@ -122,11 +216,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 1,
+      "rejectedCandidates": 11,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T10:13:06.712Z"
+    "status rebuilt locally from current store on 2026-09-10T10:28:13.471Z"
   ]
 }
