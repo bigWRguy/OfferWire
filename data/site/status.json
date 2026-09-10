@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T13:13:09.523Z",
+  "generatedAt": "2026-09-10T13:27:59.442Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T13:13:09.205Z",
+    "at": "2026-09-10T13:27:59.028Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7787394444444444,
-    "p95Hours": 1.7786925,
-    "worstHours": 2.0297022222222223
+    "medianHours": 0.7667888888888889,
+    "p95Hours": 1.7232208333333334,
+    "worstHours": 2.025892222222222
   },
   "decisionCoverage": {
-    "total": 41,
-    "decided": 41,
+    "total": 60,
+    "decided": 60,
     "complete": true
   },
   "pending": {
@@ -55,303 +55,329 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T13:13:09.205Z",
-      "got": 63,
-      "new": 41,
-      "lag": 0.09
+      "at": "2026-09-10T13:27:59.027Z",
+      "got": 91,
+      "new": 60,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-10T13:11:30.456Z",
+    "at": "2026-09-10T13:26:19.357Z",
     "mode": "live",
     "collection": {
-      "returned": 63,
-      "kept": 41,
-      "duplicate": 22,
+      "returned": 91,
+      "kept": 60,
+      "duplicate": 31,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 28,
-      "rejected": 13,
+      "accepted": 43,
+      "rejected": 17,
       "reasons": {
-        "no_offer_term": 6,
-        "no_fbs_school": 5,
-        "hard_negative": 2
+        "no_fbs_school": 12,
+        "no_offer_term": 5
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2097473082743005427",
-          "author": "osint613",
-          "searchJob": "washington",
-          "text": "President Trump on AfD https://t.co/c1VuUSNlCJ"
+          "reason": "no_fbs_school",
+          "postId": "2098039957524758734",
+          "author": "calkinsregroup",
+          "searchJob": "michigan",
+          "text": "The listing price is an invitation. If you over price the property you will get less offers. If you price it under market value you will get more offers"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098026859854278855",
-          "author": "bobschwaller",
-          "searchJob": "washington",
-          "text": "@GlockfordFiles It's all about campaign funds. Anyone who goes against Thune loses millions in party contributions. Trumps 5k offer is a taste test to the public about how Congress actually works in Washington DC."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098024678778376379",
-          "author": "drewcrawford_",
-          "searchJob": "washington",
-          "text": "https://t.co/JPGBH37s4y"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098009565077926226",
-          "author": "theholidayninja",
-          "searchJob": "washington",
-          "text": "Ultimate USA Sports Break to Washington DC 4 days departs Dublin 21st November '26 Direct Flights, 4* Moxy Hotel + Bus Tour Included PLUS American Football AND Basketball Games And ALL for ....... £945pp!! #NInjatastic #belikeaNInja #planah"
+          "postId": "2098035089900806652",
+          "author": "lisalenderink",
+          "searchJob": "michigan",
+          "text": "@Logically_JC So many choices. Gee. That 5k is a sweet offer too 😂😂"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098013313024012718",
-          "author": "jacobj_009",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with Coach Brackett I am blessed to announce my first offer from HSU https://t.co/IncebLLDUL"
+          "postId": "2098014661157265812",
+          "author": "mattreynolds615",
+          "searchJob": "michigan",
+          "text": "You have a character problem and it’s you, @elonmusk. So I asked ChatGPT the opposite: Yes. But once I apply your word — character — strictly, I actually cannot give you five glaring, unambiguous examples without bullshitting you. I can giv"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097907575769506121",
-          "author": "cheremover",
-          "searchJob": "houston",
-          "text": "https://t.co/pGbVjE9feq"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098024341673754874",
-          "author": "houmuza",
-          "searchJob": "houston",
-          "text": "@QueenMaga17862 @GrothPvP @MinnJ612 @SharrellAnne2 Are these receipts enough that offers of an expenditure for a vote is illegal? https://t.co/7dOhcTHBXo"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098033756938399849",
-          "author": "highearthorbit_",
-          "searchJob": "kansas",
-          "text": "FMH Article from January 2025 THE UAP PHENOMENON Sightings & Congressional Revelations In 2024, the conversation surrounding Unidentified Anomalous Phenomena (UAPs), often colloquially referred to as UFOs, has escalated to unprecedented lev"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098024790892195979",
-          "author": "mariaangelagrow",
-          "searchJob": "liberty",
-          "text": "The Fifteenth Sunday After Pentecost from the Liturgical Year of Dom Prosper Louis Pascal Guéranger, O.S.B., 1903 . Green Semidouble . This Sunday’s Introit—which now goes under the name of the Sunday of the widow of Naim, because of the Go"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098023529757257977",
-          "author": "mrsroboto10",
-          "searchJob": "liberty",
-          "text": "@RapidResponse47 @POTUS Then why did you offer to buy us?"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098019195912851827",
-          "author": "stirssumup",
-          "searchJob": "liberty",
-          "text": "@2A_Patriot_ Jews offer $7k. This is a scam…"
+          "postId": "2098014529439342916",
+          "author": "scoopercooper",
+          "searchJob": "army",
+          "text": "Defence Official Fired After Warning About Beijing Says Ottawa’s Renewed PLA Engagement Bolsters Washington’s Claim That Canada Is China’s Back Door https://t.co/3qRGk7lbZp"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097952776139538696",
-          "author": "rupertlowe10",
-          "searchJob": "liberty",
-          "text": "The number of illegal migrants being imported into Britain is far higher than we are being told."
+          "postId": "2098036657735774553",
+          "author": "zoharatkins",
+          "searchJob": "army",
+          "text": "https://t.co/hHm6lGFZgF"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098031680179077446",
+          "author": "mypalfootfoot7",
+          "searchJob": "army",
+          "text": "They were offered bantustans"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098023717846577602",
+          "postId": "2097981533256655247",
+          "author": "camillatominey",
+          "searchJob": "army",
+          "text": "BINGO"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098025582525034718",
           "author": "tickeron",
-          "searchJob": "alabama",
-          "text": "$CRS https://t.co/742nmX2mBH"
+          "searchJob": "army",
+          "text": "$ONDS https://t.co/lPmDVcMsX1"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098024078506344453",
+          "author": "armypiper",
+          "searchJob": "army",
+          "text": "Trump’s newest offer is a $5,000 “Trump Dividend” for every adult U.S. citizen—if Republicans retain both the House and Senate in November. Here’s the current-term payment scorecard: what was proposed, what was actually paid, and what still"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098018393622302856",
+          "author": "redandwhite2017",
+          "searchJob": "army",
+          "text": "@carl_macar @SunderlandAFC Pls email them and let us know the outcome. This should be something you can get some help with, same for others in your position. It's great that fans have offered to help but we need to know the club can help to"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098036607194448355",
+          "author": "dearuniverse_cs",
+          "searchJob": "charlotte",
+          "text": "@facepaint_paula Otters are I’ll be £795 (I now have the finance option things on my website to hopefully make the larger pieces more accessible 💙). DM me if you are interested. Hehe what a lovely offer re:Spain nothing at the moment n’ ha"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098022428651770096",
+          "author": "dfcov",
+          "searchJob": "charlotte",
+          "text": "🏡 BROKER HOME TOUR | QUEENS TOWERS Charlotte-area brokers, come take a tour of Queens Towers! 📍 1300 Queens Road #209 💰 Offered at $425,000 🛏️ 3 Bedrooms | 🛁 2 Baths | 1,337 SF https://t.co/tGpkyPdrdr"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098038590613962872",
+          "author": "loopingcloud",
+          "searchJob": "louisiana",
+          "text": "https://t.co/zNXONnOFir"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098033082217730137",
+          "author": "bitswattsdesk",
+          "searchJob": "class:2026",
+          "text": "NTT (TSE: 9432) wrote the dates down before it had the products. In November 2022 it published a timetable for IOWN 1.0 through 4.0, with years and performance multiples attached to each step. Three years later, one of those numbers held up"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098027094932357423",
+          "author": "_gamblercasino_",
+          "searchJob": "class:2026",
+          "text": "No deposit bonuses casino are not free money. They are a contract with wagering, max bet and a cashout cap. 3000+ free spins, promo code. How to read the offer before you claim it. https://t.co/9nLxcDYVLG"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098025848464937015",
+          "author": "pressmonitorin",
+          "searchJob": "class:2026",
+          "text": "17 Essential Children & Youth Stories for Parents & Educators https://t.co/lcC5Ewacw6 media monitoring reveals 17 critical developments shaping child safety, welfare, and policy across the nation. This press review on news on children, mino"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098023722938425621",
+          "author": "usatoday",
+          "searchJob": "class:2026",
+          "text": "Patriots QB Drake Maye threw three INTs in a 13-10 loss to the Seahawks to begin the 2026 NFL season. He offered a brutal but fair assessment afterward. https://t.co/iTqQ53Q4al"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 27,
+      "accepted": 0,
+      "rejected": 43,
       "reasons": {
-        "bare_mention_requires_llm": 15,
-        "multiple_resolved_schools": 7,
-        "reporter_missing_class_year": 1,
-        "reporter_missing_player_name": 1,
-        "school_not_resolved_confidently": 3
+        "bare_mention_requires_llm": 31,
+        "multiple_resolved_schools": 3,
+        "reporter_missing_player_name": 3,
+        "school_not_resolved_confidently": 6
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098035390758170908",
-          "author": "ynetnews",
-          "searchJob": "washington",
-          "text": "Somaliland leader wants Israeli military presence amid growing regional threats On his first Washington visit, President Abdirahman Mohamed Abdullahi offers up to 2,000 troops for a future Gaza force, seeks US recognition and Abra... https:"
+          "postId": "2098026470807396721",
+          "author": "hawkeyeswire",
+          "searchJob": "iowa",
+          "text": "Iowa football offers 4-star, legacy OL following opener 📸 Julia Hansen/Iowa City Press-Cit, USA TODAY Network via Reuters Connect https://t.co/ckpXQh1B2k https://t.co/ukAZcu8Zbc"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098032319139295436",
+          "author": "fairladylong",
+          "searchJob": "michigan",
+          "text": "President Trump offers $5000 to all adults. The satire has started. Forget the Uniparty vote Libertarian. #Politics #news #Trump #Libertarian #Michigan"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098030933517451422",
+          "author": "realqturnbull",
+          "searchJob": "michigan",
+          "text": "@DschlopesIsBack I believe @UMichFootball have made her an offer to support them in the Small House"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098030111111217464",
+          "author": "cdadams72",
+          "searchJob": "michigan",
+          "text": "&amp; ou football,win saturday &amp; offer ever recuruit in a michigan OV at the game , they are poribly on the fence anyways after t thr near defeat last weekend"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098029461119942920",
+          "author": "cdadams72",
+          "searchJob": "michigan",
+          "text": "@MaizenBrew if i’m BV &amp; OU if we win saturday i offer every recruit Michigan has on a OV after last weekend they are on the fence already"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098023766794141941",
+          "author": "hankampscott",
+          "searchJob": "michigan",
+          "text": "BIG NEWS!!!! I've been a contributor for Prep Network for about a decade. After exploring what ownership of my own business felt like with Kamp's Korner LLC (staff and I covering MI HS girls bball, OH HS girls bball, & MI HS football), it's"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098035183584727110",
-          "author": "leevalueroach",
-          "searchJob": "washington",
-          "text": "The first stock market crash in American history was caused by a guy who worked at the Treasury, saw the numbers before anyone else, quit, and bet the entire city of New York on what he knew. He was trading on insider information. He lost e"
+          "postId": "2098038474213372099",
+          "author": "webulite",
+          "searchJob": "minnesota",
+          "text": "WSJ Headlines for 9/10 U.S. government bond yields climbed to fresh multiyear highs, with the 10-year note settling at 4.836%. Among stock indexes, the S&P 500, Dow and Nasdaq shed 0.5%, 0.8% and 0.6%, respectively. European natural-gas pri"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098034787394977918",
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098031684885057991",
+          "author": "try2ban",
+          "searchJob": "minnesota",
+          "text": "Minnesota AG Keith Ellison MET with Somalis and fraudsters and got offered CAMPAIGN contributions, \"that he later accepted\" What is it you peoples first day reading the news? This is a NORMAL 30 year old PROBLEM if not a 100 YEAR OLD Proble"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098031107258376587",
+          "author": "deepleakshq",
+          "searchJob": "minnesota",
+          "text": "MN Doctor: I learned that Renee Good still had a pulse 8 minutes after she was shot by an ICE agent. And yet the offer to administer aid from a physician on the scene was denied. I can't say how much that stirs the blood of everyone behind "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098016581611671654",
           "author": "owengregorian",
-          "searchJob": "washington",
-          "text": "I Typed 'Block the Merger.' AI Revised It to 'Drop Your Opposition.' | Rachel Antell, Contrarian News On the afternoon of August 20, I visited the website of a shadowy group called Neighbors for Strong Communities. Days earlier, it had begu"
+          "searchJob": "minnesota",
+          "text": "‘You’re Fired’: Nearly 40 pro-life groups urge Trump admin to cut off Planned Parenthood funds | Fox News Nearly 40 pro-life and faith groups are calling on the Trump administration to cut off Planned Parenthood from all federal funding by "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098033152048386204",
-          "author": "owengregorian",
-          "searchJob": "washington",
-          "text": "Merz Cancels Trump Call After Trump Hails AfD Victory and Slams Germany’s Globalist Mass Migration Policy | Robert Semonsen, The Gateway Pundit Germany’s left-liberal, globalist Chancellor Friedrich Merz has postponed a planned telephone co"
+          "postId": "2098040128476258735",
+          "author": "francoboca",
+          "searchJob": "army",
+          "text": "The top latest USA news (Thursday 10 Sep, 09:25) 1) Trump makes highly unusual promise of 5,000 for all if Republicans win midterms First Thing .... Guardian Speaking in Dallas, the president raised ethical concerns with an apparent 1tn off"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098033028773642674",
-          "author": "p_f_lherisson_",
-          "searchJob": "washington",
-          "text": "🔴Trump Wants to bribes Out $5,000 Checks. Is That Possible? =================== 😂🤣The \"buy-ologist\" claims he will pay $5,000 to anyone who votes Republican. However, receiving any form of payment to vote for a candidate is illegal. Furt"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098033001049305385",
-          "author": "imagumdrop2",
-          "searchJob": "washington",
-          "text": "🧵/6 LESSON SIX: What About the Debt? Several of the more thoughtful commenters said: “Put it toward the deficit. My grandkids will thank you.” I respect that instinct. It’s a conservative instinct. But let me ask you something: in your lif"
+          "postId": "2098039511909642440",
+          "author": "dsqportervsccp",
+          "searchJob": "army",
+          "text": "“Raquel Garbers was the principal architect of the small team that drafted Canada’s 2024 defence policy, Our North, Strong and Free. On Oct. 15, 2025, she published an opinion piece warning that Ottawa’s increasingly anti-American rhetoric "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098028451059953831",
-          "author": "danadams_46",
-          "searchJob": "washington",
-          "text": "Several U.S. states that once offered billions of dollars in tax incentives to attract data centers are now starting to pull those incentives back. Does that threaten the AI data center buildout? Illinois, New Jersey, Washington, and more t"
+          "postId": "2098033068275565018",
+          "author": "thelemniscat",
+          "searchJob": "army",
+          "text": "S. Shilov: \"An Alternative Germany: From Pensions to Trenches The success of \"Alternative for Germany\" (AfD) is not primarily the product of cunning political maneuvering, but rather the triumph of a protest party. Chancellor Merz may grima"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098022699259822581",
-          "author": "economist",
-          "searchJob": "washington",
-          "text": "⚖️ Hyperliquid just hired a former US Solicitor General to defend a rule that helps every one of its competitors. The Hyperliquid Policy Center filed an amicus brief on September 9 asking a Washington court to throw out CME Group's lawsuit "
+          "postId": "2098032805267566873",
+          "author": "ibookwins",
+          "searchJob": "army",
+          "text": "You all have imoenetrable rosey glasses on when thinking about lpth. Let me offer another view on the RFI that has nothing to do with delays or other sources which is negative for all companies involved: The army thinks they are being charg"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098021150752125383",
-          "author": "si14llc",
-          "searchJob": "washington",
-          "text": "#bet365 Launches in Washington, D.C. With Three Team Deals Bet365 has entered Washington, D.C. with a #sportsbook covering 100+ sports and live betting. New customers can claim “Bet $10, Get $50 in #Bonus Bets”. A multi-year Monumental #Spo"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098020512291033381",
-          "author": "grippan65momi",
-          "searchJob": "washington",
-          "text": "😂 Thomas, at least index the offer to inflation. If Washington can spend trillions without blinking, expecting voters to be impressed by $5,000 is almost insulting economics. But seriously: votes aren’t for sale — accountability is pricele"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098018665992212643",
-          "author": "ignewstoday",
-          "searchJob": "washington",
-          "text": "🏛️ @bet365 is live in Washington, D.C. And it walked in with a multi-year deal with Monumental Sports, becoming a Proud Partner of the Capitals, Wizards and Mystics. 100+ sports, live betting, and the Early Payout Offer are all in from day"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098022439947235668",
-          "author": "missionartist",
-          "searchJob": "wisconsin",
-          "text": "@_evolution328 Yes Exactly Elon Musk made a really crazy offer to Wisconsin voters Here's a few headlines https://t.co/lvzApef2xl"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098025524564029705",
-          "author": "mgentry201",
-          "searchJob": "houston",
-          "text": "i humbly offer houston girls by souf$ide https://t.co/HLQLQsZnJu"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098011120652972368",
-          "author": "bonnyaye",
-          "searchJob": "houston",
-          "text": "@YourAnonCentral @1goodtern They have precedent bc Musk was found guilty for the $1M he offered. Not that anything came of it other than no one got paid - shocker."
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2098011664331227285",
-          "author": "johnnyh23",
-          "searchJob": "kansas",
-          "text": "@greggiroux So he’s basically a Clinton Democrat? Lol but it’s either that or another religious conservative freak show and I’m just done doing that. That’s all Kansas has offered since the 1990s. Far right religious nuts and Koch funded bi"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098034951547691146",
-          "author": "bmaafinfl",
-          "searchJob": "boise-state",
-          "text": "Some quick thoughts after watching Oregon-Boise State again: Evan Stewart is still fast, but that's about all he offers. Both schools have 2 NFL RBs on their rosters. We expect this from Oregon, but how did Boise do it...again? Matt Wagner "
+          "postId": "2098028929680281672",
+          "author": "laserindexmgmt",
+          "searchJob": "army",
+          "text": "LASER Index Management Charter The main purpose of this document is to give you an understanding of how you can get the most value out of spending time with me via reading my posts, my research, and occasionally listening to my thoughts thr"
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2098013341402726691",
-          "author": "braheembattles",
-          "searchJob": "florida-international",
-          "text": "Humbled &amp; Blessed to EARN an offer from @FIUFootball 🔵⚪️ #B4D #LLK #LLD @CoachJoeCauthen @coach_Gomez36 @ButlerGrizzlyFB @Coach_JL51 @CoachTylerCurts @chrisjammar @A1Rsports @AllenTrieu @BradHoiseth @JuCoFootballACE @JUCOFFrenzy https:"
+          "postId": "2098028270969074131",
+          "author": "imfiredup2",
+          "searchJob": "army",
+          "text": "Ok the only person that can determine loyalty to the President is the President. 1. The President unclassified these documents. 2. His Transparency czar worked to have this released. 3. When it was released The President Shared it on his pe"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098026368407589215",
+          "author": "tamilguardian",
+          "searchJob": "army",
+          "text": "🕯 Sathurukkondan families demand ICC referral 36 years on Relatives of the 186 Tamil civilians killed at Sathurukkondan have called for a forensic excavation of the former Sri Lankan Army camp where they died, and for the case to be referr"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098025088004030525",
+          "author": "owengregorian",
+          "searchJob": "army",
+          "text": "Gamified DDoS attacks target NATO nations with psychological warfare, study shows | Hailey Crawford, ScienMag In an era where cyberattacks are often measured solely by downtime, bandwidth and remediation costs, a groundbreaking study from F"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098021018438603010",
+          "author": "celebpatrolug",
+          "searchJob": "army",
+          "text": "🚨 Beti Kamya Set to Launch Late Father’s Autobiography as Museveni Takes Centre Stage Former Inspector General of Government Beti Olive Namisango Kamya is set to launch the autobiography of her late father, Lt. Col. (Rtd) George Wilson Kam"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098014793453957485",
+          "author": "atlantiskalki",
+          "searchJob": "army",
+          "text": "Robert Monroe: The Hemi-Sync Tapes In the 1950s, New York broadcasting executive Robert Monroe began exploring the effects of sound on human consciousness. Fascinated by the idea that audio frequencies could enhance learning and alter menta"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098019018581967310",
-          "author": "kent_cc",
-          "searchJob": "kent-state",
-          "text": "The Kent & Medway Safe Havens offer free mental health support for adults, 7 days a week — no appointment needed, just drop in. Whether you're struggling or just need someone to talk to, we're here for you. 📍 Find your nearest Safe Haven a"
+          "postId": "2098012834126864574",
+          "author": "michaelrafael84",
+          "searchJob": "buffalo",
+          "text": "Psalm 51:1-19 \"Have mercy on me, O God, according to your steadfast love; according to your abundant mercy blot out my transgressions. Wash me thoroughly from my iniquity, and cleanse me from my sin. For I know my transgressions, and my sin"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098028433720983674",
-          "author": "mukumama518",
-          "searchJob": "liberty",
-          "text": "Driving along the coastal highway offers the most stunning ocean vistas on the route. The azure waters and sky stay with you throughout, filling each mile with romance and a sense of liberty.🧀Winter Walk No frostbite https://t.co/LNAFa72Lq"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098026335977271404",
-          "author": "pilar71605286",
-          "searchJob": "liberty",
-          "text": "🖨Chase your aspirations regardless of anything at this moment. I love journeying solo because it offers absolute liberty. I’m able to pause at beloved vistas, linger in charming lanes, and pursue my own desires entirely, without having to "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098020828717748300",
-          "author": "dacm_82",
-          "searchJob": "liberty",
-          "text": "👠Piano Music The melody is lovely Being disciplined means staying true to the person you will become, rather than treating yourself cruelly. Remove pointless everyday diversions, keep up with modest commitments, and self-mastery offers the"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098013910716567771",
-          "author": "docrussjackson",
-          "searchJob": "liberty",
-          "text": "Small boat Channel crossings, the most visible and heavily tracked illegal entry route, are down year on year. Home Office figures show around 33,000 detected arrivals in the year to June 2026, down from 41,000 in 2025 and roughly level wit"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098012331443699746",
-          "author": "pressmonitorin",
-          "searchJob": "liberty",
-          "text": "[14] Essential Insurance Stories for Industry Professionals https://t.co/42dQmpHJcO According to Press Monitor's tracking of Indian publications, today's print media monitoring reveals fourteen essential developments across the insurance se"
+          "postId": "2098009647915335714",
+          "author": "srskip8",
+          "searchJob": "buffalo",
+          "text": "BORN RUNNING: THE STORY OF A WILDEBEEST CALF ARRIVING IN THE HERD The footage is not dramatic in the way a chase or a violent kill scene is dramatic. There is no lunging predator, no cloud of dust kicked up by galloping hooves, no screaming"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098026165197734269",
-          "author": "ched1990",
-          "searchJob": "south-florida",
-          "text": "@M_Shaw1 Hi Matt. Who do you think Bulls will be signing as a 7 for next season? Could Hastings be an option if he doesn't have an offer from a top 6 club?"
+          "postId": "2098038355149664689",
+          "author": "oddsmokersteve",
+          "searchJob": "charlotte",
+          "text": "If you're looking for something to run on Rams/49ers tonight, Kalshi has a solid price up for Mike Evans to find a touchdown New users get a \"Trade 25, Get 25\" offer when you sign-up, so check it out and have some fun tonight during the gam"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098034403456712809",
+          "author": "esrjournals",
+          "searchJob": "charlotte",
+          "text": "Umbilical endometriosis: can cryoablation offer a minimally invasive alternative? 🧊 🎀 Umbilical endometriosis is rare, but it can cause significant cyclical pain, bleeding, cosmetic concerns, and reduced quality of life. De Rycke et al. e"
         }
       ]
     },
@@ -365,12 +391,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 27,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 43,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T13:13:09.524Z"
+    "status rebuilt locally from current store on 2026-09-10T13:27:59.443Z"
   ]
 }
