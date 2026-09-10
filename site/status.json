@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T14:43:25.015Z",
+  "generatedAt": "2026-09-10T14:56:48.611Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T14:43:24.762Z",
+    "at": "2026-09-10T14:56:48.390Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 7,
+    "requests": 8,
+    "fullSweepCycles": 24
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0163694444444444,
-    "p95Hours": 1.785751388888889,
-    "worstHours": 2.0238925
+    "medianHours": 1.0025047222222223,
+    "p95Hours": 1.7550377777777777,
+    "worstHours": 2.0089725
   },
   "decisionCoverage": {
-    "total": 65,
-    "decided": 65,
+    "total": 4,
+    "decided": 4,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 45
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 975,
     "incompleteOffers": 0
@@ -55,373 +55,67 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T14:43:24.762Z",
-      "got": 82,
-      "new": 65,
-      "lag": 0.04
+      "at": "2026-09-10T14:56:48.390Z",
+      "got": 6,
+      "new": 4,
+      "lag": 0.14
     }
   },
   "audit": {
-    "at": "2026-09-10T14:41:49.667Z",
+    "at": "2026-09-10T14:56:15.637Z",
     "mode": "live",
     "collection": {
-      "returned": 82,
-      "kept": 65,
-      "duplicate": 16,
-      "tooOld": 1,
+      "returned": 6,
+      "kept": 4,
+      "duplicate": 2,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 42,
-      "rejected": 23,
+      "accepted": 1,
+      "rejected": 3,
       "reasons": {
-        "non_fbs_offer_target": 2,
-        "no_offer_term": 12,
-        "no_fbs_school": 8,
-        "hard_negative": 1
+        "no_fbs_school": 2,
+        "no_offer_term": 1
       },
       "samples": [
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2098056492725240163",
-          "author": "marlindavi53451",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After great talks with @coach_G63 I’m blessed to receive my first official offer from Westminster College @WC_Titans #Titans https://t.co/wQqnLqSmv4"
+          "reason": "no_fbs_school",
+          "postId": "2098052433536532842",
+          "author": "oagmaryland",
+          "searchJob": "maryland",
+          "text": "Identity theft is on the rise in Maryland. But understanding the warning signs and acting quickly can help you avoid it. My Office offers free resources to help. We'll show you how to spot identity fraud and recover from it. Get started her"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098053802570162626",
-          "author": "dsaccheri2018",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "@MelGibsonxvyv I own my grandfather’s that looks exactly like this. It’s been opened a million times and pages are fragile. It was the only thing of his I wanted, and I was blessed to receive it. It sits on my headboard just as it sat on hi"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098046464677294102",
-          "author": "elijah_x_woods",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an invite to visit Colorado Mesa University! Thank you to the @CMUMavsFootball staff for the opportunity. Looking forward to getting on campus November 14th and learning more about the program. 🤘🏾🏈 #AGTG #CMUMavs #Recr"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098037438253879379",
-          "author": "jamar1donaldson",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive home games invitations GO NOLES!! @DBcoachadams @CoachJesse18 @CoachGMoss https://t.co/ILwnfkTDtK"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098031803718087160",
-          "author": "wojcik_sean",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I'm also blessed to receive a personal game invite to Mercyhurst's upcoming home games this season! I would like to thank @CoachWaring for allowing this opportunity to happen, and I'm very excited to visit and experience the program! #RollL"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2098035769604534307",
-          "author": "joy_pettigrew3",
-          "searchJob": "phrase:\"blessed to have received\"",
-          "text": "Blessed to have received an offer from HC Erin Bath of Providence University🔥 https://t.co/h8i1JFdrft"
+          "postId": "2098060963257696449",
+          "author": "thevalueist",
+          "searchJob": "delaware",
+          "text": "https://t.co/DDfDpHfHdK"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098055109263663168",
-          "author": "rob4b1",
-          "searchJob": "colorado",
-          "text": "@POLICEINFLA I retired from Colorado State Patrol in 2005 at age 53, not because I was tired of the job but the constant call outs at 0dark30 was causing issues. The sheriff offered me a job as a seasonal back country deputy, 6 months on an"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098053323437769047",
-          "author": "wikitube911",
-          "searchJob": "colorado",
-          "text": "https://t.co/DLdeKcnxtV"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098041121863569502",
-          "author": "dpostsports",
-          "searchJob": "colorado",
-          "text": "You gotta love inter-class warfare in the early season. Week 3 offers another compelling 5A-4A showdown. https://t.co/IyZbeakuDg"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098039132216008806",
-          "author": "colorado411_420",
-          "searchJob": "colorado",
-          "text": "🤔 Do you believe this? President Trump promised he will give every adult $5,000 if the republicans win the house of representatives and United States senate. But under federal law it is illegal to offer or solicit or accept any expenditure"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098035008975831196",
-          "author": "cedarsandsaints",
-          "searchJob": "colorado",
-          "text": "A Catholic gym in Colorado called “Grow the Kingdom” has: &gt; a giant Crucifix at the entrance &gt; a board where you offer your workout for prayer intentions &gt; a modest dress code &gt; clean music &gt; priests working out there Their p"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098056150705139989",
-          "author": "duketravancore",
-          "searchJob": "duke",
-          "text": "Atheists DO have lots to offer to discourse."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098055209872224655",
-          "author": "muoki_1",
-          "searchJob": "duke",
-          "text": "@KiprotichSNR1 President Ruto's launch of Kapkatet Stadium fulfills a major youth empowerment vision in Kericho. The KSh 1.1 billion venue offers local talents a top-tier stadium to hone their skills and chase international athletic dreams."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098052476746535143",
-          "author": "bensoph_hc",
-          "searchJob": "duke",
-          "text": "6. Artemis Greaves in Duke of Midnight -She worked as a Lady's companion for her cousin -Got offered to be a mistress (she actually accepts) -There are many similarities to AOFG, I made a thread about it before https://t.co/XXAlNWO7Q6"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098048582125273553",
-          "author": "thedukeofwelly_",
-          "searchJob": "duke",
-          "text": "@laffythfc Bentancur needs to be in there to offer some protection"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098056665144733901",
-          "author": "average_joe67",
-          "searchJob": "wake-forest",
-          "text": "@Riffraff3232 Pretty soon I'm hiding my money under my mattress."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097651925298610659",
-          "author": "coreyganim",
-          "searchJob": "wake-forest",
-          "text": "I’m convinced that if an elite info marketer used their skillset to scale a boring local service business they’d be very wealthy very quickly"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097909011194814582",
-          "author": "garymarcus",
-          "searchJob": "wake-forest",
-          "text": "“Everyone killed” still seems to me to be an unrealistic exaggeration; I still don’t see a plausible path to that."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097949804860948667",
-          "author": "telegraph",
-          "searchJob": "wake-forest",
-          "text": "Donald Trump has promised to give every American adult $5,000 if Republicans retain control of Congress in the midterm elections. It comes as his approval ratings hit a record low. 🔗: https://t.co/0X81Knknsz https://t.co/T97ABtST4I"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098049341877317752",
-          "author": "rafaelfontana",
-          "searchJob": "arkansas-state",
-          "text": "Autoridades colombianas desmantelaram uma refinaria do tráfico e apreenderam 859 kg de cocaína. O lugar tinha capacidade de processar 3 toneladas por mês, e transportava a droga via Equador. No Brasil, Lula iria defender os traficantes e o "
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098054606328918111",
-          "author": "dgxrmm",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/qmBfT5KBQn I call on humanity to prepare for My Great Mercy December 3, 2012 My dearly beloved daughter, with all your strength and with all your courage, I call on humanity to prepare for My Great Mercy. Those of you with a hu"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098050221057986756",
-          "author": "mvtrx_79",
-          "searchJob": "arkansas-state",
-          "text": "Summary of our first community AMA. https://t.co/Vo9Fsu8XPO"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097928024750526490",
-          "author": "jane_ethan12",
-          "searchJob": "arkansas-state",
-          "text": "Do you support Palestine⁉️ ○ Yes ○ No https://t.co/OrHeEMTjdF"
+          "postId": "2098043431943619068",
+          "author": "barrishcris",
+          "searchJob": "delaware",
+          "text": "One incumbent offers a potential foe a job he couldn't take. Another incumbent suggests one candidates consider a nonexistent job instead of running. What in the name of primary season is happening in @Delaware? and @NCCDE. https://t.co/H7E"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 41,
+      "accepted": 0,
+      "rejected": 1,
       "reasons": {
-        "school_not_resolved_confidently": 11,
-        "player_missing_football_context": 1,
-        "multiple_resolved_schools": 2,
-        "bare_mention_requires_llm": 27
+        "bare_mention_requires_llm": 1
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098052272630505618",
-          "author": "tommieclay_2027",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my first offer from Blackhawk Tech #agtg https://t.co/OYxJWDVBiF"
-        },
-        {
-          "reason": "player_missing_football_context",
-          "postId": "2098046497619087796",
-          "author": "javelldonley",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Truly blessed to receive an offer from Akron @Coach_J_Rod @DarrenSunkett @ycliff58 @CoachTDismukes @coachnellyy @CochBG4 @hamitchom @JPRockMO @EDGYTIM @AllenTrieu @247recruiting @RivalsHS @On3 https://t.co/ol2RkFb1fN"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098048853195051027",
-          "author": "thesportsontap",
-          "searchJob": "arizona-state",
-          "text": "Darian Mensah threw 25 touchdowns as a senior at Saint Joseph High School in Santa Maria, California, and won his league's Player of the Year. Recruiting services rated him a two-star. On the 247Sports composite he was the 2,672nd ranked pl"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098056769331192074",
-          "author": "graygrundhoefer",
-          "searchJob": "baylor",
-          "text": "2. QB Tevin Carter was a strong HS recruit and is playing well to start the season. Stats: 531 yards 5 TDs passing (66.1 comp%) with 147 yards 2 TDs rushing Added major offers early in HS before ending up at Memphis. HS Offers: Baylor, Ole "
-        },
-        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098049484089389315",
-          "author": "bentleylus28",
-          "searchJob": "ucf",
-          "text": "Thank you to the University of Central Florida and Coach Waterman and Coach Hood for the college scholarship offer! All glory to God. https://t.co/0xPRh3nZmf"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098059191034187966",
-          "author": "magachadj",
-          "searchJob": "wake-forest",
-          "text": "Awful quiet this morning Bern, in the wake of the Trump $5000 dividend offer. What, you against socialism and money distributed to the people now too? 🤣 🤣 🤣 @BernieSanders"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098057496904552550",
-          "author": "riffraff3232",
-          "searchJob": "wake-forest",
-          "text": "When the Chinese finally shut the power off in this country… And all the sudden we wake up and it’s 1850… All these folks that have hoarded money trying to buy stuff will be comical… You’ll offer somebody $100, and they’ll say “I don’t want"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098056808359202886",
-          "author": "christo57456648",
-          "searchJob": "wake-forest",
-          "text": "As we all watched the RNC convention last night I would like to give a little free advice. This is your answer! This is how you win the mid terms. You offered $5,000 dividend checks. You offered them because it is something tangible somethi"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098055797154672811",
-          "author": "mwahl73",
-          "searchJob": "wake-forest",
-          "text": "@glenn_tunes It’s political advertising, which is against the rules unless you offer the same airtime to the opposite parties. Wake up it has nothing to do with trump. Moron"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098053640531697762",
-          "author": "revsarahgarner",
-          "searchJob": "wake-forest",
-          "text": "Study Notes - (Hastings Dictionary) Death DEATH I. In the OT.—1. The Heb. term mâweth and our corresponding word ‘death’ alike spring from primitive roots belonging to the very beginnings of speech. One of man’s first needs was a word to de"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098049764147315068",
-          "author": "jayzemc2",
-          "searchJob": "wake-forest",
-          "text": "@realBrandonGill This dense Christian nationalists offers nothing but grievances and hatred, Maga. Wake up! https://t.co/lThK5SC4D0"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098047033277894924",
-          "author": "colgantafflerr",
-          "searchJob": "wake-forest",
-          "text": "100% info marketers literally learn how to manufacture desire for shit people didn’t wake up needing now give that same skillset to a roofing, HVAC, plumbing, etc. company where the customer’s roof is leaking or their AC just died and they’"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098046959231566335",
-          "author": "jondipietronh",
-          "searchJob": "wake-forest",
-          "text": "Wake me up when someone offers a plausible path"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098043343351476609",
-          "author": "unionyes19",
-          "searchJob": "wake-forest",
-          "text": "@Kmadry1234Karen @BiggHowie23 @atrupar What has Trump offered? Lies. He hasn’t followed thru on any of his bullshit, but people like you still are stupid enough to believe him. Wake up Asshole. Enjoy your $5000 check. You can put it with th"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098038234081071453",
-          "author": "jedikj95",
-          "searchJob": "wake-forest",
-          "text": "What about the previous monetary compensation he offered the public, before he later decided he didn't. Fuck, wake up USA, this fuckwit is exactly why your country has lost any respect to it once had!"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098037215721115948",
-          "author": "m0destma0ist",
-          "searchJob": "wake-forest",
-          "text": "[at a job interview not looking at the woman who is going to be told to offer me a job in two hours & will quit the company next month, clearly ignoring her last question asking about the 6 year gap in your resume] haha dude yeah totally, I"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098043402654830601",
-          "author": "shahpas",
-          "searchJob": "air-force",
-          "text": "Tomahawk and AGM-158 JASSM cruise missiles. Note the influence of geography: you want to laterally strike a tunnel entrance, not waste expensive munitions blasting rock to get to the actual tunnel entrance. Cruise missiles offer this capabi"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098057986719584510",
-          "author": "gabanon2",
-          "searchJob": "arkansas-state",
-          "text": "@Modster99 i've thought for a while they'll drive the CAD to near zero, especially against a commodity backed new treasury USD. When that happens there's not going to be much resistance to Trump's 1:1 offer to become a State."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098056780152541358",
-          "author": "drewpeacock911",
-          "searchJob": "arkansas-state",
-          "text": "@CamillaTominey Man frequented Epsteins island. He’d tell you the tooth fairies were offered a state if his handler told him to."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098056759160226216",
-          "author": "artonomous",
-          "searchJob": "arkansas-state",
-          "text": "@Jessewithlovee They were offered a state and instead decided they wanted to wipe out every single Jew. Then they cry and bitch."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098055115756199960",
-          "author": "worldsocionics",
-          "searchJob": "arkansas-state",
-          "text": "A better analogy was that you bought a car, a big fellow seizes the car and says you can continue to drive it as long as you do everything he says, you refuse and punch him on the nose, and he expels you from the car. Then after a significa"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098055105278779653",
-          "author": "marcelo7736071",
-          "searchJob": "arkansas-state",
-          "text": "Brazil is no longer only a corridor. It is becoming a shelter. It can become more complex and more dangerous: a continental landmass, thousands of kilometers of jungle and river borders with Venezuela, Colombia, Peru, Bolivia and the Guiana"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098051333177659580",
-          "author": "tweetcindyswift",
-          "searchJob": "arkansas-state",
-          "text": "@RepRaskin Is election bribery a state offense? If so, lets get him. A bribe is money or something of value given, offered, or promised to someone—often illegally—to persuade them to change their behavior, judgment, or actions in your favor"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098051283244457990",
-          "author": "cmadsq",
-          "searchJob": "arkansas-state",
-          "text": "@SuziQZQ I hear you. They were offered a path to a state and they walked away. That was a disaster, and a lot of people in Gaza and the West Bank backed rejection and violence, not a deal. I still would not say all of them only want to kill"
+          "postId": "2098059402095874349",
+          "author": "akerman_law",
+          "searchJob": "maryland",
+          "text": "In two recent decisions, the Maryland Tax Court found the state's Digital Ad Tax is not fairly related to services Maryland provides. Akerman attorneys offer four takeaways for taxpayers facing taxes with global-revenue triggers. #SALT #Dig"
         }
       ]
     },
@@ -429,18 +123,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 7,
+      "failed": 1,
+      "requests": 8,
+      "errors": [
+        "florida-atlantic: rate limited"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 41,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 1,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T14:43:25.016Z"
+    "status rebuilt locally from current store on 2026-09-10T14:56:48.612Z"
   ]
 }
