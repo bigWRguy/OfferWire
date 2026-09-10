@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T03:42:56.867Z",
+  "generatedAt": "2026-09-10T03:57:48.281Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T03:42:56.573Z",
+    "at": "2026-09-10T03:57:47.988Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7775283333333334,
-    "p95Hours": 1.5250788888888889,
-    "worstHours": 1.7760016666666667
+    "medianHours": 0.7639927777777777,
+    "p95Hours": 1.5241252777777778,
+    "worstHours": 1.7726938888888888
   },
   "decisionCoverage": {
-    "total": 32,
-    "decided": 32,
+    "total": 36,
+    "decided": 36,
     "complete": true
   },
   "pending": {
@@ -55,242 +55,294 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T03:42:56.573Z",
-      "got": 67,
-      "new": 32,
-      "lag": 0.03
+      "at": "2026-09-10T03:57:47.987Z",
+      "got": 70,
+      "new": 36,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-10T03:41:20.781Z",
+    "at": "2026-09-10T03:56:11.572Z",
     "mode": "live",
     "collection": {
-      "returned": 67,
-      "kept": 32,
-      "duplicate": 35,
+      "returned": 70,
+      "kept": 36,
+      "duplicate": 34,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 20,
-      "rejected": 12,
+      "accepted": 18,
+      "rejected": 18,
       "reasons": {
-        "no_fbs_school": 4,
-        "non_fbs_offer_target": 5,
-        "hard_negative": 2,
-        "no_offer_term": 1
+        "no_fbs_school": 10,
+        "no_offer_term": 7,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2097885705795977641",
-          "author": "qbtofast",
-          "searchJob": "south-florida",
-          "text": "Glad to receive an offer from south Florida technical college thanks to my head coach @FCoston41738 @South_Fl_Tech https://t.co/HDV3rjWtom"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097868323174146515",
-          "author": "lenix_addkison",
-          "searchJob": "ole-miss",
-          "text": "So blessed and grateful to receive my first offer from East Mississippi Community College! 🦁🥎 Thank you to EMCC and Coach Aleman for believing in me and giving me this opportunity. I’m so excited for what the future holds and can’t wait t"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097880928391422257",
-          "author": "rileyjohns2028",
-          "searchJob": "phrase:\"all glory to god\" offer",
-          "text": "Extremely blessed and grateful to receive my FIRST COLLEGE OFFER from Hendrix College! 🧡🖤 Thank you Coach Sullivan, Coach Gibson, and the entire Hendrix Women’s Basketball staff for believing in me and giving me this opportunity. I’m than"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097890958096343518",
-          "author": "leonard_akhigbe",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG Blessed to earn my 1st offer from Shawnee State University @SSUBEARSFB @jimmy_peyton1 @coachmarksnyder @wadegreen12 @GridironImports https://t.co/YQFsx4IVVw"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097885295530176722",
-          "author": "marcus2morris",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "TRULY BLESSED! To receive my Third D1 offer from North Dakota State University! #agtg🙏🏾 @Coach_Morris66 @LakeHowellFB @Coach_Will26 @DanLaForestFB @247Sports @TomLoy247 @MisterLilly @CoachCrutchley @NP4Football_OT @CenFLAPreps https://t.c"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2097879533865116077",
-          "author": "raymeirkirby",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "After great conversation with @coach_G63 i am blessed to receive my first offer from Westminster University!!! #Gotitans #AGTG @VASJFootball @WCtitansFB https://t.co/k2xMfZKTpL"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097878223652851758",
-          "author": "ajslape",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "After Received Great News From Coach Desmond Gist I am Blessed to Receive my 13🅾️ffer and 2nd D2 Offer from @TUDragonFB #AGTG @CoachNeilson_FB @CoachNobleWGHS @FB_RedWolves @CoachDNCSA @ncsa @NCSA_Football @gridironarizona @PrepRedzoneAZ @"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2097866966568513676",
-          "author": "thepittstopblog",
-          "searchJob": "pittsburgh",
-          "text": "Youre telling me that these 2 teams were the best we had to offer last season?"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2097886204800737596",
-          "author": "stellarhoops",
-          "searchJob": "stanford",
-          "text": "Class of 2028 6’5 (Dream Vision Basketball 3SSB) Joshua Agbo holds offers from UNLV, Arizona State, Stanford and more. Joshua knocks down jumpers on every level, explosive first step, physical on ball defender, rebounds, makes the game easi"
+          "postId": "2097867980675936681",
+          "author": "saveraaintl",
+          "searchJob": "class:2026",
+          "text": "🌴 Veg Oils Market Summary — 9 September 2026 📉 CPO futures: BMD CPO ended mixed as profit-taking and weakness in Dalian palm olein/soybean oil pressured prices. November CPO fell 0.18% to RM4,967/t. 🇨🇳 Dalian oils: Palm olein declined 1"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097871405761048762",
-          "author": "ricktheeone",
-          "searchJob": "stanford",
-          "text": "https://t.co/MZkxhrjSK5"
+          "postId": "2097881380000509980",
+          "author": "ledoge126916",
+          "searchJob": "class:2027",
+          "text": "https://t.co/4c4GnnCmes"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097870519790096790",
-          "author": "stanfordchild",
-          "searchJob": "stanford",
-          "text": "As a Bay Area heat wave intensifies today and the heat advisory remains in effect through 10 p.m. Thursday, Dr. Stephanie Chao, a pediatric surgeon at @StanfordChild, offers essential guidance for keeping children and pregnant women safe. h"
+          "postId": "2097896552027005170",
+          "author": "factedgeguy",
+          "searchJob": "class:2029",
+          "text": "🌍 The last 24 hours 🤖 Anthropic researcher Jacob Coxon publicly resigned with a warning: AI companies (including Anthropic and OpenAI) are \"racing straight to self-improving superintelligence and gambling with our lives.\" Anthropic's alig"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097882814750310501",
+          "author": "dclcruisingdad",
+          "searchJob": "florida",
+          "text": "📊 Disney Cruise Line Discounted Sailings This Week 👀 🏖️ Florida Resident: 49 🎖️ Military: 54 🍁 Canadian Resident: 95 ✨ Select 25% Off: 84 🛳️ Europe: 0 🌴 Southern California Resident: 17 🦁 Singapore: 9 Full breakdown + how to book: h"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097825992152658029",
+          "author": "melaniatrump",
+          "searchJob": "florida",
+          "text": "https://t.co/eYPJvG2xTc https://t.co/OR6XeilLdo"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097687181561389058",
+          "author": "agjamesuthmeier",
+          "searchJob": "florida",
+          "text": "AG James Uthmeier Announces Legal Action against Netflix for Harvesting and Selling Children’s Data https://t.co/tdGzoRmF4a"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2097893094570197307",
-          "author": "red1r1sh",
-          "searchJob": "notre-dame",
-          "text": "@NewsWire_US Under 18 U.S.C. § 597, it is a crime to offer, give, solicit, or accept compensation in exchange for voting, withholding a vote, or voting for or against a particular candidate. He’s using the AIPAC method https://t.co/ksEXOFAc"
+          "postId": "2097893720020677062",
+          "author": "johndurrer2",
+          "searchJob": "arizona",
+          "text": "@Mets2026 @JesusSavesPHL If the Dodgers are anywhere close he is going to pick them. His hometown is in Arizona, where the Dodgers have spring training. He’s already comfortable there. They have the #1 farm system in baseball as well as tit"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097890075300462697",
+          "author": "canyondoc",
+          "searchJob": "california",
+          "text": "They are doing it... Ambrosia 'was' doing it in California \"\"\"Ambrosia was a startup that offered infusions of blood plasma from young donors, claiming potential health benefits, but it ceased operations after the FDA warned that there is n"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097872421575692597",
+          "author": "aliceinwandrlnd",
+          "searchJob": "california",
+          "text": "I’m sorry that @XCreators doesn’t appreciate the value of your channel, Faithful2Pray. Your posts have come to mean so much to me.☺️🙏 Your contemplative posts are beautiful, and your daily prayer requests are a lifeline of hope, knowing so"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097889315552440573",
+          "author": "libertylookout",
+          "searchJob": "liberty",
+          "text": "@crampell Every one of these 'dividends' follows the same scam: government takes, borrows, or prints money, then offers a fraction back as if the politician paid for it."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097888052962005037",
+          "author": "libertykrueger",
+          "searchJob": "liberty",
+          "text": "@LordTash2 @Sofia50020Sofia Video Station offered customers $.99 one day rentals of either VHS or Beta tapes with a $9.99 one time subscription back in the late 1970s. That places this picture in 1977-1979. The Cadillac in the foreground wa"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097457471925133813",
+          "author": "business",
+          "searchJob": "liberty",
+          "text": "President Donald Trump’s special envoy Steve Witkoff earned $107 million in 2025 from the holding company that owned his share of a crypto venture he and his boss helped co-found, according to a recent financial disclosure report https://t."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097883264941785225",
+          "author": "libertykrueger",
+          "searchJob": "liberty",
+          "text": "@JereMemez @Sofia50020Sofia There’s also a sign in the bottom right advertising a subscription plan for $.99 movie rentals. Video Station offered a subscription in this time period for $9.99 that allowed subscribers one day tape rentals for"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2097892608047534402",
+          "author": "clebaron2028",
+          "searchJob": "louisiana",
+          "text": "After an amazing talk with Coach @zackb_122 I am blessed to receive an offer from Louisiana Christian University!! @AllNOneSports1 @NXTLevelSN https://t.co/PLZRKD3iLX"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097873364287176853",
+          "author": "seiler_j36899",
+          "searchJob": "louisiana",
+          "text": "@AHomelyHouse That is awesome. If you were closer to Avoyelles, Louisiana I would offer to be your chaplain"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097631305521398248",
+          "author": "ftopinion",
+          "searchJob": "temple",
+          "text": "Was Jesus anti-capitalist? — Gillian Tett https://t.co/C4fSzVTSuw"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2097886235742142852",
+          "author": "thelogoswithin",
+          "searchJob": "temple",
+          "text": "In July 2000 at the Camp David Summit, and later in December 2000 through the \"Clinton Parameters,\" Bill Clinton put forward proposals for a two-state solution. Under these proposals, the Palestinians would have been offered: A sovereign, n"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097877746513039830",
+          "author": "seethalakshm235",
+          "searchJob": "temple",
+          "text": "A sage burnt a crane with a glance. Then a housewife made him wait and told him: \"I am not a crane.\" The Mahabharata placed her above him. What that story says about the Eiffel Tower, the BAPS monks, and what Sanatana Dharma actually asks o"
         }
       ]
     },
     "extraction": {
-      "accepted": 4,
-      "rejected": 16,
+      "accepted": 0,
+      "rejected": 18,
       "reasons": {
-        "multiple_resolved_schools": 2,
-        "bare_mention_requires_llm": 2,
-        "reporter_missing_player_name": 3,
-        "school_not_resolved_confidently": 6,
-        "author_not_recruit:not high-school recruit": 1,
-        "unresolved_offer_target": 2
+        "bare_mention_requires_llm": 14,
+        "school_not_resolved_confidently": 1,
+        "multiple_resolved_schools": 3
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097888541690741121",
-          "author": "donpaul850",
-          "searchJob": "southern-miss",
-          "text": "Name: Gabriel Oquendo-Ervin (@GabrielErvin55) School: Gulf Shores (AL) Position: DL Class: 2028 HT/WT: 6-1265 Offers: Tennessee, Texas Tech, Troy, App State, Southern Miss, https://t.co/IUul9Flm4r"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097876894750224581",
+          "author": "frandango69",
+          "searchJob": "florida",
+          "text": "@WhatleyNC PROTECTING OUR YOUTH Saving our children. Mine and yours. The SEX OFFENDER Registry has ruined many of our youths lives. They made an immature decision. A teenager that had consensual sex. No rape, no force, but yet you offer NO "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097891822748012740",
-          "author": "centralarwx",
-          "searchJob": "arkansas",
-          "text": "🌙 TONIGHT’S OUTLOOK — ONE MORE WARM NIGHT BEFORE CHANGES BEGIN We’re wrapping up another brutally hot day across Central Arkansas, and unfortunately the overnight hours won’t offer a whole lot of relief just yet. 😅 Expect a warm and mostl"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2097885288718606387",
-          "author": "bobby_schneid",
-          "searchJob": "nebraska",
-          "text": "Nebraska offers 2028 EDGE/LB Palatine (Ill.) Eliaz Egbe. https://t.co/EuXQDzOpO8"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2097874183254352055",
-          "author": "bobby_schneid",
-          "searchJob": "nebraska",
-          "text": "Nebraska offers 2028 Olney (Md.) OL Josiah Eney. https://t.co/INqD0Aa11v"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2097866784367927444",
-          "author": "timverghese",
-          "searchJob": "nebraska",
-          "text": "Nebraska offers 2028 Olney (Md.) Good Counsel OL Josiah Eney, a fast-rising prospect standing 6-foot-5, 300lbs"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2097887467731071284",
-          "author": "milkywaycupcake",
-          "searchJob": "northwestern",
-          "text": "Germania Moon Magazine X Secret Society By: Wish Fire Saint Gothic Germania Moon Magazine X Secret Society Ancient and Esoteric Secret Societies of Germania https://t.co/mKaa0AJyM5 Several historical and esoteric groups in German-speaking l"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097884371235520591",
-          "author": "markwooster",
-          "searchJob": "oregon",
-          "text": "@Dan_Powers_ If PVB had offered Leo $15 million a year and he agreed, which is what it would’ve taken to sign him, you would’ve said they overpaid and Ducks still would’ve had to dump assets. No one foresaw an $18 million offer. And Kreider"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097877355779801554",
-          "author": "m_mancuso11",
-          "searchJob": "oregon",
-          "text": "Hear me out. The flyers offer sheet Carlson which makes the ducks waive Krieder to afford Cutter. Imagine if Krieder signs with Philly. #nhl @JLazzy23"
-        },
-        {
-          "reason": "author_not_recruit:not high-school recruit",
-          "postId": "2097888652386824663",
-          "author": "alfreddeshon52",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "AGTG After a conversation with @CoachPRandolph I’m blessed to receive my Eighth offer from @LATechFB @Coach_J_Morgan @CoachGuillot @NCDAWGPOUND @JUCOFFrenzy @JuCoFootballACE https://t.co/lPXuNWjRsX"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097879804452200843",
-          "author": "hamilton_w90150",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "After a phone call with @CoachNErling51 I am blessed to receive my second offer from @CUWisconsin! It’s an honor to receive an offer from such a great school and program, im looking forward to seeing more of it! #agtg #CUWfootball #classof2"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097882187198853352",
-          "author": "cyrusshares",
-          "searchJob": "notre-dame",
-          "text": "If the English and French exterminated entire empires and looted every gram of gold and silver there was, I'm sure the English colonies would've been much wealthier than the Spanish, because the English were actually great nation builders a"
+          "postId": "2097871966984397265",
+          "author": "frandango69",
+          "searchJob": "florida",
+          "text": "PROTECTING OUR YOUTH Saving our children. Mine and yours. The SEX OFFENDER Registry has ruined many of our youths lives. They made an immature decision. A teenager that had consensual sex. No rape, no force, but yet you offer NO WAY OUT…FLO"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2097879489682256073",
-          "author": "notredameca",
-          "searchJob": "notre-dame",
-          "text": "📚 ASC Fall 2026 Open House Discover all the ways NDNU’s Academic Success Center (ASC) can support you throughout your academic and career journey! Join the ASC team for a casual virtual Open House to learn more about the resources, guidanc"
-        },
-        {
-          "reason": "unresolved_offer_target",
-          "postId": "2097879093022806071",
-          "author": "irishcruitwire",
-          "searchJob": "notre-dame",
-          "text": "OFFERED: 2028 4-Star WR Damarion Mays Picks Up An Offer From Notre Dame @Champfa6ix ⬇️🔗 https://t.co/ciW3mH21Qz"
-        },
-        {
-          "reason": "unresolved_offer_target",
-          "postId": "2097879060932157716",
-          "author": "bruce_straughan",
-          "searchJob": "notre-dame",
-          "text": "OFFERED: 2028 4-Star WR Damarion Mays Picks Up An Offer From Notre Dame @Champfa6ix ⬇️🔗 https://t.co/rRusbnhVwj"
+          "postId": "2097871626066858236",
+          "author": "frandango69",
+          "searchJob": "florida",
+          "text": "PROTECTING OUR YOUTH Saving our children. Mine and yours. The SEX OFFENDER Registry has ruined many of our youths lives. They made an immature decision. A teenager that had consensual sex. No rape, no force, but yet you offer NO WAY OUT…FLO"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2097870544364572725",
-          "author": "iracesg",
-          "searchJob": "notre-dame",
-          "text": "🇮🇪 Seven Group Ones. Two iconic racecourses. One blockbuster weekend. The Irish Champions Festival takes centre stage at Leopardstown and the Curragh, with more than €5 million in prize money on offer. 🏆 Item, Almaqam and Constitution Ri"
+          "postId": "2097880266245038505",
+          "author": "buckaroo1967",
+          "searchJob": "usc",
+          "text": "@LucasSa56947288 It is illegal to even offer to pay for votes. Trump belongs in jail not on the campaign trail. 18 USC Sect. 597… https://t.co/pzylmsdheq"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2097869941978374387",
-          "author": "lonestarmedics",
-          "searchJob": "notre-dame",
-          "text": "@ProsectorPath Great question, I offer in-person (open enrollment &amp; private groups), monthly virtual classes, rare occasions a free Lunch-N-learn at a local Irish pub, and the Patreon page has years of videos/articles published."
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097896454526530031",
+          "author": "arizman2",
+          "searchJob": "california",
+          "text": "A “no” vote doesn't automatically mean: “I want stores to use your search history to screw you on prices.” There can be objections to how the bill defines personalized pricing, what information qualifies, what businesses are covered, enforc"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097892879750574363",
+          "author": "radarph_media",
+          "searchJob": "california",
+          "text": "Apple will assign an absurd price tag to tech that other companies unveiled a decade ago, and people will still line up for hours just to get first dibs on the product. That’s the iPhone Duo in a nutshell—a folding phone that can set you ba"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097883118531211454",
+          "author": "trumpnobelpeace",
+          "searchJob": "california",
+          "text": "* *** A SHORT READERS DIGEST ANALIZATION *** Analyzing Elon Musk’s strategy and technical setup for feeding Tesla Powerwall electricity back to the grid centers on his Virtual Power Plant (VPP) architecture. Here is an analysis of how it wo"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097880608579956787",
+          "author": "seyfocenter",
+          "searchJob": "california",
+          "text": "Register for Educational Series by the Los Angeles County Office of Education-deadline September 25, 2026 Use the QR code on the flyer or the button below to register for these educational programs. Credit Units offered! Register here: http"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097874263818764791",
+          "author": "lets4go6brandon",
+          "searchJob": "california",
+          "text": "@SenAdamSchiff You're funny. Let's tax the hell out of filmmakers, overregulate them, and then assess an overbearing amount of fees, and then offer a tax break to discourage them from seeking better profit margins elsewhere. Brilliant! Now "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097894556133962172",
+          "author": "gog316322",
+          "searchJob": "liberty",
+          "text": "THIRTEEN The Riddle of the Great Seal of the United States, and the All-Seeing Eye of the Illuminati's Serpent of Wisdom And the great dragon was cast out, that old serpent, called the Devil, and Satan, which deceiveth the whole world...-Re"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097889023574597655",
+          "author": "parthkochhar",
+          "searchJob": "liberty",
+          "text": "Planning a trip to New York City can be surprisingly difficult🗽 Not because there’s too little to do, but because there’s far too much. If you’re heading there, a few things I’d definitely recommend: 🏨 Staying in Manhattan 🌳 Central Park"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097886746776068350",
+          "author": "dropsitenews",
+          "searchJob": "liberty",
+          "text": "REPORT: Trump envoy Witkoff earned $107 million from crypto venture in 2025, disclosure shows Steve Witkoff, President Donald Trump’s special envoy for Ukraine and Middle East negotiations, reported earning $107 million in 2025 from the hol"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097871798771564792",
+          "author": "patrio1776",
+          "searchJob": "liberty",
+          "text": "@HugoHotspur @GPCR50 Totally, the deaths of 40 million people &amp; an authoritarian, oppressive regime that offers no freedom is totally more based than the revolution that ended up ushering in the greatest expansion of freedom, liberty, a"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2097892111148364118",
+          "author": "gog316322",
+          "searchJob": "temple",
+          "text": "TWELVE That Ravenous Dark Bird —Sublime Mysteries of the llluminati's Double-Headed Eagle And he cried mightily with a strong voice, saying, Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of eve"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097890532408119784",
+          "author": "lilaphasia",
+          "searchJob": "temple",
+          "text": "When he overturned the tables of the money changers in the Temple in Jerusalem,what exactly was he attacking? The wider economic systemCould his ideas about inequality offer a challenge to the way we think about capitalism today?Could hebe "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097881668178854242",
+          "author": "hindu_tradition",
+          "searchJob": "temple",
+          "text": "🔱 Mysteries of Panakala Narasimha Swamy Temple The Panakala Lakshmi Narasimha Swamy Temple in Mangalagiri is unlike almost any other Narasimha shrine. 🔹The Lord appears only as a mouth: Instead of a conventional idol, the sanctum has a wi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097878871551152414",
+          "author": "ivanyu19841009",
+          "searchJob": "temple",
+          "text": "A Gruesome Caption Is Not Theology: No, Catholic Relics Are Not “What Devils Do” “Unless you are a surgeon, cutting hearts out of dead people is what devils do.” That sounds shocking. It is also not an argument. First, you have already smug"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2097876927797395851",
+          "author": "phahulhixx",
+          "searchJob": "temple",
+          "text": "Is today the first or third Monday of Shravan? I went to offer prayers at a temple near the forest where elephants come https://t.co/EGnATX1uSP"
         }
       ]
     },
@@ -304,12 +356,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 4,
-      "rejectedCandidates": 16,
-      "brandNewOffers": 3
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 18,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T03:42:56.869Z"
+    "status rebuilt locally from current store on 2026-09-10T03:57:48.282Z"
   ]
 }
