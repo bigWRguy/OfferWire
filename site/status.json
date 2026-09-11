@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T08:58:05.131Z",
+  "generatedAt": "2026-09-11T09:13:12.211Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-11T08:58:04.885Z",
+    "at": "2026-09-11T09:13:12.015Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7759327777777778,
-    "p95Hours": 1.276806111111111,
-    "worstHours": 1.5265941666666667
+    "medianHours": 0.7804297222222222,
+    "p95Hours": 1.5287727777777778,
+    "worstHours": 1.5287727777777778
   },
   "decisionCoverage": {
-    "total": 14,
-    "decided": 14,
+    "total": 30,
+    "decided": 30,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 47
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 1017,
     "incompleteOffers": 0
@@ -55,139 +55,251 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-11T08:58:04.884Z",
-      "got": 21,
-      "new": 14,
-      "lag": 0.07
+      "at": "2026-09-11T09:13:12.015Z",
+      "got": 34,
+      "new": 30,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-11T08:56:26.365Z",
+    "at": "2026-09-11T09:11:43.046Z",
     "mode": "live",
     "collection": {
-      "returned": 21,
-      "kept": 14,
-      "duplicate": 7,
-      "tooOld": 0,
+      "returned": 34,
+      "kept": 30,
+      "duplicate": 3,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 8,
-      "rejected": 6,
+      "accepted": 21,
+      "rejected": 9,
       "reasons": {
         "no_fbs_school": 3,
-        "no_offer_term": 2,
-        "hard_negative": 1
+        "no_offer_term": 6
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2098327076788973816",
-          "author": "tamarakjones57",
-          "searchJob": "georgia",
-          "text": "Oh, but what about Biden and those $2000 checks that everybody got offered and then awarded after some certain people in Georgia got elected? Funny how they just have such a short memory."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098165581488738640",
-          "author": "redwavepress",
-          "searchJob": "georgia",
-          "text": "Rep. Jason Crow (D-CO): “This is a bribe basically. Donald Trump tied this to the election and it’s not okay for any president to do this.” Fox News’ Martha MacCallum: “I think about [NYC] Mayor [Zohran] Mamdani with his free buses and free"
+          "postId": "2098337799262908667",
+          "author": "troytempes41010",
+          "searchJob": "troy",
+          "text": "@ABridgen Not quite true Andy, nobodies forcing anyone to vote anyway, yes financial inducements are being offered but nobodies having their arm twisted."
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098318292767117540",
-          "author": "nbakentucky",
-          "searchJob": "kentucky",
-          "text": "@WhiteHouse @elonmusk what u gonna offer this time for midterms votes...Tesla?"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098315579597725730",
-          "author": "felixdbrown16",
-          "searchJob": "texas",
-          "text": "@RapidResponse47 @POTUS The radical left under the Biden administration ignored procurement offered by Texas Sterling Construction and KWR Construction in 2017. America was blessed with 6 other companies that committed to securing 18- to 31"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098321968059846865",
-          "author": "gyfchan",
-          "searchJob": "california",
-          "text": "@silasdenyer @heyitsyogesh So both of them? Samsung has offered 7 years of OS updates and security patches for a few years now."
+          "postId": "2098332686901240190",
+          "author": "tachyon362",
+          "searchJob": "troy",
+          "text": "@jamestalarico 😂 Do Democrats EVER tell the truth? All Kimmel(D) has to do is offer equal air time to your opponent. However it seems like he’s too much of a partisan hack to do so."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098320991298675009",
-          "author": "capper_rmac",
-          "searchJob": "louisville",
-          "text": "Discussing the Locust Grove, Pocahontas and Iroquois Stakes 2026 https://t.co/yATSWkFLfS"
+          "postId": "2098337138680951129",
+          "author": "chambatilevison",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Congratulations to our musician of the moment, Taruwinga Sugar Sugar Manjokota, on receiving a brand-new GD6 from Sir Wicknell. He truly deserves it!! This is the spirit of the Second Republic under President Emmerson Emmerson Dambudzo Mnan"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098326603554013279",
+          "author": "wooperss",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "@doeprayers I feel blessed to receive such sweet reply 🤍 U deserve to be encouraged, because u write so well! And just for u to believe me, I will persist. You‘re welcome. Thank u for writing these :)"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098325216606962145",
+          "author": "jordandobson520",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with @coachboom_acu I’m extremely blessed to receive my 3rd offer to play at the next level https://t.co/f743jyzvX4"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098329379441111259",
+          "author": "yashsharma711",
+          "searchJob": "texas-tech",
+          "text": "How to get your SaaS in front of global tech listeners for $1/day: 🧵👇 We just launched AirPulse — an interactive 3D Earth where users explore &amp; listen to thousands of live radio stations worldwide. 🔗 https://t.co/rNOQ4zjD4y"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098327094686306360",
+          "author": "indiatvnews",
+          "searchJob": "texas-tech",
+          "text": "Poco X8, Poco X8 Power की सेल, हजारों रुपये सस्ता मिलेगा 10000mAh बैटरी वाला फोन https://t.co/Wvg9Jk20n5"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098323596800336114",
+          "author": "punjabkesaricom",
+          "searchJob": "texas-tech",
+          "text": "Big Billion Days सेल मे iPhone 17 मिलेगा सस्ता! डेट हुई लीक, जानें क्या मिलेंगे ऑफर्स पढ़ें पूरी खबर: https://t.co/NiTWNfvVPZ https://t.co/Fy6leIHCMS"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098319783468965985",
+          "author": "capitalhuntersc",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/xjRG2LHIsE"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 8,
+      "rejected": 21,
       "reasons": {
-        "bare_mention_requires_llm": 6,
-        "school_not_resolved_confidently": 2
+        "multiple_resolved_schools": 1,
+        "school_not_resolved_confidently": 18,
+        "bare_mention_requires_llm": 2
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098324023134327183",
-          "author": "richardballs",
-          "searchJob": "memphis",
-          "text": "Check out Marc Cohn - Walking In Memphis 7” Vinyl Single, Warner Bros https://t.co/C8BA56V0yl Bid or make an offer! #vinyl #marccohn"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098334201133052292",
-          "author": "readysetholiday",
-          "searchJob": "georgia",
-          "text": "4 Scenic Places to Visit This Autumn Puglia, the Istrian Peninsula, Malta and Georgia all offer very different ways to spend a few days away. Which one is your pick? Add it to Ready Set Holiday! and watch the countdown begin. #AutumnEscape "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098328192255987822",
-          "author": "nathanistic",
-          "searchJob": "georgia",
-          "text": "Georgia Police Hunted a Man Who Kept $30 He Found on the Floor at Walmart Officials in Georgia launched a full public manhunt over all of $30. The Albany Police Department went looking for a Walmart shopper who allegedly pocketed cash anoth"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098313073962672624",
-          "author": "urstruelyseshu",
-          "searchJob": "georgia",
-          "text": "@airarabiagroup 3) I have valid visa to travel Georgia i have been to 25 countries so far. 3 times i have been to europe, 7 years i stayed in malaysia. 4) you denied my boarding without proper reasoning 5) on top of it, you didnt offer me r"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098319976490790961",
-          "author": "severusofpot01",
-          "searchJob": "california",
-          "text": "We DO NOT WANT YOU as a 51st STATE! Get that in your HEAD!! I love this CRAP! Why the H would AMERICANS want your LIBERALS?? WHY? We do not need another CALIFORNIA! WE like Alberta but the REST of CANADA is CRAP! WE do not want Toronto, Ott"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098333694297567734",
-          "author": "sgtnewsnetwork",
-          "searchJob": "north-carolina",
-          "text": "🙏🏻 WOW! North Carolina law enforcement officer Chris Langley hand-crafted this bench for 200 hours to honor Sheridan Gorman and EVERY Angel Family nationwide who lost someone to an illegal alien And it's being given to Congress. \"In honor"
+          "reason": "multiple_resolved_schools",
+          "postId": "2098337808947777542",
+          "author": "aprajitanefes",
+          "searchJob": "toledo",
+          "text": "🇱🇧|Mount Ali al-Tahir: A Resistance Stronghold Erased by 1,100 Tons of Explosives, and an Election Spectacle Masked as an Earthquake At 9:08 PM on September 10, 2026, on the Ali al-Tahir ridge in southern Lebanon, Israeli occupation force"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098316081987473812",
-          "author": "culturallingnan",
-          "searchJob": "coastal-carolina",
-          "text": "Fresh seafood flavors from Yantai are making their way to the GBA! The “Fresh Yantai, Prime Seafood Delicacies” 2026 Yantai Sea Cucumber Industry Precision Matching Event kicked off in Guangzhou on September 9, bringing together 12 leading "
+          "postId": "2098337273859219486",
+          "author": "childofeternity",
+          "searchJob": "toledo",
+          "text": "Oh, what a surprise; more ignorant nonsense. You're welcome to your opinions, but when opinions run counter to fact-based reality, only people who lack integrity and have nefarious agendas present such as facts. ▪️The U.S., Israel and Fatah"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098313324094009457",
-          "author": "th3boywonders",
-          "searchJob": "coastal-carolina",
-          "text": "*SOME NIGERIAN NEWSPAPER HEADLINES, 11/09/2026* China supplies 39% of Nigeria’s N28tn imports Crude hits $107, fresh petrol price hike looms Interbank FX turnover jumps 70% to $94.43m FG to Students: You’ll get free 100MB data daily from Oc"
+          "postId": "2098333421688819915",
+          "author": "leofrankchomo",
+          "searchJob": "toledo",
+          "text": "@BRICSinfo Tell me we're outta missiles without telling me we're outta missiles. Look I'm not saying the US doesn't have any weapons left but Pete Hegseth dropped by my house and offered me $50,000 for a box of bottle rockets I had collecti"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098334265528164635",
+          "author": "gymnosophia",
+          "searchJob": "duke",
+          "text": "WODEMAN A Romaunce in Three Actes The Galey-Boy Of alle prisons made by man, the galey is most honest. A dongeoun lieth. It hath a dore, and therfore promiseth that some daye the dore may open. A galey maketh no swich promesse. She hath oor"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098338266252505151",
+          "author": "br1gh7futur3",
+          "searchJob": "texas-tech",
+          "text": "@yoursnandieni no one will suffer except the parasite class of seat-warming indians imported to cheaply fill spots at tech companies and who have stacked the ranks of these companies with underqualified and underperforming failures that hav"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098336616594940120",
+          "author": "techstoriesin",
+          "searchJob": "texas-tech",
+          "text": "[ AmazonIndia Deal Rs 23,799 ] NKI-B29 Huawei Watch FIT 5 Pro Smartwatch, 44.5mm FullView Display, iOS & Android, up to 10 Days Battery Life, Golf, Health Management, Sleep & Heart Monitor, ECG, NFC, Mini Work-Out, Orange [ad] https://t.co/"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098336536366592347",
+          "author": "mukeshc12996751",
+          "searchJob": "texas-tech",
+          "text": "@PoornimaNimo Sab paise ki maya hai. He knows Russia is approaching India with full tech transfer offer for fighter jets which France yet to. Hindi is going universal by 2032🙏"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098336353239126405",
+          "author": "tetratechjobs",
+          "searchJob": "texas-tech",
+          "text": "We want to make a difference with you! See what #TetraTechJobs we have to offer, and work with some of the brightest minds in the industry. https://t.co/B9suM3NqtN #TetraTechJobs"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098335849179918533",
+          "author": "tech_scaler",
+          "searchJob": "texas-tech",
+          "text": "\"The biggest thing I'd tell another founder is that you don't need to know everything before you start.\" - Victoria, Founder of Sip Seekers With 14 years of drinks industry experience, Victoria knew the market, but starting a tech company w"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098329785642483785",
+          "author": "techtrends_zm",
+          "searchJob": "texas-tech",
+          "text": "𝗔𝗳𝗿𝗶𝗰𝗮 𝗧𝗲𝗰𝗵-𝗫𝗽𝗼 𝟮𝟬𝟮𝟲 𝘁𝗼 𝗕𝗿𝗶𝗻𝗴 𝗔𝗳𝗿𝗶𝗰𝗮’𝘀 𝗧𝗲𝗰𝗵𝗻𝗼𝗹𝗼𝗴𝘆 𝗮𝗻𝗱 𝗕𝘂𝘀𝗶𝗻𝗲𝘀𝘀 𝗘𝗰𝗼𝘀𝘆𝘀𝘁𝗲𝗺 𝗧𝗼𝗴𝗲𝘁𝗵𝗲𝗿 𝗶𝗻 𝗟𝘂𝘀𝗮𝗸𝗮 Africa Tech-Xpo 2026 will take place on 26–27 October 2026 at the Mulun"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098329472395346137",
+          "author": "yashsharma711",
+          "searchJob": "texas-tech",
+          "text": "Launch Offer: First 20 SaaS products / tech tools can book any available city for $1 / day. Reply with your product URL or DM me to get your live beacon placed today! 🚀📍"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098328998270914627",
+          "author": "africatechhq",
+          "searchJob": "texas-tech",
+          "text": "Africa Tech-Xpo 2026 will take place on 26–27 October 2026 at the Mulungushi International Conference Centre in Lusaka, bringing together technology companies, startups, investors, policymakers, financial institutions, entrepreneurs and bus"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098328962048852087",
+          "author": "defold",
+          "searchJob": "texas-tech",
+          "text": "We’re happy to announce another talk for the Defold Game Jam 2026 Online Conference! 🎤 Andy Tran, Head of Developer Relations at Heroic Labs @heroicdev, will join us with a presentation: A practical introduction to Heroic Labs’ game tech s"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098328697950335486",
+          "author": "erloesung",
+          "searchJob": "texas-tech",
+          "text": "He is a CFO. New Teslas will have Starlink integrated with outside antennas and will be a mesh network in cities and the only hotspot in villages and nature. T-Mobile is not able to offer coverage in its home country Germany for 20 % of the"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098328193631478091",
+          "author": "ukfintechco",
+          "searchJob": "texas-tech",
+          "text": "G20's 3% transfer fee target will fail globally. @COLIBRIX_ONE offers service-first solution. https://t.co/RhXpV260tN #ukfintech #fintechuk #fintech #fintechnews #finance #financialtechnology #technology #tech #technews #G20 #payments #digi"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098326772420919643",
+          "author": "techieversityhq",
+          "searchJob": "texas-tech",
+          "text": "Yes, you can get hired while you're still learning a tech skill. You don't have to wait until you finish your course before looking for opportunities. If you have developed enough skills to handle the requirements of a role, you can start a"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098325563236876478",
+          "author": "imyadav31",
+          "searchJob": "texas-tech",
+          "text": "🚨 BIG American Express changes from 11 October 2026. Amex India is upgrading its technology platform, but there are some important changes for cardholders hidden inside this update. Here’s what you need to know 👇 1️⃣ No more pooling MR po"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098325280226001020",
+          "author": "newswirelem",
+          "searchJob": "texas-tech",
+          "text": "Uyo 2026: Adegbe Ogbeh to Spotlight Data, Innovative Financing in Nigeria’s Tourism Investment Drive We are excited to announce that Adegbe Ogbeh, Managing Partner & Co-Founder of Lounge One and Paper Hospitality, will be joining us as a sp"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098323983762629030",
+          "author": "mr_saif__khan",
+          "searchJob": "texas-tech",
+          "text": "🔥 Manipal Payment & Identity Solutions IPO gaining momentum! Day 3 subscription numbers are looking increasingly interesting: 📌 Retail: 1.69x 📌 QIB: 0.59x 📌 NII: 0.43x 📌 Overall: 0.75x Retail participation has already crossed the share"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098322582143672468",
+          "author": "rahulsi20783840",
+          "searchJob": "texas-tech",
+          "text": "BRICS’ 🇮🇳: The Soft Center Between A Rock (🇺🇸) & A Hard Place (🇨🇳) The Mirage: ‘We Have To Work And Fight Together As One’ In an article* on de-dollarization dated 22nd Jan 2026 I said: “It is not just the insult and humiliation that "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098320367852916763",
+          "author": "weary_centurion",
+          "searchJob": "texas-tech",
+          "text": "First of all I want to give credit to you for changing your mind with new information. Second, there are some things you misunderstand with METHODIQ and Oddity the holding company. There a few things I’m going to mention here I think you sh"
         }
       ]
     },
@@ -202,11 +314,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 8,
+      "rejectedCandidates": 21,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-11T08:58:05.132Z"
+    "status rebuilt locally from current store on 2026-09-11T09:13:12.211Z"
   ]
 }
