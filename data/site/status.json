@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T12:13:35.154Z",
+  "generatedAt": "2026-09-11T12:28:05.083Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-11T12:13:34.865Z",
+    "at": "2026-09-11T12:28:04.727Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0371141666666666,
-    "p95Hours": 1.5310611111111112,
-    "worstHours": 1.785808611111111
+    "medianHours": 1.030678611111111,
+    "p95Hours": 1.5242772222222223,
+    "worstHours": 1.7727080555555557
   },
   "decisionCoverage": {
-    "total": 25,
-    "decided": 25,
+    "total": 38,
+    "decided": 38,
     "complete": true
   },
   "pending": {
@@ -55,217 +55,273 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-11T12:13:34.865Z",
-      "got": 33,
-      "new": 25,
-      "lag": 0.1
+      "at": "2026-09-11T12:28:04.726Z",
+      "got": 55,
+      "new": 38,
+      "lag": 0.11
     }
   },
   "audit": {
-    "at": "2026-09-11T12:11:57.573Z",
+    "at": "2026-09-11T12:26:28.458Z",
     "mode": "live",
     "collection": {
-      "returned": 33,
-      "kept": 25,
-      "duplicate": 8,
+      "returned": 55,
+      "kept": 38,
+      "duplicate": 17,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 16,
+      "accepted": 29,
       "rejected": 9,
       "reasons": {
-        "no_fbs_school": 1,
-        "no_offer_term": 6,
-        "hard_negative": 2
+        "no_offer_term": 4,
+        "no_fbs_school": 4,
+        "hard_negative": 1
       },
       "samples": [
         {
+          "reason": "no_offer_term",
+          "postId": "2098384155859948002",
+          "author": "mikecompton",
+          "searchJob": "liberty",
+          "text": "Not a theocracy. Not a religious test. A warning: free institutions rest on habits no statute can manufacture. A culture is not legislated back. It is lived back. https://t.co/ZDRBTTWbAI"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098250125856395763",
+          "author": "morteza_yousefy",
+          "searchJob": "liberty",
+          "text": "gSleep fam I believe that @sleepagotchi is underestimated here in that people think that it's a sleep game with a dinosaur and some rewards The game has one small part of it Phones and wearables already are gathering lots of sleep data, the"
+        },
+        {
           "reason": "no_fbs_school",
-          "postId": "2098376809830072711",
-          "author": "thespotlight_x_",
-          "searchJob": "ohio",
-          "text": "This is the best the democrats in Ohio have to offer Temu kamala, looking drunk screeching like hillary and lying about assassination attempts. Wow democrats."
+          "postId": "2098373529204879483",
+          "author": "theledger",
+          "searchJob": "florida",
+          "text": "When it comes to buy one, get one free offers, no one does it more than Publix. But its BOGO rules are different in Florida than elsewhere. https://t.co/BA9LkN3NGQ"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098373520442999094",
+          "author": "tcpalm",
+          "searchJob": "florida",
+          "text": "When it comes to buy one, get one free offers, no one does it more than Publix. But its BOGO rules are different in Florida than elsewhere. https://t.co/a6vdf2uByH"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098373516634550662",
+          "author": "jaxdotcom",
+          "searchJob": "florida",
+          "text": "When it comes to buy one, get one free offers, no one does it more than Publix. But its BOGO rules are different in Florida than elsewhere. https://t.co/emxvQmSQbp"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098068092421128632",
-          "author": "ohiogop",
-          "searchJob": "ohio",
-          "text": "Its only Thursday but let's review @amyactonoh's disasterous week: 1. Amy Acton will not debate @VivekGRamaswamy. 2. Amy Acton gives Ohioans an unsettling glimpse of who she really is: https://t.co/VNSuLLguUw 3. The @toledonews issues a sca"
+          "postId": "2098371518980104227",
+          "author": "aaturcodes",
+          "searchJob": "army",
+          "text": "Your Fireball is reloading. The army isn't waiting. Six weapons, six different answers. Here's how to choose your next shot in Citadel of the Sun. Play: https://t.co/Z1SP88OtJK https://t.co/jAAdtxRlXp"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098370770388885677",
+          "author": "armysnzap",
+          "searchJob": "army",
+          "text": "At the same time this makes me mad abt people who are against a redemption of burning spice because it’s heavily implied he’s suicidal, and just because he never opens up doesn’t mean he doesn’t deserve someone to help him. He deserves the "
         },
         {
           "reason": "hard_negative",
-          "postId": "2098352998602957130",
-          "author": "lofi_chill82733",
-          "searchJob": "rice",
-          "text": "Sunderland 🔴 vs Arsenal 🔵 — MD4 Sunderland’s Attack 🔴 vs Arsenal’s Defense 🔵 Sunderland’s Attack 🔴 They have a Europa League match against AZ after the league fixture. Long Balls 🔴 Build on the left, finish on the right. False 9 🔴 Br"
+          "postId": "2098367193608339518",
+          "author": "jkp3589",
+          "searchJob": "army",
+          "text": "I lived in California for 40 years and finally left it after I retired. The number of crimes or malfeasance he's committed are too many to list over that time period but most recently the Palisades fire victims relief is enough to through h"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098377881906758110",
-          "author": "0xspivach",
-          "searchJob": "ole-miss",
-          "text": "https://t.co/xpz9o4ylvf"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098375071748219058",
-          "author": "robmaness",
-          "searchJob": "ole-miss",
-          "text": "https://t.co/zJuyuVKMVH"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098380116933976340",
-          "author": "coingate_cards",
-          "searchJob": "oregon",
-          "text": "https://t.co/Xpgxkok2AO"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098380574771618282",
-          "author": "bskimike22802",
-          "searchJob": "air-force",
-          "text": "https://t.co/NIKIDnk1hn"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098373767991013710",
-          "author": "bobkauff",
-          "searchJob": "arkansas-state",
-          "text": "Scripture reveals that the filling of the \"cup of indignation\" is not a random occurrence, but a measurable, recurring judicial principle in divine governance. When observing the current global convergence—the open celebration of ancient hi"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098371086534529296",
-          "author": "bullhooves",
-          "searchJob": "arkansas-state",
-          "text": "The operators that actually grow the plant and keep the margin today. Curaleaf, Trulieve, Green Thumb, Cresco, Verano https://t.co/i9o3pVduTq"
+          "postId": "2098381037755572369",
+          "author": "trendyvest",
+          "searchJob": "buffalo",
+          "text": "$SPY · $QQQ · $IWM · $TLT · $ORCL · $ADBE · $MU · $INTC · $SMH · $MRVL · $KR · $XLE · $AAPL · $TSLA · $AVGO · $XLU · $XLF https://t.co/Bj0ABJ5gOQ"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 16,
+      "rejected": 29,
       "reasons": {
-        "bare_mention_requires_llm": 13,
-        "school_not_resolved_confidently": 1,
-        "multiple_resolved_schools": 2
+        "bare_mention_requires_llm": 22,
+        "multiple_resolved_schools": 5,
+        "school_not_resolved_confidently": 2
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098378527963762887",
-          "author": "brightqweku13",
-          "searchJob": "ohio",
-          "text": "@tech_twi Let me show you guys how to search for schools in the U.S. There are 50 states, and each state has hundreds of colleges and universities. Take it state by state. For example, start with Ohio. Search for universities in Ohio, check"
+          "postId": "2098385248740352432",
+          "author": "corylamee",
+          "searchJob": "liberty",
+          "text": "@Bitmextrader1 @Jenny_541672913 @terrybythebay @TheMule1961 The USS Liberty was an unfortunate case of mistaken identity. Israel officially apologized and offered compensation to victim’s families. When have Muslims ever apologized for anyt"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098367534441676934",
-          "author": "teapartypdx",
-          "searchJob": "oregon-state",
-          "text": "You bitched about tarriffs & your team made effort to drag it into court to get it to stop, despite tariffs being effective bargaining chips , with precedent, for bringing back investment to the USA. You don’t get to talk out of the other s"
+          "postId": "2098381339414188478",
+          "author": "shepherdsshadow",
+          "searchJob": "liberty",
+          "text": "The Westminster Confession of Faith, Chapter 3, states it this way: “God from all eternity, did, by the most wise and holy counsel of His own will, freely, and unchangeably ordain whatsoever comes to pass: yet so, as thereby neither is God "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098365336214974772",
-          "author": "candor1953",
-          "searchJob": "auburn",
-          "text": "Defund! Auburn University continues to offer Biden-era protections for trans, non-binary individuals https://t.co/aHToS4J109"
+          "postId": "2098379528573952182",
+          "author": "morteza_yousefy",
+          "searchJob": "liberty",
+          "text": "💼 WLFI One Year Later — 13x Returns, a Godfather Offer, and the Political Drama 💼 gm fam airdropalert dropped a piece today titled \"WLFI One Year Later: 13x, a Godfather Offer, and the Bag I Should Have Shorted\" and honestly the title alo"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098377214748242008",
+          "author": "authordonwalton",
+          "searchJob": "liberty",
+          "text": "THE WILDERNESS VOICE: THE DAY AMERICA WENT UP IN SMOKE This may rock your world. It will definitely challenge your preconceived ideas, as well as call upon you to rethink what you’ve always thought and been taught about Bible prophecy. If y"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098384581003292995",
+          "author": "mediamanoz",
+          "searchJob": "louisiana",
+          "text": "Mining/Energy/Resources/Biz/Markets/Pop Culture The Business Of Everything Edition! Part III Sin City Sydney Australia, Wall Street, New York, and Beyond The Black Stump Digital Bush Telegraph \"Wall Street Shuffle\" (10cc) \"Poker Face\" (Lady"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098380944977899831",
+          "author": "mediamangroup",
+          "searchJob": "louisiana",
+          "text": "Mining/Energy/Resources/Biz/Markets/Pop Culture The Business Of Everything Edition! Part III Sin City Sydney Australia, Wall Street, New York, and Beyond The Black Stump Digital Bush Telegraph \"Wall Street Shuffle\" (10cc) \"Poker Face\" (Lady"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098377016869519774",
+          "author": "mediamanint",
+          "searchJob": "louisiana",
+          "text": "Mining/Energy/Resources/Biz/Markets/Pop Culture The Business Of Everything Edition! Part III Sin City Sydney Australia, Wall Street, New York, and Beyond The Black Stump Digital Bush Telegraph \"Wall Street Shuffle\" (10cc) \"Poker Face\" (Lady"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098379320938889299",
+          "author": "keithhoughton",
+          "searchJob": "florida",
+          "text": "PRICE CRASH - LIMITED TIME OFFER!! When Florida homicide detective Maggie Novak investigates a colleague’s murder it paints a target on her back and makes her question everything she knows . . . ⭐️⭐️⭐️⭐️⭐️ 👉 https://t.co/W7YIysKHHC 😎 http"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098378964804808945",
+          "author": "keithhoughton",
+          "searchJob": "florida",
+          "text": "PRICE CRASH - LIMITED TIME OFFER!! When Florida homicide detective Maggie Novak investigates a grisly murder on Halloween it exhumes the ghosts of her past and puts her in the killer’s crosshairs. ⭐️⭐️⭐️⭐️⭐️ 👉 https://t.co/W7YIysKHHC 😎 ht"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098384816458576072",
+          "author": "blackhistorical",
+          "searchJob": "south-carolina",
+          "text": "Her handwriting is all over the proof that cured tuberculosis, and her name is on none of it. Missouria Meadows-Walker wrote down every trial patient by name and fever and hour, in logbooks the doctor carried off every night in 1951. When t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098371521513205859",
+          "author": "earlyanniesc",
+          "searchJob": "south-carolina",
+          "text": "@DarlineGrahamSC For the sake of South Carolina, you should have graciously bowed out of the race so an experienced true conservative could represent us. You have nothing to offer but “dems are worse” extortion."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098386511397900450",
+          "author": "dana916",
+          "searchJob": "army",
+          "text": "🇺🇸🇮🇱⚔🇱🇧 Israeli enemy army radio: We are now revealing that the operation to take control of Ali Al-Taher Hill lasted three months, amidst intense resistance from Hezbollah. We reveal also that the Israeli army offered Hezbollah membe"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098385457511838136",
+          "author": "calibredefence",
+          "searchJob": "army",
+          "text": "So, how can the British Army get lasers into service? Wiktor argues that hybridising in-service platforms; Foxhound and Boxer, is the way forward. It offers the power at a reasonable cost point, and has already been explored. All 3 in the p"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098384543673897321",
+          "author": "ags_alumni",
+          "searchJob": "army",
+          "text": "Under #OperationSadbhavana, the #IndianArmy is transforming lives at the LoC via education. #ArmyGoodwillSchools offer smart classes, modern labs &amp; NEP 2020 aligned learning to shape bright futures. @PMOIndia @HMOIndia @DefenceMinIndia "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098384004227715396",
+          "author": "armygoodwill_",
+          "searchJob": "army",
+          "text": "Under #OperationSadbhavana, the #IndianArmy is transforming lives at the LoC via education. #ArmyGoodwillSchools offer smart classes, modern labs &amp; NEP 2020 aligned learning to shape bright futures. @PMOIndia @HMOIndia @DefenceMinIndia "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098381051324154077",
+          "author": "militarybritain",
+          "searchJob": "army",
+          "text": "He bought the exact Chieftain he crewed at seventeen. I keep coming back to the four crew positions behind this reunion: commander, gunner, loader and driver (four men, each depending on the other three). The man beside “Bobby Dee” is forme"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098379903703900628",
+          "author": "hamstrprincess7",
+          "searchJob": "army",
+          "text": "@mimosa_is_OT7 My first night at MetLife, I offered a freebie to an older Army who was sitting by herself in our moderate mid-100s section. It turns out that she had been to every show in Europe and US, as well as a couple in Korea! She was"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098378274254864839",
+          "author": "earthdesires",
+          "searchJob": "army",
+          "text": "To the man caught between two worlds, who must choose between duty and heritage before darkness consumes them all — this is for you. Righteous Allegiance by George Yuhasz A divided nation. A deadly plot. A man caught between two worlds. Wil"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098377076315422952",
+          "author": "keeithsimple31",
+          "searchJob": "army",
+          "text": "#OTTAWA — A former senior Canadian defence official suing the federal government over a dismissal her lawyer links to (Mark Carney’s) pivot toward #China is pointing to the government’s newly disclosed military engagement with #Beijing — an"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098376186195833253",
+          "author": "vincentsolomeno",
+          "searchJob": "army",
+          "text": "I grew up next to the Twin Towers. The little town of Union Beach, New Jersey, sits on the Raritan Bay. On a clear day, you can see across the water to the New York City skyline. On September 11, 2001, there was not a cloud in the sky as I "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098369688195473898",
+          "author": "abidnab46991317",
+          "searchJob": "army",
+          "text": "2/3 When foreign governments line up to offer backing, it makes taking democratic power back almost impossible. Foreign deals protect the army chief at the top, while ordinary families pay the price with crushing inflation and zero say in g"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098369192198021381",
+          "author": "saul_raul63333",
+          "searchJob": "army",
+          "text": "@DEAHQ @CBP @jiatfs @PoliciaEcuador @SecRubio @DeputySecState @OHarfuch @Claudiashein @MarinadelPilar @ErnestinaGodoy_ @NinfaSalinas @JulietaRamirezP @melaniejoly @PaolaRojas @alitomorenoc @AleDiaazdelaVeg @ClaudioXGG @LillyTellez @m_ebrard"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098366044725190981",
+          "author": "stanleyclishem",
+          "searchJob": "army",
+          "text": "@wallaceme You know violent men used to be offered the choice of prison or the army don't you? Who do you think is the type of person capable of shooting someone in the face?"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098381181200777704",
-          "author": "prep_radar",
-          "searchJob": "uconn",
-          "text": "UConn lands NaVorro Bowman Jr. the #11 ranked player in the 2027 class. Already held 10 offers, this is a HUGE pickup for the Huskies. That backcourt is going to be scary for years to come. https://t.co/dcZH5HW9VS"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098381042038231140",
-          "author": "minddynamicsllc",
-          "searchJob": "uconn",
-          "text": "Wondering how to get help without pausing your career? Our intensive outpatient program in Connecticut provides flexible support. Mind Dynamics LLC offers tailored outpatient care so you can heal while working. Call (860) 743-7646🔗 https:/"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098377802374377502",
-          "author": "uconnhealth",
-          "searchJob": "uconn",
-          "text": "As we mark the 25th anniversary of 9/11, two UConn Health physicians recount their own experiences that day, responding to offer assistance at the site that would become known as Ground Zero. https://t.co/ki8rKKVA0q"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098372970070651039",
-          "author": "rallybri",
-          "searchJob": "uconn",
-          "text": "25 YEARS A quarter of a century. In the grand scheme of the universe, 25 years is nothing. It’s not even a blink of an eye. To we, somewhat time obsessed humans, it represents a sizable portion of our lifetimes. In my own case, as of this w"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098373510108262808",
-          "author": "virtualbellman",
-          "searchJob": "air-force",
-          "text": "UKRAINE UPDATE — Friday, 11 September 2026 Russian drones and missiles hit Kyiv and Zaporizhzhia overnight into Friday morning, setting several floors of a nine-storey apartment building alight in Kyiv's Dnipro district and wounding a rescu"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098377143587668298",
-          "author": "akronecho",
-          "searchJob": "akron",
-          "text": "LeBron James' Akron restaurant Buckets to offer Sunday brunch https://t.co/49Ao55WYng via @beaconjournal"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098382986139885906",
-          "author": "noashimoni4",
-          "searchJob": "arkansas-state",
-          "text": "@furthur56 @aziz0nomics No, the Paleatians deserve nothing because they want Israel gone along with all the Jews. Israel has Muslims living in it, Gaza, the PA, don't have Jews and don't want any. They have beem offered a state alongside Is"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098382842765975736",
-          "author": "p_f_lherisson_",
-          "searchJob": "arkansas-state",
-          "text": "😂Geopolitics imminent fiasco. 🔴 The US-South Korea-Japan wargames offer a glimpse of Washington’s real plan for Asia ===================== 🕵️‍♂️🔎 This policy is a house of cards that will accelerate the demise of the American empire rat"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098378361479262400",
-          "author": "saeedabaloch96",
-          "searchJob": "arkansas-state",
-          "text": "You cannot demand loyalty and nationalism from people when the state has failed to offer them justice, dignity, security and equal citizenship. Baloch people deserve more than demands for loyalty, we deserve a state that earns it. @BBugti h"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098375641041457252",
-          "author": "william67922",
-          "searchJob": "arkansas-state",
-          "text": "@KHAMCHANH Bill Clinton: “The Palestinians were offered a state. They refused. A state wasn't their goal. Killing Jews was.\" https://t.co/tjySu3l89X"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098374809260282136",
-          "author": "bmccormick70",
-          "searchJob": "arkansas-state",
-          "text": "I completely understand that since 1948 Israel has never ONCE been the first to start a conflict or attack a neighbor!! The simple truth is the Palestinians have been offered multiple opportunities to create a state and live peacefully!! Th"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098371340252188675",
-          "author": "matthewspa44005",
-          "searchJob": "arkansas-state",
-          "text": "@DK_Assist Nothing here says anything about certain states being ineligible. This made it seem as if ‘early exit’ was just extended. But now it’s- you have to be in a state that offers + otherwise you’re screwed?"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098359078351237424",
-          "author": "blaza62",
-          "searchJob": "arkansas-state",
-          "text": "Underlying it all is a demonic war against the Orthodox Church, the Liturgy, and Christ. Man is spirit—a spiritual being just like the angels or the fallen angels (demons)—except that, by God’s creation and design, man was created with a ma"
+          "postId": "2098369121905750450",
+          "author": "updateuzee",
+          "searchJob": "buffalo",
+          "text": "**\"I want drivers, cooks, the woman selling food in the streets to invest.\" Powerful words from Aliko Dangote. Here's the fundamentals-first read on the moment.** The story making headlines today: African leaders — Dangote himself, Amb. Jen"
         }
       ]
     },
@@ -280,11 +336,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 16,
+      "rejectedCandidates": 29,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-11T12:13:35.155Z"
+    "status rebuilt locally from current store on 2026-09-11T12:28:05.084Z"
   ]
 }
