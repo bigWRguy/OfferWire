@@ -49491,17 +49491,25 @@
     "2098513240883912982",
     "2098514921830994276",
     "2098509050497679724",
-    "2098519733767156169"
+    "2098519733767156169",
+    "2098504133409919172",
+    "2098503131336421594",
+    "2098503077103882460",
+    "2098502594016731497",
+    "2098501834055004444",
+    "2098532038412284152",
+    "2098527647810666587",
+    "2098514985789874625"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-09-11T22:13:15.732Z",
-      "got": 85,
-      "new": 56,
-      "lag": 0.03
+      "at": "2026-09-11T22:26:31.067Z",
+      "got": 12,
+      "new": 8,
+      "lag": 0.3
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -49959,16 +49967,10 @@
       "truncated": false
     },
     "texas-tech": {
-      "at": "2026-09-11T19:59:43.442Z",
+      "at": "2026-09-11T21:56:27.659Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 20,
-      "truncated": true,
-      "window": {
-        "lower": "2026-09-11T19:54:43.442Z",
-        "upper": "2026-09-11T21:56:27.659Z",
-        "until_time": "2026-09-11T20:11:56.000Z",
-        "completed": false
-      }
+      "lastPosts": 6,
+      "truncated": false
     },
     "ucf": {
       "at": "2026-09-11T21:56:27.659Z",
@@ -49983,13 +49985,13 @@
       "truncated": false
     },
     "virginia": {
-      "at": "2026-09-11T20:26:26.177Z",
+      "at": "2026-09-11T22:26:14.797Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 7,
+      "lastPosts": 5,
       "truncated": false
     },
     "virginia-tech": {
-      "at": "2026-09-11T20:26:26.177Z",
+      "at": "2026-09-11T22:26:14.797Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 1,
       "truncated": false
@@ -50593,11 +50595,11 @@
   "lastRateLimitAt": "2026-09-04T23:26:13.448Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-09-11T22:13:15.732Z",
+    "at": "2026-09-11T22:26:31.067Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 3,
+    "requests": 4,
+    "fullSweepCycles": 54
   },
   "backfill": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -50617,330 +50619,89 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-09-11T22:11:45.464Z",
+    "at": "2026-09-11T22:26:14.777Z",
     "mode": "live",
     "collection": {
-      "returned": 85,
-      "kept": 56,
-      "duplicate": 29,
+      "returned": 12,
+      "kept": 8,
+      "duplicate": 4,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 38,
-      "rejected": 18,
+      "accepted": 4,
+      "rejected": 4,
       "reasons": {
-        "non_fbs_offer_target": 1,
-        "no_offer_term": 3,
-        "no_fbs_school": 12,
-        "hard_negative": 2
+        "no_fbs_school": 3,
+        "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2098500769121013762",
-          "author": "j24white",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to Receive an offer from Emory &amp; Henry University @AllNOneSports1 @NXTLevelSN @CountdownReport https://t.co/mwQ7pzqD38"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098499085770567951",
-          "author": "tntxsxpreme",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive another game day visit from @MU_SpartanFB thank you @CoachV_MU for the opportunity #GoSpartans‼️ https://t.co/9p4fRDsWke"
+          "reason": "no_fbs_school",
+          "postId": "2098504133409919172",
+          "author": "jennyoflife",
+          "searchJob": "texas-tech",
+          "text": "A lot of businesses don’t have an ads problem. They have a post-click problem. If someone clicks your ad and lands on a weak website, you’ve paid for attention and lost it immediately. Before running ads, I’d look at 5 things: Is the offer "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098517162646274226",
-          "author": "lost_in_tech",
+          "postId": "2098502594016731497",
+          "author": "dcarter_usa",
           "searchJob": "texas-tech",
-          "text": "@PluralMakes Very rare my arse. Wife couldn't stand up for about a week. Didn't get offered the blood patch 🙄 which shortens recovery. It absolutely does fix itself though, but it sounds horrible."
+          "text": "1) Don't be an Ass with regards to your \"views\" ... 2) In \"todays\" market, you make more money changing jobs for a bunch of reasons I have \"forced\" two different employers to give me raises. The first one I gave them \"notice\" that I was sta"
         },
         {
           "reason": "hard_negative",
-          "postId": "2098510976618303925",
-          "author": "midnightcrypto",
-          "searchJob": "texas-tech",
-          "text": "UniCredit is picking a tech provider to hold crypto, per Bloomberg. Somewhere in Milan a committee is learning what a seed phrase is. Italy's second-largest bank. BBVA already offers $BTC custody to all its customers. I'll take late over ne"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098509464848789778",
-          "author": "radioworld_news",
-          "searchJob": "texas-tech",
-          "text": "Ahead of the @FCC's new cybersecurity password requirements, MaxxKonnect has released a free, web-based password generator built to help radio and TV stations comply. https://t.co/WEydZe5Bm2"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098506027864084520",
-          "author": "vandal213832781",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/EZj647hu13"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098506599107072417",
-          "author": "prophet_logic17",
-          "searchJob": "buffalo",
-          "text": "This is why its important for your drafted team to invest in you. It's not like he could not eventually start. But the Bulls have Buzelis & Wilson and probably someone else in house. Same thing with the Hawks. They have guys they have draft"
+          "postId": "2098527647810666587",
+          "author": "madeiname",
+          "searchJob": "virginia",
+          "text": "This Bush speech to congress after 9/11. Israel Oct.7 no different We have seen the state of our union in the endurance of rescuers working past exhaustion. We've seen the unfurling of flags, the lighting of candles, the giving of blood, th"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098512773722349729",
-          "author": "hommati130",
-          "searchJob": "charlotte",
-          "text": "🤩🏡 Set on 1.8 private acres, this one-of-a-kind home offers the flexibility of essentially two homes in one, creating endless possibilities for multigenerational living, extended family, guests, entertaining, or simply enjoying an incredi"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098512435686572472",
-          "author": "hommati130",
-          "searchJob": "charlotte",
-          "text": "😍🏡 Welcome home to this immaculate 3 year old home in the desirable and growing Mount Holly area! Featuring 4 bedrooms, 2.5 bathooms, a versatile loft, and an open-concept floor plan, this home offers plenty of space for comfortable every"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098409164640760119",
-          "author": "thedunkcentral",
-          "searchJob": "charlotte",
-          "text": "Jalen Duren is reportedly rejecting the Detroit Pistons’ five-year, $190 million offer and is seeking more than $200 million, per @sam_amick “Per league sources, Detroit’s last offer was a five-year deal in the $190 million range. Duren, wh"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098531303050076469",
-          "author": "the_blast_aau",
-          "searchJob": "ohio",
-          "text": "Congratulations to Aubrie Wells on her offer to Ohio Dominican University! https://t.co/UNAmkUTyyg"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098527093013327886",
-          "author": "mcdonaldjbevrs",
-          "searchJob": "oregon-state",
-          "text": "The thieves in our beloved government over time steal $5000 from each of us and then offer to give it back to us in the form of a taxable \"gift\". What a bunch of dipshits!! https://t.co/IvzMp7blqz"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098514963354505258",
-          "author": "naifa_ar",
-          "searchJob": "arkansas",
-          "text": "Lead at every stage of your career. NAIFA offers training and professional development to strengthen your leadership skills. https://t.co/w8e6wMeykI #ExperienceNAIFA #Leadership https://t.co/HncH9FMLEN"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098514498722394222",
-          "author": "chrischidester",
-          "searchJob": "arkansas",
-          "text": "if someone in a Lowe's store offers you assistance and they don't work there, you may live in Arkansas..."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098522009760112746",
-          "author": "pootdibou",
-          "searchJob": "minnesota",
-          "text": "💰 At the 2021 Cyber Symposium, Mike Lindell claimed he had data proving China hacked the 2020 election. He offered $5 million to anyone who could prove that data was not real election data. Robert Zeidman, a computer expert and Trump suppo"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098514921730257228",
-          "author": "naifamissouri",
-          "searchJob": "missouri",
-          "text": "Lead at every stage of your career. NAIFA offers training and professional development to strengthen your leadership skills. https://t.co/gOIoqrwZib #ExperienceNAIFA #Leadership https://t.co/yNzD7YuYl8"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098513240883912982",
-          "author": "isabelle909",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @CoachPete19, I’m so happy to receive my 11th offer from @hendrixcollege! #AGTG @luis_tyson @Andy_Villamarzo @DbCoachJulian @WmnsCollFlagFB @scoutSMART_ @CSAPrepStar @USAFlagFootball @RecruitGeorgia https://t"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098514921830994276",
-          "author": "naifa_houston",
-          "searchJob": "houston",
-          "text": "Lead at every stage of your career. NAIFA offers training and professional development to strengthen your leadership skills. https://t.co/HYQzCIvc4B #ExperienceNAIFA #Leadership https://t.co/DoLey7ruBC"
+          "postId": "2098514985789874625",
+          "author": "naifa4va",
+          "searchJob": "virginia",
+          "text": "Lead at every stage of your career. NAIFA offers training and professional development to strengthen your leadership skills. https://t.co/3PNsAicqPr #ExperienceNAIFA #Leadership https://t.co/fAkRqjJkLh"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 38,
+      "rejected": 4,
       "reasons": {
-        "school_not_resolved_confidently": 23,
-        "bare_mention_requires_llm": 13,
-        "multiple_resolved_schools": 2
+        "school_not_resolved_confidently": 3,
+        "bare_mention_requires_llm": 1
       },
       "samples": [
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098519123818959272",
-          "author": "alemacleo",
+          "postId": "2098503131336421594",
+          "author": "reigngigs",
           "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
+          "text": "DXC Technology Careers 2026–2027 Offer Global Jobs Across Data Science, Software Engineering, IT Infrastructure, Cybersecurity and Consulting in 60+ Countries https://t.co/q6lMILwUxU Tech talent, your #DXCCareers #TechJobs #GlobalJobs #Oppo"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098518954125795490",
-          "author": "sarahgvincent",
+          "postId": "2098503077103882460",
+          "author": "reigngigs",
           "searchJob": "texas-tech",
-          "text": "Valmir Tertini's short documentary, Pinocchio's Harvard, offers an observational, narration-free look into Harvard Square's iconic pizza spot &amp; owner Adam DiCenso. A fascinating slice of local life, tech-bro tourism, and restaurant cult"
+          "text": "DXC Technology Careers 2026–2027 Offer Global Jobs Across Data Science, Software Engineering, n 60+ Countries https://t.co/q6lMILwmIm Tech talent, your next global opportunity could be here! #DXCCareers #TechJobs #GlobalJobs #OpportunitiesF"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098518715297837301",
-          "author": "ekij13",
+          "postId": "2098501834055004444",
+          "author": "kuriharan",
           "searchJob": "texas-tech",
-          "text": "@BethanyForTruth The problem is low cost countries can make a basic car cheaper than western countries. They have to add all the high tech crap to appear to offer you something that the (cheaper) basic car does not."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098517534395998269",
-          "author": "_ben_sync",
-          "searchJob": "texas-tech",
-          "text": "@C_NyaKundiH The moment people know of P2P communication beyond WhatsApp, they would appreciate technology. Tech has more to offer check my bio. Anyway good luck with you and the meta ad funnel"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098517022049190227",
-          "author": "mattturck",
-          "searchJob": "texas-tech",
-          "text": "My 9/11 story (lightly updated version of a blog post I wrote in 2016 for the 15th anniversary) In September 2001, I was the young co-founder of a NYC tech startup, TripleHop Technologies. We were building enterprise search software, using "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098515702999400780",
-          "author": "hakan0xnft",
-          "searchJob": "texas-tech",
-          "text": "@Amenouboy I’d start with the U.S. equity market, especially tech stocks fast moving, transparent fundamentals, and a wealth of research. Do you think commodities like oil offer"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098512669284393034",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098512131771502618",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098511292416049454",
-          "author": "k3nny944",
-          "searchJob": "texas-tech",
-          "text": "@Roxleton The only people that care about shit like this are the online tech bros that make their living criticizing devices. That is their job, not to offer realistic buying info just to yap."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098511124769681905",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098510678479052950",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098508948902977975",
-          "author": "lizamakareocva",
-          "searchJob": "texas-tech",
-          "text": "@SolangeSoifer @StartupGrindBA @dev3pack_ARG The fact that you are asking about Founder Marketplace out loud already puts you ahead of most. I'm a freelance web developer with a small special offer for you; follow me back and I'll DM it wit"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098506839076049103",
-          "author": "omarish",
-          "searchJob": "texas-tech",
-          "text": "Hey @MaxNiederman: I'm one of those founders you're talking about. I raised for a crypto infra company, it worked at first and then it went nowhere, then I spent 2y too long chasing something that wasn't working specifically because I was a"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098505782467981436",
-          "author": "tetratechjobs",
-          "searchJob": "texas-tech",
-          "text": "We want to make a difference with you! See what #TetraTechJobs we have to offer, and work with some of the brightest minds in the industry. https://t.co/qDERmP85JG #TetraTechJobs"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098504842662613103",
-          "author": "thehashton",
-          "searchJob": "texas-tech",
-          "text": "@launch_llama Thanks man! Well I did the same thing before with high ticket coaching helping people break into tech but this is basically taking everything I learnt doing that for 2-3 years into a lower ticket offer :)"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098531899669193201",
-          "author": "rosie_coatess",
-          "searchJob": "buffalo",
-          "text": "【Caught in a Crossfire of War and Inflation! Bitcoin Locked in a Tug-of-War at $77,000 ⚔️】 📉 Market Update: Following a rebound driven by a \"golden cross,\" the price of Bitcoin (BTC) has pulled back slightly today, hovering around the $77,"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098530294865256719",
-          "author": "gdxtrader",
-          "searchJob": "buffalo",
-          "text": "𝐆𝐨𝐥𝐝𝐞𝐧👁️ - 𝐒𝐡𝐨𝐨𝐭𝐢𝐧𝐠 𝐒𝐭𝐚𝐫 𝐄𝐱𝐩𝐥𝐚𝐢𝐧𝐞𝐝 A Shooting Star forms after an uptrend when buyers push price aggressively higher, but sellers step in and reject the move, forcing price back toward the session lows. Look for "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098521820978901008",
-          "author": "fathersalphabet",
-          "searchJob": "buffalo",
-          "text": "🕰️ In the ancient calendar of Israel, tonight after sunset is Yom Kippur, also known as the Day of Atonement. Praise YASHUA for “by a single offering He has perfected for all time those who are being sanctified.” “For since the law has but"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098519020509032829",
-          "author": "tirednewengland",
-          "searchJob": "buffalo",
-          "text": "@RRacoonteur I didn’t say the blood of bulls and goats could take away sin, I’m explaining that the bulls and goats were offered in propitiation in preparation for the true propitiatory sacrifice"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098531047071678777",
-          "author": "moncriefsid",
-          "searchJob": "charlotte",
-          "text": "@nflbadtake Veach offered him the biggest contract for a lineman in NFL history but the 49ers matched plus extra at the last minute."
+          "text": "Learn out. IDScan confirms breach after hackers offer 153 million driver’s license scans for sale https://t.co/SiCxeplwXb @TheRecord_Media #tech #digital #privacy #crypto #ai"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098523994282410232",
-          "author": "aservais1",
-          "searchJob": "charlotte",
-          "text": "Help! I Hate My...Ennui. Art world Agony Aunt Charlotte Jansen offers solace to an art worker who fears she has lost the love for everything that surrounds art – and maybe the work itself. https://t.co/qWOyJ9oWOd https://t.co/63eUZMXtqB"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098519102016864542",
-          "author": "jkeynesalpha",
-          "searchJob": "charlotte",
-          "text": "$CBRS $CRWD: Why Cerebras Is Essential Infrastructure for AI Cybersecurity The $CRWD partnership and this video, which has only 367 views, were largely buried beneath the Iran headlines and broader macro bearishness. Yet this is another maj"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098510830165975470",
-          "author": "krismuse_",
-          "searchJob": "charlotte",
-          "text": "Domantas Sabonis cannot be moved until this is resolved. We have an increasingly improving shot to actually land Duren. Unless Charlotte offers like 2 first round picks or something, Detroit should be our main focus in a Domas trade"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098534959799730555",
-          "author": "vista_sir",
-          "searchJob": "coastal-carolina",
-          "text": "The Best Kind Of Coastal Living Is The Kind That Feels Effortless 🌊☀️ 2306 Mathews Avenue Unit 2, Redondo Beach 3 beds | 2.5 baths | 1,686 sq.ft. (btv) Offered at $999,000 Contact agent Amy Pearce for details Call 424.445.8328 DRE#02137203"
+          "postId": "2098532038412284152",
+          "author": "selene_mariposa",
+          "searchJob": "virginia",
+          "text": "STOP APOLOGISING FOR TEACHING WHAT HAPPENED Twenty five years later and the lesson plan is the fight. Here is the document, because I would rather you read the receipts than take my word. Fairfax County Public Schools, Virginia, a few miles"
         }
       ]
     },
@@ -50948,22 +50709,24 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 3,
+      "failed": 1,
+      "requests": 4,
+      "errors": [
+        "wake-forest: rate limited"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 38,
+      "rejectedCandidates": 4,
       "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 56,
-    "decided": 56,
+    "total": 8,
+    "decided": 8,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
