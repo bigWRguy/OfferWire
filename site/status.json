@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T09:13:12.211Z",
+  "generatedAt": "2026-09-11T09:28:15.191Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-11T09:13:12.015Z",
+    "at": "2026-09-11T09:28:14.956Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7804297222222222,
-    "p95Hours": 1.5287727777777778,
-    "worstHours": 1.5287727777777778
+    "medianHours": 0.7807208333333333,
+    "p95Hours": 1.2787272222222221,
+    "worstHours": 1.5263186111111111
   },
   "decisionCoverage": {
-    "total": 30,
-    "decided": 30,
+    "total": 16,
+    "decided": 16,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 47
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 1017,
     "incompleteOffers": 0
@@ -55,251 +55,154 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-11T09:13:12.015Z",
-      "got": 34,
-      "new": 30,
-      "lag": 0.05
+      "at": "2026-09-11T09:28:14.956Z",
+      "got": 20,
+      "new": 16,
+      "lag": 0.12
     }
   },
   "audit": {
-    "at": "2026-09-11T09:11:43.046Z",
+    "at": "2026-09-11T09:26:35.907Z",
     "mode": "live",
     "collection": {
-      "returned": 34,
-      "kept": 30,
-      "duplicate": 3,
-      "tooOld": 1,
+      "returned": 20,
+      "kept": 16,
+      "duplicate": 4,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 21,
-      "rejected": 9,
+      "accepted": 8,
+      "rejected": 8,
       "reasons": {
-        "no_fbs_school": 3,
-        "no_offer_term": 6
+        "no_offer_term": 4,
+        "hard_negative": 3,
+        "no_fbs_school": 1
       },
       "samples": [
         {
+          "reason": "no_offer_term",
+          "postId": "2098341026683314676",
+          "author": "mansatesla",
+          "searchJob": "navy",
+          "text": "https://t.co/dE5BILC85D"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098337067260330031",
+          "author": "restorevets",
+          "searchJob": "washington",
+          "text": "🇬🇧🌹🇺🇸 Honoring the Legacy of 9/11 and the Sacrifices That Followed: Today marks the anniversary of the September 11 attacks, a day that reshaped our world forever. As we pause to remember the innocent lives lost in the United States, w"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098329593492955342",
+          "author": "phagankean",
+          "searchJob": "washington",
+          "text": "Pincher Martin (@PincherMartin8), I invite you to compare Bill James's 12 or 13 pages on the Leo Frank case with my own examination of the case in the 2025 revised edition of my book, The Murder of Little Mary Phagan. The second revised 202"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098283506757763243",
+          "author": "pinchermartin8",
+          "searchJob": "washington",
+          "text": "You seem to be under the impression that the person who writes the most words, makes the best argument. As for your comments on James' book, they show a similar lack of judgment as your description of the National Pencil Company layout. Yes"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098085943001641226",
+          "author": "tmtlongshort",
+          "searchJob": "washington",
+          "text": "Grok summary of the full Economic Blitzkrieg thesis for newer followers: Trump’s tariffs are framed as a blunt instrument for strategic decoupling, not a conventional trade-negotiation tool; the real objective is to isolate China and rebuil"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097994801140408760",
+          "author": "haniashen",
+          "searchJob": "washington",
+          "text": "„Dopóki nie jesteście przeciwko nam, nie mamy z tym problemu” , Zhao Long, Szanghajski Instytut Studiów Międzynarodowych, Forum w Karpaczu. Zapamiętajcie to zdanie. To nie jest oferta win-win. To warunek. Kto decyduje, co znaczy „być przeci"
+        },
+        {
           "reason": "no_fbs_school",
-          "postId": "2098337799262908667",
-          "author": "troytempes41010",
-          "searchJob": "troy",
-          "text": "@ABridgen Not quite true Andy, nobodies forcing anyone to vote anyway, yes financial inducements are being offered but nobodies having their arm twisted."
+          "postId": "2098335872995283301",
+          "author": "dominicanfriars",
+          "searchJob": "virginia",
+          "text": "Today we commemorate the 25th anniversary of the September 11th terror attacks on the World Trade Center in New York City, the Pentagon in Arlington, Virginia, and the hijacked plane that crashed in Shanksville, Pennsylvania. As we remember"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2098332686901240190",
-          "author": "tachyon362",
-          "searchJob": "troy",
-          "text": "@jamestalarico 😂 Do Democrats EVER tell the truth? All Kimmel(D) has to do is offer equal air time to your opponent. However it seems like he’s too much of a partisan hack to do so."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098337138680951129",
-          "author": "chambatilevison",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Congratulations to our musician of the moment, Taruwinga Sugar Sugar Manjokota, on receiving a brand-new GD6 from Sir Wicknell. He truly deserves it!! This is the spirit of the Second Republic under President Emmerson Emmerson Dambudzo Mnan"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098326603554013279",
-          "author": "wooperss",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "@doeprayers I feel blessed to receive such sweet reply 🤍 U deserve to be encouraged, because u write so well! And just for u to believe me, I will persist. You‘re welcome. Thank u for writing these :)"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098325216606962145",
-          "author": "jordandobson520",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @coachboom_acu I’m extremely blessed to receive my 3rd offer to play at the next level https://t.co/f743jyzvX4"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098329379441111259",
-          "author": "yashsharma711",
-          "searchJob": "texas-tech",
-          "text": "How to get your SaaS in front of global tech listeners for $1/day: 🧵👇 We just launched AirPulse — an interactive 3D Earth where users explore &amp; listen to thousands of live radio stations worldwide. 🔗 https://t.co/rNOQ4zjD4y"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098327094686306360",
-          "author": "indiatvnews",
-          "searchJob": "texas-tech",
-          "text": "Poco X8, Poco X8 Power की सेल, हजारों रुपये सस्ता मिलेगा 10000mAh बैटरी वाला फोन https://t.co/Wvg9Jk20n5"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098323596800336114",
-          "author": "punjabkesaricom",
-          "searchJob": "texas-tech",
-          "text": "Big Billion Days सेल मे iPhone 17 मिलेगा सस्ता! डेट हुई लीक, जानें क्या मिलेंगे ऑफर्स पढ़ें पूरी खबर: https://t.co/NiTWNfvVPZ https://t.co/Fy6leIHCMS"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098319783468965985",
-          "author": "capitalhuntersc",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/xjRG2LHIsE"
+          "reason": "hard_negative",
+          "postId": "2098327250831581204",
+          "author": "sospetrstephen",
+          "searchJob": "wake-forest",
+          "text": "THE VANGUARD OF A NEW KENYA: WHY SIFUNA AND BABU OWINO ARE THE LEADERS OF THE GENERATIONAL SHIFT. This Sunday, Jacaranda Grounds will not simply host another political rally. It will become the stage upon which Nairobi's political future be"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 21,
+      "rejected": 8,
       "reasons": {
-        "multiple_resolved_schools": 1,
-        "school_not_resolved_confidently": 18,
-        "bare_mention_requires_llm": 2
+        "multiple_resolved_schools": 2,
+        "bare_mention_requires_llm": 5,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098337808947777542",
-          "author": "aprajitanefes",
-          "searchJob": "toledo",
-          "text": "🇱🇧|Mount Ali al-Tahir: A Resistance Stronghold Erased by 1,100 Tons of Explosives, and an Election Spectacle Masked as an Earthquake At 9:08 PM on September 10, 2026, on the Ali al-Tahir ridge in southern Lebanon, Israeli occupation force"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098337273859219486",
-          "author": "childofeternity",
-          "searchJob": "toledo",
-          "text": "Oh, what a surprise; more ignorant nonsense. You're welcome to your opinions, but when opinions run counter to fact-based reality, only people who lack integrity and have nefarious agendas present such as facts. ▪️The U.S., Israel and Fatah"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098333421688819915",
-          "author": "leofrankchomo",
-          "searchJob": "toledo",
-          "text": "@BRICSinfo Tell me we're outta missiles without telling me we're outta missiles. Look I'm not saying the US doesn't have any weapons left but Pete Hegseth dropped by my house and offered me $50,000 for a box of bottle rockets I had collecti"
+          "postId": "2098340398737260966",
+          "author": "defpostmedia",
+          "searchJob": "navy",
+          "text": "🇫🇷 French Aeronautical Maintenance Directorate (DMAé) has placed an additional order with Airbus Helicopters for four U050 Capa-X uncrewed aircraft systems (UAS). @AirbusHeli The new order follows the successful evaluation of an initial U"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098334265528164635",
-          "author": "gymnosophia",
-          "searchJob": "duke",
-          "text": "WODEMAN A Romaunce in Three Actes The Galey-Boy Of alle prisons made by man, the galey is most honest. A dongeoun lieth. It hath a dore, and therfore promiseth that some daye the dore may open. A galey maketh no swich promesse. She hath oor"
+          "postId": "2098319471899558324",
+          "author": "oathtodefend",
+          "searchJob": "navy",
+          "text": "@untoeirini -- ‘Princess’.” Opening the door even wider, he offered her his hand to take; feeling a little bit underdressed in his navy polo shirt and ivory white trousers."
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098338266252505151",
-          "author": "br1gh7futur3",
-          "searchJob": "texas-tech",
-          "text": "@yoursnandieni no one will suffer except the parasite class of seat-warming indians imported to cheaply fill spots at tech companies and who have stacked the ranks of these companies with underqualified and underperforming failures that hav"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098336616594940120",
-          "author": "techstoriesin",
-          "searchJob": "texas-tech",
-          "text": "[ AmazonIndia Deal Rs 23,799 ] NKI-B29 Huawei Watch FIT 5 Pro Smartwatch, 44.5mm FullView Display, iOS & Android, up to 10 Days Battery Life, Golf, Health Management, Sleep & Heart Monitor, ECG, NFC, Mini Work-Out, Orange [ad] https://t.co/"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098336536366592347",
-          "author": "mukeshc12996751",
-          "searchJob": "texas-tech",
-          "text": "@PoornimaNimo Sab paise ki maya hai. He knows Russia is approaching India with full tech transfer offer for fighter jets which France yet to. Hindi is going universal by 2032🙏"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098336353239126405",
-          "author": "tetratechjobs",
-          "searchJob": "texas-tech",
-          "text": "We want to make a difference with you! See what #TetraTechJobs we have to offer, and work with some of the brightest minds in the industry. https://t.co/B9suM3NqtN #TetraTechJobs"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098335849179918533",
-          "author": "tech_scaler",
-          "searchJob": "texas-tech",
-          "text": "\"The biggest thing I'd tell another founder is that you don't need to know everything before you start.\" - Victoria, Founder of Sip Seekers With 14 years of drinks industry experience, Victoria knew the market, but starting a tech company w"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098329785642483785",
-          "author": "techtrends_zm",
-          "searchJob": "texas-tech",
-          "text": "𝗔𝗳𝗿𝗶𝗰𝗮 𝗧𝗲𝗰𝗵-𝗫𝗽𝗼 𝟮𝟬𝟮𝟲 𝘁𝗼 𝗕𝗿𝗶𝗻𝗴 𝗔𝗳𝗿𝗶𝗰𝗮’𝘀 𝗧𝗲𝗰𝗵𝗻𝗼𝗹𝗼𝗴𝘆 𝗮𝗻𝗱 𝗕𝘂𝘀𝗶𝗻𝗲𝘀𝘀 𝗘𝗰𝗼𝘀𝘆𝘀𝘁𝗲𝗺 𝗧𝗼𝗴𝗲𝘁𝗵𝗲𝗿 𝗶𝗻 𝗟𝘂𝘀𝗮𝗸𝗮 Africa Tech-Xpo 2026 will take place on 26–27 October 2026 at the Mulun"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098329472395346137",
-          "author": "yashsharma711",
-          "searchJob": "texas-tech",
-          "text": "Launch Offer: First 20 SaaS products / tech tools can book any available city for $1 / day. Reply with your product URL or DM me to get your live beacon placed today! 🚀📍"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098328998270914627",
-          "author": "africatechhq",
-          "searchJob": "texas-tech",
-          "text": "Africa Tech-Xpo 2026 will take place on 26–27 October 2026 at the Mulungushi International Conference Centre in Lusaka, bringing together technology companies, startups, investors, policymakers, financial institutions, entrepreneurs and bus"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098328962048852087",
-          "author": "defold",
-          "searchJob": "texas-tech",
-          "text": "We’re happy to announce another talk for the Defold Game Jam 2026 Online Conference! 🎤 Andy Tran, Head of Developer Relations at Heroic Labs @heroicdev, will join us with a presentation: A practical introduction to Heroic Labs’ game tech s"
+          "reason": "multiple_resolved_schools",
+          "postId": "2098337094611665253",
+          "author": "red4golf",
+          "searchJob": "new-mexico",
+          "text": "The Socorro case has always stuck with me. A patrolman reported something landing in a New Mexico gully, the FBI vouched for him, and the Air Force never offered a satisfying explanation. Then there was the detail he took back the next day."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098328697950335486",
-          "author": "erloesung",
-          "searchJob": "texas-tech",
-          "text": "He is a CFO. New Teslas will have Starlink integrated with outside antennas and will be a mesh network in cities and the only hotspot in villages and nature. T-Mobile is not able to offer coverage in its home country Germany for 20 % of the"
+          "postId": "2098335170986127667",
+          "author": "alternatnews",
+          "searchJob": "washington",
+          "text": "Saudi Arabia is left to fight alone. Trump refuses to help - Axios Timeline: • Mohammed bin Salman called Trump twice on Thursday (10 September). • First call: briefing as Houthis pushed on Mokha (Mocha) and Saudi-backed Yemeni forces fell "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098322552695169216",
+          "author": "c_classiques",
+          "searchJob": "washington",
+          "text": "My Compact of Free Association thesis for newer followers, as a complement to @TMTLongShort's thesis QTed below: Obviously, everything contemplated here assumes peaceful, democratic and ultimately legal constitutional change. The starting p"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098320683721970091",
+          "author": "defensepolitics",
+          "searchJob": "washington",
+          "text": "🇸🇦🇺🇸 Saudi Crown Prince Mohammed bin Salman called U.S. President Donald Trump twice on Thursday urging American strikes on Yemen’s Houthis after their push toward Mocha and the Red Sea coast. Axios reported Trump declined direct strike"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098319943045386485",
+          "author": "haniashen",
+          "searchJob": "washington",
+          "text": "\"As long as you are not against us, we have no problem with it.\" That was Zhao Long of the Shanghai Institutes for International Studies, speaking this week at the Economic Forum in Karpacz, Poland's largest annual conference on economics a"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098328193631478091",
-          "author": "ukfintechco",
-          "searchJob": "texas-tech",
-          "text": "G20's 3% transfer fee target will fail globally. @COLIBRIX_ONE offers service-first solution. https://t.co/RhXpV260tN #ukfintech #fintechuk #fintech #fintechnews #finance #financialtechnology #technology #tech #technews #G20 #payments #digi"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098326772420919643",
-          "author": "techieversityhq",
-          "searchJob": "texas-tech",
-          "text": "Yes, you can get hired while you're still learning a tech skill. You don't have to wait until you finish your course before looking for opportunities. If you have developed enough skills to handle the requirements of a role, you can start a"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098325563236876478",
-          "author": "imyadav31",
-          "searchJob": "texas-tech",
-          "text": "🚨 BIG American Express changes from 11 October 2026. Amex India is upgrading its technology platform, but there are some important changes for cardholders hidden inside this update. Here’s what you need to know 👇 1️⃣ No more pooling MR po"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098325280226001020",
-          "author": "newswirelem",
-          "searchJob": "texas-tech",
-          "text": "Uyo 2026: Adegbe Ogbeh to Spotlight Data, Innovative Financing in Nigeria’s Tourism Investment Drive We are excited to announce that Adegbe Ogbeh, Managing Partner & Co-Founder of Lounge One and Paper Hospitality, will be joining us as a sp"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098323983762629030",
-          "author": "mr_saif__khan",
-          "searchJob": "texas-tech",
-          "text": "🔥 Manipal Payment & Identity Solutions IPO gaining momentum! Day 3 subscription numbers are looking increasingly interesting: 📌 Retail: 1.69x 📌 QIB: 0.59x 📌 NII: 0.43x 📌 Overall: 0.75x Retail participation has already crossed the share"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098322582143672468",
-          "author": "rahulsi20783840",
-          "searchJob": "texas-tech",
-          "text": "BRICS’ 🇮🇳: The Soft Center Between A Rock (🇺🇸) & A Hard Place (🇨🇳) The Mirage: ‘We Have To Work And Fight Together As One’ In an article* on de-dollarization dated 22nd Jan 2026 I said: “It is not just the insult and humiliation that "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098320367852916763",
-          "author": "weary_centurion",
-          "searchJob": "texas-tech",
-          "text": "First of all I want to give credit to you for changing your mind with new information. Second, there are some things you misunderstand with METHODIQ and Oddity the holding company. There a few things I’m going to mention here I think you sh"
+          "postId": "2098332706224390167",
+          "author": "devindminer",
+          "searchJob": "wake-forest",
+          "text": "I was parked near the intersection of Sixth and Broadway when I saw the nightwalker for the first time. I had nowhere to go. I hadn't worked in days because I'd been suspended by the union. My phone was dead and I was laying on the bed I'd "
         }
       ]
     },
@@ -314,11 +217,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 21,
+      "rejectedCandidates": 8,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-11T09:13:12.211Z"
+    "status rebuilt locally from current store on 2026-09-11T09:28:15.192Z"
   ]
 }
