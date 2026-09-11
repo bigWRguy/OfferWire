@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T22:57:59.489Z",
+  "generatedAt": "2026-09-11T23:13:09.154Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-11T22:57:59.246Z",
+    "at": "2026-09-11T23:13:08.840Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0255080555555556,
-    "p95Hours": 1.7770775,
-    "worstHours": 2.0269013888888887
+    "medianHours": 1.0232433333333333,
+    "p95Hours": 2.0297625,
+    "worstHours": 2.0297625
   },
   "decisionCoverage": {
-    "total": 24,
-    "decided": 24,
+    "total": 73,
+    "decided": 73,
     "complete": true
   },
   "pending": {
@@ -47,197 +47,389 @@
   "profileResolution": {
     "cached": 47
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 1048,
+    "completeOffers": 1049,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-11T22:57:59.245Z",
-      "got": 37,
-      "new": 24,
-      "lag": 0.08
+      "at": "2026-09-11T23:13:08.840Z",
+      "got": 111,
+      "new": 73,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-09-11T22:56:22.825Z",
+    "at": "2026-09-11T23:11:30.369Z",
     "mode": "live",
     "collection": {
-      "returned": 37,
-      "kept": 24,
-      "duplicate": 13,
+      "returned": 111,
+      "kept": 73,
+      "duplicate": 38,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 12,
-      "rejected": 12,
+      "accepted": 41,
+      "rejected": 32,
       "reasons": {
-        "no_offer_term": 6,
-        "no_fbs_school": 5,
-        "hard_negative": 1
+        "no_fbs_school": 18,
+        "no_offer_term": 11,
+        "hard_negative": 2,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2098545455067979941",
-          "author": "thehammerhq",
-          "searchJob": "florida",
-          "text": "📰Check out our Friday Newsletter! 📰 🏥Final Injury Reports 🏝️Survivor Analysis for @SplashSports contest 💵CFB Best Bets 🏈Player Props ⚽️Soccer Bets Friday Newsletter sponsored by: @edge_marketsio https://t.co/MtPrsIvyHo"
-        },
-        {
           "reason": "no_fbs_school",
-          "postId": "2098544714899226955",
-          "author": "islandsmagazine",
-          "searchJob": "florida",
-          "text": "Brooker Creek Preserve near Tampa offers nearly 5 miles of wetland hiking trails, idyllic nature, guided tours, and an interactive education center. https://t.co/YkwaDHCLL8"
+          "postId": "2098549649590383066",
+          "author": "profilefblive",
+          "searchJob": "phrase:\"has offered\" recruit",
+          "text": "Samford has offered 2.9⭐ 2027 DT Connor Evans from The Covenant School, TX. @ConnorEvans2027 Rated (#2489 NATL, #141 DT, #324 TX) - 8 offers overall. https://t.co/gmE7sRo4Ld"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098532396136018015",
-          "author": "al_2shifty",
-          "searchJob": "florida",
-          "text": "EXTREMELY BLESSED TO RECEIVE AN FROM FLORIDA ATLANTIC UNIVERSITY #AGTG @ZKittley @CoachSantana_ @ZBlostein247 @ChadSimmons_ @MarshallMcDuf14 https://t.co/pgoxEPM8y7"
+          "postId": "2098423372212511045",
+          "author": "anubhavgupta_ji",
+          "searchJob": "temple",
+          "text": "He will jump four feet high and leave the temple permanently if God actually starts chewing. Absolute nonsense."
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2098516190750703909",
-          "author": "straightflorida",
-          "searchJob": "florida",
-          "text": "Dear Yuppy-Yanks, Florida beaches do not offer quiet reflection zones, kombucha refill stations, or emotional safety spaces, so this year, please feel free to stay on Cape Cod. 👍🏻 https://t.co/yw0ombVQaA"
+          "reason": "no_offer_term",
+          "postId": "2098538315699962320",
+          "author": "dzfeldman",
+          "searchJob": "temple",
+          "text": "https://t.co/a8SPzT9BT6"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098528792427786258",
+          "author": "dustykent41",
+          "searchJob": "temple",
+          "text": "The complete Book of Revelation https://t.co/5rJdUiwNqp"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098518602991427711",
+          "author": "dzfeldman",
+          "searchJob": "temple",
+          "text": "https://t.co/MfnhWGeOTD"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098532971603206483",
+          "author": "profitcircle_",
+          "searchJob": "class:2026",
+          "text": "https://t.co/jxunZMCChN"
         },
         {
           "reason": "hard_negative",
-          "postId": "2098518394236436771",
-          "author": "wnbagamecocks",
-          "searchJob": "south-carolina",
-          "text": "2027 prospect Kaylor Buse (PG) shared she will announce her commitment Monday night. Kaylor received an offer from South Carolina in July. https://t.co/CZAt8LOPdO"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098542100576940267",
-          "author": "voidelur",
-          "searchJob": "arizona",
-          "text": "Yogurt after 2 days"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098072239140712649",
-          "author": "inadimplenciag",
-          "searchJob": "arizona",
-          "text": "“DLSS 5 é apenas só uma configuração de iluminação e não a IA alucinand…” https://t.co/VGImNwL4AB"
+          "postId": "2098538650577318321",
+          "author": "theucreport",
+          "searchJob": "class:2027",
+          "text": "2027 WR Missoni Brown getting ready for his first game with Springfield Central @MissoniB Holds an offer from Syracuse. https://t.co/mKKsnN0QMP"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098531906573017403",
-          "author": "azsportshistory",
-          "searchJob": "arizona",
-          "text": "@LebronsLocker Do you take offers on these? Would you do .50 on Eno Benjamin?"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098524784514539624",
-          "author": "voidelur",
-          "searchJob": "arizona",
-          "text": "@soapah19 They salivate a lot when they're stressed, so they need to swallow it"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098523683761570077",
-          "author": "realtorjsanchez",
-          "searchJob": "arizona",
-          "text": "https://t.co/8DXPfV4Xo4"
+          "postId": "2098516489615663139",
+          "author": "fbswarmfootball",
+          "searchJob": "class:2027",
+          "text": "Congratulations to 2027 WR/TE Ransom Watson on receiving another offer! #RecruitTheBluff #SWARM #CPH"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098541490444042644",
-          "author": "irishagreement",
-          "searchJob": "notre-dame",
-          "text": "@PCeee63 This Chris Bryant budget negotiation process makes no sense. How can he think it is going to work to offer the Executive only half of the gap in the current year when they have no way of reducing costs by March but making even that"
+          "postId": "2098461372312920256",
+          "author": "ransomwatson88",
+          "searchJob": "class:2027",
+          "text": "After a conversation with @coachzairep I am blessed to say I received my 4th offer with @UOlivetfootball @declan_deyoung @FBswarmfootball @BakerLBrian @ClyntonElwood https://t.co/P0yWWr8eE9"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098536699177656577",
-          "author": "brendao00357595",
-          "searchJob": "notre-dame",
-          "text": "@SoveyX Breathe Chica.... They're considering your salary offer as The Big Cheese! https://t.co/opW8fhHBN9"
+          "postId": "2098516304718070079",
+          "author": "declan_deyoung",
+          "searchJob": "class:2027",
+          "text": "Congratulations to 2027 WR/TE Ransom Watson on another offer! Ransom is having an outstanding start to his senior season. Don’t miss out on this guy! #RecruitTheBluff #SWARM #CPH"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098537181044240652",
+          "author": "tts_recruiting",
+          "searchJob": "class:2028",
+          "text": "2028 DB 📈 - has 1 d1 offer from sac state"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098535974024212601",
+          "author": "craighardingjr3",
+          "searchJob": "class:2028",
+          "text": "https://t.co/qG9e12Tf1R"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098543019318276480",
+          "author": "recruitgeorgia",
+          "searchJob": "georgia",
+          "text": "Walnut Grover SR athlete lands offer from Tennessee State #RecruitGeorgia"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098540808299245579",
+          "author": "jeffreybrezensk",
+          "searchJob": "georgia",
+          "text": "After a talk with @KHOWCU I’m blessed to receive my third (d2) offer!!! @RecruitGeorgia https://t.co/7EwEPXEkY6"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098541521842966551",
+          "author": "595sparky",
+          "searchJob": "georgia",
+          "text": "@grok @buttfessor Did Biden offer $2000 checks if senators in Georgia won?"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098530811427606779",
+          "author": "cryptoleeches",
+          "searchJob": "georgia",
+          "text": "Today is the anniversary of the day that America commited the largest cover up in history and brought upon a new era of shadow government. On September 11th 2001 the shadow government of the United States + Israel needed a reason to attack "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098523968911134929",
+          "author": "evan76082817",
+          "searchJob": "georgia",
+          "text": "@JessicaTarlov did you call it bribery when Biden offered voters in Georgia $2,000 for voting for Democratic candidates?"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098530125688029491",
+          "author": "tylerwestside",
+          "searchJob": "kentucky",
+          "text": "bro is terrified (reasonable) you said you'd go anywhere except kentucky and @streetbeefs_ is in virginia. they put on safe, legal fights and have an audience of 4.49m on youtube alone. it'll be more clout than you'll EVER get again in your"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098534475135090827",
+          "author": "tnrevolver",
+          "searchJob": "tennessee",
+          "text": "BDE wasn’t interested in the Righteous’ offer and gives Rich Swann the aid in picking up the win over Vincent. #TNAiMPACT"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098549929325339067",
+          "author": "pdamodaran",
+          "searchJob": "texas",
+          "text": "The Physical AI Tollbooth: Why BlackBerry QNX Is Positioning for the Comeback of the Decade $BB Note that i haven't considered Secure communications, Patents, or 5.5 million shares of Arctic wolf . That's all gravy on top. Most market comme"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098540952931496179",
+          "author": "zacksevans1776",
+          "searchJob": "texas",
+          "text": "@A13Beast Well, it turns out, he was offered ~18% of Gaza and he took it We need some good Christian MEN to finally say enough is ENOUGH Keep truckin' Montreal... Your brother and fellow patriot down here in Texas is doing his part But we h"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098506993006748074",
+          "author": "cavinrhoadsjr27",
+          "searchJob": "texas",
+          "text": "Thank You Coach @SAS2340 and @LUVikingsFB for the Best Wishes on my Game Tomorrow. @ShoneEvans @CoachTraylon @TCHSRecruits @priority11fb https://t.co/uiFtPsYwhY"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098535345973514546",
+          "author": "donniccolo",
+          "searchJob": "texas",
+          "text": "@RossChaifetz of the @STLShockMLP asked me a fair question after I called MLP unserious: how so, and what would you do about it? He deserved a real answer instead of a quote tweet, so I spent a week on one. Here's what I would fix: https://"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098531211970834818",
+          "author": "yyaannyyaa",
+          "searchJob": "texas",
+          "text": "TESLA REMOVED THE STEERING WHEEL, PEDALS, AND MIRRORS FROM ITS NEW TAXI. FEDERAL REGULATORS OPENED AN INVESTIGATION WITHIN HOURS. THEN RIDERS FOUND A HIDDEN JOYSTICK. Tesla has begun offering public Cybercab rides in Austin, Texas. The gold"
         }
       ]
     },
     "extraction": {
-      "accepted": 3,
-      "rejected": 9,
+      "accepted": 1,
+      "rejected": 40,
       "reasons": {
-        "bare_mention_requires_llm": 5,
-        "reporter_missing_position": 1,
+        "bare_mention_requires_llm": 28,
+        "multiple_resolved_schools": 6,
+        "reporter_missing_player_name": 2,
+        "author_not_recruit:organisation": 1,
         "school_not_resolved_confidently": 3
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098533239749038281",
-          "author": "admlew",
-          "searchJob": "florida",
-          "text": "Dicus Burke and Lewis is excited to be vetted partner partner with Hurricane Help Florida to help assist all individuals in Florida with storms. A cool feature we are excited about is an app that can be used by folks to get help during the "
+          "postId": "2098516871834124328",
+          "author": "ac2suhayi",
+          "searchJob": "florida-international",
+          "text": "Thank you @FIUFootball for the game day invite. Excited to see what the 305 has to offer! #cometothe305 @AliciaPayneFIU @novafootballpod @CSAPrepStar @DarkVisors @EHS_FB @VaPrepsRivals @PrepRedzoneVA https://t.co/wqvMjPbD1E"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098529781130129611",
-          "author": "islandsmagazine",
-          "searchJob": "florida",
-          "text": "Lochloosa Park near Gainesville offers a scenic Florida lake escape with old-growth cypress trees, freshwater fishing, boating, and wildlife viewing nearby. https://t.co/MGflgyIXQv"
-        },
-        {
-          "reason": "reporter_missing_position",
-          "postId": "2098520709060300840",
-          "author": "profilefblive",
-          "searchJob": "florida",
-          "text": "Florida Atlantic has offered 3.5⭐ 2028 Edge Cornelius Laney from Ocoee HS, FL. @CorneliusLaney1 Rated (#774 NATL, #59 Edge, #113 FL) - 11 offers overall. https://t.co/3cTxA1Pkoq"
+          "postId": "2098545744420680113",
+          "author": "firstwitnessx",
+          "searchJob": "temple",
+          "text": "He's a priest and he has a banana in his hand. He bought that banana with his own money. He went to the temple and is offering it to God. Whatever he's doing, he's doing it with his own money. He bought the banana with his own cash and he's"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098517276462911563",
-          "author": "thefactsdude",
-          "searchJob": "florida",
-          "text": "GOONER: Florida man runs a $650 lap-dance tab, then only offers $50 Roberto Maldonado, 46, stacked 15 private dances at $40 a pop plus a $50 house fee at Reign in Clearwater. Total: $650. He offered $50. Police found him talking in circles "
+          "postId": "2098544935284953189",
+          "author": "firstwitnessx",
+          "searchJob": "temple",
+          "text": "He's a priest and he has a banana in his hand. He bought that banana with his own money. He went to the temple and is offering it to God. Whatever he's doing, he's doing it with his own money. He bought the banana with his own cash and he's"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098523587443372140",
-          "author": "austingarner76",
-          "searchJob": "rutgers",
-          "text": "@maxplayscfb 3* ATH as a middle of the road program OR targeting 4* with no offers and targeting them weeks 2-4; with Rutgers I signed a 4* RB with 99 speed and 97 accel that had no offers by week 3, and 3* ATH QBs are monsters in general"
+          "postId": "2098533265132916919",
+          "author": "ashmoreadrian",
+          "searchJob": "temple",
+          "text": "As you're viewing homes this weekend, 42 Dales St in Temple GA offers so many updates, upgrades, and extras, it is very much worth viewing. Book a showing with me or if you have an agent pass this property on to them and set up a time to se"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098516039327756457",
+          "author": "joeinfluencer",
+          "searchJob": "temple",
+          "text": "Discipleship Old Testament Overview Understanding the first 39 books and history. An overview of the Old Testament (the first 39 books of the Christian Bible) provides the foundational history, theology, and narrative of God's relationship "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098532626772443369",
+          "author": "pat_dowd77",
+          "searchJob": "class:2028",
+          "text": "#Vanderbilt offered another four-star offensive lineman to the class of 2028 this week. @VandyOnSI https://t.co/jwsmBSJKGC"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098547158232240352",
+          "author": "heartlandernews",
+          "searchJob": "georgia",
+          "text": "One of the NFL’s best feel-good stories will reach another milestone Sunday, when a player who received no attention from NFL scouts out of Division II Delta State – and once delivered DoorDash while training during the day and chasing his "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098546068002861468",
+          "author": "cokeman1992",
+          "searchJob": "georgia",
+          "text": "@Kisasi_Lion Georgia isn't any better. The sheriff deputy saw me broke down while just sitting across the road for 30 minutes and did nothing then just left. While I was pushing my truck in the rain no one offered to help just honked and sw"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2098541566939861495",
+          "author": "recruitgeorgia",
+          "searchJob": "georgia",
+          "text": "Calvary Christian SR OL earns offer from Concord #RecruitGeorgia"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098540298762600929",
+          "author": "coachhemi",
+          "searchJob": "georgia",
+          "text": "OTR Recruiting Recap 📌@galegacyhoops see their 2027s attract attention 📌@Gaboys_18 NEXT UP 📌 @wr_allstars forward gets offer on visit ➕ A pair of Georgia guards choose schools in Alabama. @OntheRadarHoops 🗒️ https://t.co/lqAI2pLzbN"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098539452742111402",
+          "author": "bob_sweeney",
+          "searchJob": "georgia",
+          "text": "@RepRalphNorman But nothing to be said when liberals offered 10k student loan forgiveness, or $2000 for Georgia senators to win, or better yet Free everything to illegal immigrants, we are tired of your fake outrage"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098535584985760003",
+          "author": "mattmccrory4",
+          "searchJob": "georgia",
+          "text": "@DubCJunior @MichaelWBratton @thatSECpodcast Georgia offered him 6 million last year 🤷‍♂️"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098532211028885513",
+          "author": "gahousebuyers",
+          "searchJob": "georgia",
+          "text": "🔨 Roof, plumbing or electrical problems? Don't spend thousands fixing your house before selling. Georgia House Buyers buys Middle Georgia homes as-is with a cash offer in 48 hours. 📞 478-739-3968 #SellAsIs #MaconGA #SellFast https://t.co/"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098526885705576545",
+          "author": "recruitgeorgia",
+          "searchJob": "georgia",
+          "text": "With three FBS offers under his belt, @pjmitchell72 out of Westlake looks to be a JR OL on the rise. The 6'2\" 295 lbs. lineman has a 79\" wingspan. He talks recruitment, the season &amp; more #RecruitGeorgia https://t.co/Xx3p6pzdIm"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098532857589232106",
+          "author": "irl_darius",
+          "searchJob": "kentucky",
+          "text": "I've never met a bigger loser in my life and i met erob221. I said i'd go anywhere than the bumfuck place you are in within kentucky. Texas is a mutual combat state, i offered you a flight and housing. You back down because you want things "
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2098545323245535354",
+          "author": "trippbuhler",
+          "searchJob": "lsu",
+          "text": "#LSU will have a 5🌟 prospect on campus this weekend. Xavier Young was offered by Will Wade &amp; staff at the end of July."
+        },
+        {
+          "reason": "author_not_recruit:organisation",
+          "postId": "2098530249353085078",
+          "author": "4qhcaden",
+          "searchJob": "lsu",
+          "text": "5⭐️ 2028 prospect Xavier Young (@XavierYoung28) tells @4qhcaden that he will be headed to LSU this weekend. 🐯 The 6’10” big man out of Faith Family Academy is a Top-15 national prospect and has already received an offer from LSU. Young has"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098532128837206342",
+          "author": "brucefarms82",
+          "searchJob": "lsu",
+          "text": "@ByPiperHutch I was wondering when this LSU demoRAT was going offer her two cents. 😂😂😂"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098520831231971578",
+          "author": "jwtchelsea",
+          "searchJob": "lsu",
+          "text": "@bhunt13_hunt @Libertybibbledy The cis h literally said Kiffin contacted them via text message. The player said I need to be released because I’ve been offered more money to go back to college. The sec lawsuit states that lsu colluded with "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098545825034936524",
+          "author": "orig_valentine",
+          "searchJob": "texas",
+          "text": "@thehill This prick‼️You think YOU work @tedcruz You're a senator! You don't work....you run around ball washing an orange felon. You have such a pontifical snarky personality but you're an empty suit! You offer nothing to the people who em"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098544208520863857",
+          "author": "chili1179",
+          "searchJob": "texas",
+          "text": "@BudLightSadness I have considered your offer and on behalf of Texas, we must decline. Maybe try Oklahoma, they'll obviously allow anyone in."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098542288477556807",
+          "author": "tfloss32",
+          "searchJob": "texas",
+          "text": "'28 DE Camari Terrell (@CamariTerr38265) of The Colony pockets a North Texas offer. #GMG🦅 https://t.co/rRjIXtgdqc https://t.co/fLguooIjtp 𝕏 @TCougarfootball"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098534216380088396",
-          "author": "lailapalestini1",
-          "searchJob": "usc",
-          "text": "It is illegal to even offer to pay for votes. Trump belongs in jail not on the campaign trail. 18 USC Sect. 597… https://t.co/OmZSq8VGXX"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098542242969612387",
-          "author": "katiedaviscourt",
-          "searchJob": "arizona",
-          "text": "DHS statement to @TPostMillennial: “On September 5, ICE arrested Sebastian Zurita-Villanueva, Bernardino Ramos-Villanueva, Faustino Carmona-Gijon, and Alvaro Robles-Villanueva, four illegal aliens from Mexico, and Rolando Robles-Villanueva,"
+          "postId": "2098540574294819174",
+          "author": "hgidictatorisms",
+          "searchJob": "texas",
+          "text": "@ds_672 If you are in Texas, I would dearly appreciate any of the local souveniers they offer. I am quite a big fan of the cowboy culture and history they have. Anything with horses or cowboys would make me quite happy."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098521227245809916",
-          "author": "rach_ic",
-          "searchJob": "arizona",
-          "text": "And let me be clear. I have no problem with anonymous speech. Our Founding Fathers wrote anonymously using pseudonyms in the Federalist Papers. I wrote an article defending anonymous speech in 2009 - https://t.co/OB4eHs7UbA Where I DO have "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098538797092749751",
-          "author": "irishchannell",
-          "searchJob": "notre-dame",
-          "text": "Could restricted holiday homes offer an overlooked route into the Irish property market? This video examines Ireland’s property cycle, regulation and some areas where relative value may remain. https://t.co/boTalm5OT4 #IrishProperty #Irelan"
+          "postId": "2098537349894299742",
+          "author": "prep2play",
+          "searchJob": "texas",
+          "text": "🚨👀👀🚨 PrepStar Elite 360 ‘27 OL @CavinRhoadsJr27 | Texas City HS 📏6’1” 280 🎓3.5 GPA ⏱4.9 40 | 4.8 Shuttle 🧰7’4” Broad | 73” Wingspan 💪335 Bench | 425 Squat Profile &amp; 🎥: https://t.co/7G4WyiSDTD ✅OFFERS: 5"
         }
       ]
     },
@@ -251,12 +443,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 3,
-      "rejectedCandidates": 9,
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 40,
       "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-11T22:57:59.490Z"
+    "status rebuilt locally from current store on 2026-09-11T23:13:09.155Z"
   ]
 }
