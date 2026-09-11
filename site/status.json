@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T18:13:24.826Z",
+  "generatedAt": "2026-09-11T18:43:13.593Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-11T18:13:24.481Z",
+    "at": "2026-09-11T18:43:13.284Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7830263888888889,
-    "p95Hours": 1.4958463888888889,
-    "worstHours": 1.7764541666666667
+    "medianHours": 1.028456111111111,
+    "p95Hours": 1.5274263888888888,
+    "worstHours": 1.777675
   },
   "decisionCoverage": {
-    "total": 55,
-    "decided": 55,
+    "total": 30,
+    "decided": 30,
     "complete": true
   },
   "pending": {
@@ -47,312 +47,255 @@
   "profileResolution": {
     "cached": 47
   },
-  "paginationBacklog": 2,
+  "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 1031,
+    "completeOffers": 1032,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-11T18:13:24.481Z",
-      "got": 89,
-      "new": 55,
-      "lag": 0.04
+      "at": "2026-09-11T18:43:13.284Z",
+      "got": 50,
+      "new": 30,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-09-11T18:11:42.012Z",
+    "at": "2026-09-11T18:41:44.123Z",
     "mode": "live",
     "collection": {
-      "returned": 89,
-      "kept": 55,
-      "duplicate": 33,
+      "returned": 50,
+      "kept": 30,
+      "duplicate": 19,
       "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 42,
-      "rejected": 13,
+      "accepted": 21,
+      "rejected": 9,
       "reasons": {
-        "no_offer_term": 6,
-        "no_fbs_school": 4,
-        "non_fbs_offer_target": 1,
-        "hard_negative": 2
+        "no_offer_term": 3,
+        "no_fbs_school": 2,
+        "hard_negative": 1,
+        "non_fbs_offer_target": 3
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2098424664963817743",
-          "author": "jedcal",
-          "searchJob": "liberty",
-          "text": "first photo is mine, second photo was taken by my dad in 1986 when he lived in NYC 🙏 https://t.co/TXns50KGJl"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098235552805929224",
-          "author": "battleofever",
-          "searchJob": "liberty",
-          "text": "1819 Illustration 👀 The Declaration of Independence What stands out to you in the states' fascinating illustrations? CREDIT: ▶️ ancient.maps.and.mystery TT #HiddenHistory #Reset #OldWorld #NephilimBloodlines #Freemasonry #Founded #Giants #"
+          "postId": "2098481639890342278",
+          "author": "zabryanhood",
+          "searchJob": "south-alabama",
+          "text": "Blessed to receive an invite to South Alabama Vs ULM Can't wait for the experience @warmbier_tyler @CoachTHarris1 https://t.co/lgc065LNEj"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098454716514459840",
-          "author": "staffingliberty",
-          "searchJob": "liberty",
-          "text": "4 employees hired on permanently this week! 🫱🏼‍🫲🏽 If you're looking for work in #KitchenerWaterloo, apply with us today! We offer temp and perm #jobs. 📱 Call/text: 519-742-2011 📋 Start our online application: https://t.co/40kB5F9EiW \ud83d"
+          "postId": "2098480368789668335",
+          "author": "phoenixselect",
+          "searchJob": "iowa",
+          "text": "YES MA’AM‼️‼️‼️ 5’11” 2027 guard @mack_phoenix_50 earns an offer to @GracelandU_WBB in Iowa🔥 Extremely grateful to Coach @dylanschmit23 for the opportunity🙏 https://t.co/jkXFSR41LP"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098477499902816403",
+          "author": "betonjmont",
+          "searchJob": "minnesota",
+          "text": "Phillies/Braves Atlanta comes in 86-61, four games ahead of Philadelphia in the NL East, so this is a legitimately high-leverage divisional series rather than a meaningless September spot. Sale has also been excellent recently: over his las"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098479218082423212",
+          "author": "startribune",
+          "searchJob": "minnesota",
+          "text": "Modern Edina home offers waterfront privacy on more than 2 acres https://t.co/yuDNa9XMNi"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098477335083123131",
+          "author": "voiceofthestar",
+          "searchJob": "minnesota",
+          "text": "Brevyn Spann-Ford also had an offer from the Vikings in undrafted free agency, but the Minnesota native and Golden Gopher chose the #Cowboys instead. 📝 despite growing up a #Vikings fan, he felt Dallas’ offer was more telling of their beli"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2098473053139489235",
-          "author": "zay_englund",
-          "searchJob": "washington",
-          "text": "Blessed to receive an official offer from Western Washington University! Thank you to Coach Dominguez, Coach AJ, and the rest of the coaching staff for believing in me! @auburnhoops https://t.co/JXenrCX12q"
+          "postId": "2098480150446838085",
+          "author": "aniyahharris08",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with Coach JJ Davis, I’m blessed to receive my first offer from Neosho Community College. #agtg🙏🛐 https://t.co/TZhWAEI2eV"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098478193803956280",
+          "author": "falizeeee2028",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation, I am blessed to receive an offer from Loyola University Maryland! Thank you to the entire coaching staff for believing in me. 💚🤍 @LoyolaWBB #Classof2028 #PatriotLeague https://t.co/WcoFospCLz"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098475571915170038",
+          "author": "caydon_cox",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with Coach Wahle I am blessed to receive an offer from Muskingum University! https://t.co/MxXM5lpzKz"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098470326376059315",
-          "author": "open_weights_ai",
-          "searchJob": "washington",
-          "text": "https://t.co/QMZbwAsSlO"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098469721989345377",
-          "author": "pressmonitorin",
-          "searchJob": "washington",
-          "text": "15 Essential Trade Stories for Business Leaders https://t.co/8E7AJLcn47 According to Press Monitor's tracking of Indian publications, this media monitoring review delivers 15 essential trade stories for business leaders. From BRICS Summit 2"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098469338411905530",
-          "author": "red_tape_news",
-          "searchJob": "washington",
-          "text": "Twenty-five years after 9/11, I did not grade agencies on patriotism. I opened their homepages. Some remembered at the front door. Some remembered elsewhere. Visibility is still a choice. What happens when lived memory becomes institutional"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098467680777068696",
-          "author": "pressmonitorin",
-          "searchJob": "washington",
-          "text": "7 Pivotal Timber & Wood Industry Stories for Business Leaders https://t.co/IwWpaiz1ek According to Press Monitor's tracking of Indian publications, seven high-impact developments are reshaping the timber, lumber, and wood products sector. O"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098427897136501176",
-          "author": "jdvance",
-          "searchJob": "washington",
-          "text": "I was honored to be able to join the families of the fallen on the 25th anniversary of 9/11. To everyone who read names and recounted stories of their loved ones: thank you for your courage and for telling us a little about the person you l"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098462239808172373",
-          "author": "shellenberger",
-          "searchJob": "utah",
-          "text": "A year after Tyler Robinson allegedly killed Charlie Kirk at Utah Valley University, many Americans believe that he either did not do it or did not act alone. Candace Owens has implied that “Erika Kirk conspired with other Turning Point USA"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098456634280272093",
-          "author": "casasenutah",
-          "searchJob": "utah",
-          "text": "Utah County Market Offers More Breathing Room Utah County buyers are getting a bit more room to breathe—months of supply here have increased by 31%. This shift gives you more flexibility and time as you consider your next move, whether you’"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098465297200009710",
-          "author": "ioffendevery1",
-          "searchJob": "virginia",
-          "text": "@mehdirhasan Youre assuming Mayor Giuliani would have offered you his hand.i know i wouldn't have tou Islamic piece of dog shit"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098168087979655425",
-          "author": "freerangekids",
-          "searchJob": "virginia",
-          "text": "The story of Karyann Parkinson, the mom found \"guilty\" of letting her son, 5, take a walk in the neighborhood to collect feathers, shows what happens when we BAKE HELICOPTER PARENTING into LAW. So many people are realizing this, thanks to h"
+          "postId": "2098471303602672119",
+          "author": "loughy",
+          "searchJob": "houston",
+          "text": "People are obsessed with using AI to find their bets, but is any of it actually profitable? I want to find out, so I gave 5 different models all the data they need to originate NFL player props on Kalshi And some of their reasoning is shock"
         }
       ]
     },
     "extraction": {
-      "accepted": 2,
-      "rejected": 40,
+      "accepted": 1,
+      "rejected": 20,
       "reasons": {
-        "bare_mention_requires_llm": 27,
-        "multiple_resolved_schools": 4,
-        "reporter_missing_class_year": 1,
-        "reporter_missing_position": 1,
-        "school_not_resolved_confidently": 7
+        "multiple_resolved_schools": 5,
+        "bare_mention_requires_llm": 10,
+        "school_not_resolved_confidently": 4,
+        "explicit_non_fbs_target": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098473361546383831",
-          "author": "realjustbill_tx",
-          "searchJob": "liberty",
-          "text": "Next up.... “America isn't just a tune—it’s a thunderous anthem of liberty, demanding a patriot’s voice in a mighty chorus of unity, sung loud & proud, like God and our founders intended!“ – Uncle Bill Today I offer… \"American Made\" by my f"
+          "reason": "multiple_resolved_schools",
+          "postId": "2098478737457139943",
+          "author": "hawkeye1745",
+          "searchJob": "marshall",
+          "text": "Biggest brainwash operation started in 1945: Adenauer’s Ties to the CIA Close Relations U.S. Treasury Secretary Henry Morgenthau’s plan to transform Germany into an agrarian state was replaced by the Marshall Plan: $13 billion flowed into t"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098473193883226206",
-          "author": "realjustbill_tx",
-          "searchJob": "liberty",
-          "text": "Next up.... “America isn't just a tune—it’s a thunderous anthem of liberty, demanding a patriot’s voice in a mighty chorus of unity, sung loud & proud, like God and our founders intended!“ – Just Bill™ Today I offer… \"America is my Hometown"
+          "postId": "2098474592465465492",
+          "author": "krispykriskring",
+          "searchJob": "marshall",
+          "text": "In 1949, Cadillac and Oldsmobile introduced overhead-valve V8s that were supposed to make the flathead obsolete overnight. Valves on top of the combustion chamber instead of beside it. Better breathing. Better thermal efficiency. More power"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098472860381532405",
-          "author": "realjustbill_tx",
-          "searchJob": "liberty",
-          "text": "Next up.... “America isn't just a tune—it’s a thunderous anthem of liberty, demanding a patriot’s voice in a mighty chorus of unity, sung loud &amp; proud, like God and our founders intended!“ – Uncle Bill Today I offer… \"God Bless the USA\""
+          "postId": "2098460355735298207",
+          "author": "coachgoldsmith",
+          "searchJob": "marshall",
+          "text": "Helping others shows care. Asking others to help you shows respect. Leaders need to do both. When you only give support, you’re showing kindness - but when you’re also willing to ask for it, you’re showing humility. And humility builds trus"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098472422487859452",
-          "author": "realjustbill_tx",
-          "searchJob": "liberty",
-          "text": "Next up the mystique of this song still speaks.... “America isn't just a tune—it’s a thunderous anthem of liberty, demanding a patriot’s voice in a mighty chorus of unity, sung loud & proud, like God and our founders intended!“ – Just Bill™"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098471582079270952",
-          "author": "realjustbill_tx",
-          "searchJob": "liberty",
-          "text": "Next up for the ladies that serve.... “America isn't just a tune—it’s a thunderous anthem of liberty, demanding a patriot’s voice in a mighty chorus of unity, sung loud & proud, like God and our founders intended!“ – Just Bill™ Today I offe"
+          "postId": "2098460347216892013",
+          "author": "alexchaomander",
+          "searchJob": "marshall",
+          "text": "🎤 How is AI reshaping not only what we do, but who we are? In this episode of @HumansofAIPod, I chat with Andrew McLuhan (@amicusadastra), a poet, writer, researcher, and the founder and director of The McLuhan Institute (@McLinstitute), w"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098470663694471274",
-          "author": "green_light_art",
-          "searchJob": "liberty",
-          "text": "Tribute in Light recreates the Twin Towers in glowing columns powered by 88 xenon searchlights (7 kW each!) arranged in 48ft squares on the Battery Parking Garage roof. The beams project 4mi into the sky and are visible 60mi away, covering "
+          "postId": "2098481048044622123",
+          "author": "mcreekfutures",
+          "searchJob": "south-florida",
+          "text": "Corn Futures Weekly Outlook - September 7–11, 2026 Top News Story: September WASDE Slashes Corn Yield to 178.5 Bu., Pulling Production Below 16 Billion Bushels The corn market capped off a volatile, highly anticipated trading week with mode"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098470638164025469",
-          "author": "realjustbill_tx",
-          "searchJob": "liberty",
-          "text": "Next up.... “America isn't just a tune—it’s a thunderous anthem of liberty, demanding a patriot’s voice in a mighty chorus of unity, sung loud & proud, like God and our founders intended!“ – Just Bill™ Today I offer… Courtesy of Red, White "
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098480325106028796",
+          "author": "fell_ogden35625",
+          "searchJob": "south-florida",
+          "text": "Little Office of the Blessed Virgin Mary FRIDAY Morning Prayer God, come to my assistance. - Lord, make haste to help me Glory to the Father and to the Son and to the Holy Spirit as it was in the beginning, is now, and will be forever. Amen"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098469876713030117",
-          "author": "realjustbill_tx",
-          "searchJob": "liberty",
-          "text": "Next up.... “America isn't just a tune—it’s a thunderous anthem of liberty, demanding a patriot’s voice in a mighty chorus of unity, sung loud & proud, like God and our founders intended!“ – Just Bill™ Today I offer…Star Spangled Banner. Fr"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098468694267457976",
-          "author": "realjustbill_tx",
-          "searchJob": "liberty",
-          "text": "Next up.... “America isn't just a tune—it’s a thunderous anthem of liberty, demanding a patriot’s voice in a mighty chorus of unity, sung loud &amp; proud, like God and our founders intended!“ – Just Bill™ Today I offer…\"Born Free\" by Kid R"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098464180491755802",
-          "author": "logicalgiraffe",
-          "searchJob": "liberty",
-          "text": "!26 决策/博弈论 Game Theory 1) 你帮助过的人，和帮助过你的人，应该向谁求助？ 谁更有可能帮助你？ 二战期间，一对犹太兄弟想要逃出纳粹德国，他们打算在父亲的熟人中，找一个最有可能帮助他们的人。 老大想起了一个银行家，父亲生前曾多次帮助过他；老二想起了一个木材商，这个人曾多次帮自己家的忙。 兄弟俩的意见发生了分歧，到底是“以前你帮助过的人”更可能反过来帮助你呢？还是“帮助过你的人”更可能再次帮助你呢？ 时间紧急，兄弟俩决定分头求救，各自逃亡。你认为谁最有可能成"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098479229356867893",
+          "author": "alexf1bcl",
+          "searchJob": "south-florida",
+          "text": "🚨George Russell has shared his concerns around “the big question mark” that will impact the rest of the Spanish Grand Prix weekend, with the Mercedes driver predicting that tyre degradation will play a significant role. After admitting tha"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098461519159730177",
-          "author": "fedupcitizen250",
-          "searchJob": "liberty",
-          "text": "Worth your time- multiple post needed- (A Christian Warfare dissection of the document) I ran this exercise through my book (link on page), and this is what I got. Enjoy reading. If I were Satan: In the summer of 1776, a committee of men sa"
+          "postId": "2098471287706341450",
+          "author": "jackfarley96",
+          "searchJob": "iowa",
+          "text": "OUT NOW - with \"Godzilla El Niño\" approaching and ~70 days of global food reserve (down from 110 a decade ago), I sat down with John Farris of LandFund Partners to talk about rice risks in India/Brazil and the keys to securing global food s"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098459520322126307",
-          "author": "knapp_supply",
-          "searchJob": "liberty",
-          "text": "@KnappSupply We offer the Liberty Pumps Ascent II Macerating Toilet System for easy bathroom remodeling projects. Featuring RazorCut technology and flexible installation options, perfect for residential &amp; commercial use. Compact and rel"
+          "postId": "2098476699084075218",
+          "author": "detroitnews",
+          "searchJob": "michigan",
+          "text": "Michigan hockey incident in 1980 offers glimpse into the sport's hazing culture https://t.co/SorAv9gwTK"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098459464173060282",
-          "author": "___irani",
-          "searchJob": "liberty",
-          "text": "Twenty-five years ago, in the days after 9/11, Iranians filled Tehran's squares with candles for the American dead, watched by the same security forces that still oppress them today. While global news networks were broadcasting shocking foo"
+          "postId": "2098472321736646851",
+          "author": "peggymaca",
+          "searchJob": "michigan",
+          "text": "@Derricktgoat I agree with her. Time for that 70 yr old line to go. Enbridge asked them to offer an alternate route. Did they do that. When that line closes it also cuts off Michigan oil."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098457499515130366",
-          "author": "iamnocapa",
-          "searchJob": "liberty",
-          "text": "Crown Prince Reza Pahlavi: The regime chanted death. Our people offered light. Iranians and Americans have never been enemies. We also share a fundamental common value: liberty. Liberty is the cornerstone on which America is built and what "
+          "postId": "2098462151706914945",
+          "author": "jasonkillop",
+          "searchJob": "michigan",
+          "text": "VISITOR PREVIEW: Three recruits that could earn Michigan State offers this weekend... (On3+): https://t.co/Gwi6adITnI https://t.co/bNpo9xuIz2"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098456877843558586",
-          "author": "ethanfletcher",
-          "searchJob": "liberty",
-          "text": "@edels0n And, most significantly, a profound offense against democracy and liberty. It's literally a bribe offered for the subversion of American democracy. Trump has diminished the standards and expectations in American public life, but se"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098469370653770087",
-          "author": "benzinga",
-          "searchJob": "louisiana",
-          "text": "SpaceX ($SPCX) has reportedly closed a major new compute hosting agreement that could add more than $13 billion in annual recurring revenue. Speaking at Goldman Sachs’ Communacopia and Technology Conference, SpaceX CFO Bret Johnsen said the"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098464206055968996",
-          "author": "x1cm91j",
-          "searchJob": "alabama",
-          "text": "@RayMcDuffie11 Being offered part ownership of the Tampa Bay Bucs was too much to turndown. He was 32-15-1 at BAMA and several years we had the top rated schedule in the nation."
+          "postId": "2098479957102174400",
+          "author": "betonjmont",
+          "searchJob": "minnesota",
+          "text": "Guards/Twins Messick’s underlying profile is genuinely strong: 26.1% K, 6.8% BB, 31.4% chase, 26.3% whiff, .271 xwOBA, .222 xBA and .335 xSLG allowed. He is not just living off ERA suppression. The contact quality is excellent too: 87.3 mph"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098455727631171696",
-          "author": "jaxnole_algo",
-          "searchJob": "alabama",
-          "text": "@FosterReub81830 @Mrwnoles He's a Bama alum but if offered it would be tough to give up one of the 15 or so teams capable of winning a national championship waiting on a maybe For $ S Blakey (1B+) spent her Labor day at FSU so if she likes "
+          "postId": "2098476521354661893",
+          "author": "ddkuester",
+          "searchJob": "missouri",
+          "text": "@mikelsevere @AJTrueSon Nebraska took the partial membership offer Missouri balked at - whatever Big Ten move that was attempted in the early ‘90s, was in coordination with ku (and efforts were made)"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098472715925721293",
+          "author": "seanoliver33",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "#AGTG After a great conversation with @_CoachEnnis im blessed to receive an offer from @HCUFootball @RylandWidener99 @CoachYancy_ @coach_dobler @247recruiting @JUCOFFrenzy #god #D1bounceback #JucoProduct #COMPETE #DawgsUp #TheStandard https"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098479438044565670",
+          "author": "vsininsights",
+          "searchJob": "boston-college",
+          "text": "Rutgers as a Friday night road dog offers contrarian value. Despite 56% of spread bets on Boston College, sharp reverse line movement pushed Rutgers from +3.5 to +3 and they command 70% of spread dollars at DraftKings. Friday road dogs are "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098473303317078479",
-          "author": "a_l_e_x_v_e_g_a",
-          "searchJob": "washington",
-          "text": "Ukraine Sees Russian-Iranian Sanctions Networks Converging As US Targets Tankers The recent US destruction of five Iranian oil tankers in the Strait of Hormuz has exposed more than the widening confrontation between Washington and Tehran. I"
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2098472931038724546",
-          "author": "israeli_sniper",
-          "searchJob": "washington",
-          "text": "📍 Israel Reportedly Offers Arab States Help Against Houthis Lebanese media, citing unnamed U.S. diplomatic sources, report that Prime Minister Benjamin Netanyahu has offered Israeli military assistance to Arab states confronting the Houthi"
+          "postId": "2098474096241602943",
+          "author": "karenanner03",
+          "searchJob": "houston",
+          "text": "@Evans_Wroten That happened under Harvey. A company? a man &amp; his son was allocating money for destroyed homes in Houston. I was offered $4,000 for a home I later sold for $60,000. Almost no one accepted their offer, they probably got to"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098472488632263089",
-          "author": "loni669",
-          "searchJob": "washington",
-          "text": "@Eyalo365 He promised ca$h, what did he get? Trump rebuffs Saudi pleas for strikes as Houthis surge, report says Saudi crown prince called Trump twice as Houthis seized key Red Sea positions, but Washington refused direct strikes and offere"
+          "postId": "2098458407812362694",
+          "author": "goonersweetmama",
+          "searchJob": "houston",
+          "text": "@xtrarsenal @miaholder24 Depends. Most storied teams in desirable locations? Players are willing to take pay cuts. If my husband was offered less money to get me off the piddly east coast back home to Dallas or Houston? I’m out of here. Vik"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098471771275940004",
-          "author": "nemiconetwork",
-          "searchJob": "washington",
-          "text": "sentdefender: CNN reports that Saudi Arabia’s East-West oil pipeline system was struck by projectiles Thursday, with U.S. officials saying pumping stations alongside the pipeline were hit and fires broke out. Satellite imagery appears to sh"
+          "postId": "2098456957719810181",
+          "author": "koaxbt",
+          "searchJob": "houston",
+          "text": "George Foreman sold 120 million grills with his face on the box and made more from that than from every fight of his career. He was offered a flat endorsement fee like every other athlete. He asked for 45% of the profits instead. He only we"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098471358795579825",
-          "author": "sentdefender",
-          "searchJob": "washington",
-          "text": "CNN reports that Saudi Arabia’s East-West oil pipeline system was struck by projectiles Thursday, with U.S. officials saying pumping stations alongside the pipeline were hit and fires broke out. Satellite imagery appears to show significant"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098474824737722510",
+          "author": "mariamelx58",
+          "searchJob": "kansas",
+          "text": "MONDAY NIGHT LIGHTS SHOWDOWN 🏟️ Bo Nix and the Denver Broncos heading into Arrowhead for a primetime clash against Patrick Mahomes and the Kansas City Chiefs is the ultimate litmus test. Everyone loves talking about the AFC West hierarchy,"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098469848246288838",
-          "author": "angelawalkr",
-          "searchJob": "washington",
-          "text": "11/09/26 Independent Reports Service Canada-Ukraine Signed 100 Yr Pact.Carney+Zelensky signed 100yr comprehensive strategic partnership in Calgary. Not a memo/not a photo. 08/24 Ukraine walked into Washington offered U.S. joint interceptor "
+          "reason": "explicit_non_fbs_target",
+          "postId": "2098469119590813953",
+          "author": "profilefblive",
+          "searchJob": "kansas",
+          "text": "Kansas State has offered 4.0⭐ 2028 DE Julian Dwyer from Archbishop Moeller HS, OH. @jjdwyer_91 Rated (#307 NATL, #20 DE, #10 OH) - 22 offers overall. https://t.co/8J7QYlEW7R"
         }
       ]
     },
@@ -366,12 +309,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 2,
-      "rejectedCandidates": 40,
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 20,
       "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-11T18:13:24.827Z"
+    "status rebuilt locally from current store on 2026-09-11T18:43:13.593Z"
   ]
 }
