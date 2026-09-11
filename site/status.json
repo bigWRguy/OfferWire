@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T13:58:02.217Z",
+  "generatedAt": "2026-09-11T14:13:06.915Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-11T13:58:01.951Z",
+    "at": "2026-09-11T14:13:06.593Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0257191666666667,
-    "p95Hours": 1.767951111111111,
-    "worstHours": 1.767951111111111
+    "medianHours": 0.9770266666666667,
+    "p95Hours": 1.7773436111111112,
+    "worstHours": 2.019256111111111
   },
   "decisionCoverage": {
-    "total": 27,
-    "decided": 27,
+    "total": 63,
+    "decided": 63,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 47
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 2,
   "quality": {
     "completeOffers": 1019,
     "incompleteOffers": 0
@@ -55,227 +55,372 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-11T13:58:01.950Z",
-      "got": 45,
-      "new": 27,
-      "lag": 0.08
+      "at": "2026-09-11T14:13:06.592Z",
+      "got": 79,
+      "new": 63,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-11T13:56:22.806Z",
+    "at": "2026-09-11T14:11:29.132Z",
     "mode": "live",
     "collection": {
-      "returned": 45,
-      "kept": 27,
-      "duplicate": 17,
+      "returned": 79,
+      "kept": 63,
+      "duplicate": 15,
       "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 19,
-      "rejected": 8,
+      "accepted": 40,
+      "rejected": 23,
       "reasons": {
-        "hard_negative": 3,
-        "no_fbs_school": 2,
-        "no_offer_term": 2,
+        "hard_negative": 4,
+        "no_offer_term": 6,
+        "no_fbs_school": 12,
         "non_fbs_offer_target": 1
       },
       "samples": [
         {
           "reason": "hard_negative",
-          "postId": "2098393744852541600",
-          "author": "bowtiedmara",
-          "searchJob": "navy",
-          "text": "A previously unpublished letter from 1833 has been discovered detailing the illegal British occupation of the Malvinas Islands. The letter, written by Juan Ramón Balcarce, was sent to the governor of Tucumán, Agustín Heredia, days after the"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098388921944096831",
-          "author": "jdgoldboys",
-          "searchJob": "nevada",
-          "text": "🚨 NEW POLYMARKET US OFFER 🚨 Deposit $10+ and get a $50 bonus with code JD50 I just shared the 21.99x 5- leg combo I’m trading this weekend ⬇️ Sign up: https://t.co/VsDzuaw1Kc Available in 49 states + D.C. Not available in Nevada. Polymark"
+          "postId": "2098405123823112427",
+          "author": "srskip8",
+          "searchJob": "arkansas-state",
+          "text": "Nobody warned the lions that the herd would come back for blood. In the golden haze of an African dawn, dust rising like smoke from a battlefield, a pride of lions believed they had already won. They had not. What unfolds in the seconds tha"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098399674705051926",
-          "author": "stogiehogrider",
-          "searchJob": "auburn",
-          "text": "STOP all tax dollars!!! https://t.co/svhFfE0GDF"
+          "postId": "2098402653042880909",
+          "author": "bitcoinwell",
+          "searchJob": "arkansas-state",
+          "text": "https://t.co/sV6fN8qHw9"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098386722237157644",
-          "author": "zanp",
-          "searchJob": "auburn",
-          "text": "Mentally ill Tigers https://t.co/aPvXE08SFw"
+          "postId": "2098063672543506507",
+          "author": "rscottclark",
+          "searchJob": "arkansas-state",
+          "text": "The church has always practiced \"the intent of imposing.\" To equate that with theological liberalism is disingenuous. When the church of Scotland received the Westminster standards she did so with the intent of imposing, that is, with the u"
         },
         {
           "reason": "hard_negative",
-          "postId": "2098385932458000785",
-          "author": "ryanbartow",
-          "searchJob": "auburn",
-          "text": "AUTHENTIC ON-SITE JUICE Tight end Lee Steele (Orange Beach) holds 22 offers with high interest in four of his tenders. Who does he feel is recruiting him hardest among those tenders and has made him a priority? https://t.co/eI9PELuH4I https"
+          "postId": "2098388593509007555",
+          "author": "sbtopwomen",
+          "searchJob": "arkansas-state",
+          "text": "Founded in 2013, The Shard began with a bold vision: unite the complementary skills of actuaries, accountants, auditors, and analysts to offer the financial industry a new kind of consulting partner. They are a 100% black-owned Level 1 B-BB"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098385911872655821",
+          "author": "panera4",
+          "searchJob": "arkansas-state",
+          "text": "https://t.co/Wy9bxQ31LS"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098395987093971136",
-          "author": "nebraskacubbie",
-          "searchJob": "nebraska",
-          "text": "Here are some prestigious awards/honors -Nobel Prize -Pulitzer Prize -Being a running back offered by Ej Barthel -Purple Heart -The Heisman"
+          "postId": "2098386233026081099",
+          "author": "yourohionews",
+          "searchJob": "ohio",
+          "text": "Holmes County Sheriff’s Office offers free threat assessments to help local businesses develop ALICE response plans. https://t.co/hdzCxvplc0"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098412542632640713",
+          "author": "micheler17719",
+          "searchJob": "rice",
+          "text": "@BritisherPaz49 The government want riots and civil war if it all kicks off they will inact marshal law then the government will offer the solution for the caios they created with digital 🆔 and 15 minute city's all for our own safety"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098408938974650384",
+          "author": "callthehogs",
+          "searchJob": "rice",
+          "text": "https://t.co/z2QUOjSnxn"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098412353549185151",
+          "author": "_chaotix",
+          "searchJob": "florida",
+          "text": "@joosiepotsi if they ask, yes. i learned in florida that some people get oddly in a tizzy when you offer your spot??"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098412126901543056",
+          "author": "thepianoguysfl",
+          "searchJob": "florida",
+          "text": "Japanese-made Kawai Grand Piano in stunning Ebony Polish, a 5'10\" model that was meticulously kept and still sounds amazing. Any performer will be happy with the touch and tone. Best value under $9K anywhere in Florida. Offered in Pt Char S"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098411337378660445",
+          "author": "drewcohenmoney",
+          "searchJob": "florida",
+          "text": "https://t.co/ToCrV3IRvy"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2098401796767281319",
-          "author": "hypesouthmedia",
-          "searchJob": "phrase:\"picked up an offer from\"",
-          "text": "Washington County senior G Jade Kitchens @iiamjadek has picked up an offer from Georgia Southwestern. She’s locked in for our Girl’s Unsigned Hype Camp next week."
+          "postId": "2098408515664564285",
+          "author": "allnonesports1",
+          "searchJob": "florida",
+          "text": "🚨 OFFER ALERT 🚨 '28 G, Jordan White @j24white has received an offer from Florida Memorial University @NXTLevelSN @4YFilms @EHoopsSpotlight @AdrianMaloneyJr @bench424nmore @Uorangemen2 @CountdownCreate @PSGSportsMedia @HankampScott @mosesk"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098397429917688273",
+          "author": "joeray36",
+          "searchJob": "florida",
+          "text": "@COLTONMCKIBBEN9 One of the best I have seen in the country this year!! If he played in a major market area like Dallas, Any where in Florida he would have a ton of offers. Good Luck"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098397356416745556",
+          "author": "pchees",
+          "searchJob": "florida",
+          "text": "A dark-universe telescope rides Falcon Heavy’s 27 Merlin engines skyward — opening a five-year hunt across billions of galaxies. NASA’s Nancy Grace Roman Space Telescope lifted off at 3:26 p.m. GST on 30 August 2026 aboard a SpaceX Falcon H"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098409471022178783",
+          "author": "sceyetesthoops",
+          "searchJob": "south-carolina",
+          "text": "Going independent is not for most HS basketball players. If you’re the best player in your HS League or conference and you’re getting offers, take them. Going independent, you better be the real deal. Doesn’t guarantee a thing. https://t.co"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098393033527947673",
+          "author": "scprsa",
+          "searchJob": "south-carolina",
+          "text": "This Ethics Month, we’re asking PR professionals: What safeguards have you put in place when using AI in your work? PRSA offers several AI-related resources, including a guide for ethical AI use. Members can access the exclusive resource he"
         },
         {
           "reason": "hard_negative",
-          "postId": "2098401119152079343",
-          "author": "unknownnewsman",
-          "searchJob": "air-force",
-          "text": "🇾🇪🇸🇦⚡️ Summary of a statement issued by the Yemeni Armed Forces ➡️ Yemeni Armed Forces published a statement on Friday afternoon stating that an operation had been undertaken which involved striking Saudi Arabian troop confrontations, c"
+          "postId": "2098388999630946722",
+          "author": "msbarbara123",
+          "searchJob": "usc",
+          "text": "@RonFilipkowski Is it illegal, hence a Federal crime to offer compensation for voting: 18 USC Section 597? Is the gov’t therefore committing crimes openly? Trying to understand how this offer is possible?!?!?!"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098391078755819620",
+          "author": "voidelur",
+          "searchJob": "arizona",
+          "text": "@GajwerW @_Yuzus_ Ja pierdole znów widzę tego zjeba Niezle sie zesrałeś mordo że musisz płakać pod każdym postem XD"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098407320858296816",
+          "author": "mocheba69517",
+          "searchJob": "army",
+          "text": "@_Sekgabo @JellybeansRSA @HermanMashaba @BafanaSurprise My brother there are undecided voters who are sitting in front of TV at that time, it is his/her only time to listen on what different Political Parties can offer then we find someone "
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098392114287751311",
+          "author": "danrobertsecom",
+          "searchJob": "army",
+          "text": "HOW TO SUCCEED ON TRYBE I was one of the first movers on to Trybe. I did a call with @LukasPakter when he opened it to the public in May, and sent the recording to @cjfeth He is now doing 100k+ week on there [ I was too early for the $10k b"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098410012196442465",
+          "author": "bgkyworks",
+          "searchJob": "bowling-green",
+          "text": "🌍 Fun Fact: You can explore flavors from around the world right here in BG! The Food School offers hands-on classes where you can discover international cuisine and learn something new. 🥣🍙 https://t.co/e89YiHNokR"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098408106908652005",
+          "author": "buffalofireside",
+          "searchJob": "buffalo",
+          "text": "If there is one stock that should be on everyone's radar going into next week, it's $CVAT. The tender offer could be DAYS away....not weeks....this could put us .10+ How are we looking @NeilVoloshin @cvatinfo_ ?!"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098407602862379276",
+          "author": "georgianbay6",
+          "searchJob": "charlotte",
+          "text": "@Ghostofcynthia I think it is a brilliant idea. Offer the $5K and require proof of citizenship and a valid photo ID to accept it."
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 18,
+      "accepted": 0,
+      "rejected": 40,
       "reasons": {
-        "school_not_resolved_confidently": 2,
-        "bare_mention_requires_llm": 10,
-        "multiple_resolved_schools": 3,
-        "unresolved_offer_target": 2,
-        "player_missing_football_context": 1
+        "bare_mention_requires_llm": 33,
+        "multiple_resolved_schools": 4,
+        "school_not_resolved_confidently": 3
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098392402473930870",
-          "author": "ageukhl",
-          "searchJob": "kent-state",
-          "text": "👂 FREE Hearing Aid Batteries &amp; Tubing Hi Kent offers free support in Ashford &amp; Hythe — no appointment needed. 📍 Ashford: 15 Sept, 10–11am 📍 Hythe: 8 &amp; 22 Sept, 10am–12pm 🎧 Bring your hearing aid 📞 01303 269602 #HearingSuppo"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098387779898249547",
-          "author": "timatbyteful",
-          "searchJob": "kent-state",
-          "text": "Two new faces at Byteful, and both are already well into the work. Alex Kent joins Growth Operations, working on GTM. One of his first ideas is already days from shipping. Deni Mintsaev joins Support, already building out how we handle tick"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098411916796305603",
+          "author": "richardlinskell",
+          "searchJob": "arkansas-state",
+          "text": "@Doylech Rubbish. They have been offered a full state on at least three occasions and have turned it down. The only reason they don’t have a state now is because it would mean giving up their dream of killing all Jews. Their only success ha"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098381420255211872",
-          "author": "udextension",
-          "searchJob": "kent-state",
-          "text": "September is Food Safety Month! 🥫 Did you have a successful harvest, and are you thinking about what to do with your fruit and vegetables this year? Preserving your fruit and vegetables through canning is a popular means to enjoy the bount"
+          "postId": "2098407538987241950",
+          "author": "whoopdr1",
+          "searchJob": "arkansas-state",
+          "text": "@VividProwess “They were offered a state” - even israels own leaders said they would never have taken that “deal”. Ppl keep forgetting that there was no israel in 1947. All the land thats theirs is stolen land… and they kicked palestinians "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098407201513541775",
+          "author": "dan19726",
+          "searchJob": "arkansas-state",
+          "text": "@SilencedByJs @BoardofDeputies The Palestinians were offered a state many times and they rejected every offer and responded with violence. They are not interested in self-determination. They are only interested in destroying Jewish self-det"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098406889801339037",
+          "author": "bigq__42",
+          "searchJob": "arkansas-state",
+          "text": "@VividProwess True.... The Palestinians were offered a state several times. Every time they refused saying they will only accept \"the entire\" Palestine. Meaning no Israel at all...."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098406205127282750",
+          "author": "maximumpain333",
+          "searchJob": "arkansas-state",
+          "text": "A NEW DAWN: THE END OF CODEPENDENCY You cannot save anyone. You can be present with them, offer your groundedness, your sanity, your peace. You can even share your path with them, offer your perspective. But you cannot take away their pain."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098405373166166189",
+          "author": "theaviatorny",
+          "searchJob": "arkansas-state",
+          "text": "A drone found a stop sign it could still read as a stop sign — until someone put four pieces of tape on it, and the machine saw something else entirely. The same mathematics that makes an AI defense system nearly impossible to fool at scale"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098404862996218198",
+          "author": "m_christianity",
+          "searchJob": "arkansas-state",
+          "text": "@RScottClark is perfectly correct 🎯 History & Dorothy L. Sayers remind us How & Why → “The choice is not between creed and no creed, but between creed and chaos.” → On the absolute necessity of dogma: “If we do not know what is right, we s"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098404094108950880",
+          "author": "josiahp94524152",
+          "searchJob": "arkansas-state",
+          "text": "As a Christian, I don't believe I can support it. I don’t want people to suffer. I also find it hard to believe that ending your own life is ever the good option. On the practical side: some people are suicidal for a season. With time and h"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098403207571505203",
+          "author": "m_christianity",
+          "searchJob": "arkansas-state",
+          "text": "16/17 Dorothy L. Sayers “The choice is not between creed and no creed, but between creed and chaos.” → On the absolute necessity of dogma: “If we do not know what is right, we shall do what is wrong; if we do not know what is true, we shall"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098402576584646920",
+          "author": "m_christianity",
+          "searchJob": "arkansas-state",
+          "text": "Agree with @RScottClark 🎯 → Truth is Timeless and Dorothy L. Sayers reminds us how/why → “The choice is not between creed and no creed, but between creed and chaos.” → On the absolute necessity of dogma: “If we do not know what is right, w"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098399374388728306",
+          "author": "ollieparrot",
+          "searchJob": "arkansas-state",
+          "text": "I suppose it is fitting, in the light of current events, that the RNLI's profile page on X offers a lie. The RNLI hasn't been saving lives since 1824. It wasn't established until 1854. For sure there was a precursor organisation, the Royal "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098390395491139847",
+          "author": "commentary",
+          "searchJob": "arkansas-state",
+          "text": "Israel has repeatedly offered the two-state solution only to be rejected every time by Palestinian leadership, so this puts Israel in a bind. The Israeli government cannot make the Palestinian government want a state. @SethAMandel https://t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098388203786948741",
+          "author": "spennybig",
+          "searchJob": "arkansas-state",
+          "text": "@Llinwood_Q Except it isn't is it..... FAFO israel has a right to exist. Palestine doesn't recognise not want that. They have been offered a state solution 5 times. When israel withdrew from gaza they built war bunkers amd microwaved babies"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098405019179683872",
+          "author": "notoriousbanker",
+          "searchJob": "new-mexico-state",
+          "text": "The hardest thing about this journey is really having no peers again. I complain often about lack of coverage of NMSU. It’s very real and with LCSN’s rival company firing 40% of their reporters across the country yesterday there’s definitel"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098401295493427648",
-          "author": "dianadimit31323",
-          "searchJob": "navy",
-          "text": "The Donrow Doctrine: After Venezuela and Cuba, Trump Sets His Sights on Nicaragua The decision by Nicaragua’s National Assembly to extend the terms of co-presidents Daniel Ortega and Rosario Murillo until 2028 triggered an immediate reactio"
+          "postId": "2098413804035957081",
+          "author": "clickdopamine",
+          "searchJob": "ohio",
+          "text": "Ten more accounts with actual interests, clear boundaries and enough specifics to survive the content grinder. The platform occasionally works despite itself. @news1984_ — Covers Spanish-language news and current events with an explicit foc"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098387832565829700",
-          "author": "japantimes",
-          "searchJob": "navy",
-          "text": "Defense Minister Shinjiro Koizumi on Friday reiterated that Japan is not ruling out acquiring nuclear-powered submarines, days after a U.S. Navy official reportedly offered a positive assessment of such a move. https://t.co/Vefg2c75MO https"
+          "postId": "2098398769955864974",
+          "author": "iloveam69524820",
+          "searchJob": "ohio",
+          "text": "@AlphaWho3 @DispatchAlerts A televised debate is how regular people hear what she has to say. 99% of Ohio is working when she’s at the ice cream shop and they don’t know her. A debate is needed FOR THE PEOPLE! There’s no reason you can offe"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098383216298074519",
-          "author": "klaasm67",
-          "searchJob": "navy",
-          "text": "Princess Amalia, the future Queen of the Netherlands, started yesterday as a military working student with the Royal Netherlands Navy. Defensity College offers students a meaningful part-time military job alongside their studies. https://t."
+          "postId": "2098413428867989616",
+          "author": "irishillustratd",
+          "searchJob": "rice",
+          "text": "Irish Illustrated’s staff offers its predictions for Saturday’s Notre Dame home opener between the Fighting Irish and Rice Owls. @timomalleyND @AndrewMentock @ethoma10 @TomZwiller https://t.co/OOM0kOSEm1 https://t.co/ShNHgkZXUD"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098389847887024394",
-          "author": "1819news",
-          "searchJob": "auburn",
-          "text": "Auburn University continues to offer Biden-era protections for trans, non-binary individuals By @aprylmarie https://t.co/7xjQO1u50S"
+          "postId": "2098411620670066828",
+          "author": "best431090",
+          "searchJob": "rice",
+          "text": "@Ontop9000 @RowlandFlash @davidodami @prophetswitch Evil recognises evil all this one seated does is bomb, kill and offer red cross services sharing milk and rice to the people he kills. Your \"most powerful \" is just the same sharing rice t"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098409480878801289",
-          "author": "drew_toennies",
-          "searchJob": "mississippi-state",
-          "text": "#TN2027 Edge out of Antioch adds an offer to his resume from Mississippi State ⬇️"
+          "postId": "2098404833707307495",
+          "author": "astro_shivang",
+          "searchJob": "rice",
+          "text": "Simple old remedy to hold/save money: Every Friday morning, after bath, place 1 clean copper coin or ₹1 coin near Maa Lakshmi’s photo. Light a ghee diya. Offer rice, haldi, kumkum and a small piece of mishri. Chant “Om Shreem Mahalakshmyai "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098403803087126763",
-          "author": "skelly5400",
-          "searchJob": "nebraska",
-          "text": "@BrettSBaker This is cool and all. But remember, we’re in an age of NIL. Some players may care more about a little more scratch in their pockets than bells and whistles. (However, I doubt there’s many programs that offer as much, if any NIL"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098402063596032228",
-          "author": "cowboysxox",
-          "searchJob": "oklahoma",
-          "text": "Four offers, one big afternoon nap on Oregon’s speed bumps. Cowboys marching, the recruits march back, hats off to Juco mountain goats 🏈 #GoPokes"
+          "postId": "2098412933814333820",
+          "author": "ooberfan",
+          "searchJob": "florida",
+          "text": "Remembering and honoring the lives of people lost twenty five years ago on 9/11 and the unbelievably, extraordinary bravery of rescuers and aid in NYC! ❤️ I also have to remember and honor the unbelievable kindness, generosity, warmth and l"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098400272200446220",
-          "author": "pokesfandom",
-          "searchJob": "oklahoma",
-          "text": "Oklahoma State Football Extends Four Offers Ahead of Oregon Showdown #okstate #oklahomastate #gopokes https://t.co/5cMZ94z059"
+          "postId": "2098412136854675516",
+          "author": "gatorvault",
+          "searchJob": "florida",
+          "text": "Flowers already put Florida at the top Jaxon Flowers already has Florida at No. 1, and the sophomore tape shows why they want him at safety. Flowers, a 2028 Bolles ATH listed 6-3 / 185, is still the dual-threat QB as No. 7. Shotgun. He take"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098394877033611349",
-          "author": "dbarton05",
-          "searchJob": "oklahoma",
-          "text": "In January 2020, Mullin’s son Jim — then about 15 and a serious wrestler — suffered a severe traumatic brain injury in a high school match. He was unconscious for roughly 26 hours. When he woke up he had major motor and short-term memory pr"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098401734943178975",
-          "author": "briamaranthus",
-          "searchJob": "oregon",
-          "text": "Dakorien Moore offered a tantalizing preview of what Iverson Hooks could bring to Oregon’s offense. “I can’t really spoil too much. I just say, stay tuned.” Could the UAB transfer make his Ducks debut Saturday? #GoDucks https://t.co/rSDHcyI"
+          "postId": "2098404206596305161",
+          "author": "cherylburchamre",
+          "searchJob": "florida",
+          "text": "$340,000 Make an Offer in ORMOND BEACH Florida Contact Cheryl Myers Click For More Details. Go to https://t.co/18GWnNT06q for INSTANT ACCESS to all photos, details and mor One or more photo(s) has been virtually staged. MAJOR PRICE REDUCTIO"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098398656873537715",
-          "author": "scottoregon",
-          "searchJob": "oregon",
-          "text": "Sauvie Island offers farms, peaceful wildlife refuges, and sandy riverfront properties. Enjoy tranquil countryside living while staying just a short drive from downtown convenience. Search Columbia County Homes at https://t.co/8F7tX0mqCa #r"
-        },
-        {
-          "reason": "unresolved_offer_target",
-          "postId": "2098403690797265161",
-          "author": "profilefblive",
-          "searchJob": "penn-state",
-          "text": "🚨 First D1 Offer 🚨 2028 IOL Benny Maxwell III from Nazareth Academy, IL has received his first D1 offer from Penn State. @bennymaxwell0 https://t.co/FLxgnT0CPS"
+          "postId": "2098403690855965053",
+          "author": "recruitzonehq",
+          "searchJob": "florida",
+          "text": "🚨 OFFER WIRE 🚨 5⭐️ Bentley Lusakueno (@BentleyLus28) 2028 | IMG (FL) | 6’9 PF @247Sports No. 6 overall | @Rivals No. 10 ➜ Central Florida (@UCF_MBB)"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098407876377051609",
-          "author": "mikulaja",
-          "searchJob": "uconn",
-          "text": "Connecticut issues cease & desists to nine firms, incl @coinbase, @RobinhoodApp; subpoenas 29, incl @stripe, @Plaid, @SocureID, in prediction market crackdown: Yesterday, the State of Connecticut announced a sweeping effort targeting predic"
-        },
-        {
-          "reason": "unresolved_offer_target",
-          "postId": "2098407462424780817",
-          "author": "profilefblive",
-          "searchJob": "uconn",
-          "text": "🚨 First D1 Offer 🚨 2029 OT Andrew Kern from Episcopal Academy, PA has received his first D1 offer from Connecticut. @drewkern89 https://t.co/E7w1TispBw"
-        },
-        {
-          "reason": "player_missing_football_context",
-          "postId": "2098389761777897746",
-          "author": "ihoop_cam14",
-          "searchJob": "appalachian-state",
-          "text": "Grateful to have received an offer from App State! 🖤💛 #gomountaineers https://t.co/i3zyAiYJrF"
+          "postId": "2098399651082703005",
+          "author": "carolynwrockey",
+          "searchJob": "florida",
+          "text": "The largest known great white shark in the Atlantic was just spotted near North Carolina — and it’s over 1,700 pounds. A satellite tag attached to 'Contender,' a nearly 14-foot-long mature male great white shark, transmitted a brief signal "
         }
       ]
     },
@@ -289,12 +434,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 18,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 40,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-11T13:58:02.218Z"
+    "status rebuilt locally from current store on 2026-09-11T14:13:06.916Z"
   ]
 }
