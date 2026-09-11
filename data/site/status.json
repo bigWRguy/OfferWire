@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T23:26:33.251Z",
+  "generatedAt": "2026-09-11T23:58:00.212Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-11T23:26:33.008Z",
+    "at": "2026-09-11T23:57:59.905Z",
     "jobsTotal": 162,
-    "sweptThisRun": 4,
-    "requests": 5,
-    "fullSweepCycles": 41
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,34 +32,42 @@
   },
   "staleSchools": [
     {
-      "id": "georgia-state",
+      "id": "kennesaw-state",
       "hours": 2.3
     },
     {
-      "id": "louisiana-tech",
+      "id": "miami-oh",
       "hours": 2.3
     },
     {
-      "id": "massachusetts",
+      "id": "middle-tennessee",
       "hours": 2.3
     },
     {
-      "id": "memphis",
+      "id": "north-carolina",
       "hours": 2.3
     },
     {
-      "id": "texas-state",
+      "id": "toledo",
+      "hours": 2.3
+    },
+    {
+      "id": "troy",
+      "hours": 2.3
+    },
+    {
+      "id": "western-michigan",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.2466036111111112,
-    "p95Hours": 1.7596344444444445,
-    "worstHours": 2.2531227777777776
+    "medianHours": 1.2773902777777777,
+    "p95Hours": 2.0257091666666667,
+    "worstHours": 2.283790277777778
   },
   "decisionCoverage": {
-    "total": 5,
-    "decided": 5,
+    "total": 71,
+    "decided": 71,
     "complete": true
   },
   "pending": {
@@ -68,81 +76,388 @@
   "profileResolution": {
     "cached": 47
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 2,
   "quality": {
-    "completeOffers": 1049,
+    "completeOffers": 1050,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-11T23:26:33.008Z",
-      "got": 7,
-      "new": 5,
-      "lag": 0.87
+      "at": "2026-09-11T23:57:59.904Z",
+      "got": 93,
+      "new": 71,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-09-11T23:26:12.508Z",
+    "at": "2026-09-11T23:56:21.569Z",
     "mode": "live",
     "collection": {
-      "returned": 7,
-      "kept": 5,
-      "duplicate": 2,
+      "returned": 93,
+      "kept": 71,
+      "duplicate": 22,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 4,
-      "rejected": 1,
+      "accepted": 26,
+      "rejected": 45,
       "reasons": {
-        "no_offer_term": 1
+        "no_fbs_school": 26,
+        "no_offer_term": 11,
+        "non_fbs_offer_target": 3,
+        "hard_negative": 5
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2098551853030228006",
+          "author": "bobgnarlyxing",
+          "searchJob": "massachusetts",
+          "text": "Based on how naive the jury pool is in Massachusetts, it would probably be best if the prosecution offered a plea deal. They have neutered men over there looking for signals about what to do from the Clancy family, when it’s the state vs Cl"
+        },
+        {
           "reason": "no_offer_term",
-          "postId": "2098491646543286353",
-          "author": "shtuni",
-          "searchJob": "arkansas-state",
-          "text": "#Hamas planned attacks in #Berlin and #Vienna, but the Constitutional Protection Agency (#BfV) had an informant in the terror cell and the plot was prevented. - The coordinated attacks in #Germany and #Austria were planed around the second "
+          "postId": "2098547248594387036",
+          "author": "tauntontogo",
+          "searchJob": "massachusetts",
+          "text": "These 3 Massachusetts colleges have the 'highest payoff,' per Forbes https://t.co/ExQpatCKVR"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098521202667012141",
+          "author": "bolelh",
+          "searchJob": "massachusetts",
+          "text": "M/Y Wanderer is a privately owned 2025 Elling E4 available in Massachusetts: Volvo D8-600, fewer than 80 hours, satin-cherry interior and a dedicated laundry room. U.S. duties &amp; tariffs paid. Offered at $1.3M. https://t.co/0R4FGZMGUr ht"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098524551936155975",
+          "author": "mbjmemphis",
+          "searchJob": "memphis",
+          "text": "The city and a local nonprofit are targeting 45,000 residents for training in the health, information technology, and trades sectors. https://t.co/9sgAUUdyGv"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098559025042407935",
+          "author": "kennedyk3454",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a wonderful visit with Coach Garrett, Coach Mak, and Coach Winn, I was blessed to receive an offer from @LETUWBB! Thank you so much to these Coaches for believing in me. Go Yellowjackets! 💙💛🏀 #AGTG https://t.co/5D4I7iRzw0"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098558876690047138",
+          "author": "tj_grissomjr27",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with @coach_sallen I’m blessed to receive an offer from @firestormfb !!! https://t.co/gfxOr3j33s"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098557867305357454",
+          "author": "tristabrownn",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with Coach Moore, I’m blessed to receive an offer from Graceland university. @Coach_BJ24 @CoachFlowersWBB @SCC_WBB https://t.co/PSAZdxKlD6"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098556219636023615",
+          "author": "thezyonnelson",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great talk with @TheRedZoneCoach I am blessed to receive my 1st offer from @TheMSCyclones. #AGTG #TheMothersh1p #Classof2030 @KleinFootball25 @Coach_DPerez @Coach_Morton60 @TheQBTech @RareHouston7s @samspiegs @Rivals @PrepRedzoneTX "
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098555776008605780",
+          "author": "tannybrayden",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great visit with @CoachPayan I am blessed to receive an offer from Coe College. https://t.co/MZzHZww8BC"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098554270689665321",
+          "author": "jettdrusch",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive a D3 offer from LeTourneau University. Thank you Coach Wallace and Coach J for this opportunity! https://t.co/1VkOeKRvjY"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098552677525262392",
+          "author": "tierneymiller",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After messaging back and forth, I am beyond blessed to receive my first offer to play collegiate golf at Morningside university! Thank you to @NWander1 &amp; @MorningsideGolf for this opportunity! https://t.co/pFh3PuwuQB"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098552675096814043",
+          "author": "bradenlarkins20",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "I am extremely blessed to receive an offer from @Ottawa_Baseball. Thank you to @ewwil17 and the rest of the staff for the opportunity! https://t.co/Q2A9F0usYW"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098552282442829905",
+          "author": "showemrj",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "AGTG!!! Blessed to receive an offer from @OSUMBB forever grateful. #GodsPlan"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098549736605106296",
+          "author": "joshwright505",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great visit and conversation with @ryankragh and @dkneeland338 , I am blessed to receive another offer to play baseball at the next level! @VSA__Baseball @BlizzardBasebal @Coach__Benedict https://t.co/jncbQJhgAO"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098548272302285257",
+          "author": "drelynbrown2027",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my 4th offer from Concord University, AGTG ❤️❤️ @KHOWCU @TbredRecruits @TBredFootball https://t.co/PMOqKqSQXA"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098547640665321894",
+          "author": "wbuenningfb_28",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my 2nd Division 1 gameday invite in 2 days. Thanks @TheScoutDoctor for the gameday invite to @SCState_Fb! I can’t wait to tour the campus and watch the Bulldogs in action! @ChiPlayerWatch @MJ_NFLDraft @PrepRedzoneWI"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098547221675262018",
+          "author": "quinn_kemper",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great call with @CoachBobDunn, I’m blessed to receive an offer from @CSU_WBasketball @MinnesotaFury @EHSgirlsbuckets https://t.co/uSbNJvbFR7"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098544409121808757",
+          "author": "willmcelvaney",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with @CoachSenthil &amp; @CoyVantilburg I am blessed to receive another offer from Oberlin College @Yeo_MBB! I am extremely grateful for this opportunity! @CoachKen_Smith @AlamoCityHoops1 @KevinOneEye @_Coach_Swan"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098543880190722136",
+          "author": "alexmcilwain2",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with Coach Biz, I’m blessed to receive a D2 offer at University of Mt Olive @CoachBMoore @UMOMBB @PrepHoopsSC @AndrewBaxleySC @PhenomExposure @ty1ewis @unkownuser2018 @BigShotsGlobal @BigShotsGameMVP @COACHMAC515 "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098540487867089302",
+          "author": "ajayvs183",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great visit with @coachvh4dordt and @JD_Boer I am blessed to receive an offer from @DordtHoops https://t.co/OzB5uYATab"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098538185135456328",
+          "author": "mckennafreier",
+          "searchJob": "phrase:\"blessed to have received\"",
+          "text": "After an amazing visit at Ripon College, I am blessed to have received an offer to continue my academic and basketball career!! Thank you @RCCoachLauren and team for a memorable visit ❤️‍🔥 @LisaMVanWyk @WisconsinBlaze @NeenahHoops @andy_br"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098552325174439993",
+          "author": "cade_draughon",
+          "searchJob": "arizona-state",
+          "text": "2028 Cy Falls RB Deron Simpson who has offers from Arizona State, Florida State, Washington and others. @D3ronSimpson | @CyFallsFB https://t.co/Z3nwEd0CIm"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098540517034451287",
+          "author": "coloradomne",
+          "searchJob": "colorado",
+          "text": "Lock in now, this offer won't last long! https://t.co/yThfTj5BFw https://t.co/ikgi5szg57"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098540056730599692",
+          "author": "chadhatten1",
+          "searchJob": "colorado",
+          "text": "I never imagined that after more than two years of searching, I'd still be fighting just for the chance to work. Kind connections have offered to take in my dog if I become homeless; I hope it never comes to that. I'm a disabled military sp"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 4,
+      "accepted": 2,
+      "rejected": 24,
       "reasons": {
-        "bare_mention_requires_llm": 4
+        "bare_mention_requires_llm": 15,
+        "reporter_missing_player_name": 2,
+        "multiple_resolved_schools": 6,
+        "non_fbs_program_tagged": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098540628892369368",
-          "author": "powellalex80076",
-          "searchJob": "arkansas-state",
-          "text": "Just a reminder of the consequences of cursing Israel in the name of God. As the scripture says: 'Cursed is he who curses thee; blessed is he who blesses thee'. Now, the land of Israel was to be shared between Israel and the children of Ish"
+          "postId": "2098550669183430984",
+          "author": "bcxptures",
+          "searchJob": "massachusetts",
+          "text": "Just got a job offer for our Massachusetts move🙌🏼"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098538424001315049",
-          "author": "thelastofthe252",
-          "searchJob": "arkansas-state",
-          "text": "I bless thee Super Bubbain the Name of the Father and of the Son and of the Holy Spirit! Amen! Heavenly Father, I lift this beloved child into Your loving hands, asking that Your healing touch restore his body completely. Remove all heart p"
+          "postId": "2098522211908764106",
+          "author": "girls_memphis",
+          "searchJob": "memphis",
+          "text": "Workshop Flashback! ✨ Students from @tscsmemphis joined us for hands-on leadership development and period equity education. 💪🏽💗 Girls Inc. of Memphis offers daytime workshops in 🌱 agriculture, 💪🏽 leadership, 🍽️ culinary experiences &"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2098531482071376173",
+          "author": "vandyonsi",
+          "searchJob": "vanderbilt",
+          "text": "Vanderbilt Offers Four-Star Offensive Lineman in Class of 2028 https://t.co/o0ABytlRT3"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098555300852961622",
+          "author": "jaymitch_1",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "#AGTG After a great conversations with @JoeHamilton__ @CoachC_Foster @CoachBeauK I’m blessed to receive an offer from the University of Florida @GatorsFB #GoGators 🏈 Trust the process. The GRIND continues 💪🏾 @BFNDFball @Basorecoach @Coac"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098549651334983790",
+          "author": "jaymitch_1",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "#AGTG After a great conversations with @M_80lane I’m blessed to receive an offer from the University of Stanford @StanfordFball #GoStanford 🏈 Trust the process. The GRIND continues 💪🏾 @BFNDFball @Basorecoach @CoachRitcheyFB @JeffHoweth7 "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098531631099531411",
-          "author": "danielozerel",
-          "searchJob": "arkansas-state",
-          "text": "This is .. unbelievable. Western countries should offer Palestinians a state 🙃"
+          "postId": "2098554847004164209",
+          "author": "animalsanctuary",
+          "searchJob": "colorado",
+          "text": "Picture Of The Day! Location: The Wild Animal Sanctuary, Keenesburg, CO. \"Beautiful Wiki\" Today, as we reflect on a day of profound remembrance and unity, we find a powerful reminder of the resilience of the human spirit, and the unbreakabl"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098527010121486568",
-          "author": "notoserfdom",
-          "searchJob": "arkansas-state",
-          "text": "You're the one pretending Tom. There is no 'Palestinian' people, ethnicity or national entity. Palestine is the historic name of a geographic region. There were Palestinian Jews and Palestinian Arabs, who were Syrians or other citizens of t"
+          "postId": "2098541901502685322",
+          "author": "reporterherald",
+          "searchJob": "colorado",
+          "text": "Home opener offers mental test for CU Buffs against Weber State https://t.co/gRMmv7WGsB https://t.co/PlccbqEQ8e"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098535580980167114",
+          "author": "buffzone",
+          "searchJob": "colorado",
+          "text": "Home opener offers mental test for CU Buffs against Weber State https://t.co/lmF7YoZFwf https://t.co/13JPG7I3Kp"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098534665074122895",
+          "author": "dailycamera",
+          "searchJob": "colorado",
+          "text": "Home opener offers mental test for CU Buffs against Weber State https://t.co/2KCFhYeGZv"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098533972464500857",
+          "author": "rhsportszone",
+          "searchJob": "colorado",
+          "text": "Home opener offers mental test for CU Buffs against Weber State https://t.co/f28qFHjpZs https://t.co/KyggaOd3rV"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098533797658505606",
+          "author": "timescall",
+          "searchJob": "colorado",
+          "text": "Home opener offers mental test for CU Buffs against Weber State https://t.co/iQeCcpeJrq https://t.co/yOpsrtqx06"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098552241711923324",
+          "author": "thedavidhasbun",
+          "searchJob": "duke",
+          "text": "I am a disabled man. I have a rare and serious medical condition. I am in constant pain. I have mobility issues and walk with a cane. I just put my broken and disabled body in a car and drove it over a 1,000 miles (~1600 km) away to go to D"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2098552173650985345",
+          "author": "csmithscout",
+          "searchJob": "duke",
+          "text": "#TN2029 Lipscomb Acad. Safety .....#PRZTN New Offer: #Duke .......#BlueDevils #ACC #Mustangs #MidTN29 #CSS #TNHSFB https://t.co/1hTJgcqg8z"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098549687787590123",
+          "author": "csmithscout",
+          "searchJob": "duke",
+          "text": "#TN2028 Whites Creek Receiver .....#PRZTN Claimed Offer: #Duke ......#BlueDevils #ACC #Cobras #MidTN28 #CSS #TNHSFB https://t.co/4zO7zsEHc1"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098557805666128330",
+          "author": "corey_feldman",
+          "searchJob": "north-carolina",
+          "text": "I WAS IN NYC ON 9-11! I WAS NOT A HERO, I DID NOT GO 2 THE SITE 2 HELP, I LIKE MANY OTHER AMERICANS WAS TERRIFIED THAT DAY. I WAS THERE IN NYC 4 WHAT WOULD TURN OUT 2 B THE FINAL FULL CONCERT PERFORMANCE OF MY FRIEND @michaeljackson 4 HIS @"
+        },
+        {
+          "reason": "non_fbs_program_tagged",
+          "postId": "2098538123017818200",
+          "author": "tfloss32",
+          "searchJob": "stanford",
+          "text": "'28 DB Miles Burrell (@miles_burrell) out of Leander Rouse has been offered by the Stanford Cardinal. #GoStanford #FearTheTree🌲 https://t.co/PZzrzH6cvj https://t.co/UdslNZMrcK 𝕏 @markhopkinsuh | @RecruitRouse | @RouseRaidersFB"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098531961614598447",
+          "author": "sandhalinho",
+          "searchJob": "stanford",
+          "text": "@ineeduchimm dw we'll still get those cambridge oxford harvard MIT stanford offers ✌️✌️✌️"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098560847027261865",
+          "author": "ecomuaf",
+          "searchJob": "army",
+          "text": "Transcript: It is now two years since this latest European war began. From that day in September, 1939, until the present moment, there has been an over-increasing effort to force the United States into the conflict. That effort has been ca"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098557978479600115",
+          "author": "atmapshock",
+          "searchJob": "army",
+          "text": "China's use of Claude across the report's case studies is the most extensive and operationally developed of any actor, spanning conventional weapons targeting, naval systems, directed-energy research, and multi-tiered surveillance infrastru"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098555392460538276",
+          "author": "hossam_almulla9",
+          "searchJob": "army",
+          "text": "Netanyahu from occupied Mount Hermon offers to liberate Bab al-Mandab. Same army bombed Gaza 11 months, failed, will beat Houthis? Conditioned on Arab coalition request. Protection needs fleet, not Israel ،it's leverage. Yemen needs no new "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098555049353806290",
+          "author": "hossam_almulla",
+          "searchJob": "army",
+          "text": "Netanyahu from occupied Mount Hermon offers to liberate Bab al-Mandab. Same army bombed Gaza 11 months, failed, will beat Houthis? Conditioned on Arab coalition request. Protection needs fleet, not Israel ، it's leverage. Yemen needs no new"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098554532863107215",
+          "author": "chiefshadow72",
+          "searchJob": "army",
+          "text": "CONFIRMED: 2011 JEFFREY EPSTEIN WAS IN DIRECT EMAIL CONTACT WITH NEW MEXICO LAW ENFORCEMENT WHILE LIVING AT ZORRO RANCH — AND THEY WERE STILL DISCUSSING WHETHER HE EVEN HAD TO REGISTER AS A SEX OFFENDER This July 2011 email chain shows Sant"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098545239761822159",
+          "author": "dougshootsstr8",
+          "searchJob": "army",
+          "text": "I’ve not before written about this, not sure I can now. 25 years ago today my son, my only child was a new freshman at Penn State. He was always a red blooded normal kid. Cross Country, Band, National Honor Society President..ect.. Just a f"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098532035434574153",
+          "author": "lafzdigital",
+          "searchJob": "army",
+          "text": "The Interview That Was Interrupted by a Military Alert In late 2012, Prince Harry was being interviewed at Camp Bastion in Afghanistan when a sudden military alert interrupted the conversation. At the time, he was serving as Captain Harry W"
         }
       ]
     },
@@ -150,20 +465,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 4,
-      "failed": 1,
-      "requests": 5,
-      "errors": [
-        "georgia-state: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 4,
-      "brandNewOffers": 0
+      "acceptedEvidence": 2,
+      "rejectedCandidates": 24,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-11T23:26:33.252Z"
+    "status rebuilt locally from current store on 2026-09-11T23:58:00.213Z"
   ]
 }
