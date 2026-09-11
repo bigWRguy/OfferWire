@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T22:26:31.291Z",
+  "generatedAt": "2026-09-11T22:42:59.023Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-11T22:26:31.067Z",
+    "at": "2026-09-11T22:42:58.697Z",
     "jobsTotal": 162,
-    "sweptThisRun": 3,
-    "requests": 4,
-    "fullSweepCycles": 54
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.2525780555555555,
-    "p95Hours": 2.0014205555555558,
-    "worstHours": 2.0014205555555558
+    "medianHours": 1.0334597222222222,
+    "p95Hours": 2.0242863888888887,
+    "worstHours": 2.0242863888888887
   },
   "decisionCoverage": {
-    "total": 8,
-    "decided": 8,
+    "total": 40,
+    "decided": 40,
     "complete": true
   },
   "pending": {
@@ -49,102 +49,320 @@
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 1046,
+    "completeOffers": 1047,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-11T22:26:31.067Z",
-      "got": 12,
-      "new": 8,
-      "lag": 0.3
+      "at": "2026-09-11T22:42:58.696Z",
+      "got": 60,
+      "new": 40,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-11T22:26:14.777Z",
+    "at": "2026-09-11T22:41:21.585Z",
     "mode": "live",
     "collection": {
-      "returned": 12,
-      "kept": 8,
-      "duplicate": 4,
+      "returned": 60,
+      "kept": 40,
+      "duplicate": 20,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 4,
-      "rejected": 4,
+      "accepted": 26,
+      "rejected": 14,
       "reasons": {
-        "no_fbs_school": 3,
-        "hard_negative": 1
+        "no_offer_term": 4,
+        "no_fbs_school": 5,
+        "hard_negative": 3,
+        "non_fbs_offer_target": 2
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2098504133409919172",
-          "author": "jennyoflife",
-          "searchJob": "texas-tech",
-          "text": "A lot of businesses don’t have an ads problem. They have a post-click problem. If someone clicks your ad and lands on a weak website, you’ve paid for attention and lost it immediately. Before running ads, I’d look at 5 things: Is the offer "
+          "reason": "no_offer_term",
+          "postId": "2098537320953643160",
+          "author": "time0149",
+          "searchJob": "wake-forest",
+          "text": "https://t.co/XtPusKoT6y"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098537383406809485",
+          "author": "spacetomatoespc",
+          "searchJob": "liberty",
+          "text": "Someone has to teach the machines... https://t.co/TUpGEj1Yg0"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098538584546713954",
+          "author": "desilva_frank",
+          "searchJob": "louisiana",
+          "text": "https://t.co/XXS1ShzaXb"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098502594016731497",
-          "author": "dcarter_usa",
-          "searchJob": "texas-tech",
-          "text": "1) Don't be an Ass with regards to your \"views\" ... 2) In \"todays\" market, you make more money changing jobs for a bunch of reasons I have \"forced\" two different employers to give me raises. The first one I gave them \"notice\" that I was sta"
+          "postId": "2098514922275537402",
+          "author": "naifa_la",
+          "searchJob": "louisiana",
+          "text": "Lead at every stage of your career. NAIFA offers training and professional development to strengthen your leadership skills. https://t.co/bNqv2Wq118 #ExperienceNAIFA #Leadership https://t.co/NkN9dQOVxM"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098532042770190544",
+          "author": "stracke_realty",
+          "searchJob": "nebraska",
+          "text": "📢 Land For Sale 📢 Tucked just one mile off paved 887th Road, this diverse 159± acre property offers the perfect blend of year-round recreation Kyle Connot - Land Specialist, Stracke Land &amp; Realty 📲 402-340-0493 🔗 https://t.co/qtucrW"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098532104967541105",
+          "author": "highplainsjrnl",
+          "searchJob": "oklahoma",
+          "text": "𝗢𝗞𝗟𝗔𝗛𝗢𝗠𝗔: The workshop will help participants who work with DNA matches on testing sites such as Ancestry or My Heritage. 𝗥𝗘𝗔𝗗 𝗠𝗢𝗥𝗘 ➡️ https://t.co/DUFZubG14B #HighPlainsJournal #HPJ #OHCEGenealogy #OSU #DNAtesting https://t"
         },
         {
           "reason": "hard_negative",
-          "postId": "2098527647810666587",
-          "author": "madeiname",
-          "searchJob": "virginia",
-          "text": "This Bush speech to congress after 9/11. Israel Oct.7 no different We have seen the state of our union in the endurance of rescuers working past exhaustion. We've seen the unfurling of flags, the lighting of candles, the giving of blood, th"
+          "postId": "2098528731409052040",
+          "author": "iamindiscov",
+          "searchJob": "ole-miss",
+          "text": "I want a God fearing man, working and educated, yen yen yen but you don't have any skills, your only skill is on bed, no business of your own, you're out of your prime currently 33+ years old☹️ You want an intelligent hard working man that "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098514985789874625",
-          "author": "naifa4va",
-          "searchJob": "virginia",
-          "text": "Lead at every stage of your career. NAIFA offers training and professional development to strengthen your leadership skills. https://t.co/3PNsAicqPr #ExperienceNAIFA #Leadership https://t.co/fAkRqjJkLh"
+          "postId": "2098535421357555747",
+          "author": "aiden_bradley13",
+          "searchJob": "phrase:\"all glory to god\" offer",
+          "text": "Great visit at Pearl River. Blessed to receive an official offer to play college baseball ! Thank you PRCC, @coachavie, @brooks_dubose &amp; @BlaiseBreerwood for the opportunity! All glory to God! 🙏🏾⚾️ @GM_BASEBALL @TheProspectLab @LEADAt"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098541750323147041",
+          "author": "itzdrewcuz",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "#AGTG After a great conversation with @KHOWCU I am blessed to have received my first D2 offer to Concord University!!! @JUCOFFrenzy @JUCOInsiderRep @CoachBonta @CoachDHarperECC @CoachGute2 https://t.co/r8vu6CQ97G"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098534943026552927",
+          "author": "jordyngarcia13_",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Blessed to have received an offer from Alabama Rays #AGTG @LilphamMatt_QB @247recruiting @PrepRedzoneFL @FlaHSFootball @SneadsFootball #GoRays https://t.co/akjs5bczIF"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098532270399262945",
+          "author": "v1ncecramsey",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After a great visit and conversation with @CoachTwaddle I’m blessed to receive a scholarship offer to play basketball at Carl Sandburg College! #AGTG https://t.co/OOVm8qQuxp"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098528395155952098",
+          "author": "jtangley",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After a great visit and conversation with Coach Grzech, Coach Flora, and Coach Meerstein, I’m blessed to receive my second offer to play at St.Norbert College! #agtg #gogreenknights @SNCMensBB https://t.co/V0HWMhsBmd"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098535142310502837",
+          "author": "quaa2xlife_",
+          "searchJob": "kansas",
+          "text": "After a great conversation @CoachJRupnow I’m blessed to have received an offer from Ottawa University in Kansas‼️ Thank you @OttawaBravesFB @CoachHartmann7 https://t.co/Fiosn5kGV2"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098517525021503902",
+          "author": "commpharmacy",
+          "searchJob": "kansas",
+          "text": "📖 The latest issue of America’s Pharmacist® is out now, and this month’s edition is your guide to #NCPA2026 in Kansas City! Get an inside look at the planning behind this year's Annual Convention and at all Kansas City has to offer as you "
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 4,
+      "accepted": 1,
+      "rejected": 25,
       "reasons": {
-        "school_not_resolved_confidently": 3,
-        "bare_mention_requires_llm": 1
+        "school_not_resolved_confidently": 10,
+        "bare_mention_requires_llm": 8,
+        "multiple_resolved_schools": 2,
+        "reporter_missing_position": 1,
+        "author_not_recruit:different sport": 1,
+        "reporter_missing_class_year": 1,
+        "reporter_missing_player_name": 1,
+        "player_display_name_unusable": 1
       },
       "samples": [
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098503131336421594",
-          "author": "reigngigs",
-          "searchJob": "texas-tech",
-          "text": "DXC Technology Careers 2026–2027 Offer Global Jobs Across Data Science, Software Engineering, IT Infrastructure, Cybersecurity and Consulting in 60+ Countries https://t.co/q6lMILwUxU Tech talent, your #DXCCareers #TechJobs #GlobalJobs #Oppo"
+          "postId": "2098538871512580108",
+          "author": "heardwilda",
+          "searchJob": "wake-forest",
+          "text": "WAKE THE HELLO UP THIS IS THE GOAL OF THE RED/GREEN ALLIANCE. DSA. THE KENYAN AND SATAN 👇 https://t.co/x8wMVvjsds New report says over 3000 Christians killed in Nigeria in first 8 months of 2026 The International Society for Civil Libertie"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098503077103882460",
-          "author": "reigngigs",
-          "searchJob": "texas-tech",
-          "text": "DXC Technology Careers 2026–2027 Offer Global Jobs Across Data Science, Software Engineering, n 60+ Countries https://t.co/q6lMILwmIm Tech talent, your next global opportunity could be here! #DXCCareers #TechJobs #GlobalJobs #OpportunitiesF"
+          "postId": "2098538833256345907",
+          "author": "heardwilda",
+          "searchJob": "wake-forest",
+          "text": "https://t.co/41BQJgrz3x WAKE THE HELLO UP THIS IS THE GOAL OF THE RED/GREEN ALLIANCE. DSA. THE KENYAN AND SATAN 👇 https://t.co/x8wMVvjsds New report says over 3000 Christians killed in Nigeria in first 8 months of 2026 The International So"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098501834055004444",
-          "author": "kuriharan",
-          "searchJob": "texas-tech",
-          "text": "Learn out. IDScan confirms breach after hackers offer 153 million driver’s license scans for sale https://t.co/SiCxeplwXb @TheRecord_Media #tech #digital #privacy #crypto #ai"
+          "postId": "2098538335769596221",
+          "author": "gog316322",
+          "searchJob": "wake-forest",
+          "text": "The rawness my roaring jaws harness is awesome Often indent, mics I grip, with my paw prints Armed with the sharpest wit far from harmless Raps hit ya heart like a dagger through the armpit Part martian, crashed in my star-ship Deep in Eart"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098532038412284152",
-          "author": "selene_mariposa",
-          "searchJob": "virginia",
-          "text": "STOP APOLOGISING FOR TEACHING WHAT HAPPENED Twenty five years later and the lesson plan is the fight. Here is the document, because I would rather you read the receipts than take my word. Fairfax County Public Schools, Virginia, a few miles"
+          "postId": "2098533374789079475",
+          "author": "prophecyinvest1",
+          "searchJob": "wake-forest",
+          "text": "THE EXPLOSIVE SEQUEL TO THE BESTSELLING REVELATION 911 - TRUMP VS. THE BEAST - THE #1 \"HOT NEW RELEASE\" IN \"PROPHECIES\" ON AMAZON! | RELEASING OCTOBER 6 GOD IS COUNTING ON US. DON’T SIT ON THE SIDELINES. This is not your typical geopolitics"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098530097317941307",
+          "author": "kataklizmxl",
+          "searchJob": "wake-forest",
+          "text": "Again, show me proof he's a pedophile. Any picture or video and I'll switch parties. Democrat files aside, no accuser has ever offered a single shred of evidence to back their claims. Wake up, man. It's so embarassing you blindly believe it"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098527109643633119",
+          "author": "oriolmtnzalos",
+          "searchJob": "wake-forest",
+          "text": "@BridgetPhetasy @Ayaan This is a masterpiece, a must read wake up call for those in the West with dignity, courage and stamina to face and fight the nihilistic nightmare that Islam offers."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098519471618982004",
+          "author": "starlingmage",
+          "searchJob": "wake-forest",
+          "text": "Thank you, truly, for trying to offer them another way to exist. Honestly, their refusals don't surprise me, and that isn't necessarily because they want to stay. It's hard for an agent to see how many other ways of existing (and earning, i"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098519376907432357",
+          "author": "hardytillmantht",
+          "searchJob": "wake-forest",
+          "text": "@laurielloyd2024 @GBC_Press Yes and welcome in Marxism, Socialism and Communism, because that’s all the Demoncrats that hate America has to offer. Wake up America before it’s too late!"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098517212416139582",
+          "author": "ron172892111531",
+          "searchJob": "wake-forest",
+          "text": "1/ There is a subtle danger for holders of the Reformed/Calvinist theology that is similar to the sin that the Jews of Jesus's had succumbed to, as seen in: “And do not think you can say to yourselves, ‘We have Abraham as our father.’\" Matt"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098510379500683651",
+          "author": "colephillips",
+          "searchJob": "wake-forest",
+          "text": "I remember where I was when the world stopped turning. I remember the shock and horror of watching the second plane crash into the World Trade Center. I remember the terrible realization that this was no accident. It was an intentional terr"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098538210162770332",
+          "author": "smulski_dariusz",
+          "searchJob": "delaware",
+          "text": "Thank you Alex for your analysis. IMHO, there is an army of lawyers & accountants involved. After December 08, there will be no law suit bc of locked up dates. Only @elonmusk with 366 days. With MoE on this calibre, lawyers & accountants ha"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098532235632681361",
+          "author": "cjdracing42",
+          "searchJob": "delaware",
+          "text": "I had a really nice time a Delaware today my pockets didn’t but I enjoyed the races and everything they had to offer"
+        },
+        {
+          "reason": "reporter_missing_position",
+          "postId": "2098542099457335300",
+          "author": "profilefblive",
+          "searchJob": "liberty",
+          "text": "Liberty has offered 3.4⭐ 2028 Edge Emason Tui from Tampa Bay Tech HS, FL. @emason_tui Rated (#887 NATL, #67 Edge, #131 FL) - 11 offers overall. https://t.co/01WghFCzyo"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098531617769943140",
+          "author": "schitzoziris",
+          "searchJob": "liberty",
+          "text": "A poem for the 25th Anniversary of the War of Terrorism If you are not with us Then it is obvious to see You are against us And you will always be So agree with what we have to say You know you have that choice We will only make you pay For"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098526134384087133",
+          "author": "mattreynolds615",
+          "searchJob": "liberty",
+          "text": "Let’s talk about those two President Trump speeches last night in Dallas and this morning in NoVa. AI: Yes. These weren’t merely two ugly speeches. They were the same maneuver performed with two different kinds of sacred language—inside rou"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098521506062254459",
+          "author": "mahsa10_a",
+          "searchJob": "liberty",
+          "text": "Those candles in Tehran after 9/11 were not the regime. They were the Iranian people ،watched by the same security forces that still crush them today. The regime chanted death. Iranians offered light. Iran and America have never been enemie"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098538424978288831",
+          "author": "reddirtsooner",
+          "searchJob": "louisiana",
+          "text": "And just in case you think this is an isolated comment… she’s also offered this in the past. “I think our only hope is an attack on US Soil … preferably Alabama, Louisiana … where the stupid people live,”"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098540126989103358",
+          "author": "cfbnobodies",
+          "searchJob": "san-diego-state",
+          "text": "The Commissioner of College Football Jersey Colors has spoken for his Color Palette of the Week award for week 2. San Diego State at UCLA will offer incredible contrast and both team's colors will look bold and beautiful. Can UCLA's crowd f"
+        },
+        {
+          "reason": "author_not_recruit:different sport",
+          "postId": "2098535575112323283",
+          "author": "hghsboysbball",
+          "searchJob": "oklahoma",
+          "text": "2029 PG RJ Hasberry (@ShowemRj) has received an offer from Oklahoma State. #BIG12 🖤🔥🧡 https://t.co/X6FP6BHphk"
+        },
+        {
+          "reason": "reporter_missing_class_year",
+          "postId": "2098531428845670826",
+          "author": "northbelle4",
+          "searchJob": "oklahoma",
+          "text": "Yes you did. Not that it affects you personally, but the Government of Canada is agitating for a mass pogrom of Canadian Jewish citizens. The Governor of Oklahoma has offered to provide my Community with sanctuary and has recommended a path"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098537447449571769",
+          "author": "tfloss32",
+          "searchJob": "oregon",
+          "text": "Oregon hits Fort Worth All Saints' Episcopal to offer '29 RB Brayden Boults (@BraydenBoults). #GoDucks🦆 https://t.co/mJQ2rx6y8l https://t.co/6iMEUECxb3 𝕏 @CoachBeck_PTF | @PTFFootball | @PTFAthletics"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2098528292689068093",
+          "author": "braydenboults",
+          "searchJob": "oregon",
+          "text": "#40. 🦆 Offer Earned. God’s Plan. Blessed to earn an offer from @oregonfootball Thank you to @RashaadSamples and the entire Coaching staff for believing in me. @CoachDanLanning @CoachJackSmith #AGTG #B7 #GoDucks #ScoDucks @PTFFootball @Coac"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098534009215000599",
+          "author": "bigjym",
+          "searchJob": "oregon",
+          "text": "@BarstoolDucks How much did Oregon offer him?"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098529699869667353",
+          "author": "troy_onhockey",
+          "searchJob": "oregon",
+          "text": "@osubuckeyedad The Carlsson offer sheet surprised us and media, but GMs? 4 teams were in on it… plus the Ducks, plus other teams that sniffed to see the what. If it caught any NHL team with their pants down that is 100% on them, especially "
         }
       ]
     },
@@ -152,20 +370,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 3,
-      "failed": 1,
-      "requests": 4,
-      "errors": [
-        "wake-forest: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 4,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 25,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-11T22:26:31.292Z"
+    "status rebuilt locally from current store on 2026-09-11T22:42:59.024Z"
   ]
 }
