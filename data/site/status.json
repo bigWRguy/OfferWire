@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T02:13:18.587Z",
+  "generatedAt": "2026-09-11T02:26:46.455Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-11T02:13:18.263Z",
+    "at": "2026-09-11T02:26:46.239Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 7,
+    "requests": 8,
+    "fullSweepCycles": 24
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30,15 +30,28 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "utsa",
+      "hours": 2.3
+    },
+    {
+      "id": "washington-state",
+      "hours": 2.3
+    },
+    {
+      "id": "western-kentucky",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 0.5305872222222222,
-    "p95Hours": 2.030406388888889,
-    "worstHours": 2.030406388888889
+    "medianHours": 0.754995,
+    "p95Hours": 2.007816666666667,
+    "worstHours": 2.254814166666667
   },
   "decisionCoverage": {
-    "total": 57,
-    "decided": 57,
+    "total": 9,
+    "decided": 9,
     "complete": true
   },
   "pending": {
@@ -47,7 +60,7 @@
   "profileResolution": {
     "cached": 47
   },
-  "paginationBacklog": 2,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 1009,
     "incompleteOffers": 0
@@ -55,381 +68,104 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-11T02:13:18.263Z",
-      "got": 79,
-      "new": 57,
-      "lag": 0.11
+      "at": "2026-09-11T02:26:46.239Z",
+      "got": 26,
+      "new": 9,
+      "lag": 0.13
     }
   },
   "audit": {
-    "at": "2026-09-11T02:11:42.192Z",
+    "at": "2026-09-11T02:26:13.531Z",
     "mode": "live",
     "collection": {
-      "returned": 79,
-      "kept": 57,
-      "duplicate": 22,
+      "returned": 26,
+      "kept": 9,
+      "duplicate": 17,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 30,
-      "rejected": 27,
+      "accepted": 3,
+      "rejected": 6,
       "reasons": {
-        "no_fbs_school": 17,
-        "no_offer_term": 4,
-        "non_fbs_offer_target": 4,
-        "hard_negative": 2
+        "no_offer_term": 3,
+        "non_fbs_offer_target": 1,
+        "no_fbs_school": 2
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2098228343795548404",
-          "author": "traceykent",
-          "searchJob": "kent-state",
-          "text": "@Anthony__Koch They believe à child is a parasite. Offers nothing to women. Oprah is the leader of this cult"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098214925139165504",
-          "author": "reginaj44233568",
-          "searchJob": "liberty",
-          "text": "They are currently funding Talarico. Don't pay attention to outside noise and nonsense.🤬 Democrats have nothing to offer American citizens; it's all about their hatred for President Trump. The Bible🙏😇 says that when a good leader is in c"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098209756616044795",
-          "author": "turbs888",
-          "searchJob": "liberty",
-          "text": "@FarmGirlCarrie or speak out against their own leaders, when Biden and Walz offered the same."
-        },
-        {
           "reason": "no_offer_term",
-          "postId": "2098201940819685661",
-          "author": "coopervahle",
-          "searchJob": "liberty",
-          "text": "Blessed for the opportunity to be at @LibertyFootball for game day! Thank you for the invite @CoachColtonKorn. Looking forward to being on campus and seeing the Flames Compete! @CoachShawnQuinn @corypeoples @teddyjgallagher @MageeCoach @coa"
+          "postId": "2098210266810851500",
+          "author": "serranojan90390",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive a gameday invite from Brown University 🦍 https://t.co/JIiagvnlFN"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2098231643592962136",
-          "author": "jsheeeep",
+          "postId": "2098207260325429654",
+          "author": "jonasneuverth",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation and visit with @NCU_MBKB I'm incredibly grateful and blessed to receive an offer from North Central University! Huge thanks to coach @Tyler3Engel14 and coach @JeremyBecker_22 for making this possible! https://t.co"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098228729059201510",
-          "author": "sherman_br0dy_0",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @Cheatham_JettFU I am blessed to receive an offer from @FalconsFU !! https://t.co/W9G8H6VyOW"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098226595076931666",
-          "author": "cadegarrett20",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "So Blessed to receive my 6th offer to play college football at Ottowa University! @OttawaBravesFB @CoachJRupnow @CoachSCDub https://t.co/m8nZCshTiw"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2098225459313901568",
-          "author": "huffmanlan83007",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation and visit with @NCU_MBKB, @JeremyBecker_22 , and @Tyler3Engel14 I’m blessed to receive an offer from North Central University! Thank you for giving me an opportunity to play at the next level. I am extremely bless"
+          "text": "After a great visit and conversation with @KadeTerrell and @samleal11 I am blessed to receive an offer from Wartburg College https://t.co/6m1fazAR37"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098225361485988169",
-          "author": "amare245",
+          "postId": "2098207170701455614",
+          "author": "jamantayc",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive a game day invite from Missouri State! I will be in Springfield Saturday to watch the game against Lindenwood! Huge Thanks to Coach @DrewBartels0 and the rest of the staff for the invite! #NoStateLikeMoState https://t.co/"
+          "text": "Blessed to receive a game invite from Mercer University! Grateful for the opportunity to experience the program and build relationships. 🐻🏈 #GoBears #MercerFootball #AG2G @CoachChrisWalsh @CoachLanceo @MercerFootball https://t.co/qYHK5DWb"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098223827389976723",
-          "author": "keagendixon_7",
+          "postId": "2098206589274538047",
+          "author": "hudsonmire10",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @coachbabcock24 I am blessed to receive my first offer! Thank you @DefiCollegeBASE and to my parents for everything you have done! @griffingreen8 @USAPrime18Green https://t.co/EfEIK3XYEA"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098222310230499455",
-          "author": "ghavenmittal27",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Atter a great conversation with Carnegie Mellon University, I'm blessed to receive an official offer (pending admissions)! Thank you so much to the coaching staff for this opportunity! @AUTrojansMBB @ResSports @NXTLevelSN @PSGSportsMedia @4"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098219685565051330",
-          "author": "kalihinson33",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "So incredibly thankful and blessed to receive an offer to continue my softball journey @JC_BobcatsSB I’m grateful to God and @JC_CoachTDEW for this opportunity and for everyone who has supported, encouraged, and believed in me along the way"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098218065108295703",
-          "author": "savanah_kemnitz",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great phone call with @Coach_G_AU and @Coach_Mayes I am blessed to receive an offer to continue my basketball career at Asbury University! https://t.co/yjcxFpTC1s"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098217063684735429",
-          "author": "910_travis",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Thank you Coach for the opportunity and believing in me! Blessed to receive an offer from @HowardHuskies1 @Coachlik1 https://t.co/eHtycGOkb7"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098215593715323064",
-          "author": "austin4jones",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my first basketball offer from Reinhardt university🙏🏾⏳💤 @R_U_MBBall @GuruTSuttles @RedBankHoops @RedBankATH @CoachFikeRB @PrepHoopsTN @mosesk225 https://t.co/9qKFcxCYax"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2098215499641266664",
-          "author": "jaydenmcknight_",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @CoachBoehler, I am blessed to receive an offer from Sterling College @247Sports @reesesteven2 @CoachBWaite @TnVarsity @PrepRedzoneTN @Rivals @CSmithScout @StewartsCreekFB @SCWarriorFB @CoachLangfordSC https:"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098217023268327683",
-          "author": "gulleyamiyah",
-          "searchJob": "phrase:\"blessed to have received\"",
-          "text": "After a great conversation with Head Coach @CoachBobDunn I’m extremely blessed to have received a offer from Cleveland St. Looking forward on learning more about the program #GoVikings #MyJourney #Blessed #HorizonLeague https://t.co/5sWkcMU"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2098211694531236071",
-          "author": "kingkemp_09",
-          "searchJob": "phrase:\"blessed to have received\"",
-          "text": "After a Great visit and conversation with the coaching staff i am truly blessed to have received my second offer from Mcpherson College. Thank you so much for believing in me! @RL_HoopsKS @OSFalconHoops @KCGritnGrind @AYSABasketball @PrepHo"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098223943748321565",
-          "author": "pittsburgh1pete",
-          "searchJob": "pittsburgh",
-          "text": "@PPrevich Because people are sheep and idiots. This dude promised $2000 for tariffs, nobody got a dime. Now promising other financial incentives and the dummies are all getting excited. Same thing happens when politicians offer free college"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098204137326305477",
-          "author": "bradpitt8073",
-          "searchJob": "pittsburgh",
-          "text": "Would you like I offer you a gift of flowers https://t.co/reEu6yqfa6"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098203469937029384",
-          "author": "bradpitt8073",
-          "searchJob": "pittsburgh",
-          "text": "Would you like I offer you a gift of flowers https://t.co/SNrTuQXaL2"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098230923133436361",
-          "author": "thecraneweekly",
-          "searchJob": "texas-tech",
-          "text": "Confirmed via debut trading: Enflame Technology opened +188% on Shanghai's STAR Market - 410 yuan vs its 142.18 offer - for a ~176B yuan market cap. The Tencent-backed AI chipmaker raised ~$912M on a 6,109x online oversubscription. https://"
+          "text": "I am blessed to receive an offer from @EcclesiaMBB_! Thank you God! @LCAKnightsbball @JacobBroussard @MireCpa @stephaniemire29 @cpt_tatum @MikeCoppage1 @ShannonBelt3 https://t.co/kSgToPRywB"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098229773377937825",
-          "author": "richardkcollin2",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/Zmcr5uqLhM"
+          "postId": "2098234147580117303",
+          "author": "creray169",
+          "searchJob": "virginia",
+          "text": "For your Intellectual Consumption. https://t.co/XzpteySpO3"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2098223153931800658",
-          "author": "maheshdaga",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/1nP8eDo8Vr"
+          "reason": "no_fbs_school",
+          "postId": "2098230032258765285",
+          "author": "virginiavoterx",
+          "searchJob": "virginia",
+          "text": "@Cernovich lol Trump literally just offered people $5,000 to vote for Republicans."
         }
       ]
     },
     "extraction": {
-      "accepted": 3,
-      "rejected": 27,
+      "accepted": 0,
+      "rejected": 3,
       "reasons": {
-        "bare_mention_requires_llm": 12,
-        "reporter_missing_player_name": 1,
-        "multiple_resolved_schools": 3,
-        "author_not_recruit:not high-school recruit": 1,
-        "school_not_resolved_confidently": 10
+        "multiple_resolved_schools": 2,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098227973115514998",
-          "author": "pulseleaksq",
-          "searchJob": "liberty",
-          "text": "From Karl Streed - I BET YOU DIDN'Y KNOW ABOUT THIS: AFTER FLIGHT 77 HIT THE PENTAGON ON 9/11, THE FOLLOWING HAPPENED. A daycare facility inside the Pentagon had many children, including infants who were in heavy cribs. The daycare supervis"
+          "reason": "multiple_resolved_schools",
+          "postId": "2098234836431655182",
+          "author": "heardwilda",
+          "searchJob": "virginia",
+          "text": "https://t.co/7497d6dgjw NY Hospital Pulls Plug on Controversial Child Transgender Treatments Family Watch International Wed, Sep 9 September 9, 2026 Family Watch Newswire The Family Watch Newswire is a service of Family Watch International "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098233930239353292",
+          "author": "recruitszone",
+          "searchJob": "virginia",
+          "text": "INFO: Syracuse, Louisville, Michigan, Providence, Virginia, and Florida State have been in since the recruiting period began for Top-25 2028 prospect Michai White (@moneymichai ), he tells me. Syracuse offered the 6’0 point guard today afte"
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2098227102482845865",
-          "author": "braheembattles",
-          "searchJob": "liberty",
-          "text": "Humbled &amp; Blessed to EARN an offer from @LibertyFootball🔵🔴 #B4D #LLK #LLD @CoachJDon @ButlerGrizzlyFB @Coach_JL51 @CoachTylerCurts @chrisjammar @A1Rsports @AllenTrieu @BradHoiseth @JuCoFootbaLLACE @JUCOFFrenzy https://t.co/n5rzfHoa8f"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098211409859313972",
-          "author": "x_sedeqc",
-          "searchJob": "liberty",
-          "text": "Your professor just told you the quiet part of the last sixty years. Quanta Cura is, on his own admission, a solemn papal act, then he adds that nobody holds it anymore. That is not continuity, but the definition of treating a defined conde"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098210849697485269",
-          "author": "alex_west2",
-          "searchJob": "liberty",
-          "text": "From Karl Streed - I BET YOU DIDN'Y KNOW ABOUT THIS: AFTER FLIGHT 77 HIT THE PENTAGON ON 9/11, THE FOLLOWING HAPPENED. A daycare facility inside the Pentagon had many children, including infants who were in heavy cribs. The daycare supervis"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098207151453831504",
-          "author": "dbarker2442",
-          "searchJob": "liberty",
-          "text": "Let’s go!!! Class of ‘28 6’3 200 FS @coopervahle getting that game invite to Liberty where he’s been offered! Super proud of you Coop! Let’s keep it going!! #RecruitWest @NEGARecruits @RecruitNE_GA @RecruitGeorgia @CJacksonPRZ"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098205532012335471",
-          "author": "god_came_down",
-          "searchJob": "liberty",
-          "text": "Read the Westminster Confusion of Faith. It’s double-talk that anyone who ever bought a used car should recognize. In stead of saying “allowed”, “permitted”, “permissible” even though the book of Job Calvinism 🚨Double-Speak Confusion of Fa"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098218809584754822",
-          "author": "cultlaser",
-          "searchJob": "louisiana",
-          "text": "🚨 State of Laser Adress 🚨 It has been a rough week boys and girls, not gonna lie. The deal for the workshop fell through. I am feeling all sorts of ways about it, but at this point there is really nothing I can do about it. The seller ori"
-        },
-        {
-          "reason": "author_not_recruit:not high-school recruit",
-          "postId": "2098231262791995690",
-          "author": "alandheart6",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "#AGTG After a great conversation with @JLBarnes4 I am blessed to receive an offer from @WKUFootball. @CoachSeanKelly @CoachEA_ @CoachCrissup @Norsemen_FB @JUCOFFrenzy @JuCoFootballACE @Walkemdownceo https://t.co/tB4RLVYRxV"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098221965618127358",
-          "author": "kyledriver62",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @Coachlik1 I’m blessed to receive an offer from the huskies. @coachhoward22w @CoachEritTurner @JCMCougars @JCM_ECH https://t.co/0abKYB4eNX"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098218782166581386",
-          "author": "spacefogil",
-          "searchJob": "duke",
-          "text": "https://t.co/0EJuj84j0l List Of Games That Stood The Test Of Time That I Love And Think That They Are The Best Games Humanity Has To Offer. The List Will Grow As I Live Stream. On Stream I Test Different Games Out. Games That I Love I Will "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098216447176507807",
-          "author": "baxleyrjr",
-          "searchJob": "duke",
-          "text": "@kareyn09 Mensah was on the list but Duke offered him $8m."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098214214514987314",
-          "author": "blairasanderson",
-          "searchJob": "duke",
-          "text": "Carter Barrett adds Duke offer https://t.co/uJPlsOkKS2"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098231396531601763",
-          "author": "recruitszone",
-          "searchJob": "florida-state",
-          "text": "INFO: Syracuse, Louisville, Michigan, Providence, and Florida State have been in since the recruiting period began for Top-25 2028 prospect Michai White (@moneymichai ), he tells me. Syracuse offered the 6’0 point guard today after meeting "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098231805371699273",
-          "author": "earthtotami",
-          "searchJob": "stanford",
-          "text": "“Proud to partner with @NACHC and @DirectRelief to play a small part in assisting @POTUS and the Administration in getting the US closer to herd immunity by donating $2 million in gift cards to those - especially from underserved communitie"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098229479177117874",
-          "author": "kezhior",
-          "searchJob": "texas-tech",
-          "text": "50 websites that feel like the internet’s hidden toolbox 🧰 Most people only use about 1% of what the internet actually has to offer. We get stuck paying for bloated subscriptions, fighting with clunky software, or wasting hours hunting for"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098229357307416912",
-          "author": "cnevhome",
-          "searchJob": "texas-tech",
-          "text": "IM Motors has opened pre-orders for the all-new LS6, priced from RMB 209.9K to RMB 264.9K ($31.3K-$39.5K). Three versions are offered, with 76 kWh, 93 kWh and 103 kWh battery packs delivering 650 km, 782 km and 750 km of CLTC range, respect"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098229200909934825",
-          "author": "theredreview_ev",
-          "searchJob": "texas-tech",
-          "text": "China's rare earth dominance poses supply chain risks. But Cybercab's magnet tech for EVs offers a solution, promising cost reduction and enhanced security. See the FULL Video: https://t.co/xPi5eaqJT9 #Tesla #ModelY #Model3 #Cybercab #EVTec"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098227247253455278",
-          "author": "samalitosbutler",
-          "searchJob": "texas-tech",
-          "text": "TL;DR -- your anxieties are understandable, and AI does bring some very real risks. That said, there are three very compelling reasons to believe that any extreme existential threat presented by AI is no different from the normal existentia"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098225007029879063",
-          "author": "gangganghodl1",
-          "searchJob": "texas-tech",
-          "text": "Tech companies start B2C or B2B Some grow multiple business models and lines, offer B2B and B2C, DTC Big tech has multiple revenue models, marketplace, micro transactions, etc"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098224633464123822",
-          "author": "griftkiller8569",
-          "searchJob": "texas-tech",
-          "text": "@TheRayMyers Cause they try to make it seem like they’re a fun tech when they’re literally just a bank lol they don’t do anything special… what? The offer u 25 basis point more in interest for ur cd or hysa? Lmfao wtf"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098222087311864297",
-          "author": "dfinmirror",
-          "searchJob": "texas-tech",
-          "text": "Asian markets opened negatively in the morning while USA and European markets closed in red on last night with Tech index NASDAQ being down by 0.7% #GIFTNIFTY is down by 106 points - indicating #Nifty opening around 23370 Indian ADR’s in US"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098213685625749644",
-          "author": "hypaforecast",
-          "searchJob": "texas-tech",
-          "text": "TECH: OpenAI says it and GSA will offer eligible US federal, state, local and tribal governments $0 license fees, 50% off usage and expanded cyber defense support. https://t.co/b1u9GkszRN"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098208043536191770",
-          "author": "gbamfs",
-          "searchJob": "texas-tech",
-          "text": "We're pleased to announce that Jdawg, our Founder has been invited to Early Access on the W platform- the EU's new, upstart social network that will offer a different flavor of experience than that on X. We'd like to say that our biggest, b"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098203006973907189",
-          "author": "alejandrochitu",
-          "searchJob": "texas-tech",
-          "text": "Hey @MultiversX why not offer to #ElSalvador and @nayibbukele our tech? 🧐"
+          "postId": "2098209117819060687",
+          "author": "dbryanrhodes",
+          "searchJob": "hawaii",
+          "text": "Anyway, about 6 months later, he got a job offer from Northrop Grumman, dropped out of college, and they moved him to Hawaii. Never heard from him again, and have never found him on social media. Wild. 4/4"
         }
       ]
     },
@@ -437,18 +173,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 7,
+      "failed": 1,
+      "requests": 8,
+      "errors": [
+        "utsa: rate limited"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 3,
-      "rejectedCandidates": 27,
-      "brandNewOffers": 2
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 3,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-11T02:13:18.588Z"
+    "status rebuilt locally from current store on 2026-09-11T02:26:46.456Z"
   ]
 }
