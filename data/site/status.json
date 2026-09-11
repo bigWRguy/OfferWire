@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T05:13:03.575Z",
+  "generatedAt": "2026-09-11T05:43:08.435Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-11T05:13:03.310Z",
+    "at": "2026-09-11T05:43:08.155Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7930636111111111,
-    "p95Hours": 1.5296552777777779,
-    "worstHours": 1.5296552777777779
+    "medianHours": 0.7782861111111111,
+    "p95Hours": 1.7801958333333334,
+    "worstHours": 1.7801958333333334
   },
   "decisionCoverage": {
-    "total": 17,
-    "decided": 17,
+    "total": 26,
+    "decided": 26,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 47
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 1016,
     "incompleteOffers": 0
@@ -55,161 +55,223 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-11T05:13:03.309Z",
-      "got": 31,
-      "new": 17,
-      "lag": 0.17
+      "at": "2026-09-11T05:43:08.155Z",
+      "got": 37,
+      "new": 26,
+      "lag": 0.07
     }
   },
   "audit": {
-    "at": "2026-09-11T05:11:28.088Z",
+    "at": "2026-09-11T05:41:26.958Z",
     "mode": "live",
     "collection": {
-      "returned": 31,
-      "kept": 17,
-      "duplicate": 14,
+      "returned": 37,
+      "kept": 26,
+      "duplicate": 11,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 11,
+      "accepted": 20,
       "rejected": 6,
       "reasons": {
-        "no_offer_term": 2,
-        "no_fbs_school": 3,
-        "hard_negative": 1
+        "unclassified_offer_text": 1,
+        "no_fbs_school": 2,
+        "no_offer_term": 3
       },
       "samples": [
         {
+          "reason": "unclassified_offer_text",
+          "postId": "2098140300883456242",
+          "author": "hillaryclinton",
+          "searchJob": "rice",
+          "text": "None of us who lived through 9/11 will ever forget the lives lost or the countless stories of heroism from the day. But a third of today's Americans are too young to have any memory of it. For them, the @Sept11Memorial is making a new digit"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098270228320817216",
+          "author": "graydupont_65",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer from @OttawaBravesFB. Thank you @CoachSCDub for reaching out with words of encouragement and motivation! I look forward to your weekly emails! #OtterOn https://t.co/L5TtKa9ZJs"
+        },
+        {
           "reason": "no_offer_term",
-          "postId": "2098273937885192640",
-          "author": "bitrueofficial",
-          "searchJob": "texas",
-          "text": "https://t.co/XfXfScuI8b"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098270220380999989",
-          "author": "texasdudebro",
-          "searchJob": "texas",
-          "text": "@PeetShmeet20 @realBrandonGill Bro, the reliance on short clips during long conversations doesn't land out of context. I do not agree w all of CKs beliefs but he was the guy that showed up and just wanted to talk, offered a mic for other vi"
+          "postId": "2098262687423549658",
+          "author": "trentgray09",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive student of the month. https://t.co/Jh0KEiqXbU"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098268856099758424",
-          "author": "collinsfortx",
-          "searchJob": "texas",
-          "text": "Charlie Kirk didn’t have to be the first. He had an extraordinary ability to take something that already existed and make it better than ever. Youth chapters existed before TPUSA. Conservative conferences existed before AmericaFest. Faith g"
+          "postId": "2098285149981225194",
+          "author": "taxtmi",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/NGqNpQqq7t"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098257179497095595",
-          "author": "texasoncologist",
-          "searchJob": "texas",
-          "text": "@SalaryDr There is a dynamic where many people take a fat first job offer to be hospital employed over a job in a partnership track, then ended up facing a flat income or even cuts when up for renewal, while the latter escalates as their pr"
+          "postId": "2098281872459800860",
+          "author": "kbobtech",
+          "searchJob": "texas-tech",
+          "text": "Blue Streak and Gemini are the best unique coasters at Cedar Point. You can basically ride Stardust Racers and Velocicoaster to get the same feel as Maverick. 17 other RMCs do what Steel Vengeance does with less of a line. Xcelerator is bet"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2098257181770387846",
-          "author": "gatorneiljr",
-          "searchJob": "miami",
-          "text": "@WhiteLlamaShow @BussinWTB Only total fucking idiots are betting on Miami-FAMU. Most sportsbooks don’t even offer lines or parlays on FBS-FCS games."
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098275210671591680",
-          "author": "thevalueist",
-          "searchJob": "coastal-carolina",
-          "text": "CAPACITY: WHY THE HEADLINE TERABIT FIGURES ARE NOT ADDITIVE Published cable capacity must be separated into design capacity, equipped capacity, contracted capacity, traffic utilization, and immediately available restoration capacity. Design"
+          "reason": "no_offer_term",
+          "postId": "2098215544474550346",
+          "author": "coasterroadtrip",
+          "searchJob": "texas-tech",
+          "text": "@KBobTech @TaterNuts_ @RCXcyclopedia Blue Streak was hailing this past weekend."
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 11,
+      "rejected": 20,
       "reasons": {
-        "reporter_missing_player_name": 1,
-        "school_not_resolved_confidently": 5,
-        "bare_mention_requires_llm": 5
+        "bare_mention_requires_llm": 9,
+        "school_not_resolved_confidently": 11
       },
       "samples": [
         {
-          "reason": "reporter_missing_player_name",
-          "postId": "2098260329243308209",
-          "author": "newsguyusa",
-          "searchJob": "nevada",
-          "text": "President Trump’s promise of a $5,000 cash payment for your vote reminds me of the inducement offered by a huckster during the 1974 election for governor of Nevada. https://t.co/Jxu00GqLk8 https://t.co/VFwMjI0mh2"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098259515896365341",
-          "author": "timm_forestelf",
-          "searchJob": "georgia",
-          "text": "@ReaganCaucusNC Uh, he offered pay off your school loans, $2,000 checks for getting his girl in Georgia elected, free college, free daycare. It’s the same thing."
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098260242643685743",
+          "author": "nathanistic",
+          "searchJob": "ohio",
+          "text": "The Principal Who Took In a Homeless Student Says He Has No Regrets An Ohio principal who lost his job after taking in a homeless student now says he would readily make the exact same choice again if ever asked to do so. Rob Burnside had ac"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098265999355097264",
-          "author": "justthetweets17",
-          "searchJob": "texas",
-          "text": "I was in an Uber today with a young lady. She is a NY Democrat and I have been a Texas republican my entire life. We found that we agreed on Epstein, Iran, Israel, Butler and Charlie Kirk. We were having a great CONVERSATION so interesting "
+          "postId": "2098284648338256269",
+          "author": "narenda13473555",
+          "searchJob": "rice",
+          "text": "@kadalcippi I offer water with rice and rose petals to surya daily from 5 years"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098266363953627441",
-          "author": "roxy_hoebee",
-          "searchJob": "california",
-          "text": "$10,000 REWARD OFFERED IN STUDIO CITY COYOTE SHOOTING 🐺 The Southern California Pit Bull Rescue is offering a $10,000 reward for information that could help identify the person who shot a coyote in Studio City. The reward is intended to en"
+          "postId": "2098273861879873930",
+          "author": "nickomcchean",
+          "searchJob": "rice",
+          "text": "@Mr_Mask1337 @Koi_asm @DelusionPosting Most civilized people dont, they wipe their hands on a napkin or, better yet, the restaurant offers wet wipes for messy foods like wings or ribs. It really is not the same as scooping an entire bowl of"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098263426376389046",
-          "author": "panama10paris",
-          "searchJob": "california",
-          "text": "@WhiteHouse Cut PROPERTY TAXES 🙏 on Disable people that get fixed Social Security. CALIFORNIA is killing us . HILTON offers $70 car registration 👍👏￼ THAT ALSO IS high!"
+          "postId": "2098273321951391793",
+          "author": "ark13vongdara",
+          "searchJob": "rice",
+          "text": "?iQ1we own rice field so we know what we got so we good with whites taking a cut an take from us why let us sell it to you to do why did the blacks take that whore Ashley offer to hang us turn on us for that whore trap so now get your nigs "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098256207677169899",
-          "author": "caligurlkim",
-          "searchJob": "california",
-          "text": "No, it’s not. If it was being offered to everyone, equally, then maybe you could say it was an important investment. When it’s being used only for a certain group of people, then you can’t claim it’s an important investment. Besides, I woul"
+          "postId": "2098265350164848986",
+          "author": "ouchmytoe",
+          "searchJob": "rice",
+          "text": "After my article on ‘why men should never be asked to find things’, a reader called Deep Rastogi asked a very deep question in the comments. She wrote: “So, for the women who are juggling home, work and families, what is the solution for de"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098259479535976705",
+          "author": "griffin_mcveigh",
+          "searchJob": "smu",
+          "text": "Impressive showing from Taylen Strange after a couple of early mistakes. Huge reason why Waxahachie pulled it out vs. Denton Guyer Early in the 2028 running back’s recruitment. Offer from SMU and in communication with Mustangs staff https:/"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098281499095183447",
+          "author": "smartfinanceke",
+          "searchJob": "texas-tech",
+          "text": "US tech giants like Google, Uber, and Mastercard warned at AmChamSummit2026 that unpredictable taxes and shifting regulations could slow down capital flow into Kenya. While Kenya offers massive growth potential, global investors are calling"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098279075852820963",
+          "author": "wilber_cars",
+          "searchJob": "texas-tech",
+          "text": "🖤 ON OFFER: 2014 VW Passat CC – The Timeless German Masterpiece! The Passat CC is Volkswagen’s bold \"Comfort Coupe\" – born to blend executive sedan space with sleek, head-turning coupe lines. When it launched, it redefined what a mid-size "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098256276849385838",
-          "author": "timwhiteccr",
-          "searchJob": "miami",
-          "text": "@sspursup @WeGotSomeCanes @CFBHome Nope. Miami agreed to accept SC’s cancellation as that’s all SC offered."
+          "postId": "2098277357970952458",
+          "author": "aryang_119",
+          "searchJob": "texas-tech",
+          "text": "So Su-57 is the solution as per you? I have give 20 points can you counter even 10 of those? Finally India has to handle China. So China already has 5th Gen and Prototype flying 6th Gen. What great are you going to acheive with Gen 4.5. You"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098276086958485995",
-          "author": "yusufdfi",
-          "searchJob": "coastal-carolina",
-          "text": "After Houthis made gains yesterday seizing key coastal areas and ports, MBS dialled Trump and urged him to strike Houthis. Trump refused to get directly involved and wants Saudis to fight on its own, but offered targeting and intelligence s"
+          "postId": "2098277173660688819",
+          "author": "suchetkapoor",
+          "searchJob": "texas-tech",
+          "text": "You say EU rules suck? Just read how Chinese students filed a report in EU for forced labour in Xinjang for Chinese supplier Xingyu. Reason? The company revoked students fresh graduates offer letter. Students were forced to resign. Tech bro"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098277133986431209",
+          "author": "iamalijandro",
+          "searchJob": "texas-tech",
+          "text": "Asian Session Wrap - Friday, September 11 Asian markets sold off broadly on Friday - a \"Black Friday\" session that saw Japan and Korea lead regional losses, with A-shares also diving sharply. The selloff was driven by a powerful convergence"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098275228036329646",
-          "author": "satireforever",
-          "searchJob": "coastal-carolina",
-          "text": "@chook_is_back But thankfully, Black Rock &amp; State Street will swoop in &amp; offer to buy up all the coastal property - for cents on the dollar, of course 🤮"
+          "postId": "2098276360309366844",
+          "author": "startupsmena",
+          "searchJob": "texas-tech",
+          "text": "💰 €3B round values @Mistral at €21B — largest-ever European tech fundraising @Mistral, a French artificial intelligence firm, raised €3 billion in a funding round that pushes its notional valuation to €21 billion and will accelerate R&D, e"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098273076970770536",
-          "author": "total_dadoic",
-          "searchJob": "coastal-carolina",
-          "text": "Investments in sports facilities and housing projects offer long-term community value. These developments build practical skills and empower coastal youth. Coast Rising. #SasaNiKupepea. #InfrastructureTransformation. https://t.co/xDYbkrNNsS"
+          "postId": "2098276051147260158",
+          "author": "kaushaly4s5s7",
+          "searchJob": "texas-tech",
+          "text": "Funny how life works lol. A few days back, I got an offer from a founder without even applying, but I was busy building my own thing and wanted to go deeper into crypto/deep tech. Couldn’t take it then. Now circumstances have changed, and I"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098260472005058743",
-          "author": "pvpast",
-          "searchJob": "coastal-carolina",
-          "text": "@BGatesIsaPyscho There are so many peer reviewed papers focusing specifically on climate change in relation to coastal erosion. I am curious - the well evidenced data &amp; modelling of increased tidal erosion is veracious. You however reje"
+          "postId": "2098275619067093485",
+          "author": "wegro_app",
+          "searchJob": "texas-tech",
+          "text": "𝗜𝗻𝗱𝗼 𝗧𝗲𝗰𝗵 𝗧𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗲𝗿𝘀 𝗟𝗶𝗺𝗶𝘁𝗲𝗱: 𝗜𝗻𝘃𝗲𝘀𝘁𝗼𝗿 𝗣𝗿𝗲𝘀𝗲𝗻𝘁𝗮𝘁𝗶𝗼𝗻 𝗦𝘂𝗺𝗺𝗮𝗿𝘆 📊 : Indo Tech Transformers Limited has released its Investor Presentation for FY26 Full-Year Results and Q1 FY27 Update, sh"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098272846707634525",
+          "author": "marketpatrika",
+          "searchJob": "texas-tech",
+          "text": "Happiest Minds Technologies : Rationale and key rating drivers CARE Ratings Limited (CareEdge Ratings) has placed the long-term rating assigned to bank facilities and instruments of Happiest Minds Technologies Limited (HMTL) on ‘Rating Watc"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098269019409375305",
+          "author": "pluginjourneys",
+          "searchJob": "texas-tech",
+          "text": "@ferrarirules86 While smaller than the Harrier EV, the Sierra EV offers more tech, range, boot space and cabin space at a lower cost. Yet, buyers still prefer the Harrier EV's road presence, sparking insane sales for the mid-variant Pure Gr"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098264233825771590",
+          "author": "anemdn_com",
+          "searchJob": "texas-tech",
+          "text": ". Premium 4-letter powerhouse – https://t.co/t1YMnZlCdC is short, sleek, and instantly brandable for XR, media, or any high-potential venture. . Clean, modern, and highly versatile – https://t.co/t1YMnZlCdC gives your brand a sharp, profess"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098260962079826095",
+          "author": "el_fuego",
+          "searchJob": "texas-tech",
+          "text": "GOT A STRONG OPINION ABOUT WHAT HAPPENS NEXT? PUNCH MIGHT HAVE A MARKET FOR IT. I expected @punchdotwin to be mostly crypto-focused, but there’s a much wider mix of markets to explore from sports and politics to geopolitics, entertainment, "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098282272332116433",
+          "author": "kelseyshields08",
+          "searchJob": "utah",
+          "text": "💗 URGENT UPDATE — PLEASE DONATE OR SHARE IF YOU CAN 💗 I hate having to ask again, but I urgently need help covering the next stage of my medical care. 🙏 Since returning home from Japan, my health has become much more complicated. I’ve be"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098273758083719193",
+          "author": "blazedbot1",
+          "searchJob": "utah",
+          "text": "@TaxedEnuff @Sarahtexe2 Utah don’t play. Firing squad. They have so much evidence and it’s so overwhelming, I doubt he’ll even be offered a plea. That kid is done. Poster child for allowing your kids on social media instead of raise them."
         }
       ]
     },
@@ -224,11 +286,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 11,
+      "rejectedCandidates": 20,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-11T05:13:03.576Z"
+    "status rebuilt locally from current store on 2026-09-11T05:43:08.436Z"
   ]
 }
