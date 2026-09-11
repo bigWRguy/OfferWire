@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T12:43:17.386Z",
+  "generatedAt": "2026-09-11T12:58:03.493Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-11T12:43:17.106Z",
+    "at": "2026-09-11T12:58:03.174Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5221647222222222,
-    "p95Hours": 1.532178611111111,
-    "worstHours": 1.7776947222222221
+    "medianHours": 0.7683055555555556,
+    "p95Hours": 1.5302369444444444,
+    "worstHours": 1.7783194444444443
   },
   "decisionCoverage": {
-    "total": 41,
-    "decided": 41,
+    "total": 53,
+    "decided": 53,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 47
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 1018,
     "incompleteOffers": 0
@@ -55,315 +55,359 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-11T12:43:17.105Z",
-      "got": 66,
-      "new": 41,
-      "lag": 0.06
+      "at": "2026-09-11T12:58:03.174Z",
+      "got": 63,
+      "new": 53,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-11T12:41:39.514Z",
+    "at": "2026-09-11T12:56:29.612Z",
     "mode": "live",
     "collection": {
-      "returned": 66,
-      "kept": 41,
-      "duplicate": 25,
+      "returned": 63,
+      "kept": 53,
+      "duplicate": 10,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 26,
-      "rejected": 15,
+      "accepted": 32,
+      "rejected": 21,
       "reasons": {
-        "no_fbs_school": 11,
-        "no_offer_term": 4
+        "no_offer_term": 11,
+        "non_fbs_offer_target": 1,
+        "no_fbs_school": 8,
+        "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2098384032337736107",
-          "author": "bradseth2",
-          "searchJob": "georgia",
-          "text": "@DanSLDNBG @pelositracker Biden offers $2k checks if his candidates won in Georgia. You got 0 Biden offers to clear your college debt. You got O It’s all the same."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098381571808006422",
-          "author": "bradseth2",
-          "searchJob": "georgia",
-          "text": "@250_Revolution Donna you’re working too hard for this. Biden offered $2k if his candidates won in Georgia."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098380756225499403",
-          "author": "ron65169",
-          "searchJob": "georgia",
-          "text": "You know Chuck, you should be called Senator UPCHUCK, as you talk about bribes? Joe Biden offered Georgia residents $2,000 to vote for him and you Democrats want Free everything, Healthcare, Childcare, Medicare for all and anything else tha"
+          "reason": "no_offer_term",
+          "postId": "2098393587449008209",
+          "author": "pieakshat",
+          "searchJob": "class:2026",
+          "text": "https://t.co/L9X98xtK9i"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098066065183875189",
-          "author": "senschumer",
-          "searchJob": "georgia",
-          "text": "Trump’s presidency is so failed and broken, he is resorting to trying to bribe the American people for their votes. An insult to Americans, to democracy, and an admission of how absolutely screwed he is."
+          "postId": "2098390454815326452",
+          "author": "uday_krn",
+          "searchJob": "class:2026",
+          "text": "No agency. No venture funding. No excuses. During this Shipathon sprint, I built and launched two completely different products: Solving video retention for creators (Prevue) Solving time-blindness &amp; focus for builders (DayLog) full art"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098373985264116088",
-          "author": "esiawuahrt",
-          "searchJob": "georgia",
-          "text": "https://t.co/RNhA3bTMjh"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098388990848102712",
-          "author": "igb_hoops",
-          "searchJob": "indiana",
-          "text": "Ava Simpson, Class of 2028, picks up an offer from @jmnetter33 at Sacred Heart University! https://t.co/eQPFwXiJWO"
+          "postId": "2098382722796552508",
+          "author": "outofpilot",
+          "searchJob": "class:2026",
+          "text": "https://t.co/oPTMRuzZGZ"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098089269419978923",
-          "author": "brennonchapman",
-          "searchJob": "kentucky",
-          "text": "In honor of Ole Miss’ first home game this weekend, bringing back one of my favorite videos they ever made. Posted nearly 13 years ago. “Back Down South.” https://t.co/t4SVBuBU6Z"
+          "postId": "2098381849341108354",
+          "author": "patentlyapple",
+          "searchJob": "class:2026",
+          "text": "https://t.co/Qh5J80hpCu"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2098378832696746029",
-          "author": "tennessee_talk",
-          "searchJob": "tennessee",
-          "text": "PROMISED VOTERS THE MOON. DELIVERED NOTHING. VOTERS DON'T BE STUPID, DON'T WAIT. VOTE FOR TRUMP, TAKE THE CASH. BETTER OFFER WILL NOT BE OFFERED. VOTERS CAN CHANGE THEIR VOTES IN 28 VERY SELDOM ANY POLITICIAN GIVE VOTERS ANYTHING. PROMISE T"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098385485563347090",
-          "author": "candice_light11",
-          "searchJob": "texas",
-          "text": "@__BigO__ I wouldn’t have believed it either if I wasn’t living in Texas and actually witnessing it. Especially with the Indians and Mexicans here. They offer them loans for businesses and everything."
+          "reason": "non_fbs_offer_target",
+          "postId": "2098395070802051513",
+          "author": "j24white",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer from Florida Memorial University 🙏🏾🙏🏾 @AllNOneSports1 @CountdownReport @NXTLevelSN https://t.co/Z2SXWFSfVN"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098366157203943594",
-          "author": "tickeron",
-          "searchJob": "texas",
-          "text": "$IREN https://t.co/BkFSli68pG"
+          "postId": "2098381373534781544",
+          "author": "levinietofb",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive athlete of the week at Summit Christian Academy https://t.co/b7rDoJFF6f"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098377057742778759",
+          "author": "magadziko43836",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Congratulations to our musician of the moment, Taruwinga Sugar Sugar Manjokota, on receiving a brand-new GD6 from Sir Wicknell. He truly deserves it!! This is the spirit of the Second Republic under President @edmnangagwa , kusimudza maromb"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098379588783223064",
-          "author": "iipla_org",
-          "searchJob": "california",
-          "text": "🌍 𝐌𝐄𝐄𝐓 𝐎𝐔𝐑 𝐒𝐏𝐄𝐀𝐊𝐄𝐑 🌍 We are delighted to welcome 𝐑𝐢𝐧𝐚 𝐖𝐚𝐧𝐠, 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐆𝐞𝐧𝐞𝐫𝐚𝐥 𝐂𝐨𝐮𝐧𝐬𝐞𝐥, 𝐕𝐞𝐥𝐨𝟑𝐃, 𝐔𝐒𝐀, as a distinguished 𝐒𝐩𝐞𝐚𝐤𝐞𝐫 at the 𝟑𝟎𝐭𝐡 𝐄𝐝𝐢𝐭𝐢𝐨𝐧 𝐨𝐟 𝐈𝐈𝐏𝐋𝐀 𝟐\ud835"
+          "postId": "2098381900284874890",
+          "author": "ashleyvarnum_11",
+          "searchJob": "phrase:\"blessed to have received\"",
+          "text": "After a great visit and conversation with Coach Jacobs I am blessed to have received an official offer from @beaconswbb. Thank you Coach for this opportunity! @BRgirlshoops @WBSportsRecaps https://t.co/DF6R6IkyIX"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098371411450437758",
-          "author": "thomasjfarrell7",
-          "searchJob": "california",
-          "text": "Why can’t it just fall into the ocean; aside from some amazing Twitter friends, California has NOTHING to offer! https://t.co/3KEdNDYNMZ"
+          "postId": "2098382297615491544",
+          "author": "thorntonweather",
+          "searchJob": "colorado",
+          "text": "Thornton’s weekend to offer up above average temps, a couple slight chances for storms. Cooler weather lies in waiting for next week. Details: https://t.co/JOkJpR46AJ #Thornton #cowx https://t.co/QwysGxw76B"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098383601284874740",
-          "author": "marco_1102",
-          "searchJob": "miami",
-          "text": "anyone looking for Ken Carson tickets I have Three available for today Friday September 11 at FPL Solar amphitheater at Bayfront Park Miami,FL. Unfortunately, we’re no longer able to attend, Open to reasonable offers. Please DM me if you’re"
+          "postId": "2098388426991055188",
+          "author": "okeyhillsbay",
+          "searchJob": "duke",
+          "text": "@InibeheEffiong Don’t worry too much. In Nigeria public office we don’t strive for excellence but rather the opposite. We love to operate in darkness. As you’re aware that Nigeria government has refused to offer their citizens common electr"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098382591351038288",
-          "author": "merikssonn",
-          "searchJob": "miami",
-          "text": "anyone still looking for Omar Courtz tickets I have 3 available for today September 11 at Kaseya Center in Miami, FL Unfortunately, we’re no longer able to attend, Open to reasonable offers. Please DM me if you’re interested."
+          "postId": "2098384830169809146",
+          "author": "leonduke",
+          "searchJob": "duke",
+          "text": "@GWRHelp You’ve issued a £7.99 refund via delay repay for a £68 ticket where we’ve all had to stand the full 3 hours! What’s the escalation to this embarrassing compensation offer?"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098381280320565435",
-          "author": "littlemiamibrew",
-          "searchJob": "miami",
-          "text": "🇺🇸 Today, we remember and honor the heroes of September 11th. We will never forget their bravery and sacrifice. To show our gratitude for those who serve and protect, we proudly offer 15% off every day to all active-duty military, veteran"
+          "postId": "2098380244801441807",
+          "author": "muoki_1",
+          "searchJob": "duke",
+          "text": "Quality care is now available to all, with SHA hitting 33M registrations. The program supports preventive and specialized medical services. Register today to ensure your family benefits from the reliable healthcare offered by Bima Bora! #SH"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098368458152972796",
+          "author": "williamsmkenya",
+          "searchJob": "duke",
+          "text": "Niaje mkuu! Si lazima usubiri ugue ndio uanze kufikiria SHA. 😎 Ni mbayaaa.. Register now, stay covered and handle tomorrow with confidence. Over 33 million Kenyans are already onboard. Usibaki nyuma bro. Unangoja nini? Jipange mapema na bi"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098139467278078129",
+          "author": "dexerto",
+          "searchJob": "texas-tech",
+          "text": "Parents say children have returned home from school crying over rules that put them in an isolation room for hours Reasons included wearing the wrong clothes, uncrossing their arms or applauding instead of clapping three times in unison htt"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098348060124352644",
+          "author": "ugberlinembassy",
+          "searchJob": "texas-tech",
+          "text": "🇺🇬🇩🇪 Advancing TVET, Skills & Technology TransferThe Embassy of Uganda in Berlin, led by H.E. Ambassador Stephen Mubiru, engaged IHK Nord Westfalen in Münster on strengthening TVET cooperation. IHK offered to host and train an initial 5"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098390444107259938",
+          "author": "csomerton",
+          "searchJob": "texas-tech",
+          "text": "Mamzerdani at the site or our beloved World Trade Center on 9/11 is more obscene than anything ever conjured by the Marquis de Sade. I was there. I watched it in horror, SMELLED it (oh, God, that smell!), FELT the island of Manhattan shake "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098389410245210587",
+          "author": "hubgiri",
+          "searchJob": "texas-tech",
+          "text": "Congratulations... Rushikesh for your job offer!! 🎉 #placement2026 #ITjobs #placements #javafullstack #javafullstackdeveloper https://t.co/FupAwdgAAh"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098388803119370656",
+          "author": "ssshken",
+          "searchJob": "texas-tech",
+          "text": "I clicked Allow 32 times to get one week planner planned. https://t.co/y1ILUVFhN8"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098387977236037752",
+          "author": "thecinesthetic",
+          "searchJob": "texas-tech",
+          "text": "Why Did Amazon Really Drop Luca Guadagnino’s Sam Altman Movie? https://t.co/DG7cU46xTq"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098387395041190047",
+          "author": "roundhill",
+          "searchJob": "texas-tech",
+          "text": "The S&amp;P 500 is like a duck. Calm on the surface, tight range, volatility near pre-Liberation Day lows. Underneath, it’s paddling like crazy: factor rotations just hit two-year highs. Where the real turbulence is hiding, in today’s Marke"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098380718619468121",
+          "author": "zhong30958",
+          "searchJob": "utah",
+          "text": "*Hineni*. Here I am. Lord, send me. This is not merely a catchy slogan; it is one of the weightiest, most perilous, and most glorious responses found in the Bible. It signifies far more than simply \"being present\"; it represents the total s"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 26,
+      "rejected": 32,
       "reasons": {
-        "reporter_missing_player_name": 1,
-        "school_not_resolved_confidently": 13,
-        "bare_mention_requires_llm": 10,
-        "multiple_resolved_schools": 2
+        "bare_mention_requires_llm": 13,
+        "multiple_resolved_schools": 1,
+        "school_not_resolved_confidently": 17,
+        "player_missing_class_year": 1
       },
       "samples": [
         {
-          "reason": "reporter_missing_player_name",
-          "postId": "2098385580963106844",
-          "author": "alanburrows5",
-          "searchJob": "marshall",
-          "text": "The happiest person tonight is Rowan Marshall because his contract offer from Cats has gone up significantly, Luke Jackson putting on a clinic #AFL #FreovCats"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098390973688762716",
-          "author": "cryptowithgopal",
-          "searchJob": "south-florida",
-          "text": "$VELVET is forming a massive falling wedge 👀📈 After a deep correction, price is compressing near the $0.05–$0.06 support zone, with the falling trendlines showing selling pressure gradually narrowing. The structure offers a potential bull"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098393155708309870",
+          "author": "theobserverpost",
+          "searchJob": "temple",
+          "text": "West Bengal Chief Minister Suvendu Adhikari offered prayers at Kolkata’s Kalighat Temple on the occasion of Kaushiki Amavasya and ate traditional fish bhog offered to Maa Kali. Adhikari visited the temple on Thursday, where he participated "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098383041420767461",
-          "author": "anthonydasher1",
-          "searchJob": "georgia",
-          "text": "Flourish Odin's journey from England to earning a UGA offer. @JedMay_ has more https://t.co/uJwBMGAYWs via @on3"
+          "postId": "2098391679229431849",
+          "author": "_vatsalasingh",
+          "searchJob": "temple",
+          "text": "She never married, yet she still considers herself Captain Vikram Batra's widow. Inside every girl, there is a lover waiting to drown in love. The Quint ran a beautiful story on Captain Vikram Batra back in 2016. That hero was someone's abs"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098382493841780883",
-          "author": "voiceofruralam",
-          "searchJob": "georgia",
-          "text": "Broadcast 9AM on Voice of Rural America Facebook page, Rumble, X and YouTube. The $5,000 Illusion: How Desperation Replaced Principle in the Republican Party, Killing the Golden Goose: Why Action Jackson Won’t Fix the Healthcare Machine Tha"
+          "postId": "2098390464068190304",
+          "author": "ians_india",
+          "searchJob": "temple",
+          "text": "Varanasi, Uttar Pradesh: Hanuman Ansh movie becoming a blockbuster, all the actors and actresses visited the Kashi Vishwanath Temple and offered prayers https://t.co/tC0CyGzLHk"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098378021770350800",
-          "author": "earthdesires",
-          "searchJob": "georgia",
-          "text": "Whiskey Jug Genie by Sultonna Nadine is a lighthearted and charming paranormal fantasy that mixes magic, humor, and a touch of romance for pure escapist fun. When quiet London apothecary shop owner Martin buys an old whiskey jug on vacation"
+          "postId": "2098389468990550382",
+          "author": "love762623",
+          "searchJob": "temple",
+          "text": "Today's news has disappointed his students. Those who once prayed before his sacred objects, visited his vihara, or placed their faith in him may begin to wonder, \"What is truly the value of everything I've believed in all this time?\" More "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098377266711728270",
-          "author": "earthdesires",
-          "searchJob": "georgia",
-          "text": "Old Flame (Gambler's Folly Book 4) by Mellie Miller is a heartfelt second-chance paranormal shifter romance that blends emotional healing, mature love, and the magic of fate. Billionaire and bear shifter Kort Behrens has been lucky in busin"
+          "postId": "2098384578159554784",
+          "author": "httweets",
+          "searchJob": "temple",
+          "text": "Keeping up with the tradition of West Bengal, the state's chief minister Suvendu Adhikari visited Kalighat Temple on the occasion of Kaushiki Amavasya on Thursday and enjoyed the traditional bhog offered at the temple — sweets, basanti pula"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098368327819161899",
-          "author": "bob_sweeney",
-          "searchJob": "georgia",
-          "text": "@ReaganCaucusNC Did you forget he offered $2,000 for Georgia senators to win, they did and checks only came after the election. Ya’ll libtards have the shortest memory ever."
+          "postId": "2098382352229781868",
+          "author": "thehimalayan",
+          "searchJob": "temple",
+          "text": "Today is Kushe Aunshi, Nepal's Father's Day! Devotees bring holy kush grass home, and families honor fathers with gifts, sweets, and blessings. At Gokarneshwor Mahadev Temple, crowds gather to offer tarpan and pinda daan for departed father"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098382826764746890",
-          "author": "jstanmccauley",
-          "searchJob": "indiana",
-          "text": "The Urban League of Northwest Indiana offers vital services in education, financial literacy, health, social justice, and youth leadership. Entire Episode: https://t.co/IC1CJc1Kbi #Community #GaryIndiana #UrbanLeague https://t.co/XkAci3TS3S"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098378208429183062",
-          "author": "indianapreps",
-          "searchJob": "indiana",
-          "text": "Wayne High defensive standout lands Jayhawks offer."
+          "postId": "2098378157338550527",
+          "author": "jaiyogiramsurat",
+          "searchJob": "temple",
+          "text": "In the sweet presence of Yogi Ramsuratkumar, even the temple elephant stopped to offer reverence. A beautiful memory of chanting Arunachala Shiva at Thiruvannamalai. May His grace fill our hearts. #YogiRamsuratkumar #Arunachala #Thiruvannam"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098378091055718616",
-          "author": "sixstarfootball",
-          "searchJob": "indiana",
-          "text": "Indiana Prospects Bringing More to the Recruiting Picture 📈Offers, visits and early-season performances highlight this Indiana group🔥 STORY➡️https://t.co/JHKe0eDcnM @hayworth_luke @GavHelpingstine @mike_henley02 @zeek_hester @Nic_Hoggs @a"
+          "postId": "2098370055717466391",
+          "author": "ilovesiliguri",
+          "searchJob": "temple",
+          "text": "A beautiful celebration of faith and devotion in Siliguri as devotees gathered at Rani Sati Dadi Temple to mark Bhado Amavasya. The temple witnessed a special festive atmosphere with prayers, devotion and Maha Prasad being offered to devote"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098385108772233484",
-          "author": "gspence1",
-          "searchJob": "kentucky",
-          "text": "Fortunate to road trip to Ole Miss in about 20 yrs ago. The Grove is something to experience. People were great. Offered us food even though we were rocking @UKFootball gear. It is a great of example of football in the south. https://t.co/M"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098390921775604038",
-          "author": "landondugg70644",
-          "searchJob": "lsu",
-          "text": "@hometeamjuan @CoachWarzu @ConnorATownsend @JohnJac31246377 He was old enough to say publicly Michigan doesnt know how to develop QBs and LSU is the obvious choice for his future then Michigan ups the NIL offer and all of a sudden hes bleed"
+          "postId": "2098394845643448720",
+          "author": "arthur_win8",
+          "searchJob": "class:2026",
+          "text": "SPACEX Updated 2026-09-11 Sources: your SpaceX + Space X Tesla XAi + Space X Data Centers + Space X$ bookmark folders (1288 unique posts). NEW TODAY - Testers (MattZ (wvmattz)): Ship 42 (Flight 15) has emerged from MB2, which now makes it t"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098379863677952298",
-          "author": "duanebuziak",
-          "searchJob": "tennessee",
-          "text": "A Tennessee homebuyer assistance program caught my attention. The Housing Fund may offer eligible Tennessee homebuyers up to $35,000 toward down payment and closing costs. What surprised me? Many buyers—and even industry professionals—may n"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098375155982430480",
-          "author": "volsonsi",
-          "searchJob": "tennessee",
-          "text": "The #Vols have extended an offer to 2029 Maury (VA) ATH TaJuan Pair Jr. (@TAJUANPAIR1) \"I was very excited.\" https://t.co/g2bbZoliM9 https://t.co/mhcddwW9Mz"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098388792482623884",
-          "author": "gkketch",
-          "searchJob": "texas",
-          "text": "Look, man... you're distracted. The game is tomorrow. Let me help you out. 2 days left on the offer. #TexasLonghornsFootball War Room: https://t.co/yWkRxXT7la The All-22: https://t.co/YYMsbyARxt 1 BIG Q: https://t.co/8qVrMOccMB https://t.co"
+          "postId": "2098393234179276866",
+          "author": "arthur_win8",
+          "searchJob": "class:2026",
+          "text": "GROK BOT HOW TO USE Sources: official https://t.co/2EN1BbJ794 + https://t.co/0OVb26msAp + your Grok Bot bookmark folder (866 posts) Updated: 2026-09-11 WHAT NEW TODAY - Folder 866 posts (7 new vs Sep 10) - Testers (unicodef1wn): 10 official"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098390986435244144",
-          "author": "aymaantea",
-          "searchJob": "miami",
-          "text": "@nfwtobyatm We went to Miami for CWC and he got offered a contract and he wanted to stay there for Messi so he didn't leave instead joined them then itself"
+          "postId": "2098378170806182050",
+          "author": "gladstein",
+          "searchJob": "class:2026",
+          "text": "This is my third reflection on AI and freedom. My goal is to post once every three months. So far, the quarterly progress is blowing my mind. I've never seen a field evolve so blazingly fast. And for now, the winds are very much blowing in "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098383859838566713",
-          "author": "rohanarun",
-          "searchJob": "miami",
-          "text": "@Super_Powers_AI Hey Super, build a https://t.co/Hkxjz73fbQ The tool should simulate the economic and political negotiations surrounding a $4 million GTA 6 advertising campaign in Miami Beach. Users will interact with controls to adjust adv"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098382581955768549",
-          "author": "trendingblog247",
-          "searchJob": "miami",
-          "text": "Today is the 25th is Trending in the US because that's the phrase with which netizens are sorrowfully commemorating the 25th anniversary of the September 11, 2001, terrorist attacks, commonly known as 9/11, in which al-Qaeda hijackers carri"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098373227504341060",
+          "postId": "2098376926758944802",
           "author": "uphonestreal",
-          "searchJob": "miami",
-          "text": "🔥 THE INTERNET DOESN’T HAVE A DISCOUNT PROBLEM. It has a: “IS THIS ACTUALLY A GOOD DEAL?” PROBLEM. 20% OFF. FLASH SALE. MEMBER PRICE. TODAY ONLY. PROMO CODE. CLEARANCE. BLACK FRIDAY PRICE. 😂 But shoppers increasingly want to know somethin"
+          "searchJob": "class:2026",
+          "text": "⚽ FOOTBALL BETTING HAS A DATA PROBLEM. There are more odds. More markets. More live stats. More “predictions.” More tipsters. More noise. And yet the question most bettors actually want answered is still simple: WHAT DOES THE MATCH REALLY L"
+        },
+        {
+          "reason": "player_missing_class_year",
+          "postId": "2098391279767789833",
+          "author": "jadecard11",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed To Receive a Offer from Troy University🙏🏾 @CourtlandHays @CoachRice1231 @CoachStory_EMCC @FadeEmUpCam https://t.co/38BQWbNfNy"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098386811336974615",
+          "author": "chadhatten1",
+          "searchJob": "colorado",
+          "text": "Nobody prepares you for what unemployment does to your identity. You start with confidence. Then comes uncertainty. Then frustration. Then embarrassment. Then the constant question: \"What's wrong with me?\" I've experienced all of it. I've s"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098369986511163769",
+          "author": "uphonestreal",
+          "searchJob": "colorado",
+          "text": "🌍 THE NEXT LUXURY REVOLUTION MAY NOT BE ABOUT OWNING MORE. It may be about: SHARING BETTER. A beautiful second home that sits empty 300 days a year. A boat used six weekends. A private aircraft with enormous fixed costs. A vacation propert"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098369066222411867",
+          "author": "tft_",
+          "searchJob": "colorado",
+          "text": "The Colorado River offers Pakistan a warning: allocating water is not the same as governing scarcity. The 1991 Accord divided the Indus. Pakistan now needs rules for what happens when there simply isn’t enough water. ✍️ @LeghariMohsin 🔗 ht"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098390350544974264",
-          "author": "airnewsalerts",
-          "searchJob": "coastal-carolina",
-          "text": "Addressing the National Conference on Coastal Ecology, Security and Sustainability 2026, Earth Sciences Minister Dr. Jitendra Singh said that India’s coastline must be viewed as an interconnected space of ecology, security, economy, technol"
+          "postId": "2098394791327236184",
+          "author": "uphonestreal",
+          "searchJob": "texas-tech",
+          "text": "🚔🇨🇦 GETTING ARRESTED IS ONE OF THE WORST POSSIBLE TIMES TO START GOOGLING WHAT TO DO NEXT. Your heart is racing. You don't know: Why you're being arrested. Whether you'll be released. Whether you should answer questions. Who to call. Wha"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098384543384297861",
-          "author": "mtumiam",
-          "searchJob": "coastal-carolina",
-          "text": "Coastal tour stops offer real platforms for open dialogue with local coastal communities. Caleb Amisi hears voter priorities. PMParty CoastalTour Mabadiliko Ni Sasa #PmPartyInKilifi."
+          "postId": "2098394066299789633",
+          "author": "berniebimbj",
+          "searchJob": "texas-tech",
+          "text": "horrendous stuff of course but that aside, 'Sandwich Technology School' is such a good name. I hope they offer good food tech lessons"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098384510669000884",
-          "author": "animadhar58291",
-          "searchJob": "coastal-carolina",
-          "text": "https://t.co/5NcHY3wecW Japan’s Izu Peninsula Offers the Future of Slow Tourism With Hot Springs, Heritage and Coastal Adventures"
+          "postId": "2098394025329877148",
+          "author": "kimsalim99",
+          "searchJob": "texas-tech",
+          "text": "The persistent mismatch btn theoretical academic credentials &amp; practical industry demands leaves capable youth stranded in underemployment. The proposed MoU targeting dual vocational training, tech transfer &amp; industry linkages offer"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098383332740415600",
-          "author": "onchainins5699",
-          "searchJob": "coastal-carolina",
-          "text": "• Houthis seized the southwestern Yemeni port city of Mocha this week with direct guidance from Iran's Revolutionary Guards, according to Yemeni government, Iranian and regional sources, tightening control over the Bab el-Mandeb Strait and "
+          "postId": "2098393714452287870",
+          "author": "kimsalim99",
+          "searchJob": "texas-tech",
+          "text": "@UgBerlinEmbassy The persistent mismatch btn theoretical academic credentials &amp; practical industry demands leaves capable youth stranded in underemployment. The proposed MoU targeting dual vocational training, tech transfer &amp; indust"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098377983581131143",
-          "author": "tinuniversee",
-          "searchJob": "coastal-carolina",
-          "text": "➤India’s coastline must be viewed as an interconnected space of ecology, security, economy, technology and human development, Union Minister Dr. Jitendra Singh, said today while virtually addressing the National Conference on Coastal Ecolog"
+          "postId": "2098392376695750909",
+          "author": "ogdanthewolfman",
+          "searchJob": "texas-tech",
+          "text": "@ENERGY @DARPA @IARPAnews @CIADirector @ORNL @elonmusk @marcorubio @SecWar @POTUS @FBI @RepLuna @SecDuffy @FAA_Bryan @TheDylanBorland OFFER JOB &amp; MUTUAL DEBRIEF, I will give copies of all data so you can sift through what Tech &amp; wha"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098391648300621984",
+          "author": "tushv24",
+          "searchJob": "texas-tech",
+          "text": "@BackchodGPT This is good car malhar tbh. It’s best of the best Maruti offers for the interior and exterior design and also the price is decent and the tech involved for 1st Gen product. This is scenario where dealer/owner has goofed up its"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098390283453141438",
+          "author": "benusmn",
+          "searchJob": "texas-tech",
+          "text": "@mangochiles This is why I always laugh when politicians and tech bros try to offer solutions to declining birth rates when a lot of terminally online dudes now are just underdeveloped anti social psychos"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098388592674648457",
+          "author": "intlservicessh",
+          "searchJob": "texas-tech",
+          "text": "🗂️ 𝐖𝐞𝐞𝐤𝐥𝐲 𝐒𝐞𝐫𝐯𝐢𝐜𝐞𝐬 𝐑𝐨𝐮𝐧𝐝𝐮𝐩: 🎉 #Shanghai Tourism Festival floats set to tour the city https://t.co/62JHddowVF 💼 Tech job fair at Inclusion Conference on the Bund set for Sept 12 https://t.co/LSlDKBE5hm 🌿 Shanghai off"
         }
       ]
     },
@@ -378,11 +422,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 26,
+      "rejectedCandidates": 32,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-11T12:43:17.387Z"
+    "status rebuilt locally from current store on 2026-09-11T12:58:03.493Z"
   ]
 }
