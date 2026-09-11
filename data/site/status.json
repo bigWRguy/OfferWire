@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T10:27:51.036Z",
+  "generatedAt": "2026-09-11T10:43:21.790Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-11T10:27:50.852Z",
+    "at": "2026-09-11T10:43:21.532Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.2688819444444444,
-    "p95Hours": 1.7740111111111112,
-    "worstHours": 2.024547777777778
+    "medianHours": 1.279406111111111,
+    "p95Hours": 1.7820566666666666,
+    "worstHours": 2.0325538888888888
   },
   "decisionCoverage": {
-    "total": 16,
-    "decided": 16,
+    "total": 39,
+    "decided": 39,
     "complete": true
   },
   "pending": {
@@ -55,146 +55,316 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-11T10:27:50.851Z",
-      "got": 19,
-      "new": 16,
-      "lag": 0.21
+      "at": "2026-09-11T10:43:21.531Z",
+      "got": 49,
+      "new": 39,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-09-11T10:26:26.232Z",
+    "at": "2026-09-11T10:41:43.315Z",
     "mode": "live",
     "collection": {
-      "returned": 19,
-      "kept": 16,
-      "duplicate": 3,
+      "returned": 49,
+      "kept": 39,
+      "duplicate": 10,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 14,
-      "rejected": 2,
+      "accepted": 21,
+      "rejected": 18,
       "reasons": {
-        "no_offer_term": 1,
+        "no_offer_term": 7,
+        "no_fbs_school": 10,
         "hard_negative": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2098325568051879946",
-          "author": "freechargersfc",
-          "searchJob": "liberty",
-          "text": "Upto 80% Off On Top Branded Shoes. Puma : https://t.co/wjmfxu2gVM Reebok : https://t.co/VwfurDDY3T Adidas : https://t.co/jdCQCYv5Ew Nike : https://t.co/Rg5DYV4KCI New Balance : https://t.co/WfsUoq80ZM Levis : https://t.co/kbHp97ZwYX BATA : "
+          "postId": "2097812178766025146",
+          "author": "p_ferragu",
+          "searchJob": "marshall",
+          "text": "I am completely sold on Grok Bot. It is awesome."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098345472230375879",
+          "author": "darranmarshall",
+          "searchJob": "marshall",
+          "text": "Stormont budget offer increases to £1.5bn, BBC understands https://t.co/4SBZcmRyxj"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098341427650457861",
+          "author": "pauledwin1234",
+          "searchJob": "marshall",
+          "text": "@jeremycorbyn @MetroUK You daft old coot, go and educate your tiny brain over this palastinian crap. The palastinians dont want two states but to erradicate the jewish state. Many times offered, many rejections. Your a real usefull idiot fo"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098341069528150200",
+          "author": "rodneymarshall1",
+          "searchJob": "marshall",
+          "text": "Herbert Lom stars as psychiatrist Dr Roger Corder in the largely forgotten 60 series The Human Jungle. Well researched, intelligently written, it offered something very different from the action-adventure and espionage shows of the period. "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098334063882830129",
+          "author": "pauledwin1234",
+          "searchJob": "marshall",
+          "text": "@DaleVince Green!!! Says it all. Don't you idiots understand the fact that the Palastinians DONT WANT a two state solution. They are intent on the eradication of the state of Israel. Many times offered many times turned down. Ask then why d"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098329948557566195",
+          "author": "janeparshally",
+          "searchJob": "marshall",
+          "text": "@AlpacaAurelius Only a few years ago 100% cotton was cheaply &amp; widely available. Even by Primark and the rest of the chains. You just had to check the label - plenty of choice. Now, even M&amp;S offer none. Not even their underwear. Cos"
         },
         {
           "reason": "hard_negative",
-          "postId": "2098352576857022739",
-          "author": "logicalgiraffe",
-          "searchJob": "air-force",
-          "text": "!1 Atheism 「Religion is unscientific, but believing in religion is scientific」 Table Of Content !1 Atheism「Religion is unscientific, but believing in religion is scientific」 !2 Happiness 「There is no way to happiness, happiness is the way.」"
+          "postId": "2098358489252802874",
+          "author": "drstaceydvm",
+          "searchJob": "florida",
+          "text": "#mystery #dogs #amreading #cozymystery How Forensic Clues Aid Mysteries We Love The question of how forensic clues aid mysteries is really a question of attention: What did someone leave behind, what does it mean, and who notices it first? "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098358177339212241",
+          "author": "davidakpovi",
+          "searchJob": "florida",
+          "text": "Another week in which artificial intelligence is pushing the boundaries of what is possible even further, while raising increasingly difficult questions. Here are the AI stories that defined the week of September 7–13, 2026. #ai #ainews htt"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098350891732451478",
+          "author": "ocalastarbanner",
+          "searchJob": "florida",
+          "text": "When it comes to buy one, get one free offers, no one does it more than Publix. But its BOGO rules are different in Florida than elsewhere. https://t.co/Mjkqy1QQKX"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098211844879946096",
+          "author": "patriotwoman22",
+          "searchJob": "florida",
+          "text": "@gatewaypundit Joe and his wife Victoria were acting as consultants because they had so much information on the Deep State criminals that had been persecuting them as well Now their job is done so let the southern district of Florida take i"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098343311677288535",
+          "author": "pbpost",
+          "searchJob": "florida",
+          "text": "When it comes to buy one, get one free offers, no one does it more than Publix. But its BOGO rules are different in Florida than elsewhere. https://t.co/7n7cW8hcNI"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098339531850138065",
+          "author": "heraldtribune",
+          "searchJob": "florida",
+          "text": "When it comes to buy one, get one free offers, no one does it more than Publix. But its BOGO rules are different in Florida than elsewhere. https://t.co/5JOzP9Bkb2"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098340477028479275",
+          "author": "brittanymolfe",
+          "searchJob": "south-carolina",
+          "text": "Happy Father’s Day to the dads who show up day after day, often without recognition or applause. The ones who work hard, carry the weight, make us laugh, offer a steady hand, and love their families through every season of life. Thank you f"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098353510622400735",
+          "author": "voidelur",
+          "searchJob": "arizona",
+          "text": "@COWBOY967 @AhabBota @piotr_mosak @partiarazem Jakby jeszcze prywaciarze godnie płacili xdddd gdyby nie prawo, to by chętnie psie grosze wypłacali, a i tak starają się najmniej"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098351659655061560",
+          "author": "voidelur",
+          "searchJob": "arizona",
+          "text": "@GajwerW @murczkiewiczyzm &gt;prawicowy &gt;gej XDDDDDDDDDDSDDDDDDDDDDDDDDDD"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098359165559136465",
+          "author": "queenashbridge",
+          "searchJob": "army",
+          "text": "Before Trafalgar, there was one last conversation. Nelson sailed south. Victoria sailed west. Only one of them was coming home. https://t.co/cFs43HNdsk"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098114473496117298",
+          "author": "me_observer_",
+          "searchJob": "army",
+          "text": "⚡️🚨Documentation of the explosion of the tunnels in the Ali Taher ridge https://t.co/ejOcTzy0Zo"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098336189971300725",
+          "author": "pulengcf",
+          "searchJob": "army",
+          "text": "There are moments when titles, wealth and status mean very little. What matters is humanity. Wicknell Chivayo has travelled to Tanzania to personally offer his condolences and support to President Samia Suluhu Hassan after the passing of he"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 13,
+      "accepted": 0,
+      "rejected": 21,
       "reasons": {
-        "bare_mention_requires_llm": 10,
-        "school_not_resolved_confidently": 2,
+        "bare_mention_requires_llm": 11,
+        "school_not_resolved_confidently": 8,
+        "multiple_resolved_schools": 1,
         "reporter_missing_player_name": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098324564589559958",
-          "author": "tntjohn1717",
-          "searchJob": "liberty",
-          "text": "was not denied outright; something was added to Him as necessary for salvation. Their purpose was “to spy out our liberty.” A spy studies territory he does not own so that advantage can be gained over it. The false brethren were examining t"
+          "postId": "2098360854261411945",
+          "author": "jony2_old",
+          "searchJob": "marshall",
+          "text": "The MIT economist Barack Obama called into the White House to model the Affordable Care Act accidentally destroyed the pricing consulting industry in a free 76-minute lecture on the math behind every price on earth. He filmed the lecture as"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098354608846303677",
-          "author": "ducks2007quack",
-          "searchJob": "oregon",
-          "text": "@phillyguy223 @mkabes51 @RinkyReport Even more odd bc the year before Leo was asked if the ducks offered 8*8 if he’d sign and he said of course. And the report was the ducks offered like 8*11 two months later…"
+          "postId": "2098354466110017664",
+          "author": "rodneymarshall1",
+          "searchJob": "marshall",
+          "text": "His hopes of a post-WW2 Hollywood career - he was offered a seven-picture contract - were shattered when his Visa application was blocked. It didn't prevent him from later appearing in epic films like Spartacus or guest starring in series s"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098354285796888728",
-          "author": "ducks2007quack",
-          "searchJob": "oregon",
-          "text": "@phillyguy223 @mkabes51 @RinkyReport they were adamant and made presentations to Leo and his family to wait and not sign the contract the ducks offered when they signed LaCombe. Their is no way they knew contracts would skyrocket bc that ha"
+          "postId": "2098357556204785728",
+          "author": "elongerberg",
+          "searchJob": "south-florida",
+          "text": "Institutional buyers are sweeping South Florida shopping centers under 25 million dollars with all cash offers and completely squeezing out private investors. It feels just like when institutional capital, like Blackstone, bought up single "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098351384886198438",
-          "author": "ducks2007quack",
-          "searchJob": "oregon",
-          "text": "@phillyguy223 @mkabes51 @RinkyReport Exactly. People forget that Joe sakic signed an offer sheet and is literally the face of the avalanche franchise. I always take agent talk with a grain of salt but in an interview the agent even said tha"
+          "postId": "2098350310913683679",
+          "author": "uzeeupdate",
+          "searchJob": "south-florida",
+          "text": "**\"I trust Dangote Refinery IPO will not act like SpaceX.\" Real talk — hope is not a strategy. Data is.** I get the sentiment. You want this to be the win, not the cautionary tale. But here's the fundamentals-first truth: trust isn't someth"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098329729397055577",
-          "author": "oyenawazshareef",
-          "searchJob": "oregon",
-          "text": "Can Pakistan see how Arabs are nothing but sitting ducks. They can't even fight a group of rebels after trillions of dollars of defense budget bill in many years. Just make an offer these losers would pay us $100 billion annually easily!"
+          "postId": "2098350242311614731",
+          "author": "updateuzee",
+          "searchJob": "south-florida",
+          "text": "**\"I trust Dangote Refinery IPO will not act like SpaceX.\" Real talk — hope is not a strategy. Data is.** I get the sentiment. You want this to be the win, not the cautionary tale. But here's the fundamentals-first truth: trust isn't someth"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098349941663912025",
+          "author": "uzeeupdate",
+          "searchJob": "south-florida",
+          "text": "**Three fundamentally sound picks. One high-risk one to size carefully. This is what disciplined investing actually looks like.** Real talk — NGX, Seplat, GTCO, Zenith Bank? That's not luck. That's a portfolio built on the numbers: strong R"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098349903252505084",
+          "author": "updateuzee",
+          "searchJob": "south-florida",
+          "text": "**Three fundamentally sound picks. One high-risk one to size carefully. This is what disciplined investing actually looks like.** Real talk — NGX, Seplat, GTCO, Zenith Bank? That's not luck. That's a portfolio built on the numbers: strong R"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098338167678025804",
+          "author": "web3_valuescan",
+          "searchJob": "south-florida",
+          "text": "📊 BTC / ETH Intraday Main Capital Trend (ValueScan) ⏰ 2026-09-11 17:05:30 BTC $77,340 (+0.14%) 🤖 Main capital: Session flow is offered, selling easing; 1H bulls in front 🤖 Comprehensive: 🟡 Consolidation Session spot and futures both net"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098333512021499957",
+          "author": "redtabs",
+          "searchJob": "south-florida",
+          "text": "@johnnyddavidson Have the offered to throw in free toilet rolls for Bradford Bulls?"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098352897905905841",
-          "author": "thebigcomment",
-          "searchJob": "arkansas-state",
-          "text": "Israel’s Expansionist Agenda You do not need to settle the legal argument over genocide to recognise a political and territorial pattern. When senior ministers repeatedly tell you what they want, governments fund it, settlements multiply, P"
+          "postId": "2098355207654543718",
+          "author": "hassanshibly",
+          "searchJob": "florida",
+          "text": "Tyson - before you came to Florida I offered to help you come out and support you. You never followed up and started coming to Florida and just doing online streaming stuff instead of building a real brotherhood and truly learning. You can’"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098346822922084530",
+          "author": "patriotwoman22",
+          "searchJob": "florida",
+          "text": "@jsolomonReports Joe and Victoria offered a wealth of information to the ongoing southern district of Florida SEDITIOUS CONSPIRACY WEEK OKAY AND NOW THE GRAND JURY SUBPOENAS ARE FLYING LET'S GO 💪💪💪"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098340001649950876",
+          "author": "physicisttx",
+          "searchJob": "usc",
+          "text": "@GarbageHuman24 Trump's offer is illegal and could be punished by 2 years n prison. In fact, if you read USC 597 you'll see that anyone who ACCEPTS his bribe can also be jailed for 2 years. https://t.co/zENTn37Kif"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098359847561441426",
+          "author": "ebelfastloyal",
+          "searchJob": "army",
+          "text": "@TirChonaillAbu @SammyMorrison82 The Ulster Volunteer Force was offered to the British Gov by Lord Carson. The British War Office facilitated the movement of the UVF over to the British Army via the formation of the 36th Division. Lord Kitc"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098357141010596306",
+          "author": "carlwilldurham",
+          "searchJob": "army",
+          "text": "We have a prime minister who puts those with very mild (if any above normal ) stress above the safety of our freedom as a nation Hates our run down seaside towns so much to tax any UK visitors visiting and staying for a weekend break includ"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098344527337488872",
+          "author": "ancientdardania",
+          "searchJob": "army",
+          "text": "🇦🇱 ALEXANDER THE GREAT, EPIRUS AND ILLYRIA — LET HISTORY SPEAK A Greek documentary repeats the famous words attributed to Diogenes, which today can only be translated into Albanian. Is this further proof that Alexander the Great spoke Alb"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098340529083646004",
+          "author": "me_observer_",
+          "searchJob": "army",
+          "text": "⚡️⭕️ Israeli Army Radio: We now reveal that the operation to capture Ali al-Taher Hill took three months amidst fierce resistance from Hezbollah. * We reveal that the Israeli army offered Hezbollah fighters the option of surrendering by rai"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098338390538072113",
+          "author": "ani",
+          "searchJob": "army",
+          "text": "#WATCH | Mumbai, Maharashtra | On BRICS Summit 2026, Shiv Sena (UBT) leader Anand Dubey says, \"BRICS is a very important group... India hosted it back in 2011 as well. In 2021, it was the COVID period, yet India held a virtual meeting for i"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098334331567554720",
+          "author": "vlateif",
+          "searchJob": "army",
+          "text": "@Aladeen_Pro Pak army only For promotion they can sale their mother u can offer them money only"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098333726274924562",
+          "author": "mutix259",
+          "searchJob": "army",
+          "text": "💜 BTS ARIRANG — MELBOURNE 🇦🇺 🎟️ 2x Soundcheck VIP tickets available 📍 Marvel Stadium, Docklands 📌 Sec 2 · Row G · Seats 8 &amp; 9 💰 $550 each 🔄 Secure Ticketmaster transfer 🧾 Purchase receipt/proof available Dm open to offers 🥹 #B"
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2098350587314311544",
-          "author": "anthonygalli",
-          "searchJob": "arkansas-state",
-          "text": "Israel has floated around the idea recently of giving them $5K (but not formalized yet still). I made my proposal originally at the start of the war, which would’ve saved a lot of money & lives if implemented then. Israel indeed has offered"
+          "postId": "2098332409611587832",
+          "author": "sumayaaayesh",
+          "searchJob": "army",
+          "text": "@LouFrance75 At the heart of the Sudan issue lies a documented fact: Africa Intelligence describes Qatar as a discreet political, financial, and military supporter of the Sudanese army. The \"mediation\" offered by Doha is therefore all the m"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098350162225635367",
-          "author": "hatzlakah1",
-          "searchJob": "arkansas-state",
-          "text": "@ShahinaHassan2 @ZacGoldsmith Then they need to accept a state and stop turning the offer down. Stop treating Palestinians like toddlers who don't know any better. It's embarrassing at this point."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098349699992342583",
-          "author": "noashimoni4",
-          "searchJob": "arkansas-state",
-          "text": "@furthur56 @CosmicEvolution @aziz0nomics That is not even remotely true. Negotiations were lengthy. Also, what's your excuse for the other 4 times a state was offered besides Israel? In 48 the word Palestenians was not even used, interestin"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098342537542910097",
-          "author": "stoicinsider",
-          "searchJob": "arkansas-state",
-          "text": "I hear you. And I genuinely respect you for sharing that. It takes courage to say it out loud. I'm not against you. I'm not against your fear. I understand it. The thought of being warehoused in a system that treats you as a number, a cost,"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098341933420617776",
-          "author": "johnblow37747",
-          "searchJob": "arkansas-state",
-          "text": "The most high god wants me to address a government agency. Or the government period. My father said he don’t appreciate how yall done had his bby girl chained in shackles 😒🗣️.. My father said I’m far too humble and he don’t like that shit"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098340468627018107",
-          "author": "ipo74",
-          "searchJob": "arkansas-state",
-          "text": "@Harri21263Steve @adamlangleben Sorry an edited clip of Bill \"I did not have sexual relations with that woman\" Clinton isn't proof of what the Palestinians were offered and if they had accepted the \"end state\" they still wouldn't be a state"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098333721929597261",
-          "author": "yourmagicbooks",
-          "searchJob": "arkansas-state",
-          "text": "📜 HOOK & AUTHENTIC QUOTE \"We are tired because we are engaged in a form of self-consumption, burning through our own vitality to fuel a machine that offers no real nourishment in return.\" In *The Myth of Sisyphus*, Albert Camus describes a"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098354349395116540",
+          "author": "49erscap",
+          "searchJob": "charlotte",
+          "text": "@CharlotteInMe @NFLFrascella Hard to really say they “let” him go, I think the Bucs made a higher offer but he chose the 49ers and I’m so happy he did"
         }
       ]
     },
@@ -208,12 +378,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 13,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 21,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-11T10:27:51.037Z"
+    "status rebuilt locally from current store on 2026-09-11T10:43:21.791Z"
   ]
 }
