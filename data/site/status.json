@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T23:57:55.229Z",
+  "generatedAt": "2026-09-11T00:13:02.467Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-10T23:57:54.926Z",
+    "at": "2026-09-11T00:13:02.171Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5265152777777777,
-    "p95Hours": 1.5271708333333334,
-    "worstHours": 1.5271708333333334
+    "medianHours": 0.5282591666666666,
+    "p95Hours": 1.2764647222222223,
+    "worstHours": 1.5299380555555555
   },
   "decisionCoverage": {
-    "total": 49,
-    "decided": 49,
+    "total": 45,
+    "decided": 45,
     "complete": true
   },
   "pending": {
@@ -49,337 +49,345 @@
   },
   "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 997,
+    "completeOffers": 1000,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-10T23:57:54.926Z",
-      "got": 65,
-      "new": 49,
-      "lag": 0.05
+      "at": "2026-09-11T00:13:02.170Z",
+      "got": 66,
+      "new": 45,
+      "lag": 0.11
     }
   },
   "audit": {
-    "at": "2026-09-10T23:56:19.119Z",
+    "at": "2026-09-11T00:11:29.104Z",
     "mode": "live",
     "collection": {
-      "returned": 65,
-      "kept": 49,
-      "duplicate": 15,
-      "tooOld": 1,
+      "returned": 66,
+      "kept": 45,
+      "duplicate": 21,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 32,
-      "rejected": 17,
+      "accepted": 23,
+      "rejected": 22,
       "reasons": {
+        "non_fbs_offer_target": 4,
         "no_fbs_school": 12,
-        "no_offer_term": 4,
-        "hard_negative": 1
+        "no_offer_term": 6
       },
       "samples": [
         {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098201433036242977",
+          "author": "lulmaarr",
+          "searchJob": "pittsburgh",
+          "text": "After having a great conversation with @CoachKlimchock, I’m truly blessed to receive an offer from Pitt- Greenberg University @UPGbasketball All GLORY TO GOD🙏🏾‼️ https://t.co/shecZH9ZkE"
+        },
+        {
           "reason": "no_fbs_school",
-          "postId": "2098189745725538575",
-          "author": "ishemagaiwa",
-          "searchJob": "liberty",
-          "text": "That’s what we experience on a daily basis on these streets King Jay.Vanhu vacho https://t.co/15bq6fFmhC our church we offer breakfast ,lunch and sometimes do giveaways in attempt to attract people to the kingdom of God.Zvasiyana nekuDzimba"
+          "postId": "2098196011151745364",
+          "author": "chris_gates",
+          "searchJob": "pittsburgh",
+          "text": "This Joey Porter Jr. situation is just getting messier. He’s showing up to practice, but this week we find out that he’s still part of what Mike McCarthy termed a “ramp-up period” to get back into shape and get reacquainted with what he’s s"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098178832532455675",
+          "author": "pittsburghmatty",
+          "searchJob": "pittsburgh",
+          "text": "@SaltyBastardChi Hope the democrats offer $10k next week."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098189122401976624",
-          "author": "chirayadharma",
-          "searchJob": "liberty",
-          "text": "An engaging exposition on coherent conversational tactics, ancient Vedic practices, non-violent communication, with modern life and palace drama analogies https://t.co/R7kMhftSxa"
+          "postId": "2098201386022322629",
+          "author": "arriwitdahezi",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an acceptance from Claflin University 🐾🎓 More to come. 🙏🏾 #notcommitted ##ClaflinUniversity #CollegeBound #ClassOf2027 https://t.co/OYdG3RtCJk"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098185367233159618",
-          "author": "libertysmith81",
-          "searchJob": "liberty",
-          "text": "@televisualities A fetus develops from a fertilised egg and is the same species, a parasite is an invasive organism from an external source. A fetus takes nutrients but it also transfers stem cells aiding in the pregnant persons long term h"
+          "postId": "2098200585270952373",
+          "author": "jeremiahc3rbin",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Extremely blessed to receive my 1st d1 offer from BCU #preytogether🐾 @PFitzB @RhettCaruthers @WWMHFootball352 https://t.co/SrAZn6DpSJ"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098197499315954007",
+          "author": "jonasneuverth",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great visit and conversation with @KadeTerrell and @samleal11 I am blessed to receive an offer from Wartburg College https://t.co/BvbtX3ePJs"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098197247397683461",
+          "author": "dakotam_77",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "I am extremely blessed to receive my 4th offer from @SVC_FTBL. Thank you, @CoachYarosz, @CoachCGoff, and the rest of the coaching staff! @roger_beitel @LVRamsFootball https://t.co/eYRcfeQIIF"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098194673508524289",
+          "author": "rockwellcarsonn",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer from Westminster College! Thank you @CoachTyMcGowan and the rest of the Westminster staff for this opportunity! https://t.co/I5KeDoFTwQ"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098180224772952367",
-          "author": "thevalueist",
-          "searchJob": "louisiana",
-          "text": "https://t.co/f6qLZle0Yb"
+          "postId": "2098194497247330461",
+          "author": "mono3tres",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After an amazing phone call with @coachboom_acu im blessed to receive my 4th opportunity at the collegiate level https://t.co/4dhKelsVTO"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098193438214652157",
-          "author": "swtyx48413361",
-          "searchJob": "georgia",
-          "text": "the Silk Road left a profound impact in Britain. Through artistic innovation, it influenced factory systems. It laid foundations for today’s progress. History offers lessons for today’s challenges. Artifacts preserve its historical impact. "
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098195311298588753",
-          "author": "cm_sooners360",
-          "searchJob": "indiana",
-          "text": "Today's Daily Recruiting Update features two recent offers by OU. First, we review 2029 LB Austin Phillips @Austin_RB2 from Indiana. Second, we review 2028 DL Malakai Leilua @MalakaiLeilua71 https://t.co/MAfYiuMvO2"
+          "postId": "2098193868269232589",
+          "author": "m3redoya",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my 9th Colligate Offer from Mount union university #goraiders https://t.co/YXUdOIrVu6"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098197834054984121",
-          "author": "stuartpixley",
-          "searchJob": "texas",
-          "text": "@oreokookiGaming @JonnyXAccount @ClutchNumbers @TheDunkCentral @ThePaintNBA My guy, if you were offered a job to play video games making $1M/yr in Mobile, Alabama or a job to play video games making $3M/yr in Houston, Texas. Which would you"
+          "postId": "2098186486634147884",
+          "author": "traviswolf48499",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my 6th offer from @ClarkePrideFB thank you! @_CoachSisnerosD @trestonwomack https://t.co/7t1rmAMvU0"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098179693275160665",
-          "author": "terenceparsee_",
-          "searchJob": "texas",
-          "text": "Texas A&amp;M University Offered https://t.co/2OFmzZrBSW"
+          "postId": "2098185923028570349",
+          "author": "kaeleehansen10",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great call with coach Carvajal I am blessed to receive an offer! Thank you for this opportunity!! @ScoutUrecruit @mikemillsnc @ERGirlsBball https://t.co/GGSK4IyGeW"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2098190654803243170",
-          "author": "lankriagency",
-          "searchJob": "texas",
-          "text": "🚨 JUST LISTED FOR LEASE IN MESQUITE, TEXAS! 🚨 📍 2320 Fulton Drive, Mesquite, Texas 75150 💰 Offered at $2,700/Month 🎥 Watch the property photo slideshow: https://t.co/Brq9g7AsAj Tomer Lankri, Broker 📱 214-493-1278"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098184840059240849",
-          "author": "pattinegri",
-          "searchJob": "texas",
-          "text": "✨🔮 ALIGN YOUR ENERGY, AWAKEN YOUR POWER 🔮✨ Sunday, November 22 | 5–7 PM Miracles of Joy Weekend Bedford, Texas What if you came into this world with an energetic blueprint, a map that can help you understand how you are naturally designed"
+          "reason": "non_fbs_offer_target",
+          "postId": "2098183525186814404",
+          "author": "_4kris",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my an offer from Jackson State University 🐅 @coachmaye3 @TheRealJavJones @CoachRenardo @fye251 @ScoutFball @gojsutigersfb https://t.co/hGvetjMxhW"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098054936822972582",
-          "author": "teapartyogs",
-          "searchJob": "texas",
-          "text": "I've seen comments from conservatives who won't vote for Ken Paxton because 1. He had an affair and/or 2. Paxton was impeached as AG. If we elected politicians on moral perfection in their private lives, we wouldn't elect anyone, including "
+          "postId": "2098181343968362826",
+          "author": "devinharris2x",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive the Defensive player of the week for week 2! 💙💛 https://t.co/PMJDzQcUw7"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098181789210521751",
-          "author": "cylexsigns",
-          "searchJob": "texas",
-          "text": "@StumpGuyTy @MonsterEnergy Completely normal here in this neck of the woods in Texas. Heck my son would have offered to operate it for you and cold non alcoholic drinks would have been offered as well."
+          "postId": "2098181071812583836",
+          "author": "crewrickard",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great visit, I am blessed to receive a scholarship offer from @briarcliffhoops Thank You to the coaching staff for believing in me! https://t.co/RIDj7Vd7fh"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098180287561626074",
-          "author": "genxmofo",
-          "searchJob": "texas",
-          "text": "@AndyPublicGB Did you offer her some bacon?"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098197867274076634",
-          "author": "dadirtydogbites",
-          "searchJob": "california",
-          "text": "@DraftKings @DKSports At this time sports betting is not allowed in California. Predictive wagering is offered. Quack"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098195992227246546",
-          "author": "bergy59075",
-          "searchJob": "california",
-          "text": "@mmpadellan @SnarkyTank Hey dip shit again..so election fraud is not real right, the Democrats don’t offer or pay money to anyone to buy votes… then why the fuck are they arresting people in California for paying homeless on skid row to vot"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098194968061808676",
-          "author": "caalliancekids",
-          "searchJob": "california",
-          "text": "Today is World Suicide Prevention Day. For the children and young people served by CA Alliance members, this isn't an abstract issue: youth in care face significantly higher rates of suicidal ideation and attempts than their peers. The care"
+          "postId": "2098189675056042250",
+          "author": "survivingcolo",
+          "searchJob": "colorado",
+          "text": "@LlpartainLori I see it, I just can't offer help ."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098183077549809670",
-          "author": "videotech",
-          "searchJob": "miami",
-          "text": "NEW: Rockstar Games are paying close to $4M for the marketing campaign in Miami, but the city is trying to negotiate more https://t.co/2bRQf1yatG"
+          "postId": "2098181987022393384",
+          "author": "samw_ngc",
+          "searchJob": "colorado",
+          "text": "Reflecting on the loss of Charlie Kirk one year after his death. https://t.co/lVvuTbT9xB"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098180419959374052",
+          "author": "thermvoice",
+          "searchJob": "colorado",
+          "text": "https://t.co/w3KbglB0U5"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098197092879540714",
+          "author": "9lizmchugh",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/aIEGGJwCz5"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098190617889456362",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon Germany Deal €399.90 ] 6+256GB XIAOMI REDMI Note 17 Pro 5G, Smartphone , Purple, 8340mAh Battery, 50MP camera with OIS, 67W HyperCharge, Snapdragon® 6s Gen 4, 3500 nits flagship display, Xiaomi HyperAI [ad] https://t.co/V1YWre1LoK "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098185814761259078",
+          "author": "zaktalkstech",
+          "searchJob": "texas-tech",
+          "text": "I am really starting to enjoy the dbrand Tank case for my Pixel 11 Pro, especially because of the wide selection of interchangeable, coloured buttons they offer. @dbrand https://t.co/4Lm7xXrgy4"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098188845103653327",
+          "author": "spyk3o",
+          "searchJob": "utah",
+          "text": "On September 10, 2025 at 12:21pm Charlie Kirk was speaking at Utah Valley University where he was murdered for offering open and peaceful dialogue with people who hated him. They don't want truth, they don't want progress, they want an obst"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 31,
+      "accepted": 3,
+      "rejected": 20,
       "reasons": {
-        "bare_mention_requires_llm": 22,
+        "bare_mention_requires_llm": 8,
         "reporter_missing_player_name": 1,
-        "school_not_resolved_confidently": 6,
-        "reporter_missing_position": 1,
-        "multiple_resolved_schools": 1
+        "player_missing_class_year": 1,
+        "player_missing_football_context": 1,
+        "multiple_resolved_schools": 1,
+        "school_not_resolved_confidently": 8
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098191028360516073",
-          "author": "jucofootballace",
-          "searchJob": "coastal-carolina",
-          "text": "Braheem Battles @BraheemBattles @ Butler JuCo @ButlerGrizzlyFB picks up @CoastalFootball Offer @Coach_JL51 @ButlerGrizzlies https://t.co/y5gbz75PTl"
+          "postId": "2098179088561135975",
+          "author": "steelersdepot",
+          "searchJob": "pittsburgh",
+          "text": "Rapoport Offers Update On Injured Falcons QB Tua Tagovailoa: ‘Status Is TBD’ #Steelers #NFL #Pittsburgh https://t.co/w8dZaRgEOA"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098186097121448164",
+          "author": "florida086737",
+          "searchJob": "smu",
+          "text": "@ACCessPony @SMUFB Definitely got more money than poor Smu and I promise you if we offer he’s leaving"
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2098190315244888354",
-          "author": "braheembattles",
-          "searchJob": "coastal-carolina",
-          "text": "Humbled &amp; Blessed to EARN an offer from @CoastalFootball🏝️🏴‍☠️ #B4D #LLK #LLD @CoachCParrott @ButlerGrizzlyFB @Coach_JL51 @CoachTylerCurts @chrisjammar @A1Rsports @AllenTrieu @BradHoiseth @JuCoFootballACE @JUCOFFrenzy https://t.co/2z5"
+          "postId": "2098187613392052703",
+          "author": "stanfordrivals",
+          "searchJob": "stanford",
+          "text": "2028 4-star DL Simon Nuamah (@SimonJNuamah) out of Tabor Academy in Marion, MA lands an offer from Stanford. #Stanford #ACC #ACCFB"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098192394642670046",
-          "author": "alwaystrumpers",
-          "searchJob": "liberty",
-          "text": "Hey @greggutfeld you wanted a list of THE GOAT POTUS ‘s accomplishments. Donald Trump standing on business: The commonly cited significant actions from both of his terms. Assessments of their long-term effects, costs, and trade-offs vary wi"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098186957834916107",
-          "author": "libertysmith81",
-          "searchJob": "liberty",
-          "text": "@DivineFeminin33 Not only that but the playgroup employee when asked stated that it was mostly Patrick who took the children there and often stayed to swim or play with them. It was Patrick who insisted on face to face therapy because the t"
+          "postId": "2098188361487790174",
+          "author": "jucofootballace",
+          "searchJob": "james-madison",
+          "text": "Braheem Battles @BraheemBattles @ Butler JuCo @ButlerGrizzlyFB picks up @JMUFootball Offer @Coach_JL51 https://t.co/b9aWJ3IAi5"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098196550124028257",
-          "author": "juhfo17161819",
-          "searchJob": "georgia",
-          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Indian heritage. Chefs master it through years of practice. Such cuisine unites people across shared meals. 🧳 🎉 🍁 https://t.co/"
+          "postId": "2098191305759412277",
+          "author": "susan_dupres",
+          "searchJob": "washington-state",
+          "text": "Washington State WA State Office of Minority and Women’s Business Enterprises (OMWBE) WA State Office of Regulatory Innovation and Assistance (ORIA) Part 5 Sept. 10, 2026 ☆ Now Available in Arabic: The Small Business Guide We're pleased to "
+        },
+        {
+          "reason": "player_missing_class_year",
+          "postId": "2098200940310360470",
+          "author": "christianmcg99",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my 12th offer to the university of Florida Atlantic💙🦉 https://t.co/OGkxlwKlK8"
+        },
+        {
+          "reason": "player_missing_football_context",
+          "postId": "2098193285168677011",
+          "author": "_justbrayden",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "I am blessed to receive an offer from Mississippi State University! @HailStateMBK https://t.co/CCdSWKYj7t"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098187348068401223",
-          "author": "keith_lusco",
-          "searchJob": "lsu",
-          "text": "@DanWetzel @JimmyStein_LOB The same governor who said LSU wasn’t giving out large contracts to football coaches any more after he fired Brian Kelly only to offer Lane Kiffin a guaranteed contract"
-        },
-        {
-          "reason": "reporter_missing_position",
-          "postId": "2098197379295973573",
-          "author": "jason_howell",
-          "searchJob": "texas",
-          "text": "Texas A&amp;M has offered Rancho Cucamonga (CA) 2028 S Terence Parsee #GigEm"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098196707960086860",
-          "author": "connorstar4",
-          "searchJob": "texas",
-          "text": "Question, why events offer up free food as a venue, I love motivational seminars, lectures of self improvement like Tony robins, Les brown and Jim rhon, and like Ted ex conventions, especially church, mosques and other spiritual gatherings "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098194806807593162",
-          "author": "theleadflowpro",
-          "searchJob": "texas",
-          "text": "A GOOD BUSINESS SHOULDN’T BE THE BEST-KEPT SECRET IN TOWN. “I had a business and it was going under.” That’s how Amanda opens this video. She owns Premier Dental Academy of Longview. She’s also my partner, so this work is personal to me. I "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098189700309602451",
-          "author": "realryannichols",
-          "searchJob": "texas",
-          "text": "A GOOD BUSINESS SHOULDN’T BE THE BEST-KEPT SECRET IN TOWN. “I had a business and it was going under.” That’s how Amanda opens this video. She owns Premier Dental Academy of Longview. She’s also my partner, so this work is personal to me. I "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098184113345741189",
-          "author": "joemack1369",
-          "searchJob": "texas",
-          "text": "@tedcruz Texas is a mess! You have an actual pedophile protector on one side and a total fruitcake weirdo on the other is this truly the best that Texas has to offer? But then again they did vote in Tel Aviv Ted never mind."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098184065832583492",
-          "author": "joemack1369",
-          "searchJob": "texas",
-          "text": "@NRSC @tedcruz Texas is a mess! You have an actual pedophile protector on one side and a total fruitcake weirdo on the other is this truly the best that Texas has to offer? But then again they did vote in Tel Aviv Ted never mind."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098184022291611970",
-          "author": "joemack1369",
-          "searchJob": "texas",
-          "text": "@NRSC @tedcruz Texas is a mess! You have an actual pedophile protector on one side and a total fruitcake weirdo on the other is this truly the best that Texas has to offer? But then again they did vote in Tel Aviv Ted never mind."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098183835364007947",
-          "author": "joemack1369",
-          "searchJob": "texas",
-          "text": "@EricLDaugh @tedcruz Texas is a mess! You have an actual pedophile protector on one side and a total fruitcake weirdo on the other is this truly the best that Texas has to offer? But then again they did vote in Tel Aviv Ted never mind."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098183783220465959",
-          "author": "joemack1369",
-          "searchJob": "texas",
-          "text": "@FoxBusiness @tedcruz Texas is a mess! You have an actual pedophile protector on one side and a total fruitcake weirdo on the other is this truly the best that Texas has to offer? But then again they did vote in Tel Aviv Ted never mind."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098183678295711957",
-          "author": "joemack1369",
-          "searchJob": "texas",
-          "text": "@FoxNews @tedcruz Texas is a mess! You have an actual pedophile protector on one side and a total fruitcake weirdo on the other is this truly the best that Texas has to offer? But then again they did vote in Tel Aviv Ted never mind."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098183436921925852",
-          "author": "dan_schwartz",
-          "searchJob": "texas",
-          "text": "@TeaPartyOGs Hey @TeaPartyOGs, @SidneyPowell1, @ChrisLoesch &amp; other Texas peeps: Make sure you hammer⚒️ home to Cornyn supporters that @KenPaxtonTX offered to WITHDRAW from the primary if Cornyn would back the SAVE America Act. Cornyn g"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098183395331170313",
-          "author": "joemack1369",
-          "searchJob": "texas",
-          "text": "@TexasRepublic71 @PaytonKJackson You got that right Texas is a mess! You have an actual pedophile protector on one side and a total fruitcake weirdo on the other is this truly the best that Texas has to offer? But then again you did vote in"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098197646913524094",
-          "author": "thecleanenergya",
-          "searchJob": "california",
-          "text": "Did you know California offers bill assistance programs that could lower your electric bill every month? Learn more and check your eligibility at https://t.co/wspBM2PSwN https://t.co/QTFNwJ8Yk1"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098197281576997125",
-          "author": "disabilityca",
-          "searchJob": "california",
-          "text": "Content Warning: Discussion of suicide. September is National Suicide Prevention Month and today, September 10, we honor World Suicide Prevention Day. This year's theme is \"Changing the Narrative on Suicide\", with the call to action: Start "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098195429615874528",
-          "author": "catskinner109",
-          "searchJob": "california",
-          "text": "@Colorado411_420 I would take a big lot that the city owns put out houses and a wash station and tell them they could stay there for 6 months no camping in the city and that's all we have to offer get back on your feet or move back to Calif"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098193757808251357",
-          "author": "20thcentboximm",
-          "searchJob": "cincinnati",
-          "text": "Larry Boardman (right0 TKOs former three-time Lightweight Champion Jimmy Carter in the 8th round on September 11, 1956 at Boston Garden. United Press reported: \"Confidence and fistic power carried Larry Boardman to an 8th round TKO (1:35) v"
+          "postId": "2098184185852932198",
+          "author": "kenvljr",
+          "searchJob": "baylor",
+          "text": "That’s not it at all. Since Covid, Baylor and McCallie started bringing in top athletes from Canada because their schools were shut down and the kids wanted a place to play. That’s when Baylor and McCallie started dominating and the recruit"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098180091645702529",
-          "author": "scsportsnow",
-          "searchJob": "clemson",
-          "text": "STRecruiting: Clemson target 2028 TE Wright Martin was offered by Duke. He plans to visit Clemson this weekend."
+          "postId": "2098199919563505666",
+          "author": "memphisnews",
+          "searchJob": "colorado",
+          "text": "Colorado Mark doesn't think much of Colorado. But he thinks even less of Georgia Tech. Mike offers a counterpoint. https://t.co/XhRUm39yCD"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098198563582820796",
-          "author": "20thcentboximm",
-          "searchJob": "miami",
-          "text": "Florentino Fernandez (22-0-0, pictured) wins a 10-round unanimous decision over Gaspar Ortega on September 11, 1959 at Miami Beach Auditorium. UPI reported: \"Cuba's undefeated Florentino Fernandez scored an upset unanimous decision over sea"
+          "postId": "2098191564853936477",
+          "author": "00jcf00",
+          "searchJob": "syracuse",
+          "text": "@TradeCNBC @chadpowershulu @glenpowell Coach Ricky is offered the QB coach job at Syracuse. Minor reference but they could’ve picked any school and picked cuse"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098188574763983291",
+          "author": "syracuseu",
+          "searchJob": "syracuse",
+          "text": "Your next chance to grow awaits 🍊 Stop by the fall involvement fair this week to explore over 300 clubs, groups and other extracurriculars that #SyracuseU has to offer! https://t.co/gOCy97J8Wu"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098200880159875563",
+          "author": "joshuatreworgy",
+          "searchJob": "texas-tech",
+          "text": "It Isn’t That You’re Wrong; It’s That You Are Insufferable This is the second time inside of a 3-month timeframe that I have felt compelled to tell the diehard pro-gen AI Bros and Hoes to tone it the fuck down. Since they broadly don’t seem"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098199769441042644",
+          "author": "mfrancis107",
+          "searchJob": "texas-tech",
+          "text": "The reason it's inevitable is that it's just technological progress. If people want to ban AI, they have to offer up an alternative tech tree that would still allow us to have technical progress, including things like curing cancer and gett"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098194799706972431",
+          "author": "greekdr",
+          "searchJob": "texas-tech",
+          "text": "@TrendSpider Evaluating Nvidia's valuation at current levels compared to the 2019 and 2022 lows offers a compelling perspective on mega-cap tech pricing cycles. Learned a lot about tracking equity valuations and semiconductor leaders from @"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098193441138127149",
+          "author": "recklessrunning",
+          "searchJob": "texas-tech",
+          "text": "@Aella_Girl @grok @OpenAI @AnthropicAI @xai Even @elonmusk claims his best ideas come during downtime in the shower when the subconscious can filter &amp; process. Yet he works his employees to physical breakdown/family break down/divorce. "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098187325213921531",
+          "author": "playvplay",
+          "searchJob": "texas-tech",
+          "text": "@short_straw @k3nr0b3rt5 @OfMikeAndMen That and lawfare designed to stifle any competition. Or buying a company that offers tools/options for people in order to pillage IP and then close the business to hoard the tech or triple the prices. "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098181504849293618",
+          "author": "skilldential",
+          "searchJob": "texas-tech",
+          "text": "Breaking into the tech industry without a traditional background or prior work history can feel daunting, but entry-level remote tech jobs offer a realistic and accessible entry point. This guide breaks down 15 practical entry-level Master "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098181252108984609",
+          "author": "alecbinks",
+          "searchJob": "texas-tech",
+          "text": "Elgato Wave XLR Pro - Most intuitive option, and powerful audio control with Wave Link software. Rodecaster Duo/Pro 2 - Physical controls and all settings managed on the device (optional PC app) Both offer similar input/outputs, on board pr"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098180625731928412",
+          "author": "masoodrehman939",
+          "searchJob": "texas-tech",
+          "text": "Jacob Coxon just resigned from Anthropic. Not because he got a better offer. Not because he wanted a career change. He left because he believes the AI race is moving too fast. That makes this story very different. When someone working insid"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098188586428649927",
+          "author": "dontshedonme_1",
+          "searchJob": "utah",
+          "text": "@jacksonwade6409 @HATU_man @HogoStiglitz @TheHogsProbs Then why did Whittingham offer Ficklin massive chunk of change. More than Utah could pay him."
         }
       ]
     },
@@ -393,12 +401,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 31,
-      "brandNewOffers": 0
+      "acceptedEvidence": 3,
+      "rejectedCandidates": 20,
+      "brandNewOffers": 3
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-10T23:57:55.230Z"
+    "status rebuilt locally from current store on 2026-09-11T00:13:02.468Z"
   ]
 }
