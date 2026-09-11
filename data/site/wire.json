@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-11T00:13:02.312Z",
+  "generatedAt": "2026-09-11T00:27:49.720Z",
   "counts": {
     "offers": 1000,
     "players": 687,
-    "newThisRun": 3,
+    "newThisRun": 0,
     "watchlist": 1916
   },
   "offers": [
@@ -606,9 +606,9 @@
       "conference": "CUSA",
       "offeredAt": "2026-09-10T16:24:15.000Z",
       "firstSeenAt": "2026-09-10T16:28:15.621Z",
-      "lastSeenAt": "2026-09-10T16:28:15.621Z",
-      "confidence": 0.45,
-      "corroborations": 1,
+      "lastSeenAt": "2026-09-11T00:27:49.700Z",
+      "confidence": 0.53,
+      "corroborations": 2,
       "evidence": [
         {
           "postId": "2098085153645982012",
@@ -623,9 +623,23 @@
             "schoolEvidenceType": "official_school_tag",
             "affiliationSource": "fbs_handle"
           }
+        },
+        {
+          "postId": "2098202360929468423",
+          "author": "profilefblive",
+          "url": "https://x.com/profilefblive/status/2098202360929468423",
+          "postedAt": "2026-09-11T00:10:00.000Z",
+          "via": "search:\"2028\" (offer OR offered) (QB OR RB OR W",
+          "confidence": 0.45,
+          "text": "Liberty has offered 2.6⭐ 2028 RB Xzavier Edmond from Mallard Creek HS, NC. @EdmondXzavier\n\nRated (#2210 NATL, #151 RB, #72 NC) - 2 offers overall.\nhttps://t.co/2IoC2nWSwG",
+          "attribution": {
+            "targetText": "Liberty has ",
+            "schoolEvidenceType": "full_school_name",
+            "affiliationSource": "name"
+          }
         }
       ],
-      "status": "new",
+      "status": "corroborated",
       "tier": "G5",
       "playerHandle": "edmondxzavier",
       "classYear": 2028,
