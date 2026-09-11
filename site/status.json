@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T08:28:01.087Z",
+  "generatedAt": "2026-09-11T08:43:03.313Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-11T08:28:00.835Z",
+    "at": "2026-09-11T08:43:03.046Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7756827777777778,
-    "p95Hours": 1.2761536111111111,
-    "worstHours": 1.5235102777777778
+    "medianHours": 0.7730188888888889,
+    "p95Hours": 1.2760888888888888,
+    "worstHours": 1.5267716666666666
   },
   "decisionCoverage": {
-    "total": 15,
-    "decided": 15,
+    "total": 27,
+    "decided": 27,
     "complete": true
   },
   "pending": {
@@ -55,145 +55,231 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-11T08:28:00.834Z",
-      "got": 20,
-      "new": 15,
-      "lag": 0.27
+      "at": "2026-09-11T08:43:03.046Z",
+      "got": 32,
+      "new": 27,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-11T08:26:22.644Z",
+    "at": "2026-09-11T08:41:24.576Z",
     "mode": "live",
     "collection": {
-      "returned": 20,
-      "kept": 15,
+      "returned": 32,
+      "kept": 27,
       "duplicate": 5,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 11,
-      "rejected": 4,
+      "accepted": 15,
+      "rejected": 12,
       "reasons": {
-        "no_fbs_school": 3,
-        "no_offer_term": 1
+        "no_fbs_school": 7,
+        "no_offer_term": 3,
+        "hard_negative": 2
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2098312944983343461",
-          "author": "darranmarshall",
-          "searchJob": "marshall",
-          "text": "Stormont's Education Minister Paul Givan has said he is \"confident\" of a revised financial offer from the government on Friday, but still does not believe it will go far enough to resolve the budget deadlock. https://t.co/4SBZcmRyxj"
+          "postId": "2098307530497683739",
+          "author": "iamtemple__",
+          "searchJob": "temple",
+          "text": "@NAJIBABDUL02 @EdwardXLreal Great offer"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098311361277124644",
-          "author": "gavinmarshall90",
-          "searchJob": "marshall",
-          "text": "@bledred123 @RupertLowe10 Because look at what's happened in Canada. They offer assisted dying to those with depression 🤦"
+          "postId": "2098306405392388330",
+          "author": "iamtemple__",
+          "searchJob": "temple",
+          "text": "The September Promo is still Live! 🚨 35% OFF + 125% REFUND with code \"SEPT\"⚡️ Offer ends on September 14th. The traders who start now are the ones who get the discount. The ones who wait get the same evaluation at full price. Start now bef"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098317503143317870",
-          "author": "mikematangaesq",
-          "searchJob": "northwestern",
-          "text": "If the proposed CLE regulations come to force, Northwestern Christian University will apply to be accredited to offer ATP. Politicians who have found it hard to become Advocates will eventually break the barrier. Including the one they gave"
+          "postId": "2098094256208384076",
+          "author": "atlasfunded",
+          "searchJob": "temple",
+          "text": "Reminder The September Promo is still Live! 🚨 35% OFF + 125% REFUND with code \"SEPT\"⚡️ Offer ends on September 14th. The traders who start now are the ones who get the discount. The ones who wait get the same evaluation at full price. Star"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098113451495186452",
-          "author": "sayeedawarsi",
-          "searchJob": "arkansas-state",
-          "text": "Really Andrew 🤦🏽‍♀️ That’s the Holborn and St Pancras constituency in Canada-Denmark-Finland-France- Iceland-Ireland Norway-Poland-Portugal-Spain & Sweden . 🙄 A PM and Foreign Sec have acted (finally) in line with British values ,interna"
+          "postId": "2098320609289629841",
+          "author": "asimriaz1978",
+          "searchJob": "class:2026",
+          "text": "Affordability creates demand. Reliability creates value. Diversity creates security. A barrel behind a contested strait, LNG cargo without a safe route, a GWh behind a congested grid all point to same reality: energy only matters if it can "
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098322574778266055",
+          "author": "panchitodeoggun",
+          "searchJob": "florida",
+          "text": "@__BigO__ I mean I’ve unironically seen a bunch of random third worlders in mansions lately down in weston (which is rich folk area in Miami Florida) them fuckers somehow get here n start committing fraud thru Medicade or the 30 diff other "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098313336232333692",
+          "author": "voidelur",
+          "searchJob": "arizona",
+          "text": "@Schabilionaire @drnk2nd Holy skill issue"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098324617995886947",
+          "author": "ghanshyam_basf",
+          "searchJob": "army",
+          "text": "Diplomacy isn't laser eye edits and tall speeches. It depends only on balance of power. What do you have to offer and can you take it?"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098305590996901991",
+          "author": "indiantechguide",
+          "searchJob": "army",
+          "text": "🚨 US government proposes scrapping 60-day grace period for H-1B workers, meaning after job loss H-1B workers must leave the country. Indians are the most impacted. https://t.co/cpO5e9tdLN"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098321401031873021",
+          "author": "lovenlighttarot",
+          "searchJob": "army",
+          "text": "STOP USING THE 'ARMY' CARD EVERYWHERE! .... I'M PROBABLY GOING TO PISS OFF A LOT OF PEOPLE, BUT THIS HAD TO BE SAID- An officer recently asked me for an ‘army discount’. I clarified that \"I don’t offer monetary concessions, but I’m happy to"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098309440248361435",
+          "author": "jungkooky09011",
+          "searchJob": "army",
+          "text": "@khalilogyigo He seems like he would never listen to his coach. Enrique failed to make him do the high pressing and Mourinho would fail either. This guy won’t follow any coach’s instructions, that’s why Deschamps can’t offer France more tac"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098309031064650220",
+          "author": "jungkooky09011",
+          "searchJob": "army",
+          "text": "@MadridXtra The most horrible thing is that he seems like he would never listen to his coach. Enrique failed to make him do the high pressing and Mourinho would fail either. This guy won’t follow any coach’s instructions, that’s why Descham"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098308665170403680",
+          "author": "jungkooky09011",
+          "searchJob": "army",
+          "text": "@theMadridZone The most horrible thing is that he seems like he would never listen to his coach. Enrique failed to make him do the high pressing and Mourinho would fail either. This guy won’t follow any coach’s instructions, that’s why Desc"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 11,
+      "rejected": 15,
       "reasons": {
-        "bare_mention_requires_llm": 10,
-        "multiple_resolved_schools": 1
+        "bare_mention_requires_llm": 13,
+        "reporter_missing_player_name": 1,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098316651565400219",
-          "author": "oppenheimer702",
-          "searchJob": "marshall",
-          "text": "@Yanga_Co The country desperately needs patriotic individuals in key leadership positions. What does Marshall Dlamini, Fidel Adams, McKenzie, Mazwi, Kenny Kunene and co have to offer?"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098314440835756314",
-          "author": "djdownloadme",
-          "searchJob": "marshall",
-          "text": "DEEP – HOUSE – INDIE DANCE / NU DISCO – 250 HQ TRACKS https://t.co/ZKKvcfSQPQ #djdownloadme GET ACCESS 6 SENSE – Work Tha Floor (Original Mix) Source A97 – Nocturna (Original Mix) Source Acid Pauli – Gwar Is Not The Answer (Jonathan Kaspar "
+          "postId": "2098321046646706604",
+          "author": "srdcmsc",
+          "searchJob": "temple",
+          "text": "Bhadrachalam Road Rly Station is getting a modern upgrade under the #AmritStationScheme A key gateway to the Lord Sri Seeta Ramachandra Swamy Temple on the banks of Godavari, #Upgraded station will offer enhanced facilities and better trave"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098311350434877691",
-          "author": "laylarivery7bc",
-          "searchJob": "air-force",
-          "text": "@af_academy @af_football Practical and specific, the kind of post worth saving. Respect for doing it properly and saying so plainly. As a freelance web developer I'd love to DM you a special offer and a quote; X just needs the follow back f"
+          "postId": "2098310234997751924",
+          "author": "maheswarnakka",
+          "searchJob": "temple",
+          "text": "Devotees offer prayers at Mumbai’s Siddhivinayak Temple https://t.co/sdy5zToXRt"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098323553460388014",
-          "author": "jasconnor1",
-          "searchJob": "arkansas-state",
-          "text": "Bill Clinton: “The Palestinians were offered a state. They refused. A state wasn't their goal. Killing Jews was.\" This must be shared every single day. https://t.co/yQlQvITPv8"
+          "postId": "2098308203482366233",
+          "author": "jhussainnayak",
+          "searchJob": "temple",
+          "text": "Dr. B.R. Ambedkar Konaseema District, Andhra Pradesh | 11 September 2026 I feel truly happy and fortunate to visit the historic Sri Bheemeswara Swamy Temple in Draksharamam, located in the Dr. B.R. Ambedkar Konaseema district, today. On thi"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098317079061356546",
-          "author": "cooltimofficial",
-          "searchJob": "arkansas-state",
-          "text": "Bill Clinton: “The Palestinians were offered a state. They refused. A state wasn't their goal. Killing Jews was.\" Had that changed @SayeedaWarsi ? Why only this conflict when there have been and are others? Not Jews Not News is it ?"
+          "postId": "2098329689521557715",
+          "author": "yourpremiertra1",
+          "searchJob": "florida",
+          "text": "American Airlines Vacations - DFW to Buenos Aires Round Trip - Business Class for 2 adults! 11/12/26 - 11/20/26 from $4,903.29 USD avg/person Total Price $9,806.57 USD Excludes 21.00 USD additional fees due at hotel Four Seasons Hotel Bueno"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098315961510297948",
-          "author": "jamesmchenry120",
-          "searchJob": "arkansas-state",
-          "text": "@AnthonyGalli @elonmusk They have been given billions of dollars, offered multiple times a State, other places in the Middle East to live and it has never worked out."
+          "postId": "2098311845660787060",
+          "author": "wavewithteeth",
+          "searchJob": "byu",
+          "text": "@jimbolicious_c Surely it was because BYU football offered him tons of money."
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2098330791700832495",
+          "author": "onjoalaaabida",
+          "searchJob": "army",
+          "text": "@LouFrance75 At the heart of the Sudan issue lies a documented fact: Africa Intelligence describes Qatar as a discreet political, financial, and military supporter of the Sudanese army. The \"mediation\" offered by Doha is therefore all the m"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098314926531993692",
-          "author": "flick1_",
-          "searchJob": "arkansas-state",
-          "text": "Bill Clinton OCT 30, 2024 “The Palestinians were offered a state. They refused. A state wasn't their goal. Killing Jews was.\" Dont forget this! https://t.co/cGXgGyrp7t"
+          "postId": "2098328831182451192",
+          "author": "qqssxoq",
+          "searchJob": "army",
+          "text": "@Rahul22722834 @NationalDastak The Taliban fought the American occupation and did not offer women for the occupier to enjoy Taliban shot down US army for 20 years left defeated"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098309576110018738",
-          "author": "skittles_kitty",
-          "searchJob": "arkansas-state",
-          "text": "@RupertLowe10 I hope enough MPs voting today have the moral courage to recognise the line we should never cross: a state that tells the suicidal to choose life cannot offer death as healthcare to the sick and vulnerable."
+          "postId": "2098321006486302741",
+          "author": "cmseth1",
+          "searchJob": "army",
+          "text": "One wonder why from day one we were and are opologetic about OP-Sindhoor .On लॉन्चिंग, our Foreign मिनिस्ट्री conveyed to Pak that it is non escalatory, aa if Pak was going to reconcile .then Army chief Diwedi said that they delayed planned"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098307791433720167",
-          "author": "shortytulip80",
-          "searchJob": "arkansas-state",
-          "text": "@doyle_cormac @pattistanger @Pink @Israel Oh REALLY? HOW MANY TIMES HAVE THE ARABS IN JUDEA AND SAMARIA BEEN OFFERED A STATE? WHAT DID ISRAEL DO IN 2005, IN EXCHANGE FOR A PROMISE OF PEACE FROM THE ARABS LIVING IN JUDEA AND SAMARIA? I DOUBT"
+          "postId": "2098314913295024491",
+          "author": "anadyaom",
+          "searchJob": "army",
+          "text": "King Khatvanga was an ancient warrior known for his immense skill in battle. When the gods found themselves overwhelmed by an army of demons, they called on him for help. Khatvanga led them to victory and in gratitude, the gods offered to g"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098307497140646307",
-          "author": "forintorg",
-          "searchJob": "arkansas-state",
-          "text": "On September 9, 2026, Putin and Vietnamese leadership put out a joint statement pushing back against Western asset freezes and what they called foreign interference in their internal affairs. Fine. Joint statements happen. But watch what th"
+          "postId": "2098310704449101968",
+          "author": "blackdumpling",
+          "searchJob": "army",
+          "text": "\"Would you rather have a dead son, or a living daughter?\" Remember that? The slogan the Left used to terrify mothers and fathers to terrify them into acceptance, to convince them to trans their kids? They're the same people who rallied arou"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098307188498272372",
-          "author": "mayegun1805",
-          "searchJob": "arkansas-state",
-          "text": "Why Osun State needs more than just e-results OSUN State’s gubernatorial election was a “tsunami” of tenacity; it was also a warning. If Nigeria continues to allow the cost of power to rise, we risk a future in which only the highest bidder"
+          "postId": "2098310374491623925",
+          "author": "lionofjudahx",
+          "searchJob": "army",
+          "text": "Hezbollah PR Department: Now Featuring IDF Radio as Official Biographer 🇱🇧📻🏔️ Israeli Army Radio this morning: “The operation to seize Ali al-Tahir ridge lasted three months. We offered them the chance to raise a white flag. They refuse"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098309455142068233",
+          "author": "tzvijoffre",
+          "searchJob": "army",
+          "text": "The IDF has published footage from within the Hezbollah tunnels under the Ali al-Taher ridge, as well as of the elimination of terrorists in the tunnels. According to Army Radio, the IDF slowly and quietly encircled the ridge and the entryw"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098309414298231019",
+          "author": "egdm8z",
+          "searchJob": "army",
+          "text": "I did. When I got off active duty Army at 27 and wanted to use my engineering degree in 1995. This is NOT a boomer story. It didn’t go well. After 9mos unemployed, I finally got a job installing safes and vaults. The company went out busine"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098327166589292877",
+          "author": "bigkev67",
+          "searchJob": "charlotte",
+          "text": "@heykayadams Do you think the Rams should be offered another overseas game if they’re not interested in engaging with the local fans and trying to grow the game? The 49ers by contrast were perfect ambassadors who understood the assignment."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098326625389851131",
+          "author": "luvlycharlotte",
+          "searchJob": "charlotte",
+          "text": "wts / polaroid charlotte ( sign )⭐️ Dm เสนอราคาได้นะคะ นัดรับวันที่ 20 ได้ค่ะ interfans if u interested pls dm for make an offer u can receive on Sep 20 ( cl’s fm ) or i can ship to all countries ♥️♥️ #ตลาดนัดอิงล็อต #ชาล็อตออสติน #charlott"
         }
       ]
     },
@@ -208,11 +294,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 11,
+      "rejectedCandidates": 15,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-11T08:28:01.088Z"
+    "status rebuilt locally from current store on 2026-09-11T08:43:03.314Z"
   ]
 }
