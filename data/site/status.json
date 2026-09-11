@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T01:12:58.072Z",
+  "generatedAt": "2026-09-11T01:43:03.848Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-11T01:12:57.844Z",
+    "at": "2026-09-11T01:43:03.598Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0247077777777778,
-    "p95Hours": 1.777305,
-    "worstHours": 1.777305
+    "medianHours": 1.2793147222222223,
+    "p95Hours": 2.028642777777778,
+    "worstHours": 2.028642777777778
   },
   "decisionCoverage": {
-    "total": 29,
-    "decided": 29,
+    "total": 26,
+    "decided": 26,
     "complete": true
   },
   "pending": {
@@ -49,246 +49,224 @@
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 1005,
+    "completeOffers": 1006,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-11T01:12:57.843Z",
-      "got": 52,
-      "new": 29,
-      "lag": 0.04
+      "at": "2026-09-11T01:43:03.598Z",
+      "got": 46,
+      "new": 26,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-09-11T01:11:21.417Z",
+    "at": "2026-09-11T01:41:28.453Z",
     "mode": "live",
     "collection": {
-      "returned": 52,
-      "kept": 29,
-      "duplicate": 22,
-      "tooOld": 1,
+      "returned": 46,
+      "kept": 26,
+      "duplicate": 20,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 14,
+      "accepted": 11,
       "rejected": 15,
       "reasons": {
         "no_offer_term": 5,
-        "hard_negative": 4,
-        "no_fbs_school": 4,
-        "non_fbs_offer_target": 2
+        "no_fbs_school": 6,
+        "hard_negative": 3,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2098211370898460941",
-          "author": "glitchmemeshop",
-          "searchJob": "air-force",
-          "text": "GET IT WHILE ITS HOT! https://t.co/q7gjWJoklk"
+          "postId": "2098206785794691101",
+          "author": "johnsbrana",
+          "searchJob": "navy",
+          "text": "https://t.co/iFCXe6Idlm"
         },
         {
-          "reason": "hard_negative",
-          "postId": "2098203112880099590",
-          "author": "nextuprecruits",
-          "searchJob": "akron",
-          "text": "NEWS: 4⭐️ 2027 - 6’11 C Ben McKinney (@ben_mckinney27) of Newport HS (KY) has registered for the NextUpRecruits Elite Exposure Camp on September 12 at The Alumni Center in Lexington, Kentucky. Holds offers from California, Akron, and Oral R"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098199583096537552",
-          "author": "jfvella",
-          "searchJob": "auburn",
-          "text": "Pine Forest defensive end Tristian Henderson, offers from Auburn, Georgia, Tennessee, etc #alpreps https://t.co/ARVEvy8Nwj"
+          "reason": "no_fbs_school",
+          "postId": "2098203838171754882",
+          "author": "lemmingreport",
+          "searchJob": "new-mexico",
+          "text": "Colton was no doubt the best player I've seen in New Mexico and one of the Premier linebackers nationally. If he was playing in Chicago he would have 50 offers"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098125794367164887",
-          "author": "aadenh34157",
-          "searchJob": "northwestern",
-          "text": "Check out my weeks 1-3 highlights, I’m a 6,4 295 uncommitted LT and guard @EPCHS_Football @CoachDurley @CoachCrouchHOF @Hawgs_n_Dawgs @Barthkid23 @EDGYTIM @hoijim https://t.co/ayIoMRPB5z https://t.co/VGSYTwTEVf"
+          "postId": "2098188997935714452",
+          "author": "coltonmckibben9",
+          "searchJob": "new-mexico",
+          "text": "Blessed to be on the Butkus watch list!! https://t.co/kJBaXo0gid"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098204318385983961",
-          "author": "gkketch",
-          "searchJob": "ohio-state",
-          "text": "Hot off the keyboard... the pre Ohio State War Room overflows with Intel. Still have a little bit of time to take advantage of this expiring offer. https://t.co/yWkRxXT7la https://t.co/THeAxDyvxc"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098217596365513177",
-          "author": "prospecscamp",
-          "searchJob": "oklahoma",
-          "text": "🚨 Matt Mason 🚨 2027 | 6’3 Guard Oklahoma Christian Academy • Finishes through contact and lives at the rim • Winning motor — putbacks, kick-outs, extra possessions • Athletic, physical, and plays both ways Holds an offer from the Universi"
+          "postId": "2098214600902611172",
+          "author": "bluerosetori",
+          "searchJob": "ohio",
+          "text": "I’m on marketplace in sandusky, ohio making lowball offers like you’ve never even SEEN before"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098213823459283053",
-          "author": "terenceparsee_",
-          "searchJob": "oklahoma",
-          "text": "University of Oklahoma Offered https://t.co/AqfH4eUlNr"
+          "postId": "2098225306343518608",
+          "author": "midtownmadpod",
+          "searchJob": "florida",
+          "text": "SLU has a new 2028 offer out to 6-5 G/F Nijuan Harris from Boca Ciega HS (FL) and Florida Rebels AAU (Nike EYBL)."
         },
         {
-          "reason": "hard_negative",
-          "postId": "2098207881178792319",
-          "author": "cm_sooners360",
-          "searchJob": "oklahoma",
-          "text": "Today's audio Daily Recruiting Update features two recent offers by OU. First, we review 2029 LB Austin Phillips @Austin_RB2 from Indiana. Second, we review 2028 DL Malakai Leilua @MalakaiLeilua71 https://t.co/Xm849trVaF"
+          "reason": "no_fbs_school",
+          "postId": "2098198327154126889",
+          "author": "floridaman1980",
+          "searchJob": "florida",
+          "text": "The difference is that Talarico is running for office during the current election. Paxton is not required to request it, as ABC and JKL are obligated to offer it. \"News Interviews\" with public officials outside of their election would not a"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098203557660869015",
-          "author": "isaiahwhite2029",
-          "searchJob": "oregon",
-          "text": "#AGTG Blessed to receive a game day invite from Oregon State! #GoBeavs @RecruitRichland @GedKates @coachkirk306 https://t.co/3njD5T06Lx"
+          "postId": "2098224466329321933",
+          "author": "major_howelljr3",
+          "searchJob": "south-carolina",
+          "text": "Blessed to receive a game day invite to @GamecockFB hope to have a great weekend!!!! @Billy_Dee28 @AnnaH247 @DBarnes_18 @PrepreszoneSC @Dru_lindler @drebly_32 @GCChrisClark @HaleMcGranahan @Robertson_9two @247recruiting @TheUCReport @Rivals"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098211088709877857",
-          "author": "leongonzalez___",
-          "searchJob": "phrase:\"all glory to god\" offer",
-          "text": "After a great phone call with @Coach__Fay I am incredibly blessed and excited to announce my 4th offer from @WheatonFB. All glory to God, and I couldn’t be where I am today without God and my family. #letsroll #agtg https://t.co/skTWs15MNx"
+          "postId": "2098204148097290351",
+          "author": "1075thegame",
+          "searchJob": "south-carolina",
+          "text": "The Kent State-South Carolina game offered some interesting takeaways. https://t.co/SuLAEJ2q0U"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2098214303190949996",
-          "author": "jensenstrelsky",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG I’m extremely blessed and grateful to receive my 2nd Division I offer and 15th offer overall from @austinpeay in Tennessee to continue my academic and athletic career! Thank you to Coach Gonzalez, Coach G, and the entire @GovsXCTF pro"
+          "reason": "hard_negative",
+          "postId": "2098215250868973713",
+          "author": "randyameyer",
+          "searchJob": "usc",
+          "text": "\"Vikings didn't trust him and let him go\". 🤣 You obviously were not aware of what transpired. Overall the decision on Sam was made before the previous season when they drafted McCarthy 10th overall (highest Viking QB ever drafted) as the p"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2098212154134450616",
-          "author": "isaacallen_hoop",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "After a great visit today, I am excited to receive an offer from Hamline University! Thank you to Coach Hayes and @coachwock for the opportunity. #AGTG https://t.co/5B46FHasZw"
+          "postId": "2098209448837652681",
+          "author": "mbyrne7727",
+          "searchJob": "phrase:\"received my first offer\"",
+          "text": "I am grateful to announce that i have received my first offer from Morgan State University!!! #TTTIMD #WMM #spaldingfb @SpaldingFB @YOmarNelson1 @CoachDuncanASHS @coachreddix https://t.co/mjSqZQBOoG"
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2098208234305733044",
-          "author": "bryan_inegb",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "After a great visit blessed to receive an offer from McPherson College. Thank you Coach TJ, Coach Phillips, and Coach Louis #bulldogs #agtg https://t.co/lXyRQqlkaF"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098216526587281531",
-          "author": "ghhill1911",
-          "searchJob": "army",
-          "text": "https://t.co/qvTJjNEenD"
+          "reason": "hard_negative",
+          "postId": "2098223103625015311",
+          "author": "malloryhartley",
+          "searchJob": "arizona",
+          "text": ".@DentonGuyer_FB 2028 WR Tristan Shelton (6’0, 180) comes up BIG on 4th &amp; 14 right before the half! Programs like Ole Miss, Arizona, Texas Tech, Houston have already offered the junior. @SonicShelton | @GPowersScout https://t.co/W3F8lSP"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098200129496838384",
-          "author": "michaeljburry",
-          "searchJob": "army",
-          "text": "New Feature Post in Articles - Bet you will learn something! https://t.co/TW4sK9DA4Y"
+          "postId": "2098198162012098661",
+          "author": "calamemnon",
+          "searchJob": "arizona",
+          "text": "@realfbllliason UCLA X accounts are gunning for the worst fan base in America. Fueled by pure rage for no reason"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098217160203977164",
+          "author": "gybcircuit_",
+          "searchJob": "bowling-green",
+          "text": "Class of 2029 (Sports City Angels EYBL) Khalia Thompson holds offers from Dayton, Toledo, Bowling Green and more. Khalia initiates contact when attacking the basket, outstanding composure in big moments, knocks down shots, dynamic in transi"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098201068115050597",
+          "author": "news4buffalo",
+          "searchJob": "buffalo",
+          "text": "As school is back in session throughout Western New York, a course at Hamburg High School is teaching life-saving skills to high school seniors. https://t.co/Iv7kIIht3V"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098199892116004919",
+          "author": "bflobizfirst",
+          "searchJob": "buffalo",
+          "text": "Niagara University's School of Cybersecurity will offer interdisciplinary study in cybersecurity, artificial intelligence, business and more. https://t.co/Q6h3cNHKOO"
         }
       ]
     },
     "extraction": {
       "accepted": 1,
-      "rejected": 13,
+      "rejected": 10,
       "reasons": {
-        "multiple_resolved_schools": 2,
-        "author_not_recruit:different sport": 1,
-        "bare_mention_requires_llm": 9,
+        "bare_mention_requires_llm": 8,
+        "multiple_resolved_schools": 1,
         "school_not_resolved_confidently": 1
       },
       "samples": [
         {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098218216451461579",
+          "author": "storeycounty",
+          "searchJob": "nevada",
+          "text": "Don’t miss your chance! The deadline for voter registration by mail or in person is fast approaching. Make sure you’re registered so you can participate in the upcoming general election. Online voter registration is also available for resid"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098222318384230663",
+          "author": "panamabeachreal",
+          "searchJob": "florida",
+          "text": "A 2BR (1,183 sq ft) condo at Twin Palms Condominium in Panama City Beach Florida sold for $386K. The unit needed a lot of work and featured mixed tile, yellow paint, and wicker furniture. This is the third Twin Palms condo to sell below $40"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098219079110672891",
+          "author": "panamabeachreal",
+          "searchJob": "florida",
+          "text": "A 1,637 sq ft, 4-bedroom condo at Ocean Ritz Condominium in Panama City Beach Florida with a 493 sq ft balcony sold for $915K. The third floor unit lives more like a house than a typical condo, with tasteful upgrades throughout. Two master "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098216006489612602",
+          "author": "dudehumorreport",
+          "searchJob": "florida",
+          "text": "FLORIDA MAN OFFERS COPS A VODKA SPRITZER DURING 100 MPH CHASE FORT MYERS, FLORIDA — Dennis Kravitz, 52, was arrested Friday night after allegedly leading deputies on a high-speed chase reaching over 100 miles per hour, then slowing just eno"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098210747670990880",
+          "author": "patriotwoman22",
+          "searchJob": "florida",
+          "text": "Joe & Victoria we're hunted by many of the DEEP STATE CRIMINALS so they have a conflict of interest when it comes to prosecuting many of them Their job is now done They offered expertise and information that nobody else had for the seditiou"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098204563916337289",
+          "author": "freedomcory79",
+          "searchJob": "florida",
+          "text": "@ZurabManor @FmrRepMTG Oh...but i just served 16 years inside some of the hardest prisons Florida has to offer and i've seen it with my own eyes💯 🫵Fool"
+        },
+        {
           "reason": "multiple_resolved_schools",
-          "postId": "2098208318397284639",
-          "author": "michaelree66357",
-          "searchJob": "auburn",
-          "text": "anybody seen 6-7 junior power forward leartist williams from saraland al. i seen where auburn offered him, wondering if bama is after him. roll tide"
-        },
-        {
-          "reason": "author_not_recruit:different sport",
-          "postId": "2098207367171080526",
-          "author": "verbalcommits",
-          "searchJob": "mississippi-state",
-          "text": "2029 Highland (VA) F Brayden Ragland has received an offer from Mississippi State. https://t.co/WdCQVyuvzu"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098201567140700356",
-          "author": "gilthebig",
-          "searchJob": "nebraska",
-          "text": "@the_good_life84 @UNLincoln @UNLincoln stop allowing retards on campus. The blue hair offer both of value to society. They are shameless and bitter. @IfindRetards please let the University of Nebraska know they are admitting retards."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098196790726009222",
-          "author": "coachcrouchhof",
-          "searchJob": "northwestern",
-          "text": "Coaches Aaden is a beast! He has FCS offers and D2- he is definitely a player that will improve your offensive line. Great size, strength and game IQ. Definitely a player you want on your recruiting board. @EDGYTIM @PrepRedzoneIL @EIU_FB @N"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098192018912559433",
-          "author": "ccramer2point0",
-          "searchJob": "ole-miss",
-          "text": "@PegSports7 @TreyWallace You try again. Those Ole Miss players did not move to Baton Rouge for no reason. They were offered spots by the Kiffin and had to sue for eligibility."
+          "postId": "2098201377755332703",
+          "author": "gamecocksfandom",
+          "searchJob": "florida",
+          "text": "South Carolina offers 2028 four-star Florida defensive lineman #gamecocks #gamecockssports #scgamecocks #southcarolina https://t.co/QR7vTk2EuP"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098206775744831730",
-          "author": "weirdisbetter",
-          "searchJob": "oregon",
-          "text": "@NYRangers - the Ducks put Chris Kreider on waivers and he wants to come back east. MAKE HIM AN OFFER! The team desperately needs a leader."
+          "postId": "2098220115548418325",
+          "author": "usc_goats",
+          "searchJob": "usc",
+          "text": "Did usc offer Quintin lake? He’s a baller."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098195606556614922",
-          "author": "allentrieu",
-          "searchJob": "penn-state",
-          "text": "Penn State offers Nazareth Academy 2028 OL. Good find here by PSU as he has been very good to start this season. https://t.co/eyGho6g7Nr @RyanSnyderOn3 @SeanFitzOn3"
+          "postId": "2098216483277119619",
+          "author": "nakshonline",
+          "searchJob": "arizona",
+          "text": "Arizona Turf Depot provides wholesale artificial turf and pavers throughout the Phoenix metro area and offers direct installation for homeowners and businesses. The company serves professional contractors as well as residential and commerci"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098201329701109883",
-          "author": "schadrach",
-          "searchJob": "arkansas-state",
-          "text": "@KansasOz45 @SargentSaysSo @johnnymaga @KariLake What else do you call offering payment if his chosen party wins the election? What would you call it if Soros offered everyone in a state $500 if the Dem won that Senate seat?"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098194871551176978",
-          "author": "cmadsq",
-          "searchJob": "arkansas-state",
-          "text": "In 2016 Bill Clinton said he had a deal Arafat turned down that would have given Palestinians all of Gaza and about 96–97% of the West Bank, plus land swaps. He blamed “they,” meaning the Palestinian leadership at Camp David, for rejecting "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098193917237981414",
-          "author": "retrorv",
-          "searchJob": "arkansas-state",
-          "text": "@tucsoncrimefree Tucson is a metropolitan area with 6 local governments all overseen by a State legislature. To think the City of Tucson isn’t affected by them simply shows your goal is to simply bitch about Romero and the city council, not"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098192444965745067",
-          "author": "biggiesshoe",
-          "searchJob": "arkansas-state",
-          "text": "@Sassafrass_84 He’s absolutely fucking worthless. He inherited a state with everything to offer and turned it into fraud, homelessness, drug addiction, illegal immigration, election scandals and a “high-speed” rail boondoggle that’s burned "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098192281127793046",
-          "author": "biggiesshoe",
-          "searchJob": "arkansas-state",
-          "text": "@Polymarket He’s absolutely fucking worthless. He inherited a state with everything to offer and turned it into fraud, homelessness, drug addiction, illegal immigration, election scandals and a “high-speed” rail boondoggle that’s burned thr"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098208585196941388",
-          "author": "ahc1776",
-          "searchJob": "army",
-          "text": "The Overmountain Men Invoke the Sword of the Lord and Gideon — Major Patrick Ferguson’s threat against the western settlements helped inspire a military response among the frontier Patriots. Isaac Shelby, an experienced frontiersman and sol"
+          "postId": "2098200825307029564",
+          "author": "realfbllliason",
+          "searchJob": "arizona",
+          "text": "I went to the University of Arizona, but apparently the Wildcats offer free housing in Westwood 🐻⬇️😂 https://t.co/obij0MNxrD"
         }
       ]
     },
@@ -303,11 +281,11 @@
     },
     "outcome": {
       "acceptedEvidence": 1,
-      "rejectedCandidates": 13,
+      "rejectedCandidates": 10,
       "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-11T01:12:58.073Z"
+    "status rebuilt locally from current store on 2026-09-11T01:43:03.849Z"
   ]
 }
