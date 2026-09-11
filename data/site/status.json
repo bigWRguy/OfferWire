@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T04:27:01.412Z",
+  "generatedAt": "2026-09-11T04:43:05.943Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-11T04:27:01.156Z",
+    "at": "2026-09-11T04:43:05.706Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7623877777777778,
-    "p95Hours": 1.2593402777777778,
-    "worstHours": 1.5122163888888889
+    "medianHours": 0.7795036111111111,
+    "p95Hours": 1.5272655555555557,
+    "worstHours": 1.5272655555555557
   },
   "decisionCoverage": {
-    "total": 23,
-    "decided": 23,
+    "total": 17,
+    "decided": 17,
     "complete": true
   },
   "pending": {
@@ -55,206 +55,152 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-11T04:27:01.155Z",
-      "got": 49,
-      "new": 23,
+      "at": "2026-09-11T04:43:05.706Z",
+      "got": 42,
+      "new": 17,
       "lag": 0.11
     }
   },
   "audit": {
-    "at": "2026-09-11T04:25:28.529Z",
+    "at": "2026-09-11T04:41:28.441Z",
     "mode": "live",
     "collection": {
-      "returned": 49,
-      "kept": 23,
+      "returned": 42,
+      "kept": 17,
       "duplicate": 25,
-      "tooOld": 1,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 8,
-      "rejected": 15,
+      "accepted": 12,
+      "rejected": 5,
       "reasons": {
-        "no_fbs_school": 10,
-        "no_offer_term": 3,
-        "hard_negative": 1,
-        "non_fbs_offer_target": 1
+        "no_offer_term": 4,
+        "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2098254007156281821",
-          "author": "examinersport",
-          "searchJob": "notre-dame",
-          "text": "Motorsport: Rally Chile offers more weather and surface challenges https://t.co/PJbxhtWsxn"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098242179470688584",
-          "author": "johnny_irish_",
-          "searchJob": "notre-dame",
-          "text": "@Aduradara61049 Are they cheap or is what you are offering cheap??? If many men can have it….isnt it your offer that is cheap 😂😂😂"
+          "reason": "no_offer_term",
+          "postId": "2098269384397463752",
+          "author": "dogs_are_first",
+          "searchJob": "massachusetts",
+          "text": "LONG ARC OF HISTORY for today. : Khnumhotep II recorded caravans on a Beni Hasan tomb wall. William Bradford rationed grain through a Plymouth winter. John Simpson hauled wounded at Gallipoli. Daniel Inouye lost an arm with the 442nd in Ita"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098259904746459582",
-          "author": "gadgetshindi",
-          "searchJob": "class:2026",
-          "text": "Motorola के 7000mAh बैटरी वाले फोन पर ₹4,500 तक की बचत, यहां मिल रही है डील https://t.co/z5ddHUJLfw"
+          "postId": "2098266687120224572",
+          "author": "judicial_notes",
+          "searchJob": "ohio-state",
+          "text": "What Kirk actually said about Israel, donors, and the war — verified, contested, and unproven, labeled as such. Not a eulogy. Not a prosecution. https://t.co/y66Klr7cnp https://t.co/qWLvVd3mW0"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098256036667027709",
-          "author": "upscprelim",
-          "searchJob": "class:2026",
-          "text": "https://t.co/XMfcRvB2wJ"
+          "postId": "2098268063997276452",
+          "author": "baconflavors",
+          "searchJob": "oregon",
+          "text": "@ERICLENT1367204 @GBC_Press They are giving them down payments with our tax money. 🙄 https://t.co/meExDFYAdO https://t.co/k3IXnbOGFN"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2098250519391187049",
-          "author": "douglaski13",
-          "searchJob": "class:2026",
-          "text": "📢 WTS Tiffany Young Hong Kong Ticket! 📢Selling ONE VIP ticket for the Edge of Calm Tour this Saturday! 📅 Sept 12, 2026 (6PM) 📍 AXA Dreamland, Go Park 🌟 VIP ZONE DM me directly with your offer! 📥 Fast reply! #TiffanyYoung #EdgeofCalmTo"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098247831353966826",
-          "author": "fairplus_sz",
-          "searchJob": "class:2026",
-          "text": "At FAIR plus 2026, UNION IMAGE showcased four core vision products designed for different application needs, covering edge AI recognition, depth sensing, close-range precision detection, and spatial understanding in complex environments. Fr"
+          "reason": "no_offer_term",
+          "postId": "2098267521988407503",
+          "author": "baconflavors",
+          "searchJob": "oregon",
+          "text": "@__BigO__ Its happening dumb mfker..... 🙄 https://t.co/meExDFYAdO https://t.co/1FKgsgFmks"
         },
         {
           "reason": "hard_negative",
-          "postId": "2098246214512701609",
-          "author": "dr_titjacques",
-          "searchJob": "class:2026",
-          "text": "$GME — THE FRACTAL IS STARTING TO LOOK UNCOMFORTABLY FAMILIAR I've been putting actual dates on this thesis for a while, so before moving the goalposts after the fact, here's what has lined up so far. WHAT I ACTUALLY CALLED ================"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098242087724458183",
-          "author": "rst_cloud",
-          "searchJob": "class:2026",
-          "text": "#threatreport #HighCompleteness Your Application Has Been Received: Inside Two Multi-Stage Attack Chains Hiding Behind Job Offers | 10-09-2026 Source: https://t.co/ci7ETykwDo Key details below ↓ 💀Threats: Pxa_stealer, Purerat, Donut, Dll_s"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098244042882421023",
-          "author": "okstaterivals",
-          "searchJob": "class:2028",
-          "text": "OState offer out to 2028 4-star TE out of St. Louis De Smet. Also has offers as an EDGE. Quite the offer sheet Profile: https://t.co/kpQA0kCarM"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098253977888465265",
-          "author": "frankiealiu",
-          "searchJob": "iowa",
-          "text": "@guyincornfields Wasnt offered in iowa no way those are odds for a 2nd round draft pick"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098251685151809817",
-          "author": "reeveslawstl",
-          "searchJob": "missouri",
-          "text": "Last thing--I am asking you these questions out of pure respect for you. I highly respect you as one of the finest appellate lawyers in Missouri, even thought your political views are as far from mine as can possibly be. Ask @BigElad--he wi"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2098265408574796026",
-          "author": "jordan_johnson4",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @CoachHenry18 I am Blessed to receive an offer from William Penn university! https://t.co/R433x3V6zB"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098261071538614285",
-          "author": "davislamarr6",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "#AGTG After a great conversation with coach scheutzow from ONU im blessed to receive an offer from @MIexposure @Ferndalefball @thecoachwalker0 @247recruiting #ATGT #ferndalefootball https://t.co/BNr6469DZT"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098264652946010194",
-          "author": "theandrewbriggs",
-          "searchJob": "houston",
-          "text": "https://t.co/haWmeI4m3R"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098261095488139612",
-          "author": "n_parrott478",
-          "searchJob": "houston",
-          "text": "(#27) Deshandon Carter (LB/Edge) X: @_deshandon1 HT: 6'1 - WT: 225 lbs. C/O: '27 - GPA: 3.76 Offer(s): \"1\" D1 Offer Hudl(Jr. Season): https://t.co/OeBfdMMbBx Houston County High School (Warner Robins, GA) Phone #: (478)442-6444 @BearDownHOC"
+          "postId": "2098259464931442698",
+          "author": "james_kbarnes",
+          "searchJob": "phrase:\"all glory to god\" offer",
+          "text": "Blessed and grateful to receive my 2nd official college baseball offer from Western Tech! ⚾️🙏 Huge thanks to the coaching staff, my mentors , and my coaches. All glory to God! #GoCavs #NextChapter #GrindContinues https://t.co/0rw40NyAfX"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 8,
+      "accepted": 1,
+      "rejected": 11,
       "reasons": {
-        "school_not_resolved_confidently": 1,
-        "player_missing_class_year": 1,
-        "bare_mention_requires_llm": 4,
-        "multiple_resolved_schools": 1,
-        "reporter_missing_class_year": 1
+        "bare_mention_requires_llm": 10,
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098261424111747209",
-          "author": "kanyslupin",
-          "searchJob": "notre-dame",
-          "text": "Concepts that must be understood in order to follow along. Acoustic Psycho-Correction. So-called Russian Mind Control. In 1993, two or three articles appeared describing Russians interfacing with Americans on the question of mind control. A"
-        },
-        {
-          "reason": "player_missing_class_year",
-          "postId": "2098264621526266153",
-          "author": "thecflan2x",
-          "searchJob": "temple",
-          "text": "Blessed to receive a offer from Temple University🔴⚪️ @SiegalAustin @KylePollockFB @CoachChiTUFF @TheHolmesStamps @CoachCJ_Johnson @MSJUCOREPORT @JuCoFootballACE @JaredERedding https://t.co/CLkIlXlwwF"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098250237261263337",
+          "author": "jucofootballace",
+          "searchJob": "mississippi-state",
+          "text": "Jekai Lee @Jekailee003 @ Butler JuCo @ButlerGrizzlyFB picks up @HailStateFB Offer @Coach_JL51 @ButlerGrizzlies https://t.co/9x4EMfXEkt"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098243408926294304",
-          "author": "hawaiikaiohana",
-          "searchJob": "temple",
-          "text": "Philip, not Stephen. Stephen was stoned a chapter earlier… Setting that aside, you just made my argument. Baptism and the laying on of hands are distinct acts, the laying on of hands confers the Holy Ghost, and a higher authority is require"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098244818434719818",
-          "author": "dubey_keiretsu",
-          "searchJob": "class:2026",
-          "text": "*News Headlines from Business News Agencies:* *Business Standard* 📝 Ultraviolette bets on scooters for volume surge as Hosur plant takes shape 📝 Hiranandani enters Goa realty market with ₹450-crore partnerships 📝 Equity mutual funds attr"
+          "postId": "2098257512055103517",
+          "author": "brynnenthomp50",
+          "searchJob": "oklahoma",
+          "text": "Blessed to get my 3rd offer Oklahoma and this is my first SEC school💯💪 #blessed @CoachToddBates @CoachHudson5 @King_David_9 @kevin_nibl30653 #allglorytothekingupabove https://t.co/u8oA8JxOAy"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098263723370565635",
-          "author": "nadinebabu",
-          "searchJob": "iowa",
-          "text": "Here's the official press release if it's helpful... FANS CAN NOW CHOOSE FROM FOUR PLANS TO WATCH THE 2026-27 SEASON Watch the Timberwolves exclusively on DAZN with season-long and flexible options, enjoy 15 free games MINNEAPOLIS/ST. PAUL "
+          "postId": "2098266974891426013",
+          "author": "dpg3law_c",
+          "searchJob": "ole-miss",
+          "text": "@js_avvamericano Kiffin’s was offered basically the same contract my LSU, Ole Miss and Florida. He chose LSU because it’s just different here!"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098265056920178917",
-          "author": "theb1gcommish",
-          "searchJob": "michigan",
-          "text": "Right, but he can’t throw. He can’t read defenses. He has one look & when it goes wrong he will tuck and get fucked. The other Michigan discourse fans are assuming you want him to get hurt when Tommy comes in instead of attacking this head "
+          "postId": "2098269210392604803",
+          "author": "queenhasspoken_",
+          "searchJob": "arkansas-state",
+          "text": "Jews are over it. They’re sick of being attacked for 1400 years by Muslims. Also, this was after 10/7 and while hostages were still being held. You know there was a large segment of Israeli society that wanted the two state solution….? Yeah"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098252153798209679",
-          "author": "rocketette",
-          "searchJob": "michigan",
-          "text": "🚨📣Oil windfall for US Buyers🤔 I don't remember this offer. Was this the amount of money who got for the stolen Venezuelan ship or oil. Was this 1.8B offshore account? Did we track that money? Michigan has a .53 gas takes to fix broken,ig"
+          "postId": "2098260338911096999",
+          "author": "fib_1618",
+          "searchJob": "arkansas-state",
+          "text": "@AntonioTweets2 The President offered making Canada a state and this was rejected…no second chances though Alberta is wecolmed to join if the people wish to and Congress approves."
         },
         {
-          "reason": "reporter_missing_class_year",
-          "postId": "2098248391687856596",
-          "author": "dylanccon3",
-          "searchJob": "minnesota",
-          "text": "St. Charles East (IL) OT Liam Barrett adds an offer from the Gophers https://t.co/4vbrY6dRzv"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098256144242266608",
+          "author": "xjippyx",
+          "searchJob": "arkansas-state",
+          "text": "@WalshFreedom And by offered a state they mean Israel controlled its boarders, air space, movement and security. What a joke."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098267204945113418",
+          "author": "sgnews123",
+          "searchJob": "army",
+          "text": "“Helping people... that's what's given me a lot of emotional body armor through the years.” 🚨 Marking the 25th anniversary of the September 11 terrorist attacks, retired Army Lt. Col. Ryan Yantis shared his powerful eyewitness account of s"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098263364619141288",
+          "author": "gokukingchad",
+          "searchJob": "army",
+          "text": "@contramordor He should skip the 5000 dollars and just offer unlimited money and pussy to all the military aged males who join his private army and install him as eternal warlord."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098257204256129370",
+          "author": "abrahamunity17q",
+          "searchJob": "army",
+          "text": "@CherylSchatz @DineshDSouza Cheryl. The stray is not your reverence for the words. It is treating two speeches as one ledger. Genesis 1:29 is the sixth-day blessing over the earth. Every seed-bearing plant. Every tree with fruit that yields"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098252333134291278",
+          "author": "opgridindia",
+          "searchJob": "army",
+          "text": "🇮🇳⚔️ India plugs into the next-generation battlespace at Super Garuda Shield 2026 Indian Army personnel, including Para Special Forces and Signal Corps elements, are participating in Super Garuda Shield 2026, the major multilateral exerci"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098248165090553874",
+          "author": "abrahamunity17q",
+          "searchJob": "army",
+          "text": "@DineshDSouza @CherylSchatz Dinesh. You were right to take the correction without a fight. Milton put an apple in English mouths. Genesis never did. The Hebrew is peri, fruit. The rabbis argued grape, fig, wheat. The Church argued pride. Th"
         }
       ]
     },
@@ -268,12 +214,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 8,
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 11,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-11T04:27:01.413Z"
+    "status rebuilt locally from current store on 2026-09-11T04:43:05.944Z"
   ]
 }
