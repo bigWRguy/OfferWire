@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T04:13:03.732Z",
+  "generatedAt": "2026-09-11T04:27:01.412Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-11T04:13:03.502Z",
+    "at": "2026-09-11T04:27:01.156Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7784697222222222,
-    "p95Hours": 1.528636111111111,
-    "worstHours": 1.528636111111111
+    "medianHours": 0.7623877777777778,
+    "p95Hours": 1.2593402777777778,
+    "worstHours": 1.5122163888888889
   },
   "decisionCoverage": {
-    "total": 19,
-    "decided": 19,
+    "total": 23,
+    "decided": 23,
     "complete": true
   },
   "pending": {
@@ -55,176 +55,206 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-11T04:13:03.501Z",
-      "got": 43,
-      "new": 19,
-      "lag": 0.06
+      "at": "2026-09-11T04:27:01.155Z",
+      "got": 49,
+      "new": 23,
+      "lag": 0.11
     }
   },
   "audit": {
-    "at": "2026-09-11T04:11:25.383Z",
+    "at": "2026-09-11T04:25:28.529Z",
     "mode": "live",
     "collection": {
-      "returned": 43,
-      "kept": 19,
-      "duplicate": 23,
+      "returned": 49,
+      "kept": 23,
+      "duplicate": 25,
       "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 9,
-      "rejected": 10,
+      "accepted": 8,
+      "rejected": 15,
       "reasons": {
-        "no_fbs_school": 4,
+        "no_fbs_school": 10,
         "no_offer_term": 3,
-        "non_fbs_offer_target": 2,
-        "hard_negative": 1
+        "hard_negative": 1,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2098241001437761701",
-          "author": "technewstube",
-          "searchJob": "texas-tech",
-          "text": "Kia reveals EV3 lease offer for $349 a month, but there's a catch https://t.co/J00DpoK0Vw https://t.co/ByG64T8YT9"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098240866913829091",
-          "author": "waterflyoutdoor",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/JgRIHyVTxV"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2098237072691646825",
-          "author": "reilleyculton54",
-          "searchJob": "virginia",
-          "text": "God is great - After a great talk with Coach Ingram I am Blessed and honored to receive my first OFFICIAL OFFER from the Virginia Military Institute, VMI #RahVaMil #VMI https://t.co/4VdfzoPvMZ"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098248992958140703",
-          "author": "qz",
-          "searchJob": "alabama",
-          "text": "https://t.co/pDsDABFUl2"
+          "postId": "2098254007156281821",
+          "author": "examinersport",
+          "searchJob": "notre-dame",
+          "text": "Motorsport: Rally Chile offers more weather and surface challenges https://t.co/PJbxhtWsxn"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098249370550362622",
-          "author": "thedibsterx",
-          "searchJob": "illinois",
-          "text": "In the early 1990s I started an Internet service provider called NetWave in Chicago. It was the second ISP to provide Internet access in the Chicagoland area. I started with a Linux box with 4 x 14.4 kbps modems attached to it (with a Cycla"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098251546274545929",
-          "author": "patriotkgw",
-          "searchJob": "washington",
-          "text": "If you can hear me President Trump. Instead of offering 5k, offer state mandated girlfriends instead."
+          "postId": "2098242179470688584",
+          "author": "johnny_irish_",
+          "searchJob": "notre-dame",
+          "text": "@Aduradara61049 Are they cheap or is what you are offering cheap??? If many men can have it….isnt it your offer that is cheap 😂😂😂"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098037363939168313",
-          "author": "toniavreliusvt",
-          "searchJob": "washington",
-          "text": "https://t.co/RjUK1PevM6"
+          "postId": "2098259904746459582",
+          "author": "gadgetshindi",
+          "searchJob": "class:2026",
+          "text": "Motorola के 7000mAh बैटरी वाले फोन पर ₹4,500 तक की बचत, यहां मिल रही है डील https://t.co/z5ddHUJLfw"
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2098262566321492364",
-          "author": "bristonhardy",
-          "searchJob": "phrase:\"grateful to receive an offer\"",
-          "text": "Grateful to receive an offer from Erskine College! Thank you to the entire coaching staff for the opportunity! @Coach_Mac23 @icoachfb @shapboyd26 @FleetFB https://t.co/wnsDgIkXyx"
+          "reason": "no_offer_term",
+          "postId": "2098256036667027709",
+          "author": "upscprelim",
+          "searchJob": "class:2026",
+          "text": "https://t.co/XMfcRvB2wJ"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098253995412451582",
-          "author": "jaxson_spafford",
-          "searchJob": "phrase:\"thankful to receive an offer\"",
-          "text": "Thankful to receive an offer from a great program @wpuknights and the entire coaching staff @CanalinJonathan @CoachTyMacon @PortlandCCMBB @BrendanRitschar https://t.co/c40ZGeYYnV"
+          "postId": "2098250519391187049",
+          "author": "douglaski13",
+          "searchJob": "class:2026",
+          "text": "📢 WTS Tiffany Young Hong Kong Ticket! 📢Selling ONE VIP ticket for the Edge of Calm Tour this Saturday! 📅 Sept 12, 2026 (6PM) 📍 AXA Dreamland, Go Park 🌟 VIP ZONE DM me directly with your offer! 📥 Fast reply! #TiffanyYoung #EdgeofCalmTo"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098247831353966826",
+          "author": "fairplus_sz",
+          "searchJob": "class:2026",
+          "text": "At FAIR plus 2026, UNION IMAGE showcased four core vision products designed for different application needs, covering edge AI recognition, depth sensing, close-range precision detection, and spatial understanding in complex environments. Fr"
         },
         {
           "reason": "hard_negative",
-          "postId": "2098256568584135001",
-          "author": "jcdurbant",
-          "searchJob": "wake-forest",
-          "text": "DID YOU SAY ANIMALS ? (Looking back on this 25th anniversary of the beastly 9/11 massacre which has now given us a Muslim New York mayor... to the bestial language Muslims and their Western cheerleaders have been force-feeding us as they ha"
+          "postId": "2098246214512701609",
+          "author": "dr_titjacques",
+          "searchJob": "class:2026",
+          "text": "$GME — THE FRACTAL IS STARTING TO LOOK UNCOMFORTABLY FAMILIAR I've been putting actual dates on this thesis for a while, so before moving the goalposts after the fact, here's what has lined up so far. WHAT I ACTUALLY CALLED ================"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098242087724458183",
+          "author": "rst_cloud",
+          "searchJob": "class:2026",
+          "text": "#threatreport #HighCompleteness Your Application Has Been Received: Inside Two Multi-Stage Attack Chains Hiding Behind Job Offers | 10-09-2026 Source: https://t.co/ci7ETykwDo Key details below ↓ 💀Threats: Pxa_stealer, Purerat, Donut, Dll_s"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098244042882421023",
+          "author": "okstaterivals",
+          "searchJob": "class:2028",
+          "text": "OState offer out to 2028 4-star TE out of St. Louis De Smet. Also has offers as an EDGE. Quite the offer sheet Profile: https://t.co/kpQA0kCarM"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098253977888465265",
+          "author": "frankiealiu",
+          "searchJob": "iowa",
+          "text": "@guyincornfields Wasnt offered in iowa no way those are odds for a 2nd round draft pick"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098251685151809817",
+          "author": "reeveslawstl",
+          "searchJob": "missouri",
+          "text": "Last thing--I am asking you these questions out of pure respect for you. I highly respect you as one of the finest appellate lawyers in Missouri, even thought your political views are as far from mine as can possibly be. Ask @BigElad--he wi"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098265408574796026",
+          "author": "jordan_johnson4",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @CoachHenry18 I am Blessed to receive an offer from William Penn university! https://t.co/R433x3V6zB"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098261071538614285",
+          "author": "davislamarr6",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "#AGTG After a great conversation with coach scheutzow from ONU im blessed to receive an offer from @MIexposure @Ferndalefball @thecoachwalker0 @247recruiting #ATGT #ferndalefootball https://t.co/BNr6469DZT"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098264652946010194",
+          "author": "theandrewbriggs",
+          "searchJob": "houston",
+          "text": "https://t.co/haWmeI4m3R"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098261095488139612",
+          "author": "n_parrott478",
+          "searchJob": "houston",
+          "text": "(#27) Deshandon Carter (LB/Edge) X: @_deshandon1 HT: 6'1 - WT: 225 lbs. C/O: '27 - GPA: 3.76 Offer(s): \"1\" D1 Offer Hudl(Jr. Season): https://t.co/OeBfdMMbBx Houston County High School (Warner Robins, GA) Phone #: (478)442-6444 @BearDownHOC"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 8,
       "reasons": {
-        "school_not_resolved_confidently": 3,
-        "multiple_resolved_schools": 2,
-        "bare_mention_requires_llm": 4
+        "school_not_resolved_confidently": 1,
+        "player_missing_class_year": 1,
+        "bare_mention_requires_llm": 4,
+        "multiple_resolved_schools": 1,
+        "reporter_missing_class_year": 1
       },
       "samples": [
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098237595264196906",
-          "author": "inspiration_eye",
-          "searchJob": "texas-tech",
-          "text": "On September 8, Nepali youth participating in the \"Dialogue Across the Himalayas – 2026 Youth Workshop\" visited Chengdu High-Tech Zone to explore the development of the digital cultural and creative industry and #robotics. For Sarbashree KC"
+          "postId": "2098261424111747209",
+          "author": "kanyslupin",
+          "searchJob": "notre-dame",
+          "text": "Concepts that must be understood in order to follow along. Acoustic Psycho-Correction. So-called Russian Mind Control. In 1993, two or three articles appeared describing Russians interfacing with Americans on the question of mind control. A"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098234436777070869",
-          "author": "gigilinda630",
-          "searchJob": "texas-tech",
-          "text": "@IronHorseFeathe @tribelaw You’re clueless and a bigot, that’s clear. The legislation offered nothing for the dreamers, but lots for better tech for border control agents to use, as well as funding for immigration judges so that people coul"
+          "reason": "player_missing_class_year",
+          "postId": "2098264621526266153",
+          "author": "thecflan2x",
+          "searchJob": "temple",
+          "text": "Blessed to receive a offer from Temple University🔴⚪️ @SiegalAustin @KylePollockFB @CoachChiTUFF @TheHolmesStamps @CoachCJ_Johnson @MSJUCOREPORT @JuCoFootballACE @JaredERedding https://t.co/CLkIlXlwwF"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098243408926294304",
+          "author": "hawaiikaiohana",
+          "searchJob": "temple",
+          "text": "Philip, not Stephen. Stephen was stoned a chapter earlier… Setting that aside, you just made my argument. Baptism and the laying on of hands are distinct acts, the laying on of hands confers the Holy Ghost, and a higher authority is require"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098244818434719818",
+          "author": "dubey_keiretsu",
+          "searchJob": "class:2026",
+          "text": "*News Headlines from Business News Agencies:* *Business Standard* 📝 Ultraviolette bets on scooters for volume surge as Hosur plant takes shape 📝 Hiranandani enters Goa realty market with ₹450-crore partnerships 📝 Equity mutual funds attr"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098251376908255474",
-          "author": "dominicskywalkr",
-          "searchJob": "utep",
-          "text": "@BillyTMtn The weird reason why Ferris State won't be able to play a school like UTEP, Akron or UMass is because in the FBS, you are given 1 game against an FCS team (that offers scholarships) and that game be considered in bowl games, anyt"
+          "postId": "2098263723370565635",
+          "author": "nadinebabu",
+          "searchJob": "iowa",
+          "text": "Here's the official press release if it's helpful... FANS CAN NOW CHOOSE FROM FOUR PLANS TO WATCH THE 2026-27 SEASON Watch the Timberwolves exclusively on DAZN with season-long and flexible options, enjoy 15 free games MINNEAPOLIS/ST. PAUL "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098245289932927089",
-          "author": "tylercoonsmaui",
-          "searchJob": "hawaii",
-          "text": "Before the architecture. Before the finishes. Before the infinity pool. It starts with choosing the perfect view. View property: https://t.co/Wud8JgpqAi 🔑 Offered at $1,199,000 👉 Tyler Coons tyler@tylercoonsmaui.com 808.280.2480 REALTOR®S"
+          "postId": "2098265056920178917",
+          "author": "theb1gcommish",
+          "searchJob": "michigan",
+          "text": "Right, but he can’t throw. He can’t read defenses. He has one look & when it goes wrong he will tuck and get fucked. The other Michigan discourse fans are assuming you want him to get hurt when Tommy comes in instead of attacking this head "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098244039833194934",
-          "author": "southernmissmba",
-          "searchJob": "southern-miss",
-          "text": "Check out the cool and important classes offered through our program! https://t.co/pQ41tiwVnW #SMTTT! #SouthernMissMBA #Negotiations #9MonthMBA"
+          "postId": "2098252153798209679",
+          "author": "rocketette",
+          "searchJob": "michigan",
+          "text": "🚨📣Oil windfall for US Buyers🤔 I don't remember this offer. Was this the amount of money who got for the stolen Venezuelan ship or oil. Was this 1.8B offshore account? Did we track that money? Michigan has a .53 gas takes to fix broken,ig"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098259024533942386",
-          "author": "michaelemcneil",
-          "searchJob": "washington",
-          "text": "It's worth recalling in this regard that one of the possible boundary lines offered by the American party to the conference negotiating the end to the Revolutionary War (in addition to the frontier that now exists) was for the Canada-U.S. l"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098252695140257804",
-          "author": "seatownkev",
-          "searchJob": "washington",
-          "text": "2030 WR Moses Irwin (Bishop Kelly - ID) has a gameday visit to Washington on Sept. 19 per @247sports. The Huskies offered the freshman standout in late August and will be one of the first schools to host him. Irwin has collected over a doze"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098243757753958599",
-          "author": "nastynick37",
-          "searchJob": "washington",
-          "text": "Response from Grok from link above in text: Both. W.E.B. Du Bois was a towering, polarizing figure whose reception shifted sharply over his 95-year life (1868–1963). He was widely respected as a scholar and civil-rights leader for decades, "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098259445319164002",
-          "author": "tlmiller20",
-          "searchJob": "wake-forest",
-          "text": "@DahgMahn The fact you think its a real offer says all I need to know about you. Wake up sir"
+          "reason": "reporter_missing_class_year",
+          "postId": "2098248391687856596",
+          "author": "dylanccon3",
+          "searchJob": "minnesota",
+          "text": "St. Charles East (IL) OT Liam Barrett adds an offer from the Gophers https://t.co/4vbrY6dRzv"
         }
       ]
     },
@@ -239,11 +269,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 9,
+      "rejectedCandidates": 8,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-11T04:13:03.733Z"
+    "status rebuilt locally from current store on 2026-09-11T04:27:01.413Z"
   ]
 }
