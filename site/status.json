@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T07:57:50.143Z",
+  "generatedAt": "2026-09-12T08:12:52.414Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-12T07:57:49.912Z",
+    "at": "2026-09-12T08:12:52.107Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7730938888888889,
-    "p95Hours": 1.3934461111111112,
-    "worstHours": 1.764706388888889
+    "medianHours": 0.7727780555555556,
+    "p95Hours": 1.273916388888889,
+    "worstHours": 1.6440769444444445
   },
   "decisionCoverage": {
-    "total": 15,
-    "decided": 15,
+    "total": 19,
+    "decided": 19,
     "complete": true
   },
   "pending": {
@@ -55,145 +55,174 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-12T07:57:49.912Z",
-      "got": 20,
-      "new": 15,
-      "lag": 0.03
+      "at": "2026-09-12T08:12:52.106Z",
+      "got": 24,
+      "new": 19,
+      "lag": 0.11
     }
   },
   "audit": {
-    "at": "2026-09-12T07:56:15.258Z",
+    "at": "2026-09-12T08:11:16.505Z",
     "mode": "live",
     "collection": {
-      "returned": 20,
-      "kept": 15,
+      "returned": 24,
+      "kept": 19,
       "duplicate": 5,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 12,
-      "rejected": 3,
+      "accepted": 10,
+      "rejected": 9,
       "reasons": {
-        "no_offer_term": 2,
-        "no_fbs_school": 1
+        "no_fbs_school": 6,
+        "no_offer_term": 3
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2098657314102534537",
+          "author": "uzconsulwa",
+          "searchJob": "wyoming",
+          "text": "Free Uzbek Language and Culture Sessions Discover the Uzbek language and the rich culture of Uzbekistan — free and open to everyone! Beginning September 11, the World Language and Culture Program (WLCP) will offer free virtual Uzbek Languag"
+        },
+        {
           "reason": "no_offer_term",
-          "postId": "2098472022720254301",
-          "author": "appstate_fb",
-          "searchJob": "georgia",
-          "text": "🏆🏆 𝟐𝟎𝐭𝐡 𝐚𝐧𝐧𝐢𝐯𝐞𝐫𝐬𝐚𝐫𝐲 🏆🏆 #AppNation, help us celebrate App State's 2006 national title team! Members of this record-setting group will be honored at the Oct. 10 home game vs. ODU. 📰 &gt;&gt; https://t.co/hHgowlYUUx 🎟️ &gt"
+          "postId": "2098662897496842651",
+          "author": "airendal",
+          "searchJob": "phrase:\"blessed to have received\"",
+          "text": "@scopolamine666 Yeah things couldn't be better than they've ended up, so I count myself blessed to have received the life that I have."
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098669985161781629",
-          "author": "keithwrightauth",
-          "searchJob": "texas",
-          "text": "He murders men, women and girls, but it is females he seeks to violate; killing men is just a means to an end. It is a fascinating case, and there is no doubt that mistakes were made by a novice police force who had never heard of such a th"
+          "postId": "2098679421532082529",
+          "author": "duke_jukes",
+          "searchJob": "duke",
+          "text": "I mean, he didn't even offer a small role or a cameo in Death Stranding or it's sequel to David. That's harsh for somebody who worked along side you for decades, and has done nothing wrong to you. I mean, how hard would it have been to hire"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098667393933250919",
+          "author": "urban__duke",
+          "searchJob": "duke",
+          "text": "@Duderichy well, i can offer you the scary version of this: that the evil smart people are so good at concealing their evil to the point that we undercount them significantly but i generally believe your version (for no reason other than th"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098668927546966036",
+          "author": "netcurious",
+          "searchJob": "north-carolina",
+          "text": "It must be a job requirement in modern politics. Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina https://t.co/Z9HXOAaTIC"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098666289069711666",
+          "author": "jigri",
+          "searchJob": "north-carolina",
+          "text": "Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina https://t.co/8L1rlGAxGv"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098663205560021302",
+          "author": "111111cl",
+          "searchJob": "north-carolina",
+          "text": "A twice convicted sex offender on minors. Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina https://t.co/BAH28yJeF4"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098662210213974109",
-          "author": "deutschewelle",
-          "searchJob": "miami",
-          "text": "Zelenskyy and Putin in the same room? In an exclusive interview with DW's @komadovsky, Ukrainian President Volodymyr Zelenskyy said he would meet his Russian counterpart if both were invited to the G20 summit in Miami. https://t.co/O97OHBxe"
+          "postId": "2098547156038615084",
+          "author": "parisreview",
+          "searchJob": "arkansas-state",
+          "text": "“When you begin a novel you are in a state of unlimited freedom, and this is alarming.” —Iris Murdoch https://t.co/xjGd9bX9Zr"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098662180992262600",
+          "author": "paideumatv",
+          "searchJob": "arkansas-state",
+          "text": "https://t.co/0ziRcpG3e8"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 12,
+      "rejected": 10,
       "reasons": {
-        "bare_mention_requires_llm": 6,
-        "school_not_resolved_confidently": 6
+        "bare_mention_requires_llm": 8,
+        "reporter_missing_player_name": 1,
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098672062709608897",
-          "author": "sranang_mang",
-          "searchJob": "navy",
-          "text": "@WingedNetMonkey @LeilaniDowding And what support could Britain offer? We have fewer navy personnel than the US can fit on their biggest navy ship. We have had disabled veterans sleeping on the streets whilst illegals get hotel rooms."
+          "postId": "2098684542257369129",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098669050251354121",
-          "author": "gasouthernguy",
-          "searchJob": "georgia",
-          "text": "ASU=Ai Slop University. I know you guys are hurting financially, but you offer a graphics design degree. Maybe a professor or student in the dept can help. Here’s a contact link for you https://t.co/T5K6rRZEGA"
+          "postId": "2098680765798367588",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098676159106216258",
-          "author": "prismstrathl",
-          "searchJob": "tennessee",
-          "text": "Market Briefing — Sat 12 Sep 2026, 07:00 UTC IN PLAIN ENGLISH State: Calm What's happening — Friday's inflation-print rally carried Bitcoin about 5% off its low, and within five hours it was back where it stood before the print. Since 19:00"
+          "postId": "2098679759719039141",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098682012156485966",
-          "author": "socialmediaend",
-          "searchJob": "texas",
-          "text": "@longzheng Doesn't seem aligned with their Texas offer."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098679726474965435",
-          "author": "rhaglencymru",
-          "searchJob": "miami",
-          "text": "DW exclusive: Zelenskyy offers to meet Putin at G20 in Miami https://t.co/hL3wdsWz4z"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098676346780041519",
-          "author": "wolfbrief_",
-          "searchJob": "miami",
-          "text": "🚨 HEADLINES Next round of Israel-Lebanon talks delayed until October — US official (Times of Israel) Germany charges 7 suspected Hamas members over Oct. 7 anniversary attack plot (DW) DW exclusive: Zelenskyy offers to meet Putin at G20 in "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098671322746229085",
-          "author": "jamin2g",
-          "searchJob": "miami",
-          "text": "Zelenskyy offers to meet Putin at G20 in Miami https://t.co/jPyNQIOlHR https://t.co/2jrs5qWpsu"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098660789645434970",
-          "author": "pulsex24",
-          "searchJob": "miami",
-          "text": "📰 DEVELOPING: DW exclusive: Zelenskyy offers to meet Putin at G20 in Miami. In an interview with DW, Ukrainian President Volodymyr Zelenskyy said his country was in a strong position to negotiate and offered to meet Vladimir Putin in Miami"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098657685658837428",
-          "author": "douglaswalton99",
-          "searchJob": "miami",
-          "text": "DW exclusive: Zelenskyy offers to meet Putin at G20 in Miami https://t.co/GtC984JUZl DW exclusive: Zelenskyy offers to meet Putin at G20 in Miami"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098679070955360490",
-          "author": "fantascruffsjaw",
-          "searchJob": "notre-dame",
-          "text": "@Yameff8 @aroundliv Bit of a difference. The Irish weren't immigrants. The Chinese, Italians, Scandinavians, Nigerians and Somalians were all seamen or craftsmen who had a skilled professions and settled here. These people have no skills an"
+          "postId": "2098673972359708868",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098667932402299258",
-          "author": "loopingcloud",
-          "searchJob": "uconn",
-          "text": "New Haven investment opportunity! 165 Starr St, New Haven, CT 06511 offers 2 units and 2,099 SF in Newhallville. 📈 Asking $274K. Contact Lisa Cozzi at 860-508-2102 for details. https://t.co/nHMSmj5kcB #NewHavenCT #Multifamily #InvestmentPr"
+          "postId": "2098664660467884326",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098681091494137879",
-          "author": "countercurrents",
-          "searchJob": "air-force",
-          "text": "“You Have Two Million Targets in Gaza”: An Israeli Drone Operator’s Confessions of Mass Killing by Quds News Network https://t.co/bUwWO94cJm A former Israeli Air Force reserve officer and drone operator describes his experience of military "
+          "postId": "2098677506576470242",
+          "author": "civis_major",
+          "searchJob": "arkansas-state",
+          "text": "Emerging in another of the Variations verifying of the Freedom on Offer @GeorginaCapel in a State in Waiting."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098671234670104914",
+          "author": "francoboca",
+          "searchJob": "arkansas-state",
+          "text": "Concept Card What is Pretext for war? A publicly offered reason for military action that may mask other strategic, political, or economic motives. : Diplomatic and military history The concept of a pretext for war highlights the complexitie"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098668577067040821",
+          "author": "samjlondon",
+          "searchJob": "arkansas-state",
+          "text": "The Last Thing Parliament Should Give Up On Is Life There are some votes in Parliament which are forgotten before the division bells have stopped ringing. Rates change. Regulations are amended. Departments are reorganised. Governments spend"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2098661832441438623",
+          "author": "cdetraba",
+          "searchJob": "arkansas-state",
+          "text": "Kariba Ferry certified as Govt restores vital Lake transport. Government has approved a privately owned ferry to resume services on Lake Kariba, weeks after the August 11 disaster that claimed 97 lives. The vessel, offered by a private oper"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098670828439433518",
+          "author": "suraj_yadav2005",
+          "searchJob": "army",
+          "text": "I do not intend to offer a religious discourse, nor do I urge anyone to believe in God. Nor do I claim that \"Giridhar Gopal is mine, and no one else's\"; however, Shri Krishna is certainly one of the deities I revere. Some of my acquaintance"
         }
       ]
     },
@@ -208,11 +237,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 12,
+      "rejectedCandidates": 10,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-12T07:57:50.144Z"
+    "status rebuilt locally from current store on 2026-09-12T08:12:52.415Z"
   ]
 }
