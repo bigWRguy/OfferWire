@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T13:28:01.542Z",
+  "generatedAt": "2026-09-12T13:58:11.677Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-12T13:28:01.292Z",
+    "at": "2026-09-12T13:58:11.497Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7756561111111111,
-    "p95Hours": 1.528075,
-    "worstHours": 1.528075
+    "medianHours": 1.0246163888888888,
+    "p95Hours": 1.7798558333333334,
+    "worstHours": 1.7798558333333334
   },
   "decisionCoverage": {
-    "total": 25,
-    "decided": 25,
+    "total": 23,
+    "decided": 23,
     "complete": true
   },
   "pending": {
@@ -55,219 +55,202 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-12T13:28:01.291Z",
-      "got": 42,
-      "new": 25,
-      "lag": 0.07
+      "at": "2026-09-12T13:58:11.497Z",
+      "got": 34,
+      "new": 23,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-12T13:26:23.952Z",
+    "at": "2026-09-12T13:56:43.844Z",
     "mode": "live",
     "collection": {
-      "returned": 42,
-      "kept": 25,
-      "duplicate": 16,
+      "returned": 34,
+      "kept": 23,
+      "duplicate": 10,
       "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 18,
-      "rejected": 7,
+      "accepted": 12,
+      "rejected": 11,
       "reasons": {
-        "hard_negative": 1,
-        "no_fbs_school": 3,
-        "no_offer_term": 3
+        "non_fbs_offer_target": 3,
+        "no_fbs_school": 8
       },
       "samples": [
         {
-          "reason": "hard_negative",
-          "postId": "2098760084025180421",
-          "author": "arthur_win8",
-          "searchJob": "nevada",
-          "text": "CYBERCAB Updated 2026-09-12 Sources: your Cybercab bookmark folder (383 posts). Not Cybertruck / Robotaxi. NEW TODAY - Folder now 383 posts (8 new since Sep 11) - Testers (Teslaconomics, Sep 11): I flew my drone through Austin while riding "
+          "reason": "non_fbs_offer_target",
+          "postId": "2098772085019390001",
+          "author": "jacksonbrandt08",
+          "searchJob": "nebraska",
+          "text": "After a great visit, I’m blessed to receive an offer from Nebraska Wesleyan University! @Wellmand21 @NWU_Basketball @iten_scott @Hard2Guard5280 https://t.co/qx8g45FAbh"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098749111193264312",
-          "author": "jumpmorgan1",
-          "searchJob": "arkansas",
-          "text": "After a great conversation with Coach @CoachDM15, I’m excited and grateful to say I’ve received an offer to Southern Arkansas University/ @SAU_WBB ! 💙💛 The goals and vision he has for the program are exactly what any player would want to "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2097741300074467713",
-          "author": "moroskostas",
-          "searchJob": "michigan",
-          "text": "Martinez Long was sentenced to two years of probation for carrying a concealed weapon. He had to shoot a gunman, and he faced no charges for that use of lethal force, because it was deemed lawful self-defense. But his underlying carrying of"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098608034603819057",
-          "author": "thomassowell",
-          "searchJob": "minnesota",
-          "text": "https://t.co/LPDdQfYGRG"
+          "postId": "2098772593641685165",
+          "author": "hugodwarf",
+          "searchJob": "oklahoma",
+          "text": "Planning a road trip? The KanOkla Highway Sale offers a scenic route from Havana to Dewey, Oklahoma. Discover recommended stops along this charming stretch. #RoadTrip #KanOklaSale https://t.co/PffFy1rayt"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098754734676980171",
-          "author": "beholdisrael",
-          "searchJob": "missouri",
-          "text": "Good morning from Kansas City, Missouri. I am on my way to speak at The Israel Decree Conference. Today marks the first day of the Jewish civil year. The interesting part is that although the Jewish people call it the New Year, biblically, "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098758853093364125",
-          "author": "candydigital",
-          "searchJob": "houston",
-          "text": "A light Saturday read for you ☕️ Three 1-of-1s, straight from the vault. Three different roads to get there. 🔹 A rookie who tore his shoulder on a homer 🔹 A $440M \"no\" 🔹 A trade before a single at-bat Behind the ICON: Carroll, Soto and A"
+          "postId": "2098770837335617666",
+          "author": "satswband",
+          "searchJob": "oklahoma",
+          "text": "Dallas, we came to you with our grubby paws outstretched and offered you the gift of rock and roll. To our joy and admiration, you accepted this gift and let it fester in your veins. Now, it's time for OKLAHOMA CITY. We’ll see you tonight a"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098763292508561762",
-          "author": "ucbinfo",
-          "searchJob": "utah",
-          "text": "UCB Skill Development Program offers free in-home training in Utah: including Logan, Ogden, Salt Lake, Provo, Manti, Price &amp; Kanab! Learn Cane travel, Orientation &amp; Mobility, Braille instruction, Kitchen safety &amp; home organizati"
+          "postId": "2098769662917878164",
+          "author": "nickbeane6",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Thank you @Coachlik1 @coachhoward22w @HowardHuskies1 for the offer AGTG! https://t.co/reBBH4mk8d"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098767520945557763",
+          "author": "qcinco_5",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "AGTG!! I'm extremely blessed to receive my first offer from McPherson College!! @CoachJFisc @CoachColeMeyer @RecruitLangston @RecruitGeorgia https://t.co/SeJZqEagSG"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098765306160153054",
+          "author": "jordyngarcia13_",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Blessed to receive an offer from Huskies College Prep #AGTG @Coachlik1 @coachhoward22w @HowardHuskies1 @SneadsFootball @247recruiting @PrepRedzoneFL @FlaHSFootball https://t.co/wcS5XS0CHt"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098755596769972705",
+          "author": "morganjones2027",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After a great visit, I am blessed and grateful to announce that I’ve received an offer from @houghtonwbb! Thank you Coach Pellegrino and Coach Carlee for giving me this opportunity and believing in me! 💜🦁 #agtg✝️ @coachtphil34 https://t.c"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098759514791039166",
+          "author": "ksblackhawks",
+          "searchJob": "kansas",
+          "text": "@Ashtinharp27 with another offer to play at the next level! Congrats Ashtin!! @TaborBaseball https://t.co/57G9XRQafw"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098758919556300813",
+          "author": "frontier_ksre",
+          "searchJob": "kansas-state",
+          "text": "Don't forget! K-State Frontier Extension offers soil tests. 📍Located at each of our Frontier Extension locations: Lyndon, Garnett and Ottawa. Prices are located on our website: https://t.co/4l6geOEUqT If you have any questions, please call"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098758528252993586",
+          "author": "ywca_tnva",
+          "searchJob": "virginia",
+          "text": "Did you know...? National Day of Encouragement is observed annually on September 12 to uplift others, spread the love, and make a positive impact in your community. 🥰 Send a message. Notice progress. Offer kind words. Show others you care!"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098762261519028397",
+          "author": "charlottegj36",
+          "searchJob": "charlotte",
+          "text": "Though the weather may be somewhat gloomy, it offers priceless nourishment for the soul. Walking along the ridge, leaving the trivialities and noise of daily life far behind, feels incredibly liberating https://t.co/6W608zQhvq"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 18,
+      "rejected": 12,
       "reasons": {
-        "multiple_resolved_schools": 4,
-        "bare_mention_requires_llm": 11,
-        "reporter_missing_player_name": 1,
-        "reporter_missing_position": 1,
-        "school_not_resolved_confidently": 1
+        "bare_mention_requires_llm": 2,
+        "multiple_resolved_schools": 5,
+        "school_not_resolved_confidently": 5
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098764455358197805",
-          "author": "arthur_win8",
-          "searchJob": "nevada",
-          "text": "ROBOTAXI Updated 2026-09-12 Sources: Robotaxi + Owning Robotaxi Fleet bookmark folders (213 unique). Not Cybercab. NEW TODAY - Testers (AIScottAdams): Robotaxis won’t just kill short haul flights. Once you can sleep in them, they’ll canniba"
-        },
-        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098763141945479174",
-          "author": "lderheydt",
-          "searchJob": "troy",
-          "text": "DEMS for the last 8 YEARS made it worse for Mainers. Get your facts strait! All you have is TRUMP. Dems ran the state into the ground not Trump, Trump does not run MAINE. People with half a brain should know this. Troy offers nothing but ge"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098759452732150171",
-          "author": "lderheydt",
-          "searchJob": "troy",
-          "text": "DEMS for the last 8 YEARS made it worse for Mainers. Get your facts strait! All you have is TRUMP. Dems ran the state into the ground not Trump, Trump does not run MAINE. People with half a brain should know this. You offer nothing but get "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098757636556517529",
-          "author": "lderheydt",
-          "searchJob": "troy",
-          "text": "DEMS for the last 8 YEARS made it worse for Mainers. Get your facts strait! All you have is TRUMP. Dems ran the state into the ground not Trump, Trump does not run MAINE. People with half a brain should know this. You offer nothing but get "
+          "postId": "2098759808904007893",
+          "author": "ben05au",
+          "searchJob": "auburn",
+          "text": "@JohnBrad64 @disinfectantsp1 I mean of course he’s going to say that afterwards. The report we got was his agent talked him out of going to Auburn. I’m guessing yall probably offered more. Either way I think they’re both good coaches. Very "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098757475025522787",
-          "author": "trojanswire",
-          "searchJob": "troy",
-          "text": "Oregon secondary offers matchups USC should attack and avoid 📸 Troy Wayrynen, IMAGN IMAGES via Reuters Connect https://t.co/xdwgr0yqKv https://t.co/lEfNfeSTPJ"
+          "postId": "2098756882215149799",
+          "author": "bmattau",
+          "searchJob": "auburn",
+          "text": "PICK'EM WEEK 2: The @AuburnOn3 staff and friends make their predictions on top college football games from around the country, and offer insight into Auburn's game against USM 👀 DEAL ($1 FOR 1 WK/50% OFF YR): https://t.co/D09tUxvZqW PICKS:"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098761248942764498",
-          "author": "immikel0wry",
-          "searchJob": "arkansas",
-          "text": "@TopTierUtes @BBroadshear311 If this is top tier Utah, I’d really hate to see what else you guys have to offer. This sucks, and I’m not even an Arkansas fan."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098742938880667920",
-          "author": "sada966662",
-          "searchJob": "iowa",
-          "text": "Ashley Hinson has chosen policies that place greater burdens on Iowa’s families and farmers while giving the wealthiest Americans generous tax advantages. Josh Turek offers a different choice: standing up for Iowa’s workers and families. In"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2098764439604351445",
-          "author": "owengregorian",
-          "searchJob": "michigan",
-          "text": "Good Guy With A Gun Stops Mall Shooter — Now A Judge Is Punishing Him | Jeff Charles, Townhall A 19-year-old Michigan man was sentenced to two years of probation for carrying a concealed weapon after fatally shooting a gunman in self-defens"
+          "postId": "2098752882468172272",
+          "author": "johnbrad64",
+          "searchJob": "auburn",
+          "text": "@ben05AU @disinfectantsp1 Well according to Jon he didn’t think Florida would pick him for the job when he was doing the interviews. He said he was shocked and ecstatic when Florida actually offered and he couldn’t refuse the job. Nothing t"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098763982551044565",
-          "author": "thekingbuckeye",
-          "searchJob": "michigan",
-          "text": "🚨🚨I’m trying to tell y’all now 🚨🚨 That Michigan, Oklahoma game is gonna be much closer and then what a lot of people are believing. Michigan has been publicly humiliated. They are the United States of America public enemy number 1. The "
+          "postId": "2098768612550987970",
+          "author": "mickdwalker",
+          "searchJob": "ohio-state",
+          "text": "NEW: Texas is hosting nearly 100 recruits tonight. Ohio State has targets all over that list, especially on defense🔥 Who's visiting, who has offers, and where the Buckeyes stand ⤵️ Read: https://t.co/Pj6hpsa6sz https://t.co/MLCYUBfcpE"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098763848241295444",
+          "author": "therealdidiu",
+          "searchJob": "oklahoma",
+          "text": "@raabenducks1 @oregonfootball Little fun fact. My wife worked as a nurse in Stillwater for 2 weeks. The day we left for Oklahoma Good Samaritan in Albany called and asked if she wanted to interview for a nursing job there. Two weeks later A"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098760339810594917",
+          "author": "spiritben",
+          "searchJob": "ole-miss",
+          "text": "Ole Miss vs. Charlotte: How to watch, start time, odds and what to know ↙️ “Nobody on Charlotte we offered a scholarship to come to Ole Miss. If that’s the case, you should come out and play in dominant fashion.” 🔗 https://t.co/TZVAxQ29Jb "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098763404320100646",
-          "author": "hargtimes",
-          "searchJob": "michigan",
-          "text": "This has officially become my #2 self-pisser-offer, beating out this hellsite in general but still behind window shopping prices at Michigan dispensaries."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098747174620164271",
-          "author": "nufbrecruiting",
-          "searchJob": "michigan",
-          "text": "There’s been a lot of talk lately, and rightly so, about the highly anticipated opening of the new Ryan Field. But let’s not lose sight of the fact that Northwestern already boasts one of, if not the, finest football training complexes in a"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098743678399381636",
-          "author": "thespartanmag",
-          "searchJob": "michigan",
-          "text": "VISITOR PREVIEW: Three recruits that could earn Michigan State offers this weekend... (On3+): https://t.co/gy7UBDhNsJ https://t.co/3fXjLsALJG"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098748876236726337",
-          "author": "revdrjestus",
-          "searchJob": "minnesota",
-          "text": "Offer Minnesota as evidence. Vote wisely."
-        },
-        {
-          "reason": "reporter_missing_position",
-          "postId": "2098754101815201806",
-          "author": "coach_hadac",
-          "searchJob": "boston-college",
-          "text": "@Nesto_2028 @TheTexansCoach @coachbenalbert 2028 CT @5StarFBRecruits picks up an offer from Boston College👀🔥🦅"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098758424771064243",
-          "author": "redinablustate",
-          "searchJob": "houston",
-          "text": "We offer you cali kush indoor weed plus vapes, disposable vape, hash, carts, edibles, gummies, and pre-rolls in the city, Plug in: Chicago, Houston, Phoenix, Philadelphia, San Diego, Dallas, San Jose, Austin, Seattle, Denver, Boston, Atlant"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098745602418815184",
-          "author": "tractorreport",
-          "searchJob": "utah",
-          "text": "Utah offers ‘unprecedented’ 0% loans for farmers amid difficult drought, wildfire year https://t.co/ToLBB7oSEI"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098743216258375969",
-          "author": "bort789",
-          "searchJob": "utah",
-          "text": "@LDS_Dems Suicide to avoid capture is a hell of a lot different than an entire religion that commands slaughter of infidels and offers rewards in heaven for suicide attacks. If the LDS doctrinally agrees with that I’m entirely okay with tur"
+          "postId": "2098751689557688756",
+          "author": "camlippoldtgolf",
+          "searchJob": "kansas",
+          "text": "@CycloneLarry69 Can always count on cyclone larry to offer a funny tweet after a Kansas tragedy. Good to see you on the TL again 🫡"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098758673954726093",
-          "author": "ehmtehf",
-          "searchJob": "buffalo",
-          "text": "I believe no one wants to replace him. Because Aston is that trashy team that no one wants to drive for. Maybe you could ask one of the former drivers like Felipe Drugovich, but I bet he would kindly decline. Maybe get Jack Doohan, he will "
+          "postId": "2098762626931028435",
+          "author": "tweets_by_maia",
+          "searchJob": "coastal-carolina",
+          "text": "Developing the marine economy offers endless possibilities for coastal youth employment. Focused policies empower local businesses to expand and create jobs. PMParty In Coast. Mabadiliko NiSasa. #CalebAmisiNaPM. #PmPartyInMombasa. https://t"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098762325083771059",
+          "author": "coastalkaty",
+          "searchJob": "coastal-carolina",
+          "text": "This is what 17th-floor coastal living looks like. Beach Club A1702 pairs sweeping Gulf views with an updated, fully furnished 2-bedroom, 2-bath interior and all the resort amenities of The Beach Club. Now offered at $560,000. Video tour: h"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098762324651790531",
+          "author": "gattiteam",
+          "searchJob": "coastal-carolina",
+          "text": "This is what 17th-floor coastal living looks like. Beach Club A1702 pairs sweeping Gulf views with an updated, fully furnished 2-bedroom, 2-bath interior and all the resort amenities of The Beach Club. Now offered at $560,000. Video tour: h"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098756698588487773",
+          "author": "pakameoww",
+          "searchJob": "coastal-carolina",
+          "text": "@AlumniPlaza The blue economy offers massive opportunities for small coastal enterprises. Strategic leadership helps local entrepreneurs thrive in expanding markets. PMParty In Coast. Mabadiliko NiSasa. #CalebAmisiNaPM. #PmPartyInMombasa."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098748437504098555",
+          "author": "uphonestreal",
+          "searchJob": "coastal-carolina",
+          "text": "🗺️⚡ THE INTERNET IS VERY GOOD AT SHOWING US WHERE EVERYONE GOES. Top 10 attractions. Most popular restaurants. Best beaches. Must-see viewpoints. Instagram hotspots. 😂 And that's exactly the problem. Because some of the best places aren't"
         }
       ]
     },
@@ -282,11 +265,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 18,
+      "rejectedCandidates": 12,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-12T13:28:01.543Z"
+    "status rebuilt locally from current store on 2026-09-12T13:58:11.678Z"
   ]
 }
