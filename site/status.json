@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T17:26:28.466Z",
+  "generatedAt": "2026-09-12T17:43:02.681Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-12T17:26:28.196Z",
+    "at": "2026-09-12T17:43:02.332Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7527566666666666,
-    "p95Hours": 1.5012752777777778,
-    "worstHours": 1.5012752777777778
+    "medianHours": 0.7784077777777778,
+    "p95Hours": 1.5249922222222223,
+    "worstHours": 1.5249922222222223
   },
   "decisionCoverage": {
-    "total": 24,
-    "decided": 24,
+    "total": 60,
+    "decided": 60,
     "complete": true
   },
   "pending": {
@@ -49,210 +49,373 @@
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 1066,
+    "completeOffers": 1067,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-12T17:26:28.196Z",
-      "got": 32,
-      "new": 24,
-      "lag": 0.07
+      "at": "2026-09-12T17:43:02.332Z",
+      "got": 99,
+      "new": 60,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-12T17:24:51.020Z",
+    "at": "2026-09-12T17:41:22.200Z",
     "mode": "live",
     "collection": {
-      "returned": 32,
-      "kept": 24,
-      "duplicate": 8,
+      "returned": 99,
+      "kept": 60,
+      "duplicate": 39,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 15,
-      "rejected": 9,
+      "accepted": 38,
+      "rejected": 22,
       "reasons": {
-        "no_fbs_school": 4,
-        "no_offer_term": 5
+        "hard_negative": 4,
+        "non_fbs_offer_target": 2,
+        "no_offer_term": 9,
+        "no_fbs_school": 7
       },
       "samples": [
         {
+          "reason": "hard_negative",
+          "postId": "2098815370916143218",
+          "author": "mrencouragement",
+          "searchJob": "liberty",
+          "text": "🙄 Here we go, the standard, dismissive “You just don’t understand Calvinism™️” gambit. There are four problems here: 1. I referenced Calvin’s writing in my post which you replied to. You already know I have read at least some of his works."
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098823103165952092",
+          "author": "lamierbrayjr",
+          "searchJob": "ohio",
+          "text": "I am extremely blessed to receive my first offer from Ohio Wesleyan University! @CoachTomWatts @CoachShaqWash @CoachDarden34 https://t.co/xB7PmwU62d"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098820495030325738",
+          "author": "arsenal",
+          "searchJob": "rice",
+          "text": "On location. 📍 Stadium of Light https://t.co/iXsBgg1EvN"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098814884804804777",
+          "author": "gothburz",
+          "searchJob": "rice",
+          "text": "https://t.co/i9AMPmmczm"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098806178705019298",
+          "author": "karanbirbrar250",
+          "searchJob": "rice",
+          "text": "This isnfar from the truth.... Before sanctions by the USA, India was in co-operation with Tehran building the Chabahar port. From our point of view, we had to understand duress abandon this project due to the large financial dealings of In"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098794837860606400",
+          "author": "theliverdoc",
+          "searchJob": "rice",
+          "text": "Two grown ass men on high chairs and the woman seated on the ground. This shithole country will never become any super power or whatever the government keeps chest thumping about, unless we have these troglodyte generation and it's enablers"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098823931171930258",
+          "author": "813strategies",
+          "searchJob": "texas",
+          "text": "https://t.co/CnvZQApX0E"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098820821682667685",
+          "author": "ethanplinsky",
+          "searchJob": "texas",
+          "text": "Tivy junior WRs Kyrin (No. 5) and Kenyon Armelin (No. 2) have received their third dual offer, this time from Texas A&amp;M. The twins both hold offers from Texas Tech, Houston and now their first SEC offer in A&amp;M. https://t.co/EtnCJEix"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098820360158494978",
+          "author": "rottdawg",
+          "searchJob": "texas",
+          "text": "I used to think the watchers were watching out for us. I was wrong. Full piece below. https://t.co/Yxx5ver1wD"
+        },
+        {
           "reason": "no_fbs_school",
-          "postId": "2098809483099001337",
-          "author": "lottiesxworld",
-          "searchJob": "charlotte",
-          "text": "WTS | BTS MERCH 💜 Selling for @JeonZy1997 1. BTS “Us, Ourselves” Photo-Folio — $32 2. 2021 The Fact BTS Photobook Special Edition China — $56 3. Jung Kook VOGUE Magazines ×4 — $10.84 each 4. Jung Kook DAZED Magazine ×1 — $29.55 5. Jung Koo"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098822369372422399",
-          "author": "landofpuntites",
-          "searchJob": "coastal-carolina",
-          "text": "https://t.co/nOo5uWXwL1"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098821690348261390",
-          "author": "kilwhissgroup",
-          "searchJob": "coastal-carolina",
-          "text": "https://t.co/aesTKOhcCg"
+          "postId": "2098818931205296130",
+          "author": "_elysium_spa",
+          "searchJob": "texas",
+          "text": "If traditional meditation feels overwhelming, passive distance reiki offers a calm alternative. Simply set the intention to receive as you drift off to sleep."
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098805852035518890",
-          "author": "onekindesign",
-          "searchJob": "wyoming",
-          "text": "A steel and glass pavilion offers a serene guest house in Wyoming https://t.co/ldavAeZy72 https://t.co/RPskkHRM1c"
+          "postId": "2098810743143453035",
+          "author": "prep2play",
+          "searchJob": "texas",
+          "text": "🚨👀👀🚨 PrepStar Elite 360 ‘27 WR @pierce_fioroni | Lubbock Cooper HS 📏6’1” 170 🎓4.2 GPA ⏱4.52 40 🧰34” Vertical 💪245 Bench | 320 Squat Profile &amp; 🎥: https://t.co/2twyq3HGBI ✅OFFERS: 4"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098781336299311546",
+          "author": "pierce_fioroni",
+          "searchJob": "texas",
+          "text": "207 all-purpose yards | 142 receiving | 65 KOR | 6 catches | 1 TD | Great team win over Midland Greenwood. Just getting started. 🗣️ @matthew_lynch15 @JoeSexton34 @LibertyRecruits @806hsscmedia @CSAPrepStar @CoachWhiteDB1 @PrepRedzoneTX @Co"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098823366480208069",
-          "author": "zaydenh10",
-          "searchJob": "georgia",
-          "text": "After a great conversation with @Coach_Fleck Minesotta offered https://t.co/v9y7ofzD54"
+          "postId": "2098809135097590203",
+          "author": "lmozisek",
+          "searchJob": "texas",
+          "text": "@Arkypatriot @Saundranonna At least they have both. Some hotels only offer that turkey 💩. 🤮🤮🤮🤮"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098822088802865542",
-          "author": "1exposethemedia",
-          "searchJob": "georgia",
-          "text": "It’s hilarious watching Democrats scream that Trump is trying to buy votes with the $5,000 dividend he proposed. All Democratic politicians do is buy votes with: • COVID stimulus checks they literally campaigned on in Georgia • Student loan"
+          "postId": "2098808894113943625",
+          "author": "texasonx_",
+          "searchJob": "texas",
+          "text": "@Chrisslimz Nah every girl my boss All girls has nothing to over The one wey broke has nothing to offers too"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098809676976513336",
-          "author": "voidelur",
-          "searchJob": "arizona",
-          "text": "@skineater2009 @zzysie He attempted rape and molested a few minors on a con, which resulted in him being kicked and banned from most of polish cons"
+          "postId": "2098807600863412538",
+          "author": "alexjlevy",
+          "searchJob": "ucla",
+          "text": "BRUINS - Let’s pack the Rose Bowl! I have 4 FREE tickets to today’s @UCLAFootball game and want them in the hands of Bruins who will be there cheering. Family of 4 or two groups of 2. If tickets aren’t in the budget and you’d love to go, re"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098822594422022587",
+          "author": "willbrookins",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with coach @NewBobDaviesFB, I'm blessed to receive my 2nd offer from the university of Hamline! @OJW_Scouting @NWahlScouting @AllenTrieu @PrepRedzoneMN @AHA_Football https://t.co/yx7P6iPut1"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098820693257240665",
+          "author": "calebervin2027",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great visit I am extremely blessed to receive my first basketball offer from The College of Wooster. Huge thank you to Coach Cline and Coach Stevens for believing in me, and for my familiy’s support. Just the beginning the work cont"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098820348812632267",
+          "author": "chrisleneave_",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer from William Woods University! @C_Wade09 @BKHS_Football @904thDown @CS904_ @CoachTKrause https://t.co/nNCnn3ZPbU"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098818296518729762",
+          "author": "gwilsonfball64",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer to continue my academic and football career at Hendrix College! Thank you Coach Schultz, Coach Buchanan, and the entire @HendrixFootball staff for this opportunity! 🏈 #GoWarriors https://t.co/rNnRhWUDO7"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098826937917423825",
+          "author": "raymiramontes_",
+          "searchJob": "california",
+          "text": "🏡 Looking for a 3-bedroom home in Long Beach? Here’s what $839,900 gets you. 🚨 Interested? Call or text Ray directly at 562-600-9793 for the address, photos & full details. Located in West Long Beach, this spacious single-story home offer"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098813973714149757",
-          "author": "thedankoe",
-          "searchJob": "wake-forest",
-          "text": "https://t.co/LalU5XENsk"
+          "postId": "2098773920774074715",
+          "author": "darioamodei",
+          "searchJob": "california",
+          "text": "We Must Pace the Frontier: I’ve written a new essay on why the AI industry should slow down, with a three-part plan for doing so. Anthropic is unilaterally committing to the first of these steps. We’ll provide third-party evaluators with pe"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2098423055525539849",
-          "author": "breaking911",
-          "searchJob": "wake-forest",
-          "text": "SEPTEMBER 11 2001: Palestinians celebrating the horrific terrorist attacks in New York City. https://t.co/6lWEaRKCFw"
+          "reason": "hard_negative",
+          "postId": "2098807605481119909",
+          "author": "srskip8",
+          "searchJob": "california",
+          "text": "THE MONSTER THAT LURES WITH LIGHT: INSIDE THE STRANGEST PREDATOR IN THE OCEAN Somewhere in the crushing blackness of the deep ocean, a light just switched on, and for one small fish, it will be the last thing it ever sees. There is no sun d"
         }
       ]
     },
     "extraction": {
       "accepted": 1,
-      "rejected": 14,
+      "rejected": 37,
       "reasons": {
-        "school_not_resolved_confidently": 5,
-        "bare_mention_requires_llm": 4,
-        "multiple_resolved_schools": 3,
-        "reporter_missing_class_year": 1,
-        "reporter_missing_player_name": 1
+        "bare_mention_requires_llm": 24,
+        "multiple_resolved_schools": 4,
+        "reporter_missing_player_name": 1,
+        "school_not_resolved_confidently": 7,
+        "player_missing_football_context": 1
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098802822795927692",
-          "author": "chase_senior",
-          "searchJob": "charlotte",
-          "text": "The 49ers showed that traveling to a Australia for an NFL game is doable and Melbourne proved to be an incredible host. Roger Goodell said this was the most passion an international host showed for an NFL game in their country. I wonder if "
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098821150684205066",
+          "author": "rakeshsfnyc",
+          "searchJob": "hawaii",
+          "text": "Bad mobile parking flow examples. WeHo, Beverly Hills, LA, Kailua. Hawaii was novel in that they offered free parking for locals — and you had to prove it with ID. I support that market segmentation. Yes, I do dissect UX of everything I enc"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098807926370468205",
-          "author": "coastalbliss",
-          "searchJob": "coastal-carolina",
-          "text": "For hikers looking beyond ordinary trails, Vancouver Island offers something special. The West Coast Trail, Cape Scott, and Nootka Island Trail deliver true wilderness adventures beside the Pacific. 🌊 #BackpackingBC https://t.co/k5GylCFgCG"
+          "postId": "2098824891101589830",
+          "author": "andrewa60722973",
+          "searchJob": "liberty",
+          "text": "@DineshDSouza nor hath fellowship w any therein, nor is violence offered to the will of the Creature, nor yet is the liberty or contingency of 2nd causes taken away, but rather established, in which appears his wisdom in disposing all thing"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098819570203046379",
-          "author": "abrahamunity17q",
-          "searchJob": "wyoming",
-          "text": "@SenLummis Senator. If Clarity dies, the vacuum does not belong to one party’s press shop. It belongs to every office that had the votes and liked the fog. You are right about the substance. No federal disclosure. No clean delist path for t"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098824556622307779",
-          "author": "recruitgeorgia",
-          "searchJob": "georgia",
-          "text": "Newton sophomore RB has been on a tear the last few weeks &amp; earns a #BIG10 offer from Minnesota #RecruitGeorgia"
+          "postId": "2098823686614810805",
+          "author": "b1akerudy",
+          "searchJob": "liberty",
+          "text": "Thank you @RodDMartin 25 Trump-47 Accomplishments: Trump Restored American Safety and Sovereignty 1. He made the border a real border again. In a matter of months, Trump reduced illegal border crossings to their lowest level in half a centu"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098819270884859944",
-          "author": "bjhomes",
-          "searchJob": "georgia",
-          "text": "Georgia Offers Unique Opportunities for Young Homebuyers A recent study shows Georgia ranks 39th in the nation for mortgage applications from adults under 35, with just 17.9% of conventional applications in 2025 coming from this group. Inte"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098819253604344192",
-          "author": "dawgs_report",
-          "searchJob": "georgia",
-          "text": "@QuintonGlennSR @Rivals @JeremyO_Johnson @ugasportscom @RustyMansell_ @ReuseRecruiting @ChadSimmons_ @CharlesPower @samspiegs @CodyBellaire @mickdwalker You realize he’s was all Georgia for a while until Ohio State offered 1.7 right?😂."
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2098823904542281886",
-          "author": "dmillz1988",
-          "searchJob": "kentucky",
-          "text": "@moneyline_murph @KSRTHESHOW Cause he wasn’t offered by Kentucky"
+          "postId": "2098817786680152128",
+          "author": "ocnyrider",
+          "searchJob": "liberty",
+          "text": "I BET YOU DIDN'T KNOW ABOUT THIS: AFTER FLIGHT 77 HIT THE PENTAGON ON 9/11, THE FOLLOWING HAPPENED: A daycare facility inside the Pentagon had many children, including infants who were in heavy cribs. The daycare supervisor, looking at all "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098823469983007200",
-          "author": "tucsonstar",
-          "searchJob": "arizona",
-          "text": "Michael Lev column: For Arizona student-athletes Molly Ladwig and Bryce Melton, Big 12 Beyond Borders offers a chance to meet new people and see the world in a different light. https://t.co/2p5nLqwbIg"
+          "postId": "2098816541538365931",
+          "author": "undergroundnot5",
+          "searchJob": "liberty",
+          "text": "In his September 10, 2026 address at the Republican midterm convention, Robert F. Kennedy Jr. offered a forthright defense of Western liberal values by distinguishing the toxic ideology of Islamism, which, by its own accounts, wages an exis"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098822964653306069",
-          "author": "thewildcaster",
-          "searchJob": "arizona",
-          "text": "Michael Lev column: For Arizona student-athletes Molly Ladwig and Bryce Melton, Big 12 Beyond Borders offers a chance to meet new people and see the world in a different light. https://t.co/9wCl7hfQvy"
+          "postId": "2098808027100909698",
+          "author": "jayantkrishnain",
+          "searchJob": "liberty",
+          "text": "Nice to have visited the ultra tall statue of the Garuda Wisnu Kencana statue, located inside the Garuda Wisnu Kencana Cultural Park @gwk_bali in Ungasan, #Bali - a new development which didn't exist during our last holiday in Bali, Indones"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098817578982367328",
-          "author": "jamestactics",
-          "searchJob": "wake-forest",
-          "text": "A very poor half from Milan, the players are playing with no urgency at all, Ramos is consistently pressing Lazio’s backline just for his teammates to watch him. They are not joining him in the press, or blocking down passing lanes at all. "
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098827077487128702",
+          "author": "shea_family",
+          "searchJob": "louisiana",
+          "text": "https://t.co/6vtXfhzQK7 💜💛 Geaux Think 🐯🐯🐯 LSU Style 💛💜Every day, whether I’m cheering on LSU, lifting up family, or showing Louisiana love, I come back to five simple questions 🐯 a little “Geaux Think” wisdom that keeps my heart st"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098812988371152933",
-          "author": "lordgem3",
-          "searchJob": "wake-forest",
-          "text": "Never let them tell you that this wasn't in the wake of the most generous peace offer ever made to Palestinians. Including their own state, with any lands taken being matched."
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098829086395179174",
+          "author": "based_bucee",
+          "searchJob": "ohio",
+          "text": "@KirkHerbstreit Ohio State immediately offers him $5m NIL deal."
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098812924886208963",
-          "author": "davewave020",
-          "searchJob": "wake-forest",
-          "text": "@the_mcquade Yes, my wife uses a cane, and regularly gets offered a seat on the tube. But in her wake, I now find myself regularly turning down seat offers from other well meaning young people. I turn them all down in a vain attempt to demo"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098804453977530564",
-          "author": "anotherhomocon",
-          "searchJob": "wake-forest",
-          "text": "Wake up, correct the error in this meme and then go back to bed because I am obviously not mentally prepared for what the day has to offer me. https://t.co/J0hk3M8iAm"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098826515618124139",
+          "author": "cantonrepdotcom",
+          "searchJob": "ohio",
+          "text": "When will Ohio get its first batch of snow? Farmers' Almanac offers prediction https://t.co/LV6yavajxo"
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2098820386158674099",
-          "author": "bryan_ault",
-          "searchJob": "phrase:\"picks up an offer from\"",
-          "text": "Pendleton Heights TE/edge picks up an offer from Miami-Ohio."
+          "postId": "2098825071582122488",
+          "author": "kyleneddenriep",
+          "searchJob": "ohio",
+          "text": "Pendleton Heights TE Sam Behrendt offered by Miami (Ohio)"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098821663760470524",
+          "author": "loudchap5",
+          "searchJob": "ohio",
+          "text": "@amyactonoh Insufferable, vague… Nothing but platitudes, leftist propaganda. Obvious that you were a broken person, not to lead Ohio. All you offer is tax and spend, “ vote for me because I am a woman”. These are not platforms that are goin"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098828570197958825",
+          "author": "bricemarich",
+          "searchJob": "rice",
+          "text": "#Michigan has offered Bloomfield Hills (Mich.) Brother Rice 2029 four-star CB Kameron Lowe. The talented youngster currently visiting today. https://t.co/Irhnvusraw"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098821782434107488",
+          "author": "blackveron",
+          "searchJob": "rice",
+          "text": "THIS ARSENAL XI IS A TITLE STATEMENT WAITING TO HAPPEN. 🔴⚪ Looking at this starting XI against Sunderland tonight, I see a team with balance, technical quality and enough individual match-winners to hurt any Premier League side. As a scout"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098819427324088776",
+          "author": "apswellness",
+          "searchJob": "rice",
+          "text": "Roast extra vegetables, grill more chicken, batch-cook whole grains like rice or quinoa, or make a larger pot of soup to enjoy later in the week. Having ready-to-eat ingredients on hand makes busy evenings less stressful and less tempting t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098817599064899857",
+          "author": "mars_krishna",
+          "searchJob": "rice",
+          "text": "When I go to America, I am offered NON VEG only. Is it not that America is forcing their NON VEG FOOD on me.. \"Expecting world should ALSO follow\"- works both parties, NOT JUST INDIANS... Come out of silly mentality that If word does it FIN"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098815484946944165",
+          "author": "maria_fofuchaa",
+          "searchJob": "rice",
+          "text": "Brand new from ATK, Stuffed Cabbage Soup from offers the comforting taste of stuffed cabbage in a satisfying weeknight meal. It features browned beef, caramelized tomato paste, pumpkin pie spice, shredded cabbage, rice, and raisins, all bal"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098810847309000971",
+          "author": "alexvatanka",
+          "searchJob": "rice",
+          "text": "I am just telling it as I see it. Iran buying most of India's basmati rice exports does not change the fact (right or wrong, different story) that Iran sees (as do others in the region) India as Israel's partner in the Middle East This US/I"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098808370673111138",
+          "author": "marktrenton5543",
+          "searchJob": "rice",
+          "text": "This piece of shit is the worst India offers. A converted piece of shit rice bag, this type of species are found in the state of Kerala. They shit on their country and try to be a brown sepoy licking their masters feet. he does everything e"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098826474149019911",
+          "author": "bradnorgle",
+          "searchJob": "texas",
+          "text": "I have spare My Chemical Romance tickets for Alamodome Section PIT, really gutted about missing The Black Parade. Selling at face value or best offer iso wts my chemical romance tickets texas #MCR #SanAntonio #Texas https://t.co/2cvP8mndAQ"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098825209302376744",
+          "author": "paklaunchdotcom",
+          "searchJob": "texas",
+          "text": "We are pleased to welcome Faraan Irfan, Founder & CEO of @SaareyMusic , to Paklaunch UNConference ’26.2 in New York. Faraan Irfan is an entrepreneur and music-tech leader building at the intersection of culture, technology, and global acces"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098825138158420093",
+          "author": "nathanieljruss",
+          "searchJob": "texas",
+          "text": "HUGE thank you to CareSource for sponsoring our tour of the OSU Stadium ahead of the big game tonight against Texas!! CareSource has amazing healthcare benefits and up to $287/mo to help pay for life expenses. DM me to see if you are eligib"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098820323374186501",
+          "author": "txvalues",
+          "searchJob": "texas",
+          "text": "🇺🇸 TEXAS FAITH FEST FLASH SALE: 50% OFF FORUM & $25 OFF PRIVATE DINNER! We heard so many of you missed the flash sale due to the RNC Midterm Convention that we wanted to offer it again! Join us at Steiner Ranch Steakhouse in the heart of "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098815855060550119",
+          "author": "26thandguad",
+          "searchJob": "texas",
+          "text": "@TateCasey84 @texas_univ @tedcruz @CollegeGameDay Maybe dont crash college gameday with a personally unpopular politician before 9AM for a PSA on Cody Campbell’s pet legislation that offers zero benefit to Texas. Finally glad my alma mater "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098811437850186236",
+          "author": "txtpassportvisa",
+          "searchJob": "texas",
+          "text": "🌍✈️ Ready to travel without the stress? At Texas Tower Passport and Visa Services, we offer Express Passport Turnaround for a smoother journey! Imagine holding your passport in hand, ready for your next adventure, all while keeping your st"
         }
       ]
     },
@@ -267,11 +430,11 @@
     },
     "outcome": {
       "acceptedEvidence": 1,
-      "rejectedCandidates": 14,
+      "rejectedCandidates": 37,
       "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-12T17:26:28.467Z"
+    "status rebuilt locally from current store on 2026-09-12T17:43:02.682Z"
   ]
 }
