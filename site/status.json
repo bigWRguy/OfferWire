@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T03:57:52.870Z",
+  "generatedAt": "2026-09-12T04:13:00.770Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-12T03:57:52.620Z",
+    "at": "2026-09-12T04:13:00.574Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7706822222222223,
-    "p95Hours": 1.2718572222222222,
-    "worstHours": 1.5249516666666667
+    "medianHours": 0.7764283333333334,
+    "p95Hours": 1.2762952777777778,
+    "worstHours": 1.524051388888889
   },
   "decisionCoverage": {
-    "total": 15,
-    "decided": 15,
+    "total": 16,
+    "decided": 16,
     "complete": true
   },
   "pending": {
@@ -55,146 +55,154 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-12T03:57:52.620Z",
-      "got": 35,
-      "new": 15,
-      "lag": 0.21
+      "at": "2026-09-12T04:13:00.574Z",
+      "got": 48,
+      "new": 16,
+      "lag": 0.11
     }
   },
   "audit": {
-    "at": "2026-09-12T03:56:14.589Z",
+    "at": "2026-09-12T04:11:29.270Z",
     "mode": "live",
     "collection": {
-      "returned": 35,
-      "kept": 15,
-      "duplicate": 20,
+      "returned": 48,
+      "kept": 16,
+      "duplicate": 32,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 9,
-      "rejected": 6,
+      "accepted": 11,
+      "rejected": 5,
       "reasons": {
-        "no_offer_term": 4,
-        "no_fbs_school": 2
+        "no_offer_term": 3,
+        "non_fbs_offer_target": 1,
+        "no_fbs_school": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2098600023118299512",
-          "author": "telegramdotcom",
-          "searchJob": "massachusetts",
-          "text": "These 3 Massachusetts colleges have the 'highest payoff,' per Forbes https://t.co/L43JNkZZVS"
+          "postId": "2098609199634935869",
+          "author": "smurlidharan",
+          "searchJob": "troy",
+          "text": "https://t.co/2OruLKcqqT"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098509686287044830",
+          "author": "adixtherapist",
+          "searchJob": "northwestern",
+          "text": "@RealDalitMata @wasteyavvaralu But according to Hinduism, a mleccha can't be a Hindoo. And Hindoos shouldn't even talk to Buddhists because, if they do, they will supposedly be born as a dog in their next life. You know, this is written in "
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098623930831352182",
+          "author": "joshua_naylon",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Blessed to receive a D1 offer from Alabama A&amp;M @AamufbR ! #AGTG @KenyattaMcCoy @DBCoachMcCoy @SenatorsFB @ALPreps @Alabama_Varsity @PrepRedzoneAL @aldotcomPreps @AL_Recruiting @AL6AFootball @RivalsHS @Rivals @247recruiting @247Sports @O"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098605785722823085",
-          "author": "iasanityreport",
-          "searchJob": "iowa",
-          "text": "Three weeks after 9/11 a couple of us went on a tour of Great Britain. We were very hesitant to go but it was a better than anticipated trip. All the British we had contact with offered their heartfelt condolences. We were surprised at how "
+          "postId": "2098609831208763604",
+          "author": "georgianbay6",
+          "searchJob": "charlotte",
+          "text": "@Ghostofcynthia I think it is a brilliant idea. Offer the $5K and require proof of citizenship and a valid photo ID to accept it."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098381022186369444",
-          "author": "redelitist",
-          "searchJob": "iowa",
-          "text": "2 days post 9/11, HM Queen Elizabeth II ordered the playing of the Star Spangled Banner during the Changing of the Guard at Buckingham Palace. This marked the first ever time a foreign anthem was played during the ceremony. Today, The King "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098615181131514309",
-          "author": "hv3livtracker",
-          "searchJob": "michigan",
-          "text": "@stoolpresidente https://t.co/pNVDzatbU8"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098615116149223508",
-          "author": "hv3livtracker",
-          "searchJob": "michigan",
-          "text": "@GBM_Wolverine A another unpopular truth https://t.co/pNVDzatbU8"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098611926557147239",
-          "author": "chaztutt25",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @KHOWCU I am bless to receive another offer from concord university https://t.co/YJfdHaHyrg"
+          "postId": "2098604185981739449",
+          "author": "allamay_shi",
+          "searchJob": "navy",
+          "text": "https://t.co/GQvnhjMJBZ"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 11,
       "reasons": {
-        "bare_mention_requires_llm": 5,
-        "multiple_resolved_schools": 3,
-        "author_not_recruit:different sport": 1
+        "bare_mention_requires_llm": 8,
+        "author_not_recruit:not high-school recruit": 1,
+        "multiple_resolved_schools": 2
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098607542490353726",
-          "author": "alohastatedaily",
-          "searchJob": "hawaii",
-          "text": "Previously, Roy’s Hawaiʻi Kai offered brunch for special occasions. Now customers can enjoy the restaurant’s brunch menu every Sunday. The menu features a variety of sweet and savory dishes like souffle pancakes or crab cake eggs Benedict. "
+          "postId": "2098616731854123385",
+          "author": "genxdegenerate",
+          "searchJob": "kent-state",
+          "text": "I had one of the biggest shockers of my life today. I have to tell this story to get it off my chest. Its personal family stuff, but Im in no way personal with extended family so who cares. I havent talked to my sister in 15 years. My niece"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098600524429844823",
-          "author": "jucofootballace",
-          "searchJob": "louisiana-tech",
-          "text": "TyDarion Grier @TyGrier11 @ Itawamba JuCo @LetsGoICC picks up @LATechFB Offer #PhotoCred @msscoreboard @Coach_Lovertich @LetsGoICC_FB @jucoweekly @MSJUCOREPORT https://t.co/Qc9KCADih9"
+          "postId": "2098601339437670807",
+          "author": "redinablustate",
+          "searchJob": "toledo",
+          "text": "We offer you cali kush and indoor weed plus vapes, disposable vape, hash, carts, edibles, gummies, and pre-rolls in the city, Plug in: Santorini, Sintra, Bath, Toledo, Verona, Queenstown, Hoi An, Banff, Siena, Ronda, Carmel-by-the-Sea, St. "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098615479765999798",
+          "author": "rian_vlbt",
+          "searchJob": "northwestern",
+          "text": "\"According to Hinduism, a mleccha can't be a Hindoo\" Here we go again (and over again): “Let us make the whole world Aryan.” - Ṛg Veda (9.63.5) “These bountiful gods raised the Sun to heaven, spreading the Aryan ordinances over the earth.” "
+        },
+        {
+          "reason": "author_not_recruit:not high-school recruit",
+          "postId": "2098622755532927198",
+          "author": "theportalscoop",
+          "searchJob": "oklahoma",
+          "text": "RJ Hasberry sophomore combo guard from Hazel Green High School has received an offer from Oklahoma State! Hasberry is poised for a massive sophomore campaign and his recruitment has started to pick up dramatically! The stock is rising quick"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098612680806265333",
-          "author": "auntiesam_2",
-          "searchJob": "arkansas",
-          "text": "Thats because after decades of our annual rivalry game, when Mizzou left the Big 12 in 2012, Kansas refused an offer to keep the rivalry going. For 13 years, we played zero games until a new agreement was reached and we played our first gam"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098603711480144238",
-          "author": "wild_hog13",
-          "searchJob": "arkansas",
-          "text": "@JolliestUte Arkansas didn’t offer"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098618860660257154",
-          "author": "kyusho_alliance",
-          "searchJob": "michigan",
-          "text": "What are the Gun Defense Laws? Learn the Facts about Gun Crime and Defense from former Detroit Michigan Police Offer Kara Borshuk. Follow this link to learn more now. #kyusho #pressurepoints #kyushojitsu #freekyusho https://t.co/2WDPVzPX6v"
+          "postId": "2098619025869725973",
+          "author": "fravel_ryan",
+          "searchJob": "ole-miss",
+          "text": "BREAKING: Class Of 2028 4⭐ EDGE Jeremiah Figaro will visit Notre Dame this weekend for the game against Rice! This will be his second visit to South Bend, his last coming in June. He currently holds 25 FBS Offers from the likes of Notre Dam"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098618635048698037",
-          "author": "victorsducky",
-          "searchJob": "michigan",
-          "text": "@intrinsicvalyou @Metaleka_ @NDFootball @OleMissFB @oregonfootball Michigan offers over 300-400 players a year you fucking casual 🤣 that don’t mean they recruit all of them dumbass"
+          "postId": "2098618844310905191",
+          "author": "fravel_ryan",
+          "searchJob": "ole-miss",
+          "text": "BREAKING: ELITE Class Of 2028 4⭐ OT Wyatt VanBoening will visit Notre Dame this weekend for the game against Rice! This will be his 4th trip to South Bend, the most of any team that has offered him. He currently holds 18 FBS offers from the"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098605660250272047",
-          "author": "gl8bal_sports",
-          "searchJob": "michigan",
-          "text": "Isaiah Miller 360 no look falling away so good needed to be reviewed. Won the Division 1 state chip (Michigan) Famously offered a scholarship @ 13 yrs old making him the youngest player in the state of Michigan's history to receive a major "
+          "postId": "2098624184255390062",
+          "author": "_taeborwilliams",
+          "searchJob": "penn-state",
+          "text": "@N3XTrecruiting @PennStateFball 12 Offers Currently !"
         },
         {
-          "reason": "author_not_recruit:different sport",
-          "postId": "2098608631025475669",
-          "author": "romanmaurizio28",
-          "searchJob": "minnesota",
-          "text": "#AGTG After a great camp this summer and an awesome conversation yesterday with @Callybrian, I am excited to say I have earned an offer from The University of Minnesota! #RTB Special thanks to @CoachLimegrover! I hope to be on campus for a "
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098620281879134429",
+          "author": "mancityladz",
+          "searchJob": "kansas",
+          "text": "Matt Gildersleeve needs to get away from Lawrence, Kansas. What a waste of talent, coaching, leadership he is in that program. Should’ve accepted Alabama as soon as it was offered."
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098618000836292668",
-          "author": "ashlanddog",
-          "searchJob": "missouri",
-          "text": "...Unleashed 9.11.26... ...No Jesus, No peace...Know Jesus, Know Peace... “Thou therefore endure hardness as a good soldier of Jesus Christ.” 2 Timothy 2:3 ...Thru the Bible with Dr. J. Vernon McGee Exodus 12:1-13... Get ready to see Christ"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098618715092722006",
+          "author": "nolietees",
+          "searchJob": "virginia",
+          "text": "EVEN MORE REASON for Donald Trump to release the client list. Surely you do NOT think Trump is protecting Bill Clinton and Bill Gates now do you? More likely Trump is Protecting his own self. Here are 8 ERRONEOUS MAGA Points addressed about"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098612746812301791",
+          "author": "janpylko2022",
+          "searchJob": "virginia",
+          "text": "This Virginia Hiking Route Offers Vibrant Fall Views and One of the Appalachian Trail’s Most Photographed Sites - Travel + Leisure💙✋🌊 https://t.co/BDBWB9t4wM"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098607634387775977",
+          "author": "jhonnysantos23",
+          "searchJob": "navy",
+          "text": "Up to 40% off SITEWIDE! Our Black Friday sale is live and won't end until Monday. This is our one sale event of the year! 🌟💫✨ Exciting news: our much-loved milky way necklaces are now offered in lavender and navy! ✨ https://t.co/3Drx2HwK4"
         }
       ]
     },
@@ -209,11 +217,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 9,
+      "rejectedCandidates": 11,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-12T03:57:52.871Z"
+    "status rebuilt locally from current store on 2026-09-12T04:13:00.770Z"
   ]
 }
