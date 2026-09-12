@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T10:42:56.369Z",
+  "generatedAt": "2026-09-12T10:57:50.674Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-12T10:42:56.084Z",
+    "at": "2026-09-12T10:57:50.424Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7777691666666666,
-    "p95Hours": 1.2767372222222222,
-    "worstHours": 1.5276652777777777
+    "medianHours": 0.7751477777777778,
+    "p95Hours": 1.2750419444444445,
+    "worstHours": 1.5251552777777777
   },
   "decisionCoverage": {
-    "total": 27,
-    "decided": 27,
+    "total": 22,
+    "decided": 22,
     "complete": true
   },
   "pending": {
@@ -55,230 +55,196 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-12T10:42:56.083Z",
-      "got": 31,
-      "new": 27,
-      "lag": 0.07
+      "at": "2026-09-12T10:57:50.424Z",
+      "got": 27,
+      "new": 22,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-09-12T10:41:20.422Z",
+    "at": "2026-09-12T10:56:16.183Z",
     "mode": "live",
     "collection": {
-      "returned": 31,
-      "kept": 27,
-      "duplicate": 4,
+      "returned": 27,
+      "kept": 22,
+      "duplicate": 5,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 19,
-      "rejected": 8,
+      "accepted": 11,
+      "rejected": 11,
       "reasons": {
-        "no_fbs_school": 6,
-        "no_offer_term": 2
+        "no_offer_term": 4,
+        "hard_negative": 4,
+        "no_fbs_school": 3
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2098719058434695232",
-          "author": "maya_marshal6",
-          "searchJob": "marshall",
-          "text": "@Andy_Richardxon The iptv service offers plenty of viewing options"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098716553160331577",
-          "author": "ellymelly",
-          "searchJob": "marshall",
-          "text": "@Mandated13Ant Albanese offered a significant voting bloc of students tens of thousands off their HECS. You don't have to offer every citizen - just enough to play the percentages in our preference system. Labor have this down to an art."
+          "reason": "no_offer_term",
+          "postId": "2098722507188510953",
+          "author": "predicttime_",
+          "searchJob": "class:2026",
+          "text": "https://t.co/Mi8OElT3Uc"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098722966032863457",
-          "author": "ilirmehmetaj",
-          "searchJob": "temple",
-          "text": "Domestic magnesia, ultrapure feedwater and synchronous grid inertia from one coastal footprint — and the freshwater arrives on the way. https://t.co/ftAtl42bTo"
+          "postId": "2098707697558233177",
+          "author": "evafox",
+          "searchJob": "class:2026",
+          "text": "https://t.co/Y5hYY52naj"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098716671632609352",
+          "author": "coram2832",
+          "searchJob": "georgia",
+          "text": "AN AMAZING WITNESS A number of years ago, in a London church, the Sunday morning service was about to close when a stranger rose and said, “Excuse me Pastor, can I share a word of testimony?” The Pastor looked at his watch and said, “You’ve"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098716126746497430",
+          "author": "coram2832",
+          "searchJob": "georgia",
+          "text": "AN AMAZING WITNESS A number of years ago, in a London church, the Sunday morning service was about to close when a stranger rose and said, “Excuse me Pastor, can I share a word of testimony?” The Pastor looked at his watch and said, “You’ve"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098715882990297149",
+          "author": "coram2832",
+          "searchJob": "georgia",
+          "text": "AN AMAZING WITNESS A number of years ago, in a London church, the Sunday morning service was about to close when a stranger rose and said, “Excuse me Pastor, can I share a word of testimony?” The Pastor looked at his watch and said, “You’ve"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098700573042462986",
-          "author": "rajendraarlekar",
-          "searchJob": "temple",
-          "text": "आज श्रीरंगम स्थित अरुल्मिगु अरंगनाथ स्वामी मंदिर के दर्शन किए। जनता की शांति, समृद्धि और कल्याण के लिए प्रार्थना की। - Visited the Arulmigu Aranganatha Swamy Temple at Srirangam today. Offered prayers for the peace, prosperity and well-bein"
+          "postId": "2098711434758635627",
+          "author": "islandsmagazine",
+          "searchJob": "kentucky",
+          "text": "Kentucky's Nolin Lake State Park offers primitive camping, a sandy swimming beach, boating and fishing, hiking and biking trails, and Brier Creek Waterfall. https://t.co/qsldBP60Bb"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2098709147394994670",
-          "author": "tom_in_florida",
-          "searchJob": "florida",
-          "text": "@dclynch07 The postal service is a failed business. The only mail I get any longer is advertisements and other crap I throw away. Waste of paper, time, and resources. I already have your credit card, why send me offers two or three times a "
+          "reason": "hard_negative",
+          "postId": "2098721653081493977",
+          "author": "yourpremiertra1",
+          "searchJob": "texas",
+          "text": "Golden Tickets: Your Trusted Source for Sports, Concert, and Theater Tickets https://t.co/72NFkgnRGv Finding great seats for the events you love should be simple, convenient, and stress-free. That's exactly what Golden Tickets delivers. Whe"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098709222225482206",
-          "author": "voidelur",
-          "searchJob": "arizona",
-          "text": "Wodecki brzmi jak vocaloidy"
+          "postId": "2098053727873536279",
+          "author": "theblaze",
+          "searchJob": "texas",
+          "text": "George Bush reflects on the aftermath of the 9/11 terrorist attacks: \"I made it clear that Islam was a religion of peace.\" https://t.co/YDOltLvl2X"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098721889132707915",
-          "author": "seanwakethedead",
-          "searchJob": "wake-forest",
-          "text": "@cryptokubrology At this moment of the 10 screen Fidelio, the secretary offers Bill black coffee as Bill enters Domino's red door 1 hour earlier and FMJ plays \"i see a red door and i want it painted black\""
+          "postId": "2098721482159321230",
+          "author": "accidentsnearme",
+          "searchJob": "california",
+          "text": "Lancaster, CA – Several People Hurt in Multi-Vehicle Accident near N. Division St. and E. Ave. J-8According to the Los Angeles County Fire Department, the pileup occurred around 7:30 p.m. on September 11, 2026, at North Division Street and "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098703884701073898",
-          "author": "tyler_kent9",
-          "searchJob": "kent-state",
-          "text": "@Andy_Richardxon Premium iptv subscription offers strong football channel coverage."
+          "postId": "2098713284820062626",
+          "author": "timesfreepress",
+          "searchJob": "california",
+          "text": "A California-based Greek food franchise plans to open a location inside the Signal Mill building on Manufacturers Road later this month and has pledged to offer free lunch to the community on its opening day. https://t.co/GsPgiCKyb9"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098716580129456468",
+          "author": "bbcmarksimpson",
+          "searchJob": "notre-dame",
+          "text": "President Trump on a united Ireland: “I’d love to see it unified. I think it would be a great feather in everybody’s cap if that happened. It’s going to happen eventually. “You know what? The way I look at it, it’s going to happen eventuall"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 19,
+      "rejected": 11,
       "reasons": {
-        "bare_mention_requires_llm": 12,
-        "multiple_resolved_schools": 1,
-        "school_not_resolved_confidently": 6
+        "bare_mention_requires_llm": 5,
+        "multiple_resolved_schools": 3,
+        "school_not_resolved_confidently": 3
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098710630605992194",
-          "author": "syedsohaibtahir",
-          "searchJob": "marshall",
-          "text": "@ForeignOfficePk Field Marshall Should Travel Sanaa In Person And Offer Monetary Compensation In Return For A Ceasefire &amp; ReEstablishment Of Territorial Status Quo Between Yemeni Authorities &amp; The Houthi Militia."
+          "postId": "2098721281902338550",
+          "author": "theworldcorresp",
+          "searchJob": "georgia",
+          "text": "ACTUAL CONDITIONS AND NATO'S TURNING POINT What makes that episode significant is not the laughter, but the context. In 2001, NATO was already discussing its second round of eastward enlargement. Russia's admission was considered impractica"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098704485946470439",
-          "author": "silverhalo30058",
-          "searchJob": "marshall",
-          "text": "@EagleHuey Even Marshall won't get to Geelong unless they're prepared to offer something decent"
+          "postId": "2098708659509350685",
+          "author": "rhodesfi32898",
+          "searchJob": "kentucky",
+          "text": "The narrative has already been written There were multiple welfare concerns reported (actually safety concerns about my situation caused by abuse, police and housing) She refused to engage with help (I insisted on and requested over 30 soci"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098716202780524908",
+          "author": "humbleflow",
+          "searchJob": "texas",
+          "text": "A major contradiction dominates and distorts the way most Western people understand Islam: the distinction-without-a-difference fallacy. Consider these two (antithetical) axioms, which a great many Western people seem to embrace: 1) Freedom"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098701273209925963",
-          "author": "techschoolinfo1",
-          "searchJob": "marshall",
-          "text": "🇬🇧🎓 US students: your UK study-abroad opportunity for 2027 could be closer than you think. The Marshall Scholarship 2027 offers a prestigious route for eligible US students to pursue postgraduate study in the UK with major financial supp"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098722963340333527",
-          "author": "cinemapatti",
-          "searchJob": "temple",
-          "text": "Seeking the blessings of the divine on her birthday ! 🙏✨ @SaanveMegghana paid a visit to the Sri Venkateshwara Swamy temple in Hyderabad and offered prayers to Lord Venkateshwara on the happy occasion of her birthday today #HBDSaanveMeggha"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098722444223938947",
-          "author": "rahimkhan_mla",
-          "searchJob": "temple",
-          "text": "Honouring Faith, Unity & Communal Harmony Hon’ble Ex-Minister & MLA Bidar Rahim Khan Ji, along with Hon’ble Chairman of the Karnataka Legislative Council Janab Saleem Ahmed Sahab, visited several revered places in Basavakalyan and offered f"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098721757415031042",
-          "author": "imjadhavtushar",
-          "searchJob": "temple",
-          "text": "Seeking the blessings of the divine on her birthday🙏✨ @SaanveMegghana paid a visit to the Sri Venkateshwara Swamy temple in Hyderabad and offered prayers to Lord Venkateshwara on the happy occasion of her birthday today ❤️ #HBDSaanveMeggha"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098715471440740821",
-          "author": "kollywoodstreet",
-          "searchJob": "temple",
-          "text": "Seeking the blessings of the divine on her birthday ! 🙏✨ @SaanveMegghana paid a visit to the Sri Venkateshwara Swamy temple in Hyderabad and offered prayers to Lord Venkateshwara on the happy occasion of her birthday today ❤️ #HBDSaanveMeg"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098712331161145514",
-          "author": "jasontarango",
-          "searchJob": "temple",
-          "text": "@grok Iron sharpens iron so does a friend sharpens his friends countenance or whatever. The top of the temple mount is where muham went on flying animal. Correct? That is the same top of the temple where Jesus encountered the devil in the t"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098706902960197661",
-          "author": "newsarenaindia",
-          "searchJob": "temple",
-          "text": "Andhra Pradesh Minister Kondapalli Srinivas offers prayers at Tirumala temple. https://t.co/N5GBPGrzgz"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098702828307116116",
-          "author": "kollywoodtoday",
-          "searchJob": "temple",
-          "text": "Seeking the blessings of the divine on her birthday ! 🙏✨ @SaanveMegghana paid a visit to the Sri Venkateshwara Swamy temple in Hyderabad and offered prayers to Lord Venkateshwara on the happy occasion of her birthday today ❤️ #HBDSaanveMeg"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098698657214374116",
-          "author": "moneycontrolcom",
-          "searchJob": "temple",
-          "text": "'Fish is offered as prasad in many temples': Dilip Ghosh amid Bengal food row Ghosh's latest remarks also came a day after West Bengal CM Suvendu Adhikari offered prayers at Kolkata's Kalighat Temple and partook of the temple's traditional "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098716778771710315",
-          "author": "realdelawar",
-          "searchJob": "florida",
-          "text": "Here are some of the stories we are covering from around the world: The Fall of a Strongman: Inside Maduro’s Last Days in Power In his final days in power, President Nicolás Maduro overestimated his strength and misread his exchange with Pr"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098704092088443349",
-          "author": "viarifnote",
-          "searchJob": "florida",
-          "text": "Florida governor offers ‘asylum’ to holdout juror in Lindsay Clancy trial Florida Governor Ron DeSantis has accused the media of running a smear campaign against the lone holdout juror in the Lindsay Clancy murder trial, according to a repo"
+          "postId": "2098718009749655875",
+          "author": "jimfrombaseball",
+          "searchJob": "cincinnati",
+          "text": "\"Scout Bill Zinser spotted Sandy Koufax at Lafayette High School and the University of Cincinnati and then sent a glowing report to the Brooklyn Dodger front office. According to Zinser: \"This kid looked like a good prospect, with a blazing"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098702906321248688",
-          "author": "cosmicprophet",
-          "searchJob": "usc",
-          "text": "Trumps offer itself is illegal. Any offer, be it a promise, pledge or anything else, of payment of any kind in exchange for a vote or votes or to influence either is a federal felony crime, by federal statute. https://t.co/7bQMh6A8nA 18 USC"
+          "postId": "2098720722290135098",
+          "author": "kngeliquenhoq",
+          "searchJob": "miami",
+          "text": "Now accepting a limited number of Miami clients. Beginning May 2026, Pure Method will offer chef-crafted meal prep designed for performance, wellness, and a refined lifestyle. Each plan is custom tailored to your goals. Availability is limi"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098715543700455639",
-          "author": "smartconceptre2",
-          "searchJob": "wake-forest",
-          "text": "Wake up to golf and mangrove views from a brand-new corner home on Yas Island - spacious 2-bedroom apartment with maid’s room in Yas Golf Collection offers 1,798 sq. ft. of modern living. DM us or Call/WhatsApp 054 990 0046 for details http"
+          "postId": "2098726926500151318",
+          "author": "cricbettrader",
+          "searchJob": "notre-dame",
+          "text": "Irish greyhound derby offer. 2nd place refund https://t.co/2RLzuAtrbh. 18+ https://t.co/eSbh0AIQkZ https://t.co/Dy9KvHqNOd"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098724853075292361",
+          "author": "grobinsondup",
+          "searchJob": "notre-dame",
+          "text": "President Trump knows better than most that elections matter. Northern Ireland’s constitutional future will be decided by the people of Northern Ireland, not by commentary in London, Dublin or Washington. Northern Ireland is part of the Uni"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098707768425455738",
-          "author": "412z4",
-          "searchJob": "wake-forest",
-          "text": "I cant do shit freely and its stressing me out like wdym i cant stay up until 12 and i need to wake up at 4 and do sports and eat little piece of shitty breakfast they offer and then i need to wait for bathroom to wash myself oh my days i c"
+          "postId": "2098721335903936647",
+          "author": "betdaq",
+          "searchJob": "notre-dame",
+          "text": "DAQMAN LEGER DOUBLE STRIKE: Daqman has an 8-1 ante-post BETDAQ bet for the St Leger. He can afford to have small bets on rank outsiders and bid for a big-odds straight forecast with his winner. He’s done well in the last two days but wants "
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098707893033865712",
-          "author": "christo46923615",
-          "searchJob": "kent-state",
-          "text": "THE MORE YOU LOOK AT THE SAINSBURY NETWORK, THE CRAZIER THIS GETS. Everyone is screaming about ONE billionaire giving Reform £36 million. “Follow the money!” Fine. So I did. And every time you think you’ve reached the end... ANOTHER DOOR OP"
+          "reason": "multiple_resolved_schools",
+          "postId": "2098713398368161958",
+          "author": "walleyvision",
+          "searchJob": "notre-dame",
+          "text": "Irish historian Kevin Kenny wrote “Throughout the Empire Irish Catholics served as soldiers and administrators, or worked as policemen, doctors, engineers, lawyers, journalists, or businessmen.” In 1830, when Ireland accounted for around 30"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098707833843753234",
-          "author": "christo46923615",
-          "searchJob": "kent-state",
-          "text": "THE MORE YOU LOOK AT THE SAINSBURY NETWORK, THE CRAZIER THIS GETS. Everyone is screaming about ONE billionaire giving Reform £36 million. “Follow the money!” Fine. So I did. And every time you think you’ve reached the end... ANOTHER DOOR OP"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098713236082233537",
+          "author": "loopingcloud",
+          "searchJob": "uconn",
+          "text": "East Hartford duplex opportunity! 6–8 Higbie Dr, East Hartford, CT 06108 offers 1,584 SF with two side-by-side units, private entrances, off-street parking & laundry. 💰 Asking $279K. Lisa Cozzi: 860-508-2102. https://t.co/gBZPt3DtcM #EastH"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098707603329036290",
-          "author": "christo46923615",
-          "searchJob": "kent-state",
-          "text": "THE MORE YOU LOOK AT THE SAINSBURY NETWORK, THE CRAZIER THIS GETS. Everyone is screaming about ONE billionaire giving Reform £36 million. “Follow the money!” Fine. So I did. And every time you think you’ve reached the end... ANOTHER DOOR OP"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098710399394660550",
+          "author": "k24english",
+          "searchJob": "air-force",
+          "text": "📹 Newly shared images offer a look inside the VC-25B Bridge aircraft serving as the new Air Force One. The refurbished Boeing 747-8 features spacious cabins, conference areas and an upgraded presidential interior. \"Our country has to be re"
         }
       ]
     },
@@ -293,11 +259,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 19,
+      "rejectedCandidates": 11,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-12T10:42:56.370Z"
+    "status rebuilt locally from current store on 2026-09-12T10:57:50.675Z"
   ]
 }
