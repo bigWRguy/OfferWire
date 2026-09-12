@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T01:29:01.539Z",
+  "generatedAt": "2026-09-12T01:57:57.138Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-12T01:29:01.293Z",
+    "at": "2026-09-12T01:57:56.795Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -30,36 +30,15 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [
-    {
-      "id": "florida-international",
-      "hours": 2.3
-    },
-    {
-      "id": "temple",
-      "hours": 2.3
-    },
-    {
-      "id": "utsa",
-      "hours": 2.3
-    },
-    {
-      "id": "washington-state",
-      "hours": 2.3
-    },
-    {
-      "id": "western-kentucky",
-      "hours": 2.3
-    }
-  ],
+  "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.796115,
-    "p95Hours": 2.0469472222222223,
-    "worstHours": 2.291986111111111
+    "medianHours": 1.0251677777777777,
+    "p95Hours": 2.0265408333333332,
+    "worstHours": 2.0265408333333332
   },
   "decisionCoverage": {
-    "total": 38,
-    "decided": 38,
+    "total": 63,
+    "decided": 63,
     "complete": true
   },
   "pending": {
@@ -68,7 +47,7 @@
   "profileResolution": {
     "cached": 47
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 1050,
     "incompleteOffers": 0
@@ -76,309 +55,379 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-12T01:29:01.293Z",
-      "got": 62,
-      "new": 38,
-      "lag": 0.06
+      "at": "2026-09-12T01:57:56.795Z",
+      "got": 80,
+      "new": 63,
+      "lag": 0.07
     }
   },
   "audit": {
-    "at": "2026-09-12T01:27:26.326Z",
+    "at": "2026-09-12T01:56:18.613Z",
     "mode": "live",
     "collection": {
-      "returned": 62,
-      "kept": 38,
-      "duplicate": 24,
-      "tooOld": 0,
+      "returned": 80,
+      "kept": 63,
+      "duplicate": 15,
+      "tooOld": 2,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 20,
-      "rejected": 18,
+      "accepted": 26,
+      "rejected": 37,
       "reasons": {
-        "no_offer_term": 6,
-        "no_fbs_school": 9,
-        "non_fbs_offer_target": 1,
-        "hard_negative": 2
+        "no_offer_term": 2,
+        "no_fbs_school": 33,
+        "non_fbs_offer_target": 2
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2098236454757453893",
-          "author": "neilbelieves",
-          "searchJob": "marshall",
-          "text": "Upgrade (2018) - Have you seen this movie? https://t.co/0GXd3ABuAR"
+          "postId": "2098587479536242973",
+          "author": "dtjimpact",
+          "searchJob": "utsa",
+          "text": "🏀 5 players stood out at the AN1 Labor Day Showcase. Production. Academics. Ambition. 📖 Meet the standouts. @AllNOneSports1 @NXTLevelSN @acox2028 @AustinTang_5 @bannercarlson @Captainjack_117 @cLeBaron2028 https://t.co/LcTB3yLGF1"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098558409377268177",
-          "author": "fieldcommando",
-          "searchJob": "marshall",
-          "text": "@Joshrobocop01 @Bafour1212 @iamkennifizzle An idiot like u doesn't know that the reason why ur kind rushes to Lagos for a better standard of living than Ur shithole Anambra can offer u is bcos of what the monies are being used for in Lagos."
+          "postId": "2098581412433588395",
+          "author": "mahrowkeen",
+          "searchJob": "class:2028",
+          "text": "2028 EDGE Albert Morgan (@AlbertMorg2028) is unblocked and gets the sack. Morgan has an offer from the #Coogs #gocoogs https://t.co/wvs31hIGj4"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098586731733737647",
+          "author": "philip_vanderbi",
+          "searchJob": "vanderbilt",
+          "text": "I've got 2 Westlife tickets For Tonight Show! @ 3Arena, Dublin, Ireland, but I can’t make it anymore 😔 Don’t let them go to waste, Open to best offers, serious buyers only DM if interested #westlife #tickets"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098586917914951835",
+          "author": "julianjc_wilson",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer from @McPherson 🙏🏾 Thank you @CoachE2244, @Coach_EPhillips , and @CoachLou_3 for the opportunity and for believing in me. I'm extremely grateful!! All glory to God! #AGTG #Blessed #BulldogPride https://t.co/HPt"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098583498135101801",
+          "author": "river_salgado_",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Beyond blessed to receive my first official offer. Thank you to my head coach @FCoston41738 @SFTCFootball #agtg https://t.co/IjUdlCL6bC"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2098566023997771928",
-          "author": "alexlima2009",
-          "searchJob": "georgia",
-          "text": "WOW!!! extremely blessed to have received my 3rd offer from Georgia Knights Football!! @JWesley_Jr https://t.co/Wpb5B3T1Dp"
+          "postId": "2098583230295187560",
+          "author": "malakhiwarren",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Beyond blessed to receive an offer from Wilmington University. Thank You Coach Burke for believing in me! @CoachBurke_WU https://t.co/agzN98aX4W"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098557691886997850",
-          "author": "larrywhita44851",
-          "searchJob": "georgia",
-          "text": "Joe Biden offered Voters a $2,000 bribe in Georgia to vote for Ossoff and The false prophet"
+          "postId": "2098581552565276737",
+          "author": "addipumphrey",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great visit at OKWU I’m truly blessed to receive another offer!! @OKWUeagles_WBB @CoachSchollNCSA https://t.co/I0Sq706t9y"
         },
         {
-          "reason": "hard_negative",
-          "postId": "2098580927438000175",
-          "author": "stragglerliu",
-          "searchJob": "texas",
-          "text": "The AI buildout has a demand problem and a supply problem. The demand problem is not the binding one. Nebius($NBIS ) CEO Arkady Volozh said at Goldman Sachs this week that his company now sees AI compute demand out to 24 months or more, up "
+          "reason": "non_fbs_offer_target",
+          "postId": "2098574198134231224",
+          "author": "lstolzenberg27",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great visit and conversation with @EricGruber23, I’m blessed to receive an offer from Michigan Tech University!! @mtuwbb https://t.co/DqIwLT1jwo"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098573193610924336",
+          "author": "bucketboy_dae",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive a offer from Dallas eastfield🙏🏾❤️#humble #stillgrinding https://t.co/n2w1Bimyap"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098569258305220661",
+          "author": "maddyice2027",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great visit with @BUPilotsWBB I am blessed to receive an offer to be a part of their program! Thank you so much for believing in me! https://t.co/Fhc3FgQci6"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098413017851396229",
-          "author": "texasscorecard",
-          "searchJob": "texas",
-          "text": "Republicans closed their Dallas convention by drawing a sharp contrast with Democrats ahead of November. “It’s the choice between common sense and crazy,” said Gov. Greg Abbott. https://t.co/eK1tviBLdp"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098571099584016638",
-          "author": "ravirrana",
-          "searchJob": "texas",
-          "text": "OIL Prices https://t.co/Ud7cd9wqPP"
+          "postId": "2098567806514069598",
+          "author": "romeofloreaa",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my first Gameday Invite from FIU https://t.co/KAlEDRfjKv"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098564072912605686",
-          "author": "yamatraders22",
-          "searchJob": "texas",
-          "text": "A researcher quit OpenAI and Anthropic in public. 150M views in 48 hours. 22 elected officials. Altman's first offer to slow down — conditional on rivals joining. The obstacle? Anthropic's IPO calendar. Full breakdown + 5 more developments "
+          "postId": "2098563465568723286",
+          "author": "noahwomeldorf",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my 8th offer from @FerrumBsbll. Thank you to @Eowens6969 for this opportunity. https://t.co/GUVPrOFuxs"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098561785825575350",
-          "author": "elitetexastrac1",
-          "searchJob": "texas",
-          "text": "Sprinting offers surprising health and fun benefits! Don't train alone – find a partner to boost motivation and make every session count. #Sprinting #FitnessMotivation https://t.co/NTnxHieNcP"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098581275980558343",
-          "author": "linqsikks",
-          "searchJob": "california",
-          "text": "https://t.co/a8dPKfUyyO"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098580293909090495",
-          "author": "lemire",
-          "searchJob": "california",
-          "text": "https://t.co/gHzI1xNcgl"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098563504324407538",
-          "author": "freedomdude71",
-          "searchJob": "california",
-          "text": "Want to actually solve it the homeless problem in California? • Cut off the taxpayer cash to the so-called “charities.” • Strictly enforce vagrancy and public intoxication laws. • Prohibit organizations from handing out drug paraphernalia t"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098521686605705546",
-          "author": "stevehiltonx",
-          "searchJob": "california",
-          "text": "Absolute SQUALOR on the streets of Sacramento...just up the road from the State Capitol. No matter how much taxpayer money they spend on homelessness, it keeps getting WORSE. This is not just a crisis; it's a SCANDAL. And it ends when I'm g"
+          "postId": "2098572750856081422",
+          "author": "carliemtz_2027",
+          "searchJob": "phrase:\"blessed to have received\"",
+          "text": "After a great conversation with @_mattrichter, I am blessed to have received an offer from @JudsonWBB!💙 @realcoachc4 https://t.co/ffxXJEWS0a"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098551438544892189",
-          "author": "nnutsak",
-          "searchJob": "california",
-          "text": "@peterboghossian @VBerberian_L Rampant among Filipinos and Hispanics here in California (My fiance was offered $30k by a co-worker to do this)"
+          "postId": "2098584948886130988",
+          "author": "landhub",
+          "searchJob": "colorado",
+          "text": "0.26 ACRES NEAR THE RIO GRANDE – SAN LUIS, COLORADO! This 0.26-acre lot southwest of San Luis offers mountain and river valley views, four-season recreation, and easy access to the outdoors. TAKE A LOOK 👉 https://t.co/jN4hScfFES #landforsa"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098558798554173733",
-          "author": "davescarangella",
-          "searchJob": "louisville",
-          "text": "I am watching Norfolk State-UVA, Louisville-Villanova, NC State-Richmond and the Nationals. Am hard-pressed to remember an evening when I've watched this many games and NONE of them have offered anything compelling to hold your interest."
+          "postId": "2098569440979816571",
+          "author": "thedomainduke",
+          "searchJob": "duke",
+          "text": "https://t.co/0aay9wrxgG — a creator’s name for the age of superintelligence. 🌌🧠 Named for the primordial figure of Chinese mythology who shaped the world, https://t.co/0aay9wrxgG is a powerful identity for advanced AI, autonomous intellig"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098562065023521105",
-          "author": "miami_living",
-          "searchJob": "miami",
-          "text": "Discover another side of Lake Como in Pianello del Lario, home to Museo Barca Lariana and a remarkable collection celebrating Italy’s nautical heritage. Nearby villas, private cruises, wine tastings and local experiences offer a deeper way "
+          "postId": "2098568853542310306",
+          "author": "picksgod9",
+          "searchJob": "duke",
+          "text": "@TIG_Ronin @KiD_KYNG They straight up did not give him an offer he is not betting on himself holy cope 😂😂😂😂"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098561352516198494",
-          "author": "merikssonn",
-          "searchJob": "miami",
-          "text": "anyone still looking for Omar Courtz tickets I have 3 available for today September 11 at Kaseya Center in Miami, FL Unfortunately, we’re no longer able to attend, Open to reasonable offers. Please DM me if you’re interested."
+          "postId": "2098590618553393367",
+          "author": "jcohenap",
+          "searchJob": "north-carolina",
+          "text": "Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina https://t.co/ElyCtGdYJj"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098557199094067372",
-          "author": "profilefblive",
-          "searchJob": "phrase:\"has offered\" recruit",
-          "text": "Robert Morris has offered 2.9⭐ 2028 Edge Tyson Verdream from Montour HS, PA. @Tyson_Verdream Rated (#1752 NATL, #114 Edge, #40 PA) - 7 offers overall. https://t.co/rGyR2n3M8o"
+          "postId": "2098590420129235116",
+          "author": "johndalynews",
+          "searchJob": "north-carolina",
+          "text": "Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina https://t.co/eXQxpydugf"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098590418917048551",
+          "author": "sunsetbeachnews",
+          "searchJob": "north-carolina",
+          "text": "Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina https://t.co/8Xh5ogrypD"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098589858818117740",
+          "author": "matt_mcmillan",
+          "searchJob": "north-carolina",
+          "text": "Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina https://t.co/T6bMBsQgjk via @@YahooNews"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098589156049903677",
+          "author": "texasbristolian",
+          "searchJob": "north-carolina",
+          "text": "Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina. https://t.co/RU1G05xxgK"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098586686242361567",
+          "author": "andrew_dorsai",
+          "searchJob": "north-carolina",
+          "text": "Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina https://t.co/tVXbQ6w2bC"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098586313574490579",
+          "author": "frank33pro",
+          "searchJob": "north-carolina",
+          "text": "Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina https://t.co/VSE953jeKe"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098586127531655281",
+          "author": "westorange47",
+          "searchJob": "north-carolina",
+          "text": "@IngrahamAngle @CBedfordDC \"Convicted (twice) sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina\". AP. 9/11/26"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 20,
+      "rejected": 26,
       "reasons": {
-        "school_not_resolved_confidently": 2,
-        "bare_mention_requires_llm": 17,
-        "multiple_resolved_schools": 1
+        "bare_mention_requires_llm": 21,
+        "multiple_resolved_schools": 3,
+        "school_not_resolved_confidently": 1,
+        "reporter_missing_class_year": 1
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098579461142729167",
-          "author": "jv1i3n_",
-          "searchJob": "marshall",
-          "text": "Logan Marshall-Green fucking God mode, and ‘Upgrade’ really offers one of the most bleak endings to a film I’ve ever seen. Can’t believe they scrapped that spin-off series. It had literal inspiration from ‘A Clockwork Orange’ 😭😭 I’d love "
-        },
-        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098573718964588899",
-          "author": "veryneilp",
-          "searchJob": "marshall",
-          "text": "@Ando6767Andrew @jaycob_new9302 @SaintsNationAU Cats might be playing next week if Andrew Mackie didn’t last minute low-ball a rubbish offer for Marshall. I’d been keen for him to stay as I’d thought him an excellent CHF. He’s not. Happy to"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098564362441245161",
-          "author": "stevoau7",
-          "searchJob": "marshall",
-          "text": "@tommorris32 Well there is no way Marshall will go to Geelong without SDK being involved. Sadly on this occasion the Cats have nothing to offer. I hope StKilda get the best deal for Marshall - that’s why I think Essendon will be his destina"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098583796182589810",
-          "author": "corymsimon",
-          "searchJob": "georgia",
-          "text": "🍷 so this winery in WA offers Saperavi, an ancient wine-making grape from Georgia (the country). bold and acidic. https://t.co/4XwHAL5Osc"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098570031986557208",
-          "author": "iamyleigh",
-          "searchJob": "georgia",
-          "text": "🚨New details have surfaced from a Fulton County Superior Court hearing involving KJ Biermann, the 15-year-old son of former NFL player Kroy Biermann and former Real Housewives of Atlanta star Kim Zolciak. The teenager is facing seven felon"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098560726197735729",
-          "author": "earthdesires",
-          "searchJob": "georgia",
-          "text": "Whiskey Jug Genie by Sultonna Nadine is a lighthearted and charming paranormal fantasy that mixes magic, humor, and a touch of romance for pure escapist fun. When quiet London apothecary shop owner Martin buys an old whiskey jug on vacation"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098559468527370285",
-          "author": "earthdesires",
-          "searchJob": "georgia",
-          "text": "Old Flame (Gambler's Folly Book 4) by Mellie Miller is a heartfelt second-chance paranormal shifter romance that blends emotional healing, mature love, and the magic of fate. Billionaire and bear shifter Kort Behrens has been lucky in busin"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098583481320087771",
-          "author": "numbertalker",
-          "searchJob": "indiana",
-          "text": "i think we really needed Mike Pence to get the traditional Christian conservative vote in 2016. remember Trump was a long-shot. Pence was the right choice to expand the appeal of the ticket, and Pence did America a great favor by accepting "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098560745319325849",
-          "author": "shotbybrandoe",
-          "searchJob": "lsu",
-          "text": "i wish lsu offered weezy man"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098559035767189867",
-          "author": "chacheregrant",
-          "searchJob": "lsu",
-          "text": "2028 OL Jayden Taylor of St. Augustine (New Orleans) has multiple P4 offers, including one from #LSU. He is the godbrother of former #LSU OL Saahdiq Charles. https://t.co/7BOioYtC4g"
+          "postId": "2098589763058139466",
+          "author": "astro_raghv",
+          "searchJob": "temple",
+          "text": "Remedies for Ketu 🐍🧘🏻‍♂️ 🚩 Donate a temple flag (ध्वज), preferably red/orange. 🐕 Feed stray dogs regularly. 🛕 Visit Ganesha temple and offer prayers. 📿 Recite Ganesh Atharvashirsh 🪔 Light a sesame-oil diya on Tuesdays/Saturdays. 🍚 "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098580459462574494",
-          "author": "shel_just_shel",
-          "searchJob": "tennessee",
-          "text": "This lawsuit never reached a trial or an evidentiary hearing on the merits. It was dismissed in 2022 at the motion-to-dismiss stage. What “evidence” existed was almost entirely documents attached to Maras’s own pleadings.17 What Maras put f"
+          "postId": "2098586599898444179",
+          "author": "elliottforwv",
+          "searchJob": "temple",
+          "text": "I woke up today with many thoughts about the events of 25 years ago—and their powerful impact on me—and fully intended to share those thoughts here. But a busy day quickly got in the way. As I sat down tonight to pick up where I had left of"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098575923977027711",
-          "author": "buckeyecoaster",
-          "searchJob": "texas",
-          "text": "Fright Fest presented by SNICKERS® returns to Six Flags Over Texas on select nights 09/11 through 11/1. The annual signature event offers 5 haunted mazes, 6 outdoor scare zones, multiple live shows &amp; Halloween-themed food and beverages."
+          "postId": "2098584116203868623",
+          "author": "jia20212021",
+          "searchJob": "temple",
+          "text": "【Why Was Beijing Built Here?】 Why did one of the world’s great capitals rise at this particular spot? The answer lies in a rare geographic combination: Mountains to defend it. A plain to sustain it. Passes to the steppe. Routes to the rest "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098575399672221946",
-          "author": "alexmill20",
-          "searchJob": "texas",
-          "text": "Natalie Ring just busted her shoe, so there’s a short delay while she gets a new one. Meanwhile, a handful of Texas A&amp;M students took theirs off and jokingly offer them up to her: https://t.co/MmoiwK5wAp"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098573973063618669",
-          "author": "jacobwlong87",
-          "searchJob": "texas",
-          "text": "And what defies common sense is Greg Abbott had a national audience in the palm of his hands and didn’t offer a single new idea to make life better or more affordable. The contrast is quite clear: more of the same or a Texas that works for "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098564150171488693",
-          "author": "tkeetennessee",
-          "searchJob": "texas",
-          "text": "I have a little buzz so I’m gonna let loose. I just moved my parents 88 and 91 to Texas to be near me. The health insurance they were on wasn’t offered in Texas. So the cost went up. Shocker 🖕and you know where the cost went up?! Prescript"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098558654173860106",
-          "author": "oidonhagouda",
-          "searchJob": "texas",
-          "text": "A Japanese graduate student's rental car got a flat tire on a dark stretch of interstate in rural Texas, no cell signal, hazard lights blinking into nothing but empty fields. She had never changed a tire in her life. She didn't own a jack b"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098579868434743573",
-          "author": "idahostatesman",
-          "searchJob": "california",
-          "text": "California chain ‘pumped’ to open new Meridian restaurant, offers free weekend food https://t.co/CbmgL9Srwt"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098573577616503231",
-          "author": "brianro88242805",
-          "searchJob": "california",
-          "text": "@ZavalaA Here illegally… California offers sanctuary, free medical, free school Gets a job though illegal Ca. Judge issues a restraining order Illegal somehow buys a gun Kills an American girl Yes, it’s your fault Newsom!"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098550867712438654",
-          "author": "bob6kallday",
-          "searchJob": "cincinnati",
-          "text": "@therealmofo99 @CincinnatiNews_ See here is where common sense plays into this...which you are lacking....what my post offered was an opinion, and opinion cannot be a lie. Cincinnati is a cesspool and while some would call that a fact, it i"
+          "postId": "2098582821824508245",
+          "author": "ruckermichael37",
+          "searchJob": "temple",
+          "text": "https://t.co/KiN5HSUDTW \" The Virgin Mary: May's fiat \" by Artist Michael Rucker copyright © Description The Virgin Mary: Mary's fiat - In the Gospel of Luke, chapter 1, verses 26-38 (KJV), the angel Gabriel appears to Mary, a young virgin "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098574174134383033",
-          "author": "elioesanchez764",
-          "searchJob": "miami",
-          "text": "PRIVATE EXCLUSIVE | MIAMI BEACH WATERFRONT Some of Miami Beach’s most exceptional homes never make it to the public market. I currently have access to a remarkable waterfront residence being offered privately in one of Miami Beach’s most pr"
+          "postId": "2098575384925102329",
+          "author": "ummrottt",
+          "searchJob": "temple",
+          "text": "someone bought a dress i had an offer in on on the red thrift app https://t.co/JdQxnkotAH"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098568716703436827",
+          "author": "vijay_kuma55909",
+          "searchJob": "temple",
+          "text": "Pawan Kalyan’s Spiritual Visit In Kerala! AP Deputy CM #PawanKalyan visited the famous Thriprayar Sri Rama Temple in Keralam. He performed special rituals as per temple traditions, offered silk clothes to Sri Rama, Krishna and Ayyappa Swamy"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098561488277717425",
+          "author": "doncic77mavs",
+          "searchJob": "temple",
+          "text": "@NYCMayor Satan goes to church, quotes scriptures and even offered the world to Jesus while standing ON top of the temple. let’s see a “Christian” politicians stand at the pulpit of a mosque, in a muslim country, you won’t. Ever. And there "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098565410882715904",
+          "author": "renfrowjustin",
+          "searchJob": "class:2028",
+          "text": "Playmaker. Leader. Difference-maker. 🐝⚓️ Through the first two games of the season, 2028 LB/TE @Jaison_Brown09 has already piled up 22 tackles, averaging 11 tackles per game, while helping Yulee start 2-0 with wins over Baldwin and First C"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098589753234895214",
+          "author": "waynemillar804",
+          "searchJob": "arkansas-state",
+          "text": "YOU CREEP'S ARE SATONIST - conscripted lie? Based on the screenshots provided, the most consistently repeated falsehood or \"conscripted lie\" (a willfully repeated, agenda-driven falsehood) is the misrepresentation of Islam and the Quran to "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098583498781286537",
+          "author": "stardustgarland",
+          "searchJob": "arkansas-state",
+          "text": "Jesus offers peace to the brokenhearted and promises this comfort in John 14:27, saying, \"Peace I leave with you; my peace I give you... Let not your hearts be troubled, neither let it be afraid.\" This peace is a state of the soul assured o"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098581199191253275",
+          "author": "thelastofthe252",
+          "searchJob": "arkansas-state",
+          "text": "I bless thee Makayla in the Name of the Father and of the Son and of the Holy Spirit! Amen! Heavenly Father, I lift this beloved into Your loving hands, asking that Your healing touch restore her body completely. Remove all heart problems, "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098575063008080194",
+          "author": "dunsmore23550",
+          "searchJob": "arkansas-state",
+          "text": "@WalshFreedom @Grok were the Palestinians offered a state?"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098572530726363368",
+          "author": "smo_vz",
+          "searchJob": "arkansas-state",
+          "text": "What has just happened with The New Army of the HOUTHI is the first stage of Failure of Saudi Arabia ! I said it on 27 July and I will say it again now, in my own name, as the one who was told what was coming while most of the region was st"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098563296253378626",
+          "author": "thelastofthe252",
+          "searchJob": "arkansas-state",
+          "text": "I bless thee Dane in the Name of the Father and of the Son and of the Holy Spirit! Amen! Heavenly Father, I lift this beloved child into Your loving hands, asking that Your healing touch restore his body completely. Remove all heart problem"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098559378966159766",
+          "author": "socialistcmb",
+          "searchJob": "arkansas-state",
+          "text": "@pgavigan77 @WajahatAli They were offered a state as long as they agreed Israel belongs to the Jews. They said no because that’s stupid."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098555575772553592",
+          "author": "whatbeast123",
+          "searchJob": "arkansas-state",
+          "text": "@WalshFreedom Offered a state on land that had been stolen from them..oh gee, thanks."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098562006035120332",
+          "author": "animalsanctuary",
+          "searchJob": "colorado",
+          "text": "Picture Of The Day! Location: The Wild Horse Refuge, Craig, CO. \"Beautiful Michelangelo and his family, Comet, Paloma, Mimi, Caballero and others...\" Today, as we reflect on a day of profound remembrance and unity, we find a powerful remind"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098590883973104037",
+          "author": "kcainrecruiting",
+          "searchJob": "duke",
+          "text": "🏈 COLLEGE COACHES — RECRUIT DUKE GILBERT! Senior DB | Klein Cain Football 🎯 Recruit. Evaluate. Offer. HC: @coachjclancy @KCAINRECRUITING @KLEINCAINFB #RECRUITTHEREIGN #REIGNCAIN #REIGNMADE https://t.co/4TBi2oVesu"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098590883771818131",
+          "author": "kleincainfb",
+          "searchJob": "duke",
+          "text": "🏈 COLLEGE COACHES — RECRUIT DUKE GILBERT! Senior DB | Klein Cain Football 🎯 Recruit. Evaluate. Offer. HC: @coachjclancy @KCAINRECRUITING @KLEINCAINFB #RECRUITTHEREIGN #REIGNCAIN #REIGNMADE https://t.co/QGMBHAgh7Q"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098590883696333085",
+          "author": "coachjclancy",
+          "searchJob": "duke",
+          "text": "🏈 COLLEGE COACHES — RECRUIT DUKE GILBERT! Senior DB | Klein Cain Football 🎯 Recruit. Evaluate. Offer. HC: @coachjclancy @KCAINRECRUITING @KLEINCAINFB #RECRUITTHEREIGN #REIGNCAIN #REIGNMADE https://t.co/iX4yjadhus"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098590410272550917",
+          "author": "ajtarheel247",
+          "searchJob": "north-carolina",
+          "text": "#UNC offered 4-star 2027 combo guard Jalen Davis on Friday, so to learn plenty about him, @CoachDavidSisk dove in... https://t.co/SNSceT9IuI"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098587806478078218",
+          "author": "erasmuse",
+          "searchJob": "stanford",
+          "text": "Gemini says: When a Postdoc is the Better Choice Elite Research Trajectory (R1 Target): If the ultimate goal is a top-tier research university (R1) but the applicant's current publication record isn't strong enough yet, a prestigious postdo"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098587455494541482",
+          "author": "paddymacmke",
+          "searchJob": "army",
+          "text": "@lutherabel1 When living in northern Virginia, we once went to Mass at a church in, apparently, a very particular neighborhood: They offered a prayer for parishioners serving not only in the Army, Navy, Air Force, Marine Corps and Coast Gua"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098574439365628121",
+          "author": "christisking588",
+          "searchJob": "army",
+          "text": "@BeauUnfiltered Thank God my dad kept me away from politics &amp; other fake religions, even stopped some army men from recruiting me when I was in High School, they wanted to take me just because I filled out some pamphlet for information "
         }
       ]
     },
@@ -393,11 +442,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 20,
+      "rejectedCandidates": 26,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-12T01:29:01.540Z"
+    "status rebuilt locally from current store on 2026-09-12T01:57:57.139Z"
   ]
 }
