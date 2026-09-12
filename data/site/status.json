@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T05:28:06.318Z",
+  "generatedAt": "2026-09-12T05:43:03.962Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-12T05:28:06.122Z",
+    "at": "2026-09-12T05:43:03.766Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,9 +32,9 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7728725,
-    "p95Hours": 1.2769530555555555,
-    "worstHours": 1.53103
+    "medianHours": 0.7762266666666666,
+    "p95Hours": 1.2783644444444444,
+    "worstHours": 1.5262986111111112
   },
   "decisionCoverage": {
     "total": 12,
@@ -55,19 +55,19 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-12T05:28:06.121Z",
-      "got": 20,
+      "at": "2026-09-12T05:43:03.766Z",
+      "got": 16,
       "new": 12,
       "lag": 0.16
     }
   },
   "audit": {
-    "at": "2026-09-12T05:26:35.362Z",
+    "at": "2026-09-12T05:41:31.787Z",
     "mode": "live",
     "collection": {
-      "returned": 20,
+      "returned": 16,
       "kept": 12,
-      "duplicate": 8,
+      "duplicate": 4,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
@@ -76,96 +76,103 @@
       "accepted": 7,
       "rejected": 5,
       "reasons": {
-        "hard_negative": 2,
-        "no_fbs_school": 3
+        "no_fbs_school": 3,
+        "hard_negative": 2
       },
       "samples": [
         {
-          "reason": "hard_negative",
-          "postId": "2098635414621794766",
-          "author": "toddaultiii",
-          "searchJob": "michigan",
-          "text": "Bought more $GPUS today. Now own 65.7% of Hyperscale Data Inc. Not an offer to buy or sell securities. The filings show all the details of the Michigan Data. It's all there. Filed our Schedule 13D reflecting a 65.7% beneficial ownership sta"
-        },
-        {
           "reason": "no_fbs_school",
-          "postId": "2098632931220828389",
-          "author": "petewest420",
-          "searchJob": "michigan",
-          "text": "@alavasse24 @aaronlarnavarro How about stop stalking or harrasing him? You don't own him. You're being NEEDY. If you want him on your beck and call, may be give him an offer of at least US$100T an hour. That should help with the needs of hi"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098625784743096591",
-          "author": "anthonyhounct7",
-          "searchJob": "houston",
-          "text": "@justvickybaby Burger never offer food to a man"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098631059533709521",
-          "author": "conservativeut",
-          "searchJob": "utah",
-          "text": "@SaraLarsen1234 Part of me believes that you’re only saying this because of the backlash that this had brought up upon your father’s business, but who am I to judge if this was sincere or not. It’s much more than most leftists will offer. A"
+          "postId": "2098622676973572165",
+          "author": "fknsayer",
+          "searchJob": "massachusetts",
+          "text": "@JackPosobiec @VishBurra Use your resources to find this juror, offer legal protection through URIP Rule 2, 3 &amp; 8 legal motions in Massachusetts, curate the messaging and play this angle to its absolute maximum. If you don’t, you have n"
         },
         {
           "reason": "hard_negative",
-          "postId": "2098641504940052524",
-          "author": "cipher_revolt",
-          "searchJob": "buffalo",
-          "text": "🎨🦬 ON THIS DAY — SEPTEMBER 12, 1940 A HIDDEN WORLD OF PREHISTORIC ART WAS DISCOVERED. 86 years ago today, four teenagers exploring near Montignac, France, entered a cave that had remained hidden for thousands of years. Inside was somethin"
+          "postId": "2098643504314634288",
+          "author": "salvado01175515",
+          "searchJob": "nebraska",
+          "text": "This information is available to the entire 🌎 👇 Adam Dean Hoffman was charged under § 21.02. The allegation covered about three years. The McLennan County District Attorney recused. The Texas Attorney General’s office then prosecuted. A 2"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098633845700690215",
+          "author": "ellisjahho371",
+          "searchJob": "ole-miss",
+          "text": "@CNN You know damn well they got some crackhead off the street, how much you want to bet this dude please not guilty until the end and less they already offered him an ultimatum that's going to involve the safety of his family, this is Miss"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098645482361000000",
+          "author": "terrance_j98663",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "#AGTG Blessed to receive an offer from @uoregon @CoachReed_ @BrokenArrowFTBL @THillBAFootball https://t.co/dhiGtCcRre"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098630271574892890",
+          "author": "kentbrocklin",
+          "searchJob": "kent-state",
+          "text": "@LeftoverNews @AzPetrich I don’t love Republicans much. But you people to the left are some of the worst our planet has to offer. Get ready for another Republican POTUS in 2028."
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 6,
+      "accepted": 0,
+      "rejected": 7,
       "reasons": {
-        "multiple_resolved_schools": 1,
-        "bare_mention_requires_llm": 5
+        "bare_mention_requires_llm": 5,
+        "school_not_resolved_confidently": 2
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098642390529736819",
-          "author": "larrybuysland12",
-          "searchJob": "arkansas",
-          "text": "Own 5+ acres in Arkansas or Oklahoma? 🌳 Unused land means property taxes can keep adding up. Turn your land into cash with a cash offer from https://t.co/cnHbcO6L1t. 👉 Get started today: https://t.co/cnHbcO6L1t #SellLand #ArkansasLand #Ok"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098638556126155190",
+          "author": "u8itb4me1",
+          "searchJob": "massachusetts",
+          "text": "@lamps_apple DeSantis said Florida would offer him protection if he's being targeted in Massachusetts."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098625316378050596",
-          "author": "harginski",
-          "searchJob": "arkansas",
-          "text": "@JolliestUte Arkansas never offered him. 😂 Also he literally lost the last game he ever played. Also anyone in Arkansas who saw him play knows he only threw screen passes."
+          "postId": "2098635663482540473",
+          "author": "storiesbyjemay",
+          "searchJob": "massachusetts",
+          "text": "You are correct that I don't follow Massachusetts courts. I'm merely one of many internet readers who are appalled at the treatment of the honestly dissenting juror. And beyond that, I'm inclined to think our (collective) judicial systems a"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098622631285051875",
-          "author": "taylorchar83070",
-          "searchJob": "arkansas",
-          "text": "National Day of Encouragement is observed annually on September 12 in the United States, aiming to uplift and inspire people to make a positive impact in their lives. It was established in 2007 by the Encouragement Foundation at Harding Uni"
+          "postId": "2098628287719420291",
+          "author": "tcf_updates",
+          "searchJob": "massachusetts",
+          "text": "🚨 DESANTIS OFFERS SAFE HAVEN TO EMBATTLED LINDSAY CLANCY HOLDOUT JUROR TALLAHASSEE, UNITED STATES - The governor’s offer of asylum turns a local jury controversy into a national political moment, giving him an opportunity to frame himself "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098625399492141256",
-          "author": "kyushoromania",
-          "searchJob": "michigan",
-          "text": "What are the Gun Defense Laws? Learn the Facts about Gun Crime and Defense from former Detroit Michigan Police Offer Kara Borshuk. Follow this link to learn more now. #kyusho #pressurepoints #kyushojitsu #freekyusho https://t.co/8tzcH1pY5g"
+          "postId": "2098634651288100931",
+          "author": "ellisjahho371",
+          "searchJob": "ole-miss",
+          "text": "@CNN Yeah okay, but we're talking about Mississippi, you're not going to convince any Black person and quite a few White people that this is the actual suspect, we know how they work, he's already been offered an ultimatum, as I said you're"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098622717570289769",
-          "author": "jimcomparoni",
-          "searchJob": "missouri",
-          "text": "Good for Eli Drinkwitz of Missouri. It's refreshing to see an adult offer some coaching supervision after a rivarly game and defuse a potentially volatile situation rather than inflaming it. #sportsmanship #respectforthegame"
+          "postId": "2098633141267141046",
+          "author": "balletbeautiful",
+          "searchJob": "charlotte",
+          "text": "25 years later. On 9/11/2001 I was a young ballerina with @nycballet on the third leg of an incredible international tour. We had arrived in Parma, Italy and hadn't even begun our performances when the Towers were hit. No one had cell phone"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098630590438228154",
-          "author": "_taeborwilliams",
-          "searchJob": "james-madison",
-          "text": "@BallCoachHP @JMUFootball Taebor Williams 6’3 190 lbs 2029 ATHLETE (Safety and Wide Receiver) ORLANDO, FL Film on page 12 offers currently"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098626486060114374",
+          "author": "mohamedbadria1",
+          "searchJob": "coastal-carolina",
+          "text": "🌊 A PRIVILEGED BEACHFRONT POSITION BAB AL QASR BEACH RESORT RESIDENCE 77 An Exclusive Coastal Address in the Heart of Al Reem Island 🏝️ Set on one of the limited beachfront plots of Al Reem Island, Residence 77 offers something increasing"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098646201205706980",
+          "author": "eddie_snail",
+          "searchJob": "kent-state",
+          "text": "No-one should under-estimate the bravery, dedication, and value of our RNLI lifeboat crews. They do fantastic work. Here they are caught in a trap which is not of their making, but the result of government policy. Illegal people traffickers"
         }
       ]
     },
@@ -179,12 +186,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 6,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 7,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-12T05:28:06.319Z"
+    "status rebuilt locally from current store on 2026-09-12T05:43:03.962Z"
   ]
 }
