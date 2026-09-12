@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T10:57:50.674Z",
+  "generatedAt": "2026-09-12T11:12:56.545Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-12T10:57:50.424Z",
+    "at": "2026-09-12T11:12:56.259Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7751477777777778,
-    "p95Hours": 1.2750419444444445,
-    "worstHours": 1.5251552777777777
+    "medianHours": 0.7752386111111111,
+    "p95Hours": 1.2778180555555556,
+    "worstHours": 1.5266727777777778
   },
   "decisionCoverage": {
-    "total": 22,
-    "decided": 22,
+    "total": 37,
+    "decided": 37,
     "complete": true
   },
   "pending": {
@@ -49,202 +49,291 @@
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 1053,
+    "completeOffers": 1054,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-12T10:57:50.424Z",
-      "got": 27,
-      "new": 22,
-      "lag": 0.06
+      "at": "2026-09-12T11:12:56.258Z",
+      "got": 46,
+      "new": 37,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-09-12T10:56:16.183Z",
+    "at": "2026-09-12T11:11:17.968Z",
     "mode": "live",
     "collection": {
-      "returned": 27,
-      "kept": 22,
-      "duplicate": 5,
+      "returned": 46,
+      "kept": 37,
+      "duplicate": 9,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 11,
+      "accepted": 26,
       "rejected": 11,
       "reasons": {
-        "no_offer_term": 4,
-        "hard_negative": 4,
+        "no_offer_term": 8,
         "no_fbs_school": 3
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2098722507188510953",
-          "author": "predicttime_",
-          "searchJob": "class:2026",
-          "text": "https://t.co/Mi8OElT3Uc"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098707697558233177",
-          "author": "evafox",
-          "searchJob": "class:2026",
-          "text": "https://t.co/Y5hYY52naj"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098716671632609352",
-          "author": "coram2832",
-          "searchJob": "georgia",
-          "text": "AN AMAZING WITNESS A number of years ago, in a London church, the Sunday morning service was about to close when a stranger rose and said, “Excuse me Pastor, can I share a word of testimony?” The Pastor looked at his watch and said, “You’ve"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098716126746497430",
-          "author": "coram2832",
-          "searchJob": "georgia",
-          "text": "AN AMAZING WITNESS A number of years ago, in a London church, the Sunday morning service was about to close when a stranger rose and said, “Excuse me Pastor, can I share a word of testimony?” The Pastor looked at his watch and said, “You’ve"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098715882990297149",
-          "author": "coram2832",
-          "searchJob": "georgia",
-          "text": "AN AMAZING WITNESS A number of years ago, in a London church, the Sunday morning service was about to close when a stranger rose and said, “Excuse me Pastor, can I share a word of testimony?” The Pastor looked at his watch and said, “You’ve"
+          "postId": "2098724577106890811",
+          "author": "mbjmemphis",
+          "searchJob": "memphis",
+          "text": "The city and a local nonprofit are targeting 45,000 residents for training in the health, information technology, and trades sectors. https://t.co/2gWhoDfoTO"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098711434758635627",
-          "author": "islandsmagazine",
-          "searchJob": "kentucky",
-          "text": "Kentucky's Nolin Lake State Park offers primitive camping, a sandy swimming beach, boating and fishing, hiking and biking trails, and Brier Creek Waterfall. https://t.co/qsldBP60Bb"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098721653081493977",
-          "author": "yourpremiertra1",
-          "searchJob": "texas",
-          "text": "Golden Tickets: Your Trusted Source for Sports, Concert, and Theater Tickets https://t.co/72NFkgnRGv Finding great seats for the events you love should be simple, convenient, and stress-free. That's exactly what Golden Tickets delivers. Whe"
+          "postId": "2098714234498503069",
+          "author": "thedomainduke",
+          "searchJob": "duke",
+          "text": "https://t.co/5Co33a2ge5 — a defining name for the future of work. 🤖🌐 From robotic teleoperation and remote physical labor to embodied AI workers, the meaning of employment could be about to expand dramatically. Offered at $29,888. #Embodi"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098053727873536279",
-          "author": "theblaze",
-          "searchJob": "texas",
-          "text": "George Bush reflects on the aftermath of the 9/11 terrorist attacks: \"I made it clear that Islam was a religion of peace.\" https://t.co/YDOltLvl2X"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098721482159321230",
-          "author": "accidentsnearme",
-          "searchJob": "california",
-          "text": "Lancaster, CA – Several People Hurt in Multi-Vehicle Accident near N. Division St. and E. Ave. J-8According to the Los Angeles County Fire Department, the pileup occurred around 7:30 p.m. on September 11, 2026, at North Division Street and "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098713284820062626",
-          "author": "timesfreepress",
-          "searchJob": "california",
-          "text": "A California-based Greek food franchise plans to open a location inside the Signal Mill building on Manufacturers Road later this month and has pledged to offer free lunch to the community on its opening day. https://t.co/GsPgiCKyb9"
+          "postId": "2098727588071985527",
+          "author": "wilburhoppy",
+          "searchJob": "north-carolina",
+          "text": "@Leebefree74 @WhatleyNC Because he did.https://t.co/5qmqxXplBp And now this:https://t.co/vauDwIcSGD"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098716580129456468",
-          "author": "bbcmarksimpson",
-          "searchJob": "notre-dame",
-          "text": "President Trump on a united Ireland: “I’d love to see it unified. I think it would be a great feather in everybody’s cap if that happened. It’s going to happen eventually. “You know what? The way I look at it, it’s going to happen eventuall"
+          "postId": "2098726992594030939",
+          "author": "wilburhoppy",
+          "searchJob": "north-carolina",
+          "text": "@WhatleyNC You have a real pedo problem.https://t.co/vauDwIcSGD"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098726821759959521",
+          "author": "wilburhoppy",
+          "searchJob": "north-carolina",
+          "text": "@MargoinWNC Cooper is polling above 50%, and that is before this news broke, Whatley is cooked.https://t.co/vauDwIcSGD"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098726185949671870",
+          "author": "wilburhoppy",
+          "searchJob": "north-carolina",
+          "text": "@kneeds @RobertBurns82 They use \"preacher\" because it sounds better that \"pedo.\"https://t.co/vauDwIcSGD"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098725908769042572",
+          "author": "wilburhoppy",
+          "searchJob": "north-carolina",
+          "text": "@RobertBurns82 Michael Whatley has a real pedo problem.https://t.co/vauDwIcSGD"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098725016925831300",
+          "author": "pxwhittle",
+          "searchJob": "north-carolina",
+          "text": "Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina @AP https://t.co/gVwiFi4sXM"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098722384748429517",
+          "author": "ealmarode",
+          "searchJob": "north-carolina",
+          "text": "Prayers from pedophiles? Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina - The Associated Press https://t.co/aiaY5KOyNP"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098709291771289637",
+          "author": "kellydeer1971",
+          "searchJob": "north-carolina",
+          "text": "Wow @MyNCSenate Just wow. https://t.co/dFAHkEEpEe"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098721242828476807",
+          "author": "hamishlilley",
+          "searchJob": "army",
+          "text": "Maori can settle land disputes with the crown but can't change history. https://t.co/HbikiVFkcu"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 11,
+      "accepted": 1,
+      "rejected": 25,
       "reasons": {
-        "bare_mention_requires_llm": 5,
-        "multiple_resolved_schools": 3,
-        "school_not_resolved_confidently": 3
+        "bare_mention_requires_llm": 23,
+        "multiple_resolved_schools": 2
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098721281902338550",
-          "author": "theworldcorresp",
-          "searchJob": "georgia",
-          "text": "ACTUAL CONDITIONS AND NATO'S TURNING POINT What makes that episode significant is not the laughter, but the context. In 2001, NATO was already discussing its second round of eastward enlargement. Russia's admission was considered impractica"
+          "postId": "2098711755706773902",
+          "author": "agdsporttrading",
+          "searchJob": "colorado",
+          "text": "Today’s acca picks. Sign up to William hill today and get there sign up offer 🏠 HOME GAINS CARD — 12/09/2026 💷 Flat stake £18 | 6 qualifiers | Exposure £108 1️⃣ 🕒 11:00 — Hiroshima v C-Osaka 🏆 Japanese J-League 🟢 Home Green vs 🔴 Away "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098708659509350685",
-          "author": "rhodesfi32898",
-          "searchJob": "kentucky",
-          "text": "The narrative has already been written There were multiple welfare concerns reported (actually safety concerns about my situation caused by abuse, police and housing) She refused to engage with help (I insisted on and requested over 30 soci"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098716202780524908",
-          "author": "humbleflow",
-          "searchJob": "texas",
-          "text": "A major contradiction dominates and distorts the way most Western people understand Islam: the distinction-without-a-difference fallacy. Consider these two (antithetical) axioms, which a great many Western people seem to embrace: 1) Freedom"
+          "postId": "2098725595848810958",
+          "author": "charlottesepti1",
+          "searchJob": "north-carolina",
+          "text": "Septic Pumping in Rock Hill, NC Do you need professional septic tank cleaning and septic tank pumping in Rock Hill, North Carolina? Then it’s time to call the team at Charlotte Septic Pros. Our experienced technicians offer a wide range of "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098718009749655875",
-          "author": "jimfrombaseball",
-          "searchJob": "cincinnati",
-          "text": "\"Scout Bill Zinser spotted Sandy Koufax at Lafayette High School and the University of Cincinnati and then sent a glowing report to the Brooklyn Dodger front office. According to Zinser: \"This kid looked like a good prospect, with a blazing"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098720722290135098",
-          "author": "kngeliquenhoq",
-          "searchJob": "miami",
-          "text": "Now accepting a limited number of Miami clients. Beginning May 2026, Pure Method will offer chef-crafted meal prep designed for performance, wellness, and a refined lifestyle. Each plan is custom tailored to your goals. Availability is limi"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098726926500151318",
-          "author": "cricbettrader",
-          "searchJob": "notre-dame",
-          "text": "Irish greyhound derby offer. 2nd place refund https://t.co/2RLzuAtrbh. 18+ https://t.co/eSbh0AIQkZ https://t.co/Dy9KvHqNOd"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098724853075292361",
-          "author": "grobinsondup",
-          "searchJob": "notre-dame",
-          "text": "President Trump knows better than most that elections matter. Northern Ireland’s constitutional future will be decided by the people of Northern Ireland, not by commentary in London, Dublin or Washington. Northern Ireland is part of the Uni"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098721335903936647",
-          "author": "betdaq",
-          "searchJob": "notre-dame",
-          "text": "DAQMAN LEGER DOUBLE STRIKE: Daqman has an 8-1 ante-post BETDAQ bet for the St Leger. He can afford to have small bets on rank outsiders and bid for a big-odds straight forecast with his winner. He’s done well in the last two days but wants "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098713398368161958",
-          "author": "walleyvision",
-          "searchJob": "notre-dame",
-          "text": "Irish historian Kevin Kenny wrote “Throughout the Empire Irish Catholics served as soldiers and administrators, or worked as policemen, doctors, engineers, lawyers, journalists, or businessmen.” In 1830, when Ireland accounted for around 30"
+          "postId": "2098720402432307303",
+          "author": "andrewcorls",
+          "searchJob": "oklahoma-state",
+          "text": "Duck Hunt: Oregon-Oklahoma State Value Oregon is a massive favorite, but the spread discrepancy between these two books offers a unique opportunity to capitalize on the line movement. We are looking at the numbers to see if the Ducks can co"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098713236082233537",
-          "author": "loopingcloud",
-          "searchJob": "uconn",
-          "text": "East Hartford duplex opportunity! 6–8 Higbie Dr, East Hartford, CT 06108 offers 1,584 SF with two side-by-side units, private entrances, off-street parking & laundry. 💰 Asking $279K. Lisa Cozzi: 860-508-2102. https://t.co/gBZPt3DtcM #EastH"
+          "postId": "2098720400792342871",
+          "author": "letmebet_com",
+          "searchJob": "oklahoma-state",
+          "text": "Duck Hunt: Oregon-Oklahoma State Value https://t.co/YLrx12of5P Oregon is a massive favorite, but the spread discrepancy between these two books offers a unique opportunity to capitalize on the line movement. We are looking at the numbers to"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098710399394660550",
-          "author": "k24english",
-          "searchJob": "air-force",
-          "text": "📹 Newly shared images offer a look inside the VC-25B Bridge aircraft serving as the new Air Force One. The refurbished Boeing 747-8 features spacious cabins, conference areas and an upgraded presidential interior. \"Our country has to be re"
+          "postId": "2098730093644595315",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098729841986293939",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098729589875118524",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098728833260327174",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098716250545545612",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098713287525560707",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098713287525540293",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098713287408156704",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098712734812766382",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098712727510499593",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098710462645014913",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098709959450198064",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098708701716922450",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098708701364510936",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098721566963962269",
+          "author": "_xavierhutchens",
+          "searchJob": "appalachian-state",
+          "text": "I will be at East Carolina today for the 1st home game vs. App State‼️ Thank you @ECUPiratesFB for the invite and for giving me an OFFER! Can’t wait to get on campus. 🏈💜🏴‍☠️ #PirateNation @coachsotoj @Coach_B_Harrell @lgware @AlexJohnson"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098716389389521210",
+          "author": "asyounotwish",
+          "searchJob": "arkansas-state",
+          "text": "There is something deeply contradictory about the way India handles religious figures in its foreign policy. The Indian state has, for years, objected to foreign powers inserting themselves into Kashmir, particularly when that intervention "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098709149521440783",
+          "author": "hgursen",
+          "searchJob": "arkansas-state",
+          "text": "@CDHoweInstitute Environmental Impact of the Pangea-G Platform and GURSEN-H EV System on Global Climate and Temperature Control Abstract As global climate change accelerates, innovative planetary-scale platforms are required to transition f"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098731151825203590",
+          "author": "monthreat",
+          "searchJob": "army",
+          "text": "🚨Threat Actor Claims Sale of MHA India Admin Access and Personnel Data An underground forum post alleges the sale of full administrative access to the Ministry of Home Affairs (MHA) of India's Agniveer recruitment portal, https://t.co/iE0R"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098724656555700336",
+          "author": "kishansakma",
+          "searchJob": "army",
+          "text": "Today is Saragarhi Day. On 12 September 1897, just 21 Sikh soldiers of the 36th Sikhs, British Indian Army, under Havildar Ishar Singh, defended the isolated signalling post at Saragarhi on the North-West Frontier. Against them came an esti"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098716488051872106",
+          "author": "me_observer_",
+          "searchJob": "army",
+          "text": "⚡️⭕️ Digest — 07:11–10:12 UTC Iraq's PM dismissed the Maysan Operations Commander after confirming the Saudi pipeline attack originated from within the governorate; a security committee is investigating, while Islamic Resistance in Iraq den"
         }
       ]
     },
@@ -258,12 +347,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 11,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 25,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-12T10:57:50.675Z"
+    "status rebuilt locally from current store on 2026-09-12T11:12:56.546Z"
   ]
 }
