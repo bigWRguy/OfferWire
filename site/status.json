@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T14:43:09.116Z",
+  "generatedAt": "2026-09-12T14:57:54.353Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-12T14:43:08.775Z",
+    "at": "2026-09-12T14:57:53.964Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,17 +32,17 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7736825,
-    "p95Hours": 1.773905,
-    "worstHours": 2.02776
+    "medianHours": 0.7767097222222222,
+    "p95Hours": 1.7739322222222222,
+    "worstHours": 1.7739322222222222
   },
   "decisionCoverage": {
-    "total": 66,
-    "decided": 66,
+    "total": 76,
+    "decided": 76,
     "complete": true
   },
   "pending": {
-    "total": 33
+    "total": 34
   },
   "profileResolution": {
     "cached": 47
@@ -55,380 +55,380 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-12T14:43:08.774Z",
-      "got": 97,
-      "new": 66,
-      "lag": 0.06
+      "at": "2026-09-12T14:57:53.964Z",
+      "got": 98,
+      "new": 76,
+      "lag": 0.12
     }
   },
   "audit": {
-    "at": "2026-09-12T14:41:30.075Z",
+    "at": "2026-09-12T14:56:14.850Z",
     "mode": "live",
     "collection": {
-      "returned": 97,
-      "kept": 66,
-      "duplicate": 31,
+      "returned": 98,
+      "kept": 76,
+      "duplicate": 22,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 40,
-      "rejected": 26,
+      "accepted": 47,
+      "rejected": 29,
       "reasons": {
+        "non_fbs_offer_target": 1,
         "no_fbs_school": 15,
-        "hard_negative": 3,
-        "no_offer_term": 8
+        "no_offer_term": 10,
+        "hard_negative": 3
       },
       "samples": [
         {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098781511327572160",
+          "author": "baylorbrowning1",
+          "searchJob": "baylor",
+          "text": "After a great talk with @coachWadeUCU I am bless to receive my first offer from Union Commonwealth University https://t.co/unY8eotVGK"
+        },
+        {
           "reason": "no_fbs_school",
-          "postId": "2098782583656194441",
-          "author": "4meractionguys",
-          "searchJob": "texas",
-          "text": "@BravoKiloActual Took a Waymo for the first time the other day. Definitely a better option than the mobile homeless shelters aka public transportation San Diego offers. Air taxis are the next step https://t.co/ScylYRCE1K"
+          "postId": "2098786406181249393",
+          "author": "el_kanon_breaks",
+          "searchJob": "colorado",
+          "text": "@Slay3r881 @harukaawake Guy had a card for $50. It was created. I offered him $40. He came back with $49.50 I was like... wow, what a deal."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098785631900246229",
+          "author": "el_kanon_breaks",
+          "searchJob": "colorado",
+          "text": "@Slay3r881 @harukaawake Or offers on ebay... negotiating with them is rough."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098785620445253806",
+          "author": "ben_dover44444",
+          "searchJob": "north-carolina",
+          "text": "The values of the Republican party are fucked up. This is the trump Republican party celebrating pedophiles. Fuck them all. Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina https://t.co/pxPfcVc"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098783469115523196",
+          "author": "donalds50387",
+          "searchJob": "north-carolina",
+          "text": "Straight talk and truth for a divided country. Absolutely NO BULLSHIT! https://t.co/EMTw8KIKGO"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098783184842342535",
+          "author": "politicalprozac",
+          "searchJob": "north-carolina",
+          "text": "Can the GOP have any events not featuring a person that fucks kids? https://t.co/hhFNhcuMK3"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098778100905779476",
+          "author": "christabrown777",
+          "searchJob": "north-carolina",
+          "text": "In North Carolina, a pastor who is a convicted child sex offender offers the opening prayer at a campaign rally for Republican Senate candidate Michael Whatley. And somehow this doesn't even surprise me. https://t.co/4eRrIfOJnO"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098769501164630345",
+          "author": "menofclarity",
+          "searchJob": "north-carolina",
+          "text": "Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098768113357734134",
+          "author": "dmp2you",
+          "searchJob": "north-carolina",
+          "text": "Can't make this shit up ,folks !!! Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina https://t.co/zbvhFPcFhS via @@YahooNews"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098767788588368346",
+          "author": "zprofet",
+          "searchJob": "north-carolina",
+          "text": "GOP candidate for Governor in NC is associated with TWO CONVICTED sex offenders Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina https://t.co/6wTjmELvK3 #gharvest #bible #church #god #faith #co"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098765901961027942",
+          "author": "rlgugliotti",
+          "searchJob": "north-carolina",
+          "text": "Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina https://t.co/sP4iNDTYv8 via @@Yahoo This is the new GOP under Trump. It doesn't matter if your a convicted felon the GOP embraces you. What hypo"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098763602295418927",
+          "author": "bannisterross",
+          "searchJob": "north-carolina",
+          "text": "@WhatleyNC What is wrong with Michael Whatley? Why are so many convicted child sex offenders linked to him? https://t.co/hv1qPONkpt"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098762454884855850",
+          "author": "charlespdavis",
+          "searchJob": "north-carolina",
+          "text": "Convicted sex offender offered opening prayer at rally for GOP Senate nominee @WhatleyNC in North Carolina | AP News https://t.co/NVzGEAziaU"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098761143040794931",
+          "author": "an3ita50",
+          "searchJob": "north-carolina",
+          "text": "https://t.co/IdWE0suKyf The prayer was hardly unusual by North Carolina political standards. What was surprising was the man who delivered it. Pastor Daimon L. King is a registered sex offender, twice sentenced to prison for convictions inv"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098759900537012398",
+          "author": "spikingtds",
+          "searchJob": "north-carolina",
+          "text": "It is amazing how much embracing pedophilia has become part of the GOP Platform. Every time you turn around these days, a GOP leader has done it.... Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Caro"
         },
         {
           "reason": "hard_negative",
-          "postId": "2098775656339304903",
-          "author": "dfwoutreach",
-          "searchJob": "texas",
-          "text": "Honored to Offer the Invocation at the City of Irving Honored to represent BAPS Shri Swaminarayan Mandir, Dallas at the City of Irving, Texas - City Hall, meeting and offer the traditional Hindu Shanti Paath — a prayer for peace, harmony & "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098773554166989121",
-          "author": "dhawks1839karen",
-          "searchJob": "texas",
-          "text": "Who in their right mind could sit and listen to DJ Trump babble for 105 minutes during the Republican midterm convention in Texas? He reminds me of driving in the rain and watching your windshield wipers while their making that scrapping so"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098769030106521759",
-          "author": "alaskancourtney",
-          "searchJob": "texas",
-          "text": "@SeanJohns1972 😂 that’s OK. Even people who would rate their medical skills at a 10 have very little to offer me."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098765845971312696",
-          "author": "phoenixselect",
-          "searchJob": "texas",
-          "text": "YES MA’AM‼️‼️‼️ 5’11” 2027 @mack_phoenix_50 earns an offer to @LETUWBB in Longview, Texas🔥 Enormously grateful to new Head Coach Morgan Garrett for the opportunity🙏 https://t.co/EAX3J8XsSy"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098757504683458997",
-          "author": "prep2play",
-          "searchJob": "texas",
-          "text": "🚨👀👀🚨 PrepStar Elite 360 ‘27 WR @HeathKollin | Royse City HS 📏6’1” 175 🎓3.0 GPA ⏱4.6 Laser 40 | 3.99 Shuttle 🧰35” Vertical | 10’5” Broad | 73” Wingspan 💪275 Bench | 350 Squat Profile &amp; 🎥: https://t.co/6GwbHEEVM8 ✅D1 OFFERS: 5"
+          "postId": "2098783842664398989",
+          "author": "docrussjackson",
+          "searchJob": "class:2026",
+          "text": "🚨 An anonymous “veteran” account is attacking the RNLI while selling remigration, civil-war talk, and a politically vetted male cell, trained in stealth, hunting, and close-quarters combat... There’s a particular kind of authority that com"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098751460422902119",
-          "author": "heathkollin",
-          "searchJob": "texas",
-          "text": "Great TEAM win. Shout to the O-line and my QB1. Dawgs! D played lights out! One TD on the night. On to district. @CoachColvin7 @drobalwayzopen @dctf @GPowersScout @ROCOgameday @coachhhunter @CSAPrepStar @jaxon_smith1 https://t.co/2DvXX8y8E2"
+          "postId": "2098344084251328766",
+          "author": "docrussjackson",
+          "searchJob": "class:2026",
+          "text": "🚨 Allow me to explain who and what @elonmusk is agreeing with when he replied “Yes” to this post, and why this should concern every decent person in Britain, and perhaps especially, @RNLI crew. Matt Bracken is an extremely dangerous former"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098757087924777060",
-          "author": "mccurdymedia",
-          "searchJob": "texas",
-          "text": "Love the $35 backup offer, but the 12-year lease is what’s holding me up. If I sell the house I either have to transfer the lease to the buyer or buy the Powerwalls out. In Texas we shop electricity every year and switch if we find a better"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098776108841795609",
-          "author": "kneezdutz",
-          "searchJob": "california",
-          "text": "You people are stuck in 2003 and suffer from terminal WMD brain, it is unbecoming of any grown ass man who can think for himself to speak with confidence armed only with an incoherent rendering of history and geopolitics. It is painfully ob"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098767719411675443",
-          "author": "danmason1391554",
-          "searchJob": "california",
-          "text": "@ImBreckWorsham They actually are sweetie.. they go around all year in California giving homeless people 10 dollars for their signature then use it as a mail in vote… they offered a 2000 dollar dividend to democrat voters while sleepy ass f"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098758249344332277",
-          "author": "kellyg581976179",
-          "searchJob": "california",
-          "text": "🆘Urgent in Central California~Adopter or Foster Urgently Needed Due to be 💉, Weds. 9/16 at 6:30am PT at Stanislaus Animal Services Agency, in Modesto, CA‼️ This is beautiful, 4 year old , Cane Corso named Mallory. This poor girl was used "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098764817217487233",
-          "author": "louisvillebats",
-          "searchJob": "louisville",
-          "text": "Saturdays are for the kids. ⚾️👇 Swing by the Team Store and get 25% off all youth-sized Baseballism branded t-shirts! (In-store only. Cannot be combined with other discounts or offers.) https://t.co/D7XvxyKIDe"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098783505962394094",
-          "author": "mansatesla",
-          "searchJob": "miami",
-          "text": "https://t.co/4uTwul0CGM"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098774185434550587",
-          "author": "sentinel_sports",
-          "searchJob": "miami",
-          "text": "In just over two weeks, Erik Spoelstra will, at some point during his comments at media day, stress how the 2026-27 Miami Heat will be a team telling its own story. But is it? https://t.co/xSvV3nGjPe"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098612420251938966",
-          "author": "espntop63",
-          "searchJob": "miami",
-          "text": "WATCH: Inlet Grove keeps fighting but falls to unbeaten Cocoa Beach. https://t.co/2Kin1Urx60 https://t.co/8dTt0JlhcT"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098782573274996957",
-          "author": "unityamerica",
-          "searchJob": "uconn",
-          "text": "RHAW: REAL HUMAN AI WATCH EARLY BIRD BEATDOWN September 11, 2026 • 25 Years Since the Attacks https://t.co/PZTME50Ywi"
+          "postId": "2098757978786541941",
+          "author": "mrdimasta420",
+          "searchJob": "class:2026",
+          "text": "Evolution has been quietly building monsters in your backyard for 300 million years, and you've never heard of most of them. Not metaphorical monsters. Actual, walking, breathing creatures so strange that if you saw one without context, you"
         },
         {
           "reason": "hard_negative",
-          "postId": "2098755924316029048",
-          "author": "bdmilitary",
-          "searchJob": "air-force",
-          "text": "🇧🇩 EARN YOUR WINGS — SERVE WITH HONOUR The Bangladesh Air Force offers young Bangladeshis the opportunity to build a career defined by discipline, leadership, courage and service to the nation. Becoming an officer is more than a career — "
+          "postId": "2098780257503379910",
+          "author": "tre_landotfl",
+          "searchJob": "alabama",
+          "text": "2027 Allen (TX) three‑star S James “Trey” Roberson (@Jrobe0) looked strong in the secondary, stacking multiple pass breakups on the back end. The Wisconsin commit also picked up an Alabama offer last week. @alleneaglesfb @RecruitAllen @txfb"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098776137115595008",
-          "author": "mar41811raymond",
-          "searchJob": "marshall",
-          "text": "@TheSalmanImad @Spicequotient Sausage I'm done with you. You have nothing to offer. You're like a child and I've just stole your sweeties. What are you possibly going to offer me? With your fake account"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098766541349060820",
-          "author": "dawgsfaninin",
-          "searchJob": "marshall",
-          "text": "@hbtc23 @LoganPaul @KarlTowns 😂 Didn’t he offer like $60,000 and two McDonald’s cheeseburgers or something?"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098763886824439872",
-          "author": "rodneymarshall1",
-          "searchJob": "marshall",
-          "text": "When Euston Films took over Special Branch, George Sewell took on the lead role as DCI Alan Craven, with Mower cast as his antagonistic colleague DCI Tom Haggerty, a role which offered echoes of Callan. https://t.co/uNjPk8xS4a"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098779210794090892",
-          "author": "rcatholicprayer",
-          "searchJob": "temple",
-          "text": "The Joyful Mysteries of the Rosary: The Visitation: A Journey of Grace and Blessing In the heart of the Gospel of Luke, nestled between the Annunciation and the Nativity, lies a profound narrative that encapsulates the essence of grace and "
+          "postId": "2098761733351354428",
+          "author": "all_things_bama",
+          "searchJob": "alabama",
+          "text": "@CircadianLB @AllSports937 @justin__1000 Nah. They had already linked Vonnie back to the rental and prly more. From there you pull up known associates. They was getting cooked eventually. Feds don't just randomly pull you over for traffic s"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098778379793182857",
-          "author": "nocatsnolife_m",
-          "searchJob": "temple",
-          "text": "https://t.co/HUXNyyz1XZ"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098584881551003872",
-          "author": "newsalgebraind",
-          "searchJob": "temple",
-          "text": "BIG NEWS 🚨 Tamil Nadu govt has decided to standardise the temple prasadams to ensure best quality. The standardisation will cover recipes and ingredient ratios. Pure Aavin Ghee will be used. Hindu religious and charitable endowments (HR&CE"
+          "postId": "2098780496326963356",
+          "author": "thr33pigs",
+          "searchJob": "illinois",
+          "text": "Meanwhile, in Illinois: • Effective today, September 12, \"assisted suicide\" is lawful in Illinois. • Feeling sad? Depressed? Unhappy\" • We've got you covered... https://t.co/0Lwwf7OqAj"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098783625462317543",
-          "author": "b5xavier",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "blessed to receive my second offer! thank you to @CoachLichten @TimViall @TyLeblond @DUimonen for the opportunity! ⚡️ https://t.co/6ua7s5CdPM"
+          "postId": "2098766101199171863",
+          "author": "visangels_md",
+          "searchJob": "maryland",
+          "text": "Not sure what kind of care your loved one needs? Let’s talk. 💜 Visiting Angels offers a free, no-obligation home care consultation to help you understand your options and find the right support for your family. 📞 (888) 320 - 1994 #InHomeC"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098429380808622222",
+          "author": "2021ccmbc",
+          "searchJob": "washington",
+          "text": "Carleton professor Ian Lee: \"All I see is destruction\". Predicts layoffs and small-biz failures. He asks \"what’s the purpose of this, other than we’re all angry at Donald Trump?\" https://t.co/uJ3rpdULNX"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098736054668828948",
+          "author": "ajenews",
+          "searchJob": "washington",
+          "text": "BREAKING: China's President Xi offers role in peace negotiations between US and Iran 🔴 LIVE updates: https://t.co/dE4Ql55lFm https://t.co/9T4dHj4qSr"
         }
       ]
     },
     "extraction": {
-      "accepted": 2,
-      "rejected": 38,
+      "accepted": 0,
+      "rejected": 47,
       "reasons": {
-        "bare_mention_requires_llm": 19,
+        "bare_mention_requires_llm": 38,
         "multiple_resolved_schools": 7,
-        "school_not_resolved_confidently": 9,
-        "reporter_missing_player_name": 2,
-        "player_display_name_unusable": 1
+        "unresolved_offer_target": 1,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098779344458182771",
-          "author": "asirais",
-          "searchJob": "texas",
-          "text": "$ASTS AST SpaceMobile Looks to Extend Its 30-Day FCC Satellite Testing Window The Space Development Agency's recent letter of support to the FCC demonstrates growing government interest in AST SpaceMobile’s BlueBird satellites beyond commer"
+          "postId": "2098785959794164208",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098782023976628332",
+          "author": "lizthatgirlca",
+          "searchJob": "pittsburgh",
+          "text": "Just wanted to say how much I respect the fact that Brad Pitt has refused all offers to star in a superhero movie 🥹❤️👍 Love ya, Brad 🌟"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098771867855396944",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098769854090424813",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098765827550195712",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098776645956198423",
-          "author": "nym",
-          "searchJob": "texas",
-          "text": "This summer in privacy: 🇦🇺 Australia - social media ban launched Dec 2025. 81% bypass rate. Doubled the fine. Now regulating algorithms for everyone. 🇬🇧 UK - device-level ID at phone setup. Midnight curfew. Surveillance software on ever"
+          "postId": "2098775778666135619",
+          "author": "bhoward_11",
+          "searchJob": "smu",
+          "text": "Klein Oak (Tex.) HS 2028 ATH Antonio Dural (@AntonioDural4) Dural plays both ways w/ a lean towards the defensive side of the ball at DB. Athletic, has ball skills &amp; is ultimately a playmaker. Offers: #SMU, #ASU, #Huskers &amp; more htt"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098774211883872500",
-          "author": "txfirstrentals",
-          "searchJob": "texas",
-          "text": "#TexasFirstRentals offers a wide selection of aerial lifts to help crews access elevated work areas while maintaining productivity across the job site. Explore our #AerialEquipment lineup: https://t.co/dCXSLBq2SG https://t.co/oMMtY47ZTS"
+          "postId": "2098767372341399963",
+          "author": "volkerschankula",
+          "searchJob": "stanford",
+          "text": "Researchers put five leading AI models into the same workplace conflict and asked them for advice. In the scenarios about a difficult manager, 27 of 30 answers raised leaving the job as an option. Three of 638 pieces of advice across the wh"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098762954342646021",
-          "author": "foodie",
-          "searchJob": "texas",
-          "text": "Texas Roadhouse has a number of international locations, with branches in the Philippines featuring a menu item we wish was on offer in the United States. https://t.co/BIytJMCySz"
+          "postId": "2098763050014679256",
+          "author": "brionnawright_3",
+          "searchJob": "akron",
+          "text": "Had a great home visit with Coach Overby from Akron! Really enjoyed getting to spend time with coach overby, learn more about the program, and talk about what Akron has to offer. Thank you for taking the time to come visit me and my family\ud83e"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098781224479129971",
-          "author": "premedcc",
-          "searchJob": "ucla",
-          "text": "Whether you're exploring public health as a career or looking for a research-focused graduate program, this video can help you learn more about what UCLA Fielding has to offer! #PreMedCC #UCLA https://t.co/kdoMShvPni"
+          "postId": "2098785169155252500",
+          "author": "sriramvsub",
+          "searchJob": "arkansas-state",
+          "text": "@pareek_mohit26 All govt. higher education should be offered through a state guaranteed loan and priced fully without discount. Students can decide if they want to take the loan and study and repay. All interest and 50% of POS can waived if"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098776011609714707",
-          "author": "artehater",
-          "searchJob": "california",
-          "text": "Listen to you guys blaming all the people you don’t agree with politically on this hypothetical post. There are two issues, and neither are political you dumbasses. The first is that there is already infrastructure in place all along the co"
+          "postId": "2098784076614291867",
+          "author": "pfunkin",
+          "searchJob": "arkansas-state",
+          "text": "If the Governor of a State offers you sanctuary, I bet it'd come with perks. It truly sucks for this guy, but I bet he could work it to his advantage in a more sane area of the country. The fact that it was offered, and apparently necessary"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098772400544633020",
-          "author": "juliejo43639155",
-          "searchJob": "california",
-          "text": "They offered a million dollars if you got the vaccine. Do you remember I do? Following Ohio's lead, at least a dozen other states—including California, Colorado, New York, and Washington—launched their own million-dollar lottery incentives "
+          "postId": "2098781595360518197",
+          "author": "rezanasri1",
+          "searchJob": "arkansas-state",
+          "text": "Today, I stood in Lamerd. I had read the reports. I had studied the forensic reconstructions by Airwars, The New York Times, BBC Verify, the painstaking work on trajectory angles, fragmentation patterns and blast radii. None of it prepared "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098758537010721248",
-          "author": "loopingcloud",
-          "searchJob": "california",
-          "text": "San Diego multifamily opportunity! 2065–2069 San Diego Ave, CA 92110 offers 6 value-add units, 2,700 SF and 100% leased occupancy. 📈 $1.9M | 3.53% cap rate. Call 858-536-8383 for details. https://t.co/ooeTeeLKxn #SanDiegoCRE #Multifamily #"
+          "postId": "2098781044254314661",
+          "author": "thelastofthe252",
+          "searchJob": "arkansas-state",
+          "text": "I bless thee Camila in the Name of the Father and of the Son and of the Holy Spirit! Amen! Heavenly Father, I lift this beloved baby into Your loving hands, asking that Your healing touch restore her body completely. Remove all heart proble"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098755311813505534",
-          "author": "alibertremrhode",
-          "searchJob": "california",
-          "text": "No we don't. At least not in California. In California they won't even do a screening until 2nd grade and then they only offer them some GATE classes which I have heard are not even close to satisfying the child's needs for a challenge. The"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098778701659828467",
-          "author": "nft_apee",
-          "searchJob": "cincinnati",
-          "text": "Let me analyze this parlay 🤑🏆 🏈 Zay Flowers — ANYTIME TD (+160) 🟢 GOOD LEG * Flowers is a dangerous receiving/after-catch threat. ⚡ * His +160 price suggests a solid but not overwhelming TD probability. * Baltimore has multiple scoring "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098778401649623224",
-          "author": "bishop0051",
-          "searchJob": "cincinnati",
-          "text": "@WeLovePokemon 60% trade 50% cash is the best you get in Cincinnati. Some places i tried offered 25% id like to know where your getting more. Easier to find a community and trade"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098777522808717455",
-          "author": "odds_shopper",
-          "searchJob": "cincinnati",
-          "text": "The first-inning market read for today's slate NRFI Cincinnati Reds vs Milwaukee Brewers: +102 offered vs -103 fair (2.6% gap) YRFI Baltimore Orioles vs Toronto Blue Jays: +113 offered vs +108 fair (2.2% gap) How the Odds Screen calculates "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098773948519309429",
-          "author": "luxuryproperty",
-          "searchJob": "miami",
-          "text": "Wide open skies, shimmering water and a home that feels completely connected to Biscayne Bay. This five bedroom Miami Beach villa offers more than 9,000 sq ft of living space, generous bedroom suites, expansive terraces and sweeping bay and"
+          "postId": "2098778663676198970",
+          "author": "cormac_stokes",
+          "searchJob": "arkansas-state",
+          "text": "@reformparty_uk have enough money to blanket bomb Twitter with bots or offer the electorate bribes à la Trump. Either way, they intend to buy power and immediately call for a state of emergency. If you want to vote for a dictatorship, so be"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098761603978014816",
-          "author": "coachsamcurry",
-          "searchJob": "miami",
-          "text": "College Coaches Check out this 8th Grader (C/O 2031) WR with 3 TDs (2 Receiving TDs and 1 Rushing TD) True Playmaker Zayden Gillyard!!! Already have 2 FBS offers (Miami Hurricanes and UCF Knights) @__backendd0x"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098761425879433283",
-          "author": "uphonestreal",
-          "searchJob": "miami",
-          "text": "🍗🔥 THE WORLD DOESN’T NEED ANOTHER FOOD DELIVERY APP. It needs something much closer to the source. Every day, restaurants, hotels, caterers, supermarkets, butchers, food manufacturers and institutional kitchens need to buy: Chicken breast"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098759213702910181",
-          "author": "redinablustate",
-          "searchJob": "miami",
-          "text": "We offer you cali kush indoor weed plus vapes, disposable vape, hash, carts, edibles, gummies, and pre-rolls in the city, Plug in: Milan, San Francisco, Beijing, Shanghai, Sao Paulo, Dublin, Lisbon, Chicago, Athens, Vancouver, Madrid, Stock"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098780730977374312",
-          "author": "brendangavaghan",
-          "searchJob": "notre-dame",
-          "text": "@JPOConnor427010 @NewstalkFM is that a declaration that you know you'll loose the civil war when it starts? I PERSONALLY HAVE SUFFERED BY HER HAND! The people of Dublin WANT TO STAB HER IN THE FACE!! when she offered a conversation SHE THEN"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098773203225047271",
-          "author": "fa_q_libtard",
-          "searchJob": "notre-dame",
-          "text": "@Leena53022916 In Ireland hospital waiting lists correlate directly with inward economic migrant levels. 14 years, one million added to Ireland and the waiting list. Irish nurses job offers withdrawn. Nobody believes anymore."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098772828556263926",
-          "author": "shelbournepark",
-          "searchJob": "notre-dame",
-          "text": "In Dublin for the Irish Champions Festival this weekend? Don't miss the biggest night of the year in Irish Greyhound Racing on Saturday night. Dublin's Shelbourne Park will host the 2026 BOYLE Sports Irish Greyhound Derby Final on Saturday "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098770606007173154",
-          "author": "europostagency",
-          "searchJob": "notre-dame",
-          "text": "Trump Characterizes Irish Business Style as \"Vicious\" Yet Warm During Dublin Bilateral Stop Speaking to reporters following negotiations with Taoiseach Micheál Martin and President Catherine Connolly, President Trump offered a candid assess"
+          "postId": "2098778429038477642",
+          "author": "beebopcd",
+          "searchJob": "arkansas-state",
+          "text": "JOSEPH STALIN “The practical activity of the party of the proletariat must not be based on the good wishes of ‘outstanding individuals,’ but on the laws of development of society.” — Joseph Stalin, Dialectical and Historical Materialism, 19"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098764312038768964",
-          "author": "juanlibre1950",
-          "searchJob": "notre-dame",
-          "text": "@KemiBadenoch He offered a point of view to a question asked. As an Irish person , in my opinion he gave a good answer. If for instance if the UK rejoined the EU , the question is mute.or the islands joined the USA as Canada joined the EU ."
+          "postId": "2098775941933629547",
+          "author": "ambrielsky",
+          "searchJob": "arkansas-state",
+          "text": "@MarkSZaidEsq My X page is a bibliography of events advised by Rick Scott to keep after referring this case to the local sheriff In 2024 Now Im working with the Intra American Commision And a State investigation into Marion County Fl Victim"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098755245819969801",
-          "author": "amandafbelfast",
-          "searchJob": "notre-dame",
-          "text": "NEW from SF: Statement from Sinn Féin on visit to Ireland by US President Donald Trump Speaking today, Sinn Féin Leader Mary Lou McDonald T.D said: “At this time of very significant global challenge, Ireland seeks to promote our values of p"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098774314040672501",
+          "author": "thelastofthe252",
+          "searchJob": "arkansas-state",
+          "text": "I bless thee John in the Name of the Father and of the Son and of the Holy Spirit! Amen! Heavenly Father, I lift this beloved man into Your loving hands, asking that Your healing touch restore his body completely. Remove all heart problems,"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098773566187516025",
+          "author": "mikemumbelz",
+          "searchJob": "arkansas-state",
+          "text": "They literally have been offering Palestinians statehood since before 1948. - The Peel Commission - The Partition Plan - Camp David - Taba - Olmert - Trump The Camp David attempt was devastating to Clinton. He openly blamed Arafat for colla"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098770800085995741",
+          "author": "minncorrections",
+          "searchJob": "arkansas-state",
+          "text": "(2/4) No appointment is required, and haircuts will be offered on a first-come, first-served basis. Veterans should bring a state-issued ID to enter the facility."
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098776625550905346",
-          "author": "oliverjanich",
-          "searchJob": "air-force",
-          "text": "9/11 – We Don't Believe You Terror Attacks of September 11, 2001 Photos: AP (6), Bloomberg FOCUS MONEY 2/2010 Page 74–77 This is a Grok translation of my viral print article from 2010. More and more people doubt the official theory of Septe"
+          "postId": "2098767991705858311",
+          "author": "dantomlinsonmp",
+          "searchJob": "arkansas-state",
+          "text": "Conservatives (and Reform, now full of Tories) choose every time to stick with a failed economic and political model that has left ours as possibly the most geographically unequal advanced economy in the world. They want to hoard power and "
         },
         {
-          "reason": "reporter_missing_player_name",
-          "postId": "2098774441442652231",
-          "author": "ians_india",
-          "searchJob": "air-force",
-          "text": "Pune, Maharashtra: Defence Expert Brigadier Hemant Mahajan (Retd) says, \"Russian President Putin is in India as part of the BRICS Summit, and one of the important defence cooperation that he has offered is its engine, which will be used by "
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098759183650750847",
+          "author": "raniadelreyy",
+          "searchJob": "arkansas-state",
+          "text": "@IraqiPatriot68 \"Recognising\" a state is not \"Normalisation\" with a state Syria offered recognition in exchange for territory. Your beloved Sunni leaders not only recognise, but fully normalised, opening up diplomatic channels, integrating "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098786003842441359",
+          "author": "anon_gencrit",
+          "searchJob": "army",
+          "text": "@VeganFraser @murdo_fraser 1. Doctors aren’t trained in coercive control 2. Not being murdered by your own Government is a human right 3. Functioning &amp; available palliative care is human right 4. Check out the army vet who sought help t"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098782263253352453",
+          "author": "michaelarothman",
+          "searchJob": "army",
+          "text": "𝐇∗𝐙𝐁𝐎𝐋𝐋𝐀𝐇 𝐒𝐏𝐄𝐍𝐓 𝟐𝟎 𝐘𝐄𝐀𝐑𝐒 𝐁𝐔𝐈𝐋𝐃𝐈𝐍𝐆 𝐀 𝐅𝐎𝐑𝐓𝐑𝐄𝐒𝐒 𝐓𝐎 𝐈𝐍𝐕𝐀𝐃𝐄 𝐈𝐒𝐑𝐀𝐄𝐋 — 𝐈𝐒𝐑𝐀𝐄𝐋 𝐉𝐔𝐒𝐓 𝐁𝐔𝐑𝐈𝐄𝐃 𝐈𝐓 H∗zbollah spent more than twenty years digging a mile-wide underground fortress benea"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098780023675297990",
+          "author": "chakham_analyst",
+          "searchJob": "army",
+          "text": "Saudi Arabia 'Pushed' Out the UAE Then Left the Red Sea Door Open for the Houthis. The rupture began on 2 Dec 2025, when the 'UAE-backed' STC under Aidarus al-Zubaidi drove into Hadramawt and al-Mahra and, within two weeks, held most of the"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098770745560318149",
+          "author": "jai_samota",
+          "searchJob": "army",
+          "text": "The advance encountered no regular army opposition initially, but Mujahideen forces offered resistance while clearing the Bini Salehrian region. It was during this phase that the battalion faced its first significant casualties. (9/n) https"
         }
       ]
     },
@@ -442,12 +442,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 2,
-      "rejectedCandidates": 38,
-      "brandNewOffers": 2
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 47,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-12T14:43:09.117Z"
+    "status rebuilt locally from current store on 2026-09-12T14:57:54.354Z"
   ]
 }
