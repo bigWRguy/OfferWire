@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T04:43:18.934Z",
+  "generatedAt": "2026-09-12T04:57:58.878Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-12T04:43:18.708Z",
+    "at": "2026-09-12T04:57:58.703Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7845344444444444,
-    "p95Hours": 1.2814741666666667,
-    "worstHours": 1.5279222222222222
+    "medianHours": 0.7748863888888889,
+    "p95Hours": 1.2777838888888888,
+    "worstHours": 1.5259030555555555
   },
   "decisionCoverage": {
-    "total": 21,
-    "decided": 21,
+    "total": 25,
+    "decided": 25,
     "complete": true
   },
   "pending": {
@@ -55,188 +55,217 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-12T04:43:18.707Z",
-      "got": 55,
-      "new": 21,
-      "lag": 0.03
+      "at": "2026-09-12T04:57:58.702Z",
+      "got": 41,
+      "new": 25,
+      "lag": 0.1
     }
   },
   "audit": {
-    "at": "2026-09-12T04:41:43.960Z",
+    "at": "2026-09-12T04:56:29.534Z",
     "mode": "live",
     "collection": {
-      "returned": 55,
-      "kept": 21,
-      "duplicate": 34,
+      "returned": 41,
+      "kept": 25,
+      "duplicate": 16,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 13,
-      "rejected": 8,
+      "accepted": 10,
+      "rejected": 15,
       "reasons": {
-        "no_offer_term": 5,
-        "no_fbs_school": 3
+        "hard_negative": 1,
+        "no_offer_term": 3,
+        "non_fbs_offer_target": 2,
+        "no_fbs_school": 9
       },
       "samples": [
         {
+          "reason": "hard_negative",
+          "postId": "2098614897357819941",
+          "author": "1solopotato",
+          "searchJob": "liberty",
+          "text": "Use the Pressure: Reclaiming Canada from Fraud, Delay, and Protected Interests Summary: Canada is buckling under the weight of a broken immigration system, runaway white-collar crime, and laws that protect criminals and elite lobbyists over"
+        },
+        {
           "reason": "no_offer_term",
-          "postId": "2098504919091192253",
-          "author": "nypost",
-          "searchJob": "ohio",
-          "text": "'Right-hand-man' son of genocidal Somali dictator who killed 200,000 found living in Ohio, linked to $1.8M Medicare firm https://t.co/kA6cc1ThHu https://t.co/KuTFRwkU9k"
+          "postId": "2098635734366187840",
+          "author": "kashjacksonqbk",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive a Game 2 recruiting invite from South Carolina State for the matchup against Virginia State University on 9/12/26! 🏈🐶 I am looking forward to visiting campus, meeting the staff, learning more about the program, and cont"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098630186661016055",
+          "author": "2marii4",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with Allen Ferrill i've been blessed to receive my first offer from Converse University #AGTG @RVBlazersTFXC @coachcp5 @CoachK_803 #TrustTheProcess https://t.co/203AviR60d"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098609394980188587",
-          "author": "grindor_fr",
-          "searchJob": "ohio",
-          "text": "@FANEXPODallas Back in 2023, my brother went to an event here in Ohio called GalaxyCon, and Peter Cullen was there.. He offered to have me come along so I could meet him, but I said no out of fear I'd embarrass myself in front of him. That "
+          "postId": "2098629582710526264",
+          "author": "addisonbernardi",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great visit I am blessed to receive an offer to continue my basketball career at Oklahoma Wesleyan University! Thank you @coachmarkmo and @CoachZ_84 for believing in me! @OKWUeagles_WBB @Shockhoops @CoachRubyD @Coach_Nik15 @CoachDre"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098608597852635572",
-          "author": "ricegreg64580",
-          "searchJob": "rice",
-          "text": "@RepRalphNorman Opposition to Trump's alleged offer is good. The fact that Congressional Rep. did NOT mention the fact of its illegal nature as a quid pro quo public bribe, for partisan favor, at expense of ALL citizens, making it a federal"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098629309342658634",
-          "author": "thedomainduke",
-          "searchJob": "indiana",
-          "text": "https://t.co/BSMzNgvmLD"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098471638073483697",
-          "author": "buckeyenatty",
-          "searchJob": "lsu",
-          "text": "Let Bryce Underwood be the example the next time you’re pissed Ohio State didn’t throw enough money at a high school recruit Overpaying for an 18-year-old who has accomplished absolutely nothing at the college level is just stupid Sometimes"
+          "postId": "2098628709561323543",
+          "author": "jackbrunini",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "I am blessed to receive my first official division 1 offer from @GeauxJags . #agtg #blessed @MCJags_Football @CoachT_Rob @wyattrogers13 @CoachGBoykin @dfinley0 @_ZackBerry https://t.co/duSsUDj3gj"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098627621554950630",
-          "author": "jack788whiskey",
-          "searchJob": "texas",
-          "text": "I had to reverse my position on: LTG - Club of Rome Peak Oil P-Doom Climate Change, I was very skeptical, but somewhat convinced by the math if the Arctic Ice melted. They are coherent arguments, and calling people stupid for believing them"
+          "postId": "2098618057899794492",
+          "author": "marcohall56",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my first offer from @CoachBo7 at @UNAFootball! Thanks @CoachBanks92 @CoachJBWallace @MarburyFootball for everything yall do! https://t.co/oZURddUUn9"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098616711037501530",
+          "author": "saraiduncan27",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After an amazing call with @hdxwbb I am blessed to receive an offer from Hendrix College! Go Warriors! 🏀🔥 Praise God!🙏🙌☝️💪 @sullivan_wes @Andress_Bball @Fusionbball @coachstukes @Prep1USA @epsportsnet @girlsbballep915 @Topsiswear @stdu"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098634174273925225",
+          "author": "sirdavid_dashe",
+          "searchJob": "duke",
+          "text": "Why Having a Will Matters in South Africa — And Why Safe Custody Matters Too Your Will is more than a document. It is a plan for the people, assets and legacy you leave behind. Many South Africans spend years building their financial lives "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098635389544304930",
+          "author": "piyushmittal",
+          "searchJob": "north-carolina",
+          "text": "Convicted sex offender offered opening prayer at rally for GOP Senate nominee Michael Whatley in North Carolina https://t.co/qA5HhL3MIp"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098631263221387600",
+          "author": "craryap",
+          "searchJob": "north-carolina",
+          "text": "Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina https://t.co/bANiMDHc80"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098615134721610072",
+          "author": "ksla",
+          "searchJob": "north-carolina",
+          "text": "Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina https://t.co/go8ChpCOfX"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098626134091178375",
-          "author": "scottcabrinha",
-          "searchJob": "texas",
-          "text": "Beyond just an excuse for Euromaxxing, we urgently need places to congregate in real life, where people and ideas can mingle in the public forum. https://t.co/IT8LT9y5PU"
+          "postId": "2098615579321991568",
+          "author": "zaibatsu",
+          "searchJob": "stanford",
+          "text": "OpenAI published the Navier-Stokes proof &amp; the coverage got 2 things backwards. Forcing is written into the Clay problem, not a loophole. And nobody can claim that prize for 2 years regardless. Plus: California just made AI auditing a l"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098622888324575328",
-          "author": "mansatesla",
-          "searchJob": "texas",
-          "text": "https://t.co/LOFBICmquJ"
+          "postId": "2098631373737333088",
+          "author": "rateriaprachi22",
+          "searchJob": "arkansas-state",
+          "text": "https://t.co/yNaBsKYPyh"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098517013442199685",
+          "author": "victorgithumbi",
+          "searchJob": "arkansas-state",
+          "text": "HAPPY, BLESSED AND PROSPEROUS, JEWISH NEW YEAR; ✝️☝️🇰🇪❤️🇪🇹🤍🇮🇱🌟🔯🕊️👑• —IN THIS HOLY, SACRED AND BLESSED, HOLY JEWISH MONTH OF: Meskerem (መስከረም)-(Aramaic) —AND SABBATH ISRAELITE MONTH OF: Tishrei (תִּשְׁרֵי)-(Hebrew) ----- TO, AND F"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098624206191968492",
+          "author": "armylawcollegep",
+          "searchJob": "army",
+          "text": "Army Law College students of BBA LL.B. and BA LL.B. 1st Year visited Science Park, Pimpri-Chinchwad. The visit offered interactive learning, practical exposure, and an engaging experience, helping students explore scientific concepts beyond"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 13,
+      "rejected": 10,
       "reasons": {
-        "school_not_resolved_confidently": 2,
-        "multiple_resolved_schools": 3,
-        "bare_mention_requires_llm": 8
+        "bare_mention_requires_llm": 9,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098633006118224101",
-          "author": "gstefanopoulos",
-          "searchJob": "notre-dame",
-          "text": "@EricLDaugh The Irish Open is being played on his golf course He’s going to golf and make $$ for himself He ain’t doing nothing for America except send the bill to tax payers for all rooms used by secret service,food and drinks they will co"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098626337904742477",
-          "author": "eddoneganb",
-          "searchJob": "notre-dame",
-          "text": "@SovArPublishing https://t.co/CSlU4H8X14 The documentary record supports several important foundations of this model. The Eisenhower administration considered supporting anti-Sukarno regional forces in 1958, despite recognizing that the con"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098623358728347658",
-          "author": "papawbarrett",
-          "searchJob": "notre-dame",
-          "text": "@k_ovfefe2 I hope he offers to buy them out... And take all Irish under the freedoms and protections of the US Constitution. Oh and start hiring I-ICE agents!"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098635173269049495",
+          "author": "pierregira83610",
+          "searchJob": "liberty",
+          "text": "The decadent people of the West are beginning to realize—far too late—that Christianity is the only religion compatible with the free-market economy, and therefore with political liberalism (Rom. 1:1–6, 1 Pet. 2:13–14). Indeed, civic libert"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098628469932314634",
-          "author": "mfl324",
-          "searchJob": "delaware",
-          "text": "@MitchMossRadio Delaware park offers teasers"
+          "postId": "2098631201191788867",
+          "author": "charles46129363",
+          "searchJob": "liberty",
+          "text": ">“The Spirit of the Lord God is upon me, because the Lord has anointed me to bring good news to the afflicted; He has sent me to bind up the brokenhearted, to proclaim liberty to captives and freedom to prisoners.”—Isaiah 61:1 This line can"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098613923972809009",
-          "author": "wluem",
-          "searchJob": "delaware",
-          "text": "On September 11, 2001, as the terrorist attacks against the United States unfolded, Delaware Senator Joe Biden appeared live on ABC to offer immediate reaction and analysis during news coverage of the crisis. https://t.co/fDpwBlwmyQ"
+          "postId": "2098617301331480622",
+          "author": "drtonyleachon",
+          "searchJob": "liberty",
+          "text": "Reflection on Life’s Paradox The morning after prayer and hospital work, one awakens to a world where justice is debated in courts and hospitals, where the frailty of human testimony collides with the weight of power. The paradox of life is"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2098622665971950004",
+          "author": "theportalscoop",
+          "searchJob": "louisiana",
+          "text": "Jamar Graham forward at Shelton State Community College has been offered by Louisiana Monroe! Graham has had a bunch of schools stopping in to see him and his recruitment has continued to rise rapidly over the last few months! Expect Graham"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098610078253236333",
-          "author": "fitzymfncent",
-          "searchJob": "ohio",
-          "text": "So he likes what Ohio has to offer That's not a crime"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098630839697559926",
-          "author": "sherriestyle",
-          "searchJob": "georgia",
-          "text": "His congressional record on immigration is mixed-conservative, not “pro-illegal immigration.” Groups like NumbersUSA gave him a lifetime B-; he voted for the Laken Riley Act, SAVE Act-style citizenship-proof measures, and various enforcemen"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098625110504587476",
-          "author": "recruitgeorgia",
-          "searchJob": "georgia",
-          "text": "Mountain View JR DB earns #ACC offer from Pitt #RecruitGeorgia"
+          "postId": "2098614545564717220",
+          "author": "907honest",
+          "searchJob": "louisiana",
+          "text": "Peter Leathard spent nearly forty years engineering some of America’s biggest oil reservoirs. He didn’t get there through a boardroom interview. Summer 1967. College kid on his mother’s porch in rural Louisiana. A local field manager walked"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098616434020471053",
-          "author": "darkostatenews",
-          "searchJob": "lsu",
-          "text": "If Bryce Underwood wanted to be at UM, he’d have gone for a match of LSU’s offer. Had he preferred LSU - but still liked UM - he would have gone to UM, but required they pay 20-30% more. UM had to double LSU’s offer to flip him. He really, "
+          "postId": "2098628421165474082",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098615953655484756",
-          "author": "laraaanderson1",
-          "searchJob": "tennessee",
-          "text": "@CindyWines1 @CityofEdmonton @HMGovAlberta @Free_Elephants_ @ElephantsFuture @humaneworldnews @AlanCoxon4 @ctv_jon @HankinFrances @ossocool @mid_waytimes @SusanBouchard14 @Chevalivre @BuildingOurZoo Yes Paws is ready, and Tennessee Elephant"
+          "postId": "2098627648767635914",
+          "author": "mythwood2138",
+          "searchJob": "arkansas-state",
+          "text": "Bill, a commenter on Substack, felt that Israel’s response to Gaza and Hamas has been “disproportionate”. 70,000, they say. Nobody is sure how many were civilians … the terrorists dress in civilian clothes after all. Here is what I think ab"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098613955405152261",
-          "author": "elijahfree66",
-          "searchJob": "california",
-          "text": "@mfnjr I have crazy stories from playing sketchy places of sunset to been offered to roadie for a band that was not well known yet but was doing a northern California tour. We balked at the idea of us roading. That band was Lincoln Park. We"
+          "postId": "2098623018025042384",
+          "author": "victorgithumbi",
+          "searchJob": "arkansas-state",
+          "text": "Leviticus 22: 1-16 The Lord (YHWH) Spoke to Moses, Saying: Direct Aaron And his sons To deal carefully With the sacred donations O the people Of Israel, Which they dedicate To me, So that They may not profane My Holy Name; I Am The Lord. (Y"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098621278194176032",
-          "author": "truthseeker1__",
-          "searchJob": "clemson",
-          "text": "@joeovies @ADavidHaleJoint This is more about inexperienced interior lines, new OC, new QB. Happens in CF every year. Clemson needs to rebuild, re-scheme, but Is not super wealthy. You're just parrotting same old BS about the portal. Clemso"
+          "postId": "2098618431381577780",
+          "author": "yankeedrummer42",
+          "searchJob": "arkansas-state",
+          "text": "@YankeeMandela @nickfalato Because they’re primitive savages that can’t handle Jews living next door? They were offered a state many times and always rejected it. They can’t live in peace. It’s impossible for them."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098621812028662127",
-          "author": "youtalkingtume",
-          "searchJob": "air-force",
-          "text": "@betterdays2021 @donwinslow Remember, Donald Trump made agreements with the Taliban. Remember Donald Trump invited the Taliban to camp David. Remember, Donald Trump offered to give the North Korean dictator a ride on Air Force One. Remember"
+          "postId": "2098617412551622665",
+          "author": "sellpostretail",
+          "searchJob": "arkansas-state",
+          "text": "\"The flag is coming down. I repeat: the flag is coming down.\" 🇩🇪🇺🇦 ALICE WEIDEL / AfD — THE UKRAINE PLAN With the AfD becoming increasingly important in German politics, there is a major question people deserve a factual answer to: What"
         }
       ]
     },
@@ -251,11 +280,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 13,
+      "rejectedCandidates": 10,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-12T04:43:18.935Z"
+    "status rebuilt locally from current store on 2026-09-12T04:57:58.879Z"
   ]
 }
