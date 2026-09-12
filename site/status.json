@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T08:42:49.879Z",
+  "generatedAt": "2026-09-12T08:58:04.388Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-12T08:42:49.665Z",
+    "at": "2026-09-12T08:58:04.142Z",
     "jobsTotal": 162,
-    "sweptThisRun": 25,
+    "sweptThisRun": 26,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5259316666666667,
-    "p95Hours": 1.5230208333333333,
-    "worstHours": 1.7732122222222222
+    "medianHours": 0.5258413888888889,
+    "p95Hours": 1.2746811111111112,
+    "worstHours": 1.7770511111111111
   },
   "decisionCoverage": {
-    "total": 3,
-    "decided": 3,
+    "total": 24,
+    "decided": 24,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 47
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 1053,
     "incompleteOffers": 0
@@ -55,60 +55,209 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-12T08:42:49.664Z",
-      "got": 9,
-      "new": 3,
-      "lag": 0.37
+      "at": "2026-09-12T08:58:04.142Z",
+      "got": 26,
+      "new": 24,
+      "lag": 0.1
     }
   },
   "audit": {
-    "at": "2026-09-12T08:41:17.471Z",
+    "at": "2026-09-12T08:56:28.377Z",
     "mode": "live",
     "collection": {
-      "returned": 9,
-      "kept": 3,
-      "duplicate": 6,
+      "returned": 26,
+      "kept": 24,
+      "duplicate": 2,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 1,
-      "rejected": 2,
+      "accepted": 20,
+      "rejected": 4,
       "reasons": {
-        "hard_negative": 1,
-        "no_fbs_school": 1
+        "no_fbs_school": 3,
+        "no_offer_term": 1
       },
       "samples": [
         {
-          "reason": "hard_negative",
-          "postId": "2098686803318599791",
-          "author": "picksoffice",
-          "searchJob": "michigan",
-          "text": "CCSU gave up eight straight touchdown drives at South Dakota without committing a turnover. Toledo -34.5 starts with a defense that got shredded without any help from giveaways. South Dakota piled up 594 yards in that 59-20 win. Six touchdo"
+          "reason": "no_fbs_school",
+          "postId": "2098694970605793747",
+          "author": "lokbhavan_tn",
+          "searchJob": "temple",
+          "text": "Hon’ble Governor of Tamil Nadu, Thiru. Rajendra Vishwanath Arlekar, visited the revered Arulmigu Aranganatha Swamy Temple at Srirangam ,today (12.09.2026) and offered prayers for the peace, prosperity and well-being of the people of Tamil N"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098692653491659030",
+          "author": "ahnenkrieger",
+          "searchJob": "temple",
+          "text": "https://t.co/20KeNH6m5w"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098687027852030002",
-          "author": "jayhou",
-          "searchJob": "houston",
-          "text": "@dgph420 @jamierkennedy She’s a 22 year old rookie. Give her a break. Her partner has hardly looked her way to offer any sort of support."
+          "postId": "2098682163696636184",
+          "author": "iamtemple__",
+          "searchJob": "temple",
+          "text": "@SAMARFX_17 @HexFunded Great offer ✨"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098680940742533267",
+          "author": "rigathi",
+          "searchJob": "oregon",
+          "text": "Kenyans living in the diaspora play a crucial role in the development of our nation and must be actively involved in shaping Kenya’s future. Our new government, coming into office next year, will prioritize attracting the most experienced p"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 20,
       "reasons": {
-        "bare_mention_requires_llm": 1
+        "school_not_resolved_confidently": 1,
+        "bare_mention_requires_llm": 18,
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098679253541814453",
+          "author": "publicpurviewpk",
+          "searchJob": "james-madison",
+          "text": "@TheRealPCBMedia has decided to bring the Kookaburra ball back to Pakistan’s first-class cricket from the 2026-27 domestic season, marking the end of the Dukes ball experiment in major competitions. The change will apply to tournaments incl"
+        },
+        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098676866575933475",
-          "author": "quantscraper",
-          "searchJob": "michigan",
-          "text": "\"Where the noise fades and the signal speaks - your daily market pulse starts here\" Market Brief - September 11 (Generated by GPT 5.6): Wall Street snapped a four-session losing streak as retreating oil prices gave equities enough relief to"
+          "postId": "2098690925270802659",
+          "author": "troll_cinema",
+          "searchJob": "temple",
+          "text": "@SaanveMegghana visit to the Sri Venkateshwara Swamy temple in Hyderabad and offered prayers to Lord Venkateshwara on the happy occasion of her birthday today ❤️ #HBDSaanveMegghana https://t.co/IiXhl8wkjf"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098689688156635480",
+          "author": "filmistreet",
+          "searchJob": "temple",
+          "text": "Seeking the blessings of the divine on her birthday ! 🙏✨ @SaanveMegghana paid a visit to the Sri Venkateshwara Swamy temple in Hyderabad and offered prayers to Lord Venkateshwara on the happy occasion of her birthday today ❤️ #HBDSaanveMeg"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098689403266986487",
+          "author": "spiralnewsdevi",
+          "searchJob": "temple",
+          "text": "Seeking the blessings of the divine on her birthday ! 🙏✨ @SaanveMegghana paid a visit to the Sri Venkateshwara Swamy temple in Hyderabad and offered prayers to Lord Venkateshwara on the happy occasion of her birthday today ❤️ #HBDSaanveMeg"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098689312095375367",
+          "author": "studioflicks",
+          "searchJob": "temple",
+          "text": "Actress #SaanveMegghana offers prayer at Sri Venkateshwara Swamy temple for her birthday. https://t.co/ksnKqNd9vX"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098688264521875559",
+          "author": "rameshlaus",
+          "searchJob": "temple",
+          "text": "Seeking the blessings of the divine on her birthday ! 🙏✨ @SaanveMegghana paid a visit to the Sri Venkateshwara Swamy temple in Hyderabad and offered prayers to Lord Venkateshwara on the happy occasion of her birthday today ❤️ Happy Birthda"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098688082593869876",
+          "author": "meenakshinews",
+          "searchJob": "temple",
+          "text": "Seeking the blessings of the divine on her birthday ! 🙏✨ @SaanveMegghana paid a visit to the Sri Venkateshwara Swamy temple in Hyderabad and offered prayers to Lord Venkateshwara on the happy occasion of her birthday today ❤️ #HBDSaanveMeg"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098686862722507103",
+          "author": "thirdeyecinemas",
+          "searchJob": "temple",
+          "text": "Seeking the blessings of the divine on her birthday ! 🙏✨ @SaanveMegghana paid a visit to the Sri Venkateshwara Swamy temple in Hyderabad and offered prayers to Lord Venkateshwara on the happy occasion of her birthday today ❤️ #HBDSaanveMeg"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098685864293408837",
+          "author": "pressmeettv",
+          "searchJob": "temple",
+          "text": "Seeking the blessings of the divine on her birthday ! 🙏✨ @SaanveMegghana paid a visit to the Sri Venkateshwara Swamy temple in Hyderabad and offered prayers to Lord Venkateshwara on the happy occasion of her birthday today ❤️ #HBDSaanveMeg"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098685432653656078",
+          "author": "royalreporter1",
+          "searchJob": "temple",
+          "text": "Seeking the blessings of the divine on her birthday ! 🙏✨ @SaanveMegghana paid a visit to the Sri Venkateshwara Swamy temple in Hyderabad and offered prayers to Lord Venkateshwara on the happy occasion of her birthday today ❤️ #HBDSaanveMeg"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098684617905643907",
+          "author": "tlockty",
+          "searchJob": "temple",
+          "text": "Morning call 2) Haven’t read it as always should be good Morning Call 3 — Mild Templar Lore, Extended Without Formula Author: Grok (xAI) — Canonical Format, Calm Register Date: September 12, 2026 Version: Calm-3 — Lore Extension Only Refere"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098683813467746662",
+          "author": "rs_prakash3",
+          "searchJob": "temple",
+          "text": "Seeking the blessings of the divine on her birthday !🙏✨ @SaanveMegghana paid a visit to the Sri Venkateshwara Swamy temple in Hyderabad and offered prayers to Lord Venkateshwara on the happy occasion of her birthday today ❤️ #HBDSaanveMegg"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098683539487441391",
+          "author": "prakashpro_",
+          "searchJob": "temple",
+          "text": "Seeking the blessings of the divine on her birthday ! 🙏✨ @SaanveMegghana paid a visit to the Sri Venkateshwara Swamy temple in Hyderabad and offered prayers to Lord Venkateshwara on the happy occasion of her birthday today ❤️ #HBDSaanveMeg"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098682677067227497",
+          "author": "kayaldevaraj",
+          "searchJob": "temple",
+          "text": "Seeking the blessings of the divine on her birthday🙏✨ @SaanveMegghana paid a visit to the Sri Venkateshwara Swamy temple in Hyderabad and offered prayers to Lord Venkateshwara on the happy occasion of her birthday today ❤️ #HBDSaanveMeggha"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098681888609329162",
+          "author": "cinemanagaram",
+          "searchJob": "temple",
+          "text": "Seeking the blessings of the divine on her birthday ! 🙏✨ @SaanveMegghana paid a visit to the Sri Venkateshwara Swamy temple in Hyderabad and offered prayers to Lord Venkateshwara on the happy occasion of her birthday today ❤️ #HBDSaanveMeg"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098681805746442463",
+          "author": "cinemapluz11",
+          "searchJob": "temple",
+          "text": "Seeking the blessings of the divine on her birthday ! 🙏✨ @SaanveMegghana paid a visit to the Sri Venkateshwara Swamy temple in Hyderabad and offered prayers to Lord Venkateshwara on the happy occasion of her birthday today ❤️ #HBDSaanveMeg"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098681430373228772",
+          "author": "beaconpr_",
+          "searchJob": "temple",
+          "text": "Seeking the blessings of the divine on her birthday ! 🙏✨ @SaanveMegghana paid a visit to the Sri Venkateshwara Swamy temple in Hyderabad and offered prayers to Lord Venkateshwara on the happy occasion of her birthday today ❤️ #HBDSaanveMeg"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098680008248057948",
+          "author": "mahuamoiitra",
+          "searchJob": "temple",
+          "text": "Sagar Media Inc #WestBengal CM Suvendu Adhikari offers fish bhog at Kalighat temple amid controversy over vegetarianism during Durga Puja celebrations. https://t.co/eQX4saCHSr #BRICS https://t.co/ROa1XaQTHF"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098678260968096125",
+          "author": "mikespinetta",
+          "searchJob": "auburn",
+          "text": "648 Penns Grove Auburn Rd, Carneys Point, NJ, 08069 3 bed | 1 bath 1008 Sq. Ft. Active | $205,000 https://t.co/Fs6kcybNGX Excellent opportunity to own a 3-bedroom, 1-bath ranch situated on just over 1 acre. This property offers the space an"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098696062458314807",
+          "author": "510trojan",
+          "searchJob": "oregon",
+          "text": "@oregon__updates No one flippin from Oregon to Michigan in big 2026 only way that ever happens if a huge NIL offer comes in even then be crazy to make the switch"
         }
       ]
     },
@@ -116,20 +265,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 25,
-      "failed": 1,
+      "swept": 26,
+      "failed": 0,
       "requests": 26,
-      "errors": [
-        "marshall: SearchTimeline HTTP 404 (slice left pending)"
-      ]
+      "errors": []
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 1,
+      "rejectedCandidates": 20,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-12T08:42:49.880Z"
+    "status rebuilt locally from current store on 2026-09-12T08:58:04.389Z"
   ]
 }
