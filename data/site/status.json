@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T00:42:53.762Z",
+  "generatedAt": "2026-09-12T00:58:01.348Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-12T00:42:53.453Z",
+    "at": "2026-09-12T00:58:01.065Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,51 +32,51 @@
   },
   "staleSchools": [
     {
-      "id": "texas-tech",
-      "hours": 2.8
-    },
-    {
-      "id": "ohio",
-      "hours": 2.5
-    },
-    {
-      "id": "old-dominion",
-      "hours": 2.5
-    },
-    {
-      "id": "oregon-state",
-      "hours": 2.5
-    },
-    {
-      "id": "rice",
-      "hours": 2.5
-    },
-    {
-      "id": "virginia",
+      "id": "liberty",
       "hours": 2.3
     },
     {
-      "id": "virginia-tech",
+      "id": "louisiana",
+      "hours": 2.3
+    },
+    {
+      "id": "sam-houston",
+      "hours": 2.3
+    },
+    {
+      "id": "san-diego-state",
+      "hours": 2.3
+    },
+    {
+      "id": "san-jose-state",
+      "hours": 2.3
+    },
+    {
+      "id": "uab",
+      "hours": 2.3
+    },
+    {
+      "id": "unlv",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.523158888888889,
-    "p95Hours": 2.0255983333333334,
-    "worstHours": 2.7739172222222224
+    "medianHours": 1.0277105555555555,
+    "p95Hours": 2.0273616666666667,
+    "worstHours": 2.2777058333333335
   },
   "decisionCoverage": {
-    "total": 71,
-    "decided": 71,
+    "total": 39,
+    "decided": 39,
     "complete": true
   },
   "pending": {
-    "total": 32
+    "total": 33
   },
   "profileResolution": {
     "cached": 47
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 1050,
     "incompleteOffers": 0
@@ -84,318 +84,276 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-12T00:42:53.453Z",
-      "got": 107,
-      "new": 71,
-      "lag": 0.05
+      "at": "2026-09-12T00:58:01.065Z",
+      "got": 73,
+      "new": 39,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-09-12T00:41:15.504Z",
+    "at": "2026-09-12T00:56:26.512Z",
     "mode": "live",
     "collection": {
-      "returned": 107,
-      "kept": 71,
-      "duplicate": 36,
+      "returned": 73,
+      "kept": 39,
+      "duplicate": 34,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 56,
-      "rejected": 15,
+      "accepted": 30,
+      "rejected": 9,
       "reasons": {
-        "no_offer_term": 4,
-        "no_fbs_school": 9,
-        "hard_negative": 1,
-        "non_fbs_offer_target": 1
+        "no_offer_term": 3,
+        "no_fbs_school": 6
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2098488296821375185",
-          "author": "sporadica",
-          "searchJob": "texas-tech",
-          "text": "as predicted, Terence Tao and friends are not happy Mathematicians that spend their lives trying to solve math problems are unhappy that AI is solving math problems because how dare they! https://t.co/Zeih8v62Cl"
+          "postId": "2098354583957381294",
+          "author": "propublica",
+          "searchJob": "ohio",
+          "text": "New: To give voucher programs a toehold in state legislatures, politicians touted how students with disabilities would gain access to private education. But those students’ families often have the hardest time finding schools that will acce"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098552395001438660",
+          "author": "birdhouse7s",
+          "searchJob": "rice",
+          "text": "@dbfarms2023 Clearly you didn’t offer enough. Lol"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098557734039765404",
+          "author": "ucrrg",
+          "searchJob": "oklahoma",
+          "text": "Ransomware doesn’t wait for the showroom to close. Our Oklahoma-domiciled Risk Retention Group offers cyber liability coverage tailored to auto dealers—customer records, DMS access, phishing fallout, and vendor risk—so a bad click doesn’t s"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098568321704538178",
+          "author": "jucofootballace",
+          "searchJob": "ole-miss",
+          "text": "Lo'Kavion Jackson @JacksonLokavion @ East Mississippi JuCo @EMCCathletics picks up @GovsFB Offer @jucoweekly @MSJUCOREPORT https://t.co/9FrSS8AMCp"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098547940914532598",
+          "author": "alonzohuntjr",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After a great talk with coach @HILL_SEAN70 I have received an offer from hillbert college @HilbertHawksFB #agtg✝️ https://t.co/K4re8aCEry"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098543747843727701",
+          "author": "tylergalloway09",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Thank you @WBU_Wrestle for having me on campus and letting me roll with the guys! After a great talk with Coach Hubbard I’m blessed to announce I’ve received my first official wrestling offer #AGTG https://t.co/jbS9zB65Qj"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098544724067955031",
+          "author": "prephoopsks",
+          "searchJob": "kansas",
+          "text": "More Recruiting News — Jordan Leads Wave of Regional Offers: Kemper Johnson | Luke Jordan | Jackson Moad | @GradyOgden_10 | @CadeAlholm | @BelzerCash | @Jackson_Bruce1 https://t.co/NfdmRiN7Iw"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098483702107930645",
-          "author": "endwokeness",
-          "searchJob": "navy",
-          "text": "Lindsay Clancy fan discovering that the lone juror is black might be the greatest video in history https://t.co/jIAjIvMcU5"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098539495884730702",
-          "author": "navymom1776",
-          "searchJob": "navy",
-          "text": "@RapidResponse47 It's so confusing how Congress loves a lot in billions to nonprofits who funnel the money back to their pockets but when Trump offers to give us some of our own money back everyone has a conniption fit. It's really outrageo"
+          "postId": "2098566341326233673",
+          "author": "itstimberger",
+          "searchJob": "wake-forest",
+          "text": "https://t.co/QAbJoKj4rO"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098455420968775877",
-          "author": "25yearsagolive",
-          "searchJob": "navy",
-          "text": "@CCConservative He served honorably in Vietnam https://t.co/46nit8VOWH"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098569949572743586",
-          "author": "kob4",
-          "searchJob": "new-mexico",
-          "text": "President Donald Trump's $5,000 promise to Americans would cost over $1 trillion and needs Congress approval. Rep. Gabe Vasquez calls it a broken promise. https://t.co/svHEfSO2Le"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098547134077309093",
-          "author": "bcpremierntx",
-          "searchJob": "arkansas",
-          "text": "📍 College Spotlight: Southern Arkansas University 🥎 SAU combines competitive DII softball with strong academics. We encourage our athletes to explore what @SAU_Softball has to offer and find the program that fits their future. #BCFastpitc"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098551793328218178",
-          "author": "bobby_schneid",
-          "searchJob": "iowa",
-          "text": "GENEVA, Neb — Friday Night Lights Week 3 🏈 @HuskerOnline is on site to watch Nebraska 2028 LB target Owen Price. The 6-3, 210-lb Price holds 9 offers. That includes offers from Nebraska, Iowa, Oregon and Penn State. Follow along in our LIV"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098536544546037761",
-          "author": "csayf23",
-          "searchJob": "michigan",
-          "text": "Take advantage of this special offer! $1 for access to all content on The Wolverine + On3 + Rivals: https://t.co/AzQKnG9ieT https://t.co/quAX7lxDV8"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098570995481120784",
-          "author": "unacceptablen",
-          "searchJob": "missouri",
-          "text": "@MommaHood2 Someone should ask where he is and offer him a ride. I would happily pick him up and help him out. You watch this one yet? https://t.co/GFld3s3Jpi"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2098567521339310165",
-          "author": "kelkel24030",
-          "searchJob": "houston",
-          "text": "After a great visit blessed to receive an offer from McPherson College. Thank you Coach TJ, Coach Phillips, and Coach Louis #bulldogs #agtg https://t.co/yoWT4BTWxD"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098541125971960251",
-          "author": "derykhouston",
-          "searchJob": "houston",
-          "text": "@_InfoGram_ He gave Ukraine a billion dollars ...on top of billions.. Meanwhile, Canadians can't get a doctor, wait for years to get surgeries. Canada's streets are flooded with homeless &amp; we offer zero help for mental illness. And Cana"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098536923908202571",
-          "author": "bhsbison",
-          "searchJob": "buffalo",
-          "text": "WATCH THE BISON LIVE — SPECIAL FALL OFFER! For a limited time, get LCN streaming for just $14.95/month for September, October &amp; November! 💜 Use promo code Bison26 at checkout. ⏰ Offer ends September 26, 2026. Follow your Bison even whe"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098559790305718388",
-          "author": "reesethebeagle",
-          "searchJob": "charlotte",
-          "text": "@oilersjayscan You’re the worst humanity has to offer."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098552317834375410",
-          "author": "georgianbay6",
-          "searchJob": "charlotte",
-          "text": "@RapidResponse47 @SebGorka I think it is a brilliant idea. Offer the $5K and require proof of citizenship and a valid photo ID to accept it."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098550865019736524",
-          "author": "georgianbay6",
-          "searchJob": "charlotte",
-          "text": "@TaraBull I think it is a brilliant idea. Offer the $5K and require proof of citizenship and a valid photo ID to accept it."
+          "postId": "2098171368395391129",
+          "author": "cb_doge",
+          "searchJob": "wake-forest",
+          "text": "SpaceX is targeting 2027 to launch its first orbital AI compute satellites, followed by “huge amounts of compute” in space from 2028. CFO Bret Johnsen says almost every AI leader sees orbital compute as the future, with clean energy and few"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 56,
+      "rejected": 30,
       "reasons": {
-        "bare_mention_requires_llm": 23,
-        "school_not_resolved_confidently": 23,
-        "multiple_resolved_schools": 8,
-        "author_not_recruit:organisation": 1,
-        "author_not_recruit:different sport": 1
+        "bare_mention_requires_llm": 15,
+        "reporter_missing_player_name": 2,
+        "player_missing_football_context": 1,
+        "author_not_recruit:different sport": 2,
+        "multiple_resolved_schools": 2,
+        "school_not_resolved_confidently": 7,
+        "unresolved_offer_target": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098541307320742325",
-          "author": "ahmed_swailm",
-          "searchJob": "texas-tech",
-          "text": "🔥 For Sale: https://t.co/plvM8gmHWk Premium .click domain — perfect for creative agencies, design tools, content platforms, or AI art startups. Punchy, memorable, action-oriented. 🎨✨ DM for price / offers. #DomainForSale #Creativity #Desi"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098540056524845264",
-          "author": "ojfsaa",
-          "searchJob": "texas-tech",
-          "text": "Canada lost 42.000 jobs across many sectors, Tech wasnt one of them. Tech people are staying in canada to build even if they are offered 3x salary elsewhere. They are the highest agency people we have."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098540035041628522",
-          "author": "ivan68246027",
-          "searchJob": "texas-tech",
-          "text": "@galgertz @claudeai Kind of you to offer that. TLV punching above its weight in tech is well known. The frustration was mostly about access for people in London / Berlin / Madrid, not about the quality of the city itself."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098540012719444179",
-          "author": "crispypxls",
-          "searchJob": "texas-tech",
-          "text": "@PolitlcsUK The sooner the working classes realize that reform and their tech bro friends only care about removing taxes for themselves and de-regulating technology the better. They want to replace you all with robots. Remember that as a wo"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098538837249052992",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098538737269698830",
-          "author": "nashefoster",
-          "searchJob": "texas-tech",
-          "text": "Bonkers to criticize Tao, since the letter says, “AI offers the potential of enhancing and accelerating genuine mathematical study and understanding.” And, the punchline is the “humans in control of this new technology” are the threat, not "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098538269298307249",
-          "author": "brendachrist",
-          "searchJob": "texas-tech",
-          "text": "Is AI really going to take over the world, or is doomsday hype overshadowing the practical work of building secure systems? 🤖 In a new piece for @TheNatlInterest, @KevinSurace, CEO of @Token, offers a grounded, reality-check perspective on"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098535951425270174",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098535201378816083",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098534401541853194",
-          "author": "ahmed_swailm",
-          "searchJob": "texas-tech",
-          "text": "🔥 For Sale: https://t.co/r11Ye0lGwK Bold, brandable domain — perfect for AI startups, SaaS, gaming AI, metaverse, or futuristic tech brands. Cosmic, memorable, instantly catchy. 🌍🤖 DM for price / offers. #AI #DomainForSale #Startup #SaaS"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098534059882287508",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098533769279869031",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098533601465790879",
-          "author": "ahmed_swailm",
-          "searchJob": "texas-tech",
-          "text": "🔥 For Sale: https://t.co/gA3N6mncpd Premium .page domain — perfect for VPN, privacy, cybersecurity, secure hosting, or niche community platforms. Clean, modern, instantly memorable. 🔒📄 DM for price / offers. #DomainForSale #CyberSecurity"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098533217313644863",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098532916573950044",
-          "author": "ahmed_swailm",
-          "searchJob": "texas-tech",
-          "text": "🔥 For Sale: https://t.co/UFF1vl4LmD Exact-match domain — perfect for audio editing, podcasting, music production, voice tools, or AI audio SaaS. Keyword-rich, SEO-friendly, instantly clear. 🎧🎙️ DM for price / offers. #Audio #DomainForSal"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098532787565314506",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098532499328774545",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098532003855433883",
-          "author": "ahmed_swailm",
-          "searchJob": "texas-tech",
-          "text": "🔥 For Sale: https://t.co/XazE8BAP3j Premium .dev domain — perfect for AI healthcare, medtech, telehealth, diagnostics, or health SaaS startups. Clear, credible, future-ready. 🩺🤖 DM for price / offers. #AI #HealthTech #MedTech #DomainForS"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098531728922968407",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098531474337112505",
-          "author": "ahmed_swailm",
-          "searchJob": "texas-tech",
-          "text": "🔥 For Sale: https://t.co/1L98Kht72f Premium .dev domain — perfect for SaaS, cloud hosting, DevOps, backend tools, or infrastructure startups. Clean, authoritative, developer-focused. 🖥️⚡ DM for price / offers. #Dev #DomainForSale #SaaS #C"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098564973698191542",
-          "author": "morpheu5watcher",
-          "searchJob": "navy",
-          "text": "WHO TRADES MONDAY'S OMAN MEETING FIRST? TOKYO, NOT NEW YORK - AND THE JAPAN FUND $EWJ ALREADY HAS A NUMBER: iShares MSCI Japan ETF EWJ at $98.56 (after hours), +$2.12 / +2.20% from Thursday's $96.44 close. It is one basket holding roughly 8"
+          "postId": "2098576003907846414",
+          "author": "greatohiocc",
+          "searchJob": "ohio",
+          "text": "Fright Fest presented by SNICKERS® returns to Six Flags Over Texas on select nights 09/11 through 11/1. The annual signature event offers 5 haunted mazes, 6 outdoor scare zones, multiple live shows &amp; Halloween-themed food and beverages."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098561468216029367",
-          "author": "chaztennyson",
-          "searchJob": "navy",
-          "text": "@Hakeemx3 I know what you mean, I did 6 years active duty navy. I did reserves and was activated for desert storm. When I returned from desert storm they offered me a billet at a command with an asshole XO took off like a rocket"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098545474156343500",
-          "author": "viet_marine",
-          "searchJob": "navy",
-          "text": "@LesSexton5473 @JBMAGA03 @Crash_the_Flash After all, Navy Corpsman aren’t supposed to know how to resolve an exploded appendix or a circumcision unless they have access to patients given liberty/light duty package for two extra weeks, benef"
+          "postId": "2098572851926163782",
+          "author": "schoolchoicepro",
+          "searchJob": "ohio",
+          "text": "When Ohio first offered its Autism scholarships, there were only 100 private providers. Today, there are over 600 and a quarter of Ohio's school choice dollars go to students w/ autism and other special needs. Ohio's program created options"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098541081449160897",
-          "author": "matthew_tanner",
-          "searchJob": "navy",
-          "text": "First time I ever heard “non-practicing white,” and it really got me thinking. “What does it mean to be a practicing white?” It is effectively illegal to have white culture. I, in my 36 years, have never seen a white culture. Am I allowed t"
+          "postId": "2098561271415427427",
+          "author": "normroulet",
+          "searchJob": "ohio",
+          "text": "I brought @MotleyRice lead paint litigation against @SherwinWilliams to Ohio, and similar litigation was successful in California, awarding over $300 million. Lead poisoning victims in Flint had to bring litigation against the government, a"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098559670931599445",
+          "author": "joelmbeall",
+          "searchJob": "ohio",
+          "text": "Our Golf Digest office was at One World Trade Center for five years. During the spring summer and fall, I’d walk past the 9/11 memorial and tower footprint almost every day and without fail there would be someone coming undone as they took "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098572141071360084",
+          "author": "jucofootballace",
+          "searchJob": "old-dominion",
+          "text": "Carlos Benjamin @carlos1benjamin @ Itawamba JuCo @LetsGoICC picks up @ODUFootball Offer #PhotoCred @msscoreboard @Coach_Lovertich @LetsGoICC_FB @jucoweekly @MSJUCOREPORT https://t.co/a8qxoDEqFW"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098572124185071852",
+          "author": "jucofootballace",
+          "searchJob": "old-dominion",
+          "text": "TyDarion Grier @TyGrier11 Itawamba JuCo @LetsGoICC picks up @ODUFootball Offer #PhotoCred @msscoreboard @Coach_Lovertich @LetsGoICC_FB @jucoweekly @MSJUCOREPORT https://t.co/wtooreb431"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2098571306480636233",
+          "author": "jucoffrenzy",
+          "searchJob": "old-dominion",
+          "text": "2026 (@LetsGoICC ) JUCO RB @carlos1benjamin was just offered by @ODUFootball HL https://t.co/w158DvtGgK https://t.co/13TywD9ihK"
+        },
+        {
+          "reason": "player_missing_football_context",
+          "postId": "2098568809560850805",
+          "author": "carlos1benjamin",
+          "searchJob": "old-dominion",
+          "text": "Blessed to receive an offer from Old Dominion University. @Coach_TLucas @Coach_TMacon @Coach_Lovertich @Nick_Louvier1 @coachmaye3 @JUCOFFrenzy https://t.co/HKE3Pqetoi"
+        },
+        {
+          "reason": "author_not_recruit:different sport",
+          "postId": "2098571857133740463",
+          "author": "verbalcommits",
+          "searchJob": "oregon-state",
+          "text": "2029 Archbishop Riordan (CA) G Judah Van Ewijk has received an offer from Oregon State. https://t.co/wcPxKCUBeE"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098568253844959590",
+          "author": "christiana94569",
+          "searchJob": "rice",
+          "text": "Seattle will see a mass exodus of workers. And I mean massive. Seattle offers nothing. Corps can easily move and will. Nashville, FL, SC. Other states are better. Seattle is entering a dystopian phase. Dikensian... The rednecks who support "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098564814561792135",
+          "author": "testoseroni",
+          "searchJob": "rice",
+          "text": "Plate of homemade french fries (air fried with skin on) offers you: - 300 calories - 65 g carbs - 8 g fiber - 5 g protein - 1600 mg potassium - 75 mg vit C This is for roughly 300 grams of potato. Easy to make, and a nutritional powerhouse."
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2098556769714704696",
+          "author": "nmeyersohn",
+          "searchJob": "rice",
+          "text": "I’d prefer just the chicken and rice &amp; beans but thanks for the Polymarket bonus offer from Grubhub https://t.co/COgDiA27Yv"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098556761212920264",
+          "author": "allentrieu",
+          "searchJob": "rice",
+          "text": "2029 CB Marcus Hayes with the pick-six. Brother Rice up 10-0 on De La Salle. Hayes has several offers. https://t.co/zar7stSowB https://t.co/GuxDG0FZ2X"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098544977571647967",
+          "author": "boodhernandez6",
+          "searchJob": "rice",
+          "text": "@PSGINT_ Rice over Neves Kvara over Vini On the wing Kvara over Raphinha but overall as a player I’m taking Raphinha he offers more"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098551794460922286",
+          "author": "scotie321",
+          "searchJob": "virginia",
+          "text": "@SamJundi I remember I left my 1st grader at school.. I wanted to watch the news to see if we needed to take a friends offer to join them at their house farther west.. We lived in Eastern Loudoun county Virginia then We stayed home.. all yo"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098573738954682741",
+          "author": "jamesbarne41169",
+          "searchJob": "northwestern",
+          "text": "OttoGeoGraphica July, 2020 Bear Mountain (2316'), Connecticut (tallest mountain in CT) Bear Mountain represents the final hike of a three-week excursion involving the highest summits and river sources in New England. Summer was ending, work"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098568209876357527",
+          "author": "2afdn",
+          "searchJob": "oklahoma",
+          "text": "Another article by @HT_GunWriter! \"The Sunday after he decided to accept a federal plea offer, in which he agreed to plead guilty to one count of selling ammunition to a prohibited person, Pastor Russell Fincher submitted his resignation to"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098545347282833903",
+          "author": "victors_hail",
+          "searchJob": "oklahoma",
+          "text": "@MAngelechio @BriceMarich @SamWebb77 @TremendousUM @michiganinsider @247Wolverine @247recruiting @TomLoy247 @247Sports @UMGoBlog @BlairAngulo Someone offers you a free ticket to stand in the end zone of the Big House for the game against Ok"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098571611523690856",
+          "author": "jucofootballace",
+          "searchJob": "ole-miss",
+          "text": "Fred Jones @FredJonezzz @ East Mississippi JuCo @EMCCathletics picks up @TroyTrojansFB Offer @CoachRice1231 @jucoweekly @MSJUCOREPORT https://t.co/FdAzsaZ7wq"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098568416890122525",
+          "author": "intrinsicvalyou",
+          "searchJob": "ole-miss",
+          "text": "@Metaleka_ @NDFootball @OleMissFB @oregonfootball Literally offered him Lloyd Carr’s grandson Now a top 10 Heisman player https://t.co/O6TQCjrI8Z"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098569027454914680",
+          "author": "nhlwraparound",
+          "searchJob": "oregon",
+          "text": "🚨 “Never Should’ve Been Offer-Sheet Eligible” The Anaheim Ducks matched the massive offer sheet for Leo Carlsson. But did GM Pat Verbeek make a huge mistake by allowing the situation to happen in the first place? Neil Smith says there are "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098550675911082167",
+          "author": "b1obey0nd",
+          "searchJob": "penn-state",
+          "text": "Here's the reality of the future Penn State rosters: If you're a recruit, you BETTER get on board NOW. Campbell is going to be VERY picky, he already is. It'll be a PRIVILEGE to be a part of the Nittany Lions. This program is only going to "
+        },
+        {
+          "reason": "author_not_recruit:different sport",
+          "postId": "2098575883342614772",
+          "author": "dhruv_iyer1",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After a great conversation with @coachst0ve and coach Felix I’m blessed to receive an offer from EMU! #agtg https://t.co/rmG99wIXF5"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098552619870380136",
+          "author": "stevenr80300",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Extremely grateful for my first visit and first offer. Thank you UTSA for a great visit! #AGTG https://t.co/5UXZqMW4lb"
         }
       ]
     },
@@ -410,11 +368,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 56,
+      "rejectedCandidates": 30,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-12T00:42:53.762Z"
+    "status rebuilt locally from current store on 2026-09-12T00:58:01.349Z"
   ]
 }
