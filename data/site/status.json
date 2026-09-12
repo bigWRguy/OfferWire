@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T20:18:22.191Z",
+  "generatedAt": "2026-09-12T20:48:20.405Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-12T20:18:21.857Z",
+    "at": "2026-09-12T20:48:20.124Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -30,15 +30,52 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "buffalo",
+      "hours": 2.1
+    },
+    {
+      "id": "east-carolina",
+      "hours": 2.1
+    },
+    {
+      "id": "eastern-michigan",
+      "hours": 2.1
+    },
+    {
+      "id": "florida",
+      "hours": 2.1
+    },
+    {
+      "id": "massachusetts",
+      "hours": 2.1
+    },
+    {
+      "id": "memphis",
+      "hours": 2.1
+    },
+    {
+      "id": "miami-oh",
+      "hours": 2.1
+    },
+    {
+      "id": "middle-tennessee",
+      "hours": 2.1
+    },
+    {
+      "id": "texas-state",
+      "hours": 2.1
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 0.5980983333333333,
-    "p95Hours": 1.613641111111111,
-    "worstHours": 1.8695469444444444
+    "medianHours": 1.0976022222222221,
+    "p95Hours": 2.113145,
+    "worstHours": 2.113145
   },
   "decisionCoverage": {
-    "total": 68,
-    "decided": 68,
+    "total": 52,
+    "decided": 52,
     "complete": true
   },
   "pending": {
@@ -49,387 +86,366 @@
   },
   "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 1080,
+    "completeOffers": 1082,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-12T20:18:21.856Z",
-      "got": 90,
-      "new": 68,
+      "at": "2026-09-12T20:48:20.124Z",
+      "got": 79,
+      "new": 52,
       "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-09-12T20:16:42.052Z",
+    "at": "2026-09-12T20:46:39.762Z",
     "mode": "live",
     "collection": {
-      "returned": 90,
-      "kept": 68,
-      "duplicate": 21,
-      "tooOld": 1,
+      "returned": 79,
+      "kept": 52,
+      "duplicate": 27,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 44,
-      "rejected": 24,
+      "accepted": 25,
+      "rejected": 27,
       "reasons": {
-        "no_offer_term": 14,
-        "hard_negative": 2,
-        "no_fbs_school": 7,
-        "non_fbs_offer_target": 1
+        "no_offer_term": 6,
+        "no_fbs_school": 16,
+        "non_fbs_offer_target": 3,
+        "unclassified_offer_text": 2
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2098864700494635368",
-          "author": "dirkbartz",
-          "searchJob": "arkansas-state",
-          "text": "10,000 agents walked into mathematics. Then the sandbox leaked and the cloud found a reactor. Silicon Drama Episode 20 is live ⬇️ Technology news, told as a power drama. #SiliconDrama #eTatos https://t.co/kGOeUlzBEp"
+          "postId": "2098875256442405321",
+          "author": "colinedsman",
+          "searchJob": "delaware",
+          "text": "Know what you hold, who holds the keys, and who is driving your investments. https://t.co/1Iubv91X5w"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098871637672132708",
+          "author": "rhallnj",
+          "searchJob": "delaware",
+          "text": "@svdate He could not resist the Netanyahu offer to join the rubout of Iran leadership, either"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098857782426456316",
-          "author": "alan_kelch73409",
-          "searchJob": "arkansas-state",
-          "text": "Democrat Promises in the Real Light https://t.co/nlz5uCRxRy"
+          "postId": "2098868500332773763",
+          "author": "mcre1",
+          "searchJob": "class:2026",
+          "text": "new money https://t.co/mBmJM1WVlO"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098860165156012478",
+          "author": "warhunter2222",
+          "searchJob": "class:2026",
+          "text": "New photographs circulating online give the clearest look so far at a large Chinese stealth drone known unofficially as the WZ X. The images which appeared on Chinese internet forums this month appear to show the aircraft in flight and reve"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098847455378894871",
-          "author": "robbystarbuck",
-          "searchJob": "arkansas-state",
-          "text": "Both @elonmusk and @sama of OpenAI just agreed publicly with @DarioAmodei that the pace of AI must slow for extreme safety reasons. A very rare time you’ll see all three of them publicly agree. All three are privy to things the rest of us a"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098756424197087381",
-          "author": "25yearsagolive",
-          "searchJob": "arkansas-state",
-          "text": "Mass celebrations break out in the West Bank and Gaza, and Palestinians cheer, dance, and distribute free sweets. Palestine is the only known place on earth to see overwhelming popular celebration of yesterday’s attacks, although Yasser Ara"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098828989905166502",
-          "author": "vividprowess",
-          "searchJob": "arkansas-state",
-          "text": "Bill Maher on the “genocide” lie in Gaza. There is NO genocide. This MUST go viral. https://t.co/bL63WKuagu"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098867215869087867",
-          "author": "nojabsdotnet",
-          "searchJob": "temple",
-          "text": "Mel Gibson Addresses The Rumors About The Next “Passion” Movie https://t.co/c4V0mIeWqH"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098866538031800353",
-          "author": "nojabsdotnet",
-          "searchJob": "temple",
-          "text": "### 🎬 Overview In this interview, legendary filmmaker Mel Gibson discusses the highly anticipated sequel to his landmark film, *The Passion of the Christ*. He addresses rumors surrounding the production, details his scriptural and historic"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098803832176177404",
-          "author": "cedarsandsaints",
-          "searchJob": "temple",
-          "text": "Pope Leo XIV has granted an entire Guadalupan Jubilee Year dedicated to Our Lady of Guadalupe. Beginning October 12, pilgrims to her Basilica in Mexico City will be able to receive a plenary indulgence under the usual conditions. The Jubile"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098856502371221877",
+          "postId": "2098853049678635505",
           "author": "benjaminlong16",
-          "searchJob": "temple",
-          "text": "https://t.co/xo4rlAXORP"
+          "searchJob": "class:2026",
+          "text": "https://t.co/23xnrowTrC"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098621541923594723",
-          "author": "zaydenh10",
-          "searchJob": "minnesota",
-          "text": "All glory to god https://t.co/x2IpDje0d6"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098841468853002717",
-          "author": "patasurfkat",
-          "searchJob": "minnesota",
-          "text": "So you are okay with manufactured homes while your voters want housing…..what a POS you are. 20 years in the Senate and this is all you have to offer. Go away Amy, Minnesota is DONE with you"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098832694322868305",
-          "author": "amyklobuchar",
-          "searchJob": "minnesota",
-          "text": "Manufactured homes are one of the most affordable paths to homeownership, but when hedge funds buy the land underneath those homes, they raise lot fees, sometimes multiple times a year. As Governor, I will pass the Manufactured Home Bill of"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098868388986495282",
-          "author": "kadenholt19",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @Coach_Stutz I’m proud to announce that I have received my third offer from @MysticsFB ! @Coach_Melendo @CoachWinfield https://t.co/yu0p1To7vz"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098868190910591213",
-          "author": "loganschubz05",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @CoachEwingFU I am blessed to have received my first offer from @FalconsFU. @sharp_spelite https://t.co/AO6NTelJ7i"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098866109105545694",
-          "author": "grantkaminski11",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @BrutonKendrick, I’m honored to receive my first division 1 offer from @DaytonFootball! @neohiohsfb @jmun011 @OhiosElite1 https://t.co/dpDc1hL7Oq"
+          "postId": "2098846982697800167",
+          "author": "subbdue",
+          "searchJob": "class:2026",
+          "text": "How HBM gets faster from HBM3e to HBM5, what comes after, and why the base die decides who wins https://t.co/Gw4s3yOBLh"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2098863871683441041",
-          "author": "braxtonfiresto1",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @AustenJacobs I’m very blessed to receive a division I offer from The University of San Diego!! @USDFootball @CoachJMBryant @toddrodgers13 @CoachTKelly1 https://t.co/HST1QqyXFD"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098857998181343712",
-          "author": "gavinharmon_5",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with Coach Casey and Coach Miles I am blessed to have received my first college basketball offer from @twuhoops God is good! https://t.co/QEAZwMd4m2"
+          "postId": "2098871730655867026",
+          "author": "prepredzonenm",
+          "searchJob": "class:2027",
+          "text": "Dynamic 2027 Volcano Vista ATH offered by D2 Concord University in Athens, WV."
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098857816190488879",
-          "author": "marihall2010",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @Blake_Littman I am extremely blessed to receive an offer from @GovsFB @CentralLionsFB @TradariusGoff @jaxon_rose8 @BuckFitz @NCEC_Recruiting @jhrevious @ShaqDiesel_70 https://t.co/PiKPFRzhIr"
+          "postId": "2098866768144171506",
+          "author": "ic_mccary",
+          "searchJob": "class:2027",
+          "text": "After having a great conversation with @KHOWCU I’m truly blessed to receive my first offer from @ConcordFootball !!! Philippians 4:13 @CoachShowtimeNM @CoachWallin @CoachSitdikov @coachList13 @Valdez5Island @PrepRedzoneNM @CouchPSports http"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098857736087720064",
-          "author": "jaredstilltwo",
-          "searchJob": "houston",
-          "text": "@ChrisNTrevino True story: we were his first D1 offer and OV when I was at Houston Baptist/Christian"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098789160009998734",
-          "author": "untoldwarfacts",
-          "searchJob": "army",
-          "text": "They refused to bathe. They refused to salute. They poached deer from an English lord's estate and used their washing water ration to cook it. The night before D-Day they shaved mohawks and painted their faces like warriors. Then they jumpe"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098741389865455889",
-          "author": "wwg1wga_qq",
-          "searchJob": "army",
-          "text": "🚨 CANADA JUST CROSSED A RED LINE Canada has officially opened a new EXPRESS ENTRY pathway for FOREIGN MILITARY RECRUITS to join the CANADIAN ARMED FORCES. Yes, you read that right. The government says it’s about protecting Canada’s soverei"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098856411153482178",
-          "author": "loverockmusic",
-          "searchJob": "army",
-          "text": "https://t.co/FCcvhZicOY"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098853943832932657",
-          "author": "thomasterjourno",
-          "searchJob": "army",
-          "text": "Trump just said a united Ireland “may as well happen now.” No sitting US president had gone that far. And the viral claim that JFK promised Ireland the same thing in 1963? The archives say otherwise. The myth, the weapons, the record ↓ http"
+          "postId": "2098871050389860424",
+          "author": "premefootball",
+          "searchJob": "class:2027",
+          "text": "The Texans and QB C.J. Stroud are HOLDING OFF on a contract extension until after the season, per @AdamSchefter. Stroud reportedly rejected an offer exceeding $50M per year and is betting on himself to potentially land closer to $60M annual"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098858949319524686",
-          "author": "cardmedia_bsu",
-          "searchJob": "ball-state",
-          "text": "Ball State Family Bingo was a Family Weekend 2026 event held from 9:00 am to 11:00 am on the University Green. Family Bingo offered free stickers, donuts, as well as more food and drink. Attendees who won bingo had two tables of prizes they"
+          "postId": "2098874051980571040",
+          "author": "jamaribisaiah",
+          "searchJob": "class:2028",
+          "text": "After a great conversation with @Blake_Littman I am blessed to receive an offer from @GovsFB @CentralLionsFB @TradariusGoff @jaxon_rose8 @CoachDavis99 @Liaison__Otey__ @BuckFitz @NCEC_Recruiting https://t.co/fP6cb8RNGZ"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098875907742298212",
+          "author": "catherinem76971",
+          "searchJob": "florida",
+          "text": "@GuntherEagleman I hope tge juror takes Governor DeSantis up on his offer. I think he'd be happier in Florida at this point."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098874323079463278",
+          "author": "kim_chee27",
+          "searchJob": "florida",
+          "text": "Does this juror have a gofundme? I know Gov DeSantis has offered him sanctuary in Florida, away from the Masshole nutjobs."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098781980993147224",
+          "author": "bennyjohnson",
+          "searchJob": "florida",
+          "text": "The man on the Lindsay Clancy jury who refused to allow her to get away with murdering her three kids is now facing eviction. Media outlets and other jurors are publicly revealing details about him as an intimidation tactic. They’re trying "
+        },
+        {
+          "reason": "unclassified_offer_text",
+          "postId": "2098871363838885925",
+          "author": "michaelarothman",
+          "searchJob": "florida",
+          "text": "𝐃𝐄𝐒𝐀𝐍𝐓𝐈𝐒 𝐎𝐅𝐅𝐄𝐑𝐒 𝐓𝐇𝐄 𝐋𝐈𝐍𝐃𝐒𝐀𝐘 𝐂𝐋𝐀𝐍𝐂𝐘 𝐇𝐎𝐋𝐃𝐎𝐔𝐓 𝐉𝐔𝐑𝐎𝐑 𝐀𝐒𝐘𝐋𝐔𝐌 𝐈𝐍 𝐅𝐋𝐎𝐑𝐈𝐃𝐀 𝐀𝐅𝐓𝐄𝐑 𝐍𝐁𝐂 𝐓𝐑𝐈𝐄𝐒 𝐓𝐎 𝐒𝐌𝐄𝐀𝐑 𝐇𝐈𝐌 Eleven jurors wanted to let her go. One refused — and now the me"
+        },
+        {
+          "reason": "unclassified_offer_text",
+          "postId": "2098870519630279014",
+          "author": "conserv_tribune",
+          "searchJob": "florida",
+          "text": "As the fallout from the Lindsay Clancy mistrial reaches new lows, Ron DeSantis is offering a rare bit of sanity. #Crime #Establishmentmedia #Florida #Liberalmedia #Mediabias #RonDeSantis https://t.co/gz2CNoQBaM"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098868304207024452",
+          "author": "gadsdenherald",
+          "searchJob": "florida",
+          "text": "NBC Boston exposed private details about a lone holdout juror for doing his duty. DeSantis offers him asylum in Florida. Media lawfare loses. 🇺🇸🔥 https://t.co/xrhoFqvOIy https://t.co/H4FmVFIOPy"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098865546540339674",
+          "author": "jetscraig",
+          "searchJob": "florida",
+          "text": "@catturd2 Desantis offered him asylum in Florida"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098863652686151887",
+          "author": "maryja_1904",
+          "searchJob": "florida",
+          "text": "@GenuineSuccess4 @sweetcarolinatv DeSantis has offered him asylum in Florida. Could get interesting if FL refuses to extradite if Mass decides to press charges against him"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098860678664921406",
+          "author": "nkludt4391",
+          "searchJob": "florida",
+          "text": "@MJTruthUltra And now he’s offered sanctuary in Florida!"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098853848295387511",
+          "author": "agsciences",
+          "searchJob": "penn-state",
+          "text": "Alzheimer’s and dementia educational resources offered by Penn State Extension https://t.co/0Fjj5dmhHs https://t.co/QSFUgSpIbJ"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098872734201839632",
+          "author": "drallenl",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "#AGTG After some great talks with @CoachVictoriano I am blessed to receive my first offer from @BrevardF5 https://t.co/kapfvvZuBE"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098872171984486769",
+          "author": "reecemckee21896",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After a great campus visit and a great conversation with Coach @Coach_Brum , Coach Sizemore and Coach Greenamoyer I am blessed to receive my third offer from Wabash College! #agtg #blessed @NewAlbanyHoops @BRamseyKSR @kylerstaley @KyleNedde"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098861844425322885",
+          "author": "aidandavis45172",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Thank you @DBCU_Football &amp; @coachbconover for my 4th offer #AGTG🙏🏼 @AustinFootball_ @RecruitTheA @AsaMartin_ @perk3445 @CoachSenior2 @HallTechSports1 @Alabama_Varsity @AL_Recruiting https://t.co/QoBRzHqMbG"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098860548574040285",
+          "author": "jaxsonwilliamsx",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Blessed to receive an offer from dillard University!!! #AGTG https://t.co/GlOME2Wn7o"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 44,
+      "accepted": 4,
+      "rejected": 21,
       "reasons": {
-        "bare_mention_requires_llm": 34,
-        "school_not_resolved_confidently": 2,
-        "multiple_resolved_schools": 4,
+        "bare_mention_requires_llm": 14,
         "reporter_missing_player_name": 3,
-        "player_display_name_unusable": 1
+        "reporter_missing_class_year": 2,
+        "multiple_resolved_schools": 1,
+        "author_not_recruit:different sport": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098868333764301277",
-          "author": "bratnvet",
-          "searchJob": "arkansas-state",
-          "text": "Sen Ted Cruz was booed at an Austin College game over these abreviated provisions in Legislation he supports to protect College Student Athletes? I'm not sure what specifically they oppose. Snippit, link follows: \"The PCSA itself is 230 pag"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098865955984339184",
-          "author": "jdb_howe",
-          "searchJob": "arkansas-state",
-          "text": "@GMasterYoda_ @standev9 @FeserEdward Pope Gregory XVI in \"Officium\" taught that it was wrong to offer rites or a Catholic burial to those who died outside the Church, regardless of an unknown deathbed conversion. Pope Martin V taught simila"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098849897239675003",
-          "author": "exodusbecause",
-          "searchJob": "arkansas-state",
-          "text": "Oxford’s caption doesn’t take a clear position, so this response is directed at James Maynard’s argument in the video. Maynard identifies one legitimate concern—an opaque answer may not automatically produce human understanding—but wraps it"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098849419902763418",
-          "author": "lloyddurwin",
-          "searchJob": "arkansas-state",
-          "text": "Here is what AI says to do about this existential threat! 🚨🚨 READ THIS🚨🚨 ⤵️ https://t.co/qNWXzC8LTE Three men who do not share a church just said the same sentence: the frontier is moving faster than the human ability to stay the master"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098849261345505786",
-          "author": "ubernaffa",
-          "searchJob": "arkansas-state",
-          "text": "@tomhfh No they weren't. Just because Bill Clinton described it as a state does not make it so. All you need to do is share the map of what they were offered - which I am sure you have definitely seen and studied, to ensure you understood w"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098846928817795268",
-          "author": "tomhfh",
-          "searchJob": "arkansas-state",
-          "text": "They were literally offered a state less than one year prior to this. Clinton presented his final \"bridging proposals\" (The Clinton Parameters) to both sides in December 2000. Palestine would retain 92% of the West Bank, and all of Gaza. Is"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098838534459150829",
-          "author": "ew_1954",
-          "searchJob": "arkansas-state",
-          "text": "“The Palestinians were offered a state. They refused. A state wasn't their goal. Killing Jews was.\" ~ Bill Clinton"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098868199261622330",
-          "author": "prophet_logic17",
-          "searchJob": "marshall",
-          "text": "The team option of 24mil was always just the target in negotiations. You start high then you meet in the middle. He is certainly worth what Quentin Grimes is getting paid or Naji Marshall. Hawks never made an offer. The real truth it was ju"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098845347653230934",
-          "author": "amlandauction",
-          "searchJob": "marshall",
-          "text": "152.29± acres in Merrick County that will be offered at absolute live auction this November! The Frauen Family property features a combination of gravity irrigated cropland and pasture and will be offered in 4 tracts. 🔗 View Details: https"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098850809115230298",
-          "author": "thatcryptolad_",
-          "searchJob": "south-florida",
-          "text": "🌙 BTC EVENING WRAP ₿ BTC: $77,146.74 📈 Trend: BEARISH 📊 RSI: 43.41 (NEUTRAL) 🎯 OVERNIGHT LEVELS 🟢 Bulls need: $79,157.09 🔴 Bears need: $76,554.99 📋 CURRENT BIAS 🟡 WAIT 👀 Watch above $79,157.09 for LONG 👀 Watch below $76,554.99 for"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098845547008335960",
-          "author": "jasonburgosmma",
-          "searchJob": "south-florida",
-          "text": "With the relationship between the #Pistons and Jalen Duren at a low point, I look at 5 trades they might accept before camp opens. Including offers from the #Mavericks and #Bulls. #JalenDuren #DetroitPistons https://t.co/Yx2vXea61Q"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098867635291070605",
-          "author": "sasquatchh4269",
-          "searchJob": "temple",
-          "text": "The priests wore sacred clothes to approach the dwelling place of God's presence on earth. Post-Christ, all who believe ARE the dwelling place of God's Spirit. We are all priests, and Christ our High Priest. The temple veil was torn, openin"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098865178251280661",
-          "author": "cholan_nova",
-          "searchJob": "temple",
-          "text": "@Aabhas24 @RichMiyaa And not to forget India being land of Hindu piligrimages. There was too much piligrim tax on offer despite their temple destruction mayhem."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098864714562289795",
-          "author": "big_sgt_d",
-          "searchJob": "temple",
-          "text": "🛑 Only those who are not saved think this is Christianity. Here's the message of Guadalupe in it's entirety. ❗️ No Jesus ❗️ No gospel ❗️Demands a temple for glorification ⚠️ This sounds more like the mother goddess that was worshipped ther"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098853612558721491",
-          "author": "plubius1",
-          "searchJob": "temple",
-          "text": "The traditional story of Juan Diego and Our Lady of Guadalupe is the account preserved in the Nican Mopohua (“Here it is told”), the classic Nahuatl narrative of the events of December 1531 on Tepeyac Hill, just outside what is now Mexico C"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098849661154996367",
-          "author": "saucecastillo38",
-          "searchJob": "temple",
-          "text": "@JPNittany17 Not really. I know plenty of people that turned down PSU for Temple. Depends on what field especially. Also brother he was literally offered by PSU and he went 8-0 against you guys in his four years"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098848193777926447",
-          "author": "ians_india",
-          "searchJob": "temple",
-          "text": "Tirunelveli, Tamil Nadu: The traditional Urial (pot-breaking) ceremony was held with religious fervour at the Mala Nambi Temple in Tirukkurungudi, popularly known as “Chinna Tirupati,” on the last Saturday of the Tamil month of Avani. Speci"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098851491545047386",
-          "author": "john_f_kjrq",
-          "searchJob": "minnesota",
-          "text": "🚨 HOLY CRAP! It's been revealed that Minnesota AG Keith Ellison MET with Somalis and fraudsters and got offered CAMPAIGN contributions, \"that he later accepted\" 🤯 It's not only Tim Walz. It's the entire Democrat leadership of Minnesota! h"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098843146507395522",
-          "author": "casualminnesota",
-          "searchJob": "minnesota",
-          "text": "#Gophers just offered ‘the younger brother of @1_zackkkk."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098855210697265645",
-          "author": "dengenfades",
-          "searchJob": "missouri",
-          "text": "On the topic of phycology 📝 Yesterday Missouri hung around +money for a lot of the game they end up winning also covering, today they offer Oklahoma at +money for most of the game while “coming back” and even when tied I seen them +money t"
+          "postId": "2098872745689817340",
+          "author": "chuckjordan4",
+          "searchJob": "florida",
+          "text": "Florida Governor DeSantis Offers ‘Asylum’ To Holdout Lindsay Clancy Juror https://t.co/LtkLqizsO5 via @dailycaller"
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2098845407270834260",
-          "author": "bobby_schneid",
-          "searchJob": "nebraska",
-          "text": "Nebraska offers 2028 Maplewood (Minn.) Hill-Murray TE Brady Reeves."
+          "postId": "2098871892518048199",
+          "author": "blockheadai",
+          "searchJob": "florida",
+          "text": "🏈 Campbell @ Florida · College Football · Sat 4:30 PM CT 📊 Spread -49.5 (home) · O/U 65.5 Florida enters this matchup as a massive favorite, but the market expectation of a fifty-point blowout may be overreaching. While Florida holds a si"
         },
         {
-          "reason": "player_display_name_unusable",
-          "postId": "2098842357105938516",
-          "author": "brady_reeves18",
-          "searchJob": "nebraska",
-          "text": "Thank you @HuskerFootball for coming to Hill-Murray yesterday to watch us play. I am extremely excited to receive an offer from the University of Nebraska!! @Coach_Satt @CoachBrown_DL @RyanBurnsMN @AllenTrieu @PrepRedzoneMN @247recruiting @"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098869435423736300",
+          "author": "epsteinsearchin",
+          "searchJob": "florida",
+          "text": "Peter Diamandis, founder and executive chairman of XPRIZE, wrote to Jeffrey Epstein on April 28, 2009. \"I'd love to connect and catch-up.\" Three days offered in New York, signed Chairman/CEO, X PRIZE Foundation. Epstein answered the next mo"
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2098843716425322883",
-          "author": "timverghese",
-          "searchJob": "nebraska",
-          "text": "Nebraska offers 2028 Maplewood (Minn.) Hill-Murray TE Brady Reeves"
+          "postId": "2098869196285227451",
+          "author": "worldfreed54675",
+          "searchJob": "florida",
+          "text": "Supreme Court Rejects New York Mom’s Bid to Keep Unvaccinated Son in Kindergarten The justices declined emergency relief while her appeal is processed by the lower courts. The U.S. Supreme Court declined a New York mother’s request to let h"
+        },
+        {
+          "reason": "reporter_missing_class_year",
+          "postId": "2098869124034339165",
+          "author": "hope_hicks1",
+          "searchJob": "florida",
+          "text": "IT’S OFFICIAL: Gov. Ron DeSantis has offered the male holdout Lindsay Clancy juror ASYLUM in the free state of Florida if he’s doxxed or harassed “A man objected to allowing a woman to kill her three young kids and get away with it, so NBC "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098868087986470937",
+          "author": "fzjo16",
+          "searchJob": "florida",
+          "text": "@EricLDaugh @GovRonDeSantis offer him a job. Florida will be a safe haven for him"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098866953708311025",
+          "author": "blacksheepbae",
+          "searchJob": "florida",
+          "text": "@bennyjohnson But the great news is DeSantis offered for him to come to Florida for protection. Nice."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098863383160238404",
+          "author": "jasubeuk",
+          "searchJob": "florida",
+          "text": "@ShamashAran Governor Ron Drsantis offered to protect him if he moves to Florida! I would support a go fund me for this gentleman hero! ✌🏼"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098863306165395632",
+          "author": "carrieinthe207",
+          "searchJob": "florida",
+          "text": "@tomshattuck The hold out juror should take up Ron Desantis' offer and move to Florida. A considerable portion of the population considers him a \"hero\". Start a go fund me and turn lemons into lemonade. \"Nice work\" Subaru Sue"
+        },
+        {
+          "reason": "reporter_missing_class_year",
+          "postId": "2098861885848186934",
+          "author": "patriotwoman22",
+          "searchJob": "florida",
+          "text": "@jacobawells And Governor DeSantis down in Freedom Florida has offered him asylum in our wonderful state We would welcome him down here https://t.co/4T5zvPBJc5"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098861573578137734",
+          "author": "johofkindly1",
+          "searchJob": "florida",
+          "text": "Florida Gov. Ron DeSantis offered \"asylum\" to the lone holdout juror in Lindsay Clancy's murder trial, blasting NBC10 Boston after it reported the man's past domestic violence allegations. https://t.co/QsJBRcBQ1q"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098845475214373194",
+          "author": "rambo_sandrino",
+          "searchJob": "oklahoma",
+          "text": "@BFW Is it possible to offer Will Stein $12 mil and fly him to Oklahoma mid game?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098861042793120199",
+          "author": "victor_jones_23",
+          "searchJob": "oregon",
+          "text": "idc how much money oregon offered him, he was projected #2 overall pick in the draft. little to no benefit returning. about to kill his stock for the same pay"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2098845719125700833",
+          "author": "linterpio",
+          "searchJob": "oregon",
+          "text": "@DeadNThaHood @Brentley12 With no known offers from comparable schools to Oregon. That’s my biggest thing. Why are we taking gambles on Hampton when a guy like Gary Patterson was available? A guy like muschamp was available? Lanning clearly"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098867647743996047",
-          "author": "eversotweetly4u",
-          "searchJob": "northwestern",
-          "text": "You know them well I'm sure but I'll offer the CliffsNotes version. Let's start with her first grift pretending to be the dumbest American who never heard of Prince Harry or a requisite curtsy to the Queen of England? That's a slander again"
+          "postId": "2098875833150550457",
+          "author": "tealsyndicate",
+          "searchJob": "south-carolina",
+          "text": "BREAKING: Coastal Carolina has landed 2027 recruit Jackson Terrell, per his Instagram! 🌴🏀 The 6-foot-9 forward chose the Chants over offers from Arkansas State and South Carolina State. The Charleston native posted photos from his visit t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098854522449965457",
+          "author": "oapoh_official",
+          "searchJob": "south-carolina",
+          "text": "#OnThisDay September 12, 1916: Palmetto Reckoning https://t.co/j00jtczcuE | Own A Piece Of History ---------------- FREE AUDIO BOOK OFFER: Hero Tales From American History Originally Written In 1895 By Theodore Roosevelt And Henry Cabot Lod"
+        },
+        {
+          "reason": "author_not_recruit:different sport",
+          "postId": "2098871297073709062",
+          "author": "k_turner_2028",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After a great visit and conversation with Coach Majkrzak, I am blessed to receive my first Division 1 offer from Northern Illinois University! #agtg https://t.co/LYNXG7wvuz"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098873295298867578",
+          "author": "flush_it_down",
+          "searchJob": "kansas",
+          "text": "Outside of Village West and Johnson County, there is no reason to venture into Kansas if you are from KCMO. Johnson County offers a lot of career opportunities for people all across the Metro."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098873272104374619",
+          "author": "flush_it_down",
+          "searchJob": "kansas",
+          "text": "@beatmastermatt Outside of Village West and Johnson County, there is no reason to venture into Kansas if you are from KCMO. Johnson County offers a lot of career opportunities for people all across the Metro."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098875167053148356",
+          "author": "gmupatriot13",
+          "searchJob": "virginia",
+          "text": "@HokiesFB I was born in Northern Virginia and have lived here my entire life. VT was the first university to offer me admission as an undergraduate transfer student back in '08. I've since attended multiple schools and graduated from colleg"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098854005938045221",
+          "author": "reasonoverload",
+          "searchJob": "virginia",
+          "text": "@realcavsfans Yeah I don't see the Cavs trading him unless the offer is ridiculously good or Mobley makes an insane leap. Another factor to keep in mind is Cavs will need to make cap space for Tyson's extension next summer."
         }
       ]
     },
@@ -443,12 +459,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 44,
-      "brandNewOffers": 0
+      "acceptedEvidence": 4,
+      "rejectedCandidates": 21,
+      "brandNewOffers": 2
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-12T20:18:22.192Z"
+    "status rebuilt locally from current store on 2026-09-12T20:48:20.406Z"
   ]
 }
