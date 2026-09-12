@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T11:12:56.545Z",
+  "generatedAt": "2026-09-12T11:42:40.282Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-12T11:12:56.259Z",
+    "at": "2026-09-12T11:42:40.096Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7752386111111111,
-    "p95Hours": 1.2778180555555556,
-    "worstHours": 1.5266727777777778
+    "medianHours": 1.0221780555555555,
+    "p95Hours": 1.7733005555555557,
+    "worstHours": 1.7733005555555557
   },
   "decisionCoverage": {
-    "total": 37,
-    "decided": 37,
+    "total": 42,
+    "decided": 42,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 47
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 1054,
     "incompleteOffers": 0
@@ -55,285 +55,337 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-12T11:12:56.258Z",
-      "got": 46,
-      "new": 37,
+      "at": "2026-09-12T11:42:40.096Z",
+      "got": 49,
+      "new": 42,
       "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-09-12T11:11:17.968Z",
+    "at": "2026-09-12T11:41:19.685Z",
     "mode": "live",
     "collection": {
-      "returned": 46,
-      "kept": 37,
-      "duplicate": 9,
+      "returned": 49,
+      "kept": 42,
+      "duplicate": 7,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 26,
-      "rejected": 11,
+      "accepted": 24,
+      "rejected": 18,
       "reasons": {
-        "no_offer_term": 8,
-        "no_fbs_school": 3
+        "no_offer_term": 12,
+        "hard_negative": 1,
+        "no_fbs_school": 5
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2098724577106890811",
-          "author": "mbjmemphis",
-          "searchJob": "memphis",
-          "text": "The city and a local nonprofit are targeting 45,000 residents for training in the health, information technology, and trades sectors. https://t.co/2gWhoDfoTO"
+          "postId": "2098687976658354370",
+          "author": "cb_doge",
+          "searchJob": "nevada",
+          "text": "It’s not easy being Elon Musk. Every day brings another attack, but he never stops working for humanity. https://t.co/EbpnjmL2vV"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098738583087530392",
+          "author": "ddball67",
+          "searchJob": "toledo",
+          "text": "https://t.co/7r4EXerkqY"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098726075203219728",
+          "author": "all_things_bama",
+          "searchJob": "alabama",
+          "text": "@TRUZZZZZZZZZ @Ayy_tee_el @ghostinformal @baggy615 @RespectTheZoe Nobody said this. If you cooperate you have to confess to EVERY crime you have ever committed to be considered eligible for a 5K1.1. There was never an immunity deal, Feds do"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098737190679511135",
+          "author": "autostarxport",
+          "searchJob": "illinois",
+          "text": "Heading south for winter? September and October are the time to plan your snowbird car shipment ... before southbound demand gets busy. Read the 2026–2027 Snowbird Car-Shipping Calendar ↓ #SnowbirdSeason #CarShipping https://t.co/FjjsTjNncb"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098714234498503069",
-          "author": "thedomainduke",
-          "searchJob": "duke",
-          "text": "https://t.co/5Co33a2ge5 — a defining name for the future of work. 🤖🌐 From robotic teleoperation and remote physical labor to embodied AI workers, the meaning of employment could be about to expand dramatically. Offered at $29,888. #Embodi"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098727588071985527",
-          "author": "wilburhoppy",
-          "searchJob": "north-carolina",
-          "text": "@Leebefree74 @WhatleyNC Because he did.https://t.co/5qmqxXplBp And now this:https://t.co/vauDwIcSGD"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098726992594030939",
-          "author": "wilburhoppy",
-          "searchJob": "north-carolina",
-          "text": "@WhatleyNC You have a real pedo problem.https://t.co/vauDwIcSGD"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098726821759959521",
-          "author": "wilburhoppy",
-          "searchJob": "north-carolina",
-          "text": "@MargoinWNC Cooper is polling above 50%, and that is before this news broke, Whatley is cooked.https://t.co/vauDwIcSGD"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098726185949671870",
-          "author": "wilburhoppy",
-          "searchJob": "north-carolina",
-          "text": "@kneeds @RobertBurns82 They use \"preacher\" because it sounds better that \"pedo.\"https://t.co/vauDwIcSGD"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098725908769042572",
-          "author": "wilburhoppy",
-          "searchJob": "north-carolina",
-          "text": "@RobertBurns82 Michael Whatley has a real pedo problem.https://t.co/vauDwIcSGD"
+          "postId": "2098735955234480338",
+          "author": "onekindesign",
+          "searchJob": "washington",
+          "text": "Modern waterfront home offers a peaceful escape on Washington’s Puget Sound https://t.co/2ztOdWpUzb https://t.co/F6xCVxhs62"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098725016925831300",
-          "author": "pxwhittle",
-          "searchJob": "north-carolina",
-          "text": "Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina @AP https://t.co/gVwiFi4sXM"
+          "postId": "2098731846024495178",
+          "author": "washingtonwick",
+          "searchJob": "washington",
+          "text": "Donald Trump Offers Free Tank of Gas if Republicans Win in November “Nobody’s ever given the country a tank of gas before. Obama didn’t. Nobody did.” https://t.co/psVQ1tgOxj"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098454495717916689",
+          "author": "jackprandelli",
+          "searchJob": "washington",
+          "text": "🇸🇦Both Of Saudi Arabia's Chokepoints Are Now Live At Once... Ras Tanura, Saudi Arabia's largest refinery at 550,000 bpd, sits on the Gulf side, exposed to Hormuz. Jazan, 400,000 bpd, sits on the Red Sea side, exposed to Bab el-Mandeb. Bot"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098714435325943921",
+          "author": "guyelster",
+          "searchJob": "washington",
+          "text": "Trump, who promised to eliminate the Houthis in May 25’, claims they “called” the US and said they will not fight them. Another way to say he will not help the Saudis, at least for now"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098722210118504501",
+          "author": "theholidayninja",
+          "searchJob": "washington",
+          "text": "Ultimate USA Sports Break to Washington DC 4 days departs Dublin 21st November '26 Direct Flights, 4* Moxy Hotel + Bus Tour Included PLUS American Football AND Basketball Games And ALL for ....... £945pp!! #NInjatastic #belikeaNInja #planah"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098734841957105890",
+          "author": "silverpenydr",
+          "searchJob": "texas-tech",
+          "text": "Quote with the tech skill you would like to acquire. 1,000 people will be beneficiaries of the TG Omori Fully Funded Tech Scholarship, sponsored by TechersOS. No fees. No hidden charges. Just an opportunity to learn valuable tech skills and"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098722384748429517",
-          "author": "ealmarode",
-          "searchJob": "north-carolina",
-          "text": "Prayers from pedophiles? Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina - The Associated Press https://t.co/aiaY5KOyNP"
+          "postId": "2098733878189887808",
+          "author": "mashable",
+          "searchJob": "texas-tech",
+          "text": "The time has come. You can preorder the iPhone 18 Pro starting Sept. 12, and mobile carriers are scrambling to offer you the best pre-order deals. Find out how to save $1,200 on the new iPhone. https://t.co/ChHAP3xbED"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098709291771289637",
-          "author": "kellydeer1971",
-          "searchJob": "north-carolina",
-          "text": "Wow @MyNCSenate Just wow. https://t.co/dFAHkEEpEe"
+          "postId": "2098733121919181066",
+          "author": "techdropsdeals",
+          "searchJob": "texas-tech",
+          "text": "Woot Deal of the Day [$5,499.99]: MSI GeForce RTX 5090 32G LIGHTNING Z 🛍 https://t.co/Py8JTsYpLI Covered by 180-day MSI warranty. MSI @ Woot: https://t.co/hzFBcUGnCJ ⏰ 06:18:22 #ad"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098721242828476807",
-          "author": "hamishlilley",
-          "searchJob": "army",
-          "text": "Maori can settle land disputes with the crown but can't change history. https://t.co/HbikiVFkcu"
+          "postId": "2098733098188132476",
+          "author": "biyapay",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/fsWe8XokAj"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098721532176384117",
+          "author": "tech_twi",
+          "searchJob": "texas-tech",
+          "text": "MTN was the only one able to buy the 5G 700 MHz spectrum because the others couldn’t afford it. MTN bought 2 lots for $100.9 million, which could further extend its monopoly. We couldn’t even incentivize these smaller players or reject MTN’"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098523142335385913",
+          "author": "lookforentries",
+          "searchJob": "texas-tech",
+          "text": "Couple moves we caught in today $INU $ALL $TRUMB $ECAT $JAR $ASTRAL $GAS Drop a comment if u tryna lock in. https://t.co/7hH48ayIjS"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098717882590847203",
+          "author": "tech_twi",
+          "searchJob": "texas-tech",
+          "text": "Typical NCA under the NDC again. We are repeating the same mistake we made with 4G that gave MTN a huge monopoly. They decided to sell 2 out of the 3 available 700 MHz 5G spectrum lots to MTN because MTN made the highest offer. This could m"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098558110700876033",
+          "author": "ncaghana",
+          "searchJob": "texas-tech",
+          "text": "UPDATE ON THE 5G SPECTRUM LICENSING PROCESS https://t.co/obdjtAFdSV"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098716889006342502",
+          "author": "techdropsdeals",
+          "searchJob": "texas-tech",
+          "text": "Woot Deal of the Day [$5,499.99]: MSI GeForce RTX 5090 32G LIGHTNING Z 🛍 https://t.co/Py8JTsYpLI Covered by 180-day MSI warranty. MSI @ Woot: https://t.co/hzFBcUGnCJ ⏰ 05:13:53 #ad"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 25,
+      "accepted": 0,
+      "rejected": 24,
       "reasons": {
-        "bare_mention_requires_llm": 23,
-        "multiple_resolved_schools": 2
+        "bare_mention_requires_llm": 8,
+        "reporter_missing_player_name": 2,
+        "multiple_resolved_schools": 1,
+        "school_not_resolved_confidently": 13
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098711755706773902",
-          "author": "agdsporttrading",
-          "searchJob": "colorado",
-          "text": "Today’s acca picks. Sign up to William hill today and get there sign up offer 🏠 HOME GAINS CARD — 12/09/2026 💷 Flat stake £18 | 6 qualifiers | Exposure £108 1️⃣ 🕒 11:00 — Hiroshima v C-Osaka 🏆 Japanese J-League 🟢 Home Green vs 🔴 Away "
+          "postId": "2098710945660903926",
+          "author": "mapsofethiopia",
+          "searchJob": "navy",
+          "text": "Cairo's primary maritime security partner is Saudi, NOT Eritrea. Asmara has nothing to offer Egypt or the Saudis, except containing Ethiopia. Eritrea dont have a Navy capable of fighting, or resources attractive enough for a bargain. Asmara"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098725595848810958",
-          "author": "charlottesepti1",
-          "searchJob": "north-carolina",
-          "text": "Septic Pumping in Rock Hill, NC Do you need professional septic tank cleaning and septic tank pumping in Rock Hill, North Carolina? Then it’s time to call the team at Charlotte Septic Pros. Our experienced technicians offer a wide range of "
+          "postId": "2098725701197205878",
+          "author": "yyaannyyaa",
+          "searchJob": "nevada",
+          "text": "ELON MUSK IS FINALLY BRINGING THE TESLA SEMI TO EUROPE. IF ITS NUMBERS HOLD, IT COULD REWRITE THE ECONOMICS OF TRUCKING. IF THE TIMELINE SLIPS AGAIN, IT BECOMES ONE OF TESLA’S LONGEST-RUNNING PROMISES. Musk unveiled the Semi in 2017 and tar"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098718701251858589",
+          "author": "gulfshoresnews",
+          "searchJob": "alabama",
+          "text": "Outdoor College Football Watch Parties At The Wharf Game Day on the Green is back at The Wharf in Orange Beach, giving football fans along the Alabama Gulf Coast a reason to get excited. The popular outdoor watch party returns to Portside o"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098735218597278107",
+          "author": "johnross27nov1",
+          "searchJob": "washington",
+          "text": "'...Bill Clinton's White House was warned that Osama bin Laden wanted to crash a bomb-packed plane into an American city three years before the hijackers struck, explosive CIA files reveal. The warning was a part of a September 10, 1998 rep"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2098729751787499992",
+          "author": "jackprandelli",
+          "searchJob": "washington",
+          "text": "🚨Saudi Arabia has shut down its East-West pipeline after a drone strike that Riyadh and Baghdad both say came from Iraq, where Iran-backed militias operate. The line moves 4 to 5 million barrels a day, roughly 4 to 5% of global supply and "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098720402432307303",
-          "author": "andrewcorls",
-          "searchJob": "oklahoma-state",
-          "text": "Duck Hunt: Oregon-Oklahoma State Value Oregon is a massive favorite, but the spread discrepancy between these two books offers a unique opportunity to capitalize on the line movement. We are looking at the numbers to see if the Ducks can co"
+          "postId": "2098728505055879228",
+          "author": "amandafbelfast",
+          "searchJob": "washington",
+          "text": "DUP leader Gavin Robinson: “President Trump knows better than most that elections matter. Northern Ireland’s constitutional future will be decided by the people of Northern Ireland, not by commentary in London, Dublin or Washington. Norther"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098720400792342871",
-          "author": "letmebet_com",
-          "searchJob": "oklahoma-state",
-          "text": "Duck Hunt: Oregon-Oklahoma State Value https://t.co/YLrx12of5P Oregon is a massive favorite, but the spread discrepancy between these two books offers a unique opportunity to capitalize on the line movement. We are looking at the numbers to"
+          "postId": "2098727988112056796",
+          "author": "geostrat_khalid",
+          "searchJob": "washington",
+          "text": "Washington has enough on its plate. Opening another front doesn't look like an enticing offer."
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2098715621475135554",
+          "author": "maxellum",
+          "searchJob": "washington",
+          "text": "MY 2 CENTS | 401(K), WALL STREET AND BITCOIN: WHY A BULL MARKET IS NOT ALWAYS GOOD NEWS FOR RETIREMENT — AND WHY BTC CHANGES PART OF THE EQUATION 1️⃣ To understand the apparent contradiction, we first need to understand what a 401(k) really"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098730093644595315",
-          "author": "earthdesires",
-          "searchJob": "pittsburgh",
-          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+          "postId": "2098713858797928788",
+          "author": "periucs",
+          "searchJob": "washington",
+          "text": "Everyone Talks About U.S. Debt But Europe May Be in Worse Trouble America’s debt problem is impossible to miss. Federal debt has crossed $40.08T, another $1.9T deficit is expected this fiscal year and the 30-year Treasury yield is around 5."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098729841986293939",
-          "author": "earthdesires",
-          "searchJob": "pittsburgh",
-          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+          "postId": "2098713327639875964",
+          "author": "andrejdrats",
+          "searchJob": "washington",
+          "text": "Warren Buffett reveals that the insurance business behind Berkshire came from three accidents he did nothing to arrange: \"Many, many, many pieces of luck, but I had three extraordinary pieces of luck in terms of the insurance business.\" He "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098738141397991828",
+          "author": "thanhhuyenweb3",
+          "searchJob": "texas-tech",
+          "text": "No more micro-managed platforms. @insoblokai offers a modular framework for data autonomy and total identity control. Secure your future with $INSO. #SelfSovereignIdentity #Tech"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098736782158287147",
+          "author": "mrtimdunn",
+          "searchJob": "texas-tech",
+          "text": "Mike, just seen this comment. Age doesn’t necessarily cause something to be unfit for purpose. The reason it’s still being used here is because it sits at the junction of various signalling systems, one of which is the Cambrian’s pilot proj"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098735636727333198",
+          "author": "itz_mig29",
+          "searchJob": "texas-tech",
+          "text": "Don’t sleep on this opportunity. The tech industry is worth taking seriously and now is a good time to start exploring what it has to offer."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098729589875118524",
-          "author": "earthdesires",
-          "searchJob": "pittsburgh",
-          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+          "postId": "2098732911881081334",
+          "author": "chiefudo",
+          "searchJob": "texas-tech",
+          "text": "*Datti Baba-Ahmed Clarifies Criticism Of Peter Obi, Says Nigerians Missed His Point DAILY TRUST *Burden of being Zazzau emir – Bamalli *4 policemen, 7 villagers killed in Benue *Battlegrounds for 2027 gov’ship contests *Budgeting for mortal"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098728833260327174",
-          "author": "earthdesires",
-          "searchJob": "pittsburgh",
-          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098728567622258942",
+          "author": "qwikad_com",
+          "searchJob": "texas-tech",
+          "text": "Affiliate marketers! Drive massive traffic to your offers &amp; products with https://t.co/hVsNRHRxjR No signup required. Promote anything fast &amp; easy! #contentcreator #explore #viralreels #foryou #entertainment #tech #music #beauty #sm"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098716250545545612",
-          "author": "earthdesires",
-          "searchJob": "pittsburgh",
-          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098728549318328748",
+          "author": "afewbadnewbies",
+          "searchJob": "texas-tech",
+          "text": "Clarification: You find the gig → I do the work. After tools + taxes are paid, you get 20% of what's left. Ex: I net $1,000 → you get $200 I net $5,000 → you get $1,000 DM me details (scope, budget, tech). Offer open till 12/31/2026. Let's "
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098713287525560707",
-          "author": "earthdesires",
-          "searchJob": "pittsburgh",
-          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098725360380895644",
+          "author": "viora_tech_ai",
+          "searchJob": "texas-tech",
+          "text": "DOUBLE STAR DAYS — Starbucks runs days where every star is doubled. Most members don't know when they happen or that they need to register. Starbucks periodically runs Double Star Days — promotions where every star earned is doubled for the"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098713287525540293",
-          "author": "earthdesires",
-          "searchJob": "pittsburgh",
-          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098725356018729323",
+          "author": "viora_tech_ai",
+          "searchJob": "texas-tech",
+          "text": "THE REWARDS SYSTEM — You're earning 1 star per dollar. You should be earning 2–3. Here's how. The Starbucks Rewards program gives you 1 star per dollar when you pay with a credit card, debit card, or cash. She said that's the slowest way to"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098713287408156704",
-          "author": "earthdesires",
-          "searchJob": "pittsburgh",
-          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098724013954805852",
+          "author": "oxavari",
+          "searchJob": "texas-tech",
+          "text": "Messaging via BChat offers true peace of mind—no central databases scanning chat logs or tracking your contacts. Props to @BeldexCoin. Real tech driving $BDX! #Beldex #BChat #Web3 #Privacy"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098712734812766382",
-          "author": "earthdesires",
-          "searchJob": "pittsburgh",
-          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098720915676615028",
+          "author": "lookforentries",
+          "searchJob": "texas-tech",
+          "text": "Gonna be adding Arc Mainnet to the VIP Group and anything else you trade. If you want an extra edge in the markets with 24/7 updates on what is going on in the markets, we are building tools to help our inner circle. The more people that jo"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098712727510499593",
-          "author": "earthdesires",
-          "searchJob": "pittsburgh",
-          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098719901766595069",
+          "author": "lundala81",
+          "searchJob": "texas-tech",
+          "text": "@XolaniKhumalo_ Given the fact that our metros bears the direct brunt of service delivery strains, what specific municipal strategies do you offer to manage the local impect? \" Out of illegal migration\""
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098710462645014913",
-          "author": "earthdesires",
-          "searchJob": "pittsburgh",
-          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098719578129936498",
+          "author": "read_meee",
+          "searchJob": "texas-tech",
+          "text": "When we split the bill, she usually orders something around $20–30 and maybe one drink. Yesterday? Suddenly we were celebrating like she had just sold a tech company 😂 When the bill came, I paid and didn’t say anything. But later I mention"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098709959450198064",
-          "author": "earthdesires",
-          "searchJob": "pittsburgh",
-          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098716499082953207",
+          "author": "rohanarun",
+          "searchJob": "texas-tech",
+          "text": "@Super_Powers_AI Hey Super, build a functional deal comparison workbench for the 15-inch M5 MacBook Air based on Mashable's reported $150 discount outperforming Labor Day pricing. https://t.co/AaX3xcasSZ The tool should allow visitors to cu"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098708701716922450",
-          "author": "earthdesires",
-          "searchJob": "pittsburgh",
-          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098708701364510936",
-          "author": "earthdesires",
-          "searchJob": "pittsburgh",
-          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098721566963962269",
-          "author": "_xavierhutchens",
-          "searchJob": "appalachian-state",
-          "text": "I will be at East Carolina today for the 1st home game vs. App State‼️ Thank you @ECUPiratesFB for the invite and for giving me an OFFER! Can’t wait to get on campus. 🏈💜🏴‍☠️ #PirateNation @coachsotoj @Coach_B_Harrell @lgware @AlexJohnson"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098716389389521210",
-          "author": "asyounotwish",
-          "searchJob": "arkansas-state",
-          "text": "There is something deeply contradictory about the way India handles religious figures in its foreign policy. The Indian state has, for years, objected to foreign powers inserting themselves into Kashmir, particularly when that intervention "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098709149521440783",
-          "author": "hgursen",
-          "searchJob": "arkansas-state",
-          "text": "@CDHoweInstitute Environmental Impact of the Pangea-G Platform and GURSEN-H EV System on Global Climate and Temperature Control Abstract As global climate change accelerates, innovative planetary-scale platforms are required to transition f"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098731151825203590",
-          "author": "monthreat",
-          "searchJob": "army",
-          "text": "🚨Threat Actor Claims Sale of MHA India Admin Access and Personnel Data An underground forum post alleges the sale of full administrative access to the Ministry of Home Affairs (MHA) of India's Agniveer recruitment portal, https://t.co/iE0R"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098724656555700336",
-          "author": "kishansakma",
-          "searchJob": "army",
-          "text": "Today is Saragarhi Day. On 12 September 1897, just 21 Sikh soldiers of the 36th Sikhs, British Indian Army, under Havildar Ishar Singh, defended the isolated signalling post at Saragarhi on the North-West Frontier. Against them came an esti"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098716488051872106",
-          "author": "me_observer_",
-          "searchJob": "army",
-          "text": "⚡️⭕️ Digest — 07:11–10:12 UTC Iraq's PM dismissed the Maysan Operations Commander after confirming the Saudi pipeline attack originated from within the governorate; a security committee is investigating, while Islamic Resistance in Iraq den"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098716485309157800",
+          "author": "ploutos97",
+          "searchJob": "texas-tech",
+          "text": "$NOW vs. $ORCL Which Is the Better Buy? Two major tech companies, but two very different growth stories. ServiceNow ($NOW) brings strong enterprise software and workflow solutions, while Oracle ($ORCL) continues expanding its cloud business"
         }
       ]
     },
@@ -347,12 +399,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 25,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 24,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-12T11:12:56.546Z"
+    "status rebuilt locally from current store on 2026-09-12T11:42:40.283Z"
   ]
 }
