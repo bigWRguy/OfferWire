@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T03:42:45.826Z",
+  "generatedAt": "2026-09-12T03:57:52.870Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-12T03:42:45.664Z",
+    "at": "2026-09-12T03:57:52.620Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7721444444444444,
-    "p95Hours": 1.272995,
-    "worstHours": 1.5204638888888888
+    "medianHours": 0.7706822222222223,
+    "p95Hours": 1.2718572222222222,
+    "worstHours": 1.5249516666666667
   },
   "decisionCoverage": {
-    "total": 27,
-    "decided": 27,
+    "total": 15,
+    "decided": 15,
     "complete": true
   },
   "pending": {
@@ -55,232 +55,146 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-12T03:42:45.663Z",
-      "got": 42,
-      "new": 27,
-      "lag": 0.04
+      "at": "2026-09-12T03:57:52.620Z",
+      "got": 35,
+      "new": 15,
+      "lag": 0.21
     }
   },
   "audit": {
-    "at": "2026-09-12T03:41:18.844Z",
+    "at": "2026-09-12T03:56:14.589Z",
     "mode": "live",
     "collection": {
-      "returned": 42,
-      "kept": 27,
-      "duplicate": 15,
+      "returned": 35,
+      "kept": 15,
+      "duplicate": 20,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 16,
-      "rejected": 11,
+      "accepted": 9,
+      "rejected": 6,
       "reasons": {
-        "no_offer_term": 7,
-        "non_fbs_offer_target": 1,
-        "no_fbs_school": 2,
-        "hard_negative": 1
+        "no_offer_term": 4,
+        "no_fbs_school": 2
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2098603346844115306",
-          "author": "bazoostudios",
-          "searchJob": "temple",
-          "text": "https://t.co/vZLW6NSMes"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2098607643845968226",
-          "author": "prepredzonenm",
-          "searchJob": "class:2027",
-          "text": "2027 La Cueva QB offered by D2 Concord University in Athens, WV."
+          "postId": "2098600023118299512",
+          "author": "telegramdotcom",
+          "searchJob": "massachusetts",
+          "text": "These 3 Massachusetts colleges have the 'highest payoff,' per Forbes https://t.co/L43JNkZZVS"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098554447471550518",
-          "author": "montymelen",
-          "searchJob": "class:2027",
-          "text": "#AGTG After a great conversation with @KHOWCU i am beyond blessed to have received my first offer from @ConcordFootball ! @PrepRedzoneNM @CouchPSports @LaCuevaFootball https://t.co/0uZFulZS43"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098611266692448308",
-          "author": "cade_draughon",
-          "searchJob": "alabama",
-          "text": "If you aren’t aware of 2029 Cy Falls WR Karzell Davis, let me introduce you. He already holds offers from Oregon, Miami, Alabama and many others. Tonight he had a kickoff return TD and multiple explosive plays on offense. Real player. @Karz"
+          "postId": "2098605785722823085",
+          "author": "iasanityreport",
+          "searchJob": "iowa",
+          "text": "Three weeks after 9/11 a couple of us went on a tour of Great Britain. We were very hesitant to go but it was a better than anticipated trip. All the British we had contact with offered their heartfelt condolences. We were surprised at how "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2097848333347725777",
-          "author": "aagshumate",
-          "searchJob": "illinois",
-          "text": "No more in-state tuition for illegal aliens in Kansas. https://t.co/XNP2QHwSWt"
+          "postId": "2098381022186369444",
+          "author": "redelitist",
+          "searchJob": "iowa",
+          "text": "2 days post 9/11, HM Queen Elizabeth II ordered the playing of the Star Spangled Banner during the Changing of the Guard at Buckingham Palace. This marked the first ever time a foreign anthem was played during the ceremony. Today, The King "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098614624136663545",
-          "author": "btcbettingtips",
-          "searchJob": "washington",
-          "text": "PICK OF THE DAY #1 Football — September 12, 2026 Club Brugge vs Antwerp Bet: Over 3.5 Market: Asian Total Odds: 2.03 https://t.co/b8Dwj8IP54 ─────────────────── PARLAY OF THE DAY #1 — 4 Legs NFL — September 12, 2026 1. Philadelphia Eagles v"
+          "postId": "2098615181131514309",
+          "author": "hv3livtracker",
+          "searchJob": "michigan",
+          "text": "@stoolpresidente https://t.co/pNVDzatbU8"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098614222884348221",
-          "author": "stakesportsbet",
-          "searchJob": "washington",
-          "text": "PICK OF THE DAY #1 Cricket — September 12, 2026 Afghanistan vs India Bet: Afghanistan Market: Winner (Incl. Super Over) Odds: 4.90 https://t.co/CwZG6s2Tyq ─────────────────── SAME GAME PARLAY #1 — 9 Legs Football — September 12, 2026 Levant"
+          "postId": "2098615116149223508",
+          "author": "hv3livtracker",
+          "searchJob": "michigan",
+          "text": "@GBM_Wolverine A another unpopular truth https://t.co/pNVDzatbU8"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098604770093150217",
-          "author": "mikejfc1",
-          "searchJob": "washington",
-          "text": "I have 3 extra tickets for Charli XCX’s concert on September 28 at Capital One Arena in Washington, DC. Letting them go for face value, but open to offers. DM me if interested! 🫶 WTS | WTB | ISO | WTT"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098600534274183504",
-          "author": "timesnow",
-          "searchJob": "washington",
-          "text": "US holds off on direct Houthi strikes — for now. Washington will continue intelligence support to Saudi Arabia as Riyadh weighs military action against the Iran-backed Houthis, with Red Sea shipping at growing risk. https://t.co/SpTPZLEKO3"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098613516404191389",
-          "author": "techau",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/BAw6cXIfZp"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2098601069228036108",
-          "author": "angelicuniverse",
-          "searchJob": "texas-tech",
-          "text": "Dealing with AI Hacking. How can we protect, money, infrastructure, wealth and secrets from AI? Creation team: J.H Theart, xAI Grok and Mureka. https://t.co/T91t0Q4MlX"
+          "postId": "2098611926557147239",
+          "author": "chaztutt25",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @KHOWCU I am bless to receive another offer from concord university https://t.co/YJfdHaHyrg"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 16,
+      "rejected": 9,
       "reasons": {
-        "bare_mention_requires_llm": 11,
-        "multiple_resolved_schools": 2,
-        "school_not_resolved_confidently": 3
+        "bare_mention_requires_llm": 5,
+        "multiple_resolved_schools": 3,
+        "author_not_recruit:different sport": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098604267825209427",
-          "author": "mikejfc1",
-          "searchJob": "fresno-state",
-          "text": "I have 3 extra tickets for Fuerza Regida’s concert on October 28 at Save Mart Center in Fresno, CA. Letting them go for face value, but open to offers. DM me if interested! 🫶 WTS | WTB | ISO | WTT"
+          "postId": "2098607542490353726",
+          "author": "alohastatedaily",
+          "searchJob": "hawaii",
+          "text": "Previously, Roy’s Hawaiʻi Kai offered brunch for special occasions. Now customers can enjoy the restaurant’s brunch menu every Sunday. The menu features a variety of sweet and savory dishes like souffle pancakes or crab cake eggs Benedict. "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098615883627462701",
-          "author": "akasaramanaa",
-          "searchJob": "temple",
-          "text": "A Divine Morning at Guruvayur Hon’ble Deputy Chief Minister Sri @PawanKalyan Garu offered prayers at the sacred Guruvayur Sri Balakrishna Temple in Thrissur, Kerala, participating in the revered Nirmalya Darshan in the early hours of the mo"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098615692723445806",
-          "author": "thkolkata",
-          "searchJob": "temple",
-          "text": "West Bengal CM Suvendu Adhikari offers fish bhog at Kalighat temple amid controversy over vegetarianism during Durga Puja celebrations. ✍️ https://t.co/I0i5KdDnmR"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098612336630395311",
-          "author": "parksundal0528",
-          "searchJob": "temple",
-          "text": "Create a 28-second, 16:9 video with audio, looking like real footage casually recorded on a handheld smartphone. Generate the characters and setting entirely from the text below. Use the lowest available output resolution. CUSTOMIZE THESE S"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098608267601776886",
-          "author": "ians_india",
-          "searchJob": "temple",
-          "text": "Newtown, West Bengal: On CM Suvendu Adhikari eating fish at Kalighat Temple, Minister Dilip Ghosh says, \"...In many places, fish is offered as prasad in temples... There are different methods of worship, ways of life and personal preference"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098595937098907967",
-          "author": "hibikana417",
-          "searchJob": "temple",
-          "text": "Goshuin—Why Do the Japanese Find Such Romance in Them? When visiting shrines and temples in Japan, you will often see people cherishingly holding a special book known as a *goshuin-cho* (seal book). Inside, they collect *goshuin*—calligraph"
+          "postId": "2098600524429844823",
+          "author": "jucofootballace",
+          "searchJob": "louisiana-tech",
+          "text": "TyDarion Grier @TyGrier11 @ Itawamba JuCo @LetsGoICC picks up @LATechFB Offer #PhotoCred @msscoreboard @Coach_Lovertich @LetsGoICC_FB @jucoweekly @MSJUCOREPORT https://t.co/Qc9KCADih9"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098617621801205928",
-          "author": "owengregorian",
-          "searchJob": "illinois",
-          "text": "Trump DOJ Forces Six States to End In-State Tuition for Illegal Migrants While Suing 15 More States | Warner Todd Huston, Breitbart One of the more successful initiatives coming down from the Trump administration has been the effort to put "
+          "postId": "2098612680806265333",
+          "author": "auntiesam_2",
+          "searchJob": "arkansas",
+          "text": "Thats because after decades of our annual rivalry game, when Mizzou left the Big 12 in 2012, Kansas refused an offer to keep the rivalry going. For 13 years, we played zero games until a new agreement was reached and we played our first gam"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098603711480144238",
+          "author": "wild_hog13",
+          "searchJob": "arkansas",
+          "text": "@JolliestUte Arkansas didn’t offer"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098618860660257154",
+          "author": "kyusho_alliance",
+          "searchJob": "michigan",
+          "text": "What are the Gun Defense Laws? Learn the Facts about Gun Crime and Defense from former Detroit Michigan Police Offer Kara Borshuk. Follow this link to learn more now. #kyusho #pressurepoints #kyushojitsu #freekyusho https://t.co/2WDPVzPX6v"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098614756332409183",
-          "author": "fravel_ryan",
-          "searchJob": "illinois",
-          "text": "BREAKING: ELITE Class Of 2029 4⭐ S Tank Winters III will visit Notre Dame this weekend for the game against Rice! This will be his second trip to South Bend, his last coming in June. He currently holds 7 FBS offers from the likes of Penn St"
+          "postId": "2098618635048698037",
+          "author": "victorsducky",
+          "searchJob": "michigan",
+          "text": "@intrinsicvalyou @Metaleka_ @NDFootball @OleMissFB @oregonfootball Michigan offers over 300-400 players a year you fucking casual 🤣 that don’t mean they recruit all of them dumbass"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098615297074975113",
-          "author": "csbnewsus",
-          "searchJob": "washington",
-          "text": "Providing Saudi Arabia with intelligence and targeting assistance while holding off on direct military strikes against the Houthis reflects a cautious strategic approach. 🇺🇸🇸🇦 Protecting Red Sea shipping and freedom of navigation remain"
+          "postId": "2098605660250272047",
+          "author": "gl8bal_sports",
+          "searchJob": "michigan",
+          "text": "Isaiah Miller 360 no look falling away so good needed to be reviewed. Won the Division 1 state chip (Michigan) Famously offered a scholarship @ 13 yrs old making him the youngest player in the state of Michigan's history to receive a major "
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098606760928202992",
-          "author": "sahel2212",
-          "searchJob": "washington",
-          "text": "Washington Links Chinese Satellite Imagery to the Jordan Strike That Killed Three U.S. Troops The Wall Street Journal U.S. officials have linked high-resolution satellite imagery obtained by Iran from Chinese entities to the July 17 missile"
+          "reason": "author_not_recruit:different sport",
+          "postId": "2098608631025475669",
+          "author": "romanmaurizio28",
+          "searchJob": "minnesota",
+          "text": "#AGTG After a great camp this summer and an awesome conversation yesterday with @Callybrian, I am excited to say I have earned an offer from The University of Minnesota! #RTB Special thanks to @CoachLimegrover! I hope to be on campus for a "
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098604688841007167",
-          "author": "capribellasimo",
-          "searchJob": "washington",
-          "text": "25 years ago today Saudis murdered 3000 Americans and now Saudi Crown Prince asked Trump for help with Houthis MBS asked Trump for help against the Houthis. Saudi Crown Prince Mohammed bin Salman called Trump at least twice Thursday as Iran"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098603033424695429",
-          "author": "alternative_war",
-          "searchJob": "washington",
-          "text": "WAR OR CHEAP GAS At the BRICS summit in New Delhi, Putin walked past the Kremlin press pool and took one shouted question — from Kommersant's Andrei Kolesnikov, who asked what he made of the AfD's win in Saxony-Anhalt. Putin opened by sayin"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098602000124436881",
-          "author": "onekindesign",
-          "searchJob": "washington",
-          "text": "This modern beach house offers a tranquil refuge on Washington’s Hood Canal https://t.co/vrLqBAL9Mw https://t.co/aLxgWNcvWE"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098602224113033270",
-          "author": "jhurebelde",
-          "searchJob": "texas-tech",
-          "text": "A sneak peek at a corporate color analysis event in Austin. I offer one-on-one and group sessions for teams in design, tech, marketing, law, finance, and education. Let’s discover your team’s colors next—it’s more fun than happy hour! https"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098600687454015574",
-          "author": "alsultan_meriam",
-          "searchJob": "texas-tech",
-          "text": "I’ve spent 10 years working at tech companies in Silicon Valley 5 of those had been with Apple Here’s what you need to know before upgrading your iPhone: 1. Make sure you know your Apple ID email and password, and you have a valid iCloud ba"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098598279374102737",
-          "author": "hinsonan",
-          "searchJob": "texas-tech",
-          "text": "@Samaytwt It's always been this broken. People dip out or they are only offered a manager path if they want to move up. Many people just don't want to keep up and learn new tech. I mean of I was 50 I don't know how well I would adapt to age"
+          "reason": "multiple_resolved_schools",
+          "postId": "2098618000836292668",
+          "author": "ashlanddog",
+          "searchJob": "missouri",
+          "text": "...Unleashed 9.11.26... ...No Jesus, No peace...Know Jesus, Know Peace... “Thou therefore endure hardness as a good soldier of Jesus Christ.” 2 Timothy 2:3 ...Thru the Bible with Dr. J. Vernon McGee Exodus 12:1-13... Get ready to see Christ"
         }
       ]
     },
@@ -295,11 +209,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 16,
+      "rejectedCandidates": 9,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-12T03:42:45.827Z"
+    "status rebuilt locally from current store on 2026-09-12T03:57:52.871Z"
   ]
 }
