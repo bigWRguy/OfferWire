@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T11:57:57.045Z",
+  "generatedAt": "2026-09-12T12:12:57.645Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-12T11:57:56.809Z",
+    "at": "2026-09-12T12:12:57.373Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0280113888888889,
-    "p95Hours": 1.5253775,
-    "worstHours": 1.7769175
+    "medianHours": 0.5272077777777778,
+    "p95Hours": 1.527001111111111,
+    "worstHours": 1.7755441666666667
   },
   "decisionCoverage": {
-    "total": 15,
-    "decided": 15,
+    "total": 22,
+    "decided": 22,
     "complete": true
   },
   "pending": {
@@ -55,140 +55,195 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-12T11:57:56.809Z",
-      "got": 20,
-      "new": 15,
+      "at": "2026-09-12T12:12:57.373Z",
+      "got": 38,
+      "new": 22,
       "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-12T11:56:20.453Z",
+    "at": "2026-09-12T12:11:24.179Z",
     "mode": "live",
     "collection": {
-      "returned": 20,
-      "kept": 15,
-      "duplicate": 5,
-      "tooOld": 0,
+      "returned": 38,
+      "kept": 22,
+      "duplicate": 12,
+      "tooOld": 4,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 12,
-      "rejected": 3,
+      "accepted": 16,
+      "rejected": 6,
       "reasons": {
-        "hard_negative": 1,
-        "no_fbs_school": 1,
-        "no_offer_term": 1
+        "no_fbs_school": 4,
+        "no_offer_term": 2
       },
       "samples": [
         {
-          "reason": "hard_negative",
-          "postId": "2098739589745611034",
-          "author": "sixstreetpie",
-          "searchJob": "michigan",
-          "text": "He flipped because of money and money only . Yeah he \"stayed home\" bc he plays for a school in the state he's from butnhe flipped solely because of money. We had him.committed for about 2 years then like 3 days before signing day , BOOM .. "
+          "reason": "no_fbs_school",
+          "postId": "2098741532387844272",
+          "author": "libertymatter77",
+          "searchJob": "liberty",
+          "text": "@kevinnbass I have no idea what an individual's true motives are. If a medical integrity group offers to pay you to speak at their event and you accept, is your medical integrity message because that's what they paid you to say? Or is your "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098734067478855829",
-          "author": "christefer81002",
-          "searchJob": "michigan",
-          "text": "3. Sixth Amendment Right to Counsel Once the right to counsel has been clearly asserted with respect to further interactions, government agents may not initiate or continue contacts designed to elicit information or create pressure outside "
+          "postId": "2098736005696098424",
+          "author": "mikeliberation",
+          "searchJob": "liberty",
+          "text": "How do you choose the title of your book or article? Writing a quality book or article will not bring sales or clicks if your title is poor. Your title should make people stop and click on your book or article. A good title offers a solutio"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098728343566713174",
+          "author": "libertycourier",
+          "searchJob": "liberty",
+          "text": "@Cheri_Angel1 Principles govern. People without principles will only offer fleeting support or promises. When you put a price on transactions and follow through on your word with consequences, you honor yourself and your value and create a "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098743427693412808",
+          "author": "oklahomaaca",
+          "searchJob": "oklahoma",
+          "text": "We do not have to face life's challenges relying only on our own abilities, because He offers protection, courage, and help in every circumstance. When the world feels uncertain, we can find security in His faithful presence. #OKLAed #VOTD "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098720835577975189",
-          "author": "melissasworkout",
-          "searchJob": "minnesota",
-          "text": "https://t.co/SX0AyJFnIa"
+          "postId": "2098745945903034435",
+          "author": "k4_daproblem",
+          "searchJob": "ole-miss",
+          "text": "🏈 GAMEDAY! 🔴🔵 Blessed to receive the invite from Ole Miss! Thank you for the opportunity to experience Game Day in Oxford. 🙏🏾 The journey continues. 🦈🏈 @OleMissFB @OleMissSports #HottyToddy #OleMiss #GameDay #K4 #ClassOf2029 #Recruit"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098731561281819014",
+          "author": "hotbets365",
+          "searchJob": "ole-miss",
+          "text": "https://t.co/efMpz3vAv2"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 11,
+      "accepted": 0,
+      "rejected": 16,
       "reasons": {
-        "school_not_resolved_confidently": 2,
         "bare_mention_requires_llm": 8,
-        "reporter_missing_player_name": 1
+        "multiple_resolved_schools": 4,
+        "school_not_resolved_confidently": 4
       },
       "samples": [
         {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098742014443696183",
+          "author": "the_live_time",
+          "searchJob": "liberty",
+          "text": "Don't worry if SBI Visa Platinum Debit Card offers not showing for you. Use AXIS LIBERTY Debit Card during weekend to get 5% no-nonsense cashback. https://t.co/ERTcj4MUmT"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098739259796541729",
+          "author": "m_christianity",
+          "searchJob": "liberty",
+          "text": "5/5 Classical Christendom’s Arc Across The First 1600 Years of Can-Do-Otherwise Free Will Mechanisms Per Historical & Demographic Data vis-à-vis Determinism & Synergy & 92% of all Christians who have ever lived on planet Earth and the Histo"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098737926246932482",
+          "author": "m_christianity",
+          "searchJob": "liberty",
+          "text": "Classical Christendom’s Arc Across The First 1600 Years of Can-Do-Otherwise Free Will Mechanisms Per Historical & Demographic Data vis-à-vis Determinism & Synergy & 92% of all Christians who have ever lived on planet Earth and the Historica"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098724966732530138",
+          "author": "azadehpatriot",
+          "searchJob": "liberty",
+          "text": "His Highness @PahlaviReza : \"Twenty-five years ago, in the days after 9/11, Iranians filled Tehran's squares with candles for the American dead, watched by the same security forces that still oppress them today. While global news networks w"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098717655003697178",
+          "author": "brexit_refugee",
+          "searchJob": "liberty",
+          "text": "@goat_crumbdog69 @reggiebblue The Christian way would be to offer a legal &amp; safe route for poor immigrants wanting to work as basic labourers &amp; stay to look after their kids. It’s what the USA originally did after all &amp; why the "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098744269108363755",
+          "author": "jbissman",
+          "searchJob": "ohio",
+          "text": "5654 Wilmington Road, Oregonia, Ohio 45054 – 21+ Acres, Horse Property, Barn, Pond, Homestead Potential & Stunning Views Pro Tip: Unmute to listen to audio. Welcome to one of the most breathtaking horse and country estate opportunities in W"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098737991682285673",
+          "author": "themeanqueen091",
+          "searchJob": "ohio",
+          "text": "@WLWT You mean what didn't happen. Acton and her campaign lied because they have nothing to offer Ohio."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098731268561310123",
+          "author": "ninosangani",
+          "searchJob": "rice",
+          "text": "Sunderland vs Arsenal. My preferred line up and a few basic notes. #AFC One of the toughest grounds to go to. The fans are always up for it Sunderland will be set up in a compact mid block in an attempt to completely close down central spac"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098740245881593974",
+          "author": "0xzlato",
+          "searchJob": "nebraska",
+          "text": "Warren Buffett paid more than $55 million for control of a furniture company without an audit. The contract was one page. Six years later, its 95-year-old founder walked out and opened a rival business across the street. Her name was Rose B"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098743709110018243",
+          "author": "davevan67925316",
+          "searchJob": "oklahoma",
+          "text": "@JackPosobiec The best Oklahoma has to offer???? SAD"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098742655169515689",
+          "author": "cyr1acus",
+          "searchJob": "virginia",
+          "text": "Sudan literally offered bin laden Clinton. Sudan. In early 1996, while Osama bin Laden was living in Sudan, Sudanese officials offered to arrest him and hand him over—most clearly to Saudi Arabia, and according to some accounts also to the "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098744921524261282",
+          "author": "michelcita1",
+          "searchJob": "charlotte",
+          "text": "North Charleston, SC to Charlotte, NC Hair Loss Braiding Tour, August 14–15. Don’t let hair loss define you—I offer multiple solutions to support women experiencing hair loss. https://t.co/3QLMzWETJC"
+        },
+        {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098716169117299021",
-          "author": "mahavirpeshi",
-          "searchJob": "tulane",
-          "text": "Malaysia does need a COMPLETE NO NONSENSE APPROACH TO CORRUPTION, UMNO/BERSATU isnt going to offer that, PAS do seem to want to fight it at some length and since green wave is still a thing until it isnt, ALL THE BEST TO PAS PM CANDIDATE"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098740426794504605",
-          "author": "sarahoppsq",
-          "searchJob": "wyoming",
-          "text": "The CLARITY Act structures the market, but won't shield private wealth from liabilities. True sovereignty requires a Wyoming LLC. It legally decouples your identity from blockchain activity and offers elite creditor protection. Position you"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098741849523441697",
-          "author": "6ft6hog",
-          "searchJob": "arkansas",
-          "text": "@On3 Coach Drink is going to be the voice of reason. Great coach wish Arkansas would have offered him an opportunity first."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098726310759592037",
-          "author": "islandsmagazine",
-          "searchJob": "iowa",
-          "text": "Think Iowa is a mere flyover state? Think again! The conveniently located Humboldt offers visitors culture and outdoor recreation. https://t.co/1w6kTwhe82"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098731857709805705",
-          "author": "curtisfirstly",
-          "searchJob": "minnesota",
-          "text": "@MorosKostas Minnesota RINO would be worse than useless and cave on every vote and issue. At least Paxton might offer some hope of ROI."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098742080386257400",
-          "author": "arhogs1994",
-          "searchJob": "houston",
-          "text": "@JolliestUte He wasn’t offered. It was a big controversy, but yall flipped him from UCF."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098739284903682535",
-          "author": "houmuza",
-          "searchJob": "houston",
-          "text": "@Jawachawa @CrimeWatchZW @saintfloewmusic @delroyshewe Saka why did he go to the UK if it didn’t offer any benefit?"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098723419323789330",
-          "author": "revolt2020fu",
-          "searchJob": "utah",
-          "text": "@LessWillMorWill @Stevez9bqk @ConservativeG99 Patel offered service to Utah and once those services were complete there was no need for them to be involved. A far leftist lgbtq killed Charlie. FBI would make it a federal case with the possi"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098733315620544712",
-          "author": "theplumberwny",
-          "searchJob": "buffalo",
-          "text": "🍂 RELAX, WNY — WE’VE GOT YOU COVERED THIS WEEKEND! 🔧🔥 Your weekend should be spent enjoying your home — not worrying about plumbing, drains or your heating system. Whether you’re dealing with a slow drain, sewer problem, leaking plumbing"
+          "postId": "2098745602897064263",
+          "author": "srskip8",
+          "searchJob": "coastal-carolina",
+          "text": "The river does not look dangerous. It moves quietly over the stones, carrying the sounds of the forest with it. But for one animal standing at the edge of the water, this moment is a test written by nature itself. A small figure moves throu"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098725431411130494",
-          "author": "lucky_m_x",
-          "searchJob": "buffalo",
-          "text": "⚡️ #Litecoin (LTC) Market & Ecosystem Update: September 12, 2026 ⚡️ LTC is flashing strong bullish signals, trading firmly around ~$53.27. Showing impressive resilience, Litecoin outpaced the broader crypto market with a solid double-digit "
+          "postId": "2098741811485274322",
+          "author": "paradoxicalhif",
+          "searchJob": "coastal-carolina",
+          "text": "From the tranquillity of the savannah to the calm of coastal retreats, Kenya offers natural spaces that nourish both body and mind. This Saturday, CS @rebecca_miano encourages travellers to embrace nature and discover a different kind of ge"
         },
         {
-          "reason": "reporter_missing_player_name",
-          "postId": "2098717538355994806",
-          "author": "jeffcrabtr81",
-          "searchJob": "buffalo",
-          "text": "Hit Buffalo Trace yesterday for the BT uncut/unfiltered tasting offered by Sazerac on their page. We sampled Buffalo Trace SFTB outta three different rickhouses. Great time. https://t.co/kFC3b62k37"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098737432204136693",
+          "author": "paradoxicalhif",
+          "searchJob": "coastal-carolina",
+          "text": "Let this Saturday be about slowing down and enjoying the healing power of nature. From our wildlife conservancies to serene coastal spaces, Magical Kenya offers the perfect setting to reset and recharge. CS @rebecca_miano, welcome to your W"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098722806330515776",
+          "author": "aciidbraiin",
+          "searchJob": "coastal-carolina",
+          "text": "2/5🌊 ROMANTICISM: THE SUBLIME Skying Constable’s most radical journeys sometimes required little more than looking upward. Around Hampstead, he watched clouds change and tried to paint them before they became something else. The practice a"
         }
       ]
     },
@@ -202,12 +257,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 11,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 16,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-12T11:57:57.046Z"
+    "status rebuilt locally from current store on 2026-09-12T12:12:57.645Z"
   ]
 }
