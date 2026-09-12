@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T03:28:02.475Z",
+  "generatedAt": "2026-09-12T03:42:45.826Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-12T03:28:02.212Z",
+    "at": "2026-09-12T03:42:45.664Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7745252777777778,
-    "p95Hours": 1.275088611111111,
-    "worstHours": 1.5288444444444445
+    "medianHours": 0.7721444444444444,
+    "p95Hours": 1.272995,
+    "worstHours": 1.5204638888888888
   },
   "decisionCoverage": {
-    "total": 34,
-    "decided": 34,
+    "total": 27,
+    "decided": 27,
     "complete": true
   },
   "pending": {
@@ -55,284 +55,232 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-12T03:28:02.212Z",
-      "got": 53,
-      "new": 34,
-      "lag": 0.11
+      "at": "2026-09-12T03:42:45.663Z",
+      "got": 42,
+      "new": 27,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-12T03:26:25.608Z",
+    "at": "2026-09-12T03:41:18.844Z",
     "mode": "live",
     "collection": {
-      "returned": 53,
-      "kept": 34,
-      "duplicate": 19,
+      "returned": 42,
+      "kept": 27,
+      "duplicate": 15,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 15,
-      "rejected": 19,
+      "accepted": 16,
+      "rejected": 11,
       "reasons": {
-        "non_fbs_offer_target": 2,
-        "no_fbs_school": 12,
-        "no_offer_term": 4,
+        "no_offer_term": 7,
+        "non_fbs_offer_target": 1,
+        "no_fbs_school": 2,
         "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2098607561251455468",
-          "author": "taron_smith2",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my FIRST offer from Concord University @ConcordFootball @KHOWCU #GODSPLAN🙏🏾 @RaynellKillian @AthleticsTca @DuvalSports @DbCoachJulian @OPhenoms @NFHSFBBLITZ @RecruitingBh @TopPreps @PrepRedzoneFL https://t.co/YODJHWrAL8"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2098603525051645975",
-          "author": "corbinw26",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great team win over Monroe County and conversation with @coachWadeUCU I am blessed to receive my 2nd offer from Union College! @coachjohnmyers @CoachChadEaton @mason__perkins @BCHSTrojanFB https://t.co/KpfQyd6AG6"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098603245459415041",
-          "author": "antoinecaughman",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from @SaintLouisMBB 🙏🏾 https://t.co/pxxOsXFwEm"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098602851333239127",
-          "author": "2getsloose",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I am blessed to receive a offer from cnu!! @JRT_Football @romgabsan @coachpcrowley https://t.co/OF7ibkGjLQ"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098601134600368567",
-          "author": "makenna431",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After an amazing visit, I am excited and blessed to receive an offer from @AshlandWBB ! Thank you to @KPickens323 and @coachkotas for this amazing opportunity! https://t.co/9Prswwds8E"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098601091092934704",
-          "author": "walldari1",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @T_Wilson11 Blessed To Receive My 4th offer from @olivetnazarene @AjaniAli2 @TheD_Zone @detroitnews @coachjoshal10 @PatrickSharpeFB @Coach_Dgilber https://t.co/IR7p4ZmkZL"
-        },
-        {
           "reason": "no_offer_term",
-          "postId": "2098596993467900231",
-          "author": "theearthsoul1",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Not everyone is blessed to receive these divine darshans of Maa Nookambika 🌺 https://t.co/HBZcGTC47J"
+          "postId": "2098603346844115306",
+          "author": "bazoostudios",
+          "searchJob": "temple",
+          "text": "https://t.co/vZLW6NSMes"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098607643845968226",
+          "author": "prepredzonenm",
+          "searchJob": "class:2027",
+          "text": "2027 La Cueva QB offered by D2 Concord University in Athens, WV."
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098596634414235884",
-          "author": "meadorbraylen",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I am blessed to receive my 8th offer from @BartonBaseball! Thank you to Coach @jeffrey94444311 for this opportunity! @PrepBaseballVA @mayhewryan93 @N8P276 @LABProspectsBSB https://t.co/ujY5T2hD2C"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098604619182346315",
-          "author": "siennakatsis",
-          "searchJob": "phrase:\"blessed to have received\"",
-          "text": "After a great conversation with Coach Knolhoff I am blessed to have received an offer from SWIC. A great program where I feel could be a great fit for me. I look forward to getting to know more about SWIC. Thank you Coach Knolhoff. 💙 @SWIC"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098609684139635183",
-          "author": "wflastevea",
-          "searchJob": "north-carolina",
-          "text": "Oh my, North Carolina voters, what are you thinking? Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina - The Associated Press https://t.co/mkSvZRhj1l"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098605758799634852",
-          "author": "iammauricew",
-          "searchJob": "north-carolina",
-          "text": "Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina The GOP is the party of rapists, sex offenders, and apologists."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098603785635381524",
-          "author": "kcrg",
-          "searchJob": "north-carolina",
-          "text": "Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina https://t.co/MbylPnbO73"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098599263819194845",
-          "author": "bluewavedave20",
-          "searchJob": "north-carolina",
-          "text": "Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina | AP News https://t.co/hz81a6fk9O"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098595467072299087",
-          "author": "forwardarc",
-          "searchJob": "north-carolina",
-          "text": "Convicted sex offender offered opening prayer at rally for GOP Senate nominee in North Carolina - The Associated Press https://t.co/pEIZSSLhsR"
+          "postId": "2098554447471550518",
+          "author": "montymelen",
+          "searchJob": "class:2027",
+          "text": "#AGTG After a great conversation with @KHOWCU i am beyond blessed to have received my first offer from @ConcordFootball ! @PrepRedzoneNM @CouchPSports @LaCuevaFootball https://t.co/0uZFulZS43"
         },
         {
           "reason": "hard_negative",
-          "postId": "2098607403700740221",
-          "author": "fndrive",
-          "searchJob": "oklahoma-state",
-          "text": "Bolingbrook’s @52TjD1 ran for 111 yards and a score to help @FBraidernation pull off a 21-7 upset of unbeaten Oswego in “The Brook.” The Oklahoma State commit recaps the night and offers a mighty declaration: “We back.” https://t.co/vWFPPw2"
+          "postId": "2098611266692448308",
+          "author": "cade_draughon",
+          "searchJob": "alabama",
+          "text": "If you aren’t aware of 2029 Cy Falls WR Karzell Davis, let me introduce you. He already holds offers from Oregon, Miami, Alabama and many others. Tonight he had a kickoff return TD and multiple explosive plays on offense. Real player. @Karz"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2097848333347725777",
+          "author": "aagshumate",
+          "searchJob": "illinois",
+          "text": "No more in-state tuition for illegal aliens in Kansas. https://t.co/XNP2QHwSWt"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098614624136663545",
+          "author": "btcbettingtips",
+          "searchJob": "washington",
+          "text": "PICK OF THE DAY #1 Football — September 12, 2026 Club Brugge vs Antwerp Bet: Over 3.5 Market: Asian Total Odds: 2.03 https://t.co/b8Dwj8IP54 ─────────────────── PARLAY OF THE DAY #1 — 4 Legs NFL — September 12, 2026 1. Philadelphia Eagles v"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098614222884348221",
+          "author": "stakesportsbet",
+          "searchJob": "washington",
+          "text": "PICK OF THE DAY #1 Cricket — September 12, 2026 Afghanistan vs India Bet: Afghanistan Market: Winner (Incl. Super Over) Odds: 4.90 https://t.co/CwZG6s2Tyq ─────────────────── SAME GAME PARLAY #1 — 9 Legs Football — September 12, 2026 Levant"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098603403957957009",
-          "author": "pittsburgh1pete",
-          "searchJob": "pittsburgh",
-          "text": "Everybody that has deployed to a combat environment goes through struggles, some more than others. I have many of friends that struggle as well and do what I can to help. I like keeping my personal life personal on here and keep X as a plat"
+          "postId": "2098604770093150217",
+          "author": "mikejfc1",
+          "searchJob": "washington",
+          "text": "I have 3 extra tickets for Charli XCX’s concert on September 28 at Capital One Arena in Washington, DC. Letting them go for face value, but open to offers. DM me if interested! 🫶 WTS | WTB | ISO | WTT"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098608699745202520",
-          "author": "upscprelim",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/Y9kdfu1o7F"
+          "postId": "2098600534274183504",
+          "author": "timesnow",
+          "searchJob": "washington",
+          "text": "US holds off on direct Houthi strikes — for now. Washington will continue intelligence support to Saudi Arabia as Riyadh weighs military action against the Iran-backed Houthis, with Red Sea shipping at growing risk. https://t.co/SpTPZLEKO3"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098607591072907728",
-          "author": "news10nbc",
-          "searchJob": "army",
-          "text": "The 9/11 terror attacks inspired people from across the nation to enlist in the armed forces, including one pastor from Clifton Springs. https://t.co/O8OPaRSvLD"
+          "postId": "2098613516404191389",
+          "author": "techau",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/BAw6cXIfZp"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098604514853192052",
-          "author": "planetarybooks",
-          "searchJob": "army",
-          "text": "Everyone's talking about The Odyssey. The story doesn't start with the Trojan War. It starts three generations earlier, with a rigged chariot wheel and a supposed \"curse.\" The Chariot of Pisa. #GreekMythology #TheOdyssey #HouseofAtreus http"
+          "postId": "2098601069228036108",
+          "author": "angelicuniverse",
+          "searchJob": "texas-tech",
+          "text": "Dealing with AI Hacking. How can we protect, money, infrastructure, wealth and secrets from AI? Creation team: J.H Theart, xAI Grok and Mureka. https://t.co/T91t0Q4MlX"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 15,
+      "rejected": 16,
       "reasons": {
-        "author_not_recruit:no recruit fields": 2,
-        "bare_mention_requires_llm": 7,
+        "bare_mention_requires_llm": 11,
         "multiple_resolved_schools": 2,
-        "author_not_recruit:different sport": 1,
-        "school_not_resolved_confidently": 2,
-        "reporter_missing_player_name": 1
+        "school_not_resolved_confidently": 3
       },
       "samples": [
         {
-          "reason": "author_not_recruit:no recruit fields",
-          "postId": "2098597790867763355",
-          "author": "westonscambler",
-          "searchJob": "appalachian-state",
-          "text": "2028 HB Jamar “Liljay” Lewis out of King College Prep (IL) has received an offer from App State!"
-        },
-        {
-          "reason": "author_not_recruit:no recruit fields",
-          "postId": "2098597549653270960",
-          "author": "westonscambler",
-          "searchJob": "appalachian-state",
-          "text": "2028 F Cameron Moore out of Greenfield School (NC) has received an offer from App State!"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098604267825209427",
+          "author": "mikejfc1",
+          "searchJob": "fresno-state",
+          "text": "I have 3 extra tickets for Fuerza Regida’s concert on October 28 at Save Mart Center in Fresno, CA. Letting them go for face value, but open to offers. DM me if interested! 🫶 WTS | WTB | ISO | WTT"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098612866689740954",
-          "author": "lindaol63170806",
-          "searchJob": "marshall",
-          "text": "@AFLcomau GEELONG NEEDS A RUCKMAN WHY HAVE THEY STUFFED AROUND FOR YEARS WITHOUT A GOOD STRONG RUCKMAN THEY SHOULD HAVE MADE A BETTER OFFER FOR ROWAN MARSHALL LAST YEAR IT SEEMS THEY ARE HAPPY TO WIN ONE FINAL EVERY YEAR BUT DONT GO FURTHER"
+          "postId": "2098615883627462701",
+          "author": "akasaramanaa",
+          "searchJob": "temple",
+          "text": "A Divine Morning at Guruvayur Hon’ble Deputy Chief Minister Sri @PawanKalyan Garu offered prayers at the sacred Guruvayur Sri Balakrishna Temple in Thrissur, Kerala, participating in the revered Nirmalya Darshan in the early hours of the mo"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098615692723445806",
+          "author": "thkolkata",
+          "searchJob": "temple",
+          "text": "West Bengal CM Suvendu Adhikari offers fish bhog at Kalighat temple amid controversy over vegetarianism during Durga Puja celebrations. ✍️ https://t.co/I0i5KdDnmR"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098612336630395311",
+          "author": "parksundal0528",
+          "searchJob": "temple",
+          "text": "Create a 28-second, 16:9 video with audio, looking like real footage casually recorded on a handheld smartphone. Generate the characters and setting entirely from the text below. Use the lowest available output resolution. CUSTOMIZE THESE S"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098608267601776886",
+          "author": "ians_india",
+          "searchJob": "temple",
+          "text": "Newtown, West Bengal: On CM Suvendu Adhikari eating fish at Kalighat Temple, Minister Dilip Ghosh says, \"...In many places, fish is offered as prasad in temples... There are different methods of worship, ways of life and personal preference"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098595937098907967",
+          "author": "hibikana417",
+          "searchJob": "temple",
+          "text": "Goshuin—Why Do the Japanese Find Such Romance in Them? When visiting shrines and temples in Japan, you will often see people cherishingly holding a special book known as a *goshuin-cho* (seal book). Inside, they collect *goshuin*—calligraph"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098596565036212669",
-          "author": "stompsmud",
-          "searchJob": "vanderbilt",
-          "text": "@realpopchrissy @Anc_Aesthetics University of Memphis is a shithole school, his intellect was way above what is offered there at Vandy. He's back in Nashville running his own tech company. And he's a conservative libertarian."
-        },
-        {
-          "reason": "author_not_recruit:different sport",
-          "postId": "2098612799878357496",
-          "author": "caleb_smith11",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After an amazing talk with Coach Hood and Coach Waterman, I am blessed to receive an offer from the University of Central Florida ! 🙏🏽❤️ https://t.co/HULl8d7o9I"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098598573889757556",
-          "author": "thedomainduke",
-          "searchJob": "duke",
-          "text": "https://t.co/eLoyZJPDjl — go anywhere, in another body. 🌍🤖 A brandable .com for the future of robotic telepresence, remote embodiment, global work, travel, dating, and real-world presence through humanoid avatars. Offered at $34,888. #Tel"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098609660500516888",
-          "author": "tenn_rich",
-          "searchJob": "arkansas-state",
-          "text": "Why are you surprised? Every decency, every moral boundary has bern systematically destroyed by these demons... are you still 'surprised' that a nation that sacrifices millions of babies a year to Baal is defending one of their faithful kil"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098603687207923712",
-          "author": "william67922",
-          "searchJob": "arkansas-state",
-          "text": "@NewsTurko Bill Clinton: “The Palestinians were offered a state. They refused. A state wasn't their goal. Killing Jews was.\""
+          "postId": "2098617621801205928",
+          "author": "owengregorian",
+          "searchJob": "illinois",
+          "text": "Trump DOJ Forces Six States to End In-State Tuition for Illegal Migrants While Suing 15 More States | Warner Todd Huston, Breitbart One of the more successful initiatives coming down from the Trump administration has been the effort to put "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2098612291075772677",
-          "author": "ragnvindr_wife",
-          "searchJob": "army",
-          "text": "Real serious talk time. This will be a long post - but I am sickened and heart broken. If you are gate keeping 9/11 memorial posts. Please get of the internet, take a step back and re-evaluate your life and have some fucking compassion. Tod"
+          "postId": "2098614756332409183",
+          "author": "fravel_ryan",
+          "searchJob": "illinois",
+          "text": "BREAKING: ELITE Class Of 2029 4⭐ S Tank Winters III will visit Notre Dame this weekend for the game against Rice! This will be his second trip to South Bend, his last coming in June. He currently holds 7 FBS offers from the likes of Penn St"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098611065957335102",
-          "author": "rstreet1319",
-          "searchJob": "army",
-          "text": "I was AGR T-32. Got force fed to recruiting. There were 16 authorized 79T positions that could receive pro-pay as recruiters. I was the 17th recruiter. No pro-pay for me unless someone left recruiting or died. I put in my T-10 AGR packet to"
+          "postId": "2098615297074975113",
+          "author": "csbnewsus",
+          "searchJob": "washington",
+          "text": "Providing Saudi Arabia with intelligence and targeting assistance while holding off on direct military strikes against the Houthis reflects a cautious strategic approach. 🇺🇸🇸🇦 Protecting Red Sea shipping and freedom of navigation remain"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098604435777683584",
-          "author": "naut1lusvii",
-          "searchJob": "army",
-          "text": "@FahrettinAltay_ Turkish failed description fueld by jealousy. Axis attaked Greece spring of 1941 at thee frontiers simultaneously: Germans, Italians and Bulgarians.Heavily outgunned Greeks offered the first victory of the Allies with the m"
+          "postId": "2098606760928202992",
+          "author": "sahel2212",
+          "searchJob": "washington",
+          "text": "Washington Links Chinese Satellite Imagery to the Jordan Strike That Killed Three U.S. Troops The Wall Street Journal U.S. officials have linked high-resolution satellite imagery obtained by Iran from Chinese entities to the July 17 missile"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098597644558090579",
-          "author": "hariharan8925",
-          "searchJob": "army",
-          "text": "@GlampaXtra46746 @Gb__Talks Lets see whether pak army can take on Houthis atleast. Army with financial interest never will win, what if Houthis offer better deal, defenders will become offenders. Be careful of betrayal, world watching the t"
+          "postId": "2098604688841007167",
+          "author": "capribellasimo",
+          "searchJob": "washington",
+          "text": "25 years ago today Saudis murdered 3000 Americans and now Saudi Crown Prince asked Trump for help with Houthis MBS asked Trump for help against the Houthis. Saudi Crown Prince Mohammed bin Salman called Trump at least twice Thursday as Iran"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098596729478127644",
-          "author": "lkofenglish007",
-          "searchJob": "army",
-          "text": "@HormuzReport China responds by screaming Take My Money! Russia offer 8000 Army Divisions of Walking Undead and a police dog! 🐕 🐶 🐕 🐕 🐕"
+          "postId": "2098603033424695429",
+          "author": "alternative_war",
+          "searchJob": "washington",
+          "text": "WAR OR CHEAP GAS At the BRICS summit in New Delhi, Putin walked past the Kremlin press pool and took one shouted question — from Kommersant's Andrei Kolesnikov, who asked what he made of the AfD's win in Saxony-Anhalt. Putin opened by sayin"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098593823374905426",
-          "author": "saltysteno",
-          "searchJob": "army",
-          "text": "You’re a liar. I offered to send you the ORIGINAL of the Karen Read / Alan Jackson cuddle video and I still have our messages about it. You didn’t want it because you were a shill for the Pink Army. The same Pink Army you’re defending now t"
+          "postId": "2098602000124436881",
+          "author": "onekindesign",
+          "searchJob": "washington",
+          "text": "This modern beach house offers a tranquil refuge on Washington’s Hood Canal https://t.co/vrLqBAL9Mw https://t.co/aLxgWNcvWE"
         },
         {
-          "reason": "reporter_missing_player_name",
-          "postId": "2098593545070453143",
-          "author": "alayecodes",
-          "searchJob": "army",
-          "text": "Troops killed over 18 terrorist elements at a Borno meeting point, air strikes destroyed targeted structures. The 85 per cent success figure offered by the Army sounds impressive but mirrors past claims that rarely translated to enduring se"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098602224113033270",
+          "author": "jhurebelde",
+          "searchJob": "texas-tech",
+          "text": "A sneak peek at a corporate color analysis event in Austin. I offer one-on-one and group sessions for teams in design, tech, marketing, law, finance, and education. Let’s discover your team’s colors next—it’s more fun than happy hour! https"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098600687454015574",
+          "author": "alsultan_meriam",
+          "searchJob": "texas-tech",
+          "text": "I’ve spent 10 years working at tech companies in Silicon Valley 5 of those had been with Apple Here’s what you need to know before upgrading your iPhone: 1. Make sure you know your Apple ID email and password, and you have a valid iCloud ba"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098598279374102737",
+          "author": "hinsonan",
+          "searchJob": "texas-tech",
+          "text": "@Samaytwt It's always been this broken. People dip out or they are only offered a manager path if they want to move up. Many people just don't want to keep up and learn new tech. I mean of I was 50 I don't know how well I would adapt to age"
         }
       ]
     },
@@ -347,11 +295,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 15,
+      "rejectedCandidates": 16,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-12T03:28:02.476Z"
+    "status rebuilt locally from current store on 2026-09-12T03:42:45.827Z"
   ]
 }
