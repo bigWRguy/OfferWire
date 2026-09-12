@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T09:27:49.523Z",
+  "generatedAt": "2026-09-12T09:42:49.409Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-12T09:27:49.335Z",
+    "at": "2026-09-12T09:42:49.203Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7755636111111112,
-    "p95Hours": 1.526178888888889,
-    "worstHours": 1.526178888888889
+    "medianHours": 0.7725027777777778,
+    "p95Hours": 1.5258011111111112,
+    "worstHours": 1.5258011111111112
   },
   "decisionCoverage": {
-    "total": 10,
-    "decided": 10,
+    "total": 20,
+    "decided": 20,
     "complete": true
   },
   "pending": {
@@ -55,111 +55,179 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-12T09:27:49.335Z",
-      "got": 14,
-      "new": 10,
-      "lag": 0.23
+      "at": "2026-09-12T09:42:49.202Z",
+      "got": 21,
+      "new": 20,
+      "lag": 0.11
     }
   },
   "audit": {
-    "at": "2026-09-12T09:26:20.101Z",
+    "at": "2026-09-12T09:41:20.507Z",
     "mode": "live",
     "collection": {
-      "returned": 14,
-      "kept": 10,
-      "duplicate": 4,
+      "returned": 21,
+      "kept": 20,
+      "duplicate": 1,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 6,
+      "accepted": 16,
       "rejected": 4,
       "reasons": {
-        "hard_negative": 1,
-        "no_fbs_school": 3
+        "no_offer_term": 4
       },
       "samples": [
         {
-          "reason": "hard_negative",
-          "postId": "2098699287672520936",
-          "author": "sportswithtay",
-          "searchJob": "middle-tennessee",
-          "text": "🚨GAME REVIEW🚨 2027 5’10” 210 RB @JohnsonJayden7 had himself a GAME last night for @SHSJagsFootball against Griffin High School. He added 4 TDs, including the game-winning touchdown with just 10 seconds left! 🔥 Johnson is a Middle Tenness"
+          "reason": "no_offer_term",
+          "postId": "2098693025044308192",
+          "author": "resightventures",
+          "searchJob": "toledo",
+          "text": "https://t.co/cWq3UXKX8r"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2098700201502572817",
-          "author": "naomi_smit42414",
-          "searchJob": "georgia",
-          "text": "The world can offer another face. Another body. Another profile. Another option. But never another you... https://t.co/B3PfgrwHFJ"
+          "reason": "no_offer_term",
+          "postId": "2098693193219076447",
+          "author": "patriotvirtus",
+          "searchJob": "north-carolina",
+          "text": "The @GOP is literally the party of pedophiles. https://t.co/EPHub148wy"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2098700781910143320",
-          "author": "yourpremiertra1",
-          "searchJob": "texas",
-          "text": "Albania Tourism Board - Official - https://t.co/ZEeKWnXfIO #yourpremiertravels #travelphotography #wanderlust #exploremore #instatravel #traveladdict #vacationmode #adventuretime #traveldiaries #travelgoals #adventureawaits #exploretheworld"
+          "reason": "no_offer_term",
+          "postId": "2098649366567256479",
+          "author": "axhleighlouise",
+          "searchJob": "arkansas-state",
+          "text": "Seeing people call the Durk verdict “bullshit” and blame Black people for celebrating gang culture misses the point. Law enforcement cannot railroad someone into life in prison on a theory. Bring evidence. Prove guilt beyond reasonable doub"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2098686597504073989",
-          "author": "mmxgt500",
-          "searchJob": "california",
-          "text": "@Jerematic79 Driver Education wasn‘t just offered in California high school, it was mandatory."
+          "reason": "no_offer_term",
+          "postId": "2098686637987320110",
+          "author": "kristingraz83",
+          "searchJob": "army",
+          "text": "https://t.co/kPKsbFfOIC"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 6,
+      "rejected": 16,
       "reasons": {
-        "bare_mention_requires_llm": 2,
-        "multiple_resolved_schools": 1,
-        "school_not_resolved_confidently": 3
+        "school_not_resolved_confidently": 2,
+        "bare_mention_requires_llm": 14
       },
       "samples": [
         {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098698108993785897",
+          "author": "neelchhabra",
+          "searchJob": "toledo",
+          "text": "15. Science is a means to economics, and the order cannot be reversed. Printing a rocket is science. Producing rockets faster is economics, and it is the point. Great science that is not economic is research, and research is not a venture a"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098695923756859756",
+          "author": "timeless360_",
+          "searchJob": "troy",
+          "text": "Most retellings reduce the Sirens to beautiful voices that no sailor can resist. Homer gives us something more disturbing. When Odysseus' ship comes within hearing distance, the Sirens do not simply begin singing into the air. They address "
+        },
+        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098701653260263549",
+          "postId": "2098707290207490257",
+          "author": "denverpost",
+          "searchJob": "colorado",
+          "text": "Home opener offers mental test for CU Buffs against Weber State https://t.co/mOFWkNfy2W https://t.co/8QBlaJCymV"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098700396378386625",
           "author": "earthdesires",
-          "searchJob": "georgia",
-          "text": "Old Flame (Gambler's Folly Book 4) by Mellie Miller is a heartfelt second-chance paranormal shifter romance that blends emotional healing, mature love, and the magic of fate. Billionaire and bear shifter Kort Behrens has been lucky in busin"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098683031683043687",
-          "author": "nathanistic",
-          "searchJob": "california",
-          "text": "This UK Kitten May Be the First Recorded Cat With No Reproductive Organs Everyone should meet Beans, the little kitten who has quite literally gone and broken the whole binary. This special one was actually born without any sixual organs at"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098701672117637336",
-          "author": "valentinamirch4",
-          "searchJob": "miami",
-          "text": "DW exclusive: Zelenskyy offers to meet Putin at G20 in Miami In an interview with DW, Ukrainian President Volodymyr Zelenskyy said his country was in a strong position to negotiate and offered to meet Vladimir Putin in Miami. https://t.co/R"
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098700737077281265",
-          "author": "georgigotev",
-          "searchJob": "miami",
-          "text": "Zelenskyy offers to meet Putin at Miami G20 https://t.co/uE1RJtDBhg The statement comes after Washington already invited Russia back at ministerial level last month"
+          "postId": "2098696873511190543",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098694453850476936",
-          "author": "kurtmac",
-          "searchJob": "miami",
-          "text": "DW exclusive: Zelenskyy offers to meet Putin at G20 in Miami In an interview with DW, Ukrainian President Volodymyr Zelenskyy said his country was in a strong position to negotiate and offered to meet Vladimir Putin in Miami. https://t.co/C"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098694860069097857",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098700824918802824",
-          "author": "dailymattr_news",
-          "searchJob": "notre-dame",
-          "text": "A social media account claiming to belong to an Irish man named Aidan Joyce asked Grok about moving to India permanently. Grok said Indian citizenship could take at least 14 years and generally does not allow dual citizenship, adding that I"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098692343075623003",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098689071640170812",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098687561124467025",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098700614557368423",
+          "author": "azelius323",
+          "searchJob": "arkansas-state",
+          "text": "This is perfect. People have a right to think Durk knew or even encouraged the murder but the feds went ahead fabricated that he offered the shooters $1m The feds only had jurasdiction on this case the moment they added the bounty because a"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098697267309920417",
+          "author": "hgursen",
+          "searchJob": "arkansas-state",
+          "text": "@UNFCCC_CTCN @UNFCCCObservers Environmental Impact of the Pangea-G Platform and GURSEN-H EV System on Global Climate and Temperature Control Abstract As global climate change accelerates, innovative planetary-scale platforms are required to"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098695209685004579",
+          "author": "hgursen",
+          "searchJob": "arkansas-state",
+          "text": "Environmental Impact of the Pangea-G Platform and GURSEN-H EV System on Global Climate and Temperature Control Abstract As global climate change accelerates, innovative planetary-scale platforms are required to transition from mere mitigati"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098690130915598792",
+          "author": "hgursen",
+          "searchJob": "arkansas-state",
+          "text": "@OECD Environmental Impact of the Pangea-G Platform and GURSEN-H EV System on Global Climate and Temperature Control Abstract As global climate change accelerates, innovative planetary-scale platforms are required to transition from mere mi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098686500795789775",
+          "author": "hgursen",
+          "searchJob": "arkansas-state",
+          "text": "Environmental Impact of the Pangea-G Platform and GURSEN-H EV System on Global Climate and Temperature Control Abstract As global climate change accelerates, innovative planetary-scale platforms are required to transition from mere mitigati"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098702065572647319",
+          "author": "mutix259",
+          "searchJob": "army",
+          "text": "💜 BTS ARIRANG — MELBOURNE 🇦🇺 🎟️ 2x Soundcheck VIP tickets available 📍 Marvel Stadium, Docklands 📌 Sec 2 · Row G · Seats 8 &amp; 9 💰 $550 each 🔄 Secure Ticketmaster transfer 🧾 Purchase receipt/proof available Dm open to offers 🥹 #B"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098698353047375971",
+          "author": "mr_andrew_fox",
+          "searchJob": "army",
+          "text": "Today is Saragarhi Day. On 12 September 1897, just 21 Sikh soldiers of the 36th Sikhs, British Indian Army, under Havildar Ishar Singh, defended the isolated signalling post at Saragarhi on the North-West Frontier. Against them came an esti"
         }
       ]
     },
@@ -174,11 +242,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 6,
+      "rejectedCandidates": 16,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-12T09:27:49.523Z"
+    "status rebuilt locally from current store on 2026-09-12T09:42:49.410Z"
   ]
 }
