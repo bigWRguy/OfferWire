@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T07:28:05.424Z",
+  "generatedAt": "2026-09-12T07:43:03.330Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-12T07:28:05.197Z",
+    "at": "2026-09-12T07:43:03.140Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,9 +32,9 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.8976908333333333,
-    "p95Hours": 1.5276325,
-    "worstHours": 1.7760061111111112
+    "medianHours": 0.7769486111111111,
+    "p95Hours": 1.5183694444444444,
+    "worstHours": 1.7770508333333332
   },
   "decisionCoverage": {
     "total": 8,
@@ -55,19 +55,19 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-12T07:28:05.196Z",
-      "got": 11,
+      "at": "2026-09-12T07:43:03.140Z",
+      "got": 9,
       "new": 8,
-      "lag": 0.18
+      "lag": 0.33
     }
   },
   "audit": {
-    "at": "2026-09-12T07:26:30.393Z",
+    "at": "2026-09-12T07:41:35.520Z",
     "mode": "live",
     "collection": {
-      "returned": 11,
+      "returned": 9,
       "kept": 8,
-      "duplicate": 3,
+      "duplicate": 1,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
@@ -76,67 +76,75 @@
       "accepted": 5,
       "rejected": 3,
       "reasons": {
-        "no_offer_term": 3
+        "no_offer_term": 1,
+        "no_fbs_school": 2
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2098672245208178869",
-          "author": "stakesportsbet",
-          "searchJob": "class:2026",
-          "text": "PICK OF THE DAY #2 NFL — September 12, 2026 Jacksonville Jaguars vs Cleveland Browns Bet: Over 41.5 Market: Total (Incl. Overtime) Odds: 2.01 https://t.co/2oWneI5rrE ─────────────────── PARLAY OF THE DAY #2 — 12 Legs Football — September 12"
+          "postId": "2098673707699097903",
+          "author": "mkttalent2026",
+          "searchJob": "florida",
+          "text": "https://t.co/mymOeUe3z4"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2098664948809286113",
-          "author": "mettafuturist",
-          "searchJob": "class:2026",
-          "text": "The Future Is Recursive https://t.co/UGQzw8YRBv"
+          "reason": "no_fbs_school",
+          "postId": "2098672952816611720",
+          "author": "sdogiii",
+          "searchJob": "florida",
+          "text": "@MarioNawfal WOW--🇺🇲 DeSantis has offered ASYLUM in Florida to the holdout juror in the Lindsay Clancy murder case!!!"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2098659342731890997",
-          "author": "tranqingles",
-          "searchJob": "coastal-carolina",
-          "text": "Not many consider Africa, but Namibia reminds be a bit of the rural Western United States. https://t.co/zpysP4sgjT"
+          "reason": "no_fbs_school",
+          "postId": "2098669991662866671",
+          "author": "bluer00n",
+          "searchJob": "florida",
+          "text": "Reverse Ideology Governor Segregation offers Lone Black Juror asylum in Florida After the white leftists became maga fox news &amp; doxxed his troubled past @anncoulter @rationalmale @pearlythingz @magi_jay @actingliketommy @georebekah beca"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 4,
+      "accepted": 0,
+      "rejected": 5,
       "reasons": {
-        "bare_mention_requires_llm": 2,
-        "school_not_resolved_confidently": 2
+        "school_not_resolved_confidently": 4,
+        "bare_mention_requires_llm": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098667783462735980",
-          "author": "garychristou",
-          "searchJob": "washington-state",
-          "text": "This image shows Site 50 at the Mora Campground, a beautifully forested camping area located within the pristine coastal rainforest of Olympic National Park in Washington State. Tucked away under towering Douglas firs and moss-covered trees"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098667643800588634",
+          "author": "jillbugs41570",
+          "searchJob": "florida",
+          "text": "@luinalaska P.s. I used the corporate code words for MUST ADDRESS IMMEDIATELY. As gators take their sweet time with their prey, I offered the bitch up to Management. Complete with a side of corroborating mgmt witnesses."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098662660887716290",
-          "author": "smok33y3",
-          "searchJob": "oklahoma",
-          "text": "The numbers speak for themselves without commentary. Let me just put them side by side. Beirut — August 4, 2020. 2,750 tons of ammonium nitrate. One of the largest non-nuclear explosions in recorded history. The blast was equivalent to roug"
+          "postId": "2098659654263824490",
+          "author": "kat803724",
+          "searchJob": "florida",
+          "text": "@RonDeSantis Thank you Governor... you are a good man. As is this one juror. I hope he takes you up on your offer. Florida❤️ MUCH better than Taxachusetts!!🤮"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098671610970435941",
-          "author": "osinachieze_",
-          "searchJob": "coastal-carolina",
-          "text": "100MB for Nigerian students? Anyone who uses data knows that's useless. This is what the so called “master strategist” has to offer🙄 -Fuel subsidy removal without any plan to cushion it's effects on the economy. -Coastal road while the exi"
+          "postId": "2098660581506949469",
+          "author": "berachaministry",
+          "searchJob": "wake-forest",
+          "text": "🕎 PARASHAT ROSH HASHANAH / YOM TERUAH 🕎 FEAST OF TRUMPETS: AWAKE, REMEMBER, RETURN “In the seventh month, on the first day of the month, you shall have a Sabbath-rest, a memorial of blowing of trumpets, a holy convocation.” Leviticus 23:2"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098651831828107317",
-          "author": "ebukhosinigroup",
-          "searchJob": "coastal-carolina",
-          "text": "The home comfortably accommodate 6 guests in 3 bedrooms &amp; 3 bathrooms.The Lonian offers self-catering accommodation situated in the sought-after Cola Beach, Sedgefield,Western Cape,an area well known for its coastal surroundings. From Z"
+          "postId": "2098657785454243952",
+          "author": "eagleglock88",
+          "searchJob": "wake-forest",
+          "text": "@LarryJones God you’re all so stupid. “I know he offered money before and we didn’t get it.” 😂😂😂 This time will be different though!! Only the dumbest of the dumb haven’t “switched sides” yet. You last lingering idiots are never gonna wa"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098654097495007606",
+          "author": "celticlegend7",
+          "searchJob": "wake-forest",
+          "text": "James Talarico putting children in a position where they will be adversely effected for the rest of their lives because the Democratic Platform says they must! Sellout! James Talarico what a sham of a human being! Totally supportive of the "
         }
       ]
     },
@@ -150,12 +158,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 4,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 5,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-12T07:28:05.425Z"
+    "status rebuilt locally from current store on 2026-09-12T07:43:03.331Z"
   ]
 }
