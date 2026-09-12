@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T05:43:03.962Z",
+  "generatedAt": "2026-09-12T05:58:00.050Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-12T05:43:03.766Z",
+    "at": "2026-09-12T05:57:59.826Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7762266666666666,
-    "p95Hours": 1.2783644444444444,
-    "worstHours": 1.5262986111111112
+    "medianHours": 0.7764138888888888,
+    "p95Hours": 1.2711313888888889,
+    "worstHours": 1.5272777777777777
   },
   "decisionCoverage": {
-    "total": 12,
-    "decided": 12,
+    "total": 11,
+    "decided": 11,
     "complete": true
   },
   "pending": {
@@ -55,124 +55,118 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-12T05:43:03.766Z",
-      "got": 16,
-      "new": 12,
-      "lag": 0.16
+      "at": "2026-09-12T05:57:59.825Z",
+      "got": 18,
+      "new": 11,
+      "lag": 0.29
     }
   },
   "audit": {
-    "at": "2026-09-12T05:41:31.787Z",
+    "at": "2026-09-12T05:56:25.925Z",
     "mode": "live",
     "collection": {
-      "returned": 16,
-      "kept": 12,
-      "duplicate": 4,
+      "returned": 18,
+      "kept": 11,
+      "duplicate": 7,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 7,
-      "rejected": 5,
+      "accepted": 8,
+      "rejected": 3,
       "reasons": {
-        "no_fbs_school": 3,
-        "hard_negative": 2
+        "hard_negative": 1,
+        "no_fbs_school": 1,
+        "no_offer_term": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2098622676973572165",
-          "author": "fknsayer",
-          "searchJob": "massachusetts",
-          "text": "@JackPosobiec @VishBurra Use your resources to find this juror, offer legal protection through URIP Rule 2, 3 &amp; 8 legal motions in Massachusetts, curate the messaging and play this angle to its absolute maximum. If you don’t, you have n"
-        },
-        {
           "reason": "hard_negative",
-          "postId": "2098643504314634288",
-          "author": "salvado01175515",
-          "searchJob": "nebraska",
-          "text": "This information is available to the entire 🌎 👇 Adam Dean Hoffman was charged under § 21.02. The allegation covered about three years. The McLennan County District Attorney recused. The Texas Attorney General’s office then prosecuted. A 2"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2098633845700690215",
-          "author": "ellisjahho371",
-          "searchJob": "ole-miss",
-          "text": "@CNN You know damn well they got some crackhead off the street, how much you want to bet this dude please not guilty until the end and less they already offered him an ultimatum that's going to involve the safety of his family, this is Miss"
+          "postId": "2098646136630218911",
+          "author": "lehmanlaw",
+          "searchJob": "toledo",
+          "text": "Since the world is playing games why not finally call them out? Read below and given the current state of the world, the overwhelming likelihood that the next US president will be far less support of Israel, put this on the table and lets s"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2098645482361000000",
-          "author": "terrance_j98663",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG Blessed to receive an offer from @uoregon @CoachReed_ @BrokenArrowFTBL @THillBAFootball https://t.co/dhiGtCcRre"
+          "postId": "2098637731874128350",
+          "author": "recruitzonehq",
+          "searchJob": "florida",
+          "text": "🚨 OFFER WIRE 🚨 Chase LeBaron (@cLeBaron2028) 2028 | Niceville (FL) | 6’2 CG ➜ Florida Memorial (@FMU_MBB)"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2098630271574892890",
-          "author": "kentbrocklin",
-          "searchJob": "kent-state",
-          "text": "@LeftoverNews @AzPetrich I don’t love Republicans much. But you people to the left are some of the worst our planet has to offer. Get ready for another Republican POTUS in 2028."
+          "reason": "no_offer_term",
+          "postId": "2098636010317832514",
+          "author": "cue8baal",
+          "searchJob": "florida",
+          "text": "DeSantis: ‘Florida will provide asylum’ to holdout juror in Lindsay Clancy case https://t.co/B44zGhOj4p"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 8,
       "reasons": {
-        "bare_mention_requires_llm": 5,
-        "school_not_resolved_confidently": 2
+        "school_not_resolved_confidently": 5,
+        "bare_mention_requires_llm": 3
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098638556126155190",
-          "author": "u8itb4me1",
-          "searchJob": "massachusetts",
-          "text": "@lamps_apple DeSantis said Florida would offer him protection if he's being targeted in Massachusetts."
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098630182450110806",
+          "author": "itnthub",
+          "searchJob": "toledo",
+          "text": "iTNT Hub hosted a Masterclass on “From Rockets to Data Centres: The Power of AI-Enabled Simulation” on 9 September 2026 at the iTNT Trichy Regional Hub, Anna University Trichy. Led by Mr. Anand Pitchaikani, Managing Director, Modelon Engine"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098635663482540473",
-          "author": "storiesbyjemay",
-          "searchJob": "massachusetts",
-          "text": "You are correct that I don't follow Massachusetts courts. I'm merely one of many internet readers who are appalled at the treatment of the honestly dissenting juror. And beyond that, I'm inclined to think our (collective) judicial systems a"
+          "postId": "2098639068141924475",
+          "author": "kushallodha548",
+          "searchJob": "troy",
+          "text": "His name is Sahil Kapoor (@SahilKapoor). He is the Head of Products and Market Strategist at DSP Mutual Fund. (@dspmf) He has been actively involved in the stock market since 2006. Over nearly two decades, he has worked across research and "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098628287719420291",
-          "author": "tcf_updates",
-          "searchJob": "massachusetts",
-          "text": "🚨 DESANTIS OFFERS SAFE HAVEN TO EMBATTLED LINDSAY CLANCY HOLDOUT JUROR TALLAHASSEE, UNITED STATES - The governor’s offer of asylum turns a local jury controversy into a national political moment, giving him an opportunity to frame himself "
+          "postId": "2098647899814965753",
+          "author": "1929home",
+          "searchJob": "florida",
+          "text": "Now Florida has to offer asylum for a man to follow his conscience in a court of law. 👇🏻The Left &amp; its sycophantic Media allies are trying to put the last nail in the coffin of America's judicial system. They will destroy US if we don"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098634651288100931",
-          "author": "ellisjahho371",
-          "searchJob": "ole-miss",
-          "text": "@CNN Yeah okay, but we're talking about Mississippi, you're not going to convince any Black person and quite a few White people that this is the actual suspect, we know how they work, he's already been offered an ultimatum, as I said you're"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2098633141267141046",
-          "author": "balletbeautiful",
-          "searchJob": "charlotte",
-          "text": "25 years later. On 9/11/2001 I was a young ballerina with @nycballet on the third leg of an incredible international tour. We had arrived in Parma, Italy and hadn't even begun our performances when the Towers were hit. No one had cell phone"
+          "postId": "2098633983487856715",
+          "author": "bigpeternorth",
+          "searchJob": "rutgers",
+          "text": "@Kellen_baller @academicprowess He wanted us to match the offer he got from Rutgers"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098626486060114374",
-          "author": "mohamedbadria1",
-          "searchJob": "coastal-carolina",
-          "text": "🌊 A PRIVILEGED BEACHFRONT POSITION BAB AL QASR BEACH RESORT RESIDENCE 77 An Exclusive Coastal Address in the Heart of Al Reem Island 🏝️ Set on one of the limited beachfront plots of Al Reem Island, Residence 77 offers something increasing"
+          "postId": "2098644796512350334",
+          "author": "justanobody_007",
+          "searchJob": "wake-forest",
+          "text": "@Tazorius @KingOffX_ @MrsErikaKirk Its bigger than ever from the 110 million dollar influx of money that Charlie denied. That is what was offered to him to buy the influence and he denied, and he was killed for it. Wake uppp. Its a bigger h"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098646201205706980",
-          "author": "eddie_snail",
-          "searchJob": "kent-state",
-          "text": "No-one should under-estimate the bravery, dedication, and value of our RNLI lifeboat crews. They do fantastic work. Here they are caught in a trap which is not of their making, but the result of government policy. Illegal people traffickers"
+          "postId": "2098637993774928234",
+          "author": "dissonantlogic",
+          "searchJob": "wake-forest",
+          "text": "you can spend your entire life becoming good, honest, useful, and kind, and still wake beneath a sky that offers nothing in return. no balance is guaranteed. no hidden account records your sacrifices. the world can take the innocent beside "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098633515084521667",
+          "author": "sang_kipkemoi",
+          "searchJob": "wake-forest",
+          "text": "@ArkofDavId8935 @ApostleArome LIE! LIE! My Father Apostle Arome Osayi does not offer PAID Tiers for prophetic teachings. Believers wake up. The woman in ACTS 16:16-17 was trying to do this. Associating with genuine Men of GOD will not be en"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2098630036979159189",
+          "author": "0xriroyal",
+          "searchJob": "wake-forest",
+          "text": "@shoaib7929276 @sleepagotchi GM sleep apps often just offer a score at wake up but sleepagotchi envisions"
         }
       ]
     },
@@ -187,11 +181,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 7,
+      "rejectedCandidates": 8,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-12T05:43:03.962Z"
+    "status rebuilt locally from current store on 2026-09-12T05:58:00.051Z"
   ]
 }
