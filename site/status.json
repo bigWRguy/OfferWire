@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T19:57:50.233Z",
+  "generatedAt": "2026-09-12T20:18:22.191Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-12T19:57:50.026Z",
+    "at": "2026-09-12T20:18:21.857Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0169275,
-    "p95Hours": 1.7748338888888888,
-    "worstHours": 1.7748338888888888
+    "medianHours": 0.5980983333333333,
+    "p95Hours": 1.613641111111111,
+    "worstHours": 1.8695469444444444
   },
   "decisionCoverage": {
-    "total": 25,
-    "decided": 25,
+    "total": 68,
+    "decided": 68,
     "complete": true
   },
   "pending": {
@@ -55,216 +55,381 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-12T19:57:50.026Z",
-      "got": 42,
-      "new": 25,
-      "lag": 0.16
+      "at": "2026-09-12T20:18:21.856Z",
+      "got": 90,
+      "new": 68,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-09-12T19:56:17.991Z",
+    "at": "2026-09-12T20:16:42.052Z",
     "mode": "live",
     "collection": {
-      "returned": 42,
-      "kept": 25,
-      "duplicate": 17,
-      "tooOld": 0,
+      "returned": 90,
+      "kept": 68,
+      "duplicate": 21,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 16,
-      "rejected": 9,
+      "accepted": 44,
+      "rejected": 24,
       "reasons": {
-        "no_fbs_school": 5,
-        "no_offer_term": 4
+        "no_offer_term": 14,
+        "hard_negative": 2,
+        "no_fbs_school": 7,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2098845971325067767",
-          "author": "rondaiowa",
-          "searchJob": "iowa",
-          "text": "@MickeyDangerez @elonmusk A bunch of people offered. ❤️"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098846361332470205",
-          "author": "davidwalkerjr10",
-          "searchJob": "michigan",
-          "text": "@AbdulElSayed Race baiting is all the commie democrats have left to offer. Oh’ and widespread fraud."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098839307330924790",
-          "author": "wisconsinblaze",
-          "searchJob": "wisconsin",
-          "text": "Congrats to McKenna Freier on receiving an offer to Ripon College!! @McKennafreier @RCCoachLauren"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098854737558876397",
-          "author": "yayeezyy5",
-          "searchJob": "phrase:\"grateful to receive an offer\"",
-          "text": "After a great conversation with head coach Mcneill of Saint Francis University I’m blessed and very grateful to receive an offer to further my academic and athletic careers! #agtg #gowolves🙏🏽 https://t.co/B4eL23Auak"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2098854406896734504",
-          "author": "eltechgrup",
-          "searchJob": "texas-tech",
-          "text": "Isikupite Hii offer 🫵🏼🫵🏼"
+          "reason": "no_offer_term",
+          "postId": "2098864700494635368",
+          "author": "dirkbartz",
+          "searchJob": "arkansas-state",
+          "text": "10,000 agents walked into mathematics. Then the sandbox leaked and the cloud found a reactor. Silicon Drama Episode 20 is live ⬇️ Technology news, told as a power drama. #SiliconDrama #eTatos https://t.co/kGOeUlzBEp"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098737287538364703",
-          "author": "eltechgrup",
-          "searchJob": "texas-tech",
-          "text": "NAGAWA GOOGLE PIXEL 6a GOOGLE PIXEL 6a 128GB • ⁠Ram 6GB • ⁠Storage 128GB *BEI* 👉🏻💰350,000/= *MIKOANI TUNATUMA🚍* 📍Kariakoo Mtaa wa aggrey 📞0622460503 https://t.co/Ukg8AsJpMD"
+          "postId": "2098857782426456316",
+          "author": "alan_kelch73409",
+          "searchJob": "arkansas-state",
+          "text": "Democrat Promises in the Real Light https://t.co/nlz5uCRxRy"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098851232353816946",
-          "author": "ira_therabbit",
-          "searchJob": "texas-tech",
-          "text": "Interesting selection of tech ads from the ’80s and ’90s, inspired by the latest iPhone and Dyson releases https://t.co/KSlI1OBqZd"
+          "postId": "2098847455378894871",
+          "author": "robbystarbuck",
+          "searchJob": "arkansas-state",
+          "text": "Both @elonmusk and @sama of OpenAI just agreed publicly with @DarioAmodei that the pace of AI must slow for extreme safety reasons. A very rare time you’ll see all three of them publicly agree. All three are privy to things the rest of us a"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098563732104454380",
-          "author": "shiningscience",
-          "searchJob": "texas-tech",
-          "text": "What If Your Brain Never Actually Makes Decisions? 🧠 You feel like you make a decision every day. You choose what to eat, where to go, what to say, and when to act. It seems obvious that somewhere inside your brain, there must be a place w"
+          "postId": "2098756424197087381",
+          "author": "25yearsagolive",
+          "searchJob": "arkansas-state",
+          "text": "Mass celebrations break out in the West Bank and Gaza, and Palestinians cheer, dance, and distribute free sweets. Palestine is the only known place on earth to see overwhelming popular celebration of yesterday’s attacks, although Yasser Ara"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2098840095508058163",
-          "author": "adamcohen8",
-          "searchJob": "air-force",
-          "text": "https://t.co/ndrz35DiBq"
+          "postId": "2098828989905166502",
+          "author": "vividprowess",
+          "searchJob": "arkansas-state",
+          "text": "Bill Maher on the “genocide” lie in Gaza. There is NO genocide. This MUST go viral. https://t.co/bL63WKuagu"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098867215869087867",
+          "author": "nojabsdotnet",
+          "searchJob": "temple",
+          "text": "Mel Gibson Addresses The Rumors About The Next “Passion” Movie https://t.co/c4V0mIeWqH"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098866538031800353",
+          "author": "nojabsdotnet",
+          "searchJob": "temple",
+          "text": "### 🎬 Overview In this interview, legendary filmmaker Mel Gibson discusses the highly anticipated sequel to his landmark film, *The Passion of the Christ*. He addresses rumors surrounding the production, details his scriptural and historic"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098803832176177404",
+          "author": "cedarsandsaints",
+          "searchJob": "temple",
+          "text": "Pope Leo XIV has granted an entire Guadalupan Jubilee Year dedicated to Our Lady of Guadalupe. Beginning October 12, pilgrims to her Basilica in Mexico City will be able to receive a plenary indulgence under the usual conditions. The Jubile"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098856502371221877",
+          "author": "benjaminlong16",
+          "searchJob": "temple",
+          "text": "https://t.co/xo4rlAXORP"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098621541923594723",
+          "author": "zaydenh10",
+          "searchJob": "minnesota",
+          "text": "All glory to god https://t.co/x2IpDje0d6"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098841468853002717",
+          "author": "patasurfkat",
+          "searchJob": "minnesota",
+          "text": "So you are okay with manufactured homes while your voters want housing…..what a POS you are. 20 years in the Senate and this is all you have to offer. Go away Amy, Minnesota is DONE with you"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098832694322868305",
+          "author": "amyklobuchar",
+          "searchJob": "minnesota",
+          "text": "Manufactured homes are one of the most affordable paths to homeownership, but when hedge funds buy the land underneath those homes, they raise lot fees, sometimes multiple times a year. As Governor, I will pass the Manufactured Home Bill of"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098868388986495282",
+          "author": "kadenholt19",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @Coach_Stutz I’m proud to announce that I have received my third offer from @MysticsFB ! @Coach_Melendo @CoachWinfield https://t.co/yu0p1To7vz"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098868190910591213",
+          "author": "loganschubz05",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @CoachEwingFU I am blessed to have received my first offer from @FalconsFU. @sharp_spelite https://t.co/AO6NTelJ7i"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098866109105545694",
+          "author": "grantkaminski11",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @BrutonKendrick, I’m honored to receive my first division 1 offer from @DaytonFootball! @neohiohsfb @jmun011 @OhiosElite1 https://t.co/dpDc1hL7Oq"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2098863871683441041",
+          "author": "braxtonfiresto1",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @AustenJacobs I’m very blessed to receive a division I offer from The University of San Diego!! @USDFootball @CoachJMBryant @toddrodgers13 @CoachTKelly1 https://t.co/HST1QqyXFD"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2098857998181343712",
+          "author": "gavinharmon_5",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with Coach Casey and Coach Miles I am blessed to have received my first college basketball offer from @twuhoops God is good! https://t.co/QEAZwMd4m2"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098857816190488879",
+          "author": "marihall2010",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @Blake_Littman I am extremely blessed to receive an offer from @GovsFB @CentralLionsFB @TradariusGoff @jaxon_rose8 @BuckFitz @NCEC_Recruiting @jhrevious @ShaqDiesel_70 https://t.co/PiKPFRzhIr"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098857736087720064",
+          "author": "jaredstilltwo",
+          "searchJob": "houston",
+          "text": "@ChrisNTrevino True story: we were his first D1 offer and OV when I was at Houston Baptist/Christian"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098789160009998734",
+          "author": "untoldwarfacts",
+          "searchJob": "army",
+          "text": "They refused to bathe. They refused to salute. They poached deer from an English lord's estate and used their washing water ration to cook it. The night before D-Day they shaved mohawks and painted their faces like warriors. Then they jumpe"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098741389865455889",
+          "author": "wwg1wga_qq",
+          "searchJob": "army",
+          "text": "🚨 CANADA JUST CROSSED A RED LINE Canada has officially opened a new EXPRESS ENTRY pathway for FOREIGN MILITARY RECRUITS to join the CANADIAN ARMED FORCES. Yes, you read that right. The government says it’s about protecting Canada’s soverei"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098856411153482178",
+          "author": "loverockmusic",
+          "searchJob": "army",
+          "text": "https://t.co/FCcvhZicOY"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2098853943832932657",
+          "author": "thomasterjourno",
+          "searchJob": "army",
+          "text": "Trump just said a united Ireland “may as well happen now.” No sitting US president had gone that far. And the viral claim that JFK promised Ireland the same thing in 1963? The archives say otherwise. The myth, the weapons, the record ↓ http"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2098858949319524686",
+          "author": "cardmedia_bsu",
+          "searchJob": "ball-state",
+          "text": "Ball State Family Bingo was a Family Weekend 2026 event held from 9:00 am to 11:00 am on the University Green. Family Bingo offered free stickers, donuts, as well as more food and drink. Attendees who won bingo had two tables of prizes they"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 16,
+      "rejected": 44,
       "reasons": {
-        "school_not_resolved_confidently": 14,
-        "multiple_resolved_schools": 1,
-        "bare_mention_requires_llm": 1
+        "bare_mention_requires_llm": 34,
+        "school_not_resolved_confidently": 2,
+        "multiple_resolved_schools": 4,
+        "reporter_missing_player_name": 3,
+        "player_display_name_unusable": 1
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098855768770392131",
-          "author": "areios1",
-          "searchJob": "san-diego-state",
-          "text": "@Falcon_Malteser @gusdoyle @darwintojesus Aztecs considered being sacrificed to their gods an honor actually and many would offer themselves up to be \"butchered\" and think it a privilege if they were accepted ,but you would know that if you"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2098859170069991648",
-          "author": "johnubacon",
-          "searchJob": "michigan",
-          "text": "Here it is: Michigan couldn't get the game-ending first down, so punted to OU which takes over on its own 15. 1:06 left in 4QT, no timeouts left for Oklahoma. If offered this scenario at game time, don't think there would be a UM fan who wo"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098868333764301277",
+          "author": "bratnvet",
+          "searchJob": "arkansas-state",
+          "text": "Sen Ted Cruz was booed at an Austin College game over these abreviated provisions in Legislation he supports to protect College Student Athletes? I'm not sure what specifically they oppose. Snippit, link follows: \"The PCSA itself is 230 pag"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2098861247139660121",
-          "author": "threetechpod",
-          "searchJob": "texas-tech",
-          "text": "That Texas A&amp;M defense is ELITE 💎🔒 Mitch offers instant thoughts to a crazy game in College Station #Aggies | #Gigem https://t.co/4nTkUE3Gg6"
+          "postId": "2098865955984339184",
+          "author": "jdb_howe",
+          "searchJob": "arkansas-state",
+          "text": "@GMasterYoda_ @standev9 @FeserEdward Pope Gregory XVI in \"Officium\" taught that it was wrong to offer rites or a Catholic burial to those who died outside the Church, regardless of an unknown deathbed conversion. Pope Martin V taught simila"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098849897239675003",
+          "author": "exodusbecause",
+          "searchJob": "arkansas-state",
+          "text": "Oxford’s caption doesn’t take a clear position, so this response is directed at James Maynard’s argument in the video. Maynard identifies one legitimate concern—an opaque answer may not automatically produce human understanding—but wraps it"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098849419902763418",
+          "author": "lloyddurwin",
+          "searchJob": "arkansas-state",
+          "text": "Here is what AI says to do about this existential threat! 🚨🚨 READ THIS🚨🚨 ⤵️ https://t.co/qNWXzC8LTE Three men who do not share a church just said the same sentence: the frontier is moving faster than the human ability to stay the master"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098849261345505786",
+          "author": "ubernaffa",
+          "searchJob": "arkansas-state",
+          "text": "@tomhfh No they weren't. Just because Bill Clinton described it as a state does not make it so. All you need to do is share the map of what they were offered - which I am sure you have definitely seen and studied, to ensure you understood w"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098846928817795268",
+          "author": "tomhfh",
+          "searchJob": "arkansas-state",
+          "text": "They were literally offered a state less than one year prior to this. Clinton presented his final \"bridging proposals\" (The Clinton Parameters) to both sides in December 2000. Palestine would retain 92% of the West Bank, and all of Gaza. Is"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098838534459150829",
+          "author": "ew_1954",
+          "searchJob": "arkansas-state",
+          "text": "“The Palestinians were offered a state. They refused. A state wasn't their goal. Killing Jews was.\" ~ Bill Clinton"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098868199261622330",
+          "author": "prophet_logic17",
+          "searchJob": "marshall",
+          "text": "The team option of 24mil was always just the target in negotiations. You start high then you meet in the middle. He is certainly worth what Quentin Grimes is getting paid or Naji Marshall. Hawks never made an offer. The real truth it was ju"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098845347653230934",
+          "author": "amlandauction",
+          "searchJob": "marshall",
+          "text": "152.29± acres in Merrick County that will be offered at absolute live auction this November! The Frauen Family property features a combination of gravity irrigated cropland and pasture and will be offered in 4 tracts. 🔗 View Details: https"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098859667221016706",
-          "author": "sarkarstix",
-          "searchJob": "texas-tech",
-          "text": "What the F, Apple! I bought the iPhone Pro Max 256GB just a few months ago, and Apple is offering me a pathetic ₹67,000 for the buyback. And here’s the kicker: Cashify is offering a staggering ₹40,000 more for the exact same phone. Apple ha"
+          "postId": "2098850809115230298",
+          "author": "thatcryptolad_",
+          "searchJob": "south-florida",
+          "text": "🌙 BTC EVENING WRAP ₿ BTC: $77,146.74 📈 Trend: BEARISH 📊 RSI: 43.41 (NEUTRAL) 🎯 OVERNIGHT LEVELS 🟢 Bulls need: $79,157.09 🔴 Bears need: $76,554.99 📋 CURRENT BIAS 🟡 WAIT 👀 Watch above $79,157.09 for LONG 👀 Watch below $76,554.99 for"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2098859231890039183",
-          "author": "termsheetinator",
-          "searchJob": "texas-tech",
-          "text": "I get how starting small \"feels\" safer - get some reps, make mistakes on smaller accounts, build confidence, then go up more. only thing id keep in mind is small deal doesnt always mean easier engagement - if anything, its harder. small ret"
+          "postId": "2098845547008335960",
+          "author": "jasonburgosmma",
+          "searchJob": "south-florida",
+          "text": "With the relationship between the #Pistons and Jalen Duren at a low point, I look at 5 trades they might accept before camp opens. Including offers from the #Mavericks and #Bulls. #JalenDuren #DetroitPistons https://t.co/Yx2vXea61Q"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098858320031297936",
-          "author": "agilejebrim",
-          "searchJob": "texas-tech",
-          "text": "They actually do less work and require far less training and skill with my approach to achieve the real-time guarantees. It only appears as more work if you’re starting from the perspective of reusing existing tech stacks and content, but n"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098867635291070605",
+          "author": "sasquatchh4269",
+          "searchJob": "temple",
+          "text": "The priests wore sacred clothes to approach the dwelling place of God's presence on earth. Post-Christ, all who believe ARE the dwelling place of God's Spirit. We are all priests, and Christ our High Priest. The temple veil was torn, openin"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098858165588963821",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098865178251280661",
+          "author": "cholan_nova",
+          "searchJob": "temple",
+          "text": "@Aabhas24 @RichMiyaa And not to forget India being land of Hindu piligrimages. There was too much piligrim tax on offer despite their temple destruction mayhem."
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098856937618071655",
-          "author": "corealestateclg",
-          "searchJob": "texas-tech",
-          "text": "Denver offers diverse industries like tech &amp; finance, plus mountain access for skiing/hiking within 1.5-2 hrs. Boulder specializes in tech startups &amp; biotech, with trailheads minutes away. #DenverJobs #BoulderTech #RemoteWork https:"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098864714562289795",
+          "author": "big_sgt_d",
+          "searchJob": "temple",
+          "text": "🛑 Only those who are not saved think this is Christianity. Here's the message of Guadalupe in it's entirety. ❗️ No Jesus ❗️ No gospel ❗️Demands a temple for glorification ⚠️ This sounds more like the mother goddess that was worshipped ther"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098854241095799059",
-          "author": "ladybirdmv",
-          "searchJob": "texas-tech",
-          "text": "@Ask_Spectrum Un fucking believable. I JUST left a spectrum office and they OFFERED to reduce our bill by 1/2. Got home and all channels gone. Now on hold for 40 min. No feature to call me back? Shitty tech co"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098853612558721491",
+          "author": "plubius1",
+          "searchJob": "temple",
+          "text": "The traditional story of Juan Diego and Our Lady of Guadalupe is the account preserved in the Nican Mopohua (“Here it is told”), the classic Nahuatl narrative of the events of December 1531 on Tepeyac Hill, just outside what is now Mexico C"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098853194898244069",
-          "author": "ultralinx",
-          "searchJob": "texas-tech",
-          "text": "If Meta keep Muse free, supported with ads, they could take a huge chunk of the general consumer market. None of my non-tech friends want to pay for an AI subscription. We’ve seen time and time again, the average user is willing to give the"
+          "reason": "multiple_resolved_schools",
+          "postId": "2098849661154996367",
+          "author": "saucecastillo38",
+          "searchJob": "temple",
+          "text": "@JPNittany17 Not really. I know plenty of people that turned down PSU for Temple. Depends on what field especially. Also brother he was literally offered by PSU and he went 8-0 against you guys in his four years"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098852723231993907",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098848193777926447",
+          "author": "ians_india",
+          "searchJob": "temple",
+          "text": "Tirunelveli, Tamil Nadu: The traditional Urial (pot-breaking) ceremony was held with religious fervour at the Mala Nambi Temple in Tirukkurungudi, popularly known as “Chinna Tirupati,” on the last Saturday of the Tamil month of Avani. Speci"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098852472312012987",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098851491545047386",
+          "author": "john_f_kjrq",
+          "searchJob": "minnesota",
+          "text": "🚨 HOLY CRAP! It's been revealed that Minnesota AG Keith Ellison MET with Somalis and fraudsters and got offered CAMPAIGN contributions, \"that he later accepted\" 🤯 It's not only Tim Walz. It's the entire Democrat leadership of Minnesota! h"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098851718452928898",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2098843146507395522",
+          "author": "casualminnesota",
+          "searchJob": "minnesota",
+          "text": "#Gophers just offered ‘the younger brother of @1_zackkkk."
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098849507018682746",
-          "author": "alemacleo",
-          "searchJob": "texas-tech",
-          "text": "Dear members of the American press! Steve Jobs once said, \"If you can convince the press of your technology, and the press convinces us, we'll pay attention.\" That's why I'm reaching out to you. For years, the development of personal device"
+          "reason": "multiple_resolved_schools",
+          "postId": "2098855210697265645",
+          "author": "dengenfades",
+          "searchJob": "missouri",
+          "text": "On the topic of phycology 📝 Yesterday Missouri hung around +money for a lot of the game they end up winning also covering, today they offer Oklahoma at +money for most of the game while “coming back” and even when tied I seen them +money t"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098847463688053198",
-          "author": "maideorleans",
-          "searchJob": "texas-tech",
-          "text": "In the Critique of Pure Reason, Kant offers three postulates of pure practical reason, which must be accepted on faith as they cannot be proven: existence of God, freewill and the immortality of the soul. Given satanic tech, we must also po"
+          "reason": "reporter_missing_player_name",
+          "postId": "2098845407270834260",
+          "author": "bobby_schneid",
+          "searchJob": "nebraska",
+          "text": "Nebraska offers 2028 Maplewood (Minn.) Hill-Murray TE Brady Reeves."
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2098847282611282324",
-          "author": "yourmagicbooks",
-          "searchJob": "texas-tech",
-          "text": "📜 HOOK & AUTHENTIC QUOTE \"We are suffocating among people, yet we remain as lonely as in a desert.\" — Friedrich Nietzsche We live in the most hyper-connected era in human history. Billions of glowing screens bridge continents in millisecon"
+          "reason": "player_display_name_unusable",
+          "postId": "2098842357105938516",
+          "author": "brady_reeves18",
+          "searchJob": "nebraska",
+          "text": "Thank you @HuskerFootball for coming to Hill-Murray yesterday to watch us play. I am extremely excited to receive an offer from the University of Nebraska!! @Coach_Satt @CoachBrown_DL @RyanBurnsMN @AllenTrieu @PrepRedzoneMN @247recruiting @"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2098843716425322883",
+          "author": "timverghese",
+          "searchJob": "nebraska",
+          "text": "Nebraska offers 2028 Maplewood (Minn.) Hill-Murray TE Brady Reeves"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2098867647743996047",
+          "author": "eversotweetly4u",
+          "searchJob": "northwestern",
+          "text": "You know them well I'm sure but I'll offer the CliffsNotes version. Let's start with her first grift pretending to be the dumbest American who never heard of Prince Harry or a requisite curtsy to the Queen of England? That's a slander again"
         }
       ]
     },
@@ -279,11 +444,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 16,
+      "rejectedCandidates": 44,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-12T19:57:50.233Z"
+    "status rebuilt locally from current store on 2026-09-12T20:18:22.192Z"
   ]
 }
